@@ -1,0 +1,17 @@
+有大佬知道怎么把第一个卡上的点点点改成横线吗？
+<p>正面模板加上以下代码：</p><div class="highlight"><pre><code class="language-js"><span></span><span class="o">&lt;</span><span class="nx">script</span> <span class="nx">type</span><span class="o">=</span><span class="s2">"text/javascript"</span><span class="o">&gt;</span>
+    <span class="p">[].</span><span class="nx">forEach</span><span class="p">.</span><span class="nx">call</span><span class="p">(</span><span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="s1">'.cloze'</span><span class="p">),</span>
+       <span class="kd">function</span><span class="p">(</span><span class="nx">V0</span><span class="p">)</span> <span class="p">{</span>
+          <span class="nx">V0</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">V0</span><span class="p">.</span><span class="nx">innerHTML</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/\[...]/g</span><span class="p">,</span><span class="s2">"　　"</span><span class="p">);</span>
+ <span class="p">});</span>
+<span class="o">&lt;</span><span class="err">/script&gt;</span>
+</code></pre></div><p>格式刷里加上以下代码：</p><div class="highlight"><pre><code class="language-css"><span></span><span class="p">.</span><span class="nc">cloze</span> <span class="p">{</span>
+	<span class="k">color</span><span class="p">:</span> <span class="mh">#ec6c4f</span><span class="p">;</span>
+	<span class="err">#</span><span class="k">font-weight</span><span class="p">:</span> <span class="kc">bold</span><span class="p">;</span>
+	<span class="k">border-bottom</span><span class="p">:</span> <span class="mi">1</span><span class="kt">px</span> <span class="kc">solid</span> <span class="mh">#ec6c4f</span><span class="p">;</span>
+	<span class="k">padding-bottom</span><span class="p">:</span> <span class="mi">5</span><span class="kt">px</span><span class="p">;</span>
+	<span class="kp">-webkit-</span><span class="k">animation</span><span class="p">:</span> <span class="n">cloze</span> <span class="mf">0.4</span><span class="kt">s</span> <span class="mi">0</span><span class="kt">s</span><span class="p">;</span>
+	<span class="kp">-webkit-</span><span class="k">animation-fill-mode</span><span class="p">:</span> <span class="kc">forwards</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div><p></p>
+1578190250
