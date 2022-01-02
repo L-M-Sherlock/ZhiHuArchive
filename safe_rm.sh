@@ -4,3 +4,4 @@ rm -rf pin
 rm -rf article
 rm index.csv
 rm index.html
+rm ~/zhihubackup/record
