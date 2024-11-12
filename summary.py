@@ -96,7 +96,7 @@ html_content = (
 for article in articles:
     html_content += f"""
         <div class="item">
-            <a href="./html/{article['file_stem']}.html">{article['title']}</a>
+            <a href="./{article['file_stem']}.html">{article['title']}</a>
             <span class="votes">({article['voteup_count']} votes)</span>
             <span class="created_time">({datetime.fromtimestamp(article['created']).strftime('%Y-%m-%d')})</span>
         </div>
@@ -118,7 +118,7 @@ for answer in answers:
     )
     html_content += f"""
         <div class="item">
-            <a href="./html/{answer['file_stem']}.html">{question_title}</a>
+            <a href="./{answer['file_stem']}.html">{question_title}</a>
             <span class="votes">({answer['voteup_count']} votes)</span>
             <span class="created_time">({datetime.fromtimestamp(answer['created_time']).strftime('%Y-%m-%d')})</span>
         </div>
@@ -131,5 +131,5 @@ html_content += """
 """
 
 # Write the HTML file
-with open("index.html", "w", encoding="utf-8") as f:
+with open("./html/index.html", "w", encoding="utf-8") as f:
     f.write(html_content)
