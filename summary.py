@@ -14,12 +14,15 @@ for file in Path("article").glob("*.json"):
 answers = []
 for file in Path("answer").glob("*.json"):
     with open(file, "r") as f:
-        data = json.load(f)
-        data["file_stem"] = file.stem
-        if "error" in data:
-            print(data["error"], file.stem)
-            continue
-        answers.append(data)
+        try:
+            data = json.load(f) 
+            data["file_stem"] = file.stem
+            if "error" in data:
+                print(data["error"], file.stem)
+                continue
+            answers.append(data)
+        except json.JSONDecodeError:
+            print(file.stem, "is not a valid json file")
 
 # Sort by voteup_count
 articles.sort(key=lambda x: x["voteup_count"], reverse=True)
