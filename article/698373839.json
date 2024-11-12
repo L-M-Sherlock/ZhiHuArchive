@@ -1,0 +1,74 @@
+{
+  "status": 0,
+  "updated": 1716012567,
+  "author": {
+    "is_followed": false,
+    "badge": [],
+    "name": "叶峻峣",
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "avatar_url": "https://picx.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+  },
+  "can_tip": false,
+  "excerpt": "在可探索的解释 中，互动图表和嵌入的小型沙盒模拟可能有助于作者传达观点，但它们很…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 698373839,
+  "voteup_count": 7,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1715939425,
+  "url": "https://api.zhihu.com/articles/698373839",
+  "comment_permission": "all",
+  "title": "大多数为交流设计的动态表示形式并不具备很强的赋能作用",
+  "content": "<p data-pid=\"oMbgi7py\">在<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zRXEyTA5YxgqiBP3UE3C6si\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">可探索的解释</a>中，互动图表和嵌入的小型沙盒模拟可能有助于作者传达观点，但它们很少能作为读者独立思考的工具。这些元素的主要目的是帮助读者更有效地理解作者的意图。</p><p data-pid=\"wZs_ZBi_\">作者常常口头上提倡开放式探索和问题解决。一个常见的说法是在文章结尾给读者一个沙盒。然而，这很少能带来有趣的结果。因为这些环境主要是为了帮助作者传达观点，而不是作为一个通用的工具来帮助读者（或作者）在该领域思考问题。（参见<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2huUCj3ko99HdzFcmEDfZD\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">强大的赋能环境通常是追求自身内在意义的项目的副产品</a><sup data-text=\"强大的赋能环境通常是追求自身内在意义的项目的副产品\" data-url=\"https://zhuanlan.zhihu.com/p/558196133\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>和<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4wZFERkVVVVy6bN6BE8kQz\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">创制环境极大程度受作者的动机塑造</a><sup data-text=\"创制环境极大程度受作者的动机塑造\" data-url=\"https://zhuanlan.zhihu.com/p/463811042\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>）</p><p data-pid=\"XnNWW2jJ\">我认为这就是为什么尽管已经有很多<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zRXEyTA5YxgqiBP3UE3C6si\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">可探索的解释</a>和类似媒体，但它们并没有真正为读者创建一个<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z492hGrHvRvJiEY9UfB4Mby\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">赋能环境</a><sup data-text=\"赋能环境\" data-url=\"https://zhuanlan.zhihu.com/p/458337989\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。这些内容很吸引人，通常比普通文章更<b>有趣</b>，动态元素也常常让人更容易理解作者的观点，但读完文章后，读者并没有把这个动态环境装在口袋里带走。</p><p data-pid=\"u-rDBV9Q\">像 <a href=\"https://link.zhihu.com/?target=https%3A//phet.colorado.edu/en/simulations/category/new\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">PhET’s</a>  这样的「小程序」（Applets）似乎能解决这个问题，但它们陷入了一个更深的困境：要么太浅显，无法进行深入思考；要么太复杂，没有叙述就无法传达任何信息。（参见<a href=\"https://link.zhihu.com/?target=https%3A//medium.com/khan-academy-early-product-development/narrated-explorables-three-mental-models-e16e0d80e4c1\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">叙述式可探索内容：三种心智模型</a>了解更多相关内容）</p><h2>具体例子</h2><p data-pid=\"5cxF6pB-\">《地球：入门》（Earth: A Primer）在很多方面都很出色，但也有它的问题。它的地质模拟设计得既有趣又便于交流，但并不是为了研究地质问题。所以，虽然好玩，但仅此而已。</p><p data-pid=\"kSlVhxn2\">Mathematica 笔记本和其他<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zLNcy2JiH3AGNaZjYkHzK9P\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">可执行的书</a>则走了不同的路。这些环境主要是为了研究复杂问题而设计的，交流只是次要目的。这一点很明显！</p><p data-pid=\"CwcUUJ_8\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zMjVwTZCK3vJmfxqexQVYYQ\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Cantor</a> 是另一个反例。这些数字方块的设计思路是「沙盒优先」，旨在促进对数量的开放式探索。所以，当它们作为互动图形嵌入到文章中时，需要添加额外的功能（比如记录互动、语音解说等），才能用于交流。</p><hr/><h2>参考文献</h2><p data-pid=\"3s0Buhy5\">关于这个话题的连环推：<a href=\"https://link.zhihu.com/?target=https%3A//twitter.com/andy_matuschak/status/1305264246331039744\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">twitter.com/andy_matusc</span><span class=\"invisible\">hak/status/1305264246331039744</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"lS3d0Vez\">Farrar, S., Khoe, M.-L., &amp; Matuschak, A. (2017, August 31). Numbers at play: Dynamic toys make the invisible visible. Retrieved December 31, 2019, from <a href=\"https://link.zhihu.com/?target=https%3A//early.khanacademy.org/cantor/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">early.khanacademy.org/c</span><span class=\"invisible\">antor/</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"4Gb-VnJy\">Gingold, C. (2015). <i>Earth: A Primer</i>. Retrieved from <a href=\"https://link.zhihu.com/?target=https%3A//www.earthprimer.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">https://www.earthprimer.com</a></p><p data-pid=\"h2TdfGQv\">Matuschak, A. (2018, October 27). Narrated explorables: Three mental models. Retrieved December 31, 2019, from <a href=\"https://link.zhihu.com/?target=https%3A//medium.com/khan-academy-early-product-development/narrated-explorables-three-mental-models-e16e0d80e4c1\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">medium.com/khan-academy</span><span class=\"invisible\">-early-product-development/narrated-explorables-three-mental-models-e16e0d80e4c1</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"HhfWhonL\">与 Michael Nielsen 的对话，2019-11-05</p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"ZdzV07fg\"><a href=\"https://zhuanlan.zhihu.com/p/698476935\" class=\"internal\">§赋能环境、游戏和《启蒙琼林》</a></li><li data-pid=\"y44dsmRY\"><a href=\"https://zhuanlan.zhihu.com/p/638575951\" class=\"internal\">强大的赋能环境注重专业用例</a></li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"J3OxF5wO\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zU6upTVz687icnQegpMhLY8\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Most dynamic representations developed for communication aren’t very enabling (andymatuschak.org)</a></blockquote>",
+  "column": {
+    "updated": 1656897956,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "叶峻峣",
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "avatar_url": "https://pica.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    },
+    "url": "https://api.zhihu.com/columns/c_1525784109008203776",
+    "title": "助记媒介 & 思想工具",
+    "image_url": "https://pic1.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1525784109008203776"
+  },
+  "comment_count": 2,
+  "image_url": "",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

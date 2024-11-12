@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1647754539,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "太长不看：本文从「如何降低好卡片的编写成本」出发，介绍了目前间隔重复软件发展的…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 396445859,
+  "voteup_count": 66,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1628090271,
+  "url": "https://api.zhihu.com/articles/396445859",
+  "comment_permission": "all",
+  "title": "【随笔】间隔重复软件的两大进路",
+  "image_width": 960,
+  "content": "<p data-pid=\"4mFWVDMH\">太长不看：本文从「如何降低好卡片的编写成本」出发，介绍了目前间隔重复软件发展的两大进路，简单地讨论了这两条路的必然性和重要性。然后，通过反思卡片本身的局限性，向纯粹基于专家卡片的系统提出了质疑。最后，表达了对国产 Anki-like 软件的期望。</p><h2>介绍</h2><p data-pid=\"1DdUty_U\">间隔重复<sup data-text=\"间隔重复\" data-url=\"https://zhuanlan.zhihu.com/p/57020308\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>是一种记忆技术，通过合理规划复习的时机，我们能花更少的时间，记住更多有用的知识。而间隔重复软件，则是将该技术与其它传统学习工具、材料相结合，以便学习者开箱即用。</p><p data-pid=\"uswDKKP4\">笔者体验过不少间隔重复软件，有自由开放的 Anki、历史悠久的 SuperMemo、与笔记结合的 RemNote、与网课结合的 Osmosis<sup data-text=\"【介绍】Osmosis——视频网课、卡片与间隔重复的有机结合\" data-url=\"https://zhuanlan.zhihu.com/p/106058169\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，以及嵌入文本的 Orbit<sup data-text=\"我们如何才能开发出变革性的思想工具？\" data-url=\"https://zhuanlan.zhihu.com/p/394795804\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。这些软件各有自己的特色，自己的用户群体，也有自己的理念。</p><p data-pid=\"jZ8Fwe6p\">本文想从一个比较容易被忽视的角度来给这些软件分个类：如何降低好卡片的编写成本。</p><h2>为什么这样分？</h2><p data-pid=\"o4cCQ8oB\">根据我自己 4 年来编写卡片的经验，以及我对一起使用 Anki 的朋友们的观察，我发现写出好卡片的门槛是如此之高，极少有人能够熟练掌握这一技能。</p><p data-pid=\"26pamCpF\">不仅如此，在各大 Anki 交流群中，有不少同学都是来伸手要牌组的。显然，使用别人制作的牌组的需求一直存在。</p><p data-pid=\"q9GAPMxe\">可以看出，好卡片的编写成本是很高的，不少同学不愿意自己制卡，或者自己制卡的质量较低。</p><blockquote data-pid=\"Jyyn3iTM\">关于什么样的卡片算好卡片，可参考《<a href=\"https://www.zhihu.com/collection/614280525\" class=\"internal\">制卡原则与知识表述</a>》这个收藏夹</blockquote><p data-pid=\"bgU1vsuN\">为了克服这个问题，间隔重复软件给出了两个解决方案：</p><ol><li data-pid=\"04W8WMEq\">专家编写卡片，如 Osmosis 的抽认卡是完全结合相关的医学网课制作的，而 Orbit 则是将编写卡片的任务交给教材编写者。</li><li data-pid=\"JPIPQQqC\">辅助卡片编写，如 SuperMemo 引入渐进阅读<sup data-text=\"渐进阅读\" data-url=\"https://www.yuque.com/supermemo/wiki/incremental_reading\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>来快速生成卡片，而 RemNote 则通过引入知识模板<sup data-text=\"通用描述符\" data-url=\"https://zhuanlan.zhihu.com/p/274891979\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>来方便制卡。</li></ol><p data-pid=\"ZZEGTrLy\">在我看来，这两条进路缺一不可。这里我们可以简单的讨论一下：</p><h2>专家编写卡片</h2><p data-pid=\"P26uXoYB\">为什么说专家编写卡片是一条不可或缺的进路呢？</p><p data-pid=\"S0Z1Y00m\">原因有三：</p><ol><li data-pid=\"b5PhUgbv\">一次编写，多处分发</li><li data-pid=\"FNmBfLxM\">加快间隔重复的普及</li><li data-pid=\"v0N9aiOQ\">吸引教育者加入制卡</li></ol><p data-pid=\"qlGNJO5r\">首先，由专家来编写卡片，可供上万人学习。虽然专家的时间很值钱，让专家制卡的成本很高。但是卡片一旦编写好之后，就可以几乎无成本的复制、分发给大量学习者。从人均的制卡成本上来看，肯定是下降的。</p><p data-pid=\"1_AgdmLM\">可能会有人问，让普通用户编写卡片，然后分享，不也一样吗？很可惜，理想是丰满的，现实是骨感的。由于个人编写卡片经常会用一些自己才理解的表达方式，不利于卡片分享传播。而让有经验的专家来设计循序渐进的卡片内容，可以让绝大多数人都能较为顺畅的使用这些卡片学习。</p><p data-pid=\"BrRYrQ3d\">这样一来，绝大多数学生只需要享受间隔重复的好处，付出一定的时间成本，而不必费心费力地去编写卡片。之前我推广 Anki 时遇到的最大问题就是，自己制卡实在是太劝退了。有了专家编写卡片，普及间隔重复的一大障碍也得以解决。</p><p data-pid=\"deBDvfNv\">当然，这不是说编写卡片不重要，但是编写卡片也是需要参考典范的。专家编写的卡片能作为普通学习者自己制卡的参考，这对学习者颇有帮助。</p><p data-pid=\"6_8kvzWY\">最后，当专家编写卡片对学习者产生了较大的积极影响后，就能引起传统教育者的重视。学生自己做卡片的小打小闹，是很难触动老师去重视这些技术的。</p><p data-pid=\"JmWU0AZr\">想要打动传统教育行业的老师，间隔重复急需实际的成果。相关的理论和实验已经有很多了，缺少的就是一个个成功的案例<sup data-text=\"在课堂上使用间隔重复软件的这七年\" data-url=\"https://zhuanlan.zhihu.com/p/382699591\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>。当这些教育者认识到间隔重复的好处之后，他们也会开始学习编写卡片的技巧，然后推荐给他们的学生。</p><h2>这样就够了吗？</h2><p data-pid=\"xBorRxJL\">有了专家编写卡片，我们是否就不需要让普通用户编写卡片了呢？</p><p data-pid=\"wipKQfgA\">当然不是，原因同样有三点：</p><ol><li data-pid=\"w0qr-l2_\">专家卡片不可能全面覆盖</li><li data-pid=\"0ZGBMzls\">自己制卡能联系个人经验</li><li data-pid=\"8Rz-t-Vn\">谁来当第一个制卡专家？</li></ol><p data-pid=\"rjPOHFfd\">首先有个很现实的问题是，不可能让每个领域的专家都来编写卡片。如果遇到了没有专家卡片的领域，难道我们就要放弃间隔重复吗？</p><p data-pid=\"n6q4YuiC\">另外，编写卡片本身就是一种重要的辅助理解行为，我们可以将个人经验写到卡片中，有助于将材料刻入记忆。由专家编写卡片，我们就失去了这些好处。</p><p data-pid=\"VcvbBPP4\">最后，正如「第一位大学老师从没上过大学」，第一个制卡专家肯定也没有用过专家的卡片，他一开始也是一个普通用户。我们不可能凭空等待一个制卡专家的出现，然后直接使用这位专家编写的卡片。</p><p data-pid=\"TzywEvSS\">那么，一个普通用户该如何成为编写卡片的专家呢？</p><h2>辅助卡片编写</h2><p data-pid=\"5qZDxsGc\">在间隔重复技术发展的早期，制卡专家显然是非常稀有的，大部分用户都需要自己制卡。如何让制卡变得更简单，让这些用户的学习曲线不那么陡峭呢？SuperMemo 依靠渐进阅读<sup data-text=\"渐进阅读\" data-url=\"https://www.yuque.com/supermemo/wiki/incremental_reading\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>辅助卡片编写，从而解决这个问题。</p><p data-pid=\"Ygx2wo9G\">渐进阅读可算是一种辅助卡片编写的技术。通过将阅读和间隔重复结合起来，用户可以像传统学习那样，阅读文本、标记重点、圈出关键词，而卡片则在这些传统的学习习惯中自动生成：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-429beeddb077b9d16d5d799a5dc1fbf1_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2880\" data-rawheight=\"1800\" class=\"origin_image zh-lightbox-thumb\" width=\"2880\" data-original=\"https://pic2.zhimg.com/v2-429beeddb077b9d16d5d799a5dc1fbf1_r.jpg\" data-original-token=\"v2-429beeddb077b9d16d5d799a5dc1fbf1\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-268e257a1edb7908e62ede2e53dc414b_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2880\" data-rawheight=\"1800\" class=\"origin_image zh-lightbox-thumb\" width=\"2880\" data-original=\"https://picx.zhimg.com/v2-268e257a1edb7908e62ede2e53dc414b_r.jpg\" data-original-token=\"v2-268e257a1edb7908e62ede2e53dc414b\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"py6KlgOh\">这样制作出来的卡片，大部分源自文本，对学习者来说较为轻松。但是这种卡片的质量也算不上很高，想要进一步提高卡片质量，还需要根据自己的习惯，对卡片内容进行改进<sup data-text=\"间隔重复中的简化与冗余\" data-url=\"https://zhuanlan.zhihu.com/p/283017134\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup>，比如：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-c73a166f1fe54dd602c9d48dd1408ddc_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1936\" data-rawheight=\"1674\" class=\"origin_image zh-lightbox-thumb\" width=\"1936\" data-original=\"https://pica.zhimg.com/v2-c73a166f1fe54dd602c9d48dd1408ddc_r.jpg\" data-original-token=\"v2-c73a166f1fe54dd602c9d48dd1408ddc\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-062014d13a60dbcd447be5352d85ea30_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1926\" data-rawheight=\"1692\" class=\"origin_image zh-lightbox-thumb\" width=\"1926\" data-original=\"https://pic3.zhimg.com/v2-062014d13a60dbcd447be5352d85ea30_r.jpg\" data-original-token=\"v2-062014d13a60dbcd447be5352d85ea30\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"g6B3lx6S\">而 RemNote 则是通过将传统的记笔记习惯与制卡相结合，之前介绍过，这里就不赘述了：</p><a href=\"https://zhuanlan.zhihu.com/p/242322075\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-eda87b70aa4f8b9492c10301bd402076_qhd.jpg\" data-image-width=\"1897\" data-image-height=\"970\" class=\"internal\">叶峻峣：在 RemNote 中构建知识</a><p data-pid=\"QoX2DmJU\">有了这些工具的辅助，我们便可以在大量制卡的过程中积累经验，逐渐掌握编写好卡片的技能，从而成为编写卡片的专家。</p><h2>你以为这样就结束了吗？</h2><p data-pid=\"SX9xxncM\">看样子有这两条进路相互辅助，间隔重复就能慢慢在教育者和学习者之间普及开了。你是不是也是这样认为的呢？</p><p data-pid=\"3GpmdD86\">我没有这么乐观。如果说，这两条进路有一条还远远没有达到预期，你觉得会是哪一条呢？好好想一想。</p><p data-pid=\"6keA1EYg\">给</p><p data-pid=\"SjFOWxIg\">你</p><p data-pid=\"k_xczvYc\">一</p><p data-pid=\"WtsVctMr\">炷</p><p data-pid=\"EXrEpjY3\">香</p><p data-pid=\"IIsM0o6f\">的</p><p data-pid=\"LmBrCUDe\">时</p><p data-pid=\"qpzuPnXx\">间</p><p data-pid=\"dGcpeEdW\">答案揭晓，我认为专家编写卡片这条路还道阻且长。哪怕是专家编写的卡片，一上来就让学习者进行记忆，也是非常困难的。</p><p data-pid=\"butGTOBp\">这也是我为什么不看好 Anki 的一大原因。光靠卡片，哪怕是专家编写的卡片，也很难学到什么知识（单词、题库这些除外）。也就是说，传统的知识媒介——文章和视频，在知识传授上，依然是不可或缺的。</p><p data-pid=\"ZmBSV2mj\">为了克服这个问题，Orbit 将卡片嵌入到文本中，让间隔重复成为阅读材料的补充；Osmosis 将卡片放到每个视频的结尾，让抽认卡成为一种选择。它们都没有完全摒弃传统媒介，这才是对传统知识传授方式的扬弃。换句话说，把洗澡水倒掉就行了，可别把婴儿也给丢了。</p><p data-pid=\"zI88bp1l\">从另一个角度思考一下，倘若光靠专家编写的卡片就能学会知识，那么为什么我们还没看到有这样的 Anki 牌组出现？</p><p data-pid=\"jovH4EfL\">脱离了线性文本的卡片是碎片化的，依靠碎片化的卡片，我们难以融会贯通<sup data-text=\"连贯性与一致性\" data-url=\"https://zhuanlan.zhihu.com/p/264327134\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"8\">[8]</sup>。SuperMemo 的渐进阅读也是从线性的文本中生成卡片，RemNote 的大纲+双链的结构也是在强调知识之间的联系。Orbit 和 Osmosis 更是如此，直接用传统的材料将知识串起来讲一遍。</p><p data-pid=\"BCvR-9sM\">不过，既然发现了问题，这事就不那么可怕了。方法总比问题多，认识到问题总比啥也不知道要好。</p><p data-pid=\"pH6AU8lT\">希望每一位从事这个行业的朋友，能认真思考一下这个问题，开发出超越 Anki 的间隔重复软件。</p><h2>结语</h2><p data-pid=\"fv53UhQG\">一不小心，又写多了，最后还偏了个题，请各位多多包涵哈哈。</p><p data-pid=\"QXe4PG81\">本文算是整理了一下我对间隔重复软件发展方向的思考，希望这些思考能够启发到某个需要它的人。</p><p data-pid=\"PuPE6ECY\">间隔重复软件的交互设计依然有很长的路有走，当然，算法也是。</p><p data-pid=\"Pw-KOWGh\">可能未来我会写一些关于间隔重复算法的思考，大家可以期待一下。</p><p data-pid=\"Kv2VgRjb\">祝大家学习快乐！</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"KWOjKRx4\">2021 年 8 月 4 日</p><p data-pid=\"iDx28u02\">叶峻峣</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>附注</h2><p data-pid=\"sHrz7suw\">掌握知识分为学习和复习两个过程，二者都需要成本，复习成本可以通过原子化和间隔卡片降低，但原子化对知识的学习是把双刃剑，仅通过牌组掌握知识是不易的</p><p data-pid=\"u4CMWZ1z\">对知识点的安排有设计并优化的必要，但学习和复习的优化方向不同，这样可粗略的认为书籍和anki各处于一种优化方向</p><p data-pid=\"reShLHWP\">学习和复习成本又各自可分为“学习用某种方式学习的成本”和“用这种方式学习的成本”以及“学习用某种方式复习的成本”和“用这种方式复习的成本”。因此制卡专家们制作牌组若想尽可能降低这四项成本，还是要将学习内容和复习内容贯通起来。</p><p data-pid=\"OkQCScJ9\">以上是 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/6ef203ecaba547d4b92312dcb4d93faf\" data-hash=\"6ef203ecaba547d4b92312dcb4d93faf\" data-hovercard=\"p$b$6ef203ecaba547d4b92312dcb4d93faf\">@黄河的六一</a> 提供的总结，非常到位，故搬运到此处。</p>",
+  "column": {
+    "updated": 1706022041,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+    "title": "学委叶哥的随笔",
+    "image_url": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1280249768422608896"
+  },
+  "comment_count": 24,
+  "image_url": "https://pic1.zhimg.com/v2-a6c4dfe39757c60e167f83bc51f775ab_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

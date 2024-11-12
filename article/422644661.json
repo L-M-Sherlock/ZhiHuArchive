@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1669273998,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "Mochi 是网页端上的笔记写作系统 [1]，主要使用 Markdown 语言，集成了间隔重复记忆…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 422644661,
+  "voteup_count": 15,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1634522536,
+  "url": "https://api.zhihu.com/articles/422644661",
+  "comment_permission": "all",
+  "title": "Mochi",
+  "image_width": 813,
+  "content": "<p data-pid=\"uXqRuI52\"><a href=\"https://link.zhihu.com/?target=https%3A//mochi.cards/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Mochi</a> 是网页端上的<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8XrKGDz49o6XxEx7tzGewzrXQnw6jSgv3Yyf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">笔记写作系统</a><sup data-text=\"§笔记写作系统\" data-url=\"https://zhuanlan.zhihu.com/p/533129885\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，主要使用 Markdown 语言，集成了<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4eXdSMJFv2qVGXSUEKH4vdcHBrLHcFY1ZGfC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复记忆系统</a><sup data-text=\"间隔重复记忆系统\" data-url=\"https://zhuanlan.zhihu.com/p/404257681\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。</p><p data-pid=\"UjXDyjpD\">尽管不是很完全，Mochi 试图实现<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5ARNXtS5VxteskEW91S1yYTgAcLABNXsZuJE\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">助记媒介可以扩展到个人笔记</a><sup data-text=\"助记媒介可以扩展到个人笔记上\" data-url=\"https://zhuanlan.zhihu.com/p/487321909\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>中描述的想法：Mochi 的主要功能还是制作卡片，但它也支持在文章式的笔记中嵌入卡片；嵌入卡片这个操作并没有得到强调，这很奇怪：我估计是 Mochi 的预期用途还是语言学习的原因。</p><p data-pid=\"4qV-wIxi\">Mochi 的界面打磨得很不错，而且在逐步完善。2019 年 2 月 Mochi 启动，截至 2021 年 5 月，开发势头很足，并且会规律发布新特性。</p><h2>笔记内编写卡片</h2><p data-pid=\"gR30IR3L\">Mochi 的早期版本中，「笔记」和「牌组」泾渭分明，但最近这两者似乎融合了。现在笔记和牌组都是一件事——只是<b>查看方式</b>不同。</p><p data-pid=\"AE6TxEl8\">所以「牌组」可以像这样作为列表展现：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-505cb4ef92e908d185300c761258fe81_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2712\" data-rawheight=\"2152\" class=\"origin_image zh-lightbox-thumb\" width=\"2712\" data-original=\"https://pic2.zhimg.com/v2-505cb4ef92e908d185300c761258fe81_r.jpg\" data-original-token=\"v2-505cb4ef92e908d185300c761258fe81\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"A24sxB5k\">... 或者作为「笔记本」呈现，每张卡片内容展开，顺次显示：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-bcb8122eb7680fcb959093bfa61ebfa4_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"3134\" data-rawheight=\"2722\" class=\"origin_image zh-lightbox-thumb\" width=\"3134\" data-original=\"https://pic1.zhimg.com/v2-bcb8122eb7680fcb959093bfa61ebfa4_r.jpg\" data-original-token=\"v2-bcb8122eb7680fcb959093bfa61ebfa4\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"MlVUGixz\">Mochi 不像是用来编辑连续文本的：每个段落都看成「块」，鼠标不能在段落之间移动。但是打字时有个交互很不错：</p><ol><li data-pid=\"AFMeKeRX\"> 创建新段落。<br/> </li><li data-pid=\"GmKbpnhe\"> 输入一些文字。<br/> </li><li data-pid=\"J72Mufd1\"> 输入 <code>---</code>。<br/> </li><li data-pid=\"j6QdCoIF\"> 再输入一些文本。<br/> </li><li data-pid=\"g8ijr_l1\"> 按两次回车键。<br/> </li><li data-pid=\"fl2s8qxl\"> 一张卡片就做好了！<br/> </li></ol><p data-pid=\"4Sx6t2kc\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/About_these_notes%3FstackedNotes%3DzUw5PuD8op9oq8kHvni6sug6eRTNtR9Wqma%26stackedNotes%3Dz5ARNXtS5VxteskEW91S1yYTgAcLABNXsZuJE%26stackedNotes%3DzxAXSEQidXeYW2XFBj9ftGxz1kTNtV4fXjhZ\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">file:08E15323-4727-445A-884D-F374B045D282-81997-00014DBA696FE38A/Screen Recording 2021-05-11 at 11.04.17 AM.mov</a></p><p data-pid=\"-XGDPwzN\">对于编辑文章来说，Mochi 的交互方式很尴尬：所有操作都是针对单独某个段落的：只有「点中」某个段落才能打开编辑窗口；而且段落内容会动来动去，很难「对准」。段落之间不能用光标移动，也不能同时编辑多个段落。但这些交互从实现的角度很容易修改，所以我拭目以待。</p><p data-pid=\"NLBZmRhd\">对于把 Mochi 当作「个人助记媒介」使用的思路，还有一个明显的问题，就是如果你写了一篇很长的文章式笔记，里面嵌入了几张填空卡或者多面卡片，那么笔记里所有「段落」都会变成复习任务（也就是变成没有背面的卡片）。我觉得这样设计很奇怪！</p><h2>SRS 实现</h2><p data-pid=\"aYiu9Jda\">使用经过修改的 SM-2 算法：简易度不会动态调整（虽然对每个牌组可以单独设置），如果忘记一张卡片，下一次的间隔会减半，而不会从零开始。</p><p data-pid=\"8VlY4voP\">对于新卡片有「学习」的阶段，就像 Anki. 「新卡片」和「当日到期卡片」会区别对待。新卡片要回答正确了，<b>之后</b> 才加入到明天到期卡片中。</p><h2>直接嵌入的卡片</h2><p data-pid=\"vun6gKjR\">2019 年 11 月 18 日，Mochi 添加了直接在笔记中嵌入 SRS 卡片的能力。卡片必须已经在牌组里，而且语法比较古怪。这种操作基本上是嵌入操作。</p><h2>商业模式</h2><p data-pid=\"S-Yb1qRi\">Mochi 桌面版本免费使用。同步功能和 API 需要每月支付 5 美元。这样的商业模式很难盈利：需要有 1700 名活跃用户才能达到 10 万美元的年平均收益率(ARR)。</p><p data-pid=\"w6WP0-68\">Mochi 开发者是{Matthew Steedman}。他主要在纽约活动，在各种机构中最为活跃（如 Code and Theory）。他有广告/图形设计的 partial 美术学士学位。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"a9cbrUW1\"><a href=\"https://zhuanlan.zhihu.com/p/404257681\" class=\"internal\">间隔重复记忆系统</a></li></ul><h2>声明</h2><p data-pid=\"PRwbocFl\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"ssJUfDVX\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zxAXSEQidXeYW2XFBj9ftGxz1kTNtV4fXjhZ\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Mochi (andymatuschak.org)</a></blockquote>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 0,
+  "image_url": "https://pica.zhimg.com/v2-83b67f38081773900aef9e99d204f68f_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

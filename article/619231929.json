@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1680582513,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "问题估值网络是任何能够估计待解决问题价值的神经子系统。那些奖励最多的问题最有可…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 619231929,
+  "voteup_count": 35,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1680580645,
+  "url": "https://api.zhihu.com/articles/619231929",
+  "comment_permission": "all",
+  "title": "问题估值网络",
+  "image_width": 712,
+  "content": "<p data-pid=\"s2iUz8ng\"><b>问题估值网络</b>是任何能够估计待解决问题价值的神经子系统。那些奖励最多的问题最有可能被优先解决（在没有外部评估干扰的情况下）。问题估值网络基于与<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Knowledge_valuation_network\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知识估值网络</a><sup data-text=\"学习的乐趣\" data-url=\"https://zhuanlan.zhihu.com/p/602150910\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>相同的原则，可最佳地可视化为<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Decision_tree\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">决策树</a>。</p><p data-pid=\"qzce5okc\">在教育中，重要的是要记住，估值的结果要符合<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Goldilocks_principle\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">金发姑娘原则</a>*。教师对这一概念理解不深，导致经常违反<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Fundamental_law_of_learning\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">学习的基本规律</a><sup data-text=\"学习的基本规律\" data-url=\"https://zhuanlan.zhihu.com/p/273225977\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。如果你的老师认为「孩子们总是在寻找简单的方法」，她就更有可能采用<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Coercion_in_learning\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">强迫学习</a><sup data-text=\"学习中的强迫\" data-url=\"https://zhuanlan.zhihu.com/p/351872034\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。强迫往往导致学习处在<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Push_zone\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">退步区</a><sup data-text=\"最佳推动区\" data-url=\"https://zhuanlan.zhihu.com/p/67694020\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>。</p><blockquote data-pid=\"iNswFMLr\">*译注：Goldilocks principle，源自《金发姑娘与三只熊》，金发姑娘发现了三只熊的房子，每只熊都有自己喜欢的食物和床。在挨个尝试过三只熊的食物和床后，金发姑娘发现有一个要么太大/太热，一个要么太小/太凉，只有一个是「刚刚好」。所以 goldilocks principle 意指「恰到好处」。</blockquote><p data-pid=\"UDNqqIk5\">详见：<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/How_to_solve_any_problem%253F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">如何解决任何问题？</a><sup data-text=\"如何解决任何问题？\" data-url=\"https://zhuanlan.zhihu.com/p/351779186\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-568ba39d4f6ee52d6ccee9abc6fc25e5_b.jpg\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"575\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://picx.zhimg.com/v2-568ba39d4f6ee52d6ccee9abc6fc25e5_r.jpg\" data-original-token=\"v2-568ba39d4f6ee52d6ccee9abc6fc25e5\"/><figcaption>问题解决中的期望奖励</figcaption></figure><p data-pid=\"Ea76zwIR\">图：<b>问题估值中的金发姑娘效应</b>：较难的问题奖励较多，但不太可能被解决。因此，人们会追求最佳难度。预期回报会根据执行成本计算。擅长解决问题的人善于发现能使奖励最大化的问题。游戏太简单的话，儿童很快就会厌烦。他们也会放弃那些超出他们水平的游戏。因此，儿童自然而然地追求能提供最大回报的游戏，而这些游戏基本上都是<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Goldilocks_principle\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">难度适中</a>的。同样的机制也适用于儿童、成人或解决问题的动物。</p><hr/><blockquote data-pid=\"pwIrpSDb\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 Jarrett Ye、校对 leee_<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Problem_valuation_network\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Problem valuation network - supermemo.guru</a><br/>本<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Glossary\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">术语表</a>条目用于解释《<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Problem_of_Schooling\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我永远不会送我的孩子去学校</a><sup data-text=\"学校教育的问题\" data-url=\"https://zhuanlan.zhihu.com/p/611469462\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>》（2017）作者：<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Piotr_Wozniak\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">彼得·沃兹尼亚克</a><sup data-text=\"彼得 · 沃兹尼亚克\" data-url=\"https://zhuanlan.zhihu.com/p/303204832\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup></blockquote>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://pic1.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://pic1.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 0,
+  "image_url": "https://picx.zhimg.com/v2-8599678a6925d8c458de33e63baa78b5_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

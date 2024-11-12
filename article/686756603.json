@@ -1,0 +1,75 @@
+{
+  "status": 0,
+  "updated": 1710379589,
+  "author": {
+    "is_followed": false,
+    "badge": [],
+    "name": "叶峻峣",
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "avatar_url": "https://picx.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+  },
+  "can_tip": false,
+  "excerpt": "介绍为了促进记忆领域研究的发展，我与 Anki 的开发者 Damien Elmes 合作，发布了原…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 686756603,
+  "voteup_count": 94,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1710333497,
+  "url": "https://api.zhihu.com/articles/686756603",
+  "comment_permission": "all",
+  "title": "目前世界最大的人类记忆行为数据集发布",
+  "image_width": 1418,
+  "content": "<h2>介绍</h2><p data-pid=\"ngoR_dwq\">为了促进记忆领域研究的发展，我与 Anki 的开发者 Damien Elmes 合作，发布了原用于 FSRS Benchmark 项目的数据集。现在可以在 Hugging Face 上下载该数据集：</p><p data-pid=\"7uld0mEA\"><a href=\"https://link.zhihu.com/?target=https%3A//huggingface.co/datasets/open-spaced-repetition/FSRS-Anki-20k\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">open-spaced-repetition/FSRS-Anki-20k · Datasets at Hugging Face</a></p><h2>介绍</h2><p data-pid=\"7zZh2HUT\">FSRS-Anki-20k 数据集包含 2 万份 Anki 用户的复习日志集合文件。这些数据是在复习超过 5000 次的用户中随机挑选的。总计可用的复习日志有 15 亿条。</p><p data-pid=\"NiuBNhrx\">这份数据集中一共包含两种数据格式：原始 revlog 文件，和预处理后的 csv 文件。前者大小约 50GB，后者约 20GB。</p><h2>数据格式</h2><h3>Revlog</h3><p data-pid=\"tPPAmKSr\">请参见 <a href=\"https://link.zhihu.com/?target=https%3A//huggingface.co/datasets/open-spaced-repetition/FSRS-Anki-20k/blob/main/stats.proto\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">stats.proto</a> 中的定义。对于命名不清晰的字段，请参考 <a href=\"https://link.zhihu.com/?target=https%3A//github.com/ankidroid/Anki-Android/wiki/Database-Structure\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anki 数据库结构文档</a>。</p><h3>Dataset</h3><p data-pid=\"6pTPOZyj\">数据集的列包括：</p><ul><li data-pid=\"fdtcAdP_\">card_id: 每张抽认卡的唯一标识。</li><li data-pid=\"_tabg-PN\">review_th: 这次复习是当前用户从使用 Anki 以来的第几次复习。</li><li data-pid=\"1Jy_oeHT\">delta_t: 这次复习距离上一次用户复习这张卡片过去的天数。-1 表示这是这张卡片的第一次复习。</li><li data-pid=\"4Wjzr4YG\">rating: 用户对这次复习的打分。1: again, 2: hard, 3: good, 4: easy。其中只有 again 表示回忆失败，其他分数都代表回忆成功。</li></ul><h2>预处理过程</h2><ol><li data-pid=\"FTB34-DG\">从 revlog 文件中读取 revlog 条目。</li><li data-pid=\"BfvX9nCn\">过滤掉用户在不影响复习安排的筛选牌组中的复习。</li><li data-pid=\"19GhL16w\">过滤掉由手动重排操作产生的复习。</li><li data-pid=\"xvMun6LS\">对于每一张卡片，如果卡片在复习后又进入新学状态，则过滤掉新学状态前的所有复习。</li><li data-pid=\"HcjmGhn_\">计算每张卡片中每次复习之间的时间间隔 delta_t、复习序数 review_th，以及用序数压缩原始的 card_id。</li><li data-pid=\"PGqGe69W\">将预处理好的结果保存为 csv 文件。</li></ol><h2>许可证</h2><p data-pid=\"Z2GB4nSA\">请见 <a href=\"https://link.zhihu.com/?target=https%3A//huggingface.co/datasets/open-spaced-repetition/FSRS-Anki-20k/blob/main/LICENSE\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">FSRS-Anki-20k License</a></p><h2>相关项目</h2><p data-pid=\"hzntwjsc\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs-benchmark\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SRS Benchmark</a></p>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "叶峻峣",
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "avatar_url": "https://picx.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    },
+    "url": "/columns/3c9990a12cdbcd92e20b1387b160f0a3",
+    "comment_permission": "all",
+    "title": "叶峻峣的文章",
+    "image_url": "https://picx.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+  },
+  "comment_count": 4,
+  "image_url": "https://picx.zhimg.com/v2-f0435340d3230b5ff02cc131055eff4e_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

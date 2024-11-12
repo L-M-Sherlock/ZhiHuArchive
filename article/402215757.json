@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1673071679,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "想象一下，我每天增加 40 张新卡片，我在每次复习中总是答对所有卡片，而且它们的间…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 402215757,
+  "voteup_count": 15,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1629555583,
+  "url": "https://api.zhihu.com/articles/402215757",
+  "comment_permission": "all",
+  "title": "高效的间隔重复记忆系统的最大吸收率是多少？",
+  "image_width": 1200,
+  "content": "<p data-pid=\"ZKtZ_4Bq\">想象一下，我每天增加 40 张新卡片，我在每次复习中总是答对所有卡片，而且它们的间隔按「量子国度」的固定安排表增长。在一年后，我将会复习：</p><ul><li data-pid=\"x-X0epkm\">5 天前的卡片</li><li data-pid=\"FL4x3yOj\">5+14=19 天前的卡片</li><li data-pid=\"TCh-YBLS\">19+30=49 天前的卡片</li><li data-pid=\"5YHWigwx\">49+60=109 天前的卡片</li><li data-pid=\"XDKPQWPd\">109+120=229 天前的卡片</li></ul><p data-pid=\"ZzOnp_wG\">因此，在这个例子中，我将复习 200 张卡片。如果平均每张花 6 秒钟，那就是每天 20 分钟。如果我们坚持以 10 分钟为限，那我就有 100 张卡片的容量，这意味着每天大约 20 张新卡片。</p><p data-pid=\"wg-p4IXl\">由于指数的关系，两年时间并不会带来太多改变。如果我每天增加 40 张，在下一年再增加约 15k 张后，我每天会复习 240 张（大约 24 分钟）。如果我们想坚持 10 分钟的限制，这将意味着每天 17 张新卡片。在这些假设下，第三年每天又增加了 40 张卡片；第四年则没有增加。</p><p data-pid=\"NwlWAk4U\">当然，这是在假设我每次都能答对的情况下。假设错误率为 10%，那么在一年后，我将复习241 张卡片，而不是 200 张。这还不算太糟。这使我的 10 分钟容量从每天 20 张（一年 7.3k 张）变为每天 16 张（一年 5.8k 张）。如果错误率为 5%，则为每天 18 张（一年约 6.5k 张）。这种差异是巨大的，值得追求，但这并不是决定性的。20% 的错误率产生了每天 13 张的吞吐量（一年约 4.8k 张）。</p><p data-pid=\"xGShZ4KD\">所以换个说法，如果你能把错误率从 20% 降到 5%，你就可以在相同的复习环节内增加 1/3 的卡片。</p><p data-pid=\"94FhA8ET\">不过要注意的是，「量子国度」的安排表可能不是一个很好的优化界限参考：<u><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zS5uKLsoTbkJSadTv2U3Z4G3uEBrFxTLy5E\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「量子国度」用户在实证五天保留后很少会忘记</a></u>！另见<u><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5N3g1Tc9jQMmRnExZxY23cUufNS1g6srNAbU\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">优化间隔重复系统的安排表</a></u>。</p><div class=\"highlight\"><pre><code class=\"language-js\"><span class=\"kr\">const</span> <span class=\"nx\">p</span> <span class=\"o\">=</span> <span class=\"mf\">0.9</span><span class=\"p\">;</span>\n<span class=\"kr\">const</span> <span class=\"nx\">np</span> <span class=\"o\">=</span> <span class=\"mi\">1</span> <span class=\"o\">-</span> <span class=\"nx\">p</span><span class=\"p\">;</span>\n<span class=\"kr\">const</span> <span class=\"nx\">newCards</span> <span class=\"o\">=</span> <span class=\"mi\">40</span><span class=\"p\">;</span>\n<span class=\"kr\">const</span> <span class=\"nx\">ease</span> <span class=\"o\">=</span> <span class=\"mf\">2.5</span><span class=\"p\">;</span>\n<span class=\"kr\">const</span> <span class=\"nx\">max</span> <span class=\"o\">=</span> <span class=\"mi\">365</span><span class=\"p\">;</span>\n<span class=\"err\">​</span>\n<span class=\"kr\">const</span> <span class=\"nx\">queue</span> <span class=\"o\">=</span> <span class=\"p\">[{</span><span class=\"nx\">baseDays</span><span class=\"o\">:</span> <span class=\"mi\">5</span><span class=\"p\">,</span> <span class=\"nx\">factor</span><span class=\"o\">:</span> <span class=\"mi\">1</span><span class=\"p\">}];</span>\n<span class=\"kd\">let</span> <span class=\"nx\">total</span> <span class=\"o\">=</span> <span class=\"mi\">0</span><span class=\"p\">;</span>\n<span class=\"k\">while</span> <span class=\"p\">(</span><span class=\"nx\">queue</span><span class=\"p\">.</span><span class=\"nx\">length</span> <span class=\"o\">&gt;</span> <span class=\"mi\">0</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"kr\">const</span> <span class=\"p\">{</span><span class=\"nx\">baseDays</span><span class=\"p\">,</span> <span class=\"nx\">factor</span><span class=\"p\">}</span> <span class=\"o\">=</span> <span class=\"nx\">queue</span><span class=\"p\">.</span><span class=\"nx\">shift</span><span class=\"p\">();</span>\n  <span class=\"k\">if</span> <span class=\"p\">(</span><span class=\"nx\">baseDays</span> <span class=\"o\">&gt;</span> <span class=\"nx\">max</span> <span class=\"o\">||</span> <span class=\"nx\">factor</span> <span class=\"o\">&lt;</span> <span class=\"mf\">0.0001</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"k\">continue</span><span class=\"p\">;</span>\n  <span class=\"p\">}</span>\n  <span class=\"nx\">total</span> <span class=\"o\">+=</span> <span class=\"nx\">factor</span><span class=\"p\">;</span>\n  <span class=\"nx\">queue</span><span class=\"p\">.</span><span class=\"nx\">push</span><span class=\"p\">({</span><span class=\"nx\">baseDays</span><span class=\"o\">:</span> <span class=\"nx\">baseDays</span> <span class=\"o\">*</span> <span class=\"nx\">ease</span><span class=\"p\">,</span> <span class=\"nx\">factor</span><span class=\"o\">:</span> <span class=\"nx\">factor</span> <span class=\"o\">*</span> <span class=\"nx\">p</span><span class=\"p\">},</span> <span class=\"p\">{</span><span class=\"nx\">baseDays</span><span class=\"o\">:</span> <span class=\"nb\">Math</span><span class=\"p\">.</span><span class=\"nx\">max</span><span class=\"p\">(</span><span class=\"mi\">5</span><span class=\"p\">,</span> <span class=\"nx\">baseDays</span> <span class=\"o\">/</span> <span class=\"nx\">ease</span><span class=\"p\">),</span> <span class=\"nx\">factor</span><span class=\"o\">:</span> <span class=\"nx\">factor</span> <span class=\"o\">*</span> <span class=\"nx\">np</span><span class=\"p\">});</span>\n<span class=\"p\">}</span>\n<span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">total</span> <span class=\"o\">*</span> <span class=\"nx\">newCards</span><span class=\"p\">);</span>\n</code></pre></div><p data-pid=\"R6XiuxnV\">问：在一生中，使用 2020 年的间隔重复记忆系统，大约可以学到多少张卡片？ <br/>答： <img src=\"https://www.zhihu.com/equation?tex=10%5E6\" alt=\"10^6\" eeimg=\"1\"/> </p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"SSqcXiut\"><a href=\"https://zhuanlan.zhihu.com/p/399738674\" class=\"internal\">间隔重复系统能力的限制因素是写出足够多的好卡片</a></li></ul><h2>声明</h2><p data-pid=\"edneiXGh\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"pXec_YMm\">原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4J3EVtt8aQoZg8a5y48AmfYL4GauDjBSzw2s\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">What’s the maximum intake rate of an efficient spaced repetition memory system?</a></blockquote>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://pic1.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://pic1.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 4,
+  "image_url": "https://picx.zhimg.com/v2-b1bc893ee1c722b42809d449d3ced076_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

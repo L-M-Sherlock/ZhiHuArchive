@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1641653896,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "上周和太记作者 @林一二 、钓鱼插件作者 @凹夫几 讨论了一下开源间隔重复的未来，于…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 454932406,
+  "voteup_count": 92,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1641653896,
+  "url": "https://api.zhihu.com/articles/454932406",
+  "comment_permission": "all",
+  "title": "自由间隔重复调度算法——FSRS",
+  "image_width": 904,
+  "content": "<p data-pid=\"M-uXwU5b\">上周和太记作者 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/16c82891a98d1e3e49d07a9c75aae4dc\" data-hash=\"16c82891a98d1e3e49d07a9c75aae4dc\" data-hovercard=\"p$b$16c82891a98d1e3e49d07a9c75aae4dc\">@林一二</a> 、钓鱼插件作者 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/7c856f3f6b55bcbd409bfa51ee891d59\" data-hash=\"7c856f3f6b55bcbd409bfa51ee891d59\" data-hovercard=\"p$b$7c856f3f6b55bcbd409bfa51ee891d59\">@凹夫几</a> 讨论了一下开源间隔重复的未来，于是抽空写了一个间隔重复算法：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/free-spaced-repetition-scheduler\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">open-spaced-repetition/free-spaced-repetition-scheduler</a></p><p data-pid=\"G_elqze7\">这里简单介绍一下。</p><h2>名称中的「自由」是什么意思？</h2><p data-pid=\"KV3SfRgf\">本算法支持自由复习，可以提前，也可以推迟，算法会根据记忆模型进行适应。</p><p data-pid=\"ouhTTIEn\">同时，间隔重复是实现自由学习<sup data-text=\"自由学习\" data-url=\"https://zhuanlan.zhihu.com/p/272543239\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>的基础技术之一。而且算法可以在本地运行，无需担心泄露自己的学习数据。</p><h2>算法的原理是什么？</h2><p data-pid=\"El8iIYTK\">本算法基于 SuperMemo 作者 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Piotr_Wozniak\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Piotr Wozniak</a><sup data-text=\"彼得 · 沃兹尼亚克\" data-url=\"https://zhuanlan.zhihu.com/p/303204832\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup> 提出的 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Two_components_of_memory\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">DSR 模型</a>开发。</p><p data-pid=\"d-J8ri7o\">该模型考虑了影响记忆的三个变量：难度（difficulty），稳定性（stability）和可提取性（retrievability）。</p><p data-pid=\"bNsUyXVI\">稳定性指的是记忆的存储强度，越高，记忆遗忘得越慢。可提取性指的是记忆的检索强度，越低，记忆遗忘的概率越高。</p><p data-pid=\"gseDjw2c\">在本模型中，考虑了以下记忆规律：</p><ul><li data-pid=\"V-GQCBt0\">记忆材料越难，记忆稳定性增长越慢</li><li data-pid=\"5sZke3dz\">记忆稳定性越高，记忆稳定性增长越慢（又称为<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Stabilization_decay\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">记忆稳定化衰减</a>）</li><li data-pid=\"AraM_mZo\">记忆可提取性越低，记忆稳定性增长越快（又称为<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Stabilization_curve\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">记忆稳定化曲线</a>）</li></ul><h2>能简单描述一下算法吗？</h2><ul><li data-pid=\"FC8L5K-p\">难度范围 <img src=\"https://www.zhihu.com/equation?tex=D%5Cin+%5B1%2C10%5D\" alt=\"D\\in [1,10]\" eeimg=\"1\"/> </li><li data-pid=\"MtxM1cYl\">初始难度 <img src=\"https://www.zhihu.com/equation?tex=D_0+%3D+5\" alt=\"D_0 = 5\" eeimg=\"1\"/> </li><li data-pid=\"_AV6zPyc\">初始稳定性 <img src=\"https://www.zhihu.com/equation?tex=S_0+%3D+2\" alt=\"S_0 = 2\" eeimg=\"1\"/> </li><li data-pid=\"AFiox366\">指数遗忘曲线模型 <img src=\"https://www.zhihu.com/equation?tex=R+%3D+%5Cexp%28%5Cln+0.9+%5Ccdot+%5Ccfrac%7BI%7D%7BS%7D%29\" alt=\"R = \\exp(\\ln 0.9 \\cdot \\cfrac{I}{S})\" eeimg=\"1\"/> </li><li data-pid=\"rtW82iP7\">复习成功后稳定性更新公式 <img src=\"https://www.zhihu.com/equation?tex=S%5E%5Cprime%3DS%5Ccdot+%281+%2B+a+%5Ctimes+D+%5E+%7B-b%7D+%5Ctimes+S%5E%7B-c%7D+%5Ctimes+%28%5Cexp%281+-+R%29-1%29%29\" alt=\"S^\\prime=S\\cdot (1 + a \\times D ^ {-b} \\times S^{-c} \\times (\\exp(1 - R)-1))\" eeimg=\"1\"/> </li><ul><li data-pid=\"RV6POH1R\">稳定性增长系数 a = 60</li><li data-pid=\"cE15LG5b\">难度衰减系数 b = 0.7</li><li data-pid=\"spnITtW-\">稳定性衰减系数 c = 0.2</li></ul><li data-pid=\"GRSsgebq\">复习失败后的稳定性 <img src=\"https://www.zhihu.com/equation?tex=S_%7BL%7D+%3D+S_0%5E%7B-f%5Ccdot+L%7D\" alt=\"S_{L} = S_0^{-f\\cdot L}\" eeimg=\"1\"/> </li><ul><li data-pid=\"MOm1Pc-6\">遗忘次数 <img src=\"https://www.zhihu.com/equation?tex=L+%3E%3D+0\" alt=\"L &gt;= 0\" eeimg=\"1\"/> </li><li data-pid=\"73y7a_7V\">遗忘衰减系数 f = 0.3</li></ul><li data-pid=\"fGh3xVw3\">复习后难度更新公式 <img src=\"https://www.zhihu.com/equation?tex=D%5E%5Cprime+%3D+D+-+d%5Ccdot%28Grade+-+1%29+-+e%5Ccdot%281-R%29\" alt=\"D^\\prime = D - d\\cdot(Grade - 1) - e\\cdot(1-R)\" eeimg=\"1\"/> </li><ul><li data-pid=\"MTpreYOR\">评分范围 <img src=\"https://www.zhihu.com/equation?tex=Grade%5Cin+%5C%7B0%2C1%2C2%5C%7D\" alt=\"Grade\\in \\{0,1,2\\}\" eeimg=\"1\"/> </li><ul><li data-pid=\"AU3FFlFc\">0 表示遗忘（复习失败）</li><li data-pid=\"RgP9ycHU\">1 表示记住（复习成功）</li><li data-pid=\"zSqh_DW6\">2 表示容易（复习成功）</li></ul><li data-pid=\"YtRdClmN\">评分影响系数 d = 1</li><li data-pid=\"Gvxfw_dO\">可提取性影响系数 e = 1</li></ul><li data-pid=\"zosLM_OR\">初始稳定性自适应 <img src=\"https://www.zhihu.com/equation?tex=S_0+%3D+%5Ccfrac%7B%5Cln+0.9%7D%7B%5Ccfrac%7B%5Csum%5Climits_i%5En+%5Cln+R_i+%5Ctimes+I_i%5Ctimes+cnt_i%7D%7B%5Csum%5Climits_i%5En+I_i%5E2%5Ctimes+++cnt_i%7D%7D\" alt=\"S_0 = \\cfrac{\\ln 0.9}{\\cfrac{\\sum\\limits_i^n \\ln R_i \\times I_i\\times cnt_i}{\\sum\\limits_i^n I_i^2\\times   cnt_i}}\" eeimg=\"1\"/> </li><ul><li data-pid=\"lXOeqj2u\">即对第一次复习到遗忘曲线进行线性回归，计算实际的稳定性</li></ul><li data-pid=\"vWfOzuUj\">初始难度自适应 <img src=\"https://www.zhihu.com/equation?tex=D_0%5E%7B%5Cprime%7D+%3D+%5Ccfrac%7B%5Cln+R_t%7D%7B%5Cln+R_c%7D%5E%7B%5Cfrac%7B1%7D%7B-b%7D%7D+%5Ctimes+D_0\" alt=\"D_0^{\\prime} = \\cfrac{\\ln R_t}{\\ln R_c}^{\\frac{1}{-b}} \\times D_0\" eeimg=\"1\"/> </li><ul><li data-pid=\"EtA8a5K7\">目标保留率 <img src=\"https://www.zhihu.com/equation?tex=R_t\" alt=\"R_t\" eeimg=\"1\"/> </li><li data-pid=\"kU2laz2c\">目前保留率 <img src=\"https://www.zhihu.com/equation?tex=R_c\" alt=\"R_c\" eeimg=\"1\"/> </li><li data-pid=\"6ye8IARJ\">如果 <img src=\"https://www.zhihu.com/equation?tex=R_c+%3C+R_t\" alt=\"R_c &lt; R_t\" eeimg=\"1\"/> ，就提高初始难度，这样新卡片的复习间隔增长速度就会下降，反之亦然</li></ul></ul><h2>有现成的算法库吗？</h2><p data-pid=\"zds0i4Kp\">钓鱼插件实现了该算法的 JavaScript 版本：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/oflg/fishing/blob/master/action-fishing.js\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">fishing/action-fishing.js</a>，本项目中的 simulator.py 中实现了 Python 版本。</p><p data-pid=\"Ppim2qLR\">该算法尚未稳定，还有待收集数据验证。很多参数是人工设置的，尚未实现自适应，所以目前没有提供算法库。</p><h2>我可以使用该算法吗？</h2><p data-pid=\"gTvVFkbs\">可以，但请在项目中指向本仓库。</p><hr/><p data-pid=\"XalS1LV2\">字虽不多，但求有意。最近还得忙下一篇论文的算法，就不一一展开介绍了，感兴趣的朋友直接 fork 一份代码自己玩吧～</p>",
+  "column": {
+    "updated": 1706022041,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+    "title": "学委叶哥的随笔",
+    "image_url": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1280249768422608896"
+  },
+  "comment_count": 49,
+  "image_url": "https://picx.zhimg.com/v2-f9540a80c326b9131ca33befc9c8d679_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

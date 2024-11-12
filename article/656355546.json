@@ -1,0 +1,74 @@
+{
+  "status": 0,
+  "updated": 1724732120,
+  "author": {
+    "is_followed": false,
+    "badge": [],
+    "name": "叶峻峣",
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "avatar_url": "https://picx.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+  },
+  "can_tip": false,
+  "excerpt": "我已成功使用机器学习从解释性文本中为简单的陈述性知识生成优质的间隔重复卡片 [1]（…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 656355546,
+  "voteup_count": 8,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1694851944,
+  "url": "https://api.zhihu.com/articles/656355546",
+  "comment_permission": "all",
+  "title": "对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式",
+  "content": "<p data-pid=\"GpZgsbl5\">我已成功<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2DY7qsP5iHsiA5hxUHheV8hu7Xe96vdGyYX\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">使用机器学习从解释性文本中为简单的陈述性知识生成优质的间隔重复卡片</a><sup data-text=\"使用机器学习从解释性文本中生成优质的间隔重复卡片\" data-url=\"https://zhuanlan.zhihu.com/p/716570823\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2VVmj24FLixtrijdAbkKty91JQruAaZGbHE6\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GPT-4 在指导下，通常能够从解释性文本中为陈述性知识生成可用的间隔重复卡片</a><sup data-text=\"GPT-4 在指导下，通常能够从解释性文本中为陈述性知识生成可用的间隔重复卡片\" data-url=\"https://zhuanlan.zhihu.com/p/656760808\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>），但对于更复杂的概念性材料，效果不尽如人意。这里的问题并不完全是系统生成了「不好」的卡片（至少<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zrqgkr9n3eCMNsAPDsRozt3HLd8nRT5nVASc\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，如果提供了编写卡片的原则，大型语言模型（LLM）的表现可能会有所提升</a><sup data-text=\"对于卡片生成任务，如果提供了编写卡片的原则，大型语言模型（LLM）的表现可能会有所提升\" data-url=\"https://zhuanlan.zhihu.com/p/644435843\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>）；更大的问题是，生成的卡片只强化了表面内容 —— 也就是字面的内容，而不是其<b>意义</b>或为何要关心它（基于<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zFSbY4oPcbeKpotrJVf1A8P\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《如何阅读一本书》- Adler 和 van Doren</a><sup data-text=\"《如何阅读一本书》 - Adler and van Doren\" data-url=\"https://zhuanlan.zhihu.com/p/673340458\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup> 的观点）。</p><p data-pid=\"FL6D95B9\">举一个非常简单的例子，考虑 Hefferon 的《线性代数》中的定义 1.10：</p><blockquote data-pid=\"d7Bf7tmG\">对于一个线性方程组，如果它的非零元素行从左往右第一个非零元素，都严格比上面行的首个非零元素更靠右，并且全零行都在矩阵的底部，那么这个方程组被称为就是<b>阶梯形</b>方程组。</blockquote><p data-pid=\"AwwoJ5eh\">大语言模型会围绕<b>术语</b>提出这样的问题：</p><ul><li data-pid=\"Z3xheZsO\"> 「线性方程组成为阶梯形必须要满足什么条件？」</li><ul><li data-pid=\"H1spyYrn\"> （术语 -&gt; 定义）</li></ul><li data-pid=\"-5eK-k_j\"> 「对于一个线性方程组而言，如果它的非零行从左往右第一个非零元素，都严格地比上面行的首个非零元素更靠右，并且全零行都在矩阵的底部，我们把这样的方程组叫做什么？」</li><ul><li data-pid=\"1Fdk5LHw\"> （定义 -&gt; 术语）</li></ul></ul><p data-pid=\"UHnkFHfJ\">然而，这些问题只是强化了信息，而非理解。我手动编写的问题还会包括：</p><ul><li data-pid=\"rzWmYJ4_\">「这个线性方程组是否是阶梯形的？为什么是/不是？&lt;例子&gt;」  </li><ul><li data-pid=\"VKK6lUga\"> （例子 -&gt; 分类）</li></ul><li data-pid=\"HjYmA-p7\"> 「给出一个阶梯形线性方程组的例子。」</li><ul><li data-pid=\"HTPTr6_R\"> （类别 -&gt; 例子）</li><li data-pid=\"ZG_tval7\"> 以及：「给出一个非阶梯形的线性方程组的例子。」</li></ul><li data-pid=\"wkvRUK7k\"> 「如何把一个线性方程组转化为阶梯形（如果可变形）？」</li><ul><li data-pid=\"MYzLPgF6\"> （与其他概念的关联）</li><li data-pid=\"BHDRFvrP\"> 原书的定义这里刚刚引入了高斯消元法，所以只暗示了关联（但我制卡时把它点明了）</li><li data-pid=\"AvWpCtCY\"> 并且可能还有一些轻量的解题练习：「把这个方程组转化为阶梯形（如果可转换）：&lt;例子&gt;」。</li></ul><li data-pid=\"eq4Pqb3L\"> 以及许多关于这个概念<b>目的</b>的问题；例如：</li><ul><li data-pid=\"yp8X_S7Y\"> 「阶梯形能快速给出一个线性方程组的解集的什么信息？」</li><li data-pid=\"pHPZCVHo\"> 「阶梯形如何表明线性方程组的一个方程是否冗余？」</li><li data-pid=\"MMZHjUA0\"> 「一个有多个解的线性方程组的阶梯形会是什么样子？用一个例子解释。」</li><li data-pid=\"sh07EAz6\"> ……等等。这些细节出现在接下来的几页中，所以人们可能会把它们当成<b>分立</b>的概念，单独高亮和强化。但我想强调的是，我不想在<b>没有</b>后续这样卡片的情况下，添加关于定义的卡片；作为读者，如果我还不知道如何提出这些问题，当我看到定义时，我会在心里添加一个「TODO」，并会去寻找这些细节。但是，至少在没有进一步指导的情况下，模型不知道这么做。（译注：让模型从上下文中 query 不就好了）</li></ul></ul><p data-pid=\"Q7KB_xRL\">这应该不会令人感到意外。训练模型的数据不会包括大量分解复杂概念主题的抽认卡，这不是一般性的资料。在我到目前为止的简单测试中，如果我提供大量的指导，语言模型可以生成更详尽的卡片，但一套简单的提示词是不够的（如<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zomoPzCNzSi5GqtfTeVWgm7RjmiArjS8vvM5\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示，来确定从何种角度制卡</a><sup data-text=\"对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示，来确定从何种角度制卡\" data-url=\"https://zhuanlan.zhihu.com/p/644435780\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>）。例如，我仅仅念咒「将概念应用于例子」就没获得我想要的卡片。我必须说「生成一个线性方程的例子，并提问它是否处于阶梯形式。」显然，这个模型并不太重视「通过提问具体实例来深入理解概念」这一策略。至少在编写间隔重复卡片的任务中是这样。</p><p data-pid=\"46AsA9g0\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z51A7hr2YYsZruMBgmK4hH86smWNcV66Z7tQc\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">一个编写卡片的模式语言</a>可能能给模型足够的指导，让它们做得更好。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"Lt9YBUdx\"><a href=\"https://zhuanlan.zhihu.com/p/656354899\" class=\"internal\">卡片生成任务中，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题</a></li><li data-pid=\"4q79hEHU\"><a href=\"https://zhuanlan.zhihu.com/p/639267420\" class=\"internal\">将卡片生成任务定义为强化目标的过滤问题</a></li><li data-pid=\"-B49kUGx\"><a href=\"https://zhuanlan.zhihu.com/p/656760808\" class=\"internal\">GPT-4 在指导下，通常能够从解释性文本中为陈述性知识生成可用的间隔重复卡片</a></li><li data-pid=\"ruTpoh21\"><a href=\"https://zhuanlan.zhihu.com/p/716570823\" class=\"internal\">叶峻峣：使用机器学习从解释性文本中生成优质的间隔重复卡片</a></li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"qLLAHaKG\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">Jarrett</span>Ye、中庸的知行合一，校对<span class=\"nolink\">偶然奇怪~ ☆</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zmrbnm683nVZi9ut63vsr8BwYKEtATA6e4B3\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">In prompt generation, LLMs lack prompt-writing patterns for complex conceptual material (andymatuschak.org)</a></blockquote>",
+  "column": {
+    "updated": 1656554884,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "叶峻峣",
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "avatar_url": "https://pic1.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    },
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "title": "间隔重复 & 注意力管理",
+    "image_url": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1525782291741208576"
+  },
+  "comment_count": 0,
+  "image_url": "",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

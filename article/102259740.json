@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1581321554,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://pica.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "首先，找到一份大学英语六级翻译词汇的文档六级翻译词组 [图片] 复制不了怎么办？百度快照！ [图片] …",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 102259740,
+  "voteup_count": 37,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1578721667,
+  "url": "https://api.zhihu.com/articles/102259740",
+  "comment_permission": "all",
+  "title": "【实战】大学英语六级翻译词汇快速制卡记录",
+  "image_width": 589,
+  "content": "<p data-pid=\"UsGtQ_ei\">首先，找到一份大学英语六级翻译词汇的文档</p><a href=\"https://link.zhihu.com/?target=http%3A//www.doc88.com/p-0806358211282.html\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-ec6fc8423a2ff1ab678c6efd3f920a12_120x160.jpg\" data-image-width=\"160\" data-image-height=\"226\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">六级翻译词组</a><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-8a34e6a9498591ab5094a7c23ca232ad_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"938\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic4.zhimg.com/v2-8a34e6a9498591ab5094a7c23ca232ad_r.jpg\" data-original-token=\"v2-35a1885752acf266581a3722f73f8b7a\"/></figure><p data-pid=\"CLe-pMtK\">复制不了怎么办？百度快照！</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-2f9f8082eca14fd76d5e92aff8b7a2f9_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"935\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic2.zhimg.com/v2-2f9f8082eca14fd76d5e92aff8b7a2f9_r.jpg\" data-original-token=\"v2-800866d60056e26a6be3c1ec95ff0b58\"/></figure><p data-pid=\"YaowU7Ld\">复制粘贴到 notepad++</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f3f04857fd55387105e56acf3b6dbea7_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1080\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic2.zhimg.com/v2-f3f04857fd55387105e56acf3b6dbea7_r.jpg\" data-original-token=\"v2-aceea8c7a7ce32e9fe7d337d24395abb\"/></figure><p data-pid=\"rK5Na7Lc\">将“ 数字 ”中的数字替换成“换行 数字”</p><p data-pid=\"d39uPz70\">注：匹配代码应为 ([0-9]+)</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-13c2d16e5f555501568fae3e597e8221_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"947\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic4.zhimg.com/v2-13c2d16e5f555501568fae3e597e8221_r.jpg\" data-original-token=\"v2-2d7f7a8a7b798bf74806ead12719f70f\"/></figure><p data-pid=\"0VjlZaHi\">改掉一些小错误（比如：两万五千里长征的英文 25000 Li 也有数字）</p><p data-pid=\"C5lG49No\">然后到了重要的一步：将中文和英文间的空格替换成特定的分隔符（我以 tab 键为例）</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-8ee2facbe0acbad7aa4f3c34b13536f1_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"949\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic4.zhimg.com/v2-8ee2facbe0acbad7aa4f3c34b13536f1_r.jpg\" data-original-token=\"v2-4050e6500286c66bd813447e9e08ce3c\"/></figure><p data-pid=\"gnzdyXZv\">这里使用正则表达式查找和替换</p><p data-pid=\"bqx9Zfg6\">匹配的表达式：</p><p data-pid=\"dF5EWyOl\">(?&lt;=[一-龥]) *?(?=[a-zA-Z])</p><p data-pid=\"dCgnmG2A\">然后依然是改掉一些小错误（比如：《中庸》这种带书名号的，需要手动替换，当然用匹配也可以，代码 (?&lt;=》) *?(?=[a-zA-Z]) ）</p><p data-pid=\"jsG3Wd8D\">然后保存为 UTF-8 格式</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-e25ca7611d64934f73634634762fb7ec_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"944\" data-rawheight=\"424\" class=\"origin_image zh-lightbox-thumb\" width=\"944\" data-original=\"https://pic3.zhimg.com/v2-e25ca7611d64934f73634634762fb7ec_r.jpg\" data-original-token=\"v2-f1e28836bea4b2b5b32e87da0742dbcf\"/></figure><p data-pid=\"O3YgjSPK\">然后在桌面端的 Anki 进行导入</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e1658c3852c09cb795f58ff8c9954bd7_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"586\" data-rawheight=\"549\" class=\"origin_image zh-lightbox-thumb\" width=\"586\" data-original=\"https://pic2.zhimg.com/v2-e1658c3852c09cb795f58ff8c9954bd7_r.jpg\" data-original-token=\"v2-aa7c711480f29228d6514551af52bfeb\"/></figure><p data-pid=\"i5Vi4ZMi\">然后选择模板，用 Basic（问答题）就可以了</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-4113e75f8edc4b1a0deaa80f02a844b7_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1270\" data-rawheight=\"1009\" class=\"origin_image zh-lightbox-thumb\" width=\"1270\" data-original=\"https://pic2.zhimg.com/v2-4113e75f8edc4b1a0deaa80f02a844b7_r.jpg\" data-original-token=\"v2-58cac8aa11db6b5945689925bcd183bc\"/></figure><p data-pid=\"6K6pcw9-\">效果（我后面又把序号去掉了，并用了我自己的模板）：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-cea8b8eb362e776dae0a035a0e5fda6b_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1080\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic2.zhimg.com/v2-cea8b8eb362e776dae0a035a0e5fda6b_r.jpg\" data-original-token=\"v2-b085c6d840d2cdc98cd718b9494585ed\"/></figure><p data-pid=\"mMtO3yEk\">以上就是一次完整的批量制卡活动。</p><p data-pid=\"iNiIiGMT\">需要会一点正则表达式，没有太多门槛，大部分人都能学会。</p><p data-pid=\"2tmRlLCs\">欢迎来圈子里交流讨论：</p><a href=\"https://www.zhihu.com/club/1182973609588469760\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-50b24d58c12f69ab70afc18a2a76e71f_180x120.jpg\" data-image-width=\"723\" data-image-height=\"542\" class=\"internal\">Anki高考 - 知乎</a><p></p>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 7,
+  "image_url": "https://pic1.zhimg.com/v2-1f1222ed2bb99fed01abc7d97986770a_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

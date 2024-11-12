@@ -1,0 +1,74 @@
+{
+  "status": 0,
+  "updated": 1697034161,
+  "author": {
+    "is_followed": false,
+    "badge": [],
+    "name": "叶峻峣",
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "avatar_url": "https://picx.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+  },
+  "can_tip": false,
+  "excerpt": "在间隔重复记忆系统 [1]中，建模和评估面临一个难题：我们试图估计一个随时间变化的…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 660604968,
+  "voteup_count": 3,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1696997625,
+  "url": "https://api.zhihu.com/articles/660604968",
+  "comment_permission": "all",
+  "title": "重试结果可能会提供额外的可提取性信号",
+  "content": "<p data-pid=\"NW7iXyS_\">在<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4eXdSMJFv2qVGXSUEKH4vdcHBrLHcFY1ZGfC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复记忆系统</a><sup data-text=\"间隔重复记忆系统（Spaced repetition memory system）\" data-url=\"https://zhuanlan.zhihu.com/p/404257681\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>中，建模和评估面临一个难题：我们试图估计一个随时间变化的连续值（回忆概率，或<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4dAUBxVn79XSWRxGZHnKRXCP5XHeX2P9sw3y\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">记忆的双组分模型</a>中可提取性），但我们得到的却是稀疏的一比特二元样本：记住，或没记住。如果读者没记住，他们的可提取性可能是 10%，也可能是 90%。</p><p data-pid=\"K_HrTafZ\">但在典型的 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2GB3wDnERaJr2337zGJdb5Gnr7tURrfmoxu\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SRS 重试机制</a><sup data-text=\"SRS 重试机制\" data-url=\"https://zhuanlan.zhihu.com/p/623551320\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>中，假设读者在第一次尝试后不久的重试中仍未能记住。那么，你对第一次尝试时的可提取性的估计就应该降低。若失败次数增多，应进一步降低估计。</p><p data-pid=\"gVBZ9t4Y\">我不确定如何在现实中构建一个包含这个因素的模型。在每次后续失败后，可提取性估计应该下降多少？我不确定如何在这里找到「人工标注（ground truth）」。</p><p data-pid=\"hv5Ct2mC\">这种信号在学术文献中<b>有所</b>体现，其中常见的做法是要求受试者不断练习项目，直至成功。尝试次数有时会被当作一个变量来分析。在 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zKo9oLfGnps2DZxPMotN9EiTdwAi6dZrTqX\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Ebbinghaus, H. (1913). Memory: A Contribution to Experimental Psychology (H. A. Ruger &amp; C. E. Bussenius, Trans.). (Original work published 1885)</a> 一书中，<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z27aRzfKv9AhrdENveH1MhBGWj9HzTe5R1pZ\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">赫尔曼·艾宾浩斯</a>几乎将尝试次数作为唯一的信号（一种较为粗糙的可提取性信号）。</p><h2>参考文献</h2><p data-pid=\"KrT6BJn-\">这个想法是在 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zZumxAcTBYSuU7Wc5iYAaCC8dfkLLQmMDM5\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">2022-02-22</a> 与 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2NzKC1UDHBSjGkyVmDJL2CNqJDKxeiFZRSJ\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Giacomo Randazzo</a> 的一次交谈中产生的。他抱怨自己不得不扔掉很多「遗忘」的样本，因为这些都是「重试」的尝试。起初，我觉得这是理所当然的，因为这些样本的 ISI 几乎为零，所以毫无意义。然而，后来我意识到了我在这篇笔记中所描述的问题。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"Tx7-ZXG0\"><a href=\"https://zhuanlan.zhihu.com/p/623551320\" class=\"internal\">SRS 重试机制</a></li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"GyAv5TZe\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zq2kRQRbZ5ykqy6TWtece3NscvMdjYRUZFr\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Retry outcomes may give extra retrievability signal (andymatuschak.org)</a></blockquote>",
+  "column": {
+    "updated": 1656554884,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "叶峻峣",
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "avatar_url": "https://picx.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    },
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "title": "间隔重复 & 注意力管理",
+    "image_url": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1525782291741208576"
+  },
+  "comment_count": 0,
+  "image_url": "",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1635754401,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://pica.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "声明渐进阅读没有太复杂的地方，我们在渐进中的所有操作只为了尽可能好地做到以下两…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 318653942,
+  "voteup_count": 102,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1606578947,
+  "url": "https://api.zhihu.com/articles/318653942",
+  "comment_permission": "all",
+  "title": "渐进阅读懒人样式",
+  "image_width": 1800,
+  "content": "<h2>声明</h2><p data-pid=\"Uyj7o_v4\">渐进阅读没有太复杂的地方，我们在渐进中的所有操作只为了尽可能好地做到以下两点：</p><ol><li data-pid=\"ohKs74YI\">理解</li><li data-pid=\"9gXki2KL\">记忆</li></ol><p data-pid=\"rpGnaqbw\">理解要求我们选择合适的阅读材料，进行适当的拆分<sup data-text=\"示范5：聚集信息\" data-url=\"https://www.yuque.com/supermemo/wiki/example_conglomerating_information\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>和改写<sup data-text=\"示范4：改写文本\" data-url=\"https://www.yuque.com/supermemo/wiki/example_rewording_texts\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，建立连贯<sup data-text=\"一致性与连贯性\" data-url=\"https://zhuanlan.zhihu.com/p/264327134\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>的知识结构；记忆要求我们将理解的内容表述得简洁、易记<sup data-text=\"基于主动回忆的学习中的知识结构与表述\" data-url=\"https://www.yuque.com/supermemo/articles/20rules_base\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>，并科学地复习，在知识间产生丰富的联想。</p><p data-pid=\"6fZIcEG2\">当然，这两点说起来简单，做起来难。这并不像软件操作那样一学就会，而是需要大量实践才能逐步提高。沃兹博士<sup data-text=\"彼得 · 沃兹尼亚克\" data-url=\"https://zhuanlan.zhihu.com/p/303204832\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>写了大量关于理解和记忆的学说和方法，实践这些学说和方法才是核心。</p><p data-pid=\"GG2ll3Ht\">我写了以上两百多字的偏题内容，只是想强调一下本文的目的：为了更好地渐进阅读。SuperMemo 已经成为我的主力阅读器，本文将分享我的阅读样式以及快速统一格式的操作。</p><p data-pid=\"hZ_paN35\">我的阅读样式不以美观为目标，而是以最佳的可读性和舒适度为目标，方便大家长时间渐进阅读。而我分享的操作，也是为了尽可能在调整格式上省时间，以便大家专注于学习本身。切忌成为样式上的完美主义，而要做学习上的完美主义<sup data-text=\"完美主义者的增量学习\" data-url=\"https://www.yuque.com/supermemo/wiki/il_for_perfectionists\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>。</p><p data-pid=\"lOFp5YhV\">建议大家采用我的样式和操作之后不要再继续折腾这些东西，而要把精力放到渐进的「核心环节」——阅读、提取、改写、挖空、复习、优先级——之上</p><p data-pid=\"0HtIYYPu\">好了，不偏题了，咋们开始讲正事吧！</p><h2>准备工作</h2><p data-pid=\"zOnyX5pL\">确保已经阅读前文并开始导入一些文本内容，开始实践渐进阅读。</p><p data-pid=\"S2tfmpiN\">建议先下载好 Quicker、Notepad++，之后一键调整格式需要用到。</p><h2>全局样式与布局</h2><p data-pid=\"wWnW1Nnk\">SuperMemo 会对没有自带样式的内容（比如你是从文本编辑器里复制到 SuperMemo 里的）自动应用全局样式。</p><p data-pid=\"H0Ggioqb\">全局样式的文件在路径「 你安装的位置\\sm18\\bin」下。主要有两个文件：「supermemo.css」和「layout.ini」。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-e9a7f47dbe2b95ce49c1c1d7ffeb6181_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"453\" data-rawheight=\"429\" class=\"origin_image zh-lightbox-thumb\" width=\"453\" data-original=\"https://pic4.zhimg.com/v2-e9a7f47dbe2b95ce49c1c1d7ffeb6181_r.jpg\" data-original-token=\"v2-acfc6d95783747324be29cbc5478c256\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"RgXyDX1a\">supermemo.css 就是所有卡片的默认样式了，涉及卡片内容的字体、字号、背景颜色、字体颜色等等。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a461341c5d5486f19af9034bbbcda2a4_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"972\" data-rawheight=\"478\" class=\"origin_image zh-lightbox-thumb\" width=\"972\" data-original=\"https://pic1.zhimg.com/v2-a461341c5d5486f19af9034bbbcda2a4_r.jpg\" data-original-token=\"v2-a461341c5d5486f19af9034bbbcda2a4\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8QirtBhK\">layout.ini 是 SuperMemo 的各窗口布局，比如卡片窗口的位置和大小、知识树窗口的位置和大小等等。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-aa1079f5f197fc25de600447dbc0c368_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1086\" data-rawheight=\"872\" class=\"origin_image zh-lightbox-thumb\" width=\"1086\" data-original=\"https://pic3.zhimg.com/v2-aa1079f5f197fc25de600447dbc0c368_r.jpg\" data-original-token=\"v2-aa1079f5f197fc25de600447dbc0c368\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"UevGmekL\">这里建议直接使用我的样式和布局文件，覆盖一下原来的文件即可。字体文件则需要打开安装：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-65f4ef558b93b448e14566446b829f60_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"428\" data-rawheight=\"195\" class=\"origin_image zh-lightbox-thumb\" width=\"428\" data-original=\"https://pic3.zhimg.com/v2-65f4ef558b93b448e14566446b829f60_r.jpg\" data-original-token=\"v2-7cd49c636136748c5307a52832f712c8\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"K1QPM-7m\">下载地址：</p><a href=\"https://link.zhihu.com/?target=https%3A//pan.baidu.com/s/1u4x0neKhDA1MoWn5hpIo-Q\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.baidu.com/s/1u4x0ne</span><span class=\"invisible\">KhDA1MoWn5hpIo-Q</span><span class=\"ellipsis\"></span></a><p data-pid=\"hbsJyDhd\">提取码：xsv1 </p><h2>主题</h2><p data-pid=\"rDk-uDXS\">我用的主题是 TabletDark：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-67115679bccb96702f826e223e9aac17_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1312\" data-rawheight=\"864\" class=\"origin_image zh-lightbox-thumb\" width=\"1312\" data-original=\"https://pic2.zhimg.com/v2-67115679bccb96702f826e223e9aac17_r.jpg\" data-original-token=\"v2-67115679bccb96702f826e223e9aac17\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"WhKeOQ3r\">请到菜单栏-Window-Themes 设置：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-e5dde3beaac5b8f9a8fc1a7b6dd33654_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1016\" data-rawheight=\"494\" class=\"origin_image zh-lightbox-thumb\" width=\"1016\" data-original=\"https://pic1.zhimg.com/v2-e5dde3beaac5b8f9a8fc1a7b6dd33654_r.jpg\" data-original-token=\"v2-e5dde3beaac5b8f9a8fc1a7b6dd33654\"/></figure><h2>效果预览</h2><p data-pid=\"RaMvubnu\">摘抄</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-86d8e6ecf4b5aca1fb0492cdfdb55975_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1754\" data-rawheight=\"1696\" class=\"origin_image zh-lightbox-thumb\" width=\"1754\" data-original=\"https://pic2.zhimg.com/v2-86d8e6ecf4b5aca1fb0492cdfdb55975_r.jpg\" data-original-token=\"v2-86d8e6ecf4b5aca1fb0492cdfdb55975\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"dLG2253Q\">挖空和参考</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-b6abf04e58f456610c96c7562bcb09ce_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"982\" data-rawheight=\"734\" class=\"origin_image zh-lightbox-thumb\" width=\"982\" data-original=\"https://pica.zhimg.com/v2-b6abf04e58f456610c96c7562bcb09ce_r.jpg\" data-original-token=\"v2-b6abf04e58f456610c96c7562bcb09ce\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"bSlxFvYd\">注意：由于 layout 与屏幕分辨率有关，大家用我的 layout 可能出现窗口高度太小的情况，请自行拉伸，并点击 window》layout》save custom layout 保存布局：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-ea4fc4c99ee37ef89800ce603ce2c979_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1038\" data-rawheight=\"848\" class=\"origin_image zh-lightbox-thumb\" width=\"1038\" data-original=\"https://pic4.zhimg.com/v2-ea4fc4c99ee37ef89800ce603ce2c979_r.jpg\" data-original-token=\"v2-ea4fc4c99ee37ef89800ce603ce2c979\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jd7wze0a\">补充：如果发现字体边缘有锯齿感，请右键 sm18.exe，兼容性》更改高 DPI 设置，将高 DPI 缩放替代打开，选择<b>应用程序</b>即可。（2021/11/01 更新）</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-6dbc397af3330378cf03b83cbc98210d_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1192\" data-rawheight=\"706\" class=\"origin_image zh-lightbox-thumb\" width=\"1192\" data-original=\"https://pic4.zhimg.com/v2-6dbc397af3330378cf03b83cbc98210d_r.jpg\" data-original-token=\"v2-381fb9f82d26b6038288da71e5f41635\"/></figure><h2>统一格式</h2><p data-pid=\"S0HRowdu\">由于我们经常会从网页中复制内容到 SuperMemo，而这些内容通常来说都是自带样式的。</p><p data-pid=\"bAZDr5Uz\">为了尽可能让大部分内容的样式保持一致，我们需要去除这些样式，让全局样式发挥作用。</p><p data-pid=\"dkZ2DAeP\">SuperMemo 自带的格式清除功能的快捷键是 Shift+Ctrl+F12。</p><p data-pid=\"Sl9i76n5\">但是这个功能有时候并不能完全去除格式。为此我写了一个 Quicker 动作，大家只需要按照下面链接中的步骤进行设置即可。</p><p class=\"ztext-empty-paragraph\"><br/></p><a href=\"https://link.zhihu.com/?target=https%3A//getquicker.net/sharedaction%3Fcode%3D859bda04-fe78-4385-1b37-08d88a0dba1c\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-819e751601d16d7d19be78c9d81b0223_120x160.jpg\" data-image-width=\"390\" data-image-height=\"500\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">统一格式 - 已分享的动作 - Quicker</a><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TMgvzDno\">效果：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-5e68c73200991efede80cdf53d11f566_b.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1171\" data-rawheight=\"810\" data-thumbnail=\"https://pic1.zhimg.com/v2-5e68c73200991efede80cdf53d11f566_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1171\" data-original=\"https://pic1.zhimg.com/v2-5e68c73200991efede80cdf53d11f566_r.jpg\" data-original-token=\"v2-5e68c73200991efede80cdf53d11f566\"/></figure><h2>结语</h2><p data-pid=\"GrcyrBs2\">结合本文和<a href=\"https://zhuanlan.zhihu.com/p/313684185\" class=\"internal\">上一期文章</a>，大家已经可以在 SuperMemo 中较为顺利地进行渐进阅读了。</p><p data-pid=\"fX_slEfX\">下一期可能会介绍如何批量导入阅读材料，但是建议读者先用好手头的工具，渐进阅读几篇在自己收藏夹里吃灰的文章，再开始处理大量阅读材料。入门渐进阅读，也应该是渐进的<sup data-text=\"温馨？提示\" data-url=\"https://www.yuque.com/supermemo/wiki/hints_and_tips\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup>。</p>",
+  "column": {
+    "updated": 1604842769,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://pica.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "https://api.zhihu.com/columns/c_1308886122672484352",
+    "title": "SuperMemo—渐进学习最前沿！",
+    "image_url": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1308886122672484352"
+  },
+  "comment_count": 25,
+  "image_url": "https://picx.zhimg.com/v2-ff518547cb26b697b1c493e41b05c713_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

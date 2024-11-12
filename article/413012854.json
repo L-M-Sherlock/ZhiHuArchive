@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1657349915,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://pica.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "最近我在对 Anki 知识库进行双周设计审查 [1]时，发现了这样一张需要重构的卡片： [图片] …",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 413012854,
+  "voteup_count": 45,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1632364601,
+  "url": "https://api.zhihu.com/articles/413012854",
+  "comment_permission": "all",
+  "title": "怎样用 Anki 理解公式：以统计学为例",
+  "image_width": 621,
+  "content": "<p data-pid=\"EmgZeI-V\">最近我在对 Anki 知识库进行<a href=\"https://link.zhihu.com/?target=https%3A//ericsiggyscott.medium.com/anki-tips-the-biweekly-design-review-d9bc430c61af\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">双周设计审查</a><sup data-text=\"译者注：类似于 code review\" data-url=\"\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>时，发现了这样一张需要重构的卡片：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b092299c7827ea869b2bf0d1c7fe98e2_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"625\" data-rawheight=\"419\" class=\"origin_image zh-lightbox-thumb\" width=\"625\" data-original=\"https://pic3.zhimg.com/v2-b092299c7827ea869b2bf0d1c7fe98e2_r.jpg\" data-original-token=\"v2-b092299c7827ea869b2bf0d1c7fe98e2\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"7rDl98hE\">离我做这张卡大约有一年半了。它的简易度是 205%，就是说我一直没弄错。它的间隔是一年半，所以我短时间内不用再主动回忆他了。<b>根据这些数据</b>，这张抽认卡制作得挺成功。而且它是<b>有用</b>的：我制作这张卡片是因为我偶尔需要用 R 或 Python 计算并可视化数据的置信区间，知道卡片中的方程式后，我在 Google 上搜索正确的语法便能更快，更省脑力。</p><p data-pid=\"8ao42ZtM\">但是这张卡片有浓厚的<b>卡片设计异味</b>：我是通过<b>死记硬背</b>来记住这个方程的，这意味着我不能解释「为什么」这个方程的形式是这样的，因而回忆起来很困难，复习起来不愉快（即使我能答对），我<b>现实生活</b>中需要这些知识时，更是<b>难以推理解释</b>。</p><p data-pid=\"ih0fwDvr\">我隐约意识到这与 t-分布的临界值有关，但是当统计课程一结课，所有的知识很快变得非常模糊。</p><p data-pid=\"paoHcE1H\">识别这样卡片的基本方法，是根据答错一张卡片的时候，你脑海里产生的想法：</p><ul><li data-pid=\"GfuHrJQ9\"> 如果我是把高质量的卡片弄错了，就会一激灵「<b>噢，那确实，我懂了。我真傻</b>。」</li><li data-pid=\"Ue6cUpoK\"> 如果答错了死记硬背的卡片，我反而会想：「<b>噢，真不走运。下次再试试吧</b>。」<br/> </li></ul><p data-pid=\"FTZCvPvQ\">一般说来，通过死记硬背来学习<b>公式</b>在 Anki 是有风险的。公式的用意在于浓缩大量非常<b>复杂的逻辑</b>——通常是一整段的内容——而只用很小的空间。公式内在的复杂逻辑需要<b>多张</b>抽认卡才能加深理解。</p><p data-pid=\"kW1z_wYt\">所以让我们来优化好这张卡吧。我们将遵循分为两部分的策略，这也是我在科学类话题中经常使用的：</p><ol><li data-pid=\"32LjIt3s\">识别出<b>地标概念</b>，便于让直觉有定位，然后</li><li data-pid=\"sGO74C1r\">围绕这些地标概念，添加足够必要的<b>细节卡片</b>。</li></ol><h2>大局地标概念</h2><p data-pid=\"XEprLhOa\">掌握统计问题背后的直觉是很棘手的，因为统计学充满了技术用语和准确假设，而统计学文本对此不假思索地使用。像<b>总体</b>、<b>样本均值</b>、<b>标准误差</b>、<b>标准差</b>和<b>分布</b>这样的术语很快就会互相混淆（我们甚至还没说区分 P.D.F.、P.M.F.、C.D.F.、P.P.F. 和 I.S.F. 这回事呢）</p><p data-pid=\"55EFJCe0\">等等，我们在干啥？我的教授曾面向我们这帮计算机科学学生（哈！），像西西弗一样徒劳地教一些可靠的实验方法，而其中我依稀记得，任何数据样本的<b>均值</b>很神奇地遵循不错的理论分布（即使数据本身没有遵循这个分布）。这正是我们能够计算置信区间的出发点。但要我解释这个事实就很难了。</p><p data-pid=\"_wwJggWW\">于是请谷歌图片来帮忙 (这里是<a href=\"https://link.zhihu.com/?target=http%3A//cyberstatistic2018.altervista.org/sampling-distribution/%3Fdoing_wp_cron%3D1608305070.6880528926849365234375\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">原始图片来源</a>)。 我缺少的<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5vA4vw86DKNq22xt6pRWhumeRmSzwV6hxRHE\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念抓手</a><sup data-text=\"概念抓手\" data-url=\"https://zhuanlan.zhihu.com/p/418158326\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>是<b>抽样分布</b>。一般说来，用图像来概括这样的概念要比用文本解释容易得多，所以我经常依靠图像给出问题的答案：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-74440fea76f46712afd4633e4c05f202_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"628\" data-rawheight=\"614\" class=\"origin_image zh-lightbox-thumb\" width=\"628\" data-original=\"https://pic1.zhimg.com/v2-74440fea76f46712afd4633e4c05f202_r.jpg\" data-original-token=\"v2-74440fea76f46712afd4633e4c05f202\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"J4v2WCrq\">在我们的脑内文库中刻印下这张图片后（这也就是为什么概念抓手<sup data-text=\"概念抓手\" data-url=\"https://zhuanlan.zhihu.com/p/418158326\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>和技术用语威力无穷），我们就为记住置信区间做了更足的准备。仅仅是清晰而轻松地回忆起置信区间来自这样的分布函数，就已经很有用了。</p><p data-pid=\"stiMIZQ_\">但在我们继续前，我们可以再往地标概念上添一笔：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-44d00eafbd07ee615efdbb633ab2c294_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"682\" data-rawheight=\"616\" class=\"origin_image zh-lightbox-thumb\" width=\"682\" data-original=\"https://pic3.zhimg.com/v2-44d00eafbd07ee615efdbb633ab2c294_r.jpg\" data-original-token=\"v2-44d00eafbd07ee615efdbb633ab2c294\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"AgbMtf7D\">太棒了。我们已经解决地标概念了——该处理细节了！</p><h2>细节卡</h2><p data-pid=\"vkwEaEtW\">就像任何复杂的概念一样，为了用 Anki 学好公式，我们便要<b>将其拆分</b>，<b>逐个</b>击破。</p><p data-pid=\"bgnmdZbC\">对于公式，我会做卡来处理<b>公式的每一项</b>或者<b>每一个符号</b>。这样每个部分就成为自身的概念抓手：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-748e56c336dbfee8ef5cfe50e9d2c6a2_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1745\" data-rawheight=\"716\" class=\"origin_image zh-lightbox-thumb\" width=\"1745\" data-original=\"https://pic3.zhimg.com/v2-748e56c336dbfee8ef5cfe50e9d2c6a2_r.jpg\" data-original-token=\"v2-748e56c336dbfee8ef5cfe50e9d2c6a2\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Y7kNsu83\">这真的很棒，因为比起原来放上一整个公式的卡片，现在的一张张卡片更能<b>让我专注</b>。例如，现在我可以慢慢考虑那个复杂的 <code>1-α/2;n-1</code> 下标 (也是公式中最难记住的部分)。</p><p data-pid=\"pI6MxDFS\">然而，公式中每一项还是很复杂，而且我们仍然在死记硬背。让我们再次对这两个问题发起挑战：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-8409029af8dc0a918c654b3285ab5b9d_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1615\" data-rawheight=\"914\" class=\"origin_image zh-lightbox-thumb\" width=\"1615\" data-original=\"https://pic2.zhimg.com/v2-8409029af8dc0a918c654b3285ab5b9d_r.jpg\" data-original-token=\"v2-8409029af8dc0a918c654b3285ab5b9d\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"mG7Qovbr\"><b>现在</b>我准备好解释置信区间方程式的每一部分从何而来了，这个公式就更容易记住了。但更重要的是，<b>推理</b>也变得更容易，因为我比以前更多地依赖语义直觉，而不是死记硬背。</p><p data-pid=\"kiYrYhE3\">但要想让这张语义联系的网发展成更大的知识库，更具深度 (「为什么平均值的标准差随着 n 的平方根增大而减小？」) 或广度 (「什么时候使用 <code>t-分布</code> 而不是 <code>z-分布</code> 来计算关于某个平均值的置信区间？」) ，就不能停留在我们目前做的这几张卡片了。但是<b>目标已经达成了</b>：我们已经重构了一张卡片，所以设计审查可以告一段落了（好吧，说实话，这次设计审查花了我整整两天。有些重构任务一口气做不完啊！）</p><p data-pid=\"ErlcH8MQ\">我只想加几张<b>缩写卡片</b>来巩固我新制作的概念抓手，然后就收工了：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-4a07192268b2594e9732acdf8f653404_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1362\" data-rawheight=\"891\" class=\"origin_image zh-lightbox-thumb\" width=\"1362\" data-original=\"https://pica.zhimg.com/v2-4a07192268b2594e9732acdf8f653404_r.jpg\" data-original-token=\"v2-4a07192268b2594e9732acdf8f653404\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TgFNpMLV\">如果你好奇，这个案例里我<b>保留了原来的卡片</b>。保留完整公式的卡挺好，只需要一些支持性的分析卡片即可。所有这些卡片加在一起的记忆效果，远胜任何一张单独的卡片。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"75hgt3zN\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//ericsiggyscott.medium.com/anki-design-study-learning-statistics-6d5f04bc4908\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anki Design Study: Learning Statistics</a></blockquote><hr/><p data-pid=\"kZwjm4VC\">更多有关制卡原则的内容，请关注：</p><a href=\"https://www.zhihu.com/collection/614280525\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">制卡原则与知识表述</a><p></p>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 1,
+  "image_url": "https://picx.zhimg.com/v2-a9cc257ace40f22e4a8bb6a305fa5659_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

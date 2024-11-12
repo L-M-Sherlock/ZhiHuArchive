@@ -1,0 +1,74 @@
+{
+  "status": 0,
+  "updated": 1724732122,
+  "author": {
+    "is_followed": false,
+    "badge": [],
+    "name": "叶峻峣",
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "avatar_url": "https://pic1.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+  },
+  "can_tip": false,
+  "excerpt": "许多人试图创建系统，使用机器学习从解释性文本中为简单的陈述性知识生成优质的间隔…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 645670312,
+  "voteup_count": 5,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1690213571,
+  "url": "https://api.zhihu.com/articles/645670312",
+  "comment_permission": "all",
+  "title": "对于卡片生成任务，如果提供了充足的上下文，大型语言模型（LLM）可能会表现得更好",
+  "content": "<p data-pid=\"hg3y7MF7\">许多人试图创建系统，<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2DY7qsP5iHsiA5hxUHheV8hu7Xe96vdGyYX\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">使用机器学习从解释性文本中为简单的陈述性知识生成优质的间隔重复卡片</a><sup data-text=\"使用机器学习从解释性文本中生成优质的间隔重复卡片\" data-url=\"https://zhuanlan.zhihu.com/p/716570823\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，这些系统往往会对高亮内容进行处理。你选择一段文字，然后让模型根据所选的内容生成卡片。但是，除非所选的内容是一个孤立的、明确的陈述，否则模型通常需要更多的上下文来理解如何生成优质卡片。比如，你如果从教科书中选择了一句话，模型就需要对教科书的层次、已经介绍过的内容，以及观点的框架等方面有所了解。为此，我发现在目标文本周围提供几千个上下文相关的词元往往会有所帮助。</p><p data-pid=\"AsH9iVAd\">从某种角度来看，这样的上下文信息就像是在告诉模型，什么样的卡片才符合用户的需求；这也和另一种观点相吻合<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zomoPzCNzSi5GqtfTeVWgm7RjmiArjS8vvM5\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示来确定需要强化何种角度</a><sup data-text=\"对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示来确定强化的视角\" data-url=\"https://zhuanlan.zhihu.com/p/644435780\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。</p><h2>实例</h2><p data-pid=\"H-euSXPh\">&lt;context&gt;设想一个质量为 <img src=\"https://www.zhihu.com/equation?tex=m\" alt=\"m\" eeimg=\"1\"/> 的粒子，被限定在 <img src=\"https://www.zhihu.com/equation?tex=x\" alt=\"x\" eeimg=\"1\"/> 轴上运动，同时受到某个特定的力 <img src=\"https://www.zhihu.com/equation?tex=F%28x%2C+t%29\" alt=\"F(x, t)\" eeimg=\"1\"/> 作用（参见图 1.1）。经典力学的主要任务，就是求出粒子在任何特定时间的位置： <img src=\"https://www.zhihu.com/equation?tex=x%28t%29\" alt=\"x(t)\" eeimg=\"1\"/> 。一旦我们得知了这个，我们就能算出速度（ <img src=\"https://www.zhihu.com/equation?tex=v%3Dd+x+%2F+d+t\" alt=\"v=d x / d t\" eeimg=\"1\"/> ）、动量（ <img src=\"https://www.zhihu.com/equation?tex=p%3Dm+v\" alt=\"p=m v\" eeimg=\"1\"/> ）、动能（ <img src=\"https://www.zhihu.com/equation?tex=T%3D%281+%2F+2%29+m+v%5E2\" alt=\"T=(1 / 2) m v^2\" eeimg=\"1\"/> ）或者其它我们感兴趣的动力学变量。我们如何求出 <img src=\"https://www.zhihu.com/equation?tex=x%28t%29\" alt=\"x(t)\" eeimg=\"1\"/> 呢？我们应用牛顿第二定律： <img src=\"https://www.zhihu.com/equation?tex=F%3Dm+a\" alt=\"F=m a\" eeimg=\"1\"/> 。（对于保守系统——也就是我们只会考虑的那种，幸运的是，它们也是在微观层面上唯一存在的类型，力可以表达为势能函数的导数，也就是 <img src=\"https://www.zhihu.com/equation?tex=%7B+%7D%5E1+F%3D-%5Cpartial+V+%2F+%5Cpartial+x\" alt=\"{ }^1 F=-\\partial V / \\partial x\" eeimg=\"1\"/> ，于是牛顿定律就变成了 <img src=\"https://www.zhihu.com/equation?tex=m+d%5E2+x+%2F+d+t%5E2%3D-%5Cpartial+V+%2F+%5Cpartial+x\" alt=\"m d^2 x / d t^2=-\\partial V / \\partial x\" eeimg=\"1\"/> 。）这个结论，再配合适当的初始条件（通常是在 <img src=\"https://www.zhihu.com/equation?tex=t%3D0\" alt=\"t=0\" eeimg=\"1\"/> 时的位置和速度），就能确定 <img src=\"https://www.zhihu.com/equation?tex=x%28t%29\" alt=\"x(t)\" eeimg=\"1\"/> </p><p data-pid=\"i4aRxU64\">而量子力学处理同一问题的方式截然不同。在这种情况下，我们要找的是粒子的波函数， <img src=\"https://www.zhihu.com/equation?tex=%5CPsi%28x%2C+t%29\" alt=\"\\Psi(x, t)\" eeimg=\"1\"/> ，我们通过求解薛定谔方程得到它：</p><p data-pid=\"4DSOQS33\"><img src=\"https://www.zhihu.com/equation?tex=+i+%5Chbar+%5Cfrac%7B%5Cpartial+%5CPsi%7D%7B%5Cpartial+t%7D%3D-%5Cfrac%7B%5Chbar%5E2%7D%7B2+m%7D+%5Cfrac%7B%5Cpartial%5E2+%5CPsi%7D%7B%5Cpartial+x%5E2%7D%2BV+%5CPsi+\" alt=\" i \\hbar \\frac{\\partial \\Psi}{\\partial t}=-\\frac{\\hbar^2}{2 m} \\frac{\\partial^2 \\Psi}{\\partial x^2}+V \\Psi \" eeimg=\"1\"/> </p><p data-pid=\"l1MgQYn7\">其中， <img src=\"https://www.zhihu.com/equation?tex=i\" alt=\"i\" eeimg=\"1\"/> 是 -1 的平方根， <img src=\"https://www.zhihu.com/equation?tex=%5Chbar\" alt=\"\\hbar\" eeimg=\"1\"/> 是普朗克常数，或者更确切地说，是他的原始常数（ <img src=\"https://www.zhihu.com/equation?tex=h\" alt=\"h\" eeimg=\"1\"/> ）除以 <img src=\"https://www.zhihu.com/equation?tex=2+%5Cpi\" alt=\"2 \\pi\" eeimg=\"1\"/> ：</p><p data-pid=\"_gK-AVpK\"><img src=\"https://www.zhihu.com/equation?tex=+%5Chbar%3D%5Cfrac%7Bh%7D%7B2+%5Cpi%7D%3D1.054573+%5Ctimes+10%5E%7B-34%7D+%5Cmathrm%7B~J%7D+%5Cmathrm%7B~s%7D+\" alt=\" \\hbar=\\frac{h}{2 \\pi}=1.054573 \\times 10^{-34} \\mathrm{~J} \\mathrm{~s} \" eeimg=\"1\"/> </p><p data-pid=\"TtpC4RKW\">薛定谔方程在逻辑上与牛顿第二定律的作用相似：给定适当的初始条件（通常是 <img src=\"https://www.zhihu.com/equation?tex=%5CPsi%28x%2C+0%29\" alt=\"\\Psi(x, 0)\" eeimg=\"1\"/> ），薛定谔方程就能确定未来所有时间的 <img src=\"https://www.zhihu.com/equation?tex=%5CPsi%28x%2C+t%29\" alt=\"\\Psi(x, t)\" eeimg=\"1\"/> ，就像在经典力学中，牛顿定律决定了未来所有时间的 <img src=\"https://www.zhihu.com/equation?tex=x%28t%29\" alt=\"x(t)\" eeimg=\"1\"/> 。 <img src=\"https://www.zhihu.com/equation?tex=%5E2\" alt=\"^2\" eeimg=\"1\"/> &lt;/context&gt;</p><p data-pid=\"8L-9boIG\">&lt;target&gt;薛定谔方程在逻辑上与牛顿第二定律的作用相似&lt;/target&gt;</p><p data-pid=\"kTPOO7FF\">&lt;hint&gt;怎样&lt;/hint&gt;</p><p data-pid=\"FiwO2UWH\">有&lt;context&gt;：「<b>问题</b>：薛定谔方程在力学中作用，和牛顿第二定律有何相似之处？<b>答案</b>：只要有合适的初始条件，两者都可以确定系统在任何时间点的状态。」</p><p data-pid=\"guDOhVtE\">没有：「薛定谔方程如何与牛顿第二定律相似呢？<b>答案</b>：薛定谔方程描述了量子状态随环境的演变，就如同牛顿第二定律描述了物体受力后的加速度变化。」</p><p data-pid=\"YMOLaW2J\">前者更贴近原文的语境。</p><h2><br/>链接至本文（已汉化）</h2><ul><li data-pid=\"2c7QS6xy\"><a href=\"https://zhuanlan.zhihu.com/p/656760808\" class=\"internal\">GPT-4 在指导下，通常能够从解释性文本中为陈述性知识生成可用的间隔重复卡片</a></li><li data-pid=\"k0BwCBN_\"><a href=\"https://zhuanlan.zhihu.com/p/716570823\" class=\"internal\">叶峻峣：使用机器学习从解释性文本中生成优质的间隔重复卡片</a></li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"Uy-oUh0g\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4、校对 <span class=\"nolink\">Jarrett</span>Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5LQFLXHFLrb4nYAtLrB3JBzNyJng8fYHVJYN\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">In prompt generation, LLMs may perform better with ample context (andymatuschak.org)</a></blockquote>",
+  "column": {
+    "updated": 1656554884,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "叶峻峣",
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "avatar_url": "https://picx.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    },
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "title": "间隔重复 & 注意力管理",
+    "image_url": "https://pica.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1525782291741208576"
+  },
+  "comment_count": 0,
+  "image_url": "",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

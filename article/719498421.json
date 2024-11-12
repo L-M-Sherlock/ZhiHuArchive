@@ -1,0 +1,74 @@
+{
+  "status": 0,
+  "updated": 1726124566,
+  "author": {
+    "is_followed": false,
+    "badge": [],
+    "name": "叶峻峣",
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "avatar_url": "https://pic1.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+  },
+  "can_tip": false,
+  "excerpt": "助记媒介可以扩展到个人笔记上 [1]；这种方式为我的卡片提供了结构，并让我更流畅、…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 719498421,
+  "voteup_count": 10,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1726123414,
+  "url": "https://api.zhihu.com/articles/719498421",
+  "comment_permission": "all",
+  "title": "为阅读网页内容时在行内撰写间隔重复卡片而设计界面",
+  "content": "<p data-pid=\"hO95GKPx\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5ARNXtS5VxteskEW91S1yYTgAcLABNXsZuJE\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">助记媒介可以扩展到个人笔记上</a><sup data-text=\"助记媒介可以扩展到个人笔记上\" data-url=\"https://zhuanlan.zhihu.com/p/487321909\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>；这种方式为我的卡片提供了结构，并让我更流畅、更自信地编写卡片。但是在阅读材料和笔记之间来回切换仍然是不流畅的。而且，在阅读笔记中的卡片时，我有时仍然会感到迷惑，因为<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z39cc5AFaeVExHJkKKEEjAohRNZxz7iuZWSTX\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">用散文格式编写的关于源材料的卡片缺乏上下文</a><sup data-text=\"用散文格式编写的关于源材料的卡片缺乏上下文\" data-url=\"https://zhuanlan.zhihu.com/p/623969708\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。我的直觉是，某种行内交互会在这里起作用。</p><p data-pid=\"llNAxJqa\">在 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/2022-12-22\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">2022-12-22</a> 我做了一个类似的工作流原型。</p><ul><li data-pid=\"Gbw3yZVC\"> 我使用 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z24wddcuZTB2YvHTA4LkZ759DhydyufhrzCh\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Hypothes.is</a> 来编写内置卡片（它使用的格式与<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4mAF1uBV96r72e4NjLcDaujEyTPGiUQJEj8C\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我的个人助记媒介实现</a><sup data-text=\"我的个人助记媒介实现\" data-url=\"https://zhuanlan.zhihu.com/p/589049043\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>中所述的格式相同）<br/> <br/></li><li data-pid=\"LSBlIHm3\"> 使用 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3aPTeVY2CVJqs61k26bHCvTZnniAK3hMEk3B\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Obsidian</a> 的<a href=\"https://link.zhihu.com/?target=https%3A//github.com/weichenw/obsidian-hypothesis-plugin\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">插件</a>将这些内置卡片导入到我的 Markdown 笔记中<br/> <br/></li><li data-pid=\"90gzGjUU\"> 使用 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z72ioKyd4X48WndtAsfkhnKwsD8o5PaaT384o\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Orbit</a> 的<code>笔记同步</code>功能导入这些卡片。<br/> </li></ul><h3>日志</h3><p data-pid=\"DXk6bqSp\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6WvCc6W6ikmyPRRzxD1PCZ2ntTw7txyg9rCZ\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">2022-12-30</a>：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zn9igQGgecLncBSpKbgv5123mC5YEAP3hnfP\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Ozzie Kirkby</a> 尝试将机器生成的卡片与我的卡片相匹配！<a href=\"https://link.zhihu.com/?target=https%3A//gist.github.com/kirkbyo/3530442c3bcdfc3cd5a5b95cafde9d0e\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">他的笔记</a>。<br/></p><ul><li data-pid=\"BMfY1soC\">Ozzie 提了个值得思考的问题，这个问题让我注意到：「在大多数情况下，我阅读时会实时编写卡片。我注意到，与平时阅读时相比，这样做的阻力要小很多。我认为降低阻力的话，一气完成阅读和制卡会更容易。」</li></ul><hr/><p data-pid=\"D_3SifZD\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zgTBe9eLWVyAosrskDqtgd1RRoQn-WXPitXut\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">2022-12-27</a>：迄今为止得到的观察结果。</p><ul><li data-pid=\"b2IIEQKl\"> 与将这些卡片写在我的笔记中相比，将它们写入文内的感觉要好得多，这让我感到惊讶。<br/> <br/></li><ul><li data-pid=\"UUZNd37X\"> 我注意到上下文切换感觉更加轻松。每次在笔记和文章之间切换，我都需要定位一下：我在哪里？下一张卡片写在哪里？当切换回之后：我在当前页面的什么位置？<br/> <br/></li><li data-pid=\"nwxwdVUh\"> 标重点功能让我对「内容范围」有一些非常粗略的印象。当我在文章笔记中写卡片时，我认为我正在做一些心理簿记，以追踪我写了哪些内容的卡片，哪些没有写。<br/> <br/></li><li data-pid=\"BZXjwctz\"> 有时，我需要「找到」我写的关于某个概念的卡片，我可以通过滚动到文本中介绍该概念的位置，然后单击合适的标重点轻松地做到这一点。<br/> <br/></li><li data-pid=\"h3ZSIJmf\"> 当我查看我已经编写的卡片时，<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z24wddcuZTB2YvHTA4LkZ759DhydyufhrzCh\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Hypothes.is</a> 界面能实现上述功能，我几乎总是在上下文中查看它——我同时看到「邻近」的文本。这太棒了！<br/> <br/></li></ul><li data-pid=\"8QkIIxl3\"> 原则上，在这里极大的优点<b>应该是</b>空间性——即卡片位置和文本位置之间的物理关联。不幸的是，这种效果在我目前的原型中减弱了，因为 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z24wddcuZTB2YvHTA4LkZ759DhydyufhrzCh\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Hypothes.is</a> 的注释并没有像谷歌文档的注释一样空间化：它们位于侧边栏中的线性列表中。<br/> <br/></li><ul><li data-pid=\"lF2hj5LX\"> 这意味着我不能简单地滚动到我感兴趣的页面部分，并查看「邻近」卡片。相反，我必须先滚动到页面的一部分，接着点击随机的标重点，以将侧边栏滚动到右侧「附近」，然后从那里浏览，但哪里没有明确标明附近的「边缘」。<br/> <br/></li><li data-pid=\"G8nRBiY5\"> 我很惊讶他们没有在空间上分布注解，因为他们努力在侧边栏的槽中构建非常精细的「提示」，这些「提示」确实是空间化的。<br/> <br/></li><li data-pid=\"iRxlKd44\">很遗憾，那些提示并不能解决我的问题：它们需要点击多次，容易出错。而且它们的交互受到<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6zGpscnGJpsV4brsMmuVrMvhYq6EUASYNTY4\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">上下文中的细节问题</a>的妨碍。<br/><br/></li></ul><li data-pid=\"ynY4C3Jk\"> 编辑界面使得添加同一段落的多张卡片变得笨拙。这还没有那么困扰我。<br/> <br/></li><ul><li data-pid=\"O9RcTdJu\"> 应该能在单个 Hypothesis 注释中编写多张卡片，但是有时在我复杂的导入操作中，用于分隔卡片的新行的格式会丢失。也许我努力一下可以解决这个问题。<br/> <br/></li></ul><li data-pid=\"WPv3keeK\"> 我不喜欢 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2ewMN8Hzd8gt4qyfQV1ognJ5PQs3CXxDfCJ\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Readwise</a> 每天仅从 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z24wddcuZTB2YvHTA4LkZ759DhydyufhrzCh\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Hypothes.is</a> 导入一次。这使得在编写内置卡片和编写开放式文章笔记之间流畅地切换变得困难，因为正在考虑的网页笔记可能尚不存在。<br/> <br/></li><ul><li data-pid=\"eKj8x8SW\"> 小阻力：网络书籍各个章节的卡片将被分成不同的笔记，如果我手写笔记，我可能会将它们放在同一个笔记中。<br/> <br/></li><li data-pid=\"PArX5V65\"> 有一个 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3aPTeVY2CVJqs61k26bHCvTZnniAK3hMEk3B\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Obsidian</a> 的插件，可以直接从 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z24wddcuZTB2YvHTA4LkZ759DhydyufhrzCh\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Hypothes.is</a> 导入卡片；我会尝试切换到它。<br/> <br/></li><li data-pid=\"ylsuK0QA\"> 此外， <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2ewMN8Hzd8gt4qyfQV1ognJ5PQs3CXxDfCJ\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Readwise</a> 似乎没法导入 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z24wddcuZTB2YvHTA4LkZ759DhydyufhrzCh\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Hypothes.is</a> 的文档位置元数据，所以我不能轻易地从笔记摘录跳回到页面位置。<br/> <br/></li><li data-pid=\"hcnZwczd\"> ……做完了——我已经切换到直接从 Obsidian 导入标重点了。现在等待时间很短，我已经从循环中剪掉了工作流程的一个环节。此外，看来我现在可以成功地在单个 Hypothesis 的标重点中编写多张卡片！太棒了！<br/> <br/></li></ul><li data-pid=\"r-N1AFIZ\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3aPTeVY2CVJqs61k26bHCvTZnniAK3hMEk3B\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Obsidian</a> 仍然很粗糙，我发现自己不想用它来实际写作......但我可以使用它来运行导入的插件。也许已经有人编写了能够直接运行的一些能替代它的命令行脚本？<br/> </li></ul><h3>链接至本文（已汉化）</h3><ul><li data-pid=\"GKDwZvA1\"><a href=\"https://zhuanlan.zhihu.com/p/623969708\" class=\"internal\">用散文格式编写的关于源材料的卡片缺乏上下文</a></li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"nXsnVv-e\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">Albert</span>，校对 <span class=\"nolink\">Shom</span>、Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6NAUU151tRAwC9JCEbi5aW7PVU2BFiwmsFWt\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Interface for writing spaced repetition prompts inline while reading web content (andymatuschak.org)</a></blockquote>",
+  "column": {
+    "updated": 1656897956,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "叶峻峣",
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "avatar_url": "https://picx.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    },
+    "url": "https://api.zhihu.com/columns/c_1525784109008203776",
+    "title": "助记媒介 & 思想工具",
+    "image_url": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1525784109008203776"
+  },
+  "comment_count": 0,
+  "image_url": "",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

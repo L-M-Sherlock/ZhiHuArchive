@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1656833886,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://pic1.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "在我的参考档案中，应该很容易建立持久的、可供人类阅读的资源链接。例如，当提到一…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 523759836,
+  "voteup_count": 6,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1654238719,
+  "url": "https://api.zhihu.com/articles/523759836",
+  "comment_permission": "all",
+  "title": "创建超链接到我的参考档案",
+  "image_width": 750,
+  "content": "<p data-pid=\"17FLowrl\">在我的参考档案中，应该很容易建立持久的、可供人类阅读的资源链接。</p><p data-pid=\"uYBvGSk2\">例如，当提到一篇论文时，最好能链接到 PDF——可能是链接到一个特定的页面。我可以使用一个 <code>file://</code> 的 URL，但这带来了几个问题。</p><ul><li data-pid=\"PrEJTRgH\">文件储存位置可能会变化</li><li data-pid=\"mCi7zKUt\">我无法链接到一个特定的页码</li><li data-pid=\"28pft4TW\">URL可能不具可读性</li><li data-pid=\"uSRzE3NH\">这在 iOS 上肯定无法运行</li></ul><p data-pid=\"yn-eocw7\">如果能链接到一个自定义的协议（如 <code>ammref://</code>），那就更好了，它可以</p><ul><li data-pid=\"JL268NdE\">重定向引用到具体文件</li><ul><li data-pid=\"8UsCrW1z\">如果需要的话，可以直接运行具体文件</li></ul><li data-pid=\"ZSNShdk6\">避免将我捆绑在任何文件系统结构或阅读器应用程序上</li><li data-pid=\"KFvsCSLY\">支持可读的 URL；例如</li><ul><li data-pid=\"acw5QqSm\"><code>ammref://Hattie/1994/VisibleLearning#p57</code> </li></ul></ul><p data-pid=\"FjMlb3lo\">这是很可行的。这将意味着：</p><ul><li data-pid=\"oA_4tm38\">制作一个简单的脚本，搜索有关联的参考资料</li><li data-pid=\"TKI14ZqH\">制作一个给出一个参考的 URL 的脚本</li><li data-pid=\"e01c6LsM\">使得 Alfred 的工作流能够运行后者</li></ul><hr/><h2>参考文献</h2><p data-pid=\"mNZzNRwW\"><a href=\"https://link.zhihu.com/?target=http%3A//www.dansheffler.com/blog/2014-07-02-custom-skim-urls/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Custom Skim URLs</a></p><blockquote data-pid=\"E53rYETh\">我希望能够在我的 Markdown 笔记中链接到 PDF 的任何一页，我知道我可以通过在浏览器中的 <code>file://URL</code> 的末尾添加 #35 来做到这一点，例如。但是我使用 <a href=\"https://link.zhihu.com/?target=http%3A//skim-app.sourceforge.net/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Skim</a>，在浏览器中阅读 PDF 是不可取的。此外，URL 最终会变得超长，而且有一些丑陋的转义符，如 %20 代表空格，这似乎没有必要，因为我所有的 PDF 都是用 <a href=\"https://link.zhihu.com/?target=http%3A//bibdesk.sourceforge.net/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">BibDesk</a> 精心组织的。所以我设置了一个小的 AppleScript，它将解析一个以 <code>sk://</code> 开始的自定义 URL，以获取 BibDesk 的引用键和页面索引，然后找出我想从 BibDesk 获取的 PDF，并在 Skim 中打开该 PDF，以获取正确的页面索引。</blockquote><p data-pid=\"RLsk4xR-\">URN 在设计这个系统时可能也会有用：<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Uniform_Resource_Name\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Uniform Resource Name - Wikipedia</a></p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"bO6qU41W\"><a href=\"https://zhuanlan.zhihu.com/p/533129885\" class=\"internal\">§笔记写作系统</a></li></ul><h2>声明</h2><p data-pid=\"Gnf4r_6b\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"89i_Dk5g\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>题图 by mizuki_fua<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7xyZLXF3my9t5sPb7Kzdsg4pauz5mtbZqHWa\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Creating hyperlinks to my reference archive (andymatuschak.org)</a></blockquote>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://pic1.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://pic1.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 2,
+  "image_url": "https://picx.zhimg.com/v2-7a3cf931bb829729edba4c9a467ebbef_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

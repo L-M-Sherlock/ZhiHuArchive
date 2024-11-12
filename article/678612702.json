@@ -1,0 +1,74 @@
+{
+  "status": 0,
+  "updated": 1705896638,
+  "author": {
+    "is_followed": false,
+    "badge": [],
+    "name": "叶峻峣",
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "avatar_url": "https://picx.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+  },
+  "can_tip": false,
+  "excerpt": "我有些尴尬地发现（2023-09-11 ），当我要求大语言模型 生成阅读理解问题，以此来帮我…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 678612702,
+  "voteup_count": 11,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1705627929,
+  "url": "https://api.zhihu.com/articles/678612702",
+  "comment_permission": "all",
+  "title": "阅读理解问题可以发现文本基础的漏洞",
+  "content": "<p data-pid=\"IwzkIHQr\">我有些尴尬地发现（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2ZU99Tadhs5MdtF8rTsSuw\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">2023-09-11</a>），当我要求<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zBe9vHWwqLoyaeA7eJfLnBA\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">大语言模型</a>生成阅读理解问题，以此来帮我评估我针对<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4e951xY6fkjGgoHGwHHchi\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《线性代数》- Hefferon</a> 某一章节所构建的文本基础（参见<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zHTLU2rAxAo8i1xBGVQPPcr\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">构建-整合模型</a>）时，有几个问题揭示出了文本中我完全未曾理解的部分。尽管我已经努力仔细阅读。</p><p data-pid=\"w4lzz9rt\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zVKwVczp4nEAKPWqfS1BqMi\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">阅读理解问题令人不快</a><sup data-text=\"阅读理解问题令人不快\" data-url=\"https://zhuanlan.zhihu.com/p/678195187\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，这些也不例外。关于这次我注意到的问题，我在这里加了一些笔记：</p><blockquote data-pid=\"SUYmpfFD\">不幸的是，当遇到与我未能充分理解的内容相关的问题时，这种感觉<b>尤为</b>明显。这些问题对我来说似乎毫无意义。我能感觉到它们在要求我给出某种特定的答案，但我无法确定具体需要回答什么（因为我之前并未真正理解过需要的信息）。因此，这些问题就像让我盲目地追寻一样，我不得不翻来覆去地检查章节，试图找到与问题中词汇相匹配的段落。然后我才意识到，我原来根本没有真正理解过那部分内容，虽然我可能最终弄清楚了问题的意图……但这是一种不优雅的达成方式。</blockquote><p data-pid=\"1vppysNZ\">有趣的是，这里的机制是间接的：当阅读理解问题暴露出我理解上的失败时，我通常并不完全明白这个问题到底在问什么。但这种困惑引导我重新阅读，寻找可能有帮助的信息，这个过程最终帮助我弥补了理解上的空缺。</p><p data-pid=\"Kt3LXL1m\">我假设阅读理解问题同样能揭示出我在情境模型（参见<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zHTLU2rAxAo8i1xBGVQPPcr\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">构建-整合模型</a>）中的漏洞，尽管我对此没有太多直接体验。对我而言，通过需要推理（即<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7ffiDfqTR9pPcEEUUbCL7C\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">迁移学习</a><sup data-text=\"迁移学习\" data-url=\"https://zhuanlan.zhihu.com/p/491870061\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>）的复杂任务来发现这些漏洞更为常见。当我无法完成这些任务，而我的文本基础又看起来很扎实时，要确定情境模型的具体崩溃点似乎颇有难度。</p><p data-pid=\"SjIuMbXz\">另见，在<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zKPv6qkSErdRGqyryvgS2wS\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">助记媒介</a><sup data-text=\"助记媒介（Mnemonic medium）\" data-url=\"https://zhuanlan.zhihu.com/p/459483765\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>的背景下：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z58xEZ2ojjRjm1sMcih4bfQ\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">助记媒介中穿插的卡片有时会不太愉快地揭示出阅读理解上的疏漏</a>。</p><h2><br/>链接至本文（已汉化）</h2><ul><li data-pid=\"D7n-QY34\"><a href=\"https://zhuanlan.zhihu.com/p/679063443\" class=\"internal\">阅读理解</a></li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"7Sa7nG10\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zLZUS7KTrG4ABm3tRLGxMMj\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Reading comprehension questions can uncover textbase holes (andymatuschak.org)</a></blockquote>",
+  "column": {
+    "updated": 1656897956,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "叶峻峣",
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "avatar_url": "https://picx.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    },
+    "url": "https://api.zhihu.com/columns/c_1525784109008203776",
+    "title": "助记媒介 & 思想工具",
+    "image_url": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1525784109008203776"
+  },
+  "comment_count": 5,
+  "image_url": "",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

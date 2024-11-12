@@ -1,0 +1,74 @@
+{
+  "status": 0,
+  "updated": 1691905489,
+  "author": {
+    "is_followed": false,
+    "badge": [],
+    "name": "叶峻峣",
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "avatar_url": "https://picx.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+  },
+  "can_tip": false,
+  "excerpt": "有关优化间隔重复系统的调度算法 。来自 Jarrett Ye（校对：正是在下），一位赞助者…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 649704369,
+  "voteup_count": 16,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1691892617,
+  "url": "https://api.zhihu.com/articles/649704369",
+  "comment_permission": "all",
+  "title": "叶峻峣, 苏敬勇, 曹译珑. 优化间隔重复调度的一种随机最短路径算法[C]//第 28 届 ACM SIGKDD 知识发现与数据挖掘学术会议论文集, 2022: 4381-4390",
+  "content": "<p data-pid=\"-0TlZXaD\">有关<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zYK41LaWjuWkRmv3ZGnNmoF\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">优化间隔重复系统的调度算法</a>。来自 Jarrett Ye（校对：正是在下），一位赞助者。</p><p data-pid=\"sO1b_-zW\">我觉得这篇论文里最吸引我的是他们用「半衰期」来描述<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2D1qPwddPktBjpNuwYFVva\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复记忆系统</a><sup data-text=\"间隔重复记忆系统（Spaced repetition memory system）\" data-url=\"https://zhuanlan.zhihu.com/p/404257681\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>卡片的状态。但问题是，你没法直接量出一张卡片的半衰期。你只能做一次观察，因为每次练习都会改变接下来的半衰期。同一个项目的半衰期序列当然是相互关联的，但这仍然相当棘手。</p><p data-pid=\"yxKEIgo4\">他们的方法是根据用户群体的初次回忆率将项目分为不同「难度组」。然后，他们可以使用汇总的用户组为后续事件拟合半衰期参数。可以想象，就像<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zFkZXm2t1D4FAGGrBUUHNz4\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">项目反应理论</a>那样，为每位用户再加一个「能力」/「熟悉度」参数。</p><p data-pid=\"70YrzRss\">然后，作者引入了一个马尔可夫时序模型，用于描述给定反应的半衰期和难度的转移方程组。这个方法已经被做成了 Anki 插件：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GitHub - open-spaced-repetition/fsrs4anki: A modern Anki custom scheduling based on free spaced repetition scheduler algorithm</a></p><h2><br/>链接至本文（已汉化）</h2><ul><li data-pid=\"JlrbeXr8\">暂无</li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"uMupMv4o\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">GPT</span>-4、校对 <span class=\"nolink\">Jarrett</span>Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zGrLCQ873eCpFvTsZoMRCbE\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Ye, J., Su, J., &amp; Cao, Y. (2022). A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling. Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 4381–4390 (andymatuschak.org)</a></blockquote>",
+  "column": {
+    "updated": 1656554884,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "叶峻峣",
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "avatar_url": "https://pic1.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    },
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "title": "间隔重复 & 注意力管理",
+    "image_url": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1525782291741208576"
+  },
+  "comment_count": 0,
+  "image_url": "",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

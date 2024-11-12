@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1660181027,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "特别是在硅谷，当一个人有了一个原型或一点运作良好的模糊念头时，就面临将其扩大的…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 500973639,
+  "voteup_count": 18,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1655088295,
+  "url": "https://api.zhihu.com/articles/500973639",
+  "comment_permission": "all",
+  "title": "过早的扩大规模会阻碍系统的迭代",
+  "image_width": 828,
+  "content": "<p data-pid=\"ErK4POkP\">特别是在硅谷，当一个人有了一个原型或一点运作良好的模糊念头时，就面临将其扩大的诱惑：让它为更多的人和更多的用例工作，把它变成一个平台，让业绩折线图向右上角奔跑，等等。这个剧本显然威力巨大，但它的部署应该有谨慎的时机，因为它往往会让整个系统的概念架构冻结在早期。</p><h3>为什么</h3><p data-pid=\"j_SHiVU-\">你要花时间建设通用的基础设施。需要仔细设计接口，写文档和测试，并且确保系统能处理负载。这些工作和做实验是对立的，不仅因为要占用时间：这套系统会更加固化。</p><p data-pid=\"3hwDk1tq\">一旦用户和用例增加，做出改变或者进行大胆的实验就变得很困难。你要保证现有的功能不被破坏，否则需要小心地沟通并管理变化。</p><p data-pid=\"uNXXmaV-\">这些不同的用户每天都要消耗大量的时间：在一个小的原型中，1% 的人出现的故障不会带来真正的问题，但当你有 10 万个用户时，它就会成为高度优先的问题。</p><p data-pid=\"Hup38Lx4\">一旦这个剧本成为主要目标，你的动机就会改变：你的目标自然会变成使业绩图表上升，而不是回答关于你的系统的基本问题。</p><h3>关于保持小规模</h3><p data-pid=\"Gm6Tx8O8\">扩大规模的一个巨大的好处是，<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7YyAp683VNbTmDG4hx9QFpf5urwxZJpsycS6\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">实践出洞见</a><sup data-text=\"实践出洞见\" data-url=\"https://zhuanlan.zhihu.com/p/521844479\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>的过程能得到更多的反馈。诚然，<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3H98n8DGZmu8XArqHZVsckyWvbTe8wK4kAt2\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">有效的系统设计需要从真刀真枪的使用情境汲取洞见</a><sup data-text=\"有效的系统设计需要从真刀真枪的使用情境汲取洞见\" data-url=\"https://zhuanlan.zhihu.com/p/552263007\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，但是创造小规模的真刀真枪的使用环境是可能的，你同样能将其用于回答关于你的系统的许多核心问题。事实上：技术专家经常本能地扩大他们的系统，以增加他们从严肃用户那里得到有力反馈的机会，但这是一个相当随机的方法。你可以通过精心组织你的原型设计过程来实现这一目标。这最终可能会更好，因为<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7Ldzn94FibghJBEG9hAebu8LMNV7NVBFvsfg\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">实践出洞见时，建议摸石头过河而不是先画蓝图</a><sup data-text=\"实践出洞见时，建议摸石头过河而不是先画蓝图\" data-url=\"http://zhuanlan.zhihu.com/p/484620977\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup></p><p data-pid=\"e32dqFRj\">当然，最终你会需要对系统进行归纳，以回答某些问题，但至少在研究成果方面，最好是使规模<b>遵循</b>这些问题所表达的需要。在这个意义上，它是一个工具性的目的，而不是一个终极目的。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"XBLDCJCE\"><a href=\"http://zhuanlan.zhihu.com/p/500393401\" class=\"internal\">在 2020 年大力推广助记媒介尚且为时过早</a></li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"IlsSjAoI\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>题图 by A2017laite<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2kr7QrJczqYyfwLFcv1FLEUMdVTsgfYSdFXA\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Premature scaling can stunt system iteration (andymatuschak.org)</a></blockquote>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://pica.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://pica.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 1,
+  "image_url": "https://picx.zhimg.com/v2-15534a90b9e609fb84cc40cb3677c7f6_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

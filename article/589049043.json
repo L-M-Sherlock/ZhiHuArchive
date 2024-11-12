@@ -1,0 +1,74 @@
+{
+  "status": 0,
+  "updated": 1726123505,
+  "author": {
+    "is_followed": false,
+    "badge": [],
+    "name": "叶峻峣",
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "avatar_url": "https://pic1.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+  },
+  "can_tip": false,
+  "excerpt": "我在自己的笔记写作系统 [1]中实现了助记媒介可以扩展到个人笔记 [2]的想法。这套系统…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 589049043,
+  "voteup_count": 5,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1670127268,
+  "url": "https://api.zhihu.com/articles/589049043",
+  "comment_permission": "all",
+  "title": "我的个人助记媒介实现",
+  "content": "<p data-pid=\"30XUe5PR\">我在自己的<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8XrKGDz49o6XxEx7tzGewzrXQnw6jSgv3Yyf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">笔记写作系统</a><sup data-text=\"§笔记写作系统\" data-url=\"https://zhuanlan.zhihu.com/p/533129885\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>中实现了<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5ARNXtS5VxteskEW91S1yYTgAcLABNXsZuJE\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">助记媒介可以扩展到个人笔记</a><sup data-text=\"助记媒介可以扩展到个人笔记上\" data-url=\"https://zhuanlan.zhihu.com/p/487321909\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>的想法。</p><p data-pid=\"V3Tqn38Y\">这套系统的原理是，不断扫描一组 Markdown 文件，寻找其中所嵌入的卡片（卡片语法见下）。之后这些卡片便属于我的活跃卡片集合。我还实现了一个组件，将这些提取出来的卡片同步到 Anki 中。</p><p data-pid=\"DInjBir1\">一些包含这一特性的样例笔记：</p><ul><li data-pid=\"D9YanZKp\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8iJEzmLdBMoWYtQHkDohDgeWz6UBGm74qEiW\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">人类作为信息处理机时的“信道容量”</a><sup data-text=\"人类作为信息处理机时的“信道容量”\" data-url=\"https://zhuanlan.zhihu.com/p/461578699\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup><br/> </li><li data-pid=\"JmVNtCvH\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6ZFtY8UGPaF9uofckBB7HwK62pssJAUg8C91\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">人类的信道容量随着每个组块的比特量的增加而增加</a><sup data-text=\"人类的信道容量随着每个组块的比特量的增加而增加\" data-url=\"https://zhuanlan.zhihu.com/p/462011439\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup><br/> </li></ul><p data-pid=\"NRbAl6II\">系统的实现请见 <a href=\"https://link.zhihu.com/?target=https%3A//github.com/andymatuschak/computer-supported-thinking\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/andymatuscha</span><span class=\"invisible\">k/computer-supported-thinking</span><span class=\"ellipsis\"></span></a>。</p><p data-pid=\"SZI4X3FJ\">对于正在进行的未处理的想法，见<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/Log\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">个人助记媒介</a></p><h2>语法</h2><h3>创建典型的双面 SRS 卡片</h3><blockquote data-pid=\"CobVGNAz\"> 问：一个量子比特的向量空间有多少维？<br/> 答：两维。</blockquote><p data-pid=\"Q3aYNI17\">问题和答案之间的空行是可选的。问题和答案目前不能跨越多个段落：包括「问：」或「答：」的段落被提取为问题或答案。</p><h3>创建挖空卡片</h3><p data-pid=\"ynw0VKgI\">在散文笔记的上下文中，我发现挖空往往更自然。这段话对应一张挖空卡片，其中有三个空：</p><blockquote data-pid=\"ukT_XtMu\"> 一旦激活，服务工作者{执行一次性的启动计算}，然后过渡到{空闲}状态。从这个状态开始，它将处理{获取或消息事件}，直到最终终止。</blockquote><p data-pid=\"Wfrzz8xg\">挖空卡片会利用填空所在的整段文本。例如，这个两面的卡片相当于从前面的例子中提取的一张卡片：</p><blockquote data-pid=\"GIOvfF9X\"> 问：一旦激活，服务工作者<b>???</b>，然后过渡到空闲状态。从这个状态开始，它将处理获取或消息事件，直到最终终止。<br/> 答：一旦激活，服务工作者<b>执行一次性的启动计算</b>，然后过渡到空闲状态。从这个状态开始，它将处理获取或消息事件，直到最终终止。</blockquote><h3>幂等性和唯一标识</h3><p data-pid=\"obJkmEX9\">这个系统的目的是实现幂等性。也就是说：你可以不断地修改你的笔记文件，它也会相应地跟踪变化。当你改变你的笔记时，系统会保持你所有嵌入卡片的 SRS 状态，除了你直接编辑过的卡片。</p><p data-pid=\"7IM_n10K\">更确切地说，嵌入的卡片有<b>唯一标识</b>。你可以修改卡片周围的笔记，甚至把卡片移到一条新的笔记中，而你的复习历史将被保留下来。但是如果你修改了一张卡片的文本，它将被视为一张新卡片，而你的复习历史将不会从旧卡片中迁移过来。这是因为这个系统是基于简易的纯文本文件，它没有足够的语义结构来明确说明一个给定的修改是代表一张新卡片还是一张旧卡片的修改。要解决这个问题，需要引入启发式方法或额外的标识。</p><p data-pid=\"oqfo-85L\">双面卡片的标识是由其问题和答案文本的哈希值得出的。挖空卡片的标识是由其包含段落的哈希值得出的。</p><p data-pid=\"BuuHZ-aA\">虽然如果你在笔记文件之间移动卡片，系统会很高兴地跟踪它们，但如果相同的卡片出现在多个笔记文件中，其行为就无法定义。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"P0ATmrg7\"><a href=\"https://zhuanlan.zhihu.com/p/481230325\" class=\"internal\">助记媒介应该允许读者对他们收集的卡片进行控制</a></li><li data-pid=\"dA7TEbhi\"><a href=\"https://zhuanlan.zhihu.com/p/487321909\" class=\"internal\">助记媒介可以扩展到个人笔记上</a></li><li data-pid=\"ck2YV3H2\"><a href=\"https://zhuanlan.zhihu.com/p/623969708\" class=\"internal\">用散文格式编写的关于源材料的卡片缺乏上下文</a></li><li data-pid=\"vVJeV5v0\"><a href=\"https://zhuanlan.zhihu.com/p/719498421\" class=\"internal\">为阅读网页内容时在行内撰写间隔重复卡片而设计界面</a></li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"sQRkHLJj\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4mAF1uBV96r72e4NjLcDaujEyTPGiUQJEj8C\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">My implementation of a personal mnemonic medium (andymatuschak.org)</a></blockquote>",
+  "column": {
+    "updated": 1656897956,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "叶峻峣",
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "avatar_url": "https://picx.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    },
+    "url": "https://api.zhihu.com/columns/c_1525784109008203776",
+    "title": "助记媒介 & 思想工具",
+    "image_url": "https://pic1.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1525784109008203776"
+  },
+  "comment_count": 0,
+  "image_url": "",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

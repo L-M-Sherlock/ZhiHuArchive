@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1673072373,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://pic1.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "RemNote [1] 是网页端的笔记系统 ，强调结构化的知识模型，对于将笔记整合进间隔重复…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 411854751,
+  "voteup_count": 19,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1631964664,
+  "url": "https://api.zhihu.com/articles/411854751",
+  "comment_permission": "all",
+  "title": "RemNote",
+  "image_width": 804,
+  "content": "<p data-pid=\"5X_vqrTP\"><a href=\"https://link.zhihu.com/?target=https%3A//www.remnote.io/homepage\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">RemNote</a><sup data-text=\"Remnote——记住你的笔记！\" data-url=\"https://zhuanlan.zhihu.com/p/229018036\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup> 是网页端的<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8XrKGDz49o6XxEx7tzGewzrXQnw6jSgv3Yyf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">笔记系统</a>，强调结构化的知识模型，对于将笔记整合进<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4eXdSMJFv2qVGXSUEKH4vdcHBrLHcFY1ZGfC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复记忆系统</a><sup data-text=\"间隔重复记忆系统\" data-url=\"https://zhuanlan.zhihu.com/p/404257681\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>提供了高质量的操作方法。参见：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5ARNXtS5VxteskEW91S1yYTgAcLABNXsZuJE\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">助记媒介可以扩展到个人笔记上</a><sup data-text=\"助记媒介可以扩展到个人笔记上\" data-url=\"https://zhuanlan.zhihu.com/p/487321909\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup></p><p data-pid=\"1IqM2b-S\">它试图强行施加一种知识模型<sup data-text=\"通用描述符\" data-url=\"https://zhuanlan.zhihu.com/p/274891979\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>，但这个模型过于一板一眼：高度形式化，很是压抑。最终的笔记适用于生成 SRS 卡片，但不太适用于散文。</p><p data-pid=\"etWQp1Sq\">例如，你可以通过编写 <code>Foo: foo‘s 的定义</code> 为来生成一张 SRS 卡片用于学习定义，或者使用项目符号列表描述概念的属性：</p><div class=\"highlight\"><pre><code class=\"language-text\"> ​遗忘曲线\n ​\n * 发现者：艾宾浩斯</code></pre></div><p data-pid=\"3ZiDkQEd\">RemNote 有嵌入的概念，以便概念层级组合成不同的「文档」。类似 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8PkzLcXuVG5xYF7sfUFhwF26WK2A2zCp8nAD\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Roam Research</a> ，这种设计的内在逻辑是，按此模型构建的文本块可以构成可重用的单元。我担心文本块的可组合性：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7DvEiUpF6dYkFGbpZZTBKQVM9jjNnx8D8Xzu\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">嵌入功能受到数据模型的可组合性的限制</a><sup data-text=\"嵌入功能受数据模型的可组合性限制\" data-url=\"https://zhuanlan.zhihu.com/p/412281111\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup></p><p data-pid=\"JDyRFaXf\">RemNote 是有趣的研究实验，值得从中学习。好像其作者 {Martin Schnieder} 正试图将其商业化，但我不能判断他对待这个目标有多认真。该软件会定期<a href=\"https://link.zhihu.com/?target=https%3A//www.remnote.io/updates\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">更新</a>，已经添加了一长串新功能。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"C1B7wen7\"><a href=\"https://zhuanlan.zhihu.com/p/404257681\" class=\"internal\">间隔重复记忆系统</a></li><li data-pid=\"fL77d2AN\"><a href=\"https://zhuanlan.zhihu.com/p/487321909\" class=\"internal\">助记媒介可以扩展到个人笔记上</a></li></ul><h2>声明</h2><p data-pid=\"zusdWzVJ\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"ifX2brIx\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6jecLFTkHG5MCFDvhwsd2p8YWykaHr6ZkHTi\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">RemNote</a></blockquote>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 1,
+  "image_url": "https://picx.zhimg.com/v2-7489ce9933f173b7fb178f66e7207330_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

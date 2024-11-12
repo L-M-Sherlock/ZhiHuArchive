@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1622734456,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://pic1.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "本文使用 Zhihu On VSCode 创作并发布最近在群里问问题的朋友又多了不少，老是要我…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 377726671,
+  "voteup_count": 23,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1622726416,
+  "url": "https://api.zhihu.com/articles/377726671",
+  "comment_permission": "all",
+  "title": "如何在 QQ 上快速检索自己创作的知乎内容？我写了个检索机器人。",
+  "image_width": 355,
+  "content": "<blockquote data-pid=\"9L_sIpT4\">本文使用 <a href=\"https://zhuanlan.zhihu.com/p/106057556\" class=\"internal\">Zhihu On VSCode</a> 创作并发布</blockquote><p data-pid=\"ksBglmHK\">最近在群里问问题的朋友又多了不少，老是要我打开知乎找自己写过的文章怪麻烦的，故把自己硬盘里吃灰的机器人拿出来改改。</p><p data-pid=\"oCYK7XhS\">由于之前有写过爬虫、搜索引擎和 QQ 机器人的经验，这次花了不到两小时就把机器人上线了。</p><h2>本项目涉及的 GitHub 项目</h2><p data-pid=\"5eK3HcgR\">知乎文章备份：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/L-M-Sherlock/zhihubackup\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/L-M-Sherlock</span><span class=\"invisible\">/zhihubackup</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"QcWftWXt\">哈工深新闻搜索：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/L-M-Sherlock/hitsz-news-search-engine\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/L-M-Sherlock</span><span class=\"invisible\">/hitsz-news-search-engine</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"PPc9Eqd_\">招生问答机器人小哈：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/L-M-Sherlock/HITszQAbot\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/L-M-Sherlock</span><span class=\"invisible\">/HITszQAbot</span><span class=\"ellipsis\"></span></a></p><h2>本项目涉及的一些工具</h2><p data-pid=\"YNv418Ps\">搜索引擎：elasticsearch</p><p data-pid=\"orBQCFP9\">爬虫：没有用框架，代码大部分是 fork <a href=\"https://link.zhihu.com/?target=https%3A//github.com/njzjz\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">njzjz</a> 大佬的</p><p data-pid=\"iumd1_LC\">机器人：nonebot + go-cqhttp，和之前<a href=\"https://zhuanlan.zhihu.com/p/363342119\" class=\"internal\">迁移记录</a>里的一致</p><h2>实现方案</h2><p data-pid=\"qmNernMv\">通过爬虫，将自己所写的回答和文章下载到本地，将对应的 url、title 和 content 存入 elasticsearch，并使用 elasticsearch 的 ik 中文分词器，来优化索引和查询。最后使用 nonebot 调用 elasticsearch 的查询接口，通过 go-cqhttp 与 QQ 通信。</p><p data-pid=\"86HwHgkM\">目前暂时没做全文索引，等我部署到服务器再考虑。理论上还可以将语雀、FAQ 等内容一起纳入搜索范围，实现在 QQ 群快速查找文章，帮群友答疑解惑。</p><h2>效果展示</h2><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-4b593153b2cd672a4daff87b95afd681_b.jpg\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-4b593153b2cd672a4daff87b95afd681\"/><figcaption>Image</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-2be544bacf650f24070960db4f2aed49_b.jpg\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-2be544bacf650f24070960db4f2aed49\"/><figcaption>Image</figcaption></figure><h2>结语</h2><p data-pid=\"Aq44yCES\">能将自己学过的技术用于帮助他人，真是在快乐不过的事了。虽然小哈那个项目最终迫于答辩压力终止了，但是它依然活在我心中。</p><p data-pid=\"Om_D-5sF\">另外，做自己想做的事，生产力是真滴高。</p>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 10,
+  "image_url": "https://picx.zhimg.com/v2-2be544bacf650f24070960db4f2aed49_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

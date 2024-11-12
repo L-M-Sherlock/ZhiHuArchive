@@ -1,0 +1,74 @@
+{
+  "status": 0,
+  "updated": 1696997659,
+  "author": {
+    "is_followed": false,
+    "badge": [],
+    "name": "叶峻峣",
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "avatar_url": "https://pic1.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+  },
+  "can_tip": false,
+  "excerpt": "在间隔重复记忆系统 [1]中，通常有各种各样的「重试」机制。通常情况下，这些机制的…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 623551320,
+  "voteup_count": 8,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1682041844,
+  "url": "https://api.zhihu.com/articles/623551320",
+  "comment_permission": "all",
+  "title": "SRS 重试机制",
+  "content": "<p data-pid=\"JVw4rSrj\">在<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4eXdSMJFv2qVGXSUEKH4vdcHBrLHcFY1ZGfC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复记忆系统</a><sup data-text=\"间隔重复记忆系统（Spaced repetition memory system）\" data-url=\"https://zhuanlan.zhihu.com/p/404257681\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>中，通常有各种各样的「重试」机制。通常情况下，这些机制的工作方式是，如果你答不上来一个问题，几分钟后，或在复习结束时，它将再次呈现。换句话说，这张卡片被暂时分配一个很短的间隔，在成功记住之后，它就会得到新的「遗忘后」间隔，通常会更长。</p><h2>在助记媒介中</h2><p data-pid=\"SsiZqrJY\">从 2019 年底开始，《<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2fBHADWa93EZTuNzuww7V3Vi587ZyZ4FHTHm\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">量子国度</a>》实现了以下行为；<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z72ioKyd4X48WndtAsfkhnKwsD8o5PaaT384o\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Orbit</a> 一直都在实施这一行为。如果你在阅读文章时忘记了问题的答案，该问题会在文章的下一个复习区重新出现（除非是最后一个复习区，在这种情况下，一旦你回答了当前复习区的所有问题，它就会重新出现）。如果你在复习阶段忘记了问题的答案，它将在复习阶段结束时重新出现。</p><p data-pid=\"rEJ_hMty\">到目前为止的研究结果：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z26sYZAf3H5ohZTM2eaAosMRNwLkXiRKDsAJ\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">重试干预使量子国度的早期准确率大幅提高</a>。</p><p data-pid=\"_xQkJS8K\">这个功能大致受到 Anki 的「学习」队列启发。如果我忘记了一张卡片的答案，然后提前结束复习（即在再次复习该卡片之前），我觉得对它的记忆会变得不那么可靠。提取练习文献中可能存在实证数据。我还没有查阅相关文献，也没有在我的背景阅读中偶然发现它。</p><p data-pid=\"1AfgPnkK\">有趣的是，<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5oCe7JTrkYfmb6SHE4n5HxisE7PdwS6nmXEw\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔效应</a><sup data-text=\"间隔效应\" data-url=\"https://zhuanlan.zhihu.com/p/424603970\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>表明，这种快速重试可能不如在下一个复习会话中重新呈现卡片那样有效。但我的直觉（以及我们越来越多的证据）表明，重试干预确实有帮助。在我读过的有关间隔效应的文献中，没有一篇根据最初的反应成功率来区分表现（尽管我认为应该已经有这样的研究了）。</p><p data-pid=\"O3WelXJl\">关于<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4rRX3qwSSJRsEkdXKwH2shamgHNeRthrMLiF\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">助记媒介</a><sup data-text=\"助记媒介（Mnemonic medium）\" data-url=\"https://zhuanlan.zhihu.com/p/459483765\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>中这种机制的笔记：</p><ul><li data-pid=\"XKBiS7hI\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zq2kRQRbZ5ykqy6TWtece3NscvMdjYRUZFr\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">重试结果可能会提供额外的可提取性信号</a><sup data-text=\"重试结果可能会提供额外的可提取性信号\" data-url=\"https://zhuanlan.zhihu.com/p/660604968\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup></li></ul><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"liNmkclK\"><a href=\"https://zhuanlan.zhihu.com/p/404257681\" class=\"internal\">间隔重复记忆系统（Spaced repetition memory system）</a></li><li data-pid=\"qdUxnAmk\"><a href=\"https://zhuanlan.zhihu.com/p/459483765\" class=\"internal\">助记媒介（Mnemonic medium）</a></li><li data-pid=\"Xz4lY_9E\"><a href=\"https://zhuanlan.zhihu.com/p/537644290\" class=\"internal\">如果学生学习材料有困难，间隔重复记忆系统可以怎样干预？</a></li><li data-pid=\"xccPKrta\"><a href=\"https://zhuanlan.zhihu.com/p/660604968\" class=\"internal\">重试结果可能会提供额外的可提取性信号</a></li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"tdIO9cMW\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4、校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2GB3wDnERaJr2337zGJdb5Gnr7tURrfmoxu\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SRS retry mechanism (andymatuschak.org)</a></blockquote>",
+  "column": {
+    "updated": 1656554884,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "叶峻峣",
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "avatar_url": "https://picx.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    },
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "title": "间隔重复 & 注意力管理",
+    "image_url": "https://pic1.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1525782291741208576"
+  },
+  "comment_count": 1,
+  "image_url": "",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

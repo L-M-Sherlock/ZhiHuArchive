@@ -1,0 +1,114 @@
+{
+  "answer_type": "normal",
+  "author": {
+    "avatar_url": "https://pic1.zhimg.com/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-41f893b0cd84fb6a8c8f6d1bd29c9554.jpg?source=2c26e567",
+    "badge": [
+      {
+        "description": "信息技术行业 算法工程师",
+        "topics": [],
+        "type": "identity"
+      }
+    ],
+    "badge_v2": {
+      "detail_badges": [
+        {
+          "description": "知势榜教育校园领域影响力榜答主",
+          "detail_type": "super_activity",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "sources": [
+            {
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "id": "27",
+              "name": "知势榜8月",
+              "priority": 27,
+              "token": "",
+              "type": "content_potential_category",
+              "url": ""
+            }
+          ],
+          "title": "社区成就",
+          "type": "reward",
+          "url": ""
+        },
+        {
+          "description": "信息技术行业 算法工程师",
+          "detail_type": "identity_people",
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "sources": [],
+          "title": "已认证的个人",
+          "type": "identity",
+          "url": "https://zhuanlan.zhihu.com/p/96956163"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "merged_badges": [
+        {
+          "description": "知势榜教育校园领域影响力榜答主",
+          "detail_type": "best",
+          "icon": "",
+          "night_icon": "",
+          "sources": [],
+          "title": "社区成就",
+          "type": "best",
+          "url": ""
+        },
+        {
+          "description": "信息技术行业 算法工程师",
+          "detail_type": "identity",
+          "icon": "",
+          "night_icon": "",
+          "sources": [],
+          "title": "认证",
+          "type": "identity",
+          "url": "https://zhuanlan.zhihu.com/p/96956163"
+        }
+      ],
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "title": "知势榜教育校园领域影响力榜答主"
+    },
+    "gender": 1,
+    "headline": "supermemo.guru 长期翻译中",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "is_advertiser": false,
+    "is_org": false,
+    "is_privacy": false,
+    "name": "Thoughts Memo",
+    "type": "people",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url_token": "L.M.Sherlock",
+    "user_type": "people"
+  },
+  "biz_ext": {},
+  "comment_count": 19,
+  "content": "<p data-pid=\"HuI_F7c9\">本系列专门介绍 SuperMemo 的各种小技巧和绕坑方法：</p><a href=\"https://www.zhihu.com/collection/797904700\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">SuperMemo tips</a><p data-pid=\"zmnVgL6E\">由于 SuperMemo 中所有复习卡片的出现顺序是由优先级和随机因子决定的，所有这里仅介绍使用等待队列的实现方法。</p><blockquote data-pid=\"jDFIBDdL\">注：导入材料看这篇文章：<a href=\"https://zhuanlan.zhihu.com/p/321701995\" class=\"internal\">渐进阅读材料导入与预处理</a><br/>更新：<a href=\"https://www.zhihu.com/question/504615912/answer/2262381968\" class=\"internal\">如何在supermemo中阅读一本书?</a></blockquote><h2>第一步 将想要阅读的内容加入等待队列</h2><blockquote data-pid=\"YlFetgHO\">注意！别对你不想加入等待队列的内容做以下操作，不然这些卡片就都变成新卡片了</blockquote><p data-pid=\"IKXnsW2J\">Alt + C 唤出知识树，然后右键你想要阅读的内容的根结点：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-512bba50248f2ce236b8945093887c6b_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"389\" data-rawheight=\"583\" data-original-token=\"v2-512bba50248f2ce236b8945093887c6b\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-d2d7acc6fbcfbd6ec996818fd3779f13_720w.jpg?source=2c26e567\" class=\"content_image\" width=\"389\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;389&#39; height=&#39;583&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"389\" data-rawheight=\"583\" data-original-token=\"v2-512bba50248f2ce236b8945093887c6b\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-d2d7acc6fbcfbd6ec996818fd3779f13_720w.jpg?source=2c26e567\" class=\"content_image lazy\" width=\"389\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-512bba50248f2ce236b8945093887c6b_720w.jpg?source=2c26e567\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"-F-Lwf_v\">点击 Process branch，然后点击菜单中的 Learning -&gt; Forget，就可以将这些内容加入等待队列了</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-f64e51bfaa81f74863a10c23798c7266_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"543\" data-rawheight=\"676\" data-original-token=\"v2-f64e51bfaa81f74863a10c23798c7266\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-ac3e825fd0bd4abbf3f977434cbaa435_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"543\" data-original=\"https://pic1.zhimg.com/v2-f64e51bfaa81f74863a10c23798c7266_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;543&#39; height=&#39;676&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"543\" data-rawheight=\"676\" data-original-token=\"v2-f64e51bfaa81f74863a10c23798c7266\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-ac3e825fd0bd4abbf3f977434cbaa435_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"543\" data-original=\"https://pic1.zhimg.com/v2-f64e51bfaa81f74863a10c23798c7266_r.jpg?source=2c26e567\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-f64e51bfaa81f74863a10c23798c7266_720w.jpg?source=2c26e567\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2>第二步 将这些卡片按知识树顺序排序</h2><p data-pid=\"haDJFINC\">等待队列的卡片是有默认顺序的，通常是添加顺序，这里我们可以改成知识树上的顺序</p><p data-pid=\"MeQ6OY15\">首先，先打开等待队列，View-&gt;Other-&gt;Pending</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"small\"><noscript><img src=\"https://picx.zhimg.com/50/v2-b0e4949ffb0da55bbd7b3492a9f6a90c_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"698\" data-rawheight=\"1186\" data-original-token=\"v2-b0e4949ffb0da55bbd7b3492a9f6a90c\" class=\"origin_image zh-lightbox-thumb\" width=\"698\" data-original=\"https://pica.zhimg.com/v2-b0e4949ffb0da55bbd7b3492a9f6a90c_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;698&#39; height=&#39;1186&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"698\" data-rawheight=\"1186\" data-original-token=\"v2-b0e4949ffb0da55bbd7b3492a9f6a90c\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"698\" data-original=\"https://pica.zhimg.com/v2-b0e4949ffb0da55bbd7b3492a9f6a90c_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-b0e4949ffb0da55bbd7b3492a9f6a90c_720w.jpg?source=2c26e567\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"cO67SJcU\">然后，任意处右键-&gt;Sort-&gt;By tree，就可以对 pending 队列里的卡片按照知识树顺序排序</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-b0e93a12cda823c691ce5fd7e165beb5_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1500\" data-rawheight=\"1348\" data-original-token=\"v2-b0e93a12cda823c691ce5fd7e165beb5\" class=\"origin_image zh-lightbox-thumb\" width=\"1500\" data-original=\"https://picx.zhimg.com/v2-b0e93a12cda823c691ce5fd7e165beb5_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1500&#39; height=&#39;1348&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1500\" data-rawheight=\"1348\" data-original-token=\"v2-b0e93a12cda823c691ce5fd7e165beb5\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1500\" data-original=\"https://picx.zhimg.com/v2-b0e93a12cda823c691ce5fd7e165beb5_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-b0e93a12cda823c691ce5fd7e165beb5_720w.jpg?source=2c26e567\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"bjSyHhB1\">最后右键-&gt;Tools-&gt;Save pending，就能保存排序结果。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"small\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-fc73cad7d974f9bc319d6a85dde0191f_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"844\" data-rawheight=\"898\" data-original-token=\"v2-fc73cad7d974f9bc319d6a85dde0191f\" class=\"origin_image zh-lightbox-thumb\" width=\"844\" data-original=\"https://picx.zhimg.com/v2-fc73cad7d974f9bc319d6a85dde0191f_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;844&#39; height=&#39;898&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"844\" data-rawheight=\"898\" data-original-token=\"v2-fc73cad7d974f9bc319d6a85dde0191f\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"844\" data-original=\"https://picx.zhimg.com/v2-fc73cad7d974f9bc319d6a85dde0191f_r.jpg?source=2c26e567\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-fc73cad7d974f9bc319d6a85dde0191f_720w.jpg?source=2c26e567\"/></figure><h2>第三步 按顺序阅读</h2><p data-pid=\"6gcnCww1\">学习等待队列的卡片需要将 stages 切换到 New material，操作如图所示</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><noscript><img src=\"https://pica.zhimg.com/50/v2-f3de62e7a35ff94c6d0a37fda6fe0997_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1130\" data-rawheight=\"432\" data-original-token=\"v2-f3de62e7a35ff94c6d0a37fda6fe0997\" class=\"origin_image zh-lightbox-thumb\" width=\"1130\" data-original=\"https://pica.zhimg.com/v2-f3de62e7a35ff94c6d0a37fda6fe0997_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1130&#39; height=&#39;432&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1130\" data-rawheight=\"432\" data-original-token=\"v2-f3de62e7a35ff94c6d0a37fda6fe0997\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1130\" data-original=\"https://pica.zhimg.com/v2-f3de62e7a35ff94c6d0a37fda6fe0997_r.jpg?source=2c26e567\" data-actualsrc=\"https://pica.zhimg.com/50/v2-f3de62e7a35ff94c6d0a37fda6fe0997_720w.jpg?source=2c26e567\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"p1YPGLZT\">然后就可以按目录顺序阅读了！</p><p data-pid=\"0Pc0dAEQ\">如果不满意顺序，可以自己调整一下知识树，然后重复上述步骤即可。</p><blockquote data-pid=\"ZdFrdOZl\">注意！想要复习 SuperMemo 给你的安排，请切回 Outstanding material</blockquote><p data-pid=\"ErRnO850\">更多 SuperMemo 教程，请见：</p><a href=\"https://zhuanlan.zhihu.com/p/374403541\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-1a8d0bb90f07e4147c5e401dda14d280_180x120.jpg\" data-image-width=\"1780\" data-image-height=\"1100\" class=\"internal\">叶峻峣：渐进学习专栏导读</a><a href=\"https://link.zhihu.com/?target=https%3A//www.yuque.com/supermemo/wiki\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-3053be574a87e8e1e15128ac7eeda8c8_ipico.jpg\" data-image-width=\"300\" data-image-height=\"300\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">帮助文档 · 语雀</a><p></p>",
+  "content_need_truncated": false,
+  "created_time": 1632037203,
+  "excerpt": "本系列专门介绍 SuperMemo 的各种小技巧和绕坑方法： SuperMemo tips 由于 SuperMemo 中所有复习卡片的出现顺序是由优先级和随机因子决定的，所有这里仅介绍使用等待队列的实现方法。 注：导入材料看这篇文章：渐进阅读材料导入与预处理 更新：如何在supermemo中阅读一本书? 第一步 将想要阅读的内容加入等待队列注意！别对你不想加入等待队列的内容做以下操作，不然这些卡片就都变成新卡片了Alt + C 唤出知识树，然后右键你想要阅…",
+  "id": 2129080913,
+  "is_jump_native": false,
+  "link_card_info": {
+    "https://www.zhihu.com/collection/797904700": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"SuperMemo tips\",\"card_open_url\":\"https://www.zhihu.com/collection/797904700\",\"desc\":\"373 关注 · 7536 浏览 \\u003ca class=\\\"tag type_a\\\"\\u003e收藏夹\\u003c/a\\u003e\",\"content\":\"收录 15 个内容\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-b2918ef3f9c19572ba524ac59316a917_r.jpg?source=2c26e567\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"COLLECTION\",\"content_id\":\"797904700\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/374403541": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"渐进学习专栏导读（SuperMemo 使用教程）\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/374403541\",\"desc\":\"318 赞同 · 29 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 更新已经将专栏重新编辑成电子书： SuperMemo 渐进学习大型指北 也可以下载到本地阅读（EPUB 体验比 PDF 好）： SuperMemo 渐进学习大型指北 - 叶峻峣 - 20210918.epub SuperMemo 渐进学习大型指北-09171826.pdf SuperMemo 下载： [文章: 【重新发布】SuperMemo 18 中文懒人包 ] SuperMemo 视频介绍： [文章: 【原稿】用 SuperMemo 打通阅读、理解与记忆] 初次见面的朋友初次见面，好久不见的朋友好久不见，这里是周六放假也还在码字的…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-1a8d0bb90f07e4147c5e401dda14d280_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"374403541\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "question": {
+    "created": 1632036480,
+    "detail": "<p>就是按照知识树中的顺序阅读一本书之类的</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-aa4f9ee57f9aecb443d4297675442073_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"304\" data-rawheight=\"577\" class=\"content_image\" width=\"304\"/></figure><p></p>",
+    "id": 487800944,
+    "question_type": "normal",
+    "relationship": {},
+    "title": "在 SuperMemo 中如何按目录顺序阅读一本书？",
+    "type": "question",
+    "updated_time": 1632036794,
+    "url": "https://api.zhihu.com/questions/487800944"
+  },
+  "relationship": {
+    "upvoted_followees": []
+  },
+  "type": "answer",
+  "voteup_count": 91
+}

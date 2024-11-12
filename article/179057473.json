@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1597589948,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://pica.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "原文：Forgetting index is a flawed metric in spaced repetition 遗忘指数只是一个…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 179057473,
+  "voteup_count": 6,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1597117689,
+  "url": "https://api.zhihu.com/articles/179057473",
+  "comment_permission": "all",
+  "title": "遗忘指数是间隔重复中的一个有缺陷的度量",
+  "image_width": 697,
+  "content": "<blockquote data-pid=\"bL1VAejs\">原文：<a href=\"https://link.zhihu.com/?target=http%3A//supermemopedia.com/wiki/Forgetting_index_is_a_flawed_metric_in_spaced_repetition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Forgetting index is a flawed metric in spaced repetition</a></blockquote><h2><b>遗忘指数只是一个平均值</b></h2><p data-pid=\"-r0xKEO0\">在算法 SM-17 出现之前，所有间隔重复软件是围绕遗忘指数的概念而设计的。甚至神经网络的方法也使用平均回忆率作为优化标准。遗忘指数是学习效率和进步的有趣指标。但是，我们不能忘记这是一个平均值，并且没有表明重复样本的方差。</p><p data-pid=\"CXtJ-e5-\">遗忘概率的<b>分布</b>对于学习效率和间隔重复算法的设计至关重要。这不仅是统计问题。准确的概率预测对于最大程度地提高记忆稳定性至关重要。</p><h2><b>例子</b></h2><p data-pid=\"r9BpAFIK\">以3个虚构的卡片为例，并在 SuperMemo 16 和 SuperMemo 17 中看看 3 个关于回忆概率（可提取性用 R 表示）的模拟预测（为便于说明，夸大了差异）：</p><ul><li data-pid=\"YU8KYeC6\">SuperMemo 16（不准确）：R = 70，R = 80，R = 90</li><li data-pid=\"yum9Zk1l\">SuperMemo 17（准确的）：R = 80，R = 80，R = 80</li></ul><p data-pid=\"IhDUfTFP\">这三个卡片的样本均将产生 80％ 的平均可提取性。</p><p data-pid=\"L6oiQiO8\">但是，对于这 3 个卡片，重复进行的（模拟）记忆稳定性增长可能存在显着差异：</p><ul><li data-pid=\"86lnQ5H0\">SuperMemo 16：SInc = 1.5，SInc = 2.2，SInc = 1.3（平均更低的增长：SInc = 1.66）</li><li data-pid=\"m6VI_wgZ\">SuperMemo 17：SInc = 2.3，SInc = 2.2，SInc = 2.1（平均更高的增长：SInc = 2.2）</li></ul><blockquote data-pid=\"7GO-o620\">译者注：这里的 SInc 即复习前后的间隔比例，SInc 越大间隔增长的倍数也越大。想了解记忆模型？请参阅：<a href=\"https://zhuanlan.zhihu.com/p/179076885\" class=\"internal\">记忆的两个组成成分|浓缩通俗版</a></blockquote><p data-pid=\"cw0T2p7B\">该实施例表明所述遗忘指数不是算法效率的最终测量。<a href=\"https://link.zhihu.com/?target=http%3A//supermemo.com\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">supermemo.com</span><span class=\"invisible\"></span></a> 上的一些较旧的资料可能在比较中过分强调了遗忘指数的价值。</p><h2><b>解决方案</b></h2><p data-pid=\"xzcoMUX8\">间隔重复软件设计的最佳度量是什么？我们有个主意。但是，我们希望保持讨论开放，直到我们确定最佳选择：<u><a href=\"https://link.zhihu.com/?target=http%3A//supermemopedia.com/wiki/Spaced_repetition_algorithm_metric\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复算法度量</a></u></p><h2><b>请参阅</b></h2><ul><li data-pid=\"YNZaRjcZ\"><u><a href=\"https://link.zhihu.com/?target=http%3A//supermemopedia.com/wiki/Open_letter_to_spaced_repetition_developers\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">给间隔重复开发人员的公开信</a></u></li></ul><p></p>",
+  "column": {
+    "updated": 1710055189,
+    "description": "该专栏翻译有关记忆，学习，睡眠，创造力，解决问题，脑科学，健康和教育的文章",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://pic1.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "https://api.zhihu.com/columns/supermemo-guru-cn",
+    "title": "学校教育问题",
+    "image_url": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "supermemo-guru-cn"
+  },
+  "comment_count": 2,
+  "image_url": "https://pica.zhimg.com/v2-3ce057e9be895e1fdf5ae5880ea70eb9_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

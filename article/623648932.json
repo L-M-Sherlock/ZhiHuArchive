@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1682051930,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "最近 LLM（大语言模型）实在火爆，出了不少开源模型，比如 Alpaca[1]、ChatGLM[2]、…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 623648932,
+  "voteup_count": 182,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1682050463,
+  "url": "https://api.zhihu.com/articles/623648932",
+  "comment_permission": "all",
+  "title": "rwkv.cpp: CPU 也能跑的 RNN 中文语言大模型",
+  "image_width": 2024,
+  "content": "<p data-pid=\"zV92JVVP\">最近 LLM（大语言模型）实在火爆，出了不少开源模型，比如 Alpaca<sup data-text=\"\" data-url=\"https://github.com/antimatter15/alpaca.cpp\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>、ChatGLM<sup data-text=\"\" data-url=\"https://github.com/THUDM/ChatGLM-6B\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>、BELLE<sup data-text=\"\" data-url=\"https://github.com/LianjiaTech/BELLE\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup> 等等，让每个人都有机会运行和训练专属自己的 LLM，我也迫不及待了。</p><p data-pid=\"cK40rdEd\">但是，熟悉我的老读者朋友应该知道，虽然我是搞算法的，也发过几篇论文，但我是走的是贫穷科研的路线，一张显卡都没有。像 ChatGLM-6B 这种模型，在我的小破 Mac 上根本跑不起来。Alpaca 的 CPU 版本虽然能跑，但它中文水平实在太烂了。有没有什么模型不仅中文好，又可以不依赖显卡？RWKV<sup data-text=\"发布几个RWKV的Chat模型（包括英文和中文）7B/14B欢迎大家玩 - PENG Bo的文章 - 知乎 \" data-url=\"https://zhuanlan.zhihu.com/p/618011122\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>进入了我的视野。</p><p data-pid=\"VP86X0E_\">RWKV 是一种纯 RNN 的架构，能够进行语言建模<sup data-text=\"RWKV-v2-RNN 原理：超越 Transformer，实现 O(T) 的语言建模 - PENG Bo的文章 - 知乎 \" data-url=\"https://zhuanlan.zhihu.com/p/514840332\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>，目前最大参数规模已经做到了 14B<sup data-text=\"RWKV：用RNN达到Transformer性能，且支持并行模式和长程记忆，既快又省显存，已在14B参数规模检验 - PENG Bo的文章 - 知乎 \" data-url=\"https://zhuanlan.zhihu.com/p/599150009\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>。目前的在线体验地址：</p><a href=\"https://link.zhihu.com/?target=https%3A//huggingface.co/spaces/BlinkDL/Raven-RWKV-7B\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-638b13335ae7509e6719410f2b3c0d60_qhd.jpg\" data-image-width=\"1200\" data-image-height=\"648\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Raven RWKV 7B - a Hugging Face Space by BlinkDL</a><p data-pid=\"X2bRRBAb\">不过请注意，上面这个体验模型的微调语料英文占 99%，所以中文水平并不是最好的。作者 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/64d972cc5bae62489442e35b32dc0fce\" data-hash=\"64d972cc5bae62489442e35b32dc0fce\" data-hovercard=\"p$b$64d972cc5bae62489442e35b32dc0fce\">@PENG Bo</a> 最近发布的 RWKV-4-Raven-7B-v9x-Eng49%-Chn50%-Other1% 这个模型的中文微调语料占 50%，中文水平更好。以下我也会基于该模型进行操作。</p><h2>下载模型</h2><p data-pid=\"Lk_3zpC2\">首先，RWKV 的模型分为很多种，都发布在作者的 huggingface<sup data-text=\"BlinkDL (BlinkDL) (huggingface.co)\" data-url=\"https://huggingface.co/BlinkDL\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup> 上：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-8881c00c2d9940545e76e28c29794f96_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1164\" data-rawheight=\"678\" class=\"origin_image zh-lightbox-thumb\" width=\"1164\" data-original=\"https://pica.zhimg.com/v2-8881c00c2d9940545e76e28c29794f96_r.jpg\" data-original-token=\"v2-8881c00c2d9940545e76e28c29794f96\"/></figure><p data-pid=\"qyq-8GoQ\">其中：</p><ul><li data-pid=\"29nztvWv\">统一前缀 <code>rwkv-4</code> 表示它们都基于 RWKV 的第 4 代架构。 </li><li data-pid=\"aVW9XWzD\">pile 代表基底模型，在 pile 等基础语料上进行预训练，没有进行微调，适合高玩来给自己定制。</li><li data-pid=\"x8Ng4zFM\">novel 代表小说模型，在各种语言的小说上进行微调，适合写小说。</li><li data-pid=\"DAF8BwRB\">raven 代表对话模型，在各种开源的对话语料上进行微调，适合聊天、问答、写代码。</li><li data-pid=\"NmTwccTf\">430m、7b 这些指的是模型的参数量。</li></ul><p data-pid=\"3_znQPzM\">我下载的是 <code>RWKV-4-Raven-7B-v9x-Eng49%-Chn50%-Other1%-20230418-ctx4096.pth</code><sup data-text=\" RWKV-4-Raven-7B-v9x-Eng49%-Chn50%-Other1%-20230418-ctx4096.pth\" data-url=\"https://huggingface.co/BlinkDL/rwkv-4-raven/blob/main/RWKV-4-Raven-7B-v9x-Eng49%25-Chn50%25-Other1%25-20230418-ctx4096.pth\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"8\">[8]</sup> ， 即参数量为 7B 的对话模型，微调预料中 49% 是英文，50% 是中文。ctx4096 表示微调是的上下文长度。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-1227b07bc19529ebed99f6af17d81566_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1096\" data-rawheight=\"638\" class=\"origin_image zh-lightbox-thumb\" width=\"1096\" data-original=\"https://pic3.zhimg.com/v2-1227b07bc19529ebed99f6af17d81566_r.jpg\" data-original-token=\"v2-1227b07bc19529ebed99f6af17d81566\"/></figure><p data-pid=\"tF8Das4o\">这个模型有 14.8 GB，请务必确保自己电脑的可用硬盘空间在 40 GB 以上（因为后面要对这个模型进行转换和量化，需要占用更多的硬盘空间。）</p><h2>模型转换</h2><p data-pid=\"w7gj6MLG\">下载好的模型配合 ChatRWKV<sup data-text=\"\" data-url=\"https://github.com/BlinkDL/ChatRWKV\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"9\">[9]</sup>这个仓库里的代码就可以跑了，但是它对 CPU 策略的支持最低只到 fp32i8，7B 模型需要 12 GB 内存才能跑起来，我用 16GB 内存的 Mac 试了一下，跑是跑起来了，但是非常慢。</p><p data-pid=\"zml5N4fi\">所以，这里需要介绍一下能够更充分利用 CPU 的方法：</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/saharNooby/rwkv.cpp\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">saharNooby/rwkv.cpp: INT4 and FP16 inference on CPU for RWKV language model (github.com)</a><p data-pid=\"QJSmsUe4\">rwkv.cpp 可以将 RWKV 原始模型的参数转化为 float16，并量化到 int4，可以在 CPU 上更快地运行，也可以节省更多的内存。</p><p data-pid=\"vrrJ7ADM\">以下是操作步骤。</p><h3>1. 下载仓库代码</h3><p data-pid=\"AnXwWbBn\">需要安装 git（没有 git 的朋友，可能你要补的前置知识有点多，我建议自行搜索）</p><div class=\"highlight\"><pre><code class=\"language-console\">git clone --recursive https://github.com/saharNooby/rwkv.cpp.git\ncd rwkv.cpp</code></pre></div><h3>2. 下载依赖库 or 编译依赖库</h3><p data-pid=\"c2oyEQSU\">rwkv.cpp 的开发者已经预编译了不同平台上的依赖库，可以在这里下载：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/saharNooby/rwkv.cpp/releases\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/saharNooby/r</span><span class=\"invisible\">wkv.cpp/releases</span><span class=\"ellipsis\"></span></a></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-0e4e1e401f478835a3d093653a594751_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1858\" data-rawheight=\"608\" class=\"origin_image zh-lightbox-thumb\" width=\"1858\" data-original=\"https://picx.zhimg.com/v2-0e4e1e401f478835a3d093653a594751_r.jpg\" data-original-token=\"v2-0e4e1e401f478835a3d093653a594751\"/></figure><p data-pid=\"5KJnib-y\">下载的时候请注意操作系统类型和支持的架构。由于作者没有预编译对 Mac m1 的 ARM64 架构的依赖库，所以我选择自行编译（需要安装 cmake，并在 shell 中移动到 rwkv.cpp 路径下）：</p><div class=\"highlight\"><pre><code class=\"language-bash\">cmake -DBUILD_SHARED_LIBS<span class=\"o\">=</span>ON .\ncmake --build . --config Release</code></pre></div><h3>3. 转换模型</h3><p data-pid=\"jiPvPLpz\">需要装 PyTorch</p><p data-pid=\"tWZmsGAe\">我直接把下载好的模型放在了 rwkv.cpp 的路径下，然后执行以下命令：</p><div class=\"highlight\"><pre><code class=\"language-text\">python rwkv/convert_pytorch_to_ggml.py ./RWKV-4-Raven-7B-v9x-Eng49%-Chn50%-Other1%-20230418-ctx4096.pth ./rwkv.cpp-7B.bin float16</code></pre></div><p data-pid=\"tWiX-UuH\">其实就是让 python 运行 <code>rwkv/convert_pytorch_to_ggml.py</code> 这个转换模型的代码， <code>./RWKV-4-Raven-7B-v9x-Eng49%-Chn50%-Other1%-20230418-ctx4096.pth</code> 是待转换的模型的路径， <code>./rwkv.cpp-7B.bin</code> 是转换后的路径，float16 是要转换成什么类型的参数。</p><h3>4. 量化模型</h3><p data-pid=\"QYyd-Par\">其实上面转换好的 <code>./rwkv.cpp-7B.bin</code> 已经可以用了，但是它要占用 16GB 内存。为了减少内存占用，可以将 <code>./rwkv.cpp-7B.bin</code> 量化为 int4，可以省一半内存，也就是只占 6GB 内存。只需要执行以下命令：</p><div class=\"highlight\"><pre><code class=\"language-text\">python rwkv/quantize.py ./rwkv.cpp-7B.bin ./rwkv.cpp-7B-Q4_1_O.bin 4</code></pre></div><p data-pid=\"OTwusGBk\">然后你就会得到一个大小只有 6GB 的模型了。</p><h2>运行模型</h2><p data-pid=\"69Zh7h4b\">同样，一行命令搞定：</p><div class=\"highlight\"><pre><code class=\"language-bash\">python rwkv/chat_with_bot.py ./rwkv.cpp-7B-Q4_1_0.bin</code></pre></div><p data-pid=\"JEFApSQQ\">让我们看看效果，首先是内存占用，不到 6GB</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-4d614aad71b16c9588d241f07bdd72c0_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"833\" data-rawheight=\"532\" class=\"origin_image zh-lightbox-thumb\" width=\"833\" data-original=\"https://pica.zhimg.com/v2-4d614aad71b16c9588d241f07bdd72c0_r.jpg\" data-original-token=\"v2-4d614aad71b16c9588d241f07bdd72c0\"/></figure><p data-pid=\"833CUEH-\">然后是问答和执行命令：</p><ol><li data-pid=\"ayB-TwXl\">太阳有几只眼睛？</li><li data-pid=\"fFAj0O6u\">知乎是什么网站？</li><li data-pid=\"Mz_c-c5j\">写一篇介绍数据分析的文章。</li></ol><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-486e3098f940511231b353ff5ca2783c_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"833\" data-rawheight=\"412\" class=\"origin_image zh-lightbox-thumb\" width=\"833\" data-original=\"https://pic3.zhimg.com/v2-486e3098f940511231b353ff5ca2783c_r.jpg\" data-original-token=\"v2-486e3098f940511231b353ff5ca2783c\"/></figure><p data-pid=\"fYjcvbC-\">效果还不错，不过最后莫名其妙又多说了一段话，可能是量化带来的精度损失？非量化版本的效果如下：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-673e9a0cde7e3f50fe20994a5d0eec72_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"785\" data-rawheight=\"532\" class=\"origin_image zh-lightbox-thumb\" width=\"785\" data-original=\"https://pica.zhimg.com/v2-673e9a0cde7e3f50fe20994a5d0eec72_r.jpg\" data-original-token=\"v2-673e9a0cde7e3f50fe20994a5d0eec72\"/></figure><p data-pid=\"WXSL4fSR\">希望开发者之后能对量化版本进行测评，让 rwkv 变得更好用。</p><p data-pid=\"jPMKNGxm\">更新：补一张 GIF</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-91e647db7609d28968d2e234bd661df5_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1660\" data-rawheight=\"1056\" class=\"origin_image zh-lightbox-thumb\" width=\"1660\" data-original=\"https://pic2.zhimg.com/v2-91e647db7609d28968d2e234bd661df5_r.jpg\" data-original-token=\"v2-91e647db7609d28968d2e234bd661df5\"/></figure><hr/><p data-pid=\"V4RkBS63\">以上就是我在 Mac 上用 6GB 内存运行 7B 的中文语言模型 RWKV 的过程了，希望对读者朋友们有所帮助。</p><p data-pid=\"y4rty5Pz\">另外也偷偷推一下自己的项目，使用时序模型来预测学习者的记忆状态，提高间隔重复中的复习效率，目前已经 600+ star：</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">open-spaced-repetition/fsrs4anki: A modern Anki custom scheduling based on free spaced repetition scheduler algorithm (github.com)</a><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-2fbb3c26d57b2ae769d994a6ac6a60ef_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"533\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic4.zhimg.com/v2-2fbb3c26d57b2ae769d994a6ac6a60ef_r.jpg\" data-original-token=\"v2-2fbb3c26d57b2ae769d994a6ac6a60ef\"/></figure><p data-pid=\"1Y0cUa-V\">相关文章：</p><a href=\"https://zhuanlan.zhihu.com/p/543325359\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-08134e67de67b70a126b02829d90edcc_qhd.jpg\" data-image-width=\"2251\" data-image-height=\"1592\" class=\"internal\">叶峻峣：我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）</a><a href=\"https://zhuanlan.zhihu.com/p/577383961\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-337e676d732039a25471c1057c54bfa3_qhd.jpg\" data-image-width=\"2700\" data-image-height=\"1480\" class=\"internal\">叶峻峣：KDD&#39;22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]</a><a href=\"https://zhuanlan.zhihu.com/p/591833332\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-c8cb226c91641848424b5edf5e6057b8_l.jpg\" data-image-width=\"1931\" data-image-height=\"1912\" class=\"internal\">叶峻峣：如何在 Anki 上使用次世代间隔重复算法 FSRS？</a><p></p>",
+  "column": {
+    "updated": 1706022041,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://pic1.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+    "title": "学委叶哥的随笔",
+    "image_url": "https://pica.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1280249768422608896"
+  },
+  "comment_count": 59,
+  "image_url": "https://picx.zhimg.com/v2-b1741c286684458848b12a83b289a003_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

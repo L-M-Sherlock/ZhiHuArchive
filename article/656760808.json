@@ -1,0 +1,74 @@
+{
+  "status": 0,
+  "updated": 1724732131,
+  "author": {
+    "is_followed": false,
+    "badge": [],
+    "name": "叶峻峣",
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "avatar_url": "https://pica.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+  },
+  "can_tip": false,
+  "excerpt": "通过结合以下的洞见，我在使用机器学习从解释性文本中生成优质的间隔重复卡片 [1]中用 …",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 656760808,
+  "voteup_count": 8,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1694934200,
+  "url": "https://api.zhihu.com/articles/656760808",
+  "comment_permission": "all",
+  "title": "GPT-4 在指导下，通常能够从解释性文本中为陈述性知识生成可用的间隔重复卡片",
+  "content": "<p data-pid=\"3WQJ_C2V\">通过结合以下的洞见，我在<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2DY7qsP5iHsiA5hxUHheV8hu7Xe96vdGyYX\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">使用机器学习从解释性文本中生成优质的间隔重复卡片</a><sup data-text=\"使用机器学习从解释性文本中生成优质的间隔重复卡片\" data-url=\"https://zhuanlan.zhihu.com/p/716570823\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>中用 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3Bab7JXEhospmJZJQnduTFFjrZHaHKMCJBQE\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GPT-4</a> 取得了成功，通常都能一次搞定：</p><ul><li data-pid=\"VCUPKOo_\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z62s1nNLEfhGbDmpb8Z7dZiYyi3kaSziuLVXd\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题</a><sup data-text=\"对于卡片生成任务，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题\" data-url=\"https://zhuanlan.zhihu.com/p/656354899\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。在这些例子里，我负责选择制卡对象（例如，通过指向更大篇幅中的短语），模型的任务是根据这些给定的目标，生成有用的卡片。<br/> <br/></li><li data-pid=\"OEa7GrDY\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zrqgkr9n3eCMNsAPDsRozt3HLd8nRT5nVASc\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，如果提供了编写卡片的原则，大型语言模型（LLM）的表现可能会有所提升</a><sup data-text=\"对于卡片生成任务，如果提供了编写卡片的原则，大型语言模型（LLM）的表现可能会有所提升\" data-url=\"https://zhuanlan.zhihu.com/p/644435843\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>；我提供了这些原则。<br/> <br/></li><li data-pid=\"E1zwDogN\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zomoPzCNzSi5GqtfTeVWgm7RjmiArjS8vvM5\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示，来确定从何种角度制卡</a><sup data-text=\"对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示，来确定从何种角度制卡\" data-url=\"https://zhuanlan.zhihu.com/p/644435780\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>；我提供了这些提示。<br/> <br/></li><li data-pid=\"UGQa-Dmk\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5LQFLXHFLrb4nYAtLrB3JBzNyJng8fYHVJYN\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，如果提供了充足的上下文，大型语言模型（LLM）可能会表现得更好</a><sup data-text=\"对于卡片生成任务，如果提供了充足的上下文，大型语言模型（LLM）可能会表现得更好\" data-url=\"https://zhuanlan.zhihu.com/p/645670312\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>；我提供了上下文。<br/> </li></ul><p data-pid=\"ArT1DZKV\">这对于简单的描写来说，效果相当好，但对于更概念化的材料来说就不行了：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zmrbnm683nVZi9ut63vsr8BwYKEtATA6e4B3\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式</a><sup data-text=\"对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式\" data-url=\"https://zhuanlan.zhihu.com/p/656355546\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup></p><p data-pid=\"NgRN7l9n\">一个提示词示例：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4jtgUPVP5pABoDEjvz22hzYzAuRELqGg4BR6\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">20230614123022</a></p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"7JETHqhK\"><a href=\"https://zhuanlan.zhihu.com/p/656355546\" class=\"internal\">对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式</a></li><li data-pid=\"j4s4fmCI\"><a href=\"https://zhuanlan.zhihu.com/p/716570823\" class=\"internal\">使用机器学习从解释性文本中生成优质的间隔重复卡片</a></li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"ifrhYqEH\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">Jarrett</span> Ye，校对<span class=\"nolink\">偶然奇怪~ ☆</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2VVmj24FLixtrijdAbkKty91JQruAaZGbHE6\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GPT-4 can often generate usable spaced repetition prompts for declarative knowledge from explanatory text with guidance (andymatuschak.org)</a></blockquote>",
+  "column": {
+    "updated": 1656554884,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "叶峻峣",
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "avatar_url": "https://pica.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    },
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "title": "间隔重复 & 注意力管理",
+    "image_url": "https://pica.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1525782291741208576"
+  },
+  "comment_count": 0,
+  "image_url": "",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

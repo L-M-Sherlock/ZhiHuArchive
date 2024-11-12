@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1671852823,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://pic1.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "人类的信道容量随着每个组块的比特量的增加而增加 [1]。但我们不需要依赖对人脑刺激…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 432809617,
+  "voteup_count": 20,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1636775401,
+  "url": "https://api.zhihu.com/articles/432809617",
+  "comment_permission": "all",
+  "title": "重新编码可以提升组块大小",
+  "image_width": 800,
+  "content": "<p data-pid=\"8HCee2tr\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6ZFtY8UGPaF9uofckBB7HwK62pssJAUg8C91\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">人类的信道容量随着每个组块的比特量的增加而增加</a><sup data-text=\"人类的信道容量随着每个组块的比特量的增加而增加\" data-url=\"https://zhuanlan.zhihu.com/p/462011439\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>。但我们不需要依赖对人脑刺激的「内在」组块大小。我们可以通过<b>重新编码</b>来增加刺激的有效组块大小——也就是说，精神上重组刺激的信息，得到组块描述更宏观的模式。这些块状模式也被称为<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8kfytRN7oJuKmzmtt6NW5UbFLjkk94nNMJSH\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">心理表征，取自 Ericsson 和 Pool</a>.</p><p data-pid=\"CAsEy4gm\">例如，为记忆一串二进制数字，可以将其三位一组转换成八进制来记忆（例如，010=2，101=5，诸如此类），这样记忆容量大约能增加两倍（Miller, 1956）。Chase 和 Ericsson(1982) 使用这类技术将一个学生的数字广度提高到 80 位，具体做法是将数字重新分层编码为 4 位十进制的组块。</p><p data-pid=\"EQrzOir9\">重新编码很重要，因为它不仅能帮助我们记住有用的信息，而且可能是处理各种复杂材料的关键步骤（具体而言，<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7s7zpUDq2EEXnu3XJQLmqjddZnwGkBfz5WWL\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">专业水准需要建立复杂的组块重新编码方案</a><sup data-text=\"专业需要建立复杂精细的组块重编码架构\" data-url=\"https://zhuanlan.zhihu.com/p/467156331\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>）。钢琴演奏者最初按单个音符阅读乐谱（C、E、G——啊，是 C 和弦！），但后来能将看到弦音符的整体形状而识别为一个和弦（啊，一个 C 大调三和弦）。单个单个读音符是不可能视奏颇有难度的音乐的。</p><p data-pid=\"4IN3hC0u\">这些模式（例如大三和弦的形状）一旦被储存在长期记忆中，就能作为「组块」使用。</p><p data-pid=\"1U7UMqQY\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5KDtTU1DdSS7dQyYLS5tfaxebde1KMni4yJS\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Chase and Simon - Perception in chess</a> 记录的实验数据表明，国际象棋大师的组块更大（可能还有层级组块机制）。</p><p data-pid=\"1OsPpg-0\">相关笔记：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6eTZz16YRGs2PyWyc3qe1B9oJ7swmnCU54hZ\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">复杂的概念可能很难学习，部分原因是工作记忆容纳不下其组分</a><sup data-text=\"复杂的概念可能很难学习，部分原因是工作记忆容纳不下其组分\" data-url=\"https://zhuanlan.zhihu.com/p/400919428\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup></p><hr/><h2>参考文献</h2><p data-pid=\"snwPVwC8\">Chase, W. G., &amp; Ericsson, K. A. (1982). Skill and Working Memory. In G. H. Bower (Ed.), Psychology of Learning and Motivation (Vol. 16, pp. 1–58). Academic Press. <a href=\"https://link.zhihu.com/?target=https%3A//doi.org/10.1016/S0079-7421%2808%29\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">doi.org/10.1016/S0079-7</span><span class=\"invisible\">421(08)</span><span class=\"ellipsis\"></span></a>60546-0</p><p data-pid=\"WpKVyV8t\">Miller, G. A. (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. Psychological Review, 63(2), 81–97. <a href=\"https://link.zhihu.com/?target=https%3A//doi.org/10.1037/h0043158\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">doi.org/10.1037/h004315</span><span class=\"invisible\">8</span><span class=\"ellipsis\"></span></a> <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zjfsd9pyxWQAF3HU5k7RAXhRjJBqtMEGKK27\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Miller - The magical number seven, plus or minus two</a></p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"uUcnSLFb\"><a href=\"https://zhuanlan.zhihu.com/p/419172087\" class=\"internal\">人类认知中的「组块」</a></li><li data-pid=\"Mkyhoxq_\"><a href=\"https://zhuanlan.zhihu.com/p/402333898\" class=\"internal\">学习越来越复杂的概念可能相当于形成更大的有效组块</a></li></ul><h2>声明</h2><p data-pid=\"L7Lc-otT\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"GiW7pH2-\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7Xn37Ji3L6J33QHSVgaKyrpj5sm6spcZ7gH7\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Recoding can increase chunk size (andymatuschak.org)</a></blockquote>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 5,
+  "image_url": "https://pica.zhimg.com/v2-4a853f9369f4ea4d09839f23fddec0ef_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

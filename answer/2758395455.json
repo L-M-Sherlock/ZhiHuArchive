@@ -1,0 +1,116 @@
+{
+  "answer_type": "normal",
+  "author": {
+    "avatar_url": "https://pic1.zhimg.com/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-41f893b0cd84fb6a8c8f6d1bd29c9554.jpg?source=2c26e567",
+    "badge": [
+      {
+        "description": "信息技术行业 算法工程师",
+        "topics": [],
+        "type": "identity"
+      }
+    ],
+    "badge_v2": {
+      "detail_badges": [
+        {
+          "description": "知势榜教育校园领域影响力榜答主",
+          "detail_type": "super_activity",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "sources": [
+            {
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "id": "27",
+              "name": "知势榜8月",
+              "priority": 27,
+              "token": "",
+              "type": "content_potential_category",
+              "url": ""
+            }
+          ],
+          "title": "社区成就",
+          "type": "reward",
+          "url": ""
+        },
+        {
+          "description": "信息技术行业 算法工程师",
+          "detail_type": "identity_people",
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "sources": [],
+          "title": "已认证的个人",
+          "type": "identity",
+          "url": "https://zhuanlan.zhihu.com/p/96956163"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "merged_badges": [
+        {
+          "description": "知势榜教育校园领域影响力榜答主",
+          "detail_type": "best",
+          "icon": "",
+          "night_icon": "",
+          "sources": [],
+          "title": "社区成就",
+          "type": "best",
+          "url": ""
+        },
+        {
+          "description": "信息技术行业 算法工程师",
+          "detail_type": "identity",
+          "icon": "",
+          "night_icon": "",
+          "sources": [],
+          "title": "认证",
+          "type": "identity",
+          "url": "https://zhuanlan.zhihu.com/p/96956163"
+        }
+      ],
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "title": "知势榜教育校园领域影响力榜答主"
+    },
+    "gender": 1,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "is_advertiser": false,
+    "is_org": false,
+    "is_privacy": false,
+    "name": "Thoughts Memo",
+    "type": "people",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url_token": "L.M.Sherlock",
+    "user_type": "people"
+  },
+  "biz_ext": {},
+  "comment_count": 45,
+  "content": "<p data-pid=\"bITX2G_S\">利益相关：墨墨记忆算法工程师</p><p data-pid=\"9kPo8jgg\">墨墨背单词基于 DHP 记忆模型和 SSP 优化算法，计算了不同复习反馈时间序列下最优的复习时机。其优化目标是最小化每一位学习者记忆单词的时间成本。关于这个算法的具体介绍，请见我的论文：</p><a href=\"https://zhuanlan.zhihu.com/p/577383961\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-337e676d732039a25471c1057c54bfa3_180x120.jpg\" data-image-width=\"2700\" data-image-height=\"1480\" class=\"internal\">叶峻峣：KDD&#39;22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]</a><p data-pid=\"p9vfUR3Y\">在墨墨记忆算法中，每个用户的每个单词都有一个记忆稳定性来刻画该单词的遗忘速率。对于不同难度、不同记忆稳定性的单词而言，其未来复习时间成本的期望是不同的。墨墨抽取复习单词，是根据每个单词的最优复习时间确定的。在最优复习时间进行记忆，未来的复习时间成本最小。</p><p data-pid=\"-_IyGKpB\">当你对单词反馈“模糊”、“认识”或者“忘记”时，该单词的复习时间序列会更新，并重新计算记忆稳定性，然后根据优化算法安排最佳复习间隔。</p><p data-pid=\"sBcSkS1o\">墨墨的个人记忆曲线是根据所有已学单词的记忆稳定性计算而来的。每个记忆稳定性对应一个单词的遗忘曲线，对这些遗忘曲线进行加权平均，即可得到个人整体记忆曲线。</p><p data-pid=\"TymRMy43\">关于该算法的研发过程，可以看我的研究手札：</p><a href=\"https://zhuanlan.zhihu.com/p/543325359\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-08134e67de67b70a126b02829d90edcc_180x120.jpg\" data-image-width=\"2251\" data-image-height=\"1592\" class=\"internal\">叶峻峣：我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）</a><p data-pid=\"nu3fzXlO\">若想深入记忆算法研究，可以参考我写的算法教程和研究资源汇总：</p><a href=\"https://zhuanlan.zhihu.com/p/556020884\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-d5734ba2a8f7443e5dd8001cb46031fc_180x120.jpg\" data-image-width=\"1920\" data-image-height=\"1080\" class=\"internal\">叶峻峣：间隔重复记忆算法：e 天内，从入门到入土。</a><a href=\"https://zhuanlan.zhihu.com/p/561539418\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-508467d2d77b37d7642c84c0a995408a_180x120.jpg\" data-image-width=\"1199\" data-image-height=\"815\" class=\"internal\">叶峻峣：间隔重复记忆算法研究资源汇总</a><p></p>",
+  "content_need_truncated": false,
+  "created_time": 1668421871,
+  "excerpt": "利益相关：墨墨记忆算法工程师 墨墨背单词基于 DHP 记忆模型和 SSP 优化算法，计算了不同复习反馈时间序列下最优的复习时机。其优化目标是最小化每一位学习者记忆单词的时间成本。关于这个算法的具体介绍，请见我的论文： [文章: KDD&#39;22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]] 在墨墨记忆算法中，每个用户的每个单词都有一个记忆稳定性来刻画该单词的遗忘速率。对于不同难度、不同记忆稳定性的单词而言，其…",
+  "id": 2758395455,
+  "is_jump_native": false,
+  "link_card_info": {
+    "https://zhuanlan.zhihu.com/p/543325359": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/543325359\",\"desc\":\"1793 赞同 · 85 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 最近我在时间线上刷到 @重剑无锋 所写的《我是如何从头开始写一篇顶级论文的 》一文，作者梳理了他论文的创作历程，对我也颇有启发。我自己本科期间发表了一篇国际顶会（ACM SIGKDD）论文和一篇 CCF A 中文核心期刊（中文信息学报）论文，这里也想记录这一路的机缘巧合和心路历程。KDD 论文地址： A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Confe…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-08134e67de67b70a126b02829d90edcc_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"543325359\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/556020884": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"间隔重复记忆算法：e 天内，从入门到入土。\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/556020884\",\"desc\":\"278 赞同 · 134 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 我是叶峻峣，论文 A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining 的第一作者，现就职于墨墨科技，主要负责墨墨背单词的记忆算法业务。关于我这篇论文的科研经历，请见： [文章: 我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）] 《间隔重复记忆算法：e 天内，从入门到入土。》改编自…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-d5734ba2a8f7443e5dd8001cb46031fc_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"556020884\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/561539418": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"间隔重复记忆算法研究资源汇总\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/561539418\",\"desc\":\"104 赞同 · 10 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 离上次写间隔重复记忆算法研究的入门教程《 间隔重复记忆算法：e 天内，从入门到入土。 》已经过去半个多月了，不知道读者朋友们入门间隔重复记忆算法了吗？这次就主要分享一下我在研究过程[1]中用到的资源和阅读过的文献，帮助这个领域的探索者更快地上手。科普墨墨团队制作的间隔重复记忆模型科普，适合零基础入门： 【墨墨科普】几个公式，拯救你的记忆。_哔哩哔哩_bilibili 综述Gwern 所著的间隔重复综述，涵盖了大部分间隔重…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-508467d2d77b37d7642c84c0a995408a_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"561539418\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/577383961": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"KDD'22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/577383961\",\"desc\":\"476 赞同 · 91 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 大家好，我是叶峻峣，墨墨科技的记忆算法工程师。前三篇文章我分别介绍了我的科研经历 [1]、算法教程[2]和研究资源[3]。今天分享一下记忆算法论文 A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling 的详细介绍，该论文由我和哈工深的苏敬勇老师、墨墨背单词的曹译珑博士在 KDD 2022 上发表，研究了如何在背单词场景下对用户复习规划进行优化的问题。与以往的同类工作不同的是，本文构建了包含…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-337e676d732039a25471c1057c54bfa3_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"577383961\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "question": {
+    "created": 1616746827,
+    "detail": "<p>最近在使用墨墨背单词，记忆时操作有些懵，想问一下这个APP的基本算法，比如:</p><p><b>“模糊”“认识”“忘记”这几个按钮在第一次和非第一次接触某个单词时，点击之后分别产生什么效果？</b></p><p><b>复习的单词从何而来？是随机抽取还是根据记忆时间之类的指标？</b></p><p>个人记忆曲线根据什么绘制？</p><p>……等等</p>",
+    "id": 451367906,
+    "question_type": "normal",
+    "relationship": {},
+    "title": "请问墨墨背单词的算法是怎样的?",
+    "type": "question",
+    "updated_time": 1616754706,
+    "url": "https://api.zhihu.com/questions/451367906"
+  },
+  "relationship": {
+    "upvoted_followees": []
+  },
+  "type": "answer",
+  "voteup_count": 130
+}

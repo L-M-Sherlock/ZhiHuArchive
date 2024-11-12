@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1729473105,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "1、2、3 都是整数，负 4 也不例外。如果你不断地向上或向下数，必定会遇到许多其他…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 991286265,
+  "voteup_count": 22,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1729388761,
+  "url": "https://api.zhihu.com/articles/991286265",
+  "comment_permission": "all",
+  "title": "0 和 1 不是概率",
+  "image_width": 4016,
+  "content": "<p data-pid=\"iDsWYExY\">1、2、3 都是整数，负 4 也不例外。如果你不断地向上或向下数，必定会遇到许多其他整数。但是，你不会碰到所谓的「正无穷」或「负无穷」，因为它们并非整数。</p><p data-pid=\"UkL3iK0w\">正无穷和负无穷不是整数，而是用于描述整数特性的特殊符号。人们有时会说「5 + 无穷 = 无穷」，因为如果你从 5 开始一直往上数，数字会无限增大，永无止境。但这并不意味着「无穷 − 无穷 = 5」成立。你不可能从 0 开始一直往上数，然后再一直往下数，最后回到 5。</p><p data-pid=\"njgzn-98\">通过以上分析可见，无穷不仅不是整数，甚至都不具备整数的基本特性。如果你贸然将无穷与整数相提并论，就不得不引入许多自相矛盾的新规则，而这些规则对 1、2、3 等<b>真正</b>的整数而言毫无必要。</p><p data-pid=\"l1fv3tO2\">尽管无穷非整数，但你无需担心数字的匮乏。人们见过五只羊、上百万粒沙子、亿万个原子，却从未遇到过数量无穷之多的事物。对于连续量而言亦是如此——我们测量过毫米级的灰尘、米级的动物、公里级的城市、数千光年的星系，但从未发现任何无穷之广的事物。在现实世界的应用中，我们并不真正<b>需要</b>无穷这个概念。</p><p data-pid=\"IsPVt3o6\">（对于听众中数学修养较高的读者，我想说明，你们无需向我详细解释诸如有序数和基数之间区别等高深概念。诚然，我掌握了多种表达无穷大的高等数学定义，但我认为它们在概率理论中的实际应用价值有限。具体内容见下文。）</p><p data-pid=\"_f-vCPT2\">在概率的常见表示法中，概率值永远介于 0 到 1 之间。打个比方，抛一枚硬币正面朝上的概率可能是 0.5；再比如，气象预报员可能预测明天下雨的概率是 0.9。</p><p data-pid=\"vKs5ro-K\">然而，这并非表达概率的唯一方式。比如，我们可以通过转换公式 <i>O</i> = (<i>P</i>/(1−<i>P</i>)) 将概率转换为几率（odds）。举例来说，50% 的概率对应的几率就是 0.5/0.5，即 1，通常写作 1:1；而 90% 的概率对应的几率则是 0.9/0.1，即 9，习惯上写作 9:1。反过来，将几率转换为概率可以使用公式 <i>P</i> = (<i>O</i>/(1+<i>O</i>))，这个过程是完全可逆的，所以概率和几率之间是一种同构关系，它们之间存在着双向的一一对应。换言之，概率和几率在本质上是等价的，我们可以根据实际需要，灵活选择使用其中更为便利的一种表达方式。</p><p data-pid=\"Nhn90ed_\">举例来说，在进行贝叶斯更新时，使用几率通常更加方便。假设我们掷一个六面骰子：如果掷出 1 以外的任意一面，会以 10% 的几率听到铃声；但如果掷出 1，听到铃声的几率则为 20%。现在我掷了骰子，听到了铃声响起。问题是，此时骰子朝上的一面是 1 的几率有多大？根据已知条件，先验几率为 1:5（即实数的 1/5 = 0.20），似然比为 0.2:0.1（即实数的 2）。我们只需将先验几率和似然比相乘，便可得到后验几率 2:5（对应实数的 2/5 或 0.40）。如果有需要，还可以将几率转换回概率，得到 (0.4/1.4) = 2/7 ≈ 29%。</p><p data-pid=\"CI0o-rV5\">因此，在进行贝叶斯更新时，使用几率比使用概率更加简单易行——如果你使用概率，就必须应用复杂版本的<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/An-Intuitive-Explanation-Of-Bayess-Theorem\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">贝叶斯定理</a>。但是，在回答某些问题时，比如「如果我掷一个六面骰子，掷出 1 到 4 之间的数字的可能性有多大？」，使用概率会更加方便。你可以将每个面 1/6 的概率相加，得到 4/6，但你无法将每个面 0.2 的几率比相加，得到 0.8 的几率比。</p><p data-pid=\"EdlhVTkg\">我为什么要讲这些呢？是为了说明，「几率比」和「概率」一样，都是将不确定性合理地映射到实数的方式。在某些运算中，几率比更加方便，而在另一些运算中，概率更加实用。Cox 定理（以及各种扩展和改进）的一个著名证明表明，所有满足某些合理约束条件的不确定性表示方法，最终都是彼此同构的。</p><p data-pid=\"Y6Nv2zzH\">我们为什么要重视几率和概率具有同等合法性这一点呢？通常我们表示概率时，其值介于 0 到 1 之间，0 和 1 看起来都是很容易达到的数值——比如看到 1 只斑马或 0 只独角兽都再正常不过。但如果把概率换算成几率，情况就大不一样了：概率值 0 的几率依旧是 0，但概率值 1 的几率却变成了正无穷大。这样一来，要达到 100% 的真理把握似乎就没那么容易了。</p><p data-pid=\"LS2zt0kr\">E. T. Jaynes 推荐用对数几率来表示概率，因为这种表示法更便于贝叶斯推理。举个例子，假设某个命题的先验概率是 0.0001，这相当于 -40 分贝左右的对数几率。接下来你发现了一些证据，如果该命题为真，出现这些证据的概率是命题为假时的 100 倍，这相当于提供了 20 分贝的支持性证据。所以，后验几率大约就等于 -40 分贝 + 20 分贝 = -20 分贝，换言之，后验概率约为 0.01。</p><p data-pid=\"QcrgVE0i\">当我们把概率转换为对数几率后，0 被映射到负无穷大，1 被映射到正无穷大。这样一来，绝对确定和绝对不可能这两个极端都变得更加遥不可及了。</p><p data-pid=\"k2IaBkkr\">在概率表示法中，0.9999 和 0.99999 之间看起来只相差 0.00009，0.502 和 0.503 之间的距离似乎比 0.9999 和 0.99999 之间的距离大得多。从概率的角度看，从 0.99999 到达 1 仿佛只需要跨越 0.00001 这个微小的距离。</p><p data-pid=\"_UYMmJ8h\">但当我们把概率转换为几率比后，情况发生了变化。0.502 和 0.503 分别变为 1.008 和 1.012，而 0.9999 和0.99999 则变为 9999 和 99999。如果进一步转换为对数几率，0.502 和 0.503 变成了 0.03 分贝和 0.05 分贝，而 0.9999 和 0.99999 则变成了 40 分贝和 50 分贝。</p><p data-pid=\"H6T1P1Kc\">在对数几率表示法中，任意两个不确定性程度之间的距离，恰好等于从一个不确定性程度转变为另一个不确定性程度所需要的证据量。换言之，对数几率为我们提供了一种衡量不同置信度之间间距的自然方式。</p><p data-pid=\"pDjTnNK4\">运用对数比值可以清楚地揭示这样一个事实：要达到<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Infinite-Certainty\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">无限的确定性</a><sup data-text=\"无限的确定性\" data-url=\"https://zhuanlan.zhihu.com/p/991150597\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>需要无限强的证据支持，正如绝对荒谬的命题需要无限强的反证一样。</p><p data-pid=\"fIk96ohk\">不仅如此，当你试图将 1 或 0 代入概率学的各种经典定理时，往往会遇到一些特殊情况。例如，如果你要对一个被赋予概率 0 的观察结果进行贝叶斯更新，就会陷入困境。</p><p data-pid=\"4G2oTn2j\">因此，我认为将 1 和 0 排除在概率值的取值范围之外是合理的，就像不符合域公理的正负无穷大不被视为实数一样。</p><p data-pid=\"78kidAe9\">这个观点之所以会让概率论学者感到不安，主要是因为我们需要重新推导此前依赖于一个假设而得出的定理，即我们可以通过将所有概率分量加总并使其和为 1 来实现联合概率的边缘化。</p><p data-pid=\"d1YzooWC\">然而，在现实世界中，当你掷骰子时，它并非真的存在必然出现 1 到 6 之间某个数字的无限确定性。骰子可能会以棱着地，或被流星击中，甚或矩阵（Matrix）的黑暗领主会伸手在某一面写上「37」。</p><p data-pid=\"XcOJj4JY\">假如你创造了一个神奇的符号，用来表示「所有我未考虑到的可能性」，那么你就可以对包含这个神奇符号的事件进行边缘化处理，从而得到一个代表无限确定性的神奇符号「T」。 </p><p data-pid=\"-EIMyPSZ\">但我更愿意探寻是否有什么方法，能够在不借助具有特殊性质的魔法符号的前提下推导出定理。那会显得更加优雅。正如有些数学家拒绝接受排中律或无限集合一样，我希望能成为一位不相信绝对确定性的概率论学者。</p><hr/><p data-pid=\"p1dc6n7B\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/991150597\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-2f46e7de4de6c6283e78b8bae092d236_qhd.jpg\" data-image-width=\"3264\" data-image-height=\"2448\" class=\"internal\">Thoughts Memo：无限的确定性</a><p data-pid=\"8nnZ8jD-\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/991296194\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-7e8e62ce2064df35735c1f8d8fd3f912_qhd.jpg\" data-image-width=\"1200\" data-image-height=\"852\" class=\"internal\">Thoughts Memo：你的理性是我的事</a><hr/><blockquote data-pid=\"qddp827k\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3-opus，校对 <span class=\"nolink\">Jarrett Ye</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Zero-And-One-Are-Not-Probabilities\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">0 And 1 Are Not Probabilities (readthesequences.com)</a></blockquote>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 1,
+  "image_url": "https://pic1.zhimg.com/v2-537b8828a99088f370fe08b9b8968942_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

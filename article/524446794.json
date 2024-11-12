@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1660482526,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "正如我在最近的帖子中提到的，我在过去的几个月里一直在建设基础设施，我希望这将有…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 524446794,
+  "voteup_count": 23,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1654401526,
+  "url": "https://api.zhihu.com/articles/524446794",
+  "comment_permission": "all",
+  "title": "将想法送入你的轨道（Orbit）",
+  "image_width": 535,
+  "content": "<p data-pid=\"QwaP0fT_\">正如我在最近的帖子中提到的，我在过去的几个月里一直在建设基础设施，我希望这将有助于我（和其他人！）围绕助记媒介这样的系统，探索更广泛的想法。从某种真正意义上说，这感觉就像我在建立我的研究实验室！</p><p data-pid=\"qD6AIFG4\">构建这样系统的一个奇怪之处在于，我对我正在构建的东西只有模糊的构想。我建造这个东西是为了观察，这样我才能建造这个东西，然后继续这个循环。由于我对核心结构的认知在不断发展，所以下面的内容都充满推测！但我觉得，你们可能会喜欢听听我现在是怎么想的。</p><p data-pid=\"XbeAYtIO\">几十年来，计算机操作系统总是地内置一套差别不大的个人信息管理工具：地址簿、日历、电子邮件客户端、某些基本笔记功能、文件和文件夹等。这些工具的设计与封闭自成一体的 App 不同。典型的 App 想要从头到尾承担一套工作流程。而操作系统的软件虽然基础，但更具通用性。每个软件既是工具也是服务，可以通过 API 构建的集成服务，在整个操作系统中充分沟通连接。可以在电子邮件里向日历中添加事件，在聊天应用程序中输入联系人的姓名便自动填充，在多个应用程序中打开文件，保存到相同文件夹，等等。最近，我们已经开始期待这些功能能够在各处无缝同步，并与各种网络服务通讯。</p><p data-pid=\"pm4F8PZH\">如果在「操作系统层面」上有<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4eXdSMJFv2qVGXSUEKH4vdcHBrLHcFY1ZGfC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复记忆系统</a><sup data-text=\"间隔重复记忆系统\" data-url=\"http://zhuanlan.zhihu.com/p/404257681\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，那会怎样？如果将卡片设计得更像文件夹里的文件，在整个系统和网络上的其他服务中都可读可写，而非像 Anki 或其他现存工具的卡片，存储在 App 的袖珍天地里，那会怎么样？</p><p data-pid=\"gkypoImE\">网络文章可以呈现嵌入行文的卡片，这些卡片可能由作者编写，如<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4rRX3qwSSJRsEkdXKwH2shamgHNeRthrMLiF\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">助记媒介</a><sup data-text=\"助记媒介\" data-url=\"http://zhuanlan.zhihu.com/p/459483765\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>的卡片，也可能由读者编写，如《天才/假设》。你可以边阅读边灵活地导入卡片，就像你的浏览器在阅读时形成历史记录一样。</p><p data-pid=\"2b_J0maA\">你的 PDF 和电子书阅读器中的标注，可以自然地这个中心化的 SRS 中找到，而不是封存在某个无法访问的侧边栏中。</p><p data-pid=\"zQ0G4NAw\">现代操作系统，会根据聊天消息或电子邮件，尝试创建日历事件或建立联系人。类似地，SRS 系统也可能根据你标为书签的链接，或重复搜索的短语，来尝试创建 SRS 卡片。</p><p data-pid=\"63Y_gqFp\">当你在日常会议上记笔记时，你可以用特殊的标签来标记关键的见解，以将其加入这个系统中——或许未来文字处理器的格式栏，将包括添加粗体、斜体、下划线等按钮……和「待复习」按钮。我已经为自己建立了这种「个人助记媒介」，并且在过去四个月里一直在使用它。我还没有过多地谈论它，因为它非常奇怪，我不了解它。但它很吸引人，而且我认为——前景可期！</p><p data-pid=\"8lDP5knY\">但是，一旦你的想法中， SRS 除了用来记忆还有更多用处，这些想法就会变得更加有趣。</p><p data-pid=\"AcZX5iks\">在《量子国度》的最后一章中，我们尝试使用间隔重复的卡片来帮助读者<b>应用</b>他们所学到的知识，除了记住他们所学到的知识之外。在我们个人的 Anki 实践中，迈克尔·尼尔森和我已经试验了几年<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zE8PK4UUAAWK6LEcmr8jja8JdxpUxcf1FUCX\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">利用这些互动来促进综合和思考</a><sup data-text=\"间隔重复记忆系统可用于促进应用、综合和创造\" data-url=\"http://zhuanlan.zhihu.com/p/412311494\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。在过去的一年里，我一直在试验<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7iCjRziX6V6unNWL81yc2dJicpRw2Cpp9MfQ\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">利用这些互动来支持渐进的创造性工作</a><sup data-text=\"间隔重复对于逐步完善灵光一闪可能有用\" data-url=\"http://zhuanlan.zhihu.com/p/415857130\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>和<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7yRMBXGc81KkUwLxefodzfnnfKXx63vXzP88\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我的阅读队列</a><sup data-text=\"间隔重复可以降低对收件箱进行维护中破坏性操作风险\" data-url=\"http://zhuanlan.zhihu.com/p/438631838\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>。</p><p data-pid=\"8Sawu7V9\">例如，你现在抬起手腕，对智能手表说：「提醒我写下我的想法，可以将 SRS 认为是操作系统层级的服务。」这是一次性的提醒。但是有了操作系统层级的 SRS，你就可以抬起手腕，对智能手表说：「记住，我要思考这个问题，哪些新场景会受益于操作系统层级的 SRS 服务？」这样就不是生成一次性的「待办事项」，而是一张可供后续反复思考的卡片。</p><p data-pid=\"uu6Mi0IX\">这一切都要求我们对间隔重复系统打开视角。典型的印象是抽认卡，用来记忆东西，标记为正确或不正确。但一种更泛用的描述方法是：通过 SRS，你可以安排在一段时间内重复参与一些任务，而且时间轴可以随着你的行动而变化。下面是这方面的一些实例：</p><ul><li data-pid=\"81l2Sa7P\"><b>记忆</b>：重复回忆问题；时间间隔随着回答成功/失败而呈指数级扩大/缩小<br/> <br/></li><li data-pid=\"w1JH5Aqp\"><b>过程的流畅性</b>：重复完成简短练习，有许多变体；时间间隔随着成功/失败而呈指数级扩大/缩小<br/> <br/></li><li data-pid=\"_pZoZ7BH\"><b>卡片写作</b>：重复问题、模糊的想法、主干想法，从中积累思考，时间跨度为几个月；将卡片标记为「有成果」或「无成果」，以扩大/缩小时间间隔<br/> <br/></li><li data-pid=\"Xlm7vEJc\"><b>习惯养成</b>：重复简短的反思卡片，可能根据顺序改变，应用于你的日常经验；间隔默认扩大，但可以放缓<br/> <br/></li><li data-pid=\"kcHzzD43\"><b>阅读队列</b>：一系列 PDF，标签页，书本，总在变换：如果一段时间内忽略某些内容，它就会暂离一周，之后是一个月；比如说「我现在读够什么了」，这东西就会几天之内再次呈现；说某个东西「不是现在读」，那就几个月，之后是几个月之后再呈现……<br/> <br/></li><li data-pid=\"kb0-YeEY\"> 电子邮件收件箱、任务队列、个人通信等<br/> </li></ul><p data-pid=\"LMYMTpk6\">我这些想象的核心，是每日都要练习的一种习惯，类似冥想：打开软件，完成软件呈上的微任务。或许是锤炼记忆，基于反思问题写写东西，简单做些物理题，简单写点东西之类。十分钟之后，你等的火车来了，你登上火车，今天的练习就结束了。明天又有新东西。</p><p data-pid=\"a6b24YDJ\">总体而言，这个系统意在让你能把想法<b>送入你的轨道（Orbit）</b>。一见到有趣的事物，就将其系上丝线，投入轨道，任其缓缓转动。某个时间点，它会回转到你眼前，但你并不关心几时几分。你会逐渐调整丝线松紧。你所收集的星星点点，在你的头顶上，汇成星座，变化不息。想法、事实、问题、卡片、心之所向，尽在其中。你每日抬头仰望这一角星空，回应众星。</p><p data-pid=\"kjj6_qgY\">因此，至少现在，我把这个系统称为 <b>Orbit</b>。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"36DSO-l0\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制 <br/>题图：<a href=\"https://link.zhihu.com/?target=https%3A//www.pixiv.net/artworks/91612724\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">#Arcaea Beyond Biography - Saclia的插画 - pixiv</a> <br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/bringing-ideas-36925173\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Bringing ideas into your Orbit | Patreon 上的 Andy Matuschak</a></blockquote>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 0,
+  "image_url": "https://pic1.zhimg.com/v2-869b4bb0dd3ab33063acf756cbfd6797_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

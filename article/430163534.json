@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1677409453,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "常青笔记是原子性的（常青笔记应该是原子化的 [1]），并含有大量链接（常青笔记之间…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 430163534,
+  "voteup_count": 19,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1636181056,
+  "url": "https://api.zhihu.com/articles/430163534",
+  "comment_permission": "all",
+  "title": "常青笔记实现顺畅而渐进的写作（「渐进写作」）",
+  "image_width": 615,
+  "content": "<p data-pid=\"FkQOph6K\">常青笔记是原子性的（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4Rrmh17vMBbauEGnFPTZSK3UmdsGExLRfZz1\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常青笔记应该是原子化的</a><sup data-text=\"常青笔记应该是原子化的\" data-url=\"https://zhuanlan.zhihu.com/p/420726986\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>），并含有大量链接（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2HUE4ABbQjUNjrNemvkTCsLa1LPDRuwh1tXC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常青笔记之间应该建立大量链接</a><sup data-text=\"常青笔记之间应该建立大量链接\" data-url=\"https://zhuanlan.zhihu.com/p/426450021\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>），因此中止或者继续写作常青笔记都非常轻松。这有助于<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8d4eJNaKrVDGTFpqRnQUPRkexB7K6XbcffAV\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">闭合开环</a><sup data-text=\"闭合开环\" data-url=\"https://zhuanlan.zhihu.com/p/441969379\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。</p><p data-pid=\"9hZhVre3\">这些笔记麻雀虽小五脏俱全，如同定期检查点。每篇笔记只需要几分钟的时间即可写就，但是因为这些笔记是<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常青笔记</a><sup data-text=\"常青笔记 (Evergreen notes)\" data-url=\"https://zhuanlan.zhihu.com/p/416319260\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>，每篇笔记都是可依赖的坚实砖石——笔记完备地表达了自身描述的概念（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6bci25mVUBNFdVWSrQNKr6u7AZ1jFzfTVbMF\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常青笔记应面向概念</a><sup data-text=\"常青笔记应面向概念\" data-url=\"https://zhuanlan.zhihu.com/p/421580357\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>）。当然，我们日后还会对笔记内容逐渐迭代完善，但每次迭代时，笔记仍将是一个基本完整、自成一体的单元。</p><p data-pid=\"sHB1p6mk\">相比之下，当我们处理一份正在编写的长篇手稿时，我们要同时应付许多想法，这些想法完成度各不相同。这份文本在各个部分的完备程度都千差万别。同时文本很长，很容易迷失自己的位置，或者在继续工作时忘记其他相关点的位置。每天开始工作和结束工作都像是繁重的任务，都大量依赖工作记忆。</p><hr/><h2>参考文献</h2><p data-pid=\"7DEHo92u\">Ahrens, S. (2017). <i>How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers</i>.</p><blockquote data-pid=\"-f71SrQ_\">因为每个任务的结果得到记录，它们之间可能存在的联系因而变得清晰可见，我们便可以很容易地随时接着上次停下的地方继续工作，而不必一直把它记在心里。<br/><br/>如此这般，我们不再需要记住还有什么事情没完成，也可以从上次停止的位置继续完成这项任务。这也正是通过写作思考的优势之一，即把所有事情置于思绪之外。<br/><br/>只有当工作记忆中没有任何其他东西萦绕不去而占用宝贵的精神资源，我们才能体验到艾伦所说的「心灵若水」——在这种状态下，我们可以专注于眼前的工作，而不会被其他想法分散注意力。</blockquote><p data-pid=\"q5zghUu0\">Wozniak, P. (2018, June 9). Incremental writing. Retrieved December 30, 2019, from <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Incremental_writing\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">supermemo.guru/wiki/Inc</span><span class=\"invisible\">remental_writing</span><span class=\"ellipsis\"></span></a><sup data-text=\"渐进写作\" data-url=\"https://www.yuque.com/supermemo/wiki/incremental_writing\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup></p><p data-pid=\"Fen6K2UP\"><a href=\"https://link.zhihu.com/?target=https%3A//twitter.com/andy_matuschak/status/1271997374756315142\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">hak/status/1271997374756315142</a></p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"J8P_TEIP\"><a href=\"https://zhuanlan.zhihu.com/p/501187896\" class=\"internal\">§收件箱与注意力管理</a></li><li data-pid=\"Esib_SyK\"><a href=\"https://zhuanlan.zhihu.com/p/426450021\" class=\"internal\">常青笔记之间应该建立大量链接</a></li><li data-pid=\"R4A27fRk\"><a href=\"https://zhuanlan.zhihu.com/p/422262632\" class=\"internal\">笔记标题建议使用完整的句子，避免模糊主张</a></li><li data-pid=\"6-3AVqTl\"><a href=\"https://zhuanlan.zhihu.com/p/440755692\" class=\"internal\">可执行的写作策略</a></li><li data-pid=\"S4FoQgsn\"><a href=\"https://zhuanlan.zhihu.com/p/446019403\" class=\"internal\">默认不考虑读者，只为自己写笔记</a></li><li data-pid=\"Sl_qfTNz\"><a href=\"https://zhuanlan.zhihu.com/p/448897897?\" class=\"internal\">常青笔记有助于积累洞见</a></li><li data-pid=\"U2IQrXFn\"><a href=\"https://zhuanlan.zhihu.com/p/609604620\" class=\"internal\">卡片笔记写作法 - Ahrens</a></li></ul><h2>声明</h2><p data-pid=\"b3R0bA4p\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"vSYsWg1r\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6C5H4eYH2A4omfNLuUcDiKibQ1hZG2RGNZ97\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Evergreen notes permit smooth incremental progress in writing (“incremental writing”) (andymatuschak.org)</a></blockquote>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 0,
+  "image_url": "https://picx.zhimg.com/v2-065ec86c1a9b8ddc8a7d72a5ac2fd34f_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

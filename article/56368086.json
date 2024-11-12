@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1553520959,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://pic1.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "已收录于「一周年」专栏整理 首先，如果你有一个错题本，这样会好操作很多，下面是群…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 56368086,
+  "voteup_count": 126,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1549662284,
+  "url": "https://api.zhihu.com/articles/56368086",
+  "comment_permission": "all",
+  "title": "用 Anki 建立高效复习错题体系",
+  "image_width": 361,
+  "content": "<blockquote data-pid=\"ytMvDqVz\">已收录于<a href=\"https://zhuanlan.zhihu.com/p/57637220\" class=\"internal\">「一周年」专栏整理</a></blockquote><p data-pid=\"R54EqEK8\">首先，如果你有一个错题本，这样会好操作很多，下面是群内大佬的样例：</p><figure data-size=\"small\"><img src=\"https://picx.zhimg.com/v2-1af4b1499a3509ee991691ce935a16ed_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1082\" data-rawheight=\"1830\" class=\"origin_image zh-lightbox-thumb\" width=\"1082\" data-original=\"https://picx.zhimg.com/v2-1af4b1499a3509ee991691ce935a16ed_r.jpg\" data-original-token=\"v2-26e7ec67202767fd6e647b5febefc6a8\"/></figure><p data-pid=\"wVPO5_kj\">没有错题本也没有关系，用一个文件夹专门收集错题也可以(把错题剪下来贴本子上也不错)。</p><p data-pid=\"J5Xbqly3\">重点是如何<b>安排</b>每天复习的错题，这需要让 Anki 协助我们。</p><p data-pid=\"ml_2FJEt\">由于直接拍照和错题转录都是比较费时的事情，这里我们用<b>编号</b>来实现快速错题检索，样例如下：</p><figure data-size=\"small\"><img src=\"https://pic1.zhimg.com/v2-0ab18eb500ef97760baa0f58b76a3554_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1082\" data-rawheight=\"1830\" class=\"origin_image zh-lightbox-thumb\" width=\"1082\" data-original=\"https://pic1.zhimg.com/v2-0ab18eb500ef97760baa0f58b76a3554_r.jpg\" data-original-token=\"v2-4cc6377a92f6a90eb44f9e115cfd538d\"/></figure><p data-pid=\"tiwOi3GO\">制作自己能看得懂的编号即可，重要的是能利用编号快速找到错题的<b>位置</b>。</p><p data-pid=\"piqDNLHa\">有了编码，即可制作错题复习牌组，就用最简单的 Basic (问答题)卡片模板，正面输入<b>编号</b>，背面可以留空，也可以记录自己的<b>反思</b>或者<b>相关知识</b>。</p><p data-pid=\"Cpg6XhNa\">但是问题来了，Anki 的卡片复习都是一张一张出现，没法一次性看到今天要复习的错题有哪些，每刷一张卡片都要找一次错题位置，比较闹心，如果用卡片浏览器，又只能看到全部卡片(如下图)，这该如何是好？</p><figure data-size=\"small\"><img src=\"https://pic3.zhimg.com/v2-9fcb522619a7713cfff62b1e8c803d0a_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1029\" data-rawheight=\"1830\" class=\"origin_image zh-lightbox-thumb\" width=\"1029\" data-original=\"https://pic3.zhimg.com/v2-9fcb522619a7713cfff62b1e8c803d0a_r.jpg\" data-original-token=\"v2-fad53e7e361dc2783a6c8b0a978ba585\"/></figure><p data-pid=\"84HhCZHL\">没关系！之前我发的文章《<a href=\"https://zhuanlan.zhihu.com/p/48318470\" class=\"internal\">如何正确利用 「Anki」强大的卡片查找功能？</a>》中有一个筛选搜索技巧，可以实现在卡片浏览器中一览<b>今日到期</b>的卡片，如下图：</p><figure data-size=\"small\"><img src=\"https://pica.zhimg.com/v2-fc628003d6d558fb6cef46b7926895e4_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1029\" data-rawheight=\"1830\" class=\"origin_image zh-lightbox-thumb\" width=\"1029\" data-original=\"https://pica.zhimg.com/v2-fc628003d6d558fb6cef46b7926895e4_r.jpg\" data-original-token=\"v2-6e09ffc48fd04109e3e32e09016bf3b9\"/></figure><p data-pid=\"BDdxuY46\">今日需要复习的错题<b>一目了然</b>！</p><p data-pid=\"wJc-xWxd\">怎么操作？进入卡片浏览器，输入 deck:&#34;错题本(可以换成任何牌组名)&#34; is:due 即可。</p><p data-pid=\"VmwmajYj\">或者直接在卡片浏览器中点到想要查找的牌组，再搜索 is:duo 。</p><p data-pid=\"gQIVcE_0\">是不是很<b>简单</b>，又很<b>方便</b>呢？是时候试试了！</p><p data-pid=\"0sPwLr0-\">PS:考虑到如果每天都有 10 道错题，一个月后每天复习的错题可能有 40 道，可能有点多，可以考虑把间隔系数(间隔修饰符)调整到 200% ，这样学习任务就会减轻一半哦，详见：<a href=\"https://zhuanlan.zhihu.com/p/42921090\" class=\"internal\">Anki 算法与术语浅谈</a>。</p>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 29,
+  "image_url": "https://picx.zhimg.com/v2-ec849b4e54c18d4c715e44ac4292481c_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

@@ -1,0 +1,74 @@
+{
+  "status": 0,
+  "updated": 1657155953,
+  "author": {
+    "is_followed": false,
+    "badge": [],
+    "name": "叶峻峣",
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "avatar_url": "https://picx.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+  },
+  "can_tip": false,
+  "excerpt": "链表式证明卡是使用 Anki 记忆证明的方法。在链表式证明卡中，每一张卡片会询问证明…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 538568061,
+  "voteup_count": 6,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1657155953,
+  "url": "https://api.zhihu.com/articles/538568061",
+  "comment_permission": "all",
+  "title": "链表式证明卡",
+  "content": "<p data-pid=\"gguhffTX\"><b>链表式证明卡</b>是使用 Anki 记忆证明的方法。在链表式证明卡中，每一张卡片会询问证明的下一步是什么，所以这些卡片形成了链表这一数据结构（或者说是「累加」的链表，每张卡片都包含了卡片之前的所有证明步骤，而不仅仅是上一个步骤）。</p><p data-pid=\"vSAk4mJU\">实际上我不喜欢「链表式证明卡」这个名字，因为这听起来像是每张卡片都是一个链表，而没有体现出卡片的集合形成了一个链表。或许「链表证明<b>法</b>」或者什么别的名字会更好？</p><h3>分析</h3><p data-pid=\"7NQ4jtkc\">我认为仅仅尝试将证明组织起来的卡片并不是一个好主意。这总是会在你能回答出证明的下一步前花费时间来回想证明的上下文。并且我感觉当你只是想讲整个证明写为一张「大」卡片的一部分时，回答一些任意的步骤没有什么帮助。（当然，当你在写证明的时候卡住，你可以制一张「小」卡片来回答一个特定的问题）——或许另一种说法是，你不「需要」能任意访问证明步骤。你需要的只是能够从开头写到结尾；你需要将证明的故事从头到尾讲出来的能力。并且，为了得到后一种的能力，去做前者的练习是一条充满痛苦的路。（叙事者并不需要能够从故事的任意片段开始讲述）。<a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.comhttp//web.archive.org/web/20190310050412/https%3A//forum.koohii.com/thread-2275-post-134811.html%23pid134811\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这条论坛帖子</a>表达了一种类似的感觉：「别尝试说服我你能够从中间步骤开始解决一个简单问题，因为我认为那是胡说八道。解数学问题是整体的，是从头到尾的一个过程。你的思路需要回顾你从哪里来，要展望你要到哪里去。你不能只解半道积分……」</p><p data-pid=\"-IkU5Sp5\">给问题做分步证明卡（把证明分解成许多张卡）：「下一步」 往往有许多可能，所以有个情况很烦人，就是我不记得确切的下一步，但我可以给出合理的下一步，但这步骤不是我在卡片上写下的。</p><p data-pid=\"ICXSsVYi\">最近我感到沮丧的一件事是，当我添加关于证明的不同部分的卡片时，我常常不能迅速回忆起证明的陈述/背景，所以我就只能「呃......」，或者也许我可以迅速回答卡片，却不能回忆起证明的细节（这本身就很令人担忧）。这就像，这些证明卡的成本太高，无法回忆，但我却想知道它们。也许有一个问题是，有些证明没有名字（例如，Peter Smith 的 Goedel 书中的一个证明是没有名字的不完全性结果，以及史迪威的反向数学书中关于无限二叉树的那个证明）。如果我知道证明的名字，那么我也许可以把它作为「中心节点」，从名字可以联系到其他卡片（包括证明的声明）。</p><p data-pid=\"ei48xbAU\">我注意到的另一件事，与上述情况有关，就是有些卡片只是在加强某一个联系。但我需要不断制作卡片，让知识的图中连接越来越密集。</p><h3>另见</h3><ul><li data-pid=\"IisQT_m6\"><a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/wiki/Spaced_proof_review\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔证明复习</a><br/> </li><li data-pid=\"E8Fy_wd0\"><a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/wiki/List_of_techniques_for_making_small_cards\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">列表：制作精小卡片的技巧</a><br/> </li></ul><h3>链接到本文</h3><ul><li data-pid=\"gjb1Hh-Z\"><a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/wiki/List_of_experiments_with_Anki\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anki 的实验</a> (<a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/index.php%3Ftitle%3DSpecial%3AWhatLinksHere%26target%3DList%2Bof%2Bexperiments%2Bwith%2BAnki\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">←链接</a>)<br/> </li><li data-pid=\"t4WQF3mH\"><a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/wiki/Spaced_proof_review\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔证明复习</a> (<a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/index.php%3Ftitle%3DSpecial%3AWhatLinksHere%26target%3DSpaced%2Bproof%2Breview\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">←链接</a>)<br/> </li><li data-pid=\"8LMLmYSq\"><a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/wiki/List_of_techniques_for_making_small_cards\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">制作精小卡片的技巧列表</a>‎ (<a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/index.php%3Ftitle%3DSpecial%3AWhatLinksHere%26target%3DList%2Bof%2Btechniques%2Bfor%2Bmaking%2Bsmall%2Bcards\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">← 链接</a>)</li></ul><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"s3KOmK1i\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/wiki/Linked_list_proof_card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Linked list proof card</a></blockquote>",
+  "column": {
+    "updated": 1656554884,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "叶峻峣",
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "avatar_url": "https://pic1.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    },
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "title": "间隔重复 & 注意力管理",
+    "image_url": "https://pic1.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1525782291741208576"
+  },
+  "comment_count": 2,
+  "image_url": "",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

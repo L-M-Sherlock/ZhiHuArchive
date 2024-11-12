@@ -1,0 +1,50 @@
+{
+  "answer_type": "normal",
+  "author": {
+    "avatar_url": "https://pic1.zhimg.com/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-0ebbd00d10ee9f3b47237b367659abe0.jpg?source=2c26e567",
+    "badge": [],
+    "badge_v2": {
+      "detail_badges": [],
+      "icon": "",
+      "merged_badges": [],
+      "night_icon": "",
+      "title": ""
+    },
+    "gender": 1,
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+    "is_advertiser": false,
+    "is_org": false,
+    "is_privacy": false,
+    "name": "叶峻峣",
+    "type": "people",
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "url_token": "thoughts-memo",
+    "user_type": "people"
+  },
+  "biz_ext": {},
+  "comment_count": 2,
+  "content": "<p data-pid=\"-rQ4Eb3r\">AnkiDroid，由开源社区维护的间隔重复闪卡 APP，其底层和桌面端共用的一套 Rust 代码，所以也共用了 FSRS 算法。</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/ankidroid/Anki-Android-Backend\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">ankidroid/Anki-Android-Backend: JNI bridge between AnkiDroid and Anki Desktop&#39;s rust code (github.com)</a><p data-pid=\"mdHEl_Cv\">FSRS 算法可以预测用户对每张闪卡的回忆概率，而且可以从用户的历史复习记录中学习用户的记忆规律。</p><figure data-size=\"normal\"><noscript><img src=\"https://pica.zhimg.com/50/v2-a531355b7abde84b9ec31147a4c73409_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"2340\" data-original-token=\"v2-a531355b7abde84b9ec31147a4c73409\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-6dddf8806c9f473aebef42c34abbaa46_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-a531355b7abde84b9ec31147a4c73409_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1080&#39; height=&#39;2340&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"2340\" data-original-token=\"v2-a531355b7abde84b9ec31147a4c73409\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-6dddf8806c9f473aebef42c34abbaa46_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-a531355b7abde84b9ec31147a4c73409_r.jpg?source=2c26e567\" data-actualsrc=\"https://pica.zhimg.com/50/v2-a531355b7abde84b9ec31147a4c73409_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"2s0WEJ-a\">本来 FSRS 算法只有 PyTorch 版本，不过在开源社区成员的帮助下，移植到了 Rust 的深度学习库 burn 上面。</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/tracel-ai/burn\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">tracel-ai/burn: Burn is a new comprehensive dynamic Deep Learning Framework built using Rust with extreme flexibility, compute efficiency and portability as its primary goals. (github.com)</a><p data-pid=\"cjE7Yc4-\">不过现在手机上都能跑大语言模型了，所以手机 APP 用深度学习也不是啥新奇的事了。说不定以后人手一个离线的 AI 助理。</p>",
+  "content_need_truncated": false,
+  "created_time": 1711869122,
+  "excerpt": "AnkiDroid，由开源社区维护的间隔重复闪卡 APP，其底层和桌面端共用的一套 Rust 代码，所以也共用了 FSRS 算法。 ankidroid/Anki-Android-Backend: JNI bridge between AnkiDroid and Anki Desktop&#39;s rust code (github.com) FSRS 算法可以预测用户对每张闪卡的回忆概率，而且可以从用户的历史复习记录中学习用户的记忆规律。 [图片] 本来 FSRS 算法只有 PyTorch 版本，不过在开源社区成员的帮助下，移植到了 Rust 的深度学习库 burn 上…",
+  "id": 3449773857,
+  "is_jump_native": false,
+  "question": {
+    "created": 1492788516,
+    "detail": "",
+    "id": 58833455,
+    "question_type": "normal",
+    "relationship": {},
+    "title": "有哪些使用深度学习的手机APP?",
+    "type": "question",
+    "updated_time": 1492788516,
+    "url": "https://api.zhihu.com/questions/58833455"
+  },
+  "relationship": {
+    "upvoted_followees": []
+  },
+  "type": "answer",
+  "voteup_count": 38
+}

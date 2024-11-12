@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1556288232,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "已收录于「一周年」专栏整理 本文是我对 YJango 先生的学习观的理解，以及如何用于优…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 62257444,
+  "voteup_count": 153,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1555080772,
+  "url": "https://api.zhihu.com/articles/62257444",
+  "comment_permission": "all",
+  "title": "站在高中数学与物理的角度理解学习观以及对 Anki 学习法的启示(费曼技巧与实践)",
+  "image_width": 779,
+  "content": "<blockquote data-pid=\"sOiAM1tq\">已收录于<a href=\"https://zhuanlan.zhihu.com/p/57637220\" class=\"internal\">「一周年」专栏整理</a></blockquote><p data-pid=\"hiqMouOy\">本文是我对 <a href=\"https://www.zhihu.com/people/YJango\" class=\"internal\">YJango</a> 先生的学习观的理解，以及如何用于优化 Anki 学习法。 虽然结论在文末，但是建议看完文章内容，因为结论的描述不是知识，只是信息，看完文章并产生自己的联想，才是学习到了知识。</p><hr/><p data-pid=\"hqC6J1Xv\">接下来，我会将 YJango 先生分享的<a href=\"https://zhuanlan.zhihu.com/YJango\" class=\"internal\">学习观</a>中的知识替换为数学中的函数(也包括计算机中的函数)，并结合物理公式来阐述我所学到的学习观，以及对我目前使用 Anki 学习的方法加以改进。</p><p data-pid=\"LNmcNAFv\">以匀速直线运动为例，某物体的速度  <img src=\"https://www.zhihu.com/equation?tex=v%3D5+m%2Fs+%E2%80%8B\" alt=\"v=5 m/s ​\" eeimg=\"1\"/> ，那么经过不同时间，物体的位移就不同，如果我们测量几个时刻的数据，就会得到下面的结果</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"eIjBt6W9\"><img src=\"https://www.zhihu.com/equation?tex=t%3D1s%2Cx%3D5+m+%5C%5C+t%3D5s%2Cx%3D25m+%5C%5C+t%3D7s%2Cx%3D35m+%5C%5C+%5Cvdots++%E2%80%8B\" alt=\"t=1s,x=5 m \\\\ t=5s,x=25m \\\\ t=7s,x=35m \\\\ \\vdots  ​\" eeimg=\"1\"/> </p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"hF6JhjNu\">理论上，我们可以测量无数次，把每一个时刻的位移都记住，然后在以后遇到同一个速度为 <img src=\"https://www.zhihu.com/equation?tex=v%3D5+m%2Fs%E2%80%8B\" alt=\"v=5 m/s​\" eeimg=\"1\"/> 的物体时能够得出任意时刻的位移。但实际上是不可能的，我们无法记住任意时刻对应的位移，我们需要能够解决此类问题的一般性方法，于是就有归纳出位移关于时间的函数。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"mgRwukoQ\">通过上述问题，我们可以归纳出一个函数 <img src=\"https://www.zhihu.com/equation?tex=+x%28t%29%3D5t\" alt=\" x(t)=5t\" eeimg=\"1\"/> ，这样我们就可以不需要记住任意时刻的位移了！但是，这还不够，这只是 <img src=\"https://www.zhihu.com/equation?tex=v%3D5+m%2Fs\" alt=\"v=5 m/s\" eeimg=\"1\"/> 情况下的特例，于是我们又总结出了任意速度下的函数 <img src=\"https://www.zhihu.com/equation?tex=x%28v%2Ct%29%3Dvt\" alt=\"x(v,t)=vt\" eeimg=\"1\"/> </p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"a3a9-sb6\">或许会有人问，我直接记住这个函数不就好了？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"nIQAn6gM\">好的，假设你记住了这个公式，然后遇到了几道匀速运动的题目</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"OW9_eoh6\">题目一：条件给出速度为 12 米每秒，时间为 9 秒，你傻眼了，没给 <img src=\"https://www.zhihu.com/equation?tex=v%2Ct%E2%80%8B\" alt=\"v,t​\" eeimg=\"1\"/> 怎么算 <img src=\"https://www.zhihu.com/equation?tex=x\" alt=\"x\" eeimg=\"1\"/> 啊？(别笑，你就真只记住了函数)</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Xm9jz5jg\">题目二：条件 <img src=\"https://www.zhihu.com/equation?tex=u+%3D+12m%2Fs%2Cr%3D9s%E2%80%8B\" alt=\"u = 12m/s,r=9s​\" eeimg=\"1\"/> ，你又傻眼了，这符号给的不对了，怎么代入啊？(别笑，你就真只记住了函数)</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"N6s-3YKk\">题目三：条件 <img src=\"https://www.zhihu.com/equation?tex=v+%3D+12t%28m%2Fs%29%EF%BC%8Ct%3D5s\" alt=\"v = 12t(m/s)，t=5s\" eeimg=\"1\"/> ，你兴冲冲的把数值代入了，然后算出来 <img src=\"https://www.zhihu.com/equation?tex=x%3D300m\" alt=\"x=300m\" eeimg=\"1\"/> ，但是你错了，原因是不知道这个函数是匀速直线运动才能使用，函数中的 <img src=\"https://www.zhihu.com/equation?tex=v%E2%80%8B\" alt=\"v​\" eeimg=\"1\"/> 是匀速。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"fVFP9Cjp\">还有很多例子，你确定你只要记住那个函数就行了吗？因此，老师上课时会结合很多的例子，从而帮助学生将函数内化为大脑内部的连接，而不是仅仅记住函数的表达式。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0zdSGr3W\">我再举一个牛顿第二定律的例子。来好好梳理一下函数与知识的类比。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"CfSZILh_\"><img src=\"https://www.zhihu.com/equation?tex=F%28m%2Ca%29%3Dma%E2%80%8B\" alt=\"F(m,a)=ma​\" eeimg=\"1\"/> ，<img src=\"https://www.zhihu.com/equation?tex=F%E2%80%8B\" alt=\"F​\" eeimg=\"1\"/> 既是函数输出的物理量，又是这个函数的函数名，可以理解为物理量是现实问题中输出，函数名就是知识的名称。而 <img src=\"https://www.zhihu.com/equation?tex=%28m%2Ca%29%E2%80%8B\" alt=\"(m,a)​\" eeimg=\"1\"/> 则是函数需要的条件，也就是现实问题中的输入。等式右边的 <img src=\"https://www.zhihu.com/equation?tex=ma%E2%80%8B\" alt=\"ma​\" eeimg=\"1\"/> 则是函数的表达式，也就是我们反复阅读、记忆的知识的描述。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"KgEchhMv\">同时，<img src=\"https://www.zhihu.com/equation?tex=F%2Cm%2Ca%E2%80%8B\" alt=\"F,m,a​\" eeimg=\"1\"/> 三者本身也是函数，你可能会觉得奇怪，不就是个符号嘛，哪来的输入输出？举个例子，<img src=\"https://www.zhihu.com/equation?tex=10kg%2C20g%2C80t%E2%80%8B\" alt=\"10kg,20g,80t​\" eeimg=\"1\"/> (10千克，20克，80吨)都是 <img src=\"https://www.zhihu.com/equation?tex=m%E2%80%8B\" alt=\"m​\" eeimg=\"1\"/> (质量)，而 <img src=\"https://www.zhihu.com/equation?tex=10m%2C20N%2C40s%E2%80%8B\" alt=\"10m,20N,40s​\" eeimg=\"1\"/> (10米，20牛，40秒)都不是 <img src=\"https://www.zhihu.com/equation?tex=m%E2%80%8B\" alt=\"m​\" eeimg=\"1\"/> 。所以，<img src=\"https://www.zhihu.com/equation?tex=m%E2%80%8B\" alt=\"m​\" eeimg=\"1\"/> 这个函数限定了什么可以被它输出，什么不可以。所以我也可以把 <img src=\"https://www.zhihu.com/equation?tex=m%E2%80%8B\" alt=\"m​\" eeimg=\"1\"/> 写成函数的形式：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"tA1ditOf\"><img src=\"https://www.zhihu.com/equation?tex=+m%28input%29%3Ddata%28%5Ctextrm%7Bif+input+is+mass%7D%29%E2%80%8B\" alt=\" m(input)=data(\\textrm{if input is mass})​\" eeimg=\"1\"/> </p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3HabOKqo\">如果这个输入是质量，就输出质量，否则就什么也不做。这就是知识中的概念名词，或者定义。它的作用就是判断输入是不是某个类型，输出就是是和否。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"x8bx0NAR\">所以，不论你记住的是 <img src=\"https://www.zhihu.com/equation?tex=F%28m%2Ca%29%3Dma\" alt=\"F(m,a)=ma\" eeimg=\"1\"/> 中的任何一个部分，或者是整个函数，你都只是在符号中打转，而书本上的知识，只不过把符号换成了你看的懂的中文罢了。所以记住知识的描述不是学习，就如记住函数表达式不是学习。当然，也有特殊情况，如果考试考察默写公式，那么记住函数表达式反而又是学习了。这里我们就要引伸出一个问题，对于不同的学习任务，什么是正确输入输出？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"DH19wRK1\">我们刚才提到的默写考试，正确的输入是函数名，正确的输出是函数表达式，而关于函数名到函数表达式的函数，恐怕是不存在的，所以我们只能记住这些函数表达式才能通过这个考试，这也是应对这个问题的正确学习方法。当然，这里必有一个转折。因为还有一种函数，是可以通过函数来得出的，那就是复合函数！</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"sYAHYofo\">这里给出一个匀变速直线运动的例子：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"S45MmxdJ\"><img src=\"https://www.zhihu.com/equation?tex=s%28v_t%2Cv_0%2Ca%29%3D%5Cfrac%7Bv_t%5E2-v_0%5E2%7D%7B2a%7D%E2%80%8B\" alt=\"s(v_t,v_0,a)=\\frac{v_t^2-v_0^2}{2a}​\" eeimg=\"1\"/> </p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Lu32Xa2R\">可能我们中大多数人都是直接记忆了这个函数，然后直接用，但是这个函数其实并不是基本公式，而是由基本公式联立得出的：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"85nyguRr\"><img src=\"https://www.zhihu.com/equation?tex=v_t%28v_0%2Ca%2Ct%29%3Dat+%2B+v_0+%5C%5C+s%28v_0%2Ca%2Ct%29%3D%5Cfrac%7B1%7D%7B2%7Dat%5E2+%2B+v_0+t%E2%80%8B\" alt=\"v_t(v_0,a,t)=at + v_0 \\\\ s(v_0,a,t)=\\frac{1}{2}at^2 + v_0 t​\" eeimg=\"1\"/> </p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"h51eMLWW\">由第一个函数可以得到 <img src=\"https://www.zhihu.com/equation?tex=t%28v_t%2Cv_0%2Ca%29%3D%5Cfrac%7Bv_t-v_0%7D%7Ba%7D\" alt=\"t(v_t,v_0,a)=\\frac{v_t-v_0}{a}\" eeimg=\"1\"/> ，然后代入第二个函数，即可得到 <img src=\"https://www.zhihu.com/equation?tex=s%28v_t%2Cv_0%2Ca%29%3D%5Cfrac%7Bv_t%5E2-v_0%5E2%7D%7B2a%7D\" alt=\"s(v_t,v_0,a)=\\frac{v_t^2-v_0^2}{2a}\" eeimg=\"1\"/> 。也就是说，函数 <img src=\"https://www.zhihu.com/equation?tex=s%28v_t%2Cv_0%2Ca%29\" alt=\"s(v_t,v_0,a)\" eeimg=\"1\"/> 就是函数 <img src=\"https://www.zhihu.com/equation?tex=t%28v_t%2Cv_0%2Ca%29%3D%5Cfrac%7Bv_t-v_0%7D%7Ba%7D\" alt=\"t(v_t,v_0,a)=\\frac{v_t-v_0}{a}\" eeimg=\"1\"/> 和函数 <img src=\"https://www.zhihu.com/equation?tex=s%28v_0%2Ca%2Ct%29\" alt=\"s(v_0,a,t)\" eeimg=\"1\"/> 的复合！看不出来？那我把函数写得再清楚点： </p><p data-pid=\"bqOMKsbt\"><img src=\"https://www.zhihu.com/equation?tex=s%28v_t%2Cv_0%2Ca%29%3Ds%28v_0%2Ca%2Ct%28v_t%2Cv_0%2Ca%29%29%3D%5Cfrac%7Bv_t%5E2-v_0%5E2%7D%7B2a%7D\" alt=\"s(v_t,v_0,a)=s(v_0,a,t(v_t,v_0,a))=\\frac{v_t^2-v_0^2}{2a}\" eeimg=\"1\"/> </p><p data-pid=\"YnKNcsli\">是不是很像高中学过的复合函数？只不过是多元的罢了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"7PQ5r0Ly\">而如何复合，则是关于函数的二阶函数，它们没有函数表达式，从严格意义上来讲，也不是我们高中定义的函数了，而更接近编程中的函数。这个函数的作用，不再像一般的函数那样，输入几个物理量，再输出物理量。它更加抽象，描述的是函数之间的关系，为了得到新函数 <img src=\"https://www.zhihu.com/equation?tex=s%28v_t%2Cv_0%2Ca%29%3D%5Cfrac%7Bv_t%5E2-v_0%5E2%7D%7B2a%7D%E2%80%8B\" alt=\"s(v_t,v_0,a)=\\frac{v_t^2-v_0^2}{2a}​\" eeimg=\"1\"/> ，需要先用已知函数 <img src=\"https://www.zhihu.com/equation?tex=v_t%28v_0%2Ca%2Ct%29%3Dat+%2B+v_0\" alt=\"v_t(v_0,a,t)=at + v_0\" eeimg=\"1\"/> 推出 <img src=\"https://www.zhihu.com/equation?tex=t%28v_t%2Cv_0%2Ca%29%3D%5Cfrac%7Bv_t-v_0%7D%7Ba%7D%E2%80%8B\" alt=\"t(v_t,v_0,a)=\\frac{v_t-v_0}{a}​\" eeimg=\"1\"/> ，然后复合函数 <img src=\"https://www.zhihu.com/equation?tex=s%28v_0%2Ca%2Ct%29%3D%5Cfrac%7B1%7D%7B2%7Dat%5E2+%2B+v_0+t%E2%80%8B\" alt=\"s(v_0,a,t)=\\frac{1}{2}at^2 + v_0 t​\" eeimg=\"1\"/> ，最后整理。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"myV8no8Q\">而且，这种函数通常不会直接以文字的形式写出来，而是隐含在例子之中。当然，也有的老师或者教辅会归纳二阶函数，我印象比较深刻的是圆锥曲线的「建设现代化」，即<b>建</b>坐标系、<b>设</b>动点坐标、<b>限</b>制条件、<b>代</b>已知点坐标、<b>化</b>简整理，一下把圆锥曲线轨迹问题的解决方法描述了出来。但是如果我们不通过体会例子，就无法实际运用这个二阶函数。这里的二阶函数对应的就是学习观中的二阶知识。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"dRE_L7lh\">而且实际上，做题做得很熟练的人，是不会有意识的去想二级函数，而是直接动笔把每个步骤依次写下来。只有当我们教同学做题时，才会拿出这些关于二级函数的描述来引导同学思考。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Z33y_FzO\">但是，恰恰是这种二阶函数，能让我们需要掌握的知识量大大减少，但又能解决更多的问题。依然以函数为例，假设我们学的函数有 <img src=\"https://www.zhihu.com/equation?tex=f%28x%2Cy%29%3Dxy%2Cg%28y%29%3Dy%5E2%2Ch%28u%2Cv%2Cw%29%3Du%2Bv%2Bw\" alt=\"f(x,y)=xy,g(y)=y^2,h(u,v,w)=u+v+w\" eeimg=\"1\"/> ,而解决一个问题，从输入到输出的函数是 <img src=\"https://www.zhihu.com/equation?tex=xy%5E2%2Bv%2By%5E2%3Dh%28f%28x%2Cg%28y%29%29%2Cv%2Cg%28y%29%29\" alt=\"xy^2+v+y^2=h(f(x,g(y)),v,g(y))\" eeimg=\"1\"/> ，如果你学习的是这个函数(比学过的函数复杂不少)，那么你将需要学成千上万的函数才能解决对应数量的问题，因为每个问题的条件各不相同，需要的输出也不尽相同。然而仔细一看，这个函数中都是我们学过的函数，其中 <img src=\"https://www.zhihu.com/equation?tex=g%28y%29\" alt=\"g(y)\" eeimg=\"1\"/> 还重用了两次，我们只要掌握了对于不同的问题，用二阶函数将已有的函数按步骤使用，并相互组合，得出期待的答案，就能用学过的 <img src=\"https://www.zhihu.com/equation?tex=+n\" alt=\" n\" eeimg=\"1\"/> 个函数，组合出超过 <img src=\"https://www.zhihu.com/equation?tex=2%5En\" alt=\"2^n\" eeimg=\"1\"/> 个复合函数，解决指数级的问题。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"on6UzrZC\">关于学习观中的运动类知识和思考类知识，高中的运动类知识不多，不过我认为用 Anki 记忆大量输入对应输出，已经很接近运动类知识了，听到或者看到问题，答案立刻浮现，甚至脱口而出，这是基于我使用 Anki 的经验。因为使用 Anki ，我平时的训练就是直接从输入到输出(因为 Anki 的双面卡片的复习形式，强迫我看到问题，反应答案)。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"-X07XYtt\">当然，学习观并不认为记忆是一种学习，我也承认单单使用 Anki 记忆并不能让我学好。现在回想起自己当时用 Anki 记的东西，有纯粹的概念，比如成语对应的意思；有知识的一般描述，比如公式已经相关的使用条件；还有二阶知识，比如答题的步骤。单纯的从 Anki 记忆的角度来看，我确实没有学习什么东西，但是重要的是我记住了之后发生的事情。我将我记住的知识的描述对应到我遇到的例子上，迅速联想相关例子，并在大脑中建立对应的回路；我将记住的特例填补到平时的学习中，使知识体系更加健壮；而我记住的概念类知识，恰恰正是考试的部分内容。还记得文章开头的三个问题吗？其实大多数人不会犯这些错误，并不是因为我们的理论有问题，而是很多例子就存在于我们的记忆之中，或者说是经验之中。我们看到 <img src=\"https://www.zhihu.com/equation?tex=x%28v%2Ct%29%3Dvt%E2%80%8B\" alt=\"x(v,t)=vt​\" eeimg=\"1\"/> ，自然而然的联想起匀速的汽车，在脑子做起了思想实验，然后形成了对应的脑回路。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"xNZ63-UH\">知识的描述到底有什么用呢？就如函数的表达式有什么用？完全可以越过表达式这一步，直接代入数据，展开计算。但是教科书上总会有表达式，为什么呢？它起到了引导作用。有点像一个清单，提醒我们要做什么，而不会指导我们每项行动的具体操作，防止我们漏过某个特殊的输入与输出，得出错误的知识。当我们把知识的描述记住，就能写下来，然后看着它，激活大脑的回路。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"jsHjsM9J\">最后，既然学习了一下学习观，还用费曼技巧，站在函数的角度理解知识，我也应该实践一下，用学习观来优化原来的学习方法。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"5I936VEH\">那么，学习观对 Anki 学习法的启示是什么呢？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"sBxVN2Lm\">1. 对于一阶知识(描述输入到输出的规律)，我们要尽可能的细分知识，让知识之间彼此独立，减少我们学习的知识量</p><p data-pid=\"qrd_bEaU\">2. 每个知识描述，都要附上几个典型的例子(通常的情况、特殊的情况)，在前几次学习时能够帮助我们形成回路</p><p data-pid=\"RD7QBjgT\">3. 增加二级知识的卡片，以及拆分知识的例子，帮助我们学习分而治之的能力(比如解决圆锥曲线的轨迹问题所需的知识，可以拆分为「建设现代化」这五个知识按照顺序使用)</p><p data-pid=\"3qetzDAs\">4. 明确我们应用知识时的输入输出，以此更正学习时的输入输出(比如阅读理解中的长难句，我们的输出不是翻译，而是长难句拆解而成的简单句，因为运动性的理解不需要中文参与)</p><p data-pid=\"j5640IQw\">5. 重视考点识别能力，从条件和问题输出题型，从而得出解题所需要的知识</p><p data-pid=\"uif470QF\">6. 重视特殊案例，不能盲目依从思维定势</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"VHixexNJ\">这样看来，其实 Anki 能学的东西非常多，不仅限于生物和化学的各种结论和定式、英语的句意理解和特殊的同根词变换，语文的积累，还有数学与物理的公式及其适用条件，题型对应的分析与答题套路，以及各种易错点，也就是俗称的坑。</p><p></p><p></p>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 8,
+  "image_url": "https://picx.zhimg.com/v2-8cf5ff78c02a7e19cba9172ab6a44942_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

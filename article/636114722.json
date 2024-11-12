@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1686385126,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://pic1.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "好久不见，伙计们。我已经半年没有分享我在 FSRS4Anki 上的进展了。最近 FSRS4Anki …",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 636114722,
+  "voteup_count": 80,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1686384902,
+  "url": "https://api.zhihu.com/articles/636114722",
+  "comment_permission": "all",
+  "title": "次世代间隔重复算法 FSRS4Anki v3.7.0-v3.23.0 主要更新记录",
+  "image_width": 1080,
+  "content": "<p data-pid=\"EhOVxzs2\">好久不见，伙计们。我已经半年没有分享我在 FSRS4Anki 上的进展了。最近 FSRS4Anki 经历了重大更新，借此机会我也想宣传一下 FSRS4Anki 这半年来的主要更新。感谢开源社区中所有无私的贡献者，从 v3.7.0 到 v3.23.0，我们一共发布了 17 个 feature，以及几打的修复补丁，在本文中我只介绍最重要的更新。</p><p data-pid=\"ITljlFCK\">PS: 不了解 FSRS4Anki 的朋友，可以看这篇教程：</p><a href=\"https://zhuanlan.zhihu.com/p/591833332\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-c8cb226c91641848424b5edf5e6057b8_l.jpg\" data-image-width=\"1931\" data-image-height=\"1912\" class=\"internal\">叶峻峣：如何在 Anki 上使用次世代间隔重复算法 FSRS？</a><h2>Optimizer</h2><ol><li data-pid=\"E0wH-gX8\">优化了数据预处理和训练过程的代码，性能提高了 10 倍。在我自己的 22 万条复习记录的数据集上，使用免费版 Google Colab 的 CPU 机器，只需要 5 分钟就能完成全部优化。</li><li data-pid=\"Nin217fC\">增加了更多的评估模块，可以更方便地检测 FSRS 的潜在缺陷。</li><li data-pid=\"tEE6ICqo\">增加了和 SM-2 算法的对比模块，在我自己的数据集上，FSRS 的误差只有 SM-2 的 20%。</li><li data-pid=\"0FjsdOm7\">更严格的参数范围约束，减轻 ease hell 和长期间隔过长的问题。</li><li data-pid=\"v5NQy2p6\">在寻找最佳保留率算法中，考虑了实际的复习时间，使结果更符合实际。</li></ol><h2>Scheduler</h2><ol><li data-pid=\"QgjMOWWC\">解耦了牌组参数和调度算法，现在为每个牌组设置独立的参数更方便了。</li><li data-pid=\"yAqVgICK\">允许用户在特定牌组中关闭 FSRS，使用默认算法</li><li data-pid=\"yhOW0N71\">允许用户开启 DSR 记忆状态日志，可以在复习时查看当前卡片的记忆状态。</li></ol><h2>Helper</h2><ol><li data-pid=\"awabywfh\">重构了 Postpone 和 Advance 功能，现在用户可以输入想要推迟或提前的卡片数量，Helper 将自动计算每张卡片的相对推迟/提前程度，优先推迟或提前偏离最佳保留率最小的卡片。</li><li data-pid=\"UMRphosv\">增加了分散兄弟姐妹功能，可以让关联卡片的复习日期尽可能错开，避免相互干扰或提醒。</li><li data-pid=\"JU8qzL7i\">增加了卡片浏览器支持，现在可以在卡片浏览器中查看每张卡片的记忆状态，也可以通过特定语法搜索这些卡片 （但由于Anki框架原因，无法在筛选牌组搜索中使用）</li><li data-pid=\"Nw2-W6MV\">增加了自动重新规划功能，可以在同步后自动重新规划那些在其他设备复习的卡片。这对 AnkiDroid 用户很重要。</li><li data-pid=\"bNZjsHNk\">优化了性能，重新规划功能速度快了 7 倍。</li><li data-pid=\"Fg7XdF6e\">增加了 FSRS 统计面板，可以查看自己的 retention、stability 的统计信息。</li><li data-pid=\"nsaMfmks\">增加了 Free days 功能，可以显著减少在特定日期的复习数量</li><li data-pid=\"otaAzEO_\">增加了 Load Balance 功能，可以让每日复习量更加一致。</li></ol><h2>下一步的工作</h2><p data-pid=\"fHPVNd0x\">最近我和社区的贡献者正在改进 FSRS 的记忆模型，让 FSRS 更具通用性。如果记忆模型更新，我们将发布 v4.0.0 版本（顺带一提，FSRS4Anki 中的 4 不是版本，而是 for 的谐音。我同时也在开发 fsrs4remnote，以及帮助维护 FSRS 各编程语言实现的算法库）。</p><p data-pid=\"QA60Ln-I\">重写教程/帮助文档，让用户更轻松上手 FSRS。</p><p data-pid=\"3zkjXoM1\">牌组/卡片优先级等概念正在起草中。这将帮助我们更高效地安排复习。</p><p data-pid=\"9tXU4fWq\">敬请期待。</p><h2>支持我的工作</h2><p data-pid=\"-QYZYRHY\">如果我的工作帮助到了你的学习，希望可以给我的开源项目 star，以及给我的 add-on 点赞。</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">open-spaced-repetition/fsrs4anki: A modern Anki custom scheduling based on free spaced repetition scheduler algorithm (github.com)</a><a href=\"https://link.zhihu.com/?target=https%3A//ankiweb.net/shared/info/759844606\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">FSRS4Anki Helper - AnkiWeb</a><h2>一些预览图</h2><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-70f4331c6ca66132e4c2890168608b76_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1016\" data-rawheight=\"460\" class=\"origin_image zh-lightbox-thumb\" width=\"1016\" data-original=\"https://pic3.zhimg.com/v2-70f4331c6ca66132e4c2890168608b76_r.jpg\" data-original-token=\"v2-70f4331c6ca66132e4c2890168608b76\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-6550549da7fc9187dbff664988322d39_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"667\" data-rawheight=\"598\" class=\"origin_image zh-lightbox-thumb\" width=\"667\" data-original=\"https://picx.zhimg.com/v2-6550549da7fc9187dbff664988322d39_r.jpg\" data-original-token=\"v2-6550549da7fc9187dbff664988322d39\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-f00a0cfffd8c8adcf0e2f7f5e755f8a2_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"700\" data-rawheight=\"584\" class=\"origin_image zh-lightbox-thumb\" width=\"700\" data-original=\"https://pica.zhimg.com/v2-f00a0cfffd8c8adcf0e2f7f5e755f8a2_r.jpg\" data-original-token=\"v2-f00a0cfffd8c8adcf0e2f7f5e755f8a2\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-9de039ce05c7d572581548d2afba9d84_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"921\" data-rawheight=\"235\" class=\"origin_image zh-lightbox-thumb\" width=\"921\" data-original=\"https://pic3.zhimg.com/v2-9de039ce05c7d572581548d2afba9d84_r.jpg\" data-original-token=\"v2-9de039ce05c7d572581548d2afba9d84\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-5165f1badbd62ea28e6be6aa39bef464_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"575\" data-rawheight=\"561\" class=\"origin_image zh-lightbox-thumb\" width=\"575\" data-original=\"https://pica.zhimg.com/v2-5165f1badbd62ea28e6be6aa39bef464_r.jpg\" data-original-token=\"v2-5165f1badbd62ea28e6be6aa39bef464\"/></figure><p></p>",
+  "column": {
+    "updated": 1599152271,
+    "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "https://api.zhihu.com/columns/ankigaokao",
+    "title": "AnkiX高考",
+    "image_url": "https://pica.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "ankigaokao"
+  },
+  "comment_count": 37,
+  "image_url": "https://pica.zhimg.com/v2-201961a12475353c61cd9d9aa7aef43f_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

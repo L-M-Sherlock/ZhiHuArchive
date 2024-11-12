@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1617889146,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://pica.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "本文使用 Zhihu On VSCode 创作并发布前情提要在大一大二期间维护招生机器人小哈也…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 363342119,
+  "voteup_count": 16,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1617888901,
+  "url": "https://api.zhihu.com/articles/363342119",
+  "comment_permission": "all",
+  "title": "HITszQAbot 迁移记录",
+  "image_width": 1920,
+  "content": "<blockquote data-pid=\"BWNdglR7\">本文使用 <a href=\"https://zhuanlan.zhihu.com/p/106057556\" class=\"internal\">Zhihu On VSCode</a> 创作并发布</blockquote><h2>前情提要</h2><p data-pid=\"tBn2vxKw\">在大一大二期间维护招生机器人小哈也算我的一项业余爱好，这个项目的具体内容请见：</p><a href=\"https://zhuanlan.zhihu.com/p/158186707\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-fb73f360458689913573e39efefd6e46_180x120.jpg\" data-image-width=\"1920\" data-image-height=\"1015\" class=\"internal\">叶峻峣：HITszQAbot 项目记录</a><p data-pid=\"i9MEFh81\">然而去年暑假 TX 杀了一批 qq 机器人，小哈所依赖的酷Q也未能幸免于难：</p><a href=\"https://www.zhihu.com/question/411468332/answer/1378155870\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-55134e6715722766cefb7545c5f434d5_ipico.jpg\" data-image-width=\"651\" data-image-height=\"746\" class=\"internal\">如何看待继晨风机器人后，各机器人宣布关闭？</a><p data-pid=\"LCI1t7KA\">介于当时招生活动已经进入尾声，我也没有太多精力将小哈的依赖转移到其它 qq 机器人（似乎那个时候只有 mirai 存活）。</p><p data-pid=\"YqtfdGPa\">大半年过去了，一年一度的招生季又要来了，我也正好抽空看看有没有较好的迁移方案。</p><p data-pid=\"92URRgRq\">这次我选择了 nonebot 的升级版——<a href=\"https://link.zhihu.com/?target=https%3A//v2.nonebot.dev/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">nonebot2</a> 作为 qq 机器人开发框架，<a href=\"https://link.zhihu.com/?target=https%3A//github.com/Mrs4s/go-cqhttp\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">go-cqhttp</a> 作为 qq 机器人客户端，实现招生问答功能。</p><p data-pid=\"C8wJ-1F9\">代码在文末。</p><h2>配置 go-cqhttp</h2><p data-pid=\"umt341ZH\">总之首先要访问一下 <a href=\"https://link.zhihu.com/?target=https%3A//github.com/Mrs4s/go-cqhttp\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">go-cqhttp</a>，去 release 里下载对应版本的安装包，我是直接在 windows 上测试的，所以就下载了 <a href=\"https://link.zhihu.com/?target=https%3A//github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-beta2/go-cqhttp_windows_amd64.exe\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">go-cqhttp_windows_amd64.exe</a>。</p><p data-pid=\"KtnaFOC9\">建一个文件夹，把 exe 文件放进去，执行一下，具体安装方法请见：</p><a href=\"https://link.zhihu.com/?target=https%3A//docs.go-cqhttp.org/guide/quick_start.html\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">开始 | go-cqhttp 帮助中心</a><p data-pid=\"d5cKekyd\">搞定后应该是这样的：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-b68f34b037794cbb286441fc86deecb4_b.png\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-b68f34b037794cbb286441fc86deecb4\"/><figcaption>Image</figcaption></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"C6Q9mp9I\">config.yml 具体怎么配下面有说。</p><h2>从 NoneBot 迁移到 NoneBot2</h2><p data-pid=\"FQznl4C2\">由于 NoneBot2 和 NoneBot 的主体差异不大，理论上把 NoneBot 的插件搬过去，稍微改亿点点就行了。我选择直接用 NoneBot2 的 nb-cli 新建一个项目，然后开始复用以前写的代码。</p><p data-pid=\"OPAEeLV8\">NoneBot2 具体怎么安装，请见：<a href=\"https://link.zhihu.com/?target=https%3A//v2.nonebot.dev/guide/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">v2.nonebot.dev/guide/</span><span class=\"invisible\"></span></a></p><p data-pid=\"4qhg4m4i\">这里要注意的是，由于我选择 go-cqhttp 作为 qq 客户端，所以 NoneBot2 这里要用 CQHTTP 适配器。详情见：<a href=\"https://link.zhihu.com/?target=https%3A//v2.nonebot.dev/guide/cqhttp-guide.html\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">v2.nonebot.dev/guide/cq</span><span class=\"invisible\">http-guide.html</span><span class=\"ellipsis\"></span></a>，里面也说明了 config.yml 如何配置。</p><p data-pid=\"RUjsXc-i\">这里重点说一下迁移中我改了啥：</p><p data-pid=\"ZowfrpV_\">NoneBot：</p><div class=\"highlight\"><pre><code class=\"language-python\"><span class=\"kn\">from</span> <span class=\"nn\">nonebot</span> <span class=\"kn\">import</span> <span class=\"n\">on_command</span><span class=\"p\">,</span> <span class=\"n\">CommandSession</span>\n<span class=\"kn\">from</span> <span class=\"nn\">nonebot</span> <span class=\"kn\">import</span> <span class=\"n\">on_natural_language</span><span class=\"p\">,</span> <span class=\"n\">NLPSession</span><span class=\"p\">,</span> <span class=\"n\">IntentCommand</span>\n<span class=\"kn\">from</span> <span class=\"nn\">nonebot.helpers</span> <span class=\"kn\">import</span> <span class=\"n\">context_id</span><span class=\"p\">,</span> <span class=\"n\">render_expression</span>\n</code></pre></div><p data-pid=\"JmrIAEc9\">在之前的 NoneBot 里，有一个专用的自然语言处理模块，但是 NoneBot2 里它没了。于是我把它们换成了：</p><div class=\"highlight\"><pre><code class=\"language-python\"><span class=\"kn\">from</span> <span class=\"nn\">nonebot</span> <span class=\"kn\">import</span> <span class=\"n\">on_command</span>\n<span class=\"kn\">from</span> <span class=\"nn\">nonebot.rule</span> <span class=\"kn\">import</span> <span class=\"n\">to_me</span>\n<span class=\"kn\">from</span> <span class=\"nn\">nonebot.typing</span> <span class=\"kn\">import</span> <span class=\"n\">T_State</span>\n<span class=\"kn\">from</span> <span class=\"nn\">nonebot.adapters</span> <span class=\"kn\">import</span> <span class=\"n\">Bot</span><span class=\"p\">,</span> <span class=\"n\">Event</span>\n<span class=\"kn\">import</span> <span class=\"nn\">nonebot.adapters.cqhttp.message</span> <span class=\"kn\">as</span> <span class=\"nn\">message</span>\n</code></pre></div><p data-pid=\"B0ecplon\">这样可能很不直观，我简单说说哪些功能的函数被替换了：</p><div class=\"highlight\"><pre><code class=\"language-python\"><span class=\"nd\">@on_command</span><span class=\"p\">(</span><span class=\"s1\">&#39;faq_local&#39;</span><span class=\"p\">)</span>\n<span class=\"n\">async</span> <span class=\"k\">def</span> <span class=\"nf\">faq_local</span><span class=\"p\">(</span><span class=\"n\">session</span><span class=\"p\">:</span> <span class=\"n\">CommandSession</span><span class=\"p\">):</span>\n    <span class=\"n\">raw_question</span> <span class=\"o\">=</span> <span class=\"n\">session</span><span class=\"o\">.</span><span class=\"n\">state</span><span class=\"o\">.</span><span class=\"n\">get</span><span class=\"p\">(</span><span class=\"s1\">&#39;message&#39;</span><span class=\"p\">)</span>\n<span class=\"c1\"># 替换为</span>\n<span class=\"nd\">@faq.handle</span><span class=\"p\">()</span>\n<span class=\"n\">async</span> <span class=\"k\">def</span> <span class=\"nf\">faq_local</span><span class=\"p\">(</span><span class=\"n\">event</span><span class=\"p\">:</span> <span class=\"n\">Event</span><span class=\"p\">):</span>\n    <span class=\"n\">raw_question</span> <span class=\"o\">=</span> <span class=\"nb\">str</span><span class=\"p\">(</span><span class=\"n\">event</span><span class=\"o\">.</span><span class=\"n\">get_message</span><span class=\"p\">())</span>\n    \n<span class=\"n\">reply</span> <span class=\"o\">=</span> <span class=\"n\">add_at</span><span class=\"p\">(</span><span class=\"n\">reply</span><span class=\"p\">,</span> <span class=\"n\">session</span><span class=\"o\">.</span><span class=\"n\">ctx</span><span class=\"o\">.</span><span class=\"n\">get</span><span class=\"p\">(</span><span class=\"s1\">&#39;user_id&#39;</span><span class=\"p\">))</span>\n<span class=\"n\">session</span><span class=\"o\">.</span><span class=\"n\">send</span><span class=\"p\">(</span><span class=\"n\">reply</span><span class=\"p\">)</span>\n<span class=\"c1\"># 替换为</span>\n<span class=\"n\">reply</span> <span class=\"o\">=</span> <span class=\"n\">add_at</span><span class=\"p\">(</span><span class=\"n\">reply</span><span class=\"p\">,</span> <span class=\"n\">event</span><span class=\"o\">.</span><span class=\"n\">get_user_id</span><span class=\"p\">())</span>\n<span class=\"n\">faq</span><span class=\"o\">.</span><span class=\"n\">send</span><span class=\"p\">(</span><span class=\"n\">message</span><span class=\"o\">.</span><span class=\"n\">Message</span><span class=\"p\">(</span><span class=\"n\">reply</span><span class=\"p\">))</span> <span class=\"c1\">#这里有坑，不用 Message 构造回复会使 CQ 码失效</span>\n</code></pre></div><p data-pid=\"iMSvDbWT\">具体怎么替换，还是建议多看看<a href=\"https://link.zhihu.com/?target=https%3A//v2.nonebot.dev/api/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">v2.nonebot.dev/api/</span><span class=\"invisible\"></span></a>，api 熟悉了就方便实现旧功能。</p><h2>测试</h2><p data-pid=\"lSj1-hOA\">左边是 NoneBot，右边是 go-cqhttp</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-8e83d05108149f70fb60b3b1eb2fd10e_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1080\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pica.zhimg.com/v2-8e83d05108149f70fb60b3b1eb2fd10e_r.jpg\" data-original-token=\"v2-d60970875508d141584ef638799a0f75\"/></figure><p data-pid=\"L3jbuMEJ\">那个小哈它又回来啦！</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-717145dd4dbbe2b1de607f145c9483f4_b.png\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-717145dd4dbbe2b1de607f145c9483f4\"/><figcaption>Image</figcaption></figure><h2>结语</h2><p data-pid=\"fcbTUoMC\">由于迁移挺仓促的，有很多坑都还没填，凑合用用，代码已经传到 GitHub 了，想学习的可以随便拿去看看：</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/L-M-Sherlock/HITszQAbot\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/L-M-Sherlock</span><span class=\"invisible\">/HITszQAbot</span><span class=\"ellipsis\"></span></a><p data-pid=\"nJklSALv\">具体怎么部署我会慢慢更到 README 里面，先摸了。</p>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 5,
+  "image_url": "https://pica.zhimg.com/v2-eb4aa092b951a4ac67e12fdcec61d733_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1657960208,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://pica.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "显示节点反向链接的系统，使得一种新式行为成为可能：为定义新节点，也可以从其外延…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 443475039,
+  "voteup_count": 13,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1639097907,
+  "url": "https://api.zhihu.com/articles/443475039",
+  "comment_permission": "all",
+  "title": "反向链接可以用来隐式定义知识管理系统中的节点",
+  "image_width": 798,
+  "content": "<p data-pid=\"o2JnYIFT\">显示节点反向链接的系统，使得一种新式行为成为可能：为定义新节点，也可以从其外延（extensionally）（而非其内涵（intensionally））出发，在其他节点建立指向这个节点的链接——这个节点甚至可以没有任何内容。（外延，一个想法或（语言）表达的外延由它所适用于的事物构成；）</p><p data-pid=\"YW3qdO-J\">在 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3hcvhBFAzMhx2yZxK6LQDpVwEszMUxXCwqqM\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Conor White-Sullivan</a> 使用 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8PkzLcXuVG5xYF7sfUFhwF26WK2A2zCp8nAD\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Roam Research</a> 时的行为中，我第一次注意到这一点。他在整个系统中的几个笔记里都提及了我们的对话（临时性的每日日志、功能列表等）。他每次都把某些名词短语（例如我的名字）写成了链接。这些节点本身没有内容，但随着他在几天内都这样行事，这些节点开始在他的系统中形成了以反向链接为载体的隐式定义。</p><p data-pid=\"aGwPCUo4\">实现这种效果需要<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3RzQhmjeRxXVAAy81aUSKARwJL8dikdJG4VG\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">上下文反向链接</a><sup data-text=\"上下文反向链接\" data-url=\"https://zhuanlan.zhihu.com/p/533878306\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>：单纯的反向链接列表对于隐式定义节点不够有效。能查看反向链接的上下文是有必要的，因为需要理解暗指的内容。</p><p data-pid=\"H7rVFNC7\">我发现这种隐式定义对艺术术语和各种专有名词特别有用。</p><p data-pid=\"UrO7Uc9o\">我也在我的烹饪笔记中试验这种技术；例如<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z75Yapt9EtJQ3YMWiYhnw3bzAKh4b68EHw5K9\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">卷心菜</a>这则笔记（但不幸的是，这则笔记在我的公共笔记中不会显示反向链接，因为它们来自我的私人周记）。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"cRUgTHXc\"><a href=\"https://zhuanlan.zhihu.com/p/426450021\" class=\"internal\">常青笔记之间应该建立大量链接</a></li><li data-pid=\"RFcLcWKj\"><a href=\"https://zhuanlan.zhihu.com/p/436335609\" class=\"internal\">常青笔记和卡片盒笔记法的异同点</a></li><li data-pid=\"_DG7pxWA\"><a href=\"https://zhuanlan.zhihu.com/p/526326964?\" class=\"internal\">每日工作日志</a></li><li data-pid=\"zi5a6mMs\"><a href=\"https://zhuanlan.zhihu.com/p/542384570\" class=\"internal\">笔记类型体系</a></li></ul><h2>声明</h2><p data-pid=\"Q85we5fr\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"s58MF16Y\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2newCwFfd6iZFyf9bgspkbyt1G8wbQxJVgTK\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Backlinks can be used to implicitly define nodes in knowledge management systems (andymatuschak.org)</a></blockquote>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://pic1.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://pic1.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 0,
+  "image_url": "https://pic1.zhimg.com/v2-5769b72de90ccbf923b8ea6dde97f075_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1686580351,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "更新：本教程已经过时，请移步新教程：叶峻峣：FSRS4Anki 使用指北 好久不见朋友们！…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 591833332,
+  "voteup_count": 400,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1671189378,
+  "url": "https://api.zhihu.com/articles/591833332",
+  "comment_permission": "all",
+  "title": "如何在 Anki 上使用次世代间隔重复算法 FSRS？",
+  "image_width": 1912,
+  "content": "<p data-pid=\"K8djLzf4\">更新：本教程已经过时，请移步新教程：</p><a href=\"https://zhuanlan.zhihu.com/p/636564830\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-45bb03201deafd09042d18f802df727a_qhd.jpg\" data-image-width=\"2266\" data-image-height=\"1429\" class=\"internal\">叶峻峣：FSRS4Anki 使用指北</a><hr/><p data-pid=\"AQmyQbq1\">好久不见朋友们！最近 Anki 终于更新到了 2.1.55 版，能够支持带记忆状态的复习算法了。今天就介绍一下如何使用我开发的 FSRS4Anki 自定义排程算法。</p><h2>FSRS4Anki 简介</h2><p data-pid=\"fI_xGq9V\">FSRS4Anki，即 Free Spaced Repetition Schedule for Anki 的缩写。其基于彼得·沃兹尼亚克提出的记忆三变量模型<sup data-text=\"记忆的三组分模型\" data-url=\"https://zhuanlan.zhihu.com/p/580945538\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup> DSR（Difficulty- Stability-Retrievability）和随机最短路径算法<sup data-text=\"KDD&#39;22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]\" data-url=\"https://zhuanlan.zhihu.com/p/577383961\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，在记忆预测和调度优化方面有很大的提升。</p><h2>前置条件</h2><p data-pid=\"VrzErlkl\">FSRS4Anki 目前只支持 Anki 电脑端，且版本要大于等于 2.1.55。</p><p data-pid=\"p_y5xpz3\">下载地址：<a href=\"https://link.zhihu.com/?target=https%3A//apps.ankiweb.net/%23download\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anki - powerful, intelligent flashcards</a></p><blockquote data-pid=\"s8ZGNyaj\">不过你也可以在手机上正常复习，然后在电脑端使用 FSRS4Anki Helper<sup data-text=\"FSRS4Anki Helper\" data-url=\"https://ankiweb.net/shared/info/759844606\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup> 重新安排复习（会使用卡片的完整复习历史，包括你在手机上的复习记录）。</blockquote><h2>使用 FSRS4Anki 默认版</h2><h3>第一步：开启 V3 调度算法</h3><p data-pid=\"Efg4qWIb\">Anki -&gt; 首选项 -&gt; 计划 -&gt; 启用 V3 排程算法</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f7e76dc88b5813d2b9700883ce9c7603_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"189\" data-rawheight=\"236\" class=\"content_image\" width=\"189\" data-original-token=\"v2-f7e76dc88b5813d2b9700883ce9c7603\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-cc6adb641e70b11eacb66ddd889493c6_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"491\" data-rawheight=\"274\" class=\"origin_image zh-lightbox-thumb\" width=\"491\" data-original=\"https://pica.zhimg.com/v2-cc6adb641e70b11eacb66ddd889493c6_r.jpg\" data-original-token=\"v2-cc6adb641e70b11eacb66ddd889493c6\"/></figure><h3>第二步：复制 FSRS4Anki 算法代码</h3><p data-pid=\"lScCLYhf\">fsrs4anki 仓库 -&gt; fsrs4anki_scheduler.js -&gt; Copy raw contents</p><blockquote data-pid=\"V_tScHw0\">如果你用的是 qt5 内核的 Anki，请使用 fsrs4anki_scheduler_qt5.js</blockquote><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-8f8f14b2425fa125de64ae6e6c64b651_qhd.jpg\" data-image-width=\"1200\" data-image-height=\"600\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GitHub - open-spaced-repetition/fsrs4anki: A modern Anki custom scheduling based on free spaced repetition scheduler algorithm</a><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-bd1127a339a28e9b43c178a3c75890cd_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1225\" data-rawheight=\"648\" class=\"origin_image zh-lightbox-thumb\" width=\"1225\" data-original=\"https://pic4.zhimg.com/v2-bd1127a339a28e9b43c178a3c75890cd_r.jpg\" data-original-token=\"v2-bd1127a339a28e9b43c178a3c75890cd\"/></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-56d780a8aa9abb21d00e50a4712b5cc2_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1258\" data-rawheight=\"612\" class=\"origin_image zh-lightbox-thumb\" width=\"1258\" data-original=\"https://pic1.zhimg.com/v2-56d780a8aa9abb21d00e50a4712b5cc2_r.jpg\" data-original-token=\"v2-56d780a8aa9abb21d00e50a4712b5cc2\"/></figure><h3>第三步：粘贴代码到「自定义排程」</h3><p data-pid=\"sd7-zdJ-\">齿轮 -&gt; 选项 -&gt; 自定义排程 -&gt; 保存</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-6c8ceb853ebe03e0e6bc48c8a2992163_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"758\" data-rawheight=\"191\" class=\"origin_image zh-lightbox-thumb\" width=\"758\" data-original=\"https://pic4.zhimg.com/v2-6c8ceb853ebe03e0e6bc48c8a2992163_r.jpg\" data-original-token=\"v2-6c8ceb853ebe03e0e6bc48c8a2992163\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-f1cdb8e937783df865a5bd7a359938f2_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1080\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pica.zhimg.com/v2-f1cdb8e937783df865a5bd7a359938f2_r.jpg\" data-original-token=\"v2-f1cdb8e937783df865a5bd7a359938f2\"/></figure><p data-pid=\"KjE7YVpk\">Congratulations! 你已经用上 FSRS4Anki 默认版了。但默认版使用的参数主要来自我的复习记录，不一定适合你自己。所以，如果你已经使用 Anki 有一段时间了，积累了不少复习数据，可以试试 FSRS4Anki 的优化器，来生成最适合你的算法参数。</p><h2>为你生成最优算法参数</h2><h3>第一步：打开 FSRS4Anki 优化器</h3><p data-pid=\"hhQ46BOa\">fsrs4anki 仓库 -&gt; fsrs4anki_optimizer.ipynb -&gt; Open in Colab</p><blockquote data-pid=\"L3Hhc8f-\">Colab 需要 Google 账号才能使用</blockquote><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-e72183b2a82661b640de37143f3d3340_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1214\" data-rawheight=\"634\" class=\"origin_image zh-lightbox-thumb\" width=\"1214\" data-original=\"https://pic3.zhimg.com/v2-e72183b2a82661b640de37143f3d3340_r.jpg\" data-original-token=\"v2-e72183b2a82661b640de37143f3d3340\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-ed738a2f9e41a2b2aa733a9f6cb6aa4a_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1258\" data-rawheight=\"429\" class=\"origin_image zh-lightbox-thumb\" width=\"1258\" data-original=\"https://pica.zhimg.com/v2-ed738a2f9e41a2b2aa733a9f6cb6aa4a_r.jpg\" data-original-token=\"v2-ed738a2f9e41a2b2aa733a9f6cb6aa4a\"/></figure><h3>第二步：上传你的复习数据</h3><p data-pid=\"lEWx80Il\">Anki：齿轮 -&gt; 导出 -&gt; 勾选「包含学习进度」和「支持较旧的Anki版本」-&gt; 导出</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-fd3471a2e1f84cf4621c443c03ffdf29_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"738\" data-rawheight=\"509\" class=\"origin_image zh-lightbox-thumb\" width=\"738\" data-original=\"https://pic4.zhimg.com/v2-fd3471a2e1f84cf4621c443c03ffdf29_r.jpg\" data-original-token=\"v2-fd3471a2e1f84cf4621c443c03ffdf29\"/></figure><p data-pid=\"2Okwq2ya\">Colab：文件夹 -&gt; 右键唤出菜单 -&gt; 上传</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-d391f43678db9f539d88b81b37bbb42e_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"337\" data-rawheight=\"428\" class=\"content_image\" width=\"337\" data-original-token=\"v2-d391f43678db9f539d88b81b37bbb42e\"/></figure><h3>第三步：在优化器中填入你的 Anki 设置</h3><p data-pid=\"QJ5DkHRF\">将 filename 改为你上传的牌组文件的名字</p><p data-pid=\"k2s0cs3Q\">将 timezone 改为你所在的时区（不过大部分的人应该都是 Asia/Shanghai，不用改）</p><p data-pid=\"LjgpYVeZ\">将 next_day_starts_at 改为你 Anki 设置的「新的一天始于」</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-d0107ce085d209b6a0c512bb54af15d5_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1097\" data-rawheight=\"323\" class=\"origin_image zh-lightbox-thumb\" width=\"1097\" data-original=\"https://pic4.zhimg.com/v2-d0107ce085d209b6a0c512bb54af15d5_r.jpg\" data-original-token=\"v2-d0107ce085d209b6a0c512bb54af15d5\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-4889eb5043543dcfd39e6d199bea7445_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"641\" data-rawheight=\"277\" class=\"origin_image zh-lightbox-thumb\" width=\"641\" data-original=\"https://pic4.zhimg.com/v2-4889eb5043543dcfd39e6d199bea7445_r.jpg\" data-original-token=\"v2-4889eb5043543dcfd39e6d199bea7445\"/></figure><h3>第四步：运行全部代码，等待结果，复制输出参数</h3><p data-pid=\"pF8zt-aF\">代码执行程序 -&gt; 全部运行 -&gt; 到 3 Result 一节等待输出结果 -&gt; 复制参数</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-8efd678c7a1c62cdb483eed9374ed230_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"597\" data-rawheight=\"396\" class=\"origin_image zh-lightbox-thumb\" width=\"597\" data-original=\"https://pic3.zhimg.com/v2-8efd678c7a1c62cdb483eed9374ed230_r.jpg\" data-original-token=\"v2-8efd678c7a1c62cdb483eed9374ed230\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-493543ccada260d379970ab3de342a16_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1090\" data-rawheight=\"238\" class=\"origin_image zh-lightbox-thumb\" width=\"1090\" data-original=\"https://pic3.zhimg.com/v2-493543ccada260d379970ab3de342a16_r.jpg\" data-original-token=\"v2-493543ccada260d379970ab3de342a16\"/></figure><h3>第五步：用优化后的参数替换 FSRS4Anki 中的默认参数</h3><p data-pid=\"mSOfEYAR\">替换图中红色框内的参数，然后保存一下。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-c8b5ffa9ddf8b1a0df8a569923716e9c_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"603\" data-rawheight=\"487\" class=\"origin_image zh-lightbox-thumb\" width=\"603\" data-original=\"https://pic1.zhimg.com/v2-c8b5ffa9ddf8b1a0df8a569923716e9c_r.jpg\" data-original-token=\"v2-c8b5ffa9ddf8b1a0df8a569923716e9c\"/></figure><p data-pid=\"-IDvDaQX\">大功告成！</p><h2>其他教程</h2><p data-pid=\"By_Z6cpx\">给特定牌组单独设置参数：</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/Set-different-parameters-for-specific-decks\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Set different parameters for specific decks. · open-spaced-repetition/fsrs4anki Wiki (github.com)</a><p data-pid=\"ohgmm4Ry\">调试自定义算法：</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/How-does-the-scheduler-work%253F\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">How does the scheduler work? · open-spaced-repetition/fsrs4anki Wiki (github.com)</a><p data-pid=\"RbJyTpcX\">算法的记忆模型：</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/Free-Spaced-Repetition-Scheduler\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Free Spaced Repetition Scheduler · open-spaced-repetition/fsrs4anki Wiki (github.com)</a><p data-pid=\"Z3kOlIAH\">算法的优化原理：</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/The-fundamental-of-FSRS\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The fundamental of FSRS · open-spaced-repetition/fsrs4anki Wiki (github.com)</a><p data-pid=\"3rW82eti\">希望以上内容对你有所帮助。</p>",
+  "column": {
+    "updated": 1599152271,
+    "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "https://api.zhihu.com/columns/ankigaokao",
+    "title": "AnkiX高考",
+    "image_url": "https://pica.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "ankigaokao"
+  },
+  "comment_count": 272,
+  "image_url": "https://picx.zhimg.com/v2-c8cb226c91641848424b5edf5e6057b8_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1586316501,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "看了 @circlestar 大佬的几篇介绍 Quicker 的文章，我也入坑了。说到公式 OCR，之前…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 127043982,
+  "voteup_count": 38,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1586316501,
+  "url": "https://api.zhihu.com/articles/127043982",
+  "comment_permission": "all",
+  "title": "【分享】QuickerXMathpix 实现截图公式OCR",
+  "image_width": 619,
+  "content": "<p data-pid=\"VDF0IPZu\">看了 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/f436aadd161533cf31b3149b0e43086b\" data-hash=\"f436aadd161533cf31b3149b0e43086b\" data-hovercard=\"p$b$f436aadd161533cf31b3149b0e43086b\">@circlestar</a> 大佬的几篇介绍 Quicker 的文章，我也入坑了。</p><p data-pid=\"AmCHMcRv\">说到公式 OCR，之前我推荐过的天若 OCR 现在已经无法使用公式识别的接口了。网络上有很多人推荐使用 Mathpix，可是 Mathpix 一个月只免费 50 次，根本不够用啊！</p><p data-pid=\"NjD5jN6B\">所以今天我给大家分享一个快捷、免费的公式OCR方法。（好吧，每月免费 1000 次）</p><p data-pid=\"zTqQaK02\">不需要下载 Mathpix，也不需要付费，就能轻松实现公式OCR。（但是需要绑定信用卡）</p><p data-pid=\"FmuhiMCS\">具体怎么做？</p><a href=\"https://zhuanlan.zhihu.com/p/83678942\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-80e4f4965869f32e03589ce79f0b8072_180x120.jpg\" data-image-width=\"1158\" data-image-height=\"366\" class=\"internal\">GLGJSSY：Mathpix收费了？快使用API吧，一个月免费识别1000次！</a><p data-pid=\"qpbwXS1g\">上面这篇文章介绍了 Mathpix 的 API 获取方式，但是调用这个 API 还需要自己写代码，并不方便。</p><p data-pid=\"89Yb_eEL\">用 Quicker 动作来做这个 API 的前端可以省去大量操作。更何况，已经有人把这个动作做出了并公开了：</p><a href=\"https://link.zhihu.com/?target=https%3A//getquicker.net/sharedaction%3Fcode%3Dacf019b8-434e-4979-be62-08d776d80bd7\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-94a19a1f556835240850cdd0a48e5f2f_180x120.jpg\" data-image-width=\"481\" data-image-height=\"140\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">截图识别公式 - 已分享的动作 - Quicker</a><p data-pid=\"pMIeSVW6\">所以，简单梳理一下，具体的流程是：</p><ol><li data-pid=\"EZaepRsc\">访问 <a href=\"https://link.zhihu.com/?target=https%3A//dashboard.mathpix.com\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">dashboard.mathpix.com</span><span class=\"invisible\"></span></a> 并注册账号</li><li data-pid=\"C8NbqecI\">输入信用卡信息，不需要Visa，保证可用额度在 8 元以上，用于验证扣款（会打回来）</li><li data-pid=\"KjoJchpO\">启动 Quicker，打开<b>截图识别公式</b>动作，输入 API id 和 key</li><li data-pid=\"evrUaH_v\">开始享受每月 1000 次的免费数学公式识别吧</li></ol><p></p>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://pic1.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://pic1.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 13,
+  "image_url": "https://pic1.zhimg.com/v2-96180dce7d89d5a4e76fe3407179e74e_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

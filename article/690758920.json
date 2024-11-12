@@ -1,0 +1,75 @@
+{
+  "status": 0,
+  "updated": 1712290484,
+  "author": {
+    "is_followed": false,
+    "badge": [],
+    "name": "叶峻峣",
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "avatar_url": "https://pica.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+  },
+  "can_tip": false,
+  "excerpt": "自 2019 年以来，我一直在对《量子国度》 的读者进行一系列随机对照实验。我之所以没…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 690758920,
+  "voteup_count": 20,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1712290484,
+  "url": "https://api.zhihu.com/articles/690758920",
+  "comment_permission": "all",
+  "title": "《量子国度》可疑的平直遗忘曲线",
+  "image_width": 741,
+  "content": "<p data-pid=\"k4ka_hXj\">自 2019 年以来，我一直在对<a href=\"https://link.zhihu.com/?target=https%3A//quantum.country/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《量子国度》</a>的读者进行一系列随机对照实验。我之所以没有发布这些实验结果，是因为我不明白发生了什么。读者的遗忘速度非常慢。慢得出奇！每进行一次实验，我都会排除一些理论，但这些数据似乎挑战了记忆系统的一个核心假设：随着时间的推移，我们的记忆会沿着一条陡峭的曲线遗忘。这让我一整年都非常困惑，但现在我有一个理论可能解释了发生了什么。如果我是对的，这将意味着通用的记忆系统将无法复用传统以词汇为中心的记忆系统用来评估和改进自己的方法。</p><p data-pid=\"M7NG1oQ2\">请注意：这是对《量子国度》数据的非正式讨论。该分析非常原始，不应该在其他工作中引用或摘录。我只是在这里<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/Work_with_the_garage_door_up\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">开门造车</a><sup data-text=\"开门造车\" data-url=\"https://zhuanlan.zhihu.com/p/457529308\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>。</p><h2><b>《量子国度》的细分市场</b></h2><p data-pid=\"ktW1ygRK\">《量子国度》是一种人类记忆的观察站——或者至少是对它的一个非常有限的切片。当然，对人类记忆的研究不计其数，但《量子国度》让我们观察到了一个被忽视的细分市场：</p><ul><li data-pid=\"bSXnzgl3\"> 读者是在自我激励的环境中的成年人，而不是在正规学校教育或人工实验室环境中的孩子或本科生<br/> </li><li data-pid=\"Ve7OGDMP\"> 材料主要是概念性的，而不是事实、词汇、定义、随机数据等<br/> </li></ul><p data-pid=\"m_XiRRSV\">这个细分市场之所以重要，是因为它代表了大多数成年人在其创造性工作过程中必须进行的那种有意义的学习。</p><p data-pid=\"oz6ktVqL\">当然，一些专业人员在工作中会使用 SuperMemo、Anki 和 Mnemosyne 这样的工具，但对这些数据的分析有一个重要的限制：每张卡片每次复习时只有一个数据点，因为卡片（通常）是由每个用户自己编写的。开发人员必须依靠<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Three_component_model_of_memory\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">重要的模型假设</a><sup data-text=\"记忆的三组分模型\" data-url=\"https://zhuanlan.zhihu.com/p/580945538\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>来理解这种稀疏的数据。有了《量子国度》，我们可以（希望如此！）分析一大群读者在同一组卡片上的表现，并在很大程度上避免这些模型假设。Duolingo 和 Quizlet 也可以做同样的事情，但主要是针对以词汇/事实为中心的材料，而不是概念性主题。同时，来自学术研究的数据集几乎只限于人工和课堂环境——尽管应该指出，他们的数据通常要干净得多，而且控制得更好！</p><p data-pid=\"iN__ZjQJ\">对我来说，所有这些数据的意义在于学习有关记忆系统和人类记忆的工作方式，以便我们可以设计更好的系统，从而赋予人们超能力。我研究《量子国度》的数据不是为了理解人们如何学习《量子国度》，而是为了间接理解人们可能如何使用这些系统进行普遍意义上的学习。在高层次上，我们想回答的问题包括：</p><ul><li data-pid=\"SKImM827\"> 这些系统可以变得多高效？对于特定用户来说，何时复习特定卡片效果最好？<br/> </li><li data-pid=\"7eZVvDoW\"> 这些系统的适用范围有多大？它们在哪些方面表现糟糕？它们的应用领域能多广阔？<br/> </li><li data-pid=\"5z9_67rn\"> 这些复习互动如何转化为一个人在其他情境下解决问题和应用这些知识的能力？<br/> </li><li data-pid=\"VmHfLdXk\"> ......等等。<br/> </li></ul><p data-pid=\"iTBsV2Zv\">当然，这些问题是碎片化的。我一直在试图回答两个相关的子问题：</p><ol><li data-pid=\"8QKHRI6I\"> 什么是反事实的？如果没有复习机制，人们在多大程度上能记住文本的关键细节？<br/> </li><li data-pid=\"t-IxWl6D\"> 《量子国度》目前的复习间隔是太短了还是太长了？对于哪些读者和卡片而言？<br/> </li></ol><p data-pid=\"yd4Q-bLj\">事实证明，这些问题比我预期的要难得多！</p><h2><b>排期实验：基础知识</b></h2><p data-pid=\"aav85QmL\">在这篇文章中，我将重点讨论我最近进行的实验，因为至少对于我上面描述的问题来说，这个实验控制得更好。</p><p data-pid=\"Hvqol21y\">每位新读者都被分配到四种不同的排期表中，初始间隔分别为 1 周、2 周、1 月和 2 月。也就是说，在「2 周」条件下的读者将在他们初次在文中回答一张卡片的两周后被提示复习。我在这里有些简化了，但这足以让我们开始。</p><p data-pid=\"E_7XAdoh\">这些条件综合起来，应该能帮助我们找到一个初始复习「甜蜜点」*。此外，2 月的条件应该告诉我们一些关于反事实的情况：如果一个读者整整两个月都不复习会发生什么？（*译注：sweet spot，有「最有效点」、「最佳击球位置」的含义）</p><p data-pid=\"OLub2GZx\">因此，以下是读者在第一次复习时的准确率中位数，按条件划分（括号内为第 1 四分位和第 3 四分位读者的准确率）：</p><ul><li data-pid=\"iLGFbk0o\"> 1 周：87%（81-92%, N=35 位读者）<br/> </li><li data-pid=\"qmB3f-hf\"> 2 周：87%（81-91%, N=35 位读者）<br/> </li><li data-pid=\"xAxUStcV\"> 1 月：85%（77-92%, N=25 位读者）<br/> </li></ul><p data-pid=\"9wK9yMiI\">这些数据仅限于《量子国度》的第一篇文章——拥有最多的数据——并且代表了那些收集了至少 50 张卡片并且复习了他们收集的 90% 以上卡片的读者。（你会注意到我在这篇文章中有意回避了模型和统计测试。这是因为我们讨论的是效果，我希望这些效果大到可以一目了然！）</p><p data-pid=\"Er1qbH3I\">在 2 月的条件下，只有少数读者完全完成了他们的第一次复习，所以我还不能报告该条件下每个读者的统计数据，但我们可以通过将每个条件下的所有复习归为一个大类，并查看每个分类中被记住的卡片的比例，来了解一些情况：</p><ul><li data-pid=\"xXuaHZV5\"> 1 周：86%（N=138 位读者，6381 次复习）<br/> </li><li data-pid=\"dwt4qqlI\"> 2 周：84%（N=142 位读者，6319 次复习）<br/> </li><li data-pid=\"lvdyd79S\"> 1 月：83%（N=90 位读者，4477 次复习）<br/> </li><li data-pid=\"UfL73UHD\"> 2 月：81% (N=50 名读者，1744 次复习)<br/> </li></ul><p data-pid=\"ZL1Lw0cx\">我们可以通过增加 2019 年初的读者来增加一个数据点，当时第一次复习只隔了一天。这不是一个干净的比较，一是因为可能有队列效应，二是因为这些用户没有「重试」的反馈机制，但只是为了得到一个感觉：</p><ul><li data-pid=\"nXYgNuL_\">1 天：89%（N=2210 位读者，122139 次复习）</li></ul><p data-pid=\"pZkrIh0m\">这是一条几乎令人难以置信的平缓的遗忘曲线：从 89% 到 81%，跨越两个月！这是我的困惑。这个平缓的斜率是我困惑的核心，但首先让我们谈谈有意义的部分。</p><h2><b>最初被遗忘的卡片应该得到更频繁的安排</b></h2><p data-pid=\"s2AGP_1c\">如果我们专门看一下读者在文中第一次回答卡片时<b>忘记</b>的卡片的第一次复习的回忆准确率，数据就没那么出人意料了。这样的卡片首先会在一天后再次安排学习，必要的话会反复安排，直到读者记住——之后他们会在一定间隔后复习卡片。在不同间隔下的回忆准确率分别为：</p><ul><li data-pid=\"XCEeAcFl\"> 1 周：84%（N = 79 位读者，626 次复习）<br/> </li><li data-pid=\"VGc7O8rz\"> 2 周：77%（N = 73 位读者，447 次复习）<br/> </li><li data-pid=\"sBK2Kuta\"> 1 月：69%（N = 57 位读者，341 次复习）<br/> </li><li data-pid=\"QeVuaLnw\"> 2 月：56%（N = 27 位读者，138 次复习）<br/> </li></ul><p data-pid=\"Zr0VYAgB\">这些数据展示了一个更为人们所熟知的情景，并为记忆系统的作者指出了一个相当清晰的路径。如果我们的目标是确保记忆率保持在 90% 以上，那么当读者最初忘记一张卡片时，我们得尽快再次安排复习。自动晚一天的「重试」环节不足以支持较长的后续间隔。</p><p data-pid=\"L9xVd_rM\">事实上，这种效应是累积的。如果读者在第一次复习中忘记了一张卡片，那么一天后就会再次安排给他们。对于最初间隔较长的读者，在随后的复习环节中恢复的可能性较小——也就是说，他们更有可能再次忘记。根据第一次复习环节的间隔来看恢复率（注意，这些样本量现在越来越小）：</p><ul><li data-pid=\"hulzd-nr\"> 1 周：90%（N = 31 位读者，79 次复习）<br/> </li><li data-pid=\"FCJsYiS2\"> 2 周：78%（N = 33 位读者，86 次复习）<br/> </li><li data-pid=\"1CD24LNr\"> 1 月：83%（N = 24 位读者，70 次复习）<br/> </li><li data-pid=\"DjK4wxFy\"> 2 月：57%（N = 9 位读者，44 次复习）<br/> </li></ul><p data-pid=\"Mtk0FQLH\">好，对于记忆系统设计师，我们从中提炼出了一个相当清晰的启示：当一张卡片在文中忘记时，初期的间隔应该果断地缩短。</p><h2><b>麻烦开始了：当卡片最初被记住的时候</b></h2><p data-pid=\"xPAMa1gX\">但读者并不经常在文中忘记卡片。在这四种条件下，对所有读者进行汇总，文中的准确率为 91-92%。那么，卡片最初被记住的常见情况是什么呢？这就是麻烦所在。</p><p data-pid=\"boBTx6Pi\">在文中被记住的卡片的首次复习回忆率：</p><ul><li data-pid=\"uCB7Yfvt\"> 1 周：86%（N=137 位读者，6174 次复习）<br/> </li><li data-pid=\"nchSwlV7\"> 2 周：85%（N=140 位读者，5814 次复习）<br/> </li><li data-pid=\"beH79i1J\"> 1 月：84%（N=89 位读者，4108 次复习）<br/> </li><li data-pid=\"6eA0-xSk\"> 2 月：83%（N=49 位读者，1599 次复习）<br/> </li></ul><p data-pid=\"HOsyoowA\">和上一节一样，我们可以不负责任地使用 2019 年读者的数据，增加一个在 1 天时的数据点：90%（N = 2207 位读者，109031 次复习）。和之前一样，请注意这并不是一个受到良好控制的比较。</p><p data-pid=\"Fke-wdAQ\">这条遗忘曲线出奇地平缓！当然，如果我们想达到 90% 的回忆率，这个数据表明我们应该在不到一周的时间内安排第一次复习。但是，但每次复习都有成本；如果读者可以跳过一两次初始复习，以换取较低的几个百分点的准确率，我认为大多数人会接受这个交易。毕竟，完整地复习第一篇文章的 112 张卡片每次大约需要 25 分钟。我们应该如何考虑这个问题呢？</p><p data-pid=\"sI_spNnZ\">一个需要考虑的因素是我们在前一节中看到的「恢复」效应。相对于那些一周后就忘记的人，在更长时间后忘记的人是否更难在接下来的复习中恢复呢？下面是恢复率（即，在文中记住，然后在第一次复习中忘记后，在次日复习时的准确率）：</p><ul><li data-pid=\"wbxemNCm\"> 1 周：84%（N=68 位读者，600 次复习）<br/> </li><li data-pid=\"BgHVoKAJ\"> 2 周：81%（N=66 位读者，529 次复习）<br/> </li><li data-pid=\"HCGuWlwz\"> 1 月：85% (N=44 位读者，384 次复习)<br/> </li><li data-pid=\"9t1Toj4f\"> 2 月：74%（N=16 位读者，147 次复习）<br/> </li></ul><p data-pid=\"pc_m3cZT\">这看起来不是很有说服力。也许 2 月这组会有麻烦，但我想先看到更多的样本。在这里，看起来我们可以将第一次复习安排在 1 月后而不会真正付出什么代价。</p><p data-pid=\"EOLn4iSH\">拉长初次复习间隔的另一个原因是引发<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Spacing_effect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔效应</a>，但我将在这篇文章中跳过这个讨论。简而言之，基于目前稀少的数据，我还没有观察到在第一和第二次复习间隔之间存在间隔效应。</p><p data-pid=\"P4Orsw_6\">按卡片进行切分分析又如何呢？看看第一篇文章中初始准确率最低的 10 张卡片，但读者在阅读时<b>记住</b>了这些卡片的答案，我们仍然在第一次复习中看到了一条陡峭的遗忘曲线：</p><ul><li data-pid=\"g6I1ib64\"> 1 周：74%（N=74 位读者，273 次复习）<br/> </li><li data-pid=\"a4lfJmhw\"> 2 周：71%（N=67 位读者，277 次复习）<br/> </li><li data-pid=\"i2sF0Ywc\"> 1 月：65%（N=47 位读者，210 次复习）<br/> </li><li data-pid=\"ljCrcFiN\"> 2 月：65%（N=25 位读者，85 次复习）<br/> </li></ul><p data-pid=\"axlUcqw-\">这很有说服力，但曲线很快就消失了。下面是除了前面 10 张卡片外「最难」的 10 张卡片在不同间隔下复习的准确率：</p><ul><li data-pid=\"WjY9hcsA\"> 1 周：73%（N=129 位读者，474 次复习）<br/> </li><li data-pid=\"Aa06XTyg\"> 2 周：74%（N=114 位读者，446 次复习）<br/> </li><li data-pid=\"ktwyVnjZ\"> 1 月：74%（N=77 位读者，312 次复习）<br/> </li><li data-pid=\"Svsz1fgB\"> 2 月：75%（N=40 位读者，151 次复习）<br/> </li></ul><p data-pid=\"2QLmm_gE\">我们没有足够的数据在每张卡片的基础上提取可信的遗忘曲线，但随着接下来的每 10 张卡片的截距不断增加，平坦的曲线仍然持续出现。中等难度的 10 张卡片稳定在 82%；最简单的 10 张卡片稳定在 95%。</p><p data-pid=\"Eg_dgXFk\">因此，即使卡片在难度上有所不同，但随着时间的推移，回忆率似乎并没有下降。我们应该从这里得到什么结论？当然，我们可以更早地安排「难」卡，但这实际上有用吗？除了 10 张最难的卡片外，这些数据显示，更短的间隔并没有提高回忆率。</p><p data-pid=\"8AYDjiOD\">这种情况的一种解释是，关键在于人们需要练习，而具体的复习时间点并不是太重要。事实上，<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/too-easy-to-be-49250309\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我们之前的发现</a><sup data-text=\"轻而易举，不费吹灰之力\" data-url=\"https://zhuanlan.zhihu.com/p/641197368\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>表明，一旦中位数的读者在任意间隔后的复习中记住了某张卡片，他们在接下来一年的复习中的回忆率是 95%！</p><p data-pid=\"_4nAoY1a\">但我对这些数据持怀疑态度。这些遗忘曲线太过平缓，不符合我的个人经验。如果我两个月不去复习我所学的知识，我记住它的可能性肯定要比在一周后复习它小很多。我们的数据似乎在暗示，一旦成功地延迟记忆后，我们可以安全地将后续复习推迟数月。但我个人对此表示怀疑。</p><p data-pid=\"1f_gDRys\">这里究竟发生了什么？</p><h2><b>我的理论：线索提示效应</b></h2><p data-pid=\"QHn0fvCD\">如果你仔细考察一张具体的卡片，情况可能会变得更清晰。来看看这张卡片（在文中的回忆准确率大约处于 75% 的百分位）：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-12d16fe84c2de72eab587178f258c703_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"740\" data-rawheight=\"936\" class=\"origin_image zh-lightbox-thumb\" width=\"740\" data-original=\"https://pic4.zhimg.com/v2-12d16fe84c2de72eab587178f258c703_r.jpg\" data-original-token=\"v2-12d16fe84c2de72eab587178f258c703\"/></figure><p data-pid=\"0HEm3Io_\">这个任务强烈地塑造了你的提取行为：它让你寻找规范条件和测量概率之间的联系。你可能会立即想到这个答案；但你也可能当场思考这个问题，并推断出这是唯一合理的答案。</p><p data-pid=\"0tvsSLTC\">我们收集的准确率数据并没有区分这两种可能性。但这一区别很重要！如果我们改为要求你解决某个间接依赖于这个属性的问题，你可能无法做出你需要的推断。</p><p data-pid=\"r1P-NSy6\">我们真正关心的是流畅度：你思考有趣想法、解决有趣问题、察觉联系并创造性地应用你的知识的准备度。你想要锻炼的是一个模式丰富的推理器官。</p><p data-pid=\"zJNDLbgb\">我的直觉是，尽管从 1 周到 2 个月之间，<b>线索</b>回忆似乎没有显著下降，但自由回忆和迁移任务将显示出更陡峭的曲线。我刚才描述的那种流畅度确实会下降。如果你能看到这种下降，你可能会想要更早地安排下一次复习。</p><p data-pid=\"Ld_B6nnB\">如果这个理论成立，那意味着《量子国度》和通用记忆系统需要采取与之前在这一领域大部分工作截然不同的路径。遵循 SuperMemo 的引领，大多数系统通常以一个简单的阈值来考虑安排复习：当估计的回忆概率降至 90% 时，安排一次复习。这样，你在任何给定时刻的期望回忆率应该保持在 90% 以上。</p><p data-pid=\"dqsAfGCX\">我认为，对于语言学习、事实和术语定义对，这是一个合理的启发式方法。你通常无法当场重新推导出这些答案。目标是从记忆中产生答案。然而，对于像《量子国度》这样的概念材料，通过明确提示或引导来提取记忆的效果应该远小于我们所观察到的。</p><p data-pid=\"2sBfPq8H\">如果我们不能用线索回忆率来近似一个概念细节的编码深度，就不能使用传统的启发式调度方法。我们需要建立一些其他方式来驱动控制循环。</p><p data-pid=\"6AP4kOlJ\">反应时间似乎是流畅度的一个有趣指标，但我在《量子国度》读者的反应时间中出人意料地几乎找不到规律。</p><p data-pid=\"h65q3d-K\">一个更具侵入性的方法是插入一些卡片，要求读者在一些新的背景下间接地使用知识。如果线索提示效应在概念性知识上确实特别显著，那么即使回忆准确率保持稳定，我们也应该看到迁移表现随时间推移而下降。无论如何，我想做这样的事情，以此来确认复习系统所强化的知识的灵活性。</p><p data-pid=\"9hX6v6-i\">检验这一理论的另一个方法是考虑那些我认为比较「死记硬背」、概念性不强的卡片。这些卡片应该有一个更明显的遗忘曲线。例如，以下是要求提供 X、Y、Z 和 H 门的矩阵值的卡片的回忆率：</p><ul><li data-pid=\"ymTr9VF2\"> 1 周：56%（N=91 位读者，234 次复习）<br/> </li><li data-pid=\"3Wh9RC2h\"> 2 周：60%（N=87 位读者，215 次复习）<br/> </li><li data-pid=\"7YNvuKe5\"> 1 月：56%（N=59 位读者，144 次复习）<br/> </li><li data-pid=\"WQG8CH4h\"> 2 月：48%（N=26 位读者，54 次复习）<br/> </li></ul><p data-pid=\"PM5jmvDn\">这里的样本不多，但这个数据并不支持我的理论。1 周和 1 个月之间的平坦曲线仍然让我觉得难以置信。我猜测，人们可能是根据记忆中这些门的预期效果重新推导出这些值，但我觉得这种可能性并不大。</p><p data-pid=\"qDFGmgQq\">对于这一切混乱的一个简单解释，也许是人们只是在撒谎。《量子国度》是自主评分的。也许人们在不恰当地把答案标记为记住了？我觉得这不太可能。请记住，中位数的读者在 1 周至 1 月内的自我报告准确率为 85-87%。这个中位数的用户仍然将大量卡片标记为遗忘。令人困惑的是，为什么 1 个月的中位数用户不比 1 周的中位数用户将<b>更多</b>卡片标记为遗忘？</p><p data-pid=\"rNJFI__n\">另一个扭曲我的数据的重要因素是幸存者偏差。2 个月后回来复习的读者可能比 1 周后复习的读者更认真。他们可能对这个主题更关心，并阅读得更仔细。这种效应可能夸大了后期间隔的表现，但我没有好的方法来确定夸大了多少。</p><p data-pid=\"SUEmEpw6\">我想我在这里的下一步是深入挖掘文献，其中确实包括许多专注于概念性知识和迁移学习的记忆实验。也许其中的一些方法或讨论可以在这里帮助我。</p><p data-pid=\"Tmkapm1z\">————————</p><p data-pid=\"XswsLHmQ\">感谢 Gary Bernhardt 对这一主题的有益讨论。也感谢大家一直以来的支持，这使我有可能进行这样的长期研究。我们现在大约有 3/4 的路要走，相当于国家科学基金会的 CAREER 资助，我不断地震惊于这样的事情可能发生。假期快乐！</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"DccubjEP\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 <span class=\"nolink\">AsukaMinato</span>、Arete、Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/quantum-countrys-59365357\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Quantum Country’s suspiciously flat forgetting curves | Patreon 上的 Andy Matuschak</a></blockquote>",
+  "column": {
+    "updated": 1656554884,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "叶峻峣",
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "avatar_url": "https://picx.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    },
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "title": "间隔重复 & 注意力管理",
+    "image_url": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1525782291741208576"
+  },
+  "comment_count": 0,
+  "image_url": "https://pic1.zhimg.com/v2-fe9f76bbdf341cdec77853f3e465d912_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

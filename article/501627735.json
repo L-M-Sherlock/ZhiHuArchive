@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1657005235,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "本条笔记描述了我是如何在我的系统里实践为有潜在价值的参考引用建立一个阅读收件箱 …",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 501627735,
+  "voteup_count": 10,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1650422016,
+  "url": "https://api.zhihu.com/articles/501627735",
+  "comment_permission": "all",
+  "title": "我的阅读收件箱实践",
+  "image_width": 1000,
+  "content": "<p data-pid=\"WiXnHNGx\">本条笔记描述了我是如何在我的系统里实践<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3N113rxPFreW9xUkLkUFomr2LUqfXbdCo3M\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">为有潜在价值的参考引用建立一个阅读收件箱</a><sup data-text=\"为有潜在价值的参考引用建立一个阅读收件箱\" data-url=\"http://zhuanlan.zhihu.com/p/440328209\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>的。</p><p data-pid=\"M3fCSTFq\">阅读有多种口味，不同的工具适合捕捉和阅读不同类型的媒体，但我会同时「清空」这个收件箱内的所有类型的项目。而由于<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7bj6MiUnFnP3GvM5QqHafy3LTaqQV56e1Mek\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">不应该设置多处收件箱</a><sup data-text=\"不应该设置多处收件箱\" data-url=\"https://zhuanlan.zhihu.com/p/499389499\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，所以我创建了一个「虚拟」收件箱，为所有类型的项目构建出一个统一操作的抽象层。</p><h2>网页</h2><p data-pid=\"iSDFwOhX\">数据库是由 Pocket 管理的。我可以通过桌面和手机上的浏览器扩展来添加网页。</p><p data-pid=\"tw5ILeHj\">我选择 Pocket 是因为它是免费的，有像样点的 API、不错的扩展，而且可以用作书签管理器。</p><p data-pid=\"BGCIDa--\">我通过归档网页来整理它们；我通过将它们扔入回收站来销毁它们。</p><h2>PDFs</h2><p data-pid=\"6JfWt6Mg\">我把它们保存在 <code>~/Documents/Archive/Inbox</code>。我有一个 Alfred 工作流程，将当前在预览中打开的 PDF 复制/移动到这个文件夹。</p><p data-pid=\"4jlKGW8g\">我在 Skim 中阅读 PDF，因为它支持链接到特定位置和可导出注释。</p><p data-pid=\"iNfsqe8N\">我把 PDF 文件移到 <code>~/Documents/Archive</code>，然后把它们添加到 Zotero。我想丢弃它们时就将他们移入回收站。</p><h2>电子书</h2><p data-pid=\"t0E_4lN2\">我把它们保存在 <code>~/Documents/Archive/Inbox</code>。</p><p data-pid=\"Ow6MVWAa\">我用 Clearview 阅读电子书，但我很讨厌它（参见<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5EgfjG9cqZKWW16JQD7Pd51bXZVeNpiFaYJS\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">所有桌面 EPUB 阅读器都很糟糕</a>）。</p><p data-pid=\"DRfEXXQj\">电子书也一样，我通过将它们转移到 <code>~/Documents/Archive</code> 并将其添加到 Zotero 来存档。我想丢弃它们时就将他们移入回收站。</p><h2>实体书</h2><p data-pid=\"kneEtiKU\">我把代表书的 .bib 保存到 <code>~/Documents/Archive/Inbox</code>。我创建了一个快捷方式来使其快速完成。</p><p data-pid=\"mbunRNfB\">我通过将电子书移到 <code>~/Documents/Archive</code> 来归档，然后运行 <code>file_epub.sh</code>，根据它们的元数据重命名。然后我从 <code>Inbox</code> 文件夹的 <code>.bib</code> 中删除它们的条目。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"kYFNnoLP\"><a href=\"https://zhuanlan.zhihu.com/p/501187896\" class=\"internal\">§收件箱与注意力管理</a></li><li data-pid=\"LUqsE431\"><a href=\"https://zhuanlan.zhihu.com/p/499389499\" class=\"internal\">不应该设置多处收件箱</a></li></ul><h2>声明</h2><p data-pid=\"EXe-X8pe\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"xu0Ax__m\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制 <br/>题图：<a href=\"https://link.zhihu.com/?target=https%3A//www.pixiv.net/artworks/47165513\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">#ラブライブ! Good morning - 幻像黒兎的插画 - pixiv</a> <br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z61sPhxF8ZiXcDQF36W4HaYKnSxYJfZmLrkb4\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">My implementation of a reading inbox (andymatuschak.org)</a></blockquote>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://picx.zhimg.com/50/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 0,
+  "image_url": "https://pica.zhimg.com/v2-4edc7fe393ad673db670c9bee8e3aaac_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}
