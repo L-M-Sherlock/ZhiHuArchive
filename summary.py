@@ -15,7 +15,7 @@ answers = []
 for file in Path("answer").glob("*.json"):
     with open(file, "r") as f:
         try:
-            data = json.load(f) 
+            data = json.load(f)
             data["file_stem"] = file.stem
             if "error" in data:
                 print(data["error"], file.stem)
