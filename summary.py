@@ -5,7 +5,7 @@ from datetime import datetime
 # Collect all articles
 articles = []
 for file in Path("article").glob("*.json"):
-    with open(file, "r") as f:
+    with open(file, "r", encoding="utf-8") as f:
         data = json.load(f)
         data["file_stem"] = file.stem
         articles.append(data)
@@ -13,7 +13,7 @@ for file in Path("article").glob("*.json"):
 # Collect all answers
 answers = []
 for file in Path("answer").glob("*.json"):
-    with open(file, "r") as f:
+    with open(file, "r", encoding="utf-8") as f:
         try:
             data = json.load(f)
             data["file_stem"] = file.stem
@@ -42,7 +42,7 @@ html_content = (
         .votes { color: #666; font-size: 0.9em; }
         .created_time { color: #999; font-size: 0.9em; }
         .censored { background-color: #ffeb3b; }
-        
+
         /* Tab styles */
         .tabs { margin-bottom: 20px; }
         .tab-button {
@@ -82,7 +82,7 @@ html_content = (
 """
     + f"""
     <h1>Content Directory</h1>
-    
+
     <div class="tabs">
         <button class="tab-button active" onclick="openTab(event, 'articles-tab')">Articles ({len(articles)})</button>
         <button class="tab-button" onclick="openTab(event, 'answers-tab')">Answers ({len(answers)})</button>
@@ -108,7 +108,7 @@ for article in articles:
 
 html_content += """
     </div>
-    
+
     <div id="answers-tab" class="tab-content">
         <h2>Answers</h2>
 """
