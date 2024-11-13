@@ -15,7 +15,7 @@ answer_path.mkdir(exist_ok=True)
 article_path = Path("article")
 article_path.mkdir(exist_ok=True)
 
-with open("paths.json", "r") as file:
+with open("paths.json", "r", encoding="utf-8") as file:
     paths = json.load(file)
 
 processed_links = set(answer_path.glob("*.json")) | set(article_path.glob("*.json"))

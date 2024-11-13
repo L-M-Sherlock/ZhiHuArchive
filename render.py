@@ -129,7 +129,7 @@ article_template = """<!DOCTYPE html>
 Path("html").mkdir(exist_ok=True)
 
 for file in Path("article").glob("*.json"):
-    with open(file, "r") as f:
+    with open(file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     # Format the created timestamp
@@ -234,7 +234,7 @@ answer_template = """<!DOCTYPE html>
 </html>"""
 
 for file in Path("answer").glob("*.json"):
-    with open(file, "r") as f:
+    with open(file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     if "error" in data:
