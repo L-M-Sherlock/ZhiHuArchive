@@ -2,10 +2,39 @@ import json
 from pathlib import Path
 from datetime import datetime
 import re
-
+from feedgen.feed import FeedGenerator
+import zoneinfo
 
 article_ids = [file.stem for file in Path("./article").glob("*.json")]
 answer_ids = [file.stem for file in Path("./answer").glob("*.json")]
+
+fg = FeedGenerator()
+fg.id("https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml")
+fg.title("Thoughts Memo")
+fg.link(href="https://l-m-sherlock.github.io/ZhiHuArchive/", rel="self")
+fg.description("知乎账号 @Thoughts Memo 和 @叶峻峣 的文章和回答的存档")
+fg.language("zh-Hans")
+fg.generator("feedgen", uri="https://github.com/lkiesow/python-feedgen")
+fg.icon("https://l-m-sherlock.github.io/ZhiHuArchive/favicon.ico")
+fg.logo("https://l-m-sherlock.github.io/ZhiHuArchive/favicon.ico")
+
+def add_item(data, full_html):
+    created_timestamp = datetime.fromtimestamp(
+        data["created"] if "created" in data else data["created_time"],
+        zoneinfo.ZoneInfo("Asia/Shanghai"),
+    )
+    title = data["question"]["title"] if "question" in data else data["title"]
+    fe = fg.add_entry()
+    fe.title(title)
+    fe.link(
+        href=f"https://l-m-sherlock.github.io/ZhiHuArchive/{file.stem}.html",
+        rel="alternate",
+    )
+    fe.link(href=f"https://zhuanlan.zhihu.com/p/{data['id']}", rel="related")
+    fe.content(full_html, type="CDATA")
+    fe.summary(data["excerpt"])
+    fe.published(created_timestamp)
+    fe.guid(f"https://l-m-sherlock.github.io/ZhiHuArchive/{file.stem}.html")
 
 
 def replace_url(url: str) -> str:
@@ -56,13 +85,14 @@ article_template = """<!DOCTYPE html>
     <title>${"title"} | FxZhihu</title>
     <meta charset="UTF-8">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="${"title"} | FxZhihu">
-    <meta property="og:site_name" content="FxZhihu / Fixup Zhihu">
+    <meta property="og:title" content="${"title"} | Thoughts Memo">
+    <meta property="og:site_name" content="Thoughts Memo">
     <meta property="og:url" content="${"url"}">
     <meta property="twitter:card" content="summary">
-    <meta name="twitter:title" property="og:title" itemprop="name" content="${"title"} | FxZhihu">
+    <meta name="twitter:title" property="og:title" itemprop="name" content="${"title"} | Thoughts Memo">
     <meta name="twitter:description" property="og:description" itemprop="description" content="${"excerpt"}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <link rel="alternate" type="application/rss+xml" title="Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
     <script>
         const redirect = ${"redirect"};
@@ -126,22 +156,23 @@ article_template = """<!DOCTYPE html>
 </body>
 </html>"""
 
-Path("html").mkdir(exist_ok=True)
+rss_article_template = """<main>
+<header>
+    <img class="origin_image" src="${"image_url"}"/>
+</header>
+<article>
+    ${"content"}
+    ${"reference"}
+</article>
+<footer>
+    <p>发表于 ${"created_time_formatted"}</p>
+</footer>
+</main>"""
 
-for file in Path("article").glob("*.json"):
-    with open(file, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    # Format the created timestamp
-    created_time = datetime.fromtimestamp(data["created"])
-    created_time_str = created_time.isoformat()
-    created_time_formatted = created_time.strftime("%Y年%m月%d日")
-
-    data["content"] = process_content(data["content"])
-
-    # Prepare the HTML content
-    html_content = (
-        article_template.replace('${"title"}', data["title"])
+def fill_article_template(data: dict, is_rss: bool = False) -> str:
+    template = rss_article_template if is_rss else article_template
+    return (
+        template.replace('${"title"}', data["title"])
         .replace('${"url"}', f"https://zhuanlan.zhihu.com/p/{file.stem}")
         .replace('${"excerpt"}', data["excerpt"])
         .replace('${"redirect"}', "false")
@@ -157,11 +188,32 @@ for file in Path("article").glob("*.json"):
         .replace('${"content"}', data["content"])
         .replace('${"reference"}', extract_reference(data["content"]))
         .replace('${"column_title"}', data["column"]["title"])
+        .replace('    ', '')
     )
+
+Path("html").mkdir(exist_ok=True)
+
+for file in Path("article").glob("*.json"):
+    with open(file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    # Format the created timestamp
+    created_time = datetime.fromtimestamp(data["created"])
+    created_time_str = created_time.isoformat()
+    created_time_formatted = created_time.strftime("%Y年%m月%d日")
+
+    data["content"] = process_content(data["content"])
+
+    # Prepare the HTML content
+    html_content = fill_article_template(data)
     # Write the rendered HTML to file
     output_file = Path("html") / f"{file.stem}.html"
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(html_content)
+
+    rss_content = fill_article_template(data, is_rss=True)
+
+    add_item(data, rss_content)
 
 
 answer_template = """<!DOCTYPE html>
@@ -170,14 +222,15 @@ answer_template = """<!DOCTYPE html>
     <title>${"title"} - @${"author"} | FxZhihu</title>
     <meta charset="UTF-8">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="${"title"} - @${"author"} | FxZhihu">
-    <meta property="og:site_name" content="FxZhihu / Fixup Zhihu">
+    <meta property="og:title" content="${"title"} - @${"author"} | Thoughts Memo">
+    <meta property="og:site_name" content="Thoughts Memo">
     <meta property="og:url" content="${"url"}">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
     <meta property="twitter:card" content="summary">
     <meta name="twitter:title" property="og:title" itemprop="name" content="${"title"} - @${"author"} | FxZhihu">
     <meta name="twitter:description" property="og:description" itemprop="description" content="${"excerpt"}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <link rel="alternate" type="application/rss+xml" title="Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
     <script>
         const redirect = ${"redirect"};
         if (redirect) {
@@ -233,24 +286,30 @@ answer_template = """<!DOCTYPE html>
 </body>
 </html>"""
 
-for file in Path("answer").glob("*.json"):
-    with open(file, "r", encoding="utf-8") as f:
-        data = json.load(f)
+rss_answer_template = """<main>
+<article>
+    ${"question"}
+    ${"content"}
+    ${"reference"}
+</article>
+<footer>
+    <p>发表于 ${"created_time_formatted"}</p>
+    <div class="stats">${"voteup_count"} 👍 / ${"comment_count"} 💬</div>
+    <div class="author">
+        <img class="avatar" id="avatar" src="${"avatar_url"}" />
+        <div>
+            <h2 rel="author">
+                <a href="${"author_url"}" target="_blank">@${"author"}</a>
+            </h2>
+        </div>
+    </div>
+</footer>
+</main>"""
 
-    if "error" in data:
-        print(data["error"], file.stem)
-        continue
-
-    # Format the created timestamp
-    created_time = datetime.fromtimestamp(data["created_time"])
-    created_time_str = created_time.isoformat()
-    created_time_formatted = created_time.strftime("%Y年%m月%d日")
-
-    data["content"] = process_content(data["content"])
-
-    # Prepare the HTML content
-    html_content = (
-        answer_template.replace('${"title"}', data["question"]["title"])
+def fill_answer_template(data: dict, is_rss: bool = False) -> str:
+    template = rss_answer_template if is_rss else answer_template
+    return (
+        template.replace('${"title"}', data["question"]["title"])
         .replace(
             '${"url"}',
             f"https://www.zhihu.com/question/{data['question']['id']}/answer/{file.stem}",
@@ -268,8 +327,34 @@ for file in Path("answer").glob("*.json"):
         .replace('${"question"}', data["question"]["detail"])
         .replace('${"content"}', data["content"])
         .replace('${"reference"}', extract_reference(data["content"]))
+        .replace('    ', '')
     )
+
+for file in Path("answer").glob("*.json"):
+    with open(file, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    if "error" in data:
+        print(data["error"], file.stem)
+        continue
+
+    # Format the created timestamp
+    created_time = datetime.fromtimestamp(data["created_time"])
+    created_time_str = created_time.isoformat()
+    created_time_formatted = created_time.strftime("%Y年%m月%d日")
+
+    data["content"] = process_content(data["content"])
+
+    # Prepare the HTML content
+    html_content = fill_answer_template(data)
     # Write the rendered HTML to file
     output_file = Path("html") / f"{file.stem}.html"
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(html_content)
+
+    rss_content = fill_answer_template(data, is_rss=True)
+
+    add_item(data, rss_content)
+
+# Generate RSS feed
+fg.atom_file(Path("html") / "feed.xml")

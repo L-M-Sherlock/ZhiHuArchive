@@ -82,6 +82,7 @@ html_content = (
 """
     + f"""
     <h1>Content Directory</h1>
+    <p>RSS: <a href="/feed.xml">Atom Feed</a></p>
 
     <div class="tabs">
         <button class="tab-button active" onclick="openTab(event, 'articles-tab')">Articles ({len(articles)})</button>
