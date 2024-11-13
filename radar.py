@@ -20,7 +20,7 @@ def censored_check(url: str) -> bool:
 
 def load_json_ordered(file_path):
     with open(file_path, "r") as f:
-        return json.load(f, object_pairs_hook=OrderedDict)
+        return json.loads(f.read(), object_pairs_hook=OrderedDict)
 
 
 for file in tqdm(list(Path("answer").glob("*.json"))):
@@ -30,19 +30,18 @@ for file in tqdm(list(Path("answer").glob("*.json"))):
     url = f"https://api.zhihu.com/v4/answers/{file.stem}"
     data["censored"] = censored_check(url)
     with open(file, "w") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
     time.sleep(random.random() * 2 + 1)
 
 
 for file in tqdm(list(Path("article").glob("*.json"))):
-    with open(file, "r") as f:
-        data = json.load(f)
-        if data.get("censored"):
-            continue
+    data = load_json_ordered(file)
+    if data.get("censored"):
+        continue
     url = f"https://www.zhihu.com/api/v4/articles/{file.stem}"
     data["censored"] = censored_check(url)
     with open(file, "w") as f:
-        json.dump(data, f, indent=4, ensure_ascii=False)
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
     time.sleep(random.random() * 2 + 1)
