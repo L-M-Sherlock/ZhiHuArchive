@@ -96,10 +96,6 @@ article_template = """<!DOCTYPE html>
     <link rel="alternate" type="application/rss+xml" title="Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
     <script>
-        const redirect = ${"redirect"};
-        if (redirect) {
-            window.location.replace("${"url"}");
-        }
     </script>
     <style>
         .origin_image {
@@ -235,10 +231,6 @@ answer_template = """<!DOCTYPE html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <link rel="alternate" type="application/rss+xml" title="Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
     <script>
-        const redirect = ${"redirect"};
-        if (redirect) {
-            window.location.replace("${"url"}");
-        }
     </script>
     <style>
         img {
