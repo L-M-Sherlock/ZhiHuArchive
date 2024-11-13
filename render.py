@@ -15,6 +15,20 @@ def replace_url(url: str) -> str:
     return url
 
 
+def process_content(content: str) -> str:
+    # Remove zhihu redirect links
+    content = content.replace("//link.zhihu.com/?target=https%3A", "")
+    content = content.replace("//link.zhihu.com/?target=http%3A", "")
+
+    # Replace internal links with local paths
+    link_pattern = r"href=\"(.*?)\""
+    content = re.sub(
+        link_pattern, lambda m: f'href="{replace_url(m.group(1))}"', content
+    )
+
+    return content
+
+
 def extract_reference(html: str) -> str:
     reference_regex = re.compile(
         r'<sup[^>]*data-text="([^"]*)"[^>]*data-url="([^"]*)"[^>]*data-numero="([^"]*)"[^>]*>'
@@ -123,8 +137,7 @@ for file in Path("article").glob("*.json"):
     created_time_str = created_time.isoformat()
     created_time_formatted = created_time.strftime("%Y年%m月%d日")
 
-    data["content"] = data["content"].replace("//link.zhihu.com/?target=https%3A", "")
-    data["content"] = data["content"].replace("//link.zhihu.com/?target=http%3A", "")
+    data["content"] = process_content(data["content"])
 
     # Prepare the HTML content
     html_content = (
@@ -233,8 +246,7 @@ for file in Path("answer").glob("*.json"):
     created_time_str = created_time.isoformat()
     created_time_formatted = created_time.strftime("%Y年%m月%d日")
 
-    data["content"] = data["content"].replace("//link.zhihu.com/?target=https%3A", "")
-    data["content"] = data["content"].replace("//link.zhihu.com/?target=http%3A", "")
+    data["content"] = process_content(data["content"])
 
     # Prepare the HTML content
     html_content = (
