@@ -10,10 +10,10 @@ from collections import OrderedDict  # Add this import
 def censored_check(url: str) -> bool:
     response = requests.get(url).json()
     if response.get("error"):
+        print(url)
         if response["error"]["code"] == 4041:
             return True
         else:
-            print(url)
             raise Exception(response["error"])
     return False
 
@@ -25,7 +25,7 @@ def load_json_ordered(file_path):
 
 for file in tqdm(list(Path("answer").glob("*.json"))):
     data = load_json_ordered(file)
-    if data.get("censored"):
+    if "censored" in data:
         continue
     url = f"https://api.zhihu.com/v4/answers/{file.stem}"
     data["censored"] = censored_check(url)
@@ -37,7 +37,7 @@ for file in tqdm(list(Path("answer").glob("*.json"))):
 
 for file in tqdm(list(Path("article").glob("*.json"))):
     data = load_json_ordered(file)
-    if data.get("censored"):
+    if "censored" in data:
         continue
     url = f"https://www.zhihu.com/api/v4/articles/{file.stem}"
     data["censored"] = censored_check(url)

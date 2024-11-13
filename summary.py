@@ -41,6 +41,7 @@ html_content = (
         .item { margin: 10px 0; }
         .votes { color: #666; font-size: 0.9em; }
         .created_time { color: #999; font-size: 0.9em; }
+        .censored { background-color: #ffeb3b; }
         
         /* Tab styles */
         .tabs { margin-bottom: 20px; }
@@ -116,9 +117,13 @@ for answer in answers:
         if "question" in answer and "title" in answer["question"]
         else "Untitled"
     )
+    is_censored = answer.get("censored", False)
+    censored_class = 'censored' if is_censored else ''
+    censored_text = ' (censored)' if is_censored else ''
+    
     html_content += f"""
         <div class="item">
-            <a href="./{answer['file_stem']}.html">{question_title}</a>
+            <a href="./{answer['file_stem']}.html" class="{censored_class}">{question_title}{censored_text}</a>
             <span class="votes">({answer['voteup_count']} votes)</span>
             <span class="created_time">({datetime.fromtimestamp(answer['created_time']).strftime('%Y-%m-%d')})</span>
         </div>
