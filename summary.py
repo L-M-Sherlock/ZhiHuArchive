@@ -95,9 +95,12 @@ html_content = (
 
 # Add articles
 for article in articles:
+    is_censored = article.get("censored", False)
+    censored_class = "censored" if is_censored else ""
+    censored_text = " (censored)" if is_censored else ""
     html_content += f"""
         <div class="item">
-            <a href="./{article['file_stem']}.html">{article['title']}</a>
+            <a href="./{article['file_stem']}.html" class="{censored_class}">{article['title']}{censored_text}</a>
             <span class="votes">({article['voteup_count']} votes)</span>
             <span class="created_time">({datetime.fromtimestamp(article['created']).strftime('%Y-%m-%d')})</span>
         </div>
@@ -118,9 +121,9 @@ for answer in answers:
         else "Untitled"
     )
     is_censored = answer.get("censored", False)
-    censored_class = 'censored' if is_censored else ''
-    censored_text = ' (censored)' if is_censored else ''
-    
+    censored_class = "censored" if is_censored else ""
+    censored_text = " (censored)" if is_censored else ""
+
     html_content += f"""
         <div class="item">
             <a href="./{answer['file_stem']}.html" class="{censored_class}">{question_title}{censored_text}</a>
