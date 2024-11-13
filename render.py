@@ -4,6 +4,17 @@ from datetime import datetime
 import re
 
 
+article_ids = [file.stem for file in Path("./article").glob("*.json")]
+answer_ids = [file.stem for file in Path("./answer").glob("*.json")]
+
+
+def replace_url(url: str) -> str:
+    _id = url.split("/")[-1]
+    if _id in article_ids or _id in answer_ids:
+        return f"./{_id}.html"
+    return url
+
+
 def extract_reference(html: str) -> str:
     reference_regex = re.compile(
         r'<sup[^>]*data-text="([^"]*)"[^>]*data-url="([^"]*)"[^>]*data-numero="([^"]*)"[^>]*>'
@@ -12,7 +23,7 @@ def extract_reference(html: str) -> str:
 
     for match in reference_regex.finditer(html):
         text, url, numero = match.groups()
-        references[numero] = {"text": text, "url": url}
+        references[numero] = {"text": text, "url": replace_url(url)}
 
     reference_list = [
         f'{index}. {ref["text"]} <a href="{ref["url"]}">{ref["url"]}</a>'
