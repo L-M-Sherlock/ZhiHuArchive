@@ -238,7 +238,7 @@ for file in Path("answer").glob("*.json"):
         data = json.load(f)
 
     if "error" in data:
-        print(f"Error: {data['error']}")
+        print(data["error"], file.stem)
         continue
 
     # Format the created timestamp
