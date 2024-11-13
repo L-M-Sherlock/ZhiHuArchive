@@ -18,6 +18,7 @@ fg.generator("feedgen", uri="https://github.com/lkiesow/python-feedgen")
 fg.icon("https://l-m-sherlock.github.io/ZhiHuArchive/favicon.ico")
 fg.logo("https://l-m-sherlock.github.io/ZhiHuArchive/favicon.ico")
 
+
 def add_item(data, full_html):
     created_timestamp = datetime.fromtimestamp(
         data["created"] if "created" in data else data["created_time"],
@@ -169,6 +170,7 @@ rss_article_template = """<main>
 </footer>
 </main>"""
 
+
 def fill_article_template(data: dict, is_rss: bool = False) -> str:
     template = rss_article_template if is_rss else article_template
     return (
@@ -188,8 +190,9 @@ def fill_article_template(data: dict, is_rss: bool = False) -> str:
         .replace('${"content"}', data["content"])
         .replace('${"reference"}', extract_reference(data["content"]))
         .replace('${"column_title"}', data["column"]["title"])
-        .replace('    ', '')
+        .replace("    ", "")
     )
+
 
 Path("html").mkdir(exist_ok=True)
 
@@ -306,6 +309,7 @@ rss_answer_template = """<main>
 </footer>
 </main>"""
 
+
 def fill_answer_template(data: dict, is_rss: bool = False) -> str:
     template = rss_answer_template if is_rss else answer_template
     return (
@@ -327,8 +331,9 @@ def fill_answer_template(data: dict, is_rss: bool = False) -> str:
         .replace('${"question"}', data["question"]["detail"])
         .replace('${"content"}', data["content"])
         .replace('${"reference"}', extract_reference(data["content"]))
-        .replace('    ', '')
+        .replace("    ", "")
     )
+
 
 for file in Path("answer").glob("*.json"):
     with open(file, "r", encoding="utf-8") as f:
