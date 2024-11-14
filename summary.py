@@ -38,6 +38,9 @@ html_content = (
     <title>Content Directory</title>
     <meta name="description" property="og:description" content="Content Directory of ZhiHu Archive for Thoughts Memo">
     <meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+    <meta property="twitter:card" content="summary">
+    <meta name="twitter:title" property="og:title" itemprop="name" content="Content Directory">
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Content Directory of ZhiHu Archive for Thoughts Memo">
     <style>
         body { max-width: 800px; margin: 0 auto; padding: 20px; }
         .item { margin: 10px 0; }
