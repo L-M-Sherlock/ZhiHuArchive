@@ -32,7 +32,7 @@ def add_item(data, full_html):
         rel="alternate",
     )
     fe.link(href=f"https://zhuanlan.zhihu.com/p/{data['id']}", rel="related")
-    fe.content(full_html, type="CDATA")
+    fe.content(full_html, type="html")
     fe.summary(data["excerpt"])
     fe.published(created_timestamp)
     fe.guid(f"https://l-m-sherlock.github.io/ZhiHuArchive/{file.stem}.html")
