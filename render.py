@@ -93,6 +93,7 @@ article_template = """<!DOCTYPE html>
     <meta name="twitter:title" property="og:title" itemprop="name" content="${"title"} | Thoughts Memo">
     <meta name="twitter:description" property="og:description" itemprop="description" content="${"excerpt"}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
     <link rel="alternate" type="application/rss+xml" title="Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
     <script>
@@ -229,6 +230,7 @@ answer_template = """<!DOCTYPE html>
     <meta name="twitter:title" property="og:title" itemprop="name" content="${"title"} - @${"author"} | Thoughts Memo">
     <meta name="twitter:description" property="og:description" itemprop="description" content="${"excerpt"}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
     <link rel="alternate" type="application/rss+xml" title="Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
     <script>
     </script>

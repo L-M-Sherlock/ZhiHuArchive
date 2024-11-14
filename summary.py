@@ -36,6 +36,8 @@ html_content = (
 <head>
     <meta charset="UTF-8">
     <title>Content Directory</title>
+    <meta name="description" property="og:description" content="Content Directory of ZhiHu Archive for Thoughts Memo">
+    <meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
     <style>
         body { max-width: 800px; margin: 0 auto; padding: 20px; }
         .item { margin: 10px 0; }
