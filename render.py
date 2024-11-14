@@ -83,14 +83,14 @@ def extract_reference(html: str) -> str:
 article_template = """<!DOCTYPE html>
 <html lang="zh">
 <head>
-    <title>${"title"} | Thoughts Memo</title>
+    <title>${"title"}</title>
     <meta charset="UTF-8">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="${"title"} | Thoughts Memo">
+    <meta property="og:title" content="${"title"}">
     <meta property="og:site_name" content="Thoughts Memo">
     <meta property="og:url" content="${"url"}">
     <meta property="twitter:card" content="summary">
-    <meta name="twitter:title" property="og:title" itemprop="name" content="${"title"} | Thoughts Memo">
+    <meta name="twitter:title" property="og:title" itemprop="name" content="${"title"}">
     <meta name="twitter:description" property="og:description" itemprop="description" content="${"excerpt"}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
@@ -215,19 +215,25 @@ for file in Path("article").glob("*.json"):
 
     add_item(data, rss_content)
 
+question_template = """<div style="margin: 0; padding: 0.5em 1em; border-left: 4px solid #999; font-size: 0.86em; background: #f9f9f9;">
+<h2>问题描述</h2>
+${"question"}
+</div>
+<hr>"""
+
 
 answer_template = """<!DOCTYPE html>
 <html lang="zh">
 <head>
-    <title>${"title"} - @${"author"} | Thoughts Memo</title>
+    <title>${"title"} - @${"author"}</title>
     <meta charset="UTF-8">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="${"title"} - @${"author"} | Thoughts Memo">
+    <meta property="og:title" content="${"title"} - @${"author"}">
     <meta property="og:site_name" content="Thoughts Memo">
     <meta property="og:url" content="${"url"}">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
     <meta property="twitter:card" content="summary">
-    <meta name="twitter:title" property="og:title" itemprop="name" content="${"title"} - @${"author"} | Thoughts Memo">
+    <meta name="twitter:title" property="og:title" itemprop="name" content="${"title"} - @${"author"}">
     <meta name="twitter:description" property="og:description" itemprop="description" content="${"excerpt"}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
@@ -322,6 +328,10 @@ def fill_answer_template(data: dict, is_rss: bool = False) -> str:
         .replace('${"created_time_formatted"}', created_time_formatted)
         .replace('${"voteup_count"}', str(data["voteup_count"]))
         .replace('${"comment_count"}', str(data["comment_count"]))
+        .replace(
+            '${"question"}',
+            question_template.replace('${"question"}', data["question"]["detail"]),
+        )
         .replace('${"question"}', data["question"]["detail"])
         .replace('${"content"}', data["content"])
         .replace('${"reference"}', extract_reference(data["content"]))
