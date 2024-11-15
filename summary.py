@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timezone
+
+BASE_URL = "https://l-m-sherlock.github.io/ZhiHuArchive"
 
 # Collect all articles
 articles = []
@@ -147,3 +149,47 @@ html_content += """
 # Write the HTML file
 with open("./html/index.html", "w", encoding="utf-8") as f:
     f.write(html_content)
+
+
+def generate_sitemap(articles, answers):
+    """Generate sitemap.xml file"""
+    sitemap_content = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    sitemap_content += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+
+    # Add index page
+    sitemap_content += f"""  <url>
+    <loc>{BASE_URL}/</loc>
+    <lastmod>{datetime.now(timezone.utc).strftime('%Y-%m-%d')}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>\n"""
+
+    # Add articles
+    for article in articles:
+        created_time = datetime.fromtimestamp(article["created"], timezone.utc)
+        sitemap_content += f"""  <url>
+    <loc>{BASE_URL}/{article['file_stem']}.html</loc>
+    <lastmod>{created_time.strftime('%Y-%m-%d')}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>\n"""
+
+    # Add answers
+    for answer in answers:
+        created_time = datetime.fromtimestamp(answer["created_time"], timezone.utc)
+        sitemap_content += f"""  <url>
+    <loc>{BASE_URL}/{answer['file_stem']}.html</loc>
+    <lastmod>{created_time.strftime('%Y-%m-%d')}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>\n"""
+
+    sitemap_content += "</urlset>"
+
+    # Write sitemap file
+    with open("./html/sitemap.xml", "w", encoding="utf-8") as f:
+        f.write(sitemap_content)
+
+
+# Add after writing index.html
+generate_sitemap(articles, answers)
