@@ -83,18 +83,18 @@ def extract_reference(html: str) -> str:
 article_template = """<!DOCTYPE html>
 <html lang="zh">
 <head>
-    <title>${"title"}</title>
+    <title>${"title"} - @${"author"}</title>
     <meta charset="UTF-8">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="${"title"}">
-    <meta property="og:site_name" content="Thoughts Memo">
+    <meta property="og:title" content="${"title"} - @${"author"}">
+    <meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
     <meta property="og:url" content="${"url"}">
     <meta property="twitter:card" content="summary">
-    <meta name="twitter:title" property="og:title" itemprop="name" content="${"title"}">
+    <meta name="twitter:title" property="og:title" itemprop="name" content="${"title"} - @${"author"}">
     <meta name="twitter:description" property="og:description" itemprop="description" content="${"excerpt"}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
-    <link rel="alternate" type="application/rss+xml" title="Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
     <script>
     </script>
@@ -150,6 +150,8 @@ article_template = """<!DOCTYPE html>
         <div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;">
             <h2>专栏：${"column_title"}</h2>
         </div>
+        <hr>
+        <p><a href="./">← 返回目录</a></p>
     </article>
 </body>
 </html>"""
@@ -229,7 +231,7 @@ answer_template = """<!DOCTYPE html>
     <meta charset="UTF-8">
     <meta property="og:type" content="website">
     <meta property="og:title" content="${"title"} - @${"author"}">
-    <meta property="og:site_name" content="Thoughts Memo">
+    <meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
     <meta property="og:url" content="${"url"}">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
     <meta property="twitter:card" content="summary">
@@ -237,7 +239,7 @@ answer_template = """<!DOCTYPE html>
     <meta name="twitter:description" property="og:description" itemprop="description" content="${"excerpt"}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
-    <link rel="alternate" type="application/rss+xml" title="Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+    <link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
     <script>
     </script>
     <style>
@@ -285,6 +287,8 @@ answer_template = """<!DOCTYPE html>
         ${"question"}
         ${"content"}
         ${"reference"}
+        <hr>
+        <p><a href="./">← 返回目录</a></p>
     </article>
 </body>
 </html>"""

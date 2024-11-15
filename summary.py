@@ -37,12 +37,16 @@ html_content = (
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Content Directory</title>
-    <meta name="description" property="og:description" content="Content Directory of ZhiHu Archive for Thoughts Memo">
+    <title>知乎文章和回答备份目录</title>
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="知乎文章和回答备份目录">
+    <meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+    <meta property="og:url" content="https://l-m-sherlock.github.io/ZhiHuArchive/">
+    <meta name="description" property="og:description" content="Thoughts Memo 和叶峻峣的知乎文章和回答备份目录">
     <meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
     <meta property="twitter:card" content="summary">
-    <meta name="twitter:title" property="og:title" itemprop="name" content="Content Directory">
-    <meta name="twitter:description" property="og:description" itemprop="description" content="Content Directory of ZhiHu Archive for Thoughts Memo">
+    <meta name="twitter:title" property="og:title" itemprop="name" content="知乎文章和回答备份目录">
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Thoughts Memo 和叶峻峣的知乎文章和回答备份目录">
     <style>
         body { max-width: 800px; margin: 0 auto; padding: 20px; }
         .item { margin: 10px 0; }
@@ -88,16 +92,16 @@ html_content = (
 <body>
 """
     + f"""
-    <h1>Content Directory</h1>
+    <h1>知乎文章和回答备份目录</h1>
     <p>RSS: <a href="./feed.xml">Atom Feed</a></p>
 
     <div class="tabs">
-        <button class="tab-button active" onclick="openTab(event, 'articles-tab')">Articles ({len(articles)})</button>
-        <button class="tab-button" onclick="openTab(event, 'answers-tab')">Answers ({len(answers)})</button>
+        <button class="tab-button active" onclick="openTab(event, 'articles-tab')">文章 ({len(articles)})</button>
+        <button class="tab-button" onclick="openTab(event, 'answers-tab')">回答 ({len(answers)})</button>
     </div>
 
     <div id="articles-tab" class="tab-content active">
-        <h2>Articles</h2>
+        <h2>文章</h2>
 """
 )
 
@@ -109,7 +113,7 @@ for article in articles:
     html_content += f"""
         <div class="item">
             <a href="./{article['file_stem']}.html" class="{censored_class}">{article['title']}{censored_text}</a>
-            <span class="votes">({article['voteup_count']} votes)</span>
+            <span class="votes">({article['voteup_count']} 赞同)</span>
             <span class="created_time">({datetime.fromtimestamp(article['created']).strftime('%Y-%m-%d')})</span>
         </div>
 """
@@ -118,7 +122,7 @@ html_content += """
     </div>
 
     <div id="answers-tab" class="tab-content">
-        <h2>Answers</h2>
+        <h2>回答</h2>
 """
 
 # Add answers
@@ -135,7 +139,7 @@ for answer in answers:
     html_content += f"""
         <div class="item">
             <a href="./{answer['file_stem']}.html" class="{censored_class}">{question_title}{censored_text}</a>
-            <span class="votes">({answer['voteup_count']} votes)</span>
+            <span class="votes">({answer['voteup_count']} 赞同)</span>
             <span class="created_time">({datetime.fromtimestamp(answer['created_time']).strftime('%Y-%m-%d')})</span>
         </div>
 """
