@@ -93,6 +93,11 @@ html_content = (
 """
     + f"""
     <h1>知乎文章和回答备份目录</h1>
+    <p>
+        <a href="https://github.com/l-m-sherlock/ZhiHuArchive">
+            <img src="https://img.shields.io/github/stars/l-m-sherlock/ZhiHuArchive?style=social" alt="GitHub stars">
+        </a>
+    </p>
     <p>RSS: <a href="./feed.xml">Atom Feed</a></p>
 
     <div class="tabs">
