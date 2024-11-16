@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>阅读理解问题可以发现文本基础的漏洞 - @叶峻峣</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="阅读理解问题可以发现文本基础的漏洞 - @叶峻峣">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/678612702">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" property="og:title" itemprop="name" content="阅读理解问题可以发现文本基础的漏洞 - @叶峻峣">
+<meta name="twitter:description" property="og:description" itemprop="description" content="我有些尴尬地发现（2023-09-11 ），当我要求大语言模型 生成阅读理解问题，以此来帮我…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin:1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a[data-draft-type="link-card"] {
+   display: block;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<header>
+<img class="origin_image" src=""/>
+<h1><a href="https://zhuanlan.zhihu.com/p/678612702">阅读理解问题可以发现文本基础的漏洞</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/50/v2-0ebbd00d10ee9f3b47237b367659abe0_l.jpg?source=b1748391" />
+<div>
+<h2 rel="author">
+<a href="https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank">@叶峻峣</a>
+</h2>
+<p> 钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。 </p>
+</div>
+</div>
+<time datetime="2024-01-19T01:32:09">发表于 2024年01月19日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">11 👍 / 5 💬</p>
+</header>
+<article>
+<p data-pid="IwzkIHQr">我有些尴尬地发现（<a href="https://notes.andymatuschak.org/z2ZU99Tadhs5MdtF8rTsSuw" class=" wrap external" target="_blank" rel="nofollow noreferrer">2023-09-11</a>），当我要求<a href="https://notes.andymatuschak.org/zBe9vHWwqLoyaeA7eJfLnBA" class=" wrap external" target="_blank" rel="nofollow noreferrer">大语言模型</a>生成阅读理解问题，以此来帮我评估我针对<a href="https://notes.andymatuschak.org/z4e951xY6fkjGgoHGwHHchi" class=" wrap external" target="_blank" rel="nofollow noreferrer">《线性代数》- Hefferon</a> 某一章节所构建的文本基础（参见<a href="https://notes.andymatuschak.org/zHTLU2rAxAo8i1xBGVQPPcr" class=" wrap external" target="_blank" rel="nofollow noreferrer">构建-整合模型</a>）时，有几个问题揭示出了文本中我完全未曾理解的部分。尽管我已经努力仔细阅读。</p><p data-pid="w4lzz9rt"><a href="https://notes.andymatuschak.org/zVKwVczp4nEAKPWqfS1BqMi" class=" wrap external" target="_blank" rel="nofollow noreferrer">阅读理解问题令人不快</a><sup data-text="阅读理解问题令人不快" data-url="https://zhuanlan.zhihu.com/p/678195187" data-draft-node="inline" data-draft-type="reference" data-numero="1">[1]</sup>，这些也不例外。关于这次我注意到的问题，我在这里加了一些笔记：</p><blockquote data-pid="SUYmpfFD">不幸的是，当遇到与我未能充分理解的内容相关的问题时，这种感觉<b>尤为</b>明显。这些问题对我来说似乎毫无意义。我能感觉到它们在要求我给出某种特定的答案，但我无法确定具体需要回答什么（因为我之前并未真正理解过需要的信息）。因此，这些问题就像让我盲目地追寻一样，我不得不翻来覆去地检查章节，试图找到与问题中词汇相匹配的段落。然后我才意识到，我原来根本没有真正理解过那部分内容，虽然我可能最终弄清楚了问题的意图……但这是一种不优雅的达成方式。</blockquote><p data-pid="1vppysNZ">有趣的是，这里的机制是间接的：当阅读理解问题暴露出我理解上的失败时，我通常并不完全明白这个问题到底在问什么。但这种困惑引导我重新阅读，寻找可能有帮助的信息，这个过程最终帮助我弥补了理解上的空缺。</p><p data-pid="Kt3LXL1m">我假设阅读理解问题同样能揭示出我在情境模型（参见<a href="https://notes.andymatuschak.org/zHTLU2rAxAo8i1xBGVQPPcr" class=" wrap external" target="_blank" rel="nofollow noreferrer">构建-整合模型</a>）中的漏洞，尽管我对此没有太多直接体验。对我而言，通过需要推理（即<a href="https://notes.andymatuschak.org/z7ffiDfqTR9pPcEEUUbCL7C" class=" wrap external" target="_blank" rel="nofollow noreferrer">迁移学习</a><sup data-text="迁移学习" data-url="https://zhuanlan.zhihu.com/p/491870061" data-draft-node="inline" data-draft-type="reference" data-numero="2">[2]</sup>）的复杂任务来发现这些漏洞更为常见。当我无法完成这些任务，而我的文本基础又看起来很扎实时，要确定情境模型的具体崩溃点似乎颇有难度。</p><p data-pid="SjIuMbXz">另见，在<a href="https://notes.andymatuschak.org/zKPv6qkSErdRGqyryvgS2wS" class=" wrap external" target="_blank" rel="nofollow noreferrer">助记媒介</a><sup data-text="助记媒介（Mnemonic medium）" data-url="https://zhuanlan.zhihu.com/p/459483765" data-draft-node="inline" data-draft-type="reference" data-numero="3">[3]</sup>的背景下：<a href="https://notes.andymatuschak.org/z58xEZ2ojjRjm1sMcih4bfQ" class=" wrap external" target="_blank" rel="nofollow noreferrer">助记媒介中穿插的卡片有时会不太愉快地揭示出阅读理解上的疏漏</a>。</p><h2><br/>链接至本文（已汉化）</h2><ul><li data-pid="D7n-QY34"><a href="./679063443.html" class="internal">阅读理解</a></li></ul><h2>声明</h2><p data-pid="a1kSLiu9">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="7Sa7nG10"><a href="https://paratranz.cn/projects/3131" class=" wrap external" target="_blank" rel="nofollow noreferrer">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 Jarrett Ye<br/>原文：<a href="https://notes.andymatuschak.org/zLZUS7KTrG4ABm3tRLGxMMj" class=" wrap external" target="_blank" rel="nofollow noreferrer">Reading comprehension questions can uncover textbase holes (andymatuschak.org)</a></blockquote>
+<hr><section><h2>参考</h2>1. 阅读理解问题令人不快 <a href="./678195187.html">./678195187.html</a><br>2. 迁移学习 <a href="./491870061.html">./491870061.html</a><br>3. 助记媒介（Mnemonic medium） <a href="./459483765.html">./459483765.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;">
+<h2>专栏：助记媒介 & 思想工具</h2>
+</div>
+<hr>
+<p><a href="./">← 返回目录</a></p>
+</article>
+</body>
+</html>
