@@ -89,6 +89,7 @@ article_template = """<!DOCTYPE html>
     <meta property="og:title" content="${"title"} - @${"author"}">
     <meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
     <meta property="og:url" content="${"url"}">
+    <meta name="description" property="og:description" content="${"excerpt"}">
     <meta property="twitter:card" content="summary">
     <meta name="twitter:title" property="og:title" itemprop="name" content="${"title"} - @${"author"}">
     <meta name="twitter:description" property="og:description" itemprop="description" content="${"excerpt"}">
@@ -233,6 +234,7 @@ answer_template = """<!DOCTYPE html>
     <meta property="og:title" content="${"title"} - @${"author"}">
     <meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
     <meta property="og:url" content="${"url"}">
+    <meta name="description" property="og:description" content="${"excerpt"}">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
     <meta property="twitter:card" content="summary">
     <meta name="twitter:title" property="og:title" itemprop="name" content="${"title"} - @${"author"}">
