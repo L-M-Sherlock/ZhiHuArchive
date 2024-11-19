@@ -129,6 +129,8 @@ article_template = """<!DOCTYPE html>
     </style>
 </head>
 <body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+    <p><a href="./">← 返回目录</a></p>
+    <hr>
     <header>
         <img class="origin_image" src="${"image_url"}"/>
         <h1><a href="${"url"}">${"title"}</a></h1>
