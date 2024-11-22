@@ -40,13 +40,13 @@ html_content = (
     <title>知乎文章和回答备份目录</title>
     <meta property="og:type" content="website">
     <meta property="og:title" content="知乎文章和回答备份目录">
-    <meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+    <meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo and Jarrett Ye">
     <meta property="og:url" content="https://l-m-sherlock.github.io/ZhiHuArchive/">
-    <meta name="description" property="og:description" content="Thoughts Memo 和叶峻峣的知乎文章和回答备份目录">
+    <meta name="description" property="og:description" content="Thoughts Memo 和 Jarrett Ye 的知乎文章和回答备份目录">
     <meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
     <meta property="twitter:card" content="summary">
     <meta name="twitter:title" property="og:title" itemprop="name" content="知乎文章和回答备份目录">
-    <meta name="twitter:description" property="og:description" itemprop="description" content="Thoughts Memo 和叶峻峣的知乎文章和回答备份目录">
+    <meta name="twitter:description" property="og:description" itemprop="description" content="Thoughts Memo 和 Jarrett Ye 的知乎文章和回答备份目录">
     <style>
         body { max-width: 800px; margin: 0 auto; padding: 20px; }
         .item { margin: 10px 0; }

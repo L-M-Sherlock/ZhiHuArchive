@@ -1,6 +1,6 @@
 # 介绍
 
-本项目是我的两个知乎账号（[@Thoughts Memo](https://www.zhihu.com/people/L.M.Sherlock) 和 [@叶峻峣](https://www.zhihu.com/people/thoughts-memo)）的文章和回答的存档。
+本项目是我的两个知乎账号（[@Thoughts Memo](https://www.zhihu.com/people/L.M.Sherlock) 和 [@Jarrett Ye](https://www.zhihu.com/people/JarrettYe)）的文章和回答的存档。
 
 # 致谢
 
