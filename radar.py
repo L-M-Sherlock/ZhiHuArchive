@@ -40,25 +40,26 @@ def load_json_ordered(file_path):
         return json.loads(f.read(), object_pairs_hook=OrderedDict)
 
 
+censorship = load_json_ordered("censorship.json")
+
 for file in tqdm(list(Path("answer").glob("*.json"))):
-    data = load_json_ordered(file)
-    if "censored" in data:
+    if f"/answer/{file.stem}" in censorship:
         continue
-    url = f"https://www.zhihu.com/api/v4/articles/{file.stem}"
-    data["censored"] = answer_censored_check(url)
-    with open(file, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+    censorship[f"/answer/{file.stem}"] = answer_censored_check(
+        f"https://www.zhihu.com/api/v4/answers/{file.stem}"
+    )
 
     time.sleep(random.random() * 2 + 1)
 
 
 for file in tqdm(list(Path("article").glob("*.json"))):
-    data = load_json_ordered(file)
-    if "censored" in data:
+    if f"/p/{file.stem}" in censorship:
         continue
-    url = f"https://www.zhihu.com/api/v4/articles/{file.stem}"
-    data["censored"] = article_censored_check(url)
-    with open(file, "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
+    censorship[f"/p/{file.stem}"] = article_censored_check(
+        f"https://www.zhihu.com/api/v4/articles/{file.stem}"
+    )
 
     time.sleep(random.random() * 2 + 1)
+
+with open("censorship.json", "w", encoding="utf-8") as f:
+    json.dump(censorship, f, ensure_ascii=False, indent=4)
