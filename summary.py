@@ -4,6 +4,10 @@ from datetime import datetime, timezone
 
 BASE_URL = "https://l-m-sherlock.github.io/ZhiHuArchive"
 
+# Load censorship data
+with open("censorship.json", "r", encoding="utf-8") as f:
+    censorship_data = json.load(f)
+
 # Collect all articles
 articles = []
 for file in Path("article").glob("*.json"):
@@ -112,7 +116,8 @@ html_content = (
 
 # Add articles
 for article in articles:
-    is_censored = article.get("censored", False)
+    article_path = f"/p/{article['file_stem']}"
+    is_censored = censorship_data.get(article_path, False)
     censored_class = "censored" if is_censored else ""
     censored_text = " (censored)" if is_censored else ""
     html_content += f"""
@@ -137,7 +142,8 @@ for answer in answers:
         if "question" in answer and "title" in answer["question"]
         else "Untitled"
     )
-    is_censored = answer.get("censored", False)
+    answer_path = f"/answer/{answer['file_stem']}"
+    is_censored = censorship_data.get(answer_path, False)
     censored_class = "censored" if is_censored else ""
     censored_text = " (censored)" if is_censored else ""
 
