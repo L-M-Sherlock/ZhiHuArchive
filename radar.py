@@ -42,23 +42,27 @@ def load_json_ordered(file_path):
 
 censorship = load_json_ordered("censorship.json")
 
-for file in tqdm(list(Path("answer").glob("*.json"))):
-    if f"/answer/{file.stem}" in censorship:
-        continue
+# Filter out existing answers and check remaining ones
+answer_files = list(
+    filter(
+        lambda f: f"/answer/{f.stem}" not in censorship,
+        Path("answer").glob("*.json"),
+    )
+)
+for file in tqdm(answer_files):
     censorship[f"/answer/{file.stem}"] = answer_censored_check(
         f"https://www.zhihu.com/api/v4/answers/{file.stem}"
     )
-
     time.sleep(random.random() * 2 + 1)
 
-
-for file in tqdm(list(Path("article").glob("*.json"))):
-    if f"/p/{file.stem}" in censorship:
-        continue
+# Filter out existing articles and check remaining ones
+article_files = list(
+    filter(lambda f: f"/p/{f.stem}" not in censorship, Path("article").glob("*.json"))
+)
+for file in tqdm(article_files):
     censorship[f"/p/{file.stem}"] = article_censored_check(
         f"https://www.zhihu.com/api/v4/articles/{file.stem}"
     )
-
     time.sleep(random.random() * 2 + 1)
 
 with open("censorship.json", "w", encoding="utf-8") as f:
