@@ -1,9 +1,11 @@
 import json
 from pathlib import Path
 from datetime import datetime
-import re
+from tqdm import tqdm
 from feedgen.feed import FeedGenerator
 import zoneinfo
+from bs4 import BeautifulSoup
+
 
 article_ids = [file.stem for file in Path("./article").glob("*.json")]
 answer_ids = [file.stem for file in Path("./answer").glob("*.json")]
@@ -46,36 +48,67 @@ def replace_url(url: str) -> str:
 
 
 def process_content(content: str) -> str:
-    # Remove zhihu redirect links
-    content = content.replace("//link.zhihu.com/?target=https%3A", "")
-    content = content.replace("//link.zhihu.com/?target=http%3A", "")
-
-    # Replace internal links with local paths
-    link_pattern = r"href=\"(.*?)\""
-    content = re.sub(
-        link_pattern, lambda m: f'href="{replace_url(m.group(1))}"', content
-    )
-
-    return content
+    # Parse HTML content
+    soup = BeautifulSoup(content, 'html.parser')
+    
+    # Process img tags
+    for img in soup.find_all('img'):
+        actualsrc = img.get('data-actualsrc')
+        if actualsrc:
+            img['src'] = actualsrc
+            del img['data-actualsrc']
+    
+    # Process anchor tags
+    for a in soup.find_all('a'):
+        href = a.get('href')
+        if href and href.startswith('https://link.zhihu.com/'):
+            try:
+                # Convert relative URL to absolute
+                full_url = 'https:' + href if href.startswith('//') else href
+                from urllib.parse import urlparse, parse_qs
+                parsed = urlparse(full_url)
+                target = parse_qs(parsed.query).get('target', [None])[0]
+                if target:
+                    decoded_target = target.replace('https%3A', 'https:').replace('http%3A', 'http:')
+                    a['href'] = replace_url(decoded_target)
+            except Exception as e:
+                print(f"Failed to parse URL {href}: {e}")
+                continue
+        elif href:
+            a['href'] = replace_url(href)
+    
+    # Remove u tags but keep their contents
+    for u in soup.find_all('u'):
+        u.unwrap()
+    
+    return str(soup)
 
 
 def extract_reference(html: str) -> str:
-    reference_regex = re.compile(
-        r'<sup[^>]*data-text="([^"]*)"[^>]*data-url="([^"]*)"[^>]*data-numero="([^"]*)"[^>]*>'
-    )
+    # Parse HTML with BeautifulSoup
+    soup = BeautifulSoup(html, 'html.parser')
     references = {}
 
-    for match in reference_regex.finditer(html):
-        text, url, numero = match.groups()
-        references[numero] = {"text": text, "url": replace_url(url)}
+    # Find all sup elements and collect references
+    for sup in soup.find_all('sup'):
+        text = sup.get('data-text')
+        url = sup.get('data-url')
+        numero = sup.get('data-numero')
+        
+        if text and url and numero:
+            references[numero] = {
+                "text": text,
+                "url": replace_url(url)
+            }
 
-    reference_list = [
-        f'{index}. {ref["text"]} <a href="{ref["url"]}">{ref["url"]}</a>'
-        for index, ref in sorted(references.items(), key=lambda item: int(item[0]))
-    ]
-
-    if reference_list:
+    # Generate reference list if any references were found
+    if references:
+        reference_list = [
+            f'{index}. {ref["text"]} <a href="{ref["url"]}">{ref["url"]}</a>'
+            for index, ref in sorted(references.items(), key=lambda item: int(item[0]))
+        ]
         return f'<hr><section><h2>参考</h2>{"<br>".join(reference_list)}</section>'
+
     return ""
 
 
@@ -198,7 +231,7 @@ def fill_article_template(data: dict, is_rss: bool = False) -> str:
 
 Path("html").mkdir(exist_ok=True)
 
-for file in Path("article").glob("*.json"):
+for file in tqdm(list(Path("article").glob("*.json"))):
     with open(file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
@@ -349,7 +382,7 @@ def fill_answer_template(data: dict, is_rss: bool = False) -> str:
     )
 
 
-for file in Path("answer").glob("*.json"):
+for file in tqdm(list(Path("answer").glob("*.json"))):
     with open(file, "r", encoding="utf-8") as f:
         data = json.load(f)
 
