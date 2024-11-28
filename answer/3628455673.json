@@ -1,8 +1,8 @@
 {
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pica.zhimg.com/v2-41f893b0cd84fb6a8c8f6d1bd29c9554_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-41f893b0cd84fb6a8c8f6d1bd29c9554.jpg?source=2c26e567",
+    "avatar_url": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -37,8 +37,8 @@
         {
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -68,7 +68,7 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
     "gender": 1,
@@ -83,7 +83,13 @@
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 8,
   "content": "<p data-pid=\"X4TqOdmq\">其实也不是一个两个人的问题，挺多人用 Anki 都没能学下去。虽然每个人放弃的原因千奇百怪，但还是有一些共性可循，这里我就总结一些常见的模式：</p><ul><li data-pid=\"zEl2rT1-\">没能养成习惯，三天打鱼两天晒网</li><ul><li data-pid=\"qSS5B-bT\">Anki 的复习如果中断，就容易积累大量待复习卡片，引起心理负担，难以重启</li></ul><li data-pid=\"dejL-2Im\">忽视知识表述，卡片写得又臭又长</li><ul><li data-pid=\"o0mJB-sg\">单张卡片包含过多信息，难以高效记忆</li><li data-pid=\"PVAbnpkK\">问题表述模糊不清，无法准确强化所需的知识点</li></ul><li data-pid=\"H2-7lxs6\">主题选择不当，强迫记忆无趣内容</li><ul><li data-pid=\"r4BE1aR6\">学习动机不足，难以持续投入时间和精力</li><li data-pid=\"LIvL7w3M\">记忆效果差，学习过程痛苦且收效甚微</li></ul><li data-pid=\"Bv9YgqJO\">问题设计不当，脱离实际应用场景</li><ul><li data-pid=\"HFl6BKTS\">过度关注细枝末节，忽视重要概念和核心知识</li><li data-pid=\"mhOqzW_4\">未能将知识点与更广泛的上下文联系起来</li></ul></ul><p data-pid=\"VUcH5QaQ\">这些都是间隔重复领域的知名大佬的经验总结，更具体的细节，就看他们自己是怎么表述的吧。</p><blockquote data-pid=\"6MFSXjat\">以下内容摘自 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0\" data-hash=\"4c592f496dc33822b560b382907ff1d0\" data-hovercard=\"p$b$4c592f496dc33822b560b382907ff1d0\">@Thoughts Memo</a> 汉化组的译文《<a href=\"https://zhuanlan.zhihu.com/p/718778050\" class=\"internal\">间隔重复的有效实践</a>》</blockquote><h2>限制因素</h2><p data-pid=\"MHU37Lzo\">如果间隔重复真的如此高效，为什么它还没有像喝咖啡那样普遍？就像说：你这么聪明，为啥没有变富呢？</p><p data-pid=\"zDxMJbWG\">间隔重复的有效实践主要受到两个因素的限制。</p><h3>习惯养成</h3><p data-pid=\"m6TtDfS5\">间隔重复要发挥作用，关键在于将其转化为日常习惯。比如，我把抽认卡复习作为每天早晨例行活动的一部分。然而，养成新习惯本身就是一个挑战，对于患有注意力缺陷多动障碍（ADHD）或缺乏自律性的人来说，这个过程可能更为艰难。</p><p data-pid=\"iJmogg9L\">每天坚持复习的必要性源于间隔重复算法的工作机制。这个算法会自动为你安排复习计划，免去了手动安排的麻烦。然而，只有在打开应用程序时，你才能知道当天需要复习哪些卡片。如果某天漏掉了复习，未复习的卡片会累积到下一天，增加次日的复习量。</p><p data-pid=\"NRDR23g_\">一种常见的失败模式（我在熟练使用之前也多次陷入这种情况）是：使用 Anki 两周后中断，半年后重新拾起时发现积累了 600 张待复习的卡片。这种情况不仅打击学习积极性，更违背了间隔重复的核心原则——按照算法设定的最佳时间间隔进行复习。</p><p data-pid=\"Aw_VXBrG\">对于这种情况，我能给出的建议有限。但如果你长期存在自律性不足的问题，或有未经治疗的注意力缺陷多动障碍（ADHD）等情况，那么在开始使用间隔重复法之前，最好先着手解决这些问题。</p><h3>卡片的编写技巧</h3><p data-pid=\"sa_TpV5Y\">制作有效的抽认卡是一门需要时间习得的技巧。在我开始系统性使用间隔重复法的头四到六个月里，制作的大部分卡片事实上都不太实用，这种情况可能会让人感到沮丧。撰写这篇文章的主要目的是分享我的经验，希望能帮助你从一开始就能有效地运用间隔重复。</p><p data-pid=\"oBhfR8Ru\">其中一个令人沮丧的原因是，在最初几周内（当你高频率地复习卡片时），你通常会记得这些抽认卡片，但几个月后，你开始回忆失败。它没有在你的长期记忆中扎根，因为在某种程度上写得不好。这种长周期的反馈意味着你需要一定的时间来通过试错来学习这些技巧。</p><blockquote data-pid=\"VM9cByAE\">以下内容摘自 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0\" data-hash=\"4c592f496dc33822b560b382907ff1d0\" data-hovercard=\"p$b$4c592f496dc33822b560b382907ff1d0\">@Thoughts Memo</a> 汉化组的译文《<a href=\"https://zhuanlan.zhihu.com/p/719771814\" class=\"internal\">量子物理学家如何使用记忆系统？</a>》</blockquote><h2>常见错误：为那些你觉得自己「应该」感兴趣的事物添加卡片</h2><p data-pid=\"dx8s-N4-\">（本节改编自：<a href=\"https://link.zhihu.com/?target=https%3A//twitter.com/michael_nielsen/status/1392129315622424578\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">twitter.com/michael_nie</span><span class=\"invisible\">lsen/status/1392129315622424578</span><span class=\"ellipsis\"></span></a>）</p><p data-pid=\"L-Tc_pI-\">人们常常对我说类似这样的话：「我不喜欢记忆系统。我记住了所有这些无用的信息，结果发现它们毫无用处。」</p><p data-pid=\"duB5i-C1\">我稍有夸张。但确实经常有人这样出乎意料地告诉我。</p><p data-pid=\"PlqVHQRE\">一种变体是：「哇，我喜欢你关于记忆系统的文章。但我一条建议都没采纳！我用记忆系统来记忆冗长乏味的、只消化了一半的、对我毫无意义的事实清单！」</p><p data-pid=\"ZIru3Kyh\">这有点像用镊子当锤子……把玫瑰敲进你的花园。</p><p data-pid=\"f3WCABKH\">千万别这么做。为一个你并不真正感兴趣的事物添加卡片，是个非常糟糕的错误。人们会告诉我：「我用 Anki 来记忆各州首府。」我便问：「你为何想要了解各州首府呢？」他们：[沉默]。</p><p data-pid=\"p6wydMz3\">更宽泛地讲：有些人可能会想：「我应该更关注美国历史」，于是开始大量添加有关美国历史的记忆卡片。然而，他们实际上并不对美国历史感兴趣，只是认为自己应该感兴趣，结果添加了数百张毫无关联的卡片。三个月后，这些卡片就会变成一种负担，既无趣又阻碍学习进度。</p><p data-pid=\"5U5wT4Hs\">这<b>绝不是</b>对美国历史的贬低。如果一个人确实有强烈的学习动机（而不仅仅是觉得自己<b>应该</b>有动机）去深入了解美国历史，那么 Anki 这类工具就会发挥很好的作用。但是，「应该」这个词至少是一个警示信号。或许你真的<b>应该</b>去做些其他的事情。</p><p data-pid=\"eEuYnXaK\">记忆系统在这些领域表现出色：那些我感兴趣并确信未来能从中找到意义，但目前还没有掌握足够的知识，无法<b>顺便</b>学会的领域。判断哪些内容值得记忆总是需要权衡取舍，而我有时也会做出错误的判断；我必须不断地、果断地进行筛选。但总的来说，这是一个很有用的原则。</p><blockquote data-pid=\"dWI9co8k\">以下内容摘自 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0\" data-hash=\"4c592f496dc33822b560b382907ff1d0\" data-hovercard=\"p$b$4c592f496dc33822b560b382907ff1d0\">@Thoughts Memo</a> 汉化组的译文《<a href=\"https://zhuanlan.zhihu.com/p/691567753\" class=\"internal\">设计明晰 Anki 卡片的规则</a>》</blockquote><h2>提出正确问题的重要性</h2><p data-pid=\"Q3yyQYZG\">SRS （Spaced Repetition System，间隔重复系统）非常擅长辅助记忆那些你输入其中的信息。然而，SRS 的特点是「垃圾进，垃圾出」，这个特点非常明显：如果你输入的材料不够有用，或者不是在测试你想知道的东西，你能记住这些材料，但这些材料毫无用场；你复习它们就是浪费时间。这对用户来说是挑战，因为卡片问问题的方式失之毫厘，相对于你想测试的东西就谬之千里。SRS 很像传说中的精灵：以错误的方式描述你想得到的东西，精灵会以最荒谬的方式解释你的愿望，你会学到一些没有实际用途的东西。例如，我最近在自己的卡片集合中发现了一张卡片，间隔长度为数年，其问题是使用 <code>cp</code> (copy，复制) 这一 Unix 命令的哪个选项，这条命令在覆盖现有文件之前会要求确认。我能很轻松答出正解：「<code>cp -i</code>」，但我一回答便意识到我完全忘记了 <code>cp</code> 一开始就有这样一个选项，所以当这个选项有用时，我绝不会想到要使用它，这些信息对我来说几乎毫无价值。在其他情况下，你可能最终记住了你的卡片上的一个语法错误，或者记住了对某个卡片问题作出的反应，而这个问题在现实生活中是永远不会遇到的。</p><p data-pid=\"_X5aIUHp\">换句话说，SRS 的问题是容易出现<b>过拟合</b>。在统计建模和机器学习中，<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Overfitting\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">过拟合</a>发生在模型对训练数据的预测「过于准确」时——它开始将训练数据中的随机噪声视为有意义的预测来源。当然，随机噪声无法表示任何有意义的关系，这对预测新信息毫无用处。因此，过拟合提高了模型在训练数据上的准确率，但当应用于新数据，即现实世界场景时，其准确率反而会降低。在间隔重复的场景中，由于 SRS 非常擅长帮助你高效学习几乎所有东西，它将优化你对任何东西的记忆，但如果你没有正确表述你的问题，它会帮助你记住无关的信息或随机噪声，而不是你真正想知道的信息。</p><hr/><p data-pid=\"s0UdZ4xf\">关于如何优化知识表述，编写容易记忆的卡片，看这个收藏夹就够了：</p><a href=\"https://www.zhihu.com/collection/614280525\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">制卡原则与知识表述</a><p></p>",
   "content_need_truncated": false,
@@ -92,7 +98,7 @@
   "id": 3628455673,
   "is_jump_native": false,
   "link_card_info": {
-    "https://www.zhihu.com/collection/614280525": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"制卡原则与知识表述\",\"card_open_url\":\"https://www.zhihu.com/collection/614280525\",\"desc\":\"606 关注 · 1.6 万浏览 \\u003ca class=\\\"tag type_a\\\"\\u003e收藏夹\\u003c/a\\u003e\",\"content\":\"收录 22 个内容\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-b2918ef3f9c19572ba524ac59316a917_r.jpg?source=2c26e567\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"COLLECTION\",\"content_id\":\"614280525\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://www.zhihu.com/collection/614280525": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"制卡原则与知识表述\",\"card_open_url\":\"https://www.zhihu.com/collection/614280525\",\"desc\":\"630 关注 · 1.7 万浏览 \\u003ca class=\\\"tag type_a\\\"\\u003e收藏夹\\u003c/a\\u003e\",\"content\":\"收录 22 个内容\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-b2918ef3f9c19572ba524ac59316a917_r.jpg?source=2c26e567\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"COLLECTION\",\"content_id\":\"614280525\"},\"za_data\":{\"attach_info\":\"\"}}"
   },
   "question": {
     "created": 1712008966,
@@ -109,6 +115,5 @@
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 127,
-  "censored": false
+  "voteup_count": 132
 }
