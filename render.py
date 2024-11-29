@@ -114,7 +114,7 @@ def extract_reference(html: str) -> str:
 
 # Create HTML template
 article_template = """<!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
     <title>${"title"} - @${"author"}</title>
     <meta charset="UTF-8">
@@ -261,7 +261,7 @@ ${"question"}
 
 
 answer_template = """<!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
     <title>${"title"} - @${"author"}</title>
     <meta charset="UTF-8">
