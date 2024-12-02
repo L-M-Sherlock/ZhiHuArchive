@@ -42,15 +42,15 @@ html_content = (
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>知乎文章和回答备份目录</title>
+    <title>Thoughts Memo 和 Jarrett Ye 的知乎备份</title>
     <meta property="og:type" content="website">
-    <meta property="og:title" content="知乎文章和回答备份目录">
+    <meta property="og:title" content="Thoughts Memo 和 Jarrett Ye 的知乎备份">
     <meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo and Jarrett Ye">
     <meta property="og:url" content="https://l-m-sherlock.github.io/ZhiHuArchive/">
     <meta name="description" property="og:description" content="Thoughts Memo 和 Jarrett Ye 的知乎文章和回答备份目录">
     <meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
     <meta property="twitter:card" content="summary">
-    <meta name="twitter:title" property="og:title" itemprop="name" content="知乎文章和回答备份目录">
+    <meta name="twitter:title" property="og:title" itemprop="name" content="Thoughts Memo 和 Jarrett Ye 的知乎备份">
     <meta name="twitter:description" property="og:description" itemprop="description" content="Thoughts Memo 和 Jarrett Ye 的知乎文章和回答备份目录">
     <style>
         body { max-width: 800px; margin: 0 auto; padding: 20px; }
@@ -97,7 +97,7 @@ html_content = (
 <body>
 """
     + f"""
-    <h1>知乎文章和回答备份目录</h1>
+    <h1>Thoughts Memo 和 Jarrett Ye 的知乎备份</h1>
     <p>
         <a href="https://github.com/l-m-sherlock/ZhiHuArchive">
             <img src="https://img.shields.io/github/stars/l-m-sherlock/ZhiHuArchive?style=social" alt="GitHub stars">
