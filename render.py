@@ -189,6 +189,22 @@ article_template = """<!DOCTYPE html>
         <hr>
         <p><a href="./">← 返回目录</a></p>
     </article>
+    <script src="https://giscus.app/client.js"
+            data-repo="L-M-Sherlock/ZhiHuArchive"
+            data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+            data-category="Announcements"
+            data-category-id="DIC_kwDOFNuuuc4Ck92x"
+            data-mapping="title"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="preferred_color_scheme"
+            data-lang="zh-CN"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            async>
+    </script>
 </body>
 </html>"""
 
@@ -329,6 +345,22 @@ answer_template = """<!DOCTYPE html>
         <hr>
         <p><a href="./">← 返回目录</a></p>
     </article>
+    <script src="https://giscus.app/client.js"
+            data-repo="L-M-Sherlock/ZhiHuArchive"
+            data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+            data-category="Announcements"
+            data-category-id="DIC_kwDOFNuuuc4Ck92x"
+            data-mapping="title"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="preferred_color_scheme"
+            data-lang="zh-CN"
+            data-loading="lazy"
+            crossorigin="anonymous"
+            async>
+    </script>
 </body>
 </html>"""
 
