@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1754964611,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://pic1.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "注： 本章将展开阐述第四章[1]中介绍的概念。⠀⠀⠀摘要：Math Academy 优先…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 1904984795546628900,
+  "voteup_count": 14,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1747108334,
+  "url": "https://api.zhihu.com/articles/1904984795546628821",
+  "comment_permission": "all",
+  "title": "第三十二章 核心主题优先策略的技术深度剖析",
+  "image_width": 1268,
+  "content": "<blockquote data-pid=\"L_4W6dq5\"><b>注：</b> 本章将展开阐述第四章<sup data-text=\"第四章 核心技术：知识图谱\" data-url=\"https://zhuanlan.zhihu.com/p/18159574293\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>中介绍的概念。</blockquote><p data-pid=\"ZhI1hE5Z\">⠀⠀⠀<b>摘要</b>：Math Academy 优先施教核心主题，这些主题在数学的「宏观全局」中最为关键。所有主题都会涉及，无一遗漏，但由于所有主题都将得到持续复习，率先学习核心主题能让学生在课程结束时，针对这些核心内容获得更多练习，从而达到更高程度的熟练掌握。这样做的好处在于，核心主题更频繁地作为数学领域其他知识点的前置知识出现。我们还注意到，在四年级至 AP 微积分 BC 的教学内容中，约有三分之一的主题，尽管对于达到教学大纲标准而言是必要的，却并非大学数学的实际前置知识。因此，我们创建了一套精简的「数学基础」（Mathematical Foundations，MF）课程体系，该体系删减了这部分非必要主题，主要由核心主题构成。MF 课程体系主要面向那些期望尽快进入大学高阶课程学习，但目前尚缺乏必要基础知识的成年学习者。</p><h2>核心主题与补充主题</h2><p data-pid=\"Y0cf0kyc\">当学生学习一门课程时，Math Academy 会首先优先安排<b>核心主题</b>，即那些在数学的「宏观全局」中最为关键的主题。例如，在微积分中，乘法法则属于核心主题，而介值定理则属于<b>补充主题</b>。</p><p data-pid=\"ON1Ctm_C\">当然，修读微积分课程的学生无疑会学到所有核心主题和补充主题。任何主题都不会被略过；区别仅在于它们的学习顺序。由于学生会先学习核心主题，并在整个课程中不断练习，他们能进行更充分的训练，因而在课程结束时，能更熟练地掌握核心主题。这样做的好处在于，核心主题本身更频繁地充当数学领域其他知识点的前置知识。</p><p data-pid=\"JUs3Le7H\">Math Academy 运用其专有的智能算法，在其知识图谱中自动识别核心主题。从宏观层面来看，该算法旨在满足两个相互制约的条件：</p><ol><li data-pid=\"7FY8lhq7\">如果一个主题被界定为核心主题，那么其所有前置主题（即其前置知识、前置知识的前置知识，以此类推）也必须是核心主题。<br/><br/></li><li data-pid=\"Lnsbys-V\">然而，在知识图谱的每一门标准课程中，核心主题与补充主题之间必须保持一定的平衡——例如，我们不应将所有主题都标记为核心，也不应将所有主题都标记为补充，尽管这两种极端情况在理论上都满足前一个条件。具体的平衡比例会根据课程中各主题间的关联性以及它们与其他课程中主题的关系而有所不同。</li></ol><h2>「数学基础」课程体系</h2><p data-pid=\"riVSU4FO\">在开发了一套涵盖四年级至 AP 微积分 BC 全部教学大纲标准以及众多大学高阶课程的综合课程体系后，我们发现，在四年级至 AP 微积分 BC 的教学内容中，约有三分之一并非大学数学的前置知识。因此，我们创建了一套精简的<b>「数学基础」（Mathematical Foundations，MF）</b>课程体系，该体系删减了这部分非必要主题，主要由核心主题构成。</p><p data-pid=\"eQXXrBcv\">MF 课程体系主要面向那些期望尽快进入大学高阶课程学习，但目前尚缺乏必要基础知识的成年学习者。无论成年学习者是打算从基础知识从头学起，还是仅仅需要巩固微积分知识，我们的「数学基础」课程体系都是帮助他们快速有效地掌握在大学数学学习中取得优异成绩所必需的数学概念和工具的最佳途径。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a707a008c443532700d2990ff33ff4e6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"725\" data-rawheight=\"627\" class=\"origin_image zh-lightbox-thumb\" width=\"725\" data-original=\"https://pic1.zhimg.com/v2-a707a008c443532700d2990ff33ff4e6_r.jpg\" data-original-token=\"v2-a707a008c443532700d2990ff33ff4e6\"/></figure><hr/><p data-pid=\"3a4HieB2\">上一章：</p><a href=\"https://zhuanlan.zhihu.com/p/1903464003432322809\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">第二十八章 学习效率的技术深度剖析 - 知乎</a><p data-pid=\"tPeVqYoT\">下一章：</p><a href=\"https://zhuanlan.zhihu.com/p/1904986844518684475\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">常见问题解答：练习体验 - 知乎</a><hr/><blockquote data-pid=\"VuJdCQZl\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 shom，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//docs.google.com/document/d/1LLZK_34Oer9LwuqAv-pqxfXlR8n7V8zJ_MO323R7egI\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Math Academy Way: Using the Power of Science to Supercharge Student Learning</a></blockquote>",
+  "column": {
+    "updated": 1748246557,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "https://api.zhihu.com/columns/c_1858865163022786560",
+    "title": "The Math Academy Way",
+    "image_url": "https://picx.zhimg.com/v2-b1651bba207f1c3370995962d00f5802_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1858865163022786560"
+  },
+  "comment_count": 0,
+  "image_url": "https://pic1.zhimg.com/v2-b8260451f3a8df0571c0849c7869b4f9_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

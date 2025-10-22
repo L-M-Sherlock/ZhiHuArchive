@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1754964565,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://pic1.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "注：本章将展开阐述在第十八章[1]中引入的概念。⠀⠀⠀摘要：Math Academy 采…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 1902336777538245000,
+  "voteup_count": 31,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1746436952,
+  "url": "https://api.zhihu.com/articles/1902336777538245191",
+  "comment_permission": "all",
+  "title": "第二十九章 间隔重复的技术深度剖析",
+  "image_width": 512,
+  "content": "<blockquote data-pid=\"XqHhqn7_\">注：本章将展开阐述在第十八章<sup data-text=\"第十八章 间隔重复（分散练习）\" data-url=\"https://zhuanlan.zhihu.com/p/1895420939283440005\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>中引入的概念。</blockquote><p data-pid=\"Fq1kpnkZ\">⠀⠀⠀<b>摘要</b>：Math Academy 采用了一种创新的间隔重复算法——部分隐式重复（Fractional Implicit Repetition, FIRe），用于计算学生的学习特征曲线。FIRe 将间隔重复的概念扩展到分层知识结构中，使得在高级主题上的重复能够隐式地涓滴到相关的基础主题中。该算法能够处理部分包含关系，并通过部分包含关系扩展重复流，从而优化学习效果的分配。间隔重复过程的速度会针对每个学生在每个特定主题上进行个性化调整，其中学生的能力和主题的难度是两个相互制约的调整因素。</p><h2>部分隐式重复（FIRe）</h2><p data-pid=\"VSzoRVe7\">为了计算学生的间隔重复学习特征曲线，Math Academy 采用了一种新兴的间隔重复算法，名为<b>部分隐式重复</b>（Fractional Implicit Repetition, FIRe）。FIRe 将传统的间隔重复扩展到具有层级结构的知识体系中，在这个算法中：</p><ol><li data-pid=\"wEMhf-p7\">高级主题的重复练习会通过知识间的包含关系，隐式「涓滴」到相关的基础主题，并且<br/><br/></li><li data-pid=\"Blb2RNDR\">频繁获得隐式重复的基础主题会适当降低这些重复的权重（因为它们通常发生得过早，在效果上不能完全算作下一次重复）。</li></ol><h3>| 具体实例</h3><p data-pid=\"Ej4AOQAF\">让我们用一个具体例子来阐述这个概念。请回想一下，「两位数乘一位数」这个技能实际上包含了「一位数相乘」和「一位数加两位数」这两个基础技能。</p><p data-pid=\"iWET2MBR\">假设你成功通过了「两位数乘一位数」的重复练习，这次成功的练习不仅仅针对这一特定技能，它还会回顾「一位数相乘」和「一位数加两位数」这两个基础技能。这是因为你刚刚证明了你仍然熟练掌握这些基础技能。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-1c211bd8fd0fa6595d1977b3192357c5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1568\" data-rawheight=\"714\" class=\"origin_image zh-lightbox-thumb\" width=\"1568\" data-original=\"https://picx.zhimg.com/v2-1c211bd8fd0fa6595d1977b3192357c5_r.jpg\" data-original-token=\"v2-1c211bd8fd0fa6595d1977b3192357c5\"/></figure><p data-pid=\"gMakmqfk\">相反，如果你在「<b>一位数加两位数</b>」的重复练习中失败了，这次失败不仅影响这个特定技能，还会「连带影响」到「<b>两位数乘一位数</b>」这个更复杂的技能。毕竟，如果你连一位数加两位数都做不到，你就更不可能完成两位数乘一位数的计算了。同理，如果你在「<b>一位数相乘</b>」的重复练习中失败，也会产生类似的连锁反应。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-4da5fe95c3f72bd77acd1c3140b21e5a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1568\" data-rawheight=\"714\" class=\"origin_image zh-lightbox-thumb\" width=\"1568\" data-original=\"https://pic3.zhimg.com/v2-4da5fe95c3f72bd77acd1c3140b21e5a_r.jpg\" data-original-token=\"v2-4da5fe95c3f72bd77acd1c3140b21e5a\"/></figure><h3>| 重复流的可视化</h3><p data-pid=\"bKt9GhSd\">需要注意的是，重复流（repetition flows）可以延伸很多层——不仅仅是直接包含的主题，还有被包含主题所包含的「二阶」主题，然后是被二阶主题包含的三阶主题，以此类推。</p><p data-pid=\"p6Y2QoNs\">在视觉上，得分（credit）像闪电一样向下流经知识图。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-d109746bed7afd80a5604a7d38f01b22_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1620\" data-rawheight=\"446\" class=\"origin_image zh-lightbox-thumb\" width=\"1620\" data-original=\"https://pica.zhimg.com/v2-d109746bed7afd80a5604a7d38f01b22_r.jpg\" data-original-token=\"v2-d109746bed7afd80a5604a7d38f01b22\"/></figure><p data-pid=\"WOMjFbGc\">罚分（penalty）像生长的树木一样向上流经知识图。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-9836293c481ef056c5576be8f3ca7019_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1620\" data-rawheight=\"446\" class=\"origin_image zh-lightbox-thumb\" width=\"1620\" data-original=\"https://pic4.zhimg.com/v2-9836293c481ef056c5576be8f3ca7019_r.jpg\" data-original-token=\"v2-9836293c481ef056c5576be8f3ca7019\"/></figure><h3>| 部分包含</h3><p data-pid=\"y-cip7d-\">FIRe 还自然地处理<b>部分包含</b>的情况，在这种情况下，一个较简单主题只有某些部分在一个高级主题中被隐式练习。这在更高等的数学中更常见。</p><p data-pid=\"mdEMkVkR\">例如，在微积分中，高级积分技巧如分部积分要求你计算各种数学函数的积分，如多项式、指数函数和三角函数。但其中一些函数可能只出现在分部积分问题的一部分中。所以，如果你完成了一次分部积分的重复练习，你应该只获得对每个部分包含主题的一部分重复练习。</p><p data-pid=\"bRvCWniR\">下图中，我们用数字<b>权重</b>标注主题间的包含关系，表示学习高级主题时涉及各个基础主题的程度。你可以将每个权重理解为：从高级主题中随机选取一个问题时，它包含某个基础主题内容的概率。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-492ef29cfe52785b5236e33ee8fe5825_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1056\" data-rawheight=\"588\" class=\"origin_image zh-lightbox-thumb\" width=\"1056\" data-original=\"https://pic2.zhimg.com/v2-492ef29cfe52785b5236e33ee8fe5825_r.jpg\" data-original-token=\"v2-492ef29cfe52785b5236e33ee8fe5825\"/></figure><p data-pid=\"T7bstpvO\">FIRe 通过这种部分包含，将重复流延伸到多个层级。最终结果是：</p><ol><li data-pid=\"Ybyf9GqP\">重复练习沿着完全包含关系构成的「主干」畅通无阻地传递，</li><li data-pid=\"xz8WBvpt\">同时沿着从主干分支出去的部分包含关系逐渐衰减。</li></ol><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-2ac27555fbecb38d667d063208ba6b3c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1220\" data-rawheight=\"640\" class=\"origin_image zh-lightbox-thumb\" width=\"1220\" data-original=\"https://pic1.zhimg.com/v2-2ac27555fbecb38d667d063208ba6b3c_r.jpg\" data-original-token=\"v2-2ac27555fbecb38d667d063208ba6b3c\"/></figure><h2>手动设置包含权重</h2><h3>| 直接且关键的前置知识就足够了</h3><p data-pid=\"UYkfT5WK\">由于包含权重需要手动设置，为知识图谱中每对主题都设置明确的权重是不切实际的。我们的系统包含数千个主题，如果列出所有可能的主题对，权重矩阵将包含数千万个条目。那么，我们该如何设置这些庞大的权重数据呢？</p><p data-pid=\"jD2NW2Qr\">事实上，我们并不需要明确设置矩阵中的每一个权重。只需要为满足以下条件的主题对设置权重即可：</p><ol><li data-pid=\"pyi4xxAT\">权重有一个非零的值，</li><li data-pid=\"r4gP-hfB\">无法通过重复流推断出权重，</li><li data-pid=\"rLoIfESi\">两个主题在前置知识图中的距离较近。</li></ol><p data-pid=\"w6bnwRez\">并且我们假定，除了在重复流中隐式计算得出的权重外，其他所有权重均为零。这一假设基于以下理由：</p><ol><li data-pid=\"4OI0DZKY\">权重的大小反映了隐式重复所产生的学习效果。为了使隐式重复能够有效减少显式复习的需求，它必须与足够显著的学习效果相关联。<br/><br/></li><li data-pid=\"i3PER6qn\">如果重复流能够推断出某个权重，那么手动设置该权重通常不会改变结果（除非手动设置是为了纠正重复流可能错误推断的值）。<br/><br/></li><li data-pid=\"ix2-Kzi6\">如果两个主题在前置知识图中相距较远，即使它们之间存在完全包含关系，其权重对减少复习需求的影响也不会太大。这是因为当学生学习到更高级的主题时，他们往往已经在较基础的主题完成了大部分的显式复习。</li></ol><p data-pid=\"VKy6xRwE\">值得注意的是，满足上述条件的权重通常分布在直接关联和关键的前置知识连接上，而这些连接的数量在规模上与主题总数呈线性关系。这一特点使得手动设置包含权重变得可行：只需为每个直接关联或关键的前置知识分配一个权重即可。</p><p data-pid=\"9RcmrmAK\">值得注意的是，在知识图谱中，即使某些主题之间的直接关联或关键前置知识的关联强度低至零，也是常见现象。这种情况通常出现在学习某个主题时，学生只需对其前置知识有概念性的理解，而不必精通到能够独立解决相关问题的程度。</p><h3>| 非祖先包含关系与掌握标准</h3><p data-pid=\"NThVKsTX\">为了符合课程标准，有时需要在多个课程中设置<b>等效主题</b>，其中高级课程中的等效主题会对低级课程中教授的相同技能进行更深入的处理。然而，这些较简单的等效主题通常不会被要求作为更高级等效主题的前置知识。</p><p data-pid=\"Vtn-ehuV\">例如，基于代数的统计课程和基于微积分的统计课程会有许多涵盖相同技能的等效主题。尽管基于微积分的统计课程会提供这些技能的更高级处理方法，但基于代数的统计课程中相对应的等效主题并不会被视为前置知识。</p><p data-pid=\"nZkHqBqH\">即使简单的等效主题不会通过直接关联或关键前置知识路径来成为高级等效主题的「祖先」，我们仍然可以在它们之间设置完全包含的权重关系，这样完成高级主题的学生也会自动获得相应简单等效主题的得分。这种关系被称为<b>非祖先包含关系</b>。</p><p data-pid=\"7m78Jspo\">非祖先包含关系，结合基于课程的<b>掌握标准</b>（即任何参加该课程的学生被自动视为已掌握的低级课程主题），也可用于为低级课程中的末端主题分配得分。课程的掌握标准包括以下低级课程主题：</p><ul><li data-pid=\"PNEw65uQ\">那些「足够基础」的主题，可以完全假设学生已经掌握；或</li><li data-pid=\"3-VlzPSy\">那些位于课程诊断测试中可能评估为最简单主题「之下」的主题。</li></ul><p data-pid=\"qD5AUPcB\">直观地说，掌握标准的上界标志着判断学生是否有可能参加某门课程的分界线。</p><h2>学生-主题学习速度</h2><h3>| 学生能力与主题难度的比率关系</h3><p data-pid=\"_gfplKhs\">学生能力和主题难度是两个相互制衡的因素——较高的学生能力会提升整体学习速度，而较高的主题难度则会降低学习速度。因此，要计算学生在特定主题上的学习速度，我们需要：</p><ol><li data-pid=\"-A7Zvq5A\">计算学生能力带来的加速效应，</li><li data-pid=\"BcYdMnxy\">计算主题难度导致的减速效应，然后</li><li data-pid=\"OBAAx71h\">求出二者的比率。</li></ol><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-b4a01aa873ad43789c3639eead9f1edc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1173\" data-rawheight=\"516\" class=\"origin_image zh-lightbox-thumb\" width=\"1173\" data-original=\"https://pica.zhimg.com/v2-b4a01aa873ad43789c3639eead9f1edc_r.jpg\" data-original-token=\"v2-b4a01aa873ad43789c3639eead9f1edc\"/></figure><h3>| 在单个主题层面测量学生能力</h3><p data-pid=\"QfgqPwrb\"><b>学生能力</b>是在单个具体主题的精细层面上进行测量的——我们会追踪学生答题的准确率，对近期答题结果给予更高权重，并且还会进行能力评估的传播：</p><ul><li data-pid=\"BPaHnekB\">将正确答案的影响向下传递至包含在内的更简单的子主题，以及</li><li data-pid=\"fPYX_QVZ\">将错误答案的影响向上传递至包含该主题的更高级主题。</li></ul><p data-pid=\"BrvTihox\">为了确定一个主题准确率的初始值，我们会基于该主题的<b>局部关联网络</b>进行预测，这个网络包括其直接前置知识、关键前置知识、上层包含关系以及同一模块中的相关主题。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-a7bc58cfd32e893c2435ccbff5ca0305_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"704\" data-rawheight=\"709\" class=\"origin_image zh-lightbox-thumb\" width=\"704\" data-original=\"https://pic4.zhimg.com/v2-a7bc58cfd32e893c2435ccbff5ca0305_r.jpg\" data-original-token=\"v2-a7bc58cfd32e893c2435ccbff5ca0305\"/></figure><h3>| 测量主题难度</h3><p data-pid=\"POLFIDd7\"><b>主题难度</b>是通过计算所有认真学习的学生在评估中回答该主题相关问题时的整体准确率来测量的。</p><p data-pid=\"0IHf-Nu2\">理论上，如果能够在每个主题上完美精确地测量学生能力，那么就不再需要主题难度这一指标，学生-主题学习速度可以完全基于学生能力来确定。但在实际应用中，依赖主题难度指标仍有两个重要原因：</p><ol><li data-pid=\"i-064kQF\"><b>它能改善初始预测效果</b>。 虽然我们已经掌握了特定学生在其他主题上的学习速度信息，但主题难度能提供该特定主题对其他学生的学习速度信息。这是一个独立且信息丰富的信号源。<br/><br/></li><li data-pid=\"_XYL0yso\"><b>它自然地起到校正的作用</b>。 当主题难度较高时，它会降低学习速度——这是合理的，因为高难度主题通常导致评估表现不佳，而这主要是由于学生没有进行足够的复习所致。同样，当主题难度较低时，它会提高学习速度——这也是合理的，因为低难度主题通常表现为极高的评估成绩，这表明学生可能不需要目前所接受的那么多复习。</li></ol><h2>宏观结构</h2><p data-pid=\"w3_YJM9z\">从宏观角度看，Math Academy 的间隔重复模型结构可以概括如下：</p><p data-pid=\"bZ0pYS1e\"><img src=\"https://www.zhihu.com/equation?tex=%5Cbegin%7Balign%2A%7D+repNum+%26%5Cto+%5Cmax+%5Cleft%28+0%2C+%5Cphantom%7B%2C%7D+repNum+%2B+speed+%5Ccdot+decay%5E%7B%5C%2C+failed%7D+%5Ccdot+netWork+%5Cright%29+%5C%5C+memory+%26%5Cto+%5Cmax+%5Cleft%28+0%2C+%5Cphantom%7B%2C%7D+memory+%2B+netWork+%5Cright%29+%280.5%29%5E%7B+%5C%2C+days+%5C%2C+%2F+%5C%2C+interval%7D+%5Cend%7Balign%2A%7D\" alt=\"\\begin{align*} repNum &amp;\\to \\max \\left( 0, \\phantom{,} repNum + speed \\cdot decay^{\\, failed} \\cdot netWork \\right) \\\\ memory &amp;\\to \\max \\left( 0, \\phantom{,} memory + netWork \\right) (0.5)^{ \\, days \\, / \\, interval} \\end{align*}\" eeimg=\"1\"/> </p><ul><li data-pid=\"CTKcNdIE\">repNum：学生在特定主题上成功完成的间隔重复轮数。<br/><br/>在以下定义中，「重复」指的是在适当时间进行的成功复习。<br/><br/></li><li data-pid=\"K-HnKJbJ\">days：自上次重复以来经过的天数。<br/><br/></li><li data-pid=\"_9uKvV_u\">interval：第 repNum 次重复和第 repNum+1 次重复之间的理想间隔天数。<br/><br/></li><li data-pid=\"s8fPy-cJ\">memory（记忆值）：表示学生在距离上次重复一段时间后的记忆保留率期望。记忆值会随时间逐渐衰退，当记忆值降至某个阈值时，就需要进行下一次重复。另外，如果重复的时间过早（记忆值仍然较高），系统会相应降低该次重复的权重。<br/><br/></li><li data-pid=\"uFPaj2Zb\">speed（学习速度）：根据学生在特定主题上的表现来衡量其学习速度。这个参数决定了学生在间隔重复学习过程中进步或退步的快慢。<br/><br/></li><li data-pid=\"q8ziiytl\">failed（失败标记）：重复失败记为 1，通过则为 0。<br/><br/></li><li data-pid=\"IbETQyQY\">netWork（净效用）：衡量学生在一次重复中产生的实际学习效果。重复通过时，netWork 为正值；失败时为负值。<br/><br/>在成功的重复中，完成质量越高，netWork 的正值就越大；在失败的重复中，表现越差，netWork 的负值就越大。<br/><br/>如果重复比预期间隔提前进行（即 memory 记忆值仍然较高），netWork 的数值会相应减少<br/><br/>注意，在高级主题上的成功练习也会算做对其包含的较简单主题的隐式练习；同样，在较简单主题上的失败也会对以其为基础的更高级主题产生负面影响。<br/><br/></li><li data-pid=\"MRo2tBh8\">decay（衰减值）：当学生在复习中失败时，此参数表示其在间隔重复学习过程中后退速度与前进速度的比值。<br/><br/>decay 衰减值是一个从 1 开始的正数，它随着重复的时间远远超过理想间隔而增大，即随着记忆严重衰退而增加。<br/><br/>引入衰减值的目的是为了模拟严重的知识衰退现象，例如广为人知的「暑假滑坡」。在这种情况下，上学年末期学习的内容可能在暑假期间被严重遗忘，以至于在新学年开始时需要更频繁地复习，甚至需要完全重新学习。</li></ul><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-224d280545c7f77745694e44405cdfdb_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1920\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic2.zhimg.com/v2-224d280545c7f77745694e44405cdfdb_r.jpg\" data-original-token=\"v2-224d280545c7f77745694e44405cdfdb\"/></figure><hr/><p data-pid=\"yz5xpVd_\">上一章：</p><a href=\"https://zhuanlan.zhihu.com/p/1901295431943692756\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">第二十三章 利用认知学习策略需要技术 - 知乎</a><p data-pid=\"HS0lyOEb\">下一章：</p><a href=\"https://zhuanlan.zhihu.com/p/1903424959960843411\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">第二十七章 诊断性考试的技术深度剖析 - 知乎</a><hr/><blockquote data-pid=\"R6se2pxr\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3.5-sonnet，校对Jarrett Ye、白侑<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//docs.google.com/document/d/1LLZK_34Oer9LwuqAv-pqxfXlR8n7V8zJ_MO323R7egI\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Math Academy Way: Using the Power of Science to Supercharge Student Learning</a></blockquote>",
+  "column": {
+    "updated": 1748246557,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "https://api.zhihu.com/columns/c_1858865163022786560",
+    "title": "The Math Academy Way",
+    "image_url": "https://pic1.zhimg.com/v2-b1651bba207f1c3370995962d00f5802_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1858865163022786560"
+  },
+  "comment_count": 8,
+  "image_url": "https://pica.zhimg.com/v2-aecba78b12d25f5707877e1dba4f8018_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

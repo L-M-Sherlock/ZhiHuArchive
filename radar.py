@@ -9,10 +9,16 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
+_CENSORSHIP_PATH = Path("censorship.json")
 
 
 def answer_censored_check(url: str) -> bool:
-    response = requests.get(url).json()
+    cookie = os.getenv("COOKIE")
+    header = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
+        "Cookie": cookie,
+    }
+    response = requests.get(url, headers=header).json()
     if response.get("error"):
         print(url)
         if response["error"]["code"] == 4041:
@@ -40,6 +46,14 @@ def load_json_ordered(file_path):
         return json.loads(f.read(), object_pairs_hook=OrderedDict)
 
 
+def save_censorship(payload: OrderedDict) -> None:
+    """Persist progress after each check so interrupted runs keep their state."""
+    tmp_path = _CENSORSHIP_PATH.with_suffix(".tmp")
+    with open(tmp_path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=4)
+    tmp_path.replace(_CENSORSHIP_PATH)
+
+
 censorship = load_json_ordered("censorship.json")
 
 # Filter out existing answers and check remaining ones
@@ -53,6 +67,7 @@ for file in tqdm(answer_files):
     censorship[f"/answer/{file.stem}"] = answer_censored_check(
         f"https://www.zhihu.com/api/v4/answers/{file.stem}"
     )
+    save_censorship(censorship)
     time.sleep(random.random() * 2 + 1)
 
 # Filter out existing articles and check remaining ones
@@ -63,7 +78,7 @@ for file in tqdm(article_files):
     censorship[f"/p/{file.stem}"] = article_censored_check(
         f"https://www.zhihu.com/api/v4/articles/{file.stem}"
     )
+    save_censorship(censorship)
     time.sleep(random.random() * 2 + 1)
 
-with open("censorship.json", "w", encoding="utf-8") as f:
-    json.dump(censorship, f, ensure_ascii=False, indent=4)
+save_censorship(censorship)

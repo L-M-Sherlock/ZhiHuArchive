@@ -1,0 +1,57 @@
+{
+  "answer_type": "normal",
+  "author": {
+    "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
+    "badge": [],
+    "badge_v2": {
+      "detail_badges": [],
+      "icon": "",
+      "merged_badges": [],
+      "night_icon": "",
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。"
+    },
+    "gender": 1,
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+    "is_advertiser": false,
+    "is_org": false,
+    "is_privacy": false,
+    "name": "Jarrett Ye",
+    "type": "people",
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "url_token": "JarrettYe",
+    "user_type": "people"
+  },
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
+  "comment_count": 8,
+  "content": "<p data-pid=\"ztCh1Xkh\">这个关注 Awesome FSRS 就行了：</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/awesome-fsrs\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">open-spaced-repetition/awesome-fsrs: A curated list of awesome FSRS implementations, papers and resources</a><h2><b>抽认卡应用</b></h2><h3><b><a href=\"https://link.zhihu.com/?target=https%3A//www.markji.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Markji</a></b></h3><p data-pid=\"oMXtq_OI\">Markji（墨墨记忆卡）是一款抽认卡应用，旨在帮助用户高效记忆并巩固所学知识，在语言学习、考试备考以及其他需要大量记忆的学科领域广受欢迎。该应用由广受欢迎的背单词软件 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/3431283542f2aacaa4db5bc70e7d71ab\" data-hash=\"3431283542f2aacaa4db5bc70e7d71ab\" data-hovercard=\"p$b$3431283542f2aacaa4db5bc70e7d71ab\">@墨墨背单词</a> 的出品方——墨墨科技（MaiMemo Inc.）——开发。</p><ul><li data-pid=\"8Cez3p2G\">Markji 使用 MMX 算法，它是 FSRS 算法的一个变体，二者均由同一作者开发。</li></ul><h3><b><a href=\"https://link.zhihu.com/?target=https%3A//apps.ankiweb.net/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anki</a></b></h3><p data-pid=\"jDs5dxN_\">  一款免费且开源、内容无关的抽认卡应用程序，适用于 Windows、Mac、Linux、iPhone 和 Android 平台。支持文本、图像、音频、视频以及科学公式排版（通过 LaTex 实现）。提供免费的 AnkiWeb 同步服务，并拥有社区共享的插件和卡片组资源。</p><ul><li data-pid=\"GE5FRlIO\">FSRS 算法可作为一项可选功能启用，用以替代默认的 SM-2 算法。</li><li data-pid=\"VhE0x5NZ\">此外，这个<a href=\"https://link.zhihu.com/?target=https%3A//ankiweb.net/shared/info/759844606\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">插件</a>还提供了多种额外功能，例如推迟复习、提前复习、负载均衡以及设置轻松日等。</li></ul><h3><b><a href=\"https://link.zhihu.com/?target=https%3A//www.rember.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Rember</a></b></h3><p data-pid=\"OtrHkbCL\">  一个简洁而强大的间隔重复系统，旨在帮助用户记住更多内容。它利用人工智能自动生成卡片，并采用 FSRS-5 算法来安排复习计划。</p><p data-pid=\"9se_u-XD\">  Rember 使用 <a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/ts-fsrs\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">ts-fsrs</a> 库。</p><h2><b>笔记应用</b></h2><h3><b><a href=\"https://link.zhihu.com/?target=https%3A//www.remnote.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">RemNote</a></b></h3><p data-pid=\"yzbaEjPD\">  一款多平台笔记应用程序，其创建抽认卡的流程简单而高效。拥有一个活跃的社区，提供由学生制作的备考材料。支持离线和在线使用。</p><p data-pid=\"JWE_fY_r\">  RemNote 在其排程系统的 <a href=\"https://link.zhihu.com/?target=https%3A//feedback.remnote.com/changelog/remnote-1-16-ultimate-spaced-repetition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">1.16 版本</a>中集成了 FSRS-4.5 算法。</p><h3><b><a href=\"https://link.zhihu.com/?target=https%3A//obsidian.md/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Obsidian</a></b></h3><p data-pid=\"sy4oxZn8\">  一款集个人笔记、日记、知识库和项目管理功能于一体的应用程序，允许用户轻松地以图谱形式将信息间的关系可视化。用户可以通过超链接连接笔记，并安装众多由社区为 Obsidian 开发的插件。</p><p data-pid=\"eG8qIZzD\">  FSRS 算法可作为 Obsidian 的一个扩展插件使用：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/obsidian-spaced-repetition-recall\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">obsidian-spaced-repetition-recall</a>。</p><h3><b><a href=\"https://link.zhihu.com/?target=https%3A//logseq.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Logseq</a></b></h3><p data-pid=\"whyZ-u2R\">  一个注重隐私、开源的知识管理与协作平台。其核心关注点在于隐私保护、信息的持久性以及用户控制权。</p><p data-pid=\"08WBx9P8\">  Logseq 在其数据库版本中使用了 <a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/cljc-fsrs\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">cljc-fsrs</a> 库。</p><h3><b><a href=\"https://link.zhihu.com/?target=https%3A//github.com/siyuan-note/siyuan\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">思源笔记 (SiYuan)</a></b></h3><p data-pid=\"ffN32Dfl\">  思源笔记是一款注重隐私、可自行托管的开源个人知识管理系统，采用 TypeScript 和 Golang 语言编写。它支持细粒度的块级引用以及 Markdown 的所见即所得编辑模式。</p><p data-pid=\"c7xu2pal\">  思源笔记使用 FSRS-5 算法：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/siyuan-note/riff\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">riff</a></p><h3><b><a href=\"https://link.zhihu.com/?target=https%3A//github.com/TiddlyWiki/TiddlyWiki5\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">TiddlyWiki</a></b></h3><p data-pid=\"t-7E76VM\">  TiddlyWiki 是一款可高度定制的、基于单个 HTML 文件的个人维基系统，用于创建相互链接的笔记。其开源特性及丰富的插件生态系统使其能够灵活适应多种用途，从项目管理到构建知识体系均可胜任。借助 FSRS 插件，TiddlyWiki 亦可作为一款抽认卡应用，用于学习和记忆。</p><p data-pid=\"iA4adw_0\">  FSRS 算法可作为 TiddlyWiki 的 Tidme 插件的一个分支版本使用：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4tw\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">fsrs4tw</a></p><h2><b>其他应用</b></h2><h3><b><a href=\"https://link.zhihu.com/?target=https%3A//chessbook.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Chessbook</a></b></h3><p data-pid=\"vfuRXj7M\">  一款适用于移动设备和网页的国际象棋学习应用程序，它整合了来自 YouTube、Lichess、ChessBase 及各类书籍的多种资源，帮助用户创建个性化的国际象棋开局棋谱库。</p><p data-pid=\"-iUohkJW\">  Chessbook <a href=\"https://link.zhihu.com/?target=https%3A//x.com/chessbookcom/status/1805137108991946775\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">采用 FSRS-4.5 算法</a>全面改进了其间隔重复系统。</p><h3><b><a href=\"https://link.zhihu.com/?target=https%3A//aerolith.org/wordvault/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">WordVault</a></b></h3><p data-pid=\"wo2ZcPOP\">  WordVault 是一款专为 Scrabble、Boggle 及其他文字游戏设计的单词学习应用。它<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/go-fsrs\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">使用 Go FSRS 库</a>来安排单词的复习计划，这些单词会以打乱字母顺序的形式呈现给用户进行解答。相较于一些单词学习应用先前采用的莱特纳（Leitner）卡片盒系统，这种方法有望显著提升学习效率。</p><p data-pid=\"zoxkotw3\">  参见<a href=\"https://link.zhihu.com/?target=https%3A//cesardelsolar.com/posts/2024-10-13-wordvault/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">发布公告博文</a>。</p><h3><b><a href=\"https://link.zhihu.com/?target=https%3A//leetflash.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">LeetFlash</a></b></h3><p data-pid=\"NtH1Q9v3\">  LeetFlash 是一款用于复习 LeetCode 算法题目的抽认卡应用。它利用 TS-FSRS 算法来安排抽认卡的复习计划。</p><p data-pid=\"TncgVsFa\">  该应用目前包含一个 Chrome 浏览器扩展程序和网站。移动端应用正在开发中。它可以自动捕获用户在 LeetCode 上提交的题目，并以类似 Anki 的体验来安排下一次复习。它同时支持 LeetCode 国际版和 LeetCode 中国版（力扣）。</p><h3><b><a href=\"https://link.zhihu.com/?target=https%3A//spacedcards.app/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SpacedCards</a></b></h3><p data-pid=\"D_u3IGBS\">  SpacedCards 是一款 iOS 平台的抽认卡应用，它通过要求学生复习卡片来解锁应用的滚动浏览时间。该应用支持离线使用，可进行个性化定制，并内置人工智能功能，可用于生成卡片（包括图像、音频或 PDF 格式）。</p><p data-pid=\"FjQTtzYk\">  SpacedCards 使用 <a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/dart-fsrs\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">dart-fsrs</a> 库。</p>",
+  "content_need_truncated": false,
+  "created_time": 1749795315,
+  "excerpt": "这个关注 Awesome FSRS 就行了： open-spaced-repetition/awesome-fsrs: A curated list of awesome FSRS implementations, papers and resources 抽认卡应用Markji Markji（墨墨记忆卡）是一款抽认卡应用，旨在帮助用户高效记忆并巩固所学知识，在语言学习、考试备考以及其他需要大量记忆的学科领域广受欢迎。该应用由广受欢迎的背单词软件 @墨墨背单词 的出品方——墨墨科技（MaiMemo Inc.）——开发。Markji 使用 MMX 算法，它…",
+  "force_login_when_click_read_more": false,
+  "id": "1916861164312298292",
+  "is_jump_native": false,
+  "question": {
+    "created": 1731678711,
+    "detail": "",
+    "id": "4267578804",
+    "question_type": "normal",
+    "relationship": {},
+    "title": "除了墨墨、Anki的软件外，有哪些软件可以用间隔重复算法FSRS？",
+    "type": "question",
+    "updated_time": 1731678711,
+    "url": "https://api.zhihu.com/questions/4267578804"
+  },
+  "relationship": {
+    "upvoted_followees": []
+  },
+  "type": "answer",
+  "voteup_count": 93
+}

@@ -1,0 +1,79 @@
+{
+  "status": 0,
+  "updated": 1740821572,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://pic1.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "长期关注我的读者朋友们应该都知道，我平时的更新频率差不多是一天一篇文章+一篇回…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 26283768023,
+  "voteup_count": 219,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1740821572,
+  "url": "https://api.zhihu.com/articles/26283768023",
+  "comment_permission": "all",
+  "title": "【工具分享】我是如何保持日更，快速、精准地检索答题资料的？",
+  "content": "<p data-pid=\"69SJVKJS\">长期关注我的读者朋友们应该都知道，我平时的更新频率差不多是一天一篇文章+一篇回答。而我每天除了上 8 小时班，还能顺带维护 FSRS 和 Anki 两个开源项目、运营一个汉化组，并且还有时间看番/漫画/轻小说，以至于引来 Anki 社区网友惊呼：你怎么有时间睡觉？</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-5b524c351a49ba5290757adac2e49010_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1508\" data-rawheight=\"1120\" class=\"origin_image zh-lightbox-thumb\" width=\"1508\" data-original=\"https://pic3.zhimg.com/v2-5b524c351a49ba5290757adac2e49010_r.jpg\" data-original-token=\"v2-5b524c351a49ba5290757adac2e49010\"/><figcaption>https://www.reddit.com/r/Anki/comments/1iohu6u/i_become_the_top_3_contributor_of_anki_codebase/</figcaption></figure><p data-pid=\"hjzymn5M\">其实这都多亏了这两年越来越强的大语言模型。何以见得？比如：</p><ul><li data-pid=\"Zhw2mQb-\">维护开源项目：修 bug 和写需求，都可以直接在 Cursor 里找 AI 来出个草稿，我改起来可就快多了。</li><li data-pid=\"krY9fI1i\">运营汉化组：现在大部分初稿都是由 claude-3.5-sonnet 完成的，只需要组员简单校对一下就可以发布。</li><li data-pid=\"8dM8aRJT\">写知乎回答：我把汉化组的所有文章都上传到 NotebookLM 上，给个问题就可以快速找到相关文章。</li></ul><p data-pid=\"3HPpkwFa\">但汉化组的文章储备也常常有不足的时候，需要我引入一些外部资料，比如一些教育研究专著：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a48eb664814918e69b6cec87f79e84ca_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"302\" data-rawheight=\"448\" class=\"content_image\" width=\"302\" data-original-token=\"v2-a48eb664814918e69b6cec87f79e84ca\"/></figure><p data-pid=\"L5oGxFt6\">但是这些材料主要以 PDF 为主，而且有些扫描版材料的效果只能用「不堪入目」来形容：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-76d2848b079c1e7657599e77beb74e54_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1826\" data-rawheight=\"1574\" class=\"origin_image zh-lightbox-thumb\" width=\"1826\" data-original=\"https://pica.zhimg.com/v2-76d2848b079c1e7657599e77beb74e54_r.jpg\" data-original-token=\"v2-76d2848b079c1e7657599e77beb74e54\"/></figure><p data-pid=\"b5dvjCuW\">若让我一页一页找相关论述，那我眼睛都要瞎了。</p><p data-pid=\"epYKdkP-\">就算丢给 NotebookLM，它也会因为没有办法完全正确地识别文档内容，无法正确按照材料回答问题：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-1d925dcfe4438eef9301ddb3ad9f9a8d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1440\" data-rawheight=\"1434\" class=\"origin_image zh-lightbox-thumb\" width=\"1440\" data-original=\"https://pic2.zhimg.com/v2-1d925dcfe4438eef9301ddb3ad9f9a8d_r.jpg\" data-original-token=\"v2-1d925dcfe4438eef9301ddb3ad9f9a8d\"/></figure><p data-pid=\"FmJEZf5P\">没办法，毕竟这东西就是 <b>garbage in, garbage out</b>。</p><p data-pid=\"tS3X31We\">那怎么办呢？这次又得请出我之前介绍<sup data-text=\"【工具分享】PDF、图片、公式——阻碍我们知识数字化的敌人终于倒下了，吗？ \" data-url=\"https://zhuanlan.zhihu.com/p/16167738894\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>的 Doc2X 了：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0a15d23d345218b1b2372e25ebab9797_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"4942\" data-rawheight=\"2662\" class=\"origin_image zh-lightbox-thumb\" width=\"4942\" data-original=\"https://pic2.zhimg.com/v2-0a15d23d345218b1b2372e25ebab9797_r.jpg\" data-original-token=\"v2-0a15d23d345218b1b2372e25ebab9797\"/></figure><blockquote data-pid=\"E5BFtYwd\">给没看过上次介绍的读者：Doc2X 可以高精度识别 PDF 文档，支持多栏文本、复杂公式、代码、表格识别。</blockquote><p data-pid=\"1Xv4q4cY\">把 Doc2X 转换后的 markdown 发给 NotebookLM，再问同样的问题，回答效果显著提高：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-72b2f818dc2f86680e6e59d47d42b412_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2040\" data-rawheight=\"1792\" class=\"origin_image zh-lightbox-thumb\" width=\"2040\" data-original=\"https://pic3.zhimg.com/v2-72b2f818dc2f86680e6e59d47d42b412_r.jpg\" data-original-token=\"v2-72b2f818dc2f86680e6e59d47d42b412\"/></figure><p data-pid=\"DX0CaILT\">然后再点一点角标，就可以精确定位到解析后到 markdown：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-7f82d26539d284f9177785f979ffd586_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"3346\" data-rawheight=\"1460\" class=\"origin_image zh-lightbox-thumb\" width=\"3346\" data-original=\"https://pic3.zhimg.com/v2-7f82d26539d284f9177785f979ffd586_r.jpg\" data-original-token=\"v2-7f82d26539d284f9177785f979ffd586\"/></figure><p data-pid=\"2p_SBc58\">这答题效率一下就提高了不少。</p><p data-pid=\"tocbDIbf\">也可以直接用 Doc2X 自带的 AI 对话，支持 DeepSeek-R1，同样也支持跳转到引用的部分：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-1aae3f33b00ed4209f9b3e799d698929_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"4504\" data-rawheight=\"2644\" class=\"origin_image zh-lightbox-thumb\" width=\"4504\" data-original=\"https://pic2.zhimg.com/v2-1aae3f33b00ed4209f9b3e799d698929_r.jpg\" data-original-token=\"v2-1aae3f33b00ed4209f9b3e799d698929\"/></figure><p data-pid=\"eR1wrZ7p\">有了这些 AI 辅助工具后，我写知乎的效率可以说是蹭蹭往上涨。</p><hr/><p data-pid=\"46UJCeuU\">除此之外，平时我也需要读不少论文和技术报告，也会让 AI 辅助我，而算法相关的内容自然少不了表格和公式。Doc2X 在这一点上也没让我失望：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-ad7c21375219510ea46d0e3b4358c0e1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"4286\" data-rawheight=\"1542\" class=\"origin_image zh-lightbox-thumb\" width=\"4286\" data-original=\"https://picx.zhimg.com/v2-ad7c21375219510ea46d0e3b4358c0e1_r.jpg\" data-original-token=\"v2-ad7c21375219510ea46d0e3b4358c0e1\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-cfad5142b5f31b4542f182368d039cf1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"4240\" data-rawheight=\"1618\" class=\"origin_image zh-lightbox-thumb\" width=\"4240\" data-original=\"https://pic2.zhimg.com/v2-cfad5142b5f31b4542f182368d039cf1_r.jpg\" data-original-token=\"v2-cfad5142b5f31b4542f182368d039cf1\"/></figure><p data-pid=\"CPU2t1Xv\">相比之下，我之前还试过火山引擎的智能文档识别，效果只能说一言难尽（下图右侧）</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-17c6a8b5419b4e768a20ff5cba0aefd5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"4504\" data-rawheight=\"2686\" class=\"origin_image zh-lightbox-thumb\" width=\"4504\" data-original=\"https://pic4.zhimg.com/v2-17c6a8b5419b4e768a20ff5cba0aefd5_r.jpg\" data-original-token=\"v2-17c6a8b5419b4e768a20ff5cba0aefd5\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-37f6155c8ee1e589bde385b1bb69936b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"4504\" data-rawheight=\"2686\" class=\"origin_image zh-lightbox-thumb\" width=\"4504\" data-original=\"https://picx.zhimg.com/v2-37f6155c8ee1e589bde385b1bb69936b_r.jpg\" data-original-token=\"v2-37f6155c8ee1e589bde385b1bb69936b\"/></figure><hr/><p data-pid=\"ZB43twhK\">再介绍一个小功能：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-2078688e500e152309164c57ea1f8221_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1216\" data-rawheight=\"230\" class=\"origin_image zh-lightbox-thumb\" width=\"1216\" data-original=\"https://pic2.zhimg.com/v2-2078688e500e152309164c57ea1f8221_r.jpg\" data-original-token=\"v2-2078688e500e152309164c57ea1f8221\"/></figure><p data-pid=\"hIl4CtLq\">「编辑转换此页MarkDown」可以很方便地在线编辑对应的 markdown 内容，并且支持导出成 PDF/Word/HTML 等格式：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b2a028f9373431338d59cd509fb9ccce_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2330\" data-rawheight=\"1698\" class=\"origin_image zh-lightbox-thumb\" width=\"2330\" data-original=\"https://pic3.zhimg.com/v2-b2a028f9373431338d59cd509fb9ccce_r.jpg\" data-original-token=\"v2-b2a028f9373431338d59cd509fb9ccce\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-d7cce31cd876f66e6023538d3f4d5bec_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1692\" data-rawheight=\"1596\" class=\"origin_image zh-lightbox-thumb\" width=\"1692\" data-original=\"https://pica.zhimg.com/v2-d7cce31cd876f66e6023538d3f4d5bec_r.jpg\" data-original-token=\"v2-d7cce31cd876f66e6023538d3f4d5bec\"/></figure><hr/><h2>尾声</h2><p data-pid=\"Hpb3su_k\">正如我之前的回答所述，我最近一直在利用 AI 来提高内容质量和创作效率，反响也很不错：</p><a href=\"https://www.zhihu.com/question/13175348680/answer/112755745157\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-cc4d03828ab3aa3136b32ec21ee9875d_l.jpg\" data-image-width=\"1382\" data-image-height=\"1340\" class=\"internal\">如何看待ai生成的回答入侵知乎?</a><p data-pid=\"W0b4FikM\">反正我也不藏着掖着，就是正大光明地用，撰写本文，也是为了分享一下我在自己的创作工作流中用到的一系列工具，希望这些工具能够对进行类似创作的朋友们有所帮助。</p><hr/><p data-pid=\"JESzPUDH\">恰个饭：</p><a href=\"https://link.zhihu.com/?target=https%3A//doc2x.noedgeai.com/%3FinviteCode%3DSYLTI8\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Doc2X</a><p data-pid=\"PbyCMCSe\">通过这个链接，或使用邀请码（SYLTI8）注册，可以增加我的会员时长和页面解析额度～</p>",
+  "column": {
+    "updated": 1751811281,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+    "title": "学委叶哥的随笔",
+    "image_url": "https://pic1.zhimg.com/v2-c31ca0615bbbe77cc9d0ad05465dd223_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1280249768422608896"
+  },
+  "comment_count": 22,
+  "image_url": "",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

@@ -1,0 +1,74 @@
+{
+  "status": 0,
+  "updated": 1756607077,
+  "author": {
+    "is_followed": false,
+    "badge": [],
+    "name": "Jarrett Ye",
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "avatar_url": "https://pic1.zhimg.com/50/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+  },
+  "can_tip": false,
+  "excerpt": "数学中的例子与其他学科中的例子相比别具一格。这很可能是因为数学中的定义 不同于其…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 1944437942966790000,
+  "voteup_count": 8,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1756607077,
+  "url": "https://api.zhihu.com/articles/1944437942966789886",
+  "comment_permission": "all",
+  "title": "数学中的例子",
+  "content": "<p data-pid=\"KRfoQK4_\"><b>数学中的例子</b>与其他学科中的例子相比别具一格。这很可能是因为<a href=\"https://link.zhihu.com/?target=https%3A//learning.subwiki.org/w/index.php%3Ftitle%3DDefinitions_in_mathematics%26action%3Dedit%26redlink%3D1\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">数学中的定义</a>不同于其他学科的定义（数学定义是精确的）。在其他领域，判断某个事物是否算作一个例子时常会遇到的<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/The-Cluster-Structure-Of-Thingspace\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">一些</a><a href=\"https://link.zhihu.com/?target=https%3A//wiki.lesswrong.com/wiki/How_an_algorithm_feels\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常见</a>问题，在数学中并不会出现。取而代之的是另一些特有的问题。</p><h2>单元测试与例子</h2><p data-pid=\"B8Hti1TA\">数学中的一个常见问题是，人们脑中对某个对象「应有」的样貌，会有一个先入为主的观念，而这个观念与形式化定义所描述的并不一致。换言之，人们的直觉概念与形式化定义之间存在脱节。</p><p data-pid=\"HAkTROrS\">我们不妨以函数的定义为例。函数是这样一个对象：它将某个集合中的每一个对象，都映射到另一个集合中的一个唯一对象。不熟悉这套形式化定义的人，可能会错误地认为函数就是「能用公式表达的东西」。</p><p data-pid=\"ISLLmcYT\">因此，在直觉与形式化定义相悖之处举例就显得尤为重要。在默认情况下，<a href=\"https://link.zhihu.com/?target=https%3A//learning.subwiki.org/wiki/Learner\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">学习者</a>可能有一种倾向，即<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Peter_Cathcart_Wason%23Wason_and_the_2-4-6_Task\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">只去寻找正面的例子</a>。</p><p data-pid=\"6horiX8q\">我们可以将举例的过程，类比为在编程中编写<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Unit_testing\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">单元测试</a>。提供一些显而易见的例子固然很好，但我们更希望通过一些出人意料的案例（即所谓的「边界情况」）来测试软件，以确保软件真正可靠。</p><p data-pid=\"18VkGtCB\">人类思维有一种倾向，就是让想法仅仅停留在口头层面，即想法本身并不能约束我们对未来的预期。[1] 提供出人意料的例子和反例，正是揪出并纠正人们模糊思维的一种方法。</p><p data-pid=\"pG6JiKDP\">（我认为这里可以引入一个与「过拟合」的类比，这会是个很好的解释。）</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th></th><th>按定义是例子</th><th>按定义不是例子</th></tr><tr><td>凭直觉是例子</td><td>「显而易见」的例子，或称核心例子。</td><td>出人意料的反例。即假阳性，也称作第一类错误。</td></tr><tr><td>凭直觉不是例子</td><td>出人意料的例子。即假阴性，也称作第二类错误。</td><td>显而易见的反例。</td></tr></tbody></table><h3>显而易见的例子</h3><p data-pid=\"h7cXtspu\">「显而易见」的例子，或称核心例子。</p><p data-pid=\"T2WE72OE\">设 <img src=\"https://www.zhihu.com/equation?tex=f%3A%5Cmathbf+%7BR%7D+%5Cto+%5Cmathbf+%7BR%7D\" alt=\"f:\\mathbf {R} \\to \\mathbf {R}\" eeimg=\"1\"/> 由 <img src=\"https://www.zhihu.com/equation?tex=f%28x%29%3D2x%5E%7B2%7D-3x%2B5\" alt=\"f(x)=2x^{2}-3x+5\" eeimg=\"1\"/> 定义。这确实定义了一个函数。而那些认为函数就是「能用公式表达的东西」的人，也会认为这是一个函数。</p><h3>出人意料的反例</h3><p data-pid=\"IN357xEP\">出人意料的反例。设 <img src=\"https://www.zhihu.com/equation?tex=f%3A%5Cmathbf+%7BQ%7D+%5Cto+%5Cmathbf+%7BZ%7D\" alt=\"f:\\mathbf {Q} \\to \\mathbf {Z}\" eeimg=\"1\"/> 由 <img src=\"https://www.zhihu.com/equation?tex=f%28a%2Fb%29%3Da\" alt=\"f(a/b)=a\" eeimg=\"1\"/> 定义（即一个输出分数之分子的函数）。这并<b>没有</b>定义一个函数。为了说明这一点，请注意 <img src=\"https://www.zhihu.com/equation?tex=f%281%2F2%29%3D1\" alt=\"f(1/2)=1\" eeimg=\"1\"/> 且 <img src=\"https://www.zhihu.com/equation?tex=f%283%2F6%29%3D3\" alt=\"f(3/6)=3\" eeimg=\"1\"/>。但 <img src=\"https://www.zhihu.com/equation?tex=1%2F2%3D3%2F6\" alt=\"1/2=3/6\" eeimg=\"1\"/>，因此我们必须有 <img src=\"https://www.zhihu.com/equation?tex=f%281%2F2%29%3Df%283%2F6%29\" alt=\"f(1/2)=f(3/6)\" eeimg=\"1\"/>（根据定义，一个函数必须对任意给定对象输出唯一的结果），但 <img src=\"https://www.zhihu.com/equation?tex=1%5Cneq+3\" alt=\"1\\neq 3\" eeimg=\"1\"/>，所以这里出了问题。原因在于，每个分数都有多种表达方式，「取分子」这个操作本身是无意义的，除非我们对分数的表达方式加以限制（例如，要求分数必须是既约分数，且负号总在分子上)。那些认为函数就是「能用公式表达的东西」的人，可能会错误地认为「既然这个东西能用公式表达，那它一定是个函数」。</p><p data-pid=\"eEp3MHJ5\">再举一例，设 <img src=\"https://www.zhihu.com/equation?tex=f%3AA%5Cto+%5Cemptyset\" alt=\"f:A\\to \\emptyset\" eeimg=\"1\"/> 是一个函数，其中 <img src=\"https://www.zhihu.com/equation?tex=A%5Cneq+%5Cemptyset\" alt=\"A\\neq \\emptyset\" eeimg=\"1\"/>。这并<b>没有</b>定义一个函数。因为既然 <img src=\"https://www.zhihu.com/equation?tex=A%5Cneq+%5Cemptyset\" alt=\"A\\neq \\emptyset\" eeimg=\"1\"/>，那么集合 A 中必定存在某个元素 <img src=\"https://www.zhihu.com/equation?tex=a%5Cin+A\" alt=\"a\\in A\" eeimg=\"1\"/>。根据函数定义，必须有 <img src=\"https://www.zhihu.com/equation?tex=f%28a%29%5Cin+%5Cemptyset\" alt=\"f(a)\\in \\emptyset\" eeimg=\"1\"/>，但这与 <img src=\"https://www.zhihu.com/equation?tex=%5Cemptyset\" alt=\"\\emptyset\" eeimg=\"1\"/> 是空集的事实相矛盾。熟悉空函数（见本表下一格）的人可能会将这个例子与空函数混淆，从而误认为这是一个函数。</p><p data-pid=\"k844D1Cm\">此单元格中的例子属于假阳性，也称作第一类错误。</p><h3>出人意料的例子</h3><p data-pid=\"xHU4pNdR\">出人意料的例子。设 <img src=\"https://www.zhihu.com/equation?tex=f%3A%5Cmathbf+%7BN%7D+%5Cto+%5Cmathbf+%7BN%7D\" alt=\"f:\\mathbf {N} \\to \\mathbf {N}\" eeimg=\"1\"/>  由 <img src=\"https://www.zhihu.com/equation?tex=f%28n%29%3D%5Cpi+%5Ctext%7B%E7%9A%84%E7%AC%AC%7D+n+%5Ctext%7B%E4%BD%8D%7D\" alt=\"f(n)=\\pi \\text{的第} n \\text{位}\" eeimg=\"1\"/> 定义。这确实定义了一个函数，但那些认为函数就是「能用公式表达的东西」的人，则不会认为它是一个函数。</p><p data-pid=\"F4r-ekXV\">另一个例子是空函数 <img src=\"https://www.zhihu.com/equation?tex=f%3A%5Cemptyset+%5Cto+A\" alt=\"f:\\emptyset \\to A\" eeimg=\"1\"/>，其中 <img src=\"https://www.zhihu.com/equation?tex=A\" alt=\"A\" eeimg=\"1\"/> 是任意集合。这确实定义了一个函数，但这个函数什么也不「做」。因为它是一个函数的「极端」情况，所以那些只习惯于处理「看起来正常」的函数的人（或者不习惯于处理空集或无约束条件的人)可能会将这个例子排除掉。</p><p data-pid=\"Q8VrcW0E\">第三个例子，设 <img src=\"https://www.zhihu.com/equation?tex=%5Cmathcal+%7BM%7D\" alt=\"\\mathcal {M}\" eeimg=\"1\"/> 为所有图灵机的集合，并设 <img src=\"https://www.zhihu.com/equation?tex=f%3A%7B%5Cmathcal+%7BM%7D%7D%5Ctimes+%5Cmathbf+%7BN%7D+%5Cto+%5C%7B%7B%5Ctext%7Btrue%7D%7D%2C%7B%5Ctext%7Bfalse%7D%7D%5C%7D\" alt=\"f:{\\mathcal {M}}\\times \\mathbf {N} \\to \\{{\\text{true}},{\\text{false}}\\}\" eeimg=\"1\"/> 由 <img src=\"https://www.zhihu.com/equation?tex=f%28M%2Cn%29%3D%7B%5Ctext%7B%E5%9B%BE%E7%81%B5%E6%9C%BA%7D%7DM%7B%5Ctext%7B%E5%9C%A8%E8%BE%93%E5%85%A5%7D%7Dn%5Ctext%7B%E4%B8%8A%E5%81%9C%E6%9C%BA%7D\" alt=\"f(M,n)={\\text{图灵机}}M{\\text{在输入}}n\\text{上停机}\" eeimg=\"1\"/> 定义。这确实定义了一个函数，尽管这个函数是不可<b>计算</b>的。熟悉停机问题的人可能会将「一个良定义的函数」与「一个可计算的函数」混为一谈，从而声称这不是一个函数。在这个例子中，造成阻碍的并非是人们对「函数」的直觉概念，而是另一个不同的技术概念（即可计算函数的概念）。</p><p data-pid=\"gMuguSXo\">此单元格中的例子属于假阴性，也称作第二类错误。</p><h3>显而易见的反例</h3><p data-pid=\"Gq18D_yC\">显而易见的反例。设 <img src=\"https://www.zhihu.com/equation?tex=f%3A%5Cmathbf+%7BR%7D+%5Cto+%5Cmathbf+%7BR%7D+\" alt=\"f:\\mathbf {R} \\to \\mathbf {R} \" eeimg=\"1\"/> 由<img src=\"https://www.zhihu.com/equation?tex=f%28x%29%3Dx%2F0\" alt=\"f(x)=x/0\" eeimg=\"1\"/> 定义。这并<b>没有</b>定义一个函数，因为除以零是未定义的操作。熟悉除零问题的人会识别出这一点，并正确地否定这个例子。</p><h2>例子的层级性</h2><p data-pid=\"RO6GeAhe\">一个事物是「具体的」还是「抽象的」，取决于其所处的语境。以「度量空间」这个术语为例。我们可以举出度量空间的各种例子。但从另一方面看，度量空间本身也是一个例子（比如，它是一个结构化空间或一个拓扑空间的例子）。</p><hr/><p data-pid=\"OBe28Oku\">[1]  <a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/A-Technical-Explanation-Of-Technical-Explanation\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">readthesequences.com/A-</span><span class=\"invisible\">Technical-Explanation-Of-Technical-Explanation</span><span class=\"ellipsis\"></span></a></p><hr/><blockquote data-pid=\"2lOr9Z2n\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 gemini-2.5-pro，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//learning.subwiki.org/wiki/Examples_in_mathematics\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Examples in mathematics - Learning</a><br/>作者：Issac Rice</blockquote>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Jarrett Ye",
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "avatar_url": "https://picx.zhimg.com/50/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    },
+    "url": "/columns/3c9990a12cdbcd92e20b1387b160f0a3",
+    "comment_permission": "all",
+    "title": "Jarrett Ye的文章",
+    "image_url": "https://picx.zhimg.com/50/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+  },
+  "comment_count": 0,
+  "image_url": "",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 1,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

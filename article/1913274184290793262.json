@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1751880351,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "假设你让受试者辨认一串字母是否能构成英文单词：如果能，就按一个按钮；如果不能，…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 1913274184290793200,
+  "voteup_count": 40,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1748953812,
+  "url": "https://api.zhihu.com/articles/1913274184290793262",
+  "comment_permission": "all",
+  "title": "启动效应与污染效应",
+  "image_width": 2411,
+  "content": "<p data-pid=\"4JrJ2o5h\">假设你让受试者辨认一串字母是否能构成英文单词：如果能，就按一个按钮；如果不能，就按另一个按钮（例如，「banack」与「banner」，前者不是英文单词，而后者是）。随后，你向他们展示字母串「water」（水）。在这之后，受试者便能更快地识别出字母串「drink」（喝）是英文单词。这种现象被称为「认知启动」；具体到这个例子，可以称之为「语义启动」或「概念启动」。</p><p data-pid=\"Ziwupt2c\">启动效应的奇妙之处在于，它发生在极低的认知层面——启动效应加速的是<b>将字母串识别为一个单词</b>的过程，而人们通常认为该过程发生在思考词义<b>之前</b>。</p><p data-pid=\"ORbis5_E\">启动效应还揭示了激活扩散过程中一个特性，即大规模并行：如果看到「water」（水）激活了单词「drink」（喝），那么很可能也会同时激活「river」（河流），或者「cup」（杯子），或者「splash」（泼溅）……这种激活会经由概念之间的语义关联扩散，再一路回溯至识别字母串的层面。</p><p data-pid=\"5R9GsZ86\">启动效应是一种潜意识，无法抑制；是人类神经结构的一种固有特性。试图阻止自己产生启动效应，就好比试图阻止自身神经回路中的激活扩散一样徒劳。不妨试着大声说出下面这个字的颜色——不是把字念出来，而是这个字本身的颜色：</p><p data-pid=\"ZEZ9g0EX\"><img src=\"https://www.zhihu.com/equation?tex=%5Ccolor%7Bred%7D%7B%E7%BB%BF%7D\" alt=\"\\color{red}{绿}\" eeimg=\"1\"/> </p><p data-pid=\"Gi_0FJIg\">在 Mussweiler 与 Strack 的实验中，受试者被问及一个<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Anchoring-And-Adjustment\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">锚定问题</a><sup data-text=\"锚定与调整效应\" data-url=\"https://zhuanlan.zhihu.com/p/1911000158126204016\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>：「德国的年平均气温是高于还是低于 5 摄氏度 / 20 摄氏度？」[1] 随后，在一项单词识别任务中，接触到5摄氏度锚点的受试者能更快地识别诸如「cold」（寒冷）和「snow」（雪）之类的单词；而接触到高锚点（20 摄氏度）的受试者则能更快地识别出「hot」（炎热）和「sun」（太阳）。这表明，在锚定效应中，除了先前提到的调整机制之外，还存在着另一种机制：即通过启动与锚点相容的记忆和想法，以此产生效应。</p><p data-pid=\"GyIPVhq9\">一个更具普遍性的结论是，那些<b>完全不提供信息</b>、<b>已知是虚假</b>，或者<b>全然不相关</b>的「信息」，都可能影响我们的估测和决策。在启发式和偏见研究领域，这种更为普遍的现象被称为<b>污染效应</b>。[2]</p><p data-pid=\"Ov2MS59Z\">启发式和偏见领域的早期研究发现了<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Anchoring-And-Adjustment\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">锚定效应</a><sup data-text=\"锚定与调整效应\" data-url=\"https://zhuanlan.zhihu.com/p/1911000158126204016\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>。例如，受试者在估算联合国成员国中非洲国家的占比时，若最初被问及其占比是大于还是小于 10%（或 65%），最后给出的估计值便会相应地偏低（或偏高）。该效应最初被归因于：受试者从锚点出发，进行调整，一旦达到一个看似合理的值便停止，就此停在置信区间的某一端，从而导致调整不充分。[3]</p><p data-pid=\"z2EsxvdJ\">Tversky 与 Kahneman 的早期假说，在某些情况下似乎依然是正确的解释，尤其是在受试者自己给出初始估计值的时候。[4] 但现代研究似乎表明，大多数锚定效应实际上是由污染效应而非滑动调整所引起的。（在此感谢<a href=\"https://link.zhihu.com/?target=https%3A//www.greaterwrong.com/lw/j7/anchoring_and_adjustment/eza\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">某位无名网友</a>提醒我这一点——我多年前曾在《启发式与偏见》一书中读到过 Epley 和 Gilovich 的这篇论文，但后来忘记了。）</p><p data-pid=\"oGncMcgt\">你常去的杂货店里可能有些烦人的标牌，写着「每位顾客限购 12 件」或「5 件仅售 10 美元」。这些标牌在促使顾客购买更多商品方面真的有效吗？你很可能<b>认为自己不会受到影响</b>。但<b>总有人</b>会受到影响，因为这些标牌已被证明是有效的，这也是为什么商店会持续使用它们的原因。[5]</p><p data-pid=\"gwFLVugz\">然而，污染效应最为可怕的一面在于，它是<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Rationalization\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">确认</a><sup data-text=\"合理化\" data-url=\"https://zhuanlan.zhihu.com/p/15807962622\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup><a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/What-Evidence-Filtered-Evidence\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">偏见</a><sup data-text=\"什么是证据筛选？\" data-url=\"https://zhuanlan.zhihu.com/p/15300705897\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup><a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Positive-Bias-Look-Into-The-Dark\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">千</a><sup data-text=\"了解偏见可能反而有害\" data-url=\"https://zhuanlan.zhihu.com/p/8246788669\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup><a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Knowing-About-Biases-Can-Hurt-People\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">百</a><sup data-text=\"第三条道路\" data-url=\"https://zhuanlan.zhihu.com/p/827889716\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup><a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/The-Third-Alternative\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">重</a><a href=\"https://link.zhihu.com/?target=https%3A//www.greaterwrong.com/lw/il/hindsight_bias/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">化身</a><a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/We-Change-Our-Minds-Less-Often-Than-We-Think\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">的</a><a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Fake-Causality\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">又</a><a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/One-Argument-Against-An-Army\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">一重</a><sup data-text=\"以一当千的论证谬误\" data-url=\"https://zhuanlan.zhihu.com/p/12852320444\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>。一旦某个想法进入你的脑海，便会自动启动与之相符的信息——从而确保该想法能继续存在下去。且不论在进化过程中，为了赢得政治辩论而产生的自然选择压力；确认偏见是直接内嵌于我们大脑硬件之中的，联想网络会自动启动与之相容的想法和记忆。这是我们作为神经生物的一种不幸的固有缺陷。</p><p data-pid=\"p-8k-LGd\">仅仅是一个转瞬即逝的影像，就足以启动相关词汇，让我们更容易识别它们。别以为启动确认偏见还需要更多条件。仅仅是短暂的一闪念，<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/The-Bottom-Line\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">最终的结论便已注定</a><sup data-text=\"结论从何而来\" data-url=\"https://zhuanlan.zhihu.com/p/13265385885\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup>，<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/We-Change-Our-Minds-Less-Often-Than-We-Think\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">因为我们改变想法的次数，远比我们自以为的要少</a>……</p><h2>脚注</h2><p data-pid=\"-87auqY7\">[1] Thomas Mussweiler and Fritz Strack, “Comparing Is Believing: A Selective Accessibility Model of Judgmental Anchoring,” <i>European Review of Social Psychology</i> 10 (1 1999): 135–167, doi:10.1080/14792779943000044. </p><p data-pid=\"ZzDIOriy\">[2] Gretchen B. Chapman and Eric J. Johnson, “Incorporating the Irrelevant: Anchors in Judgments of Belief and Value,” in Gilovich, Griffin, and Kahneman, <i>Heuristics and Biases</i>, 120–138.</p><p data-pid=\"kANIK1DR\">[3] Tversky and Kahneman, “Judgment Under Uncertainty.”</p><p data-pid=\"6_AGFJL_\">[4] Nicholas Epley and Thomas Gilovich, “Putting Adjustment Back in the Anchoring and Adjustment Heuristic: Differential Processing of Self-Generated and Experimentor-Provided Anchors,” <i>Psychological Science</i> 12 (5 2001): 391–396, doi:10.1111/1467-9280.00372.</p><p data-pid=\"FZFNI-vK\">[5] Brian Wansink, Robert J. Kent, and Stephen J. Hoch, “An Anchoring and Adjustment Model of Purchase Quantity Decisions,” <i>Journal of Marketing Research</i> 35, no. 1 (1998): 71–81, <a href=\"https://link.zhihu.com/?target=http%3A//www.jstor.org/stable/3151931\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://www.</span><span class=\"visible\">jstor.org/stable/315193</span><span class=\"invisible\">1</span><span class=\"ellipsis\"></span></a>.</p><hr/><p data-pid=\"kONATdwl\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1911000158126204016\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">锚定与调整效应 - 知乎</a><p data-pid=\"tE6RzwCV\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1925574522058301705\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">我们会相信自己看到的一切吗？ - 知乎</a><hr/><blockquote data-pid=\"eErXtx1B\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">gemini-2.5-pro-exp</span>，校对潜艇<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Priming-And-Contamination\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Priming and Contamination</a></blockquote>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 1,
+  "image_url": "https://pic1.zhimg.com/v2-a903466147af8a143f376f961575bbf7_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

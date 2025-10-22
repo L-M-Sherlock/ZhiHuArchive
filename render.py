@@ -49,57 +49,57 @@ def replace_url(url: str) -> str:
 
 def process_content(content: str) -> str:
     # Parse HTML content
-    soup = BeautifulSoup(content, 'html.parser')
-    
+    soup = BeautifulSoup(content, "html.parser")
+
     # Process img tags
-    for img in soup.find_all('img'):
-        actualsrc = img.get('data-actualsrc')
+    for img in soup.find_all("img"):
+        actualsrc = img.get("data-actualsrc")
         if actualsrc:
-            img['src'] = actualsrc
-            del img['data-actualsrc']
-    
+            img["src"] = actualsrc
+            del img["data-actualsrc"]
+
     # Process anchor tags
-    for a in soup.find_all('a'):
-        href = a.get('href')
-        if href and href.startswith('https://link.zhihu.com/'):
+    for a in soup.find_all("a"):
+        href = a.get("href")
+        if href and href.startswith("https://link.zhihu.com/"):
             try:
                 # Convert relative URL to absolute
-                full_url = 'https:' + href if href.startswith('//') else href
+                full_url = "https:" + href if href.startswith("//") else href
                 from urllib.parse import urlparse, parse_qs
+
                 parsed = urlparse(full_url)
-                target = parse_qs(parsed.query).get('target', [None])[0]
+                target = parse_qs(parsed.query).get("target", [None])[0]
                 if target:
-                    decoded_target = target.replace('https%3A', 'https:').replace('http%3A', 'http:')
-                    a['href'] = replace_url(decoded_target)
+                    decoded_target = target.replace("https%3A", "https:").replace(
+                        "http%3A", "http:"
+                    )
+                    a["href"] = replace_url(decoded_target)
             except Exception as e:
                 print(f"Failed to parse URL {href}: {e}")
                 continue
         elif href:
-            a['href'] = replace_url(href)
-    
+            a["href"] = replace_url(href)
+
     # Remove u tags but keep their contents
-    for u in soup.find_all('u'):
+    for u in soup.find_all("u"):
         u.unwrap()
-    
+
     return str(soup)
 
 
 def extract_reference(html: str) -> str:
     # Parse HTML with BeautifulSoup
-    soup = BeautifulSoup(html, 'html.parser')
+    soup = BeautifulSoup(html, "html.parser")
     references = {}
 
     # Find all sup elements and collect references
-    for sup in soup.find_all('sup'):
-        text = sup.get('data-text')
-        url = sup.get('data-url')
-        numero = sup.get('data-numero')
-        
+    for sup in soup.find_all("sup"):
+        text = sup.get("data-text")
+        url = sup.get("data-url")
+        numero = sup.get("data-numero")
+
         if text and url and numero:
-            references[numero] = {
-                "text": text,
-                "url": replace_url(url)
-            }
+            references[numero] = {"text": text, "url": replace_url(url)}
 
     # Generate reference list if any references were found
     if references:

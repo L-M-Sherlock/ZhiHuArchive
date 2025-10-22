@@ -1,0 +1,75 @@
+{
+  "status": 0,
+  "updated": 1739269998,
+  "author": {
+    "is_followed": false,
+    "badge": [],
+    "name": "Jarrett Ye",
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "avatar_url": "https://pic1.zhimg.com/50/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+  },
+  "can_tip": false,
+  "excerpt": "我正在与朋友 Taylor Rogalski 合作开发一个实验性的智能注意力管理系统。由于项目…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 23069066411,
+  "voteup_count": 77,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1739269998,
+  "url": "https://api.zhihu.com/articles/23069066411",
+  "comment_permission": "all",
+  "title": "迈向可规模化的闪念培养",
+  "image_width": 720,
+  "content": "<p data-pid=\"EiGqWRzI\">我正在与朋友 <a href=\"https://link.zhihu.com/?target=https%3A//twitter.com/tayroga\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Taylor Rogalski</a> 合作开发一个实验性的智能注意力管理系统。由于项目仍处于早期阶段，此时与其展示具体的界面截图和原型，我更想分享我们在整体概念设计层面的一些思考。</p><h2>问题所在</h2><p data-pid=\"nwekhXEt\">我的生活中常常闪现出各种值得关注但疏于照管的灵感（blip，下文都翻译为「闪念」）。这些闪念需要持续的关注才能开花结果，但它们又难以简单地归入待办清单或既有的创作流程中。因此，这些可贵的闪念往往就这样被遗忘了。举个例子：</p><ul><li data-pid=\"BYcPr5cy\"><b>疑问：</b>在重温 Bret Victor 的「基于原则的发明」演讲时，我不禁深思：在我践行「基于原则的发明」这一理念的过程中，这些指导原则究竟应该是什么？<br/> <br/></li><li data-pid=\"iy1SyvUm\"><b>引用：</b> 在一次散步闲谈中，<a href=\"https://link.zhihu.com/?target=https%3A//genagorlin.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Gena Gorlin</a> 向我提及，心理学领域的「<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Transtheoretical_model\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">行为改变阶段理论</a>」可能对我正在研究的<a href=\"https://link.zhihu.com/?target=https%3A//numinous.productions/timeful/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">穿越时间的文本</a><sup data-text=\"穿越时间的文本\" data-url=\"https://zhuanlan.zhihu.com/p/395283887\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>有重要的启发意义。<br/> <br/></li><li data-pid=\"T1B2VE3-\"><b>见解：</b>在写日记时，我察觉到自己一直潜意识里认为：要成就非凡的事业，必须怀有坚定的信念和宏大的愿景。然而我的朋友 <a href=\"https://link.zhihu.com/?target=https%3A//rmozone.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Rob Ochshorn</a> 却始终保持着轻松愉快、随性自在的态度，而他的表现总能给我带来启发。这让我明白，在工作中保持更多的趣味性和活力，或许也是一条可行之路。<br/> <br/></li><li data-pid=\"AXmXqcNi\"><b>想法：</b>在与 <a href=\"https://link.zhihu.com/?target=https%3A//www.matthewsiu.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Matthew Siu</a> 探讨 <a href=\"https://link.zhihu.com/?target=https%3A//rewind.ai/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Rewind</a> 这类持续屏幕录制工具的应用场景时，我们迸发出一个想法：开发一个新功能按钮，可以回放显示任何浏览器标签页被打开前的那个时刻，让用户能够追溯到「这个页面最初是从何处打开的」。<br/> <br/></li><li data-pid=\"7LXVLo5w\"><b>探索：</b>我曾几次偶然访问绘画教学网站 <a href=\"https://link.zhihu.com/?target=https%3A//drawabox.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">drawabox.com</a>。每次浏览都有相似的感受：网站的内容很吸引人，但课程体系过于庞大，让人望而生畏。我总是难以找到一个合适的方式开启这段学习之旅。<br/> <br/></li><li data-pid=\"UT17b95U\"><b>愿景：</b>我希望能找到一个固定的场合，与富有才华的同好一起合唱和声，但我不想参加正式演出，也不想排练固定的曲目——只希望每次相聚时都能一起探索演绎新的音乐。<br/> </li></ul><p data-pid=\"P3-VLLFo\">我很清楚，如果只是把这些闪念添加到待办事项清单中，它们多半会被遗忘。虽然投入深度的创造性思考可能会让这些闪念得到发展，但这种珍贵的注意力资源往往已经被占用在那些更系统化的项目中了。</p><p data-pid=\"d1SioEXF\">问题的关键在于，我常常难以判断这些闪念对我究竟有多重要。比如「研究改变阶段理论」这样匆匆记下的想法，目前看来似乎意义不大，所以我不太愿意投入深入思考。但我又对这个想法缺乏足够了解，不能贸然将其抛弃。如果稍加关注，它可能会变得意义非凡。就这样，它陷入了一个令人困扰的模糊地带。</p><p data-pid=\"FGfPrnY5\">更令人困扰的是，这些闪念中，许多都不是你能够一次专注就能完成的事情。比如说「探索自己的人生原则」，或是「学着以轻松的心态生活」，亦或是「尝试在 <a href=\"https://link.zhihu.com/?target=https%3A//drawabox.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">drawabox.com</a> 上学习绘画」，都需要在漫长的时间里反复投入和探索。然而，要有条不紊地分配注意力，持续关注这些事情，却实在不是一件容易的事。</p><p data-pid=\"XbpTZVh1\">总的来说，这些闪念之所以难以处理，主要在于它们通常：</p><ul><li data-pid=\"nac9LzK-\"> 缺乏明确的下一步<br/> </li><li data-pid=\"GehC5SPh\"> 需要调动创造性思维<br/> </li><li data-pid=\"lvNE_m8w\"> 难以判断其重要程度<br/> </li><li data-pid=\"dBaAKZZM\"> 当下似乎无关紧要，但在未来某个情境中可能变得重要<br/> </li><li data-pid=\"KG62_dVe\"> 无法一次解决<br/> </li></ul><p data-pid=\"ROhUFFhN\">在注意力管理方面，我确实掌握了一些行之有效的方法：我懂得如何专注于大型创意项目，也知道如何维持日常习惯和兴趣。但这些能力究竟源自何处？在我看来，它们往往源自于我们刚才讨论的那些闪念——一个想法、一个疑问、一个引用，或是一份愿景。然而，这个发展过程却相当随机。只有当这些闪念来得足够清晰，或是恰好遇到一段空闲时间，又或是反复出现多次时，它们才有可能发展成真实的成果。否则，它们就会被不经意间遗落，而这种遗落并非出于我的主动选择。这一切总让我感到失落。</p><p data-pid=\"YT_rPGyu\">这让我想到了间隔重复记忆系统，它很好地解决了记忆过程中的随机性问题。一旦我将某个内容输入到记忆系统中，它的记忆就不再依赖于偶然因素。我能够非常有把握地确保自己会记住这些内容。同样地，对于那些界定明确的具体任务，采用「GTD（Getting Things Done）」这类管理系统，（通常）也能帮助我建立起确定感，不再受制于偶然因素。</p><p data-pid=\"e7-LYpGW\">那么：我们究竟该如何为这些闪念建立一个行之有效的注意力管理系统呢？</p><h2>我们的解决方案</h2><p data-pid=\"LFbTG52E\">我们建议：</p><ul><li data-pid=\"JhTYPku9\"> 设计一个让闪念定期浮现的信息流<br/> </li><li data-pid=\"fUwA08pf\"> 配备一些轻量级的推进方式<br/> </li><li data-pid=\"Dz05zew-\"> 在手机刷推等放松时刻使用<br/> </li><li data-pid=\"qffBaEZB\"> 直到你对这些闪念有了充分认识，可以<b>着手实施</b>或是放下它们<br/> </li></ul><p data-pid=\"aB0G0XvW\">让我用一个例子来说明。假设我随手记录了一个想法：「研究行为改变阶段理论」。接下来会这样展开：</p><ul><li data-pid=\"aCIl5btf\"> 第二天，这个闪念出现在我的信息流中，系统建议我设置两分钟计时，对着麦克风分享这个想法的由来和为什么觉得它值得关注。我的讲话内容会被转成文字，整理后保存在这条记录中。<br/> <br/></li><li data-pid=\"Syh7dSve\"> 几天后，这个闪念重新浮现，这次配上了维基百科的理论概要和几篇相关文章。我阅读了概要和其中一篇摘要，随后发现自己对其中的干预措施特别感兴趣，尤其是这些措施如何能应用到辅助自助书籍阅读的间隔重复系统中。<br/> <br/></li><li data-pid=\"4pZ68OrN\"> 再过几天，这个闪念又出现了，带着一份常见干预措施的列表。系统提示我标记出特别相关的内容。<br/> <br/></li><li data-pid=\"26_ounbn\"> 在接下来的几周里，我会利用闲暇时间，阅读描述这些干预措施的论文片段，用语音记录下自己的观察感悟，逐渐形成对这个理论如何融入我工作的整体认识。<br/> <br/></li><li data-pid=\"7yCePsYG\"> 最终，当我对这个闪念有了充分的理解，觉得可以告一段落时，我就让这个闪念进入休眠期，六个月后或是当我在另一个想法中提到「穿越时间的文本」时再唤醒它。<br/> </li></ul><p data-pid=\"xSVWSTNn\">这个例子最终以暂时搁置收场，乍看之下可能有些奇怪。但事实上，这恰恰是一个实打实的成功案例。在几周的零散时间里，我渐渐对这个理论有了充分的理解，看清了它如何与我的工作相契合，也为未来埋下了更多可能性的种子。这些积累的见解都被记录下来，可以在将来派上用场。我很清楚，一旦这个闪念变得相关，它就会重新进入我的视野，所以我可以放心地暂时将它搁置。这并不意味着它就此终结：它很可能会成为未来某个项目的关键部分。反过来说，如果我只是把它简单地加入待办清单，我怀疑上面这一切都不会发生。</p><p data-pid=\"g6f8UYnv\">让我们来看看这个系统如何应对了我们之前列出的那些闪念难题。我们曾经提到闪念会：</p><ul><li data-pid=\"xUGeGOgW\"> 缺乏明确的下一步<br/> </li><ul><li data-pid=\"4lSQEIno\"> 系统会主动提供下一步的行动建议。<br/> </li></ul><li data-pid=\"DM3y_scR\"> 需要调动创造性思维<br/> </li><ul><li data-pid=\"fne7WirG\"> 这些活动特别适合精力较低的时段，只需要短暂的创造性投入。<br/> </li></ul><li data-pid=\"VioSYJx3\"> 难以判断其重要程度<br/> </li><ul><li data-pid=\"1kgJX6WN\"> 这些活动帮助我对想法有了更清晰的认识。<br/> </li></ul><li data-pid=\"WEzZPguc\"> 当下似乎无关紧要，但在未来某个情境中可能变得重要<br/> </li><ul><li data-pid=\"vl0FHwlW\"> 我为未来可能需要的场景积累了笔记和见解。<br/> </li><li data-pid=\"ydsHBtEA\"> 我知道只要提到相关话题，这个闪念就会自动重现。<br/> </li></ul><li data-pid=\"JK0XxIw0\"> 无法一次解决<br/> </li><ul><li data-pid=\"vke8EY_2\"> 虽然这个例子理论上可以一次性完成，但考虑到它的重要程度，我不会选择这样做。<br/> </li><li data-pid=\"5nFNu4Wm\"> 因此，系统帮助我把这个任务自然地分散到了一段时间里。<br/> </li></ul></ul><h2>对比原始的间隔重复</h2><p data-pid=\"Vup7Eha4\">我此前曾试图解决这样的问题。举例来说，我开发了一个采用间隔重复理念的写作收件箱，让我能够记录下「我在探索创造怎样的原则?」这类闪念，并且可以随着时间推移多次回顾。这个想法听起来很棒。但实际运用中，我发现当这样的卡片出现时，我往往提不起兴趣去深入思考。</p><p data-pid=\"4K5wcTbT\">其中一个问题是卡片过于单调。每次看到都会想「唉，又是这个。」面对着和上次一样的空白页面，我常常无法产生任何新的想法。</p><p data-pid=\"imo4PpWV\">另一个问题是语境缺失。在专注思考某个特定问题时，我会记录下一些想法或疑问。但这些想法常常会在我已经不再思考那个问题的时候重新浮现。这种情况下，我会感到与当初的思考状态脱节，自然也就不愿意投入思考了。</p><p data-pid=\"MTFwuWJk\">还有一个相关的最后问题是「终局处理」：当我稍微深入发展了一个想法之后，就会到达一个暂时告一段落的时期。这时我既不想继续定期查看这个想法，但又不敢简单地把笔记归档，因为我担心一旦归档就可能永远与这些想法失联了。</p><p data-pid=\"dNCQgWUJ\">在我们的新系统中，两个核心理念可以帮助解决上述问题。</p><p data-pid=\"fhZufk0s\">第一个理念是系统的阶梯式微任务设计。当一个闪念重新浮现时，系统不会简单地重复显示同样的旧卡片，而是会提供一些具体的后续行动建议，有时还会附带一些新的信息供你思考。我们尽可能为这些行动设定明确的属性：时间限制（「设定两分钟计时，然后...」）、清晰的进度指引（「让我们列出一些例子...」），以及具体的目标（「至少添加三个例子...」）。我们正在积累一个微任务模式库，并将这些模式整合成适用于不同类型闪念的行动指南。</p><p data-pid=\"xUAbtAzU\">第二个关键理念我们称之为<b>情境化重现</b>。当一个闪念出现在你的信息流中时，它会附带其他相关闪念的链接——这些可能是一些原本要很久以后才会出现的旧想法。有时这些相关闪念会成为推荐微任务的一部分（例如「思考它们之间的关联」）。你还可以明确指定特定主题，让暂时搁置的闪念在合适的时机重现。这些设计旨在解决前述的情境脱节和终局处理问题，它让你能够深入挖掘富有价值的思考情境，或是将某个闪念暂时搁置，直到你再次思考相关话题时再重新展现。这样做的整体效果是带来一种安全感：你能多次遇到每个闪念，并且确信它们还会再次出现。</p><p data-pid=\"A0T_TXX6\">这两个理念的实现都依赖于大语言模型的最新进展。不过，我们运用大语言模型的方式与大多数「提升生产力」的系统有着本质区别。那些系统通常致力于让大语言模型来<b>完成</b>任务。但实际上，大语言模型并不能真正「完成」我前面提到的那些闪念。正如 Taylor 巧妙地表述：其他系统是你在引导大语言模型，而我们的系统是<b>让大语言模型来引导你</b>。</p><h2>下一步</h2><p data-pid=\"A3JSmNq6\">Taylor 和我一直在采用经典的「“人工”智能测试（Wizard of Oz experiment）」来构建这个系统的原型：我们将闪念发送到一个专门的邮箱。然后我们互相「扮演 AI」的角色，通过回复来重现对方的闪念并设置微任务。收到邮件的一方可以通过回复来「完成」这些微任务，如此往复。这种方式产生了令人惊喜的效果！我们可以识别和复用那些未来可以整合到大语言模型流程中的模式，同时在想要尝试新方法时也能随时打破这些固有模式。</p><p data-pid=\"M9ALxisJ\">我在这里特别提到我们的方法，是因为我经常见到许多技术人员一上来就急着构建大语言模型基础设施，结果最终陷入困境。除非你的应用场景确实需要实时交互，否则在确认某个方案能真正解决问题之前就急于自动化是毫无意义的。通过人工交互来迭代优化概念设计要容易得多。当你发现某个方案效果好到让你希望突破手动操作的限制时，那才是着手引入自动化的最佳时机。</p><p data-pid=\"aR5x-sJ6\">现在，我们的原型系统已经到达了这个阶段。从许多方面来看，系统的设计都取得了令人振奋的成效，它很好地推动了我们闪念的发展。但随着「数据库」规模不断扩大，加上我们希望录入更多内容，我们已经难以手动处理日益复杂的调度工作和情境关联需求。是时候开始引入一些自动化元素了。</p><p data-pid=\"TUKtmPsB\">我们还面临着大量亟待解决的概念设计难题，包括许多在本信中未曾提及的系统细节问题。尽管这些挑战让人有些不知所措，但我仍然感到无比兴奋，因为我们终于在可编程注意力（programmable attention）这片充满希望的未知领域实现了突破。</p><hr/><p data-pid=\"EOulYYak\">感谢 Taylor 在这个合作项目上的慷慨精神，以及对这篇文本的有益建议。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"BA9-G0tV\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">Suntiania</span>，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/towards-scalable-115120980\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Towards scalable blip cultivation | Patreon</a><br/>作者：<span class=\"nolink\">Andy Matuschak</span><br/>发布于 2024 年 11 月 1 日</blockquote>",
+  "column": {
+    "updated": 1751877351,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Jarrett Ye",
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "avatar_url": "https://picx.zhimg.com/50/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    },
+    "url": "https://api.zhihu.com/columns/c_1525784109008203776",
+    "title": "助记媒介 & 思想工具",
+    "image_url": "https://pica.zhimg.com/v2-f4040c00796b5bb3ba64980f9be88d6f_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1525784109008203776"
+  },
+  "comment_count": 6,
+  "image_url": "https://pica.zhimg.com/v2-5c5d5878c0a4cb36f56fe4e1cf453091_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 1,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1757989121,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "不知是出于怀旧，还是某种奇特的责任感，我总花很多时间思考该如何教小孩软件工程。…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 1950572109941155300,
+  "voteup_count": 46,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1757988910,
+  "url": "https://api.zhihu.com/articles/1950572109941155203",
+  "comment_permission": "all",
+  "title": "软件开发教育中的「渐进式呈现」",
+  "image_width": 1021,
+  "content": "<p data-pid=\"39wlIP1l\">不知是出于怀旧，还是某种奇特的责任感，我总花很多时间思考该如何教小孩软件工程。为纪念 <a href=\"https://link.zhihu.com/?target=http%3A//whyday.org/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Whyday</a>，在此将脑海中一些纷乱的想法整理成文。</p><p data-pid=\"_fpSf0fX\">「我们该教哪门语言？」这往往是课程设计时人们问的第一个问题。但这问题问错了。我们不妨把它理解为：「我们的课程应该以哪些工具为基础？」</p><p data-pid=\"eZebnQ32\">软件知识金字塔的基石由三个关键领域构成：</p><p data-pid=\"skQ-1EX2\">1. <b>算法思维</b>：我该如何表达「这些数里哪个最大」？嗯，我需要一个 <code>maxSoFar</code> 变量，然后遍历每一个数……</p><p data-pid=\"0YgBbshv\">2. <b>语法</b>：我该如何用一种机器能够理解的语言来表达这些算法？</p><p data-pid=\"afJ74wMZ\">3. <b>系统层面的现实</b>：为什么我不能用 <code>while(1);</code> 来等待线程结束？为什么我不能写 <code>int *foo() { int x = 4; return &amp;x; }</code>？</p><p data-pid=\"SOLKeSH1\">学生们之所以觉得 C 语言难上手，就是因为他们被迫同时学习这三个领域。知识量太大了，而且要过很久他们才能真正做出点东西来。</p><p data-pid=\"2Z6Xj00_\">我曾试过教孩子们 Ruby，以避开系统层面的现实问题，但他们仍然在语法上磕磕绊绊，浪费了太多时间。</p><p data-pid=\"eIZ7dOcI\">很多人说 Scheme 才是正道：没有语法，也无需面对系统现实。但当我尝试用 <b>SICP </b>来教学时，却在另一个关键的第零领域上栽了跟头：</p><p data-pid=\"-FVaVsgR\">0. <b>源动力</b>：当「我是不是该学学编程」这个念头萌生后，我必须有足够的热情，才能啃完一章章枯燥的基础知识。</p><p data-pid=\"5KzGzxfz\">我童年的第一个项目是个文字冒险游戏。但当我把这个「胡萝卜」吊在今天的孩子面前时，他们却无动于衷。他们中大多数人从未打开过终端，自然也不关心如何在这个陌生又落后的世界里鼓捣东西。</p><p data-pid=\"HVk-y0ym\">这正是 <a href=\"https://link.zhihu.com/?target=http%3A//research.microsoft.com/en-us/projects/kodu/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Kodu</a>、<a href=\"https://link.zhihu.com/?target=http%3A//www.alice.org/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Alice</a> 和 <a href=\"https://link.zhihu.com/?target=http%3A//scratch.mit.edu/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Scratch</a> 这类项目激动人心的原因：它们的产出让人感觉很<b>真实</b>。一个为初学者设计的系统，只有当孩子能做出连他不懂技术的朋友都想要的东西时，才算有吸引力。当他炫耀自己的作品——当他听到「哇，你这是怎么<b>做</b>到的？！」——<b>那一刻</b>，他才被点燃。然后，他就彻底入迷了。</p><p data-pid=\"Snjs48YX\">然而，另一方面，当一个孩子初次打开 Alice 时，他看到的是这个画面：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-b4f9a71d85f76f65ccee9965282e2f48_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"373\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pica.zhimg.com/v2-b4f9a71d85f76f65ccee9965282e2f48_r.jpg\" data-original-token=\"v2-b4f9a71d85f76f65ccee9965282e2f48\"/></figure><p data-pid=\"-wJh64hr\">那个疯狂的 Java 界面就别管它了。它自知其丑。我们要注意两点：第一，空空如也的游戏世界；第二，一个罗列了所有可用功能的库，随时可以拖拽到场景中。有人会称这种设计为一大<b>亮点</b>。没错，对某些学生而言，这能激发探索欲并带来回报。但对另一些人，我认为这很可怕，就像一幅关于万里晴空的一千块拼图，茫然无措。</p><p data-pid=\"evDJLZsP\">作为对比，我们来看看《<b>不可思议的机器</b>》。这个谜题的目标是：「你能让全部三把枪都开火吗？」</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-52564914bca173748a545270818709ba_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"375\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pica.zhimg.com/v2-52564914bca173748a545270818709ba_r.jpg\" data-original-token=\"v2-52564914bca173748a545270818709ba\"/></figure><p data-pid=\"h7szYWZx\">大部分场景已经搭建完毕，目标清晰明确。一个有限的工具箱提供了解决问题所需的零件，但解法却不止一种。每一关都很简短，玩家能频繁地获得成就感。</p><p data-pid=\"foj4gQkv\">久而久之，玩家就学会了每个零件的用法，谜题也随之变得更加复杂。工具箱里会混入一些无关的零件；游戏还会奖励那些构思巧妙的别样解法。最终，孩子就可以进入沙盒模式，一个无限的工具箱任他使用，轮到他去设计谜题挑战朋友了。</p><p data-pid=\"1JsY_q7v\">如果把这种「渐进式呈现」的理念应用到软件教育中，会怎样呢？</p><p data-pid=\"SngPVBX7\">我们已经见识过<a href=\"https://link.zhihu.com/?target=http%3A//aer.sagepub.com/content/10/4/307.abstract\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">奖励与结构如何影响学习</a>。我们已经见识过成就、合作等社交元素如何<a href=\"https://link.zhihu.com/?target=http%3A//www.farmville.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">吸引玩家不断回归</a>。我们也见识过<a href=\"https://link.zhihu.com/?target=http%3A//en.wikipedia.org/wiki/SimCity\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">在潜移默化中学习的游戏</a>那不动声色的力量。</p><p data-pid=\"7QPWDiEl\">那为什么不做一个<b>创造游戏的游戏</b>呢？</p><p data-pid=\"Z2F_wdz1\">比方说，有一个关卡是国际跳棋。但它出故障了：棋子只能横平竖直地走，不能斜着走！现在，修复它。游戏的各个部件都已就位，必要的构建模块也在工具箱里为你准备好了。</p><p data-pid=\"PI1Vrrsv\">或者：你在玩一个游戏，AI 对手强得离谱。现在，请修改规则让你能赢，但你只能使用工具箱里<b>这些</b>部件。如果你用更少的修改击败 AI，还能获得一个成就。</p><p data-pid=\"4hzTuwFy\">或者：这个关卡的游戏只完成了一半。结局该是怎样？分享给你的朋友们，让他们来续写！</p><p data-pid=\"hRBNbsRj\">或者：改变规则的部件有其空间或时间上的作用范围，需要通过努力赢得或寻找；在一个<a href=\"https://link.zhihu.com/?target=http%3A//en.wikipedia.org/wiki/Castle_Infinity\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">在线解谜平台游戏</a>中，和朋友们一起挥舞这些充满编程味的「魔咒」，协同作战。</p><p data-pid=\"C_l0ntnr\">关于游戏世界观的一个设想：整个世界如同刘易斯·卡罗尔的奇境，正在分崩离析。一切都颠倒错乱、残缺不全，而玩家扮演着某种神明，与熵的力量抗争。</p><p data-pid=\"2r600Nf2\">我没有时间或资源去实现这个想法，但畅谈一番<b>确实</b>很有趣。这个「渐进式呈现」的灵感只是冰山一角，我还有些别的想法想与大家探讨。</p><p data-pid=\"Nrd84ATe\">特别是（因为我是个语言发烧友）：这门语言该是什么样？我一直在用各种系统制作《<b>卡坦岛</b>》、《<b>俄罗斯方块</b>》和《<b>超级马里奥兄弟</b>》来进行测试。在<a href=\"https://link.zhihu.com/?target=http%3A//en.wikipedia.org/wiki/Visual_programming_language\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">可视化编程</a>、<a href=\"https://link.zhihu.com/?target=http%3A//en.wikipedia.org/wiki/Declarative_programming\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">声明式编程</a>和<a href=\"https://link.zhihu.com/?target=http%3A//en.wikipedia.org/wiki/Event-driven_programming\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">事件驱动编程</a>的交叉领域，我已有些心得，但这个话题，还是留待我进一步阅读和实验后再谈吧。</p><hr/><p data-pid=\"I0kt7AOP\">对这些话题感兴趣？欢迎<a href=\"mailto:andy@andymatuschak.org\">来信交流</a>。</p><p data-pid=\"VYvyxrHA\">为求排版简洁，特将此部分移出：<a href=\"https://link.zhihu.com/?target=http%3A//blog.andymatuschak.org/private/980470127/tumblr_l7flp4qx8f1qzk3gw\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">补充阅读附录。</a></p><p data-pid=\"aGHpiPI8\">我在这一领域的探索，得益于和 <a href=\"https://link.zhihu.com/?target=http%3A//homepage.mac.com/kenferry/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Ken Ferry</a>、<a href=\"https://link.zhihu.com/?target=http%3A//ianhenderson.org/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Ian Henderson</a>、<a href=\"https://link.zhihu.com/?target=http%3A//interactive.usc.edu/members/josborn/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Joe Osborn</a>、<a href=\"https://link.zhihu.com/?target=http%3A//playswithfire.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Chris Parker</a>、<a href=\"https://link.zhihu.com/?target=http%3A//dscoder.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">David Smith</a> 以及 <a href=\"https://link.zhihu.com/?target=http%3A//importantshock.wordpress.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Patrick Thomson</a> 之间极其宝贵的讨论。感谢你们，朋友们，为本文及后续相关文章贡献了内容——也感谢你们忍受我这两个月来在每次谈话中都喋喋不休这个话题。</p><p data-pid=\"vuiNWaAA\">《不可思议的机器》截图来自 <a href=\"https://link.zhihu.com/?target=http%3A//www.mobygames.com/game/incredible-machine\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">MobyGames</a>。</p><hr/><blockquote data-pid=\"dUStkU6A\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">g</span>emini-2.5-pro，校对<span class=\"nolink\">Jarrett Ye</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//blog.andymatuschak.org/post/981429112/progressive-disclosure-in-software-education\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Square Signals : Progressive Disclosure in Software Education</a><br/>发布于 <span class=\"nolink\">2010 年 8 月 20</span> 日</blockquote>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 0,
+  "image_url": "https://picx.zhimg.com/v2-fc1bd2a9f2b3910206a2e71552b7df51_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

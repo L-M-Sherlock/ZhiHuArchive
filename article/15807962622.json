@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1737171908,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://pic1.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "在《结论从何而来》 [1]一文中，我提出了「两盒一钻」困境：有两个盒子，其中一个装…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 15807962622,
+  "voteup_count": 29,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1735704799,
+  "url": "https://api.zhihu.com/articles/15807962622",
+  "comment_permission": "all",
+  "title": "合理化",
+  "image_width": 1375,
+  "content": "<p data-pid=\"me9qWfKS\">在<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/The-Bottom-Line\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《结论从何而来》</a><sup data-text=\"结论从何而来\" data-url=\"https://zhuanlan.zhihu.com/p/13265385885\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>一文中，我提出了「两盒一钻」困境：有两个盒子，其中一个装有钻石；有各种迹象和征兆可用于判断钻石在哪个盒子。我将人分为两类：好奇的探究者和能言善道的说客。好奇的探究者会记录下所有迹象和征兆，经过分析后得出结论：「<b>因此</b>，我估计 <b>B</b> 盒里有钻石的概率是 85%。」而能言善道的说客则为出价最高的人服务，他们会先写下「<b>因此</b>，钻石在盒子 B 里」，然后再挑选有利的迹象和征兆来支持这个结论。</p><p data-pid=\"Q_D-HfEU\">第一种做法是理性。第二种做法通常被称为「合理化」。</p><p data-pid=\"mvc-uom_\">「合理化」，多么奇怪的说法。我认为这纯属<b>用词不当</b>。你不能把本来就不合理的东西「合理化」。这就好比把「说谎」称为「真实化」一样荒谬。</p><p data-pid=\"Vp_3RF9Q\">从纯粹的计算角度来看，以下两种方法之间存在着相当大的差异：</p><ol><li data-pid=\"zrwkoBf5\"> 从证据出发，通过概率推演，最终得出一个可能的结论。（先记录所有的迹象和征兆，然后正向推导，根据这些迹象和征兆计算出最终概率。）<br/> <br/></li><li data-pid=\"IRWndjLM\"> 从结论出发，通过概率推演，筛选出明显支持该结论的证据。（先确定最终结论，然后反向推导，<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/What-Evidence-Filtered-Evidence\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">选择性</a><sup data-text=\"什么是证据筛选？\" data-url=\"https://zhuanlan.zhihu.com/p/15300705897\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>列举支持该结论的迹象和征兆。）<br/> </li></ol><p data-pid=\"KkhRW-De\">究竟是哪个糊涂虫发明了「理性」和「合理化」这两个词，如此相似，却被用来描述两种截然不同心理过程？我更倾向于使用能够凸显算法差异的术语，比如「理性」和「巨大的认知黑洞」。</p><p data-pid=\"7TMDJYSJ\">并非所有的改变都是进步，但所有的进步必然涉及改变。为一个既定观点做辩护是无法更加接近真相的；你也许能说服更多人相信它，但这并不会使它更加真实。要想改进信念，就必须改变信念。我们行使理性，是为了改变自身信念，使之更加准确。而合理化是为了固守既有信念；从实际效果和其反向算法来看，称其为「反理性」才更贴切。</p><p data-pid=\"R3seaT4K\">「理性」属于<b>正向</b>思维过程：收集证据，权衡证据，最终得出结论。如前文所述，好奇心的探究者会采用如下正向思维算法：<b>先</b>收集证据，记录所有可观察到的迹象和征兆，然后<b>正向</b>推演，最终得出一个此前未知的概率，即盒内是否有钻石。在整个理性推理的过程中，探究者并不知道最终会得出什么结论，这正是他们保持<b>好奇</b>的原因。在贝叶斯方法中，先验概率等于<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Conservation-Of-Expected-Evidence\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">后验概率的期望值</a><sup data-text=\"证据期望值守恒论\" data-url=\"https://hpmor.xyz/ai2zb_28/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>：如果你事先就知道会得出什么结论，那你的推理实际上已经结束了。</p><p data-pid=\"z5AAAhoT\">「合理化」属于<b>逆向</b>思维过程，从结论出发进行反推，选择性寻找证据。你先是确定了一个固定不变的结论，之后推理的目的是为了找出有利论据，用以支持这个结论。在这个过程中，未知变量并非结论，而是用来支持结论的有利论据。</p><p data-pid=\"Aamc2Gv8\">我担心传统理性主义没能让其追随者真正理解正逆向思维之间的差别。在传统理性主义看来，科学家提出一个心仪的假说，然后着手寻找实验将其证实，这并没有什么不妥。传统理性主义者会赞许道：「正是这种对自己理论的自豪感推动了科学的进步。」诚然，这<b>确实</b>是推动科学进步的动力。毕竟，与找到一个完全中立的人相比，找到两个立场相反的控辩双方要更容易。</p><p data-pid=\"lNPYFNwn\">然而，人人都在做的事，不一定就是对的。更好的做法是，科学家在有了心仪的假说之后，能够出于纯粹的<b>好奇心</b>，对假说进行<b>检验</b>——设计实验，推动信念走向未知的方向。</p><p data-pid=\"TNZGiweH\">在真心不知结论为何的情况下，你很可能会对此充满好奇。好奇心是<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/The-Twelve-Virtues-Of-Rationality\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">第一美德</a>；没了好奇心，你的探究将漫无目的，探索的技能也会失去方向。</p><p data-pid=\"V2Lk7p7I\">感受思维原力*的流动，并确保它不是在逆流。</p><blockquote data-pid=\"zjCofs-l\">*译注：原文为 flow of the Force，星战梗</blockquote><hr/><p data-pid=\"xIiP7A4J\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/15300705897\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-db1516149e617d9ff143a15423233b22_qhd.jpg\" data-image-width=\"6000\" data-image-height=\"4000\" class=\"internal\">Thoughts Memo：什么是证据筛选？</a><p data-pid=\"p9XARb2f\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/19114455919\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-dcd915edb68d9b76f8b25b8f5a2f57b9_qhd.jpg\" data-image-width=\"4256\" data-image-height=\"2832\" class=\"internal\">Thoughts Memo：理性的论证</a><hr/><blockquote data-pid=\"8mCaEl4c\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者潜艇，校对 <span class=\"nolink\">Jarrett Ye</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Rationalization\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Rationalization (readthesequences.com)</a></blockquote>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 1,
+  "image_url": "https://picx.zhimg.com/v2-49a182753963b1fad90ba797b5032b39_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

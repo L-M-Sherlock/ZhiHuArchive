@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1754964596,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "注： 本章将展开阐述第十八章[1]和第二十二章[2]中介绍的概念。⠀⠀⠀摘要： …",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 1903464003432322800,
+  "voteup_count": 39,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1746932374,
+  "url": "https://api.zhihu.com/articles/1903464003432322809",
+  "comment_permission": "all",
+  "title": "第三十一章 学习效率的技术深度剖析",
+  "image_width": 794,
+  "content": "<blockquote data-pid=\"Mm5Gp1ag\"><b>注：</b> 本章将展开阐述第十八章<sup data-text=\"第十八章 间隔重复（分散练习）\" data-url=\"https://zhuanlan.zhihu.com/p/1895420939283440005\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>和第二十二章<sup data-text=\"第二十二章 游戏化\" data-url=\"https://zhuanlan.zhihu.com/p/1896510468136341564\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>中介绍的概念。</blockquote><p data-pid=\"2n4xAb2w\">⠀⠀⠀<b>摘要：</b> 我们提出了理论最大学习效率这一概念，它可以类比于物理学中光速不可超越的现象。对于给定的知识图谱 ，其最大学习效率取决于知识点间的包含密度——然而，知识图谱无需完全被包含，甚至不需要接近完全包含状态，其最大学习效率就能接近理论极限。Math Academy 的数学知识图谱包含了足够多的知识点包含关系，使其最大学习效率接近理论极限。在实践中，学生个体所能达到的实际学习效率主要取决于其学习表现的质量，其次（在较小程度上）才受其学习速度（即每日平均完成的学习量）的影响。</p><h2>什么是学习效率？</h2><h3>| 理论最大学习效率</h3><p data-pid=\"BdbTqnkT\">在物理学中，没有任何物体的速度能超过光速。这是任何物理物体可以达到的理论最大速度，一个宇宙常数。</p><p data-pid=\"okU9dSN_\">在间隔重复的背景中，存在一个类似的概念：<b>理论最大学习效率。</b> 理论上，如果给定一个知识点间充分相互关联的知识体系，学习者就有可能在不显式复习先前已学内容的情况下，完成所有间隔重复任务。</p><p data-pid=\"wL4FdU49\">举一个简单的例子：设想有一系列主题，它们之间层层包含——第一个主题的知识完全被第二个主题包含，第二个主题又被第三个主题包含，以此类推。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-fb4d465e99019bb00793a82083a245ff_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"776\" data-rawheight=\"604\" class=\"origin_image zh-lightbox-thumb\" width=\"776\" data-original=\"https://picx.zhimg.com/v2-fb4d465e99019bb00793a82083a245ff_r.jpg\" data-original-token=\"v2-fb4d465e99019bb00793a82083a245ff\"/></figure><p data-pid=\"fLfIMw7A\">每当你学习一个新主题时，所有下层相关主题都会自动获得完整的隐式复习。假设你总有新主题可学，那么你需要进行显式复习的唯一原因是当你多次尝试学习下一个主题却屡屡失败。</p><p data-pid=\"XaXTcM4j\">重要的是要认识到，<b>一个知识图谱不需要完全或几乎完全由包含关系构成，其最大学习效率就能接近理论极限。</b>即使主题间的大多数关系不是包含性的，只要有一定比例的包含关系存在，也能产生显著效果。</p><p data-pid=\"MoUx9tMs\">以 Math Academy 的数学知识图谱为例，它包含了足够的包含关系，使其最大学习效率接近理论极限。我们通过实际观察发现，在实践中，大多数数学课程平均每个主题只需约一次显式复习就能掌握。理论上，一位在每项学习任务中都表现完美的优秀学生，甚至需要的显式复习更少。</p><h3>| 理论最小学习效率</h3><p data-pid=\"2e-ylhzT\">相对而言，还存在<b>理论最小学习效率</b>的概念。这正是独立抽认卡的场景——或者等同于一组没有任何包含关系的主题集合。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-3d6e9dad5aac5a7377b8ea94eb1f166b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1012\" data-rawheight=\"284\" class=\"origin_image zh-lightbox-thumb\" width=\"1012\" data-original=\"https://pic4.zhimg.com/v2-3d6e9dad5aac5a7377b8ea94eb1f166b_r.jpg\" data-original-token=\"v2-3d6e9dad5aac5a7377b8ea94eb1f166b\"/></figure><p data-pid=\"_dYq3Fi5\">在这种情况下，任何主题都无法从其他主题获得隐式复习。每一次复习都必须显式地进行。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-5241556698667cfa8253a99578f3703d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"1280\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://picx.zhimg.com/v2-5241556698667cfa8253a99578f3703d_r.jpg\" data-original-token=\"v2-5241556698667cfa8253a99578f3703d\"/></figure><p data-pid=\"XtrApUOg\">值得强调的是，与 Math Academy 不同，其他间隔重复学习系统<b>并未</b>利用包含关系的强大力量，因此它们只能实现理论<b>最小</b>学习效率。</p><h2>影响学习效率的因素</h2><p data-pid=\"4UofzFyJ\">请记住，为了实现最大化的学习效率，Math Academy 采用了我们称为<b>重复压缩</b>的流程。我们会收集所有到期需要复习的主题，然后将这些内容压缩成一个小得多的任务集，这个任务集能够：</p><ol><li data-pid=\"r4Mcighh\">覆盖所有到期的复习内容，以及</li><li data-pid=\"inp-eQ5U\">为你的整个知识体系带来最大的间隔重复学习收益。</li></ol><p data-pid=\"LDPsB4ga\">你可以将 Math Academy 视为一个装有涡轮增压器的教育引擎，而重复压缩就是我们的燃烧机制。</p><p data-pid=\"U5TgJn_P\">但请记住，一台引擎如果没有汽油和机油的供应，实际上是无法驱动汽车的。汽油用于产生驱动汽车的能量，而机油则用于防止摩擦导致引擎卡死。</p><p data-pid=\"Aho-lUDV\">同样的道理适用于 Math Academy。要体验到涡轮增压的效果，你需要：</p><ol><li data-pid=\"PY4XLjZ8\">投入足够<b>数量</b>的工作，这些工作可以转化为学习进度，以及</li><li data-pid=\"mIERcn4k\">确保工作<b>质量</b>足够高，以避免学习过程中出现过度摩擦。</li></ol><h3>| 表现</h3><p data-pid=\"pCdvb4fx\">通过分析你在各类学习任务中的<b>表现</b>（通过率和准确性），我们能够计算出一个<b>学习效率百分比</b>，用于估计你与课程可能达到的最大效率之间的接近程度。</p><p data-pid=\"Hzdr1MCy\">如果你保持高学习效率，那么只需完成相对较少的工作量，就能在课程中取得显著进步。但如果你的学习效率低下，那么你将需要完成更多工作量才能取得同样的进展。</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>学习效率</th><th>完成课程所需的工作量</th></tr><tr><td>1</td><td>1 倍</td></tr><tr><td>0.8</td><td>1.25 倍</td></tr><tr><td>0.67</td><td>1.5 倍</td></tr><tr><td>0.5</td><td>2 倍</td></tr><tr><td>0.25</td><td>4 倍</td></tr></tbody></table><h3>| 速度</h3><p data-pid=\"mo88_c3Y\">在 Math Academy 中，学习工作量以<b>经验点数（XP）</b>计量。一个 XP 代表一名普通认真（但非完美）学生在完全专注、高效学习状态下一分钟所能完成的工作量。你每个工作日平均完成的 XP 数量，即为你的<b>学习速度</b>。</p><h3>&gt; 学习效率与速度的关系</h3><p data-pid=\"7PexY6Ww\">尽管学习质量是影响学习效率的首要因素，但学习速度同样会对学习效率产生影响。当你更快地拓展知识边界时，你的知识边界就会更加超前于需要复习的内容，这样我们就更有可能找到合适的主题，帮你一次性「清除」大量待复习的内容。</p><p data-pid=\"2I4cW7b1\">我们通过实证研究确定了如下关系：</p><p data-pid=\"JbxjaRT3\">这意味着如果你将学习速度提高一倍，你的学习效率将提升约 2^0.1 = 7%。相应地，如果你的学习速度降低一半，学习效率则会下降约 7%。</p><h3>&gt; 学习速度与完成时间的关系</h3><p data-pid=\"Kj8v4S2Q\">在学校正常的课堂时间内，学生通常能够保持至少 40 分钟的完全专注且高效的学习状态。这相当于每个工作日 40 XP 的基准学习进度。</p><p data-pid=\"bLNWsXll\">在评估我们课程的 XP 总量时，我们模拟了一名认真但非完美的普通学生，以每个工作日 40 XP 的速度学习。平均而言，假设学生已掌握所有必要的预备知识，一门课程大约包含 3000 XP（这个数字会因所需涵盖的材料量而有较大差异，例如代数预备课程约为 2000 XP，而微积分预备课程则约为 4000 XP）。</p><p data-pid=\"c01bdnc5\">下表展示了按照不同学习速度，完成一门 3000 XP 课程所需的时间。请注意，学习效率是相对于每工作日 40 XP 的基准速度计算的（因此，每工作日 40 XP 的学习速度对应效率系数为 1，更高的学习速度则对应大于 1 的效率系数）。</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>速度<br/>(XP/工作日)</th><th>效率系数<br/>(速度/40)^0.1</th><th>完成一门3000XP基准课程所需时间<br/>工作日 = 3000/(速度*系数)</th></tr><tr><td>160</td><td>1.15</td><td>3 周</td></tr><tr><td>80</td><td>1.07</td><td>7 周</td></tr><tr><td>40</td><td>1.00</td><td>15 周</td></tr><tr><td>20</td><td>0.93</td><td>32 周</td></tr><tr><td>10</td><td>0.87</td><td>69 周 (~1.3 年)</td></tr><tr><td>5</td><td>0.81</td><td>148 周 (~3 年)</td></tr></tbody></table><p data-pid=\"5eHtgGuS\">为了提供一个参照：在传统课堂教学模式中，每个工作日包含 50 分钟的课堂学习时间，以及放学后相同时长的家庭作业。按照这样的学习安排，学生需要一整个学年（36 周）才能完成一门课程。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-4b7ceed5e185c257e0e619b81424ba19_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"1280\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://picx.zhimg.com/v2-4b7ceed5e185c257e0e619b81424ba19_r.jpg\" data-original-token=\"v2-4b7ceed5e185c257e0e619b81424ba19\"/></figure><p data-pid=\"rvmWi6JC\">但如果你在 Math Academy 上投入同样的时间（每个工作日 100 XP），你只需 5-6 周就能完成学习！这相当于速度提升了 6 倍以上——而且这并非只有天才才能做到。请记住，我们讨论的是一个认真但并非完美的普通学生。</p><p data-pid=\"9qYBCWxY\">即使是像 AP 微积分 BC 这样的大型课程（基准约为 6000 XP，是普通课程规模的两倍），学习速度仍然能提高 3 倍以上。如果再考虑到在传统课堂中，你需要额外花时间备考小测验、期中考试、期末考试以及 AP 考试本身，而这些在 Math Academy 的 6000 XP 基准中已经包含了，那么实际上是节省了4倍的时间。</p><p data-pid=\"3-_SC1aN\">从另一个角度看，如果你像玩手机游戏那样使用 Math Academy，每天只花几分钟，那么你可能需要近十年才能学完传统学校一年的数学课程。</p><p data-pid=\"gVRSJAer\">因此，如果你想体验 Math Academy 带来的好处，我们强烈建议你<b>至少</b>保持每个工作日 15 XP 的学习速度。当然，你的学习进度越快，效果就越好。</p><hr/><p data-pid=\"F9P5tepF\">上一章：</p><a href=\"https://zhuanlan.zhihu.com/p/1903424959960843411\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">第二十七章 诊断性考试的技术深度剖析 - 知乎</a><p data-pid=\"c-sKgngt\">下一章：</p><a href=\"https://zhuanlan.zhihu.com/p/1904984795546628821\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">第二十九章 核心主题优先策略的技术深度剖析 - 知乎</a><hr/><blockquote data-pid=\"VuJdCQZl\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3.7-sonnet，校对 Jarrett Ye、白侑<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//docs.google.com/document/d/1LLZK_34Oer9LwuqAv-pqxfXlR8n7V8zJ_MO323R7egI\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Math Academy Way: Using the Power of Science to Supercharge Student Learning</a></blockquote>",
+  "column": {
+    "updated": 1748246557,
+    "description": "",
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://pic1.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "https://api.zhihu.com/columns/c_1858865163022786560",
+    "title": "The Math Academy Way",
+    "image_url": "https://picx.zhimg.com/v2-b1651bba207f1c3370995962d00f5802_720w.jpg?source=d16d100b",
+    "type": "column",
+    "id": "c_1858865163022786560"
+  },
+  "comment_count": 4,
+  "image_url": "https://picx.zhimg.com/v2-8e22e2357f932607b3f744a2518cd9e9_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}
