@@ -80,6 +80,16 @@ def process_content(content: str) -> str:
         elif href:
             a["href"] = replace_url(href)
 
+        # Ensure links open in a new tab safely.
+        rel_attr = a.get("rel", [])
+        rel_values = rel_attr.split() if isinstance(rel_attr, str) else list(rel_attr)
+        for value in ("noopener", "noreferrer"):
+            if value not in rel_values:
+                rel_values.append(value)
+        if rel_values:
+            a["rel"] = rel_values
+        a["target"] = "_blank"
+
     # Remove u tags but keep their contents
     for u in soup.find_all("u"):
         u.unwrap()
@@ -104,7 +114,7 @@ def extract_reference(html: str) -> str:
     # Generate reference list if any references were found
     if references:
         reference_list = [
-            f'{index}. {ref["text"]} <a href="{ref["url"]}">{ref["url"]}</a>'
+            f'{index}. {ref["text"]} <a href="{ref["url"]}" target="_blank" rel="noopener noreferrer">{ref["url"]}</a>'
             for index, ref in sorted(references.items(), key=lambda item: int(item[0]))
         ]
         return f'<hr><section><h2>参考</h2>{"<br>".join(reference_list)}</section>'
@@ -162,11 +172,11 @@ article_template = """<!DOCTYPE html>
     </style>
 </head>
 <body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
-    <p><a href="./">← 返回目录</a></p>
+    <p><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
     <hr>
     <header>
         <img class="origin_image" src="${"image_url"}"/>
-        <h1><a href="${"url"}">${"title"}</a></h1>
+        <h1><a href="${"url"}" target="_blank" rel="noopener noreferrer">${"title"}</a></h1>
         <div class="author">
             <img class="avatar" id="avatar" src="${"avatar_url"}" />
             <div>
@@ -187,7 +197,7 @@ article_template = """<!DOCTYPE html>
             <h2>专栏：${"column_title"}</h2>
         </div>
         <hr>
-        <p><a href="./">← 返回目录</a></p>
+        <p><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
     </article>
     <script src="https://giscus.app/client.js"
             data-repo="L-M-Sherlock/ZhiHuArchive"
@@ -322,10 +332,10 @@ answer_template = """<!DOCTYPE html>
     </style>
 </head>
 <body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
-    <p><a href="./">← 返回目录</a></p>
+    <p><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
     <hr>
     <header>
-        <h1><a href="${"url"}">${"title"}</a></h1>
+        <h1><a href="${"url"}" target="_blank" rel="noopener noreferrer">${"title"}</a></h1>
         <div class="author">
             <img class="avatar" id="avatar" src="${"avatar_url"}" />
             <div>
@@ -343,7 +353,7 @@ answer_template = """<!DOCTYPE html>
         ${"content"}
         ${"reference"}
         <hr>
-        <p><a href="./">← 返回目录</a></p>
+        <p><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
     </article>
     <script src="https://giscus.app/client.js"
             data-repo="L-M-Sherlock/ZhiHuArchive"

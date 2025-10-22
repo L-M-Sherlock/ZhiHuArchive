@@ -99,11 +99,11 @@ html_content = (
     + f"""
     <h1>Thoughts Memo 和 Jarrett Ye 的知乎备份</h1>
     <p>
-        <a href="https://github.com/l-m-sherlock/ZhiHuArchive">
+        <a href="https://github.com/l-m-sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">
             <img src="https://img.shields.io/github/stars/l-m-sherlock/ZhiHuArchive?style=social" alt="GitHub stars">
         </a>
     </p>
-    <p>RSS: <a href="./feed.xml">Atom Feed</a></p>
+    <p>RSS: <a href="./feed.xml" target="_blank" rel="noopener noreferrer">Atom Feed</a></p>
 
     <div class="tabs">
         <button class="tab-button active" onclick="openTab(event, 'articles-tab')">文章 ({len(articles)})</button>
@@ -123,7 +123,7 @@ for article in articles:
     censored_text = " (censored)" if is_censored else ""
     html_content += f"""
         <div class="item">
-            <a href="./{article['file_stem']}.html" class="{censored_class}">{article['title']}{censored_text}</a>
+            <a href="./{article['file_stem']}.html" class="{censored_class}" target="_blank" rel="noopener noreferrer">{article['title']}{censored_text}</a>
             <span class="votes">({article['voteup_count']} 赞同)</span>
             <span class="created_time">({datetime.fromtimestamp(article['created']).strftime('%Y-%m-%d')})</span>
         </div>
@@ -150,7 +150,7 @@ for answer in answers:
 
     html_content += f"""
         <div class="item">
-            <a href="./{answer['file_stem']}.html" class="{censored_class}">{question_title}{censored_text}</a>
+            <a href="./{answer['file_stem']}.html" class="{censored_class}" target="_blank" rel="noopener noreferrer">{question_title}{censored_text}</a>
             <span class="votes">({answer['voteup_count']} 赞同)</span>
             <span class="created_time">({datetime.fromtimestamp(answer['created_time']).strftime('%Y-%m-%d')})</span>
         </div>
