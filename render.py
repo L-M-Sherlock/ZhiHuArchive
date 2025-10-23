@@ -166,8 +166,29 @@ article_template = """<!DOCTYPE html>
         .author > div {
             flex: 1;
         }
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+            border-radius: 4px;
+            padding: 0 0.1em;
+            transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+        }
+        a:hover,
+        a:focus-visible {
+            color: #1d4ed8;
+            border-bottom-color: rgba(29, 78, 216, 0.6);
+            background-color: rgba(37, 99, 235, 0.08);
+        }
+        a:focus-visible {
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+        }
         a[data-draft-type="link-card"] {
            display: block;
+           border-bottom: none;
+           padding: 0;
+           background: none;
         }
     </style>
 </head>
@@ -326,8 +347,29 @@ answer_template = """<!DOCTYPE html>
         .author > div {
             flex: 1;
         }
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+            border-radius: 4px;
+            padding: 0 0.1em;
+            transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+        }
+        a:hover,
+        a:focus-visible {
+            color: #1d4ed8;
+            border-bottom-color: rgba(29, 78, 216, 0.6);
+            background-color: rgba(37, 99, 235, 0.08);
+        }
+        a:focus-visible {
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+        }
         a[data-draft-type="link-card"] {
            display: block;
+           border-bottom: none;
+           padding: 0;
+           background: none;
         }
     </style>
 </head>

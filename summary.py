@@ -57,7 +57,40 @@ html_content = (
         .item { margin: 10px 0; }
         .votes { color: #666; font-size: 0.9em; }
         .created_time { color: #999; font-size: 0.9em; }
-        .censored { background-color: #ffeb3b; }
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+            border-radius: 4px;
+            padding: 0 0.1em;
+            transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+        }
+        a:hover,
+        a:focus-visible {
+            color: #1d4ed8;
+            border-bottom-color: rgba(29, 78, 216, 0.6);
+            background-color: rgba(37, 99, 235, 0.08);
+        }
+        a:focus-visible {
+            outline: none;
+            box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+        }
+        .badge-link,
+        .badge-link:hover,
+        .badge-link:focus-visible {
+            border: none;
+            padding: 0;
+            background: none;
+        }
+        .badge-link:focus-visible {
+            box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.35);
+            border-radius: 6px;
+        }
+        .censored {
+            background-color: #fef08a;
+            border-bottom-color: rgba(202, 138, 4, 0.6);
+            color: #1f2937;
+        }
 
         /* Tab styles */
         .tabs { margin-bottom: 20px; }
@@ -99,7 +132,7 @@ html_content = (
     + f"""
     <h1>Thoughts Memo 和 Jarrett Ye 的知乎备份</h1>
     <p>
-        <a href="https://github.com/l-m-sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">
+        <a class="badge-link" href="https://github.com/l-m-sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">
             <img src="https://img.shields.io/github/stars/l-m-sherlock/ZhiHuArchive?style=social" alt="GitHub stars">
         </a>
     </p>
