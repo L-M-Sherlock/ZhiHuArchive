@@ -1,0 +1,80 @@
+{
+  "status": 0,
+  "updated": 1762662089,
+  "author": {
+    "is_followed": false,
+    "badge": [
+      {
+        "type": "identity",
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "name": "Thoughts Memo",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "gender": 1,
+    "user_type": "people",
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "avatar_url": "https://pica.zhimg.com/50/v2-4355c018ed124b748dcefede70f34d8a_l.jpg?source=b1748391",
+    "is_following": false,
+    "type": "people",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "can_tip": false,
+  "excerpt": "自 1985 年以来，Piotr Woźniak 一直在构建一个关于人类学习的模型。该模型的核…",
+  "tipjarors_count": 0,
+  "admin_closed_comment": false,
+  "reason": "",
+  "excerpt_title": "",
+  "id": 1970806774190801700,
+  "voteup_count": 49,
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "created": 1762659515,
+  "url": "https://api.zhihu.com/articles/1970806774190801703",
+  "comment_permission": "all",
+  "title": "学习的乐趣、学习内驱力与知识估值网络的形式化理论",
+  "image_width": 791,
+  "content": "<p data-pid=\"UxCCXAjw\">自 1985 年以来，Piotr Woźniak 一直在构建一个关于人类学习的模型。该模型的核心是一种内在的渴望，即通过愉快的知识整合来探索和理解世界。学习者永不停止地寻求高价值的信息，其核心由两个相互作用的模块构成：<b>(A)</b> 一个自适应的<b>概念网络</b><sup data-text=\"概念网络\" data-url=\"https://zhuanlan.zhihu.com/p/266541480\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup><b> (Concept Network)</b>，它是个体对世界不断增长的、高度网络化的语义表征；以及 <b>(B)</b> 一个<b>学习内驱力</b><sup data-text=\"学习内驱力\" data-url=\"https://zhuanlan.zhihu.com/p/52990549\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup><b> (Learn Drive) </b>系统，负责选择能塑造概念网络历史的认知行为。模块 <b>(A)</b> 的结构优化所带来的<b>「乐趣」</b>，可以被精确地识别，而这正是模块 <b>(B)</b> 的<b>内在奖励</b>。换言之，<b>(B)</b> 的动机，就是去学习如何创造出那些 <b>(A)</b> 尚不知晓但又能高效、连贯地整合进去的<b>「有趣」</b>信息。为了最大化未来的预期奖励，在没有外部强制的情况下，<b>(B)</b> 会学习越来越复杂的探索行为，这些行为能产生最初令人惊奇（但最终会变得熟悉的）高价值知识，从而使 <b>(A)</b> 的模型迅速优化。</p><blockquote data-pid=\"WlfSy-YD\">注：本文是对《<a href=\"https://zhuanlan.zhihu.com/p/602150910\" class=\"internal\" target=\"_blank\">学习的乐趣</a>》的一次形式化尝试。如有疑惑，推荐阅读原文。行文结构参考 <a href=\"https://link.zhihu.com/?target=https%3A//people.idsia.ch/~juergen/creativity.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Formal Theory of Creativity and Fun and Intrinsic Motivation Explains Science, Art, Music, Humor (Juergen Schmidhuber). Artificial Scientists, Artificial Artists, Developmental Robotics, Curiosity, Attention, Surprise, Novelty, Discovery, Open-Ended Learning, Formal Theory of Beauty, Creating Novel Patters</a></blockquote><hr/><p data-pid=\"9-oNwPgU\"><b>更形式化的表述：</b> 设 <b>C(t)</b> 为某个主观学习者在时间 <b>t</b> 的概念网络的状态。设 <b>I(t)</b> 为在时间 <b>t</b> 输入的信息信号。学习者拥有一种自适应的机制，即<b>知识估值网络</b><sup data-text=\"知识估值网络\" data-url=\"https://zhuanlan.zhihu.com/p/617467538\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup><b> (Knowledge Valuation Network, KVN)</b>，用于评估任何信息 <b>I</b> 相对于当前概念网络 <b>C(t)</b> 的价值<sup data-text=\"知识估值\" data-url=\"https://zhuanlan.zhihu.com/p/560852624\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>。我们将信息 <b>I</b> 对于学习者在时间 <b>t</b> 的主观瞬时<b>吸引力</b>，即<b>学习熵</b><sup data-text=\"学习熵\" data-url=\"https://zhuanlan.zhihu.com/p/655457394\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup><b> (Learntropy)</b> <b>LE(I, (t))</b> 定义为：由 <b>KVN</b> 在给定学习者当前的前置知识、个人目标、处理速度和信道可靠性下，对 <b>I</b> 进行估值的输出。</p><p data-pid=\"_RRW6vnZ\">我们进而将由信息 <b>I</b> 在时间 <b>t</b> 产生的<b>内在奖励 (Intrinsic Reward)</b>，即<b>乐趣 (Pleasure)</b> <b>P(I, C(t))</b> 定义为：学习熵的直接函数。<b>P(I, C(t)) = f(LE(I, C(t)))</b>。其中，当学习熵为正且显著时，该函数输出一个高价值的奖励信号（即 <b>「哇！」因子</b>）；当学习熵为负时（例如，因解码失败<sup data-text=\"解码失败惩罚\" data-url=\"https://zhuanlan.zhihu.com/p/359921139\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>），它输出一个惩罚信号。学习内驱力系统在时间 <b>t₀</b> 的目标是最大化 <b>E[∑ᵀₜ=ₜ₀ P(I(t), C(t))]</b>，其中 <b>E</b> 是期望算子，<b>T</b> 是生命终点。这一目标通过学习内驱力系统选择认知行为（如注意力转移、信息搜寻）来实现。</p><p data-pid=\"Pau5gEn-\"><b>在大脑中的实现：</b> 该理论已通过对神经解剖学的观察得到验证。<b>概念网络 C(t)</b> 在生理上对应于分布在新皮质中的语义记忆网络。<b>知识估值网络 (KVN)</b> 是一个以<b>眶额皮质</b><sup data-text=\"位于眶额皮质的价值编码神经元\" data-url=\"https://zhuanlan.zhihu.com/p/586408138\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup><b> (OFC)</b> 为中心的分布式估值电路，它整合来自情绪中枢和记忆比较器（如海马体）的输入，以计算<b>学习熵 LE</b>。<b>内在奖励 P</b> 对应于<b>伏隔核</b>等奖励中枢的激活。<b>学习内驱力系统 (B)</b> 则是驱动这一整个回路、将高 <b>LE</b> 信号转化为探索行为的神经机制。</p><p data-pid=\"xwQNnTRd\"><b>该理论如何解释学习内驱力与学校外驱力的竞争：</b> 学校系统引入了一个并行的<b>学校外驱力</b><sup data-text=\"学校外驱力\" data-url=\"https://zhuanlan.zhihu.com/p/539022457\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"8\">[8]</sup><b> (School Drive) </b>系统，该系统对<b>外部奖励信号 P_ext(t)</b>（如分数、排名、避免惩罚）做出响应。学习者的总奖励函数变为 <b>P_total = g(P_int(t), P_ext(t))</b>。当处理强制信息 <b>I_school</b> 时，通常 <b>P_int(t) ≤ 0</b>（内在惩罚），而 <b>P_ext(t) &gt; 0</b>（外部奖励）。这导致了一个神经层面的<b>竞争性抑制</b><sup data-text=\"神经网络战争\" data-url=\"https://zhuanlan.zhihu.com/p/359658715\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"9\">[9]</sup>：为了最大化 <b>P_total</b>，处理外部奖励的通路必须主动抑制由<b>学习内驱力系统</b>产生的、指示知识不连贯的内在惩罚信号。</p><p data-pid=\"3oYmOXr0\"><b>该理论如何解释习得性无助：</b> 习得性无助<sup data-text=\"习得性无助\" data-url=\"https://zhuanlan.zhihu.com/p/575245791\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"10\">[10]</sup>是上述竞争过程的长期渐近后果。在长期暴露于强制性的 <b>I_school</b> 信号下，<b>学习内驱力系统 (B)</b> 的神经通路因持续的抑制而发生负向适应（即相关通路变弱）。计算<b>学习熵</b>和产生<b>内在奖励</b>的能力本身会萎缩。最终，学习者将停止生成任何由内在动机<sup data-text=\"内在动机\" data-url=\"https://zhuanlan.zhihu.com/p/26272464833\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"11\">[11]</sup>驱动的探索行为，即便外部强制被移除。其行为模式完全被<b>学校外驱力系统</b>所主导<sup data-text=\"大脑是完美的适应装置\" data-url=\"https://zhuanlan.zhihu.com/p/630451665\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"12\">[12]</sup>，从而丧失了天生的好奇心。</p><p data-pid=\"E9avHkqB\"><b>该理论如何解释教学的干扰与不连贯性</b><sup data-text=\"教学的连贯与干扰问题\" data-url=\"https://zhuanlan.zhihu.com/p/359061669\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"13\">[13]</sup><b>：</b> 外部奖励信号 <b>P_ext(t)</b> 迫使学习者将低学习熵的信息 <b>I_school</b> 整合进概念网络<b> C(t)</b> 中。这种整合是强制性的，违反了 <b>KVN</b> 的估值。这相当于在一个结构优化的树上，于一个任意的、不稳固的位置强行嫁接一个不兼容的枝条。由此产生的记忆痕迹在语义网络中是孤立的，缺乏深层连接，因此被标记为低价值。在后续的记忆优化过程（如睡眠中的突触修剪）中，这些不连贯的结构被系统识别为「噪声」并优先清除。这解释了为何在校所学知识易受干扰且在考试后迅速遗忘。</p><p data-pid=\"XenCNnmM\"><b>该理论如何解释拖延：</b> 拖延是<b>学习内驱力系统 (B)</b> 的一种理性行为<sup data-text=\"理性拖延\" data-url=\"https://zhuanlan.zhihu.com/p/350725699\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"14\">[14]</sup>。当面临一项强制性任务 <b>I_task</b>，<b>KVN</b> 会根据其与当前概念网络 <b>C(t)</b> 的不匹配，预测出一个低或负的<b>学习熵</b>，即 <b>E[LE(I_task, C(t))] ≤ 0</b>。因此，预期的内在奖励 <b>E[P]</b> 同样为零或负值。作为一个奖励最大化器，<b>学习内驱力系统</b>将采取最优策略，即选择执行其他能产生更高预期奖励的行为，从而推迟执行这个会引发惩罚信号的任务。</p><p data-pid=\"sX0BEEL2\"><b>总结：</b> 要解释人类的学习（或构建一个高效的学习系统），我们仅需几个关键要素：<b>(1)</b> 一个表征世界知识的动态网络结构，即概念网络；<b>(2)</b> 一个基于前置知识和目标的估值系统，即<b>知识估值网络</b>，它计算任何新信息的吸引力或<b>学习熵</b>；<b>(3)</b> 将学习熵直接转化为<b>乐趣</b>或痛苦的<b>内在奖励</b>机制；<b>(4) </b>一个独立的<b>学习内驱力</b>系统，它将内在奖励转化为能最大化未来知识整合乐趣的行为序列。学习者被内在驱动，去不断地寻找并整合那些能使其概念网络以最令人愉快的方式生长的信息。</p>",
+  "column": {
+    "updated": 1458209676,
+    "author": {
+      "is_followed": false,
+      "badge": [],
+      "name": "Thoughts Memo",
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "gender": 1,
+      "user_type": "people",
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "avatar_url": "https://picx.zhimg.com/50/v2-4355c018ed124b748dcefede70f34d8a_l.jpg?source=b1748391",
+      "is_following": false,
+      "type": "people",
+      "id": "4c592f496dc33822b560b382907ff1d0"
+    },
+    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
+    "comment_permission": "all",
+    "title": "Thoughts Memo的文章",
+    "image_url": "https://picx.zhimg.com/50/v2-4355c018ed124b748dcefede70f34d8a_l.jpg?source=b1748391",
+    "type": "column",
+    "id": "4c592f496dc33822b560b382907ff1d0"
+  },
+  "comment_count": 5,
+  "image_url": "https://picx.zhimg.com/v2-27d2fa20752510c088877bf3fb70ae8d_720w.jpg?source=b1748391",
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "voting": 0,
+  "type": "article",
+  "suggest_edit": {
+    "status": false,
+    "url": "",
+    "reason": "",
+    "tip": "",
+    "title": ""
+  },
+  "is_normal": true
+}

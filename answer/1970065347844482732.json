@@ -1,0 +1,121 @@
+{
+  "answer_type": "normal",
+  "author": {
+    "avatar_url": "https://picx.zhimg.com/v2-4355c018ed124b748dcefede70f34d8a_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-4355c018ed124b748dcefede70f34d8a.jpg?source=2c26e567",
+    "badge": [
+      {
+        "description": "信息技术行业 算法工程师",
+        "topics": [],
+        "type": "identity"
+      }
+    ],
+    "badge_v2": {
+      "detail_badges": [
+        {
+          "badge_status": "passed",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "detail_type": "super_activity",
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "sources": [
+            {
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "id": "27",
+              "name": "知势榜8月",
+              "priority": 27,
+              "token": "",
+              "type": "content_potential_category",
+              "url": ""
+            }
+          ],
+          "title": "社区成就",
+          "type": "reward",
+          "url": ""
+        },
+        {
+          "badge_status": "passed",
+          "description": "信息技术行业 算法工程师",
+          "detail_type": "identity_people",
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "sources": [],
+          "title": "已认证的个人",
+          "type": "identity",
+          "url": "https://zhuanlan.zhihu.com/p/96956163"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "merged_badges": [
+        {
+          "badge_status": "passed",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "detail_type": "best",
+          "icon": "",
+          "night_icon": "",
+          "sources": [],
+          "title": "社区成就",
+          "type": "best",
+          "url": ""
+        },
+        {
+          "badge_status": "passed",
+          "description": "信息技术行业 算法工程师",
+          "detail_type": "identity_people",
+          "icon": "",
+          "night_icon": "",
+          "sources": [],
+          "title": "认证",
+          "type": "identity",
+          "url": "https://zhuanlan.zhihu.com/p/96956163"
+        }
+      ],
+      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "title": "知势榜教育校园领域影响力榜答主"
+    },
+    "gender": -1,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "is_advertiser": false,
+    "is_org": false,
+    "is_privacy": false,
+    "name": "Thoughts Memo",
+    "type": "people",
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url_token": "L.M.Sherlock",
+    "user_type": "people"
+  },
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
+  "comment_count": 1,
+  "content": "<p data-pid=\"uT436Csu\">转载一下安利我 codex 朋友的文章（我学 Rust 的时候就是他和 GPT 手把手教的）</p><h2>llm powered developing</h2><blockquote data-pid=\"UXJR48Ei\">来源：<a href=\"https://link.zhihu.com/?target=https%3A//asukaminato.notion.site/llm-powered-developing-28fc81c07a9c80a2a392fbd9d1959212\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">llm powered developing | Notion</a><br/>作者：Asuka Minato</blockquote><p data-pid=\"hCWB-czb\">这篇文章无 ai 成分，均为真人编写。</p><p data-pid=\"gQm4r8eR\">大模型改变了我的开发习惯。</p><p data-pid=\"77RuuU7k\">当去修一个 issue， 或者完成一个需求的时候，一般都是更改已有的代码库。</p><p data-pid=\"bg3Wvylh\">需要了解代码库的结构，要修改的位置，如何更改。最后加一个测试作为 regression test。</p><p data-pid=\"7-bA-GZ4\">有一个典故叫做，改这一行只需要 1 分钟。但是知道在哪里改，为什么要这么改，就不止这 1 分钟。</p><p data-pid=\"YND9Zygp\">而在这步，llm code agent 会花非常多的上下文进行 plan（数据来源：交了 20+ 个 pr 观察出来的结论）</p><hr/><p data-pid=\"kBXO9dgM\">人在工作的时候有两个东西很重要，context （上下文）。attention （注意力）。</p><p data-pid=\"ZA37T88L\">上下文决定了你在工作时能够记得多少背景知识，有多少进入了你的活跃记忆。注意力则是能保证你能够专心看着在改的那一块。</p><p data-pid=\"_CLZyAyh\">大模型的上下文比人要大，特别是对于比较新的代码库，能在较短的时间内，把大量代码塞入自己的上下文，然后用工具（rg，ast-grep）找哪里需要更改，然后改。所以大模型在这方面的速度比人快。</p><p data-pid=\"erBgYLvb\">人写代码的时候，一般都会用一个编辑器去写。编辑器提供了高亮以及错误诊断，主机提供了编译环境。确保代码能够运行以及通过测试。</p><p data-pid=\"izl5a-z8\">而大模型，由于缺乏交互。所以在它们看来，更改的只是一个个 token 而已。</p><p data-pid=\"Mt2z_2-C\">所以很多 agent 在更改完代码后，都会尝试跑一遍比如 cargo test 用输出来判断更改是否合适。</p><p data-pid=\"hSSZ06XC\">所以比较高效的方法是，把一个已有的对话内容，或者一个完整的设计文档，用大模型易读的媒介, 比如说 txt, 发给 llm, 全程以这个文档为中心进行开发。</p><p data-pid=\"gqk0JjvB\">同时自己事先配置好环境，因为大模型在配置环境方面非常难受。这里 <a href=\"https://link.zhihu.com/?target=http%3A//idx.dev/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">idx.dev</a> 是好榜样。</p><p data-pid=\"e0RKy3NV\">大模型在更改需要各种花样的地方非常好用，但是在某些更适用于机械匹配替换的地方反而没有传统工具好用。你让它写一段程序数字符串，比让它直接数要放心得多。</p><p data-pid=\"FyB6bDCk\">如果觉得大模型一直用旧的 api 请考虑使用比如 context7 让大模型能够获得最新的信息</p><p data-pid=\"IwRnXXQX\">gpt5 会用 inspect 获得 Python 函数的签名来辅助编程。</p><p data-pid=\"bicDMNM2\">然后举几个现实的例子。改进 dify 的 codebase。</p><p data-pid=\"Cq7dIc_v\">我想要类型检查覆盖尽量多的地方。就用 basedpyright 跑一遍，有100多个报错。</p><p data-pid=\"qn9-aSM1\">prompt：修复由这个指令引发的报错。之后大模型会跑这个指令，获得报错，然后去更改代码，然后继续跑指令，报错，更改代码。这个过程由于 codex 有沙箱, 全程不需要我盯着看。结束之后观察一下更改. 如果满意，并且没有类型报错我就把它合并了。</p><p data-pid=\"HWLeLYK3\">任务具有以下特征：</p><p data-pid=\"mv9Sv95B\">判定标准明确：没有类型报错。</p><p data-pid=\"scSudves\">人脑验证简洁：前后逻辑一致，类型通过。</p><p data-pid=\"vXQLFjWI\">llm 还有一个用处是 review PR</p><p data-pid=\"KVw58ovO\">review PR 是需要脑力的，而且会打断目前的上下文。让 llm 先过一遍可以找出很多 PR 里的疏忽。比如批量重构时漏了某个地方。比如 typo，忘记删的 print。当然 llm 也会犯错，但是修正 llm 的错误相比挑 llm 的刺，心智负担低很多。</p><p data-pid=\"URP1deiC\">另一个意想不到的场景是翻译。注意这里不是英译中。而是根据 specification 进行代码实现。</p><p data-pid=\"n6REaEiN\">背景：在给一个 type checker 做贡献。但是里面有些检查没有做。我就把对应检查的 specification 和 issue，以及进行检查的位置发给 llm，就自动翻代码库进行针对上下文的翻译了。效果奇佳。</p><p data-pid=\"yFZ02Kti\">在看 llm 写的代码时，还是需要自己理解给 llm 的 task 是什么，以及大致的进行思路。也就是自己需要有相关背景。</p><p data-pid=\"azcRSRl4\">同时需要一门比较严格的语言，降低自动化纠错的精力。（现在很火的 lean4 写起来比 rust 还难受，但已经有很多用 llm + lean4 自动化的研究 + 成果了）</p><hr/><p data-pid=\"u1InV5My\">发给一位 llm coding 前辈, 他的补充评论</p><p data-pid=\"jvLQgmZJ\">还有先给 LLM 一个可以用于评估的目标，再让它自己完成任务，这时候 TDD 会很有用，你可以 review 完测试用例就放心让它工作数小时去完成一个较大的功能，事后对结构不满意要求它重构时也不用花太多精力重复 review。</p>",
+  "content_need_truncated": false,
+  "created_time": 1762480180,
+  "excerpt": "转载一下安利我 codex 朋友的文章（我学 Rust 的时候就是他和 GPT 手把手教的） llm powered developing来源：llm powered developing | Notion 作者：Asuka Minato这篇文章无 ai 成分，均为真人编写。 大模型改变了我的开发习惯。 当去修一个 issue， 或者完成一个需求的时候，一般都是更改已有的代码库。 需要了解代码库的结构，要修改的位置，如何更改。最后加一个测试作为 regression test。 有一个典故叫做，改这一行只需要…",
+  "force_login_when_click_read_more": false,
+  "id": "1970065347844482732",
+  "is_jump_native": false,
+  "question": {
+    "created": 1760583043,
+    "detail": "<p>有没有那种「AI 一出手，工作量瞬间减半」的体验？</p><p>请简单交代场景（任务类型、所用工具/模型、个人或团队）、前后耗时对比与可量化结果（如行数、Bug 数、上线时间），有踩坑也欢迎一并分享。</p><p></p>",
+    "id": "1962108177664447513",
+    "question_type": "normal",
+    "relationship": {},
+    "title": "能不能分享一次最近提效最明显的 AI协助开发?节省了多少时间?",
+    "type": "question",
+    "updated_time": 1760583043,
+    "url": "https://api.zhihu.com/questions/1962108177664447513"
+  },
+  "relationship": {
+    "upvoted_followees": []
+  },
+  "type": "answer",
+  "voteup_count": 90
+}
