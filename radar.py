@@ -4,38 +4,52 @@ import time
 import requests  # type: ignore
 import json
 from tqdm import tqdm  # type: ignore
-from collections import OrderedDict  # Add this import
+from collections import OrderedDict
 from dotenv import load_dotenv
 import os
 
 load_dotenv()
 _CENSORSHIP_PATH = Path("censorship.json")
+_USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+
+
+def _fetch_with_cookie_fallback(url: str) -> dict:
+    cookies = [
+        ("COOKIE_A", os.getenv("COOKIE_A")),
+        ("COOKIE_B", os.getenv("COOKIE_B")),
+    ]
+    last_error = None
+    for name, cookie in cookies:
+        if not cookie:
+            continue
+        headers = {"User-Agent": _USER_AGENT, "Cookie": cookie}
+        response = requests.get(url, headers=headers).json()
+        error = response.get("error")
+        if not error:
+            return response
+        if error.get("code") == 10003:
+            print(f"{name} 无效（code 10003），尝试备用 Cookie ...")
+            last_error = error
+            continue
+        return response
+    raise Exception(last_error or {"message": "No valid cookie available"})
 
 
 def answer_censored_check(url: str) -> bool:
-    cookie = os.getenv("COOKIE")
-    header = {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
-        "Cookie": cookie,
-    }
-    response = requests.get(url, headers=header).json()
+    response = _fetch_with_cookie_fallback(url)
     if response.get("error"):
         print(url)
         if response["error"]["code"] == 4041:
             return True
-        else:
-            raise Exception(response["error"])
+        raise Exception(response["error"])
     return False
 
 
 def article_censored_check(url: str):
-    cookie = os.getenv("COOKIE")
-    header = {
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36",
-        "Cookie": cookie,
-    }
-    response = requests.get(url, headers=header).json()
-    reaction_instruction = response.get("reaction_instruction")
+    response = _fetch_with_cookie_fallback(url)
+    if response.get("error"):
+        raise Exception(response["error"])
+    reaction_instruction = response.get("reaction_instruction") or {}
     if reaction_instruction.get("REACTION_GOLDEN_SENTENCE_SHARE"):
         return True
     return False

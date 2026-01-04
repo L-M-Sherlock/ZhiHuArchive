@@ -13,8 +13,8 @@ URL_TEMPLATE = "https://www.zhihu.com/api/v4/creators/analysis/realtime/content/
 DEFAULT_FILENAME = "zhihu_realtime_content.xls"
 OUTPUT_DIR = Path("downloads")
 ACCOUNTS = (
-    {"name": "Thoughts Memo", "slug": "thoughts", "cookie_key": "TM_COOKIE"},
-    {"name": "Jarrett Ye", "slug": "jarrett", "cookie_key": "JY_COOKIE"},
+    {"name": "Thoughts Memo", "slug": "thoughts", "cookie_key": "COOKIE_A"},
+    {"name": "Jarrett Ye", "slug": "jarrett", "cookie_key": "COOKIE_B"},
 )
 CONTENT_TYPES = ("article", "answer")
 
