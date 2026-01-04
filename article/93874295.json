@@ -1,80 +1,300 @@
 {
-  "status": 0,
+  "id": "93874295",
+  "title": "如何在 Ankidroid 上指定特定字段文字转语音(TTS)？",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/93874295",
+  "image_url": "https://picx.zhimg.com/v2-351e77b69c43947ba03cc87822701d0d_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-351e77b69c43947ba03cc87822701d0d_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://picx.zhimg.com/v2-6a409d896519a88783a148d06afe1a2b_200x112.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1227\" data-rawheight=\"235\" data-watermark=\"watermark\" data-original-src=\"v2-6a409d896519a88783a148d06afe1a2b\" data-watermark-src=\"v2-6314ad6afad53538b26560d2823bf449\" data-private-watermark-src=\"\" class=\"origin_image inline-img zh-lightbox-thumb\" data-original=\"https://picx.zhimg.com/v2-6a409d896519a88783a148d06afe1a2b_r.png\"/>之前发过一个想法，里面的代码还可以用，这里补上详细的教程。 <a href=\"https://www.zhihu.com/pin/1090633274971422720\" class=\"internal\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"visible\">zhihu.com/pin/109063327</span><span class=\"invisible\">4971422720</span><span class=\"ellipsis\"></span></a>阅读须知：本文仅针对已经在Ankidroid上使用TTS的读者，满足指定特定字段文字转语音而非整张卡片转语音的需求。 首先是安卓端的教程打开 Ankidroid 2.9 的用户手册 <a href=\"https://link.zhihu.com/?target=https%3A//docs.ankidroid.org/manual.html\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-00fd4cdbbf76cfb81308c88244438ca2_120x160.jpg\" data-image-width=\"240\" data-image-height=\"320\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">AnkiDr…</a>",
+  "created": 1574818818,
   "updated": 1580802448,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "之前发过一个想法，里面的代码还可以用，这里补上详细的教程。https://www.http://z…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 1080,
+  "image_height": 960,
+  "content": "<p data-pid=\"aPDsr92Z\">之前发过一个想法，里面的代码还可以用，这里补上详细的教程。</p><p data-pid=\"Z5fasg80\"><a href=\"https://www.zhihu.com/pin/1090633274971422720\" class=\"internal\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"visible\">zhihu.com/pin/109063327</span><span class=\"invisible\">4971422720</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"g-s2N0RV\">阅读须知：本文仅针对已经在Ankidroid上使用TTS的读者，满足指定特定字段文字转语音而非整张卡片转语音的需求。</p><hr/><h2>首先是安卓端的教程</h2><p data-pid=\"wVqdm1TQ\">打开 Ankidroid 2.9 的用户手册</p><a href=\"https://link.zhihu.com/?target=https%3A//docs.ankidroid.org/manual.html\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-00fd4cdbbf76cfb81308c88244438ca2_120x160.jpg\" data-image-width=\"240\" data-image-height=\"320\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">AnkiDroid 2.9 User Manual</a><p data-pid=\"5ijfuIk-\">Ctrl + F，搜索 TTS</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-6314ad6afad53538b26560d2823bf449_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1227\" data-rawheight=\"235\" data-original-token=\"v2-6a409d896519a88783a148d06afe1a2b\" class=\"origin_image zh-lightbox-thumb\" width=\"1227\" data-original=\"https://pic2.zhimg.com/v2-6314ad6afad53538b26560d2823bf449_r.jpg\"/></figure><p data-pid=\"06AZrlS4\">找到对应的手册章节</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-4cdd97ac465dbacfe8fd7cef9b79a2ac_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1497\" data-rawheight=\"829\" data-original-token=\"v2-c38da6e585d85f34f9e5ebab71f73265\" class=\"origin_image zh-lightbox-thumb\" width=\"1497\" data-original=\"https://pica.zhimg.com/v2-4cdd97ac465dbacfe8fd7cef9b79a2ac_r.jpg\"/></figure><p data-pid=\"PDZ-o8xs\">阅读手册，对照自己使用的模板，我用的是划词助手Antimoon模板</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-fe62fb4173c255b3550a762d0031993d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"814\" data-rawheight=\"736\" data-original-token=\"v2-62dbc6373263c89697035243e6fa8b8f\" class=\"origin_image zh-lightbox-thumb\" width=\"814\" data-original=\"https://picx.zhimg.com/v2-fe62fb4173c255b3550a762d0031993d_r.jpg\"/></figure><p data-pid=\"tQkkgQTy\">编写满足自己需求的代码，我想要在卡片正面播放我的英文例句，于是在正面将 {{例句}} 改写成</p><div class=\"highlight\"><pre><code class=\"language-html\">\t<span class=\"p\">&lt;</span><span class=\"nt\">tts</span> <span class=\"na\">service</span><span class=\"o\">=</span><span class=\"s\">&#34;android&#34;</span> <span class=\"na\">voice</span><span class=\"o\">=</span><span class=\"s\">&#34;en_US&#34;</span><span class=\"p\">&gt;</span>\n\t{{例句}}\n\t<span class=\"p\">&lt;/</span><span class=\"nt\">tts</span><span class=\"p\">&gt;</span></code></pre></div><p data-pid=\"_y-jliCa\">然后就可以了。</p><h2>然后是和电脑端兼容的教程</h2><p data-pid=\"Yul0j8h2\">继续看文档，发现可以和 AwesomeTTS兼容</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0ebe2a9ff61581fabe92653617e961e7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1522\" data-rawheight=\"650\" data-original-token=\"v2-370894001b0119d5c0cf29299139d274\" class=\"origin_image zh-lightbox-thumb\" width=\"1522\" data-original=\"https://pic2.zhimg.com/v2-0ebe2a9ff61581fabe92653617e961e7_r.jpg\"/></figure><p data-pid=\"fnHa1vyV\">我之前使用的是微软的TTS，所以仿照文档编写代码</p><div class=\"highlight\"><pre><code class=\"language-html\"><span class=\"p\">&lt;</span><span class=\"nt\">tts</span> <span class=\"na\">service</span><span class=\"o\">=</span><span class=\"s\">&#34;sapi5com&#34;</span> <span class=\"na\">quality</span><span class=\"o\">=</span><span class=\"s\">&#34;39&#34;</span> <span class=\"na\">speed</span><span class=\"o\">=</span><span class=\"s\">&#34;0&#34;</span> <span class=\"na\">voice</span><span class=\"o\">=</span><span class=\"s\">&#34;Microsoft David Desktop&#34;</span> <span class=\"na\">volume</span><span class=\"o\">=</span><span class=\"s\">&#34;100&#34;</span> <span class=\"na\">xml</span><span class=\"o\">=</span><span class=\"s\">&#34;16&#34;</span><span class=\"p\">&gt;</span>\n\t<span class=\"p\">&lt;</span><span class=\"nt\">tts</span> <span class=\"na\">service</span><span class=\"o\">=</span><span class=\"s\">&#34;android&#34;</span> <span class=\"na\">voice</span><span class=\"o\">=</span><span class=\"s\">&#34;en_US&#34;</span><span class=\"p\">&gt;</span>\n\t{{例句}}\n\t<span class=\"p\">&lt;/</span><span class=\"nt\">tts</span><span class=\"p\">&gt;</span>\n<span class=\"p\">&lt;/</span><span class=\"nt\">tts</span><span class=\"p\">&gt;</span></code></pre></div><p data-pid=\"T1YY0qJ9\">然后就实现了在电脑上使用 AwesomeTTS，在手机上使用 系统/Google 的TTS服务，并且可以针对特定字段。</p><p data-pid=\"XjGOHqYZ\">注意：AwesomeTTS 官方版本已经停止更新，所以我建议使用这个版本：</p><a href=\"https://link.zhihu.com/?target=https%3A//ankiweb.net/shared/info/814349176\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">AwesomeTTS (Google Cloud Text-to-Speech) [unofficial]</a><p data-pid=\"GVVpukDg\">插件安装代码：814349176</p><hr/><h2>拓展阅读</h2><p data-pid=\"RfIO0YNR\">如果想要了解如何在安卓手机上使用 TTS，看这篇</p><a href=\"https://zhuanlan.zhihu.com/p/26006690\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-abe4f1a057875e273aa9f9670b23466a_180x120.jpg\" data-image-width=\"465\" data-image-height=\"261\" class=\"internal\">余时行：【工具篇】TTS 妈妈再也不用担心我的软件发音</a><p data-pid=\"0VdBoJw5\">如果想要了解如何在电脑上使用 Anki 插件 AwesomeTTS 来对特定字段文字转语音，可以看这篇</p><a href=\"https://zhuanlan.zhihu.com/p/24868747\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-c819598079ea0b3bb53b8386b7fa1c19_180x120.jpg\" data-image-width=\"900\" data-image-height=\"500\" class=\"internal\">易小猫：AwesomeTTS高级技巧之&lt;tts&gt;标签一劳永逸</a><p></p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19783871",
+      "type": "topic",
+      "id": "19783871",
+      "name": "Anki（知识记忆工具）"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19558435",
+      "type": "topic",
+      "id": "19558435",
+      "name": "英语学习"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19768920",
+      "type": "topic",
+      "id": "19768920",
+      "name": "学习工具"
+    }
+  ],
+  "voteup_count": 50,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "comment_count": 26,
+  "contributions": [],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 93874295,
-  "voteup_count": 48,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 124,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "如何在 Ankidroid 上指定特定字段文字转语音(TTS)？ - 来自知乎专栏，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/93874295 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1574818818,
-  "url": "https://api.zhihu.com/articles/93874295",
-  "comment_permission": "all",
-  "title": "如何在 Ankidroid 上指定特定字段文字转语音(TTS)？",
-  "image_width": 960,
-  "content": "<p data-pid=\"aPDsr92Z\">之前发过一个想法，里面的代码还可以用，这里补上详细的教程。</p><p data-pid=\"Z5fasg80\"><a href=\"https://www.zhihu.com/pin/1090633274971422720\" class=\"internal\"><span class=\"invisible\">https://www.</span><span class=\"visible\">zhihu.com/pin/109063327</span><span class=\"invisible\">4971422720</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"g-s2N0RV\">阅读须知：本文仅针对已经在Ankidroid上使用TTS的读者，满足指定特定字段文字转语音而非整张卡片转语音的需求。</p><hr/><h2>首先是安卓端的教程</h2><p data-pid=\"wVqdm1TQ\">打开 Ankidroid 2.9 的用户手册</p><a href=\"https://link.zhihu.com/?target=https%3A//docs.ankidroid.org/manual.html\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-00fd4cdbbf76cfb81308c88244438ca2_120x160.jpg\" data-image-width=\"240\" data-image-height=\"320\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">AnkiDroid 2.9 User Manual</a><p data-pid=\"5ijfuIk-\">Ctrl + F，搜索 TTS</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-6314ad6afad53538b26560d2823bf449_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1227\" data-rawheight=\"235\" class=\"origin_image zh-lightbox-thumb\" width=\"1227\" data-original=\"https://pic2.zhimg.com/v2-6314ad6afad53538b26560d2823bf449_r.jpg\" data-original-token=\"v2-6a409d896519a88783a148d06afe1a2b\"/></figure><p data-pid=\"06AZrlS4\">找到对应的手册章节</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-4cdd97ac465dbacfe8fd7cef9b79a2ac_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1497\" data-rawheight=\"829\" class=\"origin_image zh-lightbox-thumb\" width=\"1497\" data-original=\"https://pica.zhimg.com/v2-4cdd97ac465dbacfe8fd7cef9b79a2ac_r.jpg\" data-original-token=\"v2-c38da6e585d85f34f9e5ebab71f73265\"/></figure><p data-pid=\"PDZ-o8xs\">阅读手册，对照自己使用的模板，我用的是划词助手Antimoon模板</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-fe62fb4173c255b3550a762d0031993d_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"814\" data-rawheight=\"736\" class=\"origin_image zh-lightbox-thumb\" width=\"814\" data-original=\"https://picx.zhimg.com/v2-fe62fb4173c255b3550a762d0031993d_r.jpg\" data-original-token=\"v2-62dbc6373263c89697035243e6fa8b8f\"/></figure><p data-pid=\"tQkkgQTy\">编写满足自己需求的代码，我想要在卡片正面播放我的英文例句，于是在正面将 {{例句}} 改写成</p><div class=\"highlight\"><pre><code class=\"language-html\">\t<span class=\"p\">&lt;</span><span class=\"nt\">tts</span> <span class=\"na\">service</span><span class=\"o\">=</span><span class=\"s\">&#34;android&#34;</span> <span class=\"na\">voice</span><span class=\"o\">=</span><span class=\"s\">&#34;en_US&#34;</span><span class=\"p\">&gt;</span>\n\t{{例句}}\n\t<span class=\"p\">&lt;/</span><span class=\"nt\">tts</span><span class=\"p\">&gt;</span></code></pre></div><p data-pid=\"_y-jliCa\">然后就可以了。</p><h2>然后是和电脑端兼容的教程</h2><p data-pid=\"Yul0j8h2\">继续看文档，发现可以和 AwesomeTTS兼容</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0ebe2a9ff61581fabe92653617e961e7_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1522\" data-rawheight=\"650\" class=\"origin_image zh-lightbox-thumb\" width=\"1522\" data-original=\"https://pic2.zhimg.com/v2-0ebe2a9ff61581fabe92653617e961e7_r.jpg\" data-original-token=\"v2-370894001b0119d5c0cf29299139d274\"/></figure><p data-pid=\"fnHa1vyV\">我之前使用的是微软的TTS，所以仿照文档编写代码</p><div class=\"highlight\"><pre><code class=\"language-html\"><span class=\"p\">&lt;</span><span class=\"nt\">tts</span> <span class=\"na\">service</span><span class=\"o\">=</span><span class=\"s\">&#34;sapi5com&#34;</span> <span class=\"na\">quality</span><span class=\"o\">=</span><span class=\"s\">&#34;39&#34;</span> <span class=\"na\">speed</span><span class=\"o\">=</span><span class=\"s\">&#34;0&#34;</span> <span class=\"na\">voice</span><span class=\"o\">=</span><span class=\"s\">&#34;Microsoft David Desktop&#34;</span> <span class=\"na\">volume</span><span class=\"o\">=</span><span class=\"s\">&#34;100&#34;</span> <span class=\"na\">xml</span><span class=\"o\">=</span><span class=\"s\">&#34;16&#34;</span><span class=\"p\">&gt;</span>\n\t<span class=\"p\">&lt;</span><span class=\"nt\">tts</span> <span class=\"na\">service</span><span class=\"o\">=</span><span class=\"s\">&#34;android&#34;</span> <span class=\"na\">voice</span><span class=\"o\">=</span><span class=\"s\">&#34;en_US&#34;</span><span class=\"p\">&gt;</span>\n\t{{例句}}\n\t<span class=\"p\">&lt;/</span><span class=\"nt\">tts</span><span class=\"p\">&gt;</span>\n<span class=\"p\">&lt;/</span><span class=\"nt\">tts</span><span class=\"p\">&gt;</span></code></pre></div><p data-pid=\"T1YY0qJ9\">然后就实现了在电脑上使用 AwesomeTTS，在手机上使用 系统/Google 的TTS服务，并且可以针对特定字段。</p><p data-pid=\"XjGOHqYZ\">注意：AwesomeTTS 官方版本已经停止更新，所以我建议使用这个版本：</p><a href=\"https://link.zhihu.com/?target=https%3A//ankiweb.net/shared/info/814349176\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">AwesomeTTS (Google Cloud Text-to-Speech) [unofficial]</a><p data-pid=\"GVVpukDg\">插件安装代码：814349176</p><hr/><h2>拓展阅读</h2><p data-pid=\"RfIO0YNR\">如果想要了解如何在安卓手机上使用 TTS，看这篇</p><a href=\"https://zhuanlan.zhihu.com/p/26006690\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-abe4f1a057875e273aa9f9670b23466a_180x120.jpg\" data-image-width=\"465\" data-image-height=\"261\" class=\"internal\">余时行：【工具篇】TTS 妈妈再也不用担心我的软件发音</a><p data-pid=\"0VdBoJw5\">如果想要了解如何在电脑上使用 Anki 插件 AwesomeTTS 来对特定字段文字转语音，可以看这篇</p><a href=\"https://zhuanlan.zhihu.com/p/24868747\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-c819598079ea0b3bb53b8386b7fa1c19_180x120.jpg\" data-image-width=\"900\" data-image-height=\"500\" class=\"internal\">易小猫：AwesomeTTS高级技巧之&lt;tts&gt;标签一劳永逸</a><p></p>",
-  "column": {
-    "updated": 1599152271,
-    "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/ankigaokao",
-    "title": "AnkiX高考",
-    "image_url": "https://pic1.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "ankigaokao"
-  },
-  "comment_count": 26,
-  "image_url": "https://picx.zhimg.com/v2-351e77b69c43947ba03cc87822701d0d_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 9,
+  "has_column": false,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 9,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIjCgkxMDg5OTA2MTASCDkzODc0Mjk1GAciCklNQUdFX1RFWFQ=",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 50,
+      "down_vote_count": 1,
+      "like_count": 9,
+      "comment_count": 26,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 124,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-351e77b69c43947ba03cc87822701d0d": 0,
+        "v2-370894001b0119d5c0cf29299139d274": 0,
+        "v2-62dbc6373263c89697035243e6fa8b8f": 0,
+        "v2-6a409d896519a88783a148d06afe1a2b": 0,
+        "v2-c38da6e585d85f34f9e5ebab71f73265": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-351e77b69c43947ba03cc87822701d0d": false,
+        "v2-370894001b0119d5c0cf29299139d274": false,
+        "v2-62dbc6373263c89697035243e6fa8b8f": false,
+        "v2-6a409d896519a88783a148d06afe1a2b": false,
+        "v2-c38da6e585d85f34f9e5ebab71f73265": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-351e77b69c43947ba03cc87822701d0d": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-370894001b0119d5c0cf29299139d274": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-62dbc6373263c89697035243e6fa8b8f": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-6a409d896519a88783a148d06afe1a2b": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-c38da6e585d85f34f9e5ebab71f73265": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/15788015630?contentId=93874295&contentType=article"
+  },
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

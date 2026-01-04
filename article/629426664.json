@@ -1,80 +1,419 @@
 {
-  "status": 0,
+  "id": "629426664",
+  "title": "[开源+墨墨背单词] 时序记忆行为数据集介绍",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/629426664",
+  "image_url": "https://picx.zhimg.com/v2-7e2b6756b5e362c208d109038e513bac_720w.jpg?source=172ae18b",
+  "title_image": "https://pic1.zhimg.com/v2-7e2b6756b5e362c208d109038e513bac_720w.jpg?source=172ae18b",
+  "excerpt": "引言身为一名算法工程师，我深知数据的重要性。数据之于模型，就如食材之于厨师。食材的新鲜度和质量决定了菜肴的味道上限，而厨师的烹饪技巧则决定了能否做出最美味的菜肴。同样，数据的质量决定了模型效果的上限，而研究者们不断发掘各种潜在的模型结构，…",
+  "created": 1684406912,
   "updated": 1684406912,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "引言身为一名算法工程师，我深知数据的重要性。数据之于模型，就如食材之于厨师。食…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 1122,
+  "image_height": 772,
+  "content": "<h2>引言</h2><p data-pid=\"vz70UPu7\">身为一名算法工程师，我深知数据的重要性。数据之于模型，就如食材之于厨师。食材的新鲜度和质量决定了菜肴的味道上限，而厨师的烹饪技巧则决定了能否做出最美味的菜肴。同样，数据的质量决定了模型效果的上限，而研究者们不断发掘各种潜在的模型结构，以逼近这一上限。</p><p data-pid=\"dHE1gdR5\">为了促进记忆领域研究的发展， <a class=\"member_mention\" href=\"https://www.zhihu.com/people/3431283542f2aacaa4db5bc70e7d71ab\" data-hash=\"3431283542f2aacaa4db5bc70e7d71ab\" data-hovercard=\"p$b$3431283542f2aacaa4db5bc70e7d71ab\">@墨墨背单词</a> 在 2022 年初开源了 2.2 亿条记忆行为的数据集：</p><a href=\"https://link.zhihu.com/?target=https%3A//dataverse.harvard.edu/dataset.xhtml%3FpersistentId%3Ddoi%3A10.7910/DVN/VAGUL0\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-a23eb44803d9127bc6e055f77b869816_l.jpg\" data-image-width=\"1200\" data-image-height=\"1200\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Replication Data for: A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling</a><p data-pid=\"_3gYAko8\">目前该数据集的下载次数已经超过 700 次。为了让这份数据集发挥更大的价值，本文将简要介绍该数据集的基本信息和使用方法，帮助更多科研人员使用这一数据集。</p><h2>介绍</h2><h3>数据来源</h3><p data-pid=\"_MMABSbH\">2021 年 12 月 1 日至 2021 年 12 月 31 日期间墨墨背单词 APP 的在线学习用户。</p><h3>收集方法</h3><ol><li data-pid=\"6SSA889G\">一位学习者对一个单词的一次复习将产生一条记忆行为数据。其主要字段包括单词 id、学习者 id、时间戳、反馈。</li><li data-pid=\"39IVQUa5\">当学习者完成当日的学习任务后，当日所有的记忆行为数据将以日志的形式上传至服务器。</li><li data-pid=\"E9n9riY-\">在服务器上，日志同步系统将学习者的学习日志结构化，写入数据库。</li><li data-pid=\"Q7f8CRbO\">按照学习者和单词进行分组，计算每次复习之间的间隔。并将每次的反馈和间隔按先后顺序拼接，得到反馈序列和间隔序列。</li></ol><h3>数据预处理</h3><ul><li data-pid=\"a-FjySzz\">对学习者 id 进行了脱敏处理</li><li data-pid=\"KvJSt_Co\">将单词 id 替换为单词拼写</li><li data-pid=\"kCMHsm4e\">删除时间戳，保留复习间隔</li><li data-pid=\"7iIT6TjG\">排除第一次反馈<code>认识</code>和<code>不确定</code>的数据</li><li data-pid=\"95MtzkJ3\">排除反馈序列中包含<code>熟知</code>和<code>模糊</code>的数据</li><li data-pid=\"3rHP-Fon\">排除未按算法规划时间复习的数据</li><li data-pid=\"S69DPE6e\">排除单词拼写中包含特殊字符的数据</li></ul><h3>数据类型与结构</h3><p data-pid=\"J47q8YtU\">本数据集包含三份文件：</p><ul><li data-pid=\"QhTPOKkV\">opensource_dataset_raw.tsv</li><li data-pid=\"RCAmqxap\">opensource_dataset_difficulty.tsv</li><li data-pid=\"mfjyzyLJ\">opensource_dataset_forgetting_curve.tsv</li></ul><p data-pid=\"_FDcfRIS\">其中 opensource_dataset_raw.tsv 是原始数据，其结构如下：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>英文列名</th><th>中文列名</th><th>数据类型</th><th>示例</th><th>注释</th></tr><tr><td>u</td><td>用户 id</td><td>string</td><td>62e55b</td><td></td></tr><tr><td>w</td><td>单词拼写</td><td>string</td><td>specimen</td><td></td></tr><tr><td>i</td><td>学习次数</td><td>int</td><td>6</td><td></td></tr><tr><td>t_history</td><td>间隔历史</td><td>string</td><td>0,1,3,9,18</td><td>首个间隔统一为0</td></tr><tr><td>r_history</td><td>反馈历史</td><td>string</td><td>0,1,1,1,1</td><td>首个反馈统一为0</td></tr><tr><td>delta_t</td><td>学习间隔</td><td>int</td><td>30</td><td>单位为（天）</td></tr><tr><td>r</td><td>学习反馈</td><td>int</td><td>1</td><td>0: 忘记；1: 记住</td></tr></tbody></table><p data-pid=\"WkqS_wLQ\">opensource_dataset_difficulty.tsv 和 opensource_dataset_forgetting_curve.tsv 都可以从 opensource_dataset_raw.tsv 中得出。具体过程请见论文：</p><a href=\"https://zhuanlan.zhihu.com/p/577383961\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-337e676d732039a25471c1057c54bfa3_qhd.jpg\" data-image-width=\"2700\" data-image-height=\"1480\" class=\"internal\">叶峻峣：KDD&#39;22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]</a><h3>应用价值</h3><p data-pid=\"4VzHxwP8\">该数据集可用于研究人类记忆规律，提高学习者记忆效率。墨墨已经基于该数据集，发表了三篇学术论文：</p><a href=\"https://link.zhihu.com/?target=http%3A//jcip.cipsc.org.cn/CN/Y2022/V36/I12/133\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-ddca7fc1c27ce46b9d8218f14af5d45e_200x0.jpg\" data-image-width=\"279\" data-image-height=\"392\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">基于LSTM的语言学习长期记忆预测模型</a><a href=\"https://link.zhihu.com/?target=https%3A//www.maimemo.com/paper/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</a><a href=\"https://link.zhihu.com/?target=https%3A//ieeexplore.ieee.org/document/10059206\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Optimizing Spaced Repetition Schedule by Capturing the Dynamics of Memory | IEEE Journals &amp; Magazine | IEEE Xplore</a><h3>注意事项</h3><p data-pid=\"UpwM6e73\">本数据集采用 Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0) 协议进行授权。</p><p data-pid=\"stCzqnGU\">使用本数据集时，请引用本出版物。BibTeX 记录如下：</p><div class=\"highlight\"><pre><code class=\"language-text\">@inproceedings{10.1145/3534678.3539081,\nauthor = {Ye, Junyao and Su, Jingyong and Cao, Yilong},\ntitle = {A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling},\nyear = {2022},\npublisher = {ACM},\ndoi = {10.1145/3534678.3539081},\npages = {4381–4390},\nnumpages = {10}\n}</code></pre></div><h2>进一步阅读</h2><a href=\"https://zhuanlan.zhihu.com/p/561539418\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-508467d2d77b37d7642c84c0a995408a_qhd.jpg\" data-image-width=\"1199\" data-image-height=\"815\" class=\"internal\">叶峻峣：间隔重复记忆算法研究资源汇总</a><a href=\"https://zhuanlan.zhihu.com/p/626308184\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-634d4ff8b5d7e4f75dbdb943716232fc_l.jpg\" data-image-width=\"1118\" data-image-height=\"1000\" class=\"internal\">叶峻峣：[本科毕设] 基于 LSTM 和间隔重复模型的复习算法研究</a><a href=\"https://zhuanlan.zhihu.com/p/556020884\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-d5734ba2a8f7443e5dd8001cb46031fc_qhd.jpg\" data-image-width=\"1920\" data-image-height=\"1080\" class=\"internal\">叶峻峣：间隔重复记忆算法：e 天内，从入门到入土。</a><p data-pid=\"G4aWBod3\">欢迎任何有关数据集的问题，请在评论区提问。</p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/20094043",
+      "type": "topic",
+      "id": "20094043",
+      "name": "墨墨背单词"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19559450",
+      "type": "topic",
+      "id": "19559450",
+      "name": "机器学习"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19571430",
+      "type": "topic",
+      "id": "19571430",
+      "name": "认知科学"
+    }
+  ],
+  "voteup_count": 99,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "收录个人相关或不好分类的文章",
+    "is_following": true,
+    "url_token": "c_1280249768422608896",
+    "id": "c_1280249768422608896",
+    "articles_count": 73,
+    "accept_submission": true,
+    "title": "学委叶哥的随笔",
+    "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+    "comment_permission": "all",
+    "created": 1598015330,
+    "updated": 1751811281,
+    "image_url": "https://pic1.zhimg.com/v2-c31ca0615bbbe77cc9d0ad05465dd223_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 251,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 10,
+  "contributions": [
+    {
+      "id": 45295397,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "收录个人相关或不好分类的文章",
+        "is_following": true,
+        "url_token": "c_1280249768422608896",
+        "id": "c_1280249768422608896",
+        "articles_count": 73,
+        "accept_submission": true,
+        "title": "学委叶哥的随笔",
+        "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+        "comment_permission": "all",
+        "created": 1598015330,
+        "updated": 1751811281,
+        "image_url": "https://pic1.zhimg.com/v2-c31ca0615bbbe77cc9d0ad05465dd223_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 251,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 629426664,
-  "voteup_count": 92,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 127,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "[开源+墨墨背单词] 时序记忆行为数据集介绍 - 来自知乎专栏「学委叶哥的随笔」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/629426664 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1684406912,
-  "url": "https://api.zhihu.com/articles/629426664",
-  "comment_permission": "all",
-  "title": "[开源+墨墨背单词] 时序记忆行为数据集介绍",
-  "image_width": 772,
-  "content": "<h2>引言</h2><p data-pid=\"vz70UPu7\">身为一名算法工程师，我深知数据的重要性。数据之于模型，就如食材之于厨师。食材的新鲜度和质量决定了菜肴的味道上限，而厨师的烹饪技巧则决定了能否做出最美味的菜肴。同样，数据的质量决定了模型效果的上限，而研究者们不断发掘各种潜在的模型结构，以逼近这一上限。</p><p data-pid=\"dHE1gdR5\">为了促进记忆领域研究的发展， <a class=\"member_mention\" href=\"https://www.zhihu.com/people/3431283542f2aacaa4db5bc70e7d71ab\" data-hash=\"3431283542f2aacaa4db5bc70e7d71ab\" data-hovercard=\"p$b$3431283542f2aacaa4db5bc70e7d71ab\">@墨墨背单词</a> 在 2022 年初开源了 2.2 亿条记忆行为的数据集：</p><a href=\"https://link.zhihu.com/?target=https%3A//dataverse.harvard.edu/dataset.xhtml%3FpersistentId%3Ddoi%3A10.7910/DVN/VAGUL0\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-a23eb44803d9127bc6e055f77b869816_l.jpg\" data-image-width=\"1200\" data-image-height=\"1200\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Replication Data for: A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling</a><p data-pid=\"_3gYAko8\">目前该数据集的下载次数已经超过 700 次。为了让这份数据集发挥更大的价值，本文将简要介绍该数据集的基本信息和使用方法，帮助更多科研人员使用这一数据集。</p><h2>介绍</h2><h3>数据来源</h3><p data-pid=\"_MMABSbH\">2021 年 12 月 1 日至 2021 年 12 月 31 日期间墨墨背单词 APP 的在线学习用户。</p><h3>收集方法</h3><ol><li data-pid=\"6SSA889G\">一位学习者对一个单词的一次复习将产生一条记忆行为数据。其主要字段包括单词 id、学习者 id、时间戳、反馈。</li><li data-pid=\"39IVQUa5\">当学习者完成当日的学习任务后，当日所有的记忆行为数据将以日志的形式上传至服务器。</li><li data-pid=\"E9n9riY-\">在服务器上，日志同步系统将学习者的学习日志结构化，写入数据库。</li><li data-pid=\"Q7f8CRbO\">按照学习者和单词进行分组，计算每次复习之间的间隔。并将每次的反馈和间隔按先后顺序拼接，得到反馈序列和间隔序列。</li></ol><h3>数据预处理</h3><ul><li data-pid=\"a-FjySzz\">对学习者 id 进行了脱敏处理</li><li data-pid=\"KvJSt_Co\">将单词 id 替换为单词拼写</li><li data-pid=\"kCMHsm4e\">删除时间戳，保留复习间隔</li><li data-pid=\"7iIT6TjG\">排除第一次反馈<code>认识</code>和<code>不确定</code>的数据</li><li data-pid=\"95MtzkJ3\">排除反馈序列中包含<code>熟知</code>和<code>模糊</code>的数据</li><li data-pid=\"3rHP-Fon\">排除未按算法规划时间复习的数据</li><li data-pid=\"S69DPE6e\">排除单词拼写中包含特殊字符的数据</li></ul><h3>数据类型与结构</h3><p data-pid=\"J47q8YtU\">本数据集包含三份文件：</p><ul><li data-pid=\"QhTPOKkV\">opensource_dataset_raw.tsv</li><li data-pid=\"RCAmqxap\">opensource_dataset_difficulty.tsv</li><li data-pid=\"mfjyzyLJ\">opensource_dataset_forgetting_curve.tsv</li></ul><p data-pid=\"_FDcfRIS\">其中 opensource_dataset_raw.tsv 是原始数据，其结构如下：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>英文列名</th><th>中文列名</th><th>数据类型</th><th>示例</th><th>注释</th></tr><tr><td>u</td><td>用户 id</td><td>string</td><td>62e55b</td><td></td></tr><tr><td>w</td><td>单词拼写</td><td>string</td><td>specimen</td><td></td></tr><tr><td>i</td><td>学习次数</td><td>int</td><td>6</td><td></td></tr><tr><td>t_history</td><td>间隔历史</td><td>string</td><td>0,1,3,9,18</td><td>首个间隔统一为0</td></tr><tr><td>r_history</td><td>反馈历史</td><td>string</td><td>0,1,1,1,1</td><td>首个反馈统一为0</td></tr><tr><td>delta_t</td><td>学习间隔</td><td>int</td><td>30</td><td>单位为（天）</td></tr><tr><td>r</td><td>学习反馈</td><td>int</td><td>1</td><td>0: 忘记；1: 记住</td></tr></tbody></table><p data-pid=\"WkqS_wLQ\">opensource_dataset_difficulty.tsv 和 opensource_dataset_forgetting_curve.tsv 都可以从 opensource_dataset_raw.tsv 中得出。具体过程请见论文：</p><a href=\"https://zhuanlan.zhihu.com/p/577383961\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-337e676d732039a25471c1057c54bfa3_qhd.jpg\" data-image-width=\"2700\" data-image-height=\"1480\" class=\"internal\">叶峻峣：KDD&#39;22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]</a><h3>应用价值</h3><p data-pid=\"4VzHxwP8\">该数据集可用于研究人类记忆规律，提高学习者记忆效率。墨墨已经基于该数据集，发表了三篇学术论文：</p><a href=\"https://link.zhihu.com/?target=http%3A//jcip.cipsc.org.cn/CN/Y2022/V36/I12/133\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-ddca7fc1c27ce46b9d8218f14af5d45e_200x0.jpg\" data-image-width=\"279\" data-image-height=\"392\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">基于LSTM的语言学习长期记忆预测模型</a><a href=\"https://link.zhihu.com/?target=https%3A//www.maimemo.com/paper/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</a><a href=\"https://link.zhihu.com/?target=https%3A//ieeexplore.ieee.org/document/10059206\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Optimizing Spaced Repetition Schedule by Capturing the Dynamics of Memory | IEEE Journals &amp; Magazine | IEEE Xplore</a><h3>注意事项</h3><p data-pid=\"UpwM6e73\">本数据集采用 Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0) 协议进行授权。</p><p data-pid=\"stCzqnGU\">使用本数据集时，请引用本出版物。BibTeX 记录如下：</p><div class=\"highlight\"><pre><code class=\"language-text\">@inproceedings{10.1145/3534678.3539081,\nauthor = {Ye, Junyao and Su, Jingyong and Cao, Yilong},\ntitle = {A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling},\nyear = {2022},\npublisher = {ACM},\ndoi = {10.1145/3534678.3539081},\npages = {4381–4390},\nnumpages = {10}\n}</code></pre></div><h2>进一步阅读</h2><a href=\"https://zhuanlan.zhihu.com/p/561539418\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-508467d2d77b37d7642c84c0a995408a_qhd.jpg\" data-image-width=\"1199\" data-image-height=\"815\" class=\"internal\">叶峻峣：间隔重复记忆算法研究资源汇总</a><a href=\"https://zhuanlan.zhihu.com/p/626308184\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-634d4ff8b5d7e4f75dbdb943716232fc_l.jpg\" data-image-width=\"1118\" data-image-height=\"1000\" class=\"internal\">叶峻峣：[本科毕设] 基于 LSTM 和间隔重复模型的复习算法研究</a><a href=\"https://zhuanlan.zhihu.com/p/556020884\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-d5734ba2a8f7443e5dd8001cb46031fc_qhd.jpg\" data-image-width=\"1920\" data-image-height=\"1080\" class=\"internal\">叶峻峣：间隔重复记忆算法：e 天内，从入门到入土。</a><p data-pid=\"G4aWBod3\">欢迎任何有关数据集的问题，请在评论区提问。</p>",
-  "column": {
-    "updated": 1706022041,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/c_1280249768422608896",
-    "title": "学委叶哥的随笔",
-    "image_url": "https://pic1.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1280249768422608896"
-  },
-  "comment_count": 10,
-  "image_url": "https://pica.zhimg.com/v2-7e2b6756b5e362c208d109038e513bac_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 23,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 23,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMjgwMDQxODMSCTYyOTQyNjY2NBgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 99,
+      "down_vote_count": 0,
+      "like_count": 23,
+      "comment_count": 10,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 127,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-7e2b6756b5e362c208d109038e513bac": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-7e2b6756b5e362c208d109038e513bac": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-7e2b6756b5e362c208d109038e513bac": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=629426664&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 学委叶哥的随笔",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1280249768422608896",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 学委叶哥的随笔"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,9 +37,10 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,36 +84,56 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 4,
   "content": "<p data-pid=\"pMGOsov5\">这两篇应该足以回答你的问题：</p><a href=\"https://zhuanlan.zhihu.com/p/94067520\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-d28d0ab92b4b5442f13e9f3393c0a19d_l.jpg\" data-image-width=\"667\" data-image-height=\"594\" class=\"internal\">弥乱：[实用]蓝色牌组:啊哈哈哈,高阶魔法</a><a href=\"https://zhuanlan.zhihu.com/p/48318470\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-8bef13b40f868e627e1c5074ce345480_l.jpg\" data-image-width=\"1097\" data-image-height=\"1076\" class=\"internal\">叶峻峣：如何正确利用 「Anki」强大的卡片查找功能？</a><p data-pid=\"wOkUVXTE\">我就引用一段好了：</p><div class=\"highlight\"><pre><code class=\"language-kconfig\">is:due\n\n查找等待复习的卡片和等待学习的卡片\n\n\nis:new\n\n查找新的卡片\n\n\nis:learn\n\n查找学习中的卡片\n\n\nis:review\n\n查找复习（包括到期和未到期）和失误的卡片\n\n\nis:suspended\n\n查找手动暂停的卡片\n\n\nis:buried\n\n查找自动或手动搁置的卡片\n\n\n失误的卡片属于其中一个类别，因此将它们组合以获得更精确的结果可能很有用：\n\n\nis:learn is:review\n\n查找已经失误且等待重新学习的卡片\n\n\n-is:learn is:review\n\n查找复习卡片，不包括失误后重新学习的卡片\n\n\nis:learn -is:review\n\n查找第一次学习的卡片</code></pre></div><p data-pid=\"p-Z9pXoX\">希望有帮到你。</p>",
   "content_need_truncated": false,
   "created_time": 1618460013,
   "excerpt": "这两篇应该足以回答你的问题： [文章: [实用]蓝色牌组:啊哈哈哈,高阶魔法] [文章: 如何正确利用 「Anki」强大的卡片查找功能？] 我就引用一段好了： is:due 查找等待复习的卡片和等待学习的卡片 is:new 查找新的卡片 is:learn 查找学习中的卡片 is:review 查找复习（包括到期和未到期）和失误的卡片 is:suspended 查找手动暂停的卡片 is:buried 查找自动或手动搁置的卡片 失误的卡片属于其中一个类别，因此将它们组合以获得更精确的…",
-  "id": 1836304795,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1836304795",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/48318470": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"如何正确利用 「Anki」强大的卡片查找功能？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/48318470\",\"desc\":\"292 赞同 · 100 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 搜索卡片列表上方是一个搜索框。你可以在那里输入各种东西来搜索卡片。 （如果您更愿意在列表中选择要查找的内容，请查看上面的侧栏部分。） 简单搜索当您在搜索框中键入一些文本时，Anki会找到匹配的笔记并显示其卡片。 Anki在笔记的所有字段中搜索，但不搜索标签（有关如何搜索标签，请参阅本节后面部分）。 一些例子： dog 搜索“dog”- 将查找到像“dog”和“doggy”这样的词 dog cat 查找带有“d…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-8bef13b40f868e627e1c5074ce345480_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"48318470\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/94067520": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"[实用]蓝色牌组:啊哈哈哈,高阶魔法\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/94067520\",\"desc\":\"100 赞同 · 11 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e弥乱:\\u003c/a\\u003e 关键词: 筛选牌组; 自定义学习; 卡片查找/搜索 ⭐相关案例一: @鬼影刘 :您好，很抱歉，打扰您，我有一个困惑，比如说咋们把今天的复习完了，它得等到第二天才开始复习，我现在是不想等到第二天再复习第二次，我是想比如说10点把今天的复习完了，然后下午几点，我还想把今天学过的在复习一次，这个要如何处理啊?按我的理解,简单来说,向我咨询的问题是: \\\"今天到期的需要复习的卡片中,想在这天中多复习一次.\\\"\\\"每次复习完今天的日…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-d28d0ab92b4b5442f13e9f3393c0a19d_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"94067520\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/48318470": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"如何正确利用 「Anki」强大的卡片查找功能？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/48318470\",\"desc\":\"314 赞同 · 106 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 搜索卡片列表上方是一个搜索框。你可以在那里输入各种东西来搜索卡片。 （如果您更愿意在列表中选择要查找的内容，请查看上面的侧栏部分。） 简单搜索当您在搜索框中键入一些文本时，Anki会找到匹配的笔记并显示其卡片。 Anki在笔记的所有字段中搜索，但不搜索标签（有关如何搜索标签，请参阅本节后面部分）。 一些例子： dog 搜索“dog”- 将查找到像“dog”和“doggy”这样的词 dog cat 查找带有“d…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-8bef13b40f868e627e1c5074ce345480_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"48318470\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/94067520": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"[实用]蓝色牌组:啊哈哈哈,高阶魔法\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/94067520\",\"desc\":\"105 赞同 · 11 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e弥乱:\\u003c/a\\u003e 关键词: 筛选牌组; 自定义学习; 卡片查找/搜索 ⭐相关案例一: @鬼影刘 :您好，很抱歉，打扰您，我有一个困惑，比如说咋们把今天的复习完了，它得等到第二天才开始复习，我现在是不想等到第二天再复习第二次，我是想比如说10点把今天的复习完了，然后下午几点，我还想把今天学过的在复习一次，这个要如何处理啊?按我的理解,简单来说,向我咨询的问题是: \\\"今天到期的需要复习的卡片中,想在这天中多复习一次.\\\"\\\"每次复习完今天的日…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-d28d0ab92b4b5442f13e9f3393c0a19d_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"94067520\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1836304795&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1618043825,
     "detail": "",
-    "id": 453893941,
+    "id": "453893941",
     "question_type": "normal",
     "relationship": {},
     "title": "Ankidroid 2.14.6 的筛选牌组只能查找未学习过的新卡片，有办法查找学习过的卡片吗？",
     "type": "question",
     "updated_time": 1618460564,
-    "url": "https://api.zhihu.com/questions/453893941"
+    "url": "https://www.zhihu.com/api/v4/questions/453893941"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 10
+  "updated_time": 1618462576,
+  "url": "https://www.zhihu.com/api/v4/answers/1836304795",
+  "voteup_count": 11
 }

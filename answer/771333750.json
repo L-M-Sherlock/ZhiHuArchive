@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 2,
-  "content": "<p data-pid=\"1Xzz0Fwe\">认知心理学三个理论：</p><ul><li data-pid=\"0A0wI6XG\"><a href=\"https://zhuanlan.zhihu.com/p/57020308\" class=\"internal\">间隔重复</a> </li><li data-pid=\"POQC9atk\"><a href=\"https://zhuanlan.zhihu.com/p/57113246\" class=\"internal\">测试效应</a> </li><li data-pid=\"y8G2MzE-\"><a href=\"https://zhuanlan.zhihu.com/p/57139724\" class=\"internal\">穿插练习</a> </li></ul><p data-pid=\"k1gCtyA-\">间隔重复的运用还用多说吗？各种各样的背单词软件都有使用。</p><p data-pid=\"RNsqxh_8\">测试效应的运用也很频繁，比如有些老师会在课堂上进行随堂测验。</p><p data-pid=\"GO9OoKIl\">穿插练习的运用可能会隐藏的深一点，但是看看课程表就会恍然大悟，为啥不一整天教一个科目是有认知心理学的依据的。</p>",
+  "content": "<p data-pid=\"1Xzz0Fwe\">认知心理学三个理论：</p><ul><li data-pid=\"0A0wI6XG\"><a href=\"https://zhuanlan.zhihu.com/p/57020308\" class=\"internal\" target=\"_blank\">间隔重复</a> </li><li data-pid=\"POQC9atk\"><a href=\"https://zhuanlan.zhihu.com/p/57113246\" class=\"internal\" target=\"_blank\">测试效应</a> </li><li data-pid=\"y8G2MzE-\"><a href=\"https://zhuanlan.zhihu.com/p/57139724\" class=\"internal\" target=\"_blank\">穿插练习</a> </li></ul><p data-pid=\"k1gCtyA-\">间隔重复的运用还用多说吗？各种各样的背单词软件都有使用。</p><p data-pid=\"RNsqxh_8\">测试效应的运用也很频繁，比如有些老师会在课堂上进行随堂测验。</p><p data-pid=\"GO9OoKIl\">穿插练习的运用可能会隐藏的深一点，但是看看课程表就会恍然大悟，为啥不一整天教一个科目是有认知心理学的依据的。</p>",
   "content_need_truncated": false,
   "created_time": 1564662944,
   "excerpt": "认知心理学三个理论： 间隔重复 测试效应 穿插练习 间隔重复的运用还用多说吗？各种各样的背单词软件都有使用。 测试效应的运用也很频繁，比如有些老师会在课堂上进行随堂测验。 穿插练习的运用可能会隐藏的深一点，但是看看课程表就会恍然大悟，为啥不一整天教一个科目是有认知心理学的依据的。",
-  "id": 771333750,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "771333750",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=771333750&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1564197216,
     "detail": "<p>认知心理学对如今教育造成了哪些变化？</p>",
-    "id": 337163345,
+    "id": "337163345",
     "question_type": "normal",
     "relationship": {},
     "title": "认知心理学在教育上的应用实例有哪些？",
     "type": "question",
     "updated_time": 1564197216,
-    "url": "https://api.zhihu.com/questions/337163345"
+    "url": "https://www.zhihu.com/api/v4/questions/337163345"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 10
+  "updated_time": 1564662944,
+  "url": "https://www.zhihu.com/api/v4/answers/771333750",
+  "voteup_count": 12
 }

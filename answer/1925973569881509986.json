@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -16,8 +17,8 @@
           "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -39,15 +40,15 @@
           "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
           "badge_status": "passed",
@@ -72,7 +73,7 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
     "gender": -1,
@@ -83,7 +84,7 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
@@ -99,9 +100,20 @@
   "content_need_truncated": false,
   "created_time": 1751967881,
   "excerpt": "因为 学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本。难得可以用我的知乎个签来回答问题。学历确实就是一张纸，但这张纸在招聘的时候很重要。这是因为学历实际上承载了两个不同的功能：信号传递和人力资本认证。 信号传递，顾名思义，就是让老板、用人单位以低成本筛选出智力正常、有责任心、服从性高的劳动力。而人力资本，才是个人的实际工作能力。 当你已经找到工作了，那信号传递已经对老板没用了，他更关心的是你的…",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "1925973569881509986",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/26414932245?contentId=1925973569881509986&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "2 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1750184287,
     "detail": "<p>为什么人事部的招聘简章中，第一条就是要求本科以上学历呢？是不是两人说的话前后矛盾?</p>",
@@ -111,11 +123,13 @@
     "title": "工作中，领导说「你的学历就是一张纸，别太在意」，我想问问，既然就是一张纸，为什么不找没有这张纸的呢?",
     "type": "question",
     "updated_time": 1750213006,
-    "url": "https://api.zhihu.com/questions/1918492632251863243"
+    "url": "https://www.zhihu.com/api/v4/questions/1918492632251863243"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1751967881,
+  "url": "https://www.zhihu.com/api/v4/answers/1925973569881509986",
   "voteup_count": 53
 }

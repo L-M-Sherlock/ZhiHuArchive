@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,9 +14,10 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
@@ -35,19 +37,21 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 7,
-  "content": "<p data-pid=\"ZLaTDR0_\">我自己搞腾了一个，线性迭代，可能看起来有点迷，毕竟才刚开始学，废话不多说，上代码：</p><div class=\"highlight\"><pre><code class=\"language-scheme\"><span class=\"p\">(</span><span class=\"k\">define </span><span class=\"p\">(</span><span class=\"nf\">change-count</span> <span class=\"nv\">amount</span><span class=\"p\">)</span>\n  <span class=\"p\">(</span><span class=\"nf\">cc</span> <span class=\"mi\">1</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"p\">(</span><span class=\"nb\">+ </span><span class=\"p\">(</span><span class=\"nb\">/ </span><span class=\"nv\">amount</span> <span class=\"mi\">5</span><span class=\"p\">)</span> <span class=\"mi\">1</span><span class=\"p\">)</span> <span class=\"mi\">1</span> <span class=\"mi\">2</span> <span class=\"mi\">4</span><span class=\"p\">))</span>\n<span class=\"c1\">;初始值设定，中间的（+（/ w 5) 1)是因为我找规律的时候发现硬币总数每加5，换硬币的方法才改变一次</span>\n<span class=\"p\">(</span><span class=\"k\">define </span><span class=\"p\">(</span><span class=\"nb\">even? </span><span class=\"nv\">u</span><span class=\"p\">)</span>\n  <span class=\"p\">(</span><span class=\"nb\">= </span><span class=\"p\">(</span><span class=\"nb\">remainder </span><span class=\"nv\">u</span> <span class=\"mi\">2</span><span class=\"p\">)</span> <span class=\"mi\">0</span><span class=\"p\">))</span>\n<span class=\"c1\">;这个是用来判断偶数的</span>\n<span class=\"p\">(</span><span class=\"k\">define </span><span class=\"p\">(</span><span class=\"nf\">cc</span> <span class=\"nv\">a</span> <span class=\"nv\">b</span> <span class=\"nv\">c</span> <span class=\"nv\">d</span> <span class=\"nv\">e</span> <span class=\"nv\">f</span> <span class=\"nv\">g</span> <span class=\"nv\">h</span> <span class=\"nv\">i</span> <span class=\"nv\">j</span> <span class=\"nv\">k</span> <span class=\"nv\">l</span> <span class=\"nv\">m</span> <span class=\"nv\">n</span> <span class=\"nv\">o</span> <span class=\"nv\">p</span> <span class=\"nv\">q</span> <span class=\"nv\">x</span> <span class=\"nv\">y</span><span class=\"p\">)</span>\n         <span class=\"p\">(</span><span class=\"k\">cond </span><span class=\"p\">((</span><span class=\"nb\">= </span><span class=\"nv\">p</span> <span class=\"nv\">q</span><span class=\"p\">)</span> <span class=\"nv\">a</span><span class=\"p\">)</span>\n               <span class=\"p\">((</span><span class=\"nb\">even? </span><span class=\"nv\">q</span><span class=\"p\">)</span> <span class=\"p\">(</span><span class=\"nf\">cc</span> <span class=\"p\">(</span><span class=\"nb\">- </span><span class=\"p\">(</span><span class=\"nb\">+ </span><span class=\"nv\">y</span> <span class=\"nv\">e</span> <span class=\"nv\">j</span><span class=\"p\">)</span> <span class=\"nv\">o</span><span class=\"p\">)</span> <span class=\"nv\">a</span> <span class=\"nv\">b</span> <span class=\"nv\">c</span> <span class=\"nv\">d</span> <span class=\"nv\">e</span> <span class=\"nv\">f</span> <span class=\"nv\">g</span> <span class=\"nv\">h</span> <span class=\"nv\">i</span> <span class=\"nv\">j</span> <span class=\"nv\">k</span> <span class=\"nv\">l</span> <span class=\"nv\">m</span> <span class=\"nv\">n</span> <span class=\"nv\">p</span> <span class=\"p\">(</span><span class=\"nb\">+ </span><span class=\"nv\">q</span> <span class=\"mi\">1</span><span class=\"p\">)</span> <span class=\"nv\">x</span> <span class=\"p\">(</span><span class=\"nb\">+ </span><span class=\"nv\">y</span> <span class=\"nv\">q</span> <span class=\"mi\">3</span><span class=\"p\">)))</span>\n               <span class=\"p\">(</span><span class=\"k\">else </span><span class=\"p\">(</span><span class=\"nf\">cc</span> <span class=\"p\">(</span><span class=\"nb\">- </span><span class=\"p\">(</span><span class=\"nb\">+ </span><span class=\"nv\">x</span> <span class=\"nv\">e</span> <span class=\"nv\">j</span><span class=\"p\">)</span> <span class=\"nv\">o</span><span class=\"p\">)</span> <span class=\"nv\">a</span> <span class=\"nv\">b</span> <span class=\"nv\">c</span> <span class=\"nv\">d</span> <span class=\"nv\">e</span> <span class=\"nv\">f</span> <span class=\"nv\">g</span> <span class=\"nv\">h</span> <span class=\"nv\">i</span> <span class=\"nv\">j</span> <span class=\"nv\">k</span> <span class=\"nv\">l</span> <span class=\"nv\">m</span> <span class=\"nv\">n</span> <span class=\"nv\">p</span> <span class=\"p\">(</span><span class=\"nb\">+ </span><span class=\"nv\">q</span> <span class=\"mi\">1</span><span class=\"p\">)</span> <span class=\"p\">(</span><span class=\"nb\">+ </span><span class=\"nv\">x</span> <span class=\"nv\">q</span> <span class=\"mi\">3</span><span class=\"p\">)</span> <span class=\"nv\">y</span><span class=\"p\">))))</span>\n<span class=\"c1\">;这个是我找规律发现的。。。具体很难用口语表示。。。自己拿去用，上机调试。。。自己研究吧。。。</span></code></pre></div><p data-pid=\"5sszIHIw\">更新：改了一点小错误</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-e00431ff7b680c5e51a60696371a37cb_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1034\" data-original-token=\"v2-93443526f39ee1294e7390220200a64d\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-342efd9fae980f047dac2261f8ca1ffb_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pica.zhimg.com/v2-e00431ff7b680c5e51a60696371a37cb_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1920&#39; height=&#39;1034&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1034\" data-original-token=\"v2-93443526f39ee1294e7390220200a64d\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-342efd9fae980f047dac2261f8ca1ffb_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1920\" data-original=\"https://pica.zhimg.com/v2-e00431ff7b680c5e51a60696371a37cb_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-e00431ff7b680c5e51a60696371a37cb_720w.jpg?source=2c26e567\"/></figure><p></p>",
+  "content": "<p data-pid=\"ZLaTDR0_\">我自己搞腾了一个，线性迭代，可能看起来有点迷，毕竟才刚开始学，废话不多说，上代码：</p><div class=\"highlight\"><pre><code class=\"language-scheme\"><span class=\"p\">(</span><span class=\"k\">define </span><span class=\"p\">(</span><span class=\"nf\">change-count</span> <span class=\"nv\">amount</span><span class=\"p\">)</span>\n  <span class=\"p\">(</span><span class=\"nf\">cc</span> <span class=\"mi\">1</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"mi\">0</span> <span class=\"p\">(</span><span class=\"nb\">+ </span><span class=\"p\">(</span><span class=\"nb\">/ </span><span class=\"nv\">amount</span> <span class=\"mi\">5</span><span class=\"p\">)</span> <span class=\"mi\">1</span><span class=\"p\">)</span> <span class=\"mi\">1</span> <span class=\"mi\">2</span> <span class=\"mi\">4</span><span class=\"p\">))</span>\n<span class=\"c1\">;初始值设定，中间的（+（/ w 5) 1)是因为我找规律的时候发现硬币总数每加5，换硬币的方法才改变一次</span>\n<span class=\"p\">(</span><span class=\"k\">define </span><span class=\"p\">(</span><span class=\"nb\">even? </span><span class=\"nv\">u</span><span class=\"p\">)</span>\n  <span class=\"p\">(</span><span class=\"nb\">= </span><span class=\"p\">(</span><span class=\"nb\">remainder </span><span class=\"nv\">u</span> <span class=\"mi\">2</span><span class=\"p\">)</span> <span class=\"mi\">0</span><span class=\"p\">))</span>\n<span class=\"c1\">;这个是用来判断偶数的</span>\n<span class=\"p\">(</span><span class=\"k\">define </span><span class=\"p\">(</span><span class=\"nf\">cc</span> <span class=\"nv\">a</span> <span class=\"nv\">b</span> <span class=\"nv\">c</span> <span class=\"nv\">d</span> <span class=\"nv\">e</span> <span class=\"nv\">f</span> <span class=\"nv\">g</span> <span class=\"nv\">h</span> <span class=\"nv\">i</span> <span class=\"nv\">j</span> <span class=\"nv\">k</span> <span class=\"nv\">l</span> <span class=\"nv\">m</span> <span class=\"nv\">n</span> <span class=\"nv\">o</span> <span class=\"nv\">p</span> <span class=\"nv\">q</span> <span class=\"nv\">x</span> <span class=\"nv\">y</span><span class=\"p\">)</span>\n         <span class=\"p\">(</span><span class=\"k\">cond </span><span class=\"p\">((</span><span class=\"nb\">= </span><span class=\"nv\">p</span> <span class=\"nv\">q</span><span class=\"p\">)</span> <span class=\"nv\">a</span><span class=\"p\">)</span>\n               <span class=\"p\">((</span><span class=\"nb\">even? </span><span class=\"nv\">q</span><span class=\"p\">)</span> <span class=\"p\">(</span><span class=\"nf\">cc</span> <span class=\"p\">(</span><span class=\"nb\">- </span><span class=\"p\">(</span><span class=\"nb\">+ </span><span class=\"nv\">y</span> <span class=\"nv\">e</span> <span class=\"nv\">j</span><span class=\"p\">)</span> <span class=\"nv\">o</span><span class=\"p\">)</span> <span class=\"nv\">a</span> <span class=\"nv\">b</span> <span class=\"nv\">c</span> <span class=\"nv\">d</span> <span class=\"nv\">e</span> <span class=\"nv\">f</span> <span class=\"nv\">g</span> <span class=\"nv\">h</span> <span class=\"nv\">i</span> <span class=\"nv\">j</span> <span class=\"nv\">k</span> <span class=\"nv\">l</span> <span class=\"nv\">m</span> <span class=\"nv\">n</span> <span class=\"nv\">p</span> <span class=\"p\">(</span><span class=\"nb\">+ </span><span class=\"nv\">q</span> <span class=\"mi\">1</span><span class=\"p\">)</span> <span class=\"nv\">x</span> <span class=\"p\">(</span><span class=\"nb\">+ </span><span class=\"nv\">y</span> <span class=\"nv\">q</span> <span class=\"mi\">3</span><span class=\"p\">)))</span>\n               <span class=\"p\">(</span><span class=\"k\">else </span><span class=\"p\">(</span><span class=\"nf\">cc</span> <span class=\"p\">(</span><span class=\"nb\">- </span><span class=\"p\">(</span><span class=\"nb\">+ </span><span class=\"nv\">x</span> <span class=\"nv\">e</span> <span class=\"nv\">j</span><span class=\"p\">)</span> <span class=\"nv\">o</span><span class=\"p\">)</span> <span class=\"nv\">a</span> <span class=\"nv\">b</span> <span class=\"nv\">c</span> <span class=\"nv\">d</span> <span class=\"nv\">e</span> <span class=\"nv\">f</span> <span class=\"nv\">g</span> <span class=\"nv\">h</span> <span class=\"nv\">i</span> <span class=\"nv\">j</span> <span class=\"nv\">k</span> <span class=\"nv\">l</span> <span class=\"nv\">m</span> <span class=\"nv\">n</span> <span class=\"nv\">p</span> <span class=\"p\">(</span><span class=\"nb\">+ </span><span class=\"nv\">q</span> <span class=\"mi\">1</span><span class=\"p\">)</span> <span class=\"p\">(</span><span class=\"nb\">+ </span><span class=\"nv\">x</span> <span class=\"nv\">q</span> <span class=\"mi\">3</span><span class=\"p\">)</span> <span class=\"nv\">y</span><span class=\"p\">))))</span>\n<span class=\"c1\">;这个是我找规律发现的。。。具体很难用口语表示。。。自己拿去用，上机调试。。。自己研究吧。。。</span></code></pre></div><p data-pid=\"5sszIHIw\">更新：改了一点小错误</p><figure data-size=\"normal\"><noscript><img src=\"https://pica.zhimg.com/50/v2-e00431ff7b680c5e51a60696371a37cb_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1034\" data-original-token=\"v2-93443526f39ee1294e7390220200a64d\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-342efd9fae980f047dac2261f8ca1ffb_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://picx.zhimg.com/v2-e00431ff7b680c5e51a60696371a37cb_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1920&#39; height=&#39;1034&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1034\" data-original-token=\"v2-93443526f39ee1294e7390220200a64d\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-342efd9fae980f047dac2261f8ca1ffb_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1920\" data-original=\"https://picx.zhimg.com/v2-e00431ff7b680c5e51a60696371a37cb_r.jpg?source=2c26e567\" data-actualsrc=\"https://pica.zhimg.com/50/v2-e00431ff7b680c5e51a60696371a37cb_720w.jpg?source=2c26e567\"/></figure><p></p>",
   "content_need_truncated": false,
   "created_time": 1489762877,
   "excerpt": "我自己搞腾了一个，线性迭代，可能看起来有点迷，毕竟才刚开始学，废话不多说，上代码： (define (change-count amount) (cc 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 (+ (/ amount 5) 1) 1 2 4)) ;初始值设定，中间的（+（/ w 5) 1)是因为我找规律的时候发现硬币总数每加5，换硬币的方法才改变一次 (define (even? u) (= (remainder u 2) 0)) ;这个是用来判断偶数的 (define (cc a b c d e f g h i j k l m n o p q x y) (cond ((= p q) …",
-  "id": 152172517,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "152172517",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=152172517&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1386472334,
     "detail": "scheme小菜，最近看书，看到换零钱这个问题，<br/><br/><div class=\"highlight\"><pre><code class=\"language-text\">(define (count-change amount)\n   (cc amount 5))\n\n(define (cc amount kinds-of-coins)\n   (cond ((= amount 0) 1)\n         ((or (&lt; amount 0) (= kinds-of-coins 0)) 0)\n         (else (+ (cc amount\n                      (- kinds-of-coins 1))\n                  (cc (- amount\n                         (first-denomination kinds-of-coins))\n                      kinds-of-coins)))))\n\n(define (first-denomination kinds-of-coins)\n   (cond ((= kinds-of-coins 1) 1)\n         ((= kinds-of-coins 2) 5)\n         ((= kinds-of-coins 3) 10)\n         ((= kinds-of-coins 4) 25)\n         ((= kinds-of-coins 5) 50)))\n\n\nx 想了好久都没想出来这道题迭代怎么写，有能讲解一下的大神吗？查了一下资料，有的说是动态规划，有的说是背包</code></pre></div>",
-    "id": 22219036,
+    "id": "22219036",
     "question_type": "normal",
     "relationship": {},
     "title": "SICP换零钱迭代方法实现，是如何写的？",
     "type": "question",
     "updated_time": 1399460288,
-    "url": "https://api.zhihu.com/questions/22219036"
+    "url": "https://www.zhihu.com/api/v4/questions/22219036"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1565790811,
+  "url": "https://www.zhihu.com/api/v4/answers/152172517",
   "voteup_count": 11
 }

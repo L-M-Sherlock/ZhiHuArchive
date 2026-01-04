@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -17,7 +18,7 @@
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -39,15 +40,15 @@
           "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
           "badge_status": "passed",
@@ -83,7 +84,7 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
@@ -99,11 +100,22 @@
   "content_need_truncated": false,
   "created_time": 1748341506,
   "excerpt": "如果毕生积累的知识，那些我们引以为傲的专业技能，突然之间能被一个黑箱轻松复制甚至超越，那种感觉无疑是令人不安的，甚至有点…空虚。 但或许我们一开始就问错了问题。知识的价值，真的仅仅在于它能解决某个特定、定义明确的问题吗？很多我们认为「有价值」的工作，其核心并非是找到一个已知的「正确答案」。 比如作曲，比如设计复杂的软件，甚至比如进行科学探索。这些更像是 Donald Schön 所说的「边做边想」——你不是…",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "1910763448226256604",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": false,
   "is_jump_native": false,
   "link_card_info": {
-    "https://www.zhihu.com/column/c_1525784109008203776": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"助记媒介 \\u0026 思想工具\",\"card_open_url\":\"https://zhuanlan.zhihu.com/c_1525784109008203776\",\"desc\":\"185 内容 · 0 关注 \\u003ca class=\\\"tag type_a\\\"\\u003e专栏\\u003c/a\\u003e\",\"content\":null,\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"COLUMN\",\"content_id\":\"c_1525784109008203776\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://www.zhihu.com/column/c_1525784109008203776": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"助记媒介 \\u0026 思想工具\",\"card_open_url\":\"https://zhuanlan.zhihu.com/c_1525784109008203776\",\"desc\":\"189 内容 · 0 关注 \\u003ca class=\\\"tag type_a\\\"\\u003e专栏\\u003c/a\\u003e\",\"content\":null,\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"COLUMN\",\"content_id\":\"c_1525784109008203776\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/20787021392?contentId=1910763448226256604&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "2 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1738476581,
@@ -114,11 +126,13 @@
     "title": "当我们发现毕生追求的知识在AI面前毫无价值时，如何重建存在的意义？",
     "type": "question",
     "updated_time": 1738476581,
-    "url": "https://api.zhihu.com/questions/11103435299"
+    "url": "https://www.zhihu.com/api/v4/questions/11103435299"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 46
+  "updated_time": 1748341506,
+  "url": "https://www.zhihu.com/api/v4/answers/1910763448226256604",
+  "voteup_count": 47
 }

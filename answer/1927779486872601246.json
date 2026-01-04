@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
     "badge": [],
     "badge_v2": {
       "detail_badges": [],
@@ -19,7 +20,7 @@
     "is_privacy": false,
     "name": "Jarrett Ye",
     "type": "people",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "url": "https://www.zhihu.com/api/v4/people/3c9990a12cdbcd92e20b1387b160f0a3",
     "url_token": "JarrettYe",
     "user_type": "people"
   },
@@ -35,9 +36,20 @@
   "content_need_truncated": false,
   "created_time": 1752398446,
   "excerpt": "不妨看看著名自由意志主义者 David Friedman 的回答： 我们（自由意志主义者）赖以支撑自身结论的那套简单、清晰、基于绝对权利的论证体系，在面对现实世界的复杂难题时，往往是不充分的，甚至是脆弱的。许多自由意志主义者相信我们有一套从「A 等于 A」这样的公理出发，就能推导出所有问题解决方案的完美逻辑。但事实并非如此。这种自信往往源于对难题的回避，而非真正的解答。 具体来说，自由意志主义的局限性主要体现在以下几…",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "1927779486872601246",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/27070824122?contentId=1927779486872601246&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1424621054,
     "detail": "不知道，这问题问得算不算乞词。主要角度是社会意识形态总会过时，不管历史是线性发展还是循环往复。就像我们今天觉得2000年前的“意识形态”很搞笑。对“自由论”的定义注重个人选择的自由和私有产权。对“局限性”的定义是自身存在实践上的大漏洞，或者跟不上生产力发展的可能。我很想听百家之鸣，因为突然发现自己的价值观和自由论靠得很近。谢谢",
@@ -47,11 +59,13 @@
     "title": "自由论(Libertarianism)存在哪些局限性？",
     "type": "question",
     "updated_time": 1424621054,
-    "url": "https://api.zhihu.com/questions/28314375"
+    "url": "https://www.zhihu.com/api/v4/questions/28314375"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1752398446,
+  "url": "https://www.zhihu.com/api/v4/answers/1927779486872601246",
   "voteup_count": 18
 }

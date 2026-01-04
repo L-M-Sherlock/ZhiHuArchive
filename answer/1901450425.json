@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,6 +14,7 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在 Anki 制作2.9万张卡片，复习33万次之后，我转用了 SueprMemo",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,35 +84,55 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 5,
   "content": "<p data-pid=\"tARtUhXs\">嘿大家好，作为一个长期耕耘知乎 Anki 话题后，转向 SuperMemo 的学习者，我也来分享一下我的经验。</p><p data-pid=\"ncRF5fYU\">SuperMemo 的精华在于其实现的一套渐进学习方法论，如何掌握渐进学习，可以来看看我的专栏：</p><a href=\"https://zhuanlan.zhihu.com/p/374403541\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-1a8d0bb90f07e4147c5e401dda14d280_180x120.jpg\" data-image-width=\"1780\" data-image-height=\"1100\" class=\"internal\">叶峻峣：渐进学习专栏导读</a><p data-pid=\"iEftVbBq\">高赞答主推荐的官方文档翻译也不错，我在里面也翻译了一些比较有用的文章，比如：</p><a href=\"https://link.zhihu.com/?target=https%3A//www.yuque.com/supermemo/articles/20rules_base\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-3053be574a87e8e1e15128ac7eeda8c8_ipico.jpg\" data-image-width=\"300\" data-image-height=\"300\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">基于主动回忆的学习中的知识结构与表述 · 语雀</a><p data-pid=\"3wXfjsm2\">如果觉得看文章学习不太好上手的话，那就看看 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/193f4c99c74479f7af501804a896a6f7\" data-hash=\"193f4c99c74479f7af501804a896a6f7\" data-hovercard=\"p$b$193f4c99c74479f7af501804a896a6f7\">@临水斜箫</a> 制作的这个视频教程吧：</p><a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1L741197iu\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「记忆软件」手把手教你用Supermemo系列_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</a><p data-pid=\"SJ63ka6k\">希望对大家有所帮助！</p>",
   "content_need_truncated": false,
   "created_time": 1621754152,
   "excerpt": "嘿大家好，作为一个长期耕耘知乎 Anki 话题后，转向 SuperMemo 的学习者，我也来分享一下我的经验。 SuperMemo 的精华在于其实现的一套渐进学习方法论，如何掌握渐进学习，可以来看看我的专栏： [文章: 渐进学习专栏导读（SuperMemo 使用教程）] 高赞答主推荐的官方文档翻译也不错，我在里面也翻译了一些比较有用的文章，比如： 基于主动回忆的学习中的知识结构与表述 · 语雀 如果觉得看文章学习不太好上手的话，那就看看 @临水斜箫 制作的这个视频教程…",
-  "id": 1901450425,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1901450425",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/374403541": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"渐进学习专栏导读（SuperMemo 使用教程）\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/374403541\",\"desc\":\"322 赞同 · 29 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 更新已经将专栏重新编辑成电子书： SuperMemo 渐进学习大型指北 也可以下载到本地阅读（EPUB 体验比 PDF 好）： SuperMemo 渐进学习大型指北 - 叶峻峣 - 20210918.epub SuperMemo 渐进学习大型指北-09171826.pdf SuperMemo 下载： [文章: 【重新发布】SuperMemo 18 中文懒人包 ] SuperMemo 视频介绍： [文章: 【原稿】用 SuperMemo 打通阅读、理解与记忆] 初次见面的朋友初次见面，好久不见的朋友好久不见，这里是周六放假也还在码字的…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-1a8d0bb90f07e4147c5e401dda14d280_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"374403541\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/374403541": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"渐进学习专栏导读（SuperMemo 使用教程）\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/374403541\",\"desc\":\"376 赞同 · 33 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 更新已经将专栏重新编辑成电子书： SuperMemo 渐进学习大型指北 也可以下载到本地阅读（EPUB 体验比 PDF 好）： SuperMemo 渐进学习大型指北 - 叶峻峣 - 20210918.epub SuperMemo 渐进学习大型指北-09171826.pdf SuperMemo 下载： [文章: 【重新发布】SuperMemo 18 中文懒人包 ] SuperMemo 视频介绍： [文章: 【原稿】用 SuperMemo 打通阅读、理解与记忆] 初次见面的朋友初次见面，好久不见的朋友好久不见，这里是周六放假也还在码字的…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-1a8d0bb90f07e4147c5e401dda14d280_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"374403541\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1901450425&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1438784655,
     "detail": "",
-    "id": 34116088,
+    "id": "34116088",
     "question_type": "normal",
     "relationship": {},
     "title": "SuperMemo软件如何使用？",
     "type": "question",
     "updated_time": 1439904332,
-    "url": "https://api.zhihu.com/questions/34116088"
+    "url": "https://www.zhihu.com/api/v4/questions/34116088"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 52
+  "updated_time": 1621754152,
+  "url": "https://www.zhihu.com/api/v4/answers/1901450425",
+  "voteup_count": 62
 }

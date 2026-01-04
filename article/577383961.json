@@ -1,80 +1,517 @@
 {
-  "status": 0,
+  "id": "577383961",
+  "title": "KDD'22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/577383961",
+  "image_url": "https://picx.zhimg.com/v2-337e676d732039a25471c1057c54bfa3_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-337e676d732039a25471c1057c54bfa3_720w.jpg?source=172ae18b",
+  "excerpt": "大家好，我是叶峻峣，墨墨科技的记忆算法工程师。前三篇文章我分别介绍了我的科研经历 [1]、算法教程[2]和研究资源[3]。今天分享一下记忆算法论文 A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling 的详细介绍，该论文由…",
+  "created": 1666756487,
   "updated": 1666756487,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://pica.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "大家好，我是叶峻峣，墨墨科技的记忆算法工程师。前三篇文章我分别介绍了我的科研经…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 2700,
+  "image_height": 1480,
+  "content": "<p data-pid=\"EUmvOOo0\">大家好，我是叶峻峣，墨墨科技的记忆算法工程师。前三篇文章我分别介绍了我的科研经历<sup data-text=\"我是如何在本科期间发表顶会论文的？\" data-url=\"https://zhuanlan.zhihu.com/p/543325359\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>、算法教程<sup data-text=\"间隔重复记忆算法：e 天内，从入门到入土。\" data-url=\"https://zhuanlan.zhihu.com/p/556020884\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>和研究资源<sup data-text=\"间隔重复记忆算法研究资源汇总\" data-url=\"https://zhuanlan.zhihu.com/p/561539418\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。今天分享一下记忆算法论文 A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling 的详细介绍，该论文由我和哈工深的苏敬勇老师、墨墨背单词的曹译珑博士在 KDD 2022 上发表，研究了如何在背单词场景下对用户复习规划进行优化的问题。与以往的同类工作不同的是，本文构建了包含用户记忆行为时序特征的数据集，并设计了具有可解释性的记忆模型，能够在理论上保证复习策略的最优性。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f35021ba5249f3859413ed255a020467_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-f35021ba5249f3859413ed255a020467\" class=\"content_image\"/></figure><blockquote data-pid=\"OmSX9EnU\">论文免费下载地址：<a href=\"https://link.zhihu.com/?target=https%3A//www.maimemo.com/paper/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">maimemo.com/paper/</span><span class=\"invisible\"></span></a><br/>复现代码仓库：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/maimemo/SSP-MMC\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/maimemo/SSP-</span><span class=\"invisible\">MMC</span><span class=\"ellipsis\"></span></a><br/>开源数据集：<a href=\"https://link.zhihu.com/?target=https%3A//doi.org/10.7910/DVN/VAGUL0\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">doi.org/10.7910/DVN/VAG</span><span class=\"invisible\">UL0</span><span class=\"ellipsis\"></span></a></blockquote><h2>1 动机</h2><p data-pid=\"FnyTZTnU\">在大多数间隔重复的实践中，材料以抽认卡的形式呈现，如图 1 所示，根据简单的时间表确定每张卡片的复习时机。间隔重复调度算法有着悠长的历史。从 Leitner 盒到首个间隔重复软件 SuperMemo，他们都是以设计者的经验和个人实验为基础，使用简单的启发式算法。当今许多间隔重复软件（Anki，Mnemosyne 等）仍在使用这些算法。由于硬编码的参数和缺乏理论推导，这些算法无法适应不同的学习者和材料，性能也难以得到保证。</p><p data-pid=\"MZjcCj7w\">随着在线学习平台的普及，大量关于学生复习的数据得以收集。这使研究人员能够设计出可训练、自适应、有保证的算法。在墨墨背单词这一语言学习应用中，高效的间隔重复调度算法可以节省数百万用户的时间，并帮助他们记住更多的单词。最近，一些研究采用机器学习来确定最佳复习时间。然而，由于以下三个原因，这些方法并不适用于我们的情况：</p><ul><li data-pid=\"QMJh8fZ_\">缺少时间序列信息：一些研究，如 HLR（半衰期回归）模型和 EFC（指数遗忘曲线）模型，使用遗忘曲线将回忆概率与上次复习后的时间联系起来。但他们忽略了时间间隔对记忆强度的影响。在他们的模型中，记忆强度是关于重复次数的函数。根据间隔效应和我们收集的数据，复习间隔对长期记忆的形成过程有很大影响。<br/><br/></li><li data-pid=\"-SUTl79_\">缺少用户感知的优化目标：HLR 和基于它改进的 C-HLR 模型，旨在准确预测记忆的回忆概率。而用户更关心复习压力、记忆效率等指标。<br/><br/></li><li data-pid=\"L8XFixCT\">缺少可解释性：一些基于深度强化学习的算法对设计者来说是黑盒子，缺乏可解释性。可解释的学生记忆模型对教育研究更有意义。</li></ul><p data-pid=\"TdMEgzoO\">在本文中，我们根据收集到的数以百万计的记忆数据，建立了用于模拟用户长期记忆的 DHP（Difficulty-Halflife-P(recall)）模型。我们设定了具有实际意义的优化目标：最小化用户形成长期记忆的成本。为了实现这一目标，我们提出了一种新颖的间隔重复调度算法，名为 SSP-MMC（Stochastic-Shortest-Path-Minimize-Memorization-Cost）。</p><p data-pid=\"fe27m-cS\">我们的工作为间隔重复调度算法提供了更接近自然环境的长期记忆模型，并通过现实世界的数据进行了测试。我们找到了间隔重复调度的优化问题和相应的最优方法。我们公开了数据和代码工具，以方便复现和后续研究。综上所述，本文的主要贡献是：</p><ul><li data-pid=\"yrMq6jzw\">建立并开源我们的间隔重复日志数据集，这是首个包含时间序列信息的数据集。</li><li data-pid=\"Bonse5wI\">据我们所知，这是首个采用时间序列特征来模拟长期记忆的工作。</li><li data-pid=\"3EIHmKeq\">实验结果表明，在最小化记忆成本方面，SSP-MMC 优于最先进的基线。</li></ul><h2>2 长期记忆模型</h2><p data-pid=\"dpQZNz9s\">为了设计一种高效、有保证、可解释的间隔重复调度算法，我们收集了学习者的记忆行为数据，然后用这些数据来验证几种心理效应。利用这些效应，我们对记忆进行建模，以了解间隔重复调度如何影响学习者的记忆状态。</p><h3>2.1 建立数据集</h3><p data-pid=\"OOxVAryI\">我们在墨墨背单词上收集了一个月的学习日志，从中筛选出 2.2 亿条记忆行为数据，用于训练模型来模拟学习者的记忆。由于以下原因，我们没有使用 Duolingo 的开源数据集：</p><ul><li data-pid=\"Gziwz1rD\">它缺乏时间序列方面的信息，如反馈和间隔的序列，而我们对数据的分析表明，不同的序列对记忆状态有很大的影响。<br/><br/></li><li data-pid=\"fVyqe1Uj\">它对回忆概率的定义有问题。Duolingo 将回忆概率定义为一个单词在复习环节中被正确回忆的次数比例，即假定同一单词在复习环节中的多次记忆行为相互独立。然而在实践中，第一次回忆会影响学习者的记忆状态和后续记忆。</li></ul><p data-pid=\"gvcTycus\">从墨墨背单词收集的记忆数据记录了学习者对单词记忆的历史信息。对于任意记忆行为，我们用一个四元组来表示：</p><p data-pid=\"doqvEp0X\"><img src=\"https://www.zhihu.com/equation?tex=e+%3A%3D%28u%2C+l%2C+t%2C+r%29\" alt=\"e :=(u, l, t, r)\" eeimg=\"1\"/></p><p data-pid=\"PKPpb-u-\">其含义为一个学习者 <img src=\"https://www.zhihu.com/equation?tex=u\" alt=\"u\" eeimg=\"1\"/> 在时刻 <img src=\"https://www.zhihu.com/equation?tex=t\" alt=\"t\" eeimg=\"1\"/> 回忆单词 <img src=\"https://www.zhihu.com/equation?tex=l\" alt=\"l\" eeimg=\"1\"/> 并反馈 <img src=\"https://www.zhihu.com/equation?tex=r\" alt=\"r\" eeimg=\"1\"/> （回忆成功 <img src=\"https://www.zhihu.com/equation?tex=r%3D1\" alt=\"r=1\" eeimg=\"1\"/> ；回忆失败 <img src=\"https://www.zhihu.com/equation?tex=r%3D0\" alt=\"r=0\" eeimg=\"1\"/> ）。</p><p data-pid=\"AHIalEfY\">为了便于研究记忆行为序列，我们将历史特征加入其中：</p><p data-pid=\"15KLXnA9\"><img src=\"https://www.zhihu.com/equation?tex=e_%7Bi%7D+%3A%3D%28u%2C+l%2C+%5Cboldsymbol%7B%5CDelta+t_%7B1%3Ai-1%7D%7D%2C+%5Cboldsymbol+r_%7B1%3Ai-1%7D+%2C+%5CDelta+t_i+%2C+r_i%29\" alt=\"e_{i} :=(u, l, \\boldsymbol{\\Delta t_{1:i-1}}, \\boldsymbol r_{1:i-1} , \\Delta t_i , r_i)\" eeimg=\"1\"/></p><p data-pid=\"2C-67Dgy\">其中 <img src=\"https://www.zhihu.com/equation?tex=e_i\" alt=\"e_i\" eeimg=\"1\"/> 表示学习者 <img src=\"https://www.zhihu.com/equation?tex=u\" alt=\"u\" eeimg=\"1\"/> 对单词 <img src=\"https://www.zhihu.com/equation?tex=l\" alt=\"l\" eeimg=\"1\"/> 的第 <img src=\"https://www.zhihu.com/equation?tex=i\" alt=\"i\" eeimg=\"1\"/> 次回忆， <img src=\"https://www.zhihu.com/equation?tex=%5CDelta+t\" alt=\"\\Delta t\" eeimg=\"1\"/> 表示两次回忆之间的时间间隔。  <img src=\"https://www.zhihu.com/equation?tex=%5Cboldsymbol+%5CDelta+t_%7B1%3Ai-1%7D\" alt=\"\\boldsymbol \\Delta t_{1:i-1}\" eeimg=\"1\"/> 和 <img src=\"https://www.zhihu.com/equation?tex=%5Cboldsymbol+r_%7B1%3Ai-1%7D\" alt=\"\\boldsymbol r_{1:i-1}\" eeimg=\"1\"/> 分别表示第 <img src=\"https://www.zhihu.com/equation?tex=1\" alt=\"1\" eeimg=\"1\"/> 到第 <img src=\"https://www.zhihu.com/equation?tex=i-1\" alt=\"i-1\" eeimg=\"1\"/> 回忆的间隔历史和反馈历史。</p><p data-pid=\"zDDAMWnQ\">我们过滤掉其中第一个反馈为 <img src=\"https://www.zhihu.com/equation?tex=r%3D1\" alt=\"r=1\" eeimg=\"1\"/> 的日志，以排除学习者在使用间隔重复之前形成的记忆的影响。学习者的记忆行为事件的样本日志见表 1</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-73f5fbf348e73727213039afb74709ad_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-73f5fbf348e73727213039afb74709ad\" class=\"content_image\"/></figure><p data-pid=\"5wEjKOJ_\">由此我们得到了包含任意学习者对任意单词的完整记忆行为历史数据。接下来，我们将基于该数据验证两个在间隔重复中发挥重要作用的心理学现象。</p><h3>2.2 遗忘曲线与间隔效应</h3><p data-pid=\"dNPH5lKx\">遗忘曲线是说，学习者停止复习后，记忆会随着时间的推移而衰退。在上面的记忆行为事件中，回忆是二元的（即，用户要么完全回忆起一个单词，要么忘记一个单词）。为了捕捉记忆的衰退，我们需要得到二元回忆背后潜在的概率。为了得到回忆概率，我们忽略学习者本身的影响，用学习该单词的学习者中的回忆比例 <img src=\"https://www.zhihu.com/equation?tex=%5Ccfrac%7Bn_%7Br%3D1%7D%7D%7BN%7D\" alt=\"\\cfrac{n_{r=1}}{N}\" eeimg=\"1\"/> 作为回忆概率 <img src=\"https://www.zhihu.com/equation?tex=p\" alt=\"p\" eeimg=\"1\"/> ，从而聚合得到：</p><p data-pid=\"R9W8jceR\"><img src=\"https://www.zhihu.com/equation?tex=e_%7Bi%7D+%3A%3D%28l%2C+%5Cboldsymbol%7B%5CDelta+t%7D_%7B1%3Ai-1%7D%2C+%5Cboldsymbol+r_%7B1%3Ai-1%7D%2C+%5CDelta+t_i+%2C+p_i%29\" alt=\"e_{i} :=(l, \\boldsymbol{\\Delta t}_{1:i-1}, \\boldsymbol r_{1:i-1}, \\Delta t_i , p_i)\" eeimg=\"1\"/></p><p data-pid=\"pOrFqvme\">通过控制 <img src=\"https://www.zhihu.com/equation?tex=w\" alt=\"w\" eeimg=\"1\"/> 、 <img src=\"https://www.zhihu.com/equation?tex=%5Cboldsymbol%7B%5CDelta+t%7D_%7B1%3Ai-1%7D\" alt=\"\\boldsymbol{\\Delta t}_{1:i-1}\" eeimg=\"1\"/> 和 <img src=\"https://www.zhihu.com/equation?tex=%5Cboldsymbol+r_%7B1%3Ai-1%7D\" alt=\"\\boldsymbol r_{1:i-1}\" eeimg=\"1\"/> ，我们可以绘制每个 <img src=\"https://www.zhihu.com/equation?tex=%5CDelta+t\" alt=\"\\Delta t\" eeimg=\"1\"/> 的 <img src=\"https://www.zhihu.com/equation?tex=p\" alt=\"p\" eeimg=\"1\"/> ，从而得到遗忘曲线。当 <img src=\"https://www.zhihu.com/equation?tex=N\" alt=\"N\" eeimg=\"1\"/> 足够大时，比率 <img src=\"https://www.zhihu.com/equation?tex=n_%7Br%3D1%7D%2FN\" alt=\"n_{r=1}/N\" eeimg=\"1\"/> 接近回忆概率。然而，墨墨背单词中有将近 10 万个单词，在不同的时间序列中为每个词收集的行为事件是稀疏的。我们需要对单词进行分组，以便在区分不同的单词和缓解数据稀疏性之间做出权衡。鉴于我们对遗忘曲线感兴趣，材料的难度会明显影响遗忘速度。因此，我们尝试用第一次学习它们后第二天的回忆率作为划分单词难度的标准。图2a描绘了回忆率的分布。</p><p data-pid=\"bNNflxAa\">我们可以从数据分布中看到，回忆率大多在 0.45 和 0.85 之间。为了让分组尽可能均衡，我们将单词分为十个难度组。分组的结果显示在图2和表2中。符号 <img src=\"https://www.zhihu.com/equation?tex=d\" alt=\"d\" eeimg=\"1\"/> 表示难度，数字越大，难度就越大。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-03737e778ddb22d0c2d76be11f3dc025_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-03737e778ddb22d0c2d76be11f3dc025\" class=\"content_image\"/></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-7b078a7bb728e67f18dd9be3d8a1b678_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-7b078a7bb728e67f18dd9be3d8a1b678\" class=\"content_image\"/></figure><p data-pid=\"KQMKVwSp\">因此，分组后的记忆行为事件可以表示为：</p><p data-pid=\"DXHWH-RQ\"><img src=\"https://www.zhihu.com/equation?tex=e_%7Bi%7D+%3A%3D%28d%2C+%5Cboldsymbol%7B%5CDelta+t%7D_%7B1%3Ai-1%7D%2C+%5Cboldsymbol+r_%7B1%3Ai-1%7D%2C+%5CDelta+t_i+%2C+p_i%29\" alt=\"e_{i} :=(d, \\boldsymbol{\\Delta t}_{1:i-1}, \\boldsymbol r_{1:i-1}, \\Delta t_i , p_i)\" eeimg=\"1\"/></p><p data-pid=\"_fuGbrM4\">使用聚合后的数据，我们便可以绘制有足够数据支持的遗忘曲线。我们使用指数遗忘曲线模型 <img src=\"https://www.zhihu.com/equation?tex=p_i+%3D+2%5E%7B-%5Cfrac%7B%5CDelta+t_i%7D%7Bh_i%7D%7D\" alt=\"p_i = 2^{-\\frac{\\Delta t_i}{h_i}}\" eeimg=\"1\"/> 对其进行拟合，并由此得到记忆半衰期。</p><p data-pid=\"rrtRsDTk\">通过此方法，我们将 <img src=\"https://www.zhihu.com/equation?tex=%5CDelta+t_i+%2C+p_i\" alt=\"\\Delta t_i , p_i\" eeimg=\"1\"/> 特征降维得到 <img src=\"https://www.zhihu.com/equation?tex=h_i\" alt=\"h_i\" eeimg=\"1\"/> ：</p><p data-pid=\"VvLesRjG\"><img src=\"https://www.zhihu.com/equation?tex=e_%7Bi%7D+%3A%3D%28d%2C+%5Cboldsymbol%7B%5CDelta+t%7D_%7B1%3Ai-1%7D%2C+%5Cboldsymbol+r_%7B1%3Ai-1%7D%2C+h_i%29\" alt=\"e_{i} :=(d, \\boldsymbol{\\Delta t}_{1:i-1}, \\boldsymbol r_{1:i-1}, h_i)\" eeimg=\"1\"/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-4001130e76520262a61ce6cc84e9751d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-4001130e76520262a61ce6cc84e9751d\" class=\"content_image\"/></figure><p data-pid=\"5VsVAA3T\">间隔效应是说，随着复习之间的间隔增长，复习后对记忆的巩固效果也会提升。在我们的数据集中，我们认为可以用一次复习前后的半衰期之比来表示记忆的巩固效果。</p><p data-pid=\"P5tcM1it\">图 3 中的散点反映了每个区间所对应的回忆比例，而曲线是用指数函数拟合这些点的结果。各种颜色表示不同的控制情况。从各种记忆行为事件中，我们可以观察到，成功的回忆会提高记忆的半衰期。记忆巩固的效果随着复习间隔的增长而上升。</p><p data-pid=\"h0FnIDGc\">基于上述效应，我们提出了 Difficulty-Halflife-P(recall) Model，用于解释现有数据。</p><h3>2.3 Difficulty-Halflife-P(recall) 模型</h3><p data-pid=\"XDOZboyA\">目前处理时间序列数据的先进方法是基于 LSTM 和 GRU 等循环神经网络，它们可以利用时间序列特征预测半衰期。然而，引入神经网络将使我们的算法缺乏解释性。因此，我们建立了一个满足马尔可夫性的时序模型，以满足可解释性和简单性。在这个模型中，我们将时间序列降维成状态变量和状态转换方程。我们考虑以下四个状态变量：</p><ul><li data-pid=\"CKz2stuj\">半衰期。它衡量记忆的存储强度。</li><li data-pid=\"W554Tv1y\">回忆概率。它衡量记忆的检索强度。根据间隔效应，每次复习的间隔时间会影响半衰期。当 <img src=\"https://www.zhihu.com/equation?tex=h\" alt=\"h\" eeimg=\"1\"/> 固定时， <img src=\"https://www.zhihu.com/equation?tex=%5CDelta+t\" alt=\"\\Delta t\" eeimg=\"1\"/> 和 <img src=\"https://www.zhihu.com/equation?tex=p\" alt=\"p\" eeimg=\"1\"/> 是一一映射的，为了规范化，我们用 <img src=\"https://www.zhihu.com/equation?tex=p%3D2%5E%7B-%5CDelta+t%2Fh%7D\" alt=\"p=2^{-\\Delta t/h}\" eeimg=\"1\"/> 代替它作为状态变量。</li><li data-pid=\"RSufGY8X\">回忆结果。回忆成功后半衰期提高，回忆失败后半衰期下降。</li><li data-pid=\"U946Zhhz\">难度。直觉上难度越高，记忆越难巩固。</li></ul><p data-pid=\"Aus5zMet\">将时间序列投影到三维空间，回忆前的半衰期、回忆概率和回忆后的半衰期分别对应 XYZ 轴，难度由颜色表示，如图 4 所示。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-029663300f6bfe7723ab219ff1be7361_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-029663300f6bfe7723ab219ff1be7361\" class=\"content_image\"/></figure><p data-pid=\"bz8_gXyu\">通过观察数据的分布，我们观察到了两个现象：在 <img src=\"https://www.zhihu.com/equation?tex=r_1+%3D+1\" alt=\"r_1 = 1\" eeimg=\"1\"/> 时 <img src=\"https://www.zhihu.com/equation?tex=h_%7Bi%2B1%7D%3Eh_i\" alt=\"h_{i+1}&gt;h_i\" eeimg=\"1\"/> ，在 <img src=\"https://www.zhihu.com/equation?tex=r_1+%3D+0\" alt=\"r_1 = 0\" eeimg=\"1\"/> 时 <img src=\"https://www.zhihu.com/equation?tex=h_%7Bi%2B1%7D%3E0\" alt=\"h_{i+1}&gt;0\" eeimg=\"1\"/></p><p data-pid=\"hSwIHdIl\">我们将这两个约束条件考虑到状态转移方程中，得到：</p><p data-pid=\"NQyPvVqy\"><img src=\"https://www.zhihu.com/equation?tex=h_%7Bi%2B1%7D+%3D%5Bh_i+%5Ccdot+%28%5Cexp%28+%5Cboldsymbol+%5Ctheta_1+%5Ccdot+%5Cboldsymbol+x_i%29%2B1%29%2C%5Cexp%28%5Cboldsymbol+%5Ctheta_2+%5Ccdot+%5Cboldsymbol+x_i%29%5D+%5Ccdot+%5Br_i%2C+1-r_i%5D%5ET\" alt=\"h_{i+1} =[h_i \\cdot (\\exp( \\boldsymbol \\theta_1 \\cdot \\boldsymbol x_i)+1),\\exp(\\boldsymbol \\theta_2 \\cdot \\boldsymbol x_i)] \\cdot [r_i, 1-r_i]^T\" eeimg=\"1\"/></p><p data-pid=\"Mk0WEGqC\">其中</p><ul><li data-pid=\"4ySXg-Z2\"><img src=\"https://www.zhihu.com/equation?tex=%5Cboldsymbol+x_i+%3D+%5B%5Clog+d_i%2C+%5Clog+h_i%2C%5Clog%281-p_i%29%5D\" alt=\"\\boldsymbol x_i = [\\log d_i, \\log h_i,\\log(1-p_i)]\" eeimg=\"1\"/> 是特征向量</li><li data-pid=\"wcg7oLqI\"><img src=\"https://www.zhihu.com/equation?tex=%5Cboldsymbol%5Ctheta\" alt=\"\\boldsymbol\\theta\" eeimg=\"1\"/> 是参数向量，由线性回归得出</li></ul><p data-pid=\"LmrtbZiD\">在该转移方程的基础上，我们观察到，当学习者反馈遗忘后的记忆行为中，在当前半衰期和回忆概率相同的情况下，下一个半衰期变小。我们认为这是由于对学习者来说更难的材料，更可能被反馈遗忘，所以学习者反馈遗忘后的材料，其难度会比记住的材料更高。</p><p data-pid=\"lp3yj7XY\">因此，我们增加了一个状态转移方程：</p><p data-pid=\"iZcNnc6K\">难度转移方程： <img src=\"https://www.zhihu.com/equation?tex=d_%7Bi+%2B+1%7D+%3D++%5Bd_i%2C+d_i+%2B+%5Ctheta_3%5D%5Ccdot%5Br_i%2C+1-r_i%5D%5ET\" alt=\"d_{i + 1} =  [d_i, d_i + \\theta_3]\\cdot[r_i, 1-r_i]^T\" eeimg=\"1\"/></p><p data-pid=\"aDU1tFUN\">为了防止难度无限增长，我们增加了一个上限。</p><p data-pid=\"Sb67fRcq\">最终，我们的记忆状态转移方程组为：</p><p data-pid=\"EiNTjhiQ\"><img src=\"https://www.zhihu.com/equation?tex=%5Cleft%5B%5Cbegin%7Barray%7D%7Bc%7D+h_%7Bi%2B1%7D+%5C%5C+d_%7Bi%2B1%7D+%5Cend%7Barray%7D%5Cright%5D+%3D+%5Cleft%5B%5Cbegin%7Barray%7D%7Bc%7D+h_i+%5Ccdot+%28%5Cexp%28+%5Cboldsymbol+%5Ctheta_1+%5Ccdot+%5Cboldsymbol+x_i%29%2B1%29%26%5Cexp%28%5Cboldsymbol+%5Ctheta_2+%5Ccdot+%5Cboldsymbol+x_i%29%5C%5C+d_i%26+d_i+%2B+%5Ctheta_3+%5Cend%7Barray%7D%5Cright%5D%5Ctimes%5Cleft%5B%5Cbegin%7Barray%7D%7Bc%7D+r_i+%5C%5C+1-r_i+%5Cend%7Barray%7D%5Cright%5D\" alt=\"\\left[\\begin{array}{c} h_{i+1} \\\\ d_{i+1} \\end{array}\\right] = \\left[\\begin{array}{c} h_i \\cdot (\\exp( \\boldsymbol \\theta_1 \\cdot \\boldsymbol x_i)+1)&amp;\\exp(\\boldsymbol \\theta_2 \\cdot \\boldsymbol x_i)\\\\ d_i&amp; d_i + \\theta_3 \\end{array}\\right]\\times\\left[\\begin{array}{c} r_i \\\\ 1-r_i \\end{array}\\right]\" eeimg=\"1\"/></p><p data-pid=\"9VO0X-u3\"><img src=\"https://www.zhihu.com/equation?tex=%5Cboldsymbol+x_i+%3D+%5B%5Clog+d_i%2C+%5Clog+h_i%2C%5Clog%281-p_i%29%5D\" alt=\"\\boldsymbol x_i = [\\log d_i, \\log h_i,\\log(1-p_i)]\" eeimg=\"1\"/></p><p data-pid=\"RBW5zpoq\"><img src=\"https://www.zhihu.com/equation?tex=r_i+%5Csim+Bernoulli%28p_i%29\" alt=\"r_i \\sim Bernoulli(p_i)\" eeimg=\"1\"/></p><p data-pid=\"CpDwVAxh\"><img src=\"https://www.zhihu.com/equation?tex=p_i%3D2%5E%7B-%5Cfrac%7B%5CDelta+t_i%7D%7Bh_i%7D%7D\" alt=\"p_i=2^{-\\frac{\\Delta t_i}{h_i}}\" eeimg=\"1\"/></p><p data-pid=\"49Mkhxfq\">根据上述转移方程组，和数据中统计出的半衰期初始值  <img src=\"https://www.zhihu.com/equation?tex=h_0\" alt=\"h_0\" eeimg=\"1\"/>  、难度初始值  <img src=\"https://www.zhihu.com/equation?tex=d_0\" alt=\"d_0\" eeimg=\"1\"/>  ，即可预测任意记忆行为序列下的半衰期 <img src=\"https://www.zhihu.com/equation?tex=h_i\" alt=\"h_i\" eeimg=\"1\"/> 。计算过程如图 5 所示。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-14e38038f23d380f5305c8abf7ebf76f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-14e38038f23d380f5305c8abf7ebf76f\" class=\"content_image\"/></figure><h2>3 最优调度</h2><p data-pid=\"b47PS-jE\">有了描述学习者长期记忆的模型，我们便可以使用该模型来预测不同间隔重复调度算法的表现。在进行优化调度之前，我们需要设置一个优化目标。</p><h3>3.1 问题设置</h3><p data-pid=\"o6LWt7cP\">间隔重复方法的目的在于帮助学习者高效地形成长期记忆。而记忆半衰期反映了长期记忆的存储强度，复习次数、每次复习所花费的时间则反映了记忆的成本。所以，间隔重复调度优化的目标可以表述为：在给定记忆成本约束内，尽可能让更多的材料达到目标半衰期，或以最小的记忆成本让一定量的记忆材料达到目标半衰期。其中，后者的问题可以简化为如何以最小的记忆成本让一条记忆材料达到目标半衰期，即最小化记忆成本（Minimize Memorization Cost, MMC）。</p><p data-pid=\"y9LOpy3I\">我们在 2.3 节所构建的长期记忆模型满足马尔可夫性，每次记忆的状态只取决于上一次的半衰期、难度和当前的复习间隔和回忆结果。其中回忆结果服从一个与复习间隔有关的随机分布。由于半衰期状态转移存在随机性，一条记忆材料达到目标半衰期所需的复习次数是不确定的。因此，间隔重复调度问题可以视作一个无限时间的随机动态规划问题。考虑到优化目标是让记忆半衰期达到目标水平，所以本问题存在终止状态，所以可以转化为一个随机最短路径问题（Stochastic Shortest Path, SSP）。结合优化目标，我们将算法命名为 SSP-MMC。</p><h3>3.2 随机最短路径算法</h3><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-940370f9553b2efe7e734771216d924a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-940370f9553b2efe7e734771216d924a\" class=\"content_image\"/></figure><p data-pid=\"tOruCAk-\">如上图所示，在不考虑难度状态的情况下，圆圈是半衰期状态，方块是复习间隔，虚线箭头表示给定复习间隔的半衰期状态转换，黑边表示给定记忆状态下可用的复习间隔与相应的复习成本。间隔重复中的随机最短路径问题是调度算法如何给出最佳复习间隔，以最小化达到目标半衰期的预期复习成本。</p><p data-pid=\"Sj0_O6dY\">符号约定：</p><ul><li data-pid=\"Ry3v7wMn\"><img src=\"https://www.zhihu.com/equation?tex=h_0\" alt=\"h_0\" eeimg=\"1\"/>  - 初始半衰期</li><li data-pid=\"Jv6_AMID\"><img src=\"https://www.zhihu.com/equation?tex=h_%7BN%7D\" alt=\"h_{N}\" eeimg=\"1\"/> - 目标半衰期</li><li data-pid=\"A7Rd_B6w\"><img src=\"https://www.zhihu.com/equation?tex=h_%7Bk%2B1%7D%2C+d_%7Bk%2B1%7D+%3D+f%28h_k%2Cd_k%2C%5CDelta+t_k%2C+r_k%29\" alt=\"h_{k+1}, d_{k+1} = f(h_k,d_k,\\Delta t_k, r_k)\" eeimg=\"1\"/>  - 记忆状态转移方程</li><li data-pid=\"aAW4zEBD\"><img src=\"https://www.zhihu.com/equation?tex=g%28h_k%2Cd_k%2C%5CDelta+t_k%2C+r_k%29\" alt=\"g(h_k,d_k,\\Delta t_k, r_k)\" eeimg=\"1\"/>  - 复习成本</li><li data-pid=\"RFny4gHC\">出于简化的目的，我们只考虑 <img src=\"https://www.zhihu.com/equation?tex=r_k\" alt=\"r_k\" eeimg=\"1\"/> 的影响： <img src=\"https://www.zhihu.com/equation?tex=g%28r_k%29+%3D++a+%5Ccdot+r_k+%2B+b+%5Ccdot+%281-r_k%29\" alt=\"g(r_k) =  a \\cdot r_k + b \\cdot (1-r_k)\" eeimg=\"1\"/></li><ul><li data-pid=\"pm7CiJ7Y\">a 为回忆成功的成本</li><li data-pid=\"sM97MVxL\">b 为回忆失败的成本</li><li data-pid=\"cH_p-37m\">通常回忆失败后需要更多的练习，所以 b &gt; a</li></ul><li data-pid=\"HWChBHOw\"><img src=\"https://www.zhihu.com/equation?tex=%5CDelta+T%28h_k%2Cd_k%29\" alt=\"\\Delta T(h_k,d_k)\" eeimg=\"1\"/> - 当前记忆状态下可选的复习间隔集合</li><li data-pid=\"nEQIpnAq\"><img src=\"https://www.zhihu.com/equation?tex=J_%5Cpi%28h_0%2Cd_0%29\" alt=\"J_\\pi(h_0,d_0)\" eeimg=\"1\"/> - 总复习成本</li></ul><p data-pid=\"qQdt2QDK\">让我们列出 SSP-MMC 的 Bellman 方程：</p><p data-pid=\"vryWaICy\"><img src=\"https://www.zhihu.com/equation?tex=J%28h_k%2Cd_k%29+%3D+%5Cmin%5Climits_%7B%5CDelta+t_k+%5Cin+%5CDelta+T%28h_k%2C+d_k%29%7D+E%5Bg%28r_k%29+%2B+J%28f%28h_k%2Cd_k%2C%5CDelta+t_k%2C+r_k%29%29%5D\" alt=\"J(h_k,d_k) = \\min\\limits_{\\Delta t_k \\in \\Delta T(h_k, d_k)} E[g(r_k) + J(f(h_k,d_k,\\Delta t_k, r_k))]\" eeimg=\"1\"/></p><p data-pid=\"rCv6CqD2\">基于该方程，可以使用动态规划迭代求解，得到每个 <img src=\"https://www.zhihu.com/equation?tex=h_k%2Cd_k\" alt=\"h_k,d_k\" eeimg=\"1\"/> 对应的最优复习间隔 <img src=\"https://www.zhihu.com/equation?tex=%5CDelta+t_k\" alt=\"\\Delta t_k\" eeimg=\"1\"/> 。</p><p data-pid=\"BTLYR0ff\">考虑到 <img src=\"https://www.zhihu.com/equation?tex=h\" alt=\"h\" eeimg=\"1\"/> 是一个连续值，不利于记录状态，可以将其离散化：</p><p data-pid=\"WE0rlvKZ\"><img src=\"https://www.zhihu.com/equation?tex=h_%7Bindex%7D+%3D+%5Clfloor%5Clog%28h%29+%2F+%5Clog%28%5Crm%7Bbase%7D%29%5Crfloor\" alt=\"h_{index} = \\lfloor\\log(h) / \\log(\\rm{base})\\rfloor\" eeimg=\"1\"/></p><ul><li data-pid=\"P_O1ED8Y\">base 用于控制 h 分箱大小</li><li data-pid=\"jB9zdZbj\">取对数是因为状态转移方程中，h 近似于指数增长</li></ul><p data-pid=\"BtQTCMRa\">由于存在难度上限 <img src=\"https://www.zhihu.com/equation?tex=d_N\" alt=\"d_N\" eeimg=\"1\"/> 和终止半衰期 <img src=\"https://www.zhihu.com/equation?tex=h_N\" alt=\"h_N\" eeimg=\"1\"/> ，我们可以建立一个成本矩阵 <img src=\"https://www.zhihu.com/equation?tex=J%5Bd_N%5D%5Bh_N%5D\" alt=\"J[d_N][h_N]\" eeimg=\"1\"/> ，并初始化为 <img src=\"https://www.zhihu.com/equation?tex=%5Cinf\" alt=\"\\inf\" eeimg=\"1\"/> 。设置 <img src=\"https://www.zhihu.com/equation?tex=J%5Bd_i%5D%5Bh_N%5D+%3D+0\" alt=\"J[d_i][h_N] = 0\" eeimg=\"1\"/> ，然后开始遍历每个 <img src=\"https://www.zhihu.com/equation?tex=%28d_k%2Ch_k%29\" alt=\"(d_k,h_k)\" eeimg=\"1\"/> ，从 <img src=\"https://www.zhihu.com/equation?tex=%5CDelta+T%28h_k%2C+d_k%29\" alt=\"\\Delta T(h_k, d_k)\" eeimg=\"1\"/> 中遍历每个 <img src=\"https://www.zhihu.com/equation?tex=%5CDelta+t_k\" alt=\"\\Delta t_k\" eeimg=\"1\"/> ，计算 <img src=\"https://www.zhihu.com/equation?tex=p_k%2Ch_%7Br_k%3D1%7D%2Ch_%7Br_k%3D0%7D%2Cd_%7Br_k%3D1%7D%2Cd_%7Br_k%3D0%7D\" alt=\"p_k,h_{r_k=1},h_{r_k=0},d_{r_k=1},d_{r_k=0}\" eeimg=\"1\"/> ，然后使用以下公式：</p><p data-pid=\"QwrSn6w-\"><img src=\"https://www.zhihu.com/equation?tex=cost%5Bh_k%5D%5Bd_k%5D+%3D+%5Cmin%5Climits_%7Bp_k%7D+%5Bp_k+%5Ccdot+%28g%281%29+%2B+cost%5Bh_%7Br_k%3D1%7D%5D%5Bd_%7Br_k%3D1%7D%5D%29+%2B+%281-p_k%29+%5Ccdot+%28g%280%29+%2B+cost%5Bh_%7Br_k%3D0%7D%5D%5Bd_%7Br_k%3D0%7D%5D%29%5D\" alt=\"cost[h_k][d_k] = \\min\\limits_{p_k} [p_k \\cdot (g(1) + cost[h_{r_k=1}][d_{r_k=1}]) + (1-p_k) \\cdot (g(0) + cost[h_{r_k=0}][d_{r_k=0}])]\" eeimg=\"1\"/></p><p data-pid=\"_xbCccIQ\">来迭代更新每个记忆状态对应的最优成本。用一个策略矩阵记录每个状态下最优的复习间隔。最优策略会在一遍遍迭代中收敛。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-581282f5d02a22668f4dd2e48f846f85_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-581282f5d02a22668f4dd2e48f846f85\" class=\"content_image\"/></figure><h2>4 实验</h2><p data-pid=\"8LyENXEY\">我们的实验将回答以下问题：</p><ul><li data-pid=\"qJX6ro4U\">DHP 模型模拟长期记忆的效果如何？</li><li data-pid=\"p_YkRRGO\">DHP 模型的权重参数的实际意义是什么？</li><li data-pid=\"76OobZNJ\">SSP-MMC 算法给出的最佳复习间隔的模式是什么？</li><li data-pid=\"BNEHyEZ4\">与基线相比，SSP-MMC 算法在不同指标上有什么改进？</li></ul><p data-pid=\"ithwxZAG\">在这一节中，我们首先根据第 2.3 节中收集的数据集训练了 DHP 模型，并将其与 HLR 模型进行比较。还对 DHP 模型的参数进行了可视化，以获得对记忆的直观解释。然后，我们使用 DHP 模型作为 SSP-MMC 算法的训练环境，以获得最佳策略并将其可视化。最后，我们在由 DHP 模型组成的模拟环境中比较了 SSP-MMC 与不同基线的性能。</p><h3>4.1 DHP 模型权重分析</h3><p data-pid=\"tPvGM7kz\">为了更好地了解DHP模型，我们将其与 HLR 模型在预测半衰期方面进行比较，并分析模型的权重。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-15b1a4262470e503382e71cb1e1e2a0d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-15b1a4262470e503382e71cb1e1e2a0d\" class=\"content_image\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-03863aac0c4371eba574d960ead11d26_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-03863aac0c4371eba574d960ead11d26\" class=\"content_image\"/></figure><p data-pid=\"-sGct3KL\">拟合的结果显示在图 7 中。从比较中，我们可以发现，在预测半衰期时，HLR 是欠拟合的，而 DHP 模型的预测误差（如表所示）明显小于 HLR 模型，特别是在回忆失败后的结果。这很可能是由于 HLR 丢失了时间序列信息，使得它无法区分 <img src=\"https://www.zhihu.com/equation?tex=r_%7B1%3A2%7D%3D1%2C0\" alt=\"r_{1:2}=1,0\" eeimg=\"1\"/> 和 <img src=\"https://www.zhihu.com/equation?tex=r_%7B1%3A2%7D%3D0%2C1\" alt=\"r_{1:2}=0,1\" eeimg=\"1\"/> 这样的记忆行为。</p><p data-pid=\"Y1gkNMAl\">根据拟合得到的参数和模型的方程，我们得到成功回忆后的半衰期：</p><p data-pid=\"dLYyWmA1\"><img src=\"https://www.zhihu.com/equation?tex=h_%7Bi%2B1%7D+%3D+h_i+%5Ccdot%28+%5Cexp%283.81%29+%5Ccdot+d_i%5E%7B-0.534%7D+%5Ccdot+h_i%5E%7B-0.127%7D++%5Ccdot+%281+-+p_i%29%5E%7B0.970%7D+%2B+1%29\" alt=\"h_{i+1} = h_i \\cdot( \\exp(3.81) \\cdot d_i^{-0.534} \\cdot h_i^{-0.127}  \\cdot (1 - p_i)^{0.970} + 1)\" eeimg=\"1\"/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-1ebcbb2a08783d42bf5e80bf7345f2b6_1440w.jpg\" data-size=\"normal\" data-original-token=\"v2-1ebcbb2a08783d42bf5e80bf7345f2b6\" class=\"content_image\"/><figcaption>img</figcaption></figure><p data-pid=\"7UuFfTiZ\">图 8a 说明，成功回忆后的半衰期随着 <img src=\"https://www.zhihu.com/equation?tex=p_i\" alt=\"p_i\" eeimg=\"1\"/> 的减少而增加，这验证了间隔效应的存在。图 8b 显示，随着最后半衰期的增加，半衰期的增加倍数减少，这可能意味着我们的记忆巩固会随着记忆强度的增加而减少，即存在边际效应。</p><p data-pid=\"8i2l-8PU\">类似地，回忆失败后的半衰期：</p><p data-pid=\"srbvQBAa\"><img src=\"https://www.zhihu.com/equation?tex=h_%7Bi%2B1%7D+%3D+%5Cexp%28-0.041%29+%5Ccdot+d_i%5E%7B-0.041%7D+%5Ccdot+h_i%5E%7B0.377%7D+%5Ccdot+++%281+-+p_i%29%5E%7B-0.227%7D\" alt=\"h_{i+1} = \\exp(-0.041) \\cdot d_i^{-0.041} \\cdot h_i^{0.377} \\cdot   (1 - p_i)^{-0.227}\" eeimg=\"1\"/></p><p data-pid=\"NVnFL9qo\">图 8c 中，记忆的半衰期越长，回忆失败后的半衰期也越长，这可能是因为记忆在遗忘中没有完全丢失。而随着回忆概率的降低，回忆失败后的半衰期也随之降低，这可能是因为随着时间的推移，记忆被遗忘得更彻底。</p><h3>4.2 SSP-MMC 最优策略分析</h3><p data-pid=\"rWM-U5n2\">通过在 DHP 模型的环境中训练算法 SSP-MMC，我们得到了每个记忆状态的预期复习成本和最佳复习间隔。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-8acd0bc1cf054b05726e3d48c4aa256a_1440w.jpg\" data-size=\"normal\" data-original-token=\"v2-8acd0bc1cf054b05726e3d48c4aa256a\" class=\"content_image\"/><figcaption>img</figcaption></figure><p data-pid=\"9t2i9-AA\">如图 9(a) 所示，复习成本随着半衰期的增加而减少，随着难度的增加而增加。具有高半衰期的记忆以较低的预期成本达到目标半衰期。此外，难度较高的记忆具有较高的预期成本，因为它们的半衰期增长较低，如图 8(b) 所示，需要更多的复习才能达到目标半衰期。</p><p data-pid=\"J8V0NZwN\">如图 9(b) 所示，在相同的记忆半衰期水平下，间隔时间随着难度的增加而增加。这可能是因为遗忘提高了简单记忆的难度，降低了它们的半衰期，导致了更高的复习成本。调度算法倾向于给简单记忆更短的间隔时间，减少它们被遗忘的概率，即使它牺牲了一点半衰期的提升。间隔时间在半衰期的中段达到峰值。为了解释这个峰值，有必要与图 9(c) 进行比较。</p><p data-pid=\"bfCz2fte\">如图 9(c) 所示，对应于最佳间隔的回忆概率随着半衰期的提高而增加，随着难度的增加而减少。这意味着在记忆的早期阶段，调度器会指示学习者以较低的检索强度进行复习，这可能是「合意困难」的反映。当半衰期增加到目标值时，回忆概率就会接近 100％。根据公式 <img src=\"https://www.zhihu.com/equation?tex=%5CDelta+t+%3D+-+h+%5Ccdot+%5Clog_2+p\" alt=\"\\Delta t = - h \\cdot \\log_2 p\" eeimg=\"1\"/> 和 p 对 h 的趋势， <img src=\"https://www.zhihu.com/equation?tex=%5CDelta+t\" alt=\"\\Delta t\" eeimg=\"1\"/> 在出现峰值的地方先是增加，然后减少。</p><h3>4.3 离线模拟</h3><p data-pid=\"gR2PzgId\">我们研究了 5 个基线策略：RANDOM、ANKI、HALF-LIFE、THRESHOLD、MEMORIZE 和 3 个指标：目标半衰期达成量（THR）、累计学习量（WTL）、回忆期望（SPR）。</p><p data-pid=\"A2w7nJxK\"><b>环境</b></p><p data-pid=\"vqq97V1u\">我们的模拟环境有以下参数。目标半衰期 <img src=\"https://www.zhihu.com/equation?tex=h_N\" alt=\"h_N\" eeimg=\"1\"/> ，回忆成功/失败成本，每日成本限制和模拟持续时间。</p><p data-pid=\"SifZWkZc\"><b>基线</b></p><p data-pid=\"y2LFthzm\">我们将 SSP-MMC 与几个基线调度算法进行对比：</p><ul><li data-pid=\"_txUfV00\">RANDOM 策略，每次从 <img src=\"https://www.zhihu.com/equation?tex=%5B1%2Ch_N%5D\" alt=\"[1,h_N]\" eeimg=\"1\"/> 中随机选择一个间隔进行安排复习</li><li data-pid=\"ab05z99d\">ANKI，SM-2 的一种变体，参考其开源的代码。由于 ANKI 的算法中，用户的回忆结果是以 1-4 分输入。我们将回忆失败映射到 1 分，回忆成功映射到 3 分。</li><li data-pid=\"fkcf23wC\">HALF-LIFE，即直接以半衰期作为本次安排的复习间隔。</li><li data-pid=\"-PTkKpLy\">THRESHOLD，即当 p 小于等于某一阈值（我们使用 80%）时进行复习。</li><li data-pid=\"dHQlHQ8F\">MEMORIZE，一种基于最优控制的算法，代码来自于他们开源的仓库。</li></ul><p data-pid=\"2wmlytkL\"><b>指标</b></p><p data-pid=\"4xvMX0-G\">我们的评价指标包括：</p><ul><li data-pid=\"fHbRNorN\">THR，达到目标半衰期的记忆数量</li><li data-pid=\"ARRgGzSb\">SPR，累计回忆期望，即学习者所有记忆的单词的回忆概率之和。</li><li data-pid=\"KWnhh0TC\">WTL，累计学习数量</li></ul><p data-pid=\"popPF8sy\"><b>实现细节</b></p><p data-pid=\"JtEDFlOy\">我们设定 360 天（接近一年）的回忆半衰期为目标半衰期，当单词的半衰期超过这个值时，它将不再被安排复习。然后，考虑到实际场景中学习者每天的学习时间大致恒定，我们设定 600s（10 分钟）为每天学习成本的上限。当每次学习和复习过程中的累计成本超过这个上限时，无论是否完成，复习任务都会被推迟到第二天，以确保每种算法在相同的记忆成本下进行比较。我们使用学习者的平均时间，即成功回忆的时间为 3s，失败回忆的时间为 9s。然后，语言学习是一个长期的过程，我们设定模拟时间为 1000 天。</p><p data-pid=\"z1tZ83P4\"><b>分析</b></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-899e47a3b61532cc9339fd15fed21835_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-899e47a3b61532cc9339fd15fed21835\" class=\"content_image\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-7b78815d799ca25cbc143b7bbeff5c87_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-7b78815d799ca25cbc143b7bbeff5c87\" class=\"content_image\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-27f27bdc022127685179d691bdb8d0b0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-original-token=\"v2-27f27bdc022127685179d691bdb8d0b0\" class=\"content_image\"/></figure><p data-pid=\"DsaJzT2J\">上图中的仿真结果显示，</p><p data-pid=\"42oIpvvh\">在 THR 上， SSP-MMC 的表现比所有基线都好，这在意料之中。THR 与 SSP-MMC 的优化目标一致，而且 SSP-MMC 可以达到这个指标的上限。</p><p data-pid=\"44tGVniQ\">为了量化每种算法表现之间的相对差异，我们比较了 THR  = 6000 的天数（图中标记为 <img src=\"https://www.zhihu.com/equation?tex=%5Cstar\" alt=\"\\star\" eeimg=\"1\"/> ）： SSP-MMC 为 466 天，ANKI 为 569 天，THRESHOLD 为 533 天，而 MEMORIZE 为 793 天。与THRESHOLD 相比，SSP-MMC 节省了 12.6％ 的复习时间。</p><p data-pid=\"cRSUGAAt\">SRP 上的结果与 THR 上的结果相似。这意味着学习者按照 SSP-MMC 安排学习会记得最多。</p><p data-pid=\"qZFNXMB8\">在 WTL 上，RANDOM 在早期阶段击败了所有的算法，因为只要调度算法不安排复习，学习者就可以继续学习新的单词，但这是以忘记已经学过的单词为代价的。此外，SSP-MMC 胜过其他基线，因为它将记忆的成本降到最低，给学习者更多的时间来学习新词。</p><h2>5 结论</h2><p data-pid=\"lpmnmgMf\">我们的工作建立了第一个包含完整时序信息的记忆数据集，设计了基于时序信息的长期记忆模型，能够良好拟合现有的数据，并为优化间隔重复调度提供了坚实的基础。我们将最小化学习者的记忆成本作为间隔重复算法的目标，根据随机最优控制理论，我们推导出了有数学保证的最小化记忆成本的调度算法 SSP-MMC。SSP-MMC 将心理学上被多次验证的遗忘曲线、间隔效应等理论与现代机器学习技术相结合，降低了学习者形成长期记忆的记忆成本。相较于 HLR 模型，考虑时序信息的模型在拟合用户长期记忆上的精度有显著提升。并且，基于随机动态规划的间隔重复调度算法，在各项指标上都超过了之前的算法。该算法部署在墨墨背单词中以提高用户的长期记忆效率。我们在附录中提供了设计和部署的技术细节。</p><p data-pid=\"mriyWIP4\">主要的后续工作是改进 DHP 模型，考虑用户特征对记忆状态转移的影响，并在语言学习以外的间隔重复软件中使用我们的算法来检验模型的通用性。此外，学习者使用间隔重复方法的场景十分多样化，设计匹配学习者目标的优化指标也是一个值得研究的问题。</p><hr/><p data-pid=\"8RHIkj8b\">补充：本文的算法经简化后，已可以与 Anki 等间隔重复软件相兼容，具体请见我为 Anki 开发的算法插件：</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">open-spaced-repetition/fsrs4anki: A modern Anki custom scheduling based on free spaced repetition scheduler algorithm (github.com)</a><p></p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19585374",
+      "type": "topic",
+      "id": "19585374",
+      "name": "语言学习"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/20061156",
+      "type": "topic",
+      "id": "20061156",
+      "name": "最优控制"
+    }
+  ],
+  "voteup_count": 559,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "收录个人相关或不好分类的文章",
+    "is_following": true,
+    "url_token": "c_1280249768422608896",
+    "id": "c_1280249768422608896",
+    "articles_count": 73,
+    "accept_submission": true,
+    "title": "学委叶哥的随笔",
+    "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+    "comment_permission": "all",
+    "created": 1598015330,
+    "updated": 1751811281,
+    "image_url": "https://picx.zhimg.com/v2-c31ca0615bbbe77cc9d0ad05465dd223_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 251,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 98,
+  "contributions": [
+    {
+      "id": 43024973,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "收录个人相关或不好分类的文章",
+        "is_following": true,
+        "url_token": "c_1280249768422608896",
+        "id": "c_1280249768422608896",
+        "articles_count": 73,
+        "accept_submission": true,
+        "title": "学委叶哥的随笔",
+        "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+        "comment_permission": "all",
+        "created": 1598015330,
+        "updated": 1751811281,
+        "image_url": "https://picx.zhimg.com/v2-c31ca0615bbbe77cc9d0ad05465dd223_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 251,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 577383961,
-  "voteup_count": 477,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 814,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "KDD&#39;22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育] - 来自知乎专栏「学委叶哥的随笔」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/577383961 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1666756487,
-  "url": "https://api.zhihu.com/articles/577383961",
-  "comment_permission": "all",
-  "title": "KDD'22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]",
-  "image_width": 1480,
-  "content": "<p data-pid=\"EUmvOOo0\">大家好，我是叶峻峣，墨墨科技的记忆算法工程师。前三篇文章我分别介绍了我的科研经历<sup data-text=\"我是如何在本科期间发表顶会论文的？\" data-url=\"https://zhuanlan.zhihu.com/p/543325359\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>、算法教程<sup data-text=\"间隔重复记忆算法：e 天内，从入门到入土。\" data-url=\"https://zhuanlan.zhihu.com/p/556020884\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>和研究资源<sup data-text=\"间隔重复记忆算法研究资源汇总\" data-url=\"https://zhuanlan.zhihu.com/p/561539418\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。今天分享一下记忆算法论文 A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling 的详细介绍，该论文由我和哈工深的苏敬勇老师、墨墨背单词的曹译珑博士在 KDD 2022 上发表，研究了如何在背单词场景下对用户复习规划进行优化的问题。与以往的同类工作不同的是，本文构建了包含用户记忆行为时序特征的数据集，并设计了具有可解释性的记忆模型，能够在理论上保证复习策略的最优性。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f35021ba5249f3859413ed255a020467_b.jpg\" data-caption=\"\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-f35021ba5249f3859413ed255a020467\"/></figure><blockquote data-pid=\"OmSX9EnU\">论文免费下载地址：<a href=\"https://link.zhihu.com/?target=https%3A//www.maimemo.com/paper/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">maimemo.com/paper/</span><span class=\"invisible\"></span></a><br/>复现代码仓库：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/maimemo/SSP-MMC\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/maimemo/SSP-</span><span class=\"invisible\">MMC</span><span class=\"ellipsis\"></span></a><br/>开源数据集：<a href=\"https://link.zhihu.com/?target=https%3A//doi.org/10.7910/DVN/VAGUL0\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">doi.org/10.7910/DVN/VAG</span><span class=\"invisible\">UL0</span><span class=\"ellipsis\"></span></a></blockquote><h2>1 动机</h2><p data-pid=\"FnyTZTnU\">在大多数间隔重复的实践中，材料以抽认卡的形式呈现，如图 1 所示，根据简单的时间表确定每张卡片的复习时机。间隔重复调度算法有着悠长的历史。从 Leitner 盒到首个间隔重复软件 SuperMemo，他们都是以设计者的经验和个人实验为基础，使用简单的启发式算法。当今许多间隔重复软件（Anki，Mnemosyne 等）仍在使用这些算法。由于硬编码的参数和缺乏理论推导，这些算法无法适应不同的学习者和材料，性能也难以得到保证。</p><p data-pid=\"MZjcCj7w\">随着在线学习平台的普及，大量关于学生复习的数据得以收集。这使研究人员能够设计出可训练、自适应、有保证的算法。在墨墨背单词这一语言学习应用中，高效的间隔重复调度算法可以节省数百万用户的时间，并帮助他们记住更多的单词。最近，一些研究采用机器学习来确定最佳复习时间。然而，由于以下三个原因，这些方法并不适用于我们的情况：</p><ul><li data-pid=\"QMJh8fZ_\">缺少时间序列信息：一些研究，如 HLR（半衰期回归）模型和 EFC（指数遗忘曲线）模型，使用遗忘曲线将回忆概率与上次复习后的时间联系起来。但他们忽略了时间间隔对记忆强度的影响。在他们的模型中，记忆强度是关于重复次数的函数。根据间隔效应和我们收集的数据，复习间隔对长期记忆的形成过程有很大影响。<br/><br/></li><li data-pid=\"-SUTl79_\">缺少用户感知的优化目标：HLR 和基于它改进的 C-HLR 模型，旨在准确预测记忆的回忆概率。而用户更关心复习压力、记忆效率等指标。<br/><br/></li><li data-pid=\"L8XFixCT\">缺少可解释性：一些基于深度强化学习的算法对设计者来说是黑盒子，缺乏可解释性。可解释的学生记忆模型对教育研究更有意义。</li></ul><p data-pid=\"TdMEgzoO\">在本文中，我们根据收集到的数以百万计的记忆数据，建立了用于模拟用户长期记忆的 DHP（Difficulty-Halflife-P(recall)）模型。我们设定了具有实际意义的优化目标：最小化用户形成长期记忆的成本。为了实现这一目标，我们提出了一种新颖的间隔重复调度算法，名为 SSP-MMC（Stochastic-Shortest-Path-Minimize-Memorization-Cost）。</p><p data-pid=\"fe27m-cS\">我们的工作为间隔重复调度算法提供了更接近自然环境的长期记忆模型，并通过现实世界的数据进行了测试。我们找到了间隔重复调度的优化问题和相应的最优方法。我们公开了数据和代码工具，以方便复现和后续研究。综上所述，本文的主要贡献是：</p><ul><li data-pid=\"yrMq6jzw\">建立并开源我们的间隔重复日志数据集，这是首个包含时间序列信息的数据集。</li><li data-pid=\"Bonse5wI\">据我们所知，这是首个采用时间序列特征来模拟长期记忆的工作。</li><li data-pid=\"3EIHmKeq\">实验结果表明，在最小化记忆成本方面，SSP-MMC 优于最先进的基线。</li></ul><h2>2 长期记忆模型</h2><p data-pid=\"dpQZNz9s\">为了设计一种高效、有保证、可解释的间隔重复调度算法，我们收集了学习者的记忆行为数据，然后用这些数据来验证几种心理效应。利用这些效应，我们对记忆进行建模，以了解间隔重复调度如何影响学习者的记忆状态。</p><h3>2.1 建立数据集</h3><p data-pid=\"OOxVAryI\">我们在墨墨背单词上收集了一个月的学习日志，从中筛选出 2.2 亿条记忆行为数据，用于训练模型来模拟学习者的记忆。由于以下原因，我们没有使用 Duolingo 的开源数据集：</p><ul><li data-pid=\"Gziwz1rD\">它缺乏时间序列方面的信息，如反馈和间隔的序列，而我们对数据的分析表明，不同的序列对记忆状态有很大的影响。<br/><br/></li><li data-pid=\"fVyqe1Uj\">它对回忆概率的定义有问题。Duolingo 将回忆概率定义为一个单词在复习环节中被正确回忆的次数比例，即假定同一单词在复习环节中的多次记忆行为相互独立。然而在实践中，第一次回忆会影响学习者的记忆状态和后续记忆。</li></ul><p data-pid=\"gvcTycus\">从墨墨背单词收集的记忆数据记录了学习者对单词记忆的历史信息。对于任意记忆行为，我们用一个四元组来表示：</p><p data-pid=\"doqvEp0X\"><img src=\"https://www.zhihu.com/equation?tex=e+%3A%3D%28u%2C+l%2C+t%2C+r%29\" alt=\"e :=(u, l, t, r)\" eeimg=\"1\"/></p><p data-pid=\"PKPpb-u-\">其含义为一个学习者 <img src=\"https://www.zhihu.com/equation?tex=u\" alt=\"u\" eeimg=\"1\"/> 在时刻 <img src=\"https://www.zhihu.com/equation?tex=t\" alt=\"t\" eeimg=\"1\"/> 回忆单词 <img src=\"https://www.zhihu.com/equation?tex=l\" alt=\"l\" eeimg=\"1\"/> 并反馈 <img src=\"https://www.zhihu.com/equation?tex=r\" alt=\"r\" eeimg=\"1\"/> （回忆成功 <img src=\"https://www.zhihu.com/equation?tex=r%3D1\" alt=\"r=1\" eeimg=\"1\"/> ；回忆失败 <img src=\"https://www.zhihu.com/equation?tex=r%3D0\" alt=\"r=0\" eeimg=\"1\"/> ）。</p><p data-pid=\"AHIalEfY\">为了便于研究记忆行为序列，我们将历史特征加入其中：</p><p data-pid=\"15KLXnA9\"><img src=\"https://www.zhihu.com/equation?tex=e_%7Bi%7D+%3A%3D%28u%2C+l%2C+%5Cboldsymbol%7B%5CDelta+t_%7B1%3Ai-1%7D%7D%2C+%5Cboldsymbol+r_%7B1%3Ai-1%7D+%2C+%5CDelta+t_i+%2C+r_i%29\" alt=\"e_{i} :=(u, l, \\boldsymbol{\\Delta t_{1:i-1}}, \\boldsymbol r_{1:i-1} , \\Delta t_i , r_i)\" eeimg=\"1\"/></p><p data-pid=\"2C-67Dgy\">其中 <img src=\"https://www.zhihu.com/equation?tex=e_i\" alt=\"e_i\" eeimg=\"1\"/> 表示学习者 <img src=\"https://www.zhihu.com/equation?tex=u\" alt=\"u\" eeimg=\"1\"/> 对单词 <img src=\"https://www.zhihu.com/equation?tex=l\" alt=\"l\" eeimg=\"1\"/> 的第 <img src=\"https://www.zhihu.com/equation?tex=i\" alt=\"i\" eeimg=\"1\"/> 次回忆， <img src=\"https://www.zhihu.com/equation?tex=%5CDelta+t\" alt=\"\\Delta t\" eeimg=\"1\"/> 表示两次回忆之间的时间间隔。  <img src=\"https://www.zhihu.com/equation?tex=%5Cboldsymbol+%5CDelta+t_%7B1%3Ai-1%7D\" alt=\"\\boldsymbol \\Delta t_{1:i-1}\" eeimg=\"1\"/> 和 <img src=\"https://www.zhihu.com/equation?tex=%5Cboldsymbol+r_%7B1%3Ai-1%7D\" alt=\"\\boldsymbol r_{1:i-1}\" eeimg=\"1\"/> 分别表示第 <img src=\"https://www.zhihu.com/equation?tex=1\" alt=\"1\" eeimg=\"1\"/> 到第 <img src=\"https://www.zhihu.com/equation?tex=i-1\" alt=\"i-1\" eeimg=\"1\"/> 回忆的间隔历史和反馈历史。</p><p data-pid=\"zDDAMWnQ\">我们过滤掉其中第一个反馈为 <img src=\"https://www.zhihu.com/equation?tex=r%3D1\" alt=\"r=1\" eeimg=\"1\"/> 的日志，以排除学习者在使用间隔重复之前形成的记忆的影响。学习者的记忆行为事件的样本日志见表 1</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-73f5fbf348e73727213039afb74709ad_b.jpg\" data-caption=\"\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-73f5fbf348e73727213039afb74709ad\"/></figure><p data-pid=\"5wEjKOJ_\">由此我们得到了包含任意学习者对任意单词的完整记忆行为历史数据。接下来，我们将基于该数据验证两个在间隔重复中发挥重要作用的心理学现象。</p><h3>2.2 遗忘曲线与间隔效应</h3><p data-pid=\"dNPH5lKx\">遗忘曲线是说，学习者停止复习后，记忆会随着时间的推移而衰退。在上面的记忆行为事件中，回忆是二元的（即，用户要么完全回忆起一个单词，要么忘记一个单词）。为了捕捉记忆的衰退，我们需要得到二元回忆背后潜在的概率。为了得到回忆概率，我们忽略学习者本身的影响，用学习该单词的学习者中的回忆比例 <img src=\"https://www.zhihu.com/equation?tex=%5Ccfrac%7Bn_%7Br%3D1%7D%7D%7BN%7D\" alt=\"\\cfrac{n_{r=1}}{N}\" eeimg=\"1\"/> 作为回忆概率 <img src=\"https://www.zhihu.com/equation?tex=p\" alt=\"p\" eeimg=\"1\"/> ，从而聚合得到：</p><p data-pid=\"R9W8jceR\"><img src=\"https://www.zhihu.com/equation?tex=e_%7Bi%7D+%3A%3D%28l%2C+%5Cboldsymbol%7B%5CDelta+t%7D_%7B1%3Ai-1%7D%2C+%5Cboldsymbol+r_%7B1%3Ai-1%7D%2C+%5CDelta+t_i+%2C+p_i%29\" alt=\"e_{i} :=(l, \\boldsymbol{\\Delta t}_{1:i-1}, \\boldsymbol r_{1:i-1}, \\Delta t_i , p_i)\" eeimg=\"1\"/></p><p data-pid=\"pOrFqvme\">通过控制 <img src=\"https://www.zhihu.com/equation?tex=w\" alt=\"w\" eeimg=\"1\"/> 、 <img src=\"https://www.zhihu.com/equation?tex=%5Cboldsymbol%7B%5CDelta+t%7D_%7B1%3Ai-1%7D\" alt=\"\\boldsymbol{\\Delta t}_{1:i-1}\" eeimg=\"1\"/> 和 <img src=\"https://www.zhihu.com/equation?tex=%5Cboldsymbol+r_%7B1%3Ai-1%7D\" alt=\"\\boldsymbol r_{1:i-1}\" eeimg=\"1\"/> ，我们可以绘制每个 <img src=\"https://www.zhihu.com/equation?tex=%5CDelta+t\" alt=\"\\Delta t\" eeimg=\"1\"/> 的 <img src=\"https://www.zhihu.com/equation?tex=p\" alt=\"p\" eeimg=\"1\"/> ，从而得到遗忘曲线。当 <img src=\"https://www.zhihu.com/equation?tex=N\" alt=\"N\" eeimg=\"1\"/> 足够大时，比率 <img src=\"https://www.zhihu.com/equation?tex=n_%7Br%3D1%7D%2FN\" alt=\"n_{r=1}/N\" eeimg=\"1\"/> 接近回忆概率。然而，墨墨背单词中有将近 10 万个单词，在不同的时间序列中为每个词收集的行为事件是稀疏的。我们需要对单词进行分组，以便在区分不同的单词和缓解数据稀疏性之间做出权衡。鉴于我们对遗忘曲线感兴趣，材料的难度会明显影响遗忘速度。因此，我们尝试用第一次学习它们后第二天的回忆率作为划分单词难度的标准。图2a描绘了回忆率的分布。</p><p data-pid=\"bNNflxAa\">我们可以从数据分布中看到，回忆率大多在 0.45 和 0.85 之间。为了让分组尽可能均衡，我们将单词分为十个难度组。分组的结果显示在图2和表2中。符号 <img src=\"https://www.zhihu.com/equation?tex=d\" alt=\"d\" eeimg=\"1\"/> 表示难度，数字越大，难度就越大。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-03737e778ddb22d0c2d76be11f3dc025_b.jpg\" data-caption=\"\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-03737e778ddb22d0c2d76be11f3dc025\"/></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-7b078a7bb728e67f18dd9be3d8a1b678_b.jpg\" data-caption=\"\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-7b078a7bb728e67f18dd9be3d8a1b678\"/></figure><p data-pid=\"KQMKVwSp\">因此，分组后的记忆行为事件可以表示为：</p><p data-pid=\"DXHWH-RQ\"><img src=\"https://www.zhihu.com/equation?tex=e_%7Bi%7D+%3A%3D%28d%2C+%5Cboldsymbol%7B%5CDelta+t%7D_%7B1%3Ai-1%7D%2C+%5Cboldsymbol+r_%7B1%3Ai-1%7D%2C+%5CDelta+t_i+%2C+p_i%29\" alt=\"e_{i} :=(d, \\boldsymbol{\\Delta t}_{1:i-1}, \\boldsymbol r_{1:i-1}, \\Delta t_i , p_i)\" eeimg=\"1\"/></p><p data-pid=\"_fuGbrM4\">使用聚合后的数据，我们便可以绘制有足够数据支持的遗忘曲线。我们使用指数遗忘曲线模型 <img src=\"https://www.zhihu.com/equation?tex=p_i+%3D+2%5E%7B-%5Cfrac%7B%5CDelta+t_i%7D%7Bh_i%7D%7D\" alt=\"p_i = 2^{-\\frac{\\Delta t_i}{h_i}}\" eeimg=\"1\"/> 对其进行拟合，并由此得到记忆半衰期。</p><p data-pid=\"rrtRsDTk\">通过此方法，我们将 <img src=\"https://www.zhihu.com/equation?tex=%5CDelta+t_i+%2C+p_i\" alt=\"\\Delta t_i , p_i\" eeimg=\"1\"/> 特征降维得到 <img src=\"https://www.zhihu.com/equation?tex=h_i\" alt=\"h_i\" eeimg=\"1\"/> ：</p><p data-pid=\"VvLesRjG\"><img src=\"https://www.zhihu.com/equation?tex=e_%7Bi%7D+%3A%3D%28d%2C+%5Cboldsymbol%7B%5CDelta+t%7D_%7B1%3Ai-1%7D%2C+%5Cboldsymbol+r_%7B1%3Ai-1%7D%2C+h_i%29\" alt=\"e_{i} :=(d, \\boldsymbol{\\Delta t}_{1:i-1}, \\boldsymbol r_{1:i-1}, h_i)\" eeimg=\"1\"/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-4001130e76520262a61ce6cc84e9751d_b.jpg\" data-caption=\"\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-4001130e76520262a61ce6cc84e9751d\"/></figure><p data-pid=\"5VsVAA3T\">间隔效应是说，随着复习之间的间隔增长，复习后对记忆的巩固效果也会提升。在我们的数据集中，我们认为可以用一次复习前后的半衰期之比来表示记忆的巩固效果。</p><p data-pid=\"P5tcM1it\">图 3 中的散点反映了每个区间所对应的回忆比例，而曲线是用指数函数拟合这些点的结果。各种颜色表示不同的控制情况。从各种记忆行为事件中，我们可以观察到，成功的回忆会提高记忆的半衰期。记忆巩固的效果随着复习间隔的增长而上升。</p><p data-pid=\"h0FnIDGc\">基于上述效应，我们提出了 Difficulty-Halflife-P(recall) Model，用于解释现有数据。</p><h3>2.3 Difficulty-Halflife-P(recall) 模型</h3><p data-pid=\"XDOZboyA\">目前处理时间序列数据的先进方法是基于 LSTM 和 GRU 等循环神经网络，它们可以利用时间序列特征预测半衰期。然而，引入神经网络将使我们的算法缺乏解释性。因此，我们建立了一个满足马尔可夫性的时序模型，以满足可解释性和简单性。在这个模型中，我们将时间序列降维成状态变量和状态转换方程。我们考虑以下四个状态变量：</p><ul><li data-pid=\"CKz2stuj\">半衰期。它衡量记忆的存储强度。</li><li data-pid=\"W554Tv1y\">回忆概率。它衡量记忆的检索强度。根据间隔效应，每次复习的间隔时间会影响半衰期。当 <img src=\"https://www.zhihu.com/equation?tex=h\" alt=\"h\" eeimg=\"1\"/> 固定时， <img src=\"https://www.zhihu.com/equation?tex=%5CDelta+t\" alt=\"\\Delta t\" eeimg=\"1\"/> 和 <img src=\"https://www.zhihu.com/equation?tex=p\" alt=\"p\" eeimg=\"1\"/> 是一一映射的，为了规范化，我们用 <img src=\"https://www.zhihu.com/equation?tex=p%3D2%5E%7B-%5CDelta+t%2Fh%7D\" alt=\"p=2^{-\\Delta t/h}\" eeimg=\"1\"/> 代替它作为状态变量。</li><li data-pid=\"RSufGY8X\">回忆结果。回忆成功后半衰期提高，回忆失败后半衰期下降。</li><li data-pid=\"U946Zhhz\">难度。直觉上难度越高，记忆越难巩固。</li></ul><p data-pid=\"Aus5zMet\">将时间序列投影到三维空间，回忆前的半衰期、回忆概率和回忆后的半衰期分别对应 XYZ 轴，难度由颜色表示，如图 4 所示。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-029663300f6bfe7723ab219ff1be7361_b.jpg\" data-caption=\"\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-029663300f6bfe7723ab219ff1be7361\"/></figure><p data-pid=\"bz8_gXyu\">通过观察数据的分布，我们观察到了两个现象：在 <img src=\"https://www.zhihu.com/equation?tex=r_1+%3D+1\" alt=\"r_1 = 1\" eeimg=\"1\"/> 时 <img src=\"https://www.zhihu.com/equation?tex=h_%7Bi%2B1%7D%3Eh_i\" alt=\"h_{i+1}&gt;h_i\" eeimg=\"1\"/> ，在 <img src=\"https://www.zhihu.com/equation?tex=r_1+%3D+0\" alt=\"r_1 = 0\" eeimg=\"1\"/> 时 <img src=\"https://www.zhihu.com/equation?tex=h_%7Bi%2B1%7D%3E0\" alt=\"h_{i+1}&gt;0\" eeimg=\"1\"/></p><p data-pid=\"hSwIHdIl\">我们将这两个约束条件考虑到状态转移方程中，得到：</p><p data-pid=\"NQyPvVqy\"><img src=\"https://www.zhihu.com/equation?tex=h_%7Bi%2B1%7D+%3D%5Bh_i+%5Ccdot+%28%5Cexp%28+%5Cboldsymbol+%5Ctheta_1+%5Ccdot+%5Cboldsymbol+x_i%29%2B1%29%2C%5Cexp%28%5Cboldsymbol+%5Ctheta_2+%5Ccdot+%5Cboldsymbol+x_i%29%5D+%5Ccdot+%5Br_i%2C+1-r_i%5D%5ET\" alt=\"h_{i+1} =[h_i \\cdot (\\exp( \\boldsymbol \\theta_1 \\cdot \\boldsymbol x_i)+1),\\exp(\\boldsymbol \\theta_2 \\cdot \\boldsymbol x_i)] \\cdot [r_i, 1-r_i]^T\" eeimg=\"1\"/></p><p data-pid=\"Mk0WEGqC\">其中</p><ul><li data-pid=\"4ySXg-Z2\"><img src=\"https://www.zhihu.com/equation?tex=%5Cboldsymbol+x_i+%3D+%5B%5Clog+d_i%2C+%5Clog+h_i%2C%5Clog%281-p_i%29%5D\" alt=\"\\boldsymbol x_i = [\\log d_i, \\log h_i,\\log(1-p_i)]\" eeimg=\"1\"/> 是特征向量</li><li data-pid=\"wcg7oLqI\"><img src=\"https://www.zhihu.com/equation?tex=%5Cboldsymbol%5Ctheta\" alt=\"\\boldsymbol\\theta\" eeimg=\"1\"/> 是参数向量，由线性回归得出</li></ul><p data-pid=\"LmrtbZiD\">在该转移方程的基础上，我们观察到，当学习者反馈遗忘后的记忆行为中，在当前半衰期和回忆概率相同的情况下，下一个半衰期变小。我们认为这是由于对学习者来说更难的材料，更可能被反馈遗忘，所以学习者反馈遗忘后的材料，其难度会比记住的材料更高。</p><p data-pid=\"lp3yj7XY\">因此，我们增加了一个状态转移方程：</p><p data-pid=\"iZcNnc6K\">难度转移方程： <img src=\"https://www.zhihu.com/equation?tex=d_%7Bi+%2B+1%7D+%3D++%5Bd_i%2C+d_i+%2B+%5Ctheta_3%5D%5Ccdot%5Br_i%2C+1-r_i%5D%5ET\" alt=\"d_{i + 1} =  [d_i, d_i + \\theta_3]\\cdot[r_i, 1-r_i]^T\" eeimg=\"1\"/></p><p data-pid=\"aDU1tFUN\">为了防止难度无限增长，我们增加了一个上限。</p><p data-pid=\"Sb67fRcq\">最终，我们的记忆状态转移方程组为：</p><p data-pid=\"EiNTjhiQ\"><img src=\"https://www.zhihu.com/equation?tex=%5Cleft%5B%5Cbegin%7Barray%7D%7Bc%7D+h_%7Bi%2B1%7D+%5C%5C+d_%7Bi%2B1%7D+%5Cend%7Barray%7D%5Cright%5D+%3D+%5Cleft%5B%5Cbegin%7Barray%7D%7Bc%7D+h_i+%5Ccdot+%28%5Cexp%28+%5Cboldsymbol+%5Ctheta_1+%5Ccdot+%5Cboldsymbol+x_i%29%2B1%29%26%5Cexp%28%5Cboldsymbol+%5Ctheta_2+%5Ccdot+%5Cboldsymbol+x_i%29%5C%5C+d_i%26+d_i+%2B+%5Ctheta_3+%5Cend%7Barray%7D%5Cright%5D%5Ctimes%5Cleft%5B%5Cbegin%7Barray%7D%7Bc%7D+r_i+%5C%5C+1-r_i+%5Cend%7Barray%7D%5Cright%5D\" alt=\"\\left[\\begin{array}{c} h_{i+1} \\\\ d_{i+1} \\end{array}\\right] = \\left[\\begin{array}{c} h_i \\cdot (\\exp( \\boldsymbol \\theta_1 \\cdot \\boldsymbol x_i)+1)&amp;\\exp(\\boldsymbol \\theta_2 \\cdot \\boldsymbol x_i)\\\\ d_i&amp; d_i + \\theta_3 \\end{array}\\right]\\times\\left[\\begin{array}{c} r_i \\\\ 1-r_i \\end{array}\\right]\" eeimg=\"1\"/></p><p data-pid=\"9VO0X-u3\"><img src=\"https://www.zhihu.com/equation?tex=%5Cboldsymbol+x_i+%3D+%5B%5Clog+d_i%2C+%5Clog+h_i%2C%5Clog%281-p_i%29%5D\" alt=\"\\boldsymbol x_i = [\\log d_i, \\log h_i,\\log(1-p_i)]\" eeimg=\"1\"/></p><p data-pid=\"RBW5zpoq\"><img src=\"https://www.zhihu.com/equation?tex=r_i+%5Csim+Bernoulli%28p_i%29\" alt=\"r_i \\sim Bernoulli(p_i)\" eeimg=\"1\"/></p><p data-pid=\"CpDwVAxh\"><img src=\"https://www.zhihu.com/equation?tex=p_i%3D2%5E%7B-%5Cfrac%7B%5CDelta+t_i%7D%7Bh_i%7D%7D\" alt=\"p_i=2^{-\\frac{\\Delta t_i}{h_i}}\" eeimg=\"1\"/></p><p data-pid=\"49Mkhxfq\">根据上述转移方程组，和数据中统计出的半衰期初始值  <img src=\"https://www.zhihu.com/equation?tex=h_0\" alt=\"h_0\" eeimg=\"1\"/>  、难度初始值  <img src=\"https://www.zhihu.com/equation?tex=d_0\" alt=\"d_0\" eeimg=\"1\"/>  ，即可预测任意记忆行为序列下的半衰期 <img src=\"https://www.zhihu.com/equation?tex=h_i\" alt=\"h_i\" eeimg=\"1\"/> 。计算过程如图 5 所示。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-14e38038f23d380f5305c8abf7ebf76f_b.jpg\" data-caption=\"\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-14e38038f23d380f5305c8abf7ebf76f\"/></figure><h2>3 最优调度</h2><p data-pid=\"b47PS-jE\">有了描述学习者长期记忆的模型，我们便可以使用该模型来预测不同间隔重复调度算法的表现。在进行优化调度之前，我们需要设置一个优化目标。</p><h3>3.1 问题设置</h3><p data-pid=\"o6LWt7cP\">间隔重复方法的目的在于帮助学习者高效地形成长期记忆。而记忆半衰期反映了长期记忆的存储强度，复习次数、每次复习所花费的时间则反映了记忆的成本。所以，间隔重复调度优化的目标可以表述为：在给定记忆成本约束内，尽可能让更多的材料达到目标半衰期，或以最小的记忆成本让一定量的记忆材料达到目标半衰期。其中，后者的问题可以简化为如何以最小的记忆成本让一条记忆材料达到目标半衰期，即最小化记忆成本（Minimize Memorization Cost, MMC）。</p><p data-pid=\"y9LOpy3I\">我们在 2.3 节所构建的长期记忆模型满足马尔可夫性，每次记忆的状态只取决于上一次的半衰期、难度和当前的复习间隔和回忆结果。其中回忆结果服从一个与复习间隔有关的随机分布。由于半衰期状态转移存在随机性，一条记忆材料达到目标半衰期所需的复习次数是不确定的。因此，间隔重复调度问题可以视作一个无限时间的随机动态规划问题。考虑到优化目标是让记忆半衰期达到目标水平，所以本问题存在终止状态，所以可以转化为一个随机最短路径问题（Stochastic Shortest Path, SSP）。结合优化目标，我们将算法命名为 SSP-MMC。</p><h3>3.2 随机最短路径算法</h3><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-940370f9553b2efe7e734771216d924a_b.jpg\" data-caption=\"\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-940370f9553b2efe7e734771216d924a\"/></figure><p data-pid=\"tOruCAk-\">如上图所示，在不考虑难度状态的情况下，圆圈是半衰期状态，方块是复习间隔，虚线箭头表示给定复习间隔的半衰期状态转换，黑边表示给定记忆状态下可用的复习间隔与相应的复习成本。间隔重复中的随机最短路径问题是调度算法如何给出最佳复习间隔，以最小化达到目标半衰期的预期复习成本。</p><p data-pid=\"Sj0_O6dY\">符号约定：</p><ul><li data-pid=\"Ry3v7wMn\"><img src=\"https://www.zhihu.com/equation?tex=h_0\" alt=\"h_0\" eeimg=\"1\"/>  - 初始半衰期</li><li data-pid=\"Jv6_AMID\"><img src=\"https://www.zhihu.com/equation?tex=h_%7BN%7D\" alt=\"h_{N}\" eeimg=\"1\"/> - 目标半衰期</li><li data-pid=\"A7Rd_B6w\"><img src=\"https://www.zhihu.com/equation?tex=h_%7Bk%2B1%7D%2C+d_%7Bk%2B1%7D+%3D+f%28h_k%2Cd_k%2C%5CDelta+t_k%2C+r_k%29\" alt=\"h_{k+1}, d_{k+1} = f(h_k,d_k,\\Delta t_k, r_k)\" eeimg=\"1\"/>  - 记忆状态转移方程</li><li data-pid=\"aAW4zEBD\"><img src=\"https://www.zhihu.com/equation?tex=g%28h_k%2Cd_k%2C%5CDelta+t_k%2C+r_k%29\" alt=\"g(h_k,d_k,\\Delta t_k, r_k)\" eeimg=\"1\"/>  - 复习成本</li><li data-pid=\"RFny4gHC\">出于简化的目的，我们只考虑 <img src=\"https://www.zhihu.com/equation?tex=r_k\" alt=\"r_k\" eeimg=\"1\"/> 的影响： <img src=\"https://www.zhihu.com/equation?tex=g%28r_k%29+%3D++a+%5Ccdot+r_k+%2B+b+%5Ccdot+%281-r_k%29\" alt=\"g(r_k) =  a \\cdot r_k + b \\cdot (1-r_k)\" eeimg=\"1\"/></li><ul><li data-pid=\"pm7CiJ7Y\">a 为回忆成功的成本</li><li data-pid=\"sM97MVxL\">b 为回忆失败的成本</li><li data-pid=\"cH_p-37m\">通常回忆失败后需要更多的练习，所以 b &gt; a</li></ul><li data-pid=\"HWChBHOw\"><img src=\"https://www.zhihu.com/equation?tex=%5CDelta+T%28h_k%2Cd_k%29\" alt=\"\\Delta T(h_k,d_k)\" eeimg=\"1\"/> - 当前记忆状态下可选的复习间隔集合</li><li data-pid=\"nEQIpnAq\"><img src=\"https://www.zhihu.com/equation?tex=J_%5Cpi%28h_0%2Cd_0%29\" alt=\"J_\\pi(h_0,d_0)\" eeimg=\"1\"/> - 总复习成本</li></ul><p data-pid=\"qQdt2QDK\">让我们列出 SSP-MMC 的 Bellman 方程：</p><p data-pid=\"vryWaICy\"><img src=\"https://www.zhihu.com/equation?tex=J%28h_k%2Cd_k%29+%3D+%5Cmin%5Climits_%7B%5CDelta+t_k+%5Cin+%5CDelta+T%28h_k%2C+d_k%29%7D+E%5Bg%28r_k%29+%2B+J%28f%28h_k%2Cd_k%2C%5CDelta+t_k%2C+r_k%29%29%5D\" alt=\"J(h_k,d_k) = \\min\\limits_{\\Delta t_k \\in \\Delta T(h_k, d_k)} E[g(r_k) + J(f(h_k,d_k,\\Delta t_k, r_k))]\" eeimg=\"1\"/></p><p data-pid=\"rCv6CqD2\">基于该方程，可以使用动态规划迭代求解，得到每个 <img src=\"https://www.zhihu.com/equation?tex=h_k%2Cd_k\" alt=\"h_k,d_k\" eeimg=\"1\"/> 对应的最优复习间隔 <img src=\"https://www.zhihu.com/equation?tex=%5CDelta+t_k\" alt=\"\\Delta t_k\" eeimg=\"1\"/> 。</p><p data-pid=\"BTLYR0ff\">考虑到 <img src=\"https://www.zhihu.com/equation?tex=h\" alt=\"h\" eeimg=\"1\"/> 是一个连续值，不利于记录状态，可以将其离散化：</p><p data-pid=\"WE0rlvKZ\"><img src=\"https://www.zhihu.com/equation?tex=h_%7Bindex%7D+%3D+%5Clfloor%5Clog%28h%29+%2F+%5Clog%28%5Crm%7Bbase%7D%29%5Crfloor\" alt=\"h_{index} = \\lfloor\\log(h) / \\log(\\rm{base})\\rfloor\" eeimg=\"1\"/></p><ul><li data-pid=\"P_O1ED8Y\">base 用于控制 h 分箱大小</li><li data-pid=\"jB9zdZbj\">取对数是因为状态转移方程中，h 近似于指数增长</li></ul><p data-pid=\"BtQTCMRa\">由于存在难度上限 <img src=\"https://www.zhihu.com/equation?tex=d_N\" alt=\"d_N\" eeimg=\"1\"/> 和终止半衰期 <img src=\"https://www.zhihu.com/equation?tex=h_N\" alt=\"h_N\" eeimg=\"1\"/> ，我们可以建立一个成本矩阵 <img src=\"https://www.zhihu.com/equation?tex=J%5Bd_N%5D%5Bh_N%5D\" alt=\"J[d_N][h_N]\" eeimg=\"1\"/> ，并初始化为 <img src=\"https://www.zhihu.com/equation?tex=%5Cinf\" alt=\"\\inf\" eeimg=\"1\"/> 。设置 <img src=\"https://www.zhihu.com/equation?tex=J%5Bd_i%5D%5Bh_N%5D+%3D+0\" alt=\"J[d_i][h_N] = 0\" eeimg=\"1\"/> ，然后开始遍历每个 <img src=\"https://www.zhihu.com/equation?tex=%28d_k%2Ch_k%29\" alt=\"(d_k,h_k)\" eeimg=\"1\"/> ，从 <img src=\"https://www.zhihu.com/equation?tex=%5CDelta+T%28h_k%2C+d_k%29\" alt=\"\\Delta T(h_k, d_k)\" eeimg=\"1\"/> 中遍历每个 <img src=\"https://www.zhihu.com/equation?tex=%5CDelta+t_k\" alt=\"\\Delta t_k\" eeimg=\"1\"/> ，计算 <img src=\"https://www.zhihu.com/equation?tex=p_k%2Ch_%7Br_k%3D1%7D%2Ch_%7Br_k%3D0%7D%2Cd_%7Br_k%3D1%7D%2Cd_%7Br_k%3D0%7D\" alt=\"p_k,h_{r_k=1},h_{r_k=0},d_{r_k=1},d_{r_k=0}\" eeimg=\"1\"/> ，然后使用以下公式：</p><p data-pid=\"QwrSn6w-\"><img src=\"https://www.zhihu.com/equation?tex=cost%5Bh_k%5D%5Bd_k%5D+%3D+%5Cmin%5Climits_%7Bp_k%7D+%5Bp_k+%5Ccdot+%28g%281%29+%2B+cost%5Bh_%7Br_k%3D1%7D%5D%5Bd_%7Br_k%3D1%7D%5D%29+%2B+%281-p_k%29+%5Ccdot+%28g%280%29+%2B+cost%5Bh_%7Br_k%3D0%7D%5D%5Bd_%7Br_k%3D0%7D%5D%29%5D\" alt=\"cost[h_k][d_k] = \\min\\limits_{p_k} [p_k \\cdot (g(1) + cost[h_{r_k=1}][d_{r_k=1}]) + (1-p_k) \\cdot (g(0) + cost[h_{r_k=0}][d_{r_k=0}])]\" eeimg=\"1\"/></p><p data-pid=\"_xbCccIQ\">来迭代更新每个记忆状态对应的最优成本。用一个策略矩阵记录每个状态下最优的复习间隔。最优策略会在一遍遍迭代中收敛。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-581282f5d02a22668f4dd2e48f846f85_b.jpg\" data-caption=\"\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-581282f5d02a22668f4dd2e48f846f85\"/></figure><h2>4 实验</h2><p data-pid=\"8LyENXEY\">我们的实验将回答以下问题：</p><ul><li data-pid=\"qJX6ro4U\">DHP 模型模拟长期记忆的效果如何？</li><li data-pid=\"p_YkRRGO\">DHP 模型的权重参数的实际意义是什么？</li><li data-pid=\"76OobZNJ\">SSP-MMC 算法给出的最佳复习间隔的模式是什么？</li><li data-pid=\"BNEHyEZ4\">与基线相比，SSP-MMC 算法在不同指标上有什么改进？</li></ul><p data-pid=\"ithwxZAG\">在这一节中，我们首先根据第 2.3 节中收集的数据集训练了 DHP 模型，并将其与 HLR 模型进行比较。还对 DHP 模型的参数进行了可视化，以获得对记忆的直观解释。然后，我们使用 DHP 模型作为 SSP-MMC 算法的训练环境，以获得最佳策略并将其可视化。最后，我们在由 DHP 模型组成的模拟环境中比较了 SSP-MMC 与不同基线的性能。</p><h3>4.1 DHP 模型权重分析</h3><p data-pid=\"tPvGM7kz\">为了更好地了解DHP模型，我们将其与 HLR 模型在预测半衰期方面进行比较，并分析模型的权重。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-15b1a4262470e503382e71cb1e1e2a0d_b.jpg\" data-caption=\"\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-15b1a4262470e503382e71cb1e1e2a0d\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-03863aac0c4371eba574d960ead11d26_b.jpg\" data-caption=\"\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-03863aac0c4371eba574d960ead11d26\"/></figure><p data-pid=\"-sGct3KL\">拟合的结果显示在图 7 中。从比较中，我们可以发现，在预测半衰期时，HLR 是欠拟合的，而 DHP 模型的预测误差（如表所示）明显小于 HLR 模型，特别是在回忆失败后的结果。这很可能是由于 HLR 丢失了时间序列信息，使得它无法区分 <img src=\"https://www.zhihu.com/equation?tex=r_%7B1%3A2%7D%3D1%2C0\" alt=\"r_{1:2}=1,0\" eeimg=\"1\"/> 和 <img src=\"https://www.zhihu.com/equation?tex=r_%7B1%3A2%7D%3D0%2C1\" alt=\"r_{1:2}=0,1\" eeimg=\"1\"/> 这样的记忆行为。</p><p data-pid=\"Y1gkNMAl\">根据拟合得到的参数和模型的方程，我们得到成功回忆后的半衰期：</p><p data-pid=\"dLYyWmA1\"><img src=\"https://www.zhihu.com/equation?tex=h_%7Bi%2B1%7D+%3D+h_i+%5Ccdot%28+%5Cexp%283.81%29+%5Ccdot+d_i%5E%7B-0.534%7D+%5Ccdot+h_i%5E%7B-0.127%7D++%5Ccdot+%281+-+p_i%29%5E%7B0.970%7D+%2B+1%29\" alt=\"h_{i+1} = h_i \\cdot( \\exp(3.81) \\cdot d_i^{-0.534} \\cdot h_i^{-0.127}  \\cdot (1 - p_i)^{0.970} + 1)\" eeimg=\"1\"/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-1ebcbb2a08783d42bf5e80bf7345f2b6_b.jpg\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-1ebcbb2a08783d42bf5e80bf7345f2b6\"/><figcaption>img</figcaption></figure><p data-pid=\"7UuFfTiZ\">图 8a 说明，成功回忆后的半衰期随着 <img src=\"https://www.zhihu.com/equation?tex=p_i\" alt=\"p_i\" eeimg=\"1\"/> 的减少而增加，这验证了间隔效应的存在。图 8b 显示，随着最后半衰期的增加，半衰期的增加倍数减少，这可能意味着我们的记忆巩固会随着记忆强度的增加而减少，即存在边际效应。</p><p data-pid=\"8i2l-8PU\">类似地，回忆失败后的半衰期：</p><p data-pid=\"srbvQBAa\"><img src=\"https://www.zhihu.com/equation?tex=h_%7Bi%2B1%7D+%3D+%5Cexp%28-0.041%29+%5Ccdot+d_i%5E%7B-0.041%7D+%5Ccdot+h_i%5E%7B0.377%7D+%5Ccdot+++%281+-+p_i%29%5E%7B-0.227%7D\" alt=\"h_{i+1} = \\exp(-0.041) \\cdot d_i^{-0.041} \\cdot h_i^{0.377} \\cdot   (1 - p_i)^{-0.227}\" eeimg=\"1\"/></p><p data-pid=\"NVnFL9qo\">图 8c 中，记忆的半衰期越长，回忆失败后的半衰期也越长，这可能是因为记忆在遗忘中没有完全丢失。而随着回忆概率的降低，回忆失败后的半衰期也随之降低，这可能是因为随着时间的推移，记忆被遗忘得更彻底。</p><h3>4.2 SSP-MMC 最优策略分析</h3><p data-pid=\"rWM-U5n2\">通过在 DHP 模型的环境中训练算法 SSP-MMC，我们得到了每个记忆状态的预期复习成本和最佳复习间隔。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-8acd0bc1cf054b05726e3d48c4aa256a_b.jpg\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-8acd0bc1cf054b05726e3d48c4aa256a\"/><figcaption>img</figcaption></figure><p data-pid=\"9t2i9-AA\">如图 9(a) 所示，复习成本随着半衰期的增加而减少，随着难度的增加而增加。具有高半衰期的记忆以较低的预期成本达到目标半衰期。此外，难度较高的记忆具有较高的预期成本，因为它们的半衰期增长较低，如图 8(b) 所示，需要更多的复习才能达到目标半衰期。</p><p data-pid=\"J8V0NZwN\">如图 9(b) 所示，在相同的记忆半衰期水平下，间隔时间随着难度的增加而增加。这可能是因为遗忘提高了简单记忆的难度，降低了它们的半衰期，导致了更高的复习成本。调度算法倾向于给简单记忆更短的间隔时间，减少它们被遗忘的概率，即使它牺牲了一点半衰期的提升。间隔时间在半衰期的中段达到峰值。为了解释这个峰值，有必要与图 9(c) 进行比较。</p><p data-pid=\"bfCz2fte\">如图 9(c) 所示，对应于最佳间隔的回忆概率随着半衰期的提高而增加，随着难度的增加而减少。这意味着在记忆的早期阶段，调度器会指示学习者以较低的检索强度进行复习，这可能是「合意困难」的反映。当半衰期增加到目标值时，回忆概率就会接近 100％。根据公式 <img src=\"https://www.zhihu.com/equation?tex=%5CDelta+t+%3D+-+h+%5Ccdot+%5Clog_2+p\" alt=\"\\Delta t = - h \\cdot \\log_2 p\" eeimg=\"1\"/> 和 p 对 h 的趋势， <img src=\"https://www.zhihu.com/equation?tex=%5CDelta+t\" alt=\"\\Delta t\" eeimg=\"1\"/> 在出现峰值的地方先是增加，然后减少。</p><h3>4.3 离线模拟</h3><p data-pid=\"gR2PzgId\">我们研究了 5 个基线策略：RANDOM、ANKI、HALF-LIFE、THRESHOLD、MEMORIZE 和 3 个指标：目标半衰期达成量（THR）、累计学习量（WTL）、回忆期望（SPR）。</p><p data-pid=\"A2w7nJxK\"><b>环境</b></p><p data-pid=\"vqq97V1u\">我们的模拟环境有以下参数。目标半衰期 <img src=\"https://www.zhihu.com/equation?tex=h_N\" alt=\"h_N\" eeimg=\"1\"/> ，回忆成功/失败成本，每日成本限制和模拟持续时间。</p><p data-pid=\"SifZWkZc\"><b>基线</b></p><p data-pid=\"y2LFthzm\">我们将 SSP-MMC 与几个基线调度算法进行对比：</p><ul><li data-pid=\"_txUfV00\">RANDOM 策略，每次从 <img src=\"https://www.zhihu.com/equation?tex=%5B1%2Ch_N%5D\" alt=\"[1,h_N]\" eeimg=\"1\"/> 中随机选择一个间隔进行安排复习</li><li data-pid=\"ab05z99d\">ANKI，SM-2 的一种变体，参考其开源的代码。由于 ANKI 的算法中，用户的回忆结果是以 1-4 分输入。我们将回忆失败映射到 1 分，回忆成功映射到 3 分。</li><li data-pid=\"fkcf23wC\">HALF-LIFE，即直接以半衰期作为本次安排的复习间隔。</li><li data-pid=\"-PTkKpLy\">THRESHOLD，即当 p 小于等于某一阈值（我们使用 80%）时进行复习。</li><li data-pid=\"dHQlHQ8F\">MEMORIZE，一种基于最优控制的算法，代码来自于他们开源的仓库。</li></ul><p data-pid=\"2wmlytkL\"><b>指标</b></p><p data-pid=\"4xvMX0-G\">我们的评价指标包括：</p><ul><li data-pid=\"fHbRNorN\">THR，达到目标半衰期的记忆数量</li><li data-pid=\"ARRgGzSb\">SPR，累计回忆期望，即学习者所有记忆的单词的回忆概率之和。</li><li data-pid=\"KWnhh0TC\">WTL，累计学习数量</li></ul><p data-pid=\"popPF8sy\"><b>实现细节</b></p><p data-pid=\"JtEDFlOy\">我们设定 360 天（接近一年）的回忆半衰期为目标半衰期，当单词的半衰期超过这个值时，它将不再被安排复习。然后，考虑到实际场景中学习者每天的学习时间大致恒定，我们设定 600s（10 分钟）为每天学习成本的上限。当每次学习和复习过程中的累计成本超过这个上限时，无论是否完成，复习任务都会被推迟到第二天，以确保每种算法在相同的记忆成本下进行比较。我们使用学习者的平均时间，即成功回忆的时间为 3s，失败回忆的时间为 9s。然后，语言学习是一个长期的过程，我们设定模拟时间为 1000 天。</p><p data-pid=\"z1tZ83P4\"><b>分析</b></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-899e47a3b61532cc9339fd15fed21835_b.jpg\" data-caption=\"\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-899e47a3b61532cc9339fd15fed21835\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-7b78815d799ca25cbc143b7bbeff5c87_b.jpg\" data-caption=\"\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-7b78815d799ca25cbc143b7bbeff5c87\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-27f27bdc022127685179d691bdb8d0b0_b.jpg\" data-caption=\"\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-27f27bdc022127685179d691bdb8d0b0\"/></figure><p data-pid=\"DsaJzT2J\">上图中的仿真结果显示，</p><p data-pid=\"42oIpvvh\">在 THR 上， SSP-MMC 的表现比所有基线都好，这在意料之中。THR 与 SSP-MMC 的优化目标一致，而且 SSP-MMC 可以达到这个指标的上限。</p><p data-pid=\"44tGVniQ\">为了量化每种算法表现之间的相对差异，我们比较了 THR  = 6000 的天数（图中标记为 <img src=\"https://www.zhihu.com/equation?tex=%5Cstar\" alt=\"\\star\" eeimg=\"1\"/> ）： SSP-MMC 为 466 天，ANKI 为 569 天，THRESHOLD 为 533 天，而 MEMORIZE 为 793 天。与THRESHOLD 相比，SSP-MMC 节省了 12.6％ 的复习时间。</p><p data-pid=\"cRSUGAAt\">SRP 上的结果与 THR 上的结果相似。这意味着学习者按照 SSP-MMC 安排学习会记得最多。</p><p data-pid=\"qZFNXMB8\">在 WTL 上，RANDOM 在早期阶段击败了所有的算法，因为只要调度算法不安排复习，学习者就可以继续学习新的单词，但这是以忘记已经学过的单词为代价的。此外，SSP-MMC 胜过其他基线，因为它将记忆的成本降到最低，给学习者更多的时间来学习新词。</p><h2>5 结论</h2><p data-pid=\"lpmnmgMf\">我们的工作建立了第一个包含完整时序信息的记忆数据集，设计了基于时序信息的长期记忆模型，能够良好拟合现有的数据，并为优化间隔重复调度提供了坚实的基础。我们将最小化学习者的记忆成本作为间隔重复算法的目标，根据随机最优控制理论，我们推导出了有数学保证的最小化记忆成本的调度算法 SSP-MMC。SSP-MMC 将心理学上被多次验证的遗忘曲线、间隔效应等理论与现代机器学习技术相结合，降低了学习者形成长期记忆的记忆成本。相较于 HLR 模型，考虑时序信息的模型在拟合用户长期记忆上的精度有显著提升。并且，基于随机动态规划的间隔重复调度算法，在各项指标上都超过了之前的算法。该算法部署在墨墨背单词中以提高用户的长期记忆效率。我们在附录中提供了设计和部署的技术细节。</p><p data-pid=\"mriyWIP4\">主要的后续工作是改进 DHP 模型，考虑用户特征对记忆状态转移的影响，并在语言学习以外的间隔重复软件中使用我们的算法来检验模型的通用性。此外，学习者使用间隔重复方法的场景十分多样化，设计匹配学习者目标的优化指标也是一个值得研究的问题。</p><hr/><p data-pid=\"8RHIkj8b\">补充：本文的算法经简化后，已可以与 Anki 等间隔重复软件相兼容，具体请见我为 Anki 开发的算法插件：</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">open-spaced-repetition/fsrs4anki: A modern Anki custom scheduling based on free spaced repetition scheduler algorithm (github.com)</a><p></p>",
-  "column": {
-    "updated": 1706022041,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/c_1280249768422608896",
-    "title": "学委叶哥的随笔",
-    "image_url": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1280249768422608896"
-  },
-  "comment_count": 91,
-  "image_url": "https://picx.zhimg.com/v2-337e676d732039a25471c1057c54bfa3_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 110,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 110,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMTY0NDA4NzQSCTU3NzM4Mzk2MRgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {
+    "REACTION_CONTENT_SEGMENT_LIKE": "HIDE"
+  },
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 559,
+      "down_vote_count": 7,
+      "like_count": 110,
+      "comment_count": 98,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 814,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-029663300f6bfe7723ab219ff1be7361": 0,
+        "v2-03737e778ddb22d0c2d76be11f3dc025": 0,
+        "v2-03863aac0c4371eba574d960ead11d26": 0,
+        "v2-14e38038f23d380f5305c8abf7ebf76f": 1,
+        "v2-15b1a4262470e503382e71cb1e1e2a0d": 0,
+        "v2-1ebcbb2a08783d42bf5e80bf7345f2b6": 0,
+        "v2-27f27bdc022127685179d691bdb8d0b0": 0,
+        "v2-337e676d732039a25471c1057c54bfa3": 0,
+        "v2-4001130e76520262a61ce6cc84e9751d": 0,
+        "v2-581282f5d02a22668f4dd2e48f846f85": 0,
+        "v2-73f5fbf348e73727213039afb74709ad": 0,
+        "v2-7b078a7bb728e67f18dd9be3d8a1b678": 0,
+        "v2-7b78815d799ca25cbc143b7bbeff5c87": 0,
+        "v2-899e47a3b61532cc9339fd15fed21835": 0,
+        "v2-8acd0bc1cf054b05726e3d48c4aa256a": 0,
+        "v2-940370f9553b2efe7e734771216d924a": 1,
+        "v2-f35021ba5249f3859413ed255a020467": 2
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-029663300f6bfe7723ab219ff1be7361": false,
+        "v2-03737e778ddb22d0c2d76be11f3dc025": false,
+        "v2-03863aac0c4371eba574d960ead11d26": false,
+        "v2-14e38038f23d380f5305c8abf7ebf76f": false,
+        "v2-15b1a4262470e503382e71cb1e1e2a0d": false,
+        "v2-1ebcbb2a08783d42bf5e80bf7345f2b6": false,
+        "v2-27f27bdc022127685179d691bdb8d0b0": false,
+        "v2-337e676d732039a25471c1057c54bfa3": false,
+        "v2-4001130e76520262a61ce6cc84e9751d": false,
+        "v2-581282f5d02a22668f4dd2e48f846f85": false,
+        "v2-73f5fbf348e73727213039afb74709ad": false,
+        "v2-7b078a7bb728e67f18dd9be3d8a1b678": false,
+        "v2-7b78815d799ca25cbc143b7bbeff5c87": false,
+        "v2-899e47a3b61532cc9339fd15fed21835": false,
+        "v2-8acd0bc1cf054b05726e3d48c4aa256a": false,
+        "v2-940370f9553b2efe7e734771216d924a": false,
+        "v2-f35021ba5249f3859413ed255a020467": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-029663300f6bfe7723ab219ff1be7361": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-03737e778ddb22d0c2d76be11f3dc025": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-03863aac0c4371eba574d960ead11d26": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-14e38038f23d380f5305c8abf7ebf76f": {
+        "like_count": 1,
+        "is_liked": false
+      },
+      "v2-15b1a4262470e503382e71cb1e1e2a0d": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-1ebcbb2a08783d42bf5e80bf7345f2b6": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-27f27bdc022127685179d691bdb8d0b0": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-337e676d732039a25471c1057c54bfa3": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-4001130e76520262a61ce6cc84e9751d": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-581282f5d02a22668f4dd2e48f846f85": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-73f5fbf348e73727213039afb74709ad": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-7b078a7bb728e67f18dd9be3d8a1b678": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-7b78815d799ca25cbc143b7bbeff5c87": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-899e47a3b61532cc9339fd15fed21835": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-8acd0bc1cf054b05726e3d48c4aa256a": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-940370f9553b2efe7e734771216d924a": {
+        "like_count": 1,
+        "is_liked": false
+      },
+      "v2-f35021ba5249f3859413ed255a020467": {
+        "like_count": 2,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/2859115003?contentId=577383961&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 学委叶哥的随笔",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1280249768422608896",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 学委叶哥的随笔"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

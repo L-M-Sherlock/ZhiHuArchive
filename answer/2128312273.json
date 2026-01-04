@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,9 +14,10 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
@@ -35,19 +37,21 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "ただ幸福に生きよ、みたい",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 4,
   "content": "<p data-pid=\"Lw5km3OZ\">对大小姐作不太了解，音符社七个女儿在这个歌单里面都有了，自取：</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//y.music.163.com/m/playlist%3Fid%3D752456915%26userid%3D66053830%26creatorId%3D66053830\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「ensemble音符社女♂儿合集」</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1631983502,
   "excerpt": "对大小姐作不太了解，音符社七个女儿在这个歌单里面都有了，自取： 「ensemble音符社女♂儿合集」",
-  "id": 2128312273,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2128312273",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=2128312273&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1630336393,
     "detail": "<p>最近在疯狂地找这社的gal，真是非常非常累，首先没有任何的发售顺序让我参考，第二是中文翻译乱七八糟，爱的咏脉调&amp;爱的奏乐/爱心如花悄绚烂&amp;恋爱如花一样绽放，差点以为是两个游戏，第三是小众</p>",
-    "id": 483626603,
+    "id": "483626603",
     "question_type": "normal",
     "relationship": {},
     "title": "有谁可以科普一下音符社吗？",
     "type": "question",
     "updated_time": 1630336393,
-    "url": "https://api.zhihu.com/questions/483626603"
+    "url": "https://www.zhihu.com/api/v4/questions/483626603"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1631983541,
+  "url": "https://www.zhihu.com/api/v4/answers/2128312273",
   "voteup_count": 6
 }

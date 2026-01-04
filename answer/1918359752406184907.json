@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -16,8 +17,8 @@
           "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -40,14 +41,14 @@
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
           "badge_status": "passed",
@@ -83,7 +84,7 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
@@ -99,11 +100,22 @@
   "content_need_truncated": false,
   "created_time": 1750152606,
   "excerpt": "天赋、努力、方法，缺一不可。 天赋主要体现在 工作记忆容量和学习速度上。个体之间在工作记忆容量上的差异是真实存在的，并且这种差异会显著影响学习速度、对任务难度的感知以及抽象能力。工作记忆容量较大的人，在学习新知识、处理复杂信息时通常会感觉更轻松，学习速度也更快。这可以看作是一种「天赋」。拥有较高工作记忆容量的学生，在理解和掌握新概念时，每次的「咀嚼量」更大，能够更快地消化和吸收知识。努力则体现在 …",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "1918359752406184907",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://www.zhihu.com/column/c_1858865163022786560": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"The Math Academy Way\",\"card_open_url\":\"https://zhuanlan.zhihu.com/c_1858865163022786560\",\"desc\":\"55 内容 · 0 关注 \\u003ca class=\\\"tag type_a\\\"\\u003e专栏\\u003c/a\\u003e\",\"content\":null,\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"COLUMN\",\"content_id\":\"c_1858865163022786560\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://www.zhihu.com/column/c_1858865163022786560": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"The Math Academy Way\",\"card_open_url\":\"https://zhuanlan.zhihu.com/c_1858865163022786560\",\"desc\":\"58 内容 · 0 关注 \\u003ca class=\\\"tag type_a\\\"\\u003e专栏\\u003c/a\\u003e\",\"content\":null,\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"COLUMN\",\"content_id\":\"c_1858865163022786560\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/23595153743?contentId=1918359752406184907&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "11 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1718016516,
@@ -114,11 +126,13 @@
     "title": "高中是主要靠努力还是靠天赋？",
     "type": "question",
     "updated_time": 1718016516,
-    "url": "https://api.zhihu.com/questions/658568595"
+    "url": "https://www.zhihu.com/api/v4/questions/658568595"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 81
+  "updated_time": 1750155870,
+  "url": "https://www.zhihu.com/api/v4/answers/1918359752406184907",
+  "voteup_count": 84
 }

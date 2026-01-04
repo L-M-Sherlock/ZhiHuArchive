@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83.jpg?source=2c26e567",
+    "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -16,7 +17,7 @@
           "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
@@ -40,7 +41,7 @@
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -72,7 +73,7 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
     "gender": -1,
@@ -83,7 +84,7 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
@@ -99,9 +100,20 @@
   "content_need_truncated": false,
   "created_time": 1736851638,
   "excerpt": "因为很多人的直觉忽略了主持人的行为规则。或者说，很多人把「主持人打开第二扇门，且第二扇门是空的」和「第二扇门是空的」这两件事当成了一件事。 以下内容节选自 @Thoughts Memo 汉化组的译文《什么是证据筛选？ 》一个更简单的例子：一枚有偏差的硬币，要么偏向正面（正面概率 2/3，反面概率 1/3），要么偏向反面（正面概率 1/3，反面概率 2/3）。这两种情况的先验概率相等。每观察到一次正面，就有 1 比特 [1]的证据支持硬币…",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "79134961476",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/8438219331?contentId=79134961476&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1623838829,
     "detail": "<p><i>题主的初始表述：</i><br/>如果你和小 A 和小 B 三个人选盒子 1、2、3（只有一个盒子里有东西），现在告诉你小 B 选的 3 号盒子是空的，请问你要不要和小 A 换。<br/>本来三门问题我很好理解，但是一旦给其他两个门加上从属，为啥感觉直觉又出错了？</p><p>============</p><p><i>我是一个观众，为了简化模型，我补充和修改下问题（题主原来的表述我放到最后，因为游戏的实质是引入两个玩家，提出 3 个人反而容易混淆了问题）。</i></p><p><b>这个题并不是问大家如何理解「三门问题」，三门问题里，不换位置得奖概率 1/3，换了位置得奖概率 2/3，这个很好理解，不用解释了，也不用拷贝别处答案了。而且「三门问题」只是一种情形概括，并不规定一定要 3 个门，如果有 4 个或更多的门，结论也是一样的，就是更换后得奖概率提升。</b></p><p><b>题主这个游戏的实质是，原来的三门问题只有一个玩家，而这个「增强版」游戏引入了两个玩家。那么，当主持人打开空门以后，这两个玩家要不要互换位置，为什么？</b></p><p>为了让大家快速进入讨论，我直接给出「悖论」所在。</p><p>① 如果你认为两个玩家的得奖概率都为 1/2，无所谓换不换位置。那么问题来了：当你以玩家 1 的视角去看，为什么旁边多站个人，「三门问题」就失效了？如果我没注意到这个人，不知道这个人的存在，岂不是仍然应该遵循「三门问题」的结论，更换位置么？</p><p>② 如果你认为，从玩家 1 的视角，他应当换位置，因为能将中奖率从 1/3 提高至 2/3，那么问题又来了：从玩家 2 的视角，他显然也应当换位置，所以由于两人换了位置，两人的得奖概率都提高了？</p><p>③ 有答主说，3 门 2 玩家，会出现主持人无法「永不打开 2 个玩家的门、且永远只打开一个空门」（也就是说，他构造了一种情形，可能俩玩家选的都是空的，剩下的唯一的门后有奖励，主持人打开就穿帮了，游戏没法玩了）。</p><p><b>这确实是个问题。于是，我们不妨将三门升级为四门，同时有 2 个玩家，那么主持人就必然可以永远打开一个非玩家的空门，此时我们依旧可以提问，玩家要不要换位置？</b></p><p><i>（在描述这个「双玩家 n 门问题」的时候，我个人解开了这个「悖论」，不过在下面的回答中，我尚未看到清晰的解释，尽管有人在解释原始的三门问题时已经很接近了。）</i></p>",
@@ -111,11 +123,13 @@
     "title": "三扇门的概率问题，直觉为什么会产生问题？",
     "type": "question",
     "updated_time": 1623992540,
-    "url": "https://api.zhihu.com/questions/465382771"
+    "url": "https://www.zhihu.com/api/v4/questions/465382771"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1736851638,
+  "url": "https://www.zhihu.com/api/v4/answers/79134961476",
   "voteup_count": 56
 }

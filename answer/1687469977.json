@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,6 +14,7 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 0,
   "content": "<p data-pid=\"o_5WJtyp\">与其用隐私保护软件，不如养成良好的电脑使用习惯，要有隐私意识。特别是在选择自己日常使用的软件时就要做好筛选。比如优先选择非商业软件、开源软件、web 应用来满足日常使用需求。</p><p data-pid=\"EQuAhu6C\">像 QQ 这种直接安装到电脑上的软件，能够扫描硬盘，想要防止这种行为，最好的方法就是别用 windows，改用 Linux。或者用沙箱软件、虚拟机、另一台电脑建立隔离环境来运行这些软件。</p><p data-pid=\"qfGdWZpI\">关于保护隐私其实是有一个很好的系列博文，这里只给一下目录：</p><ol><li data-pid=\"cNiqoYgG\">如何选择软件和服务？</li><li data-pid=\"L7r_MaYi\">关于浏览器的基本防范（上）</li><li data-pid=\"vMnCNWg_\">关于浏览器的基本防范（中）</li><li data-pid=\"PEn79qYN\">关于浏览器的基本防范（下）</li><li data-pid=\"JNQ12eT_\">扫盲“浏览器指纹”</li><li data-pid=\"GBNcZlmv\">如何防范“浏览器指纹”？</li><li data-pid=\"w2-MphNr\">其它桌面软件的隐私问题</li><li data-pid=\"I-esZrEv\">流氓的桌面软件有哪些替代品？</li><li data-pid=\"5npYqJ9o\">如何限制桌面软件的流氓行为？</li><li data-pid=\"OFXuxm2C\">移动设备的隐私问题</li></ol><p data-pid=\"rZr-iJux\">什么，你问我为啥不直接给地址？懂得都懂。</p>",
   "content_need_truncated": false,
   "created_time": 1611111615,
   "excerpt": "与其用隐私保护软件，不如养成良好的电脑使用习惯，要有隐私意识。特别是在选择自己日常使用的软件时就要做好筛选。比如优先选择非商业软件、开源软件、web 应用来满足日常使用需求。 像 QQ 这种直接安装到电脑上的软件，能够扫描硬盘，想要防止这种行为，最好的方法就是别用 windows，改用 Linux。或者用沙箱软件、虚拟机、另一台电脑建立隔离环境来运行这些软件。 关于保护隐私其实是有一个很好的系列博文，这里只给一下目录：…",
-  "id": 1687469977,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1687469977",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1687469977&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1611035389,
-    "detail": "<p>相关内容：<a href=\"https://www.zhihu.com/question/439768601\" class=\"internal\"> 如何看待 QQ 扫描读取所有浏览器的历史记录？ - 知乎 (zhihu.com)</a> </p><p>有没有除开火绒外更好的国内外隐私保护的软件？</p><p>用于防止类似QQ一样的软件未经同意上传个人电脑上的内容。</p>",
-    "id": 440112128,
+    "detail": "<p>相关内容：<a href=\"https://www.zhihu.com/question/439768601\" class=\"internal\" target=\"_blank\"> 如何看待 QQ 扫描读取所有浏览器的历史记录？ - 知乎 (zhihu.com)</a> </p><p>有没有除开火绒外更好的国内外隐私保护的软件？</p><p>用于防止类似QQ一样的软件未经同意上传个人电脑上的内容。</p>",
+    "id": "440112128",
     "question_type": "normal",
     "relationship": {},
     "title": "有什么好的隐私保护软件？",
     "type": "question",
     "updated_time": 1611035511,
-    "url": "https://api.zhihu.com/questions/440112128"
+    "url": "https://www.zhihu.com/api/v4/questions/440112128"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 21
+  "updated_time": 1611111615,
+  "url": "https://www.zhihu.com/api/v4/answers/1687469977",
+  "voteup_count": 22
 }

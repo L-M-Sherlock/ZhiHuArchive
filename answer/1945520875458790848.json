@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -40,14 +41,14 @@
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
           "badge_status": "passed",
@@ -83,7 +84,7 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
@@ -99,9 +100,20 @@
   "content_need_truncated": false,
   "created_time": 1756628322,
   "excerpt": "我大三的时候几乎是无差别逃课，因为去字节实习了，一周至少打卡四天，除了大小周有一天是在周六上，剩下三天都是在工作日，那必然要逃三天课了。我当时除了有操作系统上机实验的两天课会去，剩下的全逃了。 其他专业我不清楚，但学计算机听课真没用。我还记得大一 C 语言听教授大谈特谈指针地址++--，还有手写 C 语言代码，看 BiliBili 都比听课强（ 我大部分编程和数学技能都是自学的，不仅仅是效率的问题，而是有些内容根本不…",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "1945520875458790848",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/33805374972?contentId=1945520875458790848&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "9 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1754192862,
     "detail": "",
@@ -111,11 +123,55 @@
     "title": "你们大学都逃过课吗？逃过哪些课呢？推荐新生逃课吗？",
     "type": "question",
     "updated_time": 1754364766,
-    "url": "https://api.zhihu.com/questions/1935305812991022708"
+    "url": "https://www.zhihu.com/api/v4/questions/1935305812991022708"
   },
   "relationship": {
     "upvoted_followees": []
   },
+  "segment_infos": [
+    {
+      "marks": [
+        {
+          "end_index": 93,
+          "seg_info": {
+            "comment_count": 0,
+            "is_like": false,
+            "is_span": false,
+            "like_count": 3,
+            "my_comment_count": 0,
+            "seg_ids": [
+              "1946007027257173527"
+            ]
+          },
+          "start_index": 42
+        }
+      ],
+      "pid": "GjBLJSX3",
+      "text": "一般来说，一项任务的价值，取决于它在时间尺度上的作用效率。花同样的功夫，我们应该尽量多做那些对整个人生都产生正面影响的事情，少做对中期的未来产生影响的事情，不做那些只对近期产生影响的事情。当然，产生负面影响的事是最应该避免的。从这个意义上说，花适当的时间锻炼身体能让我们终身受益，值得做；但是即便只花同样时间，我们也不应该打游戏，因为那只能获得转瞬即逝的空虚的精神愉悦。"
+    },
+    {
+      "marks": [
+        {
+          "end_index": 70,
+          "seg_info": {
+            "comment_count": 1,
+            "is_like": false,
+            "is_span": false,
+            "like_count": 1,
+            "my_comment_count": 0,
+            "seg_ids": [
+              "1951651222961492029"
+            ]
+          },
+          "start_index": 1
+        }
+      ],
+      "pid": "60HAGzVD",
+      "text": "•学生会议。几乎所有的学生会议，无论是在大礼堂举办的全校大会，还是社团头目临时占用教室举行的小规模会议，都有一个共同点，那就是毫无效率可言。"
+    }
+  ],
   "type": "answer",
-  "voteup_count": 623
+  "updated_time": 1756636334,
+  "url": "https://www.zhihu.com/api/v4/answers/1945520875458790848",
+  "voteup_count": 671
 }

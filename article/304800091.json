@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "304800091",
+  "title": "记忆复杂性",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/304800091",
+  "image_url": "https://pic1.zhimg.com/v2-5a9a9dd7ead60e9bd91d80057aa0c7e5_r.jpg?source=172ae18b",
+  "title_image": "https://pic1.zhimg.com/v2-5a9a9dd7ead60e9bd91d80057aa0c7e5_r.jpg?source=172ae18b",
+  "excerpt": "记忆的复杂性反映了记忆的基础神经网络的结构 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Complexity\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">复杂性</a>。简单的记忆可能依赖于一个单一的连接，可以被一致地重新激活。复杂的记忆可能涉及一组概念之间的纠结连接，根据记忆提取的背景，这些概念可能以不同的顺序或模式被激活。 记忆的复杂性与下列因素呈正相…",
+  "created": 1605960554,
   "updated": 1669003729,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "记忆的复杂性反映了记忆的基础神经网络的结构复杂性 。简单的记忆可能依赖于一个单一…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 1500,
+  "image_height": 800,
+  "content": "<p data-pid=\"lK8Rf8VA\">记忆的复杂性反映了记忆的基础神经网络的结构<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Complexity\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">复杂性</a>。</p><p data-pid=\"Dvo_H7b6\">简单的记忆可能依赖于一个单一的连接，可以被一致地重新激活。复杂的记忆可能涉及一组概念之间的纠结连接，根据记忆提取的背景，这些概念可能以不同的顺序或模式被激活。</p><p data-pid=\"L5gh-q9a\">记忆的复杂性与下列因素呈正相关：</p><ul><li data-pid=\"cp_EWxwt\">提取记忆所涉及的突触数量（参见：<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Grandmother_cell\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">祖母细胞</a>）</li><li data-pid=\"IIbP_amn\">长期保持记忆的难度（例如使用 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/SuperMemo\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SuperMemo</a><sup data-text=\"什么是SuperMemo\" data-url=\"https://www.yuque.com/supermemo/wiki/supermemo\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>）</li><li data-pid=\"3O4xCjq_\">通过复习提高<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Memory_stability\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">记忆稳定性</a>的难度（在<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Retrievability\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">可提取性</a>相当的情况下）</li></ul><p data-pid=\"k0R0cwzi\">复杂的记忆很难被一致地提取。因此，学生应采用<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Minimum_information_principle\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">最小信息原则</a><sup data-text=\"有效的学习：组织知识的20条原则\" data-url=\"https://zhuanlan.zhihu.com/p/52369009\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。简单的记忆更容易回忆，也更容易储存在长期记忆中。在 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/SuperMemo\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SuperMemo</a> 中，复杂性用项目难度来表示。</p><p data-pid=\"nZeOV_2W\">在复杂记忆中，单个突触可能表现得像电子电路的子元件，并导致复合稳定性。例如，对于子稳定性 Sa 和 Sb，我们可能有。S = Sa * Sb / (Sa + Sb) （<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Complexity_of_memories_in_spaced_repetition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">解释</a>）</p><p data-pid=\"iDwSb3NS\">同一个项目在不同的学生那里可能会有不同的编码（如根据他们的记忆能力）。这意味着记忆复杂性是一种神经网络属性，而不是直接反映项目的语义属性。</p><p data-pid=\"WTUF_1JO\">此外，项目难度是依赖于学生的。这意味着，即使两个学生用相同的复杂性对同一个项目进行编码，<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Spaced_repetition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复</a><sup data-text=\"【理论】Study smarter, NOT longer. 你需要间隔重复！\" data-url=\"https://zhuanlan.zhihu.com/p/57020308\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>算法所测得的项目难度也可能不同（例如，当其中一个学生倾向于上午工作，而另一个学生则选择晚上）。</p><p data-pid=\"iokR6o0s\"><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Atomic_memory\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">原子记忆</a>是最简单的记忆，它完全遵循指数<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Forgetting\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">遗忘</a>，完全符合<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Two_component_model_of_memory\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">记忆双组分模型</a><sup data-text=\"记忆的两个组成成分\" data-url=\"https://zhuanlan.zhihu.com/p/179076885\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>。</p><p data-pid=\"Jvla887m\">记忆复杂性是<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Three_component_model_of_memory\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">记忆三组分模型</a>中的第三个组分，它将两组分模型从原子记忆扩展到复杂记忆。</p><p data-pid=\"w1PQoKJY\">详见：</p><ul><li data-pid=\"IDDqhHiv\"><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Complexity_of_memories_in_spaced_repetition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">记忆复杂性的公式</a></li><li data-pid=\"wkCTGIUv\"><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/The_truth_about_grandmother_cells%23Memory_stability_underlies_computability\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">记忆复杂性反证了新皮层的连接主义模型</a></li></ul>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19695588",
+      "type": "topic",
+      "id": "19695588",
+      "name": "SuperMemo"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19563807",
+      "type": "topic",
+      "id": "19563807",
+      "name": "记忆"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19619550",
+      "type": "topic",
+      "id": "19619550",
+      "name": "神经科学"
+    }
+  ],
+  "voteup_count": 19,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "间隔重复使记忆成为一种选择",
+    "is_following": false,
+    "url_token": "c_1525782291741208576",
+    "id": "c_1525782291741208576",
+    "articles_count": 182,
+    "accept_submission": true,
+    "title": "间隔重复 & 注意力管理",
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "comment_permission": "all",
+    "created": 1656554846,
+    "updated": 1751877449,
+    "image_url": "https://picx.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 227,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 0,
+  "contributions": [
+    {
+      "id": 41446570,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "间隔重复使记忆成为一种选择",
+        "is_following": false,
+        "url_token": "c_1525782291741208576",
+        "id": "c_1525782291741208576",
+        "articles_count": 182,
+        "accept_submission": true,
+        "title": "间隔重复 & 注意力管理",
+        "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+        "comment_permission": "all",
+        "created": 1656554846,
+        "updated": 1751877449,
+        "image_url": "https://picx.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 227,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": true,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 304800091,
-  "voteup_count": 18,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 25,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "记忆复杂性 - 来自知乎专栏「间隔重复 &amp; 注意力管理」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/304800091 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1605960554,
-  "url": "https://api.zhihu.com/articles/304800091",
-  "comment_permission": "all",
-  "title": "记忆复杂性",
-  "image_width": 800,
-  "content": "<p data-pid=\"lK8Rf8VA\">记忆的复杂性反映了记忆的基础神经网络的结构<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Complexity\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">复杂性</a>。</p><p data-pid=\"Dvo_H7b6\">简单的记忆可能依赖于一个单一的连接，可以被一致地重新激活。复杂的记忆可能涉及一组概念之间的纠结连接，根据记忆提取的背景，这些概念可能以不同的顺序或模式被激活。</p><p data-pid=\"L5gh-q9a\">记忆的复杂性与下列因素呈正相关：</p><ul><li data-pid=\"cp_EWxwt\">提取记忆所涉及的突触数量（参见：<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Grandmother_cell\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">祖母细胞</a>）</li><li data-pid=\"IIbP_amn\">长期保持记忆的难度（例如使用 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/SuperMemo\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SuperMemo</a><sup data-text=\"什么是SuperMemo\" data-url=\"https://www.yuque.com/supermemo/wiki/supermemo\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>）</li><li data-pid=\"3O4xCjq_\">通过复习提高<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Memory_stability\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">记忆稳定性</a>的难度（在<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Retrievability\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">可提取性</a>相当的情况下）</li></ul><p data-pid=\"k0R0cwzi\">复杂的记忆很难被一致地提取。因此，学生应采用<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Minimum_information_principle\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">最小信息原则</a><sup data-text=\"有效的学习：组织知识的20条原则\" data-url=\"https://zhuanlan.zhihu.com/p/52369009\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。简单的记忆更容易回忆，也更容易储存在长期记忆中。在 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/SuperMemo\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SuperMemo</a> 中，复杂性用项目难度来表示。</p><p data-pid=\"nZeOV_2W\">在复杂记忆中，单个突触可能表现得像电子电路的子元件，并导致复合稳定性。例如，对于子稳定性 Sa 和 Sb，我们可能有。S = Sa * Sb / (Sa + Sb) （<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Complexity_of_memories_in_spaced_repetition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">解释</a>）</p><p data-pid=\"iDwSb3NS\">同一个项目在不同的学生那里可能会有不同的编码（如根据他们的记忆能力）。这意味着记忆复杂性是一种神经网络属性，而不是直接反映项目的语义属性。</p><p data-pid=\"WTUF_1JO\">此外，项目难度是依赖于学生的。这意味着，即使两个学生用相同的复杂性对同一个项目进行编码，<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Spaced_repetition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复</a><sup data-text=\"【理论】Study smarter, NOT longer. 你需要间隔重复！\" data-url=\"https://zhuanlan.zhihu.com/p/57020308\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>算法所测得的项目难度也可能不同（例如，当其中一个学生倾向于上午工作，而另一个学生则选择晚上）。</p><p data-pid=\"iokR6o0s\"><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Atomic_memory\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">原子记忆</a>是最简单的记忆，它完全遵循指数<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Forgetting\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">遗忘</a>，完全符合<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Two_component_model_of_memory\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">记忆双组分模型</a><sup data-text=\"记忆的两个组成成分\" data-url=\"https://zhuanlan.zhihu.com/p/179076885\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>。</p><p data-pid=\"Jvla887m\">记忆复杂性是<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Three_component_model_of_memory\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">记忆三组分模型</a>中的第三个组分，它将两组分模型从原子记忆扩展到复杂记忆。</p><p data-pid=\"w1PQoKJY\">详见：</p><ul><li data-pid=\"IDDqhHiv\"><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Complexity_of_memories_in_spaced_repetition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">记忆复杂性的公式</a></li><li data-pid=\"wkCTGIUv\"><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/The_truth_about_grandmother_cells%23Memory_stability_underlies_computability\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">记忆复杂性反证了新皮层的连接主义模型</a></li></ul>",
-  "column": {
-    "updated": 1710055189,
-    "description": "该专栏翻译有关记忆，学习，睡眠，创造力，解决问题，脑科学，健康和教育的文章",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/supermemo-guru-cn",
-    "title": "学校教育问题",
-    "image_url": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "supermemo-guru-cn"
-  },
-  "comment_count": 0,
-  "image_url": "https://pic1.zhimg.com/v2-5a9a9dd7ead60e9bd91d80057aa0c7e5_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 3,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 3,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxNTU4NjMxMDcSCTMwNDgwMDA5MRgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 19,
+      "down_vote_count": 0,
+      "like_count": 3,
+      "comment_count": 0,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 25,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-5a9a9dd7ead60e9bd91d80057aa0c7e5": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-5a9a9dd7ead60e9bd91d80057aa0c7e5": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-5a9a9dd7ead60e9bd91d80057aa0c7e5": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=304800091&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 间隔重复 & 注意力管理",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525782291741208576",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 间隔重复 & 注意力管理"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

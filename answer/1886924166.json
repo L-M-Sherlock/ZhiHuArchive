@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,6 +14,7 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,45 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 0,
   "content": "<p data-pid=\"SPZ-0x0x\">间隔重复+Anki，首先从间隔重复的方式讲起。一个遗忘曲线的公式可以支持对抗遗忘的运用。当我们复习时，不仅提高了基础知识的概念，并且让遗忘曲线变平缓了。而合理规划复习的基础是对抗遗忘，Anki 的使用起到这样的作用。</p><p>\n</p><p data-pid=\"0juBswQx\">使用 Anki 只需要制卡和复习，制卡的过程实用于任何设备，而复习时每天复习 500+知识点，每个小知识点平均只花七秒钟。而 Anki 的会计算你的复习速度安排间隔重复，并且这种复习方法适用于任何学科的学习。</p>",
   "content_need_truncated": false,
   "created_time": 1621040885,
   "excerpt": "间隔重复+Anki，首先从间隔重复的方式讲起。一个遗忘曲线的公式可以支持对抗遗忘的运用。当我们复习时，不仅提高了基础知识的概念，并且让遗忘曲线变平缓了。而合理规划复习的基础是对抗遗忘，Anki 的使用起到这样的作用。 使用 Anki 只需要制卡和复习，制卡的过程实用于任何设备，而复习时每天复习 500+知识点，每个小知识点平均只花七秒钟。而 Anki 的会计算你的复习速度安排间隔重复，并且这种复习方法适用于任何学科的学习。",
-  "id": 1886924166,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1886924166",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "question": {
     "created": 1452873333,
     "detail": "<p>高三理科，想要上浙大。平时最好的成绩也比去年的线低两分。各科还算均衡，就是语文有点弱 ，希望提高各科成绩，同时想自主招生，求大神们指点迷津。</p>",
-    "id": 39527244,
+    "id": "39527244",
     "question_type": "normal",
     "relationship": {},
     "title": "作为一个高三党，如何用冷门技巧提高各科成绩?",
     "type": "question",
     "updated_time": 1609824278,
-    "url": "https://api.zhihu.com/questions/39527244"
+    "url": "https://www.zhihu.com/api/v4/questions/39527244"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1621040885,
+  "url": "https://www.zhihu.com/api/v4/answers/1886924166",
   "voteup_count": 1
 }

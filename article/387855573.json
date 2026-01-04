@@ -1,80 +1,472 @@
 {
-  "status": 0,
+  "id": "387855573",
+  "title": "SuperMemo 图表详解",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/387855573",
+  "image_url": "https://picx.zhimg.com/v2-fab27c644504652386ffd4a7479c5803_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-fab27c644504652386ffd4a7479c5803_720w.jpg?source=172ae18b",
+  "excerpt": "本文使用 <a href=\"https://zhuanlan.zhihu.com/p/106057556\" class=\"internal\" target=\"_blank\">Zhihu On VSCode</a> 创作并发布这里是好久没有写文章的学委叶哥，由于是个懒人（迫真），不爱写自己都很少用到的功能模块的相关教程。 不过群友经常问图表相关的问题，想着写篇文章应该能解答不少疑惑，于是开始码字（在动车上闲着也是闲着 由于各类…",
+  "created": 1625732814,
   "updated": 1625826156,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "本文使用 Zhihu On VSCode 创作并发布这里是好久没有写文章的学委叶哥，由于是个懒…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 1280,
+  "image_height": 907,
+  "content": "<blockquote data-pid=\"We6-qtZI\"><p data-pid=\"snJGI_qd\">本文使用 <a href=\"https://zhuanlan.zhihu.com/p/106057556\" class=\"internal\" target=\"_blank\">Zhihu On VSCode</a> 创作并发布</p></blockquote><p data-pid=\"lWkYPG_4\">这里是好久没有写文章的学委叶哥，由于是个懒人（迫真），不爱写自己都很少用到的功能模块的相关教程。</p><p data-pid=\"VyTcavLR\">不过群友经常问图表相关的问题，想着写篇文章应该能解答不少疑惑，于是开始码字（在动车上闲着也是闲着</p><p data-pid=\"2iiprJNe\">由于各类图表已经有官方的介绍，本文不会进行一一介绍，只会涉及一些我认为比较重要的图表。</p><p data-pid=\"apmq2jrj\">另外，图表数据主要分为使用相关和算法相关，大家可能更关心使用相关的内容，算法相关的图表算是我的一点私货。</p><p data-pid=\"jhlv-An9\">废话不多说，让我们开始吧！</p><h2>使用相关</h2><p data-pid=\"riiAeoY3\">Shift + Alt + A 打开统计分析</p><p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-3128affa14453c8e6c7e52c7fe58b400_1440w.jpg\" data-size=\"normal\" data-original-token=\"v2-3128affa14453c8e6c7e52c7fe58b400\" class=\"content_image\"/><figcaption>Image</figcaption></figure></p><h3>每日重复次数</h3><p data-pid=\"Xc6biLyv\">Use - Work done - Item Repetitions</p><p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-9449abcc5109e4b0d287924e2ba7a380_1440w.jpg\" data-size=\"normal\" data-original-token=\"v2-9449abcc5109e4b0d287924e2ba7a380\" class=\"content_image\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"cmF4Ab69\">横轴是日期，纵轴是重复次数，不论是新学还是复习，只要进行一次评分，就会当做一次重复（包括在 Final Drill 中的重复）</p><p data-pid=\"UeLQn7Hv\">点击 Smooth 可以平滑曲线，方便观察更大时间范围的趋势。</p><p data-pid=\"QQ-qykJW\">另外，Topic View 就是每日阅读的摘录卡片数量，Repetitions 就是 Item + Topic 的重复总和。Use Time 就是你花在这个 collection 上的时间，而 Recall time 是花在回忆答案的时间。</p><h3>每日待办卡片数量</h3><p data-pid=\"uEV1eISs\">Use - Work done - Outstanding</p><p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-b2765c524947613631085f0f82199225_1440w.jpg\" data-size=\"normal\" data-original-token=\"v2-b2765c524947613631085f0f82199225\" class=\"content_image\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"8s5PwdnQ\">这个是 SuperMemo 算法每日安排的卡片数量，注意与前面的每日重复数量区分（一个是算法安排，一个是实际学习）。</p><p data-pid=\"I0wtUQ1l\">Outstanding items 和 Outstanding topics 就是把问答卡片和摘录卡片分开统计。</p><h3>卡片总数</h3><p data-pid=\"nL6cQokk\">Use - ELement count - Topic and tasks</p><p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-01ea569907ce191ec645af4f707550f7_1440w.jpg\" data-size=\"normal\" data-original-token=\"v2-01ea569907ce191ec645af4f707550f7\" class=\"content_image\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"IuRt4UpH\">顾名思义，就是卡片总数，如果新增卡片，就会变大，删除卡片就会变小。</p><h3>已记忆的卡片总数</h3><p data-pid=\"IQwrO0qz\">Use - Memorized - Memorized items</p><p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-1c9f87fc343108f0f45098115a075641_1440w.jpg\" data-size=\"normal\" data-original-token=\"v2-1c9f87fc343108f0f45098115a075641\" class=\"content_image\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"XCQ8BreH\">已记忆的卡片就是进入复习状态的卡片，不包括被 dismiss 或 forget 的卡片。</p><h3>每日新记忆的卡片数</h3><p data-pid=\"UQA3yJjx\">Use - Newly memorized - New items</p><p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-0744a2fa296e3936108e8a540cb4f9bf_1440w.jpg\" data-size=\"normal\" data-original-token=\"v2-0744a2fa296e3936108e8a540cb4f9bf\" class=\"content_image\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"FN3HyZvu\">顾名思义，就是每天新学的卡片数量，这里要注意：新增、挖空和摘录都算作新记忆，而从外部导入到 pending 队列的卡片需要在 new material 里面学过后才当做新记忆。</p><h3>每日遗忘指数</h3><p data-pid=\"3CaKBbBg\">Use - Efficiency - Forgetting index</p><p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-04ae46fad0a01189f1b852377124fb4d_1440w.jpg\" data-size=\"normal\" data-original-token=\"v2-04ae46fad0a01189f1b852377124fb4d\" class=\"content_image\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"tgCNryMN\">每日遗忘指数就是当天遗忘的卡片数量比去当天复习的卡片数量即 [forget / (forget + recall)]</p><h3>每日超负荷</h3><p data-pid=\"b7omZIk_\">Use - Overload - Items</p><p data-pid=\"tTPyxBY4\">下图经过 smooth 处理</p><p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-d94e7a4fe80b17de102c6a6bad86a1d6_1440w.jpg\" data-size=\"normal\" data-original-token=\"v2-d94e7a4fe80b17de102c6a6bad86a1d6\" class=\"content_image\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"6vBAJnO7\">实际复习 / 算法安排，100% 就是完成当天算法安排的所有复习，如果当天的 Outstanding 中有 100 张卡片，而我只处理了 40 张，那么我当天的 overload 就是 40%</p><h3>每日优先级保护</h3><p data-pid=\"Bsil5uUw\">Use - Priority protection - Items</p><p data-pid=\"FtALVQbL\">下图经过 smooth 处理</p><p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-910b822da81acac4ae8cf53645d8d77b_1440w.jpg\" data-size=\"normal\" data-original-token=\"v2-910b822da81acac4ae8cf53645d8d77b\" class=\"content_image\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"DEbmyfNO\">之前在《<a href=\"https://zhuanlan.zhihu.com/p/364351955\" class=\"internal\" target=\"_blank\">渐进阅读：卡片刷不完？拥抱优先级！</a>》中介绍过了，此处不再赘述。</p><h2>算法相关</h2><h3>第一次复习后的遗忘曲线</h3><p data-pid=\"b3EI6UfV\">Forgetting - Stability: new</p><p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-859cdd1f2bc908905b3069c6e23d9835_1440w.jpg\" data-size=\"normal\" data-original-token=\"v2-859cdd1f2bc908905b3069c6e23d9835\" class=\"content_image\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"wDDlZqAf\">这条曲线表示的是，一张卡片被第一次记忆后的遗忘曲线。蓝色的点代表真实值，黄色的线代表拟合后的曲线。蓝色纵线表示的是保留率为 90% 所对应的间隔天数。</p><p data-pid=\"xZgu9fDy\">一般来说，如果应用良好的制卡原则，黄色线会更加平缓，蓝色纵向也会更靠近右侧。</p><h3>第一个间隔与累积遗忘次数的关系</h3><p data-pid=\"OxLyv36A\">Graphs - First Interval</p><p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-11dc811f9b821bbec8c8cdcd18a0ea9e_1440w.jpg\" data-size=\"normal\" data-original-token=\"v2-11dc811f9b821bbec8c8cdcd18a0ea9e\" class=\"content_image\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"BQmBFMSb\">该曲线表示的是，不同累积遗忘次数的卡片，在被遗忘后（或者是第一次复习），最佳间隔天数与累积遗忘次数之间的关系。</p><p data-pid=\"eDSxHEty\">蓝色的点即统计值，点的相对大小表示该点统计样例数量的相对多少，黄色线是拟合结果。</p><h3>间隔矩阵</h3><p data-pid=\"R7ZE3IRh\">Matrices - Intervals</p><p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-3f627082ecb945171326f8e25d55cae3_1440w.jpg\" data-size=\"normal\" data-original-token=\"v2-3f627082ecb945171326f8e25d55cae3\" class=\"content_image\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"mjw4VxzA\">本矩阵是由 SM-15 算法按照用户复习数据拟合出的间隔矩阵，横索引代表卡片难度，越大越简单，纵索引表示连续记住次数。</p><p data-pid=\"d86bF1qF\">本矩阵并未用于实际的复习安排，仅做参考。</p><h2>结语</h2><p data-pid=\"zRVgu0pH\">以上就是我认为值得了解的统计数据，更多数据的详细解释，可以参考官方文档：<a href=\"https://link.zhihu.com/?target=https%3A//help.supermemo.org/wiki/Analysis\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">help.supermemo.org/wiki</span><span class=\"invisible\">/Analysis</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"7OXk9sJt\">不建议 SuperMemo 新手对这些图表了解太多，原因有二：</p><p data-pid=\"yz133Xf3\">其一，数据量太少偏差较大，没有参考价值；</p><p data-pid=\"8l8Xw6uQ\">其二，用好 SuperMemo 的基本功能更重要。</p><p data-pid=\"IbmbjHxh\">希望我的文章对大家有所帮助，谢谢！</p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [],
+  "voteup_count": 46,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "用渐进学习的方式建立我们大脑的概念网络",
+    "is_following": false,
+    "url_token": "c_1308886122672484352",
+    "id": "c_1308886122672484352",
+    "articles_count": 61,
+    "accept_submission": false,
+    "title": "SuperMemo—渐进学习最前沿！",
+    "url": "https://api.zhihu.com/columns/c_1308886122672484352",
+    "comment_permission": "all",
+    "created": 1604842769,
+    "updated": 1751811091,
+    "image_url": "https://pica.zhimg.com/v2-3cce7a5e28a0717c6181134587fdd7c1_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 610,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 13,
+  "contributions": [
+    {
+      "id": 31986005,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "用渐进学习的方式建立我们大脑的概念网络",
+        "is_following": false,
+        "url_token": "c_1308886122672484352",
+        "id": "c_1308886122672484352",
+        "articles_count": 61,
+        "accept_submission": false,
+        "title": "SuperMemo—渐进学习最前沿！",
+        "url": "https://api.zhihu.com/columns/c_1308886122672484352",
+        "comment_permission": "all",
+        "created": 1604842769,
+        "updated": 1751811091,
+        "image_url": "https://pica.zhimg.com/v2-3cce7a5e28a0717c6181134587fdd7c1_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 610,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 387855573,
-  "voteup_count": 45,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 69,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "SuperMemo 图表详解 - 来自知乎专栏「SuperMemo—渐进学习最前沿！」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/387855573 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1625732814,
-  "url": "https://api.zhihu.com/articles/387855573",
-  "comment_permission": "all",
-  "title": "SuperMemo 图表详解",
-  "image_width": 907,
-  "content": "<blockquote data-pid=\"We6-qtZI\"><p data-pid=\"snJGI_qd\">本文使用 <a href=\"https://zhuanlan.zhihu.com/p/106057556\" class=\"internal\">Zhihu On VSCode</a> 创作并发布</p></blockquote><p data-pid=\"lWkYPG_4\">这里是好久没有写文章的学委叶哥，由于是个懒人（迫真），不爱写自己都很少用到的功能模块的相关教程。</p><p data-pid=\"VyTcavLR\">不过群友经常问图表相关的问题，想着写篇文章应该能解答不少疑惑，于是开始码字（在动车上闲着也是闲着</p><p data-pid=\"2iiprJNe\">由于各类图表已经有官方的介绍，本文不会进行一一介绍，只会涉及一些我认为比较重要的图表。</p><p data-pid=\"apmq2jrj\">另外，图表数据主要分为使用相关和算法相关，大家可能更关心使用相关的内容，算法相关的图表算是我的一点私货。</p><p data-pid=\"jhlv-An9\">废话不多说，让我们开始吧！</p><h2>使用相关</h2><p data-pid=\"riiAeoY3\">Shift + Alt + A 打开统计分析</p><p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-3128affa14453c8e6c7e52c7fe58b400_b.jpg\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-3128affa14453c8e6c7e52c7fe58b400\"/><figcaption>Image</figcaption></figure></p><h3>每日重复次数</h3><p data-pid=\"Xc6biLyv\">Use - Work done - Item Repetitions</p><p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-9449abcc5109e4b0d287924e2ba7a380_b.jpg\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-9449abcc5109e4b0d287924e2ba7a380\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"cmF4Ab69\">横轴是日期，纵轴是重复次数，不论是新学还是复习，只要进行一次评分，就会当做一次重复（包括在 Final Drill 中的重复）</p><p data-pid=\"UeLQn7Hv\">点击 Smooth 可以平滑曲线，方便观察更大时间范围的趋势。</p><p data-pid=\"QQ-qykJW\">另外，Topic View 就是每日阅读的摘录卡片数量，Repetitions 就是 Item + Topic 的重复总和。Use Time 就是你花在这个 collection 上的时间，而 Recall time 是花在回忆答案的时间。</p><h3>每日待办卡片数量</h3><p data-pid=\"uEV1eISs\">Use - Work done - Outstanding</p><p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-b2765c524947613631085f0f82199225_b.jpg\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-b2765c524947613631085f0f82199225\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"8s5PwdnQ\">这个是 SuperMemo 算法每日安排的卡片数量，注意与前面的每日重复数量区分（一个是算法安排，一个是实际学习）。</p><p data-pid=\"I0wtUQ1l\">Outstanding items 和 Outstanding topics 就是把问答卡片和摘录卡片分开统计。</p><h3>卡片总数</h3><p data-pid=\"nL6cQokk\">Use - ELement count - Topic and tasks</p><p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-01ea569907ce191ec645af4f707550f7_b.jpg\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-01ea569907ce191ec645af4f707550f7\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"IuRt4UpH\">顾名思义，就是卡片总数，如果新增卡片，就会变大，删除卡片就会变小。</p><h3>已记忆的卡片总数</h3><p data-pid=\"IQwrO0qz\">Use - Memorized - Memorized items</p><p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-1c9f87fc343108f0f45098115a075641_b.jpg\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-1c9f87fc343108f0f45098115a075641\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"XCQ8BreH\">已记忆的卡片就是进入复习状态的卡片，不包括被 dismiss 或 forget 的卡片。</p><h3>每日新记忆的卡片数</h3><p data-pid=\"UQA3yJjx\">Use - Newly memorized - New items</p><p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-0744a2fa296e3936108e8a540cb4f9bf_b.jpg\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-0744a2fa296e3936108e8a540cb4f9bf\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"FN3HyZvu\">顾名思义，就是每天新学的卡片数量，这里要注意：新增、挖空和摘录都算作新记忆，而从外部导入到 pending 队列的卡片需要在 new material 里面学过后才当做新记忆。</p><h3>每日遗忘指数</h3><p data-pid=\"3CaKBbBg\">Use - Efficiency - Forgetting index</p><p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-04ae46fad0a01189f1b852377124fb4d_b.jpg\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-04ae46fad0a01189f1b852377124fb4d\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"tgCNryMN\">每日遗忘指数就是当天遗忘的卡片数量比去当天复习的卡片数量即 [forget / (forget + recall)]</p><h3>每日超负荷</h3><p data-pid=\"b7omZIk_\">Use - Overload - Items</p><p data-pid=\"tTPyxBY4\">下图经过 smooth 处理</p><p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-d94e7a4fe80b17de102c6a6bad86a1d6_b.jpg\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-d94e7a4fe80b17de102c6a6bad86a1d6\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"6vBAJnO7\">实际复习 / 算法安排，100% 就是完成当天算法安排的所有复习，如果当天的 Outstanding 中有 100 张卡片，而我只处理了 40 张，那么我当天的 overload 就是 40%</p><h3>每日优先级保护</h3><p data-pid=\"Bsil5uUw\">Use - Priority protection - Items</p><p data-pid=\"FtALVQbL\">下图经过 smooth 处理</p><p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-910b822da81acac4ae8cf53645d8d77b_b.jpg\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-910b822da81acac4ae8cf53645d8d77b\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"DEbmyfNO\">之前在《<a href=\"https://zhuanlan.zhihu.com/p/364351955\" class=\"internal\">渐进阅读：卡片刷不完？拥抱优先级！</a>》中介绍过了，此处不再赘述。</p><h2>算法相关</h2><h3>第一次复习后的遗忘曲线</h3><p data-pid=\"b3EI6UfV\">Forgetting - Stability: new</p><p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-859cdd1f2bc908905b3069c6e23d9835_b.jpg\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-859cdd1f2bc908905b3069c6e23d9835\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"wDDlZqAf\">这条曲线表示的是，一张卡片被第一次记忆后的遗忘曲线。蓝色的点代表真实值，黄色的线代表拟合后的曲线。蓝色纵线表示的是保留率为 90% 所对应的间隔天数。</p><p data-pid=\"xZgu9fDy\">一般来说，如果应用良好的制卡原则，黄色线会更加平缓，蓝色纵向也会更靠近右侧。</p><h3>第一个间隔与累积遗忘次数的关系</h3><p data-pid=\"OxLyv36A\">Graphs - First Interval</p><p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-11dc811f9b821bbec8c8cdcd18a0ea9e_b.jpg\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-11dc811f9b821bbec8c8cdcd18a0ea9e\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"BQmBFMSb\">该曲线表示的是，不同累积遗忘次数的卡片，在被遗忘后（或者是第一次复习），最佳间隔天数与累积遗忘次数之间的关系。</p><p data-pid=\"eDSxHEty\">蓝色的点即统计值，点的相对大小表示该点统计样例数量的相对多少，黄色线是拟合结果。</p><h3>间隔矩阵</h3><p data-pid=\"R7ZE3IRh\">Matrices - Intervals</p><p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-3f627082ecb945171326f8e25d55cae3_b.jpg\" data-size=\"normal\" class=\"content_image\" data-original-token=\"v2-3f627082ecb945171326f8e25d55cae3\"/><figcaption>Image</figcaption></figure></p><p data-pid=\"mjw4VxzA\">本矩阵是由 SM-15 算法按照用户复习数据拟合出的间隔矩阵，横索引代表卡片难度，越大越简单，纵索引表示连续记住次数。</p><p data-pid=\"d86bF1qF\">本矩阵并未用于实际的复习安排，仅做参考。</p><h2>结语</h2><p data-pid=\"zRVgu0pH\">以上就是我认为值得了解的统计数据，更多数据的详细解释，可以参考官方文档：<a href=\"https://link.zhihu.com/?target=https%3A//help.supermemo.org/wiki/Analysis\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">help.supermemo.org/wiki</span><span class=\"invisible\">/Analysis</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"7OXk9sJt\">不建议 SuperMemo 新手对这些图表了解太多，原因有二：</p><p data-pid=\"yz133Xf3\">其一，数据量太少偏差较大，没有参考价值；</p><p data-pid=\"8l8Xw6uQ\">其二，用好 SuperMemo 的基本功能更重要。</p><p data-pid=\"IbmbjHxh\">希望我的文章对大家有所帮助，谢谢！</p>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 13,
-  "image_url": "https://picx.zhimg.com/v2-fab27c644504652386ffd4a7479c5803_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 9,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 9,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxNzQzMjA1ODISCTM4Nzg1NTU3MxgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 46,
+      "down_vote_count": 0,
+      "like_count": 9,
+      "comment_count": 13,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 69,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-01ea569907ce191ec645af4f707550f7": 0,
+        "v2-04ae46fad0a01189f1b852377124fb4d": 0,
+        "v2-0744a2fa296e3936108e8a540cb4f9bf": 0,
+        "v2-11dc811f9b821bbec8c8cdcd18a0ea9e": 0,
+        "v2-1c9f87fc343108f0f45098115a075641": 0,
+        "v2-3128affa14453c8e6c7e52c7fe58b400": 0,
+        "v2-3f627082ecb945171326f8e25d55cae3": 0,
+        "v2-859cdd1f2bc908905b3069c6e23d9835": 0,
+        "v2-910b822da81acac4ae8cf53645d8d77b": 0,
+        "v2-9449abcc5109e4b0d287924e2ba7a380": 0,
+        "v2-b2765c524947613631085f0f82199225": 0,
+        "v2-d94e7a4fe80b17de102c6a6bad86a1d6": 0,
+        "v2-fab27c644504652386ffd4a7479c5803": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-01ea569907ce191ec645af4f707550f7": false,
+        "v2-04ae46fad0a01189f1b852377124fb4d": false,
+        "v2-0744a2fa296e3936108e8a540cb4f9bf": false,
+        "v2-11dc811f9b821bbec8c8cdcd18a0ea9e": false,
+        "v2-1c9f87fc343108f0f45098115a075641": false,
+        "v2-3128affa14453c8e6c7e52c7fe58b400": false,
+        "v2-3f627082ecb945171326f8e25d55cae3": false,
+        "v2-859cdd1f2bc908905b3069c6e23d9835": false,
+        "v2-910b822da81acac4ae8cf53645d8d77b": false,
+        "v2-9449abcc5109e4b0d287924e2ba7a380": false,
+        "v2-b2765c524947613631085f0f82199225": false,
+        "v2-d94e7a4fe80b17de102c6a6bad86a1d6": false,
+        "v2-fab27c644504652386ffd4a7479c5803": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-01ea569907ce191ec645af4f707550f7": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-04ae46fad0a01189f1b852377124fb4d": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-0744a2fa296e3936108e8a540cb4f9bf": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-11dc811f9b821bbec8c8cdcd18a0ea9e": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-1c9f87fc343108f0f45098115a075641": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-3128affa14453c8e6c7e52c7fe58b400": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-3f627082ecb945171326f8e25d55cae3": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-859cdd1f2bc908905b3069c6e23d9835": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-910b822da81acac4ae8cf53645d8d77b": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-9449abcc5109e4b0d287924e2ba7a380": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-b2765c524947613631085f0f82199225": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-d94e7a4fe80b17de102c6a6bad86a1d6": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-fab27c644504652386ffd4a7479c5803": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=387855573&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · SuperMemo—渐进学习最前沿！",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1308886122672484352",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · SuperMemo—渐进学习最前沿！"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

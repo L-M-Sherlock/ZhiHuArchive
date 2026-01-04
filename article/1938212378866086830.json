@@ -1,80 +1,419 @@
 {
-  "status": 0,
+  "id": "1938212378866086830",
+  "title": "术语表",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/1938212378866086830",
+  "image_url": "https://picx.zhimg.com/v2-b02c392f9b929f88b1a5f78f7bfa5af2_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-b02c392f9b929f88b1a5f78f7bfa5af2_720w.jpg?source=172ae18b",
+  "excerpt": "<b>抽象能力 (abstraction)</b> – 指能够透过具体案例洞察其底层规则（即通常所说的「以木见林」），而非仅仅记忆孤立的细节。掌握底层规则有助于将已有知识迁移应用到新的情境中。众所周知，个体间的抽象能力存在差异，并与<b>工作记忆容量 (working memory capacity)</b>…",
+  "created": 1754972235,
   "updated": 1755301568,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "抽象能力 (abstraction) – 指能够透过具体案例洞察其底层规则（即通常所说的「以木…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 4300,
+  "image_height": 2614,
+  "content": "<p data-pid=\"zYhwqIfo\"><b>抽象能力 (abstraction)</b> – 指能够透过具体案例洞察其底层规则（即通常所说的「以木见林」），而非仅仅记忆孤立的细节。掌握底层规则有助于将已有知识迁移应用到新的情境中。众所周知，个体间的抽象能力存在差异，并与<b>工作记忆容量 (working memory capacity)</b> 有关。</p><p data-pid=\"8zzLgD9I\"><b>抽象天花板 (abstraction ceiling)</b> – 指由于个体抽象能力有限，且更高阶的数学内容会变得愈发抽象和艰深，从而对个人能学习的数学内容的复杂度构成了实际限制。抽象上限并非一个「硬性」门槛（即达到某个水平就突然学不会了），而更像一个「软性」临界点：达到该点后，学习数学所需的时间和精力会开始急剧飙升，以至于继续学习更高级的数学内容实际上已不再是时间的有效利用。这个临界点因人而异。</p><p data-pid=\"rIiTAsXy\"><b>学业加速 (academic acceleration)</b> – 指允许学生在比通常年龄更小和/或以比通常更快的速度来学习学业内容的教育实践。</p><p data-pid=\"thyY8ObN\"><b>主动学习 (active learning)</b> – 指学生积极主动地参与学习练习，而非仅仅被动地接收教育信息的学习方式。最有效的主动学习技巧是<b>刻意练习 (deliberate practice)</b>。</p><p data-pid=\"vC-I1xpF\"><b>自动性</b> <b>(automaticity)</b> – 指无需投入有意识的努力即可执行基础技能的能力。技能自动化至关重要，因为它能释放有限的<b>工作记忆 (working memory)</b> 资源，使其能够同时处理多个基础技能，并对这些基础技能进行更高层次的思考与推理。当你对某项技能或某条信息达到自动化程度时，它便会储存在你的<b>长期记忆 (long-term memory)</b>中，在那里，无数信息可以被无限期地保存，且无需持续消耗认知资源。</p><p data-pid=\"ipwbBPbd\"><b>集中练习 (blocked practice (blocking</b> or <b>massed practice))</b> – 一种练习方式，指针对单一技能进行连续多次的重复练习。虽然在初学某项技能时，进行一定量的集中练习是有益的，但在后续的复习阶段，这种方式对于构建长期记忆而言效率非常<b>低效</b>。相关概念：<b>交错练习 (interleaving)</b>。</p><p data-pid=\"HSE8J3cO\"><b>类别归纳学习 (category induction learning)</b> – 指识别用以区分不同解题方法的问题类别的一般特征的能力。亦可参见：<b>区分学习 (discrimination learning)</b>。</p><p data-pid=\"lql4YD4g\"><b>组块 (chunk)</b> – 指一组连贯、有意义且相关的信息片段。</p><p data-pid=\"Fh8d_kJz\"><b>认知控制 (cognitive control)</b> – 参见<b>执行功能 (executive function)</b>。</p><p data-pid=\"rlq8yutR\"><b>认知负荷 (cognitive load)</b> – 指完成某项任务时所需要占用的<b>工作记忆 (working memory)</b> 资源量。</p><p data-pid=\"d8d5gAWC\"><b>认知过载 (cognitive overload)</b> – 指当某项任务的<b>认知负荷 (cognitive load)</b> 超出个体所能承受的<b>工作记忆 (working memory)</b> 上限时，导致其无法完成该任务的现象。</p><p data-pid=\"RKL7PooC\"><b>有条件完成 (conditional completion)</b> – 指如果系统根据评估证据，判断学生对某些知识点的掌握程度「勉强达标」并允许其跳过，那么这些知识点将被视为<b>有条件完成的</b>：系统最初会假设学生已掌握这些知识点并据此分配学习任务，但如果学生在后续学习中遇到困难，系统将立即沿着相应的学习路径进行「向后回溯」以补充学习。</p><p data-pid=\"oR65kYSU\"><b>记忆巩固 (consolidation)</b> – 指将新获取的信息存储到<b>长期记忆 (long-term memory)</b> 中的过程。</p><p data-pid=\"QbtPj1_-\"><b>核心主题 (core topics)</b> – 指在数学的整体知识体系（「宏观全局」）中最为重要的<b>主题</b>。例如，在微积分中，乘法法则属于<b>核心主题</b>，而介值定理则属于<b>补充主题 (supplemental topic)</b>。核心主题通常更频繁地作为数学中其他主题的前置知识出现。</p><p data-pid=\"y-6G07Bi\"><b>课程图谱 (course graph)</b> – 指<b>知识图谱</b> <b>(knowledge graph)</b> 的一种高度概括的压缩版本，其中图谱中的一个节点可能代表着数百个具体的知识点。重要的是要理解，任何一门课程本质上都只是知识图谱中若干知识点的集合。知识图谱是知识的最终真实表示；课程图谱则仅仅是对知识图谱高层结构的总结与信息传递，以便于人类理解。</p><p data-pid=\"vkFhm45D\"><b>刻意练习 (deliberate practice)</b> – 指为提升个体在特定方面的表现而精心挑选的、个性化的训练活动，通过不断重复和持续改进来达成目标。刻意练习与盲目重复截然相反，并且已被<a href=\"https://link.zhihu.com/?target=https%3A//graphics8.nytimes.com/images/blogs/freakonomics/pdf/DeliberatePractice%2524%2524PsychologicalReview%2524%2524.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">研究证明</a>，它是造成个体表现差异（即便在天赋异禀的顶尖人士中也是如此）的最突出的潜在因素之一。</p><p data-pid=\"6txIgZtp\"><b>合意难度 (desirable difficulty)</b> – 指一种能够增加任务难度，从而在一定程度上减缓即时学习速度，但却能有效提升长期记忆和知识迁移能力的练习条件。设置合意难度能使练习过程更贴近真实的评估情境。</p><p data-pid=\"YUFx75RX\"><b>诊断性评估 (diagnostic)</b> – 指一种利用<b>知识图谱</b> <b>(knowledge graph)</b> 来快速识别学生当前知识边界 (knowledge frontier) 的自适应测试。</p><p data-pid=\"0OnPiMrw\"><b>直接教学法 (direct instruction)</b> – 指明确地向学生传授知识的教学方法，而不是试图让学生通过无指导的活动来「自行构建知识」。</p><p data-pid=\"S1Rm2eOD\"><b>区分学习 (discrimination learning)</b> – 指将具体问题与相适应的解题技巧进行正确匹配的能力。例如，方程 x^2 + 3x + 2 = 0 和 x + 3x + 2 = 0 表面看起来相似，但其解题方法却截然不同。亦可参见：<b>类别归纳学习 (category induction learning)</b>。</p><p data-pid=\"264tx67a\"><b>分散练习 (distributed practice)</b> – 参见<b>间隔重复 (spaced repetition)</b>。</p><p data-pid=\"dwY779DE\"><b>双重编码理论 (dual-coding theory)</b> – 一种认知理论，认为人类大脑通过两个不同的通道处理信息：即言语通道和视觉通道。教学材料可以通过在这两个通道之间更均衡地分配认知负荷，来帮助学生避免<b>认知过载 (cognitive overload)</b>。</p><p data-pid=\"HvMsVpXM\"><b>艾宾浩斯 (Ebbinghaus)</b> – 因发现<b>间隔效应 (spacing effect)</b> 而闻名的心理学家。</p><p data-pid=\"rO3lCgML\"><b>掌握边界 (edge of mastery)</b> – 参见<b>知识边界 (knowledge frontier)</b>。</p><p data-pid=\"nkIx2uG1\"><b>效应量 (effect size)</b> – 当一组学生接受了某种旨在提升学习效果的教学干预后，效应量用于衡量其学习成果相对于未接受该干预的<b>对照组 (control group)</b> 的改善程度。具体而言，效应量是以标准差（也称为<b>西格玛</b><i>，σ</i>）为单位，衡量平均学习表现的提升幅度。例如，如果一项干预使平均考试成绩提高了20%，而考试成绩的标准差为10%，那么效应量就是 20% / 10% = 2 个西格玛。效应量也可以用百分位数来表示：2个西格玛的效应量意味着，接受干预的学生的平均学习水平超过了对照组中98%的学生。（若效应量为 1 个西格玛，对应的百分位数是84%。）</p><p data-pid=\"0j6fNIcE\"><b>编码 (encoding)</b> – 对大脑信息处理流程的一种解读，强调该流程会将来自外部世界的信息进行转换或「编码」，形成一种能够被存储到<b>长期记忆 (long-term memory)</b> 中并供日后提取的表征形式。</p><p data-pid=\"IRu3rJUd\"><b>包含 (encompassing)</b> – 指高级的数学问题会自然而然地练习或“包含”许多相对更简单的技能。通过运用能够识别并利用这些包含关系的复杂算法，我们能让学生将大部分时间投入到学习新知识上，同时确保他们以往学过的内容也能得到持续的练习。这能带来涡轮增压般的学习加速效果。</p><p data-pid=\"t2NOAotU\"><b>等效主题 (equivalent topic)</b> – 为了遵循课程标准，有时有必要在多个不同层级的课程中设置<b>等效主题</b>。其中，较高层级课程中的等效主题会以更深入、更高级的方式来处理在较低层级课程中已教授过的相同技能。</p><p data-pid=\"zdqjk7sl\"><b>执行功能（认知控制）(executive function (cognitive control))</b> – 对大脑信息处理流程的一种解读，强调该流程以<b>工作记忆 (working memory)</b> 为核心枢纽。工作记忆会从<b>感觉记忆 (sensory memory)</b> 和<b>长期记忆 (long-term memory)</b> 中提取相关信息，汇集到一个处理区域，在那里信息可以被整合、转换，并用于指导行为以达成特定目标。</p><p data-pid=\"FvEXCKlS\"><b>经验值 (eXperience Points)</b> – 参见 <b>XP</b>。</p><p data-pid=\"hrM626gx\"><b>专业知识逆转效应 (expertise reversal effect)</b> – 指那些对初学者学习效果最佳的教学技巧，对于专家而言学习效果反而最差，反之亦然的现象。</p><p data-pid=\"969Qejto\"><b>促进作用 (facilitation)</b> – 当一项新的学习任务能够运用到先前任务中学到的知识时，学习效果可以通过以下两种方式得到提升：</p><ul><li data-pid=\"6vMLrAc-\">（<b>追溯性促进 (Retroactive Facilitation)</b>）新任务能够像直接重复先前任务一样，将先前知识的记忆恢复到<a href=\"https://link.zhihu.com/?target=https%3A//psycnet.apa.org/record/1959-02050-001\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">同等程度</a>，从而实现<a href=\"https://link.zhihu.com/?target=https%3A//journals.sagepub.com/doi/abs/10.3102/00028312022003369\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">长期记忆保持</a>（Ausubel, Robbins, &amp; Blake, 1957; Arzi, Ben-Zvi, &amp; Ganiel, 1985）。</li><li data-pid=\"aCq7t_rA\">（<b>前摄性促进 (Proactive Facilitation)</b>）在先前任务中获取的知识能够<a href=\"https://link.zhihu.com/?target=https%3A//journals.sagepub.com/doi/abs/10.3102/00028312022003369\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">促进</a>与新任务特定相关的新知识的掌握（Arzi, Ben-Zvi, &amp; Ganiel, 1985）。</li></ul><p data-pid=\"6ECTRO-5\"><b>遗忘曲线 (forgetting curve)</b> – 一条表示记忆保持量随时间推移而衰退的曲线图。</p><p data-pid=\"Q4fENWSb\"><b>基础知识 (foundations (foundational knowledge))</b> – 指学生为了在当前所选课程中取得成功而必须掌握的、来自较低年级或更基础阶段的知识点（即，基础知识是该课程的先决条件）。</p><p data-pid=\"aSHzu0F8\"><b>部分隐式重复 (Fractional Implicit Repetition (FIRe))</b> – Math Academy 独创的新型间隔重复模型。它将传统的、适用于独立「抽认卡式」任务的间隔重复方法，推广到了高度关联的复杂知识体系中。在该模型下，对高级主题的重复练习应该能产生「涓滴效应」，向下影响并更新那些被间接练习到的、更基础主题的复习计划。</p><p data-pid=\"cgS2axlP\"><b>前沿 (frontier)</b> – 参见<b>知识边界 (knowledge frontier)</b>。</p><p data-pid=\"wGru6lYn\"><b>游戏化 (gamification)</b> – 当积分、排行榜等游戏化元素，以契合课程目标、学生动机以及具体教育情境的方式融入到学习环境中时，学生们通常不仅能学到更多知识、更积极地参与学习内容，而且也会更享受学习过程。然而，这些游戏化元素需要能够有效抵制那些试图利用游戏规则漏洞以绕过真正学习的「投机取巧」行为。</p><p data-pid=\"xiGB1zdY\"><b>成长型思维 (growth mindset)</b> – 一种认为个体当前知识水平并非「固定不变」或一成不变，而是可以通过练习来不断提升的信念。为了最大限度地促进学生的成长，有必要为每位学生提供足够的练习以使其达到精通程度，并在他们掌握了先决条件之后，立即允许他们学习更高级的技能。达到精通程度所需的练习量会因学生个体和具体技能的不同而有所差异。</p><p data-pid=\"IN8dPkLP\"><b>能力错觉/理解错觉 (illusion of competence / comprehension)</b> – 如果学生（及其老师）在练习过程中没有运用<b>合意困难 (desirable difficulties)</b> 的方法，他们就很容易严重高估自己对知识的掌握程度。</p><p data-pid=\"XKNyUGWu\"><b>归纳学习 (induction learning)</b> – 参见<b>类别归纳学习 (category induction learning)</b>。</p><p data-pid=\"QKodn-yA\"><b>（学习）干扰 (interference)</b> – 参见<b>避免干扰 (non-interference)</b>。</p><p data-pid=\"_i1PAozK\"><b>交错练习（多样化练习，混合练习）(interleaving (varied practice, mixed practice))</b> – 当对单一技能的连续练习超出了「最小有效剂量」后，练习的有效性便会降低。因此，复习题应该被分散或<i>交叉</i>安排在多个复习任务中，每个复习任务都应广泛涵盖多种先前学过的不同主题。这种做法除了能提高学习效率外，还有助于学生将具体问题与合适的解题方法相匹配（即<b>区分学习 (discrimination learning)</b>），并帮助他们识别那些能够区分需要不同解题技巧的各类问题的一般特征（即<b>类别归纳学习 (category induction learning)</b>）。</p><p data-pid=\"gxZe64ml\"><b>关键前置知识 (key prerequisite)</b> – 每一个<b>知识点 (knowledge point)</b> 都会关联一个或多个<b>关键前置知识</b>，这些关键先决知识点代表了在该知识点学习中最直接被运用到的基础知识。如果学生在同一个知识点相关的课程内容上连续两次未能通过，系统会自动为他们提供针对这些关键前置知识的补救性复习。这有助于学生在他们最需要加强的领域巩固基础，以便为下一次顺利通过课程做好更充分的准备。</p><p data-pid=\"gCw0y2wO\"><b>知识边界（掌握边界）(knowledge frontier (edge of mastery))</b> – 指学生已知知识与未知知识之间的边界，它标示了学生当前适合学习哪些新主题。在学生完成初次的<b>诊断性评估 (diagnostic)</b>之后，每当系统为学生推送新的课程内容时，这些内容总是涵盖其个人知识边界上的主题。亦可参见：<b>最近发展区 (zone of proximal development)</b>。</p><p data-pid=\"BAH8HPRi\"><b>知识图谱</b> <b>(knowledge graph)</b> – 以一种能够支持算法决策的方式来组织课程内容。它包含数千个相互关联的主题（知识点），主题之间的每一个链接都表明了它们之间的某种关系（例如，一个主题是另一个主题的前置知识）。知识图谱能够编码大量复杂的信息，这些信息若用其他方式则难以描述和进行逻辑推理。</p><p data-pid=\"MMBgWVbY\"><b>知识点 (knowledge point)</b> – 每一个主题（topic）都包含一节课程（lesson），而每节课程又被细分为若干个关键的学习单元，这些单元被称为<b>知识点</b>。每个知识点都包含一个详细的解题范例，并会围绕该范例提出类似问题供学生练习。知识点之间层层递进，旨在为学生搭建学习的脚手架，引导他们逐步完成课程学习：第一个知识点通常涵盖该课程最核心的基本概念或技能，后续的知识点则会循序渐进地引入更复杂的进阶内容。要证明对某个主题的掌握，学生必须在该课程的每一个连续知识点中，正确回答足够数量的问题（并且错误次数足够少）。一旦达到这个标准，更高级的主题便会对该学生开放，供其继续学习。</p><p data-pid=\"8E0vmba8\"><b>知识画像 (knowledge profile)</b> – 用于衡量学生在<b>知识图谱</b> <b>(knowledge graph)</b> 中各个主题上的掌握程度。通俗地讲，一个学生的知识概况反映了其数学思维能力的「发展」程度。每当他们学习一个新的数学主题时，就好比他们大脑中长出了一个新的「脑细胞」，并将其与已有的「脑细胞」连接起来。最初，这个新的「脑细胞」比较「脆弱」，需要频繁的「滋养」（复习），但随着时间的推移，它会变得「强壮」，所需的「照料」频率也会降低。亦可参见：<b>知识边界 (knowledge frontier)</b>。</p><p data-pid=\"kqGXg9d3\"><b>递进式学习 (layering)</b> – 学习的本质是建立知识之间的联系。一项知识与其他知识的联系越多，它就越根深蒂固、条理分明、理解深刻，也越容易被提取。增加知识联系的最有效方法是在已有知识的基础上不断叠加新知识——即持续学习新知识，同时运用和巩固已掌握的基础知识。</p><p data-pid=\"XmI_kSrD\"><b>段位 (league)</b> – 为了激励学生投入足够的学习量，我们设置了（可选的）<b>每周竞争排行榜 (competitive weekly leaderboards)</b>。在排行榜中，学生会与其他竞技水平相近的同学被分入不同的小组，即<b>段位 (leagues)</b>。如果一个学生在一周内获得了足够的经验值（XP），使其在周末结算时排名位于所在段位的前列，他们就能晋级到更高的段位。但如果他们在周末结算时排名位于所在段位的末尾，则会降级到更低的段位。</p><p data-pid=\"RHKrkkdS\"><b>学习 (learning)</b> – 指<b>长期记忆 (long-term memory)</b> 中发生的积极的、持久性的改变。从生理层面来看，学习涉及到在<b>神经元 (neurons)</b>（即「脑细胞」）之间建立起具有策略性的电生理连接，从而提升大脑执行特定任务的能力。</p><p data-pid=\"DDKfBete\"><b>学习效率 (learning efficiency)</b> – 指学生在课程学习中取得的进步与其所投入学习时间的比率。</p><p data-pid=\"XCUz3C-K\"><b>学习速率 (learning rate)</b> – 指个体在接触、接受指导以及练习某一特定任务的过程中，其执行该任务的能力得到提升的速度。众所周知，学习速率因人而异，并受到<b>工作记忆容量 (working memory capacity, WMC)</b> 的影响。</p><p data-pid=\"zkqSMJKd\"><b>长期记忆 (long-term memory)</b> – 以<b>神经元 (neurons)</b> 之间形成的策略性电生理连接为基础，能够毫不费力地、无限期地储存数量庞大的事实、经验、概念和程序性知识。这些神经连接会引发一种「多米诺骨牌效应」，即通过最初激活模式中极少数的神经元，便能自动激活整个相关的神经元网络模式。亦可参见：<b>（记忆）巩固 (consolidation)</b>。</p><p data-pid=\"jQcxgQOV\"><b>大量练习 (massed practice)</b> – 参见<b>集中练习 (blocked practice)</b>。</p><p data-pid=\"szzs7kNa\"><b>掌握（某个知识点或主题）(mastery)</b> – 要证明对某一主题的<b>掌握</b>，学生必须在该课程的每一个连续的<b>知识点 (knowledge point)</b> 中，正确回答足够数量的问题（并且错误次数足够少）。一旦达到这个标准，更高级的主题便会对该学生开放，供其继续学习。</p><p data-pid=\"JgYB-doE\"><b>掌握下限 (mastery floor)</b> – 指那些对于任何修读某一特定课程的学生而言，都被系统自动认定为已经掌握的、来自较低层级课程的知识点。</p><p data-pid=\"w1iI2qXM\"><b>精熟学习 (mastery learning)</b> – 其核心在于，每一位学生在进入更高级主题的学习之前，都必须先证明其对相关的前置主题已达到熟练掌握的程度。在完全精细化的层面上实现真正的掌握学习，则需要完全个性化的教学，而这通常只有通过一对一辅导才可能达成。</p><p data-pid=\"YM7s5vN0\"><b>数学基础 (MF) 系列课程 (Mathematical Foundations (MF) sequence)</b> – 一套精简的系列课程，内容涵盖从初等数学到微积分的知识，但剔除了大约三分之一对于大学数学而言并非真正必要的前置知识。</p><p data-pid=\"Egj2QBpq\"><b>混合练习 (mixed practice)</b> – 参见<b>交错练习 (interleaving)</b>。</p><p data-pid=\"wEdtkPXa\"><b>变化窄限原则 (narrow limits of change principle)</b> – 指<b>工作记忆 (working memory)</b> 在处理新信息时所表现出的显著局限性。大多数人通常只能同时记住大约 7 个数字（或者更广义地说，大约 4 个由相关项目组成的<b>信息组块 (chunks)</b>），并且这种记忆通常只能维持大约 20 秒。而且，这还是在不需要对这些信息进行任何心智加工（mental manipulation）的前提下——如果需要进行加工，那么由于有限的认知处理资源的竞争，能够记住的信息数量还会进一步减少。</p><p data-pid=\"05XXrOmh\"><b>神经迷思 (neuromyth)</b> – 指一种关于大脑的普遍存在但科学上并不准确的错误观念。神经迷思通常表现为对某一精细复杂的科学发现进行过度简化、错误解读和/或不当应用。其中流传最广——同时也是被证伪最彻底——的神经迷思之一便是：人们在以其偏好的「学习风格」接收信息时，学习效果会更好。</p><p data-pid=\"vshKt60k\"><b>神经元 (neuron)</b> – 一种通过电活动传递信息的细胞。大脑是一个由大约 1000 亿个神经元构成的庞大网络，这些神经元之间通过超过 100 万亿个连接「编织」在一起。</p><p data-pid=\"hVARGQOR\"><b>非祖先包含关系 (non-ancestor encompassing)</b> – 尽管某些基础的<b>等效主题 (equivalent topics)</b> 可能不会通过<b>直接前置知识 (direct prerequisite)</b> 或<b>关键前置知识 (key prerequisite)</b> 的路径成为高阶等效主题的「祖先」（即直接前置），但我们依然可以在它们之间设定完全涵盖的关联权重。这样，当学生完成一个高阶主题时，他们也将同时因隐式练习而获得对任何更简单等效主题的掌握认证。这些关联被称为<b>非祖先包含关系</b>。亦可参见：<b>包含 (encompassing)</b>。</p><p data-pid=\"1ywULVOc\"><b>避免干扰 (non-interference)</b> – 指概念上相关的不同知识片段应在学习时间上有所间隔，以减少它们在被回忆时可能产生的相互干扰。新的概念应该与内容上不相似的材料一同进行教学。</p><p data-pid=\"3Aw5s1qT\"><b>速度 (pace)</b> – 指学生（通常以平均每个工作日计）完成的经验值（XP）数量。</p><p data-pid=\"GmbCERyz\"><b>部分包含 (partial encompassing)</b> – 一种<b>包含关系 (encompassing)</b>，指在学习较高级主题时，只有一个较简单主题的部分内容得到了隐式练习。部分包含关系在更高阶的数学学习中更为常见。</p><p data-pid=\"LE1Xk4Dd\"><b>定位测试 (placement)</b> – 参见<b>诊断性评估 (diagnostic)</b>。</p><p data-pid=\"_AkDCYRh\"><b>前摄性促进 (proactive facilitation)</b> – 参见<b>促进作用 (facilitation)</b>。</p><p data-pid=\"qZ0t8dU-\"><b>激进建构主义 (radical constructivism)</b> – 一种哲学观点，认为知识并非反映一种「客观的」本体论实在，而仅仅是我们通过自身经验所构建起来的世界的一种排序和组织方式。</p><p data-pid=\"VTMDxLHV\"><b>再巩固 (reconsolidation)</b> – 指更新那些已经被<b>巩固 (consolidated)</b> 并存入<b>长期记忆 (long-term memory)</b> 中的信息的过程。</p><p data-pid=\"brUXeanu\"><b>记忆复诵 (rehearsal)</b> – 指激活特定的神经模式并持续维持其同步激活状态的过程，大脑借此将信息保持在<b>工作记忆 (working memory)</b> 中。</p><p data-pid=\"Fru8_-bl\"><b>重复 (repetition)</b> – 参见<b>间隔重复 (spaced repetition)</b>。</p><p data-pid=\"yYH59qoe\"><b>重复压缩 (repetition compression)</b> – 每当学生有到期复习任务时，Math Academy 能将这些任务压缩成一个更精简的学习任务组合，这个组合能够隐性地涵盖（即提供重复练习机会）所有到期的复习内容。这是通过精心选择那些其隐式重复能够像推倒多米诺骨牌一样「连带完成」其他到期复习任务的练习来实现的。</p><p data-pid=\"yCaC74hy\"><b>提取练习 (retrieval practice)</b> – 参见<b>测试效应 (the testing effect)</b>。</p><p data-pid=\"Z6b4muzP\"><b>追溯性促进 (retroactive facilitation)</b> – 参见<b>促进作用 (facilitation)</b>。</p><p data-pid=\"U_HXR_Ng\"><b>认知脚手架 (scaffolding)</b> – 指为降低学习任务的认知负荷而向学生提供的支持性教学策略或辅助。</p><p data-pid=\"VVidt-YN\"><b>图式 (schema)</b> – 指个体知识的底层结构或认知框架。</p><p data-pid=\"QM2e6zKJ\"><b>感觉记忆 (sensory memory)</b> – 指暂时保存大量通过感官（视觉、听觉、味觉、嗅觉和触觉）感知的原始信息，但通常最多只能持续几秒钟。在此期间，相关的有用信息会被转移到<b>短期记忆 (short-term memory)</b> 中进行更复杂的加工处理。</p><p data-pid=\"dwNh2fCv\"><b>短期记忆 (short-term memory)</b> – 其信息容量远低于<b>感觉记忆 (sensory memory)</b>，但能够将信息储存的时间延长大约十倍。</p><p data-pid=\"JwrCb2EX\"><b>西格玛 (sigma)</b> – 参见<b>效应量 (effect size)</b>。</p><p data-pid=\"4_LPN36-\"><b>标准差 (standard deviation)</b> – 参见<b>效应量 (effect size)</b>。</p><p data-pid=\"Vi2yhEd3\"><b>间隔效应 (spacing effect)</b> – 当复习被分散或<b>分布</b>在多个时间段进行（而非一次性填鸭式地<b>集中</b>完成）时，记忆不仅能够得到恢复，而且能进一步被<b><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Memory_consolidation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">巩固</a></b>并转存到长期记忆中，从而有效减缓记忆的衰退速度。间隔效应的一个深远影响是：完成的复习次数越多（并且每次复习的间隔时间设置得当），记忆就能保持得越长久，下一次复习所需等待的时间也就可以相应延长。这一观察结果催生了一种系统性复习已学知识的方法，称为<b>间隔重复 (spaced repetition)</b>（或<b>分散练习 (distributed practice)</b>）。</p><p data-pid=\"QTDxW5qB\"><b>间隔重复（分散练习）(spaced repetition (distributed practice))</b> – 复习应被分散或<b>分布</b>在多个时间段进行（而不是被一次性填鸭式地<b>集中</b>完成），这样记忆不仅能够得到恢复，而且能进一步被巩固并转存到长期记忆中，从而有效减缓记忆的衰退速度。一次<b>重复 (repetition)</b> 指的是在恰当的时间点进行的一次成功的复习。</p><p data-pid=\"coGM79ta\"><b>间隔提取练习 (spaced retrieval practice)</b> – 一种效果显著的学习策略，它通过在复习环节采用测试（而非简单地重读参考资料）的方式，将间隔重复与提取练习有机地结合起来。</p><p data-pid=\"u0mCBNnt\"><b>学习速度 (speed of learning)</b> – 参见<b>学习速率 (learning rate)</b>。</p><p data-pid=\"XlxiGiEA\"><b>激活扩散 (spreading activation)</b> – 一种信息提取机制，指大脑利用信息间的相互连接，在接收到某个刺激后回忆起相关信息。其过程是：外部刺激激活了某些信息片段，然后这种激活状态会通过神经连接扩散到其他相关的信息片段。</p><p data-pid=\"2_Np0bEa\"><b>螺旋式课程 (spiral curriculum)</b> – 一种课程设计模式，其特点是学习材料会在后续教科书章节和/或更高年级中被自然地重复回顾，并在此基础上进行层层递进的拓展与深化。</p><p data-pid=\"R2YOYZgC\"><b>子目标标记法 (subgoal labeling)</b> – 指将解题步骤或学习过程分解为若干带标签的有意义单元的行为。子目标标记法能够帮助学生掌握问题的内在结构，从而使其学到的知识更容易迁移到同一类别的其他问题上；同时，它还能最大限度地减少学生需要在工作记忆中储存的信息<b>组块 (chunks)</b> 数量，进而降低认知负荷。</p><p data-pid=\"638oc6dt\"><b>补充性诊断评估 (supplemental diagnostic)</b> – 随着知识图谱中主题的增加及主题间关联性的修订，依据学生初次定位<b>诊断性评估 (diagnostic)</b> 结果推断出的其个人知识画像可能会变得不够准确。当这种情况发生时，我们会安排一些小规模的诊断测试，称为<b>补充性诊断评估</b>，用以将学生的知识画像更新至最新状态。亦可参见：<b>诊断性评估 (diagnostic)</b>。</p><p data-pid=\"8bd-cRVR\"><b>补充主题 (supplemental topic)</b> – 参见<b>核心主题 (core topic)</b>。</p><p data-pid=\"TdUITWL2\"><b>针对性补习 (targeted remediation)</b> – 在学术文献中，「针对性补习」一词通常指识别那些需要广泛补救干预（例如辅导、补习课程、与学术顾问会谈等）的个别学生。但在 Math Academy 的语境下，<b>针对性补习</b>特指那些针对个别学生<b>在特定主题上</b>所提供的全自动化的支持机制——并且往往能更精确地定位到导致该学生在某一主题上学习困难的那些具体技能组件。</p><p data-pid=\"cCO9Dbrp\"><b>测试效应（提取练习）(testing effect (retrieval practice))</b> – 为了在解决复习问题时最大限度地巩固并延长记忆，关键在于要尽量避免查阅参考资料，除非你完全卡壳，想不起如何继续。因此，在学习过程中本身就必须包含频繁的测试环节。</p><p data-pid=\"wo5a4Yry\"><b>主题 (topic)</b> – 参见<b>知识图谱</b> <b>(knowledge graph)</b> 和<b>知识点 (knowledge point)</b>。</p><p data-pid=\"yom0hIuB\"><b>公地悲剧 (tragedy of the commons)</b> – 指在缺乏促进集体利益的问责机制和激励措施时，人们会倾向于关注那些能使自身个体受益的行为，而较少顾及自身行为对整个群体造成的影响。其结果是，当一个群体共同负责维护和改善某项共享资源时，该资源通常会趋于退化。尽管部分个体可能会妥善照管资源，但他们通常无法或不愿去弥补那些不作为者所造成的缺失。</p><p data-pid=\"pJ6meAkd\"><b>两西格玛问题 (two-sigma problem)</b> – 1984年，教育心理学家本杰明·布鲁姆（Benjamin Bloom）发表了一项<a href=\"https://link.zhihu.com/?target=http%3A//web.mit.edu/5.95/readings/bloom-two-sigma.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">里程碑式的研究</a>，比较了一对一辅导与传统课堂教学的有效性。两者之间的差异是巨大的：接受辅导的普通学生的学习表现优于传统班级中 98% 的学生。这一发现引出了一个广为人知的挑战，即<b>布鲁姆的两西格玛问题</b>：我们能否开发出与一对一辅导效果相当的集体化教学方法？（「两西格玛」这一术语来源于统计学，在统计学中，干预措施的效果常常以标准差或<b>西格玛</b>为单位进行衡量。98% 的<b>效应量 (effect size)</b> 略高于两个西格玛。）</p><p data-pid=\"6WoELrVy\"><b>多样化练习 (varied practice)</b> —— 参阅<b>交错练习 (interleaving)</b>。</p><p data-pid=\"0jXVwodJ\"><b>解题示例</b> (<b>worked example</b>) —— 一个包含详细解题步骤的问题演示。另请参阅：<b>知识点</b> (<b>knowledge point</b>)。</p><p data-pid=\"ag3FCckx\"><b>工作记忆</b> (<b>working memory</b>) —— 指<b>短期记忆</b> (<b>short-term memory</b>) 以及对短期记忆中所存储信息进行组织、操控和一般性「加工处理」的能力。另请参阅：<b>认知负荷</b> (<b>cognitive load</b>)、<b>认知过载</b> (<b>cognitive overload</b>)、<b>变化窄限原则</b> (<b>narrow limits of change principle</b>) 和<b>复诵 (rehearsal)</b>。</p><p data-pid=\"lRe4wTT7\"><b>工作记忆容量</b> (<b>working memory capacity (WMC)</b>) —— 个体在工作记忆中能够同时保持和处理的信息的最大容量。研究表明，工作记忆容量存在个体差异，并影响着个体感知的努力程度、认知控制能力、思绪游移情况、<b>抽象</b> (<b>abstraction</b>) 能力、学习成果以及<b>学习速率</b> (<b>learning rate</b>)。另请参阅：<b>变化窄限原则</b> (<b>narrow limits of change principle</b>)。</p><p data-pid=\"2V1ymEWO\"><b>经验值 (XP (eXperience Points))</b> —— Math Academy 游戏化奖励系统中的「通行货币」。学生成功完成学习任务即可获得经验值（XP），其校准标准为：对于一名普通程度、态度认真（但并非完美无缺）的学生而言，1 经验值（XP）代表其 1 分钟全神贯注且高效的学习投入。</p><p data-pid=\"Jq47agau\"><b>最近发展区</b> (<b>zone of proximal development</b>) —— 指学生在他人辅助下能够完成，但凭借自身能力尚无法独立完成的任务范围。学生在此范围内完成任务时，能够最大限度地提升学习效果。</p><hr/><p data-pid=\"uYR9JhGy\">上一章：</p><a href=\"https://zhuanlan.zhihu.com/p/1905584303947101188\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">常见问题解答：其他</a><p data-pid=\"ggsMrRc0\">下一章：</p><a href=\"https://zhuanlan.zhihu.com/p/1938573912213549540\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">参考文献</a><hr/><blockquote data-pid=\"icM7vjSn\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 gemini-2.5-pro，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//docs.google.com/document/d/1LLZK_34Oer9LwuqAv-pqxfXlR8n7V8zJ_MO323R7egI/edit%3Ftab%3Dt.0%23heading%3Dh.447z8624tjpw\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Math Academy Way: Using the Power of Science to Supercharge Student Learning</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19571430",
+      "type": "topic",
+      "id": "19571430",
+      "name": "认知科学"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21670162",
+      "type": "topic",
+      "id": "21670162",
+      "name": "学习科学"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19627046",
+      "type": "topic",
+      "id": "19627046",
+      "name": "教育学"
+    }
+  ],
+  "voteup_count": 50,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "传统教育的失败，及有效数学教学技术的复兴。",
+    "is_following": false,
+    "url_token": "c_1858865163022786560",
+    "id": "c_1858865163022786560",
+    "articles_count": 56,
+    "accept_submission": false,
+    "title": "The Math Academy Way",
+    "url": "https://api.zhihu.com/columns/c_1858865163022786560",
+    "comment_permission": "all",
+    "created": 1735967991,
+    "updated": 1748246557,
+    "image_url": "https://pic1.zhimg.com/v2-b1651bba207f1c3370995962d00f5802_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 1639,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 2,
+  "contributions": [
+    {
+      "id": 52486803,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "传统教育的失败，及有效数学教学技术的复兴。",
+        "is_following": false,
+        "url_token": "c_1858865163022786560",
+        "id": "c_1858865163022786560",
+        "articles_count": 56,
+        "accept_submission": false,
+        "title": "The Math Academy Way",
+        "url": "https://api.zhihu.com/columns/c_1858865163022786560",
+        "comment_permission": "all",
+        "created": 1735967991,
+        "updated": 1748246557,
+        "image_url": "https://pic1.zhimg.com/v2-b1651bba207f1c3370995962d00f5802_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 1639,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 1938212378866087000,
-  "voteup_count": 47,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 104,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "术语表 - 来自知乎专栏「The Math Academy Way」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/1938212378866086830 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1754972235,
-  "url": "https://api.zhihu.com/articles/1938212378866086830",
-  "comment_permission": "all",
-  "title": "术语表",
-  "image_width": 2614,
-  "content": "<p data-pid=\"zYhwqIfo\"><b>抽象能力 (abstraction)</b> – 指能够透过具体案例洞察其底层规则（即通常所说的「以木见林」），而非仅仅记忆孤立的细节。掌握底层规则有助于将已有知识迁移应用到新的情境中。众所周知，个体间的抽象能力存在差异，并与<b>工作记忆容量 (working memory capacity)</b> 有关。</p><p data-pid=\"8zzLgD9I\"><b>抽象天花板 (abstraction ceiling)</b> – 指由于个体抽象能力有限，且更高阶的数学内容会变得愈发抽象和艰深，从而对个人能学习的数学内容的复杂度构成了实际限制。抽象上限并非一个「硬性」门槛（即达到某个水平就突然学不会了），而更像一个「软性」临界点：达到该点后，学习数学所需的时间和精力会开始急剧飙升，以至于继续学习更高级的数学内容实际上已不再是时间的有效利用。这个临界点因人而异。</p><p data-pid=\"rIiTAsXy\"><b>学业加速 (academic acceleration)</b> – 指允许学生在比通常年龄更小和/或以比通常更快的速度来学习学业内容的教育实践。</p><p data-pid=\"thyY8ObN\"><b>主动学习 (active learning)</b> – 指学生积极主动地参与学习练习，而非仅仅被动地接收教育信息的学习方式。最有效的主动学习技巧是<b>刻意练习 (deliberate practice)</b>。</p><p data-pid=\"vC-I1xpF\"><b>自动性</b> <b>(automaticity)</b> – 指无需投入有意识的努力即可执行基础技能的能力。技能自动化至关重要，因为它能释放有限的<b>工作记忆 (working memory)</b> 资源，使其能够同时处理多个基础技能，并对这些基础技能进行更高层次的思考与推理。当你对某项技能或某条信息达到自动化程度时，它便会储存在你的<b>长期记忆 (long-term memory)</b>中，在那里，无数信息可以被无限期地保存，且无需持续消耗认知资源。</p><p data-pid=\"ipwbBPbd\"><b>集中练习 (blocked practice (blocking</b> or <b>massed practice))</b> – 一种练习方式，指针对单一技能进行连续多次的重复练习。虽然在初学某项技能时，进行一定量的集中练习是有益的，但在后续的复习阶段，这种方式对于构建长期记忆而言效率非常<b>低效</b>。相关概念：<b>交错练习 (interleaving)</b>。</p><p data-pid=\"HSE8J3cO\"><b>类别归纳学习 (category induction learning)</b> – 指识别用以区分不同解题方法的问题类别的一般特征的能力。亦可参见：<b>区分学习 (discrimination learning)</b>。</p><p data-pid=\"lql4YD4g\"><b>组块 (chunk)</b> – 指一组连贯、有意义且相关的信息片段。</p><p data-pid=\"Fh8d_kJz\"><b>认知控制 (cognitive control)</b> – 参见<b>执行功能 (executive function)</b>。</p><p data-pid=\"rlq8yutR\"><b>认知负荷 (cognitive load)</b> – 指完成某项任务时所需要占用的<b>工作记忆 (working memory)</b> 资源量。</p><p data-pid=\"d8d5gAWC\"><b>认知过载 (cognitive overload)</b> – 指当某项任务的<b>认知负荷 (cognitive load)</b> 超出个体所能承受的<b>工作记忆 (working memory)</b> 上限时，导致其无法完成该任务的现象。</p><p data-pid=\"RKL7PooC\"><b>有条件完成 (conditional completion)</b> – 指如果系统根据评估证据，判断学生对某些知识点的掌握程度「勉强达标」并允许其跳过，那么这些知识点将被视为<b>有条件完成的</b>：系统最初会假设学生已掌握这些知识点并据此分配学习任务，但如果学生在后续学习中遇到困难，系统将立即沿着相应的学习路径进行「向后回溯」以补充学习。</p><p data-pid=\"oR65kYSU\"><b>记忆巩固 (consolidation)</b> – 指将新获取的信息存储到<b>长期记忆 (long-term memory)</b> 中的过程。</p><p data-pid=\"QbtPj1_-\"><b>核心主题 (core topics)</b> – 指在数学的整体知识体系（「宏观全局」）中最为重要的<b>主题</b>。例如，在微积分中，乘法法则属于<b>核心主题</b>，而介值定理则属于<b>补充主题 (supplemental topic)</b>。核心主题通常更频繁地作为数学中其他主题的前置知识出现。</p><p data-pid=\"y-6G07Bi\"><b>课程图谱 (course graph)</b> – 指<b>知识图谱</b> <b>(knowledge graph)</b> 的一种高度概括的压缩版本，其中图谱中的一个节点可能代表着数百个具体的知识点。重要的是要理解，任何一门课程本质上都只是知识图谱中若干知识点的集合。知识图谱是知识的最终真实表示；课程图谱则仅仅是对知识图谱高层结构的总结与信息传递，以便于人类理解。</p><p data-pid=\"vkFhm45D\"><b>刻意练习 (deliberate practice)</b> – 指为提升个体在特定方面的表现而精心挑选的、个性化的训练活动，通过不断重复和持续改进来达成目标。刻意练习与盲目重复截然相反，并且已被<a href=\"https://link.zhihu.com/?target=https%3A//graphics8.nytimes.com/images/blogs/freakonomics/pdf/DeliberatePractice%2524%2524PsychologicalReview%2524%2524.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">研究证明</a>，它是造成个体表现差异（即便在天赋异禀的顶尖人士中也是如此）的最突出的潜在因素之一。</p><p data-pid=\"6txIgZtp\"><b>合意难度 (desirable difficulty)</b> – 指一种能够增加任务难度，从而在一定程度上减缓即时学习速度，但却能有效提升长期记忆和知识迁移能力的练习条件。设置合意难度能使练习过程更贴近真实的评估情境。</p><p data-pid=\"YUFx75RX\"><b>诊断性评估 (diagnostic)</b> – 指一种利用<b>知识图谱</b> <b>(knowledge graph)</b> 来快速识别学生当前知识边界 (knowledge frontier) 的自适应测试。</p><p data-pid=\"0OnPiMrw\"><b>直接教学法 (direct instruction)</b> – 指明确地向学生传授知识的教学方法，而不是试图让学生通过无指导的活动来「自行构建知识」。</p><p data-pid=\"S1Rm2eOD\"><b>区分学习 (discrimination learning)</b> – 指将具体问题与相适应的解题技巧进行正确匹配的能力。例如，方程 x^2 + 3x + 2 = 0 和 x + 3x + 2 = 0 表面看起来相似，但其解题方法却截然不同。亦可参见：<b>类别归纳学习 (category induction learning)</b>。</p><p data-pid=\"264tx67a\"><b>分散练习 (distributed practice)</b> – 参见<b>间隔重复 (spaced repetition)</b>。</p><p data-pid=\"dwY779DE\"><b>双重编码理论 (dual-coding theory)</b> – 一种认知理论，认为人类大脑通过两个不同的通道处理信息：即言语通道和视觉通道。教学材料可以通过在这两个通道之间更均衡地分配认知负荷，来帮助学生避免<b>认知过载 (cognitive overload)</b>。</p><p data-pid=\"HvMsVpXM\"><b>艾宾浩斯 (Ebbinghaus)</b> – 因发现<b>间隔效应 (spacing effect)</b> 而闻名的心理学家。</p><p data-pid=\"rO3lCgML\"><b>掌握边界 (edge of mastery)</b> – 参见<b>知识边界 (knowledge frontier)</b>。</p><p data-pid=\"nkIx2uG1\"><b>效应量 (effect size)</b> – 当一组学生接受了某种旨在提升学习效果的教学干预后，效应量用于衡量其学习成果相对于未接受该干预的<b>对照组 (control group)</b> 的改善程度。具体而言，效应量是以标准差（也称为<b>西格玛</b><i>，σ</i>）为单位，衡量平均学习表现的提升幅度。例如，如果一项干预使平均考试成绩提高了20%，而考试成绩的标准差为10%，那么效应量就是 20% / 10% = 2 个西格玛。效应量也可以用百分位数来表示：2个西格玛的效应量意味着，接受干预的学生的平均学习水平超过了对照组中98%的学生。（若效应量为 1 个西格玛，对应的百分位数是84%。）</p><p data-pid=\"0j6fNIcE\"><b>编码 (encoding)</b> – 对大脑信息处理流程的一种解读，强调该流程会将来自外部世界的信息进行转换或「编码」，形成一种能够被存储到<b>长期记忆 (long-term memory)</b> 中并供日后提取的表征形式。</p><p data-pid=\"IRu3rJUd\"><b>包含 (encompassing)</b> – 指高级的数学问题会自然而然地练习或“包含”许多相对更简单的技能。通过运用能够识别并利用这些包含关系的复杂算法，我们能让学生将大部分时间投入到学习新知识上，同时确保他们以往学过的内容也能得到持续的练习。这能带来涡轮增压般的学习加速效果。</p><p data-pid=\"t2NOAotU\"><b>等效主题 (equivalent topic)</b> – 为了遵循课程标准，有时有必要在多个不同层级的课程中设置<b>等效主题</b>。其中，较高层级课程中的等效主题会以更深入、更高级的方式来处理在较低层级课程中已教授过的相同技能。</p><p data-pid=\"zdqjk7sl\"><b>执行功能（认知控制）(executive function (cognitive control))</b> – 对大脑信息处理流程的一种解读，强调该流程以<b>工作记忆 (working memory)</b> 为核心枢纽。工作记忆会从<b>感觉记忆 (sensory memory)</b> 和<b>长期记忆 (long-term memory)</b> 中提取相关信息，汇集到一个处理区域，在那里信息可以被整合、转换，并用于指导行为以达成特定目标。</p><p data-pid=\"FvEXCKlS\"><b>经验值 (eXperience Points)</b> – 参见 <b>XP</b>。</p><p data-pid=\"hrM626gx\"><b>专业知识逆转效应 (expertise reversal effect)</b> – 指那些对初学者学习效果最佳的教学技巧，对于专家而言学习效果反而最差，反之亦然的现象。</p><p data-pid=\"969Qejto\"><b>促进作用 (facilitation)</b> – 当一项新的学习任务能够运用到先前任务中学到的知识时，学习效果可以通过以下两种方式得到提升：</p><ul><li data-pid=\"6vMLrAc-\">（<b>追溯性促进 (Retroactive Facilitation)</b>）新任务能够像直接重复先前任务一样，将先前知识的记忆恢复到<a href=\"https://link.zhihu.com/?target=https%3A//psycnet.apa.org/record/1959-02050-001\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">同等程度</a>，从而实现<a href=\"https://link.zhihu.com/?target=https%3A//journals.sagepub.com/doi/abs/10.3102/00028312022003369\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">长期记忆保持</a>（Ausubel, Robbins, &amp; Blake, 1957; Arzi, Ben-Zvi, &amp; Ganiel, 1985）。</li><li data-pid=\"aCq7t_rA\">（<b>前摄性促进 (Proactive Facilitation)</b>）在先前任务中获取的知识能够<a href=\"https://link.zhihu.com/?target=https%3A//journals.sagepub.com/doi/abs/10.3102/00028312022003369\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">促进</a>与新任务特定相关的新知识的掌握（Arzi, Ben-Zvi, &amp; Ganiel, 1985）。</li></ul><p data-pid=\"6ECTRO-5\"><b>遗忘曲线 (forgetting curve)</b> – 一条表示记忆保持量随时间推移而衰退的曲线图。</p><p data-pid=\"Q4fENWSb\"><b>基础知识 (foundations (foundational knowledge))</b> – 指学生为了在当前所选课程中取得成功而必须掌握的、来自较低年级或更基础阶段的知识点（即，基础知识是该课程的先决条件）。</p><p data-pid=\"aSHzu0F8\"><b>部分隐式重复 (Fractional Implicit Repetition (FIRe))</b> – Math Academy 独创的新型间隔重复模型。它将传统的、适用于独立「抽认卡式」任务的间隔重复方法，推广到了高度关联的复杂知识体系中。在该模型下，对高级主题的重复练习应该能产生「涓滴效应」，向下影响并更新那些被间接练习到的、更基础主题的复习计划。</p><p data-pid=\"cgS2axlP\"><b>前沿 (frontier)</b> – 参见<b>知识边界 (knowledge frontier)</b>。</p><p data-pid=\"wGru6lYn\"><b>游戏化 (gamification)</b> – 当积分、排行榜等游戏化元素，以契合课程目标、学生动机以及具体教育情境的方式融入到学习环境中时，学生们通常不仅能学到更多知识、更积极地参与学习内容，而且也会更享受学习过程。然而，这些游戏化元素需要能够有效抵制那些试图利用游戏规则漏洞以绕过真正学习的「投机取巧」行为。</p><p data-pid=\"xiGB1zdY\"><b>成长型思维 (growth mindset)</b> – 一种认为个体当前知识水平并非「固定不变」或一成不变，而是可以通过练习来不断提升的信念。为了最大限度地促进学生的成长，有必要为每位学生提供足够的练习以使其达到精通程度，并在他们掌握了先决条件之后，立即允许他们学习更高级的技能。达到精通程度所需的练习量会因学生个体和具体技能的不同而有所差异。</p><p data-pid=\"IN8dPkLP\"><b>能力错觉/理解错觉 (illusion of competence / comprehension)</b> – 如果学生（及其老师）在练习过程中没有运用<b>合意困难 (desirable difficulties)</b> 的方法，他们就很容易严重高估自己对知识的掌握程度。</p><p data-pid=\"XKNyUGWu\"><b>归纳学习 (induction learning)</b> – 参见<b>类别归纳学习 (category induction learning)</b>。</p><p data-pid=\"QKodn-yA\"><b>（学习）干扰 (interference)</b> – 参见<b>避免干扰 (non-interference)</b>。</p><p data-pid=\"_i1PAozK\"><b>交错练习（多样化练习，混合练习）(interleaving (varied practice, mixed practice))</b> – 当对单一技能的连续练习超出了「最小有效剂量」后，练习的有效性便会降低。因此，复习题应该被分散或<i>交叉</i>安排在多个复习任务中，每个复习任务都应广泛涵盖多种先前学过的不同主题。这种做法除了能提高学习效率外，还有助于学生将具体问题与合适的解题方法相匹配（即<b>区分学习 (discrimination learning)</b>），并帮助他们识别那些能够区分需要不同解题技巧的各类问题的一般特征（即<b>类别归纳学习 (category induction learning)</b>）。</p><p data-pid=\"gxZe64ml\"><b>关键前置知识 (key prerequisite)</b> – 每一个<b>知识点 (knowledge point)</b> 都会关联一个或多个<b>关键前置知识</b>，这些关键先决知识点代表了在该知识点学习中最直接被运用到的基础知识。如果学生在同一个知识点相关的课程内容上连续两次未能通过，系统会自动为他们提供针对这些关键前置知识的补救性复习。这有助于学生在他们最需要加强的领域巩固基础，以便为下一次顺利通过课程做好更充分的准备。</p><p data-pid=\"gCw0y2wO\"><b>知识边界（掌握边界）(knowledge frontier (edge of mastery))</b> – 指学生已知知识与未知知识之间的边界，它标示了学生当前适合学习哪些新主题。在学生完成初次的<b>诊断性评估 (diagnostic)</b>之后，每当系统为学生推送新的课程内容时，这些内容总是涵盖其个人知识边界上的主题。亦可参见：<b>最近发展区 (zone of proximal development)</b>。</p><p data-pid=\"BAH8HPRi\"><b>知识图谱</b> <b>(knowledge graph)</b> – 以一种能够支持算法决策的方式来组织课程内容。它包含数千个相互关联的主题（知识点），主题之间的每一个链接都表明了它们之间的某种关系（例如，一个主题是另一个主题的前置知识）。知识图谱能够编码大量复杂的信息，这些信息若用其他方式则难以描述和进行逻辑推理。</p><p data-pid=\"MMBgWVbY\"><b>知识点 (knowledge point)</b> – 每一个主题（topic）都包含一节课程（lesson），而每节课程又被细分为若干个关键的学习单元，这些单元被称为<b>知识点</b>。每个知识点都包含一个详细的解题范例，并会围绕该范例提出类似问题供学生练习。知识点之间层层递进，旨在为学生搭建学习的脚手架，引导他们逐步完成课程学习：第一个知识点通常涵盖该课程最核心的基本概念或技能，后续的知识点则会循序渐进地引入更复杂的进阶内容。要证明对某个主题的掌握，学生必须在该课程的每一个连续知识点中，正确回答足够数量的问题（并且错误次数足够少）。一旦达到这个标准，更高级的主题便会对该学生开放，供其继续学习。</p><p data-pid=\"8E0vmba8\"><b>知识画像 (knowledge profile)</b> – 用于衡量学生在<b>知识图谱</b> <b>(knowledge graph)</b> 中各个主题上的掌握程度。通俗地讲，一个学生的知识概况反映了其数学思维能力的「发展」程度。每当他们学习一个新的数学主题时，就好比他们大脑中长出了一个新的「脑细胞」，并将其与已有的「脑细胞」连接起来。最初，这个新的「脑细胞」比较「脆弱」，需要频繁的「滋养」（复习），但随着时间的推移，它会变得「强壮」，所需的「照料」频率也会降低。亦可参见：<b>知识边界 (knowledge frontier)</b>。</p><p data-pid=\"kqGXg9d3\"><b>递进式学习 (layering)</b> – 学习的本质是建立知识之间的联系。一项知识与其他知识的联系越多，它就越根深蒂固、条理分明、理解深刻，也越容易被提取。增加知识联系的最有效方法是在已有知识的基础上不断叠加新知识——即持续学习新知识，同时运用和巩固已掌握的基础知识。</p><p data-pid=\"XmI_kSrD\"><b>段位 (league)</b> – 为了激励学生投入足够的学习量，我们设置了（可选的）<b>每周竞争排行榜 (competitive weekly leaderboards)</b>。在排行榜中，学生会与其他竞技水平相近的同学被分入不同的小组，即<b>段位 (leagues)</b>。如果一个学生在一周内获得了足够的经验值（XP），使其在周末结算时排名位于所在段位的前列，他们就能晋级到更高的段位。但如果他们在周末结算时排名位于所在段位的末尾，则会降级到更低的段位。</p><p data-pid=\"RHKrkkdS\"><b>学习 (learning)</b> – 指<b>长期记忆 (long-term memory)</b> 中发生的积极的、持久性的改变。从生理层面来看，学习涉及到在<b>神经元 (neurons)</b>（即「脑细胞」）之间建立起具有策略性的电生理连接，从而提升大脑执行特定任务的能力。</p><p data-pid=\"DDKfBete\"><b>学习效率 (learning efficiency)</b> – 指学生在课程学习中取得的进步与其所投入学习时间的比率。</p><p data-pid=\"XCUz3C-K\"><b>学习速率 (learning rate)</b> – 指个体在接触、接受指导以及练习某一特定任务的过程中，其执行该任务的能力得到提升的速度。众所周知，学习速率因人而异，并受到<b>工作记忆容量 (working memory capacity, WMC)</b> 的影响。</p><p data-pid=\"zkqSMJKd\"><b>长期记忆 (long-term memory)</b> – 以<b>神经元 (neurons)</b> 之间形成的策略性电生理连接为基础，能够毫不费力地、无限期地储存数量庞大的事实、经验、概念和程序性知识。这些神经连接会引发一种「多米诺骨牌效应」，即通过最初激活模式中极少数的神经元，便能自动激活整个相关的神经元网络模式。亦可参见：<b>（记忆）巩固 (consolidation)</b>。</p><p data-pid=\"jQcxgQOV\"><b>大量练习 (massed practice)</b> – 参见<b>集中练习 (blocked practice)</b>。</p><p data-pid=\"szzs7kNa\"><b>掌握（某个知识点或主题）(mastery)</b> – 要证明对某一主题的<b>掌握</b>，学生必须在该课程的每一个连续的<b>知识点 (knowledge point)</b> 中，正确回答足够数量的问题（并且错误次数足够少）。一旦达到这个标准，更高级的主题便会对该学生开放，供其继续学习。</p><p data-pid=\"JgYB-doE\"><b>掌握下限 (mastery floor)</b> – 指那些对于任何修读某一特定课程的学生而言，都被系统自动认定为已经掌握的、来自较低层级课程的知识点。</p><p data-pid=\"w1iI2qXM\"><b>精熟学习 (mastery learning)</b> – 其核心在于，每一位学生在进入更高级主题的学习之前，都必须先证明其对相关的前置主题已达到熟练掌握的程度。在完全精细化的层面上实现真正的掌握学习，则需要完全个性化的教学，而这通常只有通过一对一辅导才可能达成。</p><p data-pid=\"YM7s5vN0\"><b>数学基础 (MF) 系列课程 (Mathematical Foundations (MF) sequence)</b> – 一套精简的系列课程，内容涵盖从初等数学到微积分的知识，但剔除了大约三分之一对于大学数学而言并非真正必要的前置知识。</p><p data-pid=\"Egj2QBpq\"><b>混合练习 (mixed practice)</b> – 参见<b>交错练习 (interleaving)</b>。</p><p data-pid=\"wEdtkPXa\"><b>变化窄限原则 (narrow limits of change principle)</b> – 指<b>工作记忆 (working memory)</b> 在处理新信息时所表现出的显著局限性。大多数人通常只能同时记住大约 7 个数字（或者更广义地说，大约 4 个由相关项目组成的<b>信息组块 (chunks)</b>），并且这种记忆通常只能维持大约 20 秒。而且，这还是在不需要对这些信息进行任何心智加工（mental manipulation）的前提下——如果需要进行加工，那么由于有限的认知处理资源的竞争，能够记住的信息数量还会进一步减少。</p><p data-pid=\"05XXrOmh\"><b>神经迷思 (neuromyth)</b> – 指一种关于大脑的普遍存在但科学上并不准确的错误观念。神经迷思通常表现为对某一精细复杂的科学发现进行过度简化、错误解读和/或不当应用。其中流传最广——同时也是被证伪最彻底——的神经迷思之一便是：人们在以其偏好的「学习风格」接收信息时，学习效果会更好。</p><p data-pid=\"vshKt60k\"><b>神经元 (neuron)</b> – 一种通过电活动传递信息的细胞。大脑是一个由大约 1000 亿个神经元构成的庞大网络，这些神经元之间通过超过 100 万亿个连接「编织」在一起。</p><p data-pid=\"hVARGQOR\"><b>非祖先包含关系 (non-ancestor encompassing)</b> – 尽管某些基础的<b>等效主题 (equivalent topics)</b> 可能不会通过<b>直接前置知识 (direct prerequisite)</b> 或<b>关键前置知识 (key prerequisite)</b> 的路径成为高阶等效主题的「祖先」（即直接前置），但我们依然可以在它们之间设定完全涵盖的关联权重。这样，当学生完成一个高阶主题时，他们也将同时因隐式练习而获得对任何更简单等效主题的掌握认证。这些关联被称为<b>非祖先包含关系</b>。亦可参见：<b>包含 (encompassing)</b>。</p><p data-pid=\"1ywULVOc\"><b>避免干扰 (non-interference)</b> – 指概念上相关的不同知识片段应在学习时间上有所间隔，以减少它们在被回忆时可能产生的相互干扰。新的概念应该与内容上不相似的材料一同进行教学。</p><p data-pid=\"3Aw5s1qT\"><b>速度 (pace)</b> – 指学生（通常以平均每个工作日计）完成的经验值（XP）数量。</p><p data-pid=\"GmbCERyz\"><b>部分包含 (partial encompassing)</b> – 一种<b>包含关系 (encompassing)</b>，指在学习较高级主题时，只有一个较简单主题的部分内容得到了隐式练习。部分包含关系在更高阶的数学学习中更为常见。</p><p data-pid=\"LE1Xk4Dd\"><b>定位测试 (placement)</b> – 参见<b>诊断性评估 (diagnostic)</b>。</p><p data-pid=\"_AkDCYRh\"><b>前摄性促进 (proactive facilitation)</b> – 参见<b>促进作用 (facilitation)</b>。</p><p data-pid=\"qZ0t8dU-\"><b>激进建构主义 (radical constructivism)</b> – 一种哲学观点，认为知识并非反映一种「客观的」本体论实在，而仅仅是我们通过自身经验所构建起来的世界的一种排序和组织方式。</p><p data-pid=\"VTMDxLHV\"><b>再巩固 (reconsolidation)</b> – 指更新那些已经被<b>巩固 (consolidated)</b> 并存入<b>长期记忆 (long-term memory)</b> 中的信息的过程。</p><p data-pid=\"brUXeanu\"><b>记忆复诵 (rehearsal)</b> – 指激活特定的神经模式并持续维持其同步激活状态的过程，大脑借此将信息保持在<b>工作记忆 (working memory)</b> 中。</p><p data-pid=\"Fru8_-bl\"><b>重复 (repetition)</b> – 参见<b>间隔重复 (spaced repetition)</b>。</p><p data-pid=\"yYH59qoe\"><b>重复压缩 (repetition compression)</b> – 每当学生有到期复习任务时，Math Academy 能将这些任务压缩成一个更精简的学习任务组合，这个组合能够隐性地涵盖（即提供重复练习机会）所有到期的复习内容。这是通过精心选择那些其隐式重复能够像推倒多米诺骨牌一样「连带完成」其他到期复习任务的练习来实现的。</p><p data-pid=\"yCaC74hy\"><b>提取练习 (retrieval practice)</b> – 参见<b>测试效应 (the testing effect)</b>。</p><p data-pid=\"Z6b4muzP\"><b>追溯性促进 (retroactive facilitation)</b> – 参见<b>促进作用 (facilitation)</b>。</p><p data-pid=\"U_HXR_Ng\"><b>认知脚手架 (scaffolding)</b> – 指为降低学习任务的认知负荷而向学生提供的支持性教学策略或辅助。</p><p data-pid=\"VVidt-YN\"><b>图式 (schema)</b> – 指个体知识的底层结构或认知框架。</p><p data-pid=\"QM2e6zKJ\"><b>感觉记忆 (sensory memory)</b> – 指暂时保存大量通过感官（视觉、听觉、味觉、嗅觉和触觉）感知的原始信息，但通常最多只能持续几秒钟。在此期间，相关的有用信息会被转移到<b>短期记忆 (short-term memory)</b> 中进行更复杂的加工处理。</p><p data-pid=\"dwNh2fCv\"><b>短期记忆 (short-term memory)</b> – 其信息容量远低于<b>感觉记忆 (sensory memory)</b>，但能够将信息储存的时间延长大约十倍。</p><p data-pid=\"JwrCb2EX\"><b>西格玛 (sigma)</b> – 参见<b>效应量 (effect size)</b>。</p><p data-pid=\"4_LPN36-\"><b>标准差 (standard deviation)</b> – 参见<b>效应量 (effect size)</b>。</p><p data-pid=\"Vi2yhEd3\"><b>间隔效应 (spacing effect)</b> – 当复习被分散或<b>分布</b>在多个时间段进行（而非一次性填鸭式地<b>集中</b>完成）时，记忆不仅能够得到恢复，而且能进一步被<b><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Memory_consolidation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">巩固</a></b>并转存到长期记忆中，从而有效减缓记忆的衰退速度。间隔效应的一个深远影响是：完成的复习次数越多（并且每次复习的间隔时间设置得当），记忆就能保持得越长久，下一次复习所需等待的时间也就可以相应延长。这一观察结果催生了一种系统性复习已学知识的方法，称为<b>间隔重复 (spaced repetition)</b>（或<b>分散练习 (distributed practice)</b>）。</p><p data-pid=\"QTDxW5qB\"><b>间隔重复（分散练习）(spaced repetition (distributed practice))</b> – 复习应被分散或<b>分布</b>在多个时间段进行（而不是被一次性填鸭式地<b>集中</b>完成），这样记忆不仅能够得到恢复，而且能进一步被巩固并转存到长期记忆中，从而有效减缓记忆的衰退速度。一次<b>重复 (repetition)</b> 指的是在恰当的时间点进行的一次成功的复习。</p><p data-pid=\"coGM79ta\"><b>间隔提取练习 (spaced retrieval practice)</b> – 一种效果显著的学习策略，它通过在复习环节采用测试（而非简单地重读参考资料）的方式，将间隔重复与提取练习有机地结合起来。</p><p data-pid=\"u0mCBNnt\"><b>学习速度 (speed of learning)</b> – 参见<b>学习速率 (learning rate)</b>。</p><p data-pid=\"XlxiGiEA\"><b>激活扩散 (spreading activation)</b> – 一种信息提取机制，指大脑利用信息间的相互连接，在接收到某个刺激后回忆起相关信息。其过程是：外部刺激激活了某些信息片段，然后这种激活状态会通过神经连接扩散到其他相关的信息片段。</p><p data-pid=\"2_Np0bEa\"><b>螺旋式课程 (spiral curriculum)</b> – 一种课程设计模式，其特点是学习材料会在后续教科书章节和/或更高年级中被自然地重复回顾，并在此基础上进行层层递进的拓展与深化。</p><p data-pid=\"R2YOYZgC\"><b>子目标标记法 (subgoal labeling)</b> – 指将解题步骤或学习过程分解为若干带标签的有意义单元的行为。子目标标记法能够帮助学生掌握问题的内在结构，从而使其学到的知识更容易迁移到同一类别的其他问题上；同时，它还能最大限度地减少学生需要在工作记忆中储存的信息<b>组块 (chunks)</b> 数量，进而降低认知负荷。</p><p data-pid=\"638oc6dt\"><b>补充性诊断评估 (supplemental diagnostic)</b> – 随着知识图谱中主题的增加及主题间关联性的修订，依据学生初次定位<b>诊断性评估 (diagnostic)</b> 结果推断出的其个人知识画像可能会变得不够准确。当这种情况发生时，我们会安排一些小规模的诊断测试，称为<b>补充性诊断评估</b>，用以将学生的知识画像更新至最新状态。亦可参见：<b>诊断性评估 (diagnostic)</b>。</p><p data-pid=\"8bd-cRVR\"><b>补充主题 (supplemental topic)</b> – 参见<b>核心主题 (core topic)</b>。</p><p data-pid=\"TdUITWL2\"><b>针对性补习 (targeted remediation)</b> – 在学术文献中，「针对性补习」一词通常指识别那些需要广泛补救干预（例如辅导、补习课程、与学术顾问会谈等）的个别学生。但在 Math Academy 的语境下，<b>针对性补习</b>特指那些针对个别学生<b>在特定主题上</b>所提供的全自动化的支持机制——并且往往能更精确地定位到导致该学生在某一主题上学习困难的那些具体技能组件。</p><p data-pid=\"cCO9Dbrp\"><b>测试效应（提取练习）(testing effect (retrieval practice))</b> – 为了在解决复习问题时最大限度地巩固并延长记忆，关键在于要尽量避免查阅参考资料，除非你完全卡壳，想不起如何继续。因此，在学习过程中本身就必须包含频繁的测试环节。</p><p data-pid=\"wo5a4Yry\"><b>主题 (topic)</b> – 参见<b>知识图谱</b> <b>(knowledge graph)</b> 和<b>知识点 (knowledge point)</b>。</p><p data-pid=\"yom0hIuB\"><b>公地悲剧 (tragedy of the commons)</b> – 指在缺乏促进集体利益的问责机制和激励措施时，人们会倾向于关注那些能使自身个体受益的行为，而较少顾及自身行为对整个群体造成的影响。其结果是，当一个群体共同负责维护和改善某项共享资源时，该资源通常会趋于退化。尽管部分个体可能会妥善照管资源，但他们通常无法或不愿去弥补那些不作为者所造成的缺失。</p><p data-pid=\"pJ6meAkd\"><b>两西格玛问题 (two-sigma problem)</b> – 1984年，教育心理学家本杰明·布鲁姆（Benjamin Bloom）发表了一项<a href=\"https://link.zhihu.com/?target=http%3A//web.mit.edu/5.95/readings/bloom-two-sigma.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">里程碑式的研究</a>，比较了一对一辅导与传统课堂教学的有效性。两者之间的差异是巨大的：接受辅导的普通学生的学习表现优于传统班级中 98% 的学生。这一发现引出了一个广为人知的挑战，即<b>布鲁姆的两西格玛问题</b>：我们能否开发出与一对一辅导效果相当的集体化教学方法？（「两西格玛」这一术语来源于统计学，在统计学中，干预措施的效果常常以标准差或<b>西格玛</b>为单位进行衡量。98% 的<b>效应量 (effect size)</b> 略高于两个西格玛。）</p><p data-pid=\"6WoELrVy\"><b>多样化练习 (varied practice)</b> —— 参阅<b>交错练习 (interleaving)</b>。</p><p data-pid=\"0jXVwodJ\"><b>解题示例</b> (<b>worked example</b>) —— 一个包含详细解题步骤的问题演示。另请参阅：<b>知识点</b> (<b>knowledge point</b>)。</p><p data-pid=\"ag3FCckx\"><b>工作记忆</b> (<b>working memory</b>) —— 指<b>短期记忆</b> (<b>short-term memory</b>) 以及对短期记忆中所存储信息进行组织、操控和一般性「加工处理」的能力。另请参阅：<b>认知负荷</b> (<b>cognitive load</b>)、<b>认知过载</b> (<b>cognitive overload</b>)、<b>变化窄限原则</b> (<b>narrow limits of change principle</b>) 和<b>复诵 (rehearsal)</b>。</p><p data-pid=\"lRe4wTT7\"><b>工作记忆容量</b> (<b>working memory capacity (WMC)</b>) —— 个体在工作记忆中能够同时保持和处理的信息的最大容量。研究表明，工作记忆容量存在个体差异，并影响着个体感知的努力程度、认知控制能力、思绪游移情况、<b>抽象</b> (<b>abstraction</b>) 能力、学习成果以及<b>学习速率</b> (<b>learning rate</b>)。另请参阅：<b>变化窄限原则</b> (<b>narrow limits of change principle</b>)。</p><p data-pid=\"2V1ymEWO\"><b>经验值 (XP (eXperience Points))</b> —— Math Academy 游戏化奖励系统中的「通行货币」。学生成功完成学习任务即可获得经验值（XP），其校准标准为：对于一名普通程度、态度认真（但并非完美无缺）的学生而言，1 经验值（XP）代表其 1 分钟全神贯注且高效的学习投入。</p><p data-pid=\"Jq47agau\"><b>最近发展区</b> (<b>zone of proximal development</b>) —— 指学生在他人辅助下能够完成，但凭借自身能力尚无法独立完成的任务范围。学生在此范围内完成任务时，能够最大限度地提升学习效果。</p><hr/><p data-pid=\"uYR9JhGy\">上一章：</p><a href=\"https://zhuanlan.zhihu.com/p/1905584303947101188\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">常见问题解答：其他</a><p data-pid=\"ggsMrRc0\">下一章：</p><a href=\"https://zhuanlan.zhihu.com/p/1938573912213549540\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">参考文献</a><hr/><blockquote data-pid=\"icM7vjSn\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 gemini-2.5-pro，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//docs.google.com/document/d/1LLZK_34Oer9LwuqAv-pqxfXlR8n7V8zJ_MO323R7egI/edit%3Ftab%3Dt.0%23heading%3Dh.447z8624tjpw\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Math Academy Way: Using the Power of Science to Supercharge Student Learning</a></blockquote>",
-  "column": {
-    "updated": 1748246557,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/c_1858865163022786560",
-    "title": "The Math Academy Way",
-    "image_url": "https://pica.zhimg.com/v2-b1651bba207f1c3370995962d00f5802_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1858865163022786560"
-  },
-  "comment_count": 2,
-  "image_url": "https://picx.zhimg.com/v2-b02c392f9b929f88b1a5f78f7bfa5af2_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 1,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 1,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyNjE1Mzk2OTMSEzE5MzgyMTIzNzg4NjYwODY4MzAYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 50,
+      "down_vote_count": 1,
+      "like_count": 1,
+      "comment_count": 2,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 104,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-b02c392f9b929f88b1a5f78f7bfa5af2": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-b02c392f9b929f88b1a5f78f7bfa5af2": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-b02c392f9b929f88b1a5f78f7bfa5af2": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "3 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/31671651034?contentId=1938212378866086830&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · The Math Academy Way",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1858865163022786560",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · The Math Academy Way"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

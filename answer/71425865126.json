@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -16,7 +17,7 @@
           "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
@@ -39,8 +40,8 @@
           "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -83,7 +84,7 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
@@ -99,11 +100,22 @@
   "content_need_truncated": false,
   "created_time": 1735976980,
   "excerpt": "有很多原因，最近看了一篇文章 [1]，其论点比较有意思：在推动创新的过程中，心理障碍的重要性可能不亚于人均财富或和平等因素。而「进步的观念」或「改进的态度」在 18 世纪的英国得到了大肆宣传，让很多人做好了心理准备，对传统的做法提出质疑，去追求进步，从而极大地推动了创新。其中，边缘化群体（宗教异议者、移民等）和一些高度有效的小规模团体也发挥了重要作用，同时影响了贵族阶层的加入，让进步和创新思想得到广泛传…",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "71425865126",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
     "https://zhuanlan.zhihu.com/p/15504680631": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"创新的起源：Bakewell 与育种技术\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/15504680631\",\"desc\":\"22 赞同 · 0 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eJarrett Ye:\\u003c/a\\u003e 本文评述了 Russell 1986 年的著作《同类生同类：早期现代英国的遗传学与动物育种》，阐述了选择性育种的发展历程，并探讨了创新的心理学和社会学模型。 指数选择育种 ，历史 ，启发性知识 ，技术社会学 2018-10-28–2023-12-14 ；已完成 ；可信度 ：较高 ；重要性 ：6 ；反向链接 ；⁠参考文献 如同任何其他事物一样，「育种」的概念也必须被 发明出来。关于性状的遗传，即它在很大程度上受到父母双方的共同影响，并且存在相当的随…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-90e066f66a08fbfbc02a01ab310602fd_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"15504680631\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/7812032638?contentId=71425865126&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1634776913,
@@ -114,11 +126,13 @@
     "title": "英国是个岛国，和外界联络很困难，为什么产生了工业革命，并且出现了那么多科学发明？",
     "type": "question",
     "updated_time": 1735985803,
-    "url": "https://api.zhihu.com/questions/493616989"
+    "url": "https://www.zhihu.com/api/v4/questions/493616989"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1735976980,
+  "url": "https://www.zhihu.com/api/v4/answers/71425865126",
   "voteup_count": 53
 }

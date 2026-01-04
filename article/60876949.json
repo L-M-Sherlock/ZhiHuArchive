@@ -1,80 +1,461 @@
 {
-  "status": 0,
+  "id": "60876949",
+  "title": "基于 GitHub 的 Anki 牌组制作协作介绍",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/60876949",
+  "image_url": "https://picx.zhimg.com/v2-e62ab39e31741e6acb457b3c58516bd8_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-e62ab39e31741e6acb457b3c58516bd8_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://pic1.zhimg.com/v2-d6f576e57c5442097988de4d67c2d558_200x112.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1029\" data-watermark=\"watermark\" data-original-src=\"v2-d6f576e57c5442097988de4d67c2d558\" data-watermark-src=\"v2-2f96a3aeb74f9ed949e2c6786ff17030\" data-private-watermark-src=\"\" class=\"origin_image inline-img zh-lightbox-thumb\" data-original=\"https://pic1.zhimg.com/v2-d6f576e57c5442097988de4d67c2d558_r.png\"/>已收录于<a href=\"https://zhuanlan.zhihu.com/p/57637220\" class=\"internal\" target=\"_blank\">「一周年」专栏整理</a>GitHub Anki 插件项目地址： <a href=\"https://link.zhihu.com/?target=https%3A//github.com/Stvad/CrowdAnki\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Stvad/CrowdAnki</a> CrowdAnki 插件下载代码及地址： <a href=\"https://link.zhihu.com/?target=https%3A//ankiweb.net/shared/info/1788670778\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">1788670778</a> 示范牌组仓库地址： <a href=\"https://link.zhihu.com/?target=https%3A//github.com/L-M-Sherlock/Ankigaokao-ScienceComprehensive-Biology-MoleculesAndCells\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">L-M-Sherlock/Ankigaokao-ScienceComprehensive-Biology-MoleculesAndCells</a>协作流程介绍(翻译自README)<b>如何通过 Git…</b>",
+  "created": 1553920396,
   "updated": 1554716681,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://pica.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://pica.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "已收录于「一周年」专栏整理 GitHub Anki 插件项目地址：Stvad/CrowdAnki CrowdAnki …",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 1536,
+  "image_height": 699,
+  "content": "<blockquote data-pid=\"l59WaloL\">已收录于<a href=\"https://zhuanlan.zhihu.com/p/57637220\" class=\"internal\" target=\"_blank\">「一周年」专栏整理</a></blockquote><p data-pid=\"qKsqEk1u\">GitHub Anki 插件项目地址：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/Stvad/CrowdAnki\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Stvad/CrowdAnki</a> </p><p data-pid=\"bv7aLTYr\">CrowdAnki 插件下载代码及地址：<a href=\"https://link.zhihu.com/?target=https%3A//ankiweb.net/shared/info/1788670778\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">1788670778</a> </p><p data-pid=\"mTHrVffT\">示范牌组仓库地址：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/L-M-Sherlock/Ankigaokao-ScienceComprehensive-Biology-MoleculesAndCells\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">L-M-Sherlock/Ankigaokao-ScienceComprehensive-Biology-MoleculesAndCells</a></p><h2>协作流程介绍(翻译自README)</h2><h2><b>如何通过 GitHub 进行协作</b></h2><p data-pid=\"GTvIczJr\">本节说明使用 GitHub 的协作工作流程。</p><p data-pid=\"7iGkCf5D\">假设你有一个名为牌组X的牌组，并且你想与其它人协作改进它。为了实现这一目标，你需要：</p><ol><li data-pid=\"8yb_saHt\">导出牌组X。你可以在 Anki 上：文件&gt;导出&gt;导出格式：CrowdAnki Json Representation (*directory)、包含：牌组X</li><li data-pid=\"5HjtnpQm\">为你自己创建一个 GitHub 账号，并请你的协作者们也这么做 (参见：<u><a href=\"https://link.zhihu.com/?target=https%3A//github.com/join\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/join</span><span class=\"invisible\"></span></a></u>)。</li><li data-pid=\"R7rmeFfS\">根据这个<u><a href=\"https://link.zhihu.com/?target=https%3A//guides.github.com/activities/hello-world/%23repository\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">指南</a></u>为你的牌组创建仓库。仓库的名称必须与牌组导出时创建的目录的名称相对应。在本案例下，仓库应该被命名为牌组X。(译者注：其实没必要两者名称相同，况且中文无法作为仓库名)</li><li data-pid=\"29lrbK5L\">为这个仓库添加协作者：<u><a href=\"https://link.zhihu.com/?target=https%3A//help.github.com/articles/inviting-collaborators-to-a-personal-repository/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">help.github.com/article</span><span class=\"invisible\">s/inviting-collaborators-to-a-personal-repository/</span><span class=\"ellipsis\"></span></a></u>。</li></ol><h3><b>图形界面工作流程</b></h3><p data-pid=\"Boehpwpp\"><b>前言</b>：</p><p data-pid=\"oJy7Hc_M\">我的目标是提供一个便于用户理解的协作工作流程描述。为了做到这一点，我试了很多图形界面的 Git 客户端。为了我们的目的，我认为 <b>GitHub Desktop</b> 是最好的选择(作为对用户最为友好的客户端)。但是 GitHub Desktop 存在一个问题—— 它没有 Linux 版本。这令我特别难过，因为我主要使用 Linux 作为我的操作系统。我曾考虑过在本教程中使用 Gitkraken ，但是它存在一些问题而不符合我们的目的。(但如果你是 Linux 用户或者由于某种原因你不喜欢 GitHub Desktop  —— 你仍可以考虑使用它)</p><h3>协作准备</h3><ol><li data-pid=\"v_1aurFL\">在电脑上安装 <u><a href=\"https://link.zhihu.com/?target=https%3A//desktop.github.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Github Desktop</a></u> 。</li><li data-pid=\"QLF9JAkE\">登录之前你创建的 GitHub 账号。</li><li data-pid=\"X373MR-A\">创建一个新仓库：File&gt;Create a new repository. &#34;Local path&#34; 应该指向你导出牌组的地方，&#34;repository name&#34;应该与导出的文件夹名称相同。(译者注：考虑到中文不能作为仓库名，大家可以参考我的项目：<u><a href=\"https://link.zhihu.com/?target=https%3A//github.com/L-M-Sherlock/Ankigaokao-ScienceComprehensive-Biology-MoleculesAndCells\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">L-M-Sherlock/Ankigaokao-ScienceComprehensive-Biology-MoleculesAndCells</a></u>，先用 GitHub Desktop 在任意文件夹创建一个仓库，仓库名为英文，然后把导出的文件夹中的 media 文件夹和牌组X.json 文件移至该仓库，即与 .git 文件夹和 .gitattributes 文件同目录。) </li></ol><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-2f96a3aeb74f9ed949e2c6786ff17030_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1029\" data-original-token=\"v2-d6f576e57c5442097988de4d67c2d558\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic3.zhimg.com/v2-2f96a3aeb74f9ed949e2c6786ff17030_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><ol><li data-pid=\"UZ9nr7a7\">将你的目录下的内容添加至仓库，通过选中所有文件，添加一些评论在评论区并点击 &#34;Commit to <b>master</b>&#34; 。 </li></ol><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-cbc265fad6fccd9ce45a9adf5e86ffab_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1030\" data-original-token=\"v2-7c4e3dd0807d5a7cb2f1e759f39b3b39\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic4.zhimg.com/v2-cbc265fad6fccd9ce45a9adf5e86ffab_r.jpg\"/></figure><ol><li data-pid=\"nRIYI3VG\">点击 &#34;Publish repository&#34; 将你刚才做的更改上传到 GitHub 。在本案例，你不需要提前在 GitHub 上创建仓库，GitHub Desktop 将帮你自动完成。(译者注： GitHub Desktop 更新后默认将仓库设为私有，需要在 Publish repository 界面将 Keep this code private 这个勾选去掉) </li></ol><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-e3f83d9340215623d8bd7ed2684834b8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1030\" data-original-token=\"v2-1496f9684401e9c2a3bada9d33e2f8c7\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pica.zhimg.com/v2-e3f83d9340215623d8bd7ed2684834b8_r.jpg\"/></figure><h3>为了开始在此牌组工作，你的协作者需要：</h3><ol><li data-pid=\"uPMCLh0B\">在他们的电脑安装 <u><a href=\"https://link.zhihu.com/?target=https%3A//desktop.github.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Github Desktop</a></u> 。</li><li data-pid=\"78LFMlGm\">克隆你已经创建的仓库。他们可以通过在 GitHub 仓库页面点击 &#34;Clone or download -&gt; Open in Desktop&#34; 做到这一点。 </li></ol><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-2c43b85f34615dee4ceab026bfb543a9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1028\" data-original-token=\"v2-8e727bf5760a8dd7fd1410b6887f0dbc\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic2.zhimg.com/v2-2c43b85f34615dee4ceab026bfb543a9_r.jpg\"/></figure><ol><li data-pid=\"fMozOc65\"><u><a href=\"https://zhuanlan.zhihu.com/p/60876949/edit#%E5%AF%BC%E5%85%A5\" class=\"internal\" target=\"_blank\">导入牌组</a></u>.</li></ol><p data-pid=\"kwUj3pJc\">如果有些人<b>只是想使用</b>你在 GitHub 上上传的<b>牌组</b>，他们可以<u><a href=\"https://zhuanlan.zhihu.com/p/60876949/edit\" class=\"internal\" target=\"_blank\">直接从仓库导入牌组</a></u>。</p><h3>如何上传更改</h3><p data-pid=\"B4efl5J1\">当你或你的一个协作者想将你们做出的更改上传到 GitHub 时，你们需要：</p><ol><li data-pid=\"QWN89Y2L\">通过点击 &#34;Fetch Origin&#34; 从 GitHub 获取其他人的提交历史，如果有新的更改，则可以点击 &#34;Pull Origin&#34; 获取最新的更改。 </li></ol><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-a310cfe1a34f9da241c9ca2e163787ca_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1003\" data-original-token=\"v2-49e9396be61c0d0892d6bc2d30dedcb8\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic3.zhimg.com/v2-a310cfe1a34f9da241c9ca2e163787ca_r.jpg\"/></figure><ol><li data-pid=\"H4amNxUW\">为了合并你和其他人做出的更改，请<u><a href=\"https://zhuanlan.zhihu.com/p/60876949/edit#%E5%AF%BC%E5%85%A5\" class=\"internal\" target=\"_blank\">导入牌组</a></u>。</li><li data-pid=\"AAsi5Y9w\">导出牌组到你仓库的本地目录，然后导出将覆盖 media 文件夹和 json 文件。(替代选项是，你可以将牌组导出到其他地方，然后将 media 文件夹和 json 文件复制到仓库目录下，然后选择合并同名文件夹，替换已存在的文件。)</li><li data-pid=\"L6wzcdI0\">在评论区添加 comment ，点击 &#34;Commit to master&#34; 上传你做出的更改。 </li></ol><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-fa60cc8348938dc268dabeef51504d92_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1028\" data-original-token=\"v2-60996eeb09e40fc07362aa291133c619\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pica.zhimg.com/v2-fa60cc8348938dc268dabeef51504d92_r.jpg\"/></figure><ol><li data-pid=\"uU_v10KT\">点击 &#34;Push Origin&#34; 上传你做出的更改到 GitHub 。</li></ol><p data-pid=\"z6sARRwg\">如果你只想<b>获取别人做出的最新更改</b>，你只需要执行第一步和第二步。</p><h3><b>命令行工作流程</b></h3><h3>协作准备</h3><ol><li data-pid=\"XpR7p6TJ\">在你的电脑上安装 git 。</li></ol><p data-pid=\"s1UQJNUy\">2. 到导出的目录。</p><p data-pid=\"SM6NdlVO\">3. 用下面的命令初始化仓库：</p><div class=\"highlight\"><pre><code class=\"language-text\"> git init\n git remote add origin git@github.com:&lt;username&gt;/&lt;repository&gt;.git</code></pre></div><p data-pid=\"PtKC1cOo\">&lt;username&gt; 是你的 GitHub 用户名 (我的是 Stvad) ， &lt;repository&gt; 是仓库的名字 (DeckX)。 所以本案例中的命令应该是：</p><div class=\"highlight\"><pre><code class=\"language-text\"> git remote add origin git@github.com:Stvad/DeckX.git</code></pre></div><p data-pid=\"F912f_-4\">4. 添加目录下的所有内容到仓库：</p><div class=\"highlight\"><pre><code class=\"language-text\"> git add *\n git commit -m &#34;initial export&#34;</code></pre></div><p data-pid=\"d0yjnc5M\">5. 上传你做出的更改到 GitHub：</p><div class=\"highlight\"><pre><code class=\"language-text\"> git push origin master</code></pre></div><h3>为了开始在此牌组工作，你的协作者需要：</h3><ol><li data-pid=\"DpxgDz48\">在他们的电脑室安装 git</li></ol><p data-pid=\"xr_ZwWjn\">2. 克隆你创建好的仓库：</p><div class=\"highlight\"><pre><code class=\"language-text\"> git clone https://github.com/Stvad/DeckX.git</code></pre></div><p data-pid=\"ZUTD7Xl5\"><u>3. <a href=\"https://zhuanlan.zhihu.com/p/60876949/edit#%E5%AF%BC%E5%85%A5\" class=\"internal\" target=\"_blank\">导入牌组</a></u>.</p><p data-pid=\"nDdpR6gW\">如果有些人<b>只是想使用</b>你在 GitHub 上上传的<b>牌组</b>，他们可以<u><a href=\"https://zhuanlan.zhihu.com/p/60876949/edit\" class=\"internal\" target=\"_blank\">直接从仓库导入牌组</a></u>。</p><h3>如何上传更改</h3><p data-pid=\"-AqUHQAT\">当你或你的一个协作者想将你们做出的更改上传到 GitHub 时，你们需要：</p><ol><li data-pid=\"hveX0Lqa\">从 GitHub 获取最新的更改：</li></ol><div class=\"highlight\"><pre><code class=\"language-text\"> git pull</code></pre></div><p data-pid=\"FlsR8APu\">2. 为了合并你和其他人做出的更改，请<u><a href=\"https://zhuanlan.zhihu.com/p/60876949/edit#%E5%AF%BC%E5%85%A5\" class=\"internal\" target=\"_blank\">导入牌组</a></u>。</p><p data-pid=\"J2tpVoQq\">3. 导出牌组到你仓库的本地目录，然后导出将覆盖 media 文件夹和 json 文件。(替代选项是，你可以将牌组导出到其他地方，然后将 media 文件夹和 json 文件复制到仓库目录下，然后选择合并同名文件夹，替换已存在的文件。)</p><p data-pid=\"axx_rZGF\">4. 将更改添加到仓库：</p><div class=\"highlight\"><pre><code class=\"language-text\"> git add *\n git commit -m &#34;new updates&#34;</code></pre></div><p data-pid=\"NxMQo0o9\">5. 上传你做出的更改到 GitHub ：</p><div class=\"highlight\"><pre><code class=\"language-text\"> git push origin master</code></pre></div><p data-pid=\"-Pc2uqHU\">如果你只想<b>获取别人做出的最新更改</b>，你只需要执行第一步和第二步。</p><h2><b>通用协作工作流程</b></h2><p data-pid=\"-ebFNy5u\">目前的工作流程可以表述为：</p><ul><li data-pid=\"8eOHRO6x\">用户创建或者导入一个 Anki 牌组。</li><li data-pid=\"LYfIT4xf\">用户做了一些更改(比如笔记内容、牌组设置、牌组结构或笔记模板)。</li><li data-pid=\"zrSqH-wd\">然后用户以 JSON 格式导出牌组(附带媒体文件夹和该牌组中引用的媒体文件)并分享给其他用户。例如通过为此创建 GitHub 仓库。</li><li data-pid=\"jODpIM-K\">其他人可以直接修改 JSON 文件，也可以导入牌组到他们自己的 Anki 中并做一些修改。</li><li data-pid=\"aNeUn3-s\">然后这些人做出的更改就会更新最初的 JSON 文件(必要时将几个更改合并在一起)。</li><li data-pid=\"uM64eXDX\">之后，最初的用户（和其他人）可以导入更新的牌组，将这些新的更改整合到他们的集合中。</li></ul><h2><b>导出</b></h2><p data-pid=\"2EwK8KQp\">导出请到菜单：文件&gt;导出</p><p data-pid=\"bINRrzkV\">选择牌组(<b>注</b>：不支持导出所有的牌组，你需要选择一个特定的牌组)并将导出格式改为 &#34;CrowdAnki JSON representation (*directory )&#34; 。 点击导出之后，选择一个保存导出的目录。</p><hr/><h2>其他功能介绍</h2><h2><b>导入</b></h2><p data-pid=\"3PYXb5Yp\">导入请到菜单：文件&gt;&#34;CrowdAnki: Import from disk&#34; 并选择牌组储存的目录。 </p><h2><b>从 GitHub 导入</b></h2><p data-pid=\"SkkP5toU\">从 GitHub 导入牌组请到菜单：文件&gt;&#34;CrowdAnki: Import from Github&#34; 并以建议的格式输入 GitHub 用户名和仓库名。</p><p data-pid=\"ZKspo9l5\">以我的仓库为例，为了获取我的<u><a href=\"https://link.zhihu.com/?target=https%3A//github.com/L-M-Sherlock/Ankigaokao-ScienceComprehensive-Biology-MoleculesAndCells\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Ankigaokao-理科-理综-生物-分子与细胞</a></u>，你需要输入</p><p data-pid=\"oPoa2eFz\">L-M-Sherlock/Ankigaokao-ScienceComprehensive-Biology-MoleculesAndCells</p><h3><b>导入时需要注意：</b></h3><ul><li data-pid=\"Iv57r4gv\">自动备份将在导入前触发；</li><li data-pid=\"_ecjZd_p\">如果卡片的笔记模板改变，或者笔记模板本身以难以自动更新的方式改变：系统会弹出一个窗口，要求你解决新旧模板的冲突；</li><li data-pid=\"s3eDtgeh\">如果笔记被移动到另一个 JSON 文件中的牌组，则在导入时，该笔记的所有卡片（筛选牌组中的卡片除外）将被移动到指定的卡片组。</li></ul><h2><b>快照</b></h2><p data-pid=\"jQ0s7nt3\"><b>CrowdAnki</b> 能帮助你保存 <b>你牌组的编辑历史</b>。 该插件将牌组导出到一个特定位置并在每一次你创建快照时创建一个 git commit 。</p><p data-pid=\"ygOwgdas\">你可以在菜单手动创建快照：文件&gt;CrowdAnki: Snapshot 。 或者你可以在插件配置页开启自动快照，详情请见<u><a href=\"https://zhuanlan.zhihu.com/p/60876949/crowd_anki/config.md\" class=\"internal\" target=\"_blank\">这里</a></u> 。</p><p data-pid=\"Xex1hKJV\">其他你可以<u><a href=\"https://zhuanlan.zhihu.com/p/60876949/crowd_anki/config.md\" class=\"internal\" target=\"_blank\">配置</a></u>的参数是快照的储存地址和快照包括的牌组。</p><hr/><p data-pid=\"m_6Hw4Aw\">本篇翻译已经加入原作者的项目：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/Stvad/CrowdAnki\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/Stvad/CrowdA</span><span class=\"invisible\">nki</span><span class=\"ellipsis\"></span></a></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-0af3bfb15073b8eb3e8141176aaece06_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1061\" data-rawheight=\"550\" data-original-token=\"v2-1bc3e9b8e1967424988e03f20c0b2c9a\" class=\"origin_image zh-lightbox-thumb\" width=\"1061\" data-original=\"https://pica.zhimg.com/v2-0af3bfb15073b8eb3e8141176aaece06_r.jpg\"/></figure><p></p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19783871",
+      "type": "topic",
+      "id": "19783871",
+      "name": "Anki（知识记忆工具）"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19566035",
+      "type": "topic",
+      "id": "19566035",
+      "name": "GitHub"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19589620",
+      "type": "topic",
+      "id": "19589620",
+      "name": "团队合作"
+    }
+  ],
+  "voteup_count": 28,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
+    "can_manage": false,
+    "intro": "带你用「Anki」高效战高考！",
+    "is_following": true,
+    "url_token": "ankigaokao",
+    "id": "ankigaokao",
+    "articles_count": 157,
+    "accept_submission": true,
+    "title": "AnkiX高考",
+    "url": "https://api.zhihu.com/columns/ankigaokao",
+    "comment_permission": "all",
+    "created": 1522117223,
+    "updated": 1599152271,
+    "image_url": "https://pic1.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 6763,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 3,
+  "contributions": [
+    {
+      "id": 20525109,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
+        "can_manage": false,
+        "intro": "带你用「Anki」高效战高考！",
+        "is_following": true,
+        "url_token": "ankigaokao",
+        "id": "ankigaokao",
+        "articles_count": 157,
+        "accept_submission": true,
+        "title": "AnkiX高考",
+        "url": "https://api.zhihu.com/columns/ankigaokao",
+        "comment_permission": "all",
+        "created": 1522117223,
+        "updated": 1599152271,
+        "image_url": "https://pic1.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 6763,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 60876949,
-  "voteup_count": 26,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 41,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "基于 GitHub 的 Anki 牌组制作协作介绍 - 来自知乎专栏「AnkiX高考」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/60876949 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1553920396,
-  "url": "https://api.zhihu.com/articles/60876949",
-  "comment_permission": "all",
-  "title": "基于 GitHub 的 Anki 牌组制作协作介绍",
-  "image_width": 699,
-  "content": "<blockquote data-pid=\"l59WaloL\">已收录于<a href=\"https://zhuanlan.zhihu.com/p/57637220\" class=\"internal\">「一周年」专栏整理</a></blockquote><p data-pid=\"qKsqEk1u\">GitHub Anki 插件项目地址：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/Stvad/CrowdAnki\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Stvad/CrowdAnki</a> </p><p data-pid=\"bv7aLTYr\">CrowdAnki 插件下载代码及地址：<a href=\"https://link.zhihu.com/?target=https%3A//ankiweb.net/shared/info/1788670778\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">1788670778</a> </p><p data-pid=\"mTHrVffT\">示范牌组仓库地址：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/L-M-Sherlock/Ankigaokao-ScienceComprehensive-Biology-MoleculesAndCells\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">L-M-Sherlock/Ankigaokao-ScienceComprehensive-Biology-MoleculesAndCells</a></p><h2>协作流程介绍(翻译自README)</h2><h2><b>如何通过 GitHub 进行协作</b></h2><p data-pid=\"GTvIczJr\">本节说明使用 GitHub 的协作工作流程。</p><p data-pid=\"7iGkCf5D\">假设你有一个名为牌组X的牌组，并且你想与其它人协作改进它。为了实现这一目标，你需要：</p><ol><li data-pid=\"8yb_saHt\">导出牌组X。你可以在 Anki 上：文件&gt;导出&gt;导出格式：CrowdAnki Json Representation (*directory)、包含：牌组X</li><li data-pid=\"5HjtnpQm\">为你自己创建一个 GitHub 账号，并请你的协作者们也这么做 (参见：<u><a href=\"https://link.zhihu.com/?target=https%3A//github.com/join\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/join</span><span class=\"invisible\"></span></a></u>)。</li><li data-pid=\"R7rmeFfS\">根据这个<u><a href=\"https://link.zhihu.com/?target=https%3A//guides.github.com/activities/hello-world/%23repository\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">指南</a></u>为你的牌组创建仓库。仓库的名称必须与牌组导出时创建的目录的名称相对应。在本案例下，仓库应该被命名为牌组X。(译者注：其实没必要两者名称相同，况且中文无法作为仓库名)</li><li data-pid=\"29lrbK5L\">为这个仓库添加协作者：<u><a href=\"https://link.zhihu.com/?target=https%3A//help.github.com/articles/inviting-collaborators-to-a-personal-repository/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">help.github.com/article</span><span class=\"invisible\">s/inviting-collaborators-to-a-personal-repository/</span><span class=\"ellipsis\"></span></a></u>。</li></ol><h3><b>图形界面工作流程</b></h3><p data-pid=\"Boehpwpp\"><b>前言</b>：</p><p data-pid=\"oJy7Hc_M\">我的目标是提供一个便于用户理解的协作工作流程描述。为了做到这一点，我试了很多图形界面的 Git 客户端。为了我们的目的，我认为 <b>GitHub Desktop</b> 是最好的选择(作为对用户最为友好的客户端)。但是 GitHub Desktop 存在一个问题—— 它没有 Linux 版本。这令我特别难过，因为我主要使用 Linux 作为我的操作系统。我曾考虑过在本教程中使用 Gitkraken ，但是它存在一些问题而不符合我们的目的。(但如果你是 Linux 用户或者由于某种原因你不喜欢 GitHub Desktop  —— 你仍可以考虑使用它)</p><h3>协作准备</h3><ol><li data-pid=\"v_1aurFL\">在电脑上安装 <u><a href=\"https://link.zhihu.com/?target=https%3A//desktop.github.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Github Desktop</a></u> 。</li><li data-pid=\"QLF9JAkE\">登录之前你创建的 GitHub 账号。</li><li data-pid=\"X373MR-A\">创建一个新仓库：File&gt;Create a new repository. &#34;Local path&#34; 应该指向你导出牌组的地方，&#34;repository name&#34;应该与导出的文件夹名称相同。(译者注：考虑到中文不能作为仓库名，大家可以参考我的项目：<u><a href=\"https://link.zhihu.com/?target=https%3A//github.com/L-M-Sherlock/Ankigaokao-ScienceComprehensive-Biology-MoleculesAndCells\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">L-M-Sherlock/Ankigaokao-ScienceComprehensive-Biology-MoleculesAndCells</a></u>，先用 GitHub Desktop 在任意文件夹创建一个仓库，仓库名为英文，然后把导出的文件夹中的 media 文件夹和牌组X.json 文件移至该仓库，即与 .git 文件夹和 .gitattributes 文件同目录。) </li></ol><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-2f96a3aeb74f9ed949e2c6786ff17030_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1029\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic3.zhimg.com/v2-2f96a3aeb74f9ed949e2c6786ff17030_r.jpg\" data-original-token=\"v2-d6f576e57c5442097988de4d67c2d558\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><ol><li data-pid=\"UZ9nr7a7\">将你的目录下的内容添加至仓库，通过选中所有文件，添加一些评论在评论区并点击 &#34;Commit to <b>master</b>&#34; 。 </li></ol><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-cbc265fad6fccd9ce45a9adf5e86ffab_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1030\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic4.zhimg.com/v2-cbc265fad6fccd9ce45a9adf5e86ffab_r.jpg\" data-original-token=\"v2-7c4e3dd0807d5a7cb2f1e759f39b3b39\"/></figure><ol><li data-pid=\"nRIYI3VG\">点击 &#34;Publish repository&#34; 将你刚才做的更改上传到 GitHub 。在本案例，你不需要提前在 GitHub 上创建仓库，GitHub Desktop 将帮你自动完成。(译者注： GitHub Desktop 更新后默认将仓库设为私有，需要在 Publish repository 界面将 Keep this code private 这个勾选去掉) </li></ol><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-e3f83d9340215623d8bd7ed2684834b8_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1030\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pica.zhimg.com/v2-e3f83d9340215623d8bd7ed2684834b8_r.jpg\" data-original-token=\"v2-1496f9684401e9c2a3bada9d33e2f8c7\"/></figure><h3>为了开始在此牌组工作，你的协作者需要：</h3><ol><li data-pid=\"uPMCLh0B\">在他们的电脑安装 <u><a href=\"https://link.zhihu.com/?target=https%3A//desktop.github.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Github Desktop</a></u> 。</li><li data-pid=\"78LFMlGm\">克隆你已经创建的仓库。他们可以通过在 GitHub 仓库页面点击 &#34;Clone or download -&gt; Open in Desktop&#34; 做到这一点。 </li></ol><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-2c43b85f34615dee4ceab026bfb543a9_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1028\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic2.zhimg.com/v2-2c43b85f34615dee4ceab026bfb543a9_r.jpg\" data-original-token=\"v2-8e727bf5760a8dd7fd1410b6887f0dbc\"/></figure><ol><li data-pid=\"fMozOc65\"><u><a href=\"https://zhuanlan.zhihu.com/p/60876949/edit#%E5%AF%BC%E5%85%A5\" class=\"internal\">导入牌组</a></u>.</li></ol><p data-pid=\"kwUj3pJc\">如果有些人<b>只是想使用</b>你在 GitHub 上上传的<b>牌组</b>，他们可以<u><a href=\"https://zhuanlan.zhihu.com/p/60876949/edit\" class=\"internal\">直接从仓库导入牌组</a></u>。</p><h3>如何上传更改</h3><p data-pid=\"B4efl5J1\">当你或你的一个协作者想将你们做出的更改上传到 GitHub 时，你们需要：</p><ol><li data-pid=\"QWN89Y2L\">通过点击 &#34;Fetch Origin&#34; 从 GitHub 获取其他人的提交历史，如果有新的更改，则可以点击 &#34;Pull Origin&#34; 获取最新的更改。 </li></ol><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-a310cfe1a34f9da241c9ca2e163787ca_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1003\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic3.zhimg.com/v2-a310cfe1a34f9da241c9ca2e163787ca_r.jpg\" data-original-token=\"v2-49e9396be61c0d0892d6bc2d30dedcb8\"/></figure><ol><li data-pid=\"H4amNxUW\">为了合并你和其他人做出的更改，请<u><a href=\"https://zhuanlan.zhihu.com/p/60876949/edit#%E5%AF%BC%E5%85%A5\" class=\"internal\">导入牌组</a></u>。</li><li data-pid=\"AAsi5Y9w\">导出牌组到你仓库的本地目录，然后导出将覆盖 media 文件夹和 json 文件。(替代选项是，你可以将牌组导出到其他地方，然后将 media 文件夹和 json 文件复制到仓库目录下，然后选择合并同名文件夹，替换已存在的文件。)</li><li data-pid=\"L6wzcdI0\">在评论区添加 comment ，点击 &#34;Commit to master&#34; 上传你做出的更改。 </li></ol><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-fa60cc8348938dc268dabeef51504d92_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1028\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pica.zhimg.com/v2-fa60cc8348938dc268dabeef51504d92_r.jpg\" data-original-token=\"v2-60996eeb09e40fc07362aa291133c619\"/></figure><ol><li data-pid=\"uU_v10KT\">点击 &#34;Push Origin&#34; 上传你做出的更改到 GitHub 。</li></ol><p data-pid=\"z6sARRwg\">如果你只想<b>获取别人做出的最新更改</b>，你只需要执行第一步和第二步。</p><h3><b>命令行工作流程</b></h3><h3>协作准备</h3><ol><li data-pid=\"XpR7p6TJ\">在你的电脑上安装 git 。</li></ol><p data-pid=\"s1UQJNUy\">2. 到导出的目录。</p><p data-pid=\"SM6NdlVO\">3. 用下面的命令初始化仓库：</p><div class=\"highlight\"><pre><code class=\"language-text\"> git init\n git remote add origin git@github.com:&lt;username&gt;/&lt;repository&gt;.git</code></pre></div><p data-pid=\"PtKC1cOo\">&lt;username&gt; 是你的 GitHub 用户名 (我的是 Stvad) ， &lt;repository&gt; 是仓库的名字 (DeckX)。 所以本案例中的命令应该是：</p><div class=\"highlight\"><pre><code class=\"language-text\"> git remote add origin git@github.com:Stvad/DeckX.git</code></pre></div><p data-pid=\"F912f_-4\">4. 添加目录下的所有内容到仓库：</p><div class=\"highlight\"><pre><code class=\"language-text\"> git add *\n git commit -m &#34;initial export&#34;</code></pre></div><p data-pid=\"d0yjnc5M\">5. 上传你做出的更改到 GitHub：</p><div class=\"highlight\"><pre><code class=\"language-text\"> git push origin master</code></pre></div><h3>为了开始在此牌组工作，你的协作者需要：</h3><ol><li data-pid=\"DpxgDz48\">在他们的电脑室安装 git</li></ol><p data-pid=\"xr_ZwWjn\">2. 克隆你创建好的仓库：</p><div class=\"highlight\"><pre><code class=\"language-text\"> git clone https://github.com/Stvad/DeckX.git</code></pre></div><p data-pid=\"ZUTD7Xl5\"><u>3. <a href=\"https://zhuanlan.zhihu.com/p/60876949/edit#%E5%AF%BC%E5%85%A5\" class=\"internal\">导入牌组</a></u>.</p><p data-pid=\"nDdpR6gW\">如果有些人<b>只是想使用</b>你在 GitHub 上上传的<b>牌组</b>，他们可以<u><a href=\"https://zhuanlan.zhihu.com/p/60876949/edit\" class=\"internal\">直接从仓库导入牌组</a></u>。</p><h3>如何上传更改</h3><p data-pid=\"-AqUHQAT\">当你或你的一个协作者想将你们做出的更改上传到 GitHub 时，你们需要：</p><ol><li data-pid=\"hveX0Lqa\">从 GitHub 获取最新的更改：</li></ol><div class=\"highlight\"><pre><code class=\"language-text\"> git pull</code></pre></div><p data-pid=\"FlsR8APu\">2. 为了合并你和其他人做出的更改，请<u><a href=\"https://zhuanlan.zhihu.com/p/60876949/edit#%E5%AF%BC%E5%85%A5\" class=\"internal\">导入牌组</a></u>。</p><p data-pid=\"J2tpVoQq\">3. 导出牌组到你仓库的本地目录，然后导出将覆盖 media 文件夹和 json 文件。(替代选项是，你可以将牌组导出到其他地方，然后将 media 文件夹和 json 文件复制到仓库目录下，然后选择合并同名文件夹，替换已存在的文件。)</p><p data-pid=\"axx_rZGF\">4. 将更改添加到仓库：</p><div class=\"highlight\"><pre><code class=\"language-text\"> git add *\n git commit -m &#34;new updates&#34;</code></pre></div><p data-pid=\"NxMQo0o9\">5. 上传你做出的更改到 GitHub ：</p><div class=\"highlight\"><pre><code class=\"language-text\"> git push origin master</code></pre></div><p data-pid=\"-Pc2uqHU\">如果你只想<b>获取别人做出的最新更改</b>，你只需要执行第一步和第二步。</p><h2><b>通用协作工作流程</b></h2><p data-pid=\"-ebFNy5u\">目前的工作流程可以表述为：</p><ul><li data-pid=\"8eOHRO6x\">用户创建或者导入一个 Anki 牌组。</li><li data-pid=\"LYfIT4xf\">用户做了一些更改(比如笔记内容、牌组设置、牌组结构或笔记模板)。</li><li data-pid=\"zrSqH-wd\">然后用户以 JSON 格式导出牌组(附带媒体文件夹和该牌组中引用的媒体文件)并分享给其他用户。例如通过为此创建 GitHub 仓库。</li><li data-pid=\"jODpIM-K\">其他人可以直接修改 JSON 文件，也可以导入牌组到他们自己的 Anki 中并做一些修改。</li><li data-pid=\"aNeUn3-s\">然后这些人做出的更改就会更新最初的 JSON 文件(必要时将几个更改合并在一起)。</li><li data-pid=\"uM64eXDX\">之后，最初的用户（和其他人）可以导入更新的牌组，将这些新的更改整合到他们的集合中。</li></ul><h2><b>导出</b></h2><p data-pid=\"2EwK8KQp\">导出请到菜单：文件&gt;导出</p><p data-pid=\"bINRrzkV\">选择牌组(<b>注</b>：不支持导出所有的牌组，你需要选择一个特定的牌组)并将导出格式改为 &#34;CrowdAnki JSON representation (*directory )&#34; 。 点击导出之后，选择一个保存导出的目录。</p><hr/><h2>其他功能介绍</h2><h2><b>导入</b></h2><p data-pid=\"3PYXb5Yp\">导入请到菜单：文件&gt;&#34;CrowdAnki: Import from disk&#34; 并选择牌组储存的目录。 </p><h2><b>从 GitHub 导入</b></h2><p data-pid=\"SkkP5toU\">从 GitHub 导入牌组请到菜单：文件&gt;&#34;CrowdAnki: Import from Github&#34; 并以建议的格式输入 GitHub 用户名和仓库名。</p><p data-pid=\"ZKspo9l5\">以我的仓库为例，为了获取我的<u><a href=\"https://link.zhihu.com/?target=https%3A//github.com/L-M-Sherlock/Ankigaokao-ScienceComprehensive-Biology-MoleculesAndCells\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Ankigaokao-理科-理综-生物-分子与细胞</a></u>，你需要输入</p><p data-pid=\"oPoa2eFz\">L-M-Sherlock/Ankigaokao-ScienceComprehensive-Biology-MoleculesAndCells</p><h3><b>导入时需要注意：</b></h3><ul><li data-pid=\"Iv57r4gv\">自动备份将在导入前触发；</li><li data-pid=\"_ecjZd_p\">如果卡片的笔记模板改变，或者笔记模板本身以难以自动更新的方式改变：系统会弹出一个窗口，要求你解决新旧模板的冲突；</li><li data-pid=\"s3eDtgeh\">如果笔记被移动到另一个 JSON 文件中的牌组，则在导入时，该笔记的所有卡片（筛选牌组中的卡片除外）将被移动到指定的卡片组。</li></ul><h2><b>快照</b></h2><p data-pid=\"jQ0s7nt3\"><b>CrowdAnki</b> 能帮助你保存 <b>你牌组的编辑历史</b>。 该插件将牌组导出到一个特定位置并在每一次你创建快照时创建一个 git commit 。</p><p data-pid=\"ygOwgdas\">你可以在菜单手动创建快照：文件&gt;CrowdAnki: Snapshot 。 或者你可以在插件配置页开启自动快照，详情请见<u><a href=\"https://zhuanlan.zhihu.com/p/60876949/crowd_anki/config.md\" class=\"internal\">这里</a></u> 。</p><p data-pid=\"Xex1hKJV\">其他你可以<u><a href=\"https://zhuanlan.zhihu.com/p/60876949/crowd_anki/config.md\" class=\"internal\">配置</a></u>的参数是快照的储存地址和快照包括的牌组。</p><hr/><p data-pid=\"m_6Hw4Aw\">本篇翻译已经加入原作者的项目：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/Stvad/CrowdAnki\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/Stvad/CrowdA</span><span class=\"invisible\">nki</span><span class=\"ellipsis\"></span></a></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-0af3bfb15073b8eb3e8141176aaece06_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1061\" data-rawheight=\"550\" class=\"origin_image zh-lightbox-thumb\" width=\"1061\" data-original=\"https://pica.zhimg.com/v2-0af3bfb15073b8eb3e8141176aaece06_r.jpg\" data-original-token=\"v2-1bc3e9b8e1967424988e03f20c0b2c9a\"/></figure><p></p>",
-  "column": {
-    "updated": 1599152271,
-    "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/ankigaokao",
-    "title": "AnkiX高考",
-    "image_url": "https://pic1.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "ankigaokao"
-  },
-  "comment_count": 3,
-  "image_url": "https://picx.zhimg.com/v2-e62ab39e31741e6acb457b3c58516bd8_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 0,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 0,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIjCgkxMDE2NTc1MDUSCDYwODc2OTQ5GAciCklNQUdFX1RFWFQ=",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 28,
+      "down_vote_count": 0,
+      "like_count": 0,
+      "comment_count": 3,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 41,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-1496f9684401e9c2a3bada9d33e2f8c7": 0,
+        "v2-1bc3e9b8e1967424988e03f20c0b2c9a": 0,
+        "v2-49e9396be61c0d0892d6bc2d30dedcb8": 0,
+        "v2-60996eeb09e40fc07362aa291133c619": 0,
+        "v2-7c4e3dd0807d5a7cb2f1e759f39b3b39": 0,
+        "v2-8e727bf5760a8dd7fd1410b6887f0dbc": 0,
+        "v2-d6f576e57c5442097988de4d67c2d558": 0,
+        "v2-e62ab39e31741e6acb457b3c58516bd8": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-1496f9684401e9c2a3bada9d33e2f8c7": false,
+        "v2-1bc3e9b8e1967424988e03f20c0b2c9a": false,
+        "v2-49e9396be61c0d0892d6bc2d30dedcb8": false,
+        "v2-60996eeb09e40fc07362aa291133c619": false,
+        "v2-7c4e3dd0807d5a7cb2f1e759f39b3b39": false,
+        "v2-8e727bf5760a8dd7fd1410b6887f0dbc": false,
+        "v2-d6f576e57c5442097988de4d67c2d558": false,
+        "v2-e62ab39e31741e6acb457b3c58516bd8": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-1496f9684401e9c2a3bada9d33e2f8c7": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-1bc3e9b8e1967424988e03f20c0b2c9a": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-49e9396be61c0d0892d6bc2d30dedcb8": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-60996eeb09e40fc07362aa291133c619": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-7c4e3dd0807d5a7cb2f1e759f39b3b39": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-8e727bf5760a8dd7fd1410b6887f0dbc": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-d6f576e57c5442097988de4d67c2d558": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-e62ab39e31741e6acb457b3c58516bd8": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=60876949&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · AnkiX高考",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/ankigaokao",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · AnkiX高考"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

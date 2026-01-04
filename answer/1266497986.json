@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,6 +37,7 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
@@ -45,9 +48,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,35 +84,55 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 0,
   "content": "<h2>不适合</h2><h2>20条原则之二：先学再记</h2><p data-pid=\"x8QLUPYd\">开始学习一个科目的知识前，我们就应该对所学的知识建立一个整体印象。只有把在<b>材料上相互独立</b>的知识构建为<b>逻辑上相互联系</b>的知识大厦，才能大幅度降低我们的学习时间。就如规则一所提到的一样，一个独立的知识点就像方程式里的一个符号，没有联系就没有理解，就如同死记硬背。</p><p data-pid=\"ErSuX8pE\">所以不要从零碎的材料中学习(就比如我们经常做的高考模拟卷)！先阅读材料上可以把这些知识整合起来的章节(比如：平抛运动)，然后才使用独立的问答来进行学习。（如：速度角和路程角的关系是什么？）</p><p data-pid=\"AHVGDNiO\">更多关于 Anki 的使用原则，请参见：</p><a href=\"https://zhuanlan.zhihu.com/p/52369009\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_180x120.jpg\" data-image-width=\"732\" data-image-height=\"271\" class=\"internal\">叶峻峣：Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1591365992,
   "excerpt": "不适合20条原则之二：先学再记开始学习一个科目的知识前，我们就应该对所学的知识建立一个整体印象。只有把在 材料上相互独立的知识构建为逻辑上相互联系的知识大厦，才能大幅度降低我们的学习时间。就如规则一所提到的一样，一个独立的知识点就像方程式里的一个符号，没有联系就没有理解，就如同死记硬背。所以不要从零碎的材料中学习(就比如我们经常做的高考模拟卷)！先阅读材料上可以把这些知识整合起来的章节(比如：平抛运动…",
-  "id": 1266497986,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1266497986",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/52369009": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/52369009\",\"desc\":\"415 赞同 · 31 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 想要提高学习效率，加速学习？阅读本文来获得能力，克服来自「组织知识」的困难。 学习速度取决于我们组织学习材料的方式。如果组织的很好，那么对于相同的材料，我们就能学得又快又好，其效率（速度）上的差距是难以置信的。 下面的原则按照重要性排序，最前面的原则最易被不经意地违背，但是如果能够好好地遵守它们，将为我们带来极大的收益。 这里有一个前提：你在用「间隔重复」的方式进行学习和…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"52369009\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/52369009": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/52369009\",\"desc\":\"500 赞同 · 33 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 想要提高学习效率，加速学习？阅读本文来获得能力，克服来自「组织知识」的困难。 学习速度取决于我们组织学习材料的方式。如果组织的很好，那么对于相同的材料，我们就能学得又快又好，其效率（速度）上的差距是难以置信的。 下面的原则按照重要性排序，最前面的原则最易被不经意地违背，但是如果能够好好地遵守它们，将为我们带来极大的收益。 这里有一个前提：你在用「间隔重复」的方式进行学习和…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"52369009\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1266497986&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1590983892,
     "detail": "",
-    "id": 398748053,
+    "id": "398748053",
     "question_type": "normal",
     "relationship": {},
     "title": "anki适合学习新知识吗?",
     "type": "question",
     "updated_time": 1590983892,
-    "url": "https://api.zhihu.com/questions/398748053"
+    "url": "https://www.zhihu.com/api/v4/questions/398748053"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1591365992,
+  "url": "https://www.zhihu.com/api/v4/answers/1266497986",
   "voteup_count": 13
 }

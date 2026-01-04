@@ -1,74 +1,345 @@
 {
-  "status": 0,
+  "id": "618757945",
+  "title": "概率和统计是具有可探索媒介的领域",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/618757945",
+  "image_url": "",
+  "title_image": "",
+  "excerpt": "对于概率和统计学，我注意到的一点是，当我在研究一些东西（最近，我在思考 <a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.comhttps//stacky.net/wiki/index.php%3Ftitle%3DAgainst_the_odds%3A_a_caution_to_practical_Bayesians\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">[1]</a>），而不太确定答案是什么时，我常常可以简单编写一个 Python 程序，来测试我的想法/检查我的工作。尽管有概率编程这种更高级的玩意，但目前我甚至不需要这些，仅仅是简单的蒙…",
+  "created": 1680428240,
   "updated": 1680428252,
   "author": {
     "is_followed": false,
-    "badge": [],
-    "name": "Jarrett Ye",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
-    "gender": 1,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+    "uid": "1521893281407864832",
     "user_type": "people",
-    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
-    "avatar_url": "https://picx.zhimg.com/50/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=b1748391",
     "is_following": false,
+    "url_token": "JarrettYe",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+    "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+    "name": "Jarrett Ye",
+    "is_advertiser": false,
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "gender": 1,
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+    "is_org": false,
     "type": "people",
-    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    "badge": [],
+    "badge_v2": {
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "merged_badges": [],
+      "detail_badges": [],
+      "icon": "",
+      "night_icon": ""
+    },
+    "exposed_medal": {
+      "medal_id": "1463836052717301760",
+      "medal_name": "知「势」之星",
+      "avatar_url": "https://pica.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_l.png?source=172ae18b",
+      "description": "「知势榜」上榜答主即可获得",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "对于概率和统计学，我注意到的一点是，当我在研究一些东西（最近，我在思考[1] ），…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 0,
+  "image_height": 0,
+  "content": "<p data-pid=\"6tOxYW0Q\">对于概率和统计学，我注意到的一点是，当我在研究一些东西（最近，我在思考<a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.comhttps//stacky.net/wiki/index.php%3Ftitle%3DAgainst_the_odds%3A_a_caution_to_practical_Bayesians\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">[1]</a>），而不太确定答案是什么时，我常常可以简单编写一个 Python 程序，来测试我的想法/检查我的工作。尽管有概率编程这种更高级的玩意，但目前我甚至不需要这些，仅仅是简单的蒙特卡洛式的采样+计算各种数字的程序，就已经是很不错的「可探索媒介」和验证机制了。</p><p data-pid=\"s-_3lcQq\">显然，编程学习也有类似的东西，你可以得到各种及时反馈，如语法错误、漏洞（例如错误的断言）、Haskell 之类语言中的类型错误。</p><p data-pid=\"tX9nVggP\">数学的其他领域似乎没有这么好的媒介。例如，你可以在学习序列或度量空间的时候在纸上画东西，这往往是有帮助的。但是，这个过程没有反馈，没有智能的过程来处理你的工作并说「这样不行」或「看着不错」。你必须想出你自己的用例来测试想法，去<b>手动</b>检查想法与定理假设是否一致, 这样才能获得反馈。当我在做数学时，我对我处理的内容经常有多种高层次的策略/思路，但我的低层次的「计算能力 」却不是很好，以至于我最后花了很多时间在细节上摸索。[[注1]]当然，所有这些低层次的计算和摸索是「对你的灵魂有益的」，但我确实觉得，就像程序员可以使用代码补全和语法检查等一样，数学家也可以受益于某种辅助工具，来自动化一些简单的/繁琐的工作。</p><p data-pid=\"Q4pY9EQy\">我认为图形计算器/ 绘图软件基本上是这个方向的工具。</p><hr/><ol><li data-pid=\"vrary1Qp\"><a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/%23cite_ref-1\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">↑</a> 我认为建立这样一个问题库会相当有趣：你不必解决整个问题，但你可以提交一个高水平的想法，或想出三个想法并提交。然后这个问题库可以回应这个高水平的策略是否有效。你便能训练直觉，了解哪些高层次的策略是有效的，而不需要经历所有低层次的细枝末节。</li></ol><h3>链接到本文</h3><ul><li data-pid=\"6eOEY5kg\"><a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/wiki/Finiteness_assumption_in_explorable_media\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">可探索媒介中的有限性假设</a> (<a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/index.php%3Ftitle%3DSpecial%3AWhatLinksHere%26target%3DFiniteness%2Bassumption%2Bin%2Bexplorable%2Bmedia\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">←链接</a>)<br/> </li><li data-pid=\"w5BM8g9V\"><a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/wiki/Explorable_explanation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">可探索的解释</a><sup data-text=\"可探索的解释\" data-url=\"https://zhuanlan.zhihu.com/p/598332415\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup> ‎ (<a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/index.php%3Ftitle%3DSpecial%3AWhatLinksHere%26target%3DExplorable%2Bexplanation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">← 链接</a>)</li></ul><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"dNxZvhnT\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者<span class=\"nolink\">燕汝成</span>、校对 <span class=\"nolink\">Shom</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/wiki/Probability_and_statistics_as_fields_with_an_exploratory_medium\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Probability and statistics as fields with an exploratory medium</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19558740",
+      "type": "topic",
+      "id": "19558740",
+      "name": "统计学"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19560326",
+      "type": "topic",
+      "id": "19560326",
+      "name": "媒介"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19670916",
+      "type": "topic",
+      "id": "19670916",
+      "name": "概率论"
+    }
+  ],
+  "voteup_count": 6,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "Issa Rice 的个人维基",
+    "is_following": false,
+    "url_token": "c_1580996553313132544",
+    "id": "c_1580996553313132544",
+    "articles_count": 63,
+    "accept_submission": true,
+    "title": "Issawiki & Learning",
+    "url": "https://api.zhihu.com/columns/c_1580996553313132544",
+    "comment_permission": "all",
+    "created": 1669718952,
+    "updated": 1756692631,
+    "image_url": "https://pica.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 20,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 0,
+  "contributions": [
+    {
+      "id": 44759334,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "Issa Rice 的个人维基",
+        "is_following": false,
+        "url_token": "c_1580996553313132544",
+        "id": "c_1580996553313132544",
+        "articles_count": 63,
+        "accept_submission": true,
+        "title": "Issawiki & Learning",
+        "url": "https://api.zhihu.com/columns/c_1580996553313132544",
+        "comment_permission": "all",
+        "created": 1669718952,
+        "updated": 1756692631,
+        "image_url": "https://pica.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 20,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 618757945,
-  "voteup_count": 5,
+  "annotation_action": [],
+  "can_tip": false,
+  "can_open_tipjar": true,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 8,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "概率和统计是具有可探索媒介的领域 - 来自知乎专栏「Issawiki &amp; Learning」，作者: Jarrett Ye https://zhuanlan.zhihu.com/p/618757945 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1680428240,
-  "url": "https://api.zhihu.com/articles/618757945",
-  "comment_permission": "all",
-  "title": "概率和统计是具有可探索媒介的领域",
-  "content": "<p data-pid=\"6tOxYW0Q\">对于概率和统计学，我注意到的一点是，当我在研究一些东西（最近，我在思考<a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.comhttps//stacky.net/wiki/index.php%3Ftitle%3DAgainst_the_odds%3A_a_caution_to_practical_Bayesians\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">[1]</a>），而不太确定答案是什么时，我常常可以简单编写一个 Python 程序，来测试我的想法/检查我的工作。尽管有概率编程这种更高级的玩意，但目前我甚至不需要这些，仅仅是简单的蒙特卡洛式的采样+计算各种数字的程序，就已经是很不错的「可探索媒介」和验证机制了。</p><p data-pid=\"s-_3lcQq\">显然，编程学习也有类似的东西，你可以得到各种及时反馈，如语法错误、漏洞（例如错误的断言）、Haskell 之类语言中的类型错误。</p><p data-pid=\"tX9nVggP\">数学的其他领域似乎没有这么好的媒介。例如，你可以在学习序列或度量空间的时候在纸上画东西，这往往是有帮助的。但是，这个过程没有反馈，没有智能的过程来处理你的工作并说「这样不行」或「看着不错」。你必须想出你自己的用例来测试想法，去<b>手动</b>检查想法与定理假设是否一致, 这样才能获得反馈。当我在做数学时，我对我处理的内容经常有多种高层次的策略/思路，但我的低层次的「计算能力 」却不是很好，以至于我最后花了很多时间在细节上摸索。[[注1]]当然，所有这些低层次的计算和摸索是「对你的灵魂有益的」，但我确实觉得，就像程序员可以使用代码补全和语法检查等一样，数学家也可以受益于某种辅助工具，来自动化一些简单的/繁琐的工作。</p><p data-pid=\"Q4pY9EQy\">我认为图形计算器/ 绘图软件基本上是这个方向的工具。</p><hr/><ol><li data-pid=\"vrary1Qp\"><a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/%23cite_ref-1\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">↑</a> 我认为建立这样一个问题库会相当有趣：你不必解决整个问题，但你可以提交一个高水平的想法，或想出三个想法并提交。然后这个问题库可以回应这个高水平的策略是否有效。你便能训练直觉，了解哪些高层次的策略是有效的，而不需要经历所有低层次的细枝末节。</li></ol><h3>链接到本文</h3><ul><li data-pid=\"6eOEY5kg\"><a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/wiki/Finiteness_assumption_in_explorable_media\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">可探索媒介中的有限性假设</a> (<a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/index.php%3Ftitle%3DSpecial%3AWhatLinksHere%26target%3DFiniteness%2Bassumption%2Bin%2Bexplorable%2Bmedia\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">←链接</a>)<br/> </li><li data-pid=\"w5BM8g9V\"><a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/wiki/Explorable_explanation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">可探索的解释</a><sup data-text=\"可探索的解释\" data-url=\"https://zhuanlan.zhihu.com/p/598332415\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup> ‎ (<a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/index.php%3Ftitle%3DSpecial%3AWhatLinksHere%26target%3DExplorable%2Bexplanation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">← 链接</a>)</li></ul><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"dNxZvhnT\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者<span class=\"nolink\">燕汝成</span>、校对 <span class=\"nolink\">Shom</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//wiki.issarice.com/wiki/Probability_and_statistics_as_fields_with_an_exploratory_medium\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Probability and statistics as fields with an exploratory medium</a></blockquote>",
-  "column": {
-    "updated": 1673583015,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Jarrett Ye",
-      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
-      "avatar_url": "https://picx.zhimg.com/50/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
-    },
-    "url": "https://api.zhihu.com/columns/c_1580996553313132544",
-    "title": "Issawiki",
-    "image_url": "https://pic1.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1580996553313132544"
-  },
-  "comment_count": 0,
-  "image_url": "",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 5,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 5,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMjU2MzMxNjISCTYxODc1Nzk0NRgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 6,
+      "down_vote_count": 0,
+      "like_count": 5,
+      "comment_count": 0,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 8,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": true,
+      "vote": "Neutral",
+      "liked": false,
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {}
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=618757945&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · Issawiki & Learning",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1580996553313132544",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · Issawiki & Learning"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

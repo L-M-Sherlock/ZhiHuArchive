@@ -1,80 +1,451 @@
 {
-  "status": 0,
+  "id": "274891979",
+  "title": "通用描述符",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/274891979",
+  "image_url": "https://picx.zhimg.com/v2-0e93178325a580f76b216b1028505a86_r.jpg?source=172ae18b",
+  "title_image": "https://pica.zhimg.com/v2-0e93178325a580f76b216b1028505a86_r.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://pic4.zhimg.com/v2-4113e598f284ca183248013993dd21a7_200x112.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"336\" data-rawheight=\"196\" data-watermark=\"watermark\" data-original-src=\"v2-4113e598f284ca183248013993dd21a7\" data-watermark-src=\"v2-a816af877bad34e071a9108c140ffa93\" data-private-watermark-src=\"\" class=\"origin_image inline-img zh-lightbox-thumb\" data-original=\"https://pic4.zhimg.com/v2-4113e598f284ca183248013993dd21a7_r.png\"/>原文： <a href=\"https://link.zhihu.com/?target=https%3A//www.remnote.io/documentation/kBtxCZsYPAaKrP2Yy\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Universal Descriptors</a>译者注：本篇的术语比较多，建议阅读原文 译文添加描述符来丰富你对概念的理解是概念/描述符框架的一个关键部分。有些描述符出现的频率极高，几乎是通用的。我们称它们为 &#34;通用描述符&#34;，并以~符号开头。 以下是三个示例—— <u><a href=\"https://zhuanlan.zhihu.com/~%E8%A6%81%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98.md\" class=\"internal\" target=\"_blank\">~…</a></u>",
+  "created": 1604588404,
   "updated": 1604632898,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "原文：Universal Descriptors 译者注：本篇的术语比较多，建议阅读原文译文添加描述…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 1903,
+  "image_height": 977,
+  "content": "<p data-pid=\"HpQ8ey8I\">原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.remnote.io/documentation/kBtxCZsYPAaKrP2Yy\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Universal Descriptors</a></p><p data-pid=\"wzpHZQYy\">译者注：本篇的术语比较多，建议阅读原文</p><h2>译文</h2><p data-pid=\"np_12Yl5\">添加描述符来丰富你对概念的理解是概念/描述符框架的一个关键部分。有些描述符出现的频率极高，几乎是通用的。我们称它们为 &#34;通用描述符&#34;，并以~符号开头。</p><p data-pid=\"upoB1rjF\">以下是三个示例——<u><a href=\"https://zhuanlan.zhihu.com/~%E8%A6%81%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98.md\" class=\"internal\" target=\"_blank\">~要解决的问题</a></u>、<u><a href=\"https://zhuanlan.zhihu.com/~%E6%80%8E%E6%A0%B7%E8%B5%B7%E4%BD%9C%E7%94%A8.md\" class=\"internal\" target=\"_blank\">~怎样起作用</a></u>和<u><a href=\"https://zhuanlan.zhihu.com/~%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md\" class=\"internal\" target=\"_blank\">~解决方案</a></u>。</p><p data-pid=\"jNgBpXu4\">在学习一个系统的时候，了解它怎样起作用是很有用的：  </p><ul><li data-pid=\"tnXFukNe\">睡眠</li><ul><li data-pid=\"jOsm345x\">时机</li><ul><li data-pid=\"V_-cmjpt\">睡眠压力组分</li><ul><li data-pid=\"IEVT-FaK\"><u><a href=\"https://zhuanlan.zhihu.com/~%E6%80%8E%E6%A0%B7%E8%B5%B7%E4%BD%9C%E7%94%A8.md\" class=\"internal\" target=\"_blank\">~怎样起作用</a></u>:: <u><a href=\"https://zhuanlan.zhihu.com/%E8%85%BA%E8%8B%B7.md\" class=\"internal\" target=\"_blank\">腺苷</a></u> 在一天中慢慢积聚，激活大脑中抑制清醒的区域</li></ul></ul></ul><li data-pid=\"tNnffz-t\">咖啡因</li><ul><li data-pid=\"R7Dzc31s\"><u><a href=\"https://zhuanlan.zhihu.com/~%E6%80%8E%E6%A0%B7%E8%B5%B7%E4%BD%9C%E7%94%A8.md\" class=\"internal\" target=\"_blank\">~怎样起作用</a></u>阻止睡眠:: 与 <u><a href=\"https://zhuanlan.zhihu.com/%E8%85%BA%E8%8B%B7.md\" class=\"internal\" target=\"_blank\">腺苷</a></u> 对抗，锁定 <u><a href=\"https://zhuanlan.zhihu.com/%E8%85%BA%E8%8B%B7.md\" class=\"internal\" target=\"_blank\">腺苷</a></u> 活性位点，因此抑制<u><a href=\"https://zhuanlan.zhihu.com/%E7%9D%A1%E7%9C%A0.md\" class=\"internal\" target=\"_blank\">睡眠</a></u>的<u><a href=\"https://zhuanlan.zhihu.com/%E6%98%BC%E5%A4%9C%E8%8A%82%E5%A5%8F%E7%BB%84%E5%88%86.md\" class=\"internal\" target=\"_blank\">昼夜节奏组分</a></u></li></ul></ul><p data-pid=\"0j8dvXpx\">在学习一个工具时，了解工具<u><a href=\"https://zhuanlan.zhihu.com/~%E8%A6%81%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98.md\" class=\"internal\" target=\"_blank\">~要解决的问题</a></u>是有用的：</p><ul><li data-pid=\"0HpCPY7z\">心肺复苏术        </li><ul><li data-pid=\"gF4pnnzO\"><u><a href=\"https://zhuanlan.zhihu.com/~%E8%A6%81%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98.md\" class=\"internal\" target=\"_blank\">~要解决的问题</a></u>:: 当<u><a href=\"https://zhuanlan.zhihu.com/%E5%BF%83%E8%84%8F.md\" class=\"internal\" target=\"_blank\">心脏</a></u>停止跳动时，保持血液流动活跃</li></ul><li data-pid=\"q4siDaAJ\">海姆立克急救法</li><ul><li data-pid=\"nKHCnpoP\"><u><a href=\"https://zhuanlan.zhihu.com/~%E8%A6%81%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98.md\" class=\"internal\" target=\"_blank\">~要解决的问题</a></u>:: 去除咽喉部的阻塞物</li></ul><li data-pid=\"8LWpyJI6\">机器学习</li><ul><li data-pid=\"pGED_ot2\">早停</li><ul><li data-pid=\"K6OaTGaI\"><u><a href=\"https://zhuanlan.zhihu.com/~%E8%A6%81%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98.md\" class=\"internal\" target=\"_blank\">~要解决的问题</a></u>:: 模型对训练数据过拟合</li></ul></ul></ul><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-a816af877bad34e071a9108c140ffa93_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"336\" data-rawheight=\"196\" data-original-token=\"v2-4113e598f284ca183248013993dd21a7\" class=\"content_image\" width=\"336\"/></figure><p data-pid=\"7rRHbQel\">当了解一个问题时，理解这个问题的解决方案是很有用的：</p><ul><li data-pid=\"8Wcsqu5_\">道德风险</li><ul><li data-pid=\"Fb6GP0mi\"><u><a href=\"https://zhuanlan.zhihu.com/~%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md\" class=\"internal\" target=\"_blank\">~解决方案</a></u>:: 有<u><a href=\"https://zhuanlan.zhihu.com/%E4%BF%9D%E9%99%A9.md\" class=\"internal\" target=\"_blank\">保险</a></u>，但不要让它太慷慨，这样人们就不会受到激励去利用它。</li></ul><li data-pid=\"FSNLN-CV\">神经网络</li><ul><li data-pid=\"hX3ivUb_\">训练过程</li><ul><li data-pid=\"DE2I4soK\">梯度爆炸</li><ul><li data-pid=\"jz8_p54S\"><u><a href=\"https://zhuanlan.zhihu.com/~%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md\" class=\"internal\" target=\"_blank\">~解决方案</a></u>:: <u><a href=\"https://zhuanlan.zhihu.com/%E6%A2%AF%E5%BA%A6%E8%A3%81%E5%89%AA.md\" class=\"internal\" target=\"_blank\">梯度裁剪</a></u> </li></ul></ul></ul><li data-pid=\"mFY21qn4\">微观经济学</li><ul><li data-pid=\"hQtkX2XW\">外部性</li><ul><li data-pid=\"FgXsZhTg\"><u><a href=\"https://zhuanlan.zhihu.com/~%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md\" class=\"internal\" target=\"_blank\">~解决方案</a></u>:: <u><a href=\"https://zhuanlan.zhihu.com/%E6%94%BF%E5%BA%9C.md\" class=\"internal\" target=\"_blank\">政府</a><a href=\"https://zhuanlan.zhihu.com/%E6%B3%95%E8%A7%84.md\" class=\"internal\" target=\"_blank\">法规</a></u>或<u><a href=\"https://zhuanlan.zhihu.com/%E7%BA%A0%E6%AD%A3%E6%80%A7%E7%A8%8E%E6%94%B6.md\" class=\"internal\" target=\"_blank\">纠正性税收</a></u></li></ul></ul></ul><p data-pid=\"AB3XEgfT\">通用描述符很有用，原因有以下几个：</p><ul><li data-pid=\"FOhtnWhe\">除非你从多个方面去理解一个概念，否则你不会真正理解它。鼓励自己添加多个通用描述符有助于你挑战自己对一个概念的理解。你也可以添加普通的描述符，但拥有一套预设的描述符会使这个过程变得更容易。（你也可以进一步定制你的预设描述符集——请看知识模板 ( 类型和插槽 ) 教程）。</li><li data-pid=\"mE2NUs9R\">描述词的措辞保持一致可以帮助你避免闪卡的常见挑战，即不小心使用不同的措辞，然后记住卡片的外观而不是实际的概念。例如，在这里我们总是使用<u><a href=\"https://zhuanlan.zhihu.com/~%E8%A6%81%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98.md\" class=\"internal\" target=\"_blank\">~要解决的问题</a></u>，而不是同时使用 &#34;这能解决什么问题 &#34;或 &#34;这有什么帮助&#34;？</li><li data-pid=\"lyKN4dNr\">这种一致性可以帮助建立借鉴这些描述符的心理 &#34;脚本&#34;。例如，当你试图了解一个新的工具时，你可以要求自己了解它的<u><a href=\"https://zhuanlan.zhihu.com/~%E8%A6%81%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98.md\" class=\"internal\" target=\"_blank\">~要解决的问题</a></u>，<u><a href=\"https://zhuanlan.zhihu.com/~%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B5%B7%E4%BD%9C%E7%94%A8.md\" class=\"internal\" target=\"_blank\">~为什么起作用</a></u>，以及<u><a href=\"https://zhuanlan.zhihu.com/~%E6%80%8E%E6%A0%B7%E8%B5%B7%E4%BD%9C%E7%94%A8.md\" class=\"internal\" target=\"_blank\">~怎样起作用</a></u>。或者，当考虑一个立场时，你可以要求自己理解 &#34;<u><a href=\"https://zhuanlan.zhihu.com/~%E6%94%AF%E6%8C%81%E7%9A%84%E7%90%86%E7%94%B1.md\" class=\"internal\" target=\"_blank\">~支持的理由</a></u>&#34;、&#34;<u><a href=\"https://zhuanlan.zhihu.com/~%E5%8F%8D%E5%AF%B9%E7%9A%84%E7%90%86%E7%94%B1.md\" class=\"internal\" target=\"_blank\">~反对的理由</a></u> &#34;和 &#34;<u><a href=\"https://zhuanlan.zhihu.com/~%E7%B1%BB%E6%AF%94.md\" class=\"internal\" target=\"_blank\">~类比</a></u>&#34;。</li></ul><p data-pid=\"ikV05wGR\">因此，在可能的情况下，最好使用<u><a href=\"https://zhuanlan.zhihu.com/%E9%80%9A%E7%94%A8%E6%8F%8F%E8%BF%B0%E7%AC%A6.md\" class=\"internal\" target=\"_blank\">通用描述符</a></u>而不是普通的描述符。</p><p data-pid=\"XfHpLDaT\">这里有一个更完整的<u><a href=\"https://zhuanlan.zhihu.com/%E9%80%9A%E7%94%A8%E6%8F%8F%E8%BF%B0%E7%AC%A6.md\" class=\"internal\" target=\"_blank\">通用描述符</a></u>列表，我们的用户发现它们很有用。你可以通过点击下面的 &#34;将这些 Rem 添加到你的知识库 &#34;按钮，将这些 Rem 导入到你的知识库中。</p><ul><li data-pid=\"7t8FHBcQ\">这些通用描述符只是简单的 Rem ——它们在工具中没有任何特殊地位。这让你可以根据自己的意愿定制或创建自己的描述符。导入这些 Rem 后，可以自由地对它们进行重新组合、更改或添加新的 Rem！你应该对你的知识库进行微调，以优化你自己的思维。</li><li data-pid=\"IkN7keX2\">要使用一个通用描述符，只需对它进行一个 Rem 引用。</li><li data-pid=\"9krAl2eh\">这些 Rem 是用颜色编码的，这样当你使用它们作为一个<u><a href=\"https://zhuanlan.zhihu.com/%E9%80%9A%E7%94%A8%E6%8F%8F%E8%BF%B0%E7%AC%A6.md\" class=\"internal\" target=\"_blank\">通用描述符</a></u>时，它们就会显得很突出。你可以根据自己的需要随意改变颜色。</li><ul><li data-pid=\"-9TsNf_h\">~</li><ul><li data-pid=\"SuiZUe5h\">~缩写</li><li data-pid=\"Ji4vaFtu\">~可操作的待办事项</li><li data-pid=\"X8cUp_kK\">~别名</li><li data-pid=\"kczVGaat\">~替代品</li><li data-pid=\"UdZIb0cT\">~类比</li><li data-pid=\"a49kW6jG\">~分析</li><li data-pid=\"tfZ1CVJj\">~答案</li><li data-pid=\"V-Izn3Tm\">~反对的理由</li><li data-pid=\"JlBzpDr0\">~支持的理由</li><li data-pid=\"UyicAefh\">~背景</li><li data-pid=\"eII4Ir5F\">~学习的最佳来源</li><li data-pid=\"rpmDyQJQ\">~原因</li><li data-pid=\"1oadDhrT\">~声明</li><li data-pid=\"hRYC7di5\">~来自</li><li data-pid=\"Q7n_CF8t\">~成分</li><li data-pid=\"WvXN05jV\">~反面</li><li data-pid=\"ygVAdAym\">~担心</li><li data-pid=\"oHldYMsa\">~困惑</li><li data-pid=\"DLGr-G0q\">~诡计</li><li data-pid=\"Q2VszyTR\">~决定</li><li data-pid=\"4J9ZplaM\">~定义</li><li data-pid=\"hdAtbf5_\">~设计</li><li data-pid=\"bVUfWw4L\">~细节</li><li data-pid=\"CV4_2XBU\">~不起作用的条件</li><li data-pid=\"3SXPhY6d\">~怀疑</li><li data-pid=\"3HSL4kdy\">~疑问</li><li data-pid=\"1CyAi0U8\">~什么的证据</li><li data-pid=\"a0mbjhwa\">~例子</li><li data-pid=\"OgCMBwt2\">~什么的例子</li><li data-pid=\"qDD8Nm78\">~错</li><li data-pid=\"SniQnMXp\">~公式</li><li data-pid=\"1Tn7Jqfq\">~框架</li><li data-pid=\"yf1amKpA\">~目标</li><li data-pid=\"DArfW5Ij\">~历史</li><ul><li data-pid=\"XQCAYngs\">何时形成</li></ul><li data-pid=\"tyLNS63I\">~怎样解释</li><li data-pid=\"_sQB-E0s\">~怎样实现</li><li data-pid=\"u18R1pb9\">~怎样使用</li><li data-pid=\"5nyG_mmI\">~怎样起作用</li><li data-pid=\"i0yBlrU-\">~怎样理解</li><li data-pid=\"zvdDWxl0\">~什么的假设</li><li data-pid=\"K-64WCjX\">~假设</li><li data-pid=\"qxcyzDjT\">~想法</li><li data-pid=\"G5W3mHXQ\">~图片</li><li data-pid=\"C6hyo-zx\">~实现</li><li data-pid=\"Bibfi_Cy\">~一句话概括</li><li data-pid=\"Q0gBVgsv\">~解释</li><li data-pid=\"ZSfpwmQw\">~直觉</li><li data-pid=\"EDx0bm6z\">~核心思想</li><li data-pid=\"AUqGeuP3\">~课程</li><li data-pid=\"V6OeGnjx\">~思维依赖</li><li data-pid=\"gjpOZqTf\">~助记</li><li data-pid=\"kxlZED5e\">~助记符名称</li><li data-pid=\"r3oUELGC\">~险些错过</li><li data-pid=\"eof4t91p\">~思考对象</li><li data-pid=\"rYKu-6pX\">~观察</li><li data-pid=\"08Hw9wc-\">~唯一起作用的条件</li><li data-pid=\"X5p1Uku8\">~开放性问题</li><li data-pid=\"xGLwtbVU\">~机会</li><li data-pid=\"tYnUlSnS\">~选项</li><li data-pid=\"NtQNd1F3\">~有组织想法列表</li><li data-pid=\"dfpioi2m\">~规则</li><li data-pid=\"U8BQHDxT\">~正面</li><li data-pid=\"QcR1yJC1\">~问题</li><li data-pid=\"Ge3yfiPi\">~要解决的问题</li><li data-pid=\"2ya4wV1l\">~引起的问题</li><li data-pid=\"sj6UbybH\">~过程</li><li data-pid=\"M7uPrlVp\">~证明</li><li data-pid=\"QpSCUrDz\">~目的</li><li data-pid=\"sixYq075\">~引用</li><li data-pid=\"nfRaFlRE\">~重新构造</li><li data-pid=\"9zKnAx_x\">~与什么有关</li><li data-pid=\"LD3CUGHq\">~要求</li><li data-pid=\"sv4HQnHI\">~脚本</li><li data-pid=\"NoVV_jUH\">~似乎有希望</li><li data-pid=\"Kwh_8-mW\">~与什么相似/让我想起</li><li data-pid=\"wTkiVin5\">~口号</li><li data-pid=\"KiJCS4WC\">~解决方案</li><ul><li data-pid=\"wqgxqw95\">技术</li></ul><li data-pid=\"8bloAAmf\">~来源</li><li data-pid=\"XBWE1Yms\">~名字的来源</li><li data-pid=\"5x-wlMB5\">~故事</li><ul><li data-pid=\"0kbTpYMW\">~观点</li></ul><li data-pid=\"rJSzA6L7\">~意外</li><li data-pid=\"DT6Rh-er\">~思考要点</li><li data-pid=\"kcuCfzI1\">~子类</li><li data-pid=\"SmavB97V\">~类型</li><li data-pid=\"5rAaYYkw\">~怎么理解理解</li><li data-pid=\"b9nZmA-l\">~未分类的想法列表</li><li data-pid=\"VMGxQgqu\">~何时使用</li><li data-pid=\"BQZIuyn-\">~注意</li><li data-pid=\"JUikQqUd\">~为什么不起作用</li><li data-pid=\"CHsSoWat\">~为什么存在</li><li data-pid=\"I-hIAcUX\">~为什么重要</li><li data-pid=\"bW0ozCdf\">~为什么有趣</li><li data-pid=\"Q8NCTziw\">~为什么正确</li><li data-pid=\"jc8zoFPS\">~为什么有用</li><li data-pid=\"n92OoX2A\">~为什么有价值</li><li data-pid=\"iLQVAIA-\">~为什么起作用</li></ul></ul></ul>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19571430",
+      "type": "topic",
+      "id": "19571430",
+      "name": "认知科学"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21349162",
+      "type": "topic",
+      "id": "21349162",
+      "name": "RemNote"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19667000",
+      "type": "topic",
+      "id": "19667000",
+      "name": "知识框架"
+    }
+  ],
+  "voteup_count": 29,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "暂时没有专栏分类的文章",
+    "is_following": false,
+    "url_token": "c_1853848933266227200",
+    "id": "c_1853848933266227200",
+    "articles_count": 104,
+    "accept_submission": true,
+    "title": "杂项",
+    "url": "https://api.zhihu.com/columns/c_1853848933266227200",
+    "comment_permission": "all",
+    "created": 1734772028,
+    "updated": 1734772042,
+    "image_url": "https://pic1.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 48,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 10,
+  "contributions": [
+    {
+      "id": 50433167,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "暂时没有专栏分类的文章",
+        "is_following": false,
+        "url_token": "c_1853848933266227200",
+        "id": "c_1853848933266227200",
+        "articles_count": 104,
+        "accept_submission": true,
+        "title": "杂项",
+        "url": "https://api.zhihu.com/columns/c_1853848933266227200",
+        "comment_permission": "all",
+        "created": 1734772028,
+        "updated": 1734772042,
+        "image_url": "https://pic1.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 48,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": true,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 274891979,
-  "voteup_count": 25,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 49,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "通用描述符 - 来自知乎专栏「杂项」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/274891979 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1604588404,
-  "url": "https://api.zhihu.com/articles/274891979",
-  "comment_permission": "all",
-  "title": "通用描述符",
-  "image_width": 977,
-  "content": "<p data-pid=\"HpQ8ey8I\">原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.remnote.io/documentation/kBtxCZsYPAaKrP2Yy\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Universal Descriptors</a></p><p data-pid=\"wzpHZQYy\">译者注：本篇的术语比较多，建议阅读原文</p><h2>译文</h2><p data-pid=\"np_12Yl5\">添加描述符来丰富你对概念的理解是概念/描述符框架的一个关键部分。有些描述符出现的频率极高，几乎是通用的。我们称它们为 &#34;通用描述符&#34;，并以~符号开头。</p><p data-pid=\"upoB1rjF\">以下是三个示例——<u><a href=\"https://zhuanlan.zhihu.com/~%E8%A6%81%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98.md\" class=\"internal\">~要解决的问题</a></u>、<u><a href=\"https://zhuanlan.zhihu.com/~%E6%80%8E%E6%A0%B7%E8%B5%B7%E4%BD%9C%E7%94%A8.md\" class=\"internal\">~怎样起作用</a></u>和<u><a href=\"https://zhuanlan.zhihu.com/~%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md\" class=\"internal\">~解决方案</a></u>。</p><p data-pid=\"jNgBpXu4\">在学习一个系统的时候，了解它怎样起作用是很有用的：  </p><ul><li data-pid=\"tnXFukNe\">睡眠</li><ul><li data-pid=\"jOsm345x\">时机</li><ul><li data-pid=\"V_-cmjpt\">睡眠压力组分</li><ul><li data-pid=\"IEVT-FaK\"><u><a href=\"https://zhuanlan.zhihu.com/~%E6%80%8E%E6%A0%B7%E8%B5%B7%E4%BD%9C%E7%94%A8.md\" class=\"internal\">~怎样起作用</a></u>:: <u><a href=\"https://zhuanlan.zhihu.com/%E8%85%BA%E8%8B%B7.md\" class=\"internal\">腺苷</a></u> 在一天中慢慢积聚，激活大脑中抑制清醒的区域</li></ul></ul></ul><li data-pid=\"tNnffz-t\">咖啡因</li><ul><li data-pid=\"R7Dzc31s\"><u><a href=\"https://zhuanlan.zhihu.com/~%E6%80%8E%E6%A0%B7%E8%B5%B7%E4%BD%9C%E7%94%A8.md\" class=\"internal\">~怎样起作用</a></u>阻止睡眠:: 与 <u><a href=\"https://zhuanlan.zhihu.com/%E8%85%BA%E8%8B%B7.md\" class=\"internal\">腺苷</a></u> 对抗，锁定 <u><a href=\"https://zhuanlan.zhihu.com/%E8%85%BA%E8%8B%B7.md\" class=\"internal\">腺苷</a></u> 活性位点，因此抑制<u><a href=\"https://zhuanlan.zhihu.com/%E7%9D%A1%E7%9C%A0.md\" class=\"internal\">睡眠</a></u>的<u><a href=\"https://zhuanlan.zhihu.com/%E6%98%BC%E5%A4%9C%E8%8A%82%E5%A5%8F%E7%BB%84%E5%88%86.md\" class=\"internal\">昼夜节奏组分</a></u></li></ul></ul><p data-pid=\"0j8dvXpx\">在学习一个工具时，了解工具<u><a href=\"https://zhuanlan.zhihu.com/~%E8%A6%81%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98.md\" class=\"internal\">~要解决的问题</a></u>是有用的：</p><ul><li data-pid=\"0HpCPY7z\">心肺复苏术        </li><ul><li data-pid=\"gF4pnnzO\"><u><a href=\"https://zhuanlan.zhihu.com/~%E8%A6%81%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98.md\" class=\"internal\">~要解决的问题</a></u>:: 当<u><a href=\"https://zhuanlan.zhihu.com/%E5%BF%83%E8%84%8F.md\" class=\"internal\">心脏</a></u>停止跳动时，保持血液流动活跃</li></ul><li data-pid=\"q4siDaAJ\">海姆立克急救法</li><ul><li data-pid=\"nKHCnpoP\"><u><a href=\"https://zhuanlan.zhihu.com/~%E8%A6%81%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98.md\" class=\"internal\">~要解决的问题</a></u>:: 去除咽喉部的阻塞物</li></ul><li data-pid=\"8LWpyJI6\">机器学习</li><ul><li data-pid=\"pGED_ot2\">早停</li><ul><li data-pid=\"K6OaTGaI\"><u><a href=\"https://zhuanlan.zhihu.com/~%E8%A6%81%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98.md\" class=\"internal\">~要解决的问题</a></u>:: 模型对训练数据过拟合</li></ul></ul></ul><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-a816af877bad34e071a9108c140ffa93_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"336\" data-rawheight=\"196\" class=\"content_image\" width=\"336\" data-original-token=\"v2-4113e598f284ca183248013993dd21a7\"/></figure><p data-pid=\"7rRHbQel\">当了解一个问题时，理解这个问题的解决方案是很有用的：</p><ul><li data-pid=\"8Wcsqu5_\">道德风险</li><ul><li data-pid=\"Fb6GP0mi\"><u><a href=\"https://zhuanlan.zhihu.com/~%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md\" class=\"internal\">~解决方案</a></u>:: 有<u><a href=\"https://zhuanlan.zhihu.com/%E4%BF%9D%E9%99%A9.md\" class=\"internal\">保险</a></u>，但不要让它太慷慨，这样人们就不会受到激励去利用它。</li></ul><li data-pid=\"FSNLN-CV\">神经网络</li><ul><li data-pid=\"hX3ivUb_\">训练过程</li><ul><li data-pid=\"DE2I4soK\">梯度爆炸</li><ul><li data-pid=\"jz8_p54S\"><u><a href=\"https://zhuanlan.zhihu.com/~%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md\" class=\"internal\">~解决方案</a></u>:: <u><a href=\"https://zhuanlan.zhihu.com/%E6%A2%AF%E5%BA%A6%E8%A3%81%E5%89%AA.md\" class=\"internal\">梯度裁剪</a></u> </li></ul></ul></ul><li data-pid=\"mFY21qn4\">微观经济学</li><ul><li data-pid=\"hQtkX2XW\">外部性</li><ul><li data-pid=\"FgXsZhTg\"><u><a href=\"https://zhuanlan.zhihu.com/~%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md\" class=\"internal\">~解决方案</a></u>:: <u><a href=\"https://zhuanlan.zhihu.com/%E6%94%BF%E5%BA%9C.md\" class=\"internal\">政府</a><a href=\"https://zhuanlan.zhihu.com/%E6%B3%95%E8%A7%84.md\" class=\"internal\">法规</a></u>或<u><a href=\"https://zhuanlan.zhihu.com/%E7%BA%A0%E6%AD%A3%E6%80%A7%E7%A8%8E%E6%94%B6.md\" class=\"internal\">纠正性税收</a></u></li></ul></ul></ul><p data-pid=\"AB3XEgfT\">通用描述符很有用，原因有以下几个：</p><ul><li data-pid=\"FOhtnWhe\">除非你从多个方面去理解一个概念，否则你不会真正理解它。鼓励自己添加多个通用描述符有助于你挑战自己对一个概念的理解。你也可以添加普通的描述符，但拥有一套预设的描述符会使这个过程变得更容易。（你也可以进一步定制你的预设描述符集——请看知识模板 ( 类型和插槽 ) 教程）。</li><li data-pid=\"mE2NUs9R\">描述词的措辞保持一致可以帮助你避免闪卡的常见挑战，即不小心使用不同的措辞，然后记住卡片的外观而不是实际的概念。例如，在这里我们总是使用<u><a href=\"https://zhuanlan.zhihu.com/~%E8%A6%81%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98.md\" class=\"internal\">~要解决的问题</a></u>，而不是同时使用 &#34;这能解决什么问题 &#34;或 &#34;这有什么帮助&#34;？</li><li data-pid=\"lyKN4dNr\">这种一致性可以帮助建立借鉴这些描述符的心理 &#34;脚本&#34;。例如，当你试图了解一个新的工具时，你可以要求自己了解它的<u><a href=\"https://zhuanlan.zhihu.com/~%E8%A6%81%E8%A7%A3%E5%86%B3%E7%9A%84%E9%97%AE%E9%A2%98.md\" class=\"internal\">~要解决的问题</a></u>，<u><a href=\"https://zhuanlan.zhihu.com/~%E4%B8%BA%E4%BB%80%E4%B9%88%E8%B5%B7%E4%BD%9C%E7%94%A8.md\" class=\"internal\">~为什么起作用</a></u>，以及<u><a href=\"https://zhuanlan.zhihu.com/~%E6%80%8E%E6%A0%B7%E8%B5%B7%E4%BD%9C%E7%94%A8.md\" class=\"internal\">~怎样起作用</a></u>。或者，当考虑一个立场时，你可以要求自己理解 &#34;<u><a href=\"https://zhuanlan.zhihu.com/~%E6%94%AF%E6%8C%81%E7%9A%84%E7%90%86%E7%94%B1.md\" class=\"internal\">~支持的理由</a></u>&#34;、&#34;<u><a href=\"https://zhuanlan.zhihu.com/~%E5%8F%8D%E5%AF%B9%E7%9A%84%E7%90%86%E7%94%B1.md\" class=\"internal\">~反对的理由</a></u> &#34;和 &#34;<u><a href=\"https://zhuanlan.zhihu.com/~%E7%B1%BB%E6%AF%94.md\" class=\"internal\">~类比</a></u>&#34;。</li></ul><p data-pid=\"ikV05wGR\">因此，在可能的情况下，最好使用<u><a href=\"https://zhuanlan.zhihu.com/%E9%80%9A%E7%94%A8%E6%8F%8F%E8%BF%B0%E7%AC%A6.md\" class=\"internal\">通用描述符</a></u>而不是普通的描述符。</p><p data-pid=\"XfHpLDaT\">这里有一个更完整的<u><a href=\"https://zhuanlan.zhihu.com/%E9%80%9A%E7%94%A8%E6%8F%8F%E8%BF%B0%E7%AC%A6.md\" class=\"internal\">通用描述符</a></u>列表，我们的用户发现它们很有用。你可以通过点击下面的 &#34;将这些 Rem 添加到你的知识库 &#34;按钮，将这些 Rem 导入到你的知识库中。</p><ul><li data-pid=\"7t8FHBcQ\">这些通用描述符只是简单的 Rem ——它们在工具中没有任何特殊地位。这让你可以根据自己的意愿定制或创建自己的描述符。导入这些 Rem 后，可以自由地对它们进行重新组合、更改或添加新的 Rem！你应该对你的知识库进行微调，以优化你自己的思维。</li><li data-pid=\"IkN7keX2\">要使用一个通用描述符，只需对它进行一个 Rem 引用。</li><li data-pid=\"9krAl2eh\">这些 Rem 是用颜色编码的，这样当你使用它们作为一个<u><a href=\"https://zhuanlan.zhihu.com/%E9%80%9A%E7%94%A8%E6%8F%8F%E8%BF%B0%E7%AC%A6.md\" class=\"internal\">通用描述符</a></u>时，它们就会显得很突出。你可以根据自己的需要随意改变颜色。</li><ul><li data-pid=\"-9TsNf_h\">~</li><ul><li data-pid=\"SuiZUe5h\">~缩写</li><li data-pid=\"Ji4vaFtu\">~可操作的待办事项</li><li data-pid=\"X8cUp_kK\">~别名</li><li data-pid=\"kczVGaat\">~替代品</li><li data-pid=\"UdZIb0cT\">~类比</li><li data-pid=\"a49kW6jG\">~分析</li><li data-pid=\"tfZ1CVJj\">~答案</li><li data-pid=\"V-Izn3Tm\">~反对的理由</li><li data-pid=\"JlBzpDr0\">~支持的理由</li><li data-pid=\"UyicAefh\">~背景</li><li data-pid=\"eII4Ir5F\">~学习的最佳来源</li><li data-pid=\"rpmDyQJQ\">~原因</li><li data-pid=\"1oadDhrT\">~声明</li><li data-pid=\"hRYC7di5\">~来自</li><li data-pid=\"Q7n_CF8t\">~成分</li><li data-pid=\"WvXN05jV\">~反面</li><li data-pid=\"ygVAdAym\">~担心</li><li data-pid=\"oHldYMsa\">~困惑</li><li data-pid=\"DLGr-G0q\">~诡计</li><li data-pid=\"Q2VszyTR\">~决定</li><li data-pid=\"4J9ZplaM\">~定义</li><li data-pid=\"hdAtbf5_\">~设计</li><li data-pid=\"bVUfWw4L\">~细节</li><li data-pid=\"CV4_2XBU\">~不起作用的条件</li><li data-pid=\"3SXPhY6d\">~怀疑</li><li data-pid=\"3HSL4kdy\">~疑问</li><li data-pid=\"1CyAi0U8\">~什么的证据</li><li data-pid=\"a0mbjhwa\">~例子</li><li data-pid=\"OgCMBwt2\">~什么的例子</li><li data-pid=\"qDD8Nm78\">~错</li><li data-pid=\"SniQnMXp\">~公式</li><li data-pid=\"1Tn7Jqfq\">~框架</li><li data-pid=\"yf1amKpA\">~目标</li><li data-pid=\"DArfW5Ij\">~历史</li><ul><li data-pid=\"XQCAYngs\">何时形成</li></ul><li data-pid=\"tyLNS63I\">~怎样解释</li><li data-pid=\"_sQB-E0s\">~怎样实现</li><li data-pid=\"u18R1pb9\">~怎样使用</li><li data-pid=\"5nyG_mmI\">~怎样起作用</li><li data-pid=\"i0yBlrU-\">~怎样理解</li><li data-pid=\"zvdDWxl0\">~什么的假设</li><li data-pid=\"K-64WCjX\">~假设</li><li data-pid=\"qxcyzDjT\">~想法</li><li data-pid=\"G5W3mHXQ\">~图片</li><li data-pid=\"C6hyo-zx\">~实现</li><li data-pid=\"Bibfi_Cy\">~一句话概括</li><li data-pid=\"Q0gBVgsv\">~解释</li><li data-pid=\"ZSfpwmQw\">~直觉</li><li data-pid=\"EDx0bm6z\">~核心思想</li><li data-pid=\"AUqGeuP3\">~课程</li><li data-pid=\"V6OeGnjx\">~思维依赖</li><li data-pid=\"gjpOZqTf\">~助记</li><li data-pid=\"kxlZED5e\">~助记符名称</li><li data-pid=\"r3oUELGC\">~险些错过</li><li data-pid=\"eof4t91p\">~思考对象</li><li data-pid=\"rYKu-6pX\">~观察</li><li data-pid=\"08Hw9wc-\">~唯一起作用的条件</li><li data-pid=\"X5p1Uku8\">~开放性问题</li><li data-pid=\"xGLwtbVU\">~机会</li><li data-pid=\"tYnUlSnS\">~选项</li><li data-pid=\"NtQNd1F3\">~有组织想法列表</li><li data-pid=\"dfpioi2m\">~规则</li><li data-pid=\"U8BQHDxT\">~正面</li><li data-pid=\"QcR1yJC1\">~问题</li><li data-pid=\"Ge3yfiPi\">~要解决的问题</li><li data-pid=\"2ya4wV1l\">~引起的问题</li><li data-pid=\"sj6UbybH\">~过程</li><li data-pid=\"M7uPrlVp\">~证明</li><li data-pid=\"QpSCUrDz\">~目的</li><li data-pid=\"sixYq075\">~引用</li><li data-pid=\"nfRaFlRE\">~重新构造</li><li data-pid=\"9zKnAx_x\">~与什么有关</li><li data-pid=\"LD3CUGHq\">~要求</li><li data-pid=\"sv4HQnHI\">~脚本</li><li data-pid=\"NoVV_jUH\">~似乎有希望</li><li data-pid=\"Kwh_8-mW\">~与什么相似/让我想起</li><li data-pid=\"wTkiVin5\">~口号</li><li data-pid=\"KiJCS4WC\">~解决方案</li><ul><li data-pid=\"wqgxqw95\">技术</li></ul><li data-pid=\"8bloAAmf\">~来源</li><li data-pid=\"XBWE1Yms\">~名字的来源</li><li data-pid=\"5x-wlMB5\">~故事</li><ul><li data-pid=\"0kbTpYMW\">~观点</li></ul><li data-pid=\"rJSzA6L7\">~意外</li><li data-pid=\"DT6Rh-er\">~思考要点</li><li data-pid=\"kcuCfzI1\">~子类</li><li data-pid=\"SmavB97V\">~类型</li><li data-pid=\"5rAaYYkw\">~怎么理解理解</li><li data-pid=\"b9nZmA-l\">~未分类的想法列表</li><li data-pid=\"VMGxQgqu\">~何时使用</li><li data-pid=\"BQZIuyn-\">~注意</li><li data-pid=\"JUikQqUd\">~为什么不起作用</li><li data-pid=\"CHsSoWat\">~为什么存在</li><li data-pid=\"I-hIAcUX\">~为什么重要</li><li data-pid=\"bW0ozCdf\">~为什么有趣</li><li data-pid=\"Q8NCTziw\">~为什么正确</li><li data-pid=\"jc8zoFPS\">~为什么有用</li><li data-pid=\"n92OoX2A\">~为什么有价值</li><li data-pid=\"iLQVAIA-\">~为什么起作用</li></ul></ul></ul>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 9,
-  "image_url": "https://pic1.zhimg.com/v2-0e93178325a580f76b216b1028505a86_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 13,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 13,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxNDkyMTY5MDUSCTI3NDg5MTk3ORgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 29,
+      "down_vote_count": 0,
+      "like_count": 13,
+      "comment_count": 10,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 49,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-0e93178325a580f76b216b1028505a86": 0,
+        "v2-4113e598f284ca183248013993dd21a7": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-0e93178325a580f76b216b1028505a86": false,
+        "v2-4113e598f284ca183248013993dd21a7": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-0e93178325a580f76b216b1028505a86": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-4113e598f284ca183248013993dd21a7": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=274891979&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 杂项",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1853848933266227200",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 杂项"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

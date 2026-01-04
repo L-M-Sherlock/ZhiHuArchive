@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,7 +84,7 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
@@ -95,28 +100,42 @@
   "content_need_truncated": false,
   "created_time": 1727228085,
   "excerpt": "意思是这张卡片你已经反复遗忘了好多次，根据前人的经验，如果你继续照常复习这张卡片，你还会反复遗忘，浪费大量时间。所以 Anki 在默认设置下，当你累计遗忘一张卡片 8 次时，就会提醒你，并暂停这张卡片，除非你手动解除暂停，否则不会再安排复习。 如何应对记忆难点（Leech） 间隔重复的一个基本原则是区分简单的卡片和困难的卡片 。我们可以降低对简单知识点的复习频率，同时增加对困难知识点的复习次数。这真的非常有效。遗…",
-  "id": 3635241676,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3635241676",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
     "https://zhuanlan.zhihu.com/p/307602868": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"水蛭（Leech）[Anki, SuperMemo]\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/307602868\",\"desc\":\"16 赞同 · 4 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e Leeches in SuperMemo are questions that a student keeps forgetting . Most often leeches come from disrespect for the 20 rules of knowledge formulation . Some well-formulated material may also need a boost from mnemonic techniques or a boost in coherence , e.g. by setting questions in relevant context.SuperMemo 中的 Leech 指的是学生经常遗忘的问题。大多数情况下，Leech 来自对知识表述的 20 条规则 [1]的…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-a6ce2c3760379329224dd1760091721f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"307602868\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/606491648": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"水蛭\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/606491648\",\"desc\":\"35 赞同 · 2 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 困难材料：水蛭材料学起来困难，可能怪材料本身（如数字、集合、枚举等），也可能得怪糟糕的表述。助记技巧等工具可用于处理本质上困难的材料（见： 学习中表述知识的 20 条规则 [1]）。 重点是！SuperMemo 中小部分难点会消耗大量时间在 SuperMemo 中， 水蛭这一术语被用来指代表述不当的卡片 。如果卡片 符合用户定义的水蛭 标准（比如：卡片遗忘次数 和当前的间隔 长度），这个卡片便称为水蛭。判断水蛭的参数可以使用查看 ：其他 ：…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-0e71e19c909b87fab31c420664c8289f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"606491648\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/67390960": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"9 毒性记忆\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/67390960\",\"desc\":\"152 赞同 · 12 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 原文： 9 Toxic memory 糟糕的学习可能会导致 学习内驱力 [1]的下降，因为记忆的积累较少，遗忘 [2]速度更快。然而，寄生记忆和毒性记忆的形成也可能导致对学校和学习的厌恶逐渐增加。9.1 讨厌学校对学习的厌恶、对学校的厌恶，或对某一特定学科的厌恶，如数学，都基于同样的机制： 毒性记忆。正如有可能使巴甫洛夫的狗对铃声产生恐惧一样，也有可能使人对数学公式产生恐惧9.2 什么是毒性记忆？为了写这本书 [3]，我提出了一些新的…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-2eb459700ddfbaf65b3ad90b86ee2d4f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"67390960\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/79015431": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"【硬核】参数模拟(续)——从“诡异”的曲线上扬到“有毒”的记忆\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/79015431\",\"desc\":\"102 赞同 · 14 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 还记着这幅“诡异”的图吗？ [图片] 学完所有新卡片后，复习数量随着天数增加先是缓慢下降，然后继续攀升，甚至超过了之前最大最大复习数量！ 这究竟是怎么回事呢？ 一位群友的意见： [图片] 已经和答案很接近了！接下来我为大家揭秘一下！ 其实这个锅要算法背！ 在我用各种数据去测试之余，我一直没有搞明白，为啥 121% 的间隔修饰符效果这么好？ 直到我想起，Anki 卡片的最低简易度（base）是 130%，豁然开朗。 众所周知，Anki 卡片复习间隔…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-07b00faa5eb9e4b8484ce115d3f3c4ba_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"79015431\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/606491648": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"水蛭\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/606491648\",\"desc\":\"36 赞同 · 2 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 困难材料：水蛭材料学起来困难，可能怪材料本身（如数字、集合、枚举等），也可能得怪糟糕的表述。助记技巧等工具可用于处理本质上困难的材料（见： 学习中表述知识的 20 条规则 [1]）。 重点是！SuperMemo 中小部分难点会消耗大量时间在 SuperMemo 中， 水蛭这一术语被用来指代表述不当的卡片 。如果卡片 符合用户定义的水蛭 标准（比如：卡片遗忘次数 和当前的间隔 长度），这个卡片便称为水蛭。判断水蛭的参数可以使用查看 ：其他 ：…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-0e71e19c909b87fab31c420664c8289f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"606491648\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/67390960": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"9 毒性记忆\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/67390960\",\"desc\":\"188 赞同 · 14 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 因学习不当而导致的 学习内驱力 [1]衰退，可能源于记忆积累不足和遗忘 [2]加速。然而，一些寄生性的、有害的记忆（即毒性记忆）的形成，也可能是导致人们对学校和学习的厌恶感与日俱增的元凶。9.1 对学校的恨对学习的恨，对学校的恨，或是对数学等特定学科的恨，都源于同一种机制： 毒性记忆。正如巴甫洛夫的狗可以被训练到一听到铃声就恐惧，人也可以被训练到一看到数学公式就恐慌。 9.2 什么是毒性记忆？为 本书 [3]之目的，我提…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-2eb459700ddfbaf65b3ad90b86ee2d4f.jpg?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"67390960\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/79015431": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"【硬核】参数模拟(续)——从“诡异”的曲线上扬到“有毒”的记忆\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/79015431\",\"desc\":\"102 赞同 · 14 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 还记着这幅“诡异”的图吗？ [图片] 学完所有新卡片后，复习数量随着天数增加先是缓慢下降，然后继续攀升，甚至超过了之前最大最大复习数量！ 这究竟是怎么回事呢？ 一位群友的意见： [图片] 已经和答案很接近了！接下来我为大家揭秘一下！ 其实这个锅要算法背！ 在我用各种数据去测试之余，我一直没有搞明白，为啥 121% 的间隔修饰符效果这么好？ 直到我想起，Anki 卡片的最低简易度（base）是 130%，豁然开朗。 众所周知，Anki 卡片复习间隔…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-07b00faa5eb9e4b8484ce115d3f3c4ba_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"79015431\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/334300204?contentId=3635241676&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1501548678,
     "detail": "使用anki复习卡片时，经常会有一些卡片假如你没记住，点10分钟再复习的按钮，会跳出the card was a leech 的字样，然后不会在再复习中出现了，这是怎么回事?假如点击编辑卡片，会发现在tags 一栏出现了leech的字样，而且无法删除，制作卡片时并没有在tags 栏加任何字段。我发现这样的卡片还挺多的，很影响复习，哪位大侠能解释下是什么原因吗？怎样才能解决？",
-    "id": 63236696,
+    "id": "63236696",
     "question_type": "normal",
     "relationship": {},
     "title": "使用anki复习卡片时，会跳出the card was a leech 的字样，这是怎么回事?",
     "type": "question",
     "updated_time": 1501548678,
-    "url": "https://api.zhihu.com/questions/63236696"
+    "url": "https://www.zhihu.com/api/v4/questions/63236696"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 90
+  "updated_time": 1727228085,
+  "url": "https://www.zhihu.com/api/v4/answers/3635241676",
+  "voteup_count": 95
 }

@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -16,8 +17,8 @@
           "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -39,15 +40,15 @@
           "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
           "badge_status": "passed",
@@ -72,7 +73,7 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
     "gender": -1,
@@ -83,7 +84,7 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
@@ -99,9 +100,20 @@
   "content_need_truncated": false,
   "created_time": 1739874309,
   "excerpt": "大概率只是你没找对训练方法。 达到较高段位（如前 5%）的关键在于 发现并纠正低级错误（如站位选择）、主动获取反馈（如观看录像、寻求他人点评）以及刻意练习，而非依赖天赋或智商。许多玩家因未有效利用游戏提供的反馈工具（如回放系统）或缺乏系统练习方法而进步缓慢。例如，《守望先锋》中常见玩家因忽视基础错误（如未占领目标点）而卡段位，但通过分析录像并针对性改进即可显著提升。 现实中类似现象表明，多数领域的相对…",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "104237268924",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/10145988318?contentId=104237268924&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "3 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1698899113,
     "detail": "",
@@ -111,11 +123,13 @@
     "title": "打游戏一直处于中等和中下等，是不是说明我智商不够？",
     "type": "question",
     "updated_time": 1698899113,
-    "url": "https://api.zhihu.com/questions/628793525"
+    "url": "https://www.zhihu.com/api/v4/questions/628793525"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 396
+  "updated_time": 1739874309,
+  "url": "https://www.zhihu.com/api/v4/answers/104237268924",
+  "voteup_count": 397
 }

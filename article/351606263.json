@@ -1,80 +1,509 @@
 {
-  "status": 0,
+  "id": "351606263",
+  "title": "SuperMemo 自动备份",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/351606263",
+  "image_url": "https://pic1.zhimg.com/v2-257eb3389fa79037c9d13b937e93999f_720w.jpg?source=172ae18b",
+  "title_image": "https://pica.zhimg.com/v2-257eb3389fa79037c9d13b937e93999f_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://picx.zhimg.com/v2-b36b2bc5e89cd944c7bcd2ef701a174d_200x112.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1046\" data-rawheight=\"548\" data-watermark=\"original\" data-original-src=\"v2-b36b2bc5e89cd944c7bcd2ef701a174d\" data-watermark-src=\"v2-d3388090d9bba75bff426a36b8ba98b4\" data-private-watermark-src=\"\" class=\"origin_image inline-img zh-lightbox-thumb\" data-original=\"https://picx.zhimg.com/v2-b36b2bc5e89cd944c7bcd2ef701a174d_r.png\"/>更新2021 年 10 月 28 日：推翻重写，不再使用 BitShelter，改用 Kopia 来备份。不再需要单独划分磁盘，并且设置非常好理解。 警告千万不要用百度网盘自动备份或者坚果云同步之类的在线同步备份软件，很可能会搞错 SuperMemo 的文件版本，导致卡片丢失或者…",
+  "created": 1613788073,
   "updated": 1654433971,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "更新2021 年 10 月 28 日：推翻重写，不再使用 BitShelter，改用 Kopia 来备份。不…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 991,
+  "image_height": 482,
+  "content": "<h2>更新</h2><p data-pid=\"mEoDqKi0\">2021 年 10 月 28 日：推翻重写，不再使用 BitShelter，改用 Kopia 来备份。不再需要单独划分磁盘，并且设置非常好理解。</p><h2>警告</h2><p data-pid=\"g7iCA2Xj\">千万不要用百度网盘自动备份或者坚果云同步之类的在线同步备份软件，很可能会搞错 SuperMemo 的文件版本，导致卡片丢失或者数据损坏。</p><h2><b>引入</b></h2><p data-pid=\"95gBGDm6\">SuperMemo 只有手动备份功能，使用者难免会忘记及时备份，当自己误删后想要回滚，才发现上次备份已经是几个月前，这期间的工作全部木大。为了预防这种情况出现，我建议日常使用 SuperMemo 的朋友掌握一下自动备份的方法，以防不测。</p><h2><b>效果预览</b></h2><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b36b2bc5e89cd944c7bcd2ef701a174d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1046\" data-rawheight=\"548\" data-original-token=\"v2-b36b2bc5e89cd944c7bcd2ef701a174d\" class=\"origin_image zh-lightbox-thumb\" width=\"1046\" data-original=\"https://picx.zhimg.com/v2-b36b2bc5e89cd944c7bcd2ef701a174d_r.jpg\"/></figure><h2><b>准备工作</b></h2><p data-pid=\"amX-dFmG\">下载 Kopia 并安装</p><p data-pid=\"35HYnCtt\"><a href=\"https://link.zhihu.com/?target=https%3A//ghproxy.com/https%3A//github.com/kopia/kopia/releases/download/v0.9.4/KopiaUI-Setup-0.9.4.exe\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">ghproxy.com/https://git</span><span class=\"invisible\">hub.com/kopia/kopia/releases/download/v0.9.4/KopiaUI-Setup-0.9.4.exe</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"RHVivc58\">打开 Kopia 并点击 Filesystem，我们这次就做本地备份。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-2d1677aa654bbefa15f6119faba30f3a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"842\" data-rawheight=\"619\" data-original-token=\"v2-2d1677aa654bbefa15f6119faba30f3a\" class=\"origin_image zh-lightbox-thumb\" width=\"842\" data-original=\"https://pica.zhimg.com/v2-2d1677aa654bbefa15f6119faba30f3a_r.jpg\"/></figure><p data-pid=\"WGKCBqod\">随手找一个<b>空文件夹（最好新建一个）</b>来当备份目录：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-692a350bd6850d5b01dfcbc08936242b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"533\" data-rawheight=\"317\" data-original-token=\"v2-692a350bd6850d5b01dfcbc08936242b\" class=\"origin_image zh-lightbox-thumb\" width=\"533\" data-original=\"https://pic2.zhimg.com/v2-692a350bd6850d5b01dfcbc08936242b_r.jpg\"/></figure><p data-pid=\"TUVSSWXd\">设置一下备份加密密码</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-71a50f5841cb1f58712fd1fff854dba3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"839\" data-rawheight=\"429\" data-original-token=\"v2-71a50f5841cb1f58712fd1fff854dba3\" class=\"origin_image zh-lightbox-thumb\" width=\"839\" data-original=\"https://picx.zhimg.com/v2-71a50f5841cb1f58712fd1fff854dba3_r.jpg\"/></figure><p data-pid=\"AjkoIo2m\">好了，接下来就可以开始设置备份计划了</p><h2>备份设置</h2><p data-pid=\"WpsWtZ7H\">点 New Snapshot，开始设置</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-33b34ca8b74364d97919d843690cc668_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"833\" data-rawheight=\"295\" data-original-token=\"v2-33b34ca8b74364d97919d843690cc668\" class=\"origin_image zh-lightbox-thumb\" width=\"833\" data-original=\"https://pic3.zhimg.com/v2-33b34ca8b74364d97919d843690cc668_r.jpg\"/></figure><p data-pid=\"hnFz-z42\">输入你的 sm18 路径，点一下 estimate 看看对不对。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a79481a0dde96e02032308b46d3f54cc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"822\" data-rawheight=\"611\" data-original-token=\"v2-a79481a0dde96e02032308b46d3f54cc\" class=\"origin_image zh-lightbox-thumb\" width=\"822\" data-original=\"https://pic1.zhimg.com/v2-a79481a0dde96e02032308b46d3f54cc_r.jpg\"/></figure><p data-pid=\"GVQqymYi\">然后点 snapshot now 就可以手动备份了。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-cb9df5ab04136416255db28b7bf82ec0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"821\" data-rawheight=\"600\" data-original-token=\"v2-cb9df5ab04136416255db28b7bf82ec0\" class=\"origin_image zh-lightbox-thumb\" width=\"821\" data-original=\"https://pic1.zhimg.com/v2-cb9df5ab04136416255db28b7bf82ec0_r.jpg\"/></figure><p data-pid=\"rPAmSyum\">接下来我们改一下自动备份的设置，先到 Policies 点一下 edit</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-e31ccb355d33c1c111d2a130871dbc5e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"843\" data-rawheight=\"350\" data-original-token=\"v2-e31ccb355d33c1c111d2a130871dbc5e\" class=\"origin_image zh-lightbox-thumb\" width=\"843\" data-original=\"https://pica.zhimg.com/v2-e31ccb355d33c1c111d2a130871dbc5e_r.jpg\"/></figure><p data-pid=\"M6WE3S9T\">retention 这里我设置为 4 3 2 1，意思就是保持最新的 4 份，最近 3 小时的 3 份，最近两天的 2 份，最近一周的 1 份。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-7721f10395116a77fecbdec658a7e52e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"803\" data-rawheight=\"437\" data-original-token=\"v2-7721f10395116a77fecbdec658a7e52e\" class=\"origin_image zh-lightbox-thumb\" width=\"803\" data-original=\"https://pic1.zhimg.com/v2-7721f10395116a77fecbdec658a7e52e_r.jpg\"/></figure><p data-pid=\"jpmW7FMb\">Scheduling 这边的 interval 设置为 300，就是 5 分钟备份一次。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-a84104d0bbfe5031fb4a6a2833d8077d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"820\" data-rawheight=\"457\" data-original-token=\"v2-a84104d0bbfe5031fb4a6a2833d8077d\" class=\"origin_image zh-lightbox-thumb\" width=\"820\" data-original=\"https://picx.zhimg.com/v2-a84104d0bbfe5031fb4a6a2833d8077d_r.jpg\"/></figure><p data-pid=\"LaTAMiO1\">最后点击 Save Policy 完成设置。</p><h2><b>恭喜</b></h2><p data-pid=\"ekK816sz\">我们已经完成了每 5 分钟备份一次的设置。Kopia 会保留最新的 4 份备份，也就是 5 分钟前、10 分钟前、15 分钟前、20分钟前。还有最近 3 小时，1 小时前、2 小时前、3 小时前。还有 1 天前、2 天前和一周前。有这么多兜底，妈妈再也不怕我 SuperMemo 崩溃啦！</p><p data-pid=\"3SNSUODk\">如何恢复备份？先点击路径</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-062493b48d1f3c4624c826898bd71df6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"588\" data-rawheight=\"349\" data-original-token=\"v2-062493b48d1f3c4624c826898bd71df6\" class=\"origin_image zh-lightbox-thumb\" width=\"588\" data-original=\"https://pic1.zhimg.com/v2-062493b48d1f3c4624c826898bd71df6_r.jpg\"/></figure><p data-pid=\"hlhk8yjM\">再选择一份备份</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-38979ee3db8b4895ca652ec74e8f1391_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1372\" data-rawheight=\"1012\" data-original-token=\"v2-38979ee3db8b4895ca652ec74e8f1391\" class=\"origin_image zh-lightbox-thumb\" width=\"1372\" data-original=\"https://picx.zhimg.com/v2-38979ee3db8b4895ca652ec74e8f1391_r.jpg\"/></figure><p data-pid=\"Xvd4fYa4\">然后点 restore</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-9e338b109d11d2228ce1bbaf67d3605b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"429\" data-rawheight=\"228\" data-original-token=\"v2-9e338b109d11d2228ce1bbaf67d3605b\" class=\"origin_image zh-lightbox-thumb\" width=\"429\" data-original=\"https://pic2.zhimg.com/v2-9e338b109d11d2228ce1bbaf67d3605b_r.jpg\"/></figure><p data-pid=\"9A7zM4Bz\">填一下要恢复到哪个路径（建议先把你现在的 sm18 文件夹里面的东西都删掉），然后勾选一下 overwrite 覆盖，再 begin restore 即可。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-2dbfd3cf1d2fd5f7474d0cd368d44340_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"520\" data-rawheight=\"521\" data-original-token=\"v2-2dbfd3cf1d2fd5f7474d0cd368d44340\" class=\"origin_image zh-lightbox-thumb\" width=\"520\" data-original=\"https://pic1.zhimg.com/v2-2dbfd3cf1d2fd5f7474d0cd368d44340_r.jpg\"/></figure><h2>补充说明</h2><p data-pid=\"b90143XY\">SuperMemo 正在运行时，Kopia 可能会备份失败，所以如果你要进行高危操作，最好先关闭 SuperMemo，然后点击 Snapshot Now 手动备份。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-754845629238a9b1d776e6a91e611c6c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1984\" data-rawheight=\"416\" data-original-token=\"v2-754845629238a9b1d776e6a91e611c6c\" class=\"origin_image zh-lightbox-thumb\" width=\"1984\" data-original=\"https://pic3.zhimg.com/v2-754845629238a9b1d776e6a91e611c6c_r.jpg\"/></figure><p data-pid=\"OwAhP4fG\">另外最好将 Kopia 设置为开机自动启动。可以参考：</p><a href=\"https://zhuanlan.zhihu.com/p/265076894\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-9961132443806a940198d5e71bef2748_qhd.jpg\" data-image-width=\"1920\" data-image-height=\"1080\" class=\"internal\">愿君学习狂热：如何设置让软件开机自启动？三步搞定！</a><h2>拓展阅读</h2><p data-pid=\"dacqsWVN\">默认设置下 kopia 无法在 supermemo 运行时进行备份，需要开启影子备份，感谢 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/31cf1b829bffdcf9f8bed9bafa37d2ff\" data-hash=\"31cf1b829bffdcf9f8bed9bafa37d2ff\" data-hovercard=\"p$b$31cf1b829bffdcf9f8bed9bafa37d2ff\">@荆慢慢2.2</a> 提供的教程：</p><a href=\"https://zhuanlan.zhihu.com/p/524574542\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">荆慢慢2.2：KOPIA 开启影子备份以及 SUPERMEMO 18 的数据修护方法</a><p></p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19551843",
+      "type": "topic",
+      "id": "19551843",
+      "name": "备份"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19695588",
+      "type": "topic",
+      "id": "19695588",
+      "name": "SuperMemo"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19611928",
+      "type": "topic",
+      "id": "19611928",
+      "name": "文件备份"
+    }
+  ],
+  "voteup_count": 161,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "用渐进学习的方式建立我们大脑的概念网络",
+    "is_following": false,
+    "url_token": "c_1308886122672484352",
+    "id": "c_1308886122672484352",
+    "articles_count": 61,
+    "accept_submission": false,
+    "title": "SuperMemo—渐进学习最前沿！",
+    "url": "https://api.zhihu.com/columns/c_1308886122672484352",
+    "comment_permission": "all",
+    "created": 1604842769,
+    "updated": 1751811091,
+    "image_url": "https://picx.zhimg.com/v2-3cce7a5e28a0717c6181134587fdd7c1_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 610,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 90,
+  "contributions": [
+    {
+      "id": 29108206,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "用渐进学习的方式建立我们大脑的概念网络",
+        "is_following": false,
+        "url_token": "c_1308886122672484352",
+        "id": "c_1308886122672484352",
+        "articles_count": 61,
+        "accept_submission": false,
+        "title": "SuperMemo—渐进学习最前沿！",
+        "url": "https://api.zhihu.com/columns/c_1308886122672484352",
+        "comment_permission": "all",
+        "created": 1604842769,
+        "updated": 1751811091,
+        "image_url": "https://picx.zhimg.com/v2-3cce7a5e28a0717c6181134587fdd7c1_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 610,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 351606263,
-  "voteup_count": 146,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 281,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "SuperMemo 自动备份 - 来自知乎专栏「SuperMemo—渐进学习最前沿！」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/351606263 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1613788073,
-  "url": "https://api.zhihu.com/articles/351606263",
-  "comment_permission": "all",
-  "title": "SuperMemo 自动备份",
-  "image_width": 482,
-  "content": "<h2>更新</h2><p data-pid=\"mEoDqKi0\">2021 年 10 月 28 日：推翻重写，不再使用 BitShelter，改用 Kopia 来备份。不再需要单独划分磁盘，并且设置非常好理解。</p><h2>警告</h2><p data-pid=\"g7iCA2Xj\">千万不要用百度网盘自动备份或者坚果云同步之类的在线同步备份软件，很可能会搞错 SuperMemo 的文件版本，导致卡片丢失或者数据损坏。</p><h2><b>引入</b></h2><p data-pid=\"95gBGDm6\">SuperMemo 只有手动备份功能，使用者难免会忘记及时备份，当自己误删后想要回滚，才发现上次备份已经是几个月前，这期间的工作全部木大。为了预防这种情况出现，我建议日常使用 SuperMemo 的朋友掌握一下自动备份的方法，以防不测。</p><h2><b>效果预览</b></h2><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-b36b2bc5e89cd944c7bcd2ef701a174d_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1046\" data-rawheight=\"548\" class=\"origin_image zh-lightbox-thumb\" width=\"1046\" data-original=\"https://picx.zhimg.com/v2-b36b2bc5e89cd944c7bcd2ef701a174d_r.jpg\" data-original-token=\"v2-b36b2bc5e89cd944c7bcd2ef701a174d\"/></figure><h2><b>准备工作</b></h2><p data-pid=\"amX-dFmG\">下载 Kopia 并安装</p><p data-pid=\"35HYnCtt\"><a href=\"https://link.zhihu.com/?target=https%3A//ghproxy.com/https%3A//github.com/kopia/kopia/releases/download/v0.9.4/KopiaUI-Setup-0.9.4.exe\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">ghproxy.com/https://git</span><span class=\"invisible\">hub.com/kopia/kopia/releases/download/v0.9.4/KopiaUI-Setup-0.9.4.exe</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"RHVivc58\">打开 Kopia 并点击 Filesystem，我们这次就做本地备份。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-2d1677aa654bbefa15f6119faba30f3a_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"842\" data-rawheight=\"619\" class=\"origin_image zh-lightbox-thumb\" width=\"842\" data-original=\"https://pica.zhimg.com/v2-2d1677aa654bbefa15f6119faba30f3a_r.jpg\" data-original-token=\"v2-2d1677aa654bbefa15f6119faba30f3a\"/></figure><p data-pid=\"WGKCBqod\">随手找一个<b>空文件夹（最好新建一个）</b>来当备份目录：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-692a350bd6850d5b01dfcbc08936242b_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"533\" data-rawheight=\"317\" class=\"origin_image zh-lightbox-thumb\" width=\"533\" data-original=\"https://pic2.zhimg.com/v2-692a350bd6850d5b01dfcbc08936242b_r.jpg\" data-original-token=\"v2-692a350bd6850d5b01dfcbc08936242b\"/></figure><p data-pid=\"TUVSSWXd\">设置一下备份加密密码</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-71a50f5841cb1f58712fd1fff854dba3_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"839\" data-rawheight=\"429\" class=\"origin_image zh-lightbox-thumb\" width=\"839\" data-original=\"https://picx.zhimg.com/v2-71a50f5841cb1f58712fd1fff854dba3_r.jpg\" data-original-token=\"v2-71a50f5841cb1f58712fd1fff854dba3\"/></figure><p data-pid=\"AjkoIo2m\">好了，接下来就可以开始设置备份计划了</p><h2>备份设置</h2><p data-pid=\"WpsWtZ7H\">点 New Snapshot，开始设置</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-33b34ca8b74364d97919d843690cc668_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"833\" data-rawheight=\"295\" class=\"origin_image zh-lightbox-thumb\" width=\"833\" data-original=\"https://pic3.zhimg.com/v2-33b34ca8b74364d97919d843690cc668_r.jpg\" data-original-token=\"v2-33b34ca8b74364d97919d843690cc668\"/></figure><p data-pid=\"hnFz-z42\">输入你的 sm18 路径，点一下 estimate 看看对不对。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a79481a0dde96e02032308b46d3f54cc_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"822\" data-rawheight=\"611\" class=\"origin_image zh-lightbox-thumb\" width=\"822\" data-original=\"https://pic1.zhimg.com/v2-a79481a0dde96e02032308b46d3f54cc_r.jpg\" data-original-token=\"v2-a79481a0dde96e02032308b46d3f54cc\"/></figure><p data-pid=\"GVQqymYi\">然后点 snapshot now 就可以手动备份了。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-cb9df5ab04136416255db28b7bf82ec0_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"821\" data-rawheight=\"600\" class=\"origin_image zh-lightbox-thumb\" width=\"821\" data-original=\"https://pic1.zhimg.com/v2-cb9df5ab04136416255db28b7bf82ec0_r.jpg\" data-original-token=\"v2-cb9df5ab04136416255db28b7bf82ec0\"/></figure><p data-pid=\"rPAmSyum\">接下来我们改一下自动备份的设置，先到 Policies 点一下 edit</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-e31ccb355d33c1c111d2a130871dbc5e_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"843\" data-rawheight=\"350\" class=\"origin_image zh-lightbox-thumb\" width=\"843\" data-original=\"https://pica.zhimg.com/v2-e31ccb355d33c1c111d2a130871dbc5e_r.jpg\" data-original-token=\"v2-e31ccb355d33c1c111d2a130871dbc5e\"/></figure><p data-pid=\"M6WE3S9T\">retention 这里我设置为 4 3 2 1，意思就是保持最新的 4 份，最近 3 小时的 3 份，最近两天的 2 份，最近一周的 1 份。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-7721f10395116a77fecbdec658a7e52e_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"803\" data-rawheight=\"437\" class=\"origin_image zh-lightbox-thumb\" width=\"803\" data-original=\"https://pic1.zhimg.com/v2-7721f10395116a77fecbdec658a7e52e_r.jpg\" data-original-token=\"v2-7721f10395116a77fecbdec658a7e52e\"/></figure><p data-pid=\"jpmW7FMb\">Scheduling 这边的 interval 设置为 300，就是 5 分钟备份一次。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-a84104d0bbfe5031fb4a6a2833d8077d_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"820\" data-rawheight=\"457\" class=\"origin_image zh-lightbox-thumb\" width=\"820\" data-original=\"https://picx.zhimg.com/v2-a84104d0bbfe5031fb4a6a2833d8077d_r.jpg\" data-original-token=\"v2-a84104d0bbfe5031fb4a6a2833d8077d\"/></figure><p data-pid=\"LaTAMiO1\">最后点击 Save Policy 完成设置。</p><h2><b>恭喜</b></h2><p data-pid=\"ekK816sz\">我们已经完成了每 5 分钟备份一次的设置。Kopia 会保留最新的 4 份备份，也就是 5 分钟前、10 分钟前、15 分钟前、20分钟前。还有最近 3 小时，1 小时前、2 小时前、3 小时前。还有 1 天前、2 天前和一周前。有这么多兜底，妈妈再也不怕我 SuperMemo 崩溃啦！</p><p data-pid=\"3SNSUODk\">如何恢复备份？先点击路径</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-062493b48d1f3c4624c826898bd71df6_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"588\" data-rawheight=\"349\" class=\"origin_image zh-lightbox-thumb\" width=\"588\" data-original=\"https://pic1.zhimg.com/v2-062493b48d1f3c4624c826898bd71df6_r.jpg\" data-original-token=\"v2-062493b48d1f3c4624c826898bd71df6\"/></figure><p data-pid=\"hlhk8yjM\">再选择一份备份</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-38979ee3db8b4895ca652ec74e8f1391_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1372\" data-rawheight=\"1012\" class=\"origin_image zh-lightbox-thumb\" width=\"1372\" data-original=\"https://picx.zhimg.com/v2-38979ee3db8b4895ca652ec74e8f1391_r.jpg\" data-original-token=\"v2-38979ee3db8b4895ca652ec74e8f1391\"/></figure><p data-pid=\"Xvd4fYa4\">然后点 restore</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-9e338b109d11d2228ce1bbaf67d3605b_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"429\" data-rawheight=\"228\" class=\"origin_image zh-lightbox-thumb\" width=\"429\" data-original=\"https://pic2.zhimg.com/v2-9e338b109d11d2228ce1bbaf67d3605b_r.jpg\" data-original-token=\"v2-9e338b109d11d2228ce1bbaf67d3605b\"/></figure><p data-pid=\"9A7zM4Bz\">填一下要恢复到哪个路径（建议先把你现在的 sm18 文件夹里面的东西都删掉），然后勾选一下 overwrite 覆盖，再 begin restore 即可。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-2dbfd3cf1d2fd5f7474d0cd368d44340_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"520\" data-rawheight=\"521\" class=\"origin_image zh-lightbox-thumb\" width=\"520\" data-original=\"https://pic1.zhimg.com/v2-2dbfd3cf1d2fd5f7474d0cd368d44340_r.jpg\" data-original-token=\"v2-2dbfd3cf1d2fd5f7474d0cd368d44340\"/></figure><h2>补充说明</h2><p data-pid=\"b90143XY\">SuperMemo 正在运行时，Kopia 可能会备份失败，所以如果你要进行高危操作，最好先关闭 SuperMemo，然后点击 Snapshot Now 手动备份。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-754845629238a9b1d776e6a91e611c6c_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1984\" data-rawheight=\"416\" class=\"origin_image zh-lightbox-thumb\" width=\"1984\" data-original=\"https://pic3.zhimg.com/v2-754845629238a9b1d776e6a91e611c6c_r.jpg\" data-original-token=\"v2-754845629238a9b1d776e6a91e611c6c\"/></figure><p data-pid=\"OwAhP4fG\">另外最好将 Kopia 设置为开机自动启动。可以参考：</p><a href=\"https://zhuanlan.zhihu.com/p/265076894\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-9961132443806a940198d5e71bef2748_qhd.jpg\" data-image-width=\"1920\" data-image-height=\"1080\" class=\"internal\">愿君学习狂热：如何设置让软件开机自启动？三步搞定！</a><h2>拓展阅读</h2><p data-pid=\"dacqsWVN\">默认设置下 kopia 无法在 supermemo 运行时进行备份，需要开启影子备份，感谢 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/31cf1b829bffdcf9f8bed9bafa37d2ff\" data-hash=\"31cf1b829bffdcf9f8bed9bafa37d2ff\" data-hovercard=\"p$b$31cf1b829bffdcf9f8bed9bafa37d2ff\">@荆慢慢2.2</a> 提供的教程：</p><a href=\"https://zhuanlan.zhihu.com/p/524574542\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">荆慢慢2.2：KOPIA 开启影子备份以及 SUPERMEMO 18 的数据修护方法</a><p></p>",
-  "column": {
-    "updated": 1604842769,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/c_1308886122672484352",
-    "title": "SuperMemo—渐进学习最前沿！",
-    "image_url": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1308886122672484352"
-  },
-  "comment_count": 86,
-  "image_url": "https://pic1.zhimg.com/v2-257eb3389fa79037c9d13b937e93999f_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 42,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 42,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxNjYyNjQ5NTUSCTM1MTYwNjI2MxgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 161,
+      "down_vote_count": 4,
+      "like_count": 42,
+      "comment_count": 90,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 281,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-062493b48d1f3c4624c826898bd71df6": 0,
+        "v2-257eb3389fa79037c9d13b937e93999f": 0,
+        "v2-2d1677aa654bbefa15f6119faba30f3a": 0,
+        "v2-2dbfd3cf1d2fd5f7474d0cd368d44340": 0,
+        "v2-33b34ca8b74364d97919d843690cc668": 0,
+        "v2-38979ee3db8b4895ca652ec74e8f1391": 0,
+        "v2-692a350bd6850d5b01dfcbc08936242b": 0,
+        "v2-71a50f5841cb1f58712fd1fff854dba3": 0,
+        "v2-754845629238a9b1d776e6a91e611c6c": 0,
+        "v2-7721f10395116a77fecbdec658a7e52e": 0,
+        "v2-9e338b109d11d2228ce1bbaf67d3605b": 0,
+        "v2-a79481a0dde96e02032308b46d3f54cc": 0,
+        "v2-a84104d0bbfe5031fb4a6a2833d8077d": 0,
+        "v2-b36b2bc5e89cd944c7bcd2ef701a174d": 0,
+        "v2-cb9df5ab04136416255db28b7bf82ec0": 0,
+        "v2-e31ccb355d33c1c111d2a130871dbc5e": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-062493b48d1f3c4624c826898bd71df6": false,
+        "v2-257eb3389fa79037c9d13b937e93999f": false,
+        "v2-2d1677aa654bbefa15f6119faba30f3a": false,
+        "v2-2dbfd3cf1d2fd5f7474d0cd368d44340": false,
+        "v2-33b34ca8b74364d97919d843690cc668": false,
+        "v2-38979ee3db8b4895ca652ec74e8f1391": false,
+        "v2-692a350bd6850d5b01dfcbc08936242b": false,
+        "v2-71a50f5841cb1f58712fd1fff854dba3": false,
+        "v2-754845629238a9b1d776e6a91e611c6c": false,
+        "v2-7721f10395116a77fecbdec658a7e52e": false,
+        "v2-9e338b109d11d2228ce1bbaf67d3605b": false,
+        "v2-a79481a0dde96e02032308b46d3f54cc": false,
+        "v2-a84104d0bbfe5031fb4a6a2833d8077d": false,
+        "v2-b36b2bc5e89cd944c7bcd2ef701a174d": false,
+        "v2-cb9df5ab04136416255db28b7bf82ec0": false,
+        "v2-e31ccb355d33c1c111d2a130871dbc5e": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-062493b48d1f3c4624c826898bd71df6": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-257eb3389fa79037c9d13b937e93999f": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-2d1677aa654bbefa15f6119faba30f3a": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-2dbfd3cf1d2fd5f7474d0cd368d44340": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-33b34ca8b74364d97919d843690cc668": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-38979ee3db8b4895ca652ec74e8f1391": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-692a350bd6850d5b01dfcbc08936242b": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-71a50f5841cb1f58712fd1fff854dba3": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-754845629238a9b1d776e6a91e611c6c": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-7721f10395116a77fecbdec658a7e52e": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-9e338b109d11d2228ce1bbaf67d3605b": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-a79481a0dde96e02032308b46d3f54cc": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-a84104d0bbfe5031fb4a6a2833d8077d": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-b36b2bc5e89cd944c7bcd2ef701a174d": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-cb9df5ab04136416255db28b7bf82ec0": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-e31ccb355d33c1c111d2a130871dbc5e": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=351606263&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · SuperMemo—渐进学习最前沿！",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1308886122672484352",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · SuperMemo—渐进学习最前沿！"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

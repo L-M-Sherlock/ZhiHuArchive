@@ -1,80 +1,419 @@
 {
-  "status": 0,
+  "id": "127043982",
+  "title": "【分享】QuickerXMathpix 实现截图公式OCR",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/127043982",
+  "image_url": "https://pica.zhimg.com/v2-96180dce7d89d5a4e76fe3407179e74e_720w.jpg?source=172ae18b",
+  "title_image": "https://pic1.zhimg.com/v2-96180dce7d89d5a4e76fe3407179e74e_720w.jpg?source=172ae18b",
+  "excerpt": "看了 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/f436aadd161533cf31b3149b0e43086b\" data-hash=\"f436aadd161533cf31b3149b0e43086b\" data-hovercard=\"p$b$f436aadd161533cf31b3149b0e43086b\">@circlestar</a> 大佬的几篇介绍 Quicker 的文章，我也入坑了。说到公式 OCR，之前我推荐过的天若 OCR 现在已经无法使用公式识别的接口了。网络上有很多人推荐使用 Mathpix，可是 Mathpix 一个月只免费 50 次，根本不够用啊！ 所以今天我给大家分享一个快…",
+  "created": 1586316501,
   "updated": 1586316501,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "看了 @circlestar 大佬的几篇介绍 Quicker 的文章，我也入坑了。说到公式 OCR，之前…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 1096,
+  "image_height": 619,
+  "content": "<p data-pid=\"VDF0IPZu\">看了 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/f436aadd161533cf31b3149b0e43086b\" data-hash=\"f436aadd161533cf31b3149b0e43086b\" data-hovercard=\"p$b$f436aadd161533cf31b3149b0e43086b\">@circlestar</a> 大佬的几篇介绍 Quicker 的文章，我也入坑了。</p><p data-pid=\"AmCHMcRv\">说到公式 OCR，之前我推荐过的天若 OCR 现在已经无法使用公式识别的接口了。网络上有很多人推荐使用 Mathpix，可是 Mathpix 一个月只免费 50 次，根本不够用啊！</p><p data-pid=\"NjD5jN6B\">所以今天我给大家分享一个快捷、免费的公式OCR方法。（好吧，每月免费 1000 次）</p><p data-pid=\"zTqQaK02\">不需要下载 Mathpix，也不需要付费，就能轻松实现公式OCR。（但是需要绑定信用卡）</p><p data-pid=\"FmuhiMCS\">具体怎么做？</p><a href=\"https://zhuanlan.zhihu.com/p/83678942\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-80e4f4965869f32e03589ce79f0b8072_180x120.jpg\" data-image-width=\"1158\" data-image-height=\"366\" class=\"internal\">GLGJSSY：Mathpix收费了？快使用API吧，一个月免费识别1000次！</a><p data-pid=\"qpbwXS1g\">上面这篇文章介绍了 Mathpix 的 API 获取方式，但是调用这个 API 还需要自己写代码，并不方便。</p><p data-pid=\"89Yb_eEL\">用 Quicker 动作来做这个 API 的前端可以省去大量操作。更何况，已经有人把这个动作做出了并公开了：</p><a href=\"https://link.zhihu.com/?target=https%3A//getquicker.net/sharedaction%3Fcode%3Dacf019b8-434e-4979-be62-08d776d80bd7\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-94a19a1f556835240850cdd0a48e5f2f_180x120.jpg\" data-image-width=\"481\" data-image-height=\"140\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">截图识别公式 - 已分享的动作 - Quicker</a><p data-pid=\"pMIeSVW6\">所以，简单梳理一下，具体的流程是：</p><ol><li data-pid=\"EZaepRsc\">访问 <a href=\"https://link.zhihu.com/?target=https%3A//dashboard.mathpix.com\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">dashboard.mathpix.com</span><span class=\"invisible\"></span></a> 并注册账号</li><li data-pid=\"C8NbqecI\">输入信用卡信息，不需要Visa，保证可用额度在 8 元以上，用于验证扣款（会打回来）</li><li data-pid=\"KjoJchpO\">启动 Quicker，打开<b>截图识别公式</b>动作，输入 API id 和 key</li><li data-pid=\"evrUaH_v\">开始享受每月 1000 次的免费数学公式识别吧</li></ol><p></p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19588774",
+      "type": "topic",
+      "id": "19588774",
+      "name": "图像识别"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19704439",
+      "type": "topic",
+      "id": "19704439",
+      "name": "文字识别（技术）"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19574441",
+      "type": "topic",
+      "id": "19574441",
+      "name": "OCR（光学字符识别）"
+    }
+  ],
+  "voteup_count": 39,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "quicker实现anki快速制卡以及各种便捷操作",
+    "can_manage": false,
+    "intro": "quicker实现anki快速制卡以及各种便捷操作",
+    "is_following": false,
+    "url_token": "AnkiXQuicker",
+    "id": "AnkiXQuicker",
+    "articles_count": 3,
+    "accept_submission": true,
+    "title": "AnkiXQuicker",
+    "url": "https://api.zhihu.com/columns/AnkiXQuicker",
+    "comment_permission": "all",
+    "created": 1569819004,
+    "updated": 1599166840,
+    "image_url": "https://picx.zhimg.com/v2-a72a10efaaba48fcc71b64c36551528b_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pica.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=172ae18b",
+      "uid": "826871350676295680",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "circlestar",
+      "id": "f436aadd161533cf31b3149b0e43086b",
+      "description": "「已注销」",
+      "name": "知乎用户MSxf8J",
+      "is_advertiser": false,
+      "headline": "",
+      "gender": 0,
+      "url": "https://api.zhihu.com/people/f436aadd161533cf31b3149b0e43086b",
+      "avatar_url": "https://pic1.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 503,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 13,
+  "contributions": [
+    {
+      "id": 23572912,
+      "state": "accepted",
+      "type": "include",
+      "column": {
+        "description": "quicker实现anki快速制卡以及各种便捷操作",
+        "can_manage": false,
+        "intro": "quicker实现anki快速制卡以及各种便捷操作",
+        "is_following": false,
+        "url_token": "AnkiXQuicker",
+        "id": "AnkiXQuicker",
+        "articles_count": 3,
+        "accept_submission": true,
+        "title": "AnkiXQuicker",
+        "url": "https://api.zhihu.com/columns/AnkiXQuicker",
+        "comment_permission": "all",
+        "created": 1569819004,
+        "updated": 1599166840,
+        "image_url": "https://picx.zhimg.com/v2-a72a10efaaba48fcc71b64c36551528b_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pica.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=172ae18b",
+          "uid": "826871350676295680",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "circlestar",
+          "id": "f436aadd161533cf31b3149b0e43086b",
+          "description": "「已注销」",
+          "name": "知乎用户MSxf8J",
+          "is_advertiser": false,
+          "headline": "",
+          "gender": 0,
+          "url": "https://api.zhihu.com/people/f436aadd161533cf31b3149b0e43086b",
+          "avatar_url": "https://pic1.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 503,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 127043982,
-  "voteup_count": 38,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 60,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "【分享】QuickerXMathpix 实现截图公式OCR - 来自知乎专栏「AnkiXQuicker」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/127043982 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1586316501,
-  "url": "https://api.zhihu.com/articles/127043982",
-  "comment_permission": "all",
-  "title": "【分享】QuickerXMathpix 实现截图公式OCR",
-  "image_width": 619,
-  "content": "<p data-pid=\"VDF0IPZu\">看了 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/f436aadd161533cf31b3149b0e43086b\" data-hash=\"f436aadd161533cf31b3149b0e43086b\" data-hovercard=\"p$b$f436aadd161533cf31b3149b0e43086b\">@circlestar</a> 大佬的几篇介绍 Quicker 的文章，我也入坑了。</p><p data-pid=\"AmCHMcRv\">说到公式 OCR，之前我推荐过的天若 OCR 现在已经无法使用公式识别的接口了。网络上有很多人推荐使用 Mathpix，可是 Mathpix 一个月只免费 50 次，根本不够用啊！</p><p data-pid=\"NjD5jN6B\">所以今天我给大家分享一个快捷、免费的公式OCR方法。（好吧，每月免费 1000 次）</p><p data-pid=\"zTqQaK02\">不需要下载 Mathpix，也不需要付费，就能轻松实现公式OCR。（但是需要绑定信用卡）</p><p data-pid=\"FmuhiMCS\">具体怎么做？</p><a href=\"https://zhuanlan.zhihu.com/p/83678942\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-80e4f4965869f32e03589ce79f0b8072_180x120.jpg\" data-image-width=\"1158\" data-image-height=\"366\" class=\"internal\">GLGJSSY：Mathpix收费了？快使用API吧，一个月免费识别1000次！</a><p data-pid=\"qpbwXS1g\">上面这篇文章介绍了 Mathpix 的 API 获取方式，但是调用这个 API 还需要自己写代码，并不方便。</p><p data-pid=\"89Yb_eEL\">用 Quicker 动作来做这个 API 的前端可以省去大量操作。更何况，已经有人把这个动作做出了并公开了：</p><a href=\"https://link.zhihu.com/?target=https%3A//getquicker.net/sharedaction%3Fcode%3Dacf019b8-434e-4979-be62-08d776d80bd7\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-94a19a1f556835240850cdd0a48e5f2f_180x120.jpg\" data-image-width=\"481\" data-image-height=\"140\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">截图识别公式 - 已分享的动作 - Quicker</a><p data-pid=\"pMIeSVW6\">所以，简单梳理一下，具体的流程是：</p><ol><li data-pid=\"EZaepRsc\">访问 <a href=\"https://link.zhihu.com/?target=https%3A//dashboard.mathpix.com\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">dashboard.mathpix.com</span><span class=\"invisible\"></span></a> 并注册账号</li><li data-pid=\"C8NbqecI\">输入信用卡信息，不需要Visa，保证可用额度在 8 元以上，用于验证扣款（会打回来）</li><li data-pid=\"KjoJchpO\">启动 Quicker，打开<b>截图识别公式</b>动作，输入 API id 和 key</li><li data-pid=\"evrUaH_v\">开始享受每月 1000 次的免费数学公式识别吧</li></ol><p></p>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 13,
-  "image_url": "https://pic1.zhimg.com/v2-96180dce7d89d5a4e76fe3407179e74e_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 8,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 8,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxMTYzNjI4MDESCTEyNzA0Mzk4MhgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 39,
+      "down_vote_count": 0,
+      "like_count": 8,
+      "comment_count": 13,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 60,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-96180dce7d89d5a4e76fe3407179e74e": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-96180dce7d89d5a4e76fe3407179e74e": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-96180dce7d89d5a4e76fe3407179e74e": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=127043982&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · AnkiXQuicker",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/AnkiXQuicker",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · AnkiXQuicker"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

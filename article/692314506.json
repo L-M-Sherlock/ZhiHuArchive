@@ -1,75 +1,497 @@
 {
-  "status": 0,
-  "updated": 1713015023,
+  "id": "692314506",
+  "title": "FSRS 是全世界最精确的间隔重复算法之一（最新基准测试更新）",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/692314506",
+  "image_url": "https://picx.zhimg.com/v2-df9e4487d87d4028f6bf15905deab488_720w.jpg?source=172ae18b",
+  "title_image": "https://pic1.zhimg.com/v2-df9e4487d87d4028f6bf15905deab488_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://pic1.zhimg.com/v2-9f9e4a3fab8be98e61e2895e94862286_200x112.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"720\" data-watermark=\"original\" data-original-src=\"v2-9f9e4a3fab8be98e61e2895e94862286\" data-watermark-src=\"v2-6934213d3aa50fa824cbbd4c6743ff90\" data-private-watermark-src=\"\" data-original=\"https://pic1.zhimg.com/v2-9f9e4a3fab8be98e61e2895e94862286_r.jpg\" class=\"origin_image inline-img zh-lightbox-thumb\"/>译者：FSRS 是基于墨墨背单词的论文《<a href=\"https://link.zhihu.com/?target=https%3A//memodocs.maimemo.com/docs/2022_KDD\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">优化间隔重复调度的随机最短路径算法 | 墨墨百科</a>》衍生出的开源项目。本文取代了我之前关于基准测试的旧帖，并已将其加入到我 <a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/r/Anki/comments/18jvyun/some_posts_and_articles_about_fsrs/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">关于 FSRS 的文章合集</a>中。你无需阅读旧帖，我也不会再链接到那篇文章。首先，任何「诚实」…",
+  "created": 1713005556,
+  "updated": 1760413606,
   "author": {
     "is_followed": false,
-    "badge": [],
-    "name": "Jarrett Ye",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
-    "gender": 1,
+    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+    "uid": "1521893281407864832",
     "user_type": "people",
-    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
-    "avatar_url": "https://picx.zhimg.com/50/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=b1748391",
     "is_following": false,
+    "url_token": "JarrettYe",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+    "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+    "name": "Jarrett Ye",
+    "is_advertiser": false,
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "gender": 1,
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+    "is_org": false,
     "type": "people",
-    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    "badge": [],
+    "badge_v2": {
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "merged_badges": [],
+      "detail_badges": [],
+      "icon": "",
+      "night_icon": ""
+    },
+    "exposed_medal": {
+      "medal_id": "1463836052717301760",
+      "medal_name": "知「势」之星",
+      "avatar_url": "https://picx.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_r.png?source=172ae18b",
+      "mini_avatar_url": "https://pic1.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_l.png?source=172ae18b",
+      "description": "「知势榜」上榜答主即可获得",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "本文取代了我之前关于基准测试的旧帖，并已将其加入到我关于 FSRS 的文章合集 中。你…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 3271,
+  "image_height": 770,
+  "content": "<blockquote data-pid=\"IJkgn-7t\">译者：FSRS 是基于墨墨背单词的论文《<a href=\"https://link.zhihu.com/?target=https%3A//memodocs.maimemo.com/docs/2022_KDD\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">优化间隔重复调度的随机最短路径算法 | 墨墨百科</a>》衍生出的开源项目。</blockquote><p data-pid=\"wOtS2hfY\">本文取代了我之前关于基准测试的旧帖，并已将其加入到我<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/r/Anki/comments/18jvyun/some_posts_and_articles_about_fsrs/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">关于 FSRS 的文章合集</a>中。你无需阅读旧帖，我也不会再链接到那篇文章。</p><p data-pid=\"wuCr5Nrn\">首先，任何「诚实」的间隔重复算法都必须能够预测在特定时间点<b>回忆</b>一张卡片的<b>概率</b>，这取决于卡片的复习历史。在下文中，我会用 <b>R </b>来指代这个概率。</p><p data-pid=\"HUpggnAL\">如果一个「不诚实」的算法不计算概率，只输出一个时间间隔，我们仍然可以在某些假设下将这个间隔转换为概率。虽然不是最理想，但总好过没有，因为这至少允许我们进行某种比较。这就是我们对 SM-2 算法所做的，它是基准测试中唯一的「不诚实」算法。我们决定不加入 <a href=\"https://link.zhihu.com/?target=https%3A//memrise.zendesk.com/hc/en-us/articles/360015889057-How-does-the-spaced-repetition-system-work\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Memrise</a>，因为我们不确定所需的假设是否适用于将其间隔转换为概率。不过，即使加入了，它的表现也不会太好，它的灵活性极差，几乎不配被称为算法。</p><p data-pid=\"8Aiz_1qb\">一旦我们有了能预测 R 的算法，我们就可以在一些用户的复习历史上运行它，看看预测的 R 与实测的 R 偏差有多大。如果我们使用数亿次复习来做这种测试，我们将能很好地了解哪种算法的平均表现更佳。<b>RMSE</b>（均方根误差）可以理解为「<b>预测与实测回忆概率之间的平均差异</b>」。它与你熟悉的算术平均值不完全相同。MAE（平均绝对误差）有一些不理想的特性，因此选择使用 RMSE。RMSE 总是大于或等于 MAE。</p><p data-pid=\"qgK4kAAH\">为了防止作弊，RMSE 的计算方法最近已经重新设计。如果你想了解这些数学细节，可以阅读我和 LMSherlock 撰写的<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/The-Metric\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这篇文章</a>。简而言之：有一种特定的方法可以降低 RMSE，而实际上并没有提高算法预测R的能力，这就是为什么我们改变了计算方法。新方法是我们自己发明的，你在任何论文中都找不到。Anki 的最新版本 24.04 也采用了这种新方法。</p><p data-pid=\"B8X8WKRD\">现在，让我们介绍一下参赛者。这次的名单比之前要长得多。</p><h2>算法介绍</h2><h3>FSRS 系列</h3><p data-pid=\"Na8WvEf3\">（1）FSRS v3。这是第一个真正被人们使用的 FSRS 版本，发布于 2022 年 10 月。虽然它不算糟糕，但存在一些问题。我、LMSherlock 和其他几位用户提出并测试了许多改进算法的想法（只有少数被证实有效）。</p><p data-pid=\"05H7hmFd\">（2）FSRS v4。该版本于 2023 年 7 月发布，到了 11 月初，它被整合进了 Anki。相比 v3，这是一个显著的进步。</p><p data-pid=\"g5KCxynS\">（3）FSRS-4.5。这是 FSRS v4 的一个略有改进的版本，遗忘曲线的形状发生了变化。现在，它被用于 Anki 的所有最新版本：桌面版、AnkiDroid、AnkiMobile 和 AnkiWeb。</p><h3>通用深度学习算法系列 </h3><p data-pid=\"t3e_tu3C\">（4）Transformer。这种神经网络架构近年来因其在自然语言处理中的卓越性能而流行起来。ChatGPT 采用了这种架构。</p><p data-pid=\"mjlF4UP5\">（5）GRU（门控循环单元）。这种神经网络架构通常用于时间序列分析，如预测股市趋势或识别人类语音。最初，我们使用了一种更复杂的架构，名为 LSTM，但 GRU 在参数更少的情况下表现更佳。</p><p data-pid=\"JWl_El8K\">下面简单解释一下 GRU 和 Transformer 之间的区别。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-9f9e4a3fab8be98e61e2895e94862286_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"720\" data-original-token=\"v2-9f9e4a3fab8be98e61e2895e94862286\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic1.zhimg.com/v2-9f9e4a3fab8be98e61e2895e94862286_r.jpg\"/></figure><blockquote data-pid=\"0RelqWuS\">我将用自然语言处理的例子来说明，因为这更直观。<br/>GRU 从左到右「阅读」句子，并根据单词的最近出现时间，对每个单词给予一定程度的「注意力」（颜色越深表示关注越多）。到了最后一个词时，它可能已经忘记了第一个词。当然，这是一个夸张的例子，但它确实展示了一个真实的问题。<br/>Transformer 则是一次性「阅读」整个句子，所有词汇并行处理，而不是顺序处理。这使得 Transformer 能够对句中任何位置的任何单词给予任意程度的「注意力」。ChatGPT 就是基于这种架构的。</blockquote><h3>DASH 系列</h3><p data-pid=\"CqP93e2V\">（6）<a href=\"https://link.zhihu.com/?target=https%3A//scholar.colorado.edu/concern/graduate_thesis_or_dissertations/zp38wc97m\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">DASH</a>（难度、能力与学习历史）。这是一个基于神经科学的真正的人类记忆模型。嗯，可以这么说。但它的问题在于，遗忘曲线看起来像一个台阶，也就是阶梯函数。</p><p data-pid=\"pPtYfObf\">（7）DASH[MCM]。这是一个混合模型，解决了 DASH 遗忘曲线的一些问题。</p><p data-pid=\"m-ORx7GX\">（8）DASH[ACT-R]。另一个混合模型，最终实现了一个外观优美的遗忘曲线。</p><p data-pid=\"feCU9qNC\"><a href=\"https://link.zhihu.com/?target=https%3A//www.politesi.polimi.it/retrieve/b39227dd-0963-40f2-a44b-624f205cb224/2022_4_Randazzo_01.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这里还有一篇相关的论文</a>。抱歉，没有通俗解释。</p><h3>其他算法</h3><p data-pid=\"oysC0BkA\">（9）<a href=\"https://link.zhihu.com/?target=http%3A//act-r.psy.cmu.edu/wordpress/wp-content/themes/ACT-R/workshops/2003/proceedings/46.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">ACT-R</a>（Adaptive Control of Thought - Rational，在某些论文中也见过用 Character 替代 Control）。这是一个人类记忆模型，。它有一个非常奇怪的假设：无论你是否成功回忆起材料，并不影响间隔效应的大小，只有间隔长度重要。简单来说，这个算法不区分「重来」、「困难」、「良好」、「简单」。</p><p data-pid=\"Tn0MRyzA\">（10）<a href=\"https://link.zhihu.com/?target=https%3A//github.com/duolingo/halflife-regression/blob/master/settles.acl16.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">HLR</a>（Half-Life Regression）。这是由 Duolingo 为 Duolingo 开发的算法。HLR 中的记忆半衰期与 FSRS 中的记忆稳定性在概念上非常相似，但其计算公式过于简化。</p><p data-pid=\"rEGBeymb\">（11）SM-2。这是一个超过 35 年历史的算法，仍被 Anki、Mnemosyne 及可能的其他应用使用。它的主要优点是简单。请注意，在我们的基准测试中，它是按照最初的设计实现的。<b>这不是 Anki 版的 SM-2</b>，而是原版 SM-2。</p><p data-pid=\"Kt9sD1ob\">我们原本以为 SuperMemo API 会在今年发布，这将让 LMSherlock 能够在 Anki 数据上对 SuperMemo 进行基准测试，虽然需要付费。但看起来 SuperMemo World 的 CEO 改变了主意。我们可能永远也不会知道 FSRS 还是 SM-17/18/未来某个版本哪个更好。所以作为安慰奖，我们加入了某种类似于 SM-17 的东西。</p><p data-pid=\"ht7QT30Q\">（12）NN-17。这是一个神经网络对 SM-17 的近似。<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Algorithm_SM-17\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SuperMemo 关于 SM-17 的维基页面</a>上的信息乍看之下非常详尽，实际上却隐藏了实施 SM-17 所必需的所有重要细节。它告诉你算法在做什么，却没有说明怎么做。我们的近似依赖于关于 SM-17 公式的有限信息，同时利用神经网络来填补任何缺口。</p><h3>详细介绍</h3><p data-pid=\"fUsPLDr1\">这里有一个图解（好吧，是 7 个图解加上一个图表），它将帮助你理解这些算法在根本上有何不同。别担心，没有复杂的数学。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-ff3c10645bcaae693d0e1bc857af2009_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"302\" data-original-token=\"v2-ff3c10645bcaae693d0e1bc857af2009\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://picx.zhimg.com/v2-ff3c10645bcaae693d0e1bc857af2009_r.jpg\"/><figcaption>因为 SM-2 不是为预测回忆概率而设计的，所以没有包括在内。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-a380dd09496fabdd6bc5261a4d61522a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2026\" data-rawheight=\"881\" data-original-token=\"v2-a380dd09496fabdd6bc5261a4d61522a\" class=\"origin_image zh-lightbox-thumb\" width=\"2026\" data-original=\"https://pic3.zhimg.com/v2-a380dd09496fabdd6bc5261a4d61522a_r.jpg\"/></figure><p data-pid=\"gwzYdQMn\">为了计算下一个间隔的长度，FSRS（间隔重复算法）需要前一个间隔的长度、评分（重来/困难/良好/简单）以及其自身之前的状态，后者用三个数字表示：难度、稳定性和可提取性（DSR）。</p><p data-pid=\"pz6qlFPd\">请注意，水平箭头始终指向右侧，表明过去的状态可以影响未来的状态，但未来的状态无法影响过去的状态。</p><p data-pid=\"AQSbIqFm\">SM-17/18 算法具有相同的架构，但增加了一个额外的状态变量：记忆失误次数。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-2878f708c4e70b2efa5af97d9f645a49_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2026\" data-rawheight=\"881\" data-original-token=\"v2-2878f708c4e70b2efa5af97d9f645a49\" class=\"origin_image zh-lightbox-thumb\" width=\"2026\" data-original=\"https://picx.zhimg.com/v2-2878f708c4e70b2efa5af97d9f645a49_r.jpg\"/></figure><p data-pid=\"jqekOjlv\">GRU 也是一种循环算法，与 FSRS 类似，尽管数学公式完全不同。它的状态用 2 个数字表示（隐藏层大小为 2）。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-5db52e6e03c4727d7b45429e4168c90e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2026\" data-rawheight=\"881\" data-original-token=\"v2-5db52e6e03c4727d7b45429e4168c90e\" class=\"origin_image zh-lightbox-thumb\" width=\"2026\" data-original=\"https://pica.zhimg.com/v2-5db52e6e03c4727d7b45429e4168c90e_r.jpg\"/></figure><p data-pid=\"fQHTowPG\">HLR 技术上也是一种循环算法，但相对较为原始。复习的顺序不重要，因为它只需要关于整个复习历史的汇总统计数据。无论你如何重新排列复习，总的复习次数、通过的复习和未通过的复习（失误）的数量都将保持不变。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-c46c46698f47729c4add0f57bf3e7df0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2026\" data-rawheight=\"881\" data-original-token=\"v2-c46c46698f47729c4add0f57bf3e7df0\" class=\"origin_image zh-lightbox-thumb\" width=\"2026\" data-original=\"https://pica.zhimg.com/v2-c46c46698f47729c4add0f57bf3e7df0_r.jpg\"/></figure><p data-pid=\"dYbwKipg\">为了计算下一个间隔的长度，NN-17 需要前一个间隔的长度、评分（重来/困难/良好/简单）以及它自己之前的状态。这个状态用四个数字表示：难度、稳定性、可提取性和失误次数。</p><p data-pid=\"TEXSuDdb\">其目标并非开发出最终的算法，而是通过使用已知的公式并用神经网络替代未知的公式，来模仿 SM-17。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-18b20f6a6b4ce41d5fb2595e70a9e0df_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2026\" data-rawheight=\"881\" data-original-token=\"v2-18b20f6a6b4ce41d5fb2595e70a9e0df\" class=\"origin_image zh-lightbox-thumb\" width=\"2026\" data-original=\"https://pic4.zhimg.com/v2-18b20f6a6b4ce41d5fb2595e70a9e0df_r.jpg\"/></figure><p data-pid=\"GB2Gj3Ia\">DASH、DASH[MCM] 和 DASH[ACT-R] 没有状态变量，它们不像 SM-17/18 或 FSRS 那样按顺序处理复习。它们更像 Transformer 模型：必须处理所有过去的复习，才能计算出下一个间隔的长度。这使得当复习数量很大时，它们的处理速度比 FSRS 慢得多。在 FSRS 中，处理每次复习所需的时间是恒定的。如果一张卡片有 100 次复习，处理第一次复习的时间和处理第 100 次复习的时间是一样的。而在 DASH 中，处理单次复习的时间取决于过去的复习数量。因此，处理第 100 次复习的时间将比第一次复习长得多。</p><p data-pid=\"lnQe7x-I\">此外，尽管图表显示「下一个间隔长度」作为输出，但实际上，由于它们遗忘曲线的特性，使用 DASH 算法计算下一个间隔将非常困难。对于 FSRS 和 HLR，计算与特定间隔长度相对应的回忆概率，以及计算与特定回忆概率相对应的间隔长度都同样容易，但使用 DASH 算法则不然。</p><p data-pid=\"kigueGkW\">*如果我要非常精确地说，在 FSRS 中，处理第一次复习实际上比处理后续复习所需的时间略微短一些，因为第一次复习的数学计算更简单。我们谈论的是以微秒计的时间差异。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-00811ed6363b2a27bfdbf9067b8becd2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2026\" data-rawheight=\"881\" data-original-token=\"v2-00811ed6363b2a27bfdbf9067b8becd2\" class=\"origin_image zh-lightbox-thumb\" width=\"2026\" data-original=\"https://pica.zhimg.com/v2-00811ed6363b2a27bfdbf9067b8becd2_r.jpg\"/></figure><p data-pid=\"xe9cxYhf\">ACT-R 与 DASH 算法类似，这就是为什么存在一个混合模型 DASH[ACT-R]：它们可以有意义地结合在一起。然而，ACT-R 并不考虑评分。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-7bf31bd675d63ca8a34fa533019efbda_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1600\" data-rawheight=\"800\" data-original-token=\"v2-7bf31bd675d63ca8a34fa533019efbda\" class=\"origin_image zh-lightbox-thumb\" width=\"1600\" data-original=\"https://pic1.zhimg.com/v2-7bf31bd675d63ca8a34fa533019efbda_r.jpg\"/></figure><p data-pid=\"VDOOXQas\">这些曲线是使用默认参数绘制的，这些参数是通过在 2 万个 Anki 用户的集合上运行每个算法获得的。因此，你看到的是「平均」或「典型」的曲线。</p><p data-pid=\"oQFNbMaM\">DASH 的曲线比较奇怪，不平滑，这与我们的直觉和常识相悖。DASH[MCM] 试图使其平滑，但你可以看到它并不完美。DASH[ACT-R] 则实现了平滑的曲线。</p><hr/><h2>测试结果</h2><p data-pid=\"mZArgEDx\">现在是展示基准测试结果的时候了。下面的表格显示了每个算法的平均 RMSE（均方根误差）：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-d84f68f9fdfa6fc496bcd711702625aa_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"547\" data-rawheight=\"559\" data-original-token=\"v2-d84f68f9fdfa6fc496bcd711702625aa\" class=\"origin_image zh-lightbox-thumb\" width=\"547\" data-original=\"https://pic1.zhimg.com/v2-d84f68f9fdfa6fc496bcd711702625aa_r.jpg\"/></figure><p data-pid=\"ayRR3xk-\">我没有包括置信区间，因为这会使表格过于复杂。如果你想了解更多细节，比如置信区间和 p 值，可以访问<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs-benchmark%3Ftab%3Dreadme-ov-file%23fsrs-benchmark\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">该基准测试的 Github 仓库</a>。</p><p data-pid=\"nTWG9N6o\">平均值是按每个用户收集的复习数量加权的，这意味着复习更多的用户对平均值的影响更大。例如，如果某人有 10 万条复习，他们将对平均值的影响是只有 1 千条复习的用户的 100 倍。这个基准测试基于 19,993 个集合和 7.28 亿条复习，不包括天内的多次复习；每个算法每天只使用一条复习。表格还显示了每个算法的可优化参数数量。</p><p data-pid=\"k3eeb3VB\">这里有一个条形图：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f405a63eba09a46635a5a4bb1bb3a64b_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"548\" data-original-token=\"v2-f405a63eba09a46635a5a4bb1bb3a64b\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-f405a63eba09a46635a5a4bb1bb3a64b_r.jpg\"/><figcaption>数值越低越好</figcaption></figure><p data-pid=\"Ea83-_Ok\">黑色条形代表 99% 的置信区间，显示了这些平均值周围的不确定性水平。条形越高，不确定性越大。</p><p data-pid=\"pTO8K7Em\">不出所料，HLR 表现不佳。公平地说，HLR 有几种变体，其他变体使用了只有 Duolingo 拥有的信息（词元标签），这些变体无法在此数据集上使用。也许这些变体会更精确一些。但正如我之前提到的，HLR 使用了一种非常原始的公式来计算记忆半衰期。对于 HLR 来说，无论你是昨天选择了「重来」今天选择了「良好」，还是反过来，它都会预测出相同的记忆半衰期。</p><p data-pid=\"3LVgWWZ7\">Transformer 似乎不太适合这项任务，因为它需要的参数远比 GRU 或 NN-17 多，但表现却更差。尽管可能有某些修改过的 Transformer 架构更适合间隔重复学习。此外，LMSherlock 对 Transformer 放弃得也许太快了，因此我们没有对其进行细致调整。神经网络的问题在于，参数/层的数量选择是任意的。此基准测试中的其他模型在参数数量上有限制。</p><p data-pid=\"LXllduki\">FSRS-4.5 表现优于 NN-17 并不是 FSRS 优于 SM-17 的决定性证据。加入 NN-17 只是因为看到类似于 SM-17 的东西会表现如何很有趣。不幸的是，FSRS 和 SuperMemo 算法之间的竞争可能永远不会有结论。这需要成百上千的 SuperMemo 用户分享他们的数据，或者 SuperMemo 的开发者提供一个 API；这两种情况都不太可能发生。</p><h2>注意事项</h2><p data-pid=\"edJH0c6o\">我们无法对诸如 SuperMemo 算法这类专有算法进行基准测试。</p><p data-pid=\"VK_ixxkZ\">有些算法需要额外的特征，例如结合了 Duolingo 的词元标签的 HLR 或是 KAR3L。据相关论文描述，<a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/2402.12291.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">KAR3L</a> 不仅考虑间隔长度和评分，还考虑了卡片的文本内容，并且<b>略微优于 FSRS v4</b>（尽管尚不清楚是否优于 FSRS-4.5）。在提供必要信息的情况下，这类算法可能比 FSRS 更准确，但我们的数据集无法对其进行基准测试。由于没有其他特征可用，只有使用间隔长度和评分的算法可以进行基准测试。</p><h2>参考的学术论文</h2><ol><li data-pid=\"hUNl4qf3\"><a href=\"https://link.zhihu.com/?target=https%3A//scholar.colorado.edu/concern/graduate_thesis_or_dissertations/zp38wc97m\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">scholar.colorado.edu/co</span><span class=\"invisible\">ncern/graduate_thesis_or_dissertations/zp38wc97m</span><span class=\"ellipsis\"></span></a> （DASH 首次提及于第68页）</li><li data-pid=\"KoNDGTQj\"><a href=\"https://link.zhihu.com/?target=https%3A//www.politesi.polimi.it/retrieve/b39227dd-0963-40f2-a44b-624f205cb224/2022_4_Randazzo_01.pdf\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">politesi.polimi.it/retr</span><span class=\"invisible\">ieve/b39227dd-0963-40f2-a44b-624f205cb224/2022_4_Randazzo_01.pdf</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"M3I9vTwt\"><a href=\"https://link.zhihu.com/?target=http%3A//act-r.psy.cmu.edu/wordpress/wp-content/themes/ACT-R/workshops/2003/proceedings/46.pdf\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">act-r.psy.cmu.edu/wordp</span><span class=\"invisible\">ress/wp-content/themes/ACT-R/workshops/2003/proceedings/46.pdf</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"JaF_u3oW\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/duolingo/halflife-regression/blob/master/settles.acl16.pdf\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/duolingo/hal</span><span class=\"invisible\">flife-regression/blob/master/settles.acl16.pdf</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"ISGtsu7Y\"><a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/2402.12291.pdf\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">arxiv.org/pdf/2402.1229</span><span class=\"invisible\">1.pdf</span><span class=\"ellipsis\"></span></a></li></ol><h2>参考的非学术论文</h2><ol><li data-pid=\"mdBeyPTt\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/srs-benchmark%3Ftab%3Dreadme-ov-file%23srs-benchmark\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/open-spaced-</span><span class=\"invisible\">repetition/srs-benchmark?tab=readme-ov-file#srs-benchmark</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"j4KunaQl\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/The-Metric\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/open-spaced-</span><span class=\"invisible\">repetition/fsrs4anki/wiki/The-Metric</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"0_ZhzwIq\"><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Algorithm_SM-17\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">supermemo.guru/wiki/Alg</span><span class=\"invisible\">orithm_SM-17</span><span class=\"ellipsis\"></span></a></li></ol><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"8TBcS4ly\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/r/Anki/comments/1c29775/fsrs_is_one_of_the_most_accurate_spaced/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">FSRS is one of the most accurate spaced repetition algorithms in the world (updated benchmark)</a><br/>作者：<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/user/ClarityInMadness/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">ClarityInMadness</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19559450",
+      "type": "topic",
+      "id": "19559450",
+      "name": "机器学习"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19753549",
+      "type": "topic",
+      "id": "19753549",
+      "name": "记忆心理学"
+    }
+  ],
+  "voteup_count": 120,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
+    "can_manage": false,
+    "intro": "带你用「Anki」高效战高考！",
+    "is_following": true,
+    "url_token": "ankigaokao",
+    "id": "ankigaokao",
+    "articles_count": 157,
+    "accept_submission": true,
+    "title": "AnkiX高考",
+    "url": "https://api.zhihu.com/columns/ankigaokao",
+    "comment_permission": "all",
+    "created": 1522117223,
+    "updated": 1599152271,
+    "image_url": "https://picx.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 6763,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 50,
+  "contributions": [
+    {
+      "id": 48404005,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
+        "can_manage": false,
+        "intro": "带你用「Anki」高效战高考！",
+        "is_following": true,
+        "url_token": "ankigaokao",
+        "id": "ankigaokao",
+        "articles_count": 157,
+        "accept_submission": true,
+        "title": "AnkiX高考",
+        "url": "https://api.zhihu.com/columns/ankigaokao",
+        "comment_permission": "all",
+        "created": 1522117223,
+        "updated": 1599152271,
+        "image_url": "https://picx.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 6763,
+        "type": "column",
+        "column_type": "normal"
+      }
+    },
+    {
+      "id": 48404825,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "间隔重复使记忆成为一种选择",
+        "is_following": false,
+        "url_token": "c_1525782291741208576",
+        "id": "c_1525782291741208576",
+        "articles_count": 182,
+        "accept_submission": true,
+        "title": "间隔重复 & 注意力管理",
+        "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+        "comment_permission": "all",
+        "created": 1751877449,
+        "updated": 1656554846,
+        "image_url": "https://pica.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 227,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 692314506,
-  "voteup_count": 89,
+  "annotation_action": [],
+  "can_tip": false,
+  "can_open_tipjar": true,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 196,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "FSRS 是全世界最精确的间隔重复算法之一（最新基准测试更新） - 来自知乎专栏「AnkiX高考」，作者: Jarrett Ye https://zhuanlan.zhihu.com/p/692314506 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1713005556,
-  "url": "https://api.zhihu.com/articles/692314506",
-  "comment_permission": "all",
-  "title": "FSRS 是全世界最精确的间隔重复算法之一（最新基准测试更新）",
-  "image_width": 770,
-  "content": "<p data-pid=\"2iaDT3T2\">本文取代了我之前关于基准测试的旧帖，并已将其加入到我<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/r/Anki/comments/18jvyun/some_posts_and_articles_about_fsrs/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">关于 FSRS 的文章合集</a>中。你无需阅读旧帖，我也不会再链接到那篇文章。</p><p data-pid=\"QMWFcsDV\">首先，任何「诚实」的间隔重复算法都必须能够预测在特定时间点<b>回忆</b>一张卡片的<b>概率</b>，这取决于卡片的复习历史。在下文中，我会用 <b>R </b>来指代这个概率。</p><p data-pid=\"kdt3PQLn\">如果一个「不诚实」的算法不计算概率，只输出一个时间间隔，我们仍然可以在某些假设下将这个间隔转换为概率。虽然不是最理想，但总好过没有，因为这至少允许我们进行某种比较。这就是我们对 SM-2 算法所做的，它是基准测试中唯一的「不诚实」算法。我们决定不加入 <a href=\"https://link.zhihu.com/?target=https%3A//memrise.zendesk.com/hc/en-us/articles/360015889057-How-does-the-spaced-repetition-system-work\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Memrise</a>，因为我们不确定所需的假设是否适用于将其间隔转换为概率。不过，即使加入了，它的表现也不会太好，它的灵活性极差，几乎不配被称为算法。</p><p data-pid=\"CnOIJboa\">一旦我们有了能预测 R 的算法，我们就可以在一些用户的复习历史上运行它，看看预测的 R 与实测的 R 偏差有多大。如果我们使用数亿次复习来做这种测试，我们将能很好地了解哪种算法的平均表现更佳。<b>RMSE</b>（均方根误差）可以理解为「<b>预测与实测回忆概率之间的平均差异</b>」。它与你熟悉的算术平均值不完全相同。MAE（平均绝对误差）有一些不理想的特性，因此选择使用 RMSE。RMSE 总是大于或等于 MAE。</p><p data-pid=\"To23hJ6n\">为了防止作弊，RMSE 的计算方法最近已经重新设计。如果你想了解这些数学细节，可以阅读我和 LMSherlock 撰写的<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/The-Metric\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这篇文章</a>。简而言之：有一种特定的方法可以降低 RMSE，而实际上并没有提高算法预测R的能力，这就是为什么我们改变了计算方法。新方法是我们自己发明的，你在任何论文中都找不到。Anki 的最新版本 24.04 也采用了这种新方法。</p><p data-pid=\"JLzr3spD\">现在，让我们介绍一下参赛者。这次的名单比之前要长得多。</p><h2>算法介绍</h2><h3>FSRS 系列</h3><p data-pid=\"_v94WJLF\">（1）FSRS v3。这是第一个真正被人们使用的 FSRS 版本，发布于 2022 年 10 月。虽然它不算糟糕，但存在一些问题。我、LMSherlock 和其他几位用户提出并测试了许多改进算法的想法（只有少数被证实有效）。</p><p data-pid=\"p4uTs_OX\">（2）FSRS v4。该版本于 2023 年 7 月发布，到了 11 月初，它被整合进了 Anki。相比 v3，这是一个显著的进步。</p><p data-pid=\"ktmzuCz_\">（3）FSRS-4.5。这是 FSRS v4 的一个略有改进的版本，遗忘曲线的形状发生了变化。现在，它被用于 Anki 的所有最新版本：桌面版、AnkiDroid、AnkiMobile 和 AnkiWeb。</p><h3>通用深度学习算法系列 </h3><p data-pid=\"zzejy0aC\">（4）Transformer。这种神经网络架构近年来因其在自然语言处理中的卓越性能而流行起来。ChatGPT 采用了这种架构。</p><p data-pid=\"J6CRXWa4\">（5）GRU（门控循环单元）。这种神经网络架构通常用于时间序列分析，如预测股市趋势或识别人类语音。最初，我们使用了一种更复杂的架构，名为 LSTM，但 GRU 在参数更少的情况下表现更佳。</p><p data-pid=\"6Ihb6PLf\">下面简单解释一下 GRU 和 Transformer 之间的区别。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-9f9e4a3fab8be98e61e2895e94862286_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"720\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic1.zhimg.com/v2-9f9e4a3fab8be98e61e2895e94862286_r.jpg\" data-original-token=\"v2-9f9e4a3fab8be98e61e2895e94862286\"/></figure><blockquote data-pid=\"N9M2CvR0\">我将用自然语言处理的例子来说明，因为这更直观。<br/>GRU 从左到右「阅读」句子，并根据单词的最近出现时间，对每个单词给予一定程度的「注意力」（颜色越深表示关注越多）。到了最后一个词时，它可能已经忘记了第一个词。当然，这是一个夸张的例子，但它确实展示了一个真实的问题。<br/>Transformer 则是一次性「阅读」整个句子，所有词汇并行处理，而不是顺序处理。这使得 Transformer 能够对句中任何位置的任何单词给予任意程度的「注意力」。ChatGPT 就是基于这种架构的。</blockquote><h3>DASH 系列</h3><p data-pid=\"xDMS0HpX\">（6）<a href=\"https://link.zhihu.com/?target=https%3A//scholar.colorado.edu/concern/graduate_thesis_or_dissertations/zp38wc97m\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">DASH</a>（难度、能力与学习历史）。这是一个基于神经科学的真正的人类记忆模型。嗯，可以这么说。但它的问题在于，遗忘曲线看起来像一个台阶，也就是阶梯函数。</p><p data-pid=\"Gh1znN5w\">（7）DASH[MCM]。这是一个混合模型，解决了 DASH 遗忘曲线的一些问题。</p><p data-pid=\"xpluMv-r\">（8）DASH[ACT-R]。另一个混合模型，最终实现了一个外观优美的遗忘曲线。</p><p data-pid=\"zMBasQgT\"><a href=\"https://link.zhihu.com/?target=https%3A//www.politesi.polimi.it/retrieve/b39227dd-0963-40f2-a44b-624f205cb224/2022_4_Randazzo_01.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这里还有一篇相关的论文</a>。抱歉，没有通俗解释。</p><h3>其他算法</h3><p data-pid=\"ASMId9-G\">（9）<a href=\"https://link.zhihu.com/?target=http%3A//act-r.psy.cmu.edu/wordpress/wp-content/themes/ACT-R/workshops/2003/proceedings/46.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">ACT-R</a>（Adaptive Control of Thought - Rational，在某些论文中也见过用 Character 替代 Control）。这是一个人类记忆模型，。它有一个非常奇怪的假设：无论你是否成功回忆起材料，并不影响间隔效应的大小，只有间隔长度重要。简单来说，这个算法不区分「重来」、「困难」、「良好」、「简单」。</p><p data-pid=\"uBlzFsAE\">（10）<a href=\"https://link.zhihu.com/?target=https%3A//github.com/duolingo/halflife-regression/blob/master/settles.acl16.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">HLR</a>（Half-Life Regression）。这是由 Duolingo 为 Duolingo 开发的算法。HLR 中的记忆半衰期与 FSRS 中的记忆稳定性在概念上非常相似，但其计算公式过于简化。</p><p data-pid=\"8JPirqgW\">（11）SM-2。这是一个超过 35 年历史的算法，仍被 Anki、Mnemosyne 及可能的其他应用使用。它的主要优点是简单。请注意，在我们的基准测试中，它是按照最初的设计实现的。<b>这不是 Anki 版的 SM-2</b>，而是原版 SM-2。</p><p data-pid=\"Wt_dLKEK\">我们原本以为 SuperMemo API 会在今年发布，这将让 LMSherlock 能够在 Anki 数据上对 SuperMemo 进行基准测试，虽然需要付费。但看起来 SuperMemo World 的 CEO 改变了主意。我们可能永远也不会知道 FSRS 还是 SM-17/18/未来某个版本哪个更好。所以作为安慰奖，我们加入了某种类似于 SM-17 的东西。</p><p data-pid=\"PPCN-ci2\">（12）NN-17。这是一个神经网络对 SM-17 的近似。<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Algorithm_SM-17\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SuperMemo 关于 SM-17 的维基页面</a>上的信息乍看之下非常详尽，实际上却隐藏了实施 SM-17 所必需的所有重要细节。它告诉你算法在做什么，却没有说明怎么做。我们的近似依赖于关于 SM-17 公式的有限信息，同时利用神经网络来填补任何缺口。</p><h3>详细介绍</h3><p data-pid=\"Pgzdzv7V\">这里有一个图解（好吧，是 7 个图解加上一个图表），它将帮助你理解这些算法在根本上有何不同。别担心，没有复杂的数学。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-ff3c10645bcaae693d0e1bc857af2009_b.jpg\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"302\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://picx.zhimg.com/v2-ff3c10645bcaae693d0e1bc857af2009_r.jpg\" data-original-token=\"v2-ff3c10645bcaae693d0e1bc857af2009\"/><figcaption>因为 SM-2 不是为预测回忆概率而设计的，所以没有包括在内。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-a380dd09496fabdd6bc5261a4d61522a_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2026\" data-rawheight=\"881\" class=\"origin_image zh-lightbox-thumb\" width=\"2026\" data-original=\"https://pic3.zhimg.com/v2-a380dd09496fabdd6bc5261a4d61522a_r.jpg\" data-original-token=\"v2-a380dd09496fabdd6bc5261a4d61522a\"/></figure><p data-pid=\"A-s-uh58\">为了计算下一个间隔的长度，FSRS（间隔重复算法）需要前一个间隔的长度、评分（重来/困难/良好/简单）以及其自身之前的状态，后者用三个数字表示：难度、稳定性和可提取性（DSR）。</p><p data-pid=\"czE9Yt3T\">请注意，水平箭头始终指向右侧，表明过去的状态可以影响未来的状态，但未来的状态无法影响过去的状态。</p><p data-pid=\"WbMYl6j5\">SM-17/18 算法具有相同的架构，但增加了一个额外的状态变量：记忆失误次数。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-2878f708c4e70b2efa5af97d9f645a49_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2026\" data-rawheight=\"881\" class=\"origin_image zh-lightbox-thumb\" width=\"2026\" data-original=\"https://picx.zhimg.com/v2-2878f708c4e70b2efa5af97d9f645a49_r.jpg\" data-original-token=\"v2-2878f708c4e70b2efa5af97d9f645a49\"/></figure><p data-pid=\"qLAAY8bC\">GRU 也是一种循环算法，与 FSRS 类似，尽管数学公式完全不同。它的状态用 2 个数字表示（隐藏层大小为 2）。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-5db52e6e03c4727d7b45429e4168c90e_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2026\" data-rawheight=\"881\" class=\"origin_image zh-lightbox-thumb\" width=\"2026\" data-original=\"https://pica.zhimg.com/v2-5db52e6e03c4727d7b45429e4168c90e_r.jpg\" data-original-token=\"v2-5db52e6e03c4727d7b45429e4168c90e\"/></figure><p data-pid=\"_i4ybPXE\">HLR 技术上也是一种循环算法，但相对较为原始。复习的顺序不重要，因为它只需要关于整个复习历史的汇总统计数据。无论你如何重新排列复习，总的复习次数、通过的复习和未通过的复习（失误）的数量都将保持不变。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-c46c46698f47729c4add0f57bf3e7df0_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2026\" data-rawheight=\"881\" class=\"origin_image zh-lightbox-thumb\" width=\"2026\" data-original=\"https://pica.zhimg.com/v2-c46c46698f47729c4add0f57bf3e7df0_r.jpg\" data-original-token=\"v2-c46c46698f47729c4add0f57bf3e7df0\"/></figure><p data-pid=\"yf7k4JwL\">为了计算下一个间隔的长度，NN-17 需要前一个间隔的长度、评分（重来/困难/良好/简单）以及它自己之前的状态。这个状态用四个数字表示：难度、稳定性、可提取性和失误次数。</p><p data-pid=\"5Q9XhlLT\">其目标并非开发出最终的算法，而是通过使用已知的公式并用神经网络替代未知的公式，来模仿 SM-17。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-18b20f6a6b4ce41d5fb2595e70a9e0df_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2026\" data-rawheight=\"881\" class=\"origin_image zh-lightbox-thumb\" width=\"2026\" data-original=\"https://pic4.zhimg.com/v2-18b20f6a6b4ce41d5fb2595e70a9e0df_r.jpg\" data-original-token=\"v2-18b20f6a6b4ce41d5fb2595e70a9e0df\"/></figure><p data-pid=\"hyhDgWgU\">DASH、DASH[MCM] 和 DASH[ACT-R] 没有状态变量，它们不像 SM-17/18 或 FSRS 那样按顺序处理复习。它们更像 Transformer 模型：必须处理所有过去的复习，才能计算出下一个间隔的长度。这使得当复习数量很大时，它们的处理速度比 FSRS 慢得多。在 FSRS 中，处理每次复习所需的时间是恒定的。如果一张卡片有 100 次复习，处理第一次复习的时间和处理第 100 次复习的时间是一样的。而在 DASH 中，处理单次复习的时间取决于过去的复习数量。因此，处理第 100 次复习的时间将比第一次复习长得多。</p><p data-pid=\"71QbXSLI\">此外，尽管图表显示「下一个间隔长度」作为输出，但实际上，由于它们遗忘曲线的特性，使用 DASH 算法计算下一个间隔将非常困难。对于 FSRS 和 HLR，计算与特定间隔长度相对应的回忆概率，以及计算与特定回忆概率相对应的间隔长度都同样容易，但使用 DASH 算法则不然。</p><p data-pid=\"8_-TITth\">*如果我要非常精确地说，在 FSRS 中，处理第一次复习实际上比处理后续复习所需的时间略微短一些，因为第一次复习的数学计算更简单。我们谈论的是以微秒计的时间差异。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-00811ed6363b2a27bfdbf9067b8becd2_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2026\" data-rawheight=\"881\" class=\"origin_image zh-lightbox-thumb\" width=\"2026\" data-original=\"https://pica.zhimg.com/v2-00811ed6363b2a27bfdbf9067b8becd2_r.jpg\" data-original-token=\"v2-00811ed6363b2a27bfdbf9067b8becd2\"/></figure><p data-pid=\"MK96Qk9C\">ACT-R 与 DASH 算法类似，这就是为什么存在一个混合模型 DASH[ACT-R]：它们可以有意义地结合在一起。然而，ACT-R 并不考虑评分。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-7bf31bd675d63ca8a34fa533019efbda_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1600\" data-rawheight=\"800\" class=\"origin_image zh-lightbox-thumb\" width=\"1600\" data-original=\"https://pic1.zhimg.com/v2-7bf31bd675d63ca8a34fa533019efbda_r.jpg\" data-original-token=\"v2-7bf31bd675d63ca8a34fa533019efbda\"/></figure><p data-pid=\"pGzoTiYj\">这些曲线是使用默认参数绘制的，这些参数是通过在 2 万个 Anki 用户的集合上运行每个算法获得的。因此，你看到的是「平均」或「典型」的曲线。</p><p data-pid=\"Aa2f_aon\">DASH 的曲线比较奇怪，不平滑，这与我们的直觉和常识相悖。DASH[MCM] 试图使其平滑，但你可以看到它并不完美。DASH[ACT-R] 则实现了平滑的曲线。</p><hr/><h2>测试结果</h2><p data-pid=\"y-RN-hfd\">现在是展示基准测试结果的时候了。下面的表格显示了每个算法的平均 RMSE（均方根误差）：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-d84f68f9fdfa6fc496bcd711702625aa_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"547\" data-rawheight=\"559\" class=\"origin_image zh-lightbox-thumb\" width=\"547\" data-original=\"https://pic1.zhimg.com/v2-d84f68f9fdfa6fc496bcd711702625aa_r.jpg\" data-original-token=\"v2-d84f68f9fdfa6fc496bcd711702625aa\"/></figure><p data-pid=\"dDoM7Dh8\">我没有包括置信区间，因为这会使表格过于复杂。如果你想了解更多细节，比如置信区间和 p 值，可以访问<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs-benchmark%3Ftab%3Dreadme-ov-file%23fsrs-benchmark\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">该基准测试的 Github 仓库</a>。</p><p data-pid=\"8WzKLPsq\">平均值是按每个用户收集的复习数量加权的，这意味着复习更多的用户对平均值的影响更大。例如，如果某人有 10 万条复习，他们将对平均值的影响是只有 1 千条复习的用户的 100 倍。这个基准测试基于 19,993 个集合和 7.28 亿条复习，不包括天内的多次复习；每个算法每天只使用一条复习。表格还显示了每个算法的可优化参数数量。</p><p data-pid=\"vh2mewad\">这里有一个条形图：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f405a63eba09a46635a5a4bb1bb3a64b_b.jpg\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"548\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-f405a63eba09a46635a5a4bb1bb3a64b_r.jpg\" data-original-token=\"v2-f405a63eba09a46635a5a4bb1bb3a64b\"/><figcaption>数值越低越好</figcaption></figure><p data-pid=\"9jSSFIKf\">黑色条形代表 99% 的置信区间，显示了这些平均值周围的不确定性水平。条形越高，不确定性越大。</p><p data-pid=\"NXyuwfqM\">不出所料，HLR 表现不佳。公平地说，HLR 有几种变体，其他变体使用了只有 Duolingo 拥有的信息（词元标签），这些变体无法在此数据集上使用。也许这些变体会更精确一些。但正如我之前提到的，HLR 使用了一种非常原始的公式来计算记忆半衰期。对于 HLR 来说，无论你是昨天选择了「重来」今天选择了「良好」，还是反过来，它都会预测出相同的记忆半衰期。</p><p data-pid=\"r3GNSYoe\">Transformer 似乎不太适合这项任务，因为它需要的参数远比 GRU 或 NN-17 多，但表现却更差。尽管可能有某些修改过的 Transformer 架构更适合间隔重复学习。此外，LMSherlock 对 Transformer 放弃得也许太快了，因此我们没有对其进行细致调整。神经网络的问题在于，参数/层的数量选择是任意的。此基准测试中的其他模型在参数数量上有限制。</p><p data-pid=\"aJrf5Hwk\">FSRS-4.5 表现优于 NN-17 并不是 FSRS 优于 SM-17 的决定性证据。加入 NN-17 只是因为看到类似于 SM-17 的东西会表现如何很有趣。不幸的是，FSRS 和 SuperMemo 算法之间的竞争可能永远不会有结论。这需要成百上千的 SuperMemo 用户分享他们的数据，或者 SuperMemo 的开发者提供一个 API；这两种情况都不太可能发生。</p><h2>注意事项</h2><p data-pid=\"z4rGUwWY\">我们无法对诸如 SuperMemo 算法这类专有算法进行基准测试。</p><p data-pid=\"jqg7XcU1\">有些算法需要额外的特征，例如结合了 Duolingo 的词元标签的 HLR 或是 KAR3L。据相关论文描述，<a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/2402.12291.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">KAR3L</a> 不仅考虑间隔长度和评分，还考虑了卡片的文本内容，并且<b>略微优于 FSRS v4</b>（尽管尚不清楚是否优于 FSRS-4.5）。在提供必要信息的情况下，这类算法可能比 FSRS 更准确，但我们的数据集无法对其进行基准测试。由于没有其他特征可用，只有使用间隔长度和评分的算法可以进行基准测试。</p><h2>参考的学术论文</h2><ol><li data-pid=\"t6DRxNB3\"><a href=\"https://link.zhihu.com/?target=https%3A//scholar.colorado.edu/concern/graduate_thesis_or_dissertations/zp38wc97m\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">scholar.colorado.edu/co</span><span class=\"invisible\">ncern/graduate_thesis_or_dissertations/zp38wc97m</span><span class=\"ellipsis\"></span></a> （DASH 首次提及于第68页）</li><li data-pid=\"8Eqqf7SC\"><a href=\"https://link.zhihu.com/?target=https%3A//www.politesi.polimi.it/retrieve/b39227dd-0963-40f2-a44b-624f205cb224/2022_4_Randazzo_01.pdf\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">politesi.polimi.it/retr</span><span class=\"invisible\">ieve/b39227dd-0963-40f2-a44b-624f205cb224/2022_4_Randazzo_01.pdf</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"BLPGTzdY\"><a href=\"https://link.zhihu.com/?target=http%3A//act-r.psy.cmu.edu/wordpress/wp-content/themes/ACT-R/workshops/2003/proceedings/46.pdf\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">act-r.psy.cmu.edu/wordp</span><span class=\"invisible\">ress/wp-content/themes/ACT-R/workshops/2003/proceedings/46.pdf</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"ZpG4v_l0\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/duolingo/halflife-regression/blob/master/settles.acl16.pdf\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/duolingo/hal</span><span class=\"invisible\">flife-regression/blob/master/settles.acl16.pdf</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"ier_bJWg\"><a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/2402.12291.pdf\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">arxiv.org/pdf/2402.1229</span><span class=\"invisible\">1.pdf</span><span class=\"ellipsis\"></span></a></li></ol><h2>参考的非学术论文</h2><ol><li data-pid=\"ROERIoWL\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/srs-benchmark%3Ftab%3Dreadme-ov-file%23srs-benchmark\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/open-spaced-</span><span class=\"invisible\">repetition/srs-benchmark?tab=readme-ov-file#srs-benchmark</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"hMFq9N44\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/The-Metric\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/open-spaced-</span><span class=\"invisible\">repetition/fsrs4anki/wiki/The-Metric</span><span class=\"ellipsis\"></span></a></li><li data-pid=\"7d0y5KS2\"><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Algorithm_SM-17\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">supermemo.guru/wiki/Alg</span><span class=\"invisible\">orithm_SM-17</span><span class=\"ellipsis\"></span></a></li></ol><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"G13E3P2e\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/r/Anki/comments/1c29775/fsrs_is_one_of_the_most_accurate_spaced/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">FSRS is one of the most accurate spaced repetition algorithms in the world (updated benchmark)</a><br/>作者：<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/user/ClarityInMadness/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">ClarityInMadness</a></blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Jarrett Ye",
-      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
-      "avatar_url": "https://picx.zhimg.com/50/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
-    },
-    "url": "/columns/3c9990a12cdbcd92e20b1387b160f0a3",
-    "comment_permission": "all",
-    "title": "Jarrett Ye的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
-  },
-  "comment_count": 34,
-  "image_url": "https://picx.zhimg.com/v2-df9e4487d87d4028f6bf15905deab488_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 6,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 6,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyNDE5NzgxMzcSCTY5MjMxNDUwNhgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 120,
+      "down_vote_count": 0,
+      "like_count": 6,
+      "comment_count": 50,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 196,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-00811ed6363b2a27bfdbf9067b8becd2": 0,
+        "v2-18b20f6a6b4ce41d5fb2595e70a9e0df": 1,
+        "v2-2878f708c4e70b2efa5af97d9f645a49": 0,
+        "v2-5db52e6e03c4727d7b45429e4168c90e": 0,
+        "v2-7bf31bd675d63ca8a34fa533019efbda": 1,
+        "v2-9f9e4a3fab8be98e61e2895e94862286": 0,
+        "v2-a380dd09496fabdd6bc5261a4d61522a": 0,
+        "v2-c46c46698f47729c4add0f57bf3e7df0": 0,
+        "v2-d84f68f9fdfa6fc496bcd711702625aa": 0,
+        "v2-df9e4487d87d4028f6bf15905deab488": 0,
+        "v2-f405a63eba09a46635a5a4bb1bb3a64b": 0,
+        "v2-ff3c10645bcaae693d0e1bc857af2009": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": true,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-00811ed6363b2a27bfdbf9067b8becd2": false,
+        "v2-18b20f6a6b4ce41d5fb2595e70a9e0df": false,
+        "v2-2878f708c4e70b2efa5af97d9f645a49": false,
+        "v2-5db52e6e03c4727d7b45429e4168c90e": false,
+        "v2-7bf31bd675d63ca8a34fa533019efbda": false,
+        "v2-9f9e4a3fab8be98e61e2895e94862286": false,
+        "v2-a380dd09496fabdd6bc5261a4d61522a": false,
+        "v2-c46c46698f47729c4add0f57bf3e7df0": false,
+        "v2-d84f68f9fdfa6fc496bcd711702625aa": false,
+        "v2-df9e4487d87d4028f6bf15905deab488": false,
+        "v2-f405a63eba09a46635a5a4bb1bb3a64b": false,
+        "v2-ff3c10645bcaae693d0e1bc857af2009": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-00811ed6363b2a27bfdbf9067b8becd2": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-18b20f6a6b4ce41d5fb2595e70a9e0df": {
+        "like_count": 1,
+        "is_liked": false
+      },
+      "v2-2878f708c4e70b2efa5af97d9f645a49": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-5db52e6e03c4727d7b45429e4168c90e": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-7bf31bd675d63ca8a34fa533019efbda": {
+        "like_count": 1,
+        "is_liked": false
+      },
+      "v2-9f9e4a3fab8be98e61e2895e94862286": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-a380dd09496fabdd6bc5261a4d61522a": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-c46c46698f47729c4add0f57bf3e7df0": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-d84f68f9fdfa6fc496bcd711702625aa": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-df9e4487d87d4028f6bf15905deab488": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-f405a63eba09a46635a5a4bb1bb3a64b": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-ff3c10645bcaae693d0e1bc857af2009": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "2 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/41360715103?contentId=692314506&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 间隔重复 & 注意力管理",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525782291741208576",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 间隔重复 & 注意力管理"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

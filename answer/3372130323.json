@@ -1,15 +1,16 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pica.zhimg.com/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-7a23f5ee157d58c2494e8a642e59b7ae.jpg?source=2c26e567",
+    "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
     "badge": [],
     "badge_v2": {
       "detail_badges": [],
       "icon": "",
       "merged_badges": [],
       "night_icon": "",
-      "title": ""
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。"
     },
     "gender": 1,
     "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
@@ -19,32 +20,52 @@
     "is_privacy": false,
     "name": "Jarrett Ye",
     "type": "people",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "url": "https://www.zhihu.com/api/v4/people/3c9990a12cdbcd92e20b1387b160f0a3",
     "url_token": "JarrettYe",
     "user_type": "people"
   },
-  "biz_ext": {},
-  "comment_count": 2,
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
+  "comment_count": 4,
   "content": "<p data-pid=\"r5pNHnEJ\">framing effect 被翻译成「框架效应」实在是令人一头雾水。</p><p data-pid=\"7jV900V2\">framing 在这里的意思应该是 the way that something is <span class=\"nolink\">expressed</span>, and the words that are <span class=\"nolink\">chosen</span> to do this，也就是表达某事的方式和用词（来源：<a href=\"https://link.zhihu.com/?target=https%3A//dictionary.cambridge.org/dictionary/english/framing%23cald4-1-3\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">FRAMING | English meaning - Cambridge Dictionary</a>）</p><p data-pid=\"EURCAqz3\">翻译成「表述效应」或者「措辞效应」反而更贴近原意：同样的问题，从不同的角度表述，或者换了一套逻辑上等价的措辞，却能让人做出截然相反的选择。</p>",
   "content_need_truncated": false,
   "created_time": 1705919982,
   "excerpt": "framing effect 被翻译成「框架效应」实在是令人一头雾水。 framing 在这里的意思应该是 the way that something is expressed, and the words that are chosen to do this，也就是表达某事的方式和用词（来源：FRAMING | English meaning - Cambridge Dictionary ）翻译成「表述效应」或者「措辞效应」反而更贴近原意：同样的问题，从不同的角度表述，或者换了一套逻辑上等价的措辞，却能让人做出截然相反的选择。",
-  "id": 3372130323,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3372130323",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=3372130323&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1419209623,
-    "detail": "<p> 如 click reaction 翻译成 <a href=\"http://www.zhihu.com/question/25307862\" class=\"internal\">详细介绍一下点击化学? - 考研</a></p><p>特定『专业名词』，包括但不限于历史、人文、自然科学、工程等。</p>",
-    "id": 27192923,
+    "detail": "<p> 如 click reaction 翻译成 <a href=\"http://www.zhihu.com/question/25307862\" class=\"internal\" target=\"_blank\">详细介绍一下点击化学? - 考研</a></p><p>特定『专业名词』，包括但不限于历史、人文、自然科学、工程等。</p>",
+    "id": "27192923",
     "question_type": "normal",
     "relationship": {},
     "title": "哪些专业名词翻译得特别烂？",
     "type": "question",
     "updated_time": 1582426347,
-    "url": "https://api.zhihu.com/questions/27192923"
+    "url": "https://www.zhihu.com/api/v4/questions/27192923"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 16
+  "updated_time": 1705920051,
+  "url": "https://www.zhihu.com/api/v4/answers/3372130323",
+  "voteup_count": 20
 }

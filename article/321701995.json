@@ -1,80 +1,497 @@
 {
-  "status": 0,
+  "id": "321701995",
+  "title": "渐进阅读材料导入与预处理",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/321701995",
+  "image_url": "https://pic1.zhimg.com/v2-8469c0eb781068b758a0aaf6e2cc14da_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-8469c0eb781068b758a0aaf6e2cc14da_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://pic1.zhimg.com/v2-eb0dc6bdee65b768c403931a46dc8682_200x112.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"580\" data-rawheight=\"203\" data-watermark=\"original\" data-original-src=\"v2-eb0dc6bdee65b768c403931a46dc8682\" data-watermark-src=\"v2-3b407e92d6cef59608d1e0ff98f219cf\" data-private-watermark-src=\"\" data-original=\"https://pic1.zhimg.com/v2-eb0dc6bdee65b768c403931a46dc8682_r.png\" class=\"origin_image inline-img zh-lightbox-thumb\"/>通过前几期的教程介绍，渐进阅读所必须的操作已经教给大家了，希望大家已经开始实践渐进阅读。本文将介绍几种常见阅读材料的导入方法，并介绍如何管理大量导入的材料。 希望各位已经掌握渐进阅读的基础操作后再阅读本文。 对于已经掌握操作，但是还不知道如…",
+  "created": 1606719613,
   "updated": 1638976737,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "通过前几期的教程介绍，渐进阅读所必须的操作已经教给大家了，希望大家已经开始实践…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 1279,
+  "image_height": 687,
+  "content": "<p data-pid=\"jwFfZmCb\">通过前几期的教程介绍，渐进阅读所必须的操作已经教给大家了，希望大家已经开始实践渐进阅读。本文将介绍几种常见阅读材料的导入方法，并介绍如何管理大量导入的材料。</p><p data-pid=\"QDb0T-J5\">希望各位已经掌握渐进阅读的基础操作后再阅读本文。</p><p data-pid=\"80rxWtCR\">对于已经掌握操作，但是还不知道如何处理自己手头材料的朋友，可以阅读渐进阅读中加工知识的示范：</p><a href=\"https://link.zhihu.com/?target=https%3A//www.yuque.com/supermemo/wiki/examples\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-3053be574a87e8e1e15128ac7eeda8c8_ipico.jpg\" data-image-width=\"300\" data-image-height=\"300\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">06 示范：增量学习中的实际操作 · 语雀</a><p data-pid=\"TpuQhgTW\">再次强调：材料本身的样式远远没有知识表述重要，在 SuperMemo 里折腾样式就是买椟还珠了。很多卡片不值得你去花时间改样式，请大家自己考虑成本与收益。</p><blockquote data-pid=\"psH99dr_\">如果你仍然不能忍受不完美的卡片样式，那就专心将他们美化吧。没有什么能阻止它们变得完美，这些完美的卡片可能倍受你的喜爱，但你的学习速度肯定也会降低了。<sup data-text=\"完美主义者的增量学习\" data-url=\"https://www.yuque.com/supermemo/wiki/il_for_perfectionists\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup></blockquote><h2>选择最合适的导入材料</h2><p data-pid=\"obRGtblj\">不同材料的导入难度不同，我推荐大家在导入材料前先找找看有没有更合适的替代材料。以下是我对材料格式的推荐顺序：</p><ol><li data-pid=\"TLRkdoch\">网页（Wiki、Blog、『知乎专栏』）</li><li data-pid=\"YKue-7qT\">电子书（EPUB）</li><li data-pid=\"uxy8TvEY\">有文字层的 PDF（就是可以复制文本的那种）</li><li data-pid=\"FB1OWOIV\">扫描版的 PDF</li></ol><p data-pid=\"JESv0saa\">SuperMemo 官方文档也是这样提倡的：</p><blockquote data-pid=\"i4y0-ge-\">与其为了增量阅读而扫描纸质书籍和进行OCR，还不如从寻找电子图书开始。在大多数基础知识领域，都有多种学习材料来源。需要扫描的情况越来越少。现在，你甚至可以更挑剔一些，搜索HTML文本来代替PDF材料（以避免将PDF转换为HTML的痛苦）<sup data-text=\"导入文章\" data-url=\"https://www.yuque.com/supermemo/wiki/hints_and_tips#gj2PV\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup></blockquote><p data-pid=\"aE6EyE7g\">接下来，我会逐个介绍上述材料的导入方式，希望对大家进一步使用 SuperMemo 进行渐进阅读有所帮助。</p><p data-pid=\"f9JMqs3m\">注意：</p><ul><li data-pid=\"VwGmrU09\">先从网页材料开始</li><li data-pid=\"bcTBGNVc\">先从你感兴趣的材料开始</li><li data-pid=\"EjzLgF0Z\">先从你收藏夹里吃灰的材料开始</li></ul><h2>复制粘贴</h2><p data-pid=\"9vYfIvu8\">复制粘贴绝对是首选的添加材料的方式。这里注意一下，请勿使用 IE 浏览器打开网页复制内容，极有可能遇到图片无法在 SuperMemo 中正常显示的问题。</p><p data-pid=\"ZpcNSiWl\">粘贴快捷键 Ctrl + N，使用方法为：选中你想要阅读的文字内容，复制，再打开 SuperMemo，Ctrl + N 即可自动创建相应的摘抄卡片。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-eb0dc6bdee65b768c403931a46dc8682_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"580\" data-rawheight=\"203\" data-original-token=\"v2-eb0dc6bdee65b768c403931a46dc8682\" class=\"origin_image zh-lightbox-thumb\" width=\"580\" data-original=\"https://pic1.zhimg.com/v2-eb0dc6bdee65b768c403931a46dc8682_r.jpg\"/></figure><p data-pid=\"EgL9_nHv\">如果遇到文本格式问题，请使用我编写的 Quicker 动作：</p><a href=\"https://link.zhihu.com/?target=https%3A//getquicker.net/sharedaction%3Fcode%3D859bda04-fe78-4385-1b37-08d88a0dba1c\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">统一格式 - 已分享的动作 - Quicker</a><h2>网页批量导入（IE 快要没了，不推荐）</h2><p data-pid=\"v4o9VeiR\">由于历史原因，SuperMemo 还是基于 IE 核的，所以 SuperMemo 的批量导入也是针对 IE 浏览器的。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f98c4583ac10198f7389f988bac1f729_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"402\" data-rawheight=\"162\" data-original-token=\"v2-5fd9f5e4e2c9d7ac8a85f4d444770ad3\" class=\"content_image\" width=\"402\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"k2OrVQEc\">想要导入多个网页的内容，请用 IE 打开它们。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-98b6c8bd40fb49edde083aa2995c82ca_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"194\" data-original-token=\"v2-69ef3204e15017245e62f0692493c2d9\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic3.zhimg.com/v2-98b6c8bd40fb49edde083aa2995c82ca_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Bn0eVirU\">然后在 SuperMemo 中使用快键键 Ctrl + Shift + A，或在菜单里找到这个：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-0454ade0ae1296b23caae2c438b9ec1a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"430\" data-rawheight=\"235\" data-original-token=\"v2-54dd109398bcb331a49bbb783094060a\" class=\"origin_image zh-lightbox-thumb\" width=\"430\" data-original=\"https://pica.zhimg.com/v2-0454ade0ae1296b23caae2c438b9ec1a_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1j6DTumt\">呼出批量导入页面后，</p><ul><li data-pid=\"rcOAkuo_\">点击 Check all 可以勾选所有要导入的牌组；</li><li data-pid=\"jxXIyeiR\">在 Concept group 可以选择要导入到哪一个概念组；</li><li data-pid=\"9QYRtE13\">mode 选择 Local page (whole web pages) 即可；</li><li data-pid=\"brSbMiDh\">priority 有一个最大值和最小值，根据自己对优先级的判断进行修改即可。</li></ul><p data-pid=\"GIU9Ix-e\">最后点击 Import 即可导入</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-3d18b3c8b58ee17d67e5fe65452551f2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"896\" data-rawheight=\"565\" data-original-token=\"v2-7edc9f7719376556d6181f4af7f7a204\" class=\"origin_image zh-lightbox-thumb\" width=\"896\" data-original=\"https://pica.zhimg.com/v2-3d18b3c8b58ee17d67e5fe65452551f2_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"mL7YelF_\">导入后的效果如下，配合前文《<a href=\"https://zhuanlan.zhihu.com/p/318653942\" class=\"internal\" target=\"_blank\">渐进阅读懒人样式 - 知乎 (zhihu.com)</a>》的样式去除动作可以获得更好的阅读体验。</p><p data-pid=\"lmbeUXvj\">SuperMemo 自带的格式去除快捷键是 Ctrl + Shift + F12</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-6dbf79ebbcc320241688a77c81010b73_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1279\" data-rawheight=\"687\" data-original-token=\"v2-8469c0eb781068b758a0aaf6e2cc14da\" class=\"origin_image zh-lightbox-thumb\" width=\"1279\" data-original=\"https://pic2.zhimg.com/v2-6dbf79ebbcc320241688a77c81010b73_r.jpg\"/></figure><h2>电子书导入</h2><p data-pid=\"ws-td5yc\">对应 EPUB 格式的电子书，最方便的导入方法就是，将电子书的后缀改成 zip，然后用解压软件解压，就会得到一个装着一堆 html 的文件夹。用 IE 打开这些 html 文件，再用前面介绍的 web import 导入即可。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-823269cc51c6a59b13025e97cf77ed14_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"352\" data-rawheight=\"650\" data-original-token=\"v2-dbf9b5cf9af5a32d3264ed892941ba29\" class=\"content_image\" width=\"352\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"LzDOM1t3\">azw3 和 mobi 类型的电子书请先转换成 epub，我自己平时用 calibre。</p><p data-pid=\"2bkSaZ_W\">如果没有 IE 了，请参考：</p><a href=\"https://www.zhihu.com/question/504615912/answer/2262381968\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-4aaca66e731dbf4e67afef5c0b4aff3c_180x120.jpg\" data-image-width=\"2880\" data-image-height=\"1798\" class=\"internal\">如何在supermemo中阅读一本书?</a><h2>PDF 导入</h2><p data-pid=\"Y1OltLYh\">大部分教科书的电子版都是 PDF，关于这一点，SuperMemo wiki 是这样提示大家的：</p><blockquote data-pid=\"S5annGJJ\">如果你迫于考试的最后期限，仍然不能很好地进行增量阅读，那么并行地进行一些<code>新-老方法</code>混合的学习会更有意义。例如，30%的增量阅读和70%的传统学习。你一定会在安排学习计划上犯很多错误，或许探索时间比距离考试的时间还长。一开始你需要花费很多成本（学习计划，选择学习材料，表达方式，学习使用SuperMemo等等）。如果你第一次考试真的考砸了，那就不足为奇了！你可以选择一些你特别喜欢的章节，并在你的增量学习实践中使用它们。然后，您再使用旧方法处理其余的材料。你不可能在感觉到如何做得对之前，就着手把教科书大规模地转换成SuperMemo里的学习材料！它会适得其反，并使你厌恶SuperMemo。请谨慎地、循序渐进地进行。<sup data-text=\"导入文章\" data-url=\"https://www.yuque.com/supermemo/wiki/hints_and_tips#gj2PV\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup></blockquote><p data-pid=\"RNu0ZeHy\">PDF 在之前一直是我的噩梦，建议非专业人士能复制就靠复制吧，今天看哪一章就复制哪一章的内容进去。不过这可能会遇到换行问题，也就是 pdf 复制出来可能会一行一段，非常影响阅读。这里推荐一个阅读器：Xodo</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-cb47552e91b46c5c295317938b0b3171_1440w.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"133\" data-rawheight=\"112\" data-original-token=\"v2-cb47552e91b46c5c295317938b0b3171\" class=\"content_image\" width=\"133\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ZEyg4m0g\">从 Xodo 中复制出来的文本会智能分行（当然，没有 ABBYY 准，但是它免费啊），这样贴到 SuperMemo 中就方便许多。</p><p data-pid=\"3724qJ_P\">如果觉得这样复制粘贴太慢了，建议用一些 PDF OCR 软件将 PDF 转换成 TXT，比如这样：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-761a04300e5bdbb3d17146645ede2238_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"868\" data-rawheight=\"532\" data-original-token=\"v2-f51fda8c5353bfda43428042a32fed2d\" class=\"origin_image zh-lightbox-thumb\" width=\"868\" data-original=\"https://pic3.zhimg.com/v2-761a04300e5bdbb3d17146645ede2238_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"HsgA7vJJ\">然后再把 txt 里的内容粘贴到 SuperMemo，一次可以贴很多。</p><p data-pid=\"WHNPBLZ2\">当然，由于这个 txt 会非常长，建议分段粘贴。</p><p data-pid=\"QMuqS1Vb\">如果还嫌这样麻烦的话，我这里可以分享一下我写的 python 脚本（非程序员可以退避了，这里提供我的思路），仅供参考：</p><p class=\"ztext-empty-paragraph\"><br/></p><div class=\"highlight\"><pre><code class=\"language-python\"><span class=\"kn\">import</span> <span class=\"nn\">re</span>\n\n<span class=\"n\">filename</span> <span class=\"o\">=</span> <span class=\"s2\">&#34;人工智能&#34;</span> <span class=\"c1\"># 文件名</span>\n\n<span class=\"k\">with</span> <span class=\"nb\">open</span><span class=\"p\">(</span><span class=\"n\">filename</span> <span class=\"o\">+</span> <span class=\"s2\">&#34;.txt&#34;</span><span class=\"p\">,</span> <span class=\"s1\">&#39;r&#39;</span><span class=\"p\">,</span> <span class=\"n\">encoding</span><span class=\"o\">=</span><span class=\"s2\">&#34;utf-8&#34;</span><span class=\"p\">)</span> <span class=\"k\">as</span> <span class=\"n\">f</span><span class=\"p\">:</span>\n    <span class=\"n\">split_txt</span> <span class=\"o\">=</span> <span class=\"bp\">None</span>\n    <span class=\"k\">for</span> <span class=\"n\">line</span> <span class=\"ow\">in</span> <span class=\"n\">f</span><span class=\"p\">:</span>\n        <span class=\"k\">if</span> <span class=\"n\">re</span><span class=\"o\">.</span><span class=\"n\">match</span><span class=\"p\">(</span><span class=\"sa\">r</span><span class=\"s2\">&#34;[0-9]\\.[0-9]\\.[0-9]&#34;</span><span class=\"p\">,</span> <span class=\"n\">line</span><span class=\"p\">):</span> <span class=\"c1\"># 按照三级标题切分</span>\n            <span class=\"n\">split_txt</span> <span class=\"o\">=</span> <span class=\"nb\">open</span><span class=\"p\">(</span><span class=\"n\">filename</span><span class=\"o\">+</span><span class=\"s2\">&#34;/&#34;</span> <span class=\"o\">+</span> <span class=\"n\">re</span><span class=\"o\">.</span><span class=\"n\">sub</span><span class=\"p\">(</span><span class=\"sa\">r</span><span class=\"s1\">&#39;[\\/:*?&#34;&lt;&gt;|\\t\\n]&#39;</span><span class=\"p\">,</span> <span class=\"s1\">&#39;&#39;</span><span class=\"p\">,</span> <span class=\"n\">line</span><span class=\"p\">)</span> <span class=\"o\">+</span> <span class=\"s1\">&#39;.html&#39;</span><span class=\"p\">,</span> <span class=\"s1\">&#39;w&#39;</span><span class=\"p\">,</span> <span class=\"n\">encoding</span><span class=\"o\">=</span><span class=\"s2\">&#34;utf-8&#34;</span><span class=\"p\">)</span> <span class=\"c1\"># 写入 html 文件</span>\n            <span class=\"n\">split_txt</span><span class=\"o\">.</span><span class=\"n\">write</span><span class=\"p\">(</span><span class=\"s1\">&#39;&lt;p&gt;&#39;</span><span class=\"o\">+</span><span class=\"n\">re</span><span class=\"o\">.</span><span class=\"n\">sub</span><span class=\"p\">(</span><span class=\"sa\">r</span><span class=\"s1\">&#39;[\\t\\n]&#39;</span><span class=\"p\">,</span> <span class=\"s1\">&#39;&#39;</span><span class=\"p\">,</span> <span class=\"n\">line</span><span class=\"p\">)</span><span class=\"o\">+</span><span class=\"s1\">&#39;&lt;/p&gt;&#39;</span><span class=\"p\">)</span>\n        <span class=\"k\">else</span><span class=\"p\">:</span>\n            <span class=\"k\">if</span> <span class=\"n\">split_txt</span><span class=\"p\">:</span>\n                <span class=\"n\">split_txt</span><span class=\"o\">.</span><span class=\"n\">write</span><span class=\"p\">(</span><span class=\"s1\">&#39;&lt;p&gt;&#39;</span><span class=\"o\">+</span><span class=\"n\">re</span><span class=\"o\">.</span><span class=\"n\">sub</span><span class=\"p\">(</span><span class=\"sa\">r</span><span class=\"s1\">&#39;[\\t\\n]&#39;</span><span class=\"p\">,</span> <span class=\"s1\">&#39;&#39;</span><span class=\"p\">,</span> <span class=\"n\">line</span><span class=\"p\">)</span><span class=\"o\">+</span><span class=\"s1\">&#39;&lt;/p&gt;&#39;</span><span class=\"p\">)</span>\n            <span class=\"k\">else</span><span class=\"p\">:</span>\n                <span class=\"k\">continue</span></code></pre></div><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"oAEM3Yzd\">切分后的效果图：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-3e30c5a3d74276ef4997e8d728d2f95b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"673\" data-rawheight=\"387\" data-original-token=\"v2-7d3a50b7389e01ecfb6dafd29ba324ba\" class=\"origin_image zh-lightbox-thumb\" width=\"673\" data-original=\"https://pic4.zhimg.com/v2-3e30c5a3d74276ef4997e8d728d2f95b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"urDGFwKo\">导入效果：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-a5255c4240ae54340ad5358f5c7a206b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1283\" data-rawheight=\"691\" data-original-token=\"v2-0405d1c9dc3af74d418b0ccc3a3e4158\" class=\"origin_image zh-lightbox-thumb\" width=\"1283\" data-original=\"https://picx.zhimg.com/v2-a5255c4240ae54340ad5358f5c7a206b_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0Bm0MwVN\">这样虽然效果很好，但是又引来了下面这个问题：</p><h2>管理大量导入材料</h2><p data-pid=\"4GjuUx7r\">如果我们平时导入个十几篇文章，互相之间没有太多的依赖关系（就是没有严格的阅读顺序）的话，那么 SuperMemo 自动安排的阅读间隔就足够用了。</p><p data-pid=\"aLcj1zPD\">但是假如我们导入了一整本书，再用 SuperMemo 的自动安排可能就不太合适了，需要我们自己动手做一些处理。</p><p data-pid=\"XuFvbqia\">首先，在知识树中右键点击导入文章的父节点，再点击 Process branch，对这个分支做批量处理。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-6cc1458f99eb6bf39d6c273ae82c6b26_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"337\" data-rawheight=\"404\" data-original-token=\"v2-b9b3f55e06cf33e517fa9e9bd9f1175b\" class=\"content_image\" width=\"337\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"-uy-h1nr\">点击 Process branch 后会有一个新菜单，点击 Learning &gt; Forget，就可以将这个分支下的所有卡片设为新材料，不会自动加入待办队列进行复习。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-d7193898b967965313cbf48d5281e05b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"375\" data-rawheight=\"365\" data-original-token=\"v2-df4746d6d374e08a44b2d0e81e610c4c\" class=\"content_image\" width=\"375\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"7R3KWFZ_\">那么，我们该如何学习这些被 Forget 的材料呢？点击 Learn》Stages》New material 即可切换学习新材料的队列：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-79615208e44b3b41a53716db57efaa86_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"484\" data-rawheight=\"218\" data-original-token=\"v2-12e090c27277630dc78427d6950cfeb6\" class=\"origin_image zh-lightbox-thumb\" width=\"484\" data-original=\"https://pica.zhimg.com/v2-79615208e44b3b41a53716db57efaa86_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2>总结</h2><p data-pid=\"iYRa4U2I\"><b>导入一时爽，复习火葬场。</b>希望大家先导入少量自己感兴趣的材料实践渐进阅读，找到自己的节奏，再考虑导入大量材料。</p><p data-pid=\"DkwuFaA1\">毕竟，当有大量材料需要渐进阅读时，调整优先级就成为一个很重要的渐进阅读技能了。</p><p data-pid=\"30RdauDc\">希望大家多多实践，渐进学习。</p><p data-pid=\"oPvW4Bbl\">有关材料导入和样式处理的教程就告一段落了，之后会详细介绍：</p><ul><li data-pid=\"hBbE9Ztb\">阅读文章中做摘抄的几种情况</li><li data-pid=\"jZgLSJK-\">改写原文应当注意的几个原则</li><li data-pid=\"JB9d8TpY\">拆分时如何保持知识间的联系</li><li data-pid=\"OeEo4Wek\">怎样挖空可以做到最好的效果</li></ul><p data-pid=\"5Ko79Uls\">这些才是渐进阅读的核心，希望大家在实践过程中能够体会到它们的重要性，这远远比样式重要得多。</p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19695588",
+      "type": "topic",
+      "id": "19695588",
+      "name": "SuperMemo"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21754100",
+      "type": "topic",
+      "id": "21754100",
+      "name": "渐进阅读"
+    }
+  ],
+  "voteup_count": 98,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "用渐进学习的方式建立我们大脑的概念网络",
+    "is_following": false,
+    "url_token": "c_1308886122672484352",
+    "id": "c_1308886122672484352",
+    "articles_count": 61,
+    "accept_submission": false,
+    "title": "SuperMemo—渐进学习最前沿！",
+    "url": "https://api.zhihu.com/columns/c_1308886122672484352",
+    "comment_permission": "all",
+    "created": 1604842769,
+    "updated": 1751811091,
+    "image_url": "https://picx.zhimg.com/v2-3cce7a5e28a0717c6181134587fdd7c1_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 610,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 48,
+  "contributions": [
+    {
+      "id": 27637928,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "用渐进学习的方式建立我们大脑的概念网络",
+        "is_following": false,
+        "url_token": "c_1308886122672484352",
+        "id": "c_1308886122672484352",
+        "articles_count": 61,
+        "accept_submission": false,
+        "title": "SuperMemo—渐进学习最前沿！",
+        "url": "https://api.zhihu.com/columns/c_1308886122672484352",
+        "comment_permission": "all",
+        "created": 1604842769,
+        "updated": 1751811091,
+        "image_url": "https://picx.zhimg.com/v2-3cce7a5e28a0717c6181134587fdd7c1_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 610,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 321701995,
-  "voteup_count": 94,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 211,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "渐进阅读材料导入与预处理 - 来自知乎专栏「SuperMemo—渐进学习最前沿！」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/321701995 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1606719613,
-  "url": "https://api.zhihu.com/articles/321701995",
-  "comment_permission": "all",
-  "title": "渐进阅读材料导入与预处理",
-  "image_width": 687,
-  "content": "<p data-pid=\"jwFfZmCb\">通过前几期的教程介绍，渐进阅读所必须的操作已经教给大家了，希望大家已经开始实践渐进阅读。本文将介绍几种常见阅读材料的导入方法，并介绍如何管理大量导入的材料。</p><p data-pid=\"QDb0T-J5\">希望各位已经掌握渐进阅读的基础操作后再阅读本文。</p><p data-pid=\"80rxWtCR\">对于已经掌握操作，但是还不知道如何处理自己手头材料的朋友，可以阅读渐进阅读中加工知识的示范：</p><a href=\"https://link.zhihu.com/?target=https%3A//www.yuque.com/supermemo/wiki/examples\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-3053be574a87e8e1e15128ac7eeda8c8_ipico.jpg\" data-image-width=\"300\" data-image-height=\"300\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">06 示范：增量学习中的实际操作 · 语雀</a><p data-pid=\"TpuQhgTW\">再次强调：材料本身的样式远远没有知识表述重要，在 SuperMemo 里折腾样式就是买椟还珠了。很多卡片不值得你去花时间改样式，请大家自己考虑成本与收益。</p><blockquote data-pid=\"psH99dr_\">如果你仍然不能忍受不完美的卡片样式，那就专心将他们美化吧。没有什么能阻止它们变得完美，这些完美的卡片可能倍受你的喜爱，但你的学习速度肯定也会降低了。<sup data-text=\"完美主义者的增量学习\" data-url=\"https://www.yuque.com/supermemo/wiki/il_for_perfectionists\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup></blockquote><h2>选择最合适的导入材料</h2><p data-pid=\"obRGtblj\">不同材料的导入难度不同，我推荐大家在导入材料前先找找看有没有更合适的替代材料。以下是我对材料格式的推荐顺序：</p><ol><li data-pid=\"TLRkdoch\">网页（Wiki、Blog、『知乎专栏』）</li><li data-pid=\"YKue-7qT\">电子书（EPUB）</li><li data-pid=\"uxy8TvEY\">有文字层的 PDF（就是可以复制文本的那种）</li><li data-pid=\"FB1OWOIV\">扫描版的 PDF</li></ol><p data-pid=\"JESv0saa\">SuperMemo 官方文档也是这样提倡的：</p><blockquote data-pid=\"i4y0-ge-\">与其为了增量阅读而扫描纸质书籍和进行OCR，还不如从寻找电子图书开始。在大多数基础知识领域，都有多种学习材料来源。需要扫描的情况越来越少。现在，你甚至可以更挑剔一些，搜索HTML文本来代替PDF材料（以避免将PDF转换为HTML的痛苦）<sup data-text=\"导入文章\" data-url=\"https://www.yuque.com/supermemo/wiki/hints_and_tips#gj2PV\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup></blockquote><p data-pid=\"aE6EyE7g\">接下来，我会逐个介绍上述材料的导入方式，希望对大家进一步使用 SuperMemo 进行渐进阅读有所帮助。</p><p data-pid=\"f9JMqs3m\">注意：</p><ul><li data-pid=\"VwGmrU09\">先从网页材料开始</li><li data-pid=\"bcTBGNVc\">先从你感兴趣的材料开始</li><li data-pid=\"EjzLgF0Z\">先从你收藏夹里吃灰的材料开始</li></ul><h2>复制粘贴</h2><p data-pid=\"9vYfIvu8\">复制粘贴绝对是首选的添加材料的方式。这里注意一下，请勿使用 IE 浏览器打开网页复制内容，极有可能遇到图片无法在 SuperMemo 中正常显示的问题。</p><p data-pid=\"ZpcNSiWl\">粘贴快捷键 Ctrl + N，使用方法为：选中你想要阅读的文字内容，复制，再打开 SuperMemo，Ctrl + N 即可自动创建相应的摘抄卡片。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-eb0dc6bdee65b768c403931a46dc8682_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"580\" data-rawheight=\"203\" class=\"origin_image zh-lightbox-thumb\" width=\"580\" data-original=\"https://pic1.zhimg.com/v2-eb0dc6bdee65b768c403931a46dc8682_r.jpg\" data-original-token=\"v2-eb0dc6bdee65b768c403931a46dc8682\"/></figure><p data-pid=\"EgL9_nHv\">如果遇到文本格式问题，请使用我编写的 Quicker 动作：</p><a href=\"https://link.zhihu.com/?target=https%3A//getquicker.net/sharedaction%3Fcode%3D859bda04-fe78-4385-1b37-08d88a0dba1c\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">统一格式 - 已分享的动作 - Quicker</a><h2>网页批量导入（IE 快要没了，不推荐）</h2><p data-pid=\"v4o9VeiR\">由于历史原因，SuperMemo 还是基于 IE 核的，所以 SuperMemo 的批量导入也是针对 IE 浏览器的。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f98c4583ac10198f7389f988bac1f729_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"402\" data-rawheight=\"162\" class=\"content_image\" width=\"402\" data-original-token=\"v2-5fd9f5e4e2c9d7ac8a85f4d444770ad3\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"k2OrVQEc\">想要导入多个网页的内容，请用 IE 打开它们。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-98b6c8bd40fb49edde083aa2995c82ca_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"194\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic3.zhimg.com/v2-98b6c8bd40fb49edde083aa2995c82ca_r.jpg\" data-original-token=\"v2-69ef3204e15017245e62f0692493c2d9\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Bn0eVirU\">然后在 SuperMemo 中使用快键键 Ctrl + Shift + A，或在菜单里找到这个：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-0454ade0ae1296b23caae2c438b9ec1a_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"430\" data-rawheight=\"235\" class=\"origin_image zh-lightbox-thumb\" width=\"430\" data-original=\"https://pica.zhimg.com/v2-0454ade0ae1296b23caae2c438b9ec1a_r.jpg\" data-original-token=\"v2-54dd109398bcb331a49bbb783094060a\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1j6DTumt\">呼出批量导入页面后，</p><ul><li data-pid=\"rcOAkuo_\">点击 Check all 可以勾选所有要导入的牌组；</li><li data-pid=\"jxXIyeiR\">在 Concept group 可以选择要导入到哪一个概念组；</li><li data-pid=\"9QYRtE13\">mode 选择 Local page (whole web pages) 即可；</li><li data-pid=\"brSbMiDh\">priority 有一个最大值和最小值，根据自己对优先级的判断进行修改即可。</li></ul><p data-pid=\"GIU9Ix-e\">最后点击 Import 即可导入</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-3d18b3c8b58ee17d67e5fe65452551f2_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"896\" data-rawheight=\"565\" class=\"origin_image zh-lightbox-thumb\" width=\"896\" data-original=\"https://pica.zhimg.com/v2-3d18b3c8b58ee17d67e5fe65452551f2_r.jpg\" data-original-token=\"v2-7edc9f7719376556d6181f4af7f7a204\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"mL7YelF_\">导入后的效果如下，配合前文《<a href=\"https://zhuanlan.zhihu.com/p/318653942\" class=\"internal\">渐进阅读懒人样式 - 知乎 (zhihu.com)</a>》的样式去除动作可以获得更好的阅读体验。</p><p data-pid=\"lmbeUXvj\">SuperMemo 自带的格式去除快捷键是 Ctrl + Shift + F12</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-6dbf79ebbcc320241688a77c81010b73_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1279\" data-rawheight=\"687\" class=\"origin_image zh-lightbox-thumb\" width=\"1279\" data-original=\"https://pic2.zhimg.com/v2-6dbf79ebbcc320241688a77c81010b73_r.jpg\" data-original-token=\"v2-8469c0eb781068b758a0aaf6e2cc14da\"/></figure><h2>电子书导入</h2><p data-pid=\"ws-td5yc\">对应 EPUB 格式的电子书，最方便的导入方法就是，将电子书的后缀改成 zip，然后用解压软件解压，就会得到一个装着一堆 html 的文件夹。用 IE 打开这些 html 文件，再用前面介绍的 web import 导入即可。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-823269cc51c6a59b13025e97cf77ed14_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"352\" data-rawheight=\"650\" class=\"content_image\" width=\"352\" data-original-token=\"v2-dbf9b5cf9af5a32d3264ed892941ba29\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"LzDOM1t3\">azw3 和 mobi 类型的电子书请先转换成 epub，我自己平时用 calibre。</p><p data-pid=\"2bkSaZ_W\">如果没有 IE 了，请参考：</p><a href=\"https://www.zhihu.com/question/504615912/answer/2262381968\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-4aaca66e731dbf4e67afef5c0b4aff3c_180x120.jpg\" data-image-width=\"2880\" data-image-height=\"1798\" class=\"internal\">如何在supermemo中阅读一本书?</a><h2>PDF 导入</h2><p data-pid=\"Y1OltLYh\">大部分教科书的电子版都是 PDF，关于这一点，SuperMemo wiki 是这样提示大家的：</p><blockquote data-pid=\"S5annGJJ\">如果你迫于考试的最后期限，仍然不能很好地进行增量阅读，那么并行地进行一些<code>新-老方法</code>混合的学习会更有意义。例如，30%的增量阅读和70%的传统学习。你一定会在安排学习计划上犯很多错误，或许探索时间比距离考试的时间还长。一开始你需要花费很多成本（学习计划，选择学习材料，表达方式，学习使用SuperMemo等等）。如果你第一次考试真的考砸了，那就不足为奇了！你可以选择一些你特别喜欢的章节，并在你的增量学习实践中使用它们。然后，您再使用旧方法处理其余的材料。你不可能在感觉到如何做得对之前，就着手把教科书大规模地转换成SuperMemo里的学习材料！它会适得其反，并使你厌恶SuperMemo。请谨慎地、循序渐进地进行。<sup data-text=\"导入文章\" data-url=\"https://www.yuque.com/supermemo/wiki/hints_and_tips#gj2PV\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup></blockquote><p data-pid=\"RNu0ZeHy\">PDF 在之前一直是我的噩梦，建议非专业人士能复制就靠复制吧，今天看哪一章就复制哪一章的内容进去。不过这可能会遇到换行问题，也就是 pdf 复制出来可能会一行一段，非常影响阅读。这里推荐一个阅读器：Xodo</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-cb47552e91b46c5c295317938b0b3171_b.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"133\" data-rawheight=\"112\" class=\"content_image\" width=\"133\" data-original-token=\"v2-cb47552e91b46c5c295317938b0b3171\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ZEyg4m0g\">从 Xodo 中复制出来的文本会智能分行（当然，没有 ABBYY 准，但是它免费啊），这样贴到 SuperMemo 中就方便许多。</p><p data-pid=\"3724qJ_P\">如果觉得这样复制粘贴太慢了，建议用一些 PDF OCR 软件将 PDF 转换成 TXT，比如这样：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-761a04300e5bdbb3d17146645ede2238_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"868\" data-rawheight=\"532\" class=\"origin_image zh-lightbox-thumb\" width=\"868\" data-original=\"https://pic3.zhimg.com/v2-761a04300e5bdbb3d17146645ede2238_r.jpg\" data-original-token=\"v2-f51fda8c5353bfda43428042a32fed2d\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"HsgA7vJJ\">然后再把 txt 里的内容粘贴到 SuperMemo，一次可以贴很多。</p><p data-pid=\"WHNPBLZ2\">当然，由于这个 txt 会非常长，建议分段粘贴。</p><p data-pid=\"QMuqS1Vb\">如果还嫌这样麻烦的话，我这里可以分享一下我写的 python 脚本（非程序员可以退避了，这里提供我的思路），仅供参考：</p><p class=\"ztext-empty-paragraph\"><br/></p><div class=\"highlight\"><pre><code class=\"language-python\"><span class=\"kn\">import</span> <span class=\"nn\">re</span>\n\n<span class=\"n\">filename</span> <span class=\"o\">=</span> <span class=\"s2\">&#34;人工智能&#34;</span> <span class=\"c1\"># 文件名</span>\n\n<span class=\"k\">with</span> <span class=\"nb\">open</span><span class=\"p\">(</span><span class=\"n\">filename</span> <span class=\"o\">+</span> <span class=\"s2\">&#34;.txt&#34;</span><span class=\"p\">,</span> <span class=\"s1\">&#39;r&#39;</span><span class=\"p\">,</span> <span class=\"n\">encoding</span><span class=\"o\">=</span><span class=\"s2\">&#34;utf-8&#34;</span><span class=\"p\">)</span> <span class=\"k\">as</span> <span class=\"n\">f</span><span class=\"p\">:</span>\n    <span class=\"n\">split_txt</span> <span class=\"o\">=</span> <span class=\"bp\">None</span>\n    <span class=\"k\">for</span> <span class=\"n\">line</span> <span class=\"ow\">in</span> <span class=\"n\">f</span><span class=\"p\">:</span>\n        <span class=\"k\">if</span> <span class=\"n\">re</span><span class=\"o\">.</span><span class=\"n\">match</span><span class=\"p\">(</span><span class=\"sa\">r</span><span class=\"s2\">&#34;[0-9]\\.[0-9]\\.[0-9]&#34;</span><span class=\"p\">,</span> <span class=\"n\">line</span><span class=\"p\">):</span> <span class=\"c1\"># 按照三级标题切分</span>\n            <span class=\"n\">split_txt</span> <span class=\"o\">=</span> <span class=\"nb\">open</span><span class=\"p\">(</span><span class=\"n\">filename</span><span class=\"o\">+</span><span class=\"s2\">&#34;/&#34;</span> <span class=\"o\">+</span> <span class=\"n\">re</span><span class=\"o\">.</span><span class=\"n\">sub</span><span class=\"p\">(</span><span class=\"sa\">r</span><span class=\"s1\">&#39;[\\/:*?&#34;&lt;&gt;|\\t\\n]&#39;</span><span class=\"p\">,</span> <span class=\"s1\">&#39;&#39;</span><span class=\"p\">,</span> <span class=\"n\">line</span><span class=\"p\">)</span> <span class=\"o\">+</span> <span class=\"s1\">&#39;.html&#39;</span><span class=\"p\">,</span> <span class=\"s1\">&#39;w&#39;</span><span class=\"p\">,</span> <span class=\"n\">encoding</span><span class=\"o\">=</span><span class=\"s2\">&#34;utf-8&#34;</span><span class=\"p\">)</span> <span class=\"c1\"># 写入 html 文件</span>\n            <span class=\"n\">split_txt</span><span class=\"o\">.</span><span class=\"n\">write</span><span class=\"p\">(</span><span class=\"s1\">&#39;&lt;p&gt;&#39;</span><span class=\"o\">+</span><span class=\"n\">re</span><span class=\"o\">.</span><span class=\"n\">sub</span><span class=\"p\">(</span><span class=\"sa\">r</span><span class=\"s1\">&#39;[\\t\\n]&#39;</span><span class=\"p\">,</span> <span class=\"s1\">&#39;&#39;</span><span class=\"p\">,</span> <span class=\"n\">line</span><span class=\"p\">)</span><span class=\"o\">+</span><span class=\"s1\">&#39;&lt;/p&gt;&#39;</span><span class=\"p\">)</span>\n        <span class=\"k\">else</span><span class=\"p\">:</span>\n            <span class=\"k\">if</span> <span class=\"n\">split_txt</span><span class=\"p\">:</span>\n                <span class=\"n\">split_txt</span><span class=\"o\">.</span><span class=\"n\">write</span><span class=\"p\">(</span><span class=\"s1\">&#39;&lt;p&gt;&#39;</span><span class=\"o\">+</span><span class=\"n\">re</span><span class=\"o\">.</span><span class=\"n\">sub</span><span class=\"p\">(</span><span class=\"sa\">r</span><span class=\"s1\">&#39;[\\t\\n]&#39;</span><span class=\"p\">,</span> <span class=\"s1\">&#39;&#39;</span><span class=\"p\">,</span> <span class=\"n\">line</span><span class=\"p\">)</span><span class=\"o\">+</span><span class=\"s1\">&#39;&lt;/p&gt;&#39;</span><span class=\"p\">)</span>\n            <span class=\"k\">else</span><span class=\"p\">:</span>\n                <span class=\"k\">continue</span></code></pre></div><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"oAEM3Yzd\">切分后的效果图：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-3e30c5a3d74276ef4997e8d728d2f95b_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"673\" data-rawheight=\"387\" class=\"origin_image zh-lightbox-thumb\" width=\"673\" data-original=\"https://pic4.zhimg.com/v2-3e30c5a3d74276ef4997e8d728d2f95b_r.jpg\" data-original-token=\"v2-7d3a50b7389e01ecfb6dafd29ba324ba\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"urDGFwKo\">导入效果：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-a5255c4240ae54340ad5358f5c7a206b_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1283\" data-rawheight=\"691\" class=\"origin_image zh-lightbox-thumb\" width=\"1283\" data-original=\"https://picx.zhimg.com/v2-a5255c4240ae54340ad5358f5c7a206b_r.jpg\" data-original-token=\"v2-0405d1c9dc3af74d418b0ccc3a3e4158\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"0Bm0MwVN\">这样虽然效果很好，但是又引来了下面这个问题：</p><h2>管理大量导入材料</h2><p data-pid=\"4GjuUx7r\">如果我们平时导入个十几篇文章，互相之间没有太多的依赖关系（就是没有严格的阅读顺序）的话，那么 SuperMemo 自动安排的阅读间隔就足够用了。</p><p data-pid=\"aLcj1zPD\">但是假如我们导入了一整本书，再用 SuperMemo 的自动安排可能就不太合适了，需要我们自己动手做一些处理。</p><p data-pid=\"XuFvbqia\">首先，在知识树中右键点击导入文章的父节点，再点击 Process branch，对这个分支做批量处理。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-6cc1458f99eb6bf39d6c273ae82c6b26_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"337\" data-rawheight=\"404\" class=\"content_image\" width=\"337\" data-original-token=\"v2-b9b3f55e06cf33e517fa9e9bd9f1175b\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"-uy-h1nr\">点击 Process branch 后会有一个新菜单，点击 Learning &gt; Forget，就可以将这个分支下的所有卡片设为新材料，不会自动加入待办队列进行复习。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-d7193898b967965313cbf48d5281e05b_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"375\" data-rawheight=\"365\" class=\"content_image\" width=\"375\" data-original-token=\"v2-df4746d6d374e08a44b2d0e81e610c4c\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"7R3KWFZ_\">那么，我们该如何学习这些被 Forget 的材料呢？点击 Learn》Stages》New material 即可切换学习新材料的队列：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-79615208e44b3b41a53716db57efaa86_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"484\" data-rawheight=\"218\" class=\"origin_image zh-lightbox-thumb\" width=\"484\" data-original=\"https://pica.zhimg.com/v2-79615208e44b3b41a53716db57efaa86_r.jpg\" data-original-token=\"v2-12e090c27277630dc78427d6950cfeb6\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h2>总结</h2><p data-pid=\"iYRa4U2I\"><b>导入一时爽，复习火葬场。</b>希望大家先导入少量自己感兴趣的材料实践渐进阅读，找到自己的节奏，再考虑导入大量材料。</p><p data-pid=\"DkwuFaA1\">毕竟，当有大量材料需要渐进阅读时，调整优先级就成为一个很重要的渐进阅读技能了。</p><p data-pid=\"30RdauDc\">希望大家多多实践，渐进学习。</p><p data-pid=\"oPvW4Bbl\">有关材料导入和样式处理的教程就告一段落了，之后会详细介绍：</p><ul><li data-pid=\"hBbE9Ztb\">阅读文章中做摘抄的几种情况</li><li data-pid=\"jZgLSJK-\">改写原文应当注意的几个原则</li><li data-pid=\"JB9d8TpY\">拆分时如何保持知识间的联系</li><li data-pid=\"OeEo4Wek\">怎样挖空可以做到最好的效果</li></ul><p data-pid=\"5Ko79Uls\">这些才是渐进阅读的核心，希望大家在实践过程中能够体会到它们的重要性，这远远比样式重要得多。</p>",
-  "column": {
-    "updated": 1604842769,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/c_1308886122672484352",
-    "title": "SuperMemo—渐进学习最前沿！",
-    "image_url": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1308886122672484352"
-  },
-  "comment_count": 46,
-  "image_url": "https://picx.zhimg.com/v2-8469c0eb781068b758a0aaf6e2cc14da_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 23,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 23,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxNTk2MTkwMjESCTMyMTcwMTk5NRgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 98,
+      "down_vote_count": 0,
+      "like_count": 23,
+      "comment_count": 48,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 211,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-0405d1c9dc3af74d418b0ccc3a3e4158": 0,
+        "v2-12e090c27277630dc78427d6950cfeb6": 0,
+        "v2-54dd109398bcb331a49bbb783094060a": 0,
+        "v2-5fd9f5e4e2c9d7ac8a85f4d444770ad3": 0,
+        "v2-69ef3204e15017245e62f0692493c2d9": 0,
+        "v2-7d3a50b7389e01ecfb6dafd29ba324ba": 0,
+        "v2-7edc9f7719376556d6181f4af7f7a204": 0,
+        "v2-8469c0eb781068b758a0aaf6e2cc14da": 0,
+        "v2-b9b3f55e06cf33e517fa9e9bd9f1175b": 0,
+        "v2-cb47552e91b46c5c295317938b0b3171": 0,
+        "v2-dbf9b5cf9af5a32d3264ed892941ba29": 0,
+        "v2-df4746d6d374e08a44b2d0e81e610c4c": 0,
+        "v2-eb0dc6bdee65b768c403931a46dc8682": 0,
+        "v2-f51fda8c5353bfda43428042a32fed2d": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-0405d1c9dc3af74d418b0ccc3a3e4158": false,
+        "v2-12e090c27277630dc78427d6950cfeb6": false,
+        "v2-54dd109398bcb331a49bbb783094060a": false,
+        "v2-5fd9f5e4e2c9d7ac8a85f4d444770ad3": false,
+        "v2-69ef3204e15017245e62f0692493c2d9": false,
+        "v2-7d3a50b7389e01ecfb6dafd29ba324ba": false,
+        "v2-7edc9f7719376556d6181f4af7f7a204": false,
+        "v2-8469c0eb781068b758a0aaf6e2cc14da": false,
+        "v2-b9b3f55e06cf33e517fa9e9bd9f1175b": false,
+        "v2-cb47552e91b46c5c295317938b0b3171": false,
+        "v2-dbf9b5cf9af5a32d3264ed892941ba29": false,
+        "v2-df4746d6d374e08a44b2d0e81e610c4c": false,
+        "v2-eb0dc6bdee65b768c403931a46dc8682": false,
+        "v2-f51fda8c5353bfda43428042a32fed2d": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-0405d1c9dc3af74d418b0ccc3a3e4158": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-12e090c27277630dc78427d6950cfeb6": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-54dd109398bcb331a49bbb783094060a": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-5fd9f5e4e2c9d7ac8a85f4d444770ad3": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-69ef3204e15017245e62f0692493c2d9": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-7d3a50b7389e01ecfb6dafd29ba324ba": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-7edc9f7719376556d6181f4af7f7a204": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-8469c0eb781068b758a0aaf6e2cc14da": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-b9b3f55e06cf33e517fa9e9bd9f1175b": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-cb47552e91b46c5c295317938b0b3171": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-dbf9b5cf9af5a32d3264ed892941ba29": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-df4746d6d374e08a44b2d0e81e610c4c": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-eb0dc6bdee65b768c403931a46dc8682": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-f51fda8c5353bfda43428042a32fed2d": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=321701995&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · SuperMemo—渐进学习最前沿！",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1308886122672484352",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · SuperMemo—渐进学习最前沿！"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

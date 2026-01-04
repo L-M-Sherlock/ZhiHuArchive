@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,19 +37,21 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,36 +84,56 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 0,
   "content": "<h2>不应该</h2><p data-pid=\"MYH4_Gql\">逼孩子学习会导致以下问题：</p><ul><li data-pid=\"N4zKSlfx\">强迫抑制了学习内驱力<sup data-text=\"学习内驱力\" data-url=\"https://zhuanlan.zhihu.com/p/52990549\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，从而导致长期学习的减少</li><li data-pid=\"b2FNf91q\">强迫会导致丧失区分好的学习和不好的学习的能力(参见：网络战争<sup data-text=\"神经网络战争\" data-url=\"https://zhuanlan.zhihu.com/p/359658715\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>)</li><li data-pid=\"zIk66Mdw\">强迫会导致毒性记忆<sup data-text=\"毒性记忆\" data-url=\"https://zhuanlan.zhihu.com/p/67390960\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>的形成，这可能是行为、精神或神经障碍的前奏。</li><li data-pid=\"7pbLBSgq\">强迫会导致习得性无助<sup data-text=\" 学习内驱力与习得性无助\" data-url=\"https://zhuanlan.zhihu.com/p/65899656\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>，这可能是抑郁的前奏。</li><li data-pid=\"XmZEdjoG\">强迫忍受不良的学习习惯可能会破坏未来的认知能力(参见：无语义学习<sup data-text=\"无语义学习\" data-url=\"https://zhuanlan.zhihu.com/p/295053968\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>)</li><li data-pid=\"ed9T7Zsm\">强迫导致知识模型的瓦解<sup data-text=\"大脑算法保护现实的模型\" data-url=\"https://zhuanlan.zhihu.com/p/356977535\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup></li></ul><a href=\"http://zhuanlan.zhihu.com/p/351872034\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-e432e5cd2bf2653a64d4297ef77cb59c_180x120.jpg\" data-image-width=\"500\" data-image-height=\"368\" class=\"internal\">叶峻峣：学习中的强迫</a><p data-pid=\"mRYbum3Q\">至于是否应该通过外部奖励来激励孩子学习，答案也是否定的：</p><p data-pid=\"cYAYVyQ-\"><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/John_Holt\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">约翰•霍尔特</a>曾说过，你“无法从外部激励孩子”。一切好的知识都来自内心。他补充说：「<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Coercion\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">你可以威胁孩子，也可以贿赂孩子。</a><sup data-text=\"学习中的强迫\" data-url=\"https://zhuanlan.zhihu.com/p/351872034\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup>」正如《学习的乐趣<sup data-text=\"学习的乐趣\" data-url=\"https://www.zhihu.com/question/429432467/answer/1578551193\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"8\">[8]</sup>》一章所解释的那样，他在很大程度上是正确的。</p><p data-pid=\"kf69GX4N\">所有非基于知识的奖励或惩罚都可能因错误的条件反射而适得其反。这可能会导致学习内驱力<sup data-text=\"学习内驱力\" data-url=\"https://zhuanlan.zhihu.com/p/52990549\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>的最终抑制。特别是，学校的成绩是一种激励因素，会带来<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Dangers_of_being_a_Straight_A_student\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">一系列的负面影响</a><sup data-text=\"做全优学生的危险\" data-url=\"https://zhuanlan.zhihu.com/p/369391813\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"9\">[9]</sup>。</p><p data-pid=\"HJ2J2UVL\">Alfie Kohn 在 1995 年发现：由外部诱因引发的动机不仅不如内在动机有效；它可能会<b>侵蚀人的内在动机</b>，即对自己正在做的事情的兴奋感</p><p data-pid=\"BBBSFxYe\">学习动机最好的非具体来源是<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Incremental_reading\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">大量学习本身</a>。这反过来又需要大量的自由和时间。</p><p data-pid=\"_PJVdWVb\">良好的学习产生更多良好的学习。最好的燃料来自内心。</p><a href=\"https://zhuanlan.zhihu.com/p/357893386\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-c93ea384e2e900e49d665878ef643a0d_180x120.jpg\" data-image-width=\"1355\" data-image-height=\"926\" class=\"internal\">叶峻峣：我怎样才能外在地激励孩子?</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1645455828,
   "excerpt": "不应该逼孩子学习会导致以下问题： 强迫抑制了学习内驱力[1]，从而导致长期学习的减少强迫会导致丧失区分好的学习和不好的学习的能力(参见：网络战争[2])强迫会导致毒性记忆[3]的形成，这可能是行为、精神或神经障碍的前奏。强迫会导致习得性无助[4]，这可能是抑郁的前奏。强迫忍受不良的学习习惯可能会破坏未来的认知能力(参见：无语义学习[5])强迫导致知识模型的瓦解[6] [文章: 学习中的强迫] 至于是否应该通过外部奖励来激励孩…",
-  "id": 2358189876,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2358189876",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "http://zhuanlan.zhihu.com/p/351872034": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"学习中的强迫\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/351872034\",\"desc\":\"49 赞同 · 6 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 学习中的强迫是指使用诸如贿赂或威胁等手段让孩子们违背他们的意愿、违背他们的激情和兴趣 [1]去学习。强迫是一种无效的策略，因为它不可能从外部有效地激励孩子 [2]。由于强迫违背了学习的基本规律 [3]，学习结果往往与孩子的真正潜能相比较差。学习效率低可能是强迫所导致的问题中最小的那一个。真正的问题是，学习中的强迫会导致以下重叠的负面结果： 强迫抑制了学习内驱力 [1]，从而导致长期学习的减少强迫抑制创造力（参见：学…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-e432e5cd2bf2653a64d4297ef77cb59c_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"351872034\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "http://zhuanlan.zhihu.com/p/351872034": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"学习中的强迫\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/351872034\",\"desc\":\"52 赞同 · 6 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 学习中的强迫是指使用诸如贿赂或威胁等手段让孩子们违背他们的意愿、违背他们的激情和兴趣 [1]去学习。强迫是一种无效的策略，因为它不可能从外部有效地激励孩子 [2]。由于强迫违背了学习的基本规律 [3]，学习结果往往与孩子的真正潜能相比较差。学习效率低可能是强迫所导致的问题中最小的那一个。真正的问题是，学习中的强迫会导致以下重叠的负面结果： 强迫抑制了学习内驱力 [1]，从而导致长期学习的减少强迫抑制创造力（参见：学…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-e432e5cd2bf2653a64d4297ef77cb59c_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"351872034\"},\"za_data\":{\"attach_info\":\"\"}}",
     "https://zhuanlan.zhihu.com/p/357893386": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"我怎样才能外在地激励孩子?\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/357893386\",\"desc\":\"24 赞同 · 0 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 原文：How can I motivate a child extrinsically? - supermemo.guru 问题激发孩子学习的最好方法是什么？ 回答 John Holt [1] 曾说过，你「无法从外部激励孩子」。一切好的知识都来自内心。他补充说：「你可以威胁孩子，也可以贿赂孩子。 [2]」正如《学习的乐趣 [3]》一章所解释的那样，他在很大程度上是正确的。这并不意味着家长、老师或教育工作者无能为力。在某种程度上，他们可以通过以下工具影响动机： 改变孩子的环境（例如选…估值 [4]和学习内驱力 [5]的对话明智地使用推动区 [6]（例如，鼓励孩子从教育程度较低的游戏转向教育程度较高的游戏 [7]）\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-c93ea384e2e900e49d665878ef643a0d_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"357893386\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=2358189876&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1587992498,
     "detail": "",
-    "id": 391041543,
+    "id": "391041543",
     "question_type": "normal",
     "relationship": {},
     "title": "该不该逼着孩子学习？",
     "type": "question",
     "updated_time": 1587992498,
-    "url": "https://api.zhihu.com/questions/391041543"
+    "url": "https://www.zhihu.com/api/v4/questions/391041543"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1645455828,
+  "url": "https://www.zhihu.com/api/v4/answers/2358189876",
   "voteup_count": 18
 }

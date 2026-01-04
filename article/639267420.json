@@ -1,74 +1,345 @@
 {
-  "status": 0,
+  "id": "639267420",
+  "title": "将卡片生成任务定义为强化目标的过滤问题",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/639267420",
+  "image_url": "",
+  "title_image": "",
+  "excerpt": "当我开始专注 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2DY7qsP5iHsiA5hxUHheV8hu7Xe96vdGyYX\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">使用机器学习模型从解释文本中生成高质量的间隔重复卡片</a>[1]，我认为这个问题主要在于如何让系统产生我想要的输出。但在体验过一些模型后，我注意到模型通常有能力产生足够接近我想要结果，但前提是我愿意生成并评估足够多的样本。这一过程的问…",
+  "created": 1687690266,
   "updated": 1724732127,
   "author": {
     "is_followed": false,
-    "badge": [],
-    "name": "Jarrett Ye",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
-    "gender": 1,
+    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+    "uid": "1521893281407864832",
     "user_type": "people",
-    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
-    "avatar_url": "https://picx.zhimg.com/50/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=b1748391",
     "is_following": false,
+    "url_token": "JarrettYe",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+    "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+    "name": "Jarrett Ye",
+    "is_advertiser": false,
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "gender": 1,
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+    "is_org": false,
     "type": "people",
-    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    "badge": [],
+    "badge_v2": {
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "merged_badges": [],
+      "detail_badges": [],
+      "icon": "",
+      "night_icon": ""
+    },
+    "exposed_medal": {
+      "medal_id": "1463836052717301760",
+      "medal_name": "知「势」之星",
+      "avatar_url": "https://picx.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_l.png?source=172ae18b",
+      "description": "「知势榜」上榜答主即可获得",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "当我开始专注使用机器学习模型从解释文本中生成高质量的间隔重复卡片 [1]，我认为这…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 0,
+  "image_height": 0,
+  "content": "<p data-pid=\"XBInZKE7\">当我开始专注<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2DY7qsP5iHsiA5hxUHheV8hu7Xe96vdGyYX\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">使用机器学习模型从解释文本中生成高质量的间隔重复卡片</a><sup data-text=\"使用机器学习从解释性文本中生成优质的间隔重复卡片\" data-url=\"https://zhuanlan.zhihu.com/p/716570823\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，我认为这个问题主要在于如何让系统产生我想要的输出。但在体验过一些模型后，我注意到模型通常有能力产生足够接近我想要结果，但前提是我愿意生成并评估足够多的样本。这一过程的问题在于生成满意答案需要生成的样本数量过于庞大……但不是一个博尔赫斯数*。显然，任何足够复杂的模型都包含所有的句子；这不是在说我想要的卡片就在集合中，而是在说我可能会丢弃掉近乎所有的样本。</p><blockquote data-pid=\"AGCUKRAb\">*译注：博尔赫斯数是一个虚构的数学概念，源于阿根廷作家豪尔赫·路易斯·博尔赫斯的作品《百科全书》。其中博尔赫斯数是一个极其巨大的数字，其大小超出人类理解和表达的范围。它被用来描述一个无限的、包含了所有可能的排列组合的图书馆或书库，其中每本书都是一本独特的书，包含了所有可能的组合。</blockquote><p data-pid=\"p0XUpLel\">生成卡片的问题，跟让模型生成可接受的输出的问题完全不一样（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zPZqDQquq8TAxRVqCQTkxkq\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">卡片生成任务中，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题</a><sup data-text=\"卡片生成任务中，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题\" data-url=\"https://zhuanlan.zhihu.com/p/656354899\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>）。或许可以开发一些过滤器，筛选模型的输出，以找出我们需要的问题。此外，我们也可以开发一个界面来适应这个筛选问题。</p><h2>对候选卡片进行自动排序/筛选</h2><p data-pid=\"tEpn8oZl\">什么是「不合理」的问题？我发现这些问题并不是胡言乱语，而是非常规矩的问题，也都能说得通。但这些问题中读不出对文章的有趣理解。这种「有趣」有主观因素——有些人对人物时间事件等具体细节感兴趣，有人对关键定义感兴趣，而有人对大局影响感兴趣（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zRQJZytpQme5JHS83MSboQ4\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示，来确定从何种角度制卡</a><sup data-text=\"对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示，来确定从何种角度制卡\" data-url=\"https://zhuanlan.zhihu.com/p/644435780\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>；<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zGkLPdiEs7Qohkesq7TNiBe\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式</a><sup data-text=\"对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式\" data-url=\"https://zhuanlan.zhihu.com/p/656355546\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>）。但我想知道的是这种有趣是否能客观评价。</p><p data-pid=\"MTDvEy8U\">比如，假设我们围绕一篇关于跑步者的文章生成问题，文章里有句话是「他绑紧了他的鞋带」，而如果有个问题是「他跑步前绑紧了什么？」，那么这个问题可以在客观上认为是低质量的，其中一个因素是当代故事里的其他跑步者都会这么干（也就是说，这条信息是低熵的）。另一个更为微妙的因素是，这个细节对这个故事<b>并不重要</b>。跑步者的鞋子是无关紧要的；文章之后也没有提起。我觉得量化第一个因素是可行的，但我不确定如何量化第二个因素。有个笨想法：如果你移除文章的某处细节，文章的自编码向量会移动多少？我们能在这里使用模型的熵吗？</p><h3>参考文献</h3><p data-pid=\"FilrkBCi\">我在 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zYhPmghQMv93jZsGwPfLcZx7E4npiQc87xX\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">2021 年 9 月 6日</a>与 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zJ55L18u5sagXqnMWh5szwfZ388oGQbyfW3\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Yuval Milo</a> 的电话会谈里意识到了这点。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"ETBAy36q\"><a href=\"https://zhuanlan.zhihu.com/p/656354899\" class=\"internal\" target=\"_blank\">卡片生成任务中，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题</a></li><li data-pid=\"jhPB4YU8\"><a href=\"https://zhuanlan.zhihu.com/p/716570823\" class=\"internal\" target=\"_blank\">叶峻峣：使用机器学习从解释性文本中生成优质的间隔重复卡片</a></li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"ySPjL02P\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 Shom、校对 <span class=\"nolink\">Jarrett</span>Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zQ4E1DXZoZTTitsik89ZcvXMu8dQMkJzRUS\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Framing prompt generation as a filtering problem on reinforcement targets</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
-  "reason": "",
-  "excerpt_title": "",
-  "id": 639267420,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/27267395",
+      "type": "topic",
+      "id": "27267395",
+      "name": "大语言模型"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21535352",
+      "type": "topic",
+      "id": "21535352",
+      "name": "抽认卡"
+    }
+  ],
   "voteup_count": 7,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "间隔重复使记忆成为一种选择",
+    "is_following": false,
+    "url_token": "c_1525782291741208576",
+    "id": "c_1525782291741208576",
+    "articles_count": 182,
+    "accept_submission": true,
+    "title": "间隔重复 & 注意力管理",
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "comment_permission": "all",
+    "created": 1751877449,
+    "updated": 1656554846,
+    "image_url": "https://pic1.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 227,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 1,
+  "contributions": [
+    {
+      "id": 45708742,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "间隔重复使记忆成为一种选择",
+        "is_following": false,
+        "url_token": "c_1525782291741208576",
+        "id": "c_1525782291741208576",
+        "articles_count": 182,
+        "accept_submission": true,
+        "title": "间隔重复 & 注意力管理",
+        "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+        "comment_permission": "all",
+        "created": 1751877449,
+        "updated": 1656554846,
+        "image_url": "https://pic1.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 227,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "can_open_tipjar": true,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 2,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "将卡片生成任务定义为强化目标的过滤问题 - 来自知乎专栏「间隔重复 &amp; 注意力管理」，作者: Jarrett Ye https://zhuanlan.zhihu.com/p/639267420 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1687690266,
-  "url": "https://api.zhihu.com/articles/639267420",
-  "comment_permission": "all",
-  "title": "将卡片生成任务定义为强化目标的过滤问题",
-  "content": "<p data-pid=\"XBInZKE7\">当我开始专注<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2DY7qsP5iHsiA5hxUHheV8hu7Xe96vdGyYX\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">使用机器学习模型从解释文本中生成高质量的间隔重复卡片</a><sup data-text=\"使用机器学习从解释性文本中生成优质的间隔重复卡片\" data-url=\"https://zhuanlan.zhihu.com/p/716570823\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，我认为这个问题主要在于如何让系统产生我想要的输出。但在体验过一些模型后，我注意到模型通常有能力产生足够接近我想要结果，但前提是我愿意生成并评估足够多的样本。这一过程的问题在于生成满意答案需要生成的样本数量过于庞大……但不是一个博尔赫斯数*。显然，任何足够复杂的模型都包含所有的句子；这不是在说我想要的卡片就在集合中，而是在说我可能会丢弃掉近乎所有的样本。</p><blockquote data-pid=\"AGCUKRAb\">*译注：博尔赫斯数是一个虚构的数学概念，源于阿根廷作家豪尔赫·路易斯·博尔赫斯的作品《百科全书》。其中博尔赫斯数是一个极其巨大的数字，其大小超出人类理解和表达的范围。它被用来描述一个无限的、包含了所有可能的排列组合的图书馆或书库，其中每本书都是一本独特的书，包含了所有可能的组合。</blockquote><p data-pid=\"p0XUpLel\">生成卡片的问题，跟让模型生成可接受的输出的问题完全不一样（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zPZqDQquq8TAxRVqCQTkxkq\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">卡片生成任务中，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题</a><sup data-text=\"卡片生成任务中，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题\" data-url=\"https://zhuanlan.zhihu.com/p/656354899\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>）。或许可以开发一些过滤器，筛选模型的输出，以找出我们需要的问题。此外，我们也可以开发一个界面来适应这个筛选问题。</p><h2>对候选卡片进行自动排序/筛选</h2><p data-pid=\"tEpn8oZl\">什么是「不合理」的问题？我发现这些问题并不是胡言乱语，而是非常规矩的问题，也都能说得通。但这些问题中读不出对文章的有趣理解。这种「有趣」有主观因素——有些人对人物时间事件等具体细节感兴趣，有人对关键定义感兴趣，而有人对大局影响感兴趣（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zRQJZytpQme5JHS83MSboQ4\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示，来确定从何种角度制卡</a><sup data-text=\"对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示，来确定从何种角度制卡\" data-url=\"https://zhuanlan.zhihu.com/p/644435780\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>；<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zGkLPdiEs7Qohkesq7TNiBe\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式</a><sup data-text=\"对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式\" data-url=\"https://zhuanlan.zhihu.com/p/656355546\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>）。但我想知道的是这种有趣是否能客观评价。</p><p data-pid=\"MTDvEy8U\">比如，假设我们围绕一篇关于跑步者的文章生成问题，文章里有句话是「他绑紧了他的鞋带」，而如果有个问题是「他跑步前绑紧了什么？」，那么这个问题可以在客观上认为是低质量的，其中一个因素是当代故事里的其他跑步者都会这么干（也就是说，这条信息是低熵的）。另一个更为微妙的因素是，这个细节对这个故事<b>并不重要</b>。跑步者的鞋子是无关紧要的；文章之后也没有提起。我觉得量化第一个因素是可行的，但我不确定如何量化第二个因素。有个笨想法：如果你移除文章的某处细节，文章的自编码向量会移动多少？我们能在这里使用模型的熵吗？</p><h3>参考文献</h3><p data-pid=\"FilrkBCi\">我在 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zYhPmghQMv93jZsGwPfLcZx7E4npiQc87xX\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">2021 年 9 月 6日</a>与 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zJ55L18u5sagXqnMWh5szwfZ388oGQbyfW3\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Yuval Milo</a> 的电话会谈里意识到了这点。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"ETBAy36q\"><a href=\"https://zhuanlan.zhihu.com/p/656354899\" class=\"internal\">卡片生成任务中，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题</a></li><li data-pid=\"jhPB4YU8\"><a href=\"https://zhuanlan.zhihu.com/p/716570823\" class=\"internal\">叶峻峣：使用机器学习从解释性文本中生成优质的间隔重复卡片</a></li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"ySPjL02P\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 Shom、校对 <span class=\"nolink\">Jarrett</span>Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zQ4E1DXZoZTTitsik89ZcvXMu8dQMkJzRUS\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Framing prompt generation as a filtering problem on reinforcement targets</a></blockquote>",
-  "column": {
-    "updated": 1656554884,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Jarrett Ye",
-      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
-    },
-    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
-    "title": "间隔重复 & 注意力管理",
-    "image_url": "https://pic1.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1525782291741208576"
-  },
-  "comment_count": 1,
-  "image_url": "",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 4,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 4,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMzAxOTAzOTESCTYzOTI2NzQyMBgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 7,
+      "down_vote_count": 0,
+      "like_count": 4,
+      "comment_count": 1,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 2,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": true,
+      "vote": "Neutral",
+      "liked": false,
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {}
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=639267420&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 间隔重复 & 注意力管理",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525782291741208576",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 间隔重复 & 注意力管理"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

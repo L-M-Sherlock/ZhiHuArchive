@@ -1,15 +1,16 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-7a23f5ee157d58c2494e8a642e59b7ae.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
     "badge": [],
     "badge_v2": {
       "detail_badges": [],
       "icon": "",
       "merged_badges": [],
       "night_icon": "",
-      "title": ""
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。"
     },
     "gender": 1,
     "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
@@ -19,32 +20,52 @@
     "is_privacy": false,
     "name": "Jarrett Ye",
     "type": "people",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "url": "https://www.zhihu.com/api/v4/people/3c9990a12cdbcd92e20b1387b160f0a3",
     "url_token": "JarrettYe",
     "user_type": "people"
   },
-  "biz_ext": {},
-  "comment_count": 2,
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
+  "comment_count": 4,
   "content": "<p data-pid=\"UPQwXT1H\">现在正在改建后的南站候车，楼下13-26检票口的候车室空荡荡，楼上爆满。而且诺大一个车站，居然一家吃的店都没有，以前的肯德基我都找不到了。</p>",
   "content_need_truncated": false,
   "created_time": 1708240346,
   "excerpt": "现在正在改建后的南站候车，楼下13-26检票口的候车室空荡荡，楼上爆满。而且诺大一个车站，居然一家吃的店都没有，以前的肯德基我都找不到了。",
-  "id": 3399967134,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3399967134",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=3399967134&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1698035874,
     "detail": "",
-    "id": 627381399,
+    "id": "627381399",
     "question_type": "normal",
     "relationship": {},
     "title": "福州南站的设计有多离谱？",
     "type": "question",
     "updated_time": 1698035874,
-    "url": "https://api.zhihu.com/questions/627381399"
+    "url": "https://www.zhihu.com/api/v4/questions/627381399"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 11
+  "updated_time": 1708240346,
+  "url": "https://www.zhihu.com/api/v4/answers/3399967134",
+  "voteup_count": 25
 }

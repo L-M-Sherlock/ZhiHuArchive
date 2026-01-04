@@ -1,80 +1,419 @@
 {
-  "status": 0,
+  "id": "1905196194822625036",
+  "title": "邮票收集者",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/1905196194822625036",
+  "image_url": "https://picx.zhimg.com/v2-5bbc277fcb0685054f867df8f09b630f_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-5bbc277fcb0685054f867df8f09b630f_720w.jpg?source=172ae18b",
+  "excerpt": "从前，有一群天真的哲学家发现了一个会收集小物件的机器人。更确切地说，这个机器人似乎专注于收集邮票：如果你给这个机器人提供多种小物件作为选择，它总会选择那个能让它的库存中邮票数量最大化的选项。它对骰子、瓶盖、易拉罐、树棍、细枝等等都视而不见…",
+  "created": 1747014517,
   "updated": 1747186671,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "从前，有一群天真的哲学家发现了一个会收集小物件的机器人。更确切地说，这个机器人…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 4000,
+  "image_height": 811,
+  "content": "<p data-pid=\"JkxJ0w_t\">从前，有一群天真的哲学家发现了一个会收集小物件的机器人。更确切地说，这个机器人似乎专注于收集邮票：如果你给这个机器人提供多种小物件作为选择，它总会选择那个能让它的库存中邮票数量最大化的选项。它对骰子、瓶盖、易拉罐、树棍、细枝等等都视而不见，除非它预期这些物件在一两个回合之后能换成邮票。因此，哲学家们自然而然地称它为「邮票收集者」。</p><p data-pid=\"_3ckQNcx\">后来，有一天，哲学家们发现了计算机，进而推断出所谓的「邮票收集者」不过是一个在其头部内置的处理器中运行的软件程序。然而，这个程序对他们而言太过复杂，难以完全理解，但他们还是成功设法推断出，机器人只有少数几个传感器（位于其眼睛上和其库存内部），并利用这些传感器来构建世界模型。</p><p data-pid=\"LW2XRX44\">其中一位哲学家感到困惑，说：「嘿，等一下，这东西其实根本不是一个真正的邮票收集者。如果这个机器人只是在其头部构建一个世界模型，那么它就不可能是在优化（属于）其自身的实际库存，因为它根本接触不到那份真实的邮票库存。它从始至终只能根据头脑中重构的世界模型行动！」</p><p data-pid=\"wtqAyogw\">「啊，是的，我明白了，」另一个哲学家回答他，「我们称它为『邮票收集者』，这个叫法对它并不恰当。显然，这个机器人并没有真正接触到外部世界，因为通过传感器来观察世界，并在其核心处理器中构建一个模型。因此，它<b>实际上</b>肯定不是在最大化其库存中的邮票数量。那是不可能的，因为它的邮票库存在其核心处理器之外。更确切地说，它肯定是在最大化其核心处理器中的『内部邮票计数器』。」</p><p data-pid=\"ea_bD9S2\">于是，这群天真的哲学家们对此心满意足地点了点头，然后便不再琢磨那个「邮票收集者」是如何工作的了。</p><hr/><p data-pid=\"oTVZAH-T\">这一推理中存在诸多缺陷。首先，这些天真的哲学家犯了「小人谬误」（homunculus error）。机器人程序或许无法「真正接触」到其库存中邮票的数量（姑且不论「真正接触」究竟何指），但它<b>同样</b>也无法「真正接触」到其内部的邮票计数器。</p><p data-pid=\"yMD0EmH6\">机器人并非被某个能主宰其内部机制、却无法主宰其外部环境的「小人」所占据！这个抽象程序，对存放邮票计数器的寄存器的访问，与对其库存的访问，并非一个是「真实的」一个是「虚假的」。引导现实朝向库存中有大量邮票的状态，与引导现实朝向邮票计数寄存器呈现高数值模式的状态，本质上是<b>同一种事</b>。并不存在那么一个随心所欲画出来的「魔法圈」，能恰好把内存圈在其内，同时把库存排除其外，好让里面的「小人」全权做主；机器人程序对于所谓「真实硬件」的访问程度，和它对于所谓「真实邮票」的访问程度，实际上是一样间接和有限的。</p><p data-pid=\"KVAOili1\">这就引出了他们推理中的第二个缺陷：试图用选择本身（或类似选择的东西）来解释选择。你不能通过说「因为墙是由微小的红色原子组成的」来解释墙为什么是红色的；这根本不构成对「红色」的<b>解释</b>。要解释红色，你必须借助非红色的事物。然而，人类有一种坏习惯，就是用事物本身来解释那些令人困惑的事物。为何活着的肉体能响应精神指令，而死去的肉体不能？嗨，因为活着的肉体蕴含着<a href=\"https://link.zhihu.com/?target=http%3A//en.wikipedia.org/wiki/%25C3%2589lan_vital\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">生命力</a>（Élan Vital）。我们那些天真的哲学家犯了同样的错误：他们说，「它怎么可能选择那些让库存中有更多邮票的结果呢？啊哈！那肯定是靠选择那些让邮票计数器数值更高的结果来实现的！」，如此一来，他们是用选择解释了选择，而非用更基础的原理来解释。</p><p data-pid=\"33RXGH3a\">说「它试图往其库存中收集邮票，是因为它试图最大化其邮票计数器」<b>这算不上一种解释</b>。一个真正的解释应该更像是这样：机器人的计算机运行一个程序，该程序利用传感器数据来构建一个世界模型。该世界模型包含一项对其库存中邮票数量的表征。然后，该程序会遍历一系列可选行动，预测（根据模型）采取该行动后其库存中将会有多少邮票，并输出那个预计能使其拥有最多邮票的行动。</p><p data-pid=\"GB6_flBO\">我们<b>也</b>可以假设机器人包含这样一个程序：它模拟世界，预测每个行动将如何改变世界，<b>然后</b>预测<b>该</b>结果将如何影响内部存储器的某个特定位置，<b>再然后</b>选择那个能最大化该内部计数器的行动。这是可能的！你完全可以造出那样的机器！但这只是一个严格来说更复杂的假说，因此其复杂性本身就会让它在评估时处于劣势，但至少，它还算是一种解释！</p><p data-pid=\"Ntct1Jt5\">而且，幸运的是，这还是一个<b>可检验的</b>解释：我们可以看看，当机器人面临直接增加邮票计数器寄存器读数（而不实际增加其拥有的邮票数量）的机会时，它会怎么做。让我们拭目以待，看看我们那些天真的哲学家对此会有何反应……</p><hr/><blockquote data-pid=\"Os8rk9YS\"> 嘿，你们看：我找到了机器人内存里的邮票计数器。我读不了它的数值，但我确实找到了一个增加它数值的方法。所以我给了机器人以下选项：拿一张邮票，或者不拿邮票但我把它的邮票计数器加十。猜猜它选了哪个？</blockquote><p data-pid=\"IRjQ0lfJ\">「嗯，显而易见，它会选后者！」一位天真的哲学家立刻回答道。</p><blockquote data-pid=\"WxBa5ZQy\"> 不对！它选了前者。</blockquote><p data-pid=\"O1atEIVF\">「……哈！这意味着，<b>拒绝</b>让邮票计数器被动手脚所带来的『邮票度』（stampyness），肯定价值超过 10 张邮票！」</p><blockquote data-pid=\"jb-4HOep\"> 啊？什么是「邮票度」？</blockquote><p data-pid=\"01A4eS9e\">「嗨，『邮票度』嘛，就是机器人内部衡量<b>采取某个特定行动</b>能在多大程度上增加其邮票计数器的一种度量。」</p><blockquote data-pid=\"pkdQOuUP\"> 什么？太荒谬了。我很确定它就只是在收集邮票。</blockquote><p data-pid=\"Jb5W_20f\">「不可能！程序无法访问它实际拥有多少邮票；那是外部世界的属性。机器人<b>必然</b>是依据其核心处理器中实际存在的值来进行优化的。」</p><blockquote data-pid=\"VbujbTk0\"> 来，我们试试给它提供这些选项：要么我给它一张邮票，要么我把它的邮票计数器增加到 Ackermann(g64, g64) 那么多——哦看，它拿了邮票。</blockquote><p data-pid=\"iT70SUaK\">「哇！那可是个天文数字，所以这几乎可以肯定，拒绝这件事本身的所带来的『邮票度』是取决于它所拒绝的『邮票度』有多大！它现在肯定高兴坏了，因为你提供了一个如此诱人、让它得以拒绝的提议，从而给了它<b>巨量</b>的『邮票度』。」</p><blockquote data-pid=\"IbDUHbtS\"> 哦，对了，你们看，我刚找到一个把邮票计数器设到最大值的方法。来，我试试给它一个选择，要么（a）一张邮票，要么（b）我把它的邮票计数器设到最大——哦，看，它已经拿了邮票了。</blockquote><p data-pid=\"bYf87gJ3\">「难以置信！那一定意味着还有某个其他的计数器在测量<b>微</b>-『邮票度』，也就是它在选择行动时<b>立刻</b>获得的『邮票度』，在你来得及修改之前！啊，是的，这必定是它拒绝你将其计数器设为最大值的唯一合理解释了，它<b>必然</b>是根据它感知到的每个可选行动所能带来的即时<b>微</b>-『邮票度』来做选择的！干得漂亮，我的老伙计，我们今天可真是收获颇丰啊！」</p><hr/><p data-pid=\"ZbEjwQGG\">啊！不！让我们把这一点说得非常清楚：机器人是在预测哪些行动会带来哪些<b>结果</b>，它对这些结果进行排序，并采取那些能导向最佳结果的行动。<a href=\"https://link.zhihu.com/?target=http%3A//lesswrong.com/lw/l4/terminal_values_and_instrumental_values/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">行动是依据其成果来评价的。行动本身并无内在价值！</a></p><p data-pid=\"hT4TCtzL\">你看到这些天真的哲学家错在哪儿了吗？他们假设假设了这个智能体会将<b>行动</b>视为<b>目的</b>，并试图趋向其最偏好的任何<b>行动</b>——仿佛行动本身就是终极目的。</p><p data-pid=\"-1x4rilP\">你不能智能体是根据「采取某个行动好不好」来对行动排序，以此解释它为何采取某个行动。这就回避了问题本身：到底哪些行动是「好」的？</p><p data-pid=\"ETip3tAq\">这个智能体将那些能导向「智能体库存中有大量邮票」的结果的行动评定为「好」的。行动是依据它们所达成的结果来评价的；它们本身并无内在价值。</p><p data-pid=\"KE2iAMXD\">机器人程序并不包含现实世界，但它也无需包含。它仍然能够<b>影响</b>现实世界。如果它的世界模型与现实世界相关联，并且它采取那些（根据其预测）能带来更多<b>实际</b>邮票的行动，那么它就会倾向于积累邮票。</p><p data-pid=\"mlC7ydCf\">它<b>并非</b>试图将未来导向那些它碰巧选择了最具「微邮票度」行动的情境；它只是在将未来导向那些它预测自己将实际拥有更多邮票的世界。</p><hr/><p data-pid=\"8JGpZc2D\">现在，让我给你讲讲第二个故事：</p><p data-pid=\"4-WadHXT\">从前，一群天真的哲学家遇到了一群人类。人类似乎总是选择那些能给他们带来快乐的行动。有时他们享用美食，有时他们体验性爱，有时他们赚钱以便日后花在能带来快乐的事情上，但（至少在最初几周）他们总是采取那些能带来快乐的行动。</p><p data-pid=\"UeW1ZeGe\">但后来有一天，其中一个人把大笔钱捐给了一家慈善机构。</p><p data-pid=\"7z81dDIN\">「这怎么可能呢？」哲学家们问道，「人类是快乐最大化者啊！」他们思索片刻后说：「啊，一定是他们从把钱捐给慈善机构中获得的快乐，超过了他们若把钱花掉所能得到的快乐。」</p><p data-pid=\"md6HN6Iw\">再后来，一位母亲为了救自己的孩子，纵身跳到了一辆车前。</p><p data-pid=\"MQ6BDMxi\">天真的哲学家们目瞪口呆，直到突然有人喊道：「我明白了！<b>选择那个行动</b>所带来的即时微快乐，一定超过了——</p><hr/><p data-pid=\"_69A_miY\">人们会告诉你，人类总是做且仅仅只做那些给他们带来快乐的事情。人们会告诉你，世上根本没有利他主义这回事，人们永远只做自己想做的事。</p><p data-pid=\"1Jli0Wme\">人们会告诉你，因为我们被困在自己的头脑（认知）里，所以我们只能关心头脑内部的事物，比如我们自身的欲求和渴望。</p><p data-pid=\"ciXqbNWQ\">但我有话要告诉你：事实上，你完全可以去关心外在的世界。</p><p data-pid=\"8WjcGKL7\">而且，你也能引导它。只要你愿意。</p><hr/><p data-pid=\"EYQwU042\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1903383938082279971\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">超越内疚 - 知乎</a><p data-pid=\"g6a4N7P7\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1905565340240421282\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">你可以为某些事而奋斗 - 知乎</a><hr/><blockquote data-pid=\"nlLuxmfL\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">Aranya-de-Harlotte</span>，校对 <span class=\"nolink\">Passsso</span>、Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/the-stamp-collector/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Stamp Collector</a><br/>2015 年 4 月 26 日</blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19553217",
+      "type": "topic",
+      "id": "19553217",
+      "name": "道德"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19897311",
+      "type": "topic",
+      "id": "19897311",
+      "name": "享乐主义"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19757919",
+      "type": "topic",
+      "id": "19757919",
+      "name": "利他主义"
+    }
+  ],
+  "voteup_count": 55,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "<p>将无益的内疚感转化为更理性、更有效能的行动和思维模式，以实现个人目标并更好地为世界做出贡献。</p>",
+    "is_following": false,
+    "url_token": "c_1900848986845319905",
+    "id": "c_1900848986845319905",
+    "articles_count": 38,
+    "accept_submission": false,
+    "title": "超越内疚",
+    "url": "https://api.zhihu.com/columns/c_1900848986845319905",
+    "comment_permission": "all",
+    "created": 1745977714,
+    "updated": 1748310019,
+    "image_url": "https://pica.zhimg.com/v2-aadaf160e1a360ad997ceff62fd063a3_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 670,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 10,
+  "contributions": [
+    {
+      "id": 51672005,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "<p>将无益的内疚感转化为更理性、更有效能的行动和思维模式，以实现个人目标并更好地为世界做出贡献。</p>",
+        "is_following": false,
+        "url_token": "c_1900848986845319905",
+        "id": "c_1900848986845319905",
+        "articles_count": 38,
+        "accept_submission": false,
+        "title": "超越内疚",
+        "url": "https://api.zhihu.com/columns/c_1900848986845319905",
+        "comment_permission": "all",
+        "created": 1745977714,
+        "updated": 1748310019,
+        "image_url": "https://pica.zhimg.com/v2-aadaf160e1a360ad997ceff62fd063a3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 670,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 1905196194822625000,
-  "voteup_count": 50,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 34,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "邮票收集者 - 来自知乎专栏「超越内疚」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/1905196194822625036 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1747014517,
-  "url": "https://api.zhihu.com/articles/1905196194822625036",
-  "comment_permission": "all",
-  "title": "邮票收集者",
-  "image_width": 811,
-  "content": "<p data-pid=\"JkxJ0w_t\">从前，有一群天真的哲学家发现了一个会收集小物件的机器人。更确切地说，这个机器人似乎专注于收集邮票：如果你给这个机器人提供多种小物件作为选择，它总会选择那个能让它的库存中邮票数量最大化的选项。它对骰子、瓶盖、易拉罐、树棍、细枝等等都视而不见，除非它预期这些物件在一两个回合之后能换成邮票。因此，哲学家们自然而然地称它为「邮票收集者」。</p><p data-pid=\"_3ckQNcx\">后来，有一天，哲学家们发现了计算机，进而推断出所谓的「邮票收集者」不过是一个在其头部内置的处理器中运行的软件程序。然而，这个程序对他们而言太过复杂，难以完全理解，但他们还是成功设法推断出，机器人只有少数几个传感器（位于其眼睛上和其库存内部），并利用这些传感器来构建世界模型。</p><p data-pid=\"LW2XRX44\">其中一位哲学家感到困惑，说：「嘿，等一下，这东西其实根本不是一个真正的邮票收集者。如果这个机器人只是在其头部构建一个世界模型，那么它就不可能是在优化（属于）其自身的实际库存，因为它根本接触不到那份真实的邮票库存。它从始至终只能根据头脑中重构的世界模型行动！」</p><p data-pid=\"wtqAyogw\">「啊，是的，我明白了，」另一个哲学家回答他，「我们称它为『邮票收集者』，这个叫法对它并不恰当。显然，这个机器人并没有真正接触到外部世界，因为通过传感器来观察世界，并在其核心处理器中构建一个模型。因此，它<b>实际上</b>肯定不是在最大化其库存中的邮票数量。那是不可能的，因为它的邮票库存在其核心处理器之外。更确切地说，它肯定是在最大化其核心处理器中的『内部邮票计数器』。」</p><p data-pid=\"ea_bD9S2\">于是，这群天真的哲学家们对此心满意足地点了点头，然后便不再琢磨那个「邮票收集者」是如何工作的了。</p><hr/><p data-pid=\"oTVZAH-T\">这一推理中存在诸多缺陷。首先，这些天真的哲学家犯了「小人谬误」（homunculus error）。机器人程序或许无法「真正接触」到其库存中邮票的数量（姑且不论「真正接触」究竟何指），但它<b>同样</b>也无法「真正接触」到其内部的邮票计数器。</p><p data-pid=\"yMD0EmH6\">机器人并非被某个能主宰其内部机制、却无法主宰其外部环境的「小人」所占据！这个抽象程序，对存放邮票计数器的寄存器的访问，与对其库存的访问，并非一个是「真实的」一个是「虚假的」。引导现实朝向库存中有大量邮票的状态，与引导现实朝向邮票计数寄存器呈现高数值模式的状态，本质上是<b>同一种事</b>。并不存在那么一个随心所欲画出来的「魔法圈」，能恰好把内存圈在其内，同时把库存排除其外，好让里面的「小人」全权做主；机器人程序对于所谓「真实硬件」的访问程度，和它对于所谓「真实邮票」的访问程度，实际上是一样间接和有限的。</p><p data-pid=\"KVAOili1\">这就引出了他们推理中的第二个缺陷：试图用选择本身（或类似选择的东西）来解释选择。你不能通过说「因为墙是由微小的红色原子组成的」来解释墙为什么是红色的；这根本不构成对「红色」的<b>解释</b>。要解释红色，你必须借助非红色的事物。然而，人类有一种坏习惯，就是用事物本身来解释那些令人困惑的事物。为何活着的肉体能响应精神指令，而死去的肉体不能？嗨，因为活着的肉体蕴含着<a href=\"https://link.zhihu.com/?target=http%3A//en.wikipedia.org/wiki/%25C3%2589lan_vital\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">生命力</a>（Élan Vital）。我们那些天真的哲学家犯了同样的错误：他们说，「它怎么可能选择那些让库存中有更多邮票的结果呢？啊哈！那肯定是靠选择那些让邮票计数器数值更高的结果来实现的！」，如此一来，他们是用选择解释了选择，而非用更基础的原理来解释。</p><p data-pid=\"33RXGH3a\">说「它试图往其库存中收集邮票，是因为它试图最大化其邮票计数器」<b>这算不上一种解释</b>。一个真正的解释应该更像是这样：机器人的计算机运行一个程序，该程序利用传感器数据来构建一个世界模型。该世界模型包含一项对其库存中邮票数量的表征。然后，该程序会遍历一系列可选行动，预测（根据模型）采取该行动后其库存中将会有多少邮票，并输出那个预计能使其拥有最多邮票的行动。</p><p data-pid=\"GB6_flBO\">我们<b>也</b>可以假设机器人包含这样一个程序：它模拟世界，预测每个行动将如何改变世界，<b>然后</b>预测<b>该</b>结果将如何影响内部存储器的某个特定位置，<b>再然后</b>选择那个能最大化该内部计数器的行动。这是可能的！你完全可以造出那样的机器！但这只是一个严格来说更复杂的假说，因此其复杂性本身就会让它在评估时处于劣势，但至少，它还算是一种解释！</p><p data-pid=\"Ntct1Jt5\">而且，幸运的是，这还是一个<b>可检验的</b>解释：我们可以看看，当机器人面临直接增加邮票计数器寄存器读数（而不实际增加其拥有的邮票数量）的机会时，它会怎么做。让我们拭目以待，看看我们那些天真的哲学家对此会有何反应……</p><hr/><blockquote data-pid=\"Os8rk9YS\"> 嘿，你们看：我找到了机器人内存里的邮票计数器。我读不了它的数值，但我确实找到了一个增加它数值的方法。所以我给了机器人以下选项：拿一张邮票，或者不拿邮票但我把它的邮票计数器加十。猜猜它选了哪个？</blockquote><p data-pid=\"IRjQ0lfJ\">「嗯，显而易见，它会选后者！」一位天真的哲学家立刻回答道。</p><blockquote data-pid=\"WxBa5ZQy\"> 不对！它选了前者。</blockquote><p data-pid=\"O1atEIVF\">「……哈！这意味着，<b>拒绝</b>让邮票计数器被动手脚所带来的『邮票度』（stampyness），肯定价值超过 10 张邮票！」</p><blockquote data-pid=\"jb-4HOep\"> 啊？什么是「邮票度」？</blockquote><p data-pid=\"01A4eS9e\">「嗨，『邮票度』嘛，就是机器人内部衡量<b>采取某个特定行动</b>能在多大程度上增加其邮票计数器的一种度量。」</p><blockquote data-pid=\"pkdQOuUP\"> 什么？太荒谬了。我很确定它就只是在收集邮票。</blockquote><p data-pid=\"Jb5W_20f\">「不可能！程序无法访问它实际拥有多少邮票；那是外部世界的属性。机器人<b>必然</b>是依据其核心处理器中实际存在的值来进行优化的。」</p><blockquote data-pid=\"VbujbTk0\"> 来，我们试试给它提供这些选项：要么我给它一张邮票，要么我把它的邮票计数器增加到 Ackermann(g64, g64) 那么多——哦看，它拿了邮票。</blockquote><p data-pid=\"iT70SUaK\">「哇！那可是个天文数字，所以这几乎可以肯定，拒绝这件事本身的所带来的『邮票度』是取决于它所拒绝的『邮票度』有多大！它现在肯定高兴坏了，因为你提供了一个如此诱人、让它得以拒绝的提议，从而给了它<b>巨量</b>的『邮票度』。」</p><blockquote data-pid=\"IbDUHbtS\"> 哦，对了，你们看，我刚找到一个把邮票计数器设到最大值的方法。来，我试试给它一个选择，要么（a）一张邮票，要么（b）我把它的邮票计数器设到最大——哦，看，它已经拿了邮票了。</blockquote><p data-pid=\"bYf87gJ3\">「难以置信！那一定意味着还有某个其他的计数器在测量<b>微</b>-『邮票度』，也就是它在选择行动时<b>立刻</b>获得的『邮票度』，在你来得及修改之前！啊，是的，这必定是它拒绝你将其计数器设为最大值的唯一合理解释了，它<b>必然</b>是根据它感知到的每个可选行动所能带来的即时<b>微</b>-『邮票度』来做选择的！干得漂亮，我的老伙计，我们今天可真是收获颇丰啊！」</p><hr/><p data-pid=\"ZbEjwQGG\">啊！不！让我们把这一点说得非常清楚：机器人是在预测哪些行动会带来哪些<b>结果</b>，它对这些结果进行排序，并采取那些能导向最佳结果的行动。<a href=\"https://link.zhihu.com/?target=http%3A//lesswrong.com/lw/l4/terminal_values_and_instrumental_values/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">行动是依据其成果来评价的。行动本身并无内在价值！</a></p><p data-pid=\"hT4TCtzL\">你看到这些天真的哲学家错在哪儿了吗？他们假设假设了这个智能体会将<b>行动</b>视为<b>目的</b>，并试图趋向其最偏好的任何<b>行动</b>——仿佛行动本身就是终极目的。</p><p data-pid=\"-1x4rilP\">你不能智能体是根据「采取某个行动好不好」来对行动排序，以此解释它为何采取某个行动。这就回避了问题本身：到底哪些行动是「好」的？</p><p data-pid=\"ETip3tAq\">这个智能体将那些能导向「智能体库存中有大量邮票」的结果的行动评定为「好」的。行动是依据它们所达成的结果来评价的；它们本身并无内在价值。</p><p data-pid=\"KE2iAMXD\">机器人程序并不包含现实世界，但它也无需包含。它仍然能够<b>影响</b>现实世界。如果它的世界模型与现实世界相关联，并且它采取那些（根据其预测）能带来更多<b>实际</b>邮票的行动，那么它就会倾向于积累邮票。</p><p data-pid=\"mlC7ydCf\">它<b>并非</b>试图将未来导向那些它碰巧选择了最具「微邮票度」行动的情境；它只是在将未来导向那些它预测自己将实际拥有更多邮票的世界。</p><hr/><p data-pid=\"8JGpZc2D\">现在，让我给你讲讲第二个故事：</p><p data-pid=\"4-WadHXT\">从前，一群天真的哲学家遇到了一群人类。人类似乎总是选择那些能给他们带来快乐的行动。有时他们享用美食，有时他们体验性爱，有时他们赚钱以便日后花在能带来快乐的事情上，但（至少在最初几周）他们总是采取那些能带来快乐的行动。</p><p data-pid=\"UeW1ZeGe\">但后来有一天，其中一个人把大笔钱捐给了一家慈善机构。</p><p data-pid=\"7z81dDIN\">「这怎么可能呢？」哲学家们问道，「人类是快乐最大化者啊！」他们思索片刻后说：「啊，一定是他们从把钱捐给慈善机构中获得的快乐，超过了他们若把钱花掉所能得到的快乐。」</p><p data-pid=\"md6HN6Iw\">再后来，一位母亲为了救自己的孩子，纵身跳到了一辆车前。</p><p data-pid=\"MQ6BDMxi\">天真的哲学家们目瞪口呆，直到突然有人喊道：「我明白了！<b>选择那个行动</b>所带来的即时微快乐，一定超过了——</p><hr/><p data-pid=\"_69A_miY\">人们会告诉你，人类总是做且仅仅只做那些给他们带来快乐的事情。人们会告诉你，世上根本没有利他主义这回事，人们永远只做自己想做的事。</p><p data-pid=\"1Jli0Wme\">人们会告诉你，因为我们被困在自己的头脑（认知）里，所以我们只能关心头脑内部的事物，比如我们自身的欲求和渴望。</p><p data-pid=\"ciXqbNWQ\">但我有话要告诉你：事实上，你完全可以去关心外在的世界。</p><p data-pid=\"8WjcGKL7\">而且，你也能引导它。只要你愿意。</p><hr/><p data-pid=\"EYQwU042\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1903383938082279971\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">超越内疚 - 知乎</a><p data-pid=\"g6a4N7P7\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1905565340240421282\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">你可以为某些事而奋斗 - 知乎</a><hr/><blockquote data-pid=\"nlLuxmfL\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">Aranya-de-Harlotte</span>，校对 <span class=\"nolink\">Passsso</span>、Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/the-stamp-collector/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Stamp Collector</a><br/>2015 年 4 月 26 日</blockquote>",
-  "column": {
-    "updated": 1748310019,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/c_1900848986845319905",
-    "title": "超越内疚",
-    "image_url": "https://picx.zhimg.com/v2-aadaf160e1a360ad997ceff62fd063a3_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1900848986845319905"
-  },
-  "comment_count": 10,
-  "image_url": "https://pica.zhimg.com/v2-5bbc277fcb0685054f867df8f09b630f_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 1,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 1,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyNTc2MTI5MjESEzE5MDUxOTYxOTQ4MjI2MjUwMzYYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 55,
+      "down_vote_count": 0,
+      "like_count": 1,
+      "comment_count": 10,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 34,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-5bbc277fcb0685054f867df8f09b630f": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-5bbc277fcb0685054f867df8f09b630f": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-5bbc277fcb0685054f867df8f09b630f": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "11 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/19038245734?contentId=1905196194822625036&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 超越内疚",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1900848986845319905",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 超越内疚"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

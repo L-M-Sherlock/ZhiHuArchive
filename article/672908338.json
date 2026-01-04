@@ -1,75 +1,382 @@
 {
-  "status": 0,
+  "id": "672908338",
+  "title": "FSRS 算法简介",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/672908338",
+  "image_url": "https://picx.zhimg.com/v2-1e98df865bd56efc4cf8ca13201abe39_720w.jpg?source=172ae18b",
+  "title_image": "https://pic1.zhimg.com/v2-1e98df865bd56efc4cf8ca13201abe39_720w.jpg?source=172ae18b",
+  "excerpt": "FSRS 是由 Jarrett Ye 开发的一种现代 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Spaced_repetition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复</a>算法。它旨在学习用户的记忆习惯。相比 Anki 原有的 SM2 算法，FSRS 能更高效地安排复习计划。间隔重复算法的核心目标，是计算出复习间隔的最佳时长。但究竟什么样的间隔才算「最佳」？在 FSRS 中，如果某个间…",
+  "created": 1702896825,
   "updated": 1702897921,
   "author": {
     "is_followed": false,
-    "badge": [],
-    "name": "Jarrett Ye",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
-    "gender": 1,
+    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+    "uid": "1521893281407864832",
     "user_type": "people",
-    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=b1748391",
     "is_following": false,
+    "url_token": "JarrettYe",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+    "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+    "name": "Jarrett Ye",
+    "is_advertiser": false,
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "gender": 1,
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+    "is_org": false,
     "type": "people",
-    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    "badge": [],
+    "badge_v2": {
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "merged_badges": [],
+      "detail_badges": [],
+      "icon": "",
+      "night_icon": ""
+    },
+    "exposed_medal": {
+      "medal_id": "1463836052717301760",
+      "medal_name": "知「势」之星",
+      "avatar_url": "https://picx.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_r.png?source=172ae18b",
+      "mini_avatar_url": "https://pica.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_l.png?source=172ae18b",
+      "description": "「知势榜」上榜答主即可获得",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "FSRS 是由 Jarrett Ye 开发的一种现代间隔重复 算法。它旨在学习用户的记忆习惯。相…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 2560,
+  "image_height": 1200,
+  "content": "<p data-pid=\"ynLaCp20\">FSRS 是由 Jarrett Ye 开发的一种现代<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Spaced_repetition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复</a>算法。它旨在学习用户的记忆习惯。相比 Anki 原有的 SM2 算法，FSRS 能更高效地安排复习计划。</p><p data-pid=\"i8F_s59B\">间隔重复算法的核心目标，是计算出复习间隔的最佳时长。但究竟什么样的间隔才算「最佳」？在 FSRS 中，如果某个间隔能实现成功回忆一张卡片的特定概率，那么这个间隔就是最佳的。比如说，如果你想在下次看到某张卡片时，有 90% 的把握能成功回忆，那么最佳间隔就是回忆成功的概率为 90% 所需的时间。</p><p data-pid=\"cKw664wl\">FSRS 基于「记忆的三变量模型」。这个模型认为，只需三个变量就足以描述人脑中单一记忆的状态。这三个变量包括：</p><ul><li data-pid=\"JwBpX9DE\">可提取性（R）：指某人在某一时刻成功回忆特定信息的可能性。它受到自上次复习以来经过的时间和记忆稳定性（S）的影响。</li><li data-pid=\"9LFF9wMF\">稳定性（S）：指 R 从 100% 下降到 90% 所需的天数。举例来说，S = 365 表示需要过去整整一年，回忆特定卡片的概率才会降到 90%。</li><li data-pid=\"NFRul2Qn\">难度（D）：特定信息本身的复杂程度。它反映了在复习后提升记忆稳定性的难易程度。</li></ul><p data-pid=\"otzTH2Bg\">在 FSRS 中，这三个变量共同构成了所谓的「记忆状态」。用户每次复习一张卡片，与这张卡片相关的记忆状态便会相应改变，但也有例外，比如发生在同一天内的后续复习不会引起变化。对于每张卡片，FSRS 每天只考虑一次复习，也就是最早的那次。每张卡片都有其独特的 DSR 值，也就是说，每张卡片都有自己的记忆状态。</p><p data-pid=\"ktmumW18\">为了精确计算 DSR 值，FSRS 会分析用户的复习记录，并利用机器学习算法计算出拟合复习记录的参数。最新版的 FSRS 在计算 D 和 S 的公式中用到了 17 个参数（而计算可提取性的公式则不需要任何参数）。如果你对细节感兴趣，可以查阅以下页面：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/The-Algorithm\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《算法》</a>和<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/The-mechanism-of-optimization\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《优化机制》</a>。如果用户的复习记录不足，系统会默认使用预设的参数。这些参数是在数亿条复习数据（来自约两万名用户的）上运行 FSRS 优化器得出的。即使是用预设参数，FSRS 的效果也优于 Anki 默认的算法。</p><p data-pid=\"d_aShHQ2\">请注意，用户不应自行调整这些参数。如果你想调整复习计划，只需要选择一个合适的期望保留率。一般来说，70% 到 97% 的保留率是合理的。也就是说，用 FSRS 的用户可以设定一个特定的保留率，以在他们记忆保留率和复习压力之间权衡。更高的保留率意味着每天花在复习上对时间更多。</p><p data-pid=\"MmNLuap-\">除了让用户自主选择他们期望达到的记忆保留率外，FSRS 相较于 Anki 的默认算法还有其他几个优点。使用 FSRS 时，在保持同样的记忆水平的条件下，用户所需的复习次数比 Anki 默认算法少 20% 到 30%。如果用户有段时间没使用 Anki，FSRS 在安排这些延后复习的卡片上也更加高效。此外，<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki-helper\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">FSRS4Anki 助手插件</a>还提供了一些原本无法实现的便捷功能。</p><p data-pid=\"a9myB1Jo\">如果你使用的是 23.10 版本或更高版本的 Anki，请参考<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/blob/main/docs/tutorial.md\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这个指南</a><sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\" data-text=\"Anki 新算法 FSRS 配置指南\" data-url=\"https://zhuanlan.zhihu.com/p/664758200\">[1]</sup>。如果你的 Anki 版本低于 23.10，你可以使用 FSRS 的独立版本，安装方法请参考<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki%23how-to-get-started\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这个指南</a><sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\" data-text=\"FSRS4Anki 使用指北\" data-url=\"https://zhuanlan.zhihu.com/p/636564830\">[2]</sup>。</p><p data-pid=\"eD07Pnry\">想了解 FSRS 与其他算法的比较效果，可以阅读以下页面：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs-benchmark\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">基准测试</a>，以及 <a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs-vs-sm17\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">FSRS 与 SuperMemo 最新算法之一 SM-17 的对比</a>。</p><p data-pid=\"t2iWBsZO\">更多有关 FSRS 的问题，可查阅<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/FAQ\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常见问题</a>。</p><p data-pid=\"8NYAzcFb\">如果你想更深入了解间隔重复算法，可以阅读<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/Spaced-Repetition-Algorithm%3A-A-Three%25E2%2580%2590Day-Journey-from-Novice-to-Expert\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《间隔重复记忆算法：e 天内，从入门到入土》</a><sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\" data-text=\"间隔重复记忆算法：e 天内，从入门到入土。\" data-url=\"https://zhuanlan.zhihu.com/p/556020884\">[3]</sup>。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"YeXl-ivq\">原文：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/ABC-of-FSRS\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">ABC of FSRS · open-spaced-repetition/fsrs4anki Wiki (github.com)</a><br/>作者：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/Expertium\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Expertium</a>, <a href=\"https://link.zhihu.com/?target=https%3A//github.com/user1823\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">user1823</a> and <a href=\"https://link.zhihu.com/?target=https%3A//github.com/L-M-Sherlock\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">L-M-Sherlock</a><br/>译者：GPT-4<br/>校对：Jarrett Ye</blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19553510",
+      "type": "topic",
+      "id": "19553510",
+      "name": "算法"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19559450",
+      "type": "topic",
+      "id": "19559450",
+      "name": "机器学习"
+    }
+  ],
+  "voteup_count": 63,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
+    "can_manage": false,
+    "intro": "带你用「Anki」高效战高考！",
+    "is_following": true,
+    "url_token": "ankigaokao",
+    "id": "ankigaokao",
+    "articles_count": 157,
+    "accept_submission": true,
+    "title": "AnkiX高考",
+    "url": "https://api.zhihu.com/columns/ankigaokao",
+    "comment_permission": "all",
+    "created": 1522117223,
+    "updated": 1599152271,
+    "image_url": "https://picx.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 6763,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 11,
+  "contributions": [
+    {
+      "id": 47394140,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
+        "can_manage": false,
+        "intro": "带你用「Anki」高效战高考！",
+        "is_following": true,
+        "url_token": "ankigaokao",
+        "id": "ankigaokao",
+        "articles_count": 157,
+        "accept_submission": true,
+        "title": "AnkiX高考",
+        "url": "https://api.zhihu.com/columns/ankigaokao",
+        "comment_permission": "all",
+        "created": 1522117223,
+        "updated": 1599152271,
+        "image_url": "https://picx.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 6763,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 672908338,
-  "voteup_count": 43,
+  "annotation_action": [],
+  "can_tip": false,
+  "can_open_tipjar": true,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 70,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "FSRS 算法简介 - 来自知乎专栏「AnkiX高考」，作者: Jarrett Ye https://zhuanlan.zhihu.com/p/672908338 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1702896825,
-  "url": "https://api.zhihu.com/articles/672908338",
-  "comment_permission": "all",
-  "title": "FSRS 算法简介",
-  "image_width": 1200,
-  "content": "<p data-pid=\"ynLaCp20\">FSRS 是由 Jarrett Ye 开发的一种现代<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Spaced_repetition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复</a>算法。它旨在学习用户的记忆习惯。相比 Anki 原有的 SM2 算法，FSRS 能更高效地安排复习计划。</p><p data-pid=\"i8F_s59B\">间隔重复算法的核心目标，是计算出复习间隔的最佳时长。但究竟什么样的间隔才算「最佳」？在 FSRS 中，如果某个间隔能实现成功回忆一张卡片的特定概率，那么这个间隔就是最佳的。比如说，如果你想在下次看到某张卡片时，有 90% 的把握能成功回忆，那么最佳间隔就是回忆成功的概率为 90% 所需的时间。</p><p data-pid=\"cKw664wl\">FSRS 基于「记忆的三变量模型」。这个模型认为，只需三个变量就足以描述人脑中单一记忆的状态。这三个变量包括：</p><ul><li data-pid=\"JwBpX9DE\">可提取性（R）：指某人在某一时刻成功回忆特定信息的可能性。它受到自上次复习以来经过的时间和记忆稳定性（S）的影响。</li><li data-pid=\"9LFF9wMF\">稳定性（S）：指 R 从 100% 下降到 90% 所需的天数。举例来说，S = 365 表示需要过去整整一年，回忆特定卡片的概率才会降到 90%。</li><li data-pid=\"NFRul2Qn\">难度（D）：特定信息本身的复杂程度。它反映了在复习后提升记忆稳定性的难易程度。</li></ul><p data-pid=\"otzTH2Bg\">在 FSRS 中，这三个变量共同构成了所谓的「记忆状态」。用户每次复习一张卡片，与这张卡片相关的记忆状态便会相应改变，但也有例外，比如发生在同一天内的后续复习不会引起变化。对于每张卡片，FSRS 每天只考虑一次复习，也就是最早的那次。每张卡片都有其独特的 DSR 值，也就是说，每张卡片都有自己的记忆状态。</p><p data-pid=\"ktmumW18\">为了精确计算 DSR 值，FSRS 会分析用户的复习记录，并利用机器学习算法计算出拟合复习记录的参数。最新版的 FSRS 在计算 D 和 S 的公式中用到了 17 个参数（而计算可提取性的公式则不需要任何参数）。如果你对细节感兴趣，可以查阅以下页面：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/The-Algorithm\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《算法》</a>和<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/The-mechanism-of-optimization\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《优化机制》</a>。如果用户的复习记录不足，系统会默认使用预设的参数。这些参数是在数亿条复习数据（来自约两万名用户的）上运行 FSRS 优化器得出的。即使是用预设参数，FSRS 的效果也优于 Anki 默认的算法。</p><p data-pid=\"d_aShHQ2\">请注意，用户不应自行调整这些参数。如果你想调整复习计划，只需要选择一个合适的期望保留率。一般来说，70% 到 97% 的保留率是合理的。也就是说，用 FSRS 的用户可以设定一个特定的保留率，以在他们记忆保留率和复习压力之间权衡。更高的保留率意味着每天花在复习上对时间更多。</p><p data-pid=\"MmNLuap-\">除了让用户自主选择他们期望达到的记忆保留率外，FSRS 相较于 Anki 的默认算法还有其他几个优点。使用 FSRS 时，在保持同样的记忆水平的条件下，用户所需的复习次数比 Anki 默认算法少 20% 到 30%。如果用户有段时间没使用 Anki，FSRS 在安排这些延后复习的卡片上也更加高效。此外，<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki-helper\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">FSRS4Anki 助手插件</a>还提供了一些原本无法实现的便捷功能。</p><p data-pid=\"a9myB1Jo\">如果你使用的是 23.10 版本或更高版本的 Anki，请参考<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/blob/main/docs/tutorial.md\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这个指南</a><sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\" data-text=\"Anki 新算法 FSRS 配置指南\" data-url=\"https://zhuanlan.zhihu.com/p/664758200\">[1]</sup>。如果你的 Anki 版本低于 23.10，你可以使用 FSRS 的独立版本，安装方法请参考<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki%23how-to-get-started\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这个指南</a><sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\" data-text=\"FSRS4Anki 使用指北\" data-url=\"https://zhuanlan.zhihu.com/p/636564830\">[2]</sup>。</p><p data-pid=\"eD07Pnry\">想了解 FSRS 与其他算法的比较效果，可以阅读以下页面：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs-benchmark\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">基准测试</a>，以及 <a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs-vs-sm17\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">FSRS 与 SuperMemo 最新算法之一 SM-17 的对比</a>。</p><p data-pid=\"t2iWBsZO\">更多有关 FSRS 的问题，可查阅<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/FAQ\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常见问题</a>。</p><p data-pid=\"8NYAzcFb\">如果你想更深入了解间隔重复算法，可以阅读<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/Spaced-Repetition-Algorithm%3A-A-Three%25E2%2580%2590Day-Journey-from-Novice-to-Expert\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《间隔重复记忆算法：e 天内，从入门到入土》</a><sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\" data-text=\"间隔重复记忆算法：e 天内，从入门到入土。\" data-url=\"https://zhuanlan.zhihu.com/p/556020884\">[3]</sup>。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"YeXl-ivq\">原文：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/ABC-of-FSRS\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">ABC of FSRS · open-spaced-repetition/fsrs4anki Wiki (github.com)</a><br/>作者：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/Expertium\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Expertium</a>, <a href=\"https://link.zhihu.com/?target=https%3A//github.com/user1823\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">user1823</a> and <a href=\"https://link.zhihu.com/?target=https%3A//github.com/L-M-Sherlock\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">L-M-Sherlock</a><br/>译者：GPT-4<br/>校对：Jarrett Ye</blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Jarrett Ye",
-      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
-      "avatar_url": "https://picx.zhimg.com/50/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
-    },
-    "url": "/columns/3c9990a12cdbcd92e20b1387b160f0a3",
-    "comment_permission": "all",
-    "title": "Jarrett Ye的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
-  },
-  "comment_count": 11,
-  "image_url": "https://picx.zhimg.com/v2-1e98df865bd56efc4cf8ca13201abe39_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 23,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 23,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMzc2NjQ2ODMSCTY3MjkwODMzOBgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 63,
+      "down_vote_count": 0,
+      "like_count": 23,
+      "comment_count": 11,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 70,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-1e98df865bd56efc4cf8ca13201abe39": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": true,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-1e98df865bd56efc4cf8ca13201abe39": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-1e98df865bd56efc4cf8ca13201abe39": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/3934387035?contentId=672908338&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · AnkiX高考",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/ankigaokao",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · AnkiX高考"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

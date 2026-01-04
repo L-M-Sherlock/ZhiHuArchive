@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,19 +37,21 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 0,
   "content": "<p data-pid=\"ORMxu4NF\">高一么，要打基础的话，我推荐使用 Anki 。</p><p data-pid=\"4UTldBxy\">Anki 是一款辅助学习的开源软件。目前有许多人用 Anki 来准备考研。</p><p data-pid=\"NT-pS9Nk\">而我是在高二的时候将 Anki 结合到高中学习中，现在成为了 Anki 高考备战法的推广人。</p><p data-pid=\"QRCuurnh\">我的建议是：</p><p data-pid=\"GVHviJDz\">自己去教科书和教辅上，按照学习顺序，去记录和总结知识点和考点，然后做成 Anki 卡片。</p><p data-pid=\"mBwZo1Ug\">Anki 会规划你复习这些知识和考点的时间，你只要跟着复习就好。</p><p data-pid=\"qAplA4i6\">目前除了数学和物理，其他科目用 Anki 效果都不错。</p><p data-pid=\"_TEMCb45\">毕竟 Anki 的理念就是 remember everything and forget forgetting.</p><p data-pid=\"S2VF69Xj\">想要了解更多 Anki 相关的内容，可以看看我写的电子书</p><a href=\"https://link.zhihu.com/?target=https%3A//www.kancloud.cn/ankigaokao/ankigaokao\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anki 备战高考手册 · 看云</a><p data-pid=\"AwiC1CW2\">虽然我的专栏也不错，但是东西比较杂，你可以只看看你感兴趣的内容。</p><a href=\"https://zhuanlan.zhihu.com/ankigaokao\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-806198e16268a9f1232bf272d5d3f9b8_ipico.jpg\" data-image-width=\"256\" data-image-height=\"256\" class=\"internal\">高考╳Anki——科学备考研究所</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1541520453,
   "excerpt": "高一么，要打基础的话，我推荐使用 Anki 。 Anki 是一款辅助学习的开源软件。目前有许多人用 Anki 来准备考研。 而我是在高二的时候将 Anki 结合到高中学习中，现在成为了 Anki 高考备战法的推广人。 我的建议是： 自己去教科书和教辅上，按照学习顺序，去记录和总结知识点和考点，然后做成 Anki 卡片。 Anki 会规划你复习这些知识和考点的时间，你只要跟着复习就好。 目前除了数学和物理，其他科目用 Anki 效果都不错。 毕竟 An…",
-  "id": 526414867,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "526414867",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=526414867&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1541256598,
     "detail": "<p>题主是一名高一学生，这前半期的基础没有打好，在年级上是垫底的，所以想买辅导书来提高和减少自己和其他同学的距离。虽然可以补课，但我还是想减轻一些家里的压力。但又不知道什么样的适合我，就想请各位前辈给一些建议。</p><p>我的具体情况:我想知道预习，提高和复习哪些辅导书比较好。不同的水平用什么样的辅导书比较合适（因为我也想提高自己的水平之后用适合我的(^～^)） 。我所在的是一所重点高中，每年大概能有60左右上清北（不过与题主所在的平行班应该无缘），一个年级有五百多个人，前三百应该能上985211，正常的应该都能上一本线。所以压力还是比较大的。另外大家也可以分享一下自己宝贵的学习经验和方法，(╹◡╹)谢谢。</p><p>另外，题主在四川省（我也不知道说出这个有没有用，不过应该还是可以让大家了解题的难度，虽然我自己也不知道）</p><p>再一次(╹◡╹人)谢谢你</p>",
-    "id": 301168286,
+    "id": "301168286",
     "question_type": "normal",
     "relationship": {},
     "title": "各位前辈或是同学有没有具体的辅导书或是学习方法可以推荐给高一萌新的？",
     "type": "question",
     "updated_time": 1541256772,
-    "url": "https://api.zhihu.com/questions/301168286"
+    "url": "https://www.zhihu.com/api/v4/questions/301168286"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1541520453,
+  "url": "https://www.zhihu.com/api/v4/answers/526414867",
   "voteup_count": 4
 }

@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,35 +84,55 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 7,
   "content": "<p data-pid=\"WE_O7YSf\">这个插件我去年暑假研究算法的时候试用过了（大概是2020年7月），简单的评价一下，就是没有跳出 sm-2 算法的框架。</p><p data-pid=\"krlSWQ9f\">它这个算法的特点就是将一个单词的历史保留率（累积回忆次数/累积复习次数）和间隔系数关联起来，也就是改变了间隔系数的收敛方式。本质上，还是一个简单的状态空间方法，具体可以参考我这篇文章：</p><a href=\"https://zhuanlan.zhihu.com/p/344716900\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-079bd935fac29c15a61e06ea5c844a03_120x160.jpg\" data-image-width=\"1440\" data-image-height=\"1920\" class=\"internal\">叶峻峣：从 Anki 算法说起，探索记忆的状态空间</a><p data-pid=\"8aVufVJL\">sm-2 和 sm-3+ 的区别就在于：</p><p data-pid=\"SDsvsdfg\">SM2 于后来修改的算法之间的关键区别是<sup data-text=\"1989: SuperMemo 适应用户记忆(中)\" data-url=\"https://zhuanlan.zhihu.com/p/207094393\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>：</p><ul><li data-pid=\"8oUmP3U8\">SM2 根据您的一张卡片上的表现来安排该卡片下一次的时间</li><li data-pid=\"X6V0syNt\">SM3+ 根据您的一张卡片上的表现来安排该卡片，以及类似卡片下一次的时间</li></ul><p data-pid=\"XGXA7cXb\">所以该插件的算法也只能归为 SM2 的变体，在结构上和 SM2 相差不大。至于效果，由于只利用了一张卡片的历史数据，每张卡片独立收敛，所以收敛速度和 Anki 的原算法差别不大。总的来说，由于这个插件也只能在 PC 上使用，所以我个人不推荐折腾它。</p><p data-pid=\"cRC6Ib2W\">当然，当时我为了研究怎么以插件的形式来更新 Anki 算法，还是研究了一下它的源码的。想要做类似工作的朋友，也可以参考一下它的源码。</p>",
   "content_need_truncated": false,
   "created_time": 1613290556,
   "excerpt": "这个插件我去年暑假研究算法的时候试用过了（大概是2020年7月），简单的评价一下，就是没有跳出 sm-2 算法的框架。 它这个算法的特点就是将一个单词的历史保留率（累积回忆次数/累积复习次数）和间隔系数关联起来，也就是改变了间隔系数的收敛方式。本质上，还是一个简单的状态空间方法，具体可以参考我这篇文章： [文章: 从 Anki 算法说起，探索记忆的状态空间] sm-2 和 sm-3+ 的区别就在于： SM2 于后来修改的算法之间的关键区…",
-  "id": 1729652349,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1729652349",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/344716900": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"从 Anki 算法说起，探索记忆的状态空间\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/344716900\",\"desc\":\"52 赞同 · 32 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 上期说到，Anki 算法是 sm-2 算法的变体，也是纯状态空间算法的代表 [1]。今天我们就从 Anki 的算法说起，看看状态空间方法是怎样构建记忆模型的。Anki 的状态空间方法状态想要确定状态空间，我们得先知道，什么是状态。 状态是一种如果重现则可以由观察者再次识别的情形[2]。 也就是说，划分状态能将多个发生时间点不同的相似情形归类，对同样的状态做同样的处理。 让我们看看 Anki 是怎么确定状态的： [图片] 这是 Anki 数据库中的 ca…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-079bd935fac29c15a61e06ea5c844a03_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"344716900\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/344716900": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"从 Anki 算法说起，探索记忆的状态空间\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/344716900\",\"desc\":\"55 赞同 · 32 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 上期说到，Anki 算法是 sm-2 算法的变体，也是纯状态空间算法的代表 [1]。今天我们就从 Anki 的算法说起，看看状态空间方法是怎样构建记忆模型的。Anki 的状态空间方法状态想要确定状态空间，我们得先知道，什么是状态。 状态是一种如果重现则可以由观察者再次识别的情形[2]。 也就是说，划分状态能将多个发生时间点不同的相似情形归类，对同样的状态做同样的处理。 让我们看看 Anki 是怎么确定状态的： [图片] 这是 Anki 数据库中的 ca…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-079bd935fac29c15a61e06ea5c844a03_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"344716900\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1729652349&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1612684594,
     "detail": "<p>最近在寻找通过插件改善Anki算法的方案，看到这款插件的描述感觉很不错，在知乎上没有搜到相关的内容，不知是否有知友用过。希望如果有用过的知友能讲讲自己的体会，或具体使用方法，也希望有大神能分析分析这款插件适合哪些人用、不适合哪些人用（即保持默认参数更好）。</p><p>摘录插件页上的描述如下，完整请见</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//ankiweb.net/shared/info/1672712021\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">ankiweb.net/shared/info</span><span class=\"invisible\">/1672712021</span><span class=\"ellipsis\"></span></a><p class=\"ztext-empty-paragraph\"><br/></p><hr/><p>Description</p><p># experimentalCardEaseFactor</p><p>Dynamically adjusts ease factor on cards automatically after each rep, constantly seeking the right ease adjustment to hit a target success rate.</p><p>See: </p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//eshapard.github.io/anki/thoughts-on-a-new-algorithm-for-anki.html\" data-image=\"https://pica.zhimg.com/v2-205079b17d2659dc963e9000c403820c.jpg\" data-image-width=\"300\" data-image-height=\"300\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts On A New Algorithm For Anki</a><p> for the original rationale.</p><p>Important: **You must NOT/NOT use an interval modifier in your deck options**. Your interval modifier MUST be set to 100% (no change) for all decks. Otherwise this algorithm could be constantly chasing a moving target.</p><p>Warning: Does not seem to work with versions older than 2.1.21. </p><p>#### Differences from eshapard&#39;s version</p><p>Unlike eshapard&#39;s version, which requires four reviews before the algorithm kicks in, this version lets the algorithm adjust ease factors as early as possible, including using information from learning steps. Early data is less reliable, though, so we do two things: we limit how much the algorithm can change the ease factor at first, and we use a moving average to more heavily weight recent reps when calculating success rate.</p><p>If it took you a long time to learn a card originally, but now you&#39;ve really got it down, your ease will rebound very quickly. The &#39;leash&#39; setting ties your ease factor down at first, which limits the initial swings of the algorithm until you&#39;ve had many more reviews and better quality data.</p><p>If you&#39;re used to ease factors very close to 250%, without a low leash, this algorithm can produce some alarmingly low (or high) ease factors. It will generally auto-adjust very quickly based on your performance though. </p><p>My anecdotal experience is that it front loads the work a bit, causing more reviews with short intervals in the beginning for hard cards, but backing off quickly after I know a card well.</p>",
-    "id": 443304430,
+    "id": "443304430",
     "question_type": "normal",
     "relationship": {},
     "title": "如何评价Anki插件Auto Ease Factor?",
     "type": "question",
     "updated_time": 1612684594,
-    "url": "https://api.zhihu.com/questions/443304430"
+    "url": "https://www.zhihu.com/api/v4/questions/443304430"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1613290556,
+  "url": "https://www.zhihu.com/api/v4/answers/1729652349",
   "voteup_count": 26
 }

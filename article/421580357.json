@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "421580357",
+  "title": "常青笔记应面向概念",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/421580357",
+  "image_url": "https://pic1.zhimg.com/v2-651fcd5edf40919e0c9dcf5adf512af9_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-651fcd5edf40919e0c9dcf5adf512af9_720w.jpg?source=172ae18b",
+  "excerpt": "划分 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常青笔记</a>[1]最好以概念为标准，而不是按作者、书籍、事件、项目、主题等。这样随着时间的推移，而笔记不断更新、链接，你会逐步发现不同书籍和领域之间的联系（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2HUE4ABbQjUNjrNemvkTCsLa1LPDRuwh1tXC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常青笔记之间应该建立大量链接</a>[2]）。做笔记最直接的方法是为每本书、项目或研究课题开辟…",
+  "created": 1634217517,
   "updated": 1677410023,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "划分常青笔记 [1]最好以概念为标准，而不是按作者、书籍、事件、项目、主题等。这样…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 1280,
+  "image_height": 1199,
+  "content": "<p data-pid=\"4lpdEzN1\">划分<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常青笔记</a><sup data-text=\"常青笔记 (Evergreen notes)\" data-url=\"https://zhuanlan.zhihu.com/p/416319260\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>最好以概念为标准，而不是按作者、书籍、事件、项目、主题等。这样随着时间的推移，而笔记不断更新、链接，你会逐步发现不同书籍和领域之间的联系（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2HUE4ABbQjUNjrNemvkTCsLa1LPDRuwh1tXC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常青笔记之间应该建立大量链接</a><sup data-text=\"常青笔记之间应该建立大量链接\" data-url=\"https://zhuanlan.zhihu.com/p/426450021\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>）。</p><p data-pid=\"3NlpYQyA\">做笔记最直接的方法是为每本书、项目或研究课题开辟新笔记。每篇笔记都涵盖了许多概念，因此若某个概念以后再次出现，你可能很难找到你曾写过的内容：你必须记住哪些书或项目涉及此话题（相比之下：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4Rrmh17vMBbauEGnFPTZSK3UmdsGExLRfZz1\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常青笔记应该是原子化的</a><sup data-text=\"常青笔记应该是原子化的\" data-url=\"https://zhuanlan.zhihu.com/p/420726986\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>）。</p><p data-pid=\"IzfOH-Dl\">你如果读到另一本书，其中讨论了相同概念，你会在那本书上写新笔记。这种方法是无法聚沙成塔的（有悖于<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6UDDkom8Aifg6mLdjT1sPtbMBweCmpyTwmJT\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知识工作应能聚沙成塔</a><sup data-text=\"知识工作应能聚沙成塔\" data-url=\"https://zhuanlan.zhihu.com/p/422894427\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>）。你对这个概念的新想法，并没有与旧想法结合起来，形成更坚实的整体：关于这个概念，你只有一盘散沙般的一堆笔记，每条笔记深藏于更大的文件中，甚至指代这个概念的术语都不统一。</p><p data-pid=\"zek_EMCd\">这不仅仅是积累的问题。这种方法中，没有动力驱使你把围绕这个概念的新旧想法融会贯通。新旧想法之间难道没有张力吗？难道对概念的有力提炼，不只在将其同时考虑时出现吗？<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zX1WtJ4ouE8sjN1NgWHsGVg8ZnVfp5Kz74Vs\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">理解概念需与其尽力较量</a><sup data-text=\"理解概念需与其尽力较量\" data-url=\"https://zhuanlan.zhihu.com/p/442692019\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>。</p><p data-pid=\"WdfaMvlz\">如果我们读了两本主题完全相同的书，我们可能很容易将这两本书的笔记链接在一起。但是，新奇的联系往往会出现在意想不到的地方。在按概念整理笔记时，你可能会在不同书籍中出现的观点之间建立出乎意料的联系。你以前可能从来没有意识到这些书能联系起来——事实上，它们可能确实没有过联系，除了你发现的这一点。</p><p data-pid=\"gyavVjsz\">按概念组织的话，记笔记会有点困难，但这种困难不无好处：写新笔记时，必须找到新笔记在整体中的位置，因此便会探索之前织就的笔记网络，于是就有机会寻访意料之外的地方。</p><p data-pid=\"euTZVY50\">随着时间的推移，笔记会聚沙成塔，并能以越来越复杂的方式组合起来（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3XP5GRmd9z1D2qCE7pxUvbeSVeQuMiqz9x1C\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常青笔记的标题就像 API</a><sup data-text=\"常青笔记的标题就像 API\" data-url=\"https://zhuanlan.zhihu.com/p/421908250\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>），新颖洞见油然而生（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6cFzJWgj9vZpnrQsjrZ8yCNREzCTgyFeVZTb\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常青笔记有助于积累洞见</a><sup data-text=\"常青笔记有助于积累洞见\" data-url=\"https://zhuanlan.zhihu.com/p/448897897\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup>）。</p><hr/><h2>参考文献</h2><p data-pid=\"Mb_4_nBe\"><a href=\"https://link.zhihu.com/?target=https%3A//zettelkasten.de/posts/extend-your-mind-and-memory-with-a-zettelkasten\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">用卡片盒笔记系统扩展你的思维和记忆 • 卡片盒笔记法</a></p><blockquote data-pid=\"lDU-H8hv\">如果你已经把两篇文章拆分了，Zettelkasten 会帮助你把两篇文章联系起来，找出相似点和对立点。 因此，你将能够提炼出一大堆文本，并随着时间的推移找到新东西。<br/><br/>跟踪连接和探索部分笔记网络之后，你会冒出新颖想法。 与显然的联系相比，不明显的联系通常更有益于创造性思考，因为它们会引起更大的惊喜。<br/><br/>分析文本时，由于文本是网状的整体，便要将其分解成几个部分，并且记录各部分的联系</blockquote><p data-pid=\"xIaW04B0\">Luhmann, N. (1992). Communicating with Slip Boxes. In A. Kieserling (Ed.), &amp; M. Kuehn (Trans.), <i>Universität als Milieu: Kleine Schriften</i> (pp. 53–61). Retrieved from <a href=\"https://link.zhihu.com/?target=http%3A//luhmann.surge.sh/communicating-with-slip-boxes\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">luhmann.surge.sh/commun</span><span class=\"invisible\">icating-with-slip-boxes</span><span class=\"ellipsis\"></span></a></p><blockquote data-pid=\"uGywxXX6\"> 我们可以尝试在「艺术」、「展览」、「拥挤」（相互作用）、「大众」、「自由」、「教育」等一般概念下概括巴黎、佛罗伦萨和纽约的体验，以便看看卡片盒如何反应。通常情况下，如果问题的表述使得性质迥异的事物联系起来，这样的问题更有成效。</blockquote><p data-pid=\"1AZSQjQe\">Ahrens, S. (2017). <i>How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers</i>.</p><blockquote data-pid=\"1x_p-cZa\">在旧系统中，问题是：我该把这条笔记放在哪个主题下？在新系统中，问题是：我想在哪种情况下再次看到它？<br/><br/>如果你需要额外步骤来理解或掌握想法，那么转瞬即逝的文献笔记是有意义的。但在写作过程的后期阶段，它们帮不到你，因为在论点的发展过程中，当你需要划线的句子时，它永远不会出现。<br/><br/>谈到记笔记，许多学生和学术写作者的想法与早期的船主一样。他们以立竿见影的方式处理他们的想法和发现：如果读到有趣的句子，就在下面划线。如果想做点评，就在空白处写下来。如果想到一个点子，就记到笔记本上，如果一篇文章看起来足够重要，就努力写一篇摘录。这样做会让你在很多不同的地方留下很多不同的笔记。那么，写作就意味着在很大程度上依靠你的大脑来记住这些笔记是在何时何地写下的。然后，必须从这些笔记中独立地构思一个文本，这就解释了为什么这么多人在事后根据这种先入为主的想法，借助头脑风暴来安排资源。</blockquote><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"8fQR6u8d\"><a href=\"https://zhuanlan.zhihu.com/p/416319260\" class=\"internal\" target=\"_blank\">常青笔记 (Evergreen notes)</a></li><li data-pid=\"y7zLjewQ\"><a href=\"https://zhuanlan.zhihu.com/p/422262632\" class=\"internal\" target=\"_blank\">笔记标题建议使用完整的句子，避免模糊主张</a></li><li data-pid=\"XxQ4vOgq\"><a href=\"https://zhuanlan.zhihu.com/p/426450021\" class=\"internal\" target=\"_blank\">常青笔记之间应该建立大量链接</a></li><li data-pid=\"iHVkMjPc\"><a href=\"https://zhuanlan.zhihu.com/p/435064086\" class=\"internal\" target=\"_blank\">笔记应该让你吃惊 </a></li><li data-pid=\"7QZchCDR\"><a href=\"https://zhuanlan.zhihu.com/p/436335609\" class=\"internal\" target=\"_blank\">常青笔记和卡片盒笔记法的异同点</a></li><li data-pid=\"9jOxiCxj\"><a href=\"https://zhuanlan.zhihu.com/p/443990718\" class=\"internal\" target=\"_blank\">常青笔记是发展大胆想法的安全场所</a></li><li data-pid=\"faen_CPo\"><a href=\"https://zhuanlan.zhihu.com/p/451268598?\" class=\"internal\" target=\"_blank\">如何将阅读标注处理成常青笔记</a></li><li data-pid=\"FfDTUXeG\"><a href=\"https://zhuanlan.zhihu.com/p/404586617?\" class=\"internal\" target=\"_blank\">在 Issa Rice 之后，专家回答启发式</a></li><li data-pid=\"CQJiYZ5B\"><a href=\"https://zhuanlan.zhihu.com/p/516086237\" class=\"internal\" target=\"_blank\">使用笔记在内容中建立联系的优缺点</a></li><li data-pid=\"630_gbld\"><a href=\"https://zhuanlan.zhihu.com/p/521211750\" class=\"internal\" target=\"_blank\">文献笔记是次要的和分离的</a></li><li data-pid=\"lAJywb6j\"><a href=\"https://zhuanlan.zhihu.com/p/542384570\" class=\"internal\" target=\"_blank\">笔记类型体系</a></li><li data-pid=\"G8qr9Pb9\"><a href=\"https://zhuanlan.zhihu.com/p/609604620\" class=\"internal\" target=\"_blank\">卡片笔记写作法 - Ahrens</a></li></ul><h2>声明</h2><p data-pid=\"qxQJKb4a\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"0dcBUXr1\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6bci25mVUBNFdVWSrQNKr6u7AZ1jFzfTVbMF\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Evergreen notes should be concept-oriented (andymatuschak.org)</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/22016022",
+      "type": "topic",
+      "id": "22016022",
+      "name": "常青笔记"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19916288",
+      "type": "topic",
+      "id": "19916288",
+      "name": "记笔记"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19556758",
+      "type": "topic",
+      "id": "19556758",
+      "name": "知识管理"
+    }
+  ],
+  "voteup_count": 38,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "「更好地记笔记」流于表面；核心在于「更好地思考」",
+    "is_following": false,
+    "url_token": "c_1525779661229830144",
+    "id": "c_1525779661229830144",
+    "articles_count": 127,
+    "accept_submission": true,
+    "title": "常青笔记 & 知识工作",
+    "url": "https://api.zhihu.com/columns/c_1525779661229830144",
+    "comment_permission": "all",
+    "created": 1656554219,
+    "updated": 1751877118,
+    "image_url": "https://picx.zhimg.com/v2-ad6fc1d31bc9e915c75b9ff23bb56b5e_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 118,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 9,
+  "contributions": [
+    {
+      "id": 41238220,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "「更好地记笔记」流于表面；核心在于「更好地思考」",
+        "is_following": false,
+        "url_token": "c_1525779661229830144",
+        "id": "c_1525779661229830144",
+        "articles_count": 127,
+        "accept_submission": true,
+        "title": "常青笔记 & 知识工作",
+        "url": "https://api.zhihu.com/columns/c_1525779661229830144",
+        "comment_permission": "all",
+        "created": 1656554219,
+        "updated": 1751877118,
+        "image_url": "https://picx.zhimg.com/v2-ad6fc1d31bc9e915c75b9ff23bb56b5e_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 118,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 421580357,
-  "voteup_count": 34,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 28,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "常青笔记应面向概念 - 来自知乎专栏「常青笔记 &amp; 知识工作」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/421580357 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1634217517,
-  "url": "https://api.zhihu.com/articles/421580357",
-  "comment_permission": "all",
-  "title": "常青笔记应面向概念",
-  "image_width": 1199,
-  "content": "<p data-pid=\"4lpdEzN1\">划分<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常青笔记</a><sup data-text=\"常青笔记 (Evergreen notes)\" data-url=\"https://zhuanlan.zhihu.com/p/416319260\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>最好以概念为标准，而不是按作者、书籍、事件、项目、主题等。这样随着时间的推移，而笔记不断更新、链接，你会逐步发现不同书籍和领域之间的联系（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2HUE4ABbQjUNjrNemvkTCsLa1LPDRuwh1tXC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常青笔记之间应该建立大量链接</a><sup data-text=\"常青笔记之间应该建立大量链接\" data-url=\"https://zhuanlan.zhihu.com/p/426450021\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>）。</p><p data-pid=\"3NlpYQyA\">做笔记最直接的方法是为每本书、项目或研究课题开辟新笔记。每篇笔记都涵盖了许多概念，因此若某个概念以后再次出现，你可能很难找到你曾写过的内容：你必须记住哪些书或项目涉及此话题（相比之下：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4Rrmh17vMBbauEGnFPTZSK3UmdsGExLRfZz1\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常青笔记应该是原子化的</a><sup data-text=\"常青笔记应该是原子化的\" data-url=\"https://zhuanlan.zhihu.com/p/420726986\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>）。</p><p data-pid=\"IzfOH-Dl\">你如果读到另一本书，其中讨论了相同概念，你会在那本书上写新笔记。这种方法是无法聚沙成塔的（有悖于<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6UDDkom8Aifg6mLdjT1sPtbMBweCmpyTwmJT\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知识工作应能聚沙成塔</a><sup data-text=\"知识工作应能聚沙成塔\" data-url=\"https://zhuanlan.zhihu.com/p/422894427\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>）。你对这个概念的新想法，并没有与旧想法结合起来，形成更坚实的整体：关于这个概念，你只有一盘散沙般的一堆笔记，每条笔记深藏于更大的文件中，甚至指代这个概念的术语都不统一。</p><p data-pid=\"zek_EMCd\">这不仅仅是积累的问题。这种方法中，没有动力驱使你把围绕这个概念的新旧想法融会贯通。新旧想法之间难道没有张力吗？难道对概念的有力提炼，不只在将其同时考虑时出现吗？<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zX1WtJ4ouE8sjN1NgWHsGVg8ZnVfp5Kz74Vs\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">理解概念需与其尽力较量</a><sup data-text=\"理解概念需与其尽力较量\" data-url=\"https://zhuanlan.zhihu.com/p/442692019\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>。</p><p data-pid=\"WdfaMvlz\">如果我们读了两本主题完全相同的书，我们可能很容易将这两本书的笔记链接在一起。但是，新奇的联系往往会出现在意想不到的地方。在按概念整理笔记时，你可能会在不同书籍中出现的观点之间建立出乎意料的联系。你以前可能从来没有意识到这些书能联系起来——事实上，它们可能确实没有过联系，除了你发现的这一点。</p><p data-pid=\"gyavVjsz\">按概念组织的话，记笔记会有点困难，但这种困难不无好处：写新笔记时，必须找到新笔记在整体中的位置，因此便会探索之前织就的笔记网络，于是就有机会寻访意料之外的地方。</p><p data-pid=\"euTZVY50\">随着时间的推移，笔记会聚沙成塔，并能以越来越复杂的方式组合起来（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3XP5GRmd9z1D2qCE7pxUvbeSVeQuMiqz9x1C\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常青笔记的标题就像 API</a><sup data-text=\"常青笔记的标题就像 API\" data-url=\"https://zhuanlan.zhihu.com/p/421908250\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>），新颖洞见油然而生（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6cFzJWgj9vZpnrQsjrZ8yCNREzCTgyFeVZTb\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常青笔记有助于积累洞见</a><sup data-text=\"常青笔记有助于积累洞见\" data-url=\"https://zhuanlan.zhihu.com/p/448897897\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup>）。</p><hr/><h2>参考文献</h2><p data-pid=\"Mb_4_nBe\"><a href=\"https://link.zhihu.com/?target=https%3A//zettelkasten.de/posts/extend-your-mind-and-memory-with-a-zettelkasten\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">用卡片盒笔记系统扩展你的思维和记忆 • 卡片盒笔记法</a></p><blockquote data-pid=\"lDU-H8hv\">如果你已经把两篇文章拆分了，Zettelkasten 会帮助你把两篇文章联系起来，找出相似点和对立点。 因此，你将能够提炼出一大堆文本，并随着时间的推移找到新东西。<br/><br/>跟踪连接和探索部分笔记网络之后，你会冒出新颖想法。 与显然的联系相比，不明显的联系通常更有益于创造性思考，因为它们会引起更大的惊喜。<br/><br/>分析文本时，由于文本是网状的整体，便要将其分解成几个部分，并且记录各部分的联系</blockquote><p data-pid=\"xIaW04B0\">Luhmann, N. (1992). Communicating with Slip Boxes. In A. Kieserling (Ed.), &amp; M. Kuehn (Trans.), <i>Universität als Milieu: Kleine Schriften</i> (pp. 53–61). Retrieved from <a href=\"https://link.zhihu.com/?target=http%3A//luhmann.surge.sh/communicating-with-slip-boxes\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">luhmann.surge.sh/commun</span><span class=\"invisible\">icating-with-slip-boxes</span><span class=\"ellipsis\"></span></a></p><blockquote data-pid=\"uGywxXX6\"> 我们可以尝试在「艺术」、「展览」、「拥挤」（相互作用）、「大众」、「自由」、「教育」等一般概念下概括巴黎、佛罗伦萨和纽约的体验，以便看看卡片盒如何反应。通常情况下，如果问题的表述使得性质迥异的事物联系起来，这样的问题更有成效。</blockquote><p data-pid=\"1AZSQjQe\">Ahrens, S. (2017). <i>How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers</i>.</p><blockquote data-pid=\"1x_p-cZa\">在旧系统中，问题是：我该把这条笔记放在哪个主题下？在新系统中，问题是：我想在哪种情况下再次看到它？<br/><br/>如果你需要额外步骤来理解或掌握想法，那么转瞬即逝的文献笔记是有意义的。但在写作过程的后期阶段，它们帮不到你，因为在论点的发展过程中，当你需要划线的句子时，它永远不会出现。<br/><br/>谈到记笔记，许多学生和学术写作者的想法与早期的船主一样。他们以立竿见影的方式处理他们的想法和发现：如果读到有趣的句子，就在下面划线。如果想做点评，就在空白处写下来。如果想到一个点子，就记到笔记本上，如果一篇文章看起来足够重要，就努力写一篇摘录。这样做会让你在很多不同的地方留下很多不同的笔记。那么，写作就意味着在很大程度上依靠你的大脑来记住这些笔记是在何时何地写下的。然后，必须从这些笔记中独立地构思一个文本，这就解释了为什么这么多人在事后根据这种先入为主的想法，借助头脑风暴来安排资源。</blockquote><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"8fQR6u8d\"><a href=\"https://zhuanlan.zhihu.com/p/416319260\" class=\"internal\">常青笔记 (Evergreen notes)</a></li><li data-pid=\"y7zLjewQ\"><a href=\"https://zhuanlan.zhihu.com/p/422262632\" class=\"internal\">笔记标题建议使用完整的句子，避免模糊主张</a></li><li data-pid=\"XxQ4vOgq\"><a href=\"https://zhuanlan.zhihu.com/p/426450021\" class=\"internal\">常青笔记之间应该建立大量链接</a></li><li data-pid=\"iHVkMjPc\"><a href=\"https://zhuanlan.zhihu.com/p/435064086\" class=\"internal\">笔记应该让你吃惊 </a></li><li data-pid=\"7QZchCDR\"><a href=\"https://zhuanlan.zhihu.com/p/436335609\" class=\"internal\">常青笔记和卡片盒笔记法的异同点</a></li><li data-pid=\"9jOxiCxj\"><a href=\"https://zhuanlan.zhihu.com/p/443990718\" class=\"internal\">常青笔记是发展大胆想法的安全场所</a></li><li data-pid=\"faen_CPo\"><a href=\"https://zhuanlan.zhihu.com/p/451268598?\" class=\"internal\">如何将阅读标注处理成常青笔记</a></li><li data-pid=\"FfDTUXeG\"><a href=\"https://zhuanlan.zhihu.com/p/404586617?\" class=\"internal\">在 Issa Rice 之后，专家回答启发式</a></li><li data-pid=\"CQJiYZ5B\"><a href=\"https://zhuanlan.zhihu.com/p/516086237\" class=\"internal\">使用笔记在内容中建立联系的优缺点</a></li><li data-pid=\"630_gbld\"><a href=\"https://zhuanlan.zhihu.com/p/521211750\" class=\"internal\">文献笔记是次要的和分离的</a></li><li data-pid=\"lAJywb6j\"><a href=\"https://zhuanlan.zhihu.com/p/542384570\" class=\"internal\">笔记类型体系</a></li><li data-pid=\"G8qr9Pb9\"><a href=\"https://zhuanlan.zhihu.com/p/609604620\" class=\"internal\">卡片笔记写作法 - Ahrens</a></li></ul><h2>声明</h2><p data-pid=\"qxQJKb4a\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"0dcBUXr1\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6bci25mVUBNFdVWSrQNKr6u7AZ1jFzfTVbMF\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Evergreen notes should be concept-oriented (andymatuschak.org)</a></blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 9,
-  "image_url": "https://pic1.zhimg.com/v2-651fcd5edf40919e0c9dcf5adf512af9_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 7,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 7,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxODE4MTQ4MzQSCTQyMTU4MDM1NxgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 38,
+      "down_vote_count": 0,
+      "like_count": 7,
+      "comment_count": 9,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 28,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-651fcd5edf40919e0c9dcf5adf512af9": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-651fcd5edf40919e0c9dcf5adf512af9": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-651fcd5edf40919e0c9dcf5adf512af9": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=421580357&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 常青笔记 & 知识工作",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525779661229830144",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 常青笔记 & 知识工作"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

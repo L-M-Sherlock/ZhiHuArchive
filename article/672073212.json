@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "672073212",
+  "title": "为概念创作架空的「前世今生」",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/672073212",
+  "image_url": "https://picx.zhimg.com/v2-d5ef343ea94a0d63db7eef076d571a31_720w.jpg?source=172ae18b",
+  "title_image": "https://pica.zhimg.com/v2-d5ef343ea94a0d63db7eef076d571a31_720w.jpg?source=172ae18b",
+  "excerpt": "我发现，编写 <b>概念发现故事</b>（Discovery fiction）能帮我理解科学研究的结果。这种故事描述的是，如果让我来，我可能会如何发现这个结果——会抛出哪些问题，产生哪些想法，怎样误入歧途，如何调转方向，以及怎么一步步得到最终结果。故事的每个环节都不应该…",
+  "created": 1702466508,
   "updated": 1702831751,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "我发现，编写概念发现故事（Discovery fiction）能帮我理解科学研究的结果。这种故…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 5760,
+  "image_height": 3840,
+  "content": "<p data-pid=\"GPu5ICUp\">我发现，编写<b>概念发现故事</b>（Discovery fiction）能帮我理解科学研究的结果。这种故事描述的是，如果让我来，我可能会如何发现这个结果——会抛出哪些问题，产生哪些想法，怎样误入歧途，如何调转方向，以及怎么一步步得到最终结果。故事的每个环节都不应该是凭空出现的，而应该是简单，近乎显然的步骤。</p><p data-pid=\"zgmKkTL5\">我写过很多概念发现故事。比如我有一条关于<a href=\"https://link.zhihu.com/?target=https%3A//twitter.com/michael_nielsen/status/1174420006907473920\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「发现」印度-阿拉伯数字</a>的推特帖子。我也有另一条关于<a href=\"https://link.zhihu.com/?target=https%3A//twitter.com/michael_nielsen/status/1132063254849527808\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「发现」量子隐形传态</a>的帖子。我围绕如何<a href=\"https://link.zhihu.com/?target=https%3A//michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「发现」比特币</a>，以及如何<a href=\"https://link.zhihu.com/?target=https%3A//michaelnielsen.org/ddi/why-bloom-filters-work-the-way-they-do/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「发现」布隆过滤器</a>写过概念发现文章。我偶尔会在写书或者写更长的文章时添加这种故事。比如，<a href=\"https://link.zhihu.com/?target=https%3A//smile.amazon.com/Quantum-Computation-Information-10th-Anniversary/dp/1107002176/ref%3Dsr_1_2%3Fcrid%3DOVOOVDVNZ9JQ%26keywords%3Dnielsen%2Bchuang%26qid%3D1672781606%26sprefix%3Dnielsen%2Bchuang%252Caps%252C155%26sr%3D8-2%26ufe%3Dapp_do%253Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我的第一本量子计算书</a>的 6.2 节（与 Ike Chuang 共同编写），解释了读者可能如何「发现」量子搜索算法。</p><p data-pid=\"aDF-Te-3\">尽管概念发现故事很像说明文，但我写这些故事的理由可能更利己一些：我想通过这些故事来加深我自己的理解。比如在上世纪 90 年代，我注意到了赛博朋克，以及 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/David_Chaum\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">David Chaum</a> 发明的数字现金概念，我随后开始对加密货币感兴趣。接连几年对比特币有所耳闻后，在 2013 年我想深入理解比特币了。我读了比特币的白皮书，并发现粗浅地「理解」比特币很容易。我能读懂证明步骤，但假如把白皮书拿走，我不可能靠自己重新发明一遍比特币协议，尽管我因为之前感兴趣的缘故而熟悉很多想法。我对白皮书还理解得不够好。</p><p data-pid=\"SJ8nwLyF\">为了加深我的理解，我写了一篇概念发现故事，开头便是一个问题：我们怎样能设计一种数字货币呢？之后，我描述了一个简明直白的数字货币想法——显然这个想法有很多瑕疵，是那种随手一想便能得到的，也是熟悉计算机的人认真想想就能得出的。之后文章指出了这个想法显然存在的问题，并提出了简单明了的解决办法。又指出另一个显然存在的问题。又提出一个简单的解决办法。如此循环，不断改进，最终我们「发现」了比特币！这种办法非常具体地描绘了比特币中每个部件是如何被引入的，为什么要引入，以及其目的；与此同时，哪些部件并不必要也显而易见了，我们也能知道有什么其他办法。相比之下，比特币白皮书就是把各种想法混在一起，更加庞杂。</p><p data-pid=\"JpSfjJlO\">概念发现故事会比普通的介绍文章长很多。这并不出乎意料：验证问题的解决方案，比找到问题更容易[1]。根据我的经验，如果两者描述的细节程度相同的话，概念发现故事会比普通的解释文章长 2 到 5 倍。这也就解释为什么这种故事不那么流行了：乍一眼这种办法更低效，甚至太过曲折。然而对于读者和作者而言，概念发现故事的好处在于，你对答案的来龙去脉更加清楚。而且我发现，写得好的概念发现故事读起来更容易，也更快，尽管文章更长。</p><p data-pid=\"xpfEvPiY\">当然，我并不是概念发现故事的原创者。伽利略 1632 年撰写的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Dialogue_Concerning_the_Two_Chief_World_Systems\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《关于两大世界系统的对话》</a>，尽管并不是严格意义上的概念发现故事，但也八九不离十了。我第一次有意识接触到概念发现故事，是读到 Imre Lakatos 于 1976 年写的书<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Proofs_and_Refutations\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《证明与反对》</a>。在这本书里，Lakatos 逐步理解了欧拉多项式以及欧拉公式。这本书不是纯粹的概念发现故事——Lakatos 是哲学家，他要用作品传递自己的理念——但已经足够接近，可以作为例子。后来，很多科学家都告诉我，他们在教学和研究里都使用了概念发现故事。我之后也了解到不少得到出版的概念发现故事。我所知的最好合集来自于 Alessandro Cosentino 写的<a href=\"https://link.zhihu.com/?target=https%3A//cstheory.stackexchange.com/questions/8869/casual-tours-around-proofs\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这个 StackExchange 帖子</a>。Tim Gowers 写过很多接近于概念发现故事的内容，其中很多可以认为就是概念发现故事——比如他关于正规子群（normal subgroup）来源的<a href=\"https://link.zhihu.com/?target=https%3A//gowers.wordpress.com/2011/11/20/normal-subgroups-and-quotient-groups/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">讨论</a>。[2]收集更多这种概念发现故事，乃至编写概念发现故事的历史，应该都会很有意思。</p><p data-pid=\"zTZr_GBy\">尽管这种文体由来已久，但「概念发现故事」一词似乎是我所创造的[3]。正是因为我发现这个词非常有用[4]，我才编写了这篇笔记。这个词指的是科学成果的理想化<b>文字载体</b>[5]，其目标和科学最常用的文字载体并不一样。比如，科学论文的目标（通常）是解释一项新的科学成果的观点，其证据和论证过程。论文并不需要解释假如有人想自己完成这一发现，他应该怎么做，除非这一过程对于验证成果的正确性是有必要的。如果什么东西不在论据和论点之中，那么就没必要写在论文里。结果，很多帮助读者理解结果论证过程的路标被移除了。我这样说，并不是在批评科学论文，也不是说论文「应该」成为概念发现故事。我只是想强调论文和概念发现故事的目标非常不一样[6]。</p><p data-pid=\"oKVyKNXU\">更令人意外的是，概念发现故事跟真实的科学史其实也大相径庭。实际的研究过程往往非常复杂，其中会用到很多依赖于特定条件的知识，也会遇到不少幸运的偶然。的确，很多人读完科学史，也没搞清楚研究是怎样做的。引用 Toynbee 的话，科学史有时候看起来就像是一个个随机事实[7]。相比之下，尽管好的概念故事可以尽情<b>取用</b>历史——作为灵感或者有趣的插曲——但这种故事并不必忠于历史。概念发现故事唯一的任务，是构建一个令人满意的理想化故事，讲述一项发现可能的发现过程。</p><p data-pid=\"QOEJVLol\">并非所有发现都需要概念发现故事。有时人们会做一个动机明确的实验，理解起来也很简单，而结果也非常惊人。对此我们并不需要概念发现故事！但如果有个概念理解起来弯弯绕绕，其发现的路径并不清晰，那么概念发现故事就很有用了。我的大部分工作都围绕计算机科学、设计、理论物理。这些学科都关注发现新概念和难以找到的论证。因此这些学科都很适合概念发现故事。我估计其他科学学科的需求会有很大差异。</p><p data-pid=\"hksh4Snu\">总而言之，概念发现故事的特征包括：</p><ul><li data-pid=\"GNaISZ6z\"> 概念发现故事的目标是构建一个令人满意的理想化故事，讲述可以怎样合理地发现某个概念；<br/> <br/></li><li data-pid=\"vX-HKnMo\"> 概念发现故事通常以一个简单的问题开头，这个问题对于受众而言应该是自然且动机充分的。这些问题可以是「比特币具体怎么运作的？」或者「我们可以怎么发现量子隐态传输？」，能自然地吸引相应的受众；<br/><br/> </li><li data-pid=\"miOScVFV\"> 概念发现故事中的论证，其步骤应该简单且自然，是目标受众应该能自行做出的，此外<br/><br/> </li><li data-pid=\"K60zXxGS\"> 概念发现故事的目标受众可能只有一个人：作者自己。<br/> </li></ul><p data-pid=\"YjfzxLcf\">我写这则笔记，是为了鼓励大家撰写更多的概念发现故事，比如将其用在解释性的论文，书籍，文章中；也可以新潮一点，比如写推特，发 TikTok 或者 Youtube 视频等，以及其他等待挖掘的媒介。此外，我希望有更多论文能采用这种文体。我个人非常喜欢阅读概念发现故事，我能从中学到更多（而且更快！）。</p><p data-pid=\"kj-IgvtA\">同时，我写这则笔记，也是为了强调概念发现故事对于研究工作和创意工作的用处。这是一个很有效力的视角，可以用来加深个人的理解[8]。在 2019 年，我写了那则关于量子隐态传输的推特帖子。在此之前我围绕量子隐态传输写了三篇论文，在实验室做过第一个量子隐态传输的实验，并讲过无数次讲座。我可以打赌我非常了解量子隐态传输。然而写了那篇帖子后，我的理解又提高了不少。这的确是我对概念发现故事感兴趣的原因：它是强迫我深入理解的一个视角。解释文章只是副产物。</p><p data-pid=\"RK-nymEq\">你可能会奇怪，如果我认为概念发现故事主要是个人理解的工具，那么我的大部分概念发现故事是否是私密的呢？我的确有一些私密的概念发现故事，但我发现公开写作是更有用的办法：公开写作——无论形式如何——也是提升我思考能力的可靠办法。公开写作能提升思考能力的原因有很多，包括：（a）如果犯错了，你会很尴尬；（b）你会用目标受众的要求来要求自己。如果你好好选择目标受众，这两点都能促进你的写作质量，以及你的思考质量[9]。如果我是为自己写作，我的文字很多时候只是将结果粗糙复述了一遍。这是有用的，但我会糊弄自己，以为我理解得比实际更好。把目标受众想得更严格点，能让我对自己更认真。</p><p data-pid=\"G5ijqTba\">通过概念发现故事提升理解的途径，还能说很多很多。我就再说两点。首先是一种变体，<b>多重概念发现故事</b>，也就是撰写多篇故事，描述同一个概念可能有哪些不同的发现途径，这些故事的初始想法往往非常不一样（但并不一定）。工作量很大，但其结果可能会非常有趣——我会感到自己非常熟悉这个话题，特别是我写了三个或更多概念发现故事的时候。第二点是，我发现如果结合记忆系统，撰写概念发现故事会快乐得出人意料，我<a href=\"https://link.zhihu.com/?target=https%3A//cognitivemedium.com/srs-mathematics\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">在这里有所描述</a>。</p><p data-pid=\"3QYkhFTf\">正如其他文体一样，概念发现故事也有好坏之分。有人问过科幻小说作家 Theodore Sturgeon ，为什么 90% 的科幻小说都是垃圾。他回复道，当然有 90% 的科幻小说是垃圾：所有东西的 90% 都是垃圾。多年以前，Bret Victor 写过一篇介绍<a href=\"https://link.zhihu.com/?target=http%3A//worrydream.com/ExplorableExplanations/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《可探索的解释》</a>的精彩文章。在此之后，很多人尝试过撰写这种可探索的解释。正如 Sturgeon 定律所述，大部分作品都差强人意。但 Sturgeon 定律可能都言轻了。大部分尝试编写可探索的解释的人，是对这种文体感兴趣，而不是对他们所编写的内容感兴趣。当然，这种人写出的东西并不好[10]。我必须承认，对于概念发现故事，我也有关于这方面的担忧：我希望这个词能流行起来，而且有更多人会写这种故事（即便这个词并没有流行）。但我希望编写概念发现故事的人，是对写出好东西感兴趣，而不是仅仅想要尝试这种文体！</p><p data-pid=\"FD1-EnI5\">上文中，我将概念发现故事描述为一种满足了一些标准的理想化文体。当然，我并没有暗示这种故事「必须」是纯粹的。上文并不是规范的格式描述：这不是俳句或者抑扬五步格。我其实是在命名并描述一种文体，已经有少数人正在日常使用，偶尔会有更多人使用。的确，「优秀的科学论文作者」，会在论文里加入「阐明动机的话语」。大部分时候这种说法意味着他们加入了一些概念发现故事。但我想看到更多的概念发现故事、更多的人意识到它们对于提升个人理解的用处。</p><h2>鸣谢</h2><p data-pid=\"Wsn0t5V7\">感谢 Andy Matuschak 和 Grant Sanderson，我和他们开展了很多关于概念发现故事的讨论。感谢推特上的朋友们，是你们鼓励我写出概念发现故事。本工作由 Astera Institute 支持。</p><h2>脚注</h2><p data-pid=\"d5RKD9Vw\">[1] 我并不是说概念发现故事仅仅是描述某人如何发现了某个阐述清晰的问题的解决方案。的确，发现之旅最有趣的部分是发现需要被解决的问题。其起点可能是一个半生不熟的直觉，或者另外一个毫不相关的问题——所以概念发现故事除了要包含解决方案，还要涵盖发现问题的过程，甚至是问题背后的基本概念。你可以在我写的<a href=\"https://link.zhihu.com/?target=https%3A//twitter.com/michael_nielsen/status/1174420006907473920\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">印度-阿拉伯数字的概念发现故事</a>里看到。</p><p data-pid=\"rh2QW2Je\">[2] 我猜——虽然我对我自己的动机不够清晰——这是我对这种文体的兴趣经年不衰的原因。</p><p data-pid=\"O5xopYUV\">[3] 我在不少地方非正式地使用了这个术语。本则笔记则对其进行延伸讨论。</p><p data-pid=\"NohV9ATy\">[4] Timothy Chow 有个想法是<a href=\"https://link.zhihu.com/?target=http%3A//timothychow.net/forcing.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">解决一个悬而未决的解释问题</a>，我也觉得这个想法很有帮助。 </p><p data-pid=\"WbAfjr2g\">[5] 我的例子都来自于科学领域（包括数学）。我估计这种文体也能应用于其他场景——如果论点或概念难以寻找，但容易验证，那么就不错——但我没有例子。我发现推广这种想法很有意思：我们怎样能「发现」简·奥斯汀或者道格拉斯·阿达姆斯的小说？这到底意味着什么？</p><p data-pid=\"0E01iO9y\">[6] 当然，论文也能充当概念发现故事。我知道有些论文融入了不少概念发现故事的元素，但我不知道有什么论文的初衷就是兼为研究论文和概念发现故事的。</p><p data-pid=\"1_Ayu7je\">[7] 一个很有名的故事是，奥古斯特·凯库勒在梦到一条蛇咬自己的尾巴后，发现了苯的结构。拉马努金声称他的那些数学发现都来自于纳马卡尔的女神玛哈拉克希米。幸运的是我们不用亲身经历也能验证这些想法。科学论文容不下这种轶闻（除非作为点缀），但这些故事在科学史中很重要（但我不确定这有什么影响），对概念发现故事可能也很有用。</p><p data-pid=\"lNy9-qcV\">[8] 根据以往经验，这个技巧会被分类为「解释技巧」，尽管我会尽可能将其描述为加深理解的技巧。我觉得这有点恼火。</p><p data-pid=\"N_IemkV8\">[9] 大部分设想中的受众可能都一样。但我敢打赌，如果受众选得太糟糕，最终的作品可能也会不尽如人意。一些人为了在推特上最大化参与度和影响力而写作，他们的思维能力也会下降。</p><p data-pid=\"J1K3hLXT\">[10] 很多思想工具的相关工作都有这个问题：这就像一堆对木工不感兴趣的人造了大把的锤子，他们也意识不到他们做的这些工具根本没用。</p><hr/><blockquote data-pid=\"hPzI4GKw\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 Shom，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//michaelnotebook.com/df/index.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Discovery fiction (michaelnotebook.com)</a><br/>Michael Nielsen 著，2023 年 1 月 3 日</blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19556895",
+      "type": "topic",
+      "id": "19556895",
+      "name": "科研"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19551585",
+      "type": "topic",
+      "id": "19551585",
+      "name": "科普"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19550581",
+      "type": "topic",
+      "id": "19550581",
+      "name": "学习"
+    }
+  ],
+  "voteup_count": 35,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "助记媒介在叙事性散文中嵌入了间隔重复记忆系统",
+    "is_following": false,
+    "url_token": "c_1525784109008203776",
+    "id": "c_1525784109008203776",
+    "articles_count": 189,
+    "accept_submission": true,
+    "title": "助记媒介 & 思想工具",
+    "url": "https://api.zhihu.com/columns/c_1525784109008203776",
+    "comment_permission": "all",
+    "created": 1656555279,
+    "updated": 1751877351,
+    "image_url": "https://pic1.zhimg.com/v2-f4040c00796b5bb3ba64980f9be88d6f_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 66,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 5,
+  "contributions": [
+    {
+      "id": 47349984,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "助记媒介在叙事性散文中嵌入了间隔重复记忆系统",
+        "is_following": false,
+        "url_token": "c_1525784109008203776",
+        "id": "c_1525784109008203776",
+        "articles_count": 189,
+        "accept_submission": true,
+        "title": "助记媒介 & 思想工具",
+        "url": "https://api.zhihu.com/columns/c_1525784109008203776",
+        "comment_permission": "all",
+        "created": 1656555279,
+        "updated": 1751877351,
+        "image_url": "https://pic1.zhimg.com/v2-f4040c00796b5bb3ba64980f9be88d6f_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 66,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 672073212,
-  "voteup_count": 34,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 39,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "为概念创作架空的「前世今生」 - 来自知乎专栏「助记媒介 &amp; 思想工具」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/672073212 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1702466508,
-  "url": "https://api.zhihu.com/articles/672073212",
-  "comment_permission": "all",
-  "title": "为概念创作架空的「前世今生」",
-  "image_width": 3840,
-  "content": "<p data-pid=\"GPu5ICUp\">我发现，编写<b>概念发现故事</b>（Discovery fiction）能帮我理解科学研究的结果。这种故事描述的是，如果让我来，我可能会如何发现这个结果——会抛出哪些问题，产生哪些想法，怎样误入歧途，如何调转方向，以及怎么一步步得到最终结果。故事的每个环节都不应该是凭空出现的，而应该是简单，近乎显然的步骤。</p><p data-pid=\"zgmKkTL5\">我写过很多概念发现故事。比如我有一条关于<a href=\"https://link.zhihu.com/?target=https%3A//twitter.com/michael_nielsen/status/1174420006907473920\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「发现」印度-阿拉伯数字</a>的推特帖子。我也有另一条关于<a href=\"https://link.zhihu.com/?target=https%3A//twitter.com/michael_nielsen/status/1132063254849527808\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「发现」量子隐形传态</a>的帖子。我围绕如何<a href=\"https://link.zhihu.com/?target=https%3A//michaelnielsen.org/ddi/how-the-bitcoin-protocol-actually-works/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「发现」比特币</a>，以及如何<a href=\"https://link.zhihu.com/?target=https%3A//michaelnielsen.org/ddi/why-bloom-filters-work-the-way-they-do/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「发现」布隆过滤器</a>写过概念发现文章。我偶尔会在写书或者写更长的文章时添加这种故事。比如，<a href=\"https://link.zhihu.com/?target=https%3A//smile.amazon.com/Quantum-Computation-Information-10th-Anniversary/dp/1107002176/ref%3Dsr_1_2%3Fcrid%3DOVOOVDVNZ9JQ%26keywords%3Dnielsen%2Bchuang%26qid%3D1672781606%26sprefix%3Dnielsen%2Bchuang%252Caps%252C155%26sr%3D8-2%26ufe%3Dapp_do%253Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我的第一本量子计算书</a>的 6.2 节（与 Ike Chuang 共同编写），解释了读者可能如何「发现」量子搜索算法。</p><p data-pid=\"aDF-Te-3\">尽管概念发现故事很像说明文，但我写这些故事的理由可能更利己一些：我想通过这些故事来加深我自己的理解。比如在上世纪 90 年代，我注意到了赛博朋克，以及 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/David_Chaum\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">David Chaum</a> 发明的数字现金概念，我随后开始对加密货币感兴趣。接连几年对比特币有所耳闻后，在 2013 年我想深入理解比特币了。我读了比特币的白皮书，并发现粗浅地「理解」比特币很容易。我能读懂证明步骤，但假如把白皮书拿走，我不可能靠自己重新发明一遍比特币协议，尽管我因为之前感兴趣的缘故而熟悉很多想法。我对白皮书还理解得不够好。</p><p data-pid=\"SJ8nwLyF\">为了加深我的理解，我写了一篇概念发现故事，开头便是一个问题：我们怎样能设计一种数字货币呢？之后，我描述了一个简明直白的数字货币想法——显然这个想法有很多瑕疵，是那种随手一想便能得到的，也是熟悉计算机的人认真想想就能得出的。之后文章指出了这个想法显然存在的问题，并提出了简单明了的解决办法。又指出另一个显然存在的问题。又提出一个简单的解决办法。如此循环，不断改进，最终我们「发现」了比特币！这种办法非常具体地描绘了比特币中每个部件是如何被引入的，为什么要引入，以及其目的；与此同时，哪些部件并不必要也显而易见了，我们也能知道有什么其他办法。相比之下，比特币白皮书就是把各种想法混在一起，更加庞杂。</p><p data-pid=\"JpSfjJlO\">概念发现故事会比普通的介绍文章长很多。这并不出乎意料：验证问题的解决方案，比找到问题更容易[1]。根据我的经验，如果两者描述的细节程度相同的话，概念发现故事会比普通的解释文章长 2 到 5 倍。这也就解释为什么这种故事不那么流行了：乍一眼这种办法更低效，甚至太过曲折。然而对于读者和作者而言，概念发现故事的好处在于，你对答案的来龙去脉更加清楚。而且我发现，写得好的概念发现故事读起来更容易，也更快，尽管文章更长。</p><p data-pid=\"xpfEvPiY\">当然，我并不是概念发现故事的原创者。伽利略 1632 年撰写的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Dialogue_Concerning_the_Two_Chief_World_Systems\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《关于两大世界系统的对话》</a>，尽管并不是严格意义上的概念发现故事，但也八九不离十了。我第一次有意识接触到概念发现故事，是读到 Imre Lakatos 于 1976 年写的书<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Proofs_and_Refutations\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《证明与反对》</a>。在这本书里，Lakatos 逐步理解了欧拉多项式以及欧拉公式。这本书不是纯粹的概念发现故事——Lakatos 是哲学家，他要用作品传递自己的理念——但已经足够接近，可以作为例子。后来，很多科学家都告诉我，他们在教学和研究里都使用了概念发现故事。我之后也了解到不少得到出版的概念发现故事。我所知的最好合集来自于 Alessandro Cosentino 写的<a href=\"https://link.zhihu.com/?target=https%3A//cstheory.stackexchange.com/questions/8869/casual-tours-around-proofs\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这个 StackExchange 帖子</a>。Tim Gowers 写过很多接近于概念发现故事的内容，其中很多可以认为就是概念发现故事——比如他关于正规子群（normal subgroup）来源的<a href=\"https://link.zhihu.com/?target=https%3A//gowers.wordpress.com/2011/11/20/normal-subgroups-and-quotient-groups/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">讨论</a>。[2]收集更多这种概念发现故事，乃至编写概念发现故事的历史，应该都会很有意思。</p><p data-pid=\"zTZr_GBy\">尽管这种文体由来已久，但「概念发现故事」一词似乎是我所创造的[3]。正是因为我发现这个词非常有用[4]，我才编写了这篇笔记。这个词指的是科学成果的理想化<b>文字载体</b>[5]，其目标和科学最常用的文字载体并不一样。比如，科学论文的目标（通常）是解释一项新的科学成果的观点，其证据和论证过程。论文并不需要解释假如有人想自己完成这一发现，他应该怎么做，除非这一过程对于验证成果的正确性是有必要的。如果什么东西不在论据和论点之中，那么就没必要写在论文里。结果，很多帮助读者理解结果论证过程的路标被移除了。我这样说，并不是在批评科学论文，也不是说论文「应该」成为概念发现故事。我只是想强调论文和概念发现故事的目标非常不一样[6]。</p><p data-pid=\"oKVyKNXU\">更令人意外的是，概念发现故事跟真实的科学史其实也大相径庭。实际的研究过程往往非常复杂，其中会用到很多依赖于特定条件的知识，也会遇到不少幸运的偶然。的确，很多人读完科学史，也没搞清楚研究是怎样做的。引用 Toynbee 的话，科学史有时候看起来就像是一个个随机事实[7]。相比之下，尽管好的概念故事可以尽情<b>取用</b>历史——作为灵感或者有趣的插曲——但这种故事并不必忠于历史。概念发现故事唯一的任务，是构建一个令人满意的理想化故事，讲述一项发现可能的发现过程。</p><p data-pid=\"QOEJVLol\">并非所有发现都需要概念发现故事。有时人们会做一个动机明确的实验，理解起来也很简单，而结果也非常惊人。对此我们并不需要概念发现故事！但如果有个概念理解起来弯弯绕绕，其发现的路径并不清晰，那么概念发现故事就很有用了。我的大部分工作都围绕计算机科学、设计、理论物理。这些学科都关注发现新概念和难以找到的论证。因此这些学科都很适合概念发现故事。我估计其他科学学科的需求会有很大差异。</p><p data-pid=\"hksh4Snu\">总而言之，概念发现故事的特征包括：</p><ul><li data-pid=\"GNaISZ6z\"> 概念发现故事的目标是构建一个令人满意的理想化故事，讲述可以怎样合理地发现某个概念；<br/> <br/></li><li data-pid=\"vX-HKnMo\"> 概念发现故事通常以一个简单的问题开头，这个问题对于受众而言应该是自然且动机充分的。这些问题可以是「比特币具体怎么运作的？」或者「我们可以怎么发现量子隐态传输？」，能自然地吸引相应的受众；<br/><br/> </li><li data-pid=\"miOScVFV\"> 概念发现故事中的论证，其步骤应该简单且自然，是目标受众应该能自行做出的，此外<br/><br/> </li><li data-pid=\"K60zXxGS\"> 概念发现故事的目标受众可能只有一个人：作者自己。<br/> </li></ul><p data-pid=\"YjfzxLcf\">我写这则笔记，是为了鼓励大家撰写更多的概念发现故事，比如将其用在解释性的论文，书籍，文章中；也可以新潮一点，比如写推特，发 TikTok 或者 Youtube 视频等，以及其他等待挖掘的媒介。此外，我希望有更多论文能采用这种文体。我个人非常喜欢阅读概念发现故事，我能从中学到更多（而且更快！）。</p><p data-pid=\"kj-IgvtA\">同时，我写这则笔记，也是为了强调概念发现故事对于研究工作和创意工作的用处。这是一个很有效力的视角，可以用来加深个人的理解[8]。在 2019 年，我写了那则关于量子隐态传输的推特帖子。在此之前我围绕量子隐态传输写了三篇论文，在实验室做过第一个量子隐态传输的实验，并讲过无数次讲座。我可以打赌我非常了解量子隐态传输。然而写了那篇帖子后，我的理解又提高了不少。这的确是我对概念发现故事感兴趣的原因：它是强迫我深入理解的一个视角。解释文章只是副产物。</p><p data-pid=\"RK-nymEq\">你可能会奇怪，如果我认为概念发现故事主要是个人理解的工具，那么我的大部分概念发现故事是否是私密的呢？我的确有一些私密的概念发现故事，但我发现公开写作是更有用的办法：公开写作——无论形式如何——也是提升我思考能力的可靠办法。公开写作能提升思考能力的原因有很多，包括：（a）如果犯错了，你会很尴尬；（b）你会用目标受众的要求来要求自己。如果你好好选择目标受众，这两点都能促进你的写作质量，以及你的思考质量[9]。如果我是为自己写作，我的文字很多时候只是将结果粗糙复述了一遍。这是有用的，但我会糊弄自己，以为我理解得比实际更好。把目标受众想得更严格点，能让我对自己更认真。</p><p data-pid=\"G5ijqTba\">通过概念发现故事提升理解的途径，还能说很多很多。我就再说两点。首先是一种变体，<b>多重概念发现故事</b>，也就是撰写多篇故事，描述同一个概念可能有哪些不同的发现途径，这些故事的初始想法往往非常不一样（但并不一定）。工作量很大，但其结果可能会非常有趣——我会感到自己非常熟悉这个话题，特别是我写了三个或更多概念发现故事的时候。第二点是，我发现如果结合记忆系统，撰写概念发现故事会快乐得出人意料，我<a href=\"https://link.zhihu.com/?target=https%3A//cognitivemedium.com/srs-mathematics\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">在这里有所描述</a>。</p><p data-pid=\"3QYkhFTf\">正如其他文体一样，概念发现故事也有好坏之分。有人问过科幻小说作家 Theodore Sturgeon ，为什么 90% 的科幻小说都是垃圾。他回复道，当然有 90% 的科幻小说是垃圾：所有东西的 90% 都是垃圾。多年以前，Bret Victor 写过一篇介绍<a href=\"https://link.zhihu.com/?target=http%3A//worrydream.com/ExplorableExplanations/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《可探索的解释》</a>的精彩文章。在此之后，很多人尝试过撰写这种可探索的解释。正如 Sturgeon 定律所述，大部分作品都差强人意。但 Sturgeon 定律可能都言轻了。大部分尝试编写可探索的解释的人，是对这种文体感兴趣，而不是对他们所编写的内容感兴趣。当然，这种人写出的东西并不好[10]。我必须承认，对于概念发现故事，我也有关于这方面的担忧：我希望这个词能流行起来，而且有更多人会写这种故事（即便这个词并没有流行）。但我希望编写概念发现故事的人，是对写出好东西感兴趣，而不是仅仅想要尝试这种文体！</p><p data-pid=\"FD1-EnI5\">上文中，我将概念发现故事描述为一种满足了一些标准的理想化文体。当然，我并没有暗示这种故事「必须」是纯粹的。上文并不是规范的格式描述：这不是俳句或者抑扬五步格。我其实是在命名并描述一种文体，已经有少数人正在日常使用，偶尔会有更多人使用。的确，「优秀的科学论文作者」，会在论文里加入「阐明动机的话语」。大部分时候这种说法意味着他们加入了一些概念发现故事。但我想看到更多的概念发现故事、更多的人意识到它们对于提升个人理解的用处。</p><h2>鸣谢</h2><p data-pid=\"Wsn0t5V7\">感谢 Andy Matuschak 和 Grant Sanderson，我和他们开展了很多关于概念发现故事的讨论。感谢推特上的朋友们，是你们鼓励我写出概念发现故事。本工作由 Astera Institute 支持。</p><h2>脚注</h2><p data-pid=\"d5RKD9Vw\">[1] 我并不是说概念发现故事仅仅是描述某人如何发现了某个阐述清晰的问题的解决方案。的确，发现之旅最有趣的部分是发现需要被解决的问题。其起点可能是一个半生不熟的直觉，或者另外一个毫不相关的问题——所以概念发现故事除了要包含解决方案，还要涵盖发现问题的过程，甚至是问题背后的基本概念。你可以在我写的<a href=\"https://link.zhihu.com/?target=https%3A//twitter.com/michael_nielsen/status/1174420006907473920\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">印度-阿拉伯数字的概念发现故事</a>里看到。</p><p data-pid=\"rh2QW2Je\">[2] 我猜——虽然我对我自己的动机不够清晰——这是我对这种文体的兴趣经年不衰的原因。</p><p data-pid=\"O5xopYUV\">[3] 我在不少地方非正式地使用了这个术语。本则笔记则对其进行延伸讨论。</p><p data-pid=\"NohV9ATy\">[4] Timothy Chow 有个想法是<a href=\"https://link.zhihu.com/?target=http%3A//timothychow.net/forcing.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">解决一个悬而未决的解释问题</a>，我也觉得这个想法很有帮助。 </p><p data-pid=\"WbAfjr2g\">[5] 我的例子都来自于科学领域（包括数学）。我估计这种文体也能应用于其他场景——如果论点或概念难以寻找，但容易验证，那么就不错——但我没有例子。我发现推广这种想法很有意思：我们怎样能「发现」简·奥斯汀或者道格拉斯·阿达姆斯的小说？这到底意味着什么？</p><p data-pid=\"0E01iO9y\">[6] 当然，论文也能充当概念发现故事。我知道有些论文融入了不少概念发现故事的元素，但我不知道有什么论文的初衷就是兼为研究论文和概念发现故事的。</p><p data-pid=\"1_Ayu7je\">[7] 一个很有名的故事是，奥古斯特·凯库勒在梦到一条蛇咬自己的尾巴后，发现了苯的结构。拉马努金声称他的那些数学发现都来自于纳马卡尔的女神玛哈拉克希米。幸运的是我们不用亲身经历也能验证这些想法。科学论文容不下这种轶闻（除非作为点缀），但这些故事在科学史中很重要（但我不确定这有什么影响），对概念发现故事可能也很有用。</p><p data-pid=\"lNy9-qcV\">[8] 根据以往经验，这个技巧会被分类为「解释技巧」，尽管我会尽可能将其描述为加深理解的技巧。我觉得这有点恼火。</p><p data-pid=\"N_IemkV8\">[9] 大部分设想中的受众可能都一样。但我敢打赌，如果受众选得太糟糕，最终的作品可能也会不尽如人意。一些人为了在推特上最大化参与度和影响力而写作，他们的思维能力也会下降。</p><p data-pid=\"J1K3hLXT\">[10] 很多思想工具的相关工作都有这个问题：这就像一堆对木工不感兴趣的人造了大把的锤子，他们也意识不到他们做的这些工具根本没用。</p><hr/><blockquote data-pid=\"hPzI4GKw\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 Shom，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//michaelnotebook.com/df/index.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Discovery fiction (michaelnotebook.com)</a><br/>Michael Nielsen 著，2023 年 1 月 3 日</blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 4,
-  "image_url": "https://picx.zhimg.com/v2-d5ef343ea94a0d63db7eef076d571a31_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 13,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 13,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMzc0NzkzMjkSCTY3MjA3MzIxMhgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 35,
+      "down_vote_count": 1,
+      "like_count": 13,
+      "comment_count": 5,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 39,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-d5ef343ea94a0d63db7eef076d571a31": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-d5ef343ea94a0d63db7eef076d571a31": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-d5ef343ea94a0d63db7eef076d571a31": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=672073212&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 助记媒介 & 思想工具",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525784109008203776",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 助记媒介 & 思想工具"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

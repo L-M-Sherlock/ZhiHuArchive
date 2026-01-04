@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,9 +37,10 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,36 +84,56 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 21,
-  "content": "<p data-pid=\"tHWSKbeV\">请不要怀疑自己的记忆力！在大脑突触层面，遗忘速度基本相同（和你的聪明程度无关）<sup data-text=\"迷信：每个人的遗忘速度相同\" data-url=\"https://zhuanlan.zhihu.com/p/310377557\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup></p><p data-pid=\"Y60OvaTL\">问题的关键点是，你所学材料是如何编码到你的记忆中的。这需要你对知识进行良好的表述与组织。</p><p data-pid=\"XWCu_qOR\">举个例子，假如你要记住如何制作鸡肉高汤：</p><h2>例子——鸡肉高汤<sup data-text=\"如何写出好卡片：利用间隔重复创造理解\" data-url=\"https://zhuanlan.zhihu.com/p/434074509\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup></h2><h3>复杂的表述难以记忆和编码</h3><p data-pid=\"gOCxAz6z\"><i>问：「制作鸡肉高汤需要什么？」</i></p><p data-pid=\"fQaOoFER\"><i>答：</i></p><ul><li data-pid=\"n2H4EvbV\"><i>2 磅（~ 1 千克）鸡骨</i></li><li data-pid=\"Ujx6sO82\"><i>2 夸脱（~ 2 升）水</i></li><li data-pid=\"qTySDb5R\"><i>1 个洋葱，切块</i></li><li data-pid=\"S0tIPgtT\"><i>2 个<a href=\"https://www.zhihu.com/search?q=%E8%83%A1%E8%90%9D%E5%8D%9C&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22article%22%2C%22sourceId%22%3A434074509%7D\" class=\"internal\">胡萝卜</a>，切块</i></li><li data-pid=\"ZKoCg725\"><i>2 根芹菜，切块</i></li><li data-pid=\"rBJ0tnct\"><i>4 瓣大蒜，捣碎</i></li><li data-pid=\"MoPg-uPJ\"><i>半束新鲜的香菜</i></li></ul><ol><li data-pid=\"zG4PQfLX\"><i>把所有原料一起放进大锅里。</i></li><li data-pid=\"d_J_cu4s\"><i>小火炖到沸腾（约1小时）。用小火的话，味道就能明亮、干净；如果温度较高，汤的色、味就比较暗淡。</i></li><li data-pid=\"drg6H9xI\"><i>降低火候，小火慢炖一个半小时。</i></li><li data-pid=\"kqfgkbiu\"><i>过滤，等其冷却后转移到容器里储藏。</i></li></ol><p data-pid=\"Odir9wXT\"><b>你要是一口气把这些内容背下来，明天就忘得差不多了。</b></p><p data-pid=\"YP39YIBJ\">因为这样的表述过于复杂，你每次记忆时要回想的细节太多，无法将所有细节加强记忆。而且答案内容过长，你每次回忆会记起一些，又忘掉另一些。因此激活不够一致，容易导致记忆受到侵蚀。</p><h3>良好的表述便于记忆和编码</h3><p data-pid=\"CvM4ac-H\">你可以将上面的这个问题进行如下拆解：</p><p data-pid=\"bE25CzV7\"><i>问：鸡肉高汤是用鸡肉、水和其他什么类别的原料制成的？</i><br/><i>答：香料。</i></p><p data-pid=\"tQkdH3jw\"><i>问：典型的鸡肉高汤香料：</i><br/><i><b>- ？？？</b></i><br/><i>- 胡萝卜</i><br/><i>- 芹菜</i><br/><i>- 大蒜</i><br/><i>- 香菜</i><br/><i>答：洋葱</i></p><p data-pid=\"GNrLZk4B\"><i>问：典型的鸡肉高汤香料：</i><br/><i>- 洋葱</i><br/><i><b>- ？？？</b></i><br/><i>- 芹菜</i><br/><i>- 大蒜</i><br/><i>- 香菜</i><br/><i>答：胡萝卜</i></p><p data-pid=\"saiScwSn\"><i>问：鸡肉高汤中鸡骨和水的比例是多少？</i><br/><i>答：每磅骨头一夸脱水</i></p><p data-pid=\"F3gyS-Lv\"><i>问：一磅鸡骨在鸡肉高汤中应使用多少洋葱？</i><br/><i>答：半颗洋葱</i></p><p data-pid=\"rz2IsS_0\"><i>问：一磅鸡骨的鸡肉高汤中要用多少胡萝卜/ 芹菜？</i><br/><i>答：1 根胡萝卜/芹菜</i></p><p data-pid=\"JQrlAjtk\"><i>问：一磅鸡骨的鸡肉高汤中要用多少大蒜？</i><br/><i>答：2 个捣碎的大蒜</i></p><p data-pid=\"hjrkt1wX\"><i>问：</i><br/><i><b>1. ？？？</b></i><br/><i>2. 小火慢沸</i><br/><i>3. 保持90分钟咕嘟咕嘟*</i><br/><i>4. 滤出，冷却后储存。</i><br/><i>答：混合所有食材</i></p><p data-pid=\"B29wofi5\"><i>问：你应该以什么速度加热一锅鸡肉高汤的原料？</i><br/><i>答：慢慢地。</i></p><p data-pid=\"NQqfHvrj\"><i>问：在制作鸡肉高汤时，你应该在什么时候降低火候？</i><br/><i>答：在锅里沸腾后。</i></p><p data-pid=\"u2XW32iG\"><i>问：在制作鸡肉高汤时，在锅内达到沸腾后，你应该做什么？</i><br/><i>答：将温度降至轻微沸腾。</i></p><p data-pid=\"XIKvd9wU\"><i>问：鸡肉高汤必须炖多长时间？</i><br/><i>答：90 分钟。</i></p><p data-pid=\"0fD9kHvP\">通过上述拆解和重新表述，你每次都可以记住其中一个细节，从而强化你的记忆。最后你将这些内容串起来，就能完整的记住你想要背诵的材料了。</p><h2>原理</h2><p data-pid=\"NOJ42LMh\">为什么会这样？明明是相同的材料，通过不同的表述，居然可以让记忆的难度大大改变？</p><p data-pid=\"Wf7Fgcpw\">在这之前，你需要先了解一个概念：提取效应（也称测试效应）——你的回忆即对记忆的提取，提取行为往往会强化记忆，并且这个效应会减缓遗忘。</p><p data-pid=\"or3Y5bt0\">对于不同的表述，你在回忆时就会提取不同的内容，从而强化不同的记忆。经验表明：</p><ul><li data-pid=\"39N09xHH\">细节过多的表述会让你无法完整地刺激记忆。</li><li data-pid=\"TnzDFyjL\">模糊的表述会让你无法可靠地刺激准确的记忆。</li><li data-pid=\"8q8wZj9D\">不一致的表述会让你在回忆时干扰原有的记忆。</li></ul><p data-pid=\"2s_8GXVN\">所以，在记忆材料的时候，千万不要试图死记硬背原材料，而要对材料进行拆解、重新表述，在这个过程中理解材料，才能更好的记住。</p><h2>进一步阅读</h2><a href=\"https://zhuanlan.zhihu.com/p/52369009\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_180x120.jpg\" data-image-width=\"732\" data-image-height=\"271\" class=\"internal\">有效的学习：组织知识的20条原则</a><a href=\"https://zhuanlan.zhihu.com/p/434074509\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-3fc5e91c7a88c26207775c8301afbe1f_180x120.jpg\" data-image-width=\"1579\" data-image-height=\"328\" class=\"internal\">如何写出好卡片：利用间隔重复创造理解</a><p></p>",
+  "content": "<p data-pid=\"tHWSKbeV\">请不要怀疑自己的记忆力！在大脑突触层面，遗忘速度基本相同（和你的聪明程度无关）<sup data-text=\"迷信：每个人的遗忘速度相同\" data-url=\"https://zhuanlan.zhihu.com/p/310377557\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup></p><p data-pid=\"Y60OvaTL\">问题的关键点是，你所学材料是如何编码到你的记忆中的。这需要你对知识进行良好的表述与组织。</p><p data-pid=\"XWCu_qOR\">举个例子，假如你要记住如何制作鸡肉高汤：</p><h2>例子——鸡肉高汤<sup data-text=\"如何写出好卡片：利用间隔重复创造理解\" data-url=\"https://zhuanlan.zhihu.com/p/434074509\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup></h2><h3>复杂的表述难以记忆和编码</h3><p data-pid=\"gOCxAz6z\"><i>问：「制作鸡肉高汤需要什么？」</i></p><p data-pid=\"fQaOoFER\"><i>答：</i></p><ul><li data-pid=\"n2H4EvbV\"><i>2 磅（~ 1 千克）鸡骨</i></li><li data-pid=\"Ujx6sO82\"><i>2 夸脱（~ 2 升）水</i></li><li data-pid=\"qTySDb5R\"><i>1 个洋葱，切块</i></li><li data-pid=\"S0tIPgtT\"><i>2 个<a href=\"https://www.zhihu.com/search?q=%E8%83%A1%E8%90%9D%E5%8D%9C&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22article%22%2C%22sourceId%22%3A434074509%7D\" class=\"internal\" target=\"_blank\">胡萝卜</a>，切块</i></li><li data-pid=\"ZKoCg725\"><i>2 根芹菜，切块</i></li><li data-pid=\"rBJ0tnct\"><i>4 瓣大蒜，捣碎</i></li><li data-pid=\"MoPg-uPJ\"><i>半束新鲜的香菜</i></li></ul><ol><li data-pid=\"zG4PQfLX\"><i>把所有原料一起放进大锅里。</i></li><li data-pid=\"d_J_cu4s\"><i>小火炖到沸腾（约1小时）。用小火的话，味道就能明亮、干净；如果温度较高，汤的色、味就比较暗淡。</i></li><li data-pid=\"drg6H9xI\"><i>降低火候，小火慢炖一个半小时。</i></li><li data-pid=\"kqfgkbiu\"><i>过滤，等其冷却后转移到容器里储藏。</i></li></ol><p data-pid=\"Odir9wXT\"><b>你要是一口气把这些内容背下来，明天就忘得差不多了。</b></p><p data-pid=\"YP39YIBJ\">因为这样的表述过于复杂，你每次记忆时要回想的细节太多，无法将所有细节加强记忆。而且答案内容过长，你每次回忆会记起一些，又忘掉另一些。因此激活不够一致，容易导致记忆受到侵蚀。</p><h3>良好的表述便于记忆和编码</h3><p data-pid=\"CvM4ac-H\">你可以将上面的这个问题进行如下拆解：</p><p data-pid=\"bE25CzV7\"><i>问：鸡肉高汤是用鸡肉、水和其他什么类别的原料制成的？</i><br/><i>答：香料。</i></p><p data-pid=\"tQkdH3jw\"><i>问：典型的鸡肉高汤香料：</i><br/><i><b>- ？？？</b></i><br/><i>- 胡萝卜</i><br/><i>- 芹菜</i><br/><i>- 大蒜</i><br/><i>- 香菜</i><br/><i>答：洋葱</i></p><p data-pid=\"GNrLZk4B\"><i>问：典型的鸡肉高汤香料：</i><br/><i>- 洋葱</i><br/><i><b>- ？？？</b></i><br/><i>- 芹菜</i><br/><i>- 大蒜</i><br/><i>- 香菜</i><br/><i>答：胡萝卜</i></p><p data-pid=\"saiScwSn\"><i>问：鸡肉高汤中鸡骨和水的比例是多少？</i><br/><i>答：每磅骨头一夸脱水</i></p><p data-pid=\"F3gyS-Lv\"><i>问：一磅鸡骨在鸡肉高汤中应使用多少洋葱？</i><br/><i>答：半颗洋葱</i></p><p data-pid=\"rz2IsS_0\"><i>问：一磅鸡骨的鸡肉高汤中要用多少胡萝卜/ 芹菜？</i><br/><i>答：1 根胡萝卜/芹菜</i></p><p data-pid=\"JQrlAjtk\"><i>问：一磅鸡骨的鸡肉高汤中要用多少大蒜？</i><br/><i>答：2 个捣碎的大蒜</i></p><p data-pid=\"hjrkt1wX\"><i>问：</i><br/><i><b>1. ？？？</b></i><br/><i>2. 小火慢沸</i><br/><i>3. 保持90分钟咕嘟咕嘟*</i><br/><i>4. 滤出，冷却后储存。</i><br/><i>答：混合所有食材</i></p><p data-pid=\"B29wofi5\"><i>问：你应该以什么速度加热一锅鸡肉高汤的原料？</i><br/><i>答：慢慢地。</i></p><p data-pid=\"NQqfHvrj\"><i>问：在制作鸡肉高汤时，你应该在什么时候降低火候？</i><br/><i>答：在锅里沸腾后。</i></p><p data-pid=\"u2XW32iG\"><i>问：在制作鸡肉高汤时，在锅内达到沸腾后，你应该做什么？</i><br/><i>答：将温度降至轻微沸腾。</i></p><p data-pid=\"XIKvd9wU\"><i>问：鸡肉高汤必须炖多长时间？</i><br/><i>答：90 分钟。</i></p><p data-pid=\"0fD9kHvP\">通过上述拆解和重新表述，你每次都可以记住其中一个细节，从而强化你的记忆。最后你将这些内容串起来，就能完整的记住你想要背诵的材料了。</p><h2>原理</h2><p data-pid=\"NOJ42LMh\">为什么会这样？明明是相同的材料，通过不同的表述，居然可以让记忆的难度大大改变？</p><p data-pid=\"Wf7Fgcpw\">在这之前，你需要先了解一个概念：提取效应（也称测试效应）——你的回忆即对记忆的提取，提取行为往往会强化记忆，并且这个效应会减缓遗忘。</p><p data-pid=\"or3Y5bt0\">对于不同的表述，你在回忆时就会提取不同的内容，从而强化不同的记忆。经验表明：</p><ul><li data-pid=\"39N09xHH\">细节过多的表述会让你无法完整地刺激记忆。</li><li data-pid=\"TnzDFyjL\">模糊的表述会让你无法可靠地刺激准确的记忆。</li><li data-pid=\"8q8wZj9D\">不一致的表述会让你在回忆时干扰原有的记忆。</li></ul><p data-pid=\"2s_8GXVN\">所以，在记忆材料的时候，千万不要试图死记硬背原材料，而要对材料进行拆解、重新表述，在这个过程中理解材料，才能更好的记住。</p><h2>进一步阅读</h2><a href=\"https://zhuanlan.zhihu.com/p/52369009\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_180x120.jpg\" data-image-width=\"732\" data-image-height=\"271\" class=\"internal\">有效的学习：组织知识的20条原则</a><a href=\"https://zhuanlan.zhihu.com/p/434074509\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-3fc5e91c7a88c26207775c8301afbe1f_180x120.jpg\" data-image-width=\"1579\" data-image-height=\"328\" class=\"internal\">如何写出好卡片：利用间隔重复创造理解</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1639112624,
   "excerpt": "请不要怀疑自己的记忆力！在大脑突触层面，遗忘速度基本相同（和你的聪明程度无关） [1]问题的关键点是，你所学材料是如何编码到你的记忆中的。这需要你对知识进行良好的表述与组织。 举个例子，假如你要记住如何制作鸡肉高汤： 例子——鸡肉高汤[2]复杂的表述难以记忆和编码 问：「制作鸡肉高汤需要什么？」 答：2 磅（~ 1 千克）鸡骨2 夸脱（~ 2 升）水1 个洋葱，切块2 个胡萝卜 ，切块2 根芹菜，切块4 瓣大蒜，捣碎半束新鲜的…",
-  "id": 2264896156,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2264896156",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/434074509": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"如何写出好卡片：利用间隔重复创造理解\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/434074509\",\"desc\":\"1059 赞同 · 134 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 译序： 考试里有学习的奥秘？！前苹果系统工程师手把手教学 注：正文中的[数字]表示的是注释，可以善用 Ctrl+F 进行页面内搜索。 本文有两万五千多字，可以在你做卡片时作为参考。小时候，我时常做这样的白日梦，只要像打游戏那样敲对作弊代码，电脑就「哔哔」两声，自动给我打开神奇的世界，让我拥有和游戏主角一样超凡的力量，摆脱这单调乏味的生活。 以上幻想多半是游戏玩太多的缘故，但那神奇的感觉正与我后来使用「间隔重复…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-3fc5e91c7a88c26207775c8301afbe1f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"434074509\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/52369009": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/52369009\",\"desc\":\"415 赞同 · 31 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 想要提高学习效率，加速学习？阅读本文来获得能力，克服来自「组织知识」的困难。 学习速度取决于我们组织学习材料的方式。如果组织的很好，那么对于相同的材料，我们就能学得又快又好，其效率（速度）上的差距是难以置信的。 下面的原则按照重要性排序，最前面的原则最易被不经意地违背，但是如果能够好好地遵守它们，将为我们带来极大的收益。 这里有一个前提：你在用「间隔重复」的方式进行学习和…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"52369009\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/434074509": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"如何写出好卡片：利用间隔重复创造理解\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/434074509\",\"desc\":\"1325 赞同 · 151 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 译序： 考试里有学习的奥秘？！前苹果系统工程师手把手教学 注：正文中的[数字]表示的是注释，可以善用 Ctrl+F 进行页面内搜索。 本文有两万五千多字，可以在你做卡片时作为参考。小时候，我时常做这样的白日梦，只要像打游戏那样敲对作弊代码，电脑就「哔哔」两声，自动给我打开神奇的世界，让我拥有和游戏主角一样超凡的力量，摆脱这单调乏味的生活。 以上幻想多半是游戏玩太多的缘故，但那神奇的感觉正与我后来使用「间隔重复…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-3fc5e91c7a88c26207775c8301afbe1f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"434074509\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/52369009": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/52369009\",\"desc\":\"500 赞同 · 33 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 想要提高学习效率，加速学习？阅读本文来获得能力，克服来自「组织知识」的困难。 学习速度取决于我们组织学习材料的方式。如果组织的很好，那么对于相同的材料，我们就能学得又快又好，其效率（速度）上的差距是难以置信的。 下面的原则按照重要性排序，最前面的原则最易被不经意地违背，但是如果能够好好地遵守它们，将为我们带来极大的收益。 这里有一个前提：你在用「间隔重复」的方式进行学习和…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"52369009\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=2264896156&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1638892891,
     "detail": "<p>本人高中生，学文科。自从上高中以来，没人都有大量需要记忆的知识点，而背诵的时间往往有限。没当自习课背书时，别人十分钟左右就能背下来的内容，我往往要花上二三十分钟，并且在默写时也常常出错。在背书时，我会做到全神灌注与大声朗读，但成效总是不大。当默写作业发下来时，总是我与另外几个不太认真的同学不过关。这常常另我烦躁不堪，或许真的是我的记忆力与他人存在差异。在此寻求各位帮助，提供些提高记忆力，加强背诵的方法，谢谢。</p>",
-    "id": 504423014,
+    "id": "504423014",
     "question_type": "normal",
     "relationship": {},
     "title": "如何有效进行背诵？",
     "type": "question",
     "updated_time": 1638892891,
-    "url": "https://api.zhihu.com/questions/504423014"
+    "url": "https://www.zhihu.com/api/v4/questions/504423014"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1639113057,
+  "url": "https://www.zhihu.com/api/v4/answers/2264896156",
   "voteup_count": 40
 }

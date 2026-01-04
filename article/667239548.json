@@ -1,80 +1,445 @@
 {
-  "status": 0,
-  "updated": 1700185661,
+  "id": "667239548",
+  "title": "高亮引导的实践与理解辅助",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/667239548",
+  "image_url": "https://pica.zhimg.com/v2-b60530a2ed8fbd57883c67a39dec6dfc_720w.jpg?source=172ae18b",
+  "title_image": "https://pic1.zhimg.com/v2-b60530a2ed8fbd57883c67a39dec6dfc_720w.jpg?source=172ae18b",
+  "excerpt": "今年夏天，有一个新的洞见让我努力思索了很久：人们在几个月后难以回忆或应用他们所读的内容，通常是因为他们一开始就没真正理解。这种回忆失败 <b>感觉</b>很像忘记，但人们常常分辨不出来。我以前一直觉得「<a href=\"https://link.zhihu.com/?target=https%3A//andymatuschak.org/books\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">书本不起作用</a>[1]」，原因就在于人们看似迅速地遗忘了几…",
+  "created": 1700185661,
+  "updated": 1752997694,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "今年夏天，有一个新的洞见让我努力思索了很久：人们在几个月后难以回忆或应用他们所…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 4592,
+  "image_height": 3448,
+  "content": "<p data-pid=\"AS6Yk6_3\">今年夏天，有一个新的洞见让我努力思索了很久：人们在几个月后难以回忆或应用他们所读的内容，通常是因为他们一开始就没真正理解。这种回忆失败<b>感觉</b>很像忘记，但人们常常分辨不出来。我以前一直觉得「<a href=\"https://link.zhihu.com/?target=https%3A//andymatuschak.org/books\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">书本不起作用</a><sup data-text=\"为什么书本不起作用？\" data-url=\"https://zhuanlan.zhihu.com/p/390507468\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>」，原因就在于人们看似迅速地遗忘了几乎所有读过的东西。但如果这些所谓的记忆失败其实是一开始就没理解好，那么，增强记忆可能并非正确的解决方案。</p><p data-pid=\"ENSTRvcC\">所以，我开始探索阅读环境如何能直接辅助理解，并学习在<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/reading-and-85345515%3Fcid%3D112853575\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">专家实践</a><sup data-text=\"阅读理解与记忆系统\" data-url=\"https://zhuanlan.zhihu.com/p/653174197\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>和<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/initial-in-self-87053505\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">干预</a><sup data-text=\"为自我解释提供支持的初步实验\" data-url=\"https://zhuanlan.zhihu.com/p/651230605\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>方面的已有知识。但不论我尝试了哪些新方向，都没有展现出太大希望。最主要的问题，似乎在于这些系统都过于突兀。先前的研究和我自己的实验中的系统对阅读体验的干扰太大了。这些系统都是通过判断你理解了什么、没理解什么，来提供反馈和辅助。要达到这一目的，往往需要大量繁琐的交互。</p><p data-pid=\"1ud64Leb\">几周前我有点泄气，便停下来重新思考。好吧，人们确实有理解缺口，但长期练习还是相当有益的，对吧？具体而言，在面对理解缺口时，我有没有观察到提取练习失效了？如果我围绕这些问题改变思考的角度，而不是把阅读理解当作最终目标，会怎样？</p><p data-pid=\"FAxc-TKb\">以下就是最初促使我走上这条道路的（假设的）问题：</p><ol><li data-pid=\"LOtLmvDD\"> 对于理解不足的概念性内容，提取练习通常不起作用；你或许能机械地复述，但却不能灵活运用。<br/> <br/></li><li data-pid=\"h42x74iH\"> 当提取练习感觉很教条——像是在「猜老师心中的答案」——时，往往是<b>因为</b>存在理解缺口。当其他人编写卡片时尤是如此。<br/> <br/></li><li data-pid=\"2s0trNal\"> 对于诊断和填补理解缺口，提取练习（和解题练习）都是一种既不愉快又不直接的方式。<br/> </li></ol><p data-pid=\"2EDnSLnr\">最简单粗暴的解决方案，就是确保人们只练习那些他们理解透彻的内容。那么，我们该怎么做？我意识到，过去几年里我描述过的一些想法，似乎可以串联起来。出乎我意料的是，这条路径似乎为辅助阅读理解提供了一个更有希望的解决方案。</p><h2>概念综述</h2><p data-pid=\"fvIgaT2n\">顶层设计如下：</p><ol><li data-pid=\"r5jEsChD\"> 当你阅读一篇文本时，你有一支神奇的高亮笔。你可以用它来标记任何重要的、任何你想确保自己理解并记住的内容。你还可以简要地写下几个词，明确你特别感兴趣的是什么。<br/> <br/></li><li data-pid=\"hARpemac\"> 未来的练习环节将包含强化和拓展你高亮的想法的任务。<br/> <br/></li><li data-pid=\"xIxKAXRh\"> 当你读完一个小节后，可以点一个按钮，（用不同的颜色）高亮那些你<b>没有</b>标记，但同样重要的细节。这些「额外的」（「建议的」？「暗示的」？）高亮能让你迅速检查是否漏掉了你可能重视的内容。<br/> </li></ol><p data-pid=\"jzBWvLnb\">主要的设计洞见是，高亮这一交互方式既能让读者选择练习什么，<b>也能</b>（虽然不太明显）体现其对内容的理解程度。这一高亮原语也能复用于吸引注意力——以非常轻量的方式——提醒读者注意那些他可能不知不觉中遗漏的重要细节。</p><h3>这个设计中我喜欢的概念元素</h3><p data-pid=\"XD4GSkKC\"><b>扭转一种自然（但无效）的交互。</b>高亮是大家学习时会自然而然（甚至有点强迫症）会做的事。<a href=\"https://link.zhihu.com/?target=https%3A//andymatuschak.org/files/papers/Dunlosky%2520et%2520al%2520-%25202013%2520-%2520Improving%2520Students%25E2%2580%2599%2520Learning%2520With%2520Effective%2520Learning%2520Techniques.pdf%23page%3D15\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这是最受欢迎的学习方式</a>。这很合理：因为标出自己认为重要的东西会让人<b>感觉良好</b>。这不仅是兴趣的发泄口，也是你付出努力的见证，在纸面上焕发出明亮的光芒。而且，这么做几乎不费吹灰之力。问题是，尽管学生<b>相信</b>它有用，但在对照研究中，高亮的内容<a href=\"https://link.zhihu.com/?target=https%3A//andymatuschak.org/files/papers/Dunlosky%2520et%2520al%2520-%25202013%2520-%2520Improving%2520Students%25E2%2580%2599%2520Learning%2520With%2520Effective%2520Learning%2520Techniques.pdf%23page%3D17\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">并没有实质性地提高理解或记忆</a>。如果我们能以某种方式「拯救」高亮，使其真正达到我们期望的效果，那就太棒了。在我提出的这个设计里，高亮这个动作本身依然一如既往的无效；与以往不同的是，这些高亮会触发后续的提取练习（我们知道这是相当有效的）和理解反馈（效果有待验证）。</p><p data-pid=\"GkjotJcT\"><b>将控制权留给读者。</b>这个设计延续了<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/demo-talk-new-66348634\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我在 2022 年的努力</a>，目的是让读者有权选择自己要练习什么。不仅如此，这一目标还扩展到了辅助理解的交互上。（我还没在研究文献中找到类似的东西；<a href=\"https://link.zhihu.com/?target=http%3A//andymatuschak.org/files/papers/Chi%2520et%2520al%2520-%25201994%2520-%2520Eliciting%2520self-explanations%2520improves%2520understanding.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">一般的干预方式</a>是让学生在阅读每句话后，大声地解释一遍。）如果文章的前半部分对读者来说并无新意，他们可以毫不犹豫地跳过去。在显示出那些「额外」的高亮后，读者可以直接略过文章前半部分的所有内容——无需交互。接着，他们只需一边滚动一边观察，就能集中注意力在后半部分被忽略的内容上，尤其是那些一度让人摸不着头脑的地方。</p><p data-pid=\"tlncgt3R\"><b>非用后即弃的理解辅助交互。</b><a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/initial-in-self-87053505\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">上个月</a><sup data-text=\"为自我解释提供支持的初步实验\" data-url=\"https://zhuanlan.zhihu.com/p/651230605\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>，我描述了一个阅读理解辅助系统，该系统让读者在阅读时向他们自己解释文本内容。这种方式往往让人觉得不痛不痒，就像做了件毫无价值的事。我认为主要原因是，这些自我解释没有长远意义，就像是用后即弃的工作。我写这些只是为了确保自己当下能明白过来，但这种交互给人的感觉是得不偿失。因为我和大多数人一样，总低估了自己理解缺口出现的频率，所以觉得即使不这么做也能明白。我看到的所有专注于阅读理解的方法都有这个「用后即弃的工作」的问题。相较之下，在这个新设计里，当你用高亮笔做标记时，你其实是为将来的复习和理解铺路。这样的交互不是用后即弃，它有持久的价值和意义。</p><p data-pid=\"o1JMjCnz\"><b>以想法为中心的记忆系统。</b>在<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/demo-talk-medium-71081197\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我 2022 年的助记媒介设计</a>里，卡片和文本是并列的。读者可以挑选将哪些卡片加入他们的收藏里。<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/lessons-from-73309142%23%3A~%3Atext%3DAct%2520on%2520ideas%252C%2520rather%2520than%2520acting%2520on%2520prompts%253F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">从用户研究中我发现</a><sup data-text=\"从 2022 年夏的助记媒介原型中学到的经验教训\" data-url=\"https://zhuanlan.zhihu.com/p/647393257\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>，人们一般不会去评估这些<b>卡片</b>，而是对<b>文中的某个想法</b>有感而发——「哎呀，这个得记牢了！」——然后才侧目旁边的卡片。用卡片来捕捉这种反应，的确有些拐弯抹角。我感觉，大家真正想要的，其实是能<b>指出他们认为重要的想法</b>；至于卡片，不过是个实现细节罢了。新设计更接近这种<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/fluid-practice-83882597%23%3A~%3Atext%3DLanguage%2520models%2520and%2520ideas%2520as%2520primitives\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">以想法为中心的练习系统，我觉得这可能还会有其他附加优势</a><sup data-text=\"灵活的记忆实践产生流畅的理解\" data-url=\"https://zhuanlan.zhihu.com/p/646929920\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>，比如通过多样化和综合化来提高理解的流畅度。</p><p data-pid=\"q5MDqLSO\"><b>平滑过渡到义务的入口匝道。</b>在我 2022 年底的用户研究中，<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/lessons-from-73309142%23%3A~%3Atext%3Dbe%2520filed%21%2520Oops.-%2CIncrementalism%2C-Expressivity%2520aside%252C%2520there%25E2%2580%2599s\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我观察到</a><sup data-text=\"从 2022 年夏的助记媒介原型中学到的经验教训\" data-url=\"https://zhuanlan.zhihu.com/p/647393257\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>一个有趣的矛盾：一开始，读者经常不太确定他们有多关心某个细节。他们懂得这点很重要。但他们愿不愿意为此长期练习？这还不好说——他们得继续读下去，了解这个细节在整个大局中的位置。很多人有用高亮笔的需求，我深究后发现，这种不确定性往往是他们有这个需求的原因。大家想先把这些细节标为<b>暂定</b>重要，过后觉得合适再通过保存旁边的卡片来「升级」它们。这么做确实有道理！我自己也常这样操作。我会先大致翻阅一遍，用高亮笔标出看似要紧的地方。然后，我会根据这些高亮内容再过一遍，为那些看似值得深究的细节做卡片。我提出的这个设计正好能让这种逐渐升级的交互更自然。你可以用普通黄色高亮笔来标记暂时看似重要的细节，用紫色的「魔法」高亮笔来标记你认为必须强化记忆的细节。轻点一下，高亮就会「翻转」为其他颜色。这样，读者在「标为重要」和「标为需要强化」的之间，就能平滑地过渡了。</p><h3>设计面临的概念挑战</h3><p data-pid=\"bVAWnvJR\"><b>高亮不鼓励深度加工。</b><a href=\"https://link.zhihu.com/?target=http%3A//andymatuschak.org/files/papers/Wyatt%2520et%2520al%2520-%25201993%2520-%2520Comprehension%2520strategies%2C%2520worth%2520and%2520credibility%2520monitoring%2C%2520and%2520evaluations.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">高效的读者是挑剔的</a>，他们会仔细分析文本，解读、拓展，乃至与自己的既有知识建立联系。但人们经常只是随手高亮，而非深度加工文本。有时甚至没有加工，就轻易高亮了文本。这样一来，我的系统在「理解辅助」这一方面，设定了一个非常低的门槛。但如果目标是解决我最初设定的三大问题，这一设计将大有裨益。这样一来，你不太可能收到关于你完全忽视的想法的卡片。而且卡片也能被设计成<b>诱发</b>尚未发生的拓展和阐释。</p><p data-pid=\"Sl4roYRw\"><b>密度与模糊性。</b>编写卡片让我深刻地意识到，一个句子里能够包含多少不同的细节。如果读者高亮了一个关键句子，那么他们可能对其中的多个，甚至所有细节都感兴趣。也有可能他们只是<b>理解</b>了其中一半（实际测试中我就遇到过这样的情况）。我发现，在这种情况下，做「最小化」的高亮是有帮助的。也就是说，如果你只对一个关键形容词感兴趣，就只高亮它，或许还可以在同一个句子里对其他小细节做单独的高亮。此外，在这些情况下，简单地记几个字来说明你的具体兴趣点也是很有用的。</p><p data-pid=\"Rguxu-oj\"><b>只见树木不见森林。</b>以高亮为中心的交互更注重细节和局部信息。但我通常也希望练习中能够包括整体性的思考。最有力的问题往往能触及某一想法的核心，特别是当你从一个合适的角度去看待它时，找到一句话来表达它。有时我希望我的练习是总结一个长篇论述。</p><p data-pid=\"28P2tW9K\"><b>新手无法可靠地判断什么重要。</b>原先的助记媒介设计有一个优点，即领域专家会明确地告诉你需要了解的内容是什么。但在新设计中，更多的控制权转交给了读者；专家顶多提供一些「暗示」。这对那些希望有明确指导的读者来说，无疑增加了使用难度。更核心的问题是，读者通常并不一定能准确判断文本中哪些是最关键的。那么，「额外高亮」这一交互是否足够弥补这一问题？</p><h2>初步测试</h2><p data-pid=\"H7J3Kt3b\">我找了我朋友 Elliott Jin（<a href=\"https://link.zhihu.com/?target=https%3A//bradfieldcs.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Bradfield</a> 的计算机讲师）当个临时助手，把这主意拿出来走了个「人工」智能测试。继续<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/studying-myself-88583610\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">上月的学习</a><sup data-text=\"我在研究自己的线代学习过程\" data-url=\"https://zhuanlan.zhihu.com/p/664173533\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>，我读了 <a href=\"https://link.zhihu.com/?target=https%3A//hefferon.net/linearalgebra/index.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Jim Hefferon 的《线性代数》</a>里的 One.III.1 章节，一边读一边高亮我想强化记忆的地方。这些东西 Elliott 早就熟悉了，他自己也仔细挑了这一章所有该注意的点。我读完后，他就把我的高亮和他自己的对比了一下，把我漏掉的想法也标在我这份材料上。然后我就能按照设计的那样，复习那些额外的高亮部分。</p><p data-pid=\"8iCmNe80\">首先，最关键的是，这次交互让我注意到了三个我之前根本没在意过的概念。我当时看书的时候这几点就被我遗漏了，我的眼睛仅仅在页面上掠过了他们。这验证了「额外高亮」这一交互形式有助于暴露理解缺口。</p><p data-pid=\"ygjKaUi_\">同时，这次练习也证明了，标记高亮并不意味着就真理解了。比如有次我高亮了一个定义，但完全忽略了几个关键词。结果证明，这没什么。后续的练习很快就揭露了我遗漏的这些词；由于我高亮了那些定义，也就表示了我想知道这些词——所以这次练习能帮我找出这个盲点，我还挺庆幸的。</p><p data-pid=\"FqSDa3WM\">在另一个情况下，我忽略了一个「额外」的高亮，因为我觉得它被我别的高亮包括了。结果证明，我错了！我随后做了一些下游概念的练习，这个错误一下子就暴露了出来。这一次很快就找出了问题，但一般来说可没这么简单。</p><p data-pid=\"Q3RkI4Nz\">关键是，这种交互让我<b>感觉很好</b>。我本来就喜欢边读边高亮，这让我觉得很顺手，而且更加强大，还不用让我改变阅读习惯。给文字「<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/initial-in-self-87053505%23%3A~%3Atext%3DAnd%2520there%25E2%2580%2599s%2520a%2520funny%2520thing%2520that%2520happens%253A%2520the%2520shading%2520is%2520somehow%2520viscerally%2520rewarding%21%2520It%2520feels%2520good%2520to%2520%25E2%2580%259Cfill%2520up%25E2%2580%259D%2520the%2520sidebar%252C%2520to%2520%25E2%2580%259Ccolor%2520in%25E2%2580%259D%2520all%2520the%2520%25E2%2580%259Cgood%2520bits%25E2%2580%259D.\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">上色</a><sup data-text=\"为自我解释提供支持的初步实验\" data-url=\"https://zhuanlan.zhihu.com/p/651230605\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>」让人心情愉悦，如果这些标记能真正有意义，无论是在理解检查还是在后续的练习方面，那就更妙了。在浏览「额外高亮」时，我感到好奇，想要了解它们，但并没有感到不合时宜地被迫去关注。Elliott 高亮了一些我跳过的细节，因为它们要么熟悉，要么看起来不太有趣；很容易跳过这些地方。</p><p data-pid=\"15ckc6Yh\">在高亮一旁，Elliott 还想标出一些「低亮」——可能值得注意，但相对次要的细节。或许，可以通过高亮的颜色深浅来表示它们的重要程度？如果读者能标记某个点优先级较低，那我们就少给他们安排相关任务。或者，这些级别也可以作为一种反馈，提醒读者他们大多数时间都在高亮相对不重要的细节，而非核心观点。</p><p data-pid=\"DzZx5lVo\">书的下一节（One.III.2）出现了一些有趣的难题。这一节主要是对上一章里一些重要命题的证明。过程中，也涌现出一些实用的新属性和操作策略。后者用原来的高亮交互就能搞定，但对于证明这块儿，怎么处理就没那么明确了。我觉得，一部分原因可能是读证明的时候，我没有形成自然的高亮习惯，而在读解释性文本时，我的高亮习惯恰好能指出哪里需要强化记忆。从别人的证明中学习似乎需要不同的模式；遗憾的是，我在知识和学习理论方面还比较贫瘠。</p><p data-pid=\"DAMizaJ4\">最后一个犹豫：我的理解缺口到底有多重要？这个原型揭示了我遗漏的一些有意义的细节。但结果证明，通过本节的习题集，这些漏洞很容易就被诊断出来了。如果没有这个别致的阅读增强环境，我也能应对自如。但<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/80865178%23%3A~%3Atext%3DIncomplete%2520absorption\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">今年早些时候，我辅导过一个学生</a><sup data-text=\"记忆系统如何帮助解决问题\" data-url=\"https://zhuanlan.zhihu.com/p/620583957\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup>，他在阅读理解方面遇到了很大的问题。在用 Hefferon 的书学习前面几节时，我也有类似的理解缺口，导致我在做习题时感到困惑。更糟糕的是，这些缺口可能根本不会被察觉。在审计习题集以寻找它们所涵盖的材料时，我注意到它们主要关注解决应用问题，而不是对文中讨论的概念性细节进行强化，也不会揭示那些细节的理解缺口。</p><p data-pid=\"z83r5dmq\">我粗略认为，与事实或程序上的缺口相比，概念上的缺口更有可能在解题练习中被忽略或者误诊。如果问题只考察某种知识的迁移应用，困惑就更容易产生。所以，理论上我们或许可以设计一系列逐渐增加难度的问题，有效地找出理解缺口。但我发现，当我的理解实际上没问题时，我不<b>喜欢</b>回答这种基础问题，感觉无聊又累人。或许，我提出的设计中的这种轻量级理解辅助是个合理的折中办法。</p><h2>用《量子国度》来评估</h2><p data-pid=\"zxC_7RQA\">我们评估这个新设计的另一个方式就是问：如果以这种方式阅读<a href=\"https://link.zhihu.com/?target=https%3A//quantum.country/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《量子国度》</a>，会是什么感觉？</p><p data-pid=\"gHQj_IOQ\">首先我们可能会问：读者需要标多少高亮，才能把所有的卡片都「集齐」？我在第一篇文章（QCVC）里，把 112 个卡片跟相应的高亮范围对应起来，发现用 78 处高亮就能覆盖所有卡片。对于大约 25000 词的文章来说，这个数字不算夸张：大约每 320 词就有一个高亮，或者说在我电脑屏幕上，差不多每翻一屏就有一个。（当然，文本的想法概念有很大的变化。）</p><p data-pid=\"znsfEAFP\">这个小试验揭露了，QCVC 里有很多我觉得重要但又不那么明显的地方，并<b>没有</b>配备卡片。这其实是原先的助记媒介设计的一个短板：因为每个读者都会收到所有的卡片（而且立即收到——我们没有分阶段引入），所以在设置卡片时，我们必须比较保守。我们也不想让大家被卡淹没不知所措。因此，可能会让人练习一些他们觉得没意义的细节（比如用「船」作为计算范围的比喻），而对于他们认为重要的其他细节，则<b>没有</b>练习机会。</p><p data-pid=\"e54WD8PI\">绝大部分的高亮（57 条）只映射一张卡片。16 条映射两张，3 条映射三张，各有一条映射四张和五张。这些一对多的情况大都是我们用多张卡片从不同角度、或多个例子、或强调不同侧面来表达一个概念。全面审计这些成组的卡片后，我感觉至少有 80% 更适合分开练习。这些卡片相互强化，练习一张基本上会减轻对另一张的记忆需求。此外，这种同一主题不同变体的卡片，如果连续出现，很容易让人感觉枯燥乏味和过于死板。</p><p data-pid=\"yrkZQmvE\">我觉得，这种卡片数量的分布也反映了原先的助记媒介的一个局限：那 57 个「单独」的细节多数都可以从多角度的强化中获益。但由于所有的卡片都被一股脑地展示给所有用户，所以我们只能偏向保守。</p><p data-pid=\"hxXOfWE8\">有 3 张卡片在文本里没有直接出处，它们要求读者根据一个或多个细节来进行推断。这对我的高亮交互方式来说确实是个大问题！一个可能的补救方法是，如果用户的高亮包括了预期推断所需的「原材料输入」，就分配这些「综合/推断」的卡片。我觉得这种卡片特别有价值，因为它逼着读者跳出文本框架去思考。同时，由于这类卡片的重点在于你<b>不是</b>从记忆中找答案，你或许会希望每次都有新的、涉及这些观点的推断。</p><p data-pid=\"BisMXdD5\">有 6 张卡片其实跟可选习题中的问题陈述的细节有关。这些有点棘手。从一个角度看，即使你不去做这些旨在阐明这些陈述正确<b>原因</b>的证明题，你也应该知道这些陈述<b>是</b>正确的。如果我们从这个角度来看，那么高亮交互可能希望那个命题出现在「在正文里」，这样所有读者都能注意到。另一个角度是，如果你通过练习证明了某个结论，你肯定想记住这个结论。从这个角度看，高亮的交互方式应该没问题，其实比《量子国度》的一刀切方式还要好。</p><p data-pid=\"z7g7FId0\">这个练习也让我更明白了一个问题：就像我们之前讨论的，读者不一定总能判断出什么是重要的。新的设计相对于《量子国度》，可能会让人们漏掉一些关键细节。这是为了给读者一个更流畅、更个人化的体验而必须要付出的代价。当然，真正的成本和感知到的好处有多大，还需要更多用户研究来明确。</p><h3>交互成本</h3><p data-pid=\"wjyYLzDH\">两年多前，当我刚开始深入研究助记媒介中读者控制方面的矛盾时，<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/revamping-medium-55309960%23%3A~%3Atext%3DAnd%2520so%2520maybe%2Cthink%2520that%25E2%2580%2599s%2520enough.\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我注意到</a>如果 QCVC 有 112 张卡片，读者肯定不想对每张卡片逐一作出是否保存的决定，更不想在界面上点击 112 次「保存此卡片」！这促使我在<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/demo-talk-new-66348634\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">去年的原型</a>中引入了「批量」卡片交互。</p><p data-pid=\"AqgeFOce\">然而，我发现我并不太担心要求读者高亮 78 次。78 次交互依然看起来很多，那我的感觉为何会如此不同呢？</p><p data-pid=\"mPvkcxzp\">一个因素是，对许多读者来说，高亮是一种自然的行为。它感觉像是<b>阅读的一部分</b>，而不是一个单独的决定或交互。从空间上看，这都是在文本<b>内部</b>进行的，而不是在一个独立的界面上。</p><p data-pid=\"bgiAwBEk\">同样重要的是，读者不需要评估卡片。在 112 张卡片中选择哪些保存要麻烦得多：你得仔细阅读并考虑所有这些文字。但在拟议的设计中，你不是在决定「保存哪些卡片」，而是在强调你已经阅读过的文本的某个子集。「额外高亮」视图会提供一种轻量级的方法，快速添加你可能遗漏的重要信息，这种交互甚至都比评估卡片要简单，因为你是在评估正文文本，大部分或全部都是你已经读过的。</p><p data-pid=\"VZ0lQjT8\">QCVC 有些卡片远不如其他卡片重要。在《量子国度》和去年的助记媒介设计中，所有卡片地位都一样，所以用户必须平等地评估所有 112 张卡片。但在拟议的设计中，用户可能很自然地不会高亮对应非重要细节的文本，这也无伤大雅。文本本身没有强加成本。而且，如果有视觉标记来提示哪些信息更重要，那么评估「额外高亮」的成本也可以进一步降低。</p><h2>实现的细节与挑战</h2><p data-pid=\"1_hZlMEB\">到现在为止，我更侧重于交互设计，并没有涉及实际的工作方式。我觉得这个侧重点没错，但我还是得简要说说实现的方面，尤其是那些会影响我后续设计的部分。</p><p data-pid=\"_ClCIFi4\">总体来看，这个设计的实现可以分解为三大核心问题：</p><ol><li data-pid=\"UqKQT-Xs\"><b>文本到精选高亮：</b>给定一段文本，哪些是最关键的细节，而哪些高亮内容能最恰当地吸引人们注意到这些细节？<br/> <br/></li><li data-pid=\"u0prgJ3Z\"><b>从高亮到任务：</b>给定一组带有上下文（或许还有重点备注）的高亮，如何构建一组练习任务？<br/> <br/></li><li data-pid=\"sBvhG8Jg\"><b>语义高亮差异对比：</b>给定用户的一组带有上下文的高亮，怎么判断哪些精选高亮的概念内容没有被「涵盖」？<br/> </li></ol><p data-pid=\"KVzLSFRP\">当然，还有其他切入点来看这个问题。比如，我们可以把高亮内容映射到知识图谱上，再进一步将知识图谱映射到练习任务，以体现各种连接和依赖关系。与其去设定和比较一组「理想」的高亮内容，不如根据读者实际的兴趣和深入程度来推荐一组高亮。我们还可以让读者明确表示他们阅读这篇文章的目的——他们有哪些目标和问题——然后相应地调整高亮内容。但我现在先把这些拓展点放一边。</p><p data-pid=\"eYpeuy1N\">让我们从一个简化的实现模型开始，这里面不涉及任何前沿的机器学习技术。</p><ol><li data-pid=\"qkgf0AVh\"> 从文本到精选高亮：与原先的助记媒介类似，由一名专家构建一套「理想」的练习任务，并将这些任务（多对多地）映射到一组「理想」的高亮上。<br/> <br/></li><li data-pid=\"n4M0Eo-v\"> 从高亮到任务：给定用户的高亮内容，我们运用传统的自然语言处理工具，比如潜在语义分析，来识别与专家高亮「语义匹配」的内容。读者则会收到来自专家映射中对应的任务。<br/> <br/></li><li data-pid=\"6JGKDmYD\"> 语义高亮差异对比：计算专家的「精选高亮」和（2）中识别出的高亮之间的集合差异。<br/> </li></ol><p data-pid=\"hrhQUSFj\">除了对专家劳动力的巨大需求外，这个模型的主要缺点是，如果读者高亮了一个专家<b>没有</b>强调的细节，那么就没有任务来强化了。同样，读者也无法指望系统围绕一个原创的观察来创建练习任务，或者关注你对某个高亮内容的特定兴趣所做的任何笔记。但这样一个模型让我能够在不涉及大量生成性 AI 支线任务的情况下，探索和完善交互设计。</p><p data-pid=\"7GHPxREp\">当然，若非近期大语言模型的突飞猛进，我估计一开始也想不出这个设计方案。这种自由度很高的高亮交互，简直就是在呼唤这些模型所擅长的开放式解读。而且，以想法为中心的练习系统也需要有力的任务生成装置。通过从卡片切换（或扩展）到上下文中的想法作为系统原语，我们能让用户更方便地把自己的想法加入到练习中。这种高亮交互不仅限于别人的文字，对于你自己的笔记也同样适用。比如说，你在读一篇文章时，发现作者的论证有漏洞，那你就可以简单地写下一句话并高亮。同样，如果你在日记里写到朋友有句评论让你印象深刻，你可以简单高亮这条评论，这样以后的练习时就能深入地思考和处理。</p><p data-pid=\"kCV1PcFM\">回归现实。我用 GPT-4 做了不少实验，来完成这三项任务。目前来看，我的粗略印象是：这些系统真的很了不起，我已经取得了相当不错的进展。虽然输出结果还没达到我所需要的那么好，但我期待通过精心设计的提示词工程、微调，或者静等明年的新模型来实现目标。</p><ol><li data-pid=\"fFxp51mI\"> 从文本到精选高亮：意外地有个不错的开局。通常会包括 10-20% 的不重要细节（即使我要求模型给出重要性评分），同时也会遗漏几个关键要点。高亮的起止点也常常不是最佳位置。<br/> <br/></li><li data-pid=\"QDs_JUkx\"> 从高亮到任务：这是三项任务中最难的。我觉得这很大程度上要归结于如何明确教育设计的哲学，或者说复习的「模式语言」。问题通常不在模型的「智能」上；而是你没法清晰地描述你想要（或不想要）的任务类型。尽管如此，对于基础的提取练习任务，我获得的结果中超过一半都是可用的。（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zBjh9jUahGSm7VpFtEjvKqT\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">更多笔记</a>）<br/> <br/></li><li data-pid=\"HwNt0UB3\"> 语义高亮差异对比：对模型来说意外地困难。特别是当用户的高亮不在「精选」高亮集合里时，模型常常会做出虚假的映射。<br/> </li></ol><h2>下一步</h2><p data-pid=\"RbZzb8Kw\">令人高兴的是，解决这些开放性的技术问题并不是我评估和优化这里核心设计思路的必要条件。我打算开展一轮「人工」智能式的用户测试：</p><ol><li data-pid=\"xkFalh4b\"> 从文本到精选高亮：由我来创建，跟上面简单模型描述的一样。<br/> <br/></li><li data-pid=\"aR_qFu20\"> 从高亮到任务：按照简单模型中描述的来，但我会手动把读者标出的高亮跟我自己精选的对上，而不用潜在语义分析这类方法。<br/> <br/></li><li data-pid=\"bEO4S4oE\"> 语义高亮差异对比：我会手动完成。<br/> </li></ol><p data-pid=\"uBW9HBkO\">我会先跟一批有经验的间隔重复用户进行测试，这样能让我专注于高亮交互设计，以及「以想法为中心的练习」这个概念。我想观察：</p><ul><li data-pid=\"PyNkrs_K\"> 读者是否相信单单通过高亮就能了解他们将来会练习什么。有没有必要加入「重点备注」？<br/> <br/></li><li data-pid=\"M0A2c7s9\"> 「额外高亮」可视化是否能揭示理解缺口，以及读者对此有何感受。<br/> <br/></li><li data-pid=\"X0O5iuRT\"> 从他们的高亮映射出来的任务，在情感上是什么感觉——如果他们间接「报名参加」了这些任务，还会有猜密码的感觉吗？<br/> </li></ul><p data-pid=\"tVwME9Gy\">最终，让我对这个设计感到兴奋的是，它有望解决我过去几年实验中出现的三个独立问题：</p><ol><li data-pid=\"AcD8QaP9\"> 助记媒介<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/revamping-medium-55309960\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">在很多情境下感觉像是令人不快的专制</a><sup data-text=\"围绕读者控制改造助记媒介\" data-url=\"https://zhuanlan.zhihu.com/p/637442975\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"8\">[8]</sup>；应该把控制权逐渐交给读者。<br/> <br/></li><li data-pid=\"I2erDt3T\"> 理解缺口是家常便饭；<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/reading-and-85345515%3Fcid%3D112853575\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">练习别人的卡片往往不起作用，甚至让人感到压抑</a><sup data-text=\"阅读理解与记忆系统\" data-url=\"https://zhuanlan.zhihu.com/p/653174197\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，特别是在涉及概念性材料时。<br/> <br/></li><li data-pid=\"E9h2mf-K\"> 「仅仅」对概念性材料进行提取练习通常会产生脆弱的理解，而这种理解在实际应用中迁移得很差；<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/fluid-practice-83882597\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">更灵活的实践可能产生更流畅的理解</a><sup data-text=\"灵活的记忆实践产生流畅的理解\" data-url=\"https://zhuanlan.zhihu.com/p/646929920\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"9\">[9]</sup>。<br/> </li></ol><p data-pid=\"x4ksYyhe\">可以肯定的是，这个新设计也会失败，但我乐观地认为，它至少会以有趣且富有启发性的方式失败。</p><p data-pid=\"Y81NVS7N\">————————</p><p data-pid=\"5RG12eDa\">我要特别感谢 Elliott Jin，他不仅协助我进行了初步测试，还就这些理念展开了深入的讨论！同时也感谢 Joe Edelman 的有益交流。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"x6KX211O\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4、Jarrett Ye，校对 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/db7781cc868b214d3824d5d87f7a0e0d\" data-hash=\"db7781cc868b214d3824d5d87f7a0e0d\" data-hovercard=\"p$b$db7781cc868b214d3824d5d87f7a0e0d\">@Carrie455</a> <br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/highlight-driven-90101210\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Highlight-driven practice and comprehension support | Patreon</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
-  "reason": "",
-  "excerpt_title": "",
-  "id": 667239548,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/21868663",
+      "type": "topic",
+      "id": "21868663",
+      "name": "助记媒介"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19550564",
+      "type": "topic",
+      "id": "19550564",
+      "name": "阅读"
+    }
+  ],
   "voteup_count": 41,
+  "voting": 1,
+  "heavy_up_status": "has_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "助记媒介在叙事性散文中嵌入了间隔重复记忆系统",
+    "is_following": false,
+    "url_token": "c_1525784109008203776",
+    "id": "c_1525784109008203776",
+    "articles_count": 189,
+    "accept_submission": true,
+    "title": "助记媒介 & 思想工具",
+    "url": "https://api.zhihu.com/columns/c_1525784109008203776",
+    "comment_permission": "all",
+    "created": 1656555279,
+    "updated": 1751877351,
+    "image_url": "https://picx.zhimg.com/v2-f4040c00796b5bb3ba64980f9be88d6f_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 66,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 5,
+  "contributions": [
+    {
+      "id": 47100645,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "助记媒介在叙事性散文中嵌入了间隔重复记忆系统",
+        "is_following": false,
+        "url_token": "c_1525784109008203776",
+        "id": "c_1525784109008203776",
+        "articles_count": 189,
+        "accept_submission": true,
+        "title": "助记媒介 & 思想工具",
+        "url": "https://api.zhihu.com/columns/c_1525784109008203776",
+        "comment_permission": "all",
+        "created": 1656555279,
+        "updated": 1751877351,
+        "image_url": "https://picx.zhimg.com/v2-f4040c00796b5bb3ba64980f9be88d6f_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 66,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 55,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "高亮引导的实践与理解辅助 - 来自知乎专栏「助记媒介 &amp; 思想工具」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/667239548 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1700185661,
-  "url": "https://api.zhihu.com/articles/667239548",
-  "comment_permission": "all",
-  "title": "高亮引导的实践与理解辅助",
-  "image_width": 3448,
-  "content": "<p data-pid=\"4-jzRc0c\">今年夏天，有一个新的洞见让我努力思索了很久：人们在几个月后难以回忆或应用他们所读的内容，通常是因为他们一开始就没真正理解。这种回忆失败<b>感觉</b>很像忘记，但人们常常分辨不出来。我以前一直觉得「<a href=\"https://link.zhihu.com/?target=https%3A//andymatuschak.org/books\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">书本不起作用</a><sup data-text=\"为什么书本不起作用？\" data-url=\"https://zhuanlan.zhihu.com/p/390507468\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>」，原因就在于人们看似迅速地遗忘了几乎所有读过的东西。但如果这些所谓的记忆失败其实是一开始就没理解好，那么，增强记忆可能并非正确的解决方案。</p><p data-pid=\"XbdxFAIN\">所以，我开始探索阅读环境如何能直接辅助理解，并学习在<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/reading-and-85345515%3Fcid%3D112853575\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">专家实践</a><sup data-text=\"阅读理解与记忆系统\" data-url=\"https://zhuanlan.zhihu.com/p/653174197\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>和<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/initial-in-self-87053505\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">干预</a><sup data-text=\"为自我解释提供支持的初步实验\" data-url=\"https://zhuanlan.zhihu.com/p/651230605\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>方面的已有知识。但不论我尝试了哪些新方向，都没有展现出太大希望。最主要的问题，似乎在于这些系统都过于突兀。先前的研究和我自己的实验中的系统对阅读体验的干扰太大了。这些系统都是通过判断你理解了什么、没理解什么，来提供反馈和辅助。要达到这一目的，往往需要大量繁琐的交互。</p><p data-pid=\"4mTA-pVN\">几周前我有点泄气，便停下来重新思考。好吧，人们确实有理解缺口，但长期练习还是相当有益的，对吧？具体而言，在面对理解缺口时，我有没有观察到提取练习失效了？如果我围绕这些问题改变思考的角度，而不是把阅读理解当作最终目标，会怎样？</p><p data-pid=\"l_ZgwpCr\">以下就是最初促使我走上这条道路的（假设的）问题：</p><ol><li data-pid=\"1fArLBKW\"> 对于理解不足的概念性内容，提取练习通常不起作用；你或许能机械地复述，但却不能灵活运用。<br/> <br/></li><li data-pid=\"SFXnxBNk\"> 当提取练习感觉很教条——像是在「猜老师心中的答案」——时，往往是<b>因为</b>存在理解缺口。当其他人编写卡片时尤是如此。<br/> <br/></li><li data-pid=\"riaxiUF0\"> 对于诊断和填补理解缺口，提取练习（和解题练习）都是一种既不愉快又不直接的方式。<br/> </li></ol><p data-pid=\"sNFzsePj\">最简单粗暴的解决方案，就是确保人们只练习那些他们理解透彻的内容。那么，我们该怎么做？我意识到，过去几年里我描述过的一些想法，似乎可以串联起来。出乎我意料的是，这条路径似乎为辅助阅读理解提供了一个更有希望的解决方案。</p><h2>概念综述</h2><p data-pid=\"SqQh-anj\">顶层设计如下：</p><ol><li data-pid=\"76IRkg21\"> 当你阅读一篇文本时，你有一支神奇的高亮笔。你可以用它来标记任何重要的、任何你想确保自己理解并记住的内容。你还可以简要地写下几个词，明确你特别感兴趣的是什么。<br/> <br/></li><li data-pid=\"OGeTc30a\"> 未来的练习环节将包含强化和拓展你高亮的想法的任务。<br/> <br/></li><li data-pid=\"FfsLv1c6\"> 当你读完一个小节后，可以点一个按钮，（用不同的颜色）高亮那些你<b>没有</b>标记，但同样重要的细节。这些「额外的」（「建议的」？「暗示的」？）高亮能让你迅速检查是否漏掉了你可能重视的内容。<br/> </li></ol><p data-pid=\"Q9AmRg2Y\">主要的设计洞见是，高亮这一交互方式既能让读者选择练习什么，<b>也能</b>（虽然不太明显）体现其对内容的理解程度。这一高亮原语也能复用于吸引注意力——以非常轻量的方式——提醒读者注意那些他可能不知不觉中遗漏的重要细节。</p><h3>这个设计中我喜欢的概念元素</h3><p data-pid=\"UQI-f4k9\"><b>扭转一种自然（但无效）的交互。</b>高亮是大家学习时会自然而然（甚至有点强迫症）会做的事。<a href=\"https://link.zhihu.com/?target=https%3A//andymatuschak.org/files/papers/Dunlosky%2520et%2520al%2520-%25202013%2520-%2520Improving%2520Students%25E2%2580%2599%2520Learning%2520With%2520Effective%2520Learning%2520Techniques.pdf%23page%3D15\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这是最受欢迎的学习方式</a>。这很合理：因为标出自己认为重要的东西会让人<b>感觉良好</b>。这不仅是兴趣的发泄口，也是你付出努力的见证，在纸面上焕发出明亮的光芒。而且，这么做几乎不费吹灰之力。问题是，尽管学生<b>相信</b>它有用，但在对照研究中，高亮的内容<a href=\"https://link.zhihu.com/?target=https%3A//andymatuschak.org/files/papers/Dunlosky%2520et%2520al%2520-%25202013%2520-%2520Improving%2520Students%25E2%2580%2599%2520Learning%2520With%2520Effective%2520Learning%2520Techniques.pdf%23page%3D17\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">并没有实质性地提高理解或记忆</a>。如果我们能以某种方式「拯救」高亮，使其真正达到我们期望的效果，那就太棒了。在我提出的这个设计里，高亮这个动作本身依然一如既往的无效；与以往不同的是，这些高亮会触发后续的提取练习（我们知道这是相当有效的）和理解反馈（效果有待验证）。</p><p data-pid=\"5W0rGLvI\"><b>将控制权留给读者。</b>这个设计延续了<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/demo-talk-new-66348634\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我在 2022 年的努力</a>，目的是让读者有权选择自己要练习什么。不仅如此，这一目标还扩展到了辅助理解的交互上。（我还没在研究文献中找到类似的东西；<a href=\"https://link.zhihu.com/?target=http%3A//andymatuschak.org/files/papers/Chi%2520et%2520al%2520-%25201994%2520-%2520Eliciting%2520self-explanations%2520improves%2520understanding.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">一般的干预方式</a>是让学生在阅读每句话后，大声地解释一遍。）如果文章的前半部分对读者来说并无新意，他们可以毫不犹豫地跳过去。在显示出那些「额外」的高亮后，读者可以直接略过文章前半部分的所有内容——无需交互。接着，他们只需一边滚动一边观察，就能集中注意力在后半部分被忽略的内容上，尤其是那些一度让人摸不着头脑的地方。</p><p data-pid=\"YMmu5ewS\"><b>非用后即弃的理解辅助交互。</b><a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/initial-in-self-87053505\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">上个月</a><sup data-text=\"为自我解释提供支持的初步实验\" data-url=\"https://zhuanlan.zhihu.com/p/651230605\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>，我描述了一个阅读理解辅助系统，该系统让读者在阅读时向他们自己解释文本内容。这种方式往往让人觉得不痛不痒，就像做了件毫无价值的事。我认为主要原因是，这些自我解释没有长远意义，就像是用后即弃的工作。我写这些只是为了确保自己当下能明白过来，但这种交互给人的感觉是得不偿失。因为我和大多数人一样，总低估了自己理解缺口出现的频率，所以觉得即使不这么做也能明白。我看到的所有专注于阅读理解的方法都有这个「用后即弃的工作」的问题。相较之下，在这个新设计里，当你用高亮笔做标记时，你其实是为将来的复习和理解铺路。这样的交互不是用后即弃，它有持久的价值和意义。</p><p data-pid=\"ZyI_EiIE\"><b>以想法为中心的记忆系统。</b>在<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/demo-talk-medium-71081197\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我 2022 年的助记媒介设计</a>里，卡片和文本是并列的。读者可以挑选将哪些卡片加入他们的收藏里。<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/lessons-from-73309142%23%3A~%3Atext%3DAct%2520on%2520ideas%252C%2520rather%2520than%2520acting%2520on%2520prompts%253F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">从用户研究中我发现</a><sup data-text=\"从 2022 年夏的助记媒介原型中学到的经验教训\" data-url=\"https://zhuanlan.zhihu.com/p/647393257\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>，人们一般不会去评估这些<b>卡片</b>，而是对<b>文中的某个想法</b>有感而发——「哎呀，这个得记牢了！」——然后才侧目旁边的卡片。用卡片来捕捉这种反应，的确有些拐弯抹角。我感觉，大家真正想要的，其实是能<b>指出他们认为重要的想法</b>；至于卡片，不过是个实现细节罢了。新设计更接近这种<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/fluid-practice-83882597%23%3A~%3Atext%3DLanguage%2520models%2520and%2520ideas%2520as%2520primitives\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">以想法为中心的练习系统，我觉得这可能还会有其他附加优势</a><sup data-text=\"灵活的记忆实践产生流畅的理解\" data-url=\"https://zhuanlan.zhihu.com/p/646929920\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>，比如通过多样化和综合化来提高理解的流畅度。</p><p data-pid=\"Ya0rfaOm\"><b>平滑过渡到义务的入口匝道。</b>在我 2022 年底的用户研究中，<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/lessons-from-73309142%23%3A~%3Atext%3Dbe%2520filed%21%2520Oops.-%2CIncrementalism%2C-Expressivity%2520aside%252C%2520there%25E2%2580%2599s\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我观察到</a><sup data-text=\"从 2022 年夏的助记媒介原型中学到的经验教训\" data-url=\"https://zhuanlan.zhihu.com/p/647393257\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>一个有趣的矛盾：一开始，读者经常不太确定他们有多关心某个细节。他们懂得这点很重要。但他们愿不愿意为此长期练习？这还不好说——他们得继续读下去，了解这个细节在整个大局中的位置。很多人有用高亮笔的需求，我深究后发现，这种不确定性往往是他们有这个需求的原因。大家想先把这些细节标为<b>暂定</b>重要，过后觉得合适再通过保存旁边的卡片来「升级」它们。这么做确实有道理！我自己也常这样操作。我会先大致翻阅一遍，用高亮笔标出看似要紧的地方。然后，我会根据这些高亮内容再过一遍，为那些看似值得深究的细节做卡片。我提出的这个设计正好能让这种逐渐升级的交互更自然。你可以用普通黄色高亮笔来标记暂时看似重要的细节，用紫色的「魔法」高亮笔来标记你认为必须强化记忆的细节。轻点一下，高亮就会「翻转」为其他颜色。这样，读者在「标为重要」和「标为需要强化」的之间，就能平滑地过渡了。</p><h3>设计面临的概念挑战</h3><p data-pid=\"q2XlOOEW\"><b>高亮不鼓励深度加工。</b><a href=\"https://link.zhihu.com/?target=http%3A//andymatuschak.org/files/papers/Wyatt%2520et%2520al%2520-%25201993%2520-%2520Comprehension%2520strategies%2C%2520worth%2520and%2520credibility%2520monitoring%2C%2520and%2520evaluations.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">高效的读者是挑剔的</a>，他们会仔细分析文本，解读、拓展，乃至与自己的既有知识建立联系。但人们经常只是随手高亮，而非深度加工文本。有时甚至没有加工，就轻易高亮了文本。这样一来，我的系统在「理解辅助」这一方面，设定了一个非常低的门槛。但如果目标是解决我最初设定的三大问题，这一设计将大有裨益。这样一来，你不太可能收到关于你完全忽视的想法的卡片。而且卡片也能被设计成<b>诱发</b>尚未发生的拓展和阐释。</p><p data-pid=\"9Y_TZZQM\"><b>密度与模糊性。</b>编写卡片让我深刻地意识到，一个句子里能够包含多少不同的细节。如果读者高亮了一个关键句子，那么他们可能对其中的多个，甚至所有细节都感兴趣。也有可能他们只是<b>理解</b>了其中一半（实际测试中我就遇到过这样的情况）。我发现，在这种情况下，做「最小化」的高亮是有帮助的。也就是说，如果你只对一个关键形容词感兴趣，就只高亮它，或许还可以在同一个句子里对其他小细节做单独的高亮。此外，在这些情况下，简单地记几个字来说明你的具体兴趣点也是很有用的。</p><p data-pid=\"v0il2oj2\"><b>只见树木不见森林。</b>以高亮为中心的交互更注重细节和局部信息。但我通常也希望练习中能够包括整体性的思考。最有力的问题往往能触及某一想法的核心，特别是当你从一个合适的角度去看待它时，找到一句话来表达它。有时我希望我的练习是总结一个长篇论述。</p><p data-pid=\"KIh_Jxe2\"><b>新手无法可靠地判断什么重要。</b>原先的助记媒介设计有一个优点，即领域专家会明确地告诉你需要了解的内容是什么。但在新设计中，更多的控制权转交给了读者；专家顶多提供一些「暗示」。这对那些希望有明确指导的读者来说，无疑增加了使用难度。更核心的问题是，读者通常并不一定能准确判断文本中哪些是最关键的。那么，「额外高亮」这一交互是否足够弥补这一问题？</p><h2>初步测试</h2><p data-pid=\"o5evoc3p\">我找了我朋友 Elliott Jin（<a href=\"https://link.zhihu.com/?target=https%3A//bradfieldcs.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Bradfield</a> 的计算机讲师）当个临时助手，把这主意拿出来走了个「人工」智能测试。继续<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/studying-myself-88583610\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">上月的学习</a><sup data-text=\"我在研究自己的线代学习过程\" data-url=\"https://zhuanlan.zhihu.com/p/664173533\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>，我读了 <a href=\"https://link.zhihu.com/?target=https%3A//hefferon.net/linearalgebra/index.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Jim Hefferon 的《线性代数》</a>里的 One.III.1 章节，一边读一边高亮我想强化记忆的地方。这些东西 Elliott 早就熟悉了，他自己也仔细挑了这一章所有该注意的点。我读完后，他就把我的高亮和他自己的对比了一下，把我漏掉的想法也标在我这份材料上。然后我就能按照设计的那样，复习那些额外的高亮部分。</p><p data-pid=\"bP55LdOA\">首先，最关键的是，这次交互让我注意到了三个我之前根本没在意过的概念。我当时看书的时候这几点就被我遗漏了，我的眼睛仅仅在页面上掠过了他们。这验证了「额外高亮」这一交互形式有助于暴露理解缺口。</p><p data-pid=\"k_Y5gS0U\">同时，这次练习也证明了，标记高亮并不意味着就真理解了。比如有次我高亮了一个定义，但完全忽略了几个关键词。结果证明，这没什么。后续的练习很快就揭露了我遗漏的这些词；由于我高亮了那些定义，也就表示了我想知道这些词——所以这次练习能帮我找出这个盲点，我还挺庆幸的。</p><p data-pid=\"5GRRn-D-\">在另一个情况下，我忽略了一个「额外」的高亮，因为我觉得它被我别的高亮包括了。结果证明，我错了！我随后做了一些下游概念的练习，这个错误一下子就暴露了出来。这一次很快就找出了问题，但一般来说可没这么简单。</p><p data-pid=\"uqBPXZBD\">关键是，这种交互让我<b>感觉很好</b>。我本来就喜欢边读边高亮，这让我觉得很顺手，而且更加强大，还不用让我改变阅读习惯。给文字「<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/initial-in-self-87053505%23%3A~%3Atext%3DAnd%2520there%25E2%2580%2599s%2520a%2520funny%2520thing%2520that%2520happens%253A%2520the%2520shading%2520is%2520somehow%2520viscerally%2520rewarding%21%2520It%2520feels%2520good%2520to%2520%25E2%2580%259Cfill%2520up%25E2%2580%259D%2520the%2520sidebar%252C%2520to%2520%25E2%2580%259Ccolor%2520in%25E2%2580%259D%2520all%2520the%2520%25E2%2580%259Cgood%2520bits%25E2%2580%259D.\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">上色</a><sup data-text=\"为自我解释提供支持的初步实验\" data-url=\"https://zhuanlan.zhihu.com/p/651230605\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>」让人心情愉悦，如果这些标记能真正有意义，无论是在理解检查还是在后续的练习方面，那就更妙了。在浏览「额外高亮」时，我感到好奇，想要了解它们，但并没有感到不合时宜地被迫去关注。Elliott 高亮了一些我跳过的细节，因为它们要么熟悉，要么看起来不太有趣；很容易跳过这些地方。</p><p data-pid=\"FjEeNcf1\">在高亮一旁，Elliott 还想标出一些「低亮」——可能值得注意，但相对次要的细节。或许，可以通过高亮的颜色深浅来表示它们的重要程度？如果读者能标记某个点优先级较低，那我们就少给他们安排相关任务。或者，这些级别也可以作为一种反馈，提醒读者他们大多数时间都在高亮相对不重要的细节，而非核心观点。</p><p data-pid=\"A9zx8suw\">书的下一节（One.III.2）出现了一些有趣的难题。这一节主要是对上一章里一些重要命题的证明。过程中，也涌现出一些实用的新属性和操作策略。后者用原来的高亮交互就能搞定，但对于证明这块儿，怎么处理就没那么明确了。我觉得，一部分原因可能是读证明的时候，我没有形成自然的高亮习惯，而在读解释性文本时，我的高亮习惯恰好能指出哪里需要强化记忆。从别人的证明中学习似乎需要不同的模式；遗憾的是，我在知识和学习理论方面还比较贫瘠。</p><p data-pid=\"arIqTHx3\">最后一个犹豫：我的理解缺口到底有多重要？这个原型揭示了我遗漏的一些有意义的细节。但结果证明，通过本节的习题集，这些漏洞很容易就被诊断出来了。如果没有这个别致的阅读增强环境，我也能应对自如。但<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/80865178%23%3A~%3Atext%3DIncomplete%2520absorption\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">今年早些时候，我辅导过一个学生</a><sup data-text=\"记忆系统如何帮助解决问题\" data-url=\"https://zhuanlan.zhihu.com/p/620583957\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup>，他在阅读理解方面遇到了很大的问题。在用 Hefferon 的书学习前面几节时，我也有类似的理解缺口，导致我在做习题时感到困惑。更糟糕的是，这些缺口可能根本不会被察觉。在审计习题集以寻找它们所涵盖的材料时，我注意到它们主要关注解决应用问题，而不是对文中讨论的概念性细节进行强化，也不会揭示那些细节的理解缺口。</p><p data-pid=\"ITn0Tn3Q\">我粗略认为，与事实或程序上的缺口相比，概念上的缺口更有可能在解题练习中被忽略或者误诊。如果问题只考察某种知识的迁移应用，困惑就更容易产生。所以，理论上我们或许可以设计一系列逐渐增加难度的问题，有效地找出理解缺口。但我发现，当我的理解实际上没问题时，我不<b>喜欢</b>回答这种基础问题，感觉无聊又累人。或许，我提出的设计中的这种轻量级理解辅助是个合理的折中办法。</p><h2>用《量子国度》来评估</h2><p data-pid=\"e3Gx8Tg2\">我们评估这个新设计的另一个方式就是问：如果以这种方式阅读<a href=\"https://link.zhihu.com/?target=https%3A//quantum.country/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《量子国度》</a>，会是什么感觉？</p><p data-pid=\"XO6tPrLy\">首先我们可能会问：读者需要标多少高亮，才能把所有的卡片都「集齐」？我在第一篇文章（QCVC）里，把 112 个卡片跟相应的高亮范围对应起来，发现用 78 处高亮就能覆盖所有卡片。对于大约 25000 词的文章来说，这个数字不算夸张：大约每 320 词就有一个高亮，或者说在我电脑屏幕上，差不多每翻一屏就有一个。（当然，文本的想法概念有很大的变化。）</p><p data-pid=\"JxKY-Wp0\">这个小试验揭露了，QCVC 里有很多我觉得重要但又不那么明显的地方，并<b>没有</b>配备卡片。这其实是原先的助记媒介设计的一个短板：因为每个读者都会收到所有的卡片（而且立即收到——我们没有分阶段引入），所以在设置卡片时，我们必须比较保守。我们也不想让大家被卡淹没不知所措。因此，可能会让人练习一些他们觉得没意义的细节（比如用「船」作为计算范围的比喻），而对于他们认为重要的其他细节，则<b>没有</b>练习机会。</p><p data-pid=\"Jpj_8bCG\">绝大部分的高亮（57 条）只映射一张卡片。16 条映射两张，3 条映射三张，各有一条映射四张和五张。这些一对多的情况大都是我们用多张卡片从不同角度、或多个例子、或强调不同侧面来表达一个概念。全面审计这些成组的卡片后，我感觉至少有 80% 更适合分开练习。这些卡片相互强化，练习一张基本上会减轻对另一张的记忆需求。此外，这种同一主题不同变体的卡片，如果连续出现，很容易让人感觉枯燥乏味和过于死板。</p><p data-pid=\"RDfpvrpY\">我觉得，这种卡片数量的分布也反映了原先的助记媒介的一个局限：那 57 个「单独」的细节多数都可以从多角度的强化中获益。但由于所有的卡片都被一股脑地展示给所有用户，所以我们只能偏向保守。</p><p data-pid=\"p1jiZ_GR\">有 3 张卡片在文本里没有直接出处，它们要求读者根据一个或多个细节来进行推断。这对我的高亮交互方式来说确实是个大问题！一个可能的补救方法是，如果用户的高亮包括了预期推断所需的「原材料输入」，就分配这些「综合/推断」的卡片。我觉得这种卡片特别有价值，因为它逼着读者跳出文本框架去思考。同时，由于这类卡片的重点在于你<b>不是</b>从记忆中找答案，你或许会希望每次都有新的、涉及这些观点的推断。</p><p data-pid=\"omR0Ji0C\">有 6 张卡片其实跟可选习题中的问题陈述的细节有关。这些有点棘手。从一个角度看，即使你不去做这些旨在阐明这些陈述正确<b>原因</b>的证明题，你也应该知道这些陈述<b>是</b>正确的。如果我们从这个角度来看，那么高亮交互可能希望那个命题出现在「在正文里」，这样所有读者都能注意到。另一个角度是，如果你通过练习证明了某个结论，你肯定想记住这个结论。从这个角度看，高亮的交互方式应该没问题，其实比《量子国度》的一刀切方式还要好。</p><p data-pid=\"XrhTsj_w\">这个练习也让我更明白了一个问题：就像我们之前讨论的，读者不一定总能判断出什么是重要的。新的设计相对于《量子国度》，可能会让人们漏掉一些关键细节。这是为了给读者一个更流畅、更个人化的体验而必须要付出的代价。当然，真正的成本和感知到的好处有多大，还需要更多用户研究来明确。</p><h3>交互成本</h3><p data-pid=\"RCRAc1Qk\">两年多前，当我刚开始深入研究助记媒介中读者控制方面的矛盾时，<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/revamping-medium-55309960%23%3A~%3Atext%3DAnd%2520so%2520maybe%2Cthink%2520that%25E2%2580%2599s%2520enough.\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我注意到</a>如果 QCVC 有 112 张卡片，读者肯定不想对每张卡片逐一作出是否保存的决定，更不想在界面上点击 112 次「保存此卡片」！这促使我在<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/demo-talk-new-66348634\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">去年的原型</a>中引入了「批量」卡片交互。</p><p data-pid=\"WxlcUq25\">然而，我发现我并不太担心要求读者高亮 78 次。78 次交互依然看起来很多，那我的感觉为何会如此不同呢？</p><p data-pid=\"vw_lrE1y\">一个因素是，对许多读者来说，高亮是一种自然的行为。它感觉像是<b>阅读的一部分</b>，而不是一个单独的决定或交互。从空间上看，这都是在文本<b>内部</b>进行的，而不是在一个独立的界面上。</p><p data-pid=\"6SzW4-US\">同样重要的是，读者不需要评估卡片。在 112 张卡片中选择哪些保存要麻烦得多：你得仔细阅读并考虑所有这些文字。但在拟议的设计中，你不是在决定「保存哪些卡片」，而是在强调你已经阅读过的文本的某个子集。「额外高亮」视图会提供一种轻量级的方法，快速添加你可能遗漏的重要信息，这种交互甚至都比评估卡片要简单，因为你是在评估正文文本，大部分或全部都是你已经读过的。</p><p data-pid=\"BUJbCTv8\">QCVC 有些卡片远不如其他卡片重要。在《量子国度》和去年的助记媒介设计中，所有卡片地位都一样，所以用户必须平等地评估所有 112 张卡片。但在拟议的设计中，用户可能很自然地不会高亮对应非重要细节的文本，这也无伤大雅。文本本身没有强加成本。而且，如果有视觉标记来提示哪些信息更重要，那么评估「额外高亮」的成本也可以进一步降低。</p><h2>实现的细节与挑战</h2><p data-pid=\"tZdl0G7E\">到现在为止，我更侧重于交互设计，并没有涉及实际的工作方式。我觉得这个侧重点没错，但我还是得简要说说实现的方面，尤其是那些会影响我后续设计的部分。</p><p data-pid=\"WXSURknd\">总体来看，这个设计的实现可以分解为三大核心问题：</p><ol><li data-pid=\"r19RGEQb\"><b>文本到精选高亮：</b>给定一段文本，哪些是最关键的细节，而哪些高亮内容能最恰当地吸引人们注意到这些细节？<br/> <br/></li><li data-pid=\"mL9iKp2M\"><b>从高亮到任务：</b>给定一组带有上下文（或许还有重点备注）的高亮，如何构建一组练习任务？<br/> <br/></li><li data-pid=\"P8j5t3iR\"><b>语义高亮差异对比：</b>给定用户的一组带有上下文的高亮，怎么判断哪些精选高亮的概念内容没有被「涵盖」？<br/> </li></ol><p data-pid=\"dbiOPlyC\">当然，还有其他切入点来看这个问题。比如，我们可以把高亮内容映射到知识图谱上，再进一步将知识图谱映射到练习任务，以体现各种连接和依赖关系。与其去设定和比较一组「理想」的高亮内容，不如根据读者实际的兴趣和深入程度来推荐一组高亮。我们还可以让读者明确表示他们阅读这篇文章的目的——他们有哪些目标和问题——然后相应地调整高亮内容。但我现在先把这些拓展点放一边。</p><p data-pid=\"jr2j4caf\">让我们从一个简化的实现模型开始，这里面不涉及任何前沿的机器学习技术。</p><ol><li data-pid=\"51JmhKRb\"> 从文本到精选高亮：与原先的助记媒介类似，由一名专家构建一套「理想」的练习任务，并将这些任务（多对多地）映射到一组「理想」的高亮上。<br/> <br/></li><li data-pid=\"Jji36za3\"> 从高亮到任务：给定用户的高亮内容，我们运用传统的自然语言处理工具，比如潜在语义分析，来识别与专家高亮「语义匹配」的内容。读者则会收到来自专家映射中对应的任务。<br/> <br/></li><li data-pid=\"F0EnqIaW\"> 语义高亮差异对比：计算专家的「精选高亮」和（2）中识别出的高亮之间的集合差异。<br/> </li></ol><p data-pid=\"TigHl7NL\">除了对专家劳动力的巨大需求外，这个模型的主要缺点是，如果读者高亮了一个专家<b>没有</b>强调的细节，那么就没有任务来强化了。同样，读者也无法指望系统围绕一个原创的观察来创建练习任务，或者关注你对某个高亮内容的特定兴趣所做的任何笔记。但这样一个模型让我能够在不涉及大量生成性 AI 支线任务的情况下，探索和完善交互设计。</p><p data-pid=\"WmLGxKUY\">当然，若非近期大语言模型的突飞猛进，我估计一开始也想不出这个设计方案。这种自由度很高的高亮交互，简直就是在呼唤这些模型所擅长的开放式解读。而且，以想法为中心的练习系统也需要有力的任务生成装置。通过从卡片切换（或扩展）到上下文中的想法作为系统原语，我们能让用户更方便地把自己的想法加入到练习中。这种高亮交互不仅限于别人的文字，对于你自己的笔记也同样适用。比如说，你在读一篇文章时，发现作者的论证有漏洞，那你就可以简单地写下一句话并高亮。同样，如果你在日记里写到朋友有句评论让你印象深刻，你可以简单高亮这条评论，这样以后的练习时就能深入地思考和处理。</p><p data-pid=\"Yr5nt7ro\">回归现实。我用 GPT-4 做了不少实验，来完成这三项任务。目前来看，我的粗略印象是：这些系统真的很了不起，我已经取得了相当不错的进展。虽然输出结果还没达到我所需要的那么好，但我期待通过精心设计的提示词工程、微调，或者静等明年的新模型来实现目标。</p><ol><li data-pid=\"_fQ4Npf_\"> 从文本到精选高亮：意外地有个不错的开局。通常会包括 10-20% 的不重要细节（即使我要求模型给出重要性评分），同时也会遗漏几个关键要点。高亮的起止点也常常不是最佳位置。<br/> <br/></li><li data-pid=\"EuLb3e4Y\"> 从高亮到任务：这是三项任务中最难的。我觉得这很大程度上要归结于如何明确教育设计的哲学，或者说复习的「模式语言」。问题通常不在模型的「智能」上；而是你没法清晰地描述你想要（或不想要）的任务类型。尽管如此，对于基础的提取练习任务，我获得的结果中超过一半都是可用的。（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zBjh9jUahGSm7VpFtEjvKqT\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">更多笔记</a>）<br/> <br/></li><li data-pid=\"GlnjN00y\"> 语义高亮差异对比：对模型来说意外地困难。特别是当用户的高亮不在「精选」高亮集合里时，模型常常会做出虚假的映射。<br/> </li></ol><h2>下一步</h2><p data-pid=\"IVTZCJm7\">令人高兴的是，解决这些开放性的技术问题并不是我评估和优化这里核心设计思路的必要条件。我打算开展一轮「人工」智能式的用户测试：</p><ol><li data-pid=\"c5MALw9L\"> 从文本到精选高亮：由我来创建，跟上面简单模型描述的一样。<br/> <br/></li><li data-pid=\"kBcjpM8s\"> 从高亮到任务：按照简单模型中描述的来，但我会手动把读者标出的高亮跟我自己精选的对上，而不用潜在语义分析这类方法。<br/> <br/></li><li data-pid=\"ux_Jmp5W\"> 语义高亮差异对比：我会手动完成。<br/> </li></ol><p data-pid=\"gQu3z9yl\">我会先跟一批有经验的间隔重复用户进行测试，这样能让我专注于高亮交互设计，以及「以想法为中心的练习」这个概念。我想观察：</p><ul><li data-pid=\"z9HsHok9\"> 读者是否相信单单通过高亮就能了解他们将来会练习什么。有没有必要加入「重点备注」？<br/> <br/></li><li data-pid=\"u9ffV5RO\"> 「额外高亮」可视化是否能揭示理解缺口，以及读者对此有何感受。<br/> <br/></li><li data-pid=\"0Kin1q5P\"> 从他们的高亮映射出来的任务，在情感上是什么感觉——如果他们间接「报名参加」了这些任务，还会有猜密码的感觉吗？<br/> </li></ul><p data-pid=\"Poc5nO9P\">最终，让我对这个设计感到兴奋的是，它有望解决我过去几年实验中出现的三个独立问题：</p><ol><li data-pid=\"b9mKJRx2\"> 助记媒介<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/revamping-medium-55309960\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">在很多情境下感觉像是令人不快的专制</a><sup data-text=\"围绕读者控制改造助记媒介\" data-url=\"https://zhuanlan.zhihu.com/p/637442975\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"8\">[8]</sup>；应该把控制权逐渐交给读者。<br/> <br/></li><li data-pid=\"jDnTjNy4\"> 理解缺口是家常便饭；<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/reading-and-85345515%3Fcid%3D112853575\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">练习别人的卡片往往不起作用，甚至让人感到压抑</a><sup data-text=\"阅读理解与记忆系统\" data-url=\"https://zhuanlan.zhihu.com/p/653174197\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，特别是在涉及概念性材料时。<br/> <br/></li><li data-pid=\"b4lh12du\"> 「仅仅」对概念性材料进行提取练习通常会产生脆弱的理解，而这种理解在实际应用中迁移得很差；<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/fluid-practice-83882597\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">更灵活的实践可能产生更流畅的理解</a><sup data-text=\"灵活的记忆实践产生流畅的理解\" data-url=\"https://zhuanlan.zhihu.com/p/646929920\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"9\">[9]</sup>。<br/> </li></ol><p data-pid=\"MgrD6QVW\">可以肯定的是，这个新设计也会失败，但我乐观地认为，它至少会以有趣且富有启发性的方式失败。</p><p data-pid=\"gf-I6gJo\">————————</p><p data-pid=\"y8wWXLos\">我要特别感谢 Elliott Jin，他不仅协助我进行了初步测试，还就这些理念展开了深入的讨论！同时也感谢 Joe Edelman 的有益交流。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"BIV-JTfA\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4、Jarrett Ye，校对 <span class=\"nolink\">Carrie455</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/highlight-driven-90101210\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Highlight-driven practice and comprehension support | Patreon</a></blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 5,
-  "image_url": "https://picx.zhimg.com/v2-b60530a2ed8fbd57883c67a39dec6dfc_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 5,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 5,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMzY0MDUzMDYSCTY2NzIzOTU0OBgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 41,
+      "down_vote_count": 0,
+      "like_count": 5,
+      "comment_count": 5,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 55,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-b60530a2ed8fbd57883c67a39dec6dfc": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-b60530a2ed8fbd57883c67a39dec6dfc": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-b60530a2ed8fbd57883c67a39dec6dfc": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=667239548&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 助记媒介 & 思想工具",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525784109008203776",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 助记媒介 & 思想工具"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

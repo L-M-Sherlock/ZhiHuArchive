@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "641197368",
+  "title": "轻而易举，不费吹灰之力",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/641197368",
+  "image_url": "https://pica.zhimg.com/v2-4b17c624f96da550afe67ce590ed28a1_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-4b17c624f96da550afe67ce590ed28a1_720w.jpg?source=172ae18b",
+  "excerpt": "现在，一些 Orbit 实验正在进行中，我上个月的大部分时间里都在重新挖掘《 <a href=\"https://link.zhihu.com/?target=https%3A//quantum.country/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">量子国度</a>》的数据。我发现一个令我惊讶的问题：「几乎所有人，在几乎所有时间，记得几乎所有内容。」感情驱动的优化记忆能有多不费力？ 在极限情况下，我们可以想象自动记住我们感…",
+  "created": 1688373695,
   "updated": 1688374266,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "现在，一些 Orbit 实验正在进行中，我上个月的大部分时间里都在重新挖掘《量子国度 …",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "四川",
+  "image_width": 5184,
+  "image_height": 2916,
+  "content": "<p data-pid=\"pzgRStgo\">现在，一些 Orbit 实验正在进行中，我上个月的大部分时间里都在重新挖掘《<a href=\"https://link.zhihu.com/?target=https%3A//quantum.country/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">量子国度</a>》的数据。我发现一个令我惊讶的问题：「几乎所有人，在几乎所有时间，记得几乎所有内容。」</p><h2>感情驱动的优化</h2><p data-pid=\"43MB4ZnJ\">记忆能有多不费力？</p><p data-pid=\"f-fCVtbb\">在极限情况下，我们可以想象自动记住我们感知到的一切。我们可能并不想要这样——像 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Solomon_Shereshevsky\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Shereshevsky</a> 这样的怪才经常报告他们完美记忆的诅咒般的症状。也许我们会满足于像移动肌肉一样轻松地记住或忘记一些东西。这样的世界会是怎样的呢？肯定的是，学校将不再是我们所知的那样，那么工作场所和工作室呢？人际关系呢？<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Funes_the_Memorious\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Borges</a>、<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/The_Truth_of_Fact%2C_the_Truth_of_Feeling\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">姜峰楠</a>、<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/The_matrix\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Wachowskis</a> 和其他伟大的科幻作家都已经描绘了这些影响，但我也对平凡的事物感兴趣：工作场所协作的互动方式的变化；突然显现的巧合和矛盾。</p><p data-pid=\"9P7BhqDU\">（当然，不费力只是许多有用视角之一！一个相反的视角指出，也许费力才是你想从你与记忆的互动中得到的东西。你希望不断质疑你认为你「知道」的事情；你希望一切都保持熔融状态，以便你能形成新的联系，以新的方式看待事物；等等......）</p><p data-pid=\"F39pn3R_\">即使有如今的系统，记忆也远非毫不费力。我们能做到什么程度呢？通常的方法是将其作为一个优化问题来处理，但我发现，将不费力视作一种<b>感觉</b>是很有意义的。强大的技术感觉像是身体的延伸。边界消失了；意图和行动之间的距离缩小了。然而，<a href=\"https://link.zhihu.com/?target=https%3A//www.dougengelbart.org/content/view/224/217/%236c\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">如果你在铅笔上绑上一个砖块</a>，它就不再感觉像你手的一部分。同样地，和朋友们热烈讨论时，学习似乎不费吹灰之力，但在无聊的自习室里，同样的想法可能需要你付出超出你能承受的努力。</p><p data-pid=\"rdIirX9p\">这个视角给了我们一种不同的方式来思考如何「优化」思想工具。哪些类型的互动会产生分离感、尽职感和厌烦感？</p><p data-pid=\"UWy6dife\">在任何一种计算机化的学习系统中（包括间隔重复系统），无聊的一个可靠来源是感觉太容易的材料。这种材料并不是好的那种不费力气的材料。翻阅这些材料的感觉几乎就像在软件安装程序中快速运行许可协议提示。「是的，是的，我知道，我知道。」我不需要真正思考；我没有真正参与；我不喜欢被要求。有时，问题在于我实际上并不关心这些材料，在这种情况下，我真的应该删除它（<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/skip-exponential-40672377\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">也许是模糊不清地</a><sup data-text=\"「跳过」：指数补偿的延迟机制和模糊收件箱\" data-url=\"https://zhuanlan.zhihu.com/p/566834806\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>）。不过，很多时候，我确实关心这些材料。如果它在那一刻感觉不那么微不足道，我就会更认真地参与。</p><p data-pid=\"_x5yxB9a\">这个观察引出了学习技术中的一个经典问题：正确估计学生的知识状态，以优化学习计划。不同的是，如果我们坚持使用基于感觉的视角，我们就不会把优化本身看作是要解决的问题。我们的核心目标是实现一种毫不费力的感觉。模型优化是实现这种感觉的一种有效手段。但也有其他的手段。你无法在没有记住许多复杂规则的情况下玩《<a href=\"https://link.zhihu.com/?target=http%3A//the-witness.net/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">见证者（The Witress）</a>》，但当你与环境互动时，你会自然地记住这些规则：记忆本身并不是需要努力的部分。</p><h2><b>量子国度过度轻松的努力</b></h2><p data-pid=\"MxPDMIDI\">在进行了这一崇高的忏悔之后，让我们把注意力转向一个不寻常的记忆增强系统的表现：《<a href=\"https://link.zhihu.com/?target=https%3A//quantum.country/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">量子国度</a>》。</p><p data-pid=\"Ub-EdVwn\">请注意：这是对《量子国度》数据的非正式讨论。该分析是初步的，不应该在其他工作中引用或摘录。我这里是在<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/Work_with_the_garage_door_up\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">开门造车</a><sup data-text=\"开门造车\" data-url=\"https://zhuanlan.zhihu.com/p/457529308\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。</p><p data-pid=\"NTzoCYH-\">一方面，《量子国度》实现了它的承诺，帮助人们记住他们读过的内容。在第五次重复之后，大多数读者已经能够在超过一个月的时间间隔内回忆起 95% 以上的问题。这相当了不起。根据我过去阅读教科书的经验，一个月后能记住一小部分细节就很幸运了。</p><p data-pid=\"fbZ1rqPS\">另一种看待这个问题的方式是「维护成本」。为了在第一年维持第一篇论文的 112 个问题，中位数读者进行了 567 次复习，消耗了约 1.5 小时。读者报告说，阅读第一篇文章需要 2-4 个小时，所以我们可以将第一年的复习看作是这些读者选择为了永久记住那篇文章所有的关键细节而支付的约 50% 的额外时间成本。我预计第二年的时间成本大约是一半，但我们还没有这方面的数据。</p><p data-pid=\"RILzfw9T\">我想，问题在于，《量子国度》的效果「太好」了。几乎所有人，在几乎所有时间，记得几乎所有内容。</p><p data-pid=\"yUQXxs6f\">我们要讨论的麻烦始于我所说的「维持」阶段。对于一个特定的读者和问题，历史通常可以分两个阶段：最初的「学习」阶段（通常很短），在这个阶段中，读者对材料的吸收足以让他们在不同的时段记住它；接着是「维持」阶段（更长），在这个阶段中，重复主要用于对抗遗忘的侵蚀。你可以通过说人们在第一次成功重复后过渡到维护阶段，来非常好地近似这个划分。</p><p data-pid=\"_HsocL0l\">在第一次成功重复某个问题后——也就是他们进入「维持阶段」后——中位数的读者在随后的重复中回答正确率为 95%。事实上，在所有第一年的问题历史中，82% 的问题在那之后都<b>没有</b>遗忘（这确实符合从 p=0.95 的二项分布给出的第一年重复次数的期望）。</p><p data-pid=\"TKR2IeX2\">这有点抽象。具体地说：在他们第一次成功的重复之后，中位数的读者在接下来的一年里，在第一篇文章的 112 个问题的 448 次复习中只忘记了 15 次。</p><p data-pid=\"6AWHkStC\">整整一年的勤奋复习，只有 15 次遗忘！433 次成功的回忆！这里的问题并非完全是效率问题。在与读者的交谈中，很多人愿意（而且已经）支付 50% 的时间成本来彻底内化这些材料。问题并不在于 448 次复习太多，或者花费的时间太长。问题在于，复习你已经非常了解的材料感觉很无聊，就像浪费时间一样。而这大多是人们正在做的事情。</p><p data-pid=\"qyy_6pJf\">但实际上，遗忘的情况比我说的还要偏斜。如果这 15 次遗忘是从所有问题中等概率抽取的，那可能感觉还不算太糟：任何一个问题都可能是你今天遗忘的问题！但事实是，<b>所有长期遗忘中的一半来自 12% 的问题</b>。从情感上讲，这些问题会产生「哦，不，又是那个问题......」。相比之下，中位数问题在「维持阶段」的第一年里，每十个读者只会遗忘一次。对于 95% 的问题，中位数的读者在维持阶段的第一年里<b>从未忘记过</b>。因此，大多数复习可能感到乏味且没必要。</p><p data-pid=\"VInS7SUa\">我们可能会担心，也许对中位数的读者来说一切都很好，但许多能力较弱的读者却在挣扎。毕竟，他们的遗忘在问题中高度符合幂律分布。但读者的分布并不那么明显。在第一年的维持阶段中，我们的第 25 百分位的读者在 483 次重复中忘记了 35 次。第 10 百分位的读者在 516 次重复中忘记了 59 次。而且，这些遗忘集中在相对较小的问题池中。即使是对相对较不成功的读者而言，绝大多数的问题也没有出现遗忘。</p><p data-pid=\"s00QKRte\">当遗忘确实发生时，通常情况并不那么糟糕。一种看待这个问题的方式是，询问连续多次忘记的问题有多频繁，以至于读者无法在他们之前能够跨越的间隔内回忆起一张卡片。这几乎从未发生：在大约 2% 的第一年读者/问题历史记录中会出现。因此，我们的「实证保留」进度指标是一个相当好的指标。一旦你证明了一个特定的保留间隔，只要你继续复习，你就非常不可能失去它。如果确实发生了遗忘，那么它「倒退」到读者无法记住五天的概率只有 7%。这里提醒一下，《量子国度》在一个问题被遗忘时，大致会将复习间隔减半。鉴于这些数据，Anki 在每次遗忘时将间隔重置为零的默认行为在我们的情况下似乎特别不合适。</p><p data-pid=\"6ua4yYZ3\">这里的意思是，我们也许应该更激进地拉长复习安排。是的，这将使体验更高效；但我真正关心的是，这可能会使体验不那么乏味。</p><p data-pid=\"ZUgWkMmN\">这个复习安排到底应该是什么？许多论文建议为这些复习安排建立动态且复杂的模型，也许我将在某个时候实现一个。理想的复习安排应该在避免枯燥乏味与其他重要的感觉变量进行权衡：与材料的联系，重复忘记同一事物的挫败感，复习时机的可预测性。就低垂的果实而言，简单的启发式方法能走多远令人惊讶。例如，当读者在阅读文章时和在第一次复习环节上都成功地回答了一个问题时，接下来一年中，96% 的历史记录中<b>没有出现遗忘</b>。可能可以安全地大幅度地拉长它们的间隔。</p><p data-pid=\"SM0sbQxU\">仅通过关注过于简单的问题，我们可以很容易地想象，把维持第一年所需的重复次数减半，甚至更多。如果我们这样做，第一年的复习次数就会从 567 次减少到 343 次，减少了 40%。第一年保持记忆的边际时间成本将从 50% 下降到 30%。</p><p data-pid=\"qJRJQ1Zg\">我呈现的数据对反事实并没有太多的说法。如果间隔是现在的两倍，我们会看到更多的遗忘，还是会看到混乱的局面？我一直在沿着这些思路进行对照实验，它们产生了非常有趣且令人困惑结果......这将不得不等待另一个时间。</p><h2><b>助记媒介的复习安排与现有的 SRS 模式相比</b></h2><p data-pid=\"t71NLNzx\">几乎所有围绕间隔重复系统的工作——包括学术和商业——都集中在定义上：语言学习者的词汇、医学生的术语、历史课的人物和事件，等等。这类知识往往是相当随意、缺少联系的，因此我怀疑它被遗忘得更快。</p><p data-pid=\"KMeNbVWC\">《量子国度》的复习安排相当激进。我们从五天的时间间隔开始，每次重复都会增长 2-3 倍。默认情况下，Anki 从一天的时间间隔开始，增长 1.8 倍。然而，我们仍然看到很少有遗忘。我不认为问题出在 Anki 的疯狂保守上。我认为这是因为概念性的知识，在一个叙述性的弧线中被引入，并与先前的知识彻底相连，与词汇的记忆动态非常不同。助记媒介的复习安排可能应该与传统的间隔重复系统的复习安排有很大的不同。</p><p data-pid=\"eHyK5DJh\">SuperMemo 用「卡片复杂度」建立了类似于我所描述的效果的模型，但由于每个用户都建立自己的数据库，它必须从几个点的样本中估计每张卡片的复杂度。助记媒介的共享问题创造了一个有趣的机会：卡片的复杂度可以通过汇总许多先前用户的尝试来估计，而通过比较他们在文章中的表现和先前学生的表现，可以估计一个新用户对材料的现有熟练程度。这种类型的方法<a href=\"https://link.zhihu.com/?target=https%3A//citeseerx.ist.psu.edu/viewdoc/download%3Fdoi%3D10.1.1.697.3755%26rep%3Drep1%26type%3Dpdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">已被用于安排西班牙语词汇练习的模型中</a>，我对探索它在更多概念性题目上的表现很感兴趣。助记文章（与词汇表不同）面临的一个显著挑战是，这些问题高度相互依赖。复习一个问题使读者更有可能回答其他各种相关问题。因此，我可能需要将像我所描述的模型与<a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/1506.05908\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">深度知识追踪</a>这样的模型结合起来，后者可以解释卡片间的相互作用。</p><p data-pid=\"li0uTf9E\">我还不确定我想在这种优化上走多深。在这个领域有很多机会可以探索，而我的时间又是如此之少！事实上，有许多简单的杠杆可以让人感觉不费力，而不涉及实际减少重复的次数。例如，当我们将复习「分批」进行，使相邻几天的小型复习环节合并为一个完整的环节时，复习环节的读者感到复习的负担大大减轻。</p><p data-pid=\"9H07gY31\">在未来的一篇文章中，我将探讨多个实验是如何努力测量《量子国度》上任何明显的遗忘时间的。直到下一次，感谢你们的支持。</p><hr/><blockquote data-pid=\"FHNitO8m\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4、校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/too-easy-to-be-49250309\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Too easy to be effortless | Patreon 上的 Andy Matuschak</a><br/>作者：<span class=\"nolink\">Andy Matuschak</span></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/21868663",
+      "type": "topic",
+      "id": "21868663",
+      "name": "助记媒介"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19571430",
+      "type": "topic",
+      "id": "19571430",
+      "name": "认知科学"
+    }
+  ],
+  "voteup_count": 32,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "助记媒介在叙事性散文中嵌入了间隔重复记忆系统",
+    "is_following": false,
+    "url_token": "c_1525784109008203776",
+    "id": "c_1525784109008203776",
+    "articles_count": 189,
+    "accept_submission": true,
+    "title": "助记媒介 & 思想工具",
+    "url": "https://api.zhihu.com/columns/c_1525784109008203776",
+    "comment_permission": "all",
+    "created": 1656555279,
+    "updated": 1751877351,
+    "image_url": "https://picx.zhimg.com/v2-f4040c00796b5bb3ba64980f9be88d6f_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 66,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 2,
+  "contributions": [
+    {
+      "id": 45791605,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "助记媒介在叙事性散文中嵌入了间隔重复记忆系统",
+        "is_following": false,
+        "url_token": "c_1525784109008203776",
+        "id": "c_1525784109008203776",
+        "articles_count": 189,
+        "accept_submission": true,
+        "title": "助记媒介 & 思想工具",
+        "url": "https://api.zhihu.com/columns/c_1525784109008203776",
+        "comment_permission": "all",
+        "created": 1656555279,
+        "updated": 1751877351,
+        "image_url": "https://picx.zhimg.com/v2-f4040c00796b5bb3ba64980f9be88d6f_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 66,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 641197368,
-  "voteup_count": 31,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 26,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "轻而易举，不费吹灰之力 - 来自知乎专栏「助记媒介 &amp; 思想工具」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/641197368 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1688373695,
-  "url": "https://api.zhihu.com/articles/641197368",
-  "comment_permission": "all",
-  "title": "轻而易举，不费吹灰之力",
-  "image_width": 2916,
-  "content": "<p data-pid=\"pzgRStgo\">现在，一些 Orbit 实验正在进行中，我上个月的大部分时间里都在重新挖掘《<a href=\"https://link.zhihu.com/?target=https%3A//quantum.country/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">量子国度</a>》的数据。我发现一个令我惊讶的问题：「几乎所有人，在几乎所有时间，记得几乎所有内容。」</p><h2>感情驱动的优化</h2><p data-pid=\"43MB4ZnJ\">记忆能有多不费力？</p><p data-pid=\"f-fCVtbb\">在极限情况下，我们可以想象自动记住我们感知到的一切。我们可能并不想要这样——像 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Solomon_Shereshevsky\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Shereshevsky</a> 这样的怪才经常报告他们完美记忆的诅咒般的症状。也许我们会满足于像移动肌肉一样轻松地记住或忘记一些东西。这样的世界会是怎样的呢？肯定的是，学校将不再是我们所知的那样，那么工作场所和工作室呢？人际关系呢？<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Funes_the_Memorious\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Borges</a>、<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/The_Truth_of_Fact%2C_the_Truth_of_Feeling\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">姜峰楠</a>、<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/The_matrix\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Wachowskis</a> 和其他伟大的科幻作家都已经描绘了这些影响，但我也对平凡的事物感兴趣：工作场所协作的互动方式的变化；突然显现的巧合和矛盾。</p><p data-pid=\"9P7BhqDU\">（当然，不费力只是许多有用视角之一！一个相反的视角指出，也许费力才是你想从你与记忆的互动中得到的东西。你希望不断质疑你认为你「知道」的事情；你希望一切都保持熔融状态，以便你能形成新的联系，以新的方式看待事物；等等......）</p><p data-pid=\"F39pn3R_\">即使有如今的系统，记忆也远非毫不费力。我们能做到什么程度呢？通常的方法是将其作为一个优化问题来处理，但我发现，将不费力视作一种<b>感觉</b>是很有意义的。强大的技术感觉像是身体的延伸。边界消失了；意图和行动之间的距离缩小了。然而，<a href=\"https://link.zhihu.com/?target=https%3A//www.dougengelbart.org/content/view/224/217/%236c\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">如果你在铅笔上绑上一个砖块</a>，它就不再感觉像你手的一部分。同样地，和朋友们热烈讨论时，学习似乎不费吹灰之力，但在无聊的自习室里，同样的想法可能需要你付出超出你能承受的努力。</p><p data-pid=\"rdIirX9p\">这个视角给了我们一种不同的方式来思考如何「优化」思想工具。哪些类型的互动会产生分离感、尽职感和厌烦感？</p><p data-pid=\"UWy6dife\">在任何一种计算机化的学习系统中（包括间隔重复系统），无聊的一个可靠来源是感觉太容易的材料。这种材料并不是好的那种不费力气的材料。翻阅这些材料的感觉几乎就像在软件安装程序中快速运行许可协议提示。「是的，是的，我知道，我知道。」我不需要真正思考；我没有真正参与；我不喜欢被要求。有时，问题在于我实际上并不关心这些材料，在这种情况下，我真的应该删除它（<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/skip-exponential-40672377\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">也许是模糊不清地</a><sup data-text=\"「跳过」：指数补偿的延迟机制和模糊收件箱\" data-url=\"https://zhuanlan.zhihu.com/p/566834806\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>）。不过，很多时候，我确实关心这些材料。如果它在那一刻感觉不那么微不足道，我就会更认真地参与。</p><p data-pid=\"_x5yxB9a\">这个观察引出了学习技术中的一个经典问题：正确估计学生的知识状态，以优化学习计划。不同的是，如果我们坚持使用基于感觉的视角，我们就不会把优化本身看作是要解决的问题。我们的核心目标是实现一种毫不费力的感觉。模型优化是实现这种感觉的一种有效手段。但也有其他的手段。你无法在没有记住许多复杂规则的情况下玩《<a href=\"https://link.zhihu.com/?target=http%3A//the-witness.net/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">见证者（The Witress）</a>》，但当你与环境互动时，你会自然地记住这些规则：记忆本身并不是需要努力的部分。</p><h2><b>量子国度过度轻松的努力</b></h2><p data-pid=\"MxPDMIDI\">在进行了这一崇高的忏悔之后，让我们把注意力转向一个不寻常的记忆增强系统的表现：《<a href=\"https://link.zhihu.com/?target=https%3A//quantum.country/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">量子国度</a>》。</p><p data-pid=\"Ub-EdVwn\">请注意：这是对《量子国度》数据的非正式讨论。该分析是初步的，不应该在其他工作中引用或摘录。我这里是在<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/Work_with_the_garage_door_up\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">开门造车</a><sup data-text=\"开门造车\" data-url=\"https://zhuanlan.zhihu.com/p/457529308\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。</p><p data-pid=\"NTzoCYH-\">一方面，《量子国度》实现了它的承诺，帮助人们记住他们读过的内容。在第五次重复之后，大多数读者已经能够在超过一个月的时间间隔内回忆起 95% 以上的问题。这相当了不起。根据我过去阅读教科书的经验，一个月后能记住一小部分细节就很幸运了。</p><p data-pid=\"fbZ1rqPS\">另一种看待这个问题的方式是「维护成本」。为了在第一年维持第一篇论文的 112 个问题，中位数读者进行了 567 次复习，消耗了约 1.5 小时。读者报告说，阅读第一篇文章需要 2-4 个小时，所以我们可以将第一年的复习看作是这些读者选择为了永久记住那篇文章所有的关键细节而支付的约 50% 的额外时间成本。我预计第二年的时间成本大约是一半，但我们还没有这方面的数据。</p><p data-pid=\"RILzfw9T\">我想，问题在于，《量子国度》的效果「太好」了。几乎所有人，在几乎所有时间，记得几乎所有内容。</p><p data-pid=\"yUQXxs6f\">我们要讨论的麻烦始于我所说的「维持」阶段。对于一个特定的读者和问题，历史通常可以分两个阶段：最初的「学习」阶段（通常很短），在这个阶段中，读者对材料的吸收足以让他们在不同的时段记住它；接着是「维持」阶段（更长），在这个阶段中，重复主要用于对抗遗忘的侵蚀。你可以通过说人们在第一次成功重复后过渡到维护阶段，来非常好地近似这个划分。</p><p data-pid=\"_HsocL0l\">在第一次成功重复某个问题后——也就是他们进入「维持阶段」后——中位数的读者在随后的重复中回答正确率为 95%。事实上，在所有第一年的问题历史中，82% 的问题在那之后都<b>没有</b>遗忘（这确实符合从 p=0.95 的二项分布给出的第一年重复次数的期望）。</p><p data-pid=\"TKR2IeX2\">这有点抽象。具体地说：在他们第一次成功的重复之后，中位数的读者在接下来的一年里，在第一篇文章的 112 个问题的 448 次复习中只忘记了 15 次。</p><p data-pid=\"6AWHkStC\">整整一年的勤奋复习，只有 15 次遗忘！433 次成功的回忆！这里的问题并非完全是效率问题。在与读者的交谈中，很多人愿意（而且已经）支付 50% 的时间成本来彻底内化这些材料。问题并不在于 448 次复习太多，或者花费的时间太长。问题在于，复习你已经非常了解的材料感觉很无聊，就像浪费时间一样。而这大多是人们正在做的事情。</p><p data-pid=\"qyy_6pJf\">但实际上，遗忘的情况比我说的还要偏斜。如果这 15 次遗忘是从所有问题中等概率抽取的，那可能感觉还不算太糟：任何一个问题都可能是你今天遗忘的问题！但事实是，<b>所有长期遗忘中的一半来自 12% 的问题</b>。从情感上讲，这些问题会产生「哦，不，又是那个问题......」。相比之下，中位数问题在「维持阶段」的第一年里，每十个读者只会遗忘一次。对于 95% 的问题，中位数的读者在维持阶段的第一年里<b>从未忘记过</b>。因此，大多数复习可能感到乏味且没必要。</p><p data-pid=\"VInS7SUa\">我们可能会担心，也许对中位数的读者来说一切都很好，但许多能力较弱的读者却在挣扎。毕竟，他们的遗忘在问题中高度符合幂律分布。但读者的分布并不那么明显。在第一年的维持阶段中，我们的第 25 百分位的读者在 483 次重复中忘记了 35 次。第 10 百分位的读者在 516 次重复中忘记了 59 次。而且，这些遗忘集中在相对较小的问题池中。即使是对相对较不成功的读者而言，绝大多数的问题也没有出现遗忘。</p><p data-pid=\"s00QKRte\">当遗忘确实发生时，通常情况并不那么糟糕。一种看待这个问题的方式是，询问连续多次忘记的问题有多频繁，以至于读者无法在他们之前能够跨越的间隔内回忆起一张卡片。这几乎从未发生：在大约 2% 的第一年读者/问题历史记录中会出现。因此，我们的「实证保留」进度指标是一个相当好的指标。一旦你证明了一个特定的保留间隔，只要你继续复习，你就非常不可能失去它。如果确实发生了遗忘，那么它「倒退」到读者无法记住五天的概率只有 7%。这里提醒一下，《量子国度》在一个问题被遗忘时，大致会将复习间隔减半。鉴于这些数据，Anki 在每次遗忘时将间隔重置为零的默认行为在我们的情况下似乎特别不合适。</p><p data-pid=\"6ua4yYZ3\">这里的意思是，我们也许应该更激进地拉长复习安排。是的，这将使体验更高效；但我真正关心的是，这可能会使体验不那么乏味。</p><p data-pid=\"ZUgWkMmN\">这个复习安排到底应该是什么？许多论文建议为这些复习安排建立动态且复杂的模型，也许我将在某个时候实现一个。理想的复习安排应该在避免枯燥乏味与其他重要的感觉变量进行权衡：与材料的联系，重复忘记同一事物的挫败感，复习时机的可预测性。就低垂的果实而言，简单的启发式方法能走多远令人惊讶。例如，当读者在阅读文章时和在第一次复习环节上都成功地回答了一个问题时，接下来一年中，96% 的历史记录中<b>没有出现遗忘</b>。可能可以安全地大幅度地拉长它们的间隔。</p><p data-pid=\"SM0sbQxU\">仅通过关注过于简单的问题，我们可以很容易地想象，把维持第一年所需的重复次数减半，甚至更多。如果我们这样做，第一年的复习次数就会从 567 次减少到 343 次，减少了 40%。第一年保持记忆的边际时间成本将从 50% 下降到 30%。</p><p data-pid=\"qJRJQ1Zg\">我呈现的数据对反事实并没有太多的说法。如果间隔是现在的两倍，我们会看到更多的遗忘，还是会看到混乱的局面？我一直在沿着这些思路进行对照实验，它们产生了非常有趣且令人困惑结果......这将不得不等待另一个时间。</p><h2><b>助记媒介的复习安排与现有的 SRS 模式相比</b></h2><p data-pid=\"t71NLNzx\">几乎所有围绕间隔重复系统的工作——包括学术和商业——都集中在定义上：语言学习者的词汇、医学生的术语、历史课的人物和事件，等等。这类知识往往是相当随意、缺少联系的，因此我怀疑它被遗忘得更快。</p><p data-pid=\"KMeNbVWC\">《量子国度》的复习安排相当激进。我们从五天的时间间隔开始，每次重复都会增长 2-3 倍。默认情况下，Anki 从一天的时间间隔开始，增长 1.8 倍。然而，我们仍然看到很少有遗忘。我不认为问题出在 Anki 的疯狂保守上。我认为这是因为概念性的知识，在一个叙述性的弧线中被引入，并与先前的知识彻底相连，与词汇的记忆动态非常不同。助记媒介的复习安排可能应该与传统的间隔重复系统的复习安排有很大的不同。</p><p data-pid=\"eHyK5DJh\">SuperMemo 用「卡片复杂度」建立了类似于我所描述的效果的模型，但由于每个用户都建立自己的数据库，它必须从几个点的样本中估计每张卡片的复杂度。助记媒介的共享问题创造了一个有趣的机会：卡片的复杂度可以通过汇总许多先前用户的尝试来估计，而通过比较他们在文章中的表现和先前学生的表现，可以估计一个新用户对材料的现有熟练程度。这种类型的方法<a href=\"https://link.zhihu.com/?target=https%3A//citeseerx.ist.psu.edu/viewdoc/download%3Fdoi%3D10.1.1.697.3755%26rep%3Drep1%26type%3Dpdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">已被用于安排西班牙语词汇练习的模型中</a>，我对探索它在更多概念性题目上的表现很感兴趣。助记文章（与词汇表不同）面临的一个显著挑战是，这些问题高度相互依赖。复习一个问题使读者更有可能回答其他各种相关问题。因此，我可能需要将像我所描述的模型与<a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/1506.05908\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">深度知识追踪</a>这样的模型结合起来，后者可以解释卡片间的相互作用。</p><p data-pid=\"li0uTf9E\">我还不确定我想在这种优化上走多深。在这个领域有很多机会可以探索，而我的时间又是如此之少！事实上，有许多简单的杠杆可以让人感觉不费力，而不涉及实际减少重复的次数。例如，当我们将复习「分批」进行，使相邻几天的小型复习环节合并为一个完整的环节时，复习环节的读者感到复习的负担大大减轻。</p><p data-pid=\"9H07gY31\">在未来的一篇文章中，我将探讨多个实验是如何努力测量《量子国度》上任何明显的遗忘时间的。直到下一次，感谢你们的支持。</p><hr/><blockquote data-pid=\"FHNitO8m\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4、校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/too-easy-to-be-49250309\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Too easy to be effortless | Patreon 上的 Andy Matuschak</a><br/>作者：<span class=\"nolink\">Andy Matuschak</span></blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 2,
-  "image_url": "https://picx.zhimg.com/v2-4b17c624f96da550afe67ce590ed28a1_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 12,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 12,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMzA2MTk2MDISCTY0MTE5NzM2OBgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 32,
+      "down_vote_count": 2,
+      "like_count": 12,
+      "comment_count": 2,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 26,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-4b17c624f96da550afe67ce590ed28a1": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-4b17c624f96da550afe67ce590ed28a1": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-4b17c624f96da550afe67ce590ed28a1": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=641197368&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 助记媒介 & 思想工具",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525784109008203776",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 助记媒介 & 思想工具"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

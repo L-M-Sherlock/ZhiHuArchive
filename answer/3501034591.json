@@ -1,15 +1,16 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-7a23f5ee157d58c2494e8a642e59b7ae.jpg?source=2c26e567",
+    "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
     "badge": [],
     "badge_v2": {
       "detail_badges": [],
       "icon": "",
       "merged_badges": [],
       "night_icon": "",
-      "title": ""
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。"
     },
     "gender": 1,
     "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
@@ -19,36 +20,56 @@
     "is_privacy": false,
     "name": "Jarrett Ye",
     "type": "people",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "url": "https://www.zhihu.com/api/v4/people/3c9990a12cdbcd92e20b1387b160f0a3",
     "url_token": "JarrettYe",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 0,
   "content": "<p data-pid=\"KpRljVtZ\">要成功地学习某些新东西，必须评估自身的理解，监测可能出现的困惑和前后矛盾，由此计划下一步行动，并协调计划的执行。一般这种过程被称为「元认知」。</p><p data-pid=\"EGAZxXem\">在提升元认知上，电子游戏做得最好：</p><a href=\"https://zhuanlan.zhihu.com/p/562411559\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">叶峻峣：游戏帮助玩家制定和调整计划</a><a href=\"https://zhuanlan.zhihu.com/p/560849079\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">叶峻峣：游戏帮助玩家评估他们养成的技能</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1715909881,
   "excerpt": "要成功地学习某些新东西，必须评估自身的理解，监测可能出现的困惑和前后矛盾，由此计划下一步行动，并协调计划的执行。一般这种过程被称为「元认知」。 在提升元认知上，电子游戏做得最好： [文章: 游戏帮助玩家制定和调整计划] [文章: 游戏帮助玩家评估他们养成的技能]",
-  "id": 3501034591,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3501034591",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
     "https://zhuanlan.zhihu.com/p/560849079": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"游戏帮助玩家评估他们养成的技能\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/560849079\",\"desc\":\"13 赞同 · 1 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eJarrett Ye:\\u003c/a\\u003e 你不必猜测你是否在《见证者（Witness）》中解开了一个谜题，游戏会告诉你。你不必猜测你的射击是否瞄准了，视觉和听觉反馈会告诉你。 有时候，环境会以更隐蔽的方式传达这种反馈。例如，你可能觉得你的跑步和跳跃能力很强，但两个跳台之间精心布置的间隙可能很快就会证明你还没有完全掌握好时机。 前一个例子中那些显式的调整是由游戏设计师精心布置的，也可以说，整个游戏环境的设计就是为了在玩家心理模型中揭示差距。玩家做…\",\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"560849079\"},\"za_data\":{\"attach_info\":\"\"}}",
     "https://zhuanlan.zhihu.com/p/562411559": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"游戏帮助玩家制定和调整计划\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/562411559\",\"desc\":\"10 赞同 · 0 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eJarrett Ye:\\u003c/a\\u003e 在游戏中移动时，你通常不需要思考你是否准备要移动到其他地方，或者你应该移动到哪里：游戏会让你知道（可能在不知不觉中）。 有时，会有一组序列，秩序井然，必须按顺序解决。很轻松就能做出计划；见 小跨度任务阶梯作为认知脚手架 [1]。更微妙的是，你有时候会发现 Boss 战取决于你的弓箭技能。地牢的出口都被封住了，所以没有其他地方可去。所以你得出来一个显而易见的结论：你要提升弓箭技能，直到你能打败 Boss。在另一个不…\",\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"562411559\"},\"za_data\":{\"attach_info\":\"\"}}"
   },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=3501034591&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1428948913,
     "detail": "具体方法，最好实践过或者有好书。",
-    "id": 29543459,
+    "id": "29543459",
     "question_type": "normal",
     "relationship": {},
     "title": "什么是元认知能力，如何提升？",
     "type": "question",
     "updated_time": 1546402067,
-    "url": "https://api.zhihu.com/questions/29543459"
+    "url": "https://www.zhihu.com/api/v4/questions/29543459"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1715909881,
+  "url": "https://www.zhihu.com/api/v4/answers/3501034591",
   "voteup_count": 24
 }

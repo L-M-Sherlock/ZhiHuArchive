@@ -1,15 +1,16 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-7a23f5ee157d58c2494e8a642e59b7ae.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
     "badge": [],
     "badge_v2": {
       "detail_badges": [],
       "icon": "",
       "merged_badges": [],
       "night_icon": "",
-      "title": ""
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。"
     },
     "gender": 1,
     "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
@@ -19,32 +20,52 @@
     "is_privacy": false,
     "name": "Jarrett Ye",
     "type": "people",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "url": "https://www.zhihu.com/api/v4/people/3c9990a12cdbcd92e20b1387b160f0a3",
     "url_token": "JarrettYe",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 71,
-  "content": "<p data-pid=\"r_F-ef6P\">今天有人提到 Lasse Collin 对于 xz 项目早就疲惫不堪，Jia Tan 是极少数愿意真正贡献代码的“开发者”，这都是这场悲剧不可或缺的背景条件。</p><p data-pid=\"aW_Po753\">在无人关心的角落，Florian Westphal 最近辞去了内核 netfilter co-maintainer，所以现在 nf 只剩 Pablo Neira Ayuso 一人维护。这可是无数人每天使用的 netfilter。</p><p data-pid=\"49-A1Z0k\">在无人关心的角落，我最爱的工具之一 strace 依然只由一个捷克人 Dmitry V. Levin  默默维护。</p><p data-pid=\"9qdagOiJ\">在无人关心的角落，tcpdump/libpcap 在由 the-tcpdump-group 持续更新，其中一位 Denis Ovsienko 的自我介绍是 sometimes I work jobs for living, sometimes I contribute pro bono to free and open source software projects, often I do both，给人一种很孤独的感觉。</p><p data-pid=\"9PPDMTx8\">在无人关心的角落，bash group 只有三位 active members，其中一位 Bob Proulx 有个古典博客，里面有记录他和妻子的平静生活。</p><p data-pid=\"hik23Fc3\">我以前赞美人月神话，但我现在更关心默默无闻的开发者们，就像 vim 作者 Bram Moolenaar 一生没有和任何人建立亲密关系，我只想问，你这一生过得开心吗？</p><p data-pid=\"BZLWQMZr\">你们这些伟大的开发者们过得开心吗？</p><blockquote data-pid=\"kbujGx9O\">以上内容转自某编程交流群（由群友转自其他群（所以我也不知道谁写的（但我觉得写得很好，先转了）））</blockquote><hr/><p data-pid=\"zm8m7lms\">没想到这个回答火了，顺便推一下我自己正在维护的项目：</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">open-spaced-repetition/fsrs4anki: A modern Anki custom scheduling based on free spaced repetition scheduler algorithm (github.com)</a><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-25e402f4222a37f7b07a507ed1eb9fad_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"533\" data-original-token=\"v2-25e402f4222a37f7b07a507ed1eb9fad\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-f090f77efe70c95bb6cd96e0127a298e_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic1.zhimg.com/v2-25e402f4222a37f7b07a507ed1eb9fad_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;800&#39; height=&#39;533&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"533\" data-original-token=\"v2-25e402f4222a37f7b07a507ed1eb9fad\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-f090f77efe70c95bb6cd96e0127a298e_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"800\" data-original=\"https://pic1.zhimg.com/v2-25e402f4222a37f7b07a507ed1eb9fad_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-25e402f4222a37f7b07a507ed1eb9fad_720w.jpg?source=2c26e567\"/></figure><p></p>",
+  "content": "<p data-pid=\"r_F-ef6P\">今天有人提到 Lasse Collin 对于 xz 项目早就疲惫不堪，Jia Tan 是极少数愿意真正贡献代码的“开发者”，这都是这场悲剧不可或缺的背景条件。</p><p data-pid=\"aW_Po753\">在无人关心的角落，Florian Westphal 最近辞去了内核 netfilter co-maintainer，所以现在 nf 只剩 Pablo Neira Ayuso 一人维护。这可是无数人每天使用的 netfilter。</p><p data-pid=\"49-A1Z0k\">在无人关心的角落，我最爱的工具之一 strace 依然只由一个捷克人 Dmitry V. Levin  默默维护。</p><p data-pid=\"9qdagOiJ\">在无人关心的角落，tcpdump/libpcap 在由 the-tcpdump-group 持续更新，其中一位 Denis Ovsienko 的自我介绍是 sometimes I work jobs for living, sometimes I contribute pro bono to free and open source software projects, often I do both，给人一种很孤独的感觉。</p><p data-pid=\"9PPDMTx8\">在无人关心的角落，bash group 只有三位 active members，其中一位 Bob Proulx 有个古典博客，里面有记录他和妻子的平静生活。</p><p data-pid=\"hik23Fc3\">我以前赞美人月神话，但我现在更关心默默无闻的开发者们，就像 vim 作者 Bram Moolenaar 一生没有和任何人建立亲密关系，我只想问，你这一生过得开心吗？</p><p data-pid=\"BZLWQMZr\">你们这些伟大的开发者们过得开心吗？</p><blockquote data-pid=\"kbujGx9O\">以上内容转自某编程交流群（由群友转自其他群（所以我也不知道谁写的（但我觉得写得很好，先转了）））</blockquote><hr/><p data-pid=\"zm8m7lms\">没想到这个回答火了，顺便推一下我自己正在维护的项目：</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">open-spaced-repetition/fsrs4anki: A modern Anki custom scheduling based on free spaced repetition scheduler algorithm (github.com)</a><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-25e402f4222a37f7b07a507ed1eb9fad_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"533\" data-original-token=\"v2-25e402f4222a37f7b07a507ed1eb9fad\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-f090f77efe70c95bb6cd96e0127a298e_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"800\" data-original=\"https://pic1.zhimg.com/v2-25e402f4222a37f7b07a507ed1eb9fad_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;800&#39; height=&#39;533&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"800\" data-rawheight=\"533\" data-original-token=\"v2-25e402f4222a37f7b07a507ed1eb9fad\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-f090f77efe70c95bb6cd96e0127a298e_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"800\" data-original=\"https://pic1.zhimg.com/v2-25e402f4222a37f7b07a507ed1eb9fad_r.jpg?source=2c26e567\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-25e402f4222a37f7b07a507ed1eb9fad_720w.jpg?source=2c26e567\"/></figure><p></p>",
   "content_need_truncated": false,
   "created_time": 1712025663,
   "excerpt": "今天有人提到 Lasse Collin 对于 xz 项目早就疲惫不堪，Jia Tan 是极少数愿意真正贡献代码的“开发者”，这都是这场悲剧不可或缺的背景条件。 在无人关心的角落，Florian Westphal 最近辞去了内核 netfilter co-maintainer，所以现在 nf 只剩 Pablo Neira Ayuso 一人维护。这可是无数人每天使用的 netfilter。 在无人关心的角落，我最爱的工具之一 strace 依然只由一个捷克人 Dmitry V. Levin 默默维护。 在无人关心的角落，tcpd…",
-  "id": 3451699113,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3451699113",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=3451699113&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1711764111,
     "detail": "<p>xz-utils 的 5.6.0 和 5.6.1 版本被维护者 Jia Tan 注入了后门。在 2024 年 3 月 29 日，后门被发现并迅速引起了各大发行版的注意。</p><p>xz-utils 分为 liblzma 和 xz 两部分。xz 是一个单文件压缩软件，采用了压缩率高的 LZMA 算法，在 Linux 中被广泛使用。liblzma 是 LZMA 算法的实现，被应用于 systemd 等多个 Linux 系统和应用软件。</p><p>目前，Fedora，Arch Linux 和 openSUSE 等多个发行版向用户发出了警告，要求用户立即降级或升级到不存在后门或已经去除后门的 xz-utils 版本。</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//www.openwall.com/lists/oss-security/2024/03/29/4\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">backdoor in upstream xz/liblzma leading to ssh server compromise</a><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//lwn.net/Articles/967180/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">A backdoor in xz</a><p></p>",
-    "id": 650826484,
+    "id": "650826484",
     "question_type": "normal",
     "relationship": {},
     "title": "知名压缩软件 xz 被发现有后门，影响有多大？如何应对？",
     "type": "question",
     "updated_time": 1711884616,
-    "url": "https://api.zhihu.com/questions/650826484"
+    "url": "https://www.zhihu.com/api/v4/questions/650826484"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 1428
+  "updated_time": 1712131625,
+  "url": "https://www.zhihu.com/api/v4/answers/3451699113",
+  "voteup_count": 1435
 }

@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -16,7 +17,7 @@
           "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
@@ -40,7 +41,7 @@
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -83,7 +84,7 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
@@ -99,11 +100,22 @@
   "content_need_truncated": false,
   "created_time": 1742378006,
   "excerpt": "我本科毕业论文得了优秀，我个人觉得关键在于论文结论里面的这句话（狗头保命）： 该毕设的部分研究成果已发表在中文核心期刊《中文信息学报》[1]；另有一篇论文“A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling”已被 2022 ACM SIGKDD 接收[2]。 [文章: [本科毕设] 基于 LSTM 和间隔重复模型的复习算法研究]",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "127862000861",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/626308184": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"[本科毕设] 基于 LSTM 和间隔重复模型的复习算法研究\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/626308184\",\"desc\":\"136 赞同 · 5 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 没想到自己毕业快一年了，我的论文还在 IEEE TKDE 的 Early Access 阶段 [1]。之前说好要将论文内容发在知乎上，但怕中间出什么幺蛾子，我还是打算等到正式刊出后再发。不过那篇顶刊论文其实是我毕业论文的浓缩版，所以我这里直接公开我的本科毕设，大家就能了解那篇论文的主要内容了。这篇本科毕设放在学校档案室最终也是发霉，还不如发在知乎上供大家学习参考。注：这篇论文为了水到 40 页，塞了很多无聊的背景介绍，大家可以…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-634d4ff8b5d7e4f75dbdb943716232fc_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"626308184\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/626308184": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"[本科毕设] 基于 LSTM 和间隔重复模型的复习算法研究\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/626308184\",\"desc\":\"138 赞同 · 5 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 没想到自己毕业快一年了，我的论文还在 IEEE TKDE 的 Early Access 阶段 [1]。之前说好要将论文内容发在知乎上，但怕中间出什么幺蛾子，我还是打算等到正式刊出后再发。不过那篇顶刊论文其实是我毕业论文的浓缩版，所以我这里直接公开我的本科毕设，大家就能了解那篇论文的主要内容了。这篇本科毕设放在学校档案室最终也是发霉，还不如发在知乎上供大家学习参考。注：这篇论文为了水到 40 页，塞了很多无聊的背景介绍，大家可以…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-634d4ff8b5d7e4f75dbdb943716232fc_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"626308184\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=127862000861&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1584970906,
@@ -114,11 +126,13 @@
     "title": "本科毕业论文怎么才能得优秀？",
     "type": "question",
     "updated_time": 1584970906,
-    "url": "https://api.zhihu.com/questions/381900318"
+    "url": "https://www.zhihu.com/api/v4/questions/381900318"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 50
+  "updated_time": 1742378006,
+  "url": "https://www.zhihu.com/api/v4/answers/127862000861",
+  "voteup_count": 53
 }

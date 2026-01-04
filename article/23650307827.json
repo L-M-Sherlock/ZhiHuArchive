@@ -1,80 +1,419 @@
 {
-  "status": 0,
+  "id": "23650307827",
+  "title": "主导你头脑的想法",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/23650307827",
+  "image_url": "https://picx.zhimg.com/v2-0b2a300f4f48b180cff823523992b928_720w.jpg?source=172ae18b",
+  "title_image": "https://pic1.zhimg.com/v2-0b2a300f4f48b180cff823523992b928_720w.jpg?source=172ae18b",
+  "excerpt": "最近我意识到，早晨洗澡时的思考，远比想象中重要得多。我早知道这是个灵感迸发的好时机。但现在我要更进一步：我认为，若某事未能在洗澡时主导你的思考，你恐怕很难真正做好它。 凡是攻坚过复杂难题的人，都熟悉这样的体验：你拼命思考某个问题，尝试各种…",
+  "created": 1739501595,
   "updated": 1739501595,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "最近我意识到，早晨洗澡时的思考，远比想象中重要得多。我早知道这是个灵感迸发的好…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 6220,
+  "image_height": 4147,
+  "content": "<p data-pid=\"IubytDd0\">最近我意识到，早晨洗澡时的思考，远比想象中重要得多。我早知道这是个灵感迸发的好时机。但现在我要更进一步：我认为，若某事未能在洗澡时主导你的思考，你恐怕很难真正做好它。</p><p data-pid=\"pNxMO2aG\">凡是攻坚过复杂难题的人，都熟悉这样的体验：你拼命思考某个问题，尝试各种方法却毫无进展。可等到过了一会儿，在做别的事情时，答案突然浮现。这种无意识的思考，不是你刻意去想，而是自然而然的。我愈发确信，这对对于解决难题不仅是有助的，而且是必要的。但棘手之处在于，这种思维状态只能间接控制。[1]</p><p data-pid=\"Mfd-XYGr\">我认为，大多数人任何时刻脑中都有一个主导想法。放任思绪自由飘荡时，这个想法就如磁石般牵引着思维轨迹。它得以独享这种无意识思考的滋养，而其他念头则陷入养分匮乏的境地。正因如此，让错误的想法主导你的头脑，后果不堪设想。</p><p data-pid=\"YJdatEQm\">让我深刻体会这一点的，是我的两段较长的经历。在那期间，我的脑中充斥着一个我并不愿受其主导的想法。</p><p data-pid=\"LnIpsKdE\">我曾注意到，初创公司一旦开始融资，效率便大打折扣。但直到我们自己融资时，我才明白为什么。问题不在于与投资人会面所耗费的时间，而在于，一旦启动融资，融资便会成为你脑中的主导想法。于是，早晨洗澡时你的思绪也只围绕这件事转，真正重要的问题反而退居次席。</p><p data-pid=\"xiYz_yRB\">在经营 Viaweb 时，我曾讨厌融资，却早已忘记那时为何如此反感。等到为 Y Combinator 融资时，我才猛然回忆起来：资金问题特别容易成为主导你头脑的想法，这实属必然——毕竟金钱不会自动流向你。除非你让它成为洗澡时的思考内容，否则它根本无从谈起。但代价是，你将难以在其它你更想做的事情上取得进展。[2]</p><p data-pid=\"sWx1dRZt\">（我也听到一些在学术界的朋友有类似抱怨。如今的教授似乎都成了专业融资者，顺带副业搞点研究。或许该是拨乱反正之时了。）</p><p data-pid=\"QSnmODrU\">之所以这件事给我留下了如此深刻的印象，是因为在过去十年里，我一直可以自由地思考自己想做的事。因此，当我没法这样做的时候，对比就很鲜明。不过，我相信这问题绝非我一人独有，几乎所有我见过的初创公司一开始融资，或<a href=\"https://link.zhihu.com/?target=https%3A//paulgraham.com/corpdev.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">与收购方接洽</a>时，工作就会陷入停滞。</p><p data-pid=\"nTfHq2mR\">你无法直接左右思绪漫游的方向。如果你刻意控制它们，那它们就不再是漫游。但你可以通过控制自己所处的环境，间接影响其方向。这给我的启示是：谨慎抉择何为人生要务。尽量让自己置身于「燃眉之急正是心之所向」的情境中。</p><p data-pid=\"qc7hnrn4\">当然，完全的控制并不存在。突发事件可能会让其他想法瞬间涌上心头。但除却突发事件，我们还是能在很大程度上间接决定主导我们头脑的想法。</p><p data-pid=\"8YOa_Cyq\">我发现，有两类想法尤需警惕——它们就像尼罗河鲈鱼一样，将更有价值的创意挤出你的思绪。其中之一，就是关于钱财的念头。搞钱几乎注定会消耗你全部的注意力。另一类则是争执。这些争执同样以一种错误的方式吸引着我们：它们表面上像是真正有趣的想法，具有同样的「粘性」，但实际上却空洞无物。因此，如果你想完成真正有意义的工作，就要尽量避开这些争执。[3]</p><p data-pid=\"WB38Qlo6\">强如牛顿亦难逃此劫。1672 年，他在发表色彩理论后，竟深陷论战泥潭数年，最终决意停止发表以求解脱：</p><blockquote data-pid=\"63dUiSbY\"> 我发现自己已沦为哲学的奴隶，但若能摆脱 Linus 先生的差事，我定将毅然与哲学永别——除非是为了满足个人志趣而作，或留待身后发表的文字。因为我明白，一个人要么决心不立新说，要么就得沦为捍卫学说的奴仆。[4]</blockquote><p data-pid=\"wAzyRm4X\">列日的 Linus 及其学生堪称最难缠的批评者。牛顿的传记作家 Westfall 似乎认为牛顿当时的反应有些过激： </p><blockquote data-pid=\"HGmxm67i\"> 当时牛顿所谓的「奴役」仅仅是他一年内针对列日方面所做的五次回应，总计十四页印刷内容而已。</blockquote><p data-pid=\"wLxmdtK1\">相比之下，我更理解牛顿的苦衷。问题不在那短短十四页纸的笔墨官司，而在于，这场愚蠢的争论不断侵占他本应用于思考其他事物的宝贵时间，给人带来莫大的痛苦。</p><p data-pid=\"fE6cLoFM\">事实证明，忍让也有利己之效。别人对你出手，不仅令你当下受伤，更会让你事后不断反刍，从而遭受二次伤害。如果你学会漠视，至少可以免除后者的痛苦。我发现，只要不断提醒自己「这些事情不值得主导我的头脑」，就能在一定程度上避免沉溺于那些令人不快的往事。每当我发现自己已忘却争论的细节，我便心生喜悦，因为这意味着我没有在那上面耗费过多精力。妻子总说我比她更宽容，但实际上，我的动机是纯粹的利己主义。</p><p data-pid=\"2_QSrI5N\">我怀疑，很多人其实在任何时候都不太清楚主导自己头脑的想法是什么。实际上，我自己也常常搞错。我往往以为占主导地位的是我希望成为主导的那个想法，而不是实际上占主导地位的想法。但弄清这一点其实很简单：只需洗个澡。看看你的思绪是不是总会不由自主地回到某个话题？如果那并非你想关注的内容，那么或许该做出一些改变了。</p><p data-pid=\"f26EGS4Q\"><b>附注</b></p><p data-pid=\"PvWoULvt\">[1] 毫无疑问，这种思维方式已有现成的称谓，但我称之为「环境思维（ambient thought）」。</p><p data-pid=\"ZcpZgw2T\">[2] 这一点在我们的经历中表现得尤为明显。我们筹集的两笔资金都不难获得，然而整个过程却各自拖延了数月。调动大额资金从来不是人们轻率对待的事，所需注意力也会随着资金规模不断上升——也许增长并非线性，但绝对是单调递增的。</p><p data-pid=\"c0GEj8Lr\">[3] 推论：切忌成为管理员，否则你的工作就只能整天处理资金和争执。</p><p data-pid=\"iIBgZ_3S\">[4] Letter to Oldenburg, quoted in Westfall, Richard, <i>Life of Isaac Newton</i>, p. 107.</p><p data-pid=\"QpAyL7O4\"><b>感谢</b> Sam Altman、Patrick Collison、Jessica Livingston 和 Robert Morris 审阅本文草稿。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"6xjBqaAh\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">solitude-alive</span>，校对 Jarrett Ye、<span class=\"nolink\">bstiat</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//paulgraham.com/top.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Top Idea in Your Mind</a><br/>作者：Paul Graham<br/>发布于 2010 年 7 月</blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19570562",
+      "type": "topic",
+      "id": "19570562",
+      "name": "潜意识"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19551409",
+      "type": "topic",
+      "id": "19551409",
+      "name": "思考"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19556244",
+      "type": "topic",
+      "id": "19556244",
+      "name": "洗澡"
+    }
+  ],
+  "voteup_count": 142,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "保罗•格雷厄姆，YC 创始人，硅谷创业教父",
+    "is_following": false,
+    "url_token": "c_1865730531905380352",
+    "id": "c_1865730531905380352",
+    "articles_count": 16,
+    "accept_submission": true,
+    "title": "Paul Graham",
+    "url": "https://api.zhihu.com/columns/c_1865730531905380352",
+    "comment_permission": "all",
+    "created": 1751811203,
+    "updated": 1737604822,
+    "image_url": "https://picx.zhimg.com/v2-74c4f7f5dd5923f437489429b9b60a83_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 120,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 3,
+  "contributions": [
+    {
+      "id": 50865436,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "保罗•格雷厄姆，YC 创始人，硅谷创业教父",
+        "is_following": false,
+        "url_token": "c_1865730531905380352",
+        "id": "c_1865730531905380352",
+        "articles_count": 16,
+        "accept_submission": true,
+        "title": "Paul Graham",
+        "url": "https://api.zhihu.com/columns/c_1865730531905380352",
+        "comment_permission": "all",
+        "created": 1751811203,
+        "updated": 1737604822,
+        "image_url": "https://picx.zhimg.com/v2-74c4f7f5dd5923f437489429b9b60a83_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 120,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 23650307827,
-  "voteup_count": 141,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 150,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "主导你头脑的想法 - 来自知乎专栏「Paul Graham」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/23650307827 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1739501595,
-  "url": "https://api.zhihu.com/articles/23650307827",
-  "comment_permission": "all",
-  "title": "主导你头脑的想法",
-  "image_width": 4147,
-  "content": "<p data-pid=\"IubytDd0\">最近我意识到，早晨洗澡时的思考，远比想象中重要得多。我早知道这是个灵感迸发的好时机。但现在我要更进一步：我认为，若某事未能在洗澡时主导你的思考，你恐怕很难真正做好它。</p><p data-pid=\"pNxMO2aG\">凡是攻坚过复杂难题的人，都熟悉这样的体验：你拼命思考某个问题，尝试各种方法却毫无进展。可等到过了一会儿，在做别的事情时，答案突然浮现。这种无意识的思考，不是你刻意去想，而是自然而然的。我愈发确信，这对对于解决难题不仅是有助的，而且是必要的。但棘手之处在于，这种思维状态只能间接控制。[1]</p><p data-pid=\"Mfd-XYGr\">我认为，大多数人任何时刻脑中都有一个主导想法。放任思绪自由飘荡时，这个想法就如磁石般牵引着思维轨迹。它得以独享这种无意识思考的滋养，而其他念头则陷入养分匮乏的境地。正因如此，让错误的想法主导你的头脑，后果不堪设想。</p><p data-pid=\"YJdatEQm\">让我深刻体会这一点的，是我的两段较长的经历。在那期间，我的脑中充斥着一个我并不愿受其主导的想法。</p><p data-pid=\"LnIpsKdE\">我曾注意到，初创公司一旦开始融资，效率便大打折扣。但直到我们自己融资时，我才明白为什么。问题不在于与投资人会面所耗费的时间，而在于，一旦启动融资，融资便会成为你脑中的主导想法。于是，早晨洗澡时你的思绪也只围绕这件事转，真正重要的问题反而退居次席。</p><p data-pid=\"xiYz_yRB\">在经营 Viaweb 时，我曾讨厌融资，却早已忘记那时为何如此反感。等到为 Y Combinator 融资时，我才猛然回忆起来：资金问题特别容易成为主导你头脑的想法，这实属必然——毕竟金钱不会自动流向你。除非你让它成为洗澡时的思考内容，否则它根本无从谈起。但代价是，你将难以在其它你更想做的事情上取得进展。[2]</p><p data-pid=\"sWx1dRZt\">（我也听到一些在学术界的朋友有类似抱怨。如今的教授似乎都成了专业融资者，顺带副业搞点研究。或许该是拨乱反正之时了。）</p><p data-pid=\"QSnmODrU\">之所以这件事给我留下了如此深刻的印象，是因为在过去十年里，我一直可以自由地思考自己想做的事。因此，当我没法这样做的时候，对比就很鲜明。不过，我相信这问题绝非我一人独有，几乎所有我见过的初创公司一开始融资，或<a href=\"https://link.zhihu.com/?target=https%3A//paulgraham.com/corpdev.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">与收购方接洽</a>时，工作就会陷入停滞。</p><p data-pid=\"nTfHq2mR\">你无法直接左右思绪漫游的方向。如果你刻意控制它们，那它们就不再是漫游。但你可以通过控制自己所处的环境，间接影响其方向。这给我的启示是：谨慎抉择何为人生要务。尽量让自己置身于「燃眉之急正是心之所向」的情境中。</p><p data-pid=\"qc7hnrn4\">当然，完全的控制并不存在。突发事件可能会让其他想法瞬间涌上心头。但除却突发事件，我们还是能在很大程度上间接决定主导我们头脑的想法。</p><p data-pid=\"8YOa_Cyq\">我发现，有两类想法尤需警惕——它们就像尼罗河鲈鱼一样，将更有价值的创意挤出你的思绪。其中之一，就是关于钱财的念头。搞钱几乎注定会消耗你全部的注意力。另一类则是争执。这些争执同样以一种错误的方式吸引着我们：它们表面上像是真正有趣的想法，具有同样的「粘性」，但实际上却空洞无物。因此，如果你想完成真正有意义的工作，就要尽量避开这些争执。[3]</p><p data-pid=\"WB38Qlo6\">强如牛顿亦难逃此劫。1672 年，他在发表色彩理论后，竟深陷论战泥潭数年，最终决意停止发表以求解脱：</p><blockquote data-pid=\"63dUiSbY\"> 我发现自己已沦为哲学的奴隶，但若能摆脱 Linus 先生的差事，我定将毅然与哲学永别——除非是为了满足个人志趣而作，或留待身后发表的文字。因为我明白，一个人要么决心不立新说，要么就得沦为捍卫学说的奴仆。[4]</blockquote><p data-pid=\"wAzyRm4X\">列日的 Linus 及其学生堪称最难缠的批评者。牛顿的传记作家 Westfall 似乎认为牛顿当时的反应有些过激： </p><blockquote data-pid=\"HGmxm67i\"> 当时牛顿所谓的「奴役」仅仅是他一年内针对列日方面所做的五次回应，总计十四页印刷内容而已。</blockquote><p data-pid=\"wLxmdtK1\">相比之下，我更理解牛顿的苦衷。问题不在那短短十四页纸的笔墨官司，而在于，这场愚蠢的争论不断侵占他本应用于思考其他事物的宝贵时间，给人带来莫大的痛苦。</p><p data-pid=\"fE6cLoFM\">事实证明，忍让也有利己之效。别人对你出手，不仅令你当下受伤，更会让你事后不断反刍，从而遭受二次伤害。如果你学会漠视，至少可以免除后者的痛苦。我发现，只要不断提醒自己「这些事情不值得主导我的头脑」，就能在一定程度上避免沉溺于那些令人不快的往事。每当我发现自己已忘却争论的细节，我便心生喜悦，因为这意味着我没有在那上面耗费过多精力。妻子总说我比她更宽容，但实际上，我的动机是纯粹的利己主义。</p><p data-pid=\"2_QSrI5N\">我怀疑，很多人其实在任何时候都不太清楚主导自己头脑的想法是什么。实际上，我自己也常常搞错。我往往以为占主导地位的是我希望成为主导的那个想法，而不是实际上占主导地位的想法。但弄清这一点其实很简单：只需洗个澡。看看你的思绪是不是总会不由自主地回到某个话题？如果那并非你想关注的内容，那么或许该做出一些改变了。</p><p data-pid=\"f26EGS4Q\"><b>附注</b></p><p data-pid=\"PvWoULvt\">[1] 毫无疑问，这种思维方式已有现成的称谓，但我称之为「环境思维（ambient thought）」。</p><p data-pid=\"ZcpZgw2T\">[2] 这一点在我们的经历中表现得尤为明显。我们筹集的两笔资金都不难获得，然而整个过程却各自拖延了数月。调动大额资金从来不是人们轻率对待的事，所需注意力也会随着资金规模不断上升——也许增长并非线性，但绝对是单调递增的。</p><p data-pid=\"c0GEj8Lr\">[3] 推论：切忌成为管理员，否则你的工作就只能整天处理资金和争执。</p><p data-pid=\"iIBgZ_3S\">[4] Letter to Oldenburg, quoted in Westfall, Richard, <i>Life of Isaac Newton</i>, p. 107.</p><p data-pid=\"QpAyL7O4\"><b>感谢</b> Sam Altman、Patrick Collison、Jessica Livingston 和 Robert Morris 审阅本文草稿。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"6xjBqaAh\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">solitude-alive</span>，校对 Jarrett Ye、<span class=\"nolink\">bstiat</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//paulgraham.com/top.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Top Idea in Your Mind</a><br/>作者：Paul Graham<br/>发布于 2010 年 7 月</blockquote>",
-  "column": {
-    "updated": 1751811203,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/c_1865730531905380352",
-    "title": "Paul Graham",
-    "image_url": "https://pic1.zhimg.com/v2-74c4f7f5dd5923f437489429b9b60a83_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1865730531905380352"
-  },
-  "comment_count": 3,
-  "image_url": "https://pic1.zhimg.com/v2-0b2a300f4f48b180cff823523992b928_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 7,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 7,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgImCgkyNTM3NTE4NjMSCzIzNjUwMzA3ODI3GAciCklNQUdFX1RFWFQ=",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 142,
+      "down_vote_count": 1,
+      "like_count": 7,
+      "comment_count": 3,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 150,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-0b2a300f4f48b180cff823523992b928": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-0b2a300f4f48b180cff823523992b928": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-0b2a300f4f48b180cff823523992b928": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "4 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/9894091099?contentId=23650307827&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · Paul Graham",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1865730531905380352",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · Paul Graham"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

@@ -1,80 +1,455 @@
 {
-  "status": 0,
+  "id": "1937122225049272877",
+  "title": "「本可以」的时机",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/1937122225049272877",
+  "image_url": "https://picx.zhimg.com/v2-5bbc277fcb0685054f867df8f09b630f_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-5bbc277fcb0685054f867df8f09b630f_720w.jpg?source=172ae18b",
+  "excerpt": "大多数人并不认为自己「本可以」通过打响指来治好阿兹海默症，所以他们并不会因为做不到这一点而感到糟糕透顶。 相比之下，那些无法克制暴饮暴食的人，或没能把玩《文明》的时间控制在合理限度内的人，却强烈地感到自己「本可以」克制，并因此为自己的决定…",
+  "created": 1754626207,
   "updated": 1755391257,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "大多数人并不认为自己「本可以」通过打响指来治好阿兹海默症，所以他们并不会因为做…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 4000,
+  "image_height": 811,
+  "content": "<p data-pid=\"Rl22VRkR\">大多数人并不认为自己「本可以」通过打响指来治好阿兹海默症，所以他们并不会因为做不到这一点而感到糟糕透顶。</p><p data-pid=\"OGeaNxLR\">相比之下，那些无法克制暴饮暴食的人，或没能把玩《文明》的时间控制在合理限度内的人，却强烈地感到自己「本可以」克制，并因此为自己的决定感到糟糕透顶。</p><p data-pid=\"p5KSAeNm\">正如我<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/not-yet-gods/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">上周的文章</a><sup data-text=\"尚非神明\" data-url=\"https://zhuanlan.zhihu.com/p/1935273252781007870\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>所说，大多数人对「本可以」的认知是有偏差的。</p><p data-pid=\"tcp8mlgL\">意志力是个稀缺品。有时，你凭意志就能挣脱心理困境，但仅是偶尔；更多时候，单凭意志力远远不够。用「下次我逼自己更紧些」的说辞，来避免熬夜玩《文明》的计划注定落空。如果上次它没有奏效，那么下次它也大概率不会奏效。<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/self-signaling-the-ability-to-do-what-you-want/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">意志力只是应急之策，并非治本之道</a>。</p><p data-pid=\"atXmYNNm\">我认为，大多数人对「本可以」的认知之所以有偏差，是因为他们把行动节点放错了地方。他们认为「决定」应该发生于《文明》的第 347 回合，在他们决定再玩一局的那一刻（以及从午夜到凌晨 4 点之间的每一个回合）。</p><p data-pid=\"dD9BgFtH\">但那并非决定真正发生的地方。如果你必须强迫自己去改变行为，那么你早已错过了真正的决策节点。</p><p data-pid=\"P1nn5OL7\">真正的决定发生在最开始——当你决定<b>是否要玩《文明》</b>的那一刻。</p><p data-pid=\"dzI1IufT\">比如说，在你的社交圈里，有位熟人时常让你恼火，每隔一阵子，你就会对他情绪爆发，陷入一场激烈的争吵。你<b>明知</b>自己不该对他大吼大叫，也<b>努力</b>避免让自己恼火。每当他开始惹恼你时，你都<b>强迫</b>自己冷静下来，但这几乎从未奏效（无论你下多大决心下次要更用力地强迫自己）。这种情况下，我建议你，不要再试图在怒火中烧时强迫自己克制，而是开始留意在你情绪爆发<b>前 5 分钟</b>发生了什么。这才是真正的决定。真正的决定不在于你是否情绪爆发的<b>那一刻</b>，而在于你是否在 5 分钟前就脱离了那个处境。</p><p data-pid=\"1Yao5guy\">真正的决定，往往发生在那些令人事后自责的决定前的几分钟。当你不得不调用意志力时，你已经错过了决策节点。（事实上，我之前曾建议过，要向自己承诺你<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/deregulating-distraction-moving-towards-the-goal-and-level-hopping/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">永远不要通过意志力脱离困境</a>——当你清楚地知道，一旦陷入需要靠意志力才能脱身的境地时，你是<b>无法</b>自救的，这反而会让你在真正的决策节点来临时敏锐地察觉到它。）</p><p data-pid=\"7wBtxeaI\">如果你发现自己陷入了某种不喜欢的行为模式，我建议你假装自己<b>丝毫没有</b>意志力。想象一下，你活在这样一个世界里：一旦开始做某件会让你上瘾的事，你就<b>不可能</b>强迫自己停下来。在那样的世界里，你会如何行动？</p><p data-pid=\"n4Wm8LWp\">去寻找你希望采取不同行动之前的触发因素。在此之前 1 小时发生了什么？5 分钟前发生了什么？在你未能知行合一的 60 秒前发生了什么？</p><p data-pid=\"-LTFGcUj\"><b>那</b>才是真正的决定所在。</p><hr/><p data-pid=\"8wcsIxLj\">大多数人对「本可以」的认知是有偏差的。他们对待自己的方式，就好像他们真的「本可以」在开始刷剧后，于某个合理的时间点停下来。他们将自己置于一个诱惑重重、违背自己清醒判断的境地，然后在屈服之后又严厉地苛责自己。</p><p data-pid=\"sG8gK11s\">相比之下，我从不认为自己「本可以」在读一本好书的中途停下来。因此，当我真的沉迷其中时，我并不会觉得糟糕透顶。相反，我会说，「啊，我明白了，我一读起好书就会无法自拔；我会把『读一本好书』看作一个无法分割的原子行为，它会花费 5 到 20 个小时，这期间不存在任何决策节点。」当别人在为完不成一项不可能的任务（「读到一半停下来，回去干正事」）而苛责自己时，我却在了解自己的能力边界，并知道自己真正的行动节点究竟在哪里。</p><p data-pid=\"20x5osA9\">我们人类并<b>不拥有</b>所有决策节点。有时，我们无法停下狂读一本好书，这和我们无法弹个响指就治愈阿尔茨海默病并无本质区别。有时，成瘾会占据上风；有时，本能会占据上风；还有些时候，是原始的暴怒占据了上风。在那些时刻，我们无法做出决策。在我们人生的每个节点，我们并非总是那个主宰者。我们常常缺乏足够的意志力去压倒我们的冲动、本能和习惯。</p><p data-pid=\"wn-rZGtB\">无论如何，目标是赢。</p><p data-pid=\"1ZXb4pOa\">我们清醒的判断力并非我们行动的绝对仲裁者，很多时候，理智的声音几乎无力影响我们的行为。我们<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/not-yet-gods/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">还不是神</a><sup data-text=\"尚非神明\" data-url=\"https://zhuanlan.zhihu.com/p/1935273252781007870\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>。我们仍是猴子，仍是神经网络。</p><p data-pid=\"3vdyLPIl\">与其为注定无法做到的事而苛责自己，我建议不如开始试验，识别真正<b>有效</b>的行动节点。</p><p data-pid=\"6SOu_a8M\">去寻找那些能让你在决策变得艰难<b>前</b>就知行合一的决定。学会识别大脑真正回应你意志的时刻。那些才是真正的决策节点，也只有从那里开始，你才能着手改进。</p><hr/><p data-pid=\"3LLOAngq\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1935273252781007870\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">尚非神明</a><p data-pid=\"00_ld1gm\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1939717823703278714\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">自我关怀</a><hr/><blockquote data-pid=\"3QsTUsvz\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">Bai2035</span>，校对 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/db7781cc868b214d3824d5d87f7a0e0d\" data-hash=\"db7781cc868b214d3824d5d87f7a0e0d\" data-hovercard=\"p$b$db7781cc868b214d3824d5d87f7a0e0d\">@Carrie455</a>、Jarrett Ye、leee_<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/where-coulds-go/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Where coulds go</a><br/>2015 年 8 月 17 日</blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19686453",
+      "type": "topic",
+      "id": "19686453",
+      "name": "内疚"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/26228858",
+      "type": "topic",
+      "id": "26228858",
+      "name": "自控"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19584658",
+      "type": "topic",
+      "id": "19584658",
+      "name": "知行合一"
+    }
+  ],
+  "voteup_count": 241,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "<p>将无益的内疚感转化为更理性、更有效能的行动和思维模式，以实现个人目标并更好地为世界做出贡献。</p>",
+    "is_following": false,
+    "url_token": "c_1900848986845319905",
+    "id": "c_1900848986845319905",
+    "articles_count": 38,
+    "accept_submission": false,
+    "title": "超越内疚",
+    "url": "https://api.zhihu.com/columns/c_1900848986845319905",
+    "comment_permission": "all",
+    "created": 1745977714,
+    "updated": 1748310019,
+    "image_url": "https://pic1.zhimg.com/v2-aadaf160e1a360ad997ceff62fd063a3_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 670,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 21,
+  "contributions": [
+    {
+      "id": 52450621,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "<p>将无益的内疚感转化为更理性、更有效能的行动和思维模式，以实现个人目标并更好地为世界做出贡献。</p>",
+        "is_following": false,
+        "url_token": "c_1900848986845319905",
+        "id": "c_1900848986845319905",
+        "articles_count": 38,
+        "accept_submission": false,
+        "title": "超越内疚",
+        "url": "https://api.zhihu.com/columns/c_1900848986845319905",
+        "comment_permission": "all",
+        "created": 1745977714,
+        "updated": 1748310019,
+        "image_url": "https://pic1.zhimg.com/v2-aadaf160e1a360ad997ceff62fd063a3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 670,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 1937122225049272800,
-  "voteup_count": 227,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 285,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "「本可以」的时机 - 来自知乎专栏「超越内疚」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/1937122225049272877 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1754626207,
-  "url": "https://api.zhihu.com/articles/1937122225049272877",
-  "comment_permission": "all",
-  "title": "「本可以」的时机",
-  "image_width": 811,
-  "content": "<p data-pid=\"Rl22VRkR\">大多数人并不认为自己「本可以」通过打响指来治好阿兹海默症，所以他们并不会因为做不到这一点而感到糟糕透顶。</p><p data-pid=\"OGeaNxLR\">相比之下，那些无法克制暴饮暴食的人，或没能把玩《文明》的时间控制在合理限度内的人，却强烈地感到自己「本可以」克制，并因此为自己的决定感到糟糕透顶。</p><p data-pid=\"p5KSAeNm\">正如我<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/not-yet-gods/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">上周的文章</a><sup data-text=\"尚非神明\" data-url=\"https://zhuanlan.zhihu.com/p/1935273252781007870\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>所说，大多数人对「本可以」的认知是有偏差的。</p><p data-pid=\"tcp8mlgL\">意志力是个稀缺品。有时，你凭意志就能挣脱心理困境，但仅是偶尔；更多时候，单凭意志力远远不够。用「下次我逼自己更紧些」的说辞，来避免熬夜玩《文明》的计划注定落空。如果上次它没有奏效，那么下次它也大概率不会奏效。<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/self-signaling-the-ability-to-do-what-you-want/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">意志力只是应急之策，并非治本之道</a>。</p><p data-pid=\"atXmYNNm\">我认为，大多数人对「本可以」的认知之所以有偏差，是因为他们把行动节点放错了地方。他们认为「决定」应该发生于《文明》的第 347 回合，在他们决定再玩一局的那一刻（以及从午夜到凌晨 4 点之间的每一个回合）。</p><p data-pid=\"dD9BgFtH\">但那并非决定真正发生的地方。如果你必须强迫自己去改变行为，那么你早已错过了真正的决策节点。</p><p data-pid=\"P1nn5OL7\">真正的决定发生在最开始——当你决定<b>是否要玩《文明》</b>的那一刻。</p><p data-pid=\"dzI1IufT\">比如说，在你的社交圈里，有位熟人时常让你恼火，每隔一阵子，你就会对他情绪爆发，陷入一场激烈的争吵。你<b>明知</b>自己不该对他大吼大叫，也<b>努力</b>避免让自己恼火。每当他开始惹恼你时，你都<b>强迫</b>自己冷静下来，但这几乎从未奏效（无论你下多大决心下次要更用力地强迫自己）。这种情况下，我建议你，不要再试图在怒火中烧时强迫自己克制，而是开始留意在你情绪爆发<b>前 5 分钟</b>发生了什么。这才是真正的决定。真正的决定不在于你是否情绪爆发的<b>那一刻</b>，而在于你是否在 5 分钟前就脱离了那个处境。</p><p data-pid=\"1Yao5guy\">真正的决定，往往发生在那些令人事后自责的决定前的几分钟。当你不得不调用意志力时，你已经错过了决策节点。（事实上，我之前曾建议过，要向自己承诺你<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/deregulating-distraction-moving-towards-the-goal-and-level-hopping/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">永远不要通过意志力脱离困境</a>——当你清楚地知道，一旦陷入需要靠意志力才能脱身的境地时，你是<b>无法</b>自救的，这反而会让你在真正的决策节点来临时敏锐地察觉到它。）</p><p data-pid=\"7wBtxeaI\">如果你发现自己陷入了某种不喜欢的行为模式，我建议你假装自己<b>丝毫没有</b>意志力。想象一下，你活在这样一个世界里：一旦开始做某件会让你上瘾的事，你就<b>不可能</b>强迫自己停下来。在那样的世界里，你会如何行动？</p><p data-pid=\"n4Wm8LWp\">去寻找你希望采取不同行动之前的触发因素。在此之前 1 小时发生了什么？5 分钟前发生了什么？在你未能知行合一的 60 秒前发生了什么？</p><p data-pid=\"-LTFGcUj\"><b>那</b>才是真正的决定所在。</p><hr/><p data-pid=\"8wcsIxLj\">大多数人对「本可以」的认知是有偏差的。他们对待自己的方式，就好像他们真的「本可以」在开始刷剧后，于某个合理的时间点停下来。他们将自己置于一个诱惑重重、违背自己清醒判断的境地，然后在屈服之后又严厉地苛责自己。</p><p data-pid=\"sG8gK11s\">相比之下，我从不认为自己「本可以」在读一本好书的中途停下来。因此，当我真的沉迷其中时，我并不会觉得糟糕透顶。相反，我会说，「啊，我明白了，我一读起好书就会无法自拔；我会把『读一本好书』看作一个无法分割的原子行为，它会花费 5 到 20 个小时，这期间不存在任何决策节点。」当别人在为完不成一项不可能的任务（「读到一半停下来，回去干正事」）而苛责自己时，我却在了解自己的能力边界，并知道自己真正的行动节点究竟在哪里。</p><p data-pid=\"20x5osA9\">我们人类并<b>不拥有</b>所有决策节点。有时，我们无法停下狂读一本好书，这和我们无法弹个响指就治愈阿尔茨海默病并无本质区别。有时，成瘾会占据上风；有时，本能会占据上风；还有些时候，是原始的暴怒占据了上风。在那些时刻，我们无法做出决策。在我们人生的每个节点，我们并非总是那个主宰者。我们常常缺乏足够的意志力去压倒我们的冲动、本能和习惯。</p><p data-pid=\"wn-rZGtB\">无论如何，目标是赢。</p><p data-pid=\"1ZXb4pOa\">我们清醒的判断力并非我们行动的绝对仲裁者，很多时候，理智的声音几乎无力影响我们的行为。我们<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/not-yet-gods/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">还不是神</a><sup data-text=\"尚非神明\" data-url=\"https://zhuanlan.zhihu.com/p/1935273252781007870\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>。我们仍是猴子，仍是神经网络。</p><p data-pid=\"3vdyLPIl\">与其为注定无法做到的事而苛责自己，我建议不如开始试验，识别真正<b>有效</b>的行动节点。</p><p data-pid=\"6SOu_a8M\">去寻找那些能让你在决策变得艰难<b>前</b>就知行合一的决定。学会识别大脑真正回应你意志的时刻。那些才是真正的决策节点，也只有从那里开始，你才能着手改进。</p><hr/><p data-pid=\"3LLOAngq\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1935273252781007870\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">尚非神明</a><p data-pid=\"00_ld1gm\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1939717823703278714\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">自我关怀</a><hr/><blockquote data-pid=\"3QsTUsvz\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">Bai2035</span>，校对 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/db7781cc868b214d3824d5d87f7a0e0d\" data-hash=\"db7781cc868b214d3824d5d87f7a0e0d\" data-hovercard=\"p$b$db7781cc868b214d3824d5d87f7a0e0d\">@Carrie455</a>、Jarrett Ye、leee_<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/where-coulds-go/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Where coulds go</a><br/>2015 年 8 月 17 日</blockquote>",
-  "column": {
-    "updated": 1748310019,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pica.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/c_1900848986845319905",
-    "title": "超越内疚",
-    "image_url": "https://pic1.zhimg.com/v2-aadaf160e1a360ad997ceff62fd063a3_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1900848986845319905"
-  },
-  "comment_count": 21,
-  "image_url": "https://pic1.zhimg.com/v2-5bbc277fcb0685054f867df8f09b630f_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 21,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 21,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyNjE0MjQ1NDgSEzE5MzcxMjIyMjUwNDkyNzI4NzcYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 241,
+      "down_vote_count": 2,
+      "like_count": 21,
+      "comment_count": 21,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 285,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-5bbc277fcb0685054f867df8f09b630f": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-5bbc277fcb0685054f867df8f09b630f": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-5bbc277fcb0685054f867df8f09b630f": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "14 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/31798581254?contentId=1937122225049272877&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 超越内疚",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1900848986845319905",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 超越内疚"
+      }
+    }
+  ],
+  "segment_infos": [
+    {
+      "pid": "7wBtxeaI",
+      "text": "如果你发现自己陷入了某种不喜欢的行为模式，我建议你假装自己丝毫没有意志力。想象一下，你活在这样一个世界里：一旦开始做某件会让你上瘾的事，你就不可能强迫自己停下来。在那样的世界里，你会如何行动？",
+      "marks": [
+        {
+          "start_index": 0,
+          "end_index": 37,
+          "seg_info": {
+            "seg_ids": [
+              "1937574316343562732"
+            ],
+            "is_like": false,
+            "like_count": 4,
+            "comment_count": 0,
+            "my_comment_count": 0,
+            "is_span": false
+          }
+        },
+        {
+          "start_index": 53,
+          "end_index": 96,
+          "seg_info": {
+            "seg_ids": [
+              "1937143133788967548"
+            ],
+            "is_like": false,
+            "like_count": 3,
+            "comment_count": 0,
+            "my_comment_count": 0,
+            "is_span": false
+          }
+        }
+      ]
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

@@ -1,80 +1,457 @@
 {
-  "status": 0,
+  "id": "449726755",
+  "title": "Readwise",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/449726755",
+  "image_url": "https://pic1.zhimg.com/v2-e6c055c26699eb85f0d57422e8a63288_720w.jpg?source=172ae18b",
+  "title_image": "https://pica.zhimg.com/v2-e6c055c26699eb85f0d57422e8a63288_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://pic3.zhimg.com/v2-a35a41d1a99db0981c710bff5bf45ff2_200x112.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1451\" data-rawheight=\"1081\" data-watermark=\"original\" data-original-src=\"v2-a35a41d1a99db0981c710bff5bf45ff2\" data-watermark-src=\"\" data-private-watermark-src=\"\" data-thumbnail=\"https://pic4.zhimg.com/v2-a35a41d1a99db0981c710bff5bf45ff2_720w.jpg?source=d16d100b\" class=\"origin_image inline-img zh-lightbox-thumb\" data-original=\"https://pic3.zhimg.com/v2-a35a41d1a99db0981c710bff5bf45ff2_r.jpg\"/>Readwise 是一项服务，旨在帮助你保持与读到的有趣想法的接触。它从 Kindle、「稍后阅读」服务、照片 + OCR 的实体书等等中提取重点标记。然后，它每天向你发送一封电子邮件，其中包括这些重点的随机组合，以便它们在你的脑海中定期刷新。 「类 SRS」 功能…",
+  "created": 1640410781,
   "updated": 1658836379,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://pica.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://pica.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "Readwise 是一项服务，旨在帮助你保持与读到的有趣想法的接触。它从 Kindle、「稍后…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 1280,
+  "image_height": 960,
+  "content": "<p data-pid=\"yCNGAtpO\">Readwise 是一项服务，旨在帮助你保持与读到的有趣想法的接触。它从 Kindle、「稍后阅读」服务、照片 + OCR 的实体书等等中提取重点标记。然后，它每天向你发送一封电子邮件，其中包括这些重点的随机组合，以便它们在你的脑海中定期刷新。</p><h2>「类 SRS」 功能</h2><p data-pid=\"w_DgJ_E9\">他们已经逐渐引入了<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4eXdSMJFv2qVGXSUEKH4vdcHBrLHcFY1ZGfC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复记忆系统</a><sup data-text=\"间隔重复记忆系统\" data-url=\"https://zhuanlan.zhihu.com/p/404257681\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>的一些功能。在每日重点内容的阅读过程中，你可以顺利地将吸引你的内容「升级」为填空题，甚至是自定义问答卡片。这是一个巧妙的策略，用于引导刚接触间隔重复的人：如果你完全是被动的，这种策略只会产出（轻微的）价值，但随着用户加大投入，伴随着渐进的用功，用户能从中获得更多的收益。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-a35a41d1a99db0981c710bff5bf45ff2_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1451\" data-rawheight=\"1081\" data-thumbnail=\"https://pic3.zhimg.com/v2-a35a41d1a99db0981c710bff5bf45ff2_b.jpg\" data-original-token=\"v2-a35a41d1a99db0981c710bff5bf45ff2\" class=\"origin_image zh-lightbox-thumb\" width=\"1451\" data-original=\"https://pic3.zhimg.com/v2-a35a41d1a99db0981c710bff5bf45ff2_r.jpg\"/></figure><p data-pid=\"y3haOtnl\">请注意，与典型 SRS 的问答按钮不同，Readwise 的核心反馈动作，是一组调节「何时再次重复」的旋钮（更早，更晚，结束）。你并不是用它标记回忆正确还是错误。</p><p data-pid=\"cShRp71n\">如果目标是制作高质量的 SRS 回忆卡片，我担心这么做不能达到效果：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/Cloze_deletion_prompts_seem_to_produce_less_understanding_than_question%252Fanswer_pairs_in_spaced_repetition_memory_systems\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">在间隔重复记忆系统中，填空卡似乎比问答卡产生更少的理解</a><sup data-text=\"在间隔重复记忆系统中，填空卡似乎比问答卡产生更少的理解\" data-url=\"https://zhuanlan.zhihu.com/p/399548149\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，而且人们大多写不出很好的问答卡，因为<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3ntJ7w9C3uapYp1m3gy2EK6PN788guzEoUNN\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">写好间隔重复记忆卡片很难</a><sup data-text=\"写好间隔重复记忆卡片很难\" data-url=\"https://zhuanlan.zhihu.com/p/397245681\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。这种界面还对段落和卡片之间进行一对一地进行编码（而不是拆分成多个卡片），这不利于彻彻底底学习一段材料：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3K5a9tM1wq1x4QnDfsUpTeYZWW3M9iUzMdfo\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复记忆卡片应该从多个角度对概念进行编码</a><sup data-text=\"间隔重复记忆卡片应该从多个角度对概念进行编码\" data-url=\"https://zhuanlan.zhihu.com/p/401463758\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>。</p><p data-pid=\"VGtYGYsN\">但 Readwise 的目标<b>不是</b>详尽地记忆，而更接近「<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z73hGbYFm7bjV3yYwK29MvbBZEcwK6kWyduqV\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">穿越时间的文本</a><sup data-text=\"穿越时间的文本\" data-url=\"https://zhuanlan.zhihu.com/p/531644719\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>」中所描述的愿景：侧重于制造「<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7tjqSxGsJ53tXsGkRpchsECWcMsW3sFUw86U\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">助记媒介使读者与材料保持长久联系</a><sup data-text=\"助记媒介使读者与材料保持长久联系\" data-url=\"https://zhuanlan.zhihu.com/p/464712237\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>」中我描述的效果 ——「......重点是对你的大脑重新编程。使你的大脑能够发现模式，形成联系，并在正确的时间重新出现正确的想法」。但 ReadWise 的方法是否真的能做到这一点？难说啊！这方面的依据不像单纯记住那样清晰可得，但也是乐趣的一部分。实际上，正因为很难量化当中的产出，用商业方式来测试其中效果显得更合适：如果人们继续为这项服务付费，那显然是发现了它的价值。</p><p data-pid=\"Rh9W_hdY\">下面是书籍的间隔管理界面，交互做得细致而用心。不过，我想知道多少用户会真的编辑它们。相较于让用户明确地设定这些值，让用户在回顾期间（他们好像也有回顾？）点击「少看」/「多看」按钮，根据次数来逐步调整这些内容是否更有意义：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-6ee6b30b5ff53f5c47b07b6f7a7f9f42_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1504\" data-rawheight=\"1081\" data-thumbnail=\"https://pic1.zhimg.com/v2-6ee6b30b5ff53f5c47b07b6f7a7f9f42_b.jpg\" data-original-token=\"v2-6ee6b30b5ff53f5c47b07b6f7a7f9f42\" class=\"origin_image zh-lightbox-thumb\" width=\"1504\" data-original=\"https://pic1.zhimg.com/v2-6ee6b30b5ff53f5c47b07b6f7a7f9f42_r.jpg\"/></figure><h2>笔记管理</h2><p data-pid=\"N08iuHrH\">Readwise 还提供了笔记组织功能：你可以在你标记的内容上打标签和添加笔记。</p><p data-pid=\"tEbEfzqz\">总的来说，我担心围绕材料书本组织一切的方式，会违反<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4enRPbLXdD8X8hCfVjaRkcGkronvhcfrgSQw\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">自主思考</a><sup data-text=\"自主思考\" data-url=\"https://zhuanlan.zhihu.com/p/438871051\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup>的原则，而且<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8QSUyNdq3CMK79KSnCW7QTR1MPHEFi4Q2LY8\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">收集材料的作用在感知上被夸大了</a><sup data-text=\"收集材料的作用在感觉上被夸大了\" data-url=\"https://zhuanlan.zhihu.com/p/437939919\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"8\">[8]</sup>。你可以阅读之前标记的重点，还可以对它们做笔记，但这个产品很难让你把这些见解相融成更深的东西。对此，恰当的工作流是将标好的重点导出到其他环境中（Notion、Evernote 等）。不过这些环境比较封闭，无法连接你的间隔重复工作流（就我所见）。</p><h2>组织</h2><p data-pid=\"hdF7vGBW\">Readwise 是由{Daniel Doyon}和{Tristan Homsi}创建的，这是一个自筹资金的公司。</p><p data-pid=\"CAW-eAIj\">也许正因为这是商业行为，所以其主张之自信往往很有误导性，反而容易卖家秀（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zqG92bvaL58AWMeL97jXaRd1Dm6hsfGvhAn\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">揭发内部腐败</a><sup data-text=\"揭发内部腐败\" data-url=\"https://zhuanlan.zhihu.com/p/546454613\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"9\">[9]</sup>）：</p><blockquote data-pid=\"B6KijONG\">我们不能只读一次就记住东西。Readwise 使用一种叫做「间隔重复」的科学方法来解决这个问题。<br/><br/>例如，如果你将 Mastery 应用于<b>深度工作</b>，而你每周的日程表开始被浅薄的电话和会议填满，你的大脑很可能会注意到这种模式，然后开始催促你创造一些不受干扰的空间。<br/>…<br/>天空是极限。<br/>…<br/>但在埃隆·马斯克完成他的 <a href=\"https://link.zhihu.com/?target=https%3A//www.neuralink.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Neuralink</a> 之前，书籍、Readwise 和 Mastery 的组合是我们最有效的技术之一。</blockquote><hr/><h2>参考文献</h2><ul><li data-pid=\"Uga_0hh8\"><a href=\"https://link.zhihu.com/?target=https%3A//blog.readwise.io/hack-your-brain-with-spaced-repetition-and-active-recall/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">使用配合书本的间隔重复和主动回忆来开拓你的大脑</a><br/> </li><li data-pid=\"bS4C_12a\"><a href=\"https://link.zhihu.com/?target=https%3A//blog.readwise.io/remember-more-of-what-you-read-with-readwise/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">通过 Readwise，你明显能从阅读中记住更多内容</a></li></ul><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"K-RoDzCR\"><a href=\"https://zhuanlan.zhihu.com/p/404257681\" class=\"internal\" target=\"_blank\">间隔重复记忆系统</a></li><li data-pid=\"n5tuydQ2\"><a href=\"https://zhuanlan.zhihu.com/p/414293765\" class=\"internal\" target=\"_blank\">可使用间隔重复系统对注意力编程</a></li><li data-pid=\"nkNq9nUU\"><a href=\"https://zhuanlan.zhihu.com/p/399548149\" class=\"internal\" target=\"_blank\">在间隔重复记忆系统中，填空卡似乎比问答卡产生更少的理解</a></li><li data-pid=\"8so8C1kx\"><a href=\"https://zhuanlan.zhihu.com/p/464712237\" class=\"internal\" target=\"_blank\">助记媒介使读者与材料保持长久联系</a></li></ul><h2>声明</h2><p data-pid=\"EXe-X8pe\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"4m9D6cYS\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2ewMN8Hzd8gt4qyfQV1ognJ5PQs3CXxDfCJ\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Readwise (andymatuschak.org)</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/21754100",
+      "type": "topic",
+      "id": "21754100",
+      "name": "渐进阅读"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19550564",
+      "type": "topic",
+      "id": "19550564",
+      "name": "阅读"
+    }
+  ],
+  "voteup_count": 22,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "间隔重复使记忆成为一种选择",
+    "is_following": false,
+    "url_token": "c_1525782291741208576",
+    "id": "c_1525782291741208576",
+    "articles_count": 182,
+    "accept_submission": true,
+    "title": "间隔重复 & 注意力管理",
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "comment_permission": "all",
+    "created": 1656554846,
+    "updated": 1751877449,
+    "image_url": "https://pic1.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 227,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 1,
+  "contributions": [
+    {
+      "id": 41315257,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "间隔重复使记忆成为一种选择",
+        "is_following": false,
+        "url_token": "c_1525782291741208576",
+        "id": "c_1525782291741208576",
+        "articles_count": 182,
+        "accept_submission": true,
+        "title": "间隔重复 & 注意力管理",
+        "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+        "comment_permission": "all",
+        "created": 1656554846,
+        "updated": 1751877449,
+        "image_url": "https://pic1.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 227,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 449726755,
-  "voteup_count": 20,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 24,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "Readwise - 来自知乎专栏「间隔重复 &amp; 注意力管理」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/449726755 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1640410781,
-  "url": "https://api.zhihu.com/articles/449726755",
-  "comment_permission": "all",
-  "title": "Readwise",
-  "image_width": 960,
-  "content": "<p data-pid=\"yCNGAtpO\">Readwise 是一项服务，旨在帮助你保持与读到的有趣想法的接触。它从 Kindle、「稍后阅读」服务、照片 + OCR 的实体书等等中提取重点标记。然后，它每天向你发送一封电子邮件，其中包括这些重点的随机组合，以便它们在你的脑海中定期刷新。</p><h2>「类 SRS」 功能</h2><p data-pid=\"w_DgJ_E9\">他们已经逐渐引入了<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4eXdSMJFv2qVGXSUEKH4vdcHBrLHcFY1ZGfC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复记忆系统</a><sup data-text=\"间隔重复记忆系统\" data-url=\"https://zhuanlan.zhihu.com/p/404257681\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>的一些功能。在每日重点内容的阅读过程中，你可以顺利地将吸引你的内容「升级」为填空题，甚至是自定义问答卡片。这是一个巧妙的策略，用于引导刚接触间隔重复的人：如果你完全是被动的，这种策略只会产出（轻微的）价值，但随着用户加大投入，伴随着渐进的用功，用户能从中获得更多的收益。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-a35a41d1a99db0981c710bff5bf45ff2_b.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1451\" data-rawheight=\"1081\" data-thumbnail=\"https://pic3.zhimg.com/v2-a35a41d1a99db0981c710bff5bf45ff2_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1451\" data-original=\"https://pic3.zhimg.com/v2-a35a41d1a99db0981c710bff5bf45ff2_r.jpg\" data-original-token=\"v2-a35a41d1a99db0981c710bff5bf45ff2\"/></figure><p data-pid=\"y3haOtnl\">请注意，与典型 SRS 的问答按钮不同，Readwise 的核心反馈动作，是一组调节「何时再次重复」的旋钮（更早，更晚，结束）。你并不是用它标记回忆正确还是错误。</p><p data-pid=\"cShRp71n\">如果目标是制作高质量的 SRS 回忆卡片，我担心这么做不能达到效果：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/Cloze_deletion_prompts_seem_to_produce_less_understanding_than_question%252Fanswer_pairs_in_spaced_repetition_memory_systems\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">在间隔重复记忆系统中，填空卡似乎比问答卡产生更少的理解</a><sup data-text=\"在间隔重复记忆系统中，填空卡似乎比问答卡产生更少的理解\" data-url=\"https://zhuanlan.zhihu.com/p/399548149\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，而且人们大多写不出很好的问答卡，因为<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3ntJ7w9C3uapYp1m3gy2EK6PN788guzEoUNN\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">写好间隔重复记忆卡片很难</a><sup data-text=\"写好间隔重复记忆卡片很难\" data-url=\"https://zhuanlan.zhihu.com/p/397245681\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。这种界面还对段落和卡片之间进行一对一地进行编码（而不是拆分成多个卡片），这不利于彻彻底底学习一段材料：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3K5a9tM1wq1x4QnDfsUpTeYZWW3M9iUzMdfo\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复记忆卡片应该从多个角度对概念进行编码</a><sup data-text=\"间隔重复记忆卡片应该从多个角度对概念进行编码\" data-url=\"https://zhuanlan.zhihu.com/p/401463758\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>。</p><p data-pid=\"VGtYGYsN\">但 Readwise 的目标<b>不是</b>详尽地记忆，而更接近「<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z73hGbYFm7bjV3yYwK29MvbBZEcwK6kWyduqV\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">穿越时间的文本</a><sup data-text=\"穿越时间的文本\" data-url=\"https://zhuanlan.zhihu.com/p/531644719\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>」中所描述的愿景：侧重于制造「<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7tjqSxGsJ53tXsGkRpchsECWcMsW3sFUw86U\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">助记媒介使读者与材料保持长久联系</a><sup data-text=\"助记媒介使读者与材料保持长久联系\" data-url=\"https://zhuanlan.zhihu.com/p/464712237\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>」中我描述的效果 ——「......重点是对你的大脑重新编程。使你的大脑能够发现模式，形成联系，并在正确的时间重新出现正确的想法」。但 ReadWise 的方法是否真的能做到这一点？难说啊！这方面的依据不像单纯记住那样清晰可得，但也是乐趣的一部分。实际上，正因为很难量化当中的产出，用商业方式来测试其中效果显得更合适：如果人们继续为这项服务付费，那显然是发现了它的价值。</p><p data-pid=\"Rh9W_hdY\">下面是书籍的间隔管理界面，交互做得细致而用心。不过，我想知道多少用户会真的编辑它们。相较于让用户明确地设定这些值，让用户在回顾期间（他们好像也有回顾？）点击「少看」/「多看」按钮，根据次数来逐步调整这些内容是否更有意义：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-6ee6b30b5ff53f5c47b07b6f7a7f9f42_b.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1504\" data-rawheight=\"1081\" data-thumbnail=\"https://pic1.zhimg.com/v2-6ee6b30b5ff53f5c47b07b6f7a7f9f42_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1504\" data-original=\"https://pic1.zhimg.com/v2-6ee6b30b5ff53f5c47b07b6f7a7f9f42_r.jpg\" data-original-token=\"v2-6ee6b30b5ff53f5c47b07b6f7a7f9f42\"/></figure><h2>笔记管理</h2><p data-pid=\"N08iuHrH\">Readwise 还提供了笔记组织功能：你可以在你标记的内容上打标签和添加笔记。</p><p data-pid=\"tEbEfzqz\">总的来说，我担心围绕材料书本组织一切的方式，会违反<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4enRPbLXdD8X8hCfVjaRkcGkronvhcfrgSQw\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">自主思考</a><sup data-text=\"自主思考\" data-url=\"https://zhuanlan.zhihu.com/p/438871051\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup>的原则，而且<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8QSUyNdq3CMK79KSnCW7QTR1MPHEFi4Q2LY8\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">收集材料的作用在感知上被夸大了</a><sup data-text=\"收集材料的作用在感觉上被夸大了\" data-url=\"https://zhuanlan.zhihu.com/p/437939919\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"8\">[8]</sup>。你可以阅读之前标记的重点，还可以对它们做笔记，但这个产品很难让你把这些见解相融成更深的东西。对此，恰当的工作流是将标好的重点导出到其他环境中（Notion、Evernote 等）。不过这些环境比较封闭，无法连接你的间隔重复工作流（就我所见）。</p><h2>组织</h2><p data-pid=\"hdF7vGBW\">Readwise 是由{Daniel Doyon}和{Tristan Homsi}创建的，这是一个自筹资金的公司。</p><p data-pid=\"CAW-eAIj\">也许正因为这是商业行为，所以其主张之自信往往很有误导性，反而容易卖家秀（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zqG92bvaL58AWMeL97jXaRd1Dm6hsfGvhAn\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">揭发内部腐败</a><sup data-text=\"揭发内部腐败\" data-url=\"https://zhuanlan.zhihu.com/p/546454613\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"9\">[9]</sup>）：</p><blockquote data-pid=\"B6KijONG\">我们不能只读一次就记住东西。Readwise 使用一种叫做「间隔重复」的科学方法来解决这个问题。<br/><br/>例如，如果你将 Mastery 应用于<b>深度工作</b>，而你每周的日程表开始被浅薄的电话和会议填满，你的大脑很可能会注意到这种模式，然后开始催促你创造一些不受干扰的空间。<br/>…<br/>天空是极限。<br/>…<br/>但在埃隆·马斯克完成他的 <a href=\"https://link.zhihu.com/?target=https%3A//www.neuralink.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Neuralink</a> 之前，书籍、Readwise 和 Mastery 的组合是我们最有效的技术之一。</blockquote><hr/><h2>参考文献</h2><ul><li data-pid=\"Uga_0hh8\"><a href=\"https://link.zhihu.com/?target=https%3A//blog.readwise.io/hack-your-brain-with-spaced-repetition-and-active-recall/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">使用配合书本的间隔重复和主动回忆来开拓你的大脑</a><br/> </li><li data-pid=\"bS4C_12a\"><a href=\"https://link.zhihu.com/?target=https%3A//blog.readwise.io/remember-more-of-what-you-read-with-readwise/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">通过 Readwise，你明显能从阅读中记住更多内容</a></li></ul><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"K-RoDzCR\"><a href=\"https://zhuanlan.zhihu.com/p/404257681\" class=\"internal\">间隔重复记忆系统</a></li><li data-pid=\"n5tuydQ2\"><a href=\"https://zhuanlan.zhihu.com/p/414293765\" class=\"internal\">可使用间隔重复系统对注意力编程</a></li><li data-pid=\"nkNq9nUU\"><a href=\"https://zhuanlan.zhihu.com/p/399548149\" class=\"internal\">在间隔重复记忆系统中，填空卡似乎比问答卡产生更少的理解</a></li><li data-pid=\"8so8C1kx\"><a href=\"https://zhuanlan.zhihu.com/p/464712237\" class=\"internal\">助记媒介使读者与材料保持长久联系</a></li></ul><h2>声明</h2><p data-pid=\"EXe-X8pe\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"4m9D6cYS\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2ewMN8Hzd8gt4qyfQV1ognJ5PQs3CXxDfCJ\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Readwise (andymatuschak.org)</a></blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 1,
-  "image_url": "https://picx.zhimg.com/v2-e6c055c26699eb85f0d57422e8a63288_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 3,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 3,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxODgwNjk0NzQSCTQ0OTcyNjc1NRgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 22,
+      "down_vote_count": 0,
+      "like_count": 3,
+      "comment_count": 1,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 24,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-6ee6b30b5ff53f5c47b07b6f7a7f9f42": 0,
+        "v2-a35a41d1a99db0981c710bff5bf45ff2": 0,
+        "v2-e6c055c26699eb85f0d57422e8a63288": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-6ee6b30b5ff53f5c47b07b6f7a7f9f42": false,
+        "v2-a35a41d1a99db0981c710bff5bf45ff2": false,
+        "v2-e6c055c26699eb85f0d57422e8a63288": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-6ee6b30b5ff53f5c47b07b6f7a7f9f42": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-a35a41d1a99db0981c710bff5bf45ff2": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-e6c055c26699eb85f0d57422e8a63288": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=449726755&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 间隔重复 & 注意力管理",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525782291741208576",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 间隔重复 & 注意力管理"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

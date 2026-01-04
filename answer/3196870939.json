@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "supermemo.guru 长期翻译中",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 5,
   "content": "<p data-pid=\"2CwtT5No\">目前暂时无法判断 FSRS 和 SM18 哪个算法更好。</p><p data-pid=\"XzzWoUZR\">以下是 FSRS 与 SM-15/SM-16/SM-17 的对比结果，数据截止至 2023 年 9 月 4 日。</p><h2>FSRS vs SM-15</h2><p data-pid=\"APVispk0\">参与对比的用户集合数量：17</p><p data-pid=\"MAIiXGcS\">参与对比的复习日志条数：257,313</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>Algorithm</th><th>Log Loss</th><th>RMSE</th><th>Universal Metric</th></tr><tr><td>FSRS</td><td>0.3819</td><td>0.3321</td><td>0.0443</td></tr><tr><td>SM-15</td><td>0.4323</td><td>0.3489</td><td>0.0771</td></tr></tbody></table><p data-pid=\"-HCfEFPq\">3 个指标都是越小越好。</p><p data-pid=\"SJadrlPe\">来源：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs-vs-sm15\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">open-spaced-repetition/fsrs-vs-sm15: A simple comparison between FSRS and SM-15 (github.com)</a></p><h2>FSRS vs SM-16 vs SM-17</h2><p data-pid=\"0gX92RGh\">参与对比的用户集合数量：11</p><p data-pid=\"1Ad81_pQ\">参与对比的复习日志条数：135,991</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>Algorithm</th><th>Log Loss</th><th>RMSE</th><th>Universal Metric</th></tr><tr><td>FSRS</td><td>0.3580</td><td>0.3223</td><td>0.0390</td></tr><tr><td>SM-17</td><td>0.3975</td><td>0.3342</td><td>0.0526</td></tr><tr><td>SM-16</td><td>0.4028</td><td>0.3408</td><td>0.0568</td></tr></tbody></table><p data-pid=\"TW1YztEM\">3 个指标都是越小越好。</p><p data-pid=\"4n45soEC\">来源：<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs-vs-sm17\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">open-spaced-repetition/fsrs-vs-sm17: A simple comparison between FSRS and SM-17 (github.com)</a></p><h2>征集数据</h2><p data-pid=\"TJztTrd4\">如果你正在使用 SuperMemo，并希望对间隔重复算法研究做出贡献，可以点击下面的链接，分享你的复习日志：</p><p data-pid=\"5c5k6o9h\"><b><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs-vs-sm17/issues/new%3Fassignees%3DL-M-Sherlock%26labels%3Ddata%26projects%3D%26template%3Ddata_share.md%26title%3D%255BData%255D\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">New Issue · open-spaced-repetition/fsrs-vs-sm17 (github.com)</a></b></p>",
   "content_need_truncated": false,
   "created_time": 1693823911,
   "excerpt": "目前暂时无法判断 FSRS 和 SM18 哪个算法更好。 以下是 FSRS 与 SM-15/SM-16/SM-17 的对比结果，数据截止至 2023 年 9 月 4 日。 FSRS vs SM-15参与对比的用户集合数量：17 参与对比的复习日志条数：257,313 AlgorithmLog LossRMSEUniversal MetricFSRS0.38190.33210.0443SM-150.43230.34890.07713 个指标都是越小越好。 来源： open-spaced-repetition/fsrs-vs-sm15: A simple comparison between FSRS and SM-15 (github.com) F…",
-  "id": 3196870939,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3196870939",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=3196870939&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1677779033,
     "detail": "",
-    "id": 587236635,
+    "id": "587236635",
     "question_type": "normal",
     "relationship": {},
     "title": "FSRS和SM18的算法哪个更好？",
     "type": "question",
     "updated_time": 1677779033,
-    "url": "https://api.zhihu.com/questions/587236635"
+    "url": "https://www.zhihu.com/api/v4/questions/587236635"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 39
+  "updated_time": 1693836915,
+  "url": "https://www.zhihu.com/api/v4/answers/3196870939",
+  "voteup_count": 41
 }

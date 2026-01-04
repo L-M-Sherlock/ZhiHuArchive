@@ -1,80 +1,431 @@
 {
-  "status": 0,
+  "id": "352763959",
+  "title": "渐进摘录处理的原因(I)：更好的元记忆判断",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/352763959",
+  "image_url": "https://picx.zhimg.com/v2-0eea81c4e76d36109758ef1a08f4578b_720w.jpg?source=172ae18b",
+  "title_image": "https://pic1.zhimg.com/v2-0eea81c4e76d36109758ef1a08f4578b_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://pic1.zhimg.com/v2-c918ba73395c2a04b56cf006eb44ee40_200x112.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"746\" data-rawheight=\"635\" data-watermark=\"watermark\" data-original-src=\"v2-c918ba73395c2a04b56cf006eb44ee40\" data-watermark-src=\"v2-d152308db251123f8ec75beb7b10770d\" data-private-watermark-src=\"\" class=\"origin_image inline-img zh-lightbox-thumb\" data-original=\"https://pic1.zhimg.com/v2-c918ba73395c2a04b56cf006eb44ee40_r.png\"/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.masterhowtolearn.com/2019-07-17-reasons-for-incremental-extract-processing/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">MasterHowToLearn - Reasons for Incremental Extract Processing (I): Superior Metamemory Judgments</a>这篇文章是关于我介绍的 <a href=\"https://zhuanlan.zhihu.com/p/352611888\" class=\"internal\" target=\"_blank\">渐进摘录处理</a>[1]背后的基本原理。我把原因从那篇文章中分离出来，因为我不认为每个人都有兴趣知道为什么，他们只对怎么样…",
+  "created": 1614216484,
   "updated": 1700469772,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "原文：MasterHowToLearn - Reasons for Incremental Extract Processing (I): Super…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 800,
+  "image_height": 815,
+  "content": "<blockquote data-pid=\"Kd44CQ2C\">原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.masterhowtolearn.com/2019-07-17-reasons-for-incremental-extract-processing/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">MasterHowToLearn - Reasons for Incremental Extract Processing (I): Superior Metamemory Judgments</a></blockquote><p data-pid=\"_ORh5g-C\">这篇文章是关于我介绍的<a href=\"https://zhuanlan.zhihu.com/p/352611888\" class=\"internal\" target=\"_blank\">渐进摘录处理</a><sup data-text=\"在渐进阅读中，创建摘录卡片后该做什么？\" data-url=\"https://zhuanlan.zhihu.com/p/352611888\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>背后的基本原理。我把原因从那篇文章中分离出来，因为我不认为每个人都有兴趣知道为什么，他们只对怎么样做和是什么感兴趣。在本文中，我将进一步阐述渐进摘录处理的第一个好处。</p><p data-pid=\"wUgHpCFt\">太长不看：当你刚做了一张摘录卡片时，你对如何处理它没有准确和足够的元记忆判断。如果你立即处理摘录卡，你将倾向于犯错误，比如挖了太多的空。这也剥夺了你通过渐进摘录处理获得的间隔重复的好处和更好的填空/问答卡片的机会。由于间隔重复的力量，在一段时间后，你将更好地知道如何处理摘录卡片。</p><h2><b>1. 通过间隔重复的力量改进元记忆判断</b></h2><h3><b>元记忆判断</b></h3><p data-pid=\"xCKo--rS\">摘自《元记忆与记忆手册》:</p><blockquote data-pid=\"N6a9nBu1\">元记忆是指人们对自己的学习和记忆过程的认识、监控和控制。</blockquote><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-d152308db251123f8ec75beb7b10770d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"746\" data-rawheight=\"635\" data-original-token=\"v2-c918ba73395c2a04b56cf006eb44ee40\" class=\"origin_image zh-lightbox-thumb\" width=\"746\" data-original=\"https://pic4.zhimg.com/v2-d152308db251123f8ec75beb7b10770d_r.jpg\"/></figure><h2><b>处理</b>摘录<b>卡片过程中的元记忆判断</b></h2><p data-pid=\"t496hCDw\">不管你是否意识到，所有这些元记忆判断和控制过程基本上都是你如何处理摘录卡片的潜在思维过程。例如：</p><p data-pid=\"l2BqvMba\">易学性(EOL)判断：如果你认为一个题目容易学，那么你就会少挖空，或者不值得做问答卡片。</p><p data-pid=\"Ro9SVtrD\">学习判断和知觉(FOK)判断：如何给卡片打分。</p><p data-pid=\"Nl-pJ_fh\">加工种类选择：是加工摘录卡片，还是做填空卡片或问答卡片。</p><p data-pid=\"1rAiR0wz\">这些思维过程体现在这些行动中：</p><p data-pid=\"w8-aDMRH\">A. 搁置：</p><blockquote data-pid=\"obNHMIKs\">“我原以为它很重要，但现在当我重读它时，我却不这么认为。”<br/><br/>虽然它还没有重要到需要进一步处理的程度，但能再读一遍还是很不错的。现在我已经读过了，我将搁置它。”</blockquote><p data-pid=\"rKfTfkTE\">B. 重写它，用你自己的话总结，以后再看张摘录卡片：</p><blockquote data-pid=\"x562WtWE\">“我知道这件事很重要，需要进一步处理，但目前我不知道如何才能最好地这样做。”</blockquote><p data-pid=\"IkPAcf_M\">C. 将其转换为填空/问答卡片：</p><blockquote data-pid=\"q2Bs6zuB\">“这很重要，我对该怎么做有明确的想法。”</blockquote><p data-pid=\"T0bYOOjB\">你对如何处理它的决定在很大程度上取决于元记忆判断。这些操作极大地影响了你的学习质量和效率。</p><h2><b>关于劣质元记忆判断的问题</b></h2><h3><b>缺乏足够的信息来做出正确的决策</b></h3><p data-pid=\"EADsdlKS\">最初，你做摘录是因为“它看起来很重要”。然而，在什么程度上(填空/问答卡片的数量)和什么格式(填空/问答/两者)上，大多是模糊的。你不能明智地决定如何处理摘录卡片，因为你缺乏确定它的清晰度和相关信息。换句话说，你不知道摘录卡片(或一般情况下，整篇文章)是否足够好，不知道如何处理它。</p><p data-pid=\"iUx1Iaq5\">在这种情况下，如果你立即处理摘录卡片，则往往会出错。例如，如果是一张你应该搁置的摘录卡片，但你却做了两个填空卡片；你可能在当时不知道的情况下，当它对你来说实际上非常重要的时候，你已经搁置了它。随着元记忆判断质量的降低，以及所有认知偏见的歪曲，由此产生的填空/问答卡片远远不是最优的。</p><h2><b>过早创建填空/问答卡片带来的心理屏障</b></h2><p data-pid=\"_ZMryPhJ\">一旦摘录卡片转换成填空/问答卡片，它就几乎定稿了。当然，你仍然可以修改它。但对我来说，它已经跨过了“做完”的心理门槛：</p><p data-pid=\"Ve_BOOZW\">如果是摘录卡片，我需要进一步处理：理解它，缩短它，提供上下文提示等等。自然而然的行动过程是修改。</p><p data-pid=\"_QKCQBVc\">如果是填空/问答卡片，主要的焦点是回忆答案。自然而然的行动过程是回忆答案。</p><p data-pid=\"uT8sr4wO\">因此，修改大多是在它变成填空/问答卡片之前完成的。我通常不会考虑是否应该搁置填空/问答卡片，但我考虑搁置摘录卡片。如果它足够重要，可以做成填空/问答卡片，我为什么要考虑搁置它呢？但我可能没有意识到的是，我的决定——把它变成填空/问答——从一开始就可能是歪曲和错误的。当过早地将摘录卡片变成填空/问答卡片时，我就会从劣质卡片中学习，甚至从一开始就不应该创建卡片。</p><p data-pid=\"IPEEdAqu\"><b>由于对</b>摘录<b>卡片的理解不充分或远未达到最佳水平，所有随后产生的填空/问答卡片都只是不成熟的创作。</b>这就像污染的血统：后来生产的东西质量低劣。糟糕的摘录决策会产生糟糕的填空/问答卡片。然后你将从糟糕的填空/问答卡片中学习和记忆。</p><h2><b>解决方法：让时间流逝，即渐进</b>摘录<b>处理</b></h2><p data-pid=\"qvTHhC2M\">渐进摘录处理本质上包括在间隔重复中：在一段时间内重复阅读相同的摘录正是间隔重复的定义。当你让时间流逝时，你将拥有更高质量的元记忆判断和控制过程。另一方面，处理摘录卡片会立即剥夺你间隔重复的好处。</p><blockquote data-pid=\"yZAW8gtk\">每次你重新思考结构和表述时，你都会磨练记忆中给定知识的表示和“连通性”。此外，随着学习的进行，你的优先级也会发生变化。有时，你会在一项很快变得无关紧要或过时的知识上过度投资。渐进方式将减少过度投资的影响。——渐进阅读</blockquote><h3><b>像对待第一次约会一样对待</b>摘录<b>卡片</b></h3><p data-pid=\"oh7KKBSG\">一张摘录卡片很像第一次约会。你无法决定是否要和这个人结婚，因为你缺乏相关的重要信息，无法做出良好的判断。你如何获得这些关键的信息？通过更好地了解这个人。摘录卡片也是如此。当你摘录的时候，你没有很好地把握你和它的关系，在更大的计划中，比如:</p><blockquote data-pid=\"Jy4-5H8q\">我真的需要这件东西吗？在我(想要的)整个知识范围中，这个卡片诚实的优先顺序是什么？这个卡片很难记住吗？若有，原因为何？这是真实的吗？它是不是尽可能的简单明了呢？我真的需要现在就知道吗？你需要补充知识才能理解卡片的所有分支吗？——渐进阅读</blockquote><p data-pid=\"m1lB2JGV\">如果你想很好地处理摘录卡片，就需要让时间流逝，才能获得更多、更准确的元记忆判断。随着时间的推移，你会变得清晰，更清楚地知道该怎么做。</p><p data-pid=\"kduVbKxy\"><b>我的观点是，由于间隔重复的力量，在一段时间后，你将更高质量的元记忆判断和控制处理。</b></p><h2><b>案例研究：两次被动复习就足够了</b></h2><p data-pid=\"M4L5r2IA\">有些摘录卡片值得多读几遍，但不值得做成填空/问答卡片。</p><p data-pid=\"hjmsaaFT\">例如，我从尤瓦尔·诺亚·哈拉里(Yuval Noah Harari)的21节课中摘录了以下关于冥想的内容：</p><blockquote data-pid=\"p5fhIQCh\">我不是首席执行官--我只是个守门人。我被要求站在我身体的入口处——鼻孔——只观察任何进出的东西。然而，过了一会儿，我就失去了注意力，离开了我的岗位。</blockquote><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a514d3420727d73c1f330472057a2426_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"656\" data-rawheight=\"171\" data-original-token=\"v2-cf854a2387c253ad93d22efd36a78bfc\" class=\"origin_image zh-lightbox-thumb\" width=\"656\" data-original=\"https://pic1.zhimg.com/v2-a514d3420727d73c1f330472057a2426_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"tjfL34CO\">正如你所看到的，在一个月的时间里，我做了摘录卡片，重读了两遍，然后搁置了它。我不记得一开始我为什么要摘录它，可能是因为我喜欢这个比喻。我本可以把它做成填空或问答卡片，但我没有。如果我立即处理这张摘录卡片，我可能会做这样的问答：</p><div class=\"highlight\"><pre><code class=\"language-text\"> 问：把注意力放在鼻孔上的比喻是什么？(有了参考资料，我会知道相关的上下文)\n 答：做身体的守门人</code></pre></div><p data-pid=\"mRDsh_I9\">重读了两遍后，我觉得不值得进一步处理，所以就将其搁置了。在以后被动地复习摘录卡片时，即使我不把它变成填空/问答卡片，但我仍然可以通过间隔重复的方式再次阅读它，因此我仍然可以受益于再次阅读，从而更多地“记住”，或者至少，哪怕是一点点丰富记忆的痕迹。</p><h2><b>我以前的心态</b></h2><p data-pid=\"xs1GOI5K\">我以前并没有意识到渐进摘录处理的好处。我有在渐进阅读时立即处理摘录的坏习惯。我的步骤：</p><ol><li data-pid=\"KqLP95cq\">一边读一篇文章，一边做摘录。</li><li data-pid=\"Dhmht6XE\">在进入下一个元素之前，如果我已经做了 4 个摘录卡片，我会把这 4 个摘录卡片变成填空卡片或(很少)问答卡片。</li></ol><p data-pid=\"vAUWlzfF\">我过去的想法是，我想要“完成”摘录卡片。我以为最终的结局是把摘录卡片变成一个填空/问答卡片。把这些段落“挂着”就像没有完成一项任务，所以为什么不马上去做呢?</p><p data-pid=\"aIrWKoUP\">但现在我意识到这不是真的。当 SuperMemo 向我展示它时，我甚至可以将其搁置。如果我不搁置它，我甚至不用一口气处理一张摘录卡片。与其压缩时间跨度，不如反其道而行之：延长时间跨度，利用间隔效应的力量。时间允许我戴上一副新眼镜，以新的视角复习材料。随着时间的推移，在区分信号和噪声时所需的判断力会更好地揭示出来。</p><p data-pid=\"SnP3rqRd\">让时间发挥它的魔力。</p><h2><b>结束语</b></h2><p data-pid=\"kGcvBE37\">在校对了这篇文章之后，我意识到这是相当复杂的。我试着在不丢失太多细节的情况下简化它。我希望这不会太让人困惑。</p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19695588",
+      "type": "topic",
+      "id": "19695588",
+      "name": "SuperMemo"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21754100",
+      "type": "topic",
+      "id": "21754100",
+      "name": "渐进阅读"
+    }
+  ],
+  "voteup_count": 36,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "用渐进学习的方式建立我们大脑的概念网络",
+    "is_following": false,
+    "url_token": "c_1308886122672484352",
+    "id": "c_1308886122672484352",
+    "articles_count": 61,
+    "accept_submission": false,
+    "title": "SuperMemo—渐进学习最前沿！",
+    "url": "https://api.zhihu.com/columns/c_1308886122672484352",
+    "comment_permission": "all",
+    "created": 1604842769,
+    "updated": 1751811091,
+    "image_url": "https://picx.zhimg.com/v2-3cce7a5e28a0717c6181134587fdd7c1_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 610,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 6,
+  "contributions": [
+    {
+      "id": 29205889,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "用渐进学习的方式建立我们大脑的概念网络",
+        "is_following": false,
+        "url_token": "c_1308886122672484352",
+        "id": "c_1308886122672484352",
+        "articles_count": 61,
+        "accept_submission": false,
+        "title": "SuperMemo—渐进学习最前沿！",
+        "url": "https://api.zhihu.com/columns/c_1308886122672484352",
+        "comment_permission": "all",
+        "created": 1604842769,
+        "updated": 1751811091,
+        "image_url": "https://picx.zhimg.com/v2-3cce7a5e28a0717c6181134587fdd7c1_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 610,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 352763959,
-  "voteup_count": 34,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 50,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "渐进摘录处理的原因(I)：更好的元记忆判断 - 来自知乎专栏「SuperMemo—渐进学习最前沿！」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/352763959 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1614216484,
-  "url": "https://api.zhihu.com/articles/352763959",
-  "comment_permission": "all",
-  "title": "渐进摘录处理的原因(I)：更好的元记忆判断",
-  "image_width": 815,
-  "content": "<blockquote data-pid=\"Kd44CQ2C\">原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.masterhowtolearn.com/2019-07-17-reasons-for-incremental-extract-processing/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">MasterHowToLearn - Reasons for Incremental Extract Processing (I): Superior Metamemory Judgments</a></blockquote><p data-pid=\"_ORh5g-C\">这篇文章是关于我介绍的<a href=\"https://zhuanlan.zhihu.com/p/352611888\" class=\"internal\">渐进摘录处理</a><sup data-text=\"在渐进阅读中，创建摘录卡片后该做什么？\" data-url=\"https://zhuanlan.zhihu.com/p/352611888\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>背后的基本原理。我把原因从那篇文章中分离出来，因为我不认为每个人都有兴趣知道为什么，他们只对怎么样做和是什么感兴趣。在本文中，我将进一步阐述渐进摘录处理的第一个好处。</p><p data-pid=\"wUgHpCFt\">太长不看：当你刚做了一张摘录卡片时，你对如何处理它没有准确和足够的元记忆判断。如果你立即处理摘录卡，你将倾向于犯错误，比如挖了太多的空。这也剥夺了你通过渐进摘录处理获得的间隔重复的好处和更好的填空/问答卡片的机会。由于间隔重复的力量，在一段时间后，你将更好地知道如何处理摘录卡片。</p><h2><b>1. 通过间隔重复的力量改进元记忆判断</b></h2><h3><b>元记忆判断</b></h3><p data-pid=\"xCKo--rS\">摘自《元记忆与记忆手册》:</p><blockquote data-pid=\"N6a9nBu1\">元记忆是指人们对自己的学习和记忆过程的认识、监控和控制。</blockquote><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-d152308db251123f8ec75beb7b10770d_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"746\" data-rawheight=\"635\" class=\"origin_image zh-lightbox-thumb\" width=\"746\" data-original=\"https://pic4.zhimg.com/v2-d152308db251123f8ec75beb7b10770d_r.jpg\" data-original-token=\"v2-c918ba73395c2a04b56cf006eb44ee40\"/></figure><h2><b>处理</b>摘录<b>卡片过程中的元记忆判断</b></h2><p data-pid=\"t496hCDw\">不管你是否意识到，所有这些元记忆判断和控制过程基本上都是你如何处理摘录卡片的潜在思维过程。例如：</p><p data-pid=\"l2BqvMba\">易学性(EOL)判断：如果你认为一个题目容易学，那么你就会少挖空，或者不值得做问答卡片。</p><p data-pid=\"Ro9SVtrD\">学习判断和知觉(FOK)判断：如何给卡片打分。</p><p data-pid=\"Nl-pJ_fh\">加工种类选择：是加工摘录卡片，还是做填空卡片或问答卡片。</p><p data-pid=\"1rAiR0wz\">这些思维过程体现在这些行动中：</p><p data-pid=\"w8-aDMRH\">A. 搁置：</p><blockquote data-pid=\"obNHMIKs\">“我原以为它很重要，但现在当我重读它时，我却不这么认为。”<br/><br/>虽然它还没有重要到需要进一步处理的程度，但能再读一遍还是很不错的。现在我已经读过了，我将搁置它。”</blockquote><p data-pid=\"rKfTfkTE\">B. 重写它，用你自己的话总结，以后再看张摘录卡片：</p><blockquote data-pid=\"x562WtWE\">“我知道这件事很重要，需要进一步处理，但目前我不知道如何才能最好地这样做。”</blockquote><p data-pid=\"IkPAcf_M\">C. 将其转换为填空/问答卡片：</p><blockquote data-pid=\"q2Bs6zuB\">“这很重要，我对该怎么做有明确的想法。”</blockquote><p data-pid=\"T0bYOOjB\">你对如何处理它的决定在很大程度上取决于元记忆判断。这些操作极大地影响了你的学习质量和效率。</p><h2><b>关于劣质元记忆判断的问题</b></h2><h3><b>缺乏足够的信息来做出正确的决策</b></h3><p data-pid=\"EADsdlKS\">最初，你做摘录是因为“它看起来很重要”。然而，在什么程度上(填空/问答卡片的数量)和什么格式(填空/问答/两者)上，大多是模糊的。你不能明智地决定如何处理摘录卡片，因为你缺乏确定它的清晰度和相关信息。换句话说，你不知道摘录卡片(或一般情况下，整篇文章)是否足够好，不知道如何处理它。</p><p data-pid=\"iUx1Iaq5\">在这种情况下，如果你立即处理摘录卡片，则往往会出错。例如，如果是一张你应该搁置的摘录卡片，但你却做了两个填空卡片；你可能在当时不知道的情况下，当它对你来说实际上非常重要的时候，你已经搁置了它。随着元记忆判断质量的降低，以及所有认知偏见的歪曲，由此产生的填空/问答卡片远远不是最优的。</p><h2><b>过早创建填空/问答卡片带来的心理屏障</b></h2><p data-pid=\"_ZMryPhJ\">一旦摘录卡片转换成填空/问答卡片，它就几乎定稿了。当然，你仍然可以修改它。但对我来说，它已经跨过了“做完”的心理门槛：</p><p data-pid=\"Ve_BOOZW\">如果是摘录卡片，我需要进一步处理：理解它，缩短它，提供上下文提示等等。自然而然的行动过程是修改。</p><p data-pid=\"_QKCQBVc\">如果是填空/问答卡片，主要的焦点是回忆答案。自然而然的行动过程是回忆答案。</p><p data-pid=\"uT8sr4wO\">因此，修改大多是在它变成填空/问答卡片之前完成的。我通常不会考虑是否应该搁置填空/问答卡片，但我考虑搁置摘录卡片。如果它足够重要，可以做成填空/问答卡片，我为什么要考虑搁置它呢？但我可能没有意识到的是，我的决定——把它变成填空/问答——从一开始就可能是歪曲和错误的。当过早地将摘录卡片变成填空/问答卡片时，我就会从劣质卡片中学习，甚至从一开始就不应该创建卡片。</p><p data-pid=\"IPEEdAqu\"><b>由于对</b>摘录<b>卡片的理解不充分或远未达到最佳水平，所有随后产生的填空/问答卡片都只是不成熟的创作。</b>这就像污染的血统：后来生产的东西质量低劣。糟糕的摘录决策会产生糟糕的填空/问答卡片。然后你将从糟糕的填空/问答卡片中学习和记忆。</p><h2><b>解决方法：让时间流逝，即渐进</b>摘录<b>处理</b></h2><p data-pid=\"qvTHhC2M\">渐进摘录处理本质上包括在间隔重复中：在一段时间内重复阅读相同的摘录正是间隔重复的定义。当你让时间流逝时，你将拥有更高质量的元记忆判断和控制过程。另一方面，处理摘录卡片会立即剥夺你间隔重复的好处。</p><blockquote data-pid=\"yZAW8gtk\">每次你重新思考结构和表述时，你都会磨练记忆中给定知识的表示和“连通性”。此外，随着学习的进行，你的优先级也会发生变化。有时，你会在一项很快变得无关紧要或过时的知识上过度投资。渐进方式将减少过度投资的影响。——渐进阅读</blockquote><h3><b>像对待第一次约会一样对待</b>摘录<b>卡片</b></h3><p data-pid=\"oh7KKBSG\">一张摘录卡片很像第一次约会。你无法决定是否要和这个人结婚，因为你缺乏相关的重要信息，无法做出良好的判断。你如何获得这些关键的信息？通过更好地了解这个人。摘录卡片也是如此。当你摘录的时候，你没有很好地把握你和它的关系，在更大的计划中，比如:</p><blockquote data-pid=\"Jy4-5H8q\">我真的需要这件东西吗？在我(想要的)整个知识范围中，这个卡片诚实的优先顺序是什么？这个卡片很难记住吗？若有，原因为何？这是真实的吗？它是不是尽可能的简单明了呢？我真的需要现在就知道吗？你需要补充知识才能理解卡片的所有分支吗？——渐进阅读</blockquote><p data-pid=\"m1lB2JGV\">如果你想很好地处理摘录卡片，就需要让时间流逝，才能获得更多、更准确的元记忆判断。随着时间的推移，你会变得清晰，更清楚地知道该怎么做。</p><p data-pid=\"kduVbKxy\"><b>我的观点是，由于间隔重复的力量，在一段时间后，你将更高质量的元记忆判断和控制处理。</b></p><h2><b>案例研究：两次被动复习就足够了</b></h2><p data-pid=\"M4L5r2IA\">有些摘录卡片值得多读几遍，但不值得做成填空/问答卡片。</p><p data-pid=\"hjmsaaFT\">例如，我从尤瓦尔·诺亚·哈拉里(Yuval Noah Harari)的21节课中摘录了以下关于冥想的内容：</p><blockquote data-pid=\"p5fhIQCh\">我不是首席执行官--我只是个守门人。我被要求站在我身体的入口处——鼻孔——只观察任何进出的东西。然而，过了一会儿，我就失去了注意力，离开了我的岗位。</blockquote><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a514d3420727d73c1f330472057a2426_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"656\" data-rawheight=\"171\" class=\"origin_image zh-lightbox-thumb\" width=\"656\" data-original=\"https://pic1.zhimg.com/v2-a514d3420727d73c1f330472057a2426_r.jpg\" data-original-token=\"v2-cf854a2387c253ad93d22efd36a78bfc\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"tjfL34CO\">正如你所看到的，在一个月的时间里，我做了摘录卡片，重读了两遍，然后搁置了它。我不记得一开始我为什么要摘录它，可能是因为我喜欢这个比喻。我本可以把它做成填空或问答卡片，但我没有。如果我立即处理这张摘录卡片，我可能会做这样的问答：</p><div class=\"highlight\"><pre><code class=\"language-text\"> 问：把注意力放在鼻孔上的比喻是什么？(有了参考资料，我会知道相关的上下文)\n 答：做身体的守门人</code></pre></div><p data-pid=\"mRDsh_I9\">重读了两遍后，我觉得不值得进一步处理，所以就将其搁置了。在以后被动地复习摘录卡片时，即使我不把它变成填空/问答卡片，但我仍然可以通过间隔重复的方式再次阅读它，因此我仍然可以受益于再次阅读，从而更多地“记住”，或者至少，哪怕是一点点丰富记忆的痕迹。</p><h2><b>我以前的心态</b></h2><p data-pid=\"xs1GOI5K\">我以前并没有意识到渐进摘录处理的好处。我有在渐进阅读时立即处理摘录的坏习惯。我的步骤：</p><ol><li data-pid=\"KqLP95cq\">一边读一篇文章，一边做摘录。</li><li data-pid=\"Dhmht6XE\">在进入下一个元素之前，如果我已经做了 4 个摘录卡片，我会把这 4 个摘录卡片变成填空卡片或(很少)问答卡片。</li></ol><p data-pid=\"vAUWlzfF\">我过去的想法是，我想要“完成”摘录卡片。我以为最终的结局是把摘录卡片变成一个填空/问答卡片。把这些段落“挂着”就像没有完成一项任务，所以为什么不马上去做呢?</p><p data-pid=\"aIrWKoUP\">但现在我意识到这不是真的。当 SuperMemo 向我展示它时，我甚至可以将其搁置。如果我不搁置它，我甚至不用一口气处理一张摘录卡片。与其压缩时间跨度，不如反其道而行之：延长时间跨度，利用间隔效应的力量。时间允许我戴上一副新眼镜，以新的视角复习材料。随着时间的推移，在区分信号和噪声时所需的判断力会更好地揭示出来。</p><p data-pid=\"SnP3rqRd\">让时间发挥它的魔力。</p><h2><b>结束语</b></h2><p data-pid=\"kGcvBE37\">在校对了这篇文章之后，我意识到这是相当复杂的。我试着在不丢失太多细节的情况下简化它。我希望这不会太让人困惑。</p>",
-  "column": {
-    "updated": 1604842769,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/c_1308886122672484352",
-    "title": "SuperMemo—渐进学习最前沿！",
-    "image_url": "https://pic1.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1308886122672484352"
-  },
-  "comment_count": 6,
-  "image_url": "https://picx.zhimg.com/v2-0eea81c4e76d36109758ef1a08f4578b_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 8,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 8,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxNjY1MjIwNjESCTM1Mjc2Mzk1ORgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 36,
+      "down_vote_count": 1,
+      "like_count": 8,
+      "comment_count": 6,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 50,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-0eea81c4e76d36109758ef1a08f4578b": 1,
+        "v2-c918ba73395c2a04b56cf006eb44ee40": 0,
+        "v2-cf854a2387c253ad93d22efd36a78bfc": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-0eea81c4e76d36109758ef1a08f4578b": false,
+        "v2-c918ba73395c2a04b56cf006eb44ee40": false,
+        "v2-cf854a2387c253ad93d22efd36a78bfc": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-0eea81c4e76d36109758ef1a08f4578b": {
+        "like_count": 1,
+        "is_liked": false
+      },
+      "v2-c918ba73395c2a04b56cf006eb44ee40": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-cf854a2387c253ad93d22efd36a78bfc": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=352763959&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · SuperMemo—渐进学习最前沿！",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1308886122672484352",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · SuperMemo—渐进学习最前沿！"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

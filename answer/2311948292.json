@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,6 +14,7 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,36 +84,56 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 1,
   "content": "<p data-pid=\"bUj1NS-A\"><img src=\"https://www.zhihu.com/equation?tex=%5Cfrac%7B71%7D%7B71%2B251%7D%5Capprox+0.22\" alt=\"\\frac{71}{71+251}\\approx 0.22\" eeimg=\"1\"/> ，和 <img src=\"https://www.zhihu.com/equation?tex=%5Cfrac%7B1%7D%7B3%7D%5Capprox+0.33\" alt=\"\\frac{1}{3}\\approx 0.33\" eeimg=\"1\"/> 差的还是有点远吧？</p><p data-pid=\"5yjw6wKw\">另外忘记 22% 属于正常情况。根据间隔效应，间隔太短，遗忘率太低，对记忆巩固效果不佳。</p><a href=\"https://zhuanlan.zhihu.com/p/279166945\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-ade3d3459a09d560ed604ddbb2def594_180x120.jpg\" data-image-width=\"500\" data-image-height=\"258\" class=\"internal\">叶峻峣：间隔效应</a><p data-pid=\"hdZmvcTj\">22% 左右的遗忘率差不多是背得比较快的水平了：</p><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Forgetting_index_in_SuperMemo%23Optimum_value_of_the_forgetting_index\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Forgetting index in SuperMemo</a><p data-pid=\"kLvFz8IF\">更多有关间隔效应的学术论文，可以参考：</p><a href=\"https://zhuanlan.zhihu.com/p/420924493\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-c411e5e812bd614048b34e5a1f48eb9f_180x120.jpg\" data-image-width=\"2240\" data-image-height=\"1264\" class=\"internal\">叶峻峣：(3/5) 高效学习的间隔重复——文献综述之间隔效应</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1642246054,
   "excerpt": "[公式] ，和 [公式] 差的还是有点远吧？另外忘记 22% 属于正常情况。根据间隔效应，间隔太短，遗忘率太低，对记忆巩固效果不佳。 [文章: 间隔效应] 22% 左右的遗忘率差不多是背得比较快的水平了： Forgetting index in SuperMemo 更多有关间隔效应的学术论文，可以参考： [文章: (3/5) 高效学习的间隔重复——文献综述之间隔效应]",
-  "id": 2311948292,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2311948292",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
     "https://zhuanlan.zhihu.com/p/279166945": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"间隔效应\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/279166945\",\"desc\":\"21 赞同 · 8 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 间隔效应是指在较长的时间间隔后成功回忆的 记忆增长 幅度更大。 间隔效应可以借助稳定化曲线 来精确表达，该曲线将该效应定义为记忆稳定化 随时间的增长。详见：稳定化曲线 间隔效应有积极和消极的解释，产生一定程度的困惑： 对长间隔的积极解释（又称稳定化 ）：如果我们在学习中增加间隔（在一定程度上），就能提高学习效果（即间隔效应是有帮助的）。对短间隔的负面解释：如果我们复习的频率过高，复习的结果会被记忆系统忽略（…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-ade3d3459a09d560ed604ddbb2def594_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"279166945\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/420924493": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"(3/5) 高效学习的间隔重复——文献综述之间隔效应\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/420924493\",\"desc\":\"78 赞同 · 10 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 总目录： 概述：https://zhuanlan.zhihu.com/p/420105707 文献综述测试效应：https://zhuanlan.zhihu.com/p/420309917 间隔效应（现在在这儿）应用指南：https://zhuanlan.zhihu.com/p/423065882 脚注：https://zhuanlan.zhihu.com/p/453406457 间隔效应 （分散练习） 测试的时机至关重要。上文中，我们注意到学完知识之后测试是有些好处，但是同样数量的测试分散到不同时机进行，更能实现 间隔效应或者间隔重复。有上百个研究涉及间隔效应：Cepeda et al 2006 这篇综述对 184 篇文章共计 317 个实验做了总结；…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-c411e5e812bd614048b34e5a1f48eb9f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"420924493\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/420924493": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"(3/5) 高效学习的间隔重复——文献综述之间隔效应\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/420924493\",\"desc\":\"90 赞同 · 10 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 总目录： 概述：https://zhuanlan.zhihu.com/p/420105707 文献综述测试效应：https://zhuanlan.zhihu.com/p/420309917 间隔效应（现在在这儿）应用指南：https://zhuanlan.zhihu.com/p/423065882 脚注：https://zhuanlan.zhihu.com/p/453406457 间隔效应 （分散练习） 测试的时机至关重要。上文中，我们注意到学完知识之后测试是有些好处，但是同样数量的测试分散到不同时机进行，更能实现 间隔效应或者间隔重复。有上百个研究涉及间隔效应：Cepeda et al 2006 这篇综述对 184 篇文章共计 317 个实验做了总结；…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-c411e5e812bd614048b34e5a1f48eb9f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"420924493\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=2311948292&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1638674264,
-    "detail": "<p></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-34e39c93a3f1207530b2cd9f617d4c16_b.jpeg\" data-rawwidth=\"1080\" data-rawheight=\"2340\" data-size=\"normal\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-34e39c93a3f1207530b2cd9f617d4c16_r.jpg\"/></figure><p></p>",
-    "id": 503803758,
+    "detail": "<p></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-34e39c93a3f1207530b2cd9f617d4c16_1440w.jpeg\" data-rawwidth=\"1080\" data-rawheight=\"2340\" data-size=\"normal\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-34e39c93a3f1207530b2cd9f617d4c16_r.jpg\"/></figure><p></p>",
+    "id": "503803758",
     "question_type": "normal",
     "relationship": {},
     "title": "用了墨墨232天还是每天都有3分之1左右的单词忘记 啥情况啊?",
     "type": "question",
     "updated_time": 1638674264,
-    "url": "https://api.zhihu.com/questions/503803758"
+    "url": "https://www.zhihu.com/api/v4/questions/503803758"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1642246192,
+  "url": "https://www.zhihu.com/api/v4/answers/2311948292",
   "voteup_count": 10
 }

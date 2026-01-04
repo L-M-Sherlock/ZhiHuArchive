@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,6 +14,7 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 3,
   "content": "<p data-pid=\"yhR3Yo8o\">那就启用呗 233，开启位置应该在侧边栏-设置-高级设置里面。</p><p data-pid=\"yFfoWfE1\">你导入的牌组文件可能包含别人的学习数据，并且别人开启了 V2 调度器，所以你也需要开。</p><p data-pid=\"s_1hbM9I\">如果你找不到相关设置，建议将你的 Ankidroid 升级到新版：</p><p data-pid=\"zEpLIXU9\">Github 镜像：</p><a href=\"https://link.zhihu.com/?target=https%3A//ghproxy.com/https%3A//github.com/ankidroid/Anki-Android/releases/download/v2.14.6/AnkiDroid-2.14.6-universal.apk\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">AnkiDroid for 安卓</a><a href=\"https://link.zhihu.com/?target=https%3A//ghproxy.com/https%3A//github.com/ankitects/anki/releases/download/2.1.43/anki-2.1.43-windows.exe\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anki for Win</a><p data-pid=\"_wNHnFB0\">百度云（备用）：</p><a href=\"https://link.zhihu.com/?target=https%3A//pan.baidu.com/s/16JFHGO9Yk1hlUD1d84iCGA\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">pan.baidu.com/s/16JFHGO</span><span class=\"invisible\">9Yk1hlUD1d84iCGA</span><span class=\"ellipsis\"></span></a><p></p><p></p>",
   "content_need_truncated": false,
   "created_time": 1621499916,
   "excerpt": "那就启用呗 233，开启位置应该在侧边栏-设置-高级设置里面。 你导入的牌组文件可能包含别人的学习数据，并且别人开启了 V2 调度器，所以你也需要开。 如果你找不到相关设置，建议将你的 Ankidroid 升级到新版： Github 镜像： AnkiDroid for 安卓 Anki for Win 百度云（备用）： https://pan.baidu.com/s/16JFHGO9Yk1hlUD1d84iCGA",
-  "id": 1896450447,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1896450447",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1896450447&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1621446192,
-    "detail": "<p></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-9ed71748aa7f54f31dcb4061c6b9c3a9_b.jpeg\" data-rawwidth=\"1080\" data-rawheight=\"2408\" data-size=\"normal\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-9ed71748aa7f54f31dcb4061c6b9c3a9_r.jpg\"/></figure><p></p>",
-    "id": 460403229,
+    "detail": "<p></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-9ed71748aa7f54f31dcb4061c6b9c3a9_1440w.jpeg\" data-rawwidth=\"1080\" data-rawheight=\"2408\" data-size=\"normal\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-9ed71748aa7f54f31dcb4061c6b9c3a9_r.jpg\"/></figure><p></p>",
+    "id": "460403229",
     "question_type": "normal",
     "relationship": {},
     "title": "anki导入过程中出现必须启用A2调度器怎么办？",
     "type": "question",
     "updated_time": 1621446192,
-    "url": "https://api.zhihu.com/questions/460403229"
+    "url": "https://www.zhihu.com/api/v4/questions/460403229"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1621499916,
+  "url": "https://www.zhihu.com/api/v4/answers/1896450447",
   "voteup_count": 9
 }

@@ -1,75 +1,362 @@
 {
-  "status": 0,
+  "id": "1941069300833190267",
+  "title": "感知内容的间隔重复",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/1941069300833190267",
+  "image_url": "https://pic1.zhimg.com/v2-e147b19813d0eb2da5632f0ec7992232_720w.jpg?source=172ae18b",
+  "title_image": "https://pic1.zhimg.com/v2-e147b19813d0eb2da5632f0ec7992232_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://picx.zhimg.com/v2-26c5c29d377994a3f2d7abd366d7f565_200x112.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1500\" data-rawheight=\"900\" data-watermark=\"original\" data-original-src=\"v2-26c5c29d377994a3f2d7abd366d7f565\" data-watermark-src=\"v2-b5178434720749a0816d016f486ef08f\" data-private-watermark-src=\"\" class=\"origin_image inline-img zh-lightbox-thumb\" data-original=\"https://picx.zhimg.com/v2-26c5c29d377994a3f2d7abd366d7f565_r.jpg\"/>间隔重复系统（SRS）功能强大，但它们存在一个根本性的盲点：无法理解你的抽认卡究竟是 <b>关于</b>什么内容的。在你的 SRS 看来，一张问「意大利的首都是什么？」的卡片和另一张问「罗马是哪个国家的首都？」的卡片是两个独立的个体，各自拥有孤立的复习历史。系…",
+  "created": 1755915536,
   "updated": 1755915536,
   "author": {
     "is_followed": false,
-    "badge": [],
-    "name": "Jarrett Ye",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
-    "gender": 1,
+    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+    "uid": "1521893281407864832",
     "user_type": "people",
-    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
-    "avatar_url": "https://picx.zhimg.com/50/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=b1748391",
     "is_following": false,
+    "url_token": "JarrettYe",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+    "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+    "name": "Jarrett Ye",
+    "is_advertiser": false,
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "gender": 1,
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+    "is_org": false,
     "type": "people",
-    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    "badge": [],
+    "badge_v2": {
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "merged_badges": [],
+      "detail_badges": [],
+      "icon": "",
+      "night_icon": ""
+    },
+    "exposed_medal": {
+      "medal_id": "1463836052717301760",
+      "medal_name": "知「势」之星",
+      "avatar_url": "https://pic1.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_r.png?source=172ae18b",
+      "mini_avatar_url": "https://pic1.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_l.png?source=172ae18b",
+      "description": "「知势榜」上榜答主即可获得",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "间隔重复系统（SRS）功能强大，但它们存在一个根本性的盲点：无法理解你的抽认卡究…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "上海",
+  "image_width": 1280,
+  "image_height": 720,
+  "content": "<p data-pid=\"Um9YmctZ\">间隔重复系统（SRS）功能强大，但它们存在一个根本性的盲点：无法理解你的抽认卡究竟是<b>关于</b>什么内容的。</p><p data-pid=\"hRhHHGIy\">在你的 SRS 看来，一张问「意大利的首都是什么？」的卡片和另一张问「罗马是哪个国家的首都？」的卡片是两个独立的个体，各自拥有孤立的复习历史。系统完全没有意识到，复习相关联的内容应该能巩固你对整个主题的记忆。</p><p data-pid=\"Lektg8cU\">每个 SRS 的核心都是一个<b>记忆模型</b>，它会根据你过往的表现来预测你对每张卡片的记忆能维持多久。如今，大多数模型完全忽略了卡片的<b>内容</b>。而<b>感知内容的记忆模型</b>正为此而生：它们不仅考虑你的复习评分，还考虑了卡片本身的语义。</p><p data-pid=\"oeEb_N5t\">这绝非仅仅为了提升调度准确性而做的小修小补，而是一项颠覆性的变革。它让构建许多人梦寐以求的那些灵活、智能的学习工具成为可能：从多角度检验理解程度的<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7wCFe7MP9VeCVApcBLC7SN\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">以想法为中心的记忆系统</a><sup data-text=\"以想法为中心的记忆系统\" data-url=\"https://zhuanlan.zhihu.com/p/1660865898\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，到由 AI 语音助手担任导师的真正<a href=\"https://link.zhihu.com/?target=https%3A//davidbieber.com/snippets/2024-03-04-conversational-spaced-repetition/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对话式间隔重复</a>。</p><p data-pid=\"Qp83VHWR\">本文将探讨何为感知内容的记忆模型，以及它们能解锁哪些新型的学习体验。</p><h2><b>调度器与记忆模型</b></h2><p data-pid=\"Ic-dMvtO\">我发现，将调度器和记忆模型区分开来非常有帮助。刚接触这个领域时，我并未立刻意识到这一点，但后来发现，要想清晰地思考 SRS，这个区分至关重要。下文我将介绍这两个概念，并论证为何将二者分离能够促进各自的独立创新，并通过将用户体验（UX）相关的问题隔离在调度器中，从而简化每个组件的开发。在学术文献中，调度器有时被称为「教师模型」，因为它决定教什么；而记忆模型则被称为「学生模型」，因为它代表了学生掌握的知识。</p><p data-pid=\"S5B_ssO8\">在 Anki 等间隔重复系统中，<b>调度器</b>是一种算法，负责挑选当天要复习的下一张卡片，它回答的问题是：<b>「根据学生卡片库中每张卡的复习历史，学生在本次学习中应该复习哪些卡片？」</b>。实际上，在构建一个间隔重复系统时，这才是你真正关心的问题。调度器的核心任务是决定<b>今天该展示哪些卡片</b>，而不仅仅是<b>每张卡片理想的复习时间</b>。一张卡片可能已经「到期」需要复习，但调度器可能因每日复习上限而跳过它，或优先处理其他逾期更久的卡片，或基于其他目标将其推迟。</p><p data-pid=\"NqCH0dK_\">在很长一段时间里，Anki 中唯一的调度器是 <a href=\"https://link.zhihu.com/?target=https%3A//faqs.ankiweb.net/what-spaced-repetition-algorithm\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SuperMemo SM-2 算法的一个变体</a><sup data-text=\"Anki 使用什么间隔重复算法？\" data-url=\"https://open-spaced-repetition.github.io/anki-faqs-zh-CN/what-spaced-repetition-algorithm\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，该算法可追溯至 <a href=\"https://link.zhihu.com/?target=https%3A//www.supermemo.com/en/blog/the-true-history-of-spaced-repetition%231987\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">1987</a><sup data-text=\"04 1987 SuperMemo 1.0: 日志\" data-url=\"https://zhuanlan.zhihu.com/p/97887756\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup> 年。它虽然简单，却出奇地有效。此后，SuperMemo 不断改进其调度器，如今已更新至 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Algorithm_SM-18\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SM-18</a> 版本。最新几代算法能以更少的复习次数达到同等的记忆保留率，并且在复习间隔偏离最优值时（例如，学生中断学习数周后归来）表现得更为稳健。尽管 SuperMemo 的调度器是闭源的，但网上有其工作原理的<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Algorithm_SM-17\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">说明</a>。<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">FSRS</a> 则是由 Jarrett Ye 开发的一款开源调度器，其构建原理与现代 SuperMemo 算法相似，并且可以在 Anki 中使用。</p><p data-pid=\"Zi4wXQ77\"><b>记忆模型</b>则负责预测遗忘曲线，它回答的问题是：<b>「根据学生卡片库中每张卡的复习历史，学生在任意时刻记起某张特定卡片的概率是多少？」</b></p><p data-pid=\"X6wQM-z_\">我们将<b>可提取性（retrievability）</b>定义为学生在特定时间点记起某张卡片的概率。在实践中，我们通常将其简化为一个二元结果：学生要么记得，要么忘了。一些间隔重复系统允许更细化的评分等级，例如 Anki 就有「重来」、「困难」、「良好」、「简单」四个选项。这些来自复习历史的额外信息有助于提升记忆模型的准确性。</p><p data-pid=\"k92VVEJ4\">遗忘曲线描绘了可提取性随时间变化的轨迹。记忆模型的任务就是根据学生的复习历史来计算这些曲线。通常，随着时间的推移，可提取性会下降，因为学生忘记卡片的可能性增加了。例如，下图展示了不同记忆模型根据同一份复习历史估算出的遗忘曲线（图片来源我的<a href=\"https://link.zhihu.com/?target=https%3A//www.politesi.polimi.it/handle/10589/186407\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">硕士论文</a>）：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-26c5c29d377994a3f2d7abd366d7f565_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1500\" data-rawheight=\"900\" data-original-token=\"v2-26c5c29d377994a3f2d7abd366d7f565\" class=\"origin_image zh-lightbox-thumb\" width=\"1500\" data-original=\"https://picx.zhimg.com/v2-26c5c29d377994a3f2d7abd366d7f565_r.jpg\"/></figure><p data-pid=\"QFTGBZP-\">不同系统中，调度器与记忆模型的关系各不相同。调度器不一定需要依赖记忆模型。例如，<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Leitner_system\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">莱特纳系统（Leitner system）</a>和 SM-2 就不依赖记忆模型来安排复习，它们基于简单的机械规则。相比之下，像 SM-18 和 FSRS 这样的现代调度器则内置了记忆模型（利用稳定性和难度来计算可提取性）。我推荐阅读 Fernando Borretti 关于实现 <a href=\"https://link.zhihu.com/?target=https%3A//borretti.me/article/implementing-sm2-in-rust\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SM-2</a> 和 <a href=\"https://link.zhihu.com/?target=https%3A//borretti.me/article/implementing-fsrs-in-100-lines\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">FSRS</a> 的文章。值得注意的是，FSRS 在实现层面将调度器和记忆模型耦合在一起，但只要稍作修改，就能轻松地将它们分离开来，从而在系统设计上获得更大的灵活性。此外，还有一些<a href=\"https://link.zhihu.com/?target=https%3A//siddharth.io/files/deep-tutor.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">基于无模型强化学习的调度器</a>，它们直接从用户交互中学习调度策略，而无需构建我们正在讨论的这种明确、可供人类理解的遗忘模型。</p><p data-pid=\"QV2jg6D_\">一旦你有了一个能够估算学生对每张卡片记忆概率的记忆模型，你就可以基于它，采用不同策略来构建各式各样的调度器：</p><ul><li data-pid=\"RWeL916j\">当卡片的可提取性降至 90% 以下时安排复习。据我所知，这是 SRS 中最普遍的策略。FSRS 大致就是这样做的，你也可以将<b>期望的记忆保留率</b>调整为其他数值。<br/><br/></li><li data-pid=\"6ndX4AUa\">随机抽取卡片进行复习，抽中的概率与被遗忘的概率（即可提取性的补集）成正比。<a href=\"https://link.zhihu.com/?target=https%3A//www.nature.com/articles/s41539-021-00105-8\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">示例</a>。<br/><br/></li><li data-pid=\"FWLZXejh\">为新卡片或复习失败的卡片设定自定义的<b>学习</b>和<b>重学间隔</b>，从而覆盖默认的调度行为。大多数 FSRS 的实现版本都包含了此功能。<br/><br/></li><li data-pid=\"2hb4Dzu2\">对复习间隔进行模糊处理（随机微调），或采用负载均衡策略，以平滑学生在未来几天的复习量。<br/><br/></li><li data-pid=\"UgxZMh-m\">针对学生中断学习数周或数月的情况，实施不同的应对策略。例如，在 Rember 中，我们将逾期一周的卡片标记为「积压」，学生可以在每次复习时限制处理的积压卡片数量。这个想法借鉴自 <a href=\"https://link.zhihu.com/?target=https%3A//www.remnote.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">RemNote</a>。<br/><br/></li><li data-pid=\"_HSO4_5D\">构建考试模式功能：学生设定考试日期，调度器则安排复习计划，以确保在考试当天，与考试相关的卡片能达到较高的可提取性。<a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/1805.08322\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">示例</a>。<br/><br/></li><li data-pid=\"V1Y9NVZY\">除了记忆保留率，还可以考虑其他辅助目标，如学生的学习负担、新增卡片的数量，或是每张卡的预计作答时间。<a href=\"https://link.zhihu.com/?target=https%3A//www.nature.com/articles/s41539-020-00074-4\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">示例</a>。<br/><br/></li><li data-pid=\"6gZ375zL\">优化长期学习效果，而不仅仅是当下的可提取性。例如，如果一张卡片今天答错了，明天立即复习可能比等一周更能增强其未来的记忆稳定性。这种前瞻性的方法会考量今天的复习结果如何影响卡片未来的整个学习轨迹。上述部分示例也考虑了类似的深远影响。Nate Meyvis 也探讨过<a href=\"https://link.zhihu.com/?target=https%3A//www.natemeyvis.com/notes-on-spaced-repetition-scheduling.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">类似的想法</a>。</li></ul><p data-pid=\"ZVICi0I8\">正如这些例子所示，一个精准的记忆模型可以作为基石，支撑起一个多样化的调度器生态系统，每个调度器都可以针对不同的目标和用户体验进行优化。</p><p data-pid=\"6X4-vbdQ\">将记忆模型与调度器区分开来，主要有两大优势：</p><ol><li data-pid=\"YkfqGJCG\"><b>独立的创新周期。</b>我们可以独立地对调度器和记忆模型进行创新。调度器的研究可以将记忆模型视为一个黑盒，只需获取其提供的可提取性预测即可。<br/><br/></li><li data-pid=\"9zDq6HCN\"><b>与用户体验问题解耦。</b>我们可以专注于打造更优的记忆模型，而无需考虑产品或用户体验的限制。调度器的设计与产品和用户体验的考量紧密相连。例如，调度器可能会确保学生在学习结束前再次尝试答错的卡片，这样做主要的好处可能在于心理层面——让学生获得答对题目的安心感，而不是一个纯粹为优化长期记忆而做出的决定。另一个例子是负载均衡，其主要目的也是为了改善学生的学习体验。</li></ol><p data-pid=\"hsYM6ako\">这种架构上的分离并非纸上谈兵，它能带来切实的益处：你可以基于同一个底层记忆模型来 A/B 测试不同的调度策略；可以轻松换上更先进的记忆模型，而无需重构整个系统；还可以让用户根据自己的学习风格选择不同的调度方法，同时底层维持着一致的遗忘预测。</p><p data-pid=\"4JelvfjU\">目前大多数 SRS 的实现在设计上混淆了这些不同层面的问题。下一代系统若能将它们视为独立、可组合的组件，必将从中受益。</p><h2><b>感知内容的记忆模型</b></h2><p data-pid=\"Cvzf3k7a\">本节将探讨如何利用卡片的文本内容和语义关系来改进记忆模型。</p><p data-pid=\"Wtp-3iM7\">据我所知，现实世界中绝大多数间隔重复系统里的记忆模型都孤立地处理每张卡片。SM-2、SM-18 和 FSRS 仅凭每张卡片的独立复习历史来预测其遗忘曲线。忽略以下因素，意味着我们正在浪费宝贵的信息：</p><ol><li data-pid=\"v_OsTF23\"><b>相关卡片的复习历史</b>。通过卡片的语义，我们可以识别出相互关联的卡片。这使得记忆模型在估算某张特定卡片的可提取性时，能够将<b>所有</b>相关卡片的复习历史都纳入考量。<br/><br/></li><li data-pid=\"yGVwMoqZ\"><b>卡片自身的文本内容</b>。除了识别相关卡片，语义内容本身也能为记忆模型提供直接信息。例如，模型可以根据卡片的问题或答案文本，在没有任何复习记录的情况下，预估其固有难度。</li></ol><p data-pid=\"xP7t-dbR\">值得注意的是，「卡片语义」所涵盖的远不止是简单的文本相似性。我们追求的是捕捉卡片的内在质量：问题能否高效地激活记忆通路，引导学生回忆起相关概念。例如，我们需要能检测出问题中可能存在的细微歧义，因为这会增加回答的难度。此外，我们可能需要考察一组卡片的整体语义，而非孤立的单张卡片。比如，要记住一个包含三项内容的清单，你可能需要为每一项都制作一张卡片，然后再额外制作一张整合了整个清单的卡片。如果孤立地看，这张总览性质的卡片质量会很差，若没有另外三张卡片的辅助，将极难记忆。</p><p data-pid=\"ApMVWNfA\">通俗地讲，这个研究方向建议将记忆模型的关注点从：</p><div class=\"highlight\"><pre><code class=\"language-text\"> 可提取性(t) = f(t; 单张卡片的复习历史)</code></pre></div><p data-pid=\"5Pz-e5Rm\">转变为利用更丰富的上下文信息：</p><div class=\"highlight\"><pre><code class=\"language-text\"> 可提取性(t) = f(t; 所有卡片的复习历史, 所有卡片的内容)</code></pre></div><p data-pid=\"rklEFDuN\">其中，<code>t</code> 指的是距离上次复习的时间，而<code>历史</code>（无论是<code>单张卡片的复习历史</code>还是<code>所有卡片的复习历史</code>）则是一个按时间顺序排列的复习事件序列，通常包含时间戳和学生在该次复习中的评分。</p><p data-pid=\"pQA77yff\">请注意，现有的记忆模型对所有新卡片（即没有任何复习记录的卡片）一视同仁。如果能将文本内容纳入考量，我们就能对卡片的固有难度做出更可靠的初步评估，从而为那些没有或只有少量复习记录的卡片提供比统一默认值更优的调度方案。</p><p data-pid=\"PD7JzLTW\">例如，请看下面这组卡片：</p><div class=\"highlight\"><pre><code class=\"language-text\"> 问：在强化学习中，贝尔曼方程的广义定义是什么？\n 答：一个描述了某个状态的价值与其后续状态价值之间基本关系的方程。\n ​\n 问：在强化学习中，哪个方程描述了某个状态的价值与其后续状态价值之间的基本关系？\n 答：贝尔曼方程。\n ​\n 问：在强化学习中，贝尔曼方程的公式是什么？\n 答：$$ v_{\\pi}(s) = \\sum_{a} \\pi(a|s) \\sum_{s&#39;, r} p(s&#39;, r|s, a) [r + \\gamma v_{\\pi}(s&#39;)] $$</code></pre></div><p data-pid=\"Bbm2RR7h\">这三张卡片在语义上都相关联，但前两张互为概念的反向表述，它们之间的联系远比与第三张（侧重于公式）的联系要紧密得多。复习前两张中的任意一张，很可能会让回忆起另一张变得格外容易。第三张卡片或许也有类似效果，但会弱很多。（换个角度看，如果学生成功回忆起前两张中的任意一张，我们就有更强的信心认为他们也能记起另一张）。此外，第三张卡片由于其「非原子性」而天然更具挑战性：学生必须回忆起公式的多个组成部分，这增加了因忘记某个元素而将整张卡片标记为「忘记」的概率。</p><h3><b>KARL</b></h3><p data-pid=\"6fhMTLhf\">这一想法已在学术文献中得到探讨，见 <a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2402.12291\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Shu et al., 2024 - KARL: 知识感知的检索与表征有助于学生的记忆保留和学习</a>，作者在文中提出了<b>内容感知调度（content-aware scheduling）</b>这一术语。KARL 中的记忆模型使用 BERT 嵌入来对卡片的文本内容进行编码。</p><p data-pid=\"pfXhepGR\">这些嵌入向量具有双重作用：</p><ol><li data-pid=\"0qARce_E\">它们帮助从用户的学习历史中检索出语义最相似的前 k 张卡片，这些卡片的复习历史随后被送入记忆模型。<br/><br/></li><li data-pid=\"E2CmQUDt\">当前卡片及其最相似的前 k 张卡片的嵌入向量本身，也会被作为输入提供给记忆模型。</li></ol><p data-pid=\"QPFI48jJ\">研究人员在一个包含 123,143 条学习日志的数据集上对 KARL 调度器进行了评估，这些数据来自 543 名用户在一款定制抽认卡应用中对各种百科知识问题的学习记录。它的表现略微超过了 FSRS v4（此后 FSRS 已升级，目前为第 6 版）。这一结果非同凡响，因为 KARL 并未像 FSRS 那样，通过估算难度和稳定性并运用幂律遗忘曲线来显式地对记忆动态进行建模。我不禁好奇，如果一个模型既能像 FSRS-6 一样精准捕捉记忆动态，又能像 KARL 一样充分利用卡片语义，其性能将会如何。</p><h3><b>在 Rember 数据上做的小型实验</b></h3><p data-pid=\"Qu6b9gHh\">我自己也进行了一些小型实验，为这一方向的前景提供了更多佐证。在 <a href=\"https://link.zhihu.com/?target=https%3A//rember.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Rember</a> 中，我们将卡片组织在若干条笔记之下；实验时，我的账户共有 940 张卡片，分属 317 条笔记，总计有 4,447 条复习记录。你可以将笔记理解为一组语义上相似的卡片。</p><p data-pid=\"qOsWHnlD\">我在 FSRS 的基础上进行了两组实验：</p><ul><li data-pid=\"cW5J7KLh\"><code>exp_1</code>：当一张卡片没有任何复习记录时，将其初始稳定性设为同属一条笔记下其他卡片的平均稳定性。<br/><br/></li><li data-pid=\"kNmHBAya\"><code>exp_2</code>：如果在当前时间与该卡片上次复习之间，同笔记下的其他卡片被复习过，就将其稳定性乘以一个常数因子（该因子通过网格搜索法优化得出）。这模拟了一种「启动效应」，即近期接触相关概念有助于巩固当前卡片的记忆。</li></ul><p data-pid=\"vGZHmsIY\">稳定性（stability）代表一张卡片在记忆中维持的时间长度，其定义为该卡片的可提取性下降到 90% 所需的时间间隔。</p><p data-pid=\"BX3zNAOA\">我比较了以下几种记忆模型：</p><ul><li data-pid=\"2Rdc3dR2\"><code>random</code>：在 <code>[0,1]</code> 区间内随机预测可提取性</li><li data-pid=\"dD138gId\"><code>fsrs</code>：采用默认参数的 FSRS-5</li><li data-pid=\"irMXxASx\"><code>fsrs_optimized</code>：在我的卡片库上优化了参数的 FSRS-5</li><li data-pid=\"CFmRIh6O\"><code>fsrs_exp_1</code>：<code>fsrs</code> + <code>exp_1</code></li><li data-pid=\"Q5DVlP1Y\"><code>fsrs_exp_2</code>：<code>fsrs</code> + <code>exp_2</code></li><li data-pid=\"MS0hVwa_\"><code>fsrs_optimized_exp_1</code>：<code>fsrs_optimized</code> + <code>exp_1</code></li><li data-pid=\"T9QYTNV2\"><code>fsrs_optimized_exp_2</code>：<code>fsrs_optimized</code> + <code>exp_2</code></li></ul><p data-pid=\"nFdp5AZf\">我按笔记 ID 进行了 4 折交叉验证，并使用了我<a href=\"https://link.zhihu.com/?target=https%3A//www.politesi.polimi.it/handle/10589/186407\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">硕士论文</a>中相同的评估指标来比较这些模型：<i>AUC</i>（衡量区分度，越高越好）、<i>ICI</i>（衡量平均校准误差，越低越好）和 <i>E_max</i>（衡量最大校准误差，越低越好）。</p><p data-pid=\"Ktz2B4UG\">结果汇总如下表：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>模型</th><th>AUC</th><th>ICI</th><th>E_max</th></tr><tr><td>random</td><td>0.4887±0.0156</td><td>0.4235±0.0055</td><td>0.9193±0.0099</td></tr><tr><td>fsrs</td><td>0.5708±0.0172</td><td>0.0364±0.0120</td><td>0.2720±0.0912</td></tr><tr><td>fsrs_optimized</td><td>0.6294±0.0115</td><td>0.0108±0.0041</td><td>0.1904±0.0689</td></tr><tr><td>fsrs_exp_1</td><td>0.5883±0.0248</td><td>0.0281±0.0086</td><td>0.2204±0.0640</td></tr><tr><td>fsrs_exp_2</td><td>0.5716±0.0159</td><td>0.0307±0.0079</td><td>0.2355±0.0867</td></tr><tr><td>fsrs_optimized_exp_1</td><td>0.6148±0.0128</td><td>0.0070±0.0021</td><td>0.1383±0.0356</td></tr><tr><td>fsrs_optimized_exp_2</td><td>0.6386±0.0185</td><td>0.0075±0.0031</td><td>0.1285±0.0522</td></tr></tbody></table><p data-pid=\"8ZF1FBcw\">实验结果虽然基于一个小型数据集，但揭示了一个清晰的趋势：</p><ul><li data-pid=\"1mEmhjvE\">将笔记层面的信息融入 FSRS，即使是在使用默认参数的情况下（<code>fsrs_exp_1</code> 和 <code>fsrs_exp_2</code>），其表现在各项指标上普遍优于标准的 <code>fsrs</code>。<br/><br/></li><li data-pid=\"nrWUx2dB\">最佳表现出现在 FSRS 首先针对个人卡片库进行优化，然后再结合笔记层面的信息时。</li></ul><p data-pid=\"l9qkFzRM\">这些结果虽然因数据集规模有限而尚属初步，但它们有力地支持了整合语义上下文能够增强记忆模型的假设。</p><h3><b>其他考量</b></h3><p data-pid=\"RD-pPuT1\"><a href=\"https://link.zhihu.com/?target=https%3A//www.mathacademy.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">MathAcademy</a> 提供了一项有趣的间隔重复功能，该功能考虑了卡片间的语义联系。他们手动构建了一棵概念树，其中包含了概念间的依赖关系。其间隔重复调度器在安排卡片复习时，会参考其前置概念的复习情况。你可以在<a href=\"https://link.zhihu.com/?target=https%3A//www.mathacademy.com/how-our-ai-works\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这里</a><sup data-text=\"Math Academy 的 AI 是如何工作？\" data-url=\"https://zhuanlan.zhihu.com/p/1907408881207976645\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>进一步了解其调度器的工作原理。引用一段他们的描述：</p><blockquote data-pid=\"FDDp4GQU\">现有的间隔重复算法局限于处理独立的抽认卡——但这并不适用于像数学这样具有层级结构的知识体系。例如，如果一个学生练习两位数加法，他们实际上也在练习一位数加法！总的来说，对高级主题的复习应该会「渗透」到知识图谱的下层，从而更新那些被间接练习的更简单主题的复习计划。</blockquote><p data-pid=\"ZBOThkv_\">这项工作非常出色，但其调度器仅限于 MathAcademy 自建的概念树。我们需要的是能够理解卡片语义并具有更广泛适用性的记忆模型。</p><p data-pid=\"z0EG4rva\">一个普遍需要考虑的问题是调度器的计算成本。例如，在我的 M2 MacBook Pro 上，FSRS 可以在几毫秒内处理数千次复习的调度，因此可以轻松地在本地设备上的 SRS 软件中运行。而一个需要考虑所有卡片的复习历史和文本内容的记忆模型，其计算密集度可能会高得多，或许无法在不造成明显延迟或大量消耗电池的情况下在设备上本地运行。KARL 通过只考虑语义最相似的前 k 张卡片而非整个卡片库，来应对这一计算挑战。</p><p data-pid=\"x9dbPSyE\">这类模型很可能需要利用大量间隔重复用户的学习数据进行训练，这意味着：</p><ul><li data-pid=\"tVbpfCWc\">即便一个用户在系统中没有任何复习记录，模型也能为其卡片估算出初始难度。<br/><br/></li><li data-pid=\"qUHI-v6Q\">我们隐含地假设，卡片语义对所有学生复习的影响是相同的，但这未必总是成立。例如，由于对某个主题的熟悉程度不同，一张对某人来说很难的卡片，对另一个人而言可能很简单。不过，如果一张卡片对大多数学生来说都难以记忆，那么可以合理地推断它对其他人也同样困难。潜在的解决方案包括：更关注问题与底层概念的关联方式，而非概念本身，或者对学生的能力进行某种形式的建模。</li></ul><h2><b>用户体验的革新</b></h2><p data-pid=\"9Attaa9f\">尽管模型准确性的提升本身就很有价值，但更大的影响力在于卡片语义为用户体验（UX）带来的全新可能性。通过打破卡片与其复习历史之间的僵化耦合，感知内容的记忆模型赋予了间隔重复系统设计者前所未有的自由。</p><p data-pid=\"8xYwepU6\">现实中这种束缚的一个具体例子是：当我们（在 LLM 时代之前）着手开发 Rember 时，曾考虑构建一个完全基于 Markdown 的 SRS。最终放弃这个想法的主要原因是，你需要为每张卡片分配一个唯一的 ID，以便将卡片与其复习历史关联起来。在 Markdown 文件中维护这些 ID 很快就会变得一团糟，最终会变成这样：</p><div class=\"highlight\"><pre><code class=\"language-text\"> [card:abcxyz]\n 问：意大利的首都是什么？\n 答：罗马</code></pre></div><p data-pid=\"twypHUwH\">这远非理想的解决方案，它非常脆弱，因为用户可能会无意中修改 ID，或者因为复制粘贴卡片而导致 ID 重复。</p><p data-pid=\"3sYxqH3S\">那些试图摆脱 ID 的方案都走进了死胡同。你不能依赖精确的文本匹配，因为用户可能会编辑卡片内容，而你肯定不希望用户仅仅修正一个错字就导致复习历史被重置。你也不能依赖卡片在文档中的相对位置，因为用户随时可能移动卡片。在 Markdown 之上强制覆盖一个图形界面来管理 ID 倒是可行，但这在某种程度上又违背了使用 Markdown 的初衷。</p><p data-pid=\"en2tyFTh\">核心的突破在于，将卡片与其特定的复习历史解耦。记忆模型不再将复习记录与卡片 ID 绑定，而是只考虑一个全局的、基于内容的复习历史，该历史由一个个三元组构成：<code>(评分, 时间戳, 卡片文本内容)</code>。这样一来，就不再需要保证卡片的持久一致性了。从此不再有「某张卡片的复习历史」这个概念，取而代之的是一个贯穿学生整个知识库的统一「复习历史」。</p><p data-pid=\"AMauL5xw\">如此一来，调度器便可以评估学生知识库中所有当前卡片（包括新增卡片）的可提取性，而无需依赖任何过往的复习 ID。学生可以随心所欲地编辑卡片，而不会干扰调度算法。记忆模型凭借其语义理解能力，能够区分细微的格式修改（如修正错别字，这不改变核心含义）和对卡片内容的实质性改动（如替换答案，这会显著改变其语义，足以被视为一张全新的卡片）。</p><p data-pid=\"_z1c28T9\">这种解耦也为那些能够动态生成卡片的系统扫清了障碍。Andy Matuschak 曾探索过将<b>想法（ideas）</b>而非卡片作为系统核心的理念。在这种系统中，卡片是在每次复习时动态生成的，用于从多个角度检验某个想法，并且随着你对该想法越来越熟悉，卡片也会随之演变（详见他的 Patreon 文章 <a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/fluid-practice-83882597\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《灵活的记忆实践产生流畅的理解》</a><sup data-text=\"灵活的记忆实践产生流畅的理解\" data-url=\"https://zhuanlan.zhihu.com/p/646929920\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup> 或他的公开<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7wCFe7MP9VeCVApcBLC7SN\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">笔记</a><sup data-text=\"以想法为中心的记忆系统\" data-url=\"https://zhuanlan.zhihu.com/p/1660865898\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>）。感知内容的记忆模型让这种方法变得更加可行。现有的调度器假定每张卡片都有一份独立的复习历史，这对于动态生成的卡片来说，会带来一个两难的窘境：要么将每一种独特的卡片变体都当作一张新卡片，但这会切断它与核心想法的联系；要么在想法的层面上进行粗略的分组，但这又可能导致对单张卡片的复习不足。而感知内容的记忆模型则能自然地处理好这个灰色地带。</p><p data-pid=\"Z0jw8DKk\">更进一步，我们可以设计出这样一种 SRS：用与 AI 语音助手的对话来取代传统的抽认卡复习。AI 助手可以提出问题，或引导一场开放式讨论。这是 David Bieber 所探索的<a href=\"https://link.zhihu.com/?target=https%3A//davidbieber.com/snippets/2024-03-04-conversational-spaced-repetition/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对话式间隔重复</a>理念的一部分。AI agent 可以追踪学生在对话中涉及的关键想法或概念，并以某种方式判断用户是否记住了它们。感知内容的记忆模型应该能够处理这些非结构化的复习记录，即使它们无法直接对应到传统的问答卡片。</p><p data-pid=\"mdx8yR1Y\">其他好处还包括：</p><ul><li data-pid=\"GAK-S7Sn\">系统中存在重复卡片对复习实践的干扰会减小，因为调度器会将它们视为一体（当然，你可能还是需要设计功能来检测并移除它们）。<br/><br/></li><li data-pid=\"TfW_V4PN\">不同 SRS 之间的数据迁移成本会降低。目前的导入工具必须费力地同时映射卡片和复习历史。而在内容感知模型的帮助下，导入复习记录时可以直接利用源系统中卡片的文本表示，让新模型能够「理解」来自<b>任何</b>系统的复习历史，无需进行完美的内容匹配。</li></ul><p data-pid=\"_d7ykAGq\">尽管这种方法可能会让用户失去一些对单张卡片历史的直接控制权（例如手动重置某张卡的复习计划），但我相信我们可以找到缓解方案，并且这种新方法带来的益处将远超其弊端。</p><p data-pid=\"dj3Q_Rtd\">总而言之，我预言感知内容的记忆模型将极大地简化新型记忆系统的界面设计与构建工作，消除那些长期困扰 SRS 开发者的恼人障碍。</p><h2><b>数据难题</b></h2><p data-pid=\"w_st3zAd\">构建感知内容的记忆模型，其主要挑战在于数据匮乏。据我所知，目前没有任何公开可用的数据集同时包含真实的用户使用数据、卡片文本内容以及复习历史。</p><p data-pid=\"mOa996nY\">前文提到的 <a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2402.12291\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">KARL</a>，其训练数据是通过付费让用户在一款定制应用上复习百科知识抽认卡而收集的。对于我自己的间隔重复实践，我不太愿意依赖一个纯粹基于人工数据训练出来的记忆模型。FSRS 的训练数据源自 <a href=\"https://link.zhihu.com/?target=https%3A//huggingface.co/datasets/open-spaced-repetition/anki-revlogs-10k\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">anki-revlogs-10k</a>，这是一个庞大的数据集，包含了来自 1 万个 Anki 用户集合的超过 2 亿条复习记录。然而，该数据集只包含卡片、笔记和牌组的 ID，并未包含文本内容，这是因为 Anki 的<a href=\"https://link.zhihu.com/?target=https%3A//ankiweb.net/account/privacy\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">隐私政策</a>规定：</p><blockquote data-pid=\"Ew7q9HL3\">为研究和产品开发之目的，我们可能会使用您的复习历史和选项（但不包括卡片上的文本或媒体内容）进行统计分析，例如计算所有用户的平均通过率。</blockquote><p data-pid=\"jVJRVTYd\">尽管也存在其他复习数据集，但其中一个关键的缺失环节，就是一个同时满足以下条件的大型数据集：</p><ol><li data-pid=\"-cj73f33\">非商业性质，可用于研究目的</li><li data-pid=\"b4trXp4p\">包含复习历史</li><li data-pid=\"eZk6qHND\">包含卡片的文本内容</li><li data-pid=\"ZeIubc--\">覆盖广泛的主题领域（例如，不局限于语言学习）</li></ol><p data-pid=\"tXVKYuLk\">借鉴 <a href=\"https://link.zhihu.com/?target=https%3A//www.natemeyvis.com/notes-on-spaced-repetition-scheduling.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Nate Meyvis 的见解</a>，我还要补充第五点要求（下文将解释其重要性）：</p><p data-pid=\"P0b1IoB9\">5. 有一小部分复习是随机安排的，以提供无偏的数据点</p><p data-pid=\"PjR6_hmG\">来自间隔重复系统的数据本身就存在一些挑战：</p><ul><li data-pid=\"zqeQpl-K\"><b>数据是稀疏的。</b>间隔重复数据仅限于带有时间戳的二元评分序列，这道微弱且不充分的信号，远不足以完整重构学生记忆的复杂动态状态。<br/><br/></li><li data-pid=\"GvixuwqB\"><b>数据是不完整的。</b>系统捕获的有限数据无法解释那些在系统之外发生的、却对学生记忆有重大影响的关键互动。学生会在 SRS 之外接触学习材料：通过阅读、交谈或实际应用。这些对记忆至关重要的互动并未被系统记录下来。此外，每一次复习都会显著改变卡片的未来复习计划。因此，未被记录的外部回忆事件，可能会对系统所假定的记忆状态产生巨大却无法捕捉的影响。<br/><br/></li><li data-pid=\"4voxf3rv\"><b>数据是有偏见的。</b>间隔重复数据天生就会受到调度复习的记忆模型的影响，这就造成了一个「先有鸡还是先有蛋」的问题：用来训练模型的数据本身就是由模型塑造的，这可能会阻碍模型的进一步优化（参见<a href=\"https://link.zhihu.com/?target=https%3A//ceur-ws.org/Vol-1432/sl_pap3.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这篇论文</a>）。这正是为什么在真实的 SRS 中随机安排一小部分复习，能够显著提升记忆模型准确性的原因。<br/><br/></li><li data-pid=\"ugJFo3FW\"><b>数据是自我报告的。</b>我们假设学生给出的评分能真实反映其内心的记忆状态，但他们可能在实际已经忘记的情况下，仍然将卡片标记为「已记住」，或许只是为了避免面对失败感所带来的不适。</li></ul><p data-pid=\"J54jXlGc\">尽管存在上述挑战，但像 FSRS 和 SM-18 这样的当代调度器所取得的优异成果，有力地证明了数据中确实存在着宝贵的信号，并且这些信号可以从噪声中被成功地分离出来。</p><p data-pid=\"bRPFdru4\">一个潜在的出路是建立一个开源的、由社区贡献的数据集。用户可以自愿分享他们的 Anki 及其他 SRS 数据，并辅以工具来过滤敏感内容，最终形成用于评估记忆模型的标准化基准。如果你有兴趣贡献数据，或有构建社区驱动数据集的经验，或对此方法有任何想法，我非常希望<a href=\"mailto:giacomoran@gmail.com\">与你交流</a>。</p><hr/><p data-pid=\"ZIt6xJUV\"><i>我们正在为一款利用 AI 生成抽认卡的新工作流寻找测试者，如果你感兴趣，欢迎访问 <a href=\"https://link.zhihu.com/?target=https%3A//rember.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">rember.com</a> 注册加入等候名单。了解我工作的最新动态，最好的方式是关注我的 <a href=\"https://link.zhihu.com/?target=https%3A//x.com/giacomo_ran\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">x dot com</a>。</i></p><p class=\"ztext-empty-paragraph\"><br/></p><hr/><blockquote data-pid=\"n8k6X5ic\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 gemini-2.5-pro，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.giacomoran.com/blog/content-aware-sr/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Content-aware Spaced Repetition</a><br/>作者：<u><a href=\"https://link.zhihu.com/?target=https%3A//www.giacomoran.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Giacomo Randazzo</a></u><br/><u>发布日期：</u>2025-08-04</blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19559450",
+      "type": "topic",
+      "id": "19559450",
+      "name": "机器学习"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19571430",
+      "type": "topic",
+      "id": "19571430",
+      "name": "认知科学"
+    }
+  ],
+  "voteup_count": 57,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "间隔重复使记忆成为一种选择",
+    "is_following": false,
+    "url_token": "c_1525782291741208576",
+    "id": "c_1525782291741208576",
+    "articles_count": 182,
+    "accept_submission": true,
+    "title": "间隔重复 & 注意力管理",
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "comment_permission": "all",
+    "created": 1751877449,
+    "updated": 1656554846,
+    "image_url": "https://picx.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 227,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 8,
+  "contributions": [
+    {
+      "id": 52585059,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "间隔重复使记忆成为一种选择",
+        "is_following": false,
+        "url_token": "c_1525782291741208576",
+        "id": "c_1525782291741208576",
+        "articles_count": 182,
+        "accept_submission": true,
+        "title": "间隔重复 & 注意力管理",
+        "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+        "comment_permission": "all",
+        "created": 1751877449,
+        "updated": 1656554846,
+        "image_url": "https://picx.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 227,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 1941069300833190100,
-  "voteup_count": 54,
+  "annotation_action": [],
+  "can_tip": false,
+  "can_open_tipjar": true,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 47,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "感知内容的间隔重复 - 来自知乎专栏「间隔重复 &amp; 注意力管理」，作者: Jarrett Ye https://zhuanlan.zhihu.com/p/1941069300833190267 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1755915536,
-  "url": "https://api.zhihu.com/articles/1941069300833190267",
-  "comment_permission": "all",
-  "title": "感知内容的间隔重复",
-  "image_width": 720,
-  "content": "<p data-pid=\"Um9YmctZ\">间隔重复系统（SRS）功能强大，但它们存在一个根本性的盲点：无法理解你的抽认卡究竟是<b>关于</b>什么内容的。</p><p data-pid=\"hRhHHGIy\">在你的 SRS 看来，一张问「意大利的首都是什么？」的卡片和另一张问「罗马是哪个国家的首都？」的卡片是两个独立的个体，各自拥有孤立的复习历史。系统完全没有意识到，复习相关联的内容应该能巩固你对整个主题的记忆。</p><p data-pid=\"Lektg8cU\">每个 SRS 的核心都是一个<b>记忆模型</b>，它会根据你过往的表现来预测你对每张卡片的记忆能维持多久。如今，大多数模型完全忽略了卡片的<b>内容</b>。而<b>感知内容的记忆模型</b>正为此而生：它们不仅考虑你的复习评分，还考虑了卡片本身的语义。</p><p data-pid=\"oeEb_N5t\">这绝非仅仅为了提升调度准确性而做的小修小补，而是一项颠覆性的变革。它让构建许多人梦寐以求的那些灵活、智能的学习工具成为可能：从多角度检验理解程度的<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7wCFe7MP9VeCVApcBLC7SN\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">以想法为中心的记忆系统</a><sup data-text=\"以想法为中心的记忆系统\" data-url=\"https://zhuanlan.zhihu.com/p/1660865898\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，到由 AI 语音助手担任导师的真正<a href=\"https://link.zhihu.com/?target=https%3A//davidbieber.com/snippets/2024-03-04-conversational-spaced-repetition/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对话式间隔重复</a>。</p><p data-pid=\"Qp83VHWR\">本文将探讨何为感知内容的记忆模型，以及它们能解锁哪些新型的学习体验。</p><h2><b>调度器与记忆模型</b></h2><p data-pid=\"Ic-dMvtO\">我发现，将调度器和记忆模型区分开来非常有帮助。刚接触这个领域时，我并未立刻意识到这一点，但后来发现，要想清晰地思考 SRS，这个区分至关重要。下文我将介绍这两个概念，并论证为何将二者分离能够促进各自的独立创新，并通过将用户体验（UX）相关的问题隔离在调度器中，从而简化每个组件的开发。在学术文献中，调度器有时被称为「教师模型」，因为它决定教什么；而记忆模型则被称为「学生模型」，因为它代表了学生掌握的知识。</p><p data-pid=\"S5B_ssO8\">在 Anki 等间隔重复系统中，<b>调度器</b>是一种算法，负责挑选当天要复习的下一张卡片，它回答的问题是：<b>「根据学生卡片库中每张卡的复习历史，学生在本次学习中应该复习哪些卡片？」</b>。实际上，在构建一个间隔重复系统时，这才是你真正关心的问题。调度器的核心任务是决定<b>今天该展示哪些卡片</b>，而不仅仅是<b>每张卡片理想的复习时间</b>。一张卡片可能已经「到期」需要复习，但调度器可能因每日复习上限而跳过它，或优先处理其他逾期更久的卡片，或基于其他目标将其推迟。</p><p data-pid=\"NqCH0dK_\">在很长一段时间里，Anki 中唯一的调度器是 <a href=\"https://link.zhihu.com/?target=https%3A//faqs.ankiweb.net/what-spaced-repetition-algorithm\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SuperMemo SM-2 算法的一个变体</a><sup data-text=\"Anki 使用什么间隔重复算法？\" data-url=\"https://open-spaced-repetition.github.io/anki-faqs-zh-CN/what-spaced-repetition-algorithm\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，该算法可追溯至 <a href=\"https://link.zhihu.com/?target=https%3A//www.supermemo.com/en/blog/the-true-history-of-spaced-repetition%231987\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">1987</a><sup data-text=\"04 1987 SuperMemo 1.0: 日志\" data-url=\"https://zhuanlan.zhihu.com/p/97887756\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup> 年。它虽然简单，却出奇地有效。此后，SuperMemo 不断改进其调度器，如今已更新至 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Algorithm_SM-18\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SM-18</a> 版本。最新几代算法能以更少的复习次数达到同等的记忆保留率，并且在复习间隔偏离最优值时（例如，学生中断学习数周后归来）表现得更为稳健。尽管 SuperMemo 的调度器是闭源的，但网上有其工作原理的<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Algorithm_SM-17\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">说明</a>。<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">FSRS</a> 则是由 Jarrett Ye 开发的一款开源调度器，其构建原理与现代 SuperMemo 算法相似，并且可以在 Anki 中使用。</p><p data-pid=\"Zi4wXQ77\"><b>记忆模型</b>则负责预测遗忘曲线，它回答的问题是：<b>「根据学生卡片库中每张卡的复习历史，学生在任意时刻记起某张特定卡片的概率是多少？」</b></p><p data-pid=\"X6wQM-z_\">我们将<b>可提取性（retrievability）</b>定义为学生在特定时间点记起某张卡片的概率。在实践中，我们通常将其简化为一个二元结果：学生要么记得，要么忘了。一些间隔重复系统允许更细化的评分等级，例如 Anki 就有「重来」、「困难」、「良好」、「简单」四个选项。这些来自复习历史的额外信息有助于提升记忆模型的准确性。</p><p data-pid=\"k92VVEJ4\">遗忘曲线描绘了可提取性随时间变化的轨迹。记忆模型的任务就是根据学生的复习历史来计算这些曲线。通常，随着时间的推移，可提取性会下降，因为学生忘记卡片的可能性增加了。例如，下图展示了不同记忆模型根据同一份复习历史估算出的遗忘曲线（图片来源我的<a href=\"https://link.zhihu.com/?target=https%3A//www.politesi.polimi.it/handle/10589/186407\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">硕士论文</a>）：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-26c5c29d377994a3f2d7abd366d7f565_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1500\" data-rawheight=\"900\" class=\"origin_image zh-lightbox-thumb\" width=\"1500\" data-original=\"https://picx.zhimg.com/v2-26c5c29d377994a3f2d7abd366d7f565_r.jpg\" data-original-token=\"v2-26c5c29d377994a3f2d7abd366d7f565\"/></figure><p data-pid=\"QFTGBZP-\">不同系统中，调度器与记忆模型的关系各不相同。调度器不一定需要依赖记忆模型。例如，<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Leitner_system\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">莱特纳系统（Leitner system）</a>和 SM-2 就不依赖记忆模型来安排复习，它们基于简单的机械规则。相比之下，像 SM-18 和 FSRS 这样的现代调度器则内置了记忆模型（利用稳定性和难度来计算可提取性）。我推荐阅读 Fernando Borretti 关于实现 <a href=\"https://link.zhihu.com/?target=https%3A//borretti.me/article/implementing-sm2-in-rust\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SM-2</a> 和 <a href=\"https://link.zhihu.com/?target=https%3A//borretti.me/article/implementing-fsrs-in-100-lines\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">FSRS</a> 的文章。值得注意的是，FSRS 在实现层面将调度器和记忆模型耦合在一起，但只要稍作修改，就能轻松地将它们分离开来，从而在系统设计上获得更大的灵活性。此外，还有一些<a href=\"https://link.zhihu.com/?target=https%3A//siddharth.io/files/deep-tutor.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">基于无模型强化学习的调度器</a>，它们直接从用户交互中学习调度策略，而无需构建我们正在讨论的这种明确、可供人类理解的遗忘模型。</p><p data-pid=\"QV2jg6D_\">一旦你有了一个能够估算学生对每张卡片记忆概率的记忆模型，你就可以基于它，采用不同策略来构建各式各样的调度器：</p><ul><li data-pid=\"RWeL916j\">当卡片的可提取性降至 90% 以下时安排复习。据我所知，这是 SRS 中最普遍的策略。FSRS 大致就是这样做的，你也可以将<b>期望的记忆保留率</b>调整为其他数值。<br/><br/></li><li data-pid=\"6ndX4AUa\">随机抽取卡片进行复习，抽中的概率与被遗忘的概率（即可提取性的补集）成正比。<a href=\"https://link.zhihu.com/?target=https%3A//www.nature.com/articles/s41539-021-00105-8\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">示例</a>。<br/><br/></li><li data-pid=\"FWLZXejh\">为新卡片或复习失败的卡片设定自定义的<b>学习</b>和<b>重学间隔</b>，从而覆盖默认的调度行为。大多数 FSRS 的实现版本都包含了此功能。<br/><br/></li><li data-pid=\"2hb4Dzu2\">对复习间隔进行模糊处理（随机微调），或采用负载均衡策略，以平滑学生在未来几天的复习量。<br/><br/></li><li data-pid=\"UgxZMh-m\">针对学生中断学习数周或数月的情况，实施不同的应对策略。例如，在 Rember 中，我们将逾期一周的卡片标记为「积压」，学生可以在每次复习时限制处理的积压卡片数量。这个想法借鉴自 <a href=\"https://link.zhihu.com/?target=https%3A//www.remnote.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">RemNote</a>。<br/><br/></li><li data-pid=\"_HSO4_5D\">构建考试模式功能：学生设定考试日期，调度器则安排复习计划，以确保在考试当天，与考试相关的卡片能达到较高的可提取性。<a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/1805.08322\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">示例</a>。<br/><br/></li><li data-pid=\"V1Y9NVZY\">除了记忆保留率，还可以考虑其他辅助目标，如学生的学习负担、新增卡片的数量，或是每张卡的预计作答时间。<a href=\"https://link.zhihu.com/?target=https%3A//www.nature.com/articles/s41539-020-00074-4\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">示例</a>。<br/><br/></li><li data-pid=\"6gZ375zL\">优化长期学习效果，而不仅仅是当下的可提取性。例如，如果一张卡片今天答错了，明天立即复习可能比等一周更能增强其未来的记忆稳定性。这种前瞻性的方法会考量今天的复习结果如何影响卡片未来的整个学习轨迹。上述部分示例也考虑了类似的深远影响。Nate Meyvis 也探讨过<a href=\"https://link.zhihu.com/?target=https%3A//www.natemeyvis.com/notes-on-spaced-repetition-scheduling.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">类似的想法</a>。</li></ul><p data-pid=\"ZVICi0I8\">正如这些例子所示，一个精准的记忆模型可以作为基石，支撑起一个多样化的调度器生态系统，每个调度器都可以针对不同的目标和用户体验进行优化。</p><p data-pid=\"6X4-vbdQ\">将记忆模型与调度器区分开来，主要有两大优势：</p><ol><li data-pid=\"YkfqGJCG\"><b>独立的创新周期。</b>我们可以独立地对调度器和记忆模型进行创新。调度器的研究可以将记忆模型视为一个黑盒，只需获取其提供的可提取性预测即可。<br/><br/></li><li data-pid=\"9zDq6HCN\"><b>与用户体验问题解耦。</b>我们可以专注于打造更优的记忆模型，而无需考虑产品或用户体验的限制。调度器的设计与产品和用户体验的考量紧密相连。例如，调度器可能会确保学生在学习结束前再次尝试答错的卡片，这样做主要的好处可能在于心理层面——让学生获得答对题目的安心感，而不是一个纯粹为优化长期记忆而做出的决定。另一个例子是负载均衡，其主要目的也是为了改善学生的学习体验。</li></ol><p data-pid=\"hsYM6ako\">这种架构上的分离并非纸上谈兵，它能带来切实的益处：你可以基于同一个底层记忆模型来 A/B 测试不同的调度策略；可以轻松换上更先进的记忆模型，而无需重构整个系统；还可以让用户根据自己的学习风格选择不同的调度方法，同时底层维持着一致的遗忘预测。</p><p data-pid=\"4JelvfjU\">目前大多数 SRS 的实现在设计上混淆了这些不同层面的问题。下一代系统若能将它们视为独立、可组合的组件，必将从中受益。</p><h2><b>感知内容的记忆模型</b></h2><p data-pid=\"Cvzf3k7a\">本节将探讨如何利用卡片的文本内容和语义关系来改进记忆模型。</p><p data-pid=\"Wtp-3iM7\">据我所知，现实世界中绝大多数间隔重复系统里的记忆模型都孤立地处理每张卡片。SM-2、SM-18 和 FSRS 仅凭每张卡片的独立复习历史来预测其遗忘曲线。忽略以下因素，意味着我们正在浪费宝贵的信息：</p><ol><li data-pid=\"v_OsTF23\"><b>相关卡片的复习历史</b>。通过卡片的语义，我们可以识别出相互关联的卡片。这使得记忆模型在估算某张特定卡片的可提取性时，能够将<b>所有</b>相关卡片的复习历史都纳入考量。<br/><br/></li><li data-pid=\"yGVwMoqZ\"><b>卡片自身的文本内容</b>。除了识别相关卡片，语义内容本身也能为记忆模型提供直接信息。例如，模型可以根据卡片的问题或答案文本，在没有任何复习记录的情况下，预估其固有难度。</li></ol><p data-pid=\"xP7t-dbR\">值得注意的是，「卡片语义」所涵盖的远不止是简单的文本相似性。我们追求的是捕捉卡片的内在质量：问题能否高效地激活记忆通路，引导学生回忆起相关概念。例如，我们需要能检测出问题中可能存在的细微歧义，因为这会增加回答的难度。此外，我们可能需要考察一组卡片的整体语义，而非孤立的单张卡片。比如，要记住一个包含三项内容的清单，你可能需要为每一项都制作一张卡片，然后再额外制作一张整合了整个清单的卡片。如果孤立地看，这张总览性质的卡片质量会很差，若没有另外三张卡片的辅助，将极难记忆。</p><p data-pid=\"ApMVWNfA\">通俗地讲，这个研究方向建议将记忆模型的关注点从：</p><div class=\"highlight\"><pre><code class=\"language-text\"> 可提取性(t) = f(t; 单张卡片的复习历史)</code></pre></div><p data-pid=\"5Pz-e5Rm\">转变为利用更丰富的上下文信息：</p><div class=\"highlight\"><pre><code class=\"language-text\"> 可提取性(t) = f(t; 所有卡片的复习历史, 所有卡片的内容)</code></pre></div><p data-pid=\"rklEFDuN\">其中，<code>t</code> 指的是距离上次复习的时间，而<code>历史</code>（无论是<code>单张卡片的复习历史</code>还是<code>所有卡片的复习历史</code>）则是一个按时间顺序排列的复习事件序列，通常包含时间戳和学生在该次复习中的评分。</p><p data-pid=\"pQA77yff\">请注意，现有的记忆模型对所有新卡片（即没有任何复习记录的卡片）一视同仁。如果能将文本内容纳入考量，我们就能对卡片的固有难度做出更可靠的初步评估，从而为那些没有或只有少量复习记录的卡片提供比统一默认值更优的调度方案。</p><p data-pid=\"PD7JzLTW\">例如，请看下面这组卡片：</p><div class=\"highlight\"><pre><code class=\"language-text\"> 问：在强化学习中，贝尔曼方程的广义定义是什么？\n 答：一个描述了某个状态的价值与其后续状态价值之间基本关系的方程。\n ​\n 问：在强化学习中，哪个方程描述了某个状态的价值与其后续状态价值之间的基本关系？\n 答：贝尔曼方程。\n ​\n 问：在强化学习中，贝尔曼方程的公式是什么？\n 答：$$ v_{\\pi}(s) = \\sum_{a} \\pi(a|s) \\sum_{s&#39;, r} p(s&#39;, r|s, a) [r + \\gamma v_{\\pi}(s&#39;)] $$</code></pre></div><p data-pid=\"Bbm2RR7h\">这三张卡片在语义上都相关联，但前两张互为概念的反向表述，它们之间的联系远比与第三张（侧重于公式）的联系要紧密得多。复习前两张中的任意一张，很可能会让回忆起另一张变得格外容易。第三张卡片或许也有类似效果，但会弱很多。（换个角度看，如果学生成功回忆起前两张中的任意一张，我们就有更强的信心认为他们也能记起另一张）。此外，第三张卡片由于其「非原子性」而天然更具挑战性：学生必须回忆起公式的多个组成部分，这增加了因忘记某个元素而将整张卡片标记为「忘记」的概率。</p><h3><b>KARL</b></h3><p data-pid=\"6fhMTLhf\">这一想法已在学术文献中得到探讨，见 <a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2402.12291\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Shu et al., 2024 - KARL: 知识感知的检索与表征有助于学生的记忆保留和学习</a>，作者在文中提出了<b>内容感知调度（content-aware scheduling）</b>这一术语。KARL 中的记忆模型使用 BERT 嵌入来对卡片的文本内容进行编码。</p><p data-pid=\"pfXhepGR\">这些嵌入向量具有双重作用：</p><ol><li data-pid=\"0qARce_E\">它们帮助从用户的学习历史中检索出语义最相似的前 k 张卡片，这些卡片的复习历史随后被送入记忆模型。<br/><br/></li><li data-pid=\"E2CmQUDt\">当前卡片及其最相似的前 k 张卡片的嵌入向量本身，也会被作为输入提供给记忆模型。</li></ol><p data-pid=\"QPFI48jJ\">研究人员在一个包含 123,143 条学习日志的数据集上对 KARL 调度器进行了评估，这些数据来自 543 名用户在一款定制抽认卡应用中对各种百科知识问题的学习记录。它的表现略微超过了 FSRS v4（此后 FSRS 已升级，目前为第 6 版）。这一结果非同凡响，因为 KARL 并未像 FSRS 那样，通过估算难度和稳定性并运用幂律遗忘曲线来显式地对记忆动态进行建模。我不禁好奇，如果一个模型既能像 FSRS-6 一样精准捕捉记忆动态，又能像 KARL 一样充分利用卡片语义，其性能将会如何。</p><h3><b>在 Rember 数据上做的小型实验</b></h3><p data-pid=\"Qu6b9gHh\">我自己也进行了一些小型实验，为这一方向的前景提供了更多佐证。在 <a href=\"https://link.zhihu.com/?target=https%3A//rember.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Rember</a> 中，我们将卡片组织在若干条笔记之下；实验时，我的账户共有 940 张卡片，分属 317 条笔记，总计有 4,447 条复习记录。你可以将笔记理解为一组语义上相似的卡片。</p><p data-pid=\"qOsWHnlD\">我在 FSRS 的基础上进行了两组实验：</p><ul><li data-pid=\"cW5J7KLh\"><code>exp_1</code>：当一张卡片没有任何复习记录时，将其初始稳定性设为同属一条笔记下其他卡片的平均稳定性。<br/><br/></li><li data-pid=\"kNmHBAya\"><code>exp_2</code>：如果在当前时间与该卡片上次复习之间，同笔记下的其他卡片被复习过，就将其稳定性乘以一个常数因子（该因子通过网格搜索法优化得出）。这模拟了一种「启动效应」，即近期接触相关概念有助于巩固当前卡片的记忆。</li></ul><p data-pid=\"vGZHmsIY\">稳定性（stability）代表一张卡片在记忆中维持的时间长度，其定义为该卡片的可提取性下降到 90% 所需的时间间隔。</p><p data-pid=\"BX3zNAOA\">我比较了以下几种记忆模型：</p><ul><li data-pid=\"2Rdc3dR2\"><code>random</code>：在 <code>[0,1]</code> 区间内随机预测可提取性</li><li data-pid=\"dD138gId\"><code>fsrs</code>：采用默认参数的 FSRS-5</li><li data-pid=\"irMXxASx\"><code>fsrs_optimized</code>：在我的卡片库上优化了参数的 FSRS-5</li><li data-pid=\"CFmRIh6O\"><code>fsrs_exp_1</code>：<code>fsrs</code> + <code>exp_1</code></li><li data-pid=\"Q5DVlP1Y\"><code>fsrs_exp_2</code>：<code>fsrs</code> + <code>exp_2</code></li><li data-pid=\"MS0hVwa_\"><code>fsrs_optimized_exp_1</code>：<code>fsrs_optimized</code> + <code>exp_1</code></li><li data-pid=\"T9QYTNV2\"><code>fsrs_optimized_exp_2</code>：<code>fsrs_optimized</code> + <code>exp_2</code></li></ul><p data-pid=\"nFdp5AZf\">我按笔记 ID 进行了 4 折交叉验证，并使用了我<a href=\"https://link.zhihu.com/?target=https%3A//www.politesi.polimi.it/handle/10589/186407\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">硕士论文</a>中相同的评估指标来比较这些模型：<i>AUC</i>（衡量区分度，越高越好）、<i>ICI</i>（衡量平均校准误差，越低越好）和 <i>E_max</i>（衡量最大校准误差，越低越好）。</p><p data-pid=\"Ktz2B4UG\">结果汇总如下表：</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>模型</th><th>AUC</th><th>ICI</th><th>E_max</th></tr><tr><td>random</td><td>0.4887±0.0156</td><td>0.4235±0.0055</td><td>0.9193±0.0099</td></tr><tr><td>fsrs</td><td>0.5708±0.0172</td><td>0.0364±0.0120</td><td>0.2720±0.0912</td></tr><tr><td>fsrs_optimized</td><td>0.6294±0.0115</td><td>0.0108±0.0041</td><td>0.1904±0.0689</td></tr><tr><td>fsrs_exp_1</td><td>0.5883±0.0248</td><td>0.0281±0.0086</td><td>0.2204±0.0640</td></tr><tr><td>fsrs_exp_2</td><td>0.5716±0.0159</td><td>0.0307±0.0079</td><td>0.2355±0.0867</td></tr><tr><td>fsrs_optimized_exp_1</td><td>0.6148±0.0128</td><td>0.0070±0.0021</td><td>0.1383±0.0356</td></tr><tr><td>fsrs_optimized_exp_2</td><td>0.6386±0.0185</td><td>0.0075±0.0031</td><td>0.1285±0.0522</td></tr></tbody></table><p data-pid=\"8ZF1FBcw\">实验结果虽然基于一个小型数据集，但揭示了一个清晰的趋势：</p><ul><li data-pid=\"1mEmhjvE\">将笔记层面的信息融入 FSRS，即使是在使用默认参数的情况下（<code>fsrs_exp_1</code> 和 <code>fsrs_exp_2</code>），其表现在各项指标上普遍优于标准的 <code>fsrs</code>。<br/><br/></li><li data-pid=\"nrWUx2dB\">最佳表现出现在 FSRS 首先针对个人卡片库进行优化，然后再结合笔记层面的信息时。</li></ul><p data-pid=\"l9qkFzRM\">这些结果虽然因数据集规模有限而尚属初步，但它们有力地支持了整合语义上下文能够增强记忆模型的假设。</p><h3><b>其他考量</b></h3><p data-pid=\"RD-pPuT1\"><a href=\"https://link.zhihu.com/?target=https%3A//www.mathacademy.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">MathAcademy</a> 提供了一项有趣的间隔重复功能，该功能考虑了卡片间的语义联系。他们手动构建了一棵概念树，其中包含了概念间的依赖关系。其间隔重复调度器在安排卡片复习时，会参考其前置概念的复习情况。你可以在<a href=\"https://link.zhihu.com/?target=https%3A//www.mathacademy.com/how-our-ai-works\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这里</a><sup data-text=\"Math Academy 的 AI 是如何工作？\" data-url=\"https://zhuanlan.zhihu.com/p/1907408881207976645\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>进一步了解其调度器的工作原理。引用一段他们的描述：</p><blockquote data-pid=\"FDDp4GQU\">现有的间隔重复算法局限于处理独立的抽认卡——但这并不适用于像数学这样具有层级结构的知识体系。例如，如果一个学生练习两位数加法，他们实际上也在练习一位数加法！总的来说，对高级主题的复习应该会「渗透」到知识图谱的下层，从而更新那些被间接练习的更简单主题的复习计划。</blockquote><p data-pid=\"ZBOThkv_\">这项工作非常出色，但其调度器仅限于 MathAcademy 自建的概念树。我们需要的是能够理解卡片语义并具有更广泛适用性的记忆模型。</p><p data-pid=\"z0EG4rva\">一个普遍需要考虑的问题是调度器的计算成本。例如，在我的 M2 MacBook Pro 上，FSRS 可以在几毫秒内处理数千次复习的调度，因此可以轻松地在本地设备上的 SRS 软件中运行。而一个需要考虑所有卡片的复习历史和文本内容的记忆模型，其计算密集度可能会高得多，或许无法在不造成明显延迟或大量消耗电池的情况下在设备上本地运行。KARL 通过只考虑语义最相似的前 k 张卡片而非整个卡片库，来应对这一计算挑战。</p><p data-pid=\"x9dbPSyE\">这类模型很可能需要利用大量间隔重复用户的学习数据进行训练，这意味着：</p><ul><li data-pid=\"tVbpfCWc\">即便一个用户在系统中没有任何复习记录，模型也能为其卡片估算出初始难度。<br/><br/></li><li data-pid=\"qUHI-v6Q\">我们隐含地假设，卡片语义对所有学生复习的影响是相同的，但这未必总是成立。例如，由于对某个主题的熟悉程度不同，一张对某人来说很难的卡片，对另一个人而言可能很简单。不过，如果一张卡片对大多数学生来说都难以记忆，那么可以合理地推断它对其他人也同样困难。潜在的解决方案包括：更关注问题与底层概念的关联方式，而非概念本身，或者对学生的能力进行某种形式的建模。</li></ul><h2><b>用户体验的革新</b></h2><p data-pid=\"9Attaa9f\">尽管模型准确性的提升本身就很有价值，但更大的影响力在于卡片语义为用户体验（UX）带来的全新可能性。通过打破卡片与其复习历史之间的僵化耦合，感知内容的记忆模型赋予了间隔重复系统设计者前所未有的自由。</p><p data-pid=\"8xYwepU6\">现实中这种束缚的一个具体例子是：当我们（在 LLM 时代之前）着手开发 Rember 时，曾考虑构建一个完全基于 Markdown 的 SRS。最终放弃这个想法的主要原因是，你需要为每张卡片分配一个唯一的 ID，以便将卡片与其复习历史关联起来。在 Markdown 文件中维护这些 ID 很快就会变得一团糟，最终会变成这样：</p><div class=\"highlight\"><pre><code class=\"language-text\"> [card:abcxyz]\n 问：意大利的首都是什么？\n 答：罗马</code></pre></div><p data-pid=\"twypHUwH\">这远非理想的解决方案，它非常脆弱，因为用户可能会无意中修改 ID，或者因为复制粘贴卡片而导致 ID 重复。</p><p data-pid=\"3sYxqH3S\">那些试图摆脱 ID 的方案都走进了死胡同。你不能依赖精确的文本匹配，因为用户可能会编辑卡片内容，而你肯定不希望用户仅仅修正一个错字就导致复习历史被重置。你也不能依赖卡片在文档中的相对位置，因为用户随时可能移动卡片。在 Markdown 之上强制覆盖一个图形界面来管理 ID 倒是可行，但这在某种程度上又违背了使用 Markdown 的初衷。</p><p data-pid=\"en2tyFTh\">核心的突破在于，将卡片与其特定的复习历史解耦。记忆模型不再将复习记录与卡片 ID 绑定，而是只考虑一个全局的、基于内容的复习历史，该历史由一个个三元组构成：<code>(评分, 时间戳, 卡片文本内容)</code>。这样一来，就不再需要保证卡片的持久一致性了。从此不再有「某张卡片的复习历史」这个概念，取而代之的是一个贯穿学生整个知识库的统一「复习历史」。</p><p data-pid=\"AMauL5xw\">如此一来，调度器便可以评估学生知识库中所有当前卡片（包括新增卡片）的可提取性，而无需依赖任何过往的复习 ID。学生可以随心所欲地编辑卡片，而不会干扰调度算法。记忆模型凭借其语义理解能力，能够区分细微的格式修改（如修正错别字，这不改变核心含义）和对卡片内容的实质性改动（如替换答案，这会显著改变其语义，足以被视为一张全新的卡片）。</p><p data-pid=\"_z1c28T9\">这种解耦也为那些能够动态生成卡片的系统扫清了障碍。Andy Matuschak 曾探索过将<b>想法（ideas）</b>而非卡片作为系统核心的理念。在这种系统中，卡片是在每次复习时动态生成的，用于从多个角度检验某个想法，并且随着你对该想法越来越熟悉，卡片也会随之演变（详见他的 Patreon 文章 <a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/fluid-practice-83882597\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《灵活的记忆实践产生流畅的理解》</a><sup data-text=\"灵活的记忆实践产生流畅的理解\" data-url=\"https://zhuanlan.zhihu.com/p/646929920\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup> 或他的公开<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7wCFe7MP9VeCVApcBLC7SN\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">笔记</a><sup data-text=\"以想法为中心的记忆系统\" data-url=\"https://zhuanlan.zhihu.com/p/1660865898\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>）。感知内容的记忆模型让这种方法变得更加可行。现有的调度器假定每张卡片都有一份独立的复习历史，这对于动态生成的卡片来说，会带来一个两难的窘境：要么将每一种独特的卡片变体都当作一张新卡片，但这会切断它与核心想法的联系；要么在想法的层面上进行粗略的分组，但这又可能导致对单张卡片的复习不足。而感知内容的记忆模型则能自然地处理好这个灰色地带。</p><p data-pid=\"Z0jw8DKk\">更进一步，我们可以设计出这样一种 SRS：用与 AI 语音助手的对话来取代传统的抽认卡复习。AI 助手可以提出问题，或引导一场开放式讨论。这是 David Bieber 所探索的<a href=\"https://link.zhihu.com/?target=https%3A//davidbieber.com/snippets/2024-03-04-conversational-spaced-repetition/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对话式间隔重复</a>理念的一部分。AI agent 可以追踪学生在对话中涉及的关键想法或概念，并以某种方式判断用户是否记住了它们。感知内容的记忆模型应该能够处理这些非结构化的复习记录，即使它们无法直接对应到传统的问答卡片。</p><p data-pid=\"mdx8yR1Y\">其他好处还包括：</p><ul><li data-pid=\"GAK-S7Sn\">系统中存在重复卡片对复习实践的干扰会减小，因为调度器会将它们视为一体（当然，你可能还是需要设计功能来检测并移除它们）。<br/><br/></li><li data-pid=\"TfW_V4PN\">不同 SRS 之间的数据迁移成本会降低。目前的导入工具必须费力地同时映射卡片和复习历史。而在内容感知模型的帮助下，导入复习记录时可以直接利用源系统中卡片的文本表示，让新模型能够「理解」来自<b>任何</b>系统的复习历史，无需进行完美的内容匹配。</li></ul><p data-pid=\"_d7ykAGq\">尽管这种方法可能会让用户失去一些对单张卡片历史的直接控制权（例如手动重置某张卡的复习计划），但我相信我们可以找到缓解方案，并且这种新方法带来的益处将远超其弊端。</p><p data-pid=\"dj3Q_Rtd\">总而言之，我预言感知内容的记忆模型将极大地简化新型记忆系统的界面设计与构建工作，消除那些长期困扰 SRS 开发者的恼人障碍。</p><h2><b>数据难题</b></h2><p data-pid=\"w_st3zAd\">构建感知内容的记忆模型，其主要挑战在于数据匮乏。据我所知，目前没有任何公开可用的数据集同时包含真实的用户使用数据、卡片文本内容以及复习历史。</p><p data-pid=\"mOa996nY\">前文提到的 <a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2402.12291\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">KARL</a>，其训练数据是通过付费让用户在一款定制应用上复习百科知识抽认卡而收集的。对于我自己的间隔重复实践，我不太愿意依赖一个纯粹基于人工数据训练出来的记忆模型。FSRS 的训练数据源自 <a href=\"https://link.zhihu.com/?target=https%3A//huggingface.co/datasets/open-spaced-repetition/anki-revlogs-10k\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">anki-revlogs-10k</a>，这是一个庞大的数据集，包含了来自 1 万个 Anki 用户集合的超过 2 亿条复习记录。然而，该数据集只包含卡片、笔记和牌组的 ID，并未包含文本内容，这是因为 Anki 的<a href=\"https://link.zhihu.com/?target=https%3A//ankiweb.net/account/privacy\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">隐私政策</a>规定：</p><blockquote data-pid=\"Ew7q9HL3\">为研究和产品开发之目的，我们可能会使用您的复习历史和选项（但不包括卡片上的文本或媒体内容）进行统计分析，例如计算所有用户的平均通过率。</blockquote><p data-pid=\"jVJRVTYd\">尽管也存在其他复习数据集，但其中一个关键的缺失环节，就是一个同时满足以下条件的大型数据集：</p><ol><li data-pid=\"-cj73f33\">非商业性质，可用于研究目的</li><li data-pid=\"b4trXp4p\">包含复习历史</li><li data-pid=\"eZk6qHND\">包含卡片的文本内容</li><li data-pid=\"ZeIubc--\">覆盖广泛的主题领域（例如，不局限于语言学习）</li></ol><p data-pid=\"tXVKYuLk\">借鉴 <a href=\"https://link.zhihu.com/?target=https%3A//www.natemeyvis.com/notes-on-spaced-repetition-scheduling.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Nate Meyvis 的见解</a>，我还要补充第五点要求（下文将解释其重要性）：</p><p data-pid=\"P0b1IoB9\">5. 有一小部分复习是随机安排的，以提供无偏的数据点</p><p data-pid=\"PjR6_hmG\">来自间隔重复系统的数据本身就存在一些挑战：</p><ul><li data-pid=\"zqeQpl-K\"><b>数据是稀疏的。</b>间隔重复数据仅限于带有时间戳的二元评分序列，这道微弱且不充分的信号，远不足以完整重构学生记忆的复杂动态状态。<br/><br/></li><li data-pid=\"GvixuwqB\"><b>数据是不完整的。</b>系统捕获的有限数据无法解释那些在系统之外发生的、却对学生记忆有重大影响的关键互动。学生会在 SRS 之外接触学习材料：通过阅读、交谈或实际应用。这些对记忆至关重要的互动并未被系统记录下来。此外，每一次复习都会显著改变卡片的未来复习计划。因此，未被记录的外部回忆事件，可能会对系统所假定的记忆状态产生巨大却无法捕捉的影响。<br/><br/></li><li data-pid=\"4voxf3rv\"><b>数据是有偏见的。</b>间隔重复数据天生就会受到调度复习的记忆模型的影响，这就造成了一个「先有鸡还是先有蛋」的问题：用来训练模型的数据本身就是由模型塑造的，这可能会阻碍模型的进一步优化（参见<a href=\"https://link.zhihu.com/?target=https%3A//ceur-ws.org/Vol-1432/sl_pap3.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这篇论文</a>）。这正是为什么在真实的 SRS 中随机安排一小部分复习，能够显著提升记忆模型准确性的原因。<br/><br/></li><li data-pid=\"ugJFo3FW\"><b>数据是自我报告的。</b>我们假设学生给出的评分能真实反映其内心的记忆状态，但他们可能在实际已经忘记的情况下，仍然将卡片标记为「已记住」，或许只是为了避免面对失败感所带来的不适。</li></ul><p data-pid=\"J54jXlGc\">尽管存在上述挑战，但像 FSRS 和 SM-18 这样的当代调度器所取得的优异成果，有力地证明了数据中确实存在着宝贵的信号，并且这些信号可以从噪声中被成功地分离出来。</p><p data-pid=\"bRPFdru4\">一个潜在的出路是建立一个开源的、由社区贡献的数据集。用户可以自愿分享他们的 Anki 及其他 SRS 数据，并辅以工具来过滤敏感内容，最终形成用于评估记忆模型的标准化基准。如果你有兴趣贡献数据，或有构建社区驱动数据集的经验，或对此方法有任何想法，我非常希望<a href=\"mailto:giacomoran@gmail.com\">与你交流</a>。</p><hr/><p data-pid=\"ZIt6xJUV\"><i>我们正在为一款利用 AI 生成抽认卡的新工作流寻找测试者，如果你感兴趣，欢迎访问 <a href=\"https://link.zhihu.com/?target=https%3A//rember.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">rember.com</a> 注册加入等候名单。了解我工作的最新动态，最好的方式是关注我的 <a href=\"https://link.zhihu.com/?target=https%3A//x.com/giacomo_ran\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">x dot com</a>。</i></p><p class=\"ztext-empty-paragraph\"><br/></p><hr/><blockquote data-pid=\"n8k6X5ic\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 gemini-2.5-pro，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.giacomoran.com/blog/content-aware-sr/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Content-aware Spaced Repetition</a><br/>作者：<u><a href=\"https://link.zhihu.com/?target=https%3A//www.giacomoran.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Giacomo Randazzo</a></u><br/><u>发布日期：</u>2025-08-04</blockquote>",
-  "column": {
-    "updated": 1751877449,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Jarrett Ye",
-      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
-      "avatar_url": "https://picx.zhimg.com/50/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
-    },
-    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
-    "title": "间隔重复 & 注意力管理",
-    "image_url": "https://picx.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1525782291741208576"
-  },
-  "comment_count": 8,
-  "image_url": "https://picx.zhimg.com/v2-e147b19813d0eb2da5632f0ec7992232_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 1,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 2,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 2,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyNjE5MjA1NDISEzE5NDEwNjkzMDA4MzMxOTAyNjcYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 57,
+      "down_vote_count": 0,
+      "like_count": 2,
+      "comment_count": 8,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 47,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-26c5c29d377994a3f2d7abd366d7f565": 0,
+        "v2-e147b19813d0eb2da5632f0ec7992232": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": true,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-26c5c29d377994a3f2d7abd366d7f565": false,
+        "v2-e147b19813d0eb2da5632f0ec7992232": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-26c5c29d377994a3f2d7abd366d7f565": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-e147b19813d0eb2da5632f0ec7992232": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/32615183850?contentId=1941069300833190267&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 间隔重复 & 注意力管理",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525782291741208576",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 间隔重复 & 注意力管理"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

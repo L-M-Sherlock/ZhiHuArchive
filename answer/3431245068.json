@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,9 +37,10 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
@@ -45,9 +48,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,38 +84,58 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 10,
-  "content": "<p data-pid=\"Y3WBK_du\">根据韩国人和美国人的研究，是的。</p><h2>Kim 关于以考试为中心的学校教育后果的结论</h2><blockquote data-pid=\"efPreiyJ\">摘自 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0\" data-hash=\"4c592f496dc33822b560b382907ff1d0\" data-hovercard=\"p$b$4c592f496dc33822b560b382907ff1d0\">@Thoughts Memo</a> 汉化组的译文《<a href=\"https://zhuanlan.zhihu.com/p/609895338\" class=\"internal\">标准化测试与美国教育的毁灭</a>》</blockquote><p data-pid=\"Orth-A21\">最受<span class=\"nolink\">关注</span>的 PISA 分数是科学、数学和阅读。但该测试还包括一些旨在评估创造力和学生学习兴趣的项目，以及询问教师教学方法的项目。在 2021 年的文章中，Kim 描述了她基于 2015 年 PISA 测试数据所做的一些分析。具体细节可参阅原文，而以下是她的三个主要结论：</p><ol><li data-pid=\"WDyh4ttx\">数据显示，在不同国家，学科测试得分，与学习兴趣和创造力指数之间，存在很强的<i>负</i>相关性。例如，Kim 发现，在科学测试中得分最高的国家，往往在学习科学的兴趣上得分最低(<i>r</i> = -.50)，在创造力和自我<a href=\"https://link.zhihu.com/?target=https%3A//www.psychologytoday.com/us/basics/motivation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">激励</a>的综合指数上得分最低(<i>r</i> = -.90)。毫无疑问，如果你让学生为了考试得高分而「学习」，你就扼杀他们对这门学科可能产生的兴趣，也让他们更不容易就这门学科展开创意性思考，因为这样可能会挑战创制了课程和考试的权威者。<br/><br/></li><li data-pid=\"_hJEIBIG\">在美国，与经验丰富的老教师相比，新教师（执教年限相对较短的教师）在课堂上使用创造性方法，或征求和讨论学生想法的可能性，明显<b>更小</b>。Kim 认为，比起在这个体系中工作了较长时间的教师，新教师更容易接受以考试为中心的教学模式。在她看来，这预示美国教育的未来不妙。</li></ol><p data-pid=\"RAyDzSbb\">随着时间的推移，学校教育越来越以考试为中心，而美国的创造力标准评估分数也不断下降（参见<a href=\"https://link.zhihu.com/?target=https%3A//www.psychologytoday.com/us/blog/freedom-learn/201209/children-s-freedom-has-declined-so-has-their-creativity\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这里</a>以获取有关这方面的更老数据）。在这个时代，国家取得经济成功特别需要创造力和创新，而我们的学校体系却在抑制而不是增强这些能力。</p><h2>研究表明，成绩水平与创新倾向呈负相关</h2><blockquote data-pid=\"NLKuJEI7\">摘自 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0\" data-hash=\"4c592f496dc33822b560b382907ff1d0\" data-hovercard=\"p$b$4c592f496dc33822b560b382907ff1d0\">@Thoughts Memo</a> 汉化组的译文《<a href=\"https://zhuanlan.zhihu.com/p/550812496\" class=\"internal\">美国大学生：绩点堆得高，创新想得少</a>》</blockquote><p data-pid=\"BAyIzbh5\">越来越多的对照实验也表明，大学绩点和创新倾向之间，完全不存在相关性，甚至是负相关的。纽约大学的 Matthew Mayhew 和他的同事们进行了一项重要的研究（<a href=\"https://link.zhihu.com/?target=https%3A//theconversation.com/straight-a-students-may-not-be-the-best-innovators-54440\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这里</a>和<a href=\"https://link.zhihu.com/?target=http%3A//blogs.wgbh.org/innovation-hub/tag/matthew-mayhew/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这里</a>），最近引起了大众媒体的<span class=\"nolink\">注意</span>。这些研究人员调查了五所不同高等<span class=\"nolink\">教育</span>机构的数千名大学毕业生，并进行了一系列的心理测试和问卷调查。他们的主要发现之一是，学生的绩点与他们对创造性或创新性工作的倾向呈负相关。绩点越高，学生对创新的兴趣就越萎靡。</p><p data-pid=\"0g3IT5KT\">研究者提出了一些原因来解释这种负相关：「也许性格上喜好创新的学生，相比平均分更高的学生，对考核记忆水平的分数系统更不感冒。另外，具有创新精神的学生往往认为要通过大学教育发现新的想法，而非迎合绩点形式的一系列外部评估手段。」</p><h2>进一步的证据</h2><p data-pid=\"3F4TM-4H\">还有很多研究得出了相似结论，我在先前的文章中总结了一些。比如在中国开展的一项研究指出，高考中分数最高的那一部分高中生读完大学后，在后续人生中取得的成就，并没有超过比他们高考分数低的人（<a href=\"https://link.zhihu.com/?target=https%3A//www.psychologytoday.com/us/blog/freedom-learn/201305/be-glad-our-failure-catch-china-in-education\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这里</a><sup data-text=\"美国教育学家：我们“比不过”中式教育，我对此很满意\" data-url=\"https://zhuanlan.zhihu.com/p/549487797\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>）。美国学校唯考试成绩独尊的倾向愈演愈烈，而经过客观衡量，每个年级学生的<span class=\"nolink\">创造性思考能力</span>都在下降（参见<a href=\"https://link.zhihu.com/?target=https%3A//www.psychologytoday.com/us/blog/freedom-learn/201209/children-s-freedom-has-declined-so-has-their-creativity\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这篇</a>）。</p><p data-pid=\"gzZSuIeY\">我们的教育系统是为截然不同的时代设计的。那个时代的工作需要循规蹈矩地行事，一丝不苟地服从。那时对大多数人来说，创新思考不仅不必要，而且会拖后腿。可悲而讽刺的是，我们没有根据现代社会的需求调整教育系统，而是在这个老东西上不断押宝，因而现在的年轻人，为了保全发展他们自然的好奇心与创造力，会面临前所未有的困难。目前来说，我建议公司要去雇用那些把教育系统甩到一边的人，而非那些对教育系统顶礼膜拜的人。越来越多的公司在如法炮制。</p><h2>参考文献</h2><p data-pid=\"7o_lK7lQ\">Kim, K. H.(2021). Creativity crisis update: America follows Asia in pursuing high test scores over learning. <i>*Roeper Review, 43*</i> (1), 21-41</p><p data-pid=\"HU0k9DOk\">Matthew J. Mayhew et al. (2012). Exploring Innovative Entrepreneurship and Its Ties to Higher Educational Experiences<i>Res High Educ 53</i>:831–859.</p><h2>相关文章</h2><a href=\"https://zhuanlan.zhihu.com/p/450093869\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-db18e0c7ca3f5cbf31f9188b245b8504_180x120.jpg\" data-image-width=\"1200\" data-image-height=\"675\" class=\"internal\">Thoughts Memo：创造力</a><a href=\"https://zhuanlan.zhihu.com/p/579583132\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-9a09d1fb138fd3bf1edf1d7bb4b8ec07_180x120.jpg\" data-image-width=\"1212\" data-image-height=\"749\" class=\"internal\">Thoughts Memo：如何提升我的创造力？</a><a href=\"https://zhuanlan.zhihu.com/p/555439275\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-df606d6b7b7b298142fcb78cceee2988_180x120.jpg\" data-image-width=\"3052\" data-image-height=\"1984\" class=\"internal\">Thoughts Memo：学校如何扼杀创造力？</a><a href=\"https://zhuanlan.zhihu.com/p/617465926\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-f94c42261abd150dd7e98090d50ca520_180x120.jpg\" data-image-width=\"5900\" data-image-height=\"3933\" class=\"internal\">Thoughts Memo：知识之于创造性解决问题</a><p></p>",
+  "content": "<p data-pid=\"Y3WBK_du\">根据韩国人和美国人的研究，是的。</p><h2>Kim 关于以考试为中心的学校教育后果的结论</h2><blockquote data-pid=\"efPreiyJ\">摘自 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0\" data-hash=\"4c592f496dc33822b560b382907ff1d0\" data-hovercard=\"p$b$4c592f496dc33822b560b382907ff1d0\">@Thoughts Memo</a> 汉化组的译文《<a href=\"https://zhuanlan.zhihu.com/p/609895338\" class=\"internal\" target=\"_blank\">标准化测试与美国教育的毁灭</a>》</blockquote><p data-pid=\"Orth-A21\">最受<span class=\"nolink\">关注</span>的 PISA 分数是科学、数学和阅读。但该测试还包括一些旨在评估创造力和学生学习兴趣的项目，以及询问教师教学方法的项目。在 2021 年的文章中，Kim 描述了她基于 2015 年 PISA 测试数据所做的一些分析。具体细节可参阅原文，而以下是她的三个主要结论：</p><ol><li data-pid=\"WDyh4ttx\">数据显示，在不同国家，学科测试得分，与学习兴趣和创造力指数之间，存在很强的<i>负</i>相关性。例如，Kim 发现，在科学测试中得分最高的国家，往往在学习科学的兴趣上得分最低(<i>r</i> = -.50)，在创造力和自我<a href=\"https://link.zhihu.com/?target=https%3A//www.psychologytoday.com/us/basics/motivation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">激励</a>的综合指数上得分最低(<i>r</i> = -.90)。毫无疑问，如果你让学生为了考试得高分而「学习」，你就扼杀他们对这门学科可能产生的兴趣，也让他们更不容易就这门学科展开创意性思考，因为这样可能会挑战创制了课程和考试的权威者。<br/><br/></li><li data-pid=\"_hJEIBIG\">在美国，与经验丰富的老教师相比，新教师（执教年限相对较短的教师）在课堂上使用创造性方法，或征求和讨论学生想法的可能性，明显<b>更小</b>。Kim 认为，比起在这个体系中工作了较长时间的教师，新教师更容易接受以考试为中心的教学模式。在她看来，这预示美国教育的未来不妙。</li></ol><p data-pid=\"RAyDzSbb\">随着时间的推移，学校教育越来越以考试为中心，而美国的创造力标准评估分数也不断下降（参见<a href=\"https://link.zhihu.com/?target=https%3A//www.psychologytoday.com/us/blog/freedom-learn/201209/children-s-freedom-has-declined-so-has-their-creativity\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这里</a>以获取有关这方面的更老数据）。在这个时代，国家取得经济成功特别需要创造力和创新，而我们的学校体系却在抑制而不是增强这些能力。</p><h2>研究表明，成绩水平与创新倾向呈负相关</h2><blockquote data-pid=\"NLKuJEI7\">摘自 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0\" data-hash=\"4c592f496dc33822b560b382907ff1d0\" data-hovercard=\"p$b$4c592f496dc33822b560b382907ff1d0\">@Thoughts Memo</a> 汉化组的译文《<a href=\"https://zhuanlan.zhihu.com/p/550812496\" class=\"internal\" target=\"_blank\">美国大学生：绩点堆得高，创新想得少</a>》</blockquote><p data-pid=\"BAyIzbh5\">越来越多的对照实验也表明，大学绩点和创新倾向之间，完全不存在相关性，甚至是负相关的。纽约大学的 Matthew Mayhew 和他的同事们进行了一项重要的研究（<a href=\"https://link.zhihu.com/?target=https%3A//theconversation.com/straight-a-students-may-not-be-the-best-innovators-54440\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这里</a>和<a href=\"https://link.zhihu.com/?target=http%3A//blogs.wgbh.org/innovation-hub/tag/matthew-mayhew/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这里</a>），最近引起了大众媒体的<span class=\"nolink\">注意</span>。这些研究人员调查了五所不同高等<span class=\"nolink\">教育</span>机构的数千名大学毕业生，并进行了一系列的心理测试和问卷调查。他们的主要发现之一是，学生的绩点与他们对创造性或创新性工作的倾向呈负相关。绩点越高，学生对创新的兴趣就越萎靡。</p><p data-pid=\"0g3IT5KT\">研究者提出了一些原因来解释这种负相关：「也许性格上喜好创新的学生，相比平均分更高的学生，对考核记忆水平的分数系统更不感冒。另外，具有创新精神的学生往往认为要通过大学教育发现新的想法，而非迎合绩点形式的一系列外部评估手段。」</p><h2>进一步的证据</h2><p data-pid=\"3F4TM-4H\">还有很多研究得出了相似结论，我在先前的文章中总结了一些。比如在中国开展的一项研究指出，高考中分数最高的那一部分高中生读完大学后，在后续人生中取得的成就，并没有超过比他们高考分数低的人（<a href=\"https://link.zhihu.com/?target=https%3A//www.psychologytoday.com/us/blog/freedom-learn/201305/be-glad-our-failure-catch-china-in-education\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这里</a><sup data-text=\"美国教育学家：我们“比不过”中式教育，我对此很满意\" data-url=\"https://zhuanlan.zhihu.com/p/549487797\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>）。美国学校唯考试成绩独尊的倾向愈演愈烈，而经过客观衡量，每个年级学生的<span class=\"nolink\">创造性思考能力</span>都在下降（参见<a href=\"https://link.zhihu.com/?target=https%3A//www.psychologytoday.com/us/blog/freedom-learn/201209/children-s-freedom-has-declined-so-has-their-creativity\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这篇</a>）。</p><p data-pid=\"gzZSuIeY\">我们的教育系统是为截然不同的时代设计的。那个时代的工作需要循规蹈矩地行事，一丝不苟地服从。那时对大多数人来说，创新思考不仅不必要，而且会拖后腿。可悲而讽刺的是，我们没有根据现代社会的需求调整教育系统，而是在这个老东西上不断押宝，因而现在的年轻人，为了保全发展他们自然的好奇心与创造力，会面临前所未有的困难。目前来说，我建议公司要去雇用那些把教育系统甩到一边的人，而非那些对教育系统顶礼膜拜的人。越来越多的公司在如法炮制。</p><h2>参考文献</h2><p data-pid=\"7o_lK7lQ\">Kim, K. H.(2021). Creativity crisis update: America follows Asia in pursuing high test scores over learning. <i>*Roeper Review, 43*</i> (1), 21-41</p><p data-pid=\"HU0k9DOk\">Matthew J. Mayhew et al. (2012). Exploring Innovative Entrepreneurship and Its Ties to Higher Educational Experiences<i>Res High Educ 53</i>:831–859.</p><h2>相关文章</h2><a href=\"https://zhuanlan.zhihu.com/p/450093869\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-db18e0c7ca3f5cbf31f9188b245b8504_180x120.jpg\" data-image-width=\"1200\" data-image-height=\"675\" class=\"internal\">Thoughts Memo：创造力</a><a href=\"https://zhuanlan.zhihu.com/p/579583132\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-9a09d1fb138fd3bf1edf1d7bb4b8ec07_180x120.jpg\" data-image-width=\"1212\" data-image-height=\"749\" class=\"internal\">Thoughts Memo：如何提升我的创造力？</a><a href=\"https://zhuanlan.zhihu.com/p/555439275\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-df606d6b7b7b298142fcb78cceee2988_180x120.jpg\" data-image-width=\"3052\" data-image-height=\"1984\" class=\"internal\">Thoughts Memo：学校如何扼杀创造力？</a><a href=\"https://zhuanlan.zhihu.com/p/617465926\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-f94c42261abd150dd7e98090d50ca520_180x120.jpg\" data-image-width=\"5900\" data-image-height=\"3933\" class=\"internal\">Thoughts Memo：知识之于创造性解决问题</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1710472170,
   "excerpt": "根据韩国人和美国人的研究，是的。 Kim 关于以考试为中心的学校教育后果的结论摘自 @Thoughts Memo 汉化组的译文《标准化测试与美国教育的毁灭 》最受 关注的 PISA 分数是科学、数学和阅读。但该测试还包括一些旨在评估创造力和学生学习兴趣的项目，以及询问教师教学方法的项目。在 2021 年的文章中，Kim 描述了她基于 2015 年 PISA 测试数据所做的一些分析。具体细节可参阅原文，而以下是她的三个主要结论：数据显示，在不同国家…",
-  "id": 3431245068,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3431245068",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/450093869": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"创造力\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/450093869\",\"desc\":\"35 赞同 · 7 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 定义 创造力是产生新想法的能力。术语创造力可以作为一种技能或一个过程来使用。创造力是一种能够有效地寻找创造性联想的技能。创造性地思考指的是将遥远的想法联系起来，产生新特性的过程。当我们说：「这个孩子有创造力」，我们的意思是她的大脑能够以快速、丰富或原创的方式产生新的价值。机制 创造力作为一个过程是对记忆空间的系统性搜索，目的是寻找有用的联想。创造力有时也是自发的并会引起混乱，尽管我们正设法集中注意…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-db18e0c7ca3f5cbf31f9188b245b8504_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"450093869\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/555439275": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"学校如何扼杀创造力？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/555439275\",\"desc\":\"133 赞同 · 14 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 一个 15 岁的孩子问道：为什么你说学校扼杀了创造力？ 自由并非所有学校都会扼杀创造力。是胁迫会扼杀创造力。 民主学校 [1]既不胁迫，也非有害。 创造力在自由中茁壮成长创造力 创造力 [2]是一个随机的过程，难以控制。它很大程度上是不可预知的。然而，它以知识作为原材料。这意味着我们可以通过学习和热爱 [3]的事物来控制创造力。为了获得高质量的知识，我们需要遵从 学习内驱力 [4]的引导，在环境中挑选最佳的信息（见：学习内…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-df606d6b7b7b298142fcb78cceee2988_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"555439275\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/579583132": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"如何提升我的创造力？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/579583132\",\"desc\":\"62 赞同 · 2 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 常问问题。什么是常见问题？ David O. 问：如何提升我的创造力？ 提升创造力需要时间没有灵丹妙药能快速提升创造力。如果你睡眠不足，那么睡足觉之后你的创造力就能飞速提升，但你可能不是想问这个。若要大幅提升创造力，你要花很多时间，干不少事。 提升创造力需要达成下列条件： 改变大脑生理机能，需要养成更好的用脑习惯，并坚持数月乃至数年 长期更新知识储备，这是创造的基石 置身于有保障的创造环境 一切改变都难以立竿见…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-9a09d1fb138fd3bf1edf1d7bb4b8ec07_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"579583132\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/617465926": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"知识之于创造性解决问题\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/617465926\",\"desc\":\"58 赞同 · 3 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 概要：知识的价值知识在我们的文化中赢得了当之无愧的良好声誉。我们知道， 知识是好的 ，在生活中也很有用。然而，学习行为本身也有重要的价值。新近获得的知识，在质量上与成熟、持久的知识有很大不同。为了有效地解决问题，两者都是我们需要的。 稳定的旧知识和新鲜的新知识在有效解决问题中都是必不可少的。两者都有助于学习内驱力 [1]、创造力 [2]和快乐心态的形成。旧知识 vs. 新知识在学习和解决问题的过程中，稳定的知识和…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-f94c42261abd150dd7e98090d50ca520_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"617465926\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/450093869": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"创造力\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/450093869\",\"desc\":\"38 赞同 · 7 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 定义 创造力是产生新想法的能力。术语创造力可以作为一种技能或一个过程来使用。创造力是一种能够有效地寻找创造性联想的技能。创造性地思考指的是将遥远的想法联系起来，产生新特性的过程。当我们说：「这个孩子有创造力」，我们的意思是她的大脑能够以快速、丰富或原创的方式产生新的价值。机制 创造力作为一个过程是对记忆空间的系统性搜索，目的是寻找有用的联想。创造力有时也是自发的并会引起混乱，尽管我们正设法集中注意…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-db18e0c7ca3f5cbf31f9188b245b8504_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"450093869\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/555439275": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"学校如何扼杀创造力？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/555439275\",\"desc\":\"135 赞同 · 14 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 一个 15 岁的孩子问道：为什么你说学校扼杀了创造力？ 自由并非所有学校都会扼杀创造力。是胁迫会扼杀创造力。 民主学校 [1]既不胁迫，也非有害。 创造力在自由中茁壮成长创造力 创造力 [2]是一个随机的过程，难以控制。它很大程度上是不可预知的。然而，它以知识作为原材料。这意味着我们可以通过学习和热爱 [3]的事物来控制创造力。为了获得高质量的知识，我们需要遵从 学习内驱力 [4]的引导，在环境中挑选最佳的信息（见：学习内…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-df606d6b7b7b298142fcb78cceee2988_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"555439275\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/579583132": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"如何提升我的创造力？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/579583132\",\"desc\":\"72 赞同 · 5 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 常问问题。什么是常见问题？ David O. 问：如何提升我的创造力？ 提升创造力需要时间没有灵丹妙药能快速提升创造力。如果你睡眠不足，那么睡足觉之后你的创造力就能飞速提升，但你可能不是想问这个。若要大幅提升创造力，你要花很多时间，干不少事。 提升创造力需要达成下列条件： 改变大脑生理机能，需要养成更好的用脑习惯，并坚持数月乃至数年 长期更新知识储备，这是创造的基石 置身于有保障的创造环境 一切改变都难以立竿见…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-9a09d1fb138fd3bf1edf1d7bb4b8ec07_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"579583132\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/617465926": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"知识之于创造性解决问题\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/617465926\",\"desc\":\"59 赞同 · 3 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 概要：知识的价值知识在我们的文化中赢得了当之无愧的良好声誉。我们知道， 知识是好的 ，在生活中也很有用。然而，学习行为本身也有重要的价值。新近获得的知识，在质量上与成熟、持久的知识有很大不同。为了有效地解决问题，两者都是我们需要的。 稳定的旧知识和新鲜的新知识在有效解决问题中都是必不可少的。两者都有助于学习内驱力 [1]、创造力 [2]和快乐心态的形成。旧知识 vs. 新知识在学习和解决问题的过程中，稳定的知识和…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-f94c42261abd150dd7e98090d50ca520_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"617465926\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/2190225866?contentId=3431245068&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1708206750,
     "detail": "",
-    "id": 644682069,
+    "id": "644682069",
     "question_type": "normal",
     "relationship": {},
     "title": "应试教育真的严重影响创造力吗？",
     "type": "question",
     "updated_time": 1708206750,
-    "url": "https://api.zhihu.com/questions/644682069"
+    "url": "https://www.zhihu.com/api/v4/questions/644682069"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 94
+  "updated_time": 1710472170,
+  "url": "https://www.zhihu.com/api/v4/answers/3431245068",
+  "voteup_count": 95
 }

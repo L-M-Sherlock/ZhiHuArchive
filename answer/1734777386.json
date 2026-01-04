@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 0,
-  "content": "<p data-pid=\"a4nroTvN\">在 Anki 中，Cloze 是一个特殊的模板，它的实现是涉及 Anki 底层代码(python)的，而不是靠 js 实现的。所以没有办法实现通过识别字段里是否有 {{c1::}} 来改变模板类型。</p><p data-pid=\"H8zOsKxP\">替代的实现方式是基于 Basic 来增加 Cloze 的功能，比较典型的模板代表是：</p><a href=\"https://link.zhihu.com/?target=https%3A//www.lofter.com/lpost/4798b6_de8a0c1\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-a73e4893a976f1bdbb77055d824f3b3b_180x120.jpg\" data-image-width=\"876\" data-image-height=\"375\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">专栏文章</a><blockquote data-pid=\"k7kxbNM_\">新版的“知识点-Basic”可以兼做Basic和Cloze了，更新如下：<br/><b>原来的Basic</b><br/>功能不变；<br/>制作卡片时可能会提示没有挖空，忽略即可（或在卡片代码编辑框将正背面最后一行的{{cloze:问题}}删除）。<br/><b>新的Cloze</b>（原JS代码由<b>飞沙</b>提供，只做样式上的修改）<br/>可以像Cloze类型模板一样制作卡片时挖空；<br/>可以依次点击显示多个挖空内容；<br/>悬浮按钮控制挖空内容隐藏显示。</blockquote><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-c3743eb23a77378be5721f50cf51b3ad_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2400\" data-rawheight=\"1800\" data-original-token=\"v2-ce87dc450673c25196a7d64755ee9b55\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-7aed41efad8950e669eb35e0646c89b5_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"2400\" data-original=\"https://picx.zhimg.com/v2-c3743eb23a77378be5721f50cf51b3ad_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;2400&#39; height=&#39;1800&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2400\" data-rawheight=\"1800\" data-original-token=\"v2-ce87dc450673c25196a7d64755ee9b55\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-7aed41efad8950e669eb35e0646c89b5_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"2400\" data-original=\"https://picx.zhimg.com/v2-c3743eb23a77378be5721f50cf51b3ad_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-c3743eb23a77378be5721f50cf51b3ad_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"FH0wFv_q\">不过这个模板用了以前的&#39;⁨{{=&lt;% %&gt;=}}⁩&#39;特性，所以需要自行修复。</p>",
+  "content": "<p data-pid=\"a4nroTvN\">在 Anki 中，Cloze 是一个特殊的模板，它的实现是涉及 Anki 底层代码(python)的，而不是靠 js 实现的。所以没有办法实现通过识别字段里是否有 {{c1::}} 来改变模板类型。</p><p data-pid=\"H8zOsKxP\">替代的实现方式是基于 Basic 来增加 Cloze 的功能，比较典型的模板代表是：</p><a href=\"https://link.zhihu.com/?target=https%3A//www.lofter.com/lpost/4798b6_de8a0c1\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-a73e4893a976f1bdbb77055d824f3b3b_180x120.jpg\" data-image-width=\"876\" data-image-height=\"375\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">专栏文章</a><blockquote data-pid=\"k7kxbNM_\">新版的“知识点-Basic”可以兼做Basic和Cloze了，更新如下：<br/><b>原来的Basic</b><br/>功能不变；<br/>制作卡片时可能会提示没有挖空，忽略即可（或在卡片代码编辑框将正背面最后一行的{{cloze:问题}}删除）。<br/><b>新的Cloze</b>（原JS代码由<b>飞沙</b>提供，只做样式上的修改）<br/>可以像Cloze类型模板一样制作卡片时挖空；<br/>可以依次点击显示多个挖空内容；<br/>悬浮按钮控制挖空内容隐藏显示。</blockquote><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-c3743eb23a77378be5721f50cf51b3ad_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2400\" data-rawheight=\"1800\" data-original-token=\"v2-ce87dc450673c25196a7d64755ee9b55\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-7aed41efad8950e669eb35e0646c89b5_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"2400\" data-original=\"https://pic1.zhimg.com/v2-c3743eb23a77378be5721f50cf51b3ad_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;2400&#39; height=&#39;1800&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2400\" data-rawheight=\"1800\" data-original-token=\"v2-ce87dc450673c25196a7d64755ee9b55\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-7aed41efad8950e669eb35e0646c89b5_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"2400\" data-original=\"https://pic1.zhimg.com/v2-c3743eb23a77378be5721f50cf51b3ad_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-c3743eb23a77378be5721f50cf51b3ad_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"FH0wFv_q\">不过这个模板用了以前的&#39;⁨{{=&lt;% %&gt;=}}⁩&#39;特性，所以需要自行修复。</p>",
   "content_need_truncated": false,
   "created_time": 1613570874,
   "excerpt": "在 Anki 中，Cloze 是一个特殊的模板，它的实现是涉及 Anki 底层代码(python)的，而不是靠 js 实现的。所以没有办法实现通过识别字段里是否有 {{c1::}} 来改变模板类型。 替代的实现方式是基于 Basic 来增加 Cloze 的功能，比较典型的模板代表是： 专栏文章 新版的“知识点-Basic”可以兼做Basic和Cloze了，更新如下： 原来的Basic 功能不变； 制作卡片时可能会提示没有挖空，忽略即可（或在卡片代码编辑框将正背面最后一行的{{cl…",
-  "id": 1734777386,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1734777386",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": false,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1734777386&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1612679423,
     "detail": "<p>我想根据field的具体输入用js语言做条件判断，但document.getElementById()只能得到html页面中尖括号之间的内容，例如只能得到&#34;{{Front}}&#34;，但不能知道每个卡片的{{Front}}里具体输了什么。</p><p>我主要想实现的是，如果Front挖了空，就在模版中使用{{cloze:Front}}，否则就使用{{Front}}。亦即同一个变量可以即作cloze，又做Basic。如果已经有合适的插件或模版，也可以推荐给我。感谢！</p><p>常用平台macOS, iOS，目前版本：2.1.39。</p>",
-    "id": 443291771,
+    "id": "443291771",
     "question_type": "normal",
     "relationship": {},
     "title": "Anki模版制作：请问如何使用js语言（Javascript）调用field数据？",
     "type": "question",
     "updated_time": 1612679423,
-    "url": "https://api.zhihu.com/questions/443291771"
+    "url": "https://www.zhihu.com/api/v4/questions/443291771"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1613571127,
+  "url": "https://www.zhihu.com/api/v4/answers/1734777386",
   "voteup_count": 18
 }

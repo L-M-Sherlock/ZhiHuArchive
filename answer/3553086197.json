@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,6 +14,7 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,38 +84,58 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 5,
-  "content": "<h2>学校是什么？</h2><p data-pid=\"Ot6kKQAV\">Eliezer Yudkowsky 知道，但说得比较委婉 (摘自<a href=\"https://link.zhihu.com/?target=https%3A//equilibriabook.com/toc/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">不充分的均衡</a>)：</p><blockquote data-pid=\"Y4CQCKqt\">引用 Slate Star Codex<sup data-text=\"Slate Star Codex\" data-url=\"https://www.zhihu.com/column/c_1787167034875977728\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup> 上的一条评论：假如有一座魔法塔，只有智商在 100 以上，还拥有一定责任心的人才能进入，而进塔会让人损失四年寿命。接下来自然会发生的事情是，雇主开始偏爱那些进塔成功的求职者，愿意给予更优厚的薪资，甚至将此作为录用的必要条件。<a href=\"https://link.zhihu.com/?target=https%3A//equilibriabook.com/molochs-toolbox/%23footnote-5-definition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">5</a><br/>…<br/>总而言之：就业市场的必然趋势是，雇主要求应聘者必须出示一份证明，证明他们曾经进过魔法塔。这使得<b>每个人</b>都想进入魔法塔，于是就有人趁机在塔外设卡收费，收取数十万美元的进塔费用。<a href=\"https://link.zhihu.com/?target=https%3A//equilibriabook.com/molochs-toolbox/%23footnote-6-definition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">6</a></blockquote><p data-pid=\"tL1Gg8ja\">《瑞克和莫蒂》中的瑞克知道：</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-b7ac7367d8481b8a3c47317293bd8a54_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"865\" data-rawheight=\"809\" data-original-token=\"v2-b7ac7367d8481b8a3c47317293bd8a54\" class=\"origin_image zh-lightbox-thumb\" width=\"865\" data-original=\"https://picx.zhimg.com/v2-b7ac7367d8481b8a3c47317293bd8a54_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;865&#39; height=&#39;809&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"865\" data-rawheight=\"809\" data-original-token=\"v2-b7ac7367d8481b8a3c47317293bd8a54\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"865\" data-original=\"https://picx.zhimg.com/v2-b7ac7367d8481b8a3c47317293bd8a54_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-b7ac7367d8481b8a3c47317293bd8a54_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"pbLpMIgF\">Nassim Talib 知道（下面这段话节选自《非对称风险》）：</p><blockquote data-pid=\"i3Mp7D7w\">人类文明进步带来的副作用就像诅咒一样困扰着我们，这个社会上有能力把问题解释得头头是道的人越来越多，但凭借亲身经历真正理解问题的人却越来越少。所以，学习并不是我们在戒备森严的监狱（美其名曰学校）中教给孩子们的东西。</blockquote><p data-pid=\"62PorsUA\">Talib 认为「学校是一座监狱」这个事实再明显不过，<b>他随口一提，甚至懒得解释</b>。他说得对。只要<a href=\"https://link.zhihu.com/?target=https%3A//www.lesswrong.com/posts/mELQFMi9egPn5EAjK/my-attempt-to-explain-looking-insight-meditation-and\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">留心观察</a>课堂上的情形，你就会发现<a href=\"https://link.zhihu.com/?target=https%3A//thezvi.wordpress.com/2017/08/05/something-was-wrong/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">出事了</a>。学校并非旨在传授实用知识、激发创造力的园地，而是一座我们学着<a href=\"https://link.zhihu.com/?target=https%3A//www.lesswrong.com/posts/NMoLJuDJEms7Ku9XS/guessing-the-teacher-s-password\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">猜老师的密码</a><sup data-text=\"猜老师的密码\" data-url=\"https://hpmor.xyz/ai2zb_31/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>、扼杀创造力的监狱。</p><p data-pid=\"gnfeBvMv\">Robin Hanson 知道： <a href=\"https://link.zhihu.com/?target=http%3A//www.overcomingbias.com/2016/04/school-is-to-submit.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">学校的目标即是服从</a><sup data-text=\"学校的目标即是服从\" data-url=\"https://zhuanlan.zhihu.com/p/704266916\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。作为信号的服从。不得不接受一个发出信号、唯命是从、勤勤恳恳、循规蹈矩的<b>生活</b>。</p><p data-pid=\"2cIw32Fr\">这个「毒瘤」彻底毁掉了我们的童年，往往还毁掉了我们的一生。它用<a href=\"https://link.zhihu.com/?target=http%3A//benjaminrosshoffman.com/the-order-of-the-soul/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">通过官方批准的生存希望</a>和在代数课上裸体出勤的噩梦取代了我们的希望与梦想。学校生活严重摧残着我们的人生——既浪费时间，又让我们背负债务——以至于严重影响了我们抚育后代的能力。为了让孩子上一所环境稍好些的监狱，我们拼命抢购学区房，请教练和家教占据孩子的每分每秒，<b>就是为了让他们考出好成绩、进入名校，而非学到真正的知识。</b>最后上了大学，它拿走我们余下的每一分钱，甚至向我们索取更多，相当于 100% 的边际税率。</p><p data-pid=\"20esCpRs\">学校拿走的<b>远不止</b>我们<b>全部的</b>金钱。</p><p data-pid=\"5SUXGVgN\">作为交换，我们学到的知识少之又少，而且大多数毫无用处。至于有用的东西，如写作、阅读、数学基础，无论如何我们都能学会。</p><p data-pid=\"VCRQFwue\">上小学时，我经常装病，在自己房间里「隔离」一天，就为了能安安心心地看书听广播。这就是<b>接受教育</b>。那些日子里，我学到的东西要多得多。</p><p data-pid=\"m9PjuoHq\">我曾就读于纽约市最难进的高中。课前的「零」时段*和放学后的时光都令我心情愉悦，因为我可以尽情投入自己热爱的数学竞赛，或是同朋友一起游戏。相比之下，枯燥的课堂简直就是一种煎熬，我只能不停地看表度日。在历史课上，我总想纠正老师的错误。我试图选修大学预修课程，却因为在乏味的普通课上表现平平而遭到拒绝。不过，我发现自己仍然有资格参加预修考试，于是就这样做了。</p><blockquote data-pid=\"ohp_aHRg\">译注：‘zero’ period，时间段上和国内的早读类似，但内容上是各种选修课，学生可以有选择地参加。</blockquote><p data-pid=\"i5MjaOsY\">我大胆地将英语课的大项目命名为《放我离开这里》，<b>却无人对此表示惊讶</b>。</p><p data-pid=\"RQAYRKA3\">大学时代，我在一所颇负盛名的学府攻读数学（STEM！）专业。尽管我日常与数字为伴，但从未用到过所学的任何数学知识。</p><p data-pid=\"9fD7yyED\">学校有意地灌输给我们拙劣的写作和阅读方式。我不得不从网上写作中自学得体的写作技巧。所谓的「鉴赏」课程反而让我对音乐、艺术和文学失去了兴趣。若要我比较从一门统计课（主要靠自学教材）中的收获，与<b>其他所有大学课程的总和</b>，并问哪个更有价值，<b>我还真拿不准</b>。</p><p data-pid=\"znlmtt4M\">我修过一门研究生数学课，是数学分析。令我记忆犹新的有三点：第一，考试时他们要求我们注明是否本科生，以便网开一面；第二，整堂课的内容不外乎一个俄罗斯口音浓重、听起来费劲的男人照本宣科，把讲义<b>一字不差地</b>誊写到黑板上，将板书内容原原本本地念出来。</p><p data-pid=\"OeTV7jgj\">第三，这门课是我上过最有价值的一门课，<b>因为它让我与读研无缘</b>。感谢您，教授！</p><hr/><p data-pid=\"KpjgiiXJ\">以上内容摘自 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0\" data-hash=\"4c592f496dc33822b560b382907ff1d0\" data-hovercard=\"p$b$4c592f496dc33822b560b382907ff1d0\">@Thoughts Memo</a> 汉化组的译文《<a href=\"https://zhuanlan.zhihu.com/p/705713335\" class=\"internal\">反对教育的依据</a>》</p><h2>相关文章</h2><a href=\"https://zhuanlan.zhihu.com/p/644412165\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-22f09ba77c6a8423824057988519b1d1_180x120.jpg\" data-image-width=\"3072\" data-image-height=\"2304\" class=\"internal\">Thoughts Memo：爱因斯坦、马克·吐温和其他 48 位名人对学校的看法</a><a href=\"https://zhuanlan.zhihu.com/p/351869026\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-0ea212d779c22f6f899cd12bd9843c21_180x120.jpg\" data-image-width=\"1137\" data-image-height=\"627\" class=\"internal\">Thoughts Memo：强制学校教育</a><a href=\"https://zhuanlan.zhihu.com/p/545188205\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-9454da6a6ac61e0cc2d9c4af14a3118a_180x120.jpg\" data-image-width=\"5760\" data-image-height=\"3840\" class=\"internal\">Thoughts Memo：学校教育十宗罪</a><a href=\"https://zhuanlan.zhihu.com/p/611469462\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-012042f4f93df7672ff25121d0ef9ee7_180x120.jpg\" data-image-width=\"4000\" data-image-height=\"2962\" class=\"internal\">Thoughts Memo：学校教育的问题</a><p></p>",
+  "content": "<h2>学校是什么？</h2><p data-pid=\"Ot6kKQAV\">Eliezer Yudkowsky 知道，但说得比较委婉 (摘自<a href=\"https://link.zhihu.com/?target=https%3A//equilibriabook.com/toc/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">不充分的均衡</a>)：</p><blockquote data-pid=\"Y4CQCKqt\">引用 Slate Star Codex<sup data-text=\"Slate Star Codex\" data-url=\"https://www.zhihu.com/column/c_1787167034875977728\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup> 上的一条评论：假如有一座魔法塔，只有智商在 100 以上，还拥有一定责任心的人才能进入，而进塔会让人损失四年寿命。接下来自然会发生的事情是，雇主开始偏爱那些进塔成功的求职者，愿意给予更优厚的薪资，甚至将此作为录用的必要条件。<a href=\"https://link.zhihu.com/?target=https%3A//equilibriabook.com/molochs-toolbox/%23footnote-5-definition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">5</a><br/>…<br/>总而言之：就业市场的必然趋势是，雇主要求应聘者必须出示一份证明，证明他们曾经进过魔法塔。这使得<b>每个人</b>都想进入魔法塔，于是就有人趁机在塔外设卡收费，收取数十万美元的进塔费用。<a href=\"https://link.zhihu.com/?target=https%3A//equilibriabook.com/molochs-toolbox/%23footnote-6-definition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">6</a></blockquote><p data-pid=\"tL1Gg8ja\">《瑞克和莫蒂》中的瑞克知道：</p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-b7ac7367d8481b8a3c47317293bd8a54_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"865\" data-rawheight=\"809\" data-original-token=\"v2-b7ac7367d8481b8a3c47317293bd8a54\" class=\"origin_image zh-lightbox-thumb\" width=\"865\" data-original=\"https://picx.zhimg.com/v2-b7ac7367d8481b8a3c47317293bd8a54_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;865&#39; height=&#39;809&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"865\" data-rawheight=\"809\" data-original-token=\"v2-b7ac7367d8481b8a3c47317293bd8a54\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"865\" data-original=\"https://picx.zhimg.com/v2-b7ac7367d8481b8a3c47317293bd8a54_r.jpg?source=2c26e567\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-b7ac7367d8481b8a3c47317293bd8a54_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"pbLpMIgF\">Nassim Talib 知道（下面这段话节选自《非对称风险》）：</p><blockquote data-pid=\"i3Mp7D7w\">人类文明进步带来的副作用就像诅咒一样困扰着我们，这个社会上有能力把问题解释得头头是道的人越来越多，但凭借亲身经历真正理解问题的人却越来越少。所以，学习并不是我们在戒备森严的监狱（美其名曰学校）中教给孩子们的东西。</blockquote><p data-pid=\"62PorsUA\">Talib 认为「学校是一座监狱」这个事实再明显不过，<b>他随口一提，甚至懒得解释</b>。他说得对。只要<a href=\"https://link.zhihu.com/?target=https%3A//www.lesswrong.com/posts/mELQFMi9egPn5EAjK/my-attempt-to-explain-looking-insight-meditation-and\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">留心观察</a>课堂上的情形，你就会发现<a href=\"https://link.zhihu.com/?target=https%3A//thezvi.wordpress.com/2017/08/05/something-was-wrong/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">出事了</a>。学校并非旨在传授实用知识、激发创造力的园地，而是一座我们学着<a href=\"https://link.zhihu.com/?target=https%3A//www.lesswrong.com/posts/NMoLJuDJEms7Ku9XS/guessing-the-teacher-s-password\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">猜老师的密码</a><sup data-text=\"猜老师的密码\" data-url=\"https://hpmor.xyz/ai2zb_31/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>、扼杀创造力的监狱。</p><p data-pid=\"gnfeBvMv\">Robin Hanson 知道： <a href=\"https://link.zhihu.com/?target=http%3A//www.overcomingbias.com/2016/04/school-is-to-submit.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">学校的目标即是服从</a><sup data-text=\"学校的目标即是服从\" data-url=\"https://zhuanlan.zhihu.com/p/704266916\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。作为信号的服从。不得不接受一个发出信号、唯命是从、勤勤恳恳、循规蹈矩的<b>生活</b>。</p><p data-pid=\"2cIw32Fr\">这个「毒瘤」彻底毁掉了我们的童年，往往还毁掉了我们的一生。它用<a href=\"https://link.zhihu.com/?target=http%3A//benjaminrosshoffman.com/the-order-of-the-soul/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">通过官方批准的生存希望</a>和在代数课上裸体出勤的噩梦取代了我们的希望与梦想。学校生活严重摧残着我们的人生——既浪费时间，又让我们背负债务——以至于严重影响了我们抚育后代的能力。为了让孩子上一所环境稍好些的监狱，我们拼命抢购学区房，请教练和家教占据孩子的每分每秒，<b>就是为了让他们考出好成绩、进入名校，而非学到真正的知识。</b>最后上了大学，它拿走我们余下的每一分钱，甚至向我们索取更多，相当于 100% 的边际税率。</p><p data-pid=\"20esCpRs\">学校拿走的<b>远不止</b>我们<b>全部的</b>金钱。</p><p data-pid=\"5SUXGVgN\">作为交换，我们学到的知识少之又少，而且大多数毫无用处。至于有用的东西，如写作、阅读、数学基础，无论如何我们都能学会。</p><p data-pid=\"VCRQFwue\">上小学时，我经常装病，在自己房间里「隔离」一天，就为了能安安心心地看书听广播。这就是<b>接受教育</b>。那些日子里，我学到的东西要多得多。</p><p data-pid=\"m9PjuoHq\">我曾就读于纽约市最难进的高中。课前的「零」时段*和放学后的时光都令我心情愉悦，因为我可以尽情投入自己热爱的数学竞赛，或是同朋友一起游戏。相比之下，枯燥的课堂简直就是一种煎熬，我只能不停地看表度日。在历史课上，我总想纠正老师的错误。我试图选修大学预修课程，却因为在乏味的普通课上表现平平而遭到拒绝。不过，我发现自己仍然有资格参加预修考试，于是就这样做了。</p><blockquote data-pid=\"ohp_aHRg\">译注：‘zero’ period，时间段上和国内的早读类似，但内容上是各种选修课，学生可以有选择地参加。</blockquote><p data-pid=\"i5MjaOsY\">我大胆地将英语课的大项目命名为《放我离开这里》，<b>却无人对此表示惊讶</b>。</p><p data-pid=\"RQAYRKA3\">大学时代，我在一所颇负盛名的学府攻读数学（STEM！）专业。尽管我日常与数字为伴，但从未用到过所学的任何数学知识。</p><p data-pid=\"9fD7yyED\">学校有意地灌输给我们拙劣的写作和阅读方式。我不得不从网上写作中自学得体的写作技巧。所谓的「鉴赏」课程反而让我对音乐、艺术和文学失去了兴趣。若要我比较从一门统计课（主要靠自学教材）中的收获，与<b>其他所有大学课程的总和</b>，并问哪个更有价值，<b>我还真拿不准</b>。</p><p data-pid=\"znlmtt4M\">我修过一门研究生数学课，是数学分析。令我记忆犹新的有三点：第一，考试时他们要求我们注明是否本科生，以便网开一面；第二，整堂课的内容不外乎一个俄罗斯口音浓重、听起来费劲的男人照本宣科，把讲义<b>一字不差地</b>誊写到黑板上，将板书内容原原本本地念出来。</p><p data-pid=\"OeTV7jgj\">第三，这门课是我上过最有价值的一门课，<b>因为它让我与读研无缘</b>。感谢您，教授！</p><hr/><p data-pid=\"KpjgiiXJ\">以上内容摘自 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0\" data-hash=\"4c592f496dc33822b560b382907ff1d0\" data-hovercard=\"p$b$4c592f496dc33822b560b382907ff1d0\">@Thoughts Memo</a> 汉化组的译文《<a href=\"https://zhuanlan.zhihu.com/p/705713335\" class=\"internal\" target=\"_blank\">反对教育的依据</a>》</p><h2>相关文章</h2><a href=\"https://zhuanlan.zhihu.com/p/644412165\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-22f09ba77c6a8423824057988519b1d1_180x120.jpg\" data-image-width=\"3072\" data-image-height=\"2304\" class=\"internal\">Thoughts Memo：爱因斯坦、马克·吐温和其他 48 位名人对学校的看法</a><a href=\"https://zhuanlan.zhihu.com/p/351869026\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-0ea212d779c22f6f899cd12bd9843c21_180x120.jpg\" data-image-width=\"1137\" data-image-height=\"627\" class=\"internal\">Thoughts Memo：强制学校教育</a><a href=\"https://zhuanlan.zhihu.com/p/545188205\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-9454da6a6ac61e0cc2d9c4af14a3118a_180x120.jpg\" data-image-width=\"5760\" data-image-height=\"3840\" class=\"internal\">Thoughts Memo：学校教育十宗罪</a><a href=\"https://zhuanlan.zhihu.com/p/611469462\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-012042f4f93df7672ff25121d0ef9ee7_180x120.jpg\" data-image-width=\"4000\" data-image-height=\"2962\" class=\"internal\">Thoughts Memo：学校教育的问题</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1720230427,
   "excerpt": "学校是什么？Eliezer Yudkowsky 知道，但说得比较委婉 (摘自 不充分的均衡 )：引用 Slate Star Codex[1] 上的一条评论：假如有一座魔法塔，只有智商在 100 以上，还拥有一定责任心的人才能进入，而进塔会让人损失四年寿命。接下来自然会发生的事情是，雇主开始偏爱那些进塔成功的求职者，愿意给予更优厚的薪资，甚至将此作为录用的必要条件。5 … 总而言之：就业市场的必然趋势是，雇主要求应聘者必须出示一份证明，证明他们曾经…",
-  "id": 3553086197,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3553086197",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/351869026": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"强制学校教育\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/351869026\",\"desc\":\"87 赞同 · 16 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 定义 强制学校教育是一种教育理念，在这种理念中，受教育权已被扭曲为在学校系统中度过一定年限的有害义务。权利与命令 强制学校教育经常与受教育权混为一谈。权利不能是强制性的。社会受益于有知识的公民，但强迫学习 [1]对智慧通常弊大于利。在现代信息丰富的社会里，要让公民成为文盲，需要在剥夺中付出相当大的努力。那些注定仍然是文盲的人可能只会面临不必要的多年痛苦。侵犯人权 强制学校教育是对儿童权利和人权的侵犯 。这…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-0ea212d779c22f6f899cd12bd9843c21_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"351869026\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/545188205": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"学校教育十宗罪\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/545188205\",\"desc\":\"199 赞同 · 33 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 在 这本书 [1]中，我列出了「现代」学校系统的几十宗大罪。本文只是简述这些罪过。 被动学校教育 [2]和强制学校教育 [3]的致命罪过：学校教育扼杀了学习内驱力 [4]，导致学习效率低下 学校教育扼杀了创造力 [5]，并导致了习得性无助 [6] 学校教育扼杀了解决问题 [7]的能力，并导致泛化 [8]能力受限 学校教育扼杀了探索性学习（见：教育抵消了进化 [9]） 学校教育扼杀了智慧 [10]，因为它压制了选择，并命令学生进行无语义学习 [11] 学校教育…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-9454da6a6ac61e0cc2d9c4af14a3118a_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"545188205\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/611469462": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"学校教育的问题\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/611469462\",\"desc\":\"264 赞同 · 51 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 译者序大家好，我是 @Thoughts Memo 汉化组[1]的公仆叶峻峣。我第一次翻译 Woz 的文章，还是 18 年年底，从那时我独自一人，基于机翻文本进行润色，到如今建立汉化组，和志同道合的朋友们一起翻译，没想到已经过去四年多了。这四年我在翻译 Woz 文章的心态也发生了很多变化。从开始的叛逆，想要否定学校，庆幸自己的存活，到后来的分享，让更多人发现遇到问题的人不只有自己。我对 Woz 文章本身的看法也在演变。从最早的「他实在…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-012042f4f93df7672ff25121d0ef9ee7_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"611469462\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/644412165": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"爱因斯坦、马克·吐温和其他 48 位名人对学校的看法\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/644412165\",\"desc\":\"166 赞同 · 24 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 「我在班上排名垫底。」——托马斯·爱迪生纵观历史，自柏拉图以来，有识之士都大声反对强制 教育的僵化影响。以下是 50 位这样的人的语录，这些语录部分来自我自己的阅读，但大部分来自其他各种网站。阿尔伯特·爱因斯坦 现代教学方法，竟然还没有把研究问题的神圣好奇心完全扼杀掉，真可以说是一个奇迹；因为这株脆弱的幼苗，除了需要鼓励以外，主要需要自由；要是没有自由，它不可避免地会夭折。认为用强制和责任感就能增进观…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-22f09ba77c6a8423824057988519b1d1_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"644412165\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/351869026": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"强制学校教育\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/351869026\",\"desc\":\"97 赞同 · 16 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 定义 强制学校教育是一种教育理念，在这种理念中，受教育权已被扭曲为在学校系统中度过一定年限的有害义务。权利与命令 强制学校教育经常与受教育权混为一谈。权利不能是强制性的。社会受益于有知识的公民，但强迫学习 [1]对智慧通常弊大于利。在现代信息丰富的社会里，要让公民成为文盲，需要在剥夺中付出相当大的努力。那些注定仍然是文盲的人可能只会面临不必要的多年痛苦。侵犯人权 强制学校教育是对儿童权利和人权的侵犯 。这…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-0ea212d779c22f6f899cd12bd9843c21_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"351869026\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/545188205": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"学校教育十宗罪\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/545188205\",\"desc\":\"200 赞同 · 33 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 在 这本书 [1]中，我列出了「现代」学校系统的几十宗大罪。本文只是简述这些罪过。 被动学校教育 [2]和强制学校教育 [3]的致命罪过：学校教育扼杀了学习内驱力 [4]，导致学习效率低下 学校教育扼杀了创造力 [5]，并导致了习得性无助 [6] 学校教育扼杀了解决问题 [7]的能力，并导致泛化 [8]能力受限 学校教育扼杀了探索性学习（见：教育抵消了进化 [9]） 学校教育扼杀了智慧 [10]，因为它压制了选择，并命令学生进行无语义学习 [11] 学校教育…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-9454da6a6ac61e0cc2d9c4af14a3118a_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"545188205\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/611469462": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"学校教育的问题\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/611469462\",\"desc\":\"408 赞同 · 61 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 译者序大家好，我是 @Thoughts Memo 汉化组[1]的公仆叶峻峣。我第一次翻译 Woz 的文章，还是 18 年年底，从那时我独自一人，基于机翻文本进行润色，到如今建立汉化组，和志同道合的朋友们一起翻译，没想到已经过去四年多了。这四年我在翻译 Woz 文章的心态也发生了很多变化。从开始的叛逆，想要否定学校，庆幸自己的存活，到后来的分享，让更多人发现遇到问题的人不只有自己。我对 Woz 文章本身的看法也在演变。从最早的「他实在…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-012042f4f93df7672ff25121d0ef9ee7_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"611469462\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/644412165": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"爱因斯坦、马克·吐温和其他 48 位名人对学校的看法\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/644412165\",\"desc\":\"168 赞同 · 24 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 「我在班上排名垫底。」——托马斯·爱迪生纵观历史，自柏拉图以来，有识之士都大声反对强制 教育的僵化影响。以下是 50 位这样的人的语录，这些语录部分来自我自己的阅读，但大部分来自其他各种网站。阿尔伯特·爱因斯坦 现代教学方法，竟然还没有把研究问题的神圣好奇心完全扼杀掉，真可以说是一个奇迹；因为这株脆弱的幼苗，除了需要鼓励以外，主要需要自由；要是没有自由，它不可避免地会夭折。认为用强制和责任感就能增进观…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-22f09ba77c6a8423824057988519b1d1_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"644412165\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=3553086197&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1677128539,
     "detail": "<p>你们说学校为什么要以成绩为标准呢</p><p>难道成绩不好的人就必须要和一群没教养的在一起吗</p>",
-    "id": 585757211,
+    "id": "585757211",
     "question_type": "normal",
     "relationship": {},
     "title": "学校到底是个什么？",
     "type": "question",
     "updated_time": 1677128539,
-    "url": "https://api.zhihu.com/questions/585757211"
+    "url": "https://www.zhihu.com/api/v4/questions/585757211"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 37
+  "updated_time": 1720230427,
+  "url": "https://www.zhihu.com/api/v4/answers/3553086197",
+  "voteup_count": 38
 }

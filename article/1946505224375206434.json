@@ -1,80 +1,461 @@
 {
-  "status": 0,
+  "id": "1946505224375206434",
+  "title": "无法绝望",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/1946505224375206434",
+  "image_url": "https://pic1.zhimg.com/v2-5bbc277fcb0685054f867df8f09b630f_720w.jpg?source=172ae18b",
+  "title_image": "https://pica.zhimg.com/v2-5bbc277fcb0685054f867df8f09b630f_720w.jpg?source=172ae18b",
+  "excerpt": "内容提示：接下来的几篇帖子，内容可能会比较沉重或令人不适，请读者谨慎阅读。 有时候，当人们预见生活即将变得艰难时，他们会开始振作起来。另一些时候，他们则开始绝望、抱怨，或是准备好借口，以便在不可避免的失败来临时能立刻派上用场，又或者干脆彻…",
+  "created": 1756863432,
   "updated": 1758881872,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "内容提示：接下来的几篇帖子，内容可能会比较沉重或令人不适，请读者谨慎阅读。有时…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 4000,
+  "image_height": 811,
+  "content": "<p data-pid=\"eSjNvsjO\">内容提示：接下来的几篇帖子，内容可能会比较沉重或令人不适，请读者谨慎阅读。</p><p data-pid=\"zBIweqZp\">有时候，当人们预见生活即将变得艰难时，他们会开始振作起来。另一些时候，他们则开始绝望、抱怨，或是准备好借口，以便在不可避免的失败来临时能立刻派上用场，又或者干脆彻底放弃，然后<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/failing-with-abandon/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">破罐破摔</a><sup data-text=\"破罐破摔\" data-url=\"https://zhuanlan.zhihu.com/p/1901765420047925380\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>。接下来的几篇文章，将假定你属于前一种人；对于那些倾向于用绝望来回应新困境的人，这些文章可能帮助不大。记住<a href=\"https://link.zhihu.com/?target=http%3A//slatestarcodex.com/2014/03/24/should-you-reverse-any-advice-you-hear/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">相反建议并存定律</a>！（即，每当有一部分人需要某条建议时，总有另一部分人需要与之完全相反的建议。）</p><p data-pid=\"Jz9Z0Qqm\">话虽如此，如果你想成为前者，我还是想花些笔墨，给出几条关于如何培养这种心态的建议。第一条相关的建议是：你应对挑战的方式是<b>因情境而异的</b>。即使你已经习惯于用绝望来应对一些问题，也很可能存在另一些问题，你能够以振作的态度去回应。</p><p data-pid=\"7oWG00Z8\">根据我的经验，有一种特定的心态，能让人更容易地进入那种「迎难而上」的状态。这种心态就是：「什么都不做」似乎根本不存于你的行动选项空间之中。我之前曾稍微写过，我认为<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/rest-in-motion/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">很多人认为存在一个默认的「休息状态」</a><sup data-text=\"休息，应在行动之中\" data-url=\"https://zhuanlan.zhihu.com/p/1926221776146396166\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，这是一个相关的概念：很多人似乎认为存在一种特权般的「什么都不做」的选项，包括类似蜷缩成一团、赖在床上以及拒绝回复邮件等行为。然而，而当你意识到，蜷缩在床上<b>也只是众多行动选项中的一个</b>时，那么进入「迎难而上」的状态会容易得多。它只是应对情况的一种方式，它有优点也有缺点。</p><p data-pid=\"yjpi6J9L\">所以，如果你想成为那种面对困境能迎难而上的人，这是我的第二条建议：<b>用「可能的回应」这一视角来看待世界</b>。把蜷缩在床上、无视一切，看作仅仅是<b>一种可能的回应</b>，而不是逃生出口。请驱散那种认为某些行动被标记为「什么都不做」的幻觉，并认识到，那些行为，同样是回应。世上本没有特权般的「空选项」。</p><p data-pid=\"oZ1IXTAD\">（这并不是说，蜷缩在床上、暂时无视一切是<b>坏的</b>。有时候，这恰恰是你恢复元气所需要的。有时，无论你如何决定，<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/rest-in-motion/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这都是猴子会做的事情</a><sup data-text=\"休息，应在行动之中\" data-url=\"https://zhuanlan.zhihu.com/p/1926221776146396166\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。关键在于，当自然为你提供选项时，并不存在一个「不选」的选项。存在的，只有自然提供的那些选项，而你所能做的，就是从中选出最好的那一个。）</p><p data-pid=\"dr50feE5\">我的第三条建议是，记住你<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/residing-in-the-mortal-realm/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">立足凡间</a><sup data-text=\"立足凡间\" data-url=\"https://zhuanlan.zhihu.com/p/1944131629204346775\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。如果你接触到新的信息，或是一种看待世界的新方式，并因此开始感到绝望、无望、无助或无力，那么，蜷缩在角落里，让自己暂时地感受悲伤、恐惧和渺小，是<b>完全可以接受的</b>。那是一种很好的回应。它既不意味着你无法胜任挑战，也不意味着你注定要永远绝望下去。你被允许偶尔感到渺小，然后重新站起来，继续前行，完全不必假装一切安好。我们终究是猴子。感到无助，在所难免。</p><p data-pid=\"RZA4GHtT\">迎接挑战，并不意味着从不感到无助。它意味着，<b>即便</b>有时感到无助，<b>无论如何</b>也要继续前行。</p><p data-pid=\"l-IxIzRQ\">根据我的经验，要激发内在的驱动力，往往需要触及一种深刻的渴望，即渴望在一个非常广阔、伤痕累累且难以改变的世界里，<b>让世界变得不同</b>。当你试图这样做时，很容易被你所面临的巨大困难所压垮——无论其规模大小。（事实上，我常常发现，那些个人层面的困境——当我感到孤立、孤独或没有朋友时——所引发的绝望感，与任何试图改变整个世界的人所面临的困境所引发的绝望感，并无二致。）</p><p data-pid=\"5YWYYW9Q\">在接下来的几篇文章中，我将探讨如何激发这种内在驱动力。这将意味着，我们需要尝试看清局势的真相：也就是坦然承认所有对你不利的一切。如果你不小心，这可能会让你崩溃。但如果你做得对，它反而能让你振作起来，并成为你力量的源泉。</p><hr/><p data-pid=\"IbtLCbbT\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1944131629204346775\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">立足凡间</a><p data-pid=\"h26cPx8c\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1954836809650505396\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">直面黑暗世界</a><hr/><blockquote data-pid=\"3nMPxrpi\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">Specialz-OST</span>，校对 <span class=\"nolink\">justBooks943</span>、Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/being-unable-to-despair/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Being unable to despair</a><br/>2015 年 9 月 13 日</blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19577227",
+      "type": "topic",
+      "id": "19577227",
+      "name": "动力"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19608236",
+      "type": "topic",
+      "id": "19608236",
+      "name": "绝望"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/23489539",
+      "type": "topic",
+      "id": "23489539",
+      "name": "挑战"
+    }
+  ],
+  "voteup_count": 344,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "<p>将无益的内疚感转化为更理性、更有效能的行动和思维模式，以实现个人目标并更好地为世界做出贡献。</p>",
+    "is_following": false,
+    "url_token": "c_1900848986845319905",
+    "id": "c_1900848986845319905",
+    "articles_count": 38,
+    "accept_submission": false,
+    "title": "超越内疚",
+    "url": "https://api.zhihu.com/columns/c_1900848986845319905",
+    "comment_permission": "all",
+    "created": 1745977714,
+    "updated": 1748310019,
+    "image_url": "https://picx.zhimg.com/v2-aadaf160e1a360ad997ceff62fd063a3_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 670,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 27,
+  "contributions": [
+    {
+      "id": 52656750,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "<p>将无益的内疚感转化为更理性、更有效能的行动和思维模式，以实现个人目标并更好地为世界做出贡献。</p>",
+        "is_following": false,
+        "url_token": "c_1900848986845319905",
+        "id": "c_1900848986845319905",
+        "articles_count": 38,
+        "accept_submission": false,
+        "title": "超越内疚",
+        "url": "https://api.zhihu.com/columns/c_1900848986845319905",
+        "comment_permission": "all",
+        "created": 1745977714,
+        "updated": 1748310019,
+        "image_url": "https://picx.zhimg.com/v2-aadaf160e1a360ad997ceff62fd063a3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 670,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 1946505224375206400,
-  "voteup_count": 330,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 641,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "无法绝望 - 来自知乎专栏「超越内疚」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/1946505224375206434 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1756863432,
-  "url": "https://api.zhihu.com/articles/1946505224375206434",
-  "comment_permission": "all",
-  "title": "无法绝望",
-  "image_width": 811,
-  "content": "<p data-pid=\"eSjNvsjO\">内容提示：接下来的几篇帖子，内容可能会比较沉重或令人不适，请读者谨慎阅读。</p><p data-pid=\"zBIweqZp\">有时候，当人们预见生活即将变得艰难时，他们会开始振作起来。另一些时候，他们则开始绝望、抱怨，或是准备好借口，以便在不可避免的失败来临时能立刻派上用场，又或者干脆彻底放弃，然后<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/failing-with-abandon/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">破罐破摔</a><sup data-text=\"破罐破摔\" data-url=\"https://zhuanlan.zhihu.com/p/1901765420047925380\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>。接下来的几篇文章，将假定你属于前一种人；对于那些倾向于用绝望来回应新困境的人，这些文章可能帮助不大。记住<a href=\"https://link.zhihu.com/?target=http%3A//slatestarcodex.com/2014/03/24/should-you-reverse-any-advice-you-hear/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">相反建议并存定律</a>！（即，每当有一部分人需要某条建议时，总有另一部分人需要与之完全相反的建议。）</p><p data-pid=\"Jz9Z0Qqm\">话虽如此，如果你想成为前者，我还是想花些笔墨，给出几条关于如何培养这种心态的建议。第一条相关的建议是：你应对挑战的方式是<b>因情境而异的</b>。即使你已经习惯于用绝望来应对一些问题，也很可能存在另一些问题，你能够以振作的态度去回应。</p><p data-pid=\"7oWG00Z8\">根据我的经验，有一种特定的心态，能让人更容易地进入那种「迎难而上」的状态。这种心态就是：「什么都不做」似乎根本不存于你的行动选项空间之中。我之前曾稍微写过，我认为<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/rest-in-motion/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">很多人认为存在一个默认的「休息状态」</a><sup data-text=\"休息，应在行动之中\" data-url=\"https://zhuanlan.zhihu.com/p/1926221776146396166\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，这是一个相关的概念：很多人似乎认为存在一种特权般的「什么都不做」的选项，包括类似蜷缩成一团、赖在床上以及拒绝回复邮件等行为。然而，而当你意识到，蜷缩在床上<b>也只是众多行动选项中的一个</b>时，那么进入「迎难而上」的状态会容易得多。它只是应对情况的一种方式，它有优点也有缺点。</p><p data-pid=\"yjpi6J9L\">所以，如果你想成为那种面对困境能迎难而上的人，这是我的第二条建议：<b>用「可能的回应」这一视角来看待世界</b>。把蜷缩在床上、无视一切，看作仅仅是<b>一种可能的回应</b>，而不是逃生出口。请驱散那种认为某些行动被标记为「什么都不做」的幻觉，并认识到，那些行为，同样是回应。世上本没有特权般的「空选项」。</p><p data-pid=\"oZ1IXTAD\">（这并不是说，蜷缩在床上、暂时无视一切是<b>坏的</b>。有时候，这恰恰是你恢复元气所需要的。有时，无论你如何决定，<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/rest-in-motion/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这都是猴子会做的事情</a><sup data-text=\"休息，应在行动之中\" data-url=\"https://zhuanlan.zhihu.com/p/1926221776146396166\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。关键在于，当自然为你提供选项时，并不存在一个「不选」的选项。存在的，只有自然提供的那些选项，而你所能做的，就是从中选出最好的那一个。）</p><p data-pid=\"dr50feE5\">我的第三条建议是，记住你<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/residing-in-the-mortal-realm/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">立足凡间</a><sup data-text=\"立足凡间\" data-url=\"https://zhuanlan.zhihu.com/p/1944131629204346775\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。如果你接触到新的信息，或是一种看待世界的新方式，并因此开始感到绝望、无望、无助或无力，那么，蜷缩在角落里，让自己暂时地感受悲伤、恐惧和渺小，是<b>完全可以接受的</b>。那是一种很好的回应。它既不意味着你无法胜任挑战，也不意味着你注定要永远绝望下去。你被允许偶尔感到渺小，然后重新站起来，继续前行，完全不必假装一切安好。我们终究是猴子。感到无助，在所难免。</p><p data-pid=\"RZA4GHtT\">迎接挑战，并不意味着从不感到无助。它意味着，<b>即便</b>有时感到无助，<b>无论如何</b>也要继续前行。</p><p data-pid=\"l-IxIzRQ\">根据我的经验，要激发内在的驱动力，往往需要触及一种深刻的渴望，即渴望在一个非常广阔、伤痕累累且难以改变的世界里，<b>让世界变得不同</b>。当你试图这样做时，很容易被你所面临的巨大困难所压垮——无论其规模大小。（事实上，我常常发现，那些个人层面的困境——当我感到孤立、孤独或没有朋友时——所引发的绝望感，与任何试图改变整个世界的人所面临的困境所引发的绝望感，并无二致。）</p><p data-pid=\"5YWYYW9Q\">在接下来的几篇文章中，我将探讨如何激发这种内在驱动力。这将意味着，我们需要尝试看清局势的真相：也就是坦然承认所有对你不利的一切。如果你不小心，这可能会让你崩溃。但如果你做得对，它反而能让你振作起来，并成为你力量的源泉。</p><hr/><p data-pid=\"IbtLCbbT\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1944131629204346775\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">立足凡间</a><p data-pid=\"h26cPx8c\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1954836809650505396\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">直面黑暗世界</a><hr/><blockquote data-pid=\"3nMPxrpi\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">Specialz-OST</span>，校对 <span class=\"nolink\">justBooks943</span>、Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/being-unable-to-despair/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Being unable to despair</a><br/>2015 年 9 月 13 日</blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 26,
-  "image_url": "https://pica.zhimg.com/v2-5bbc277fcb0685054f867df8f09b630f_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 16,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 16,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyNjI1ODU4NjgSEzE5NDY1MDUyMjQzNzUyMDY0MzQYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 344,
+      "down_vote_count": 6,
+      "like_count": 16,
+      "comment_count": 27,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 641,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-5bbc277fcb0685054f867df8f09b630f": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-5bbc277fcb0685054f867df8f09b630f": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-5bbc277fcb0685054f867df8f09b630f": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "10 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/38165577183?contentId=1946505224375206434&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 超越内疚",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1900848986845319905",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 超越内疚"
+      }
+    }
+  ],
+  "segment_infos": [
+    {
+      "pid": "7oWG00Z8",
+      "text": "根据我的经验，有一种特定的心态，能让人更容易地进入那种「迎难而上」的状态。这种心态就是：「什么都不做」似乎根本不存于你的行动选项空间之中。我之前曾稍微写过，我认为 很多人认为存在一个默认的「休息状态」[2]，这是一个相关的概念：很多人似乎认为存在一种特权般的「什么都不做」的选项，包括类似蜷缩成一团、赖在床上以及拒绝回复邮件等行为。然而，而当你意识到，蜷缩在床上也只是众多行动选项中的一个时，那么进入「迎难而上」的状态会容易得多。它只是应对情况的一种方式，它有优点也有缺点。",
+      "marks": [
+        {
+          "start_index": 166,
+          "end_index": 237,
+          "seg_info": {
+            "seg_ids": [
+              "1946925999074836493"
+            ],
+            "is_like": false,
+            "like_count": 2,
+            "comment_count": 0,
+            "my_comment_count": 0,
+            "is_span": true
+          }
+        }
+      ]
+    },
+    {
+      "pid": "yjpi6J9L",
+      "text": "所以，如果你想成为那种面对困境能迎难而上的人，这是我的第二条建议：用「可能的回应」这一视角来看待世界。把蜷缩在床上、无视一切，看作仅仅是一种可能的回应，而不是逃生出口。请驱散那种认为某些行动被标记为「什么都不做」的幻觉，并认识到，那些行为，同样是回应。世上本没有特权般的「空选项」。",
+      "marks": [
+        {
+          "start_index": 0,
+          "end_index": 0,
+          "seg_info": {
+            "seg_ids": [
+              "1946925999074836493"
+            ],
+            "is_like": false,
+            "like_count": 2,
+            "comment_count": 0,
+            "my_comment_count": 0,
+            "is_span": true
+          }
+        }
+      ]
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

@@ -1,15 +1,16 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pica.zhimg.com/v2-7a23f5ee157d58c2494e8a642e59b7ae.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
     "badge": [],
     "badge_v2": {
       "detail_badges": [],
       "icon": "",
       "merged_badges": [],
       "night_icon": "",
-      "title": ""
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。"
     },
     "gender": 1,
     "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
@@ -19,39 +20,59 @@
     "is_privacy": false,
     "name": "Jarrett Ye",
     "type": "people",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "url": "https://www.zhihu.com/api/v4/people/3c9990a12cdbcd92e20b1387b160f0a3",
     "url_token": "JarrettYe",
     "user_type": "people"
   },
-  "biz_ext": {},
-  "comment_count": 2,
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
+  "comment_count": 3,
   "content": "<p data-pid=\"s985nMud\">利益相关：墨墨背单词记忆算法工程师</p><p data-pid=\"_lnGWUp7\">好久没答自己老本行的问题了，简单解答一下。</p><p data-pid=\"S9iDYBoA\">墨墨背单词的原理就是间隔重复，对同一个单词，在未来的几个月中安排多次复习，以巩固这个单词在学习者脑中的长期记忆。</p><p data-pid=\"PPRT22pB\">当然，谁都可以给自己安排单词复习，似乎并没有使用软件的必要。但墨墨背单词的记忆算法可以预测学习者长期记忆中的每个单词当前的记忆状态，并根据优化算法来安排复习，可以用更少的时间记住更多的单词。而且，如果要背的单词有几千个，自己安排也会非常繁琐。既然有自动化的算法辅助，又何必在这上面浪费时间呢？</p><p data-pid=\"xLNXV8te\">关于墨墨背单词的算法细节，可以参考我发表的这两篇论文：</p><a href=\"https://zhuanlan.zhihu.com/p/577383961\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-337e676d732039a25471c1057c54bfa3_180x120.jpg\" data-image-width=\"2700\" data-image-height=\"1480\" class=\"internal\">Thoughts Memo：KDD&#39;22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]</a><a href=\"https://zhuanlan.zhihu.com/p/656714407\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-5285ed3ff6a616b988d261d5e1ec764f_180x120.jpg\" data-image-width=\"2752\" data-image-height=\"1526\" class=\"internal\">Thoughts Memo：IEEE TKDE 2023 | 墨墨背单词：通过捕捉记忆动态，优化间隔重复调度</a><p data-pid=\"wo1LCjTM\">除此之外，还可以看看其他来源的文献：</p><a href=\"https://zhuanlan.zhihu.com/p/420105707\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-9268cd1d0435215e42750c7d34ecd7b5_180x120.jpg\" data-image-width=\"2183\" data-image-height=\"1203\" class=\"internal\">Thoughts Memo：(1/5) 高效学习的间隔重复——概述</a><a href=\"https://zhuanlan.zhihu.com/p/420309917\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-2dbc2730b68fac71f549caab01eca920_180x120.jpg\" data-image-width=\"2076\" data-image-height=\"1170\" class=\"internal\">Thoughts Memo：(2/5) 高效学习的间隔重复——文献综述之测试效应</a><a href=\"https://zhuanlan.zhihu.com/p/420924493\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-c411e5e812bd614048b34e5a1f48eb9f_180x120.jpg\" data-image-width=\"2240\" data-image-height=\"1264\" class=\"internal\">Thoughts Memo：(3/5) 高效学习的间隔重复——文献综述之间隔效应</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1714128115,
   "excerpt": "利益相关：墨墨背单词记忆算法工程师 好久没答自己老本行的问题了，简单解答一下。 墨墨背单词的原理就是间隔重复，对同一个单词，在未来的几个月中安排多次复习，以巩固这个单词在学习者脑中的长期记忆。 当然，谁都可以给自己安排单词复习，似乎并没有使用软件的必要。但墨墨背单词的记忆算法可以预测学习者长期记忆中的每个单词当前的记忆状态，并根据优化算法来安排复习，可以用更少的时间记住更多的单词。而且，如果要背的…",
-  "id": 3479685534,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3479685534",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/420105707": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"(1/5) 高效学习的间隔重复——概述\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/420105707\",\"desc\":\"222 赞同 · 11 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 原文： Spaced Repetition for Efficient Learning · Gwern.net 译者： @Shom @住在树洞里的二猪 @彩练空舞 @ACRL 等 Thoughts Memo 汉化组成员译者按由于原文长达 3 万词，翻译后接近 4 万字，故拆分为以下 5 个部分发布： 概述（现在在这儿）文献综述测试效应：https://zhuanlan.zhihu.com/p/420309917 间隔效应：https://zhuanlan.zhihu.com/p/420924493 应用指南：https://zhuanlan.zhihu.com/p/423065882 脚注：https://zhuanlan.zhihu.com/p/453406457 本文内容翔实，参考了大量文献，也被多篇领域内论文…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-9268cd1d0435215e42750c7d34ecd7b5_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"420105707\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/420309917": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"(2/5) 高效学习的间隔重复——文献综述之测试效应\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/420309917\",\"desc\":\"146 赞同 · 13 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 总目录： 概述：https://zhuanlan.zhihu.com/p/420105707 文献综述测试效应（现在在这儿）间隔效应：https://zhuanlan.zhihu.com/p/420924493 应用指南：https://zhuanlan.zhihu.com/p/423065882 脚注：https://zhuanlan.zhihu.com/p/453406457 文献综述 但是不要轻信我的话—— 不随他人之言！要用科学说话。当然，如果你真的相信我的话，你可能只想阅读间隔重复的使用方法和各种花式应用，所以我建议你直接跳到这里（应用指南 ）。其他人，我们从头开始：背景：测试有效果！ 「把课文阅读二十遍之后背诵，效果…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-2dbc2730b68fac71f549caab01eca920_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"420309917\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/420924493": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"(3/5) 高效学习的间隔重复——文献综述之间隔效应\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/420924493\",\"desc\":\"78 赞同 · 10 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 总目录： 概述：https://zhuanlan.zhihu.com/p/420105707 文献综述测试效应：https://zhuanlan.zhihu.com/p/420309917 间隔效应（现在在这儿）应用指南：https://zhuanlan.zhihu.com/p/423065882 脚注：https://zhuanlan.zhihu.com/p/453406457 间隔效应 （分散练习） 测试的时机至关重要。上文中，我们注意到学完知识之后测试是有些好处，但是同样数量的测试分散到不同时机进行，更能实现 间隔效应或者间隔重复。有上百个研究涉及间隔效应：Cepeda et al 2006 这篇综述对 184 篇文章共计 317 个实验做了总结；…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-c411e5e812bd614048b34e5a1f48eb9f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"420924493\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/577383961": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"KDD'22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/577383961\",\"desc\":\"477 赞同 · 91 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 大家好，我是叶峻峣，墨墨科技的记忆算法工程师。前三篇文章我分别介绍了我的科研经历 [1]、算法教程[2]和研究资源[3]。今天分享一下记忆算法论文 A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling 的详细介绍，该论文由我和哈工深的苏敬勇老师、墨墨背单词的曹译珑博士在 KDD 2022 上发表，研究了如何在背单词场景下对用户复习规划进行优化的问题。与以往的同类工作不同的是，本文构建了包含…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-337e676d732039a25471c1057c54bfa3_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"577383961\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/656714407": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"IEEE TKDE 2023 | 墨墨背单词：通过捕捉记忆动态，优化间隔重复调度\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/656714407\",\"desc\":\"301 赞同 · 38 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 大家好，我是叶峻峣，墨墨科技的记忆算法工程师。今天要分享的这篇论文研究了如何在背单词场景下对用户复习规划进行优化的问题。本来这篇论文在今年 3 月份的时候就已经录用了，不过一直处于 early access 阶段。目前终于正式刊出，所以在知乎分享一下论文的中文版本，让记忆算法的研究者能够更方便地了解该领域的前沿进展。 DOI：https://doi.org/10.1109/TKDE.2023.3251721 开源代码：maimemo/SSP-MMC-Plus: Optimizing Spaced Repetition Schedule …\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-5285ed3ff6a616b988d261d5e1ec764f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"656714407\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/420105707": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"(1/5) 高效学习的间隔重复——概述\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/420105707\",\"desc\":\"297 赞同 · 13 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 原文： Spaced Repetition for Efficient Learning · Gwern.net 译者： @Shom @住在树洞里的二猪 @彩练空舞 @ACRL 等 Thoughts Memo 汉化组成员译者按由于原文长达 3 万词，翻译后接近 4 万字，故拆分为以下 5 个部分发布： 概述（现在在这儿）文献综述测试效应：https://zhuanlan.zhihu.com/p/420309917 间隔效应：https://zhuanlan.zhihu.com/p/420924493 应用指南：https://zhuanlan.zhihu.com/p/423065882 脚注：https://zhuanlan.zhihu.com/p/453406457 本文内容翔实，参考了大量文献，也被多篇领域内论文…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-9268cd1d0435215e42750c7d34ecd7b5_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"420105707\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/420309917": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"(2/5) 高效学习的间隔重复——文献综述之测试效应\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/420309917\",\"desc\":\"166 赞同 · 13 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 总目录： 概述：https://zhuanlan.zhihu.com/p/420105707 文献综述测试效应（现在在这儿）间隔效应：https://zhuanlan.zhihu.com/p/420924493 应用指南：https://zhuanlan.zhihu.com/p/423065882 脚注：https://zhuanlan.zhihu.com/p/453406457 文献综述 但是不要轻信我的话—— 不随他人之言！要用科学说话。当然，如果你真的相信我的话，你可能只想阅读间隔重复的使用方法和各种花式应用，所以我建议你直接跳到这里（应用指南 ）。其他人，我们从头开始：背景：测试有效果！ 「把课文阅读二十遍之后背诵，效果…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-2dbc2730b68fac71f549caab01eca920_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"420309917\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/420924493": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"(3/5) 高效学习的间隔重复——文献综述之间隔效应\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/420924493\",\"desc\":\"90 赞同 · 10 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 总目录： 概述：https://zhuanlan.zhihu.com/p/420105707 文献综述测试效应：https://zhuanlan.zhihu.com/p/420309917 间隔效应（现在在这儿）应用指南：https://zhuanlan.zhihu.com/p/423065882 脚注：https://zhuanlan.zhihu.com/p/453406457 间隔效应 （分散练习） 测试的时机至关重要。上文中，我们注意到学完知识之后测试是有些好处，但是同样数量的测试分散到不同时机进行，更能实现 间隔效应或者间隔重复。有上百个研究涉及间隔效应：Cepeda et al 2006 这篇综述对 184 篇文章共计 317 个实验做了总结；…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-c411e5e812bd614048b34e5a1f48eb9f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"420924493\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/577383961": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"KDD'22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/577383961\",\"desc\":\"559 赞同 · 98 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 大家好，我是叶峻峣，墨墨科技的记忆算法工程师。前三篇文章我分别介绍了我的科研经历 [1]、算法教程[2]和研究资源[3]。今天分享一下记忆算法论文 A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling 的详细介绍，该论文由我和哈工深的苏敬勇老师、墨墨背单词的曹译珑博士在 KDD 2022 上发表，研究了如何在背单词场景下对用户复习规划进行优化的问题。与以往的同类工作不同的是，本文构建了包含…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-337e676d732039a25471c1057c54bfa3_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"577383961\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/656714407": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"IEEE TKDE 2023 | 墨墨背单词：通过捕捉记忆动态，优化间隔重复调度\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/656714407\",\"desc\":\"327 赞同 · 54 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 大家好，我是叶峻峣，墨墨科技的记忆算法工程师。今天要分享的这篇论文研究了如何在背单词场景下对用户复习规划进行优化的问题。本来这篇论文在今年 3 月份的时候就已经录用了，不过一直处于 early access 阶段。目前终于正式刊出，所以在知乎分享一下论文的中文版本，让记忆算法的研究者能够更方便地了解该领域的前沿进展。 DOI：https://doi.org/10.1109/TKDE.2023.3251721 开源代码：maimemo/SSP-MMC-Plus: Optimizing Spaced Repetition Schedule …\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-5285ed3ff6a616b988d261d5e1ec764f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"656714407\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=3479685534&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1711924469,
     "detail": "",
-    "id": 651105728,
+    "id": "651105728",
     "question_type": "normal",
     "relationship": {},
     "title": "墨墨背单词，为什么能让我们更好的记忆单词？",
     "type": "question",
     "updated_time": 1711924469,
-    "url": "https://api.zhihu.com/questions/651105728"
+    "url": "https://www.zhihu.com/api/v4/questions/651105728"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 32
+  "updated_time": 1714128115,
+  "url": "https://www.zhihu.com/api/v4/answers/3479685534",
+  "voteup_count": 34
 }

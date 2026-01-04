@@ -1,80 +1,608 @@
 {
-  "status": 0,
+  "id": "322673517",
+  "title": "示范：我的渐进阅读工作流程",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/322673517",
+  "image_url": "https://picx.zhimg.com/v2-4dcf0a91fb51b7acfd9cb5ab501c38ae_720w.jpg?source=172ae18b",
+  "title_image": "https://pic1.zhimg.com/v2-4dcf0a91fb51b7acfd9cb5ab501c38ae_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://pic2.zhimg.com/v2-9a95b24e3568bd140698efb69dca3e9d_200x112.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"456\" data-watermark=\"watermark\" data-original-src=\"v2-9a95b24e3568bd140698efb69dca3e9d\" data-watermark-src=\"v2-23fb923c9f017aaffbbb21ecfdc8a3dc\" data-private-watermark-src=\"\" data-original=\"https://pic2.zhimg.com/v2-9a95b24e3568bd140698efb69dca3e9d_r.png\" class=\"origin_image inline-img zh-lightbox-thumb\"/>原文： <u><a href=\"https://link.zhihu.com/?target=https%3A//www.masterhowtolearn.com/2018-12-09-demonstration-my-workflow-of-incremental-reading/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Demonstration: My Workflow of Incremental Reading | Master How To Learn</a></u>在我之前的《SuperMemo 中渐进阅读的意义》： <u><a href=\"https://zhuanlan.zhihu.com/p/322497441\" class=\"internal\" target=\"_blank\">第一部分</a></u>和<u><a href=\"https://zhuanlan.zhihu.com/p/322584755\" class=\"internal\" target=\"_blank\">第二部分</a></u>中，我尽力解释了渐进阅读。在这篇文章中，我将向你展示我的 IR 工作流程。注意： 这是对渐进阅读的基本介…",
+  "created": 1606756134,
   "updated": 1690459905,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "原文：Demonstration: My Workflow of Incremental Reading | Master How To Learn …",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 590,
+  "image_height": 416,
+  "content": "<p data-pid=\"d2YrUSUk\">原文：<u><a href=\"https://link.zhihu.com/?target=https%3A//www.masterhowtolearn.com/2018-12-09-demonstration-my-workflow-of-incremental-reading/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Demonstration: My Workflow of Incremental Reading | Master How To Learn</a></u></p><p data-pid=\"4AZVG-4i\">在我之前的《SuperMemo 中渐进阅读的意义》：<u><a href=\"https://zhuanlan.zhihu.com/p/322497441\" class=\"internal\" target=\"_blank\">第一部分</a></u>和<u><a href=\"https://zhuanlan.zhihu.com/p/322584755\" class=\"internal\" target=\"_blank\">第二部分</a></u>中，我尽力解释了渐进阅读。在这篇文章中，我将向你展示我的 IR 工作流程。</p><p data-pid=\"1Q_k4qbn\">注意：</p><ol><li data-pid=\"j7fDfZx-\">这是对渐进阅读的基本介绍。这个演示有些简化。将此视为渐进阅读 101。</li><li data-pid=\"o86x_amg\">有很多方法，没有一个完全正确的方法。我希望你能在阅读后创建和定制自己的工作流程。</li></ol><h2><b>快速术语回顾</b></h2><p data-pid=\"AVzBe-RD\">SM = <u><a href=\"https://link.zhihu.com/?target=http%3A//super-memo.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">super-memo.com</a></u> 的 SuperMemo；而不是 <u><a href=\"https://link.zhihu.com/?target=http%3A//supermemo.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">supermemo.com</a></u> 的课程、移动应用、应用。它们是不同的。</p><p data-pid=\"tVeGB59k\">SuperMemo 中的项目 = <u><a href=\"https://link.zhihu.com/?target=https%3A//apps.ankiweb.net/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anki</a></u> 中的卡片；IR = <u><a href=\"https://link.zhihu.com/?target=https%3A//www.supermemo.com/help/read.htm\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">渐进阅读</a></u><sup data-text=\"增量阅读\" data-url=\"https://www.yuque.com/supermemo/wiki/incremental_reading\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup></p><h2><b>概要</b></h2><ol><li data-pid=\"_Ydcc8iT\">导入原材料</li><li data-pid=\"hwm3RbqM\">处理</li><ol><li data-pid=\"9deQJZg0\">第 1 次处理（摘抄重要片段）</li><li data-pid=\"Ms7hg2YX\">第 2 次处理(可选：根据上下文修改，改变措辞等)</li><li data-pid=\"zYoiFL4m\">第 3 次处理（将重要的部分转化为问答/填空）。</li></ol><li data-pid=\"s4nRzDkc\">渐进阅读的 5 个基本技巧</li></ol><p data-pid=\"lPQXR3oV\">我就用<u><a href=\"https://link.zhihu.com/?target=https%3A//www.ncbi.nlm.nih.gov/pmc/articles/PMC6131264/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这篇文章</a></u>来做示范，也就是我在《<u><a href=\"https://link.zhihu.com/?target=https%3A//www.masterhowtolearn.com/2018-10-30-introduction-of-transfer-of-knowledge\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知识迁移介绍</a></u>》中用的那篇文章。</p><h2><b>1. 导入原材料</b></h2><p data-pid=\"FZZa-wvo\">TL;DR：只要将整篇文章选中，Ctrl+C 复制，然后打开 SuperMemo，Ctrl+N 粘贴即可。</p><ol><li data-pid=\"ktQCO7o_\">选中整篇文章或你想要的部分。然后用 Ctrl+C 复制</li></ol><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-23fb923c9f017aaffbbb21ecfdc8a3dc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"456\" data-original-token=\"v2-9a95b24e3568bd140698efb69dca3e9d\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pica.zhimg.com/v2-23fb923c9f017aaffbbb21ecfdc8a3dc_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"VGzdEa4f\">2. 打开 SuperMemo。按 Ctrl+N 导入文章</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-3fb083cd0ef4449d9b3c7b8f69f90d10_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"311\" data-original-token=\"v2-780e5e7741c7f2261bcfcfd044f087dd\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic3.zhimg.com/v2-3fb083cd0ef4449d9b3c7b8f69f90d10_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1ai0RQAS\">3. 导入的文章有很多 HTML 标签。用 F6 过滤一下。在字体、间距和样式之间进行实验。不过，我并没有真正使用这个过滤功能。</p><p data-pid=\"2o5NFRNa\">这时你要设置参考标签：标题，日期，作者，来源，链接等。要做到这一点，选中文字，Alt+Q 设置相应的类别。最起码的就是标题，我大多数时候都是这样设置的。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-c3a5eb3648e15ee35a5f6a52e04f2b97_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"312\" data-original-token=\"v2-7d16cd245f5004da63145ae014e29f0a\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://picx.zhimg.com/v2-c3a5eb3648e15ee35a5f6a52e04f2b97_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TLW6xOI7\">我在所有文本中都使用了统一的字体风格和大小。我的 SuperMemo 集合中的所有内容都是常规的 Calibri 和 17 号。所以无论原材料的字体样式和大小，导入时都是常规的 Calibri 和 17 号。这样就避免了字体样式和大小的不规范，也避免了 「摘抄和填空字号变得比原文大」的问题。</p><p data-pid=\"6YSf97b5\">做同样的事情：</p><p data-pid=\"NCszhFYq\">Tools → Options → Fonts → Stylesheet → edit</p><p data-pid=\"DlKSwMAd\">这是<u><a href=\"https://link.zhihu.com/?target=https%3A//github.com/MasterHowToLearn/SuperMemo/blob/master/stylesheet.css\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我的样式表</a></u></p><blockquote data-pid=\"x2iRMmfo\"><u>译者注：可以试试我的《</u><a href=\"https://zhuanlan.zhihu.com/p/318653942\" class=\"internal\" target=\"_blank\">渐进阅读懒人样式</a>》</blockquote><p data-pid=\"n6ieYdMU\">注意：这也会改变其他一些样式。谨慎使用。在进行任何修改之前，请先保存一份原件。</p><p data-pid=\"H-jgOhXS\">如果因为某些原因，你无法获得正确的格式，我建议先用记事本冲洗一下。在 Ctrl+N 到 SuperMemo 之前，先粘贴到记事本上，把所有的 HTML 格式剥离掉就可以了。</p><blockquote data-pid=\"aVmBqjby\">译者注：更多材料的导入方法，可以参考《<a href=\"https://zhuanlan.zhihu.com/p/321701995\" class=\"internal\" target=\"_blank\">渐进阅读材料导入与预处理</a>》</blockquote><h3><b>一定要用 IE 浏览器吗？</b></h3><p data-pid=\"JCMfMZhC\">官方指南建议并使用 Internet Explorer。但这不是必须的。我使用的是 Firefox。Chrome 也可以。据我所知，最大的区别是，用 Internet Explorer，你可以从所有打开的标签页中导入所有的文章，而用 Firefox/Chrome，你必须一个一个导入。我一个一个导入，更喜欢手动选择我想要的部分。如果你的所有来源都是来自Wiki，那么一次导入是很好的；如果不是这样，就会变得很混乱。</p><h3><b>带有图片的文章</b></h3><p data-pid=\"lS_Po0Vv\">你导入一篇文章的图片，只有在有互联网连接的情况下，它们才会出现。当你不这样做的时候，它们会变成 X 这样。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-455761a8844352785d91f3e1d2110f63_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"271\" data-original-token=\"v2-3279e10bb2c10d12bd0f995f65dd0b7d\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic2.zhimg.com/v2-455761a8844352785d91f3e1d2110f63_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Ex5QH87k\">这个问题我花了很长时间，也花了很多运气才弄明白：<u><a href=\"https://link.zhihu.com/?target=http%3A//supermemopedia.com/wiki/How_do_I_display_embedded_images_in_articles_during_Incremental_Reading_when_offline%253F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">如何在离线时，在渐进阅读时显示文章中的嵌入图片？</a></u></p><p data-pid=\"CFCvVJSr\">tl;dr：在线时，保存文章。然后，打开保存的文章，复制并粘贴到 SuperMemo 中。即使离线时也会显示图片。不需要下载图片。有一点要注意：你不能移动你保存的 html 及其文件夹的位置。一旦移动了，SuperMemo 中的图片将不会再显示。</p><h2>2 处理</h2><h3><b>初步处理</b></h3><p data-pid=\"F82-3I32\">导入后，我按 Alt+P 定义其优先级。</p><blockquote data-pid=\"d0OCxyjy\">_使用 Alt+P 来设置每个元素的优先级，从 0% 到 100%。注意，0% 对应的是高优先级。</blockquote><p data-pid=\"38eB1NZ5\">注意：这是另一个不直观的操作。当你在调整元素优先级时，请记住 0% 意味着最高的优先级，而 100% 意味着最低的优先级。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-8c884cfcccf110ba3b08d8ac1641b41f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"252\" data-original-token=\"v2-895098d4e148b18eb2aa4015a61e05c7\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://picx.zhimg.com/v2-8c884cfcccf110ba3b08d8ac1641b41f_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"gJy8ZpLB\">如果你不想记住这种反直觉的规则，你可以直接滑动条。重要的就往左滑，不重要的就往右滑。我大多数时候都是直接滑动条。</p><p data-pid=\"GnG3Tsd7\">如果是一篇比较难的文章，我会 Ctrl+J 安排在 2 周以后。为什么是 2 周呢？个人喜好。对于某一篇文章，我可能认为 2 周的时间足够我在处理它之前获得足够的预备知识。如果是一篇重要的文章，我就会把滑块向左滑动；如果是一篇有点意思但不重要的网络文章，我就会把滑块滑到最右边。</p><h3><b>阅读文章</b></h3><p data-pid=\"MgnWt8E5\">你可以立即开始阅读文章，也可以等到 SuperMemo 给你看（默认间隔是一天，也就是说 SuperMemo 明天就会给你看那篇文章）。你自己决定。为了演示的目的，我现在就阅读它。</p><p data-pid=\"SEB5AyyS\">在阅读的过程中，我会摘抄（Alt +X）重要的句子或段落。摘抄的句子或段落仍然是摘抄卡片。记住你的最终目标是将摘抄卡片转化为项目。</p><p data-pid=\"hUk7QLtu\">这就是结果：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-dde8b15eb3e47295056105a1a216ff13_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"310\" data-original-token=\"v2-93cff32b4dce636728429bd3cdffd2b4\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic2.zhimg.com/v2-dde8b15eb3e47295056105a1a216ff13_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-f3f5de641d1321c4db2daee37abf4f34_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"312\" data-original-token=\"v2-6ca4e2d4e65db183bb8b3ea0c197b85e\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic3.zhimg.com/v2-f3f5de641d1321c4db2daee37abf4f34_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"-5pyGDo8\">这就像你在传统的阅读中所做的那样：当你看到重要的东西时，你会用荧光笔来突出它。这在 SuperMemo 中没有什么区别。那些蓝色的摘抄是我认为重要的部分。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-3fd07b9d49169978970b3d31745a2ded_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"309\" data-original-token=\"v2-d8dbea82b33e825ab6853397fb33586e\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic2.zhimg.com/v2-3fd07b9d49169978970b3d31745a2ded_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3rFJYlwc\">摘抄整段的原因：</p><ol><li data-pid=\"HBB3RDu9\">对目前的我来说，太难理解了</li><li data-pid=\"6MuYSUkp\">我想跳过这一段继续读，但我觉得其中有重要的内容</li></ol><p data-pid=\"62hyHXLA\">匆匆一瞥之后，我会摘抄整个段落。SuperMemo 会在以后（几天或几周）将它作为一个摘抄卡片显示给我。然后我可以阅读它，并决定它是否真的重要到可以变成项目。如果不重要，我可以直接按删除键删除该摘抄卡片的段落（不使用活动窗口）。</p><h3><b>你的回合</b></h3><p data-pid=\"LKifHuWf\">记住，哪些句子要摘抄，哪些句子要省略，完全取决于你。我们有不同的先验知识：我认为重要的东西可能与你无关；你可能认为某些东西很重要，但我没有摘抄；你可能会少做许多填空。这完全没问题。这一切都取决于你。</p><p data-pid=\"qob1zpky\">在这个阅读环节结束后（我还没读/读完整篇文章），在进入下一个元素之前，记得用 Ctrl+F7 设置阅读点。下次看到同一篇文章时，SuperMemo 会显示你最后的阅读点，这样你就可以继续阅读了。</p><h3><b>第 2 次处理</b></h3><p data-pid=\"CNErr22J\">你可以在其摘抄后立即开始处理你的摘抄卡片，或者等到 SuperMemo 向你展示它们。同样，你的决定。就我个人而言，如果我知道如何将一个特定的摘抄卡片（句子）变成一个项目，我会立即这样做；对于整个段落的摘抄卡片，我通常会等到 SuperMemo 向我展示它们。</p><p data-pid=\"GksIj9YW\">再参考一下这个例子：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a27f14f8b2e0eaf57573bcb09ca07e6c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"316\" data-original-token=\"v2-209a136be7e4fd6c48ae1212d829aa84\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic1.zhimg.com/v2-a27f14f8b2e0eaf57573bcb09ca07e6c_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"UXo2xQ4Q\">下面是第一句话的演示：</p><p data-pid=\"BrHY62vL\">这是原汁原味的，没有任何修改：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-231b4ef01814bb64c5f7b39a1d16d9df_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"142\" data-original-token=\"v2-61fb3e7bb6a35b82d5862816b1f72ab3\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://picx.zhimg.com/v2-231b4ef01814bb64c5f7b39a1d16d9df_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6ioF4Tlm\">改写成：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-f5204979233b9ddb32373096a0ac761e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"124\" data-original-token=\"v2-e341a4ba6b6b645553e534c48a2b0c6a\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pica.zhimg.com/v2-f5204979233b9ddb32373096a0ac761e_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3b8rE6tk\">然后我做了两个填空（Alt+Z）。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-7eecfd4631ea18f6cfd9be128bb350ff_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"128\" data-original-token=\"v2-c82dda959213ad0aed921371ad542237\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://picx.zhimg.com/v2-7eecfd4631ea18f6cfd9be128bb350ff_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"102ao2AR\">产生两个填空：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-af52e47268f157b2b82b6d3a29cabf44_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"325\" data-original-token=\"v2-296e84b69bda87ae5f6e8e36653df637\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic3.zhimg.com/v2-af52e47268f157b2b82b6d3a29cabf44_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-8db86f32c7ea0b10c41340ed85f60f7d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"324\" data-original-token=\"v2-7a4c4ed5a6a41bbc452ac80e3e0036af\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://picx.zhimg.com/v2-8db86f32c7ea0b10c41340ed85f60f7d_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6Ignt_Mf\">另一个例子：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-4d83666a72e1a08a51fcb100c3bb94c4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"131\" data-original-token=\"v2-75667cc4f51dac0382017f4c1b3ce348\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pica.zhimg.com/v2-4d83666a72e1a08a51fcb100c3bb94c4_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-2b93b4e6f666ba1c8d536d5ccfc0c06f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"128\" data-original-token=\"v2-18817c517cc737fefa38a46b1b7787d0\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic4.zhimg.com/v2-2b93b4e6f666ba1c8d536d5ccfc0c06f_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-ced9e97cad319a1ef8277c42cd350ff1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"313\" data-original-token=\"v2-d869e6d595f7104478db8655bd1fbd08\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic4.zhimg.com/v2-ced9e97cad319a1ef8277c42cd350ff1_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ICcTChfz\">对于每一个经过处理的摘抄卡片，无论是通过制作填空还是问答，你都必须通过 Ctrl+D 来忽略该摘抄卡片。忽略意味着SuperMemo 将不会再向你展示该摘抄卡片。它的目的已经达到了，你已经把它变成了可再调用的信息。</p><p data-pid=\"R71zwbEr\">你的目标是把所有的摘抄卡片变成填空或问答。这是我的知识树的最终结果：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-8e362bb3c9460f2de685c1b3d94cb17f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"402\" data-original-token=\"v2-bd2f8c2b5e45777a0db3fe77a07fdf1f\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic2.zhimg.com/v2-8e362bb3c9460f2de685c1b3d94cb17f_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"r_7VSuVH\">你看所有的 T 都是黄色的，意思是所有的摘抄卡片都被忽略了。蓝色的 L 是指项目，我在记忆这些项目。</p><p data-pid=\"xKD-gbke\">一开始可能看起来令人生畏，这样的过程需要很多时间。但你可以循序渐进，分几个星期甚至几个月来做。IR 最突出的特点是间隔算法。SuperMemo 为你安排好一切。你不必一气呵成，从头到尾地编辑。我主要是根据间隔算法把摘抄卡片变成填空和问答。</p><h3><b>第 3 次加工</b></h3><p data-pid=\"JM2pHTMm\">过了一段时间（大概几天），复习的时候，SuperMemo 会给我看我从摘抄卡片中制作的填空/问答。我将对这些项目进行复习和评分。你可以重新制定措辞，删除它，把它做成更多的填空，随你喜欢。</p><p data-pid=\"eAE4cAow\">然后再过一段时间，SuperMemo 会给我显示原文最后的阅读点。我该怎么办呢？继续阅读文章，摘抄我认为重要的部分。第 3 次处理基本上是重复和交替第 1 次和第 2 次处理。</p><p data-pid=\"NwaHx9TE\">当你真正读完整篇文章后，按 Ctrl+D 忽略文章。</p><p data-pid=\"7SWKFPzg\">恭喜你！你已经完成了渐进阅读。</p><h2><b>3. 渐进阅读的5个基本技巧</b></h2><h3><b>1. 渐进阅读的渐进</b></h3><p data-pid=\"dqt03WS6\">记住每个步骤和过程之间是有间隔的：</p><ol><li data-pid=\"UA9Atn2n\">导入原材料</li><li data-pid=\"PLT9LWQn\">处理：摘抄重要片段；根据上下文修改，改变措辞等；将重要片段转化为问答/填空</li></ol><p data-pid=\"IF8q8d2H\">导入一篇文章后，通常是一天后才可以开始阅读。</p><p data-pid=\"rbOvZdHT\">在第一次阅读之后，可能是一周之后才能在复习环节看到并阅读同一篇文章。</p><p data-pid=\"9YdK3jwm\">摘抄完重要的句子后，可能要一周后才能在复习环节上看到你的摘抄卡片。</p><p data-pid=\"1aecpICG\">在知道如何将摘抄卡片变成填空或问答之前，你可能需要几次被动复习（几周）。在制作填空或问答之前，你要允许一些时间来沉淀。有时，我在决定一个摘抄卡片值得变成填空或知道如何挖空之前，会被动地复习多次。有时候，我曾摘抄过一些我认为很重要的句子；然后第二天，当 SuperMemo 呈现在我面前时，我认为它不重要，会直接删除。</p><p data-pid=\"L7zXpoTX\">所有这些间隔的好处是选项：你可以决定在一个小时内压缩所有这些步骤，或者让 SuperMemo 为你安排这些步骤。所以叫渐进阅读。</p><p data-pid=\"LMqxmgng\">当你刚开始，原始资料少的时候，似乎并没有什么好处，甚至不喜欢等上一天才能再读同一篇文章。但是，随着时间的推移，拥有越来越多的文章、研究论文、参考书等收藏，你就会明白和体会到让 SuperMemo 自动为你安排复习任务的意义和必要性。排期的事情交给 SuperMemo 来做，你可以专注于重要的部分：阅读和记忆。</p><h3><b>2. 摘抄的终极目标：填空或问答</b></h3><p data-pid=\"rGozBJdF\">主动回忆——所有的信息片段最终都将转化为主动回忆的材料，如问答对、隐语删除、图片识别测试等。</p><p data-pid=\"oyFybU9x\">复习摘抄卡片属于被动复习。这与填空或问答有明显的区别，因为你不会从中检索答案。你可以被动地复习几遍摘抄卡片，但它的最终归宿是填空或问答。</p><p data-pid=\"a_dD2TqW\">对于一篇文章：</p><p data-pid=\"--svbGi-\">文章→（可选：段落）→摘抄（句子）→缩短和修改的句子→填空/问答。</p><p data-pid=\"ug_oqhYf\">摘抄卡片可能很长（段落）或很短（单句）。对于较长的摘抄卡片，你要阅读并摘抄更多的摘抄卡片（句子）；对于非常短的摘抄卡片，你可以立即生成填空或问答。无论怎样，它们的最终目的都是要转化为填空或问答。</p><p data-pid=\"3q1SYFuG\">这就是知识提炼。想象一下，就像把一块石头雕琢成雕塑一样：你必须削去多余的部分。</p><h3><b>3. 夯实基础</b></h3><p data-pid=\"JI_On1rH\">《<u><a href=\"https://link.zhihu.com/?target=https%3A//www.supermemo.com/en/articles/20rules\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">有效学习：形成知识的二十条规则</a></u><sup data-text=\"有效的学习：组织知识的20条原则\" data-url=\"https://zhuanlan.zhihu.com/p/219996956\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>》的规则 3 适用于渐进阅读：</p><blockquote data-pid=\"w8prrZpd\">学习整体的大局越简单越好。简单的模型更容易理解和吸收。你以后总可以在它们的基础上继续发展。<br/>不要忽视基础知识。记忆看似明显的东西并不是浪费时间。</blockquote><p data-pid=\"X7rVdS8t\">从上面的例子中可以看出，我总是从基本概<u>念、术语、中心思想开始摘抄，然后再往上走。这与 Michael Nielsen 在《增强长期记忆</u><sup data-text=\"【三万字长文】量子物理学家是如何使用 Anki 的？\" data-url=\"https://zhuanlan.zhihu.com/p/65131722\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>》中提到的他使用 Anki 的做法很类似：</p><blockquote data-pid=\"WaXvqVhV\">我关于 AlphaGo 的问题从简单的“围棋棋盘的大小？”发展到关于系统设计的高阶概念性问题——AlphaGo 是如何避免过度推广训练数据的，卷积神经网络的局限性等等。</blockquote><p data-pid=\"mmugbQz6\">这与我在《<u><a href=\"https://zhuanlan.zhihu.com/p/322497441\" class=\"internal\" target=\"_blank\">SuperMemo 中渐进阅读的意义：第一部分</a></u>》中提到的想法类似</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-eb77218e864a1cf13e2aa21159dad0df_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"530\" data-original-token=\"v2-9db2138dca9a65e95100734e8d62343a\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic4.zhimg.com/v2-eb77218e864a1cf13e2aa21159dad0df_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h3><b>4. 添加上下文</b></h3><p data-pid=\"AlunuTUL\">由于你是从文章的一段话中摘抄句子，上下文必然会丢失。你必须自己添加，才能提供足够的检索线索。</p><p data-pid=\"Ity7qYaq\">比如说</p><blockquote data-pid=\"6ADwvEkE\">「骨鱼最早出现在志留纪」<br/>「骨鱼最早出现在[...](纪)」</blockquote><p data-pid=\"YFhWyOb_\">如果没有检索线索（纪），答案也可以是一个地方。这种歧义是非常不可取的。当复习时，你的脑海中开始出现其他类型的答案时，你就知道你应该增加更多的上下文提示。</p><p data-pid=\"28yoZEs5\">你不一定要在第一次就把它完美地独立出来。我是循序渐进的。顾名思义，关键是循序渐进。</p><blockquote data-pid=\"4g_3qsfp\">渐进主义——所有的改变都会随着时间的推移而逐渐发生，与你选择的材料的优先级有关，并与逐渐增加的记忆痕迹的强度相一致。</blockquote><h3><b>5. 简化你的摘抄卡片/填空/问答</b></h3><p data-pid=\"K-72ugvD\">以下修改后的文字来自《<u><a href=\"https://link.zhihu.com/?target=https%3A//www.supermemo.com/help/read.htm\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">渐进阅读导论</a></u><sup data-text=\"增量阅读\" data-url=\"https://www.yuque.com/supermemo/wiki/incremental_reading\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>》：</p><blockquote data-pid=\"1LL18MzY\">在将摘抄卡片转换成问答的同时，你应该确保你的问题简单明了。</blockquote><p data-pid=\"_kKYGcjd\">例如，如果你有以下摘抄卡片：</p><blockquote data-pid=\"zTt-n99D\">互联网是在1969年由高级研究计划局（ARPA）签订的一份合同下建立的，该公司连接了美国西南部大学（UCLA、斯坦福研究所、UCSB和犹他大学）的四台主要计算机</blockquote><p data-pid=\"7UV70aVk\">你可能会发现，当复习间隔变得足够长时，你可能实际上无法回忆起ARPA机构的名称，甚至忘记互联网开始的年份。然后，您可以选择一个重要的关键字，例如1969，并使用挖空生成以下问答：</p><blockquote data-pid=\"s7168hmR\"><b>问题</b>：互联网是在<b>[…]</b> 年根据高级研究计划署（ARPA）的合同开始的，该机构将美国西南部大学（UCLA、斯坦福研究所、UCSB和犹他大学）的四台主要计算机连接起来。<br/><b>答案</b>：1969年</blockquote><p data-pid=\"V9ZGyxqz\">在学习过程中，您需要通过手动编辑将上述问答卡片修改成更简洁易懂的形式：</p><blockquote data-pid=\"TeeqrRzz\"><b>问题</b>：互联网是根据ARPA代理的一份合同于<b>[…]</b> <b>年</b>启动的<br/><b>答案</b>：1969年</blockquote><p data-pid=\"t33Pws01\">或者更好：</p><blockquote data-pid=\"6hR5cokJ\"><b>问题</b>：互联网始于<b>[…]</b> <b>年</b><br/><b>答案</b>：1969年</blockquote><p data-pid=\"LTaIEXWJ\">主要原因是简洁。去掉不相关的信息，你就不会把时间浪费在被动复习那些不可能被记住的信息上，因为只有主动回忆的材料才会被记住。</p><h2><b>结束语</b></h2><p data-pid=\"cLbDFsnC\">就当这是《渐进阅读101》吧。这是我希望在我刚开始探索渐进阅读时读到和知道的。希望这能澄清「到底什么是渐进阅读？」，这些技巧对你有帮助。</p><h2>下一篇</h2><a href=\"https://zhuanlan.zhihu.com/p/352611888\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-eead37c62b32554e15cc8849428019a7_l.jpg\" data-image-width=\"800\" data-image-height=\"800\" class=\"internal\">叶峻峣：【翻译】在渐进阅读中，创建摘录卡片后该做什么？</a><p></p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19695588",
+      "type": "topic",
+      "id": "19695588",
+      "name": "SuperMemo"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19550581",
+      "type": "topic",
+      "id": "19550581",
+      "name": "学习"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21754100",
+      "type": "topic",
+      "id": "21754100",
+      "name": "渐进阅读"
+    }
+  ],
+  "voteup_count": 202,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "信息是先机--资讯、经验、理论、哲学、实践、达成。",
+    "is_following": false,
+    "url_token": "c_1291830661465030656",
+    "id": "c_1291830661465030656",
+    "articles_count": 93,
+    "accept_submission": false,
+    "title": "乔木智库--闻道",
+    "url": "https://api.zhihu.com/columns/c_1291830661465030656",
+    "comment_permission": "all",
+    "created": 1600776430,
+    "updated": 1627654773,
+    "image_url": "https://pica.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-78b0c625277739cb28126a72adeff976.jpg?source=172ae18b",
+      "uid": "1257918756849901568",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "yao-shan-lao-qiao",
+      "id": "9ab7dc7f5e6cab571310675c62be1e9c",
+      "description": "一个致力于知行合一的人；一个倾力于技能提升的人；一个专注于养生的人；一个爱好历史的人；一个能博得大家喜欢的善良的好人。",
+      "name": "乔石",
+      "is_advertiser": false,
+      "headline": "知行、历史、养生、技能",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/9ab7dc7f5e6cab571310675c62be1e9c",
+      "avatar_url": "https://pic1.zhimg.com/v2-78b0c625277739cb28126a72adeff976_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 128,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 36,
+  "contributions": [
+    {
+      "id": 27747264,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "信息是先机--资讯、经验、理论、哲学、实践、达成。",
+        "is_following": false,
+        "url_token": "c_1291830661465030656",
+        "id": "c_1291830661465030656",
+        "articles_count": 93,
+        "accept_submission": false,
+        "title": "乔木智库--闻道",
+        "url": "https://api.zhihu.com/columns/c_1291830661465030656",
+        "comment_permission": "all",
+        "created": 1600776430,
+        "updated": 1627654773,
+        "image_url": "https://pica.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-78b0c625277739cb28126a72adeff976.jpg?source=172ae18b",
+          "uid": "1257918756849901568",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "yao-shan-lao-qiao",
+          "id": "9ab7dc7f5e6cab571310675c62be1e9c",
+          "description": "一个致力于知行合一的人；一个倾力于技能提升的人；一个专注于养生的人；一个爱好历史的人；一个能博得大家喜欢的善良的好人。",
+          "name": "乔石",
+          "is_advertiser": false,
+          "headline": "知行、历史、养生、技能",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/9ab7dc7f5e6cab571310675c62be1e9c",
+          "avatar_url": "https://pic1.zhimg.com/v2-78b0c625277739cb28126a72adeff976_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 128,
+        "type": "column",
+        "column_type": "normal"
+      }
+    },
+    {
+      "id": 29155942,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "用渐进学习的方式建立我们大脑的概念网络",
+        "is_following": false,
+        "url_token": "c_1308886122672484352",
+        "id": "c_1308886122672484352",
+        "articles_count": 61,
+        "accept_submission": false,
+        "title": "SuperMemo—渐进学习最前沿！",
+        "url": "https://api.zhihu.com/columns/c_1308886122672484352",
+        "comment_permission": "all",
+        "created": 1604842769,
+        "updated": 1751811091,
+        "image_url": "https://pic1.zhimg.com/v2-3cce7a5e28a0717c6181134587fdd7c1_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 610,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 322673517,
-  "voteup_count": 181,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 494,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "示范：我的渐进阅读工作流程 - 来自知乎专栏「乔木智库--闻道」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/322673517 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1606756134,
-  "url": "https://api.zhihu.com/articles/322673517",
-  "comment_permission": "all",
-  "title": "示范：我的渐进阅读工作流程",
-  "image_width": 416,
-  "content": "<p data-pid=\"d2YrUSUk\">原文：<u><a href=\"https://link.zhihu.com/?target=https%3A//www.masterhowtolearn.com/2018-12-09-demonstration-my-workflow-of-incremental-reading/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Demonstration: My Workflow of Incremental Reading | Master How To Learn</a></u></p><p data-pid=\"4AZVG-4i\">在我之前的《SuperMemo 中渐进阅读的意义》：<u><a href=\"https://zhuanlan.zhihu.com/p/322497441\" class=\"internal\">第一部分</a></u>和<u><a href=\"https://zhuanlan.zhihu.com/p/322584755\" class=\"internal\">第二部分</a></u>中，我尽力解释了渐进阅读。在这篇文章中，我将向你展示我的 IR 工作流程。</p><p data-pid=\"1Q_k4qbn\">注意：</p><ol><li data-pid=\"j7fDfZx-\">这是对渐进阅读的基本介绍。这个演示有些简化。将此视为渐进阅读 101。</li><li data-pid=\"o86x_amg\">有很多方法，没有一个完全正确的方法。我希望你能在阅读后创建和定制自己的工作流程。</li></ol><h2><b>快速术语回顾</b></h2><p data-pid=\"AVzBe-RD\">SM = <u><a href=\"https://link.zhihu.com/?target=http%3A//super-memo.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">super-memo.com</a></u> 的 SuperMemo；而不是 <u><a href=\"https://link.zhihu.com/?target=http%3A//supermemo.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">supermemo.com</a></u> 的课程、移动应用、应用。它们是不同的。</p><p data-pid=\"tVeGB59k\">SuperMemo 中的项目 = <u><a href=\"https://link.zhihu.com/?target=https%3A//apps.ankiweb.net/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anki</a></u> 中的卡片；IR = <u><a href=\"https://link.zhihu.com/?target=https%3A//www.supermemo.com/help/read.htm\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">渐进阅读</a></u><sup data-text=\"增量阅读\" data-url=\"https://www.yuque.com/supermemo/wiki/incremental_reading\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup></p><h2><b>概要</b></h2><ol><li data-pid=\"_Ydcc8iT\">导入原材料</li><li data-pid=\"hwm3RbqM\">处理</li><ol><li data-pid=\"9deQJZg0\">第 1 次处理（摘抄重要片段）</li><li data-pid=\"Ms7hg2YX\">第 2 次处理(可选：根据上下文修改，改变措辞等)</li><li data-pid=\"zYoiFL4m\">第 3 次处理（将重要的部分转化为问答/填空）。</li></ol><li data-pid=\"s4nRzDkc\">渐进阅读的 5 个基本技巧</li></ol><p data-pid=\"lPQXR3oV\">我就用<u><a href=\"https://link.zhihu.com/?target=https%3A//www.ncbi.nlm.nih.gov/pmc/articles/PMC6131264/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这篇文章</a></u>来做示范，也就是我在《<u><a href=\"https://link.zhihu.com/?target=https%3A//www.masterhowtolearn.com/2018-10-30-introduction-of-transfer-of-knowledge\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知识迁移介绍</a></u>》中用的那篇文章。</p><h2><b>1. 导入原材料</b></h2><p data-pid=\"FZZa-wvo\">TL;DR：只要将整篇文章选中，Ctrl+C 复制，然后打开 SuperMemo，Ctrl+N 粘贴即可。</p><ol><li data-pid=\"ktQCO7o_\">选中整篇文章或你想要的部分。然后用 Ctrl+C 复制</li></ol><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-23fb923c9f017aaffbbb21ecfdc8a3dc_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"456\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pica.zhimg.com/v2-23fb923c9f017aaffbbb21ecfdc8a3dc_r.jpg\" data-original-token=\"v2-9a95b24e3568bd140698efb69dca3e9d\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"VGzdEa4f\">2. 打开 SuperMemo。按 Ctrl+N 导入文章</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-3fb083cd0ef4449d9b3c7b8f69f90d10_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"311\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic3.zhimg.com/v2-3fb083cd0ef4449d9b3c7b8f69f90d10_r.jpg\" data-original-token=\"v2-780e5e7741c7f2261bcfcfd044f087dd\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1ai0RQAS\">3. 导入的文章有很多 HTML 标签。用 F6 过滤一下。在字体、间距和样式之间进行实验。不过，我并没有真正使用这个过滤功能。</p><p data-pid=\"2o5NFRNa\">这时你要设置参考标签：标题，日期，作者，来源，链接等。要做到这一点，选中文字，Alt+Q 设置相应的类别。最起码的就是标题，我大多数时候都是这样设置的。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-c3a5eb3648e15ee35a5f6a52e04f2b97_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"312\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://picx.zhimg.com/v2-c3a5eb3648e15ee35a5f6a52e04f2b97_r.jpg\" data-original-token=\"v2-7d16cd245f5004da63145ae014e29f0a\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"TLW6xOI7\">我在所有文本中都使用了统一的字体风格和大小。我的 SuperMemo 集合中的所有内容都是常规的 Calibri 和 17 号。所以无论原材料的字体样式和大小，导入时都是常规的 Calibri 和 17 号。这样就避免了字体样式和大小的不规范，也避免了 「摘抄和填空字号变得比原文大」的问题。</p><p data-pid=\"6YSf97b5\">做同样的事情：</p><p data-pid=\"NCszhFYq\">Tools → Options → Fonts → Stylesheet → edit</p><p data-pid=\"DlKSwMAd\">这是<u><a href=\"https://link.zhihu.com/?target=https%3A//github.com/MasterHowToLearn/SuperMemo/blob/master/stylesheet.css\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我的样式表</a></u></p><blockquote data-pid=\"x2iRMmfo\"><u>译者注：可以试试我的《</u><a href=\"https://zhuanlan.zhihu.com/p/318653942\" class=\"internal\">渐进阅读懒人样式</a>》</blockquote><p data-pid=\"n6ieYdMU\">注意：这也会改变其他一些样式。谨慎使用。在进行任何修改之前，请先保存一份原件。</p><p data-pid=\"H-jgOhXS\">如果因为某些原因，你无法获得正确的格式，我建议先用记事本冲洗一下。在 Ctrl+N 到 SuperMemo 之前，先粘贴到记事本上，把所有的 HTML 格式剥离掉就可以了。</p><blockquote data-pid=\"aVmBqjby\">译者注：更多材料的导入方法，可以参考《<a href=\"https://zhuanlan.zhihu.com/p/321701995\" class=\"internal\">渐进阅读材料导入与预处理</a>》</blockquote><h3><b>一定要用 IE 浏览器吗？</b></h3><p data-pid=\"JCMfMZhC\">官方指南建议并使用 Internet Explorer。但这不是必须的。我使用的是 Firefox。Chrome 也可以。据我所知，最大的区别是，用 Internet Explorer，你可以从所有打开的标签页中导入所有的文章，而用 Firefox/Chrome，你必须一个一个导入。我一个一个导入，更喜欢手动选择我想要的部分。如果你的所有来源都是来自Wiki，那么一次导入是很好的；如果不是这样，就会变得很混乱。</p><h3><b>带有图片的文章</b></h3><p data-pid=\"lS_Po0Vv\">你导入一篇文章的图片，只有在有互联网连接的情况下，它们才会出现。当你不这样做的时候，它们会变成 X 这样。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-455761a8844352785d91f3e1d2110f63_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"271\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic2.zhimg.com/v2-455761a8844352785d91f3e1d2110f63_r.jpg\" data-original-token=\"v2-3279e10bb2c10d12bd0f995f65dd0b7d\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Ex5QH87k\">这个问题我花了很长时间，也花了很多运气才弄明白：<u><a href=\"https://link.zhihu.com/?target=http%3A//supermemopedia.com/wiki/How_do_I_display_embedded_images_in_articles_during_Incremental_Reading_when_offline%253F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">如何在离线时，在渐进阅读时显示文章中的嵌入图片？</a></u></p><p data-pid=\"CFCvVJSr\">tl;dr：在线时，保存文章。然后，打开保存的文章，复制并粘贴到 SuperMemo 中。即使离线时也会显示图片。不需要下载图片。有一点要注意：你不能移动你保存的 html 及其文件夹的位置。一旦移动了，SuperMemo 中的图片将不会再显示。</p><h2>2 处理</h2><h3><b>初步处理</b></h3><p data-pid=\"F82-3I32\">导入后，我按 Alt+P 定义其优先级。</p><blockquote data-pid=\"d0OCxyjy\">_使用 Alt+P 来设置每个元素的优先级，从 0% 到 100%。注意，0% 对应的是高优先级。</blockquote><p data-pid=\"38eB1NZ5\">注意：这是另一个不直观的操作。当你在调整元素优先级时，请记住 0% 意味着最高的优先级，而 100% 意味着最低的优先级。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-8c884cfcccf110ba3b08d8ac1641b41f_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"252\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://picx.zhimg.com/v2-8c884cfcccf110ba3b08d8ac1641b41f_r.jpg\" data-original-token=\"v2-895098d4e148b18eb2aa4015a61e05c7\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"gJy8ZpLB\">如果你不想记住这种反直觉的规则，你可以直接滑动条。重要的就往左滑，不重要的就往右滑。我大多数时候都是直接滑动条。</p><p data-pid=\"GnG3Tsd7\">如果是一篇比较难的文章，我会 Ctrl+J 安排在 2 周以后。为什么是 2 周呢？个人喜好。对于某一篇文章，我可能认为 2 周的时间足够我在处理它之前获得足够的预备知识。如果是一篇重要的文章，我就会把滑块向左滑动；如果是一篇有点意思但不重要的网络文章，我就会把滑块滑到最右边。</p><h3><b>阅读文章</b></h3><p data-pid=\"MgnWt8E5\">你可以立即开始阅读文章，也可以等到 SuperMemo 给你看（默认间隔是一天，也就是说 SuperMemo 明天就会给你看那篇文章）。你自己决定。为了演示的目的，我现在就阅读它。</p><p data-pid=\"SEB5AyyS\">在阅读的过程中，我会摘抄（Alt +X）重要的句子或段落。摘抄的句子或段落仍然是摘抄卡片。记住你的最终目标是将摘抄卡片转化为项目。</p><p data-pid=\"hUk7QLtu\">这就是结果：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-dde8b15eb3e47295056105a1a216ff13_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"310\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic2.zhimg.com/v2-dde8b15eb3e47295056105a1a216ff13_r.jpg\" data-original-token=\"v2-93cff32b4dce636728429bd3cdffd2b4\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-f3f5de641d1321c4db2daee37abf4f34_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"312\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic3.zhimg.com/v2-f3f5de641d1321c4db2daee37abf4f34_r.jpg\" data-original-token=\"v2-6ca4e2d4e65db183bb8b3ea0c197b85e\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"-5pyGDo8\">这就像你在传统的阅读中所做的那样：当你看到重要的东西时，你会用荧光笔来突出它。这在 SuperMemo 中没有什么区别。那些蓝色的摘抄是我认为重要的部分。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-3fd07b9d49169978970b3d31745a2ded_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"309\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic2.zhimg.com/v2-3fd07b9d49169978970b3d31745a2ded_r.jpg\" data-original-token=\"v2-d8dbea82b33e825ab6853397fb33586e\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3rFJYlwc\">摘抄整段的原因：</p><ol><li data-pid=\"HBB3RDu9\">对目前的我来说，太难理解了</li><li data-pid=\"6MuYSUkp\">我想跳过这一段继续读，但我觉得其中有重要的内容</li></ol><p data-pid=\"62hyHXLA\">匆匆一瞥之后，我会摘抄整个段落。SuperMemo 会在以后（几天或几周）将它作为一个摘抄卡片显示给我。然后我可以阅读它，并决定它是否真的重要到可以变成项目。如果不重要，我可以直接按删除键删除该摘抄卡片的段落（不使用活动窗口）。</p><h3><b>你的回合</b></h3><p data-pid=\"LKifHuWf\">记住，哪些句子要摘抄，哪些句子要省略，完全取决于你。我们有不同的先验知识：我认为重要的东西可能与你无关；你可能认为某些东西很重要，但我没有摘抄；你可能会少做许多填空。这完全没问题。这一切都取决于你。</p><p data-pid=\"qob1zpky\">在这个阅读环节结束后（我还没读/读完整篇文章），在进入下一个元素之前，记得用 Ctrl+F7 设置阅读点。下次看到同一篇文章时，SuperMemo 会显示你最后的阅读点，这样你就可以继续阅读了。</p><h3><b>第 2 次处理</b></h3><p data-pid=\"CNErr22J\">你可以在其摘抄后立即开始处理你的摘抄卡片，或者等到 SuperMemo 向你展示它们。同样，你的决定。就我个人而言，如果我知道如何将一个特定的摘抄卡片（句子）变成一个项目，我会立即这样做；对于整个段落的摘抄卡片，我通常会等到 SuperMemo 向我展示它们。</p><p data-pid=\"GksIj9YW\">再参考一下这个例子：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a27f14f8b2e0eaf57573bcb09ca07e6c_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"316\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic1.zhimg.com/v2-a27f14f8b2e0eaf57573bcb09ca07e6c_r.jpg\" data-original-token=\"v2-209a136be7e4fd6c48ae1212d829aa84\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"UXo2xQ4Q\">下面是第一句话的演示：</p><p data-pid=\"BrHY62vL\">这是原汁原味的，没有任何修改：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-231b4ef01814bb64c5f7b39a1d16d9df_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"142\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://picx.zhimg.com/v2-231b4ef01814bb64c5f7b39a1d16d9df_r.jpg\" data-original-token=\"v2-61fb3e7bb6a35b82d5862816b1f72ab3\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6ioF4Tlm\">改写成：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-f5204979233b9ddb32373096a0ac761e_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"124\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pica.zhimg.com/v2-f5204979233b9ddb32373096a0ac761e_r.jpg\" data-original-token=\"v2-e341a4ba6b6b645553e534c48a2b0c6a\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3b8rE6tk\">然后我做了两个填空（Alt+Z）。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-7eecfd4631ea18f6cfd9be128bb350ff_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"128\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://picx.zhimg.com/v2-7eecfd4631ea18f6cfd9be128bb350ff_r.jpg\" data-original-token=\"v2-c82dda959213ad0aed921371ad542237\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"102ao2AR\">产生两个填空：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-af52e47268f157b2b82b6d3a29cabf44_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"325\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic3.zhimg.com/v2-af52e47268f157b2b82b6d3a29cabf44_r.jpg\" data-original-token=\"v2-296e84b69bda87ae5f6e8e36653df637\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-8db86f32c7ea0b10c41340ed85f60f7d_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"324\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://picx.zhimg.com/v2-8db86f32c7ea0b10c41340ed85f60f7d_r.jpg\" data-original-token=\"v2-7a4c4ed5a6a41bbc452ac80e3e0036af\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6Ignt_Mf\">另一个例子：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-4d83666a72e1a08a51fcb100c3bb94c4_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"131\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pica.zhimg.com/v2-4d83666a72e1a08a51fcb100c3bb94c4_r.jpg\" data-original-token=\"v2-75667cc4f51dac0382017f4c1b3ce348\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-2b93b4e6f666ba1c8d536d5ccfc0c06f_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"128\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic4.zhimg.com/v2-2b93b4e6f666ba1c8d536d5ccfc0c06f_r.jpg\" data-original-token=\"v2-18817c517cc737fefa38a46b1b7787d0\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-ced9e97cad319a1ef8277c42cd350ff1_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"313\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic4.zhimg.com/v2-ced9e97cad319a1ef8277c42cd350ff1_r.jpg\" data-original-token=\"v2-d869e6d595f7104478db8655bd1fbd08\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ICcTChfz\">对于每一个经过处理的摘抄卡片，无论是通过制作填空还是问答，你都必须通过 Ctrl+D 来忽略该摘抄卡片。忽略意味着SuperMemo 将不会再向你展示该摘抄卡片。它的目的已经达到了，你已经把它变成了可再调用的信息。</p><p data-pid=\"R71zwbEr\">你的目标是把所有的摘抄卡片变成填空或问答。这是我的知识树的最终结果：</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-8e362bb3c9460f2de685c1b3d94cb17f_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"402\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic2.zhimg.com/v2-8e362bb3c9460f2de685c1b3d94cb17f_r.jpg\" data-original-token=\"v2-bd2f8c2b5e45777a0db3fe77a07fdf1f\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"r_7VSuVH\">你看所有的 T 都是黄色的，意思是所有的摘抄卡片都被忽略了。蓝色的 L 是指项目，我在记忆这些项目。</p><p data-pid=\"xKD-gbke\">一开始可能看起来令人生畏，这样的过程需要很多时间。但你可以循序渐进，分几个星期甚至几个月来做。IR 最突出的特点是间隔算法。SuperMemo 为你安排好一切。你不必一气呵成，从头到尾地编辑。我主要是根据间隔算法把摘抄卡片变成填空和问答。</p><h3><b>第 3 次加工</b></h3><p data-pid=\"JM2pHTMm\">过了一段时间（大概几天），复习的时候，SuperMemo 会给我看我从摘抄卡片中制作的填空/问答。我将对这些项目进行复习和评分。你可以重新制定措辞，删除它，把它做成更多的填空，随你喜欢。</p><p data-pid=\"eAE4cAow\">然后再过一段时间，SuperMemo 会给我显示原文最后的阅读点。我该怎么办呢？继续阅读文章，摘抄我认为重要的部分。第 3 次处理基本上是重复和交替第 1 次和第 2 次处理。</p><p data-pid=\"NwaHx9TE\">当你真正读完整篇文章后，按 Ctrl+D 忽略文章。</p><p data-pid=\"7SWKFPzg\">恭喜你！你已经完成了渐进阅读。</p><h2><b>3. 渐进阅读的5个基本技巧</b></h2><h3><b>1. 渐进阅读的渐进</b></h3><p data-pid=\"dqt03WS6\">记住每个步骤和过程之间是有间隔的：</p><ol><li data-pid=\"UA9Atn2n\">导入原材料</li><li data-pid=\"PLT9LWQn\">处理：摘抄重要片段；根据上下文修改，改变措辞等；将重要片段转化为问答/填空</li></ol><p data-pid=\"IF8q8d2H\">导入一篇文章后，通常是一天后才可以开始阅读。</p><p data-pid=\"rbOvZdHT\">在第一次阅读之后，可能是一周之后才能在复习环节看到并阅读同一篇文章。</p><p data-pid=\"9YdK3jwm\">摘抄完重要的句子后，可能要一周后才能在复习环节上看到你的摘抄卡片。</p><p data-pid=\"1aecpICG\">在知道如何将摘抄卡片变成填空或问答之前，你可能需要几次被动复习（几周）。在制作填空或问答之前，你要允许一些时间来沉淀。有时，我在决定一个摘抄卡片值得变成填空或知道如何挖空之前，会被动地复习多次。有时候，我曾摘抄过一些我认为很重要的句子；然后第二天，当 SuperMemo 呈现在我面前时，我认为它不重要，会直接删除。</p><p data-pid=\"L7zXpoTX\">所有这些间隔的好处是选项：你可以决定在一个小时内压缩所有这些步骤，或者让 SuperMemo 为你安排这些步骤。所以叫渐进阅读。</p><p data-pid=\"LMqxmgng\">当你刚开始，原始资料少的时候，似乎并没有什么好处，甚至不喜欢等上一天才能再读同一篇文章。但是，随着时间的推移，拥有越来越多的文章、研究论文、参考书等收藏，你就会明白和体会到让 SuperMemo 自动为你安排复习任务的意义和必要性。排期的事情交给 SuperMemo 来做，你可以专注于重要的部分：阅读和记忆。</p><h3><b>2. 摘抄的终极目标：填空或问答</b></h3><p data-pid=\"rGozBJdF\">主动回忆——所有的信息片段最终都将转化为主动回忆的材料，如问答对、隐语删除、图片识别测试等。</p><p data-pid=\"oyFybU9x\">复习摘抄卡片属于被动复习。这与填空或问答有明显的区别，因为你不会从中检索答案。你可以被动地复习几遍摘抄卡片，但它的最终归宿是填空或问答。</p><p data-pid=\"a_dD2TqW\">对于一篇文章：</p><p data-pid=\"--svbGi-\">文章→（可选：段落）→摘抄（句子）→缩短和修改的句子→填空/问答。</p><p data-pid=\"ug_oqhYf\">摘抄卡片可能很长（段落）或很短（单句）。对于较长的摘抄卡片，你要阅读并摘抄更多的摘抄卡片（句子）；对于非常短的摘抄卡片，你可以立即生成填空或问答。无论怎样，它们的最终目的都是要转化为填空或问答。</p><p data-pid=\"3q1SYFuG\">这就是知识提炼。想象一下，就像把一块石头雕琢成雕塑一样：你必须削去多余的部分。</p><h3><b>3. 夯实基础</b></h3><p data-pid=\"JI_On1rH\">《<u><a href=\"https://link.zhihu.com/?target=https%3A//www.supermemo.com/en/articles/20rules\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">有效学习：形成知识的二十条规则</a></u><sup data-text=\"有效的学习：组织知识的20条原则\" data-url=\"https://zhuanlan.zhihu.com/p/219996956\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>》的规则 3 适用于渐进阅读：</p><blockquote data-pid=\"w8prrZpd\">学习整体的大局越简单越好。简单的模型更容易理解和吸收。你以后总可以在它们的基础上继续发展。<br/>不要忽视基础知识。记忆看似明显的东西并不是浪费时间。</blockquote><p data-pid=\"X7rVdS8t\">从上面的例子中可以看出，我总是从基本概<u>念、术语、中心思想开始摘抄，然后再往上走。这与 Michael Nielsen 在《增强长期记忆</u><sup data-text=\"【三万字长文】量子物理学家是如何使用 Anki 的？\" data-url=\"https://zhuanlan.zhihu.com/p/65131722\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>》中提到的他使用 Anki 的做法很类似：</p><blockquote data-pid=\"WaXvqVhV\">我关于 AlphaGo 的问题从简单的“围棋棋盘的大小？”发展到关于系统设计的高阶概念性问题——AlphaGo 是如何避免过度推广训练数据的，卷积神经网络的局限性等等。</blockquote><p data-pid=\"mmugbQz6\">这与我在《<u><a href=\"https://zhuanlan.zhihu.com/p/322497441\" class=\"internal\">SuperMemo 中渐进阅读的意义：第一部分</a></u>》中提到的想法类似</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-eb77218e864a1cf13e2aa21159dad0df_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"530\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic4.zhimg.com/v2-eb77218e864a1cf13e2aa21159dad0df_r.jpg\" data-original-token=\"v2-9db2138dca9a65e95100734e8d62343a\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><h3><b>4. 添加上下文</b></h3><p data-pid=\"AlunuTUL\">由于你是从文章的一段话中摘抄句子，上下文必然会丢失。你必须自己添加，才能提供足够的检索线索。</p><p data-pid=\"Ity7qYaq\">比如说</p><blockquote data-pid=\"6ADwvEkE\">「骨鱼最早出现在志留纪」<br/>「骨鱼最早出现在[...](纪)」</blockquote><p data-pid=\"YFhWyOb_\">如果没有检索线索（纪），答案也可以是一个地方。这种歧义是非常不可取的。当复习时，你的脑海中开始出现其他类型的答案时，你就知道你应该增加更多的上下文提示。</p><p data-pid=\"28yoZEs5\">你不一定要在第一次就把它完美地独立出来。我是循序渐进的。顾名思义，关键是循序渐进。</p><blockquote data-pid=\"4g_3qsfp\">渐进主义——所有的改变都会随着时间的推移而逐渐发生，与你选择的材料的优先级有关，并与逐渐增加的记忆痕迹的强度相一致。</blockquote><h3><b>5. 简化你的摘抄卡片/填空/问答</b></h3><p data-pid=\"K-72ugvD\">以下修改后的文字来自《<u><a href=\"https://link.zhihu.com/?target=https%3A//www.supermemo.com/help/read.htm\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">渐进阅读导论</a></u><sup data-text=\"增量阅读\" data-url=\"https://www.yuque.com/supermemo/wiki/incremental_reading\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>》：</p><blockquote data-pid=\"1LL18MzY\">在将摘抄卡片转换成问答的同时，你应该确保你的问题简单明了。</blockquote><p data-pid=\"_kKYGcjd\">例如，如果你有以下摘抄卡片：</p><blockquote data-pid=\"zTt-n99D\">互联网是在1969年由高级研究计划局（ARPA）签订的一份合同下建立的，该公司连接了美国西南部大学（UCLA、斯坦福研究所、UCSB和犹他大学）的四台主要计算机</blockquote><p data-pid=\"7UV70aVk\">你可能会发现，当复习间隔变得足够长时，你可能实际上无法回忆起ARPA机构的名称，甚至忘记互联网开始的年份。然后，您可以选择一个重要的关键字，例如1969，并使用挖空生成以下问答：</p><blockquote data-pid=\"s7168hmR\"><b>问题</b>：互联网是在<b>[…]</b> 年根据高级研究计划署（ARPA）的合同开始的，该机构将美国西南部大学（UCLA、斯坦福研究所、UCSB和犹他大学）的四台主要计算机连接起来。<br/><b>答案</b>：1969年</blockquote><p data-pid=\"V9ZGyxqz\">在学习过程中，您需要通过手动编辑将上述问答卡片修改成更简洁易懂的形式：</p><blockquote data-pid=\"TeeqrRzz\"><b>问题</b>：互联网是根据ARPA代理的一份合同于<b>[…]</b> <b>年</b>启动的<br/><b>答案</b>：1969年</blockquote><p data-pid=\"t33Pws01\">或者更好：</p><blockquote data-pid=\"6hR5cokJ\"><b>问题</b>：互联网始于<b>[…]</b> <b>年</b><br/><b>答案</b>：1969年</blockquote><p data-pid=\"LTaIEXWJ\">主要原因是简洁。去掉不相关的信息，你就不会把时间浪费在被动复习那些不可能被记住的信息上，因为只有主动回忆的材料才会被记住。</p><h2><b>结束语</b></h2><p data-pid=\"cLbDFsnC\">就当这是《渐进阅读101》吧。这是我希望在我刚开始探索渐进阅读时读到和知道的。希望这能澄清「到底什么是渐进阅读？」，这些技巧对你有帮助。</p><h2>下一篇</h2><a href=\"https://zhuanlan.zhihu.com/p/352611888\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-eead37c62b32554e15cc8849428019a7_l.jpg\" data-image-width=\"800\" data-image-height=\"800\" class=\"internal\">叶峻峣：【翻译】在渐进阅读中，创建摘录卡片后该做什么？</a><p></p>",
-  "column": {
-    "updated": 1710055189,
-    "description": "该专栏翻译有关记忆，学习，睡眠，创造力，解决问题，脑科学，健康和教育的文章",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/supermemo-guru-cn",
-    "title": "学校教育问题",
-    "image_url": "https://pica.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "supermemo-guru-cn"
-  },
-  "comment_count": 34,
-  "image_url": "https://picx.zhimg.com/v2-4dcf0a91fb51b7acfd9cb5ab501c38ae_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 62,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-78b0c625277739cb28126a72adeff976.jpg?source=172ae18b",
+      "uid": "1257918756849901568",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "yao-shan-lao-qiao",
+      "id": "9ab7dc7f5e6cab571310675c62be1e9c",
+      "description": "一个致力于知行合一的人；一个倾力于技能提升的人；一个专注于养生的人；一个爱好历史的人；一个能博得大家喜欢的善良的好人。",
+      "name": "乔石",
+      "is_advertiser": false,
+      "headline": "知行、历史、养生、技能",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/9ab7dc7f5e6cab571310675c62be1e9c",
+      "avatar_url": "https://pic1.zhimg.com/v2-78b0c625277739cb28126a72adeff976_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 62,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxNTk4MzQ1MzMSCTMyMjY3MzUxNxgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 202,
+      "down_vote_count": 3,
+      "like_count": 62,
+      "comment_count": 36,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 494,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-18817c517cc737fefa38a46b1b7787d0": 0,
+        "v2-209a136be7e4fd6c48ae1212d829aa84": 0,
+        "v2-296e84b69bda87ae5f6e8e36653df637": 0,
+        "v2-3279e10bb2c10d12bd0f995f65dd0b7d": 0,
+        "v2-4dcf0a91fb51b7acfd9cb5ab501c38ae": 0,
+        "v2-61fb3e7bb6a35b82d5862816b1f72ab3": 0,
+        "v2-6ca4e2d4e65db183bb8b3ea0c197b85e": 0,
+        "v2-75667cc4f51dac0382017f4c1b3ce348": 0,
+        "v2-780e5e7741c7f2261bcfcfd044f087dd": 0,
+        "v2-7a4c4ed5a6a41bbc452ac80e3e0036af": 0,
+        "v2-7d16cd245f5004da63145ae014e29f0a": 0,
+        "v2-895098d4e148b18eb2aa4015a61e05c7": 0,
+        "v2-93cff32b4dce636728429bd3cdffd2b4": 0,
+        "v2-9a95b24e3568bd140698efb69dca3e9d": 0,
+        "v2-9db2138dca9a65e95100734e8d62343a": 0,
+        "v2-bd2f8c2b5e45777a0db3fe77a07fdf1f": 0,
+        "v2-c82dda959213ad0aed921371ad542237": 0,
+        "v2-d869e6d595f7104478db8655bd1fbd08": 0,
+        "v2-d8dbea82b33e825ab6853397fb33586e": 0,
+        "v2-e341a4ba6b6b645553e534c48a2b0c6a": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-18817c517cc737fefa38a46b1b7787d0": false,
+        "v2-209a136be7e4fd6c48ae1212d829aa84": false,
+        "v2-296e84b69bda87ae5f6e8e36653df637": false,
+        "v2-3279e10bb2c10d12bd0f995f65dd0b7d": false,
+        "v2-4dcf0a91fb51b7acfd9cb5ab501c38ae": false,
+        "v2-61fb3e7bb6a35b82d5862816b1f72ab3": false,
+        "v2-6ca4e2d4e65db183bb8b3ea0c197b85e": false,
+        "v2-75667cc4f51dac0382017f4c1b3ce348": false,
+        "v2-780e5e7741c7f2261bcfcfd044f087dd": false,
+        "v2-7a4c4ed5a6a41bbc452ac80e3e0036af": false,
+        "v2-7d16cd245f5004da63145ae014e29f0a": false,
+        "v2-895098d4e148b18eb2aa4015a61e05c7": false,
+        "v2-93cff32b4dce636728429bd3cdffd2b4": false,
+        "v2-9a95b24e3568bd140698efb69dca3e9d": false,
+        "v2-9db2138dca9a65e95100734e8d62343a": false,
+        "v2-bd2f8c2b5e45777a0db3fe77a07fdf1f": false,
+        "v2-c82dda959213ad0aed921371ad542237": false,
+        "v2-d869e6d595f7104478db8655bd1fbd08": false,
+        "v2-d8dbea82b33e825ab6853397fb33586e": false,
+        "v2-e341a4ba6b6b645553e534c48a2b0c6a": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-18817c517cc737fefa38a46b1b7787d0": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-209a136be7e4fd6c48ae1212d829aa84": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-296e84b69bda87ae5f6e8e36653df637": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-3279e10bb2c10d12bd0f995f65dd0b7d": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-4dcf0a91fb51b7acfd9cb5ab501c38ae": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-61fb3e7bb6a35b82d5862816b1f72ab3": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-6ca4e2d4e65db183bb8b3ea0c197b85e": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-75667cc4f51dac0382017f4c1b3ce348": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-780e5e7741c7f2261bcfcfd044f087dd": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-7a4c4ed5a6a41bbc452ac80e3e0036af": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-7d16cd245f5004da63145ae014e29f0a": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-895098d4e148b18eb2aa4015a61e05c7": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-93cff32b4dce636728429bd3cdffd2b4": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-9a95b24e3568bd140698efb69dca3e9d": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-9db2138dca9a65e95100734e8d62343a": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-bd2f8c2b5e45777a0db3fe77a07fdf1f": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-c82dda959213ad0aed921371ad542237": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-d869e6d595f7104478db8655bd1fbd08": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-d8dbea82b33e825ab6853397fb33586e": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-e341a4ba6b6b645553e534c48a2b0c6a": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=322673517&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · SuperMemo—渐进学习最前沿！",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1308886122672484352",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · SuperMemo—渐进学习最前沿！"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "1928394269267334582",
+  "title": "到底什么是能动性？",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/1928394269267334582",
+  "image_url": "https://picx.zhimg.com/v2-9ea588e2f66fd21408f6cd4c019a5b63_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-9ea588e2f66fd21408f6cd4c019a5b63_720w.jpg?source=172ae18b",
+  "excerpt": "各位，周五愉快。 如果必须用一个词来形容我们的教育方法，我会选择「强能动性」。比如：Guidepost 提供的是一种强能动性的教育。我们提供一种旨在培养能动性的教育。 一个 <b>行动者</b>，是在世界中积极主动的人。行动者是成事之因，是实干之人，是事物的促成者…",
+  "created": 1752545509,
   "updated": 1752997347,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "各位，周五愉快。如果必须用一个词来形容我们的教育方法，我会选择「强能动性」。比…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 225,
+  "image_height": 225,
+  "content": "<p data-pid=\"rl5Y_li6\">各位，周五愉快。</p><p data-pid=\"Bapcb9yi\">如果必须用一个词来形容我们的教育方法，我会选择「强能动性」。比如：Guidepost 提供的是一种强能动性的教育。我们提供一种旨在培养能动性的教育。</p><p data-pid=\"27nQMMIC\">一个<b>行动者</b>，是在世界中积极主动的人。行动者是成事之因，是实干之人，是事物的促成者。强调能动性，主张能动性有高下之分，且越高越好，就是强调生命中主动积极的、自我驱动的那个部分。也就是说，真正重要的是我们掌控环境并<b>有所作为</b>的力量——究竟要做什么事情，正是我们能够主动决定的事情之一。</p><p data-pid=\"PLDfIcO4\">能动性，粗略而言，正是蒙台梭利所说的「独立」。它是选择，但又远不止于此：它既是选择的能力，也是凭借自我导向将其贯彻到底，并出色完成它的能力。当我说某人具有「强能动性」时，我指的就是所有这些特质的集合。拥有强能动性，意味着对该做什么有强烈的意向，去做的强烈意愿，以及做成的强大能力。</p><p data-pid=\"xz5WcKPP\">将意志与技能的这种结合视为一个整体——将它们共同看作一个真正宏大、真正重要的概念：能动性——并<b>不是</b>最顺理成章的视角。潜在的混淆比比皆是，对能动性的其他更为简化的理解也同样如此：</p><p data-pid=\"uLpBPK19\">能动性常常仅被理解为选择，即你有意识地选择去做什么。一个「强能动性」的人，可能会被想象成一个叛逆者、一个独行侠、一个特立独行且不受普世标准束缚的人。而且，能动性并<b>不</b>普遍被视为一种可以后天培养的能力；有些人似乎天生就比其他人更具能动性。</p><p data-pid=\"QqYM8_Cw\">几个月前，在一次关于能动性的教师培训上，为了澄清一些我眼中常见的误解，我写下了 20 条简短的要点。它们并非严谨的论证，而是一系列观点的集中呈现，一组多角度的阐释，旨在帮助大家更好地把握「能动性」这一理念。我的学生们认为这些要点很有帮助，因此我在这里也分享给各位：</p><ol><li data-pid=\"O9ZFTbmL\"> 传统教育通过剥夺选择和兴趣来扼杀能动性；进步主义教育则通过摒弃卓越和能力来扼杀能动性。<br/> <br/></li><li data-pid=\"I9fG1bjw\"> 能动性的上限，取决于个人能力的高低。<br/> <br/></li><li data-pid=\"fu-UA8ws\"> 作为一种个人特质的能动性，通常源于在几个不同领域中培养出的扎实基础能力。比如：技术领域、知识领域、人际领域、创意领域。<br/> <br/></li><li data-pid=\"7kihUoHw\"> 搭建一个木棚，就历史问题形成自己有见地的看法，克服你的社交焦虑，学会一门乐器。正是这些以及无数类似的胜利，构成了「我能谱写自己的人生」这一结论的前提。<br/> <br/></li><li data-pid=\"qCbOzvTq\"> 拥有强能动性，并非意味着要成为一匹独狼，而是意味着要去创造你自己的东西。<br/> <br/></li><li data-pid=\"X_6sBBIk\"> 反过来看，归属感是能动性的自然结果，在青春期及之后尤其如此。<br/> <br/></li><li data-pid=\"8CkHaoot\"> 一种常见且错误的观点认为，能动性只体现在从菜单上选择菜品，而不体现在享用它的过程。能动性是更广义的自我导向，而不仅仅是选择或挑选。<br/> <br/></li><li data-pid=\"WklzZye6\"> 选择如同大肌群，负责最初的发力；能力如同小肌群，负责精细的控制；坚持则是耐力，源于持续的兴趣。能动性是所有这些（以及更多）的总和。<br/> <br/></li><li data-pid=\"_CcS-DPw\"> 选择可以被给予，能力可以被扶助。在成长过程中，最难培养也最为脆弱的一环，是坚持。<br/> <br/></li><li data-pid=\"yddLhgYb\"> 拥有自己的标准，并不一定意味着要拥有与众不同的标准。特立独行的生活方式只是能动性的一种戏剧化表现，而非其定义。拥有强能动性的人，外表可能看起来非常普通。<br/> <br/></li><li data-pid=\"b-kwOmSo\"> 与此相关，过度沉迷于「与众不同」这种审美本身，是弱能动性的表现。为了不同而不同，恰恰是受制于标准。<br/> <br/></li><li data-pid=\"vyL_FAgn\"> 所谓的「批判性」思维，并不比一般思维更具能动性。批判并非通往深刻、自知和求知的唯一途径。它只是一种途径，且往往是一种次优的途径。<br/> <br/></li><li data-pid=\"W-wlSxvP\"> 能动性并非一种自然状态。移除能动性的障碍固然重要，但更重要的是搭建起培养能动性的支架，而这种支架并非天然存在。<br/> <br/></li><li data-pid=\"O2Fia1IE\"> 以能动的方式思考人生大事——如你的人生轨迹、人际关系、工作、信念和价值观——这至关重要，但小事亦然。用唾手可得的方法解决小问题。冷了？买个暖气。电视看太多？安排个约会。<br/><br/> </li><li data-pid=\"I4DC3yvi\"> 历史，如果被正确地、以进步为导向地呈现，将有助于凸显能动性的焦点。「我们做不到——」「嘘。我们人类曾登上月球。」<br/> <br/></li><li data-pid=\"BD0dOtnd\"> 能动性中的耐力，最初是通过在任务中获得全情投入的喜悦来建立的。能偶尔做自己不喜欢之事的能力，很大程度上源于先培养了做自己喜欢之事的能力。大多数人从未培养起后者，因此在前者上倍感挣扎。<br/> <br/></li><li data-pid=\"r9Ep8nW1\"> 教学内容本身，也可以是强能动性或弱能动性的。从历史的视角，将知识作为人类努力探索、创造和建立的成果来传授，就是一种强能动性的课程框架。从思想的角度讲授历史——将其视为首先由观念、信仰和价值观驱动的进程——同样体现出强能动性。<br/><br/> </li><li data-pid=\"FSHM0aqT\"> 参与体育运动、学习一门乐器、排演一出戏剧、找一份工作、开发一个应用——如果你提供的教育没能积极地帮助学生通过这些以及类似的方式来培养能动性，那它最好也别去妨碍他们。<br/><br/> </li><li data-pid=\"g1IZ6YEu\"> 许多被认为是弱能动性的教育元素，如练习、重复、记忆，实际上完美适配于强能动性的教育。它们都是有意识地塑造自己灵魂的绝佳方法。<br/> <br/></li><li data-pid=\"YvcLOXRj\"> 能动性属于每一个人。它就像诚实一样，是一种需要培养的美德，而非一种幸运的人格特质。<br/> </li></ol><p data-pid=\"YnUgTD_X\">祝周末愉快，</p><p data-pid=\"kYM3-oll\">Matt Bateman</p><p data-pid=\"95tioeR8\">Montessorium 执行董事</p><hr/><blockquote data-pid=\"j0MBAbFp\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">gemini-2.5-pro-exp</span>，校对 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/db7781cc868b214d3824d5d87f7a0e0d\" data-hash=\"db7781cc868b214d3824d5d87f7a0e0d\" data-hovercard=\"p$b$db7781cc868b214d3824d5d87f7a0e0d\">@Carrie455</a>、<span class=\"nolink\">bstiat</span>、Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//higherground.substack.com/p/friday-note-orienting-towards-agency\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Friday Note: Agency - by Matt Bateman</a><br/>作者：<a href=\"https://link.zhihu.com/?target=https%3A//substack.com/%40mbateman2\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Matt Bateman</a><br/>发布于 2024 年 1 月 20 日</blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
-  "reason": "",
-  "excerpt_title": "",
-  "id": 1928394269267334700,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19969071",
+      "type": "topic",
+      "id": "19969071",
+      "name": "能动性"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19553176",
+      "type": "topic",
+      "id": "19553176",
+      "name": "教育"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19571588",
+      "type": "topic",
+      "id": "19571588",
+      "name": "个人成长"
+    }
+  ],
   "voteup_count": 46,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "好睡眠，好学习，好生活",
+    "is_following": false,
+    "url_token": "c_1525846593119449088",
+    "id": "c_1525846593119449088",
+    "articles_count": 97,
+    "accept_submission": true,
+    "title": "睡眠研究 & 生活建议",
+    "url": "https://api.zhihu.com/columns/c_1525846593119449088",
+    "comment_permission": "all",
+    "created": 1656570176,
+    "updated": 1751877207,
+    "image_url": "https://picx.zhimg.com/v2-080a085ec59b78d9d731960f7b0fdb50_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 339,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 5,
+  "contributions": [
+    {
+      "id": 52231547,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "好睡眠，好学习，好生活",
+        "is_following": false,
+        "url_token": "c_1525846593119449088",
+        "id": "c_1525846593119449088",
+        "articles_count": 97,
+        "accept_submission": true,
+        "title": "睡眠研究 & 生活建议",
+        "url": "https://api.zhihu.com/columns/c_1525846593119449088",
+        "comment_permission": "all",
+        "created": 1656570176,
+        "updated": 1751877207,
+        "image_url": "https://picx.zhimg.com/v2-080a085ec59b78d9d731960f7b0fdb50_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 339,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 72,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "到底什么是能动性？ - 来自知乎专栏「睡眠研究 &amp; 生活建议」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/1928394269267334582 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1752545509,
-  "url": "https://api.zhihu.com/articles/1928394269267334582",
-  "comment_permission": "all",
-  "title": "到底什么是能动性？",
-  "image_width": 225,
-  "content": "<p data-pid=\"rl5Y_li6\">各位，周五愉快。</p><p data-pid=\"Bapcb9yi\">如果必须用一个词来形容我们的教育方法，我会选择「强能动性」。比如：Guidepost 提供的是一种强能动性的教育。我们提供一种旨在培养能动性的教育。</p><p data-pid=\"27nQMMIC\">一个<b>行动者</b>，是在世界中积极主动的人。行动者是成事之因，是实干之人，是事物的促成者。强调能动性，主张能动性有高下之分，且越高越好，就是强调生命中主动积极的、自我驱动的那个部分。也就是说，真正重要的是我们掌控环境并<b>有所作为</b>的力量——究竟要做什么事情，正是我们能够主动决定的事情之一。</p><p data-pid=\"PLDfIcO4\">能动性，粗略而言，正是蒙台梭利所说的「独立」。它是选择，但又远不止于此：它既是选择的能力，也是凭借自我导向将其贯彻到底，并出色完成它的能力。当我说某人具有「强能动性」时，我指的就是所有这些特质的集合。拥有强能动性，意味着对该做什么有强烈的意向，去做的强烈意愿，以及做成的强大能力。</p><p data-pid=\"xz5WcKPP\">将意志与技能的这种结合视为一个整体——将它们共同看作一个真正宏大、真正重要的概念：能动性——并<b>不是</b>最顺理成章的视角。潜在的混淆比比皆是，对能动性的其他更为简化的理解也同样如此：</p><p data-pid=\"uLpBPK19\">能动性常常仅被理解为选择，即你有意识地选择去做什么。一个「强能动性」的人，可能会被想象成一个叛逆者、一个独行侠、一个特立独行且不受普世标准束缚的人。而且，能动性并<b>不</b>普遍被视为一种可以后天培养的能力；有些人似乎天生就比其他人更具能动性。</p><p data-pid=\"QqYM8_Cw\">几个月前，在一次关于能动性的教师培训上，为了澄清一些我眼中常见的误解，我写下了 20 条简短的要点。它们并非严谨的论证，而是一系列观点的集中呈现，一组多角度的阐释，旨在帮助大家更好地把握「能动性」这一理念。我的学生们认为这些要点很有帮助，因此我在这里也分享给各位：</p><ol><li data-pid=\"O9ZFTbmL\"> 传统教育通过剥夺选择和兴趣来扼杀能动性；进步主义教育则通过摒弃卓越和能力来扼杀能动性。<br/> <br/></li><li data-pid=\"I9fG1bjw\"> 能动性的上限，取决于个人能力的高低。<br/> <br/></li><li data-pid=\"fu-UA8ws\"> 作为一种个人特质的能动性，通常源于在几个不同领域中培养出的扎实基础能力。比如：技术领域、知识领域、人际领域、创意领域。<br/> <br/></li><li data-pid=\"7kihUoHw\"> 搭建一个木棚，就历史问题形成自己有见地的看法，克服你的社交焦虑，学会一门乐器。正是这些以及无数类似的胜利，构成了「我能谱写自己的人生」这一结论的前提。<br/> <br/></li><li data-pid=\"qCbOzvTq\"> 拥有强能动性，并非意味着要成为一匹独狼，而是意味着要去创造你自己的东西。<br/> <br/></li><li data-pid=\"X_6sBBIk\"> 反过来看，归属感是能动性的自然结果，在青春期及之后尤其如此。<br/> <br/></li><li data-pid=\"8CkHaoot\"> 一种常见且错误的观点认为，能动性只体现在从菜单上选择菜品，而不体现在享用它的过程。能动性是更广义的自我导向，而不仅仅是选择或挑选。<br/> <br/></li><li data-pid=\"WklzZye6\"> 选择如同大肌群，负责最初的发力；能力如同小肌群，负责精细的控制；坚持则是耐力，源于持续的兴趣。能动性是所有这些（以及更多）的总和。<br/> <br/></li><li data-pid=\"_CcS-DPw\"> 选择可以被给予，能力可以被扶助。在成长过程中，最难培养也最为脆弱的一环，是坚持。<br/> <br/></li><li data-pid=\"yddLhgYb\"> 拥有自己的标准，并不一定意味着要拥有与众不同的标准。特立独行的生活方式只是能动性的一种戏剧化表现，而非其定义。拥有强能动性的人，外表可能看起来非常普通。<br/> <br/></li><li data-pid=\"b-kwOmSo\"> 与此相关，过度沉迷于「与众不同」这种审美本身，是弱能动性的表现。为了不同而不同，恰恰是受制于标准。<br/> <br/></li><li data-pid=\"vyL_FAgn\"> 所谓的「批判性」思维，并不比一般思维更具能动性。批判并非通往深刻、自知和求知的唯一途径。它只是一种途径，且往往是一种次优的途径。<br/> <br/></li><li data-pid=\"W-wlSxvP\"> 能动性并非一种自然状态。移除能动性的障碍固然重要，但更重要的是搭建起培养能动性的支架，而这种支架并非天然存在。<br/> <br/></li><li data-pid=\"O2Fia1IE\"> 以能动的方式思考人生大事——如你的人生轨迹、人际关系、工作、信念和价值观——这至关重要，但小事亦然。用唾手可得的方法解决小问题。冷了？买个暖气。电视看太多？安排个约会。<br/><br/> </li><li data-pid=\"I4DC3yvi\"> 历史，如果被正确地、以进步为导向地呈现，将有助于凸显能动性的焦点。「我们做不到——」「嘘。我们人类曾登上月球。」<br/> <br/></li><li data-pid=\"BD0dOtnd\"> 能动性中的耐力，最初是通过在任务中获得全情投入的喜悦来建立的。能偶尔做自己不喜欢之事的能力，很大程度上源于先培养了做自己喜欢之事的能力。大多数人从未培养起后者，因此在前者上倍感挣扎。<br/> <br/></li><li data-pid=\"r9Ep8nW1\"> 教学内容本身，也可以是强能动性或弱能动性的。从历史的视角，将知识作为人类努力探索、创造和建立的成果来传授，就是一种强能动性的课程框架。从思想的角度讲授历史——将其视为首先由观念、信仰和价值观驱动的进程——同样体现出强能动性。<br/><br/> </li><li data-pid=\"FSHM0aqT\"> 参与体育运动、学习一门乐器、排演一出戏剧、找一份工作、开发一个应用——如果你提供的教育没能积极地帮助学生通过这些以及类似的方式来培养能动性，那它最好也别去妨碍他们。<br/><br/> </li><li data-pid=\"g1IZ6YEu\"> 许多被认为是弱能动性的教育元素，如练习、重复、记忆，实际上完美适配于强能动性的教育。它们都是有意识地塑造自己灵魂的绝佳方法。<br/> <br/></li><li data-pid=\"YvcLOXRj\"> 能动性属于每一个人。它就像诚实一样，是一种需要培养的美德，而非一种幸运的人格特质。<br/> </li></ol><p data-pid=\"YnUgTD_X\">祝周末愉快，</p><p data-pid=\"kYM3-oll\">Matt Bateman</p><p data-pid=\"95tioeR8\">Montessorium 执行董事</p><hr/><blockquote data-pid=\"j0MBAbFp\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">gemini-2.5-pro-exp</span>，校对 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/db7781cc868b214d3824d5d87f7a0e0d\" data-hash=\"db7781cc868b214d3824d5d87f7a0e0d\" data-hovercard=\"p$b$db7781cc868b214d3824d5d87f7a0e0d\">@Carrie455</a>、<span class=\"nolink\">bstiat</span>、Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//higherground.substack.com/p/friday-note-orienting-towards-agency\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Friday Note: Agency - by Matt Bateman</a><br/>作者：<a href=\"https://link.zhihu.com/?target=https%3A//substack.com/%40mbateman2\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Matt Bateman</a><br/>发布于 2024 年 1 月 20 日</blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 5,
-  "image_url": "https://pic1.zhimg.com/v2-9ea588e2f66fd21408f6cd4c019a5b63_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 1,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 1,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyNjAzNTI0NTESEzE5MjgzOTQyNjkyNjczMzQ1ODIYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 46,
+      "down_vote_count": 0,
+      "like_count": 1,
+      "comment_count": 5,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 72,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-9ea588e2f66fd21408f6cd4c019a5b63": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-9ea588e2f66fd21408f6cd4c019a5b63": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-9ea588e2f66fd21408f6cd4c019a5b63": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/28010026733?contentId=1928394269267334582&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 睡眠研究 & 生活建议",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525846593119449088",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 睡眠研究 & 生活建议"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

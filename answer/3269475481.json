@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,9 +37,10 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
@@ -45,9 +48,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 8,
   "content": "<p data-pid=\"KUP6qOUt\">我是提问者，这里写写问题的实际背景，以及我找到的一些解法。</p><h2>问题背景</h2><p data-pid=\"puR0DiIw\">这其实是间隔重复算法下的一个子问题：如何安排相互有关联的卡片，让它们的复习日期尽可能错开，但又不能偏离最佳日期太多？</p><p data-pid=\"6YDYjozq\">每张卡片的复习日期，是由上一次复习日期和上一次安排复习间隔决定的。比如我在 10 月 1 日复习了一张卡片，间隔是 20 天，那么下一次复习日期就是 10 月 21 日。如果我们容许 +-10% 的偏差，那么这张卡片的复习日期可以是 10 月 19 日到 10 月 23 日间的任何一天。</p><p data-pid=\"yirCY9wl\">如果有 4 张卡片相互关联（比如一首诗的 4 句话分别填空、一个单词的 4 种词形变化），那么安排这 4 张卡片的复习日期，应当尽可能错开，避免互相提醒/干扰。</p><p data-pid=\"vlDtrWPv\">于是就有了本题。</p><p data-pid=\"RVbjjOlO\">再补充一下输入的取值范围。n &lt; 100，所有区间的端点的值域为 [0, 36500]（没有谁复习能安排到一百年后吧）</p><h2>解法</h2><p data-pid=\"Uiif5ga4\">目前我还没有找到多项式时间内到达最优解的算法。二分查找最小间隔+贪心取点可以在 <img src=\"https://www.zhihu.com/equation?tex=O%28n%5Clog%28m%29%29\" alt=\"O(n\\log(m))\" eeimg=\"1\"/> 的时间复杂度上找到局部最优解。</p><p data-pid=\"IzFgg-gP\">有一个博客提出了几个可以找到全局最优解的方法，但是复杂度都很高：</p><p data-pid=\"44BWLGEH\">解法一：将原问题转换成一个 mixed-integer non-linear programming 问题。</p><p data-pid=\"Yy4TVb-c\">解法二：将解法一中的绝对值去掉，将非线性问题转化为线性问题。</p><p data-pid=\"k-vHy5a5\">具体可以看这个博客：</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=http%3A//yetanothermathprogrammingconsultant.blogspot.com/2021/06/arranging-points-on-line.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Yet Another Math Programming Consultant: Arranging points on a line</a><h2>为什么有附加题</h2><p data-pid=\"OhBO74vr\">考虑一种特殊情况：存在几个点的取值区间非常窄，且相互靠近。比如 [0,0], [1,1], [2, 5], [4, 7]，此时最小间隔只可能是 1，输出可能是 0, 1, 2, 4。但实际上更好的输出是 0, 1, 4, 7。</p><hr/><p data-pid=\"HSSyNO7N\">感谢 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/ad6db455b536c9fed791c1df3d012e08\" data-hash=\"ad6db455b536c9fed791c1df3d012e08\" data-hovercard=\"p$b$ad6db455b536c9fed791c1df3d012e08\">@Mass Point</a> 和 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/3a23ec68d26a1c11737e8f2b712f73f5\" data-hash=\"3a23ec68d26a1c11737e8f2b712f73f5\" data-hovercard=\"p$b$3a23ec68d26a1c11737e8f2b712f73f5\">@Yixiao Huang</a> 的专业分析，以及 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/bf3d1b583f786bcd8989d4452f619dc6\" data-hash=\"bf3d1b583f786bcd8989d4452f619dc6\" data-hovercard=\"p$b$bf3d1b583f786bcd8989d4452f619dc6\">@AVALON</a> 提供的贪心失败的样例。</p>",
   "content_need_truncated": false,
   "created_time": 1698597719,
   "excerpt": "我是提问者，这里写写问题的实际背景，以及我找到的一些解法。 问题背景这其实是间隔重复算法下的一个子问题：如何安排相互有关联的卡片，让它们的复习日期尽可能错开，但又不能偏离最佳日期太多？ 每张卡片的复习日期，是由上一次复习日期和上一次安排复习间隔决定的。比如我在 10 月 1 日复习了一张卡片，间隔是 20 天，那么下一次复习日期就是 10 月 21 日。如果我们容许 +-10% 的偏差，那么这张卡片的复习日期可以是 10 月 1…",
-  "id": 3269475481,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3269475481",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=3269475481&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1698467410,
     "detail": "<p>n 个点的取值区间可能相互重叠，且点的取值为整数。相邻点是指取点后在直线上相邻的点，而非从相邻区间中取出的点。</p><p>case 1：有 3 个点，取值区间是[1, 3], [2, 6], [0, 9]。最优的取点方法是 1, 5, 9，相邻点之间的最小间隔是 4。</p><p>case 2: [1, 10], [2, 7], [5, 6]。最优的取点方式是 10, 2, 6，最小间隔是 4。</p><p>附加题：在满足最小间隔最大化的条件下，让相邻点之间的间隔尽可能大，即平均间隔最大。并在平均间隔最大的同时，间隔的方差最小。</p><p>例如：存在几个点的取值区间非常窄，且相互靠近。比如 [0, 0], [1, 1], [2, 5], [4, 7]，此时最小间隔只可能是 1，输出可能是 0, 1, 2, 4。但实际上更好的输出是 0, 1, 4, 7。<br/><br/>可以使用近似算法。</p>",
-    "id": 628164365,
+    "id": "628164365",
     "question_type": "normal",
     "relationship": {},
     "title": "在一条直线上给定n个点的取值区间，如何让相邻点之间的最小间隔最大化？",
     "type": "question",
     "updated_time": 1698638113,
-    "url": "https://api.zhihu.com/questions/628164365"
+    "url": "https://www.zhihu.com/api/v4/questions/628164365"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 30
+  "updated_time": 1698603950,
+  "url": "https://www.zhihu.com/api/v4/answers/3269475481",
+  "voteup_count": 33
 }

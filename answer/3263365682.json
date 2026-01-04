@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,9 +37,10 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
@@ -45,9 +48,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
-  "comment_count": 10,
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
+  "comment_count": 19,
   "content": "<p data-pid=\"Oi4yhtaw\">教育人服从筛选的制度，</p><p data-pid=\"95NLN90p\">筛选掉不服从教育的人。</p>",
   "content_need_truncated": false,
   "created_time": 1698195975,
   "excerpt": "教育人服从筛选的制度， 筛选掉不服从教育的人。",
-  "id": 3263365682,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3263365682",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/21163132154?contentId=3263365682&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1697366421,
-    "detail": "<p></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-3f68a0a67dfbb6c4fa98246678dfefb2_b.jpeg\" data-rawwidth=\"901\" data-rawheight=\"380\" data-size=\"normal\" class=\"origin_image zh-lightbox-thumb\" width=\"901\" data-original=\"https://pic1.zhimg.com/v2-3f68a0a67dfbb6c4fa98246678dfefb2_r.jpg\"/></figure><p>教育的本质是什么？一部分人说现在教育的本质是筛选，另一部分人说教育的本质是育人。</p><p>你觉得教育的本质是什么？</p>",
-    "id": 626236405,
+    "detail": "<p></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-3f68a0a67dfbb6c4fa98246678dfefb2_1440w.jpeg\" data-rawwidth=\"901\" data-rawheight=\"380\" data-size=\"normal\" class=\"origin_image zh-lightbox-thumb\" width=\"901\" data-original=\"https://pic1.zhimg.com/v2-3f68a0a67dfbb6c4fa98246678dfefb2_r.jpg\"/></figure><p>教育的本质是什么？一部分人说现在教育的本质是筛选，另一部分人说教育的本质是育人。</p><p>你觉得教育的本质是什么？</p>",
+    "id": "626236405",
     "question_type": "normal",
     "relationship": {},
     "title": "教育的本质是筛选还是育人？",
     "type": "question",
     "updated_time": 1697366421,
-    "url": "https://api.zhihu.com/questions/626236405"
+    "url": "https://www.zhihu.com/api/v4/questions/626236405"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 203
+  "updated_time": 1698195975,
+  "url": "https://www.zhihu.com/api/v4/answers/3263365682",
+  "voteup_count": 470
 }

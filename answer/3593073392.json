@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,19 +37,21 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,37 +84,57 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
-  "comment_count": 7,
-  "content": "<p data-pid=\"ZDjtUE4K\">看了一圈回答，居然没有关于如何教学生的建议……虽然题主是硕士，但学得好不等于教得好，特别是当自己的认知和学生的认知差异过大的时候。今天正好翻译了一篇关于教学的文章，这里推荐给题主好了。</p><blockquote data-pid=\"MMBkTnay\">以下内容摘自 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0\" data-hash=\"4c592f496dc33822b560b382907ff1d0\" data-hovercard=\"p$b$4c592f496dc33822b560b382907ff1d0\">@Thoughts Memo</a> 汉化组的译文《<a href=\"https://zhuanlan.zhihu.com/p/714187909\" class=\"internal\">教学的艺术</a>》</blockquote><ol><li data-pid=\"aD1r1U_N\">确定你认为合适的教学难度。确定好了吗？好，<b>现在将其降低十倍</b>。请记住，作为教师，你觉得显而易见的内容，对学生而言可能并不容易理解。<br/><br/></li><li data-pid=\"CAxB5Iya\">如果你在麻省理工或加州理工这样的顶尖学府任教，这个难度可能刚好合适。但如果是在其他学校，<b>再降低十倍</b>。别忘了，即使是聪明人，初次接触新事物时也往往表现得很糟糕。<br/><br/></li><li data-pid=\"MFSTX6G8\">不要期望学生「能自己理解全部内容」。从讲解典型例题开始，然后以以蜗牛般的速度逐步深入。<br/><br/></li><li data-pid=\"kGetBLC3\">在向学生展示了清晰的示例问题之后，布置一些稍有变化的练习题。鼓励他们积极动手，努力完成。<br/><br/></li><li data-pid=\"Gl5Mm4mN\">如果你学生的正确率不到 75％，说明你的题目还是太难了。这时候，你需要引导他们解决问题，这些问题应该简单到你无法想象他们是有多无能才做不出来。这不仅能提高学生的知识水平，也能锻炼你的想象力。<br/><br/></li><li data-pid=\"HpiOHxF9\">如果你学生的正确率在 75% 到 94% 之间，请为他们提供更多练习。练习，练习，练习。<br/><br/></li><li data-pid=\"RLul8SCb\">如果你学生的正确率达到 95% 以上，就说明他们已为进阶学习做好充分准备。但即便如此，请记住，除个别具有严密递进关系的学科外，学生<a href=\"https://link.zhihu.com/?target=https%3A//www.econlib.org/archives/2016/01/forgetting_the.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">很可能会遗忘</a>之前所学，除非你定期给他们提供复习练习。<br/><br/></li><li data-pid=\"ZaltJpf0\">切勿将逻辑等同于心理逻辑——并记住，在教学过程中，心理逻辑往往更为重要。这话怎么说？不要理所当然地认为，学生能够因为 A–&gt;B 就理解 A–&gt;B，哪怕对老师来说再明显不过。你的任务是让无知的学生<b>觉得</b>显而易见的知识显而易见。变换你的例子。混合搭配。转换角度。运用重复。运用重复。运用重复。<br/><br/></li><li data-pid=\"bFageGJp\">观察学生的表情。如果他们显得无聊，<b>那你就要更有趣</b>。讲笑话。自嘲。搞怪。夸张地表达所有情绪。放下自尊；教师要么是表演者，要么就是失败者。<br/><br/></li><li data-pid=\"l_v0m4hY\">观察学生的表情。若他们感到沮丧，请更加耐心。切勿在负面情绪之上再添负面情绪。若学生情绪低落，请以温和坚韧的态度作为榜样。绝无例外。绝无例外。绝无例外。<br/><br/></li><li data-pid=\"p6JWjS7r\">观察学生的表情。若他们感到努力似乎徒劳无功，便向他们推销你的学科。告诉他们学习这门学科将带给他们的益处，即便最诚实的回答仅是：「你需要这个来毕业。」<br/><br/></li><li data-pid=\"QdVkNzH6\">观察学生的表情。如果他们不信任你，<b>赢得他们的信任</b>。不要仅仅避免欺骗；<b>保持坦诚</b>。不要美化世界，即使是对小孩子。除非丑陋的真相会让他们做噩梦或让你被解雇，否则请平静地分享。<br/><br/></li><li data-pid=\"FcGMM3Jq\">观察学生的表情。若无法解读他们的情绪，就向他们提问，进一步追问，了解他们已掌握的知识，探明他们的困惑所在，弄清他们是快乐、悲伤，还是认为你疯了。像天使一样接纳他们的回答，并根据实际情况调整教学方法，使之适应你所面对的学生。<br/><br/></li><li data-pid=\"mclDPmC_\">严格执行纪律。如果你制定了计划，就要坚持执行。如果你宣布了惩罚，就要贯彻到底。如果你承诺了休息，就要如实兑现。教育是<b>为了</b>学生，但它不是民主的体现。认真倾听学生的意见，但改革必须建立在你立场坚定的基础之上。不要只是表现得慷慨，而要真正做到宽宏大量！如果你认为这与第 9 条原则相矛盾，请明白你的想法是错误的。要像小丑一样活跃气氛——但要像国王一样统治。<br/><br/></li><li data-pid=\"2ka0yxqP\">这些原则都是针对一对一教学进行优化的。如果你在教授更多的学生，你必须找到平衡点。你总会让某些人感到亏待。抱歉，这就是课堂——这是支持<a href=\"https://link.zhihu.com/?target=https%3A//www.econlib.org/archives/2015/09/why_im_homescho.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">在家上学</a>的另一个理由。</li></ol><hr/><h2>进一步阅读</h2><a href=\"https://zhuanlan.zhihu.com/p/560935720\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-50d8955f92e837947799950c289cbba7_180x120.jpg\" data-image-width=\"5616\" data-image-height=\"3744\" class=\"internal\">Thoughts Memo：教育同理心的缺失充斥在课程中</a><a href=\"https://zhuanlan.zhihu.com/p/573089008\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-8d9c6957eeff0ce217be2bbe05727c20_180x120.jpg\" data-image-width=\"1800\" data-image-height=\"600\" class=\"internal\">Thoughts Memo：John Holt：一位伟大教师的思想演变经历</a><a href=\"https://zhuanlan.zhihu.com/p/707318764\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-5ec8038cc355e3d8a71fed49ff6d83be_180x120.jpg\" data-image-width=\"4887\" data-image-height=\"3258\" class=\"internal\">Thoughts Memo：教育工作者的十二条核心指南</a><p></p>",
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
+  "comment_count": 11,
+  "content": "<p data-pid=\"ZDjtUE4K\">看了一圈回答，居然没有关于如何教学生的建议……虽然题主是硕士，但学得好不等于教得好，特别是当自己的认知和学生的认知差异过大的时候。今天正好翻译了一篇关于教学的文章，这里推荐给题主好了。</p><blockquote data-pid=\"MMBkTnay\">以下内容摘自 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0\" data-hash=\"4c592f496dc33822b560b382907ff1d0\" data-hovercard=\"p$b$4c592f496dc33822b560b382907ff1d0\">@Thoughts Memo</a> 汉化组的译文《<a href=\"https://zhuanlan.zhihu.com/p/714187909\" class=\"internal\" target=\"_blank\">教学的艺术</a>》</blockquote><ol><li data-pid=\"aD1r1U_N\">确定你认为合适的教学难度。确定好了吗？好，<b>现在将其降低十倍</b>。请记住，作为教师，你觉得显而易见的内容，对学生而言可能并不容易理解。<br/><br/></li><li data-pid=\"CAxB5Iya\">如果你在麻省理工或加州理工这样的顶尖学府任教，这个难度可能刚好合适。但如果是在其他学校，<b>再降低十倍</b>。别忘了，即使是聪明人，初次接触新事物时也往往表现得很糟糕。<br/><br/></li><li data-pid=\"MFSTX6G8\">不要期望学生「能自己理解全部内容」。从讲解典型例题开始，然后以以蜗牛般的速度逐步深入。<br/><br/></li><li data-pid=\"kGetBLC3\">在向学生展示了清晰的示例问题之后，布置一些稍有变化的练习题。鼓励他们积极动手，努力完成。<br/><br/></li><li data-pid=\"Gl5Mm4mN\">如果你学生的正确率不到 75％，说明你的题目还是太难了。这时候，你需要引导他们解决问题，这些问题应该简单到你无法想象他们是有多无能才做不出来。这不仅能提高学生的知识水平，也能锻炼你的想象力。<br/><br/></li><li data-pid=\"HpiOHxF9\">如果你学生的正确率在 75% 到 94% 之间，请为他们提供更多练习。练习，练习，练习。<br/><br/></li><li data-pid=\"RLul8SCb\">如果你学生的正确率达到 95% 以上，就说明他们已为进阶学习做好充分准备。但即便如此，请记住，除个别具有严密递进关系的学科外，学生<a href=\"https://link.zhihu.com/?target=https%3A//www.econlib.org/archives/2016/01/forgetting_the.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">很可能会遗忘</a>之前所学，除非你定期给他们提供复习练习。<br/><br/></li><li data-pid=\"ZaltJpf0\">切勿将逻辑等同于心理逻辑——并记住，在教学过程中，心理逻辑往往更为重要。这话怎么说？不要理所当然地认为，学生能够因为 A–&gt;B 就理解 A–&gt;B，哪怕对老师来说再明显不过。你的任务是让无知的学生<b>觉得</b>显而易见的知识显而易见。变换你的例子。混合搭配。转换角度。运用重复。运用重复。运用重复。<br/><br/></li><li data-pid=\"bFageGJp\">观察学生的表情。如果他们显得无聊，<b>那你就要更有趣</b>。讲笑话。自嘲。搞怪。夸张地表达所有情绪。放下自尊；教师要么是表演者，要么就是失败者。<br/><br/></li><li data-pid=\"l_v0m4hY\">观察学生的表情。若他们感到沮丧，请更加耐心。切勿在负面情绪之上再添负面情绪。若学生情绪低落，请以温和坚韧的态度作为榜样。绝无例外。绝无例外。绝无例外。<br/><br/></li><li data-pid=\"p6JWjS7r\">观察学生的表情。若他们感到努力似乎徒劳无功，便向他们推销你的学科。告诉他们学习这门学科将带给他们的益处，即便最诚实的回答仅是：「你需要这个来毕业。」<br/><br/></li><li data-pid=\"QdVkNzH6\">观察学生的表情。如果他们不信任你，<b>赢得他们的信任</b>。不要仅仅避免欺骗；<b>保持坦诚</b>。不要美化世界，即使是对小孩子。除非丑陋的真相会让他们做噩梦或让你被解雇，否则请平静地分享。<br/><br/></li><li data-pid=\"FcGMM3Jq\">观察学生的表情。若无法解读他们的情绪，就向他们提问，进一步追问，了解他们已掌握的知识，探明他们的困惑所在，弄清他们是快乐、悲伤，还是认为你疯了。像天使一样接纳他们的回答，并根据实际情况调整教学方法，使之适应你所面对的学生。<br/><br/></li><li data-pid=\"mclDPmC_\">严格执行纪律。如果你制定了计划，就要坚持执行。如果你宣布了惩罚，就要贯彻到底。如果你承诺了休息，就要如实兑现。教育是<b>为了</b>学生，但它不是民主的体现。认真倾听学生的意见，但改革必须建立在你立场坚定的基础之上。不要只是表现得慷慨，而要真正做到宽宏大量！如果你认为这与第 9 条原则相矛盾，请明白你的想法是错误的。要像小丑一样活跃气氛——但要像国王一样统治。<br/><br/></li><li data-pid=\"2ka0yxqP\">这些原则都是针对一对一教学进行优化的。如果你在教授更多的学生，你必须找到平衡点。你总会让某些人感到亏待。抱歉，这就是课堂——这是支持<a href=\"https://link.zhihu.com/?target=https%3A//www.econlib.org/archives/2015/09/why_im_homescho.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">在家上学</a>的另一个理由。</li></ol><hr/><h2>进一步阅读</h2><a href=\"https://zhuanlan.zhihu.com/p/560935720\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-50d8955f92e837947799950c289cbba7_180x120.jpg\" data-image-width=\"5616\" data-image-height=\"3744\" class=\"internal\">Thoughts Memo：教育同理心的缺失充斥在课程中</a><a href=\"https://zhuanlan.zhihu.com/p/573089008\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-8d9c6957eeff0ce217be2bbe05727c20_180x120.jpg\" data-image-width=\"1800\" data-image-height=\"600\" class=\"internal\">Thoughts Memo：John Holt：一位伟大教师的思想演变经历</a><a href=\"https://zhuanlan.zhihu.com/p/707318764\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-5ec8038cc355e3d8a71fed49ff6d83be_180x120.jpg\" data-image-width=\"4887\" data-image-height=\"3258\" class=\"internal\">Thoughts Memo：教育工作者的十二条核心指南</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1723531779,
   "excerpt": "看了一圈回答，居然没有关于如何教学生的建议…虽然题主是硕士，但学得好不等于教得好，特别是当自己的认知和学生的认知差异过大的时候。今天正好翻译了一篇关于教学的文章，这里推荐给题主好了。 以下内容摘自 @Thoughts Memo 汉化组的译文《教学的艺术 》确定你认为合适的教学难度。确定好了吗？好，现在将其降低十倍。请记住，作为教师，你觉得显而易见的内容，对学生而言可能并不容易理解。 如果你在麻省理工或加州理工这样…",
-  "id": 3593073392,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3593073392",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/560935720": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"教育同理心的缺失充斥在课程中\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/560935720\",\"desc\":\"88 赞同 · 8 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 成年人很难与年轻的大脑产生共鸣。低龄学业训练倾向于 无语义内容 [1]，这并非巧合。字母表、星期、月份名称、乘法表等等，这些都是被迅速筛选为最难的无语义概念。这样的筛选使它们具有首要性和基础性的光环。它们可能被贴上基本工具集的标签。实际上，年轻的大脑需要的是一个丰富的语义框架 [2]，以确立这些原始概念的需求和意义。只有这样，学习才可能成为有语义的，并产生预期的结果。绝大多数的成年人，包括优秀的教师，都不…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-50d8955f92e837947799950c289cbba7_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"560935720\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/573089008": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"John Holt：一位伟大教师的思想演变经历\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/573089008\",\"desc\":\"47 赞同 · 1 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 《 John Holt：从学校批判家，到家庭教育倡导者 》一文总结了 John Holt 的人生经历，其中着重描述了他的教育观点逐步演进、趋于成熟的过程。Holt 整套哲学观点的基石，是他对人类良善内在本性的信念。经过观察，他坚定认为，几乎所有孩子生来就是大自然优秀的学生。身处于丰富而正向的环境之中，孩子自然会适应身边的环境，培养同情心与道德感，并成为优秀的公民。 在 强制教育的好处 [1]中，我提到了一种很流行的观点，就是如果…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-8d9c6957eeff0ce217be2bbe05727c20_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"573089008\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/707318764": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"教育工作者的十二条核心指南\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/707318764\",\"desc\":\"30 赞同 · 0 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 要创造孩子们理应拥有的理想学校，我们可能不需要为每种情况都制定具体的政策和做法。相反，这些政策和做法应该自然而然地从我们共同制定的 一些核心原则中衍生出来。以下是这些原则的示例清单，旨在引发教育工作者、家长和（别忘了）学生之间的深入讨论： 学习应该围绕问题、项目和（学生的）疑问组织——而不是围绕事实清单、技能列表或割裂的学科进行。 思考本身是混沌的过程；深度思考更是如此。因此，我们要警惕那些过于具…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-5ec8038cc355e3d8a71fed49ff6d83be_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"707318764\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/560935720": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"教育同理心的缺失充斥在课程中\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/560935720\",\"desc\":\"91 赞同 · 8 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 成年人很难与年轻的大脑产生共鸣。低龄学业训练倾向于 无语义内容 [1]，这并非巧合。字母表、星期、月份名称、乘法表等等，这些都是被迅速筛选为最难的无语义概念。这样的筛选使它们具有首要性和基础性的光环。它们可能被贴上基本工具集的标签。实际上，年轻的大脑需要的是一个丰富的语义框架 [2]，以确立这些原始概念的需求和意义。只有这样，学习才可能成为有语义的，并产生预期的结果。绝大多数的成年人，包括优秀的教师，都不…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-50d8955f92e837947799950c289cbba7_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"560935720\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/573089008": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"John Holt：一位伟大教师的思想演变经历\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/573089008\",\"desc\":\"48 赞同 · 1 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 《 John Holt：从学校批判家，到家庭教育倡导者 》一文总结了 John Holt 的人生经历，其中着重描述了他的教育观点逐步演进、趋于成熟的过程。Holt 整套哲学观点的基石，是他对人类良善内在本性的信念。经过观察，他坚定认为，几乎所有孩子生来就是大自然优秀的学生。身处于丰富而正向的环境之中，孩子自然会适应身边的环境，培养同情心与道德感，并成为优秀的公民。 在 强制教育的好处 [1]中，我提到了一种很流行的观点，就是如果…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-8d9c6957eeff0ce217be2bbe05727c20_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"573089008\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/707318764": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"教育工作者的十二条核心指南\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/707318764\",\"desc\":\"33 赞同 · 0 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 要创造孩子们理应拥有的理想学校，我们可能不需要为每种情况都制定具体的政策和做法。相反，这些政策和做法应该自然而然地从我们共同制定的 一些核心原则中衍生出来。以下是这些原则的示例清单，旨在引发教育工作者、家长和（别忘了）学生之间的深入讨论： 学习应该围绕问题、项目和（学生的）疑问组织——而不是围绕事实清单、技能列表或割裂的学科进行。 思考本身是混沌的过程；深度思考更是如此。因此，我们要警惕那些过于具…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-5ec8038cc355e3d8a71fed49ff6d83be_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"707318764\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/32421275?contentId=3593073392&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "4 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1718599565,
     "detail": "<p>各位知乎的大神们，小弟今年32岁了，硕士毕业之后一直在一家央企做市政隧道施工总包，近两年公司发展越来越差了，三年多了没有一个新的项目，对自己未来的路充满了担忧和迷茫，想着去教培行业发展，初步想自学下初中数学，和几个志同道合的小伙伴组建一个工作室做课外辅导，请各位大神们给些合理的建议，感谢至极！！！</p>",
-    "id": 659135922,
+    "id": "659135922",
     "question_type": "normal",
     "relationship": {},
     "title": "三十多岁，想进军教培行业，可以留下您的建议吗？",
     "type": "question",
     "updated_time": 1718599565,
-    "url": "https://api.zhihu.com/questions/659135922"
+    "url": "https://www.zhihu.com/api/v4/questions/659135922"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 169
+  "updated_time": 1723531811,
+  "url": "https://www.zhihu.com/api/v4/answers/3593073392",
+  "voteup_count": 278
 }

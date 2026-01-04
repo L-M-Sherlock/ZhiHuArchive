@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,9 +14,10 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
@@ -35,6 +37,7 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
@@ -45,9 +48,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,37 +84,57 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 16,
-  "content": "<p data-pid=\"74nnsEiR\">书籍的电子化出版还没完全普及，谈何退出历史舞台？就算书籍退出历史舞台了，谁来接替？视频吗？视频在承载知识非常不方便。我认为，即使实体书推出历史舞台了，电子书也不会，图文内容就更不会了。</p><p data-pid=\"lh4g5P1t\">之前在《<a href=\"https://www.zhihu.com/question/365634735/answer/978954580\" class=\"internal\">如何理解文字和图文的时代已经结束了？</a>》这篇回答中转载过了，这里再转一次。</p><blockquote data-pid=\"_MtSWJc4\">“视频”是按照固定的速率播放的，因此，【视频的受众】必须【被动地】去适应其播放的速率；相对而言，阅读文字的时候，读者是【主动的】。因为阅读者可以自由且灵活地控制阅读的速率。<sup data-text=\"\" data-url=\"https://www.douban.com/note/712795432/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup></blockquote><p data-pid=\"0yHyEulu\">当然，或许会有人说，不是还有暂停、快进和快退，甚至现在很多视频网站都能调整播放速度了。</p><p data-pid=\"TV-Z3Naq\">但是，绝大部分人在看视频时，用到这些功能的情况很少。而且即使使用，也很难细致到每一帧。</p><p data-pid=\"SdT56s8S\">而阅读文字，则可以精确到每个字/词。</p><p data-pid=\"EX_ggqSZ\">由于这个差别，就会导出很多结论：</p><h2><i>更少</i>的思考</h2><blockquote data-pid=\"EfRAsOZX\">观看视频是【被动】的过程——你需要跟上视频播放的节奏。在这个过程中，你【没有】足够的时间来进行【深入】思考。或许有【极少数人】能够在需要思考时立即按【暂停】键；但大多数人做不到这点。不信的话，你可以观察周围的人是如何看视频的。<sup data-text=\"\" data-url=\"https://www.douban.com/note/712795432/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup></blockquote><h2>内容<i>浅薄</i>化</h2><blockquote data-pid=\"XuPz8q1z\">前面提到：观看视频的时候【难以深入思考】。<br/><br/>这必然导致：（大多数）视频的制作者会让视频的内容变得更肤浅——这才能吸引到足够多的受众。俺并不是说，内容深刻的视频就绝迹了。深刻的视频还是有的，但比例注定很低。<br/>再来说说极少数深刻的视频：<br/><br/>假设某个视频具有深刻的思想性。但即便是爱思考的观众，也只能在【看完之后】才有可能深入思考。这种形式就决定了：<b>哪怕是一部深刻的视频，能引起深思的切入点也是【比较少】的。</b>前面这句话有可能导致误解，俺解释一下：假设某个深刻的视频包含了【很多个】能引发深思的切入点，但因为受众只有在看完之后才能去回味，其中某些切入点可能被遗漏了。<br/>以书籍来对比：<br/><br/>一本思想性深刻的书，可以在每一个篇章都引发读者深入思考——因为阅读是【主动】的过程，读者可以自主控制阅读节奏，碰到需要深入思考的地方，可以减低阅读速率或暂停阅读（这就避免了遗漏）。<sup data-text=\"\" data-url=\"https://www.douban.com/note/712795432/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup></blockquote><h2>内容<i>娱乐</i>化</h2><blockquote data-pid=\"6xReIPPR\">为了让大伙儿对“娱乐化”这个概念加深印象，先引用经典的传媒学著作《娱乐至死》一书的章节：<br/><br/><b>娱乐是电视上所有话语的超意识形态。</b>不管是什么内容，也不管采取什么视角，电视上的一切都是为了给我们提供娱乐。正因为这样，所以即使是报道悲剧和暴行的新闻节目，在节目结束之前，播音员也会对观众说“明天同一时间再见”。 为什么要“再见”？照理说，几分钟的屠杀和灾难报道应该会让我们整整一个月难以入眠，但现在我们却接受了播音员的邀请，因为我们知道“新闻”是不必当真的，是说着玩的。新闻节目的所有一切都在向我们证明这一点——播音员佼好的容貌和亲切的态度，他们令人愉快的玩笑，节目开始和结束时播放的美妙音乐，生动活泼的镜头和绚丽夺目的各类广告——这一切都在告诉我们，没有理由为电视上的不幸哭泣。 <b>简单地说，新闻节目是一种娱乐形式，而不是为了教育、反思或净化灵魂。</b><br/><br/>俺引用这段是想说明：新闻报道充满娱乐化。<br/><br/>千万不要以为：只有“娱乐类”的视频才是“娱乐化”的。在如今这个时代，“影视类、报道类、访谈类”也充满了娱乐气氛。为啥会这样捏？从“商业动机”入手，很容易就可以找到原因： 1、任何一种媒介，只要足够大众化，就可以跟经济效益挂钩（比如“广告”就是这种场景衍生出的商业模式） 2、在任何一个社会中，感性的人总是【大大超过】理性的人。 3、感性的人更容易沉迷于“娱乐化的媒介”（关于这点，本文下面的章节会谈） 　　<br/><br/>以上几点就决定了——<b>大众化的媒介必定也是娱乐化的。</b>所以，从传统的“电影和电视”，到如今的“<a href=\"https://www.zhihu.com/search?q=%E7%BD%91%E7%BA%A2%E7%9B%B4%E6%92%AD&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A978954580%7D\" class=\"internal\">网红直播</a>”，都在不断强化【娱乐】的气氛。<sup data-text=\"\" data-url=\"https://www.douban.com/note/712795432/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup></blockquote><h2>浅薄化和娱乐化是不同的</h2><blockquote data-pid=\"kgejOn2r\">可能有些读者认为这两者是一回事儿，其实不然。 　　<br/><br/>虽然大部分时候，“浅薄化”和“娱乐化”会同时体现在某个事物，但是总能找到某些反例：<br/>“娱乐”但是“不浅薄”——比如<a href=\"https://link.zhihu.com/?target=https%3A//zh.wikipedia.org/wiki/%25E7%258E%258B%25E5%25B0%258F%25E6%25B3%25A2\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">王小波</a>的很多作品都挺搞笑的，但同时也能引发深入的思考（不浅薄）。<br/><br/>“浅薄”但是“不娱乐”——比如某些鼓吹狭隘民族主义的文章，很浅薄，而且是用来煽动仇恨的（不娱乐）。</blockquote><h2>“浅薄化/娱乐化”的结果——纵容你停留在【<a href=\"https://www.zhihu.com/search?q=%E5%BF%83%E7%90%86%E8%88%92%E9%80%82%E5%8C%BA&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A978954580%7D\" class=\"internal\">心理舒适区</a>】</h2><blockquote data-pid=\"5k6ITfK8\">说完了“浅薄化/娱乐化”的差异，顺着这个思路再来说说“心理舒适区”。 　　<br/><br/>关于“心理舒适区”（<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Comfort_zone\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Comfort Zone</a>）这个概念，在2年前（2015）已经介绍过了，参见《什么是【真正的】兴趣爱好？以及它有啥好处？》，此处就不再罗嗦。 　　<br/><br/>如果你经常看视频，（由于观看时不用深度思考）你的大脑会处于非常放松的状态——也就是说：【停留在心理舒适区】。看的视频越多，停留在心理舒适区的时间就越长。<br/><br/>每个人都是有惰性的。你【越少】离开心理舒适区，你就【越难】离开它。这种现象可以通俗地称之为：<b>针对“心理舒适区”的【成瘾性】</b>。<br/><br/>更糟糕的是： <br/><br/>老是停留在心理舒适区会【强化】你的【惰性】。于是你就更加沉迷于观看浅薄化/娱乐化的视频。这就变为某种【恶性循环】（恶性的正反馈）。发展到一定程度之后，即使你的主观愿望想要打破这个恶性循环，你的意志力也难以做到（因为惰性已经太强了）</blockquote><p data-pid=\"vXkh8m0M\">后续的内容我就不转载了，链接已经在参考中给出。</p><p data-pid=\"3TCaPMNC\">如果书籍这种知识承载方式逐渐退出历史舞台，那么<b>美丽新世界</b>就不远了。</p><hr/><p data-pid=\"BmSgr0Qi\">当然，也有一些新兴的媒介，拥有取代书籍的潜力，但它们本身其实依然还是书籍的衍生品：</p><a href=\"https://zhuanlan.zhihu.com/p/394795804\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-b0f18a2a3231dd7ee8fe28f860d0e1b9_180x120.jpg\" data-image-width=\"784\" data-image-height=\"392\" class=\"internal\">叶峻峣：我们如何才能开发出变革性的思想工具？</a><a href=\"https://zhuanlan.zhihu.com/p/395283887\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-5d74937b9e33bec4ef99b508611e61d9_180x120.jpg\" data-image-width=\"600\" data-image-height=\"375\" class=\"internal\">叶峻峣：穿越时间的文本</a><a href=\"https://zhuanlan.zhihu.com/p/390507468\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-1eebdcea711e5baa694bac7feaad0878_ipico.jpg\" data-image-width=\"1024\" data-image-height=\"1024\" class=\"internal\">叶峻峣：为什么书本不起作用？</a><p></p>",
+  "content": "<p data-pid=\"74nnsEiR\">书籍的电子化出版还没完全普及，谈何退出历史舞台？就算书籍退出历史舞台了，谁来接替？视频吗？视频在承载知识非常不方便。我认为，即使实体书推出历史舞台了，电子书也不会，图文内容就更不会了。</p><p data-pid=\"lh4g5P1t\">之前在《<a href=\"https://www.zhihu.com/question/365634735/answer/978954580\" class=\"internal\" target=\"_blank\">如何理解文字和图文的时代已经结束了？</a>》这篇回答中转载过了，这里再转一次。</p><blockquote data-pid=\"_MtSWJc4\">“视频”是按照固定的速率播放的，因此，【视频的受众】必须【被动地】去适应其播放的速率；相对而言，阅读文字的时候，读者是【主动的】。因为阅读者可以自由且灵活地控制阅读的速率。<sup data-text=\"\" data-url=\"https://www.douban.com/note/712795432/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup></blockquote><p data-pid=\"0yHyEulu\">当然，或许会有人说，不是还有暂停、快进和快退，甚至现在很多视频网站都能调整播放速度了。</p><p data-pid=\"TV-Z3Naq\">但是，绝大部分人在看视频时，用到这些功能的情况很少。而且即使使用，也很难细致到每一帧。</p><p data-pid=\"SdT56s8S\">而阅读文字，则可以精确到每个字/词。</p><p data-pid=\"EX_ggqSZ\">由于这个差别，就会导出很多结论：</p><h2><i>更少</i>的思考</h2><blockquote data-pid=\"EfRAsOZX\">观看视频是【被动】的过程——你需要跟上视频播放的节奏。在这个过程中，你【没有】足够的时间来进行【深入】思考。或许有【极少数人】能够在需要思考时立即按【暂停】键；但大多数人做不到这点。不信的话，你可以观察周围的人是如何看视频的。<sup data-text=\"\" data-url=\"https://www.douban.com/note/712795432/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup></blockquote><h2>内容<i>浅薄</i>化</h2><blockquote data-pid=\"XuPz8q1z\">前面提到：观看视频的时候【难以深入思考】。<br/><br/>这必然导致：（大多数）视频的制作者会让视频的内容变得更肤浅——这才能吸引到足够多的受众。俺并不是说，内容深刻的视频就绝迹了。深刻的视频还是有的，但比例注定很低。<br/>再来说说极少数深刻的视频：<br/><br/>假设某个视频具有深刻的思想性。但即便是爱思考的观众，也只能在【看完之后】才有可能深入思考。这种形式就决定了：<b>哪怕是一部深刻的视频，能引起深思的切入点也是【比较少】的。</b>前面这句话有可能导致误解，俺解释一下：假设某个深刻的视频包含了【很多个】能引发深思的切入点，但因为受众只有在看完之后才能去回味，其中某些切入点可能被遗漏了。<br/>以书籍来对比：<br/><br/>一本思想性深刻的书，可以在每一个篇章都引发读者深入思考——因为阅读是【主动】的过程，读者可以自主控制阅读节奏，碰到需要深入思考的地方，可以减低阅读速率或暂停阅读（这就避免了遗漏）。<sup data-text=\"\" data-url=\"https://www.douban.com/note/712795432/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup></blockquote><h2>内容<i>娱乐</i>化</h2><blockquote data-pid=\"6xReIPPR\">为了让大伙儿对“娱乐化”这个概念加深印象，先引用经典的传媒学著作《娱乐至死》一书的章节：<br/><br/><b>娱乐是电视上所有话语的超意识形态。</b>不管是什么内容，也不管采取什么视角，电视上的一切都是为了给我们提供娱乐。正因为这样，所以即使是报道悲剧和暴行的新闻节目，在节目结束之前，播音员也会对观众说“明天同一时间再见”。 为什么要“再见”？照理说，几分钟的屠杀和灾难报道应该会让我们整整一个月难以入眠，但现在我们却接受了播音员的邀请，因为我们知道“新闻”是不必当真的，是说着玩的。新闻节目的所有一切都在向我们证明这一点——播音员佼好的容貌和亲切的态度，他们令人愉快的玩笑，节目开始和结束时播放的美妙音乐，生动活泼的镜头和绚丽夺目的各类广告——这一切都在告诉我们，没有理由为电视上的不幸哭泣。 <b>简单地说，新闻节目是一种娱乐形式，而不是为了教育、反思或净化灵魂。</b><br/><br/>俺引用这段是想说明：新闻报道充满娱乐化。<br/><br/>千万不要以为：只有“娱乐类”的视频才是“娱乐化”的。在如今这个时代，“影视类、报道类、访谈类”也充满了娱乐气氛。为啥会这样捏？从“商业动机”入手，很容易就可以找到原因： 1、任何一种媒介，只要足够大众化，就可以跟经济效益挂钩（比如“广告”就是这种场景衍生出的商业模式） 2、在任何一个社会中，感性的人总是【大大超过】理性的人。 3、感性的人更容易沉迷于“娱乐化的媒介”（关于这点，本文下面的章节会谈） 　　<br/><br/>以上几点就决定了——<b>大众化的媒介必定也是娱乐化的。</b>所以，从传统的“电影和电视”，到如今的“<a href=\"https://www.zhihu.com/search?q=%E7%BD%91%E7%BA%A2%E7%9B%B4%E6%92%AD&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A978954580%7D\" class=\"internal\" target=\"_blank\">网红直播</a>”，都在不断强化【娱乐】的气氛。<sup data-text=\"\" data-url=\"https://www.douban.com/note/712795432/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup></blockquote><h2>浅薄化和娱乐化是不同的</h2><blockquote data-pid=\"kgejOn2r\">可能有些读者认为这两者是一回事儿，其实不然。 　　<br/><br/>虽然大部分时候，“浅薄化”和“娱乐化”会同时体现在某个事物，但是总能找到某些反例：<br/>“娱乐”但是“不浅薄”——比如<a href=\"https://link.zhihu.com/?target=https%3A//zh.wikipedia.org/wiki/%25E7%258E%258B%25E5%25B0%258F%25E6%25B3%25A2\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">王小波</a>的很多作品都挺搞笑的，但同时也能引发深入的思考（不浅薄）。<br/><br/>“浅薄”但是“不娱乐”——比如某些鼓吹狭隘民族主义的文章，很浅薄，而且是用来煽动仇恨的（不娱乐）。</blockquote><h2>“浅薄化/娱乐化”的结果——纵容你停留在【<a href=\"https://www.zhihu.com/search?q=%E5%BF%83%E7%90%86%E8%88%92%E9%80%82%E5%8C%BA&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A978954580%7D\" class=\"internal\" target=\"_blank\">心理舒适区</a>】</h2><blockquote data-pid=\"5k6ITfK8\">说完了“浅薄化/娱乐化”的差异，顺着这个思路再来说说“心理舒适区”。 　　<br/><br/>关于“心理舒适区”（<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Comfort_zone\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Comfort Zone</a>）这个概念，在2年前（2015）已经介绍过了，参见《什么是【真正的】兴趣爱好？以及它有啥好处？》，此处就不再罗嗦。 　　<br/><br/>如果你经常看视频，（由于观看时不用深度思考）你的大脑会处于非常放松的状态——也就是说：【停留在心理舒适区】。看的视频越多，停留在心理舒适区的时间就越长。<br/><br/>每个人都是有惰性的。你【越少】离开心理舒适区，你就【越难】离开它。这种现象可以通俗地称之为：<b>针对“心理舒适区”的【成瘾性】</b>。<br/><br/>更糟糕的是： <br/><br/>老是停留在心理舒适区会【强化】你的【惰性】。于是你就更加沉迷于观看浅薄化/娱乐化的视频。这就变为某种【恶性循环】（恶性的正反馈）。发展到一定程度之后，即使你的主观愿望想要打破这个恶性循环，你的意志力也难以做到（因为惰性已经太强了）</blockquote><p data-pid=\"vXkh8m0M\">后续的内容我就不转载了，链接已经在参考中给出。</p><p data-pid=\"3TCaPMNC\">如果书籍这种知识承载方式逐渐退出历史舞台，那么<b>美丽新世界</b>就不远了。</p><hr/><p data-pid=\"BmSgr0Qi\">当然，也有一些新兴的媒介，拥有取代书籍的潜力，但它们本身其实依然还是书籍的衍生品：</p><a href=\"https://zhuanlan.zhihu.com/p/394795804\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-b0f18a2a3231dd7ee8fe28f860d0e1b9_180x120.jpg\" data-image-width=\"784\" data-image-height=\"392\" class=\"internal\">叶峻峣：我们如何才能开发出变革性的思想工具？</a><a href=\"https://zhuanlan.zhihu.com/p/395283887\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-5d74937b9e33bec4ef99b508611e61d9_180x120.jpg\" data-image-width=\"600\" data-image-height=\"375\" class=\"internal\">叶峻峣：穿越时间的文本</a><a href=\"https://zhuanlan.zhihu.com/p/390507468\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-1eebdcea711e5baa694bac7feaad0878_ipico.jpg\" data-image-width=\"1024\" data-image-height=\"1024\" class=\"internal\">叶峻峣：为什么书本不起作用？</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1670912208,
   "excerpt": "书籍的电子化出版还没完全普及，谈何退出历史舞台？就算书籍退出历史舞台了，谁来接替？视频吗？视频在承载知识非常不方便。我认为，即使实体书推出历史舞台了，电子书也不会，图文内容就更不会了。 之前在《 如何理解文字和图文的时代已经结束了？ 》这篇回答中转载过了，这里再转一次。“视频”是按照固定的速率播放的，因此，【视频的受众】必须【被动地】去适应其播放的速率；相对而言，阅读文字的时候，读者是【主动的】。因…",
-  "id": 2799569620,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2799569620",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/390507468": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"为什么书本不起作用？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/390507468\",\"desc\":\"136 赞同 · 8 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 原文：Why books donʼt work | Andy Matuschak 书本很容易被认为是理所当然的。我不是针对任何具体的书，我的意思是：书的 形式。纸张或像素——这不重要。文字在每一行中，在每一页中，在每一章节中。至少对于非小说类读物来说，有一个隐含的假设是基础：「人们通过阅读句子来吸收知识」。这一想法是如此无形地定义了媒介，以至于很难不认为这是理所当然的，这是一种耻辱，因为正如我们将看到的，它相当错误。想象一些严肃的…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-1eebdcea711e5baa694bac7feaad0878_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"390507468\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/394795804": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"我们如何才能开发出变革性的思想工具？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/394795804\",\"desc\":\"205 赞同 · 19 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 原文： Andy Matuschak and Michael Nielsen , How can we develop transformative tools for thought? October 2019译者： @叶峻峣 @Shom @Mass Point （排名不分先后）译者按作者 Andy Matuschak 是软件工程师、设计师、研究员，目前致力于拓展人们思考和行动的技术。他曾在 Apple 帮助构建 iOS，并在可汗学院领导研发。作者 Michael Nielsen 是量子物理学家、科学作家、编程研究者，现供职于 Y Combinator Research 。他在 Nat…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-b0f18a2a3231dd7ee8fe28f860d0e1b9_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"394795804\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/395283887": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"穿越时间的文本\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/395283887\",\"desc\":\"27 赞同 · 3 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 原文： Andy Matuschak and Michael Nielsen , Timeful Texts , July 2020 Illustrated by Maggie Appleton 译者： @住在树洞里的二猪 @叶峻峣 （排名不分先后） [图片] 最有影响力的书籍能够超越纸张的承载——超越墨字被阅读的那几个小时——并不可磨灭地改变了严肃读者的世界观。能有这样超越性影响的书很少，出于书籍本身的载体限制，能做到这一点已经是伟大的了。但书籍作为一种载体，不能够与读者进行长期的交流，往往你只能够在不同…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-5d74937b9e33bec4ef99b508611e61d9_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"395283887\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/390507468": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"为什么书本不起作用？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/390507468\",\"desc\":\"166 赞同 · 12 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 请看重译版，质量更高： [文章: 【重译】为什么书籍不起作用] 原文：Why books donʼt work | Andy Matuschak 书本很容易被认为是理所当然的。我不是针对任何具体的书，我的意思是：书的 形式。纸张或像素——这不重要。文字在每一行中，在每一页中，在每一章节中。至少对于非小说类读物来说，有一个隐含的假设是基础：「人们通过阅读句子来吸收知识」。这一想法是如此无形地定义了媒介，以至于很难不认为这是理所当然的，这是一种耻辱，…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-1eebdcea711e5baa694bac7feaad0878_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"390507468\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/394795804": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"我们如何才能开发出变革性的思想工具？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/394795804\",\"desc\":\"211 赞同 · 20 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 原文： Andy Matuschak and Michael Nielsen , How can we develop transformative tools for thought? October 2019译者： @叶峻峣 @Shom @Mass Point （排名不分先后）译者按作者 Andy Matuschak 是软件工程师、设计师、研究员，目前致力于拓展人们思考和行动的技术。他曾在 Apple 帮助构建 iOS，并在可汗学院领导研发。作者 Michael Nielsen 是量子物理学家、科学作家、编程研究者，现供职于 Y Combinator Research 。他在 Nat…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-b0f18a2a3231dd7ee8fe28f860d0e1b9_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"394795804\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/395283887": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"穿越时间的文本\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/395283887\",\"desc\":\"30 赞同 · 3 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 原文： Andy Matuschak and Michael Nielsen , Timeful Texts , July 2020 Illustrated by Maggie Appleton 译者： @住在树洞里的二猪 @叶峻峣 （排名不分先后） [图片] 最有影响力的书籍能够超越纸张的承载——超越墨字被阅读的那几个小时——并不可磨灭地改变了严肃读者的世界观。能有这样超越性影响的书很少，出于书籍本身的载体限制，能做到这一点已经是伟大的了。但书籍作为一种载体，不能够与读者进行长期的交流，往往你只能够在不同…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-5d74937b9e33bec4ef99b508611e61d9_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"395283887\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=2799569620&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1670514465,
     "detail": "",
-    "id": 571260868,
+    "id": "571260868",
     "question_type": "normal",
     "relationship": {},
     "title": "在信息快餐时代，书籍这种「冗长低效」的知识承载方式是否会逐渐退出历史舞台？",
     "type": "question",
     "updated_time": 1670821733,
-    "url": "https://api.zhihu.com/questions/571260868"
+    "url": "https://www.zhihu.com/api/v4/questions/571260868"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 162
+  "updated_time": 1670912780,
+  "url": "https://www.zhihu.com/api/v4/answers/2799569620",
+  "voteup_count": 164
 }

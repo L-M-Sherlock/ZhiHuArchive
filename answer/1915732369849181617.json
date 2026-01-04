@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -17,7 +18,7 @@
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -39,15 +40,15 @@
           "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
           "badge_status": "passed",
@@ -83,7 +84,7 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
@@ -99,11 +100,22 @@
   "content_need_truncated": false,
   "created_time": 1749526189,
   "excerpt": "不用智能机器人，从中学到大学的数学学习已经可以缩短到二分之一了（从六年级开始，在高中毕业前学完大学数学和计算机）。理论上这还可以进一步缩短到四分之一 [1]。这需要的并不是什么糊弄玄虚的智能机器人，而是将过去一个世纪所积累的认知科学真正落地到教育当中。 以下内容摘自 @Thoughts Memo 汉化组的译文《Math Academy 的 Eurisko 项目五年回顾：美国最先进的高中数学/计算机科学课程体系培养的学生成就 》在 2020-23 年…",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "1915732369849181617",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://www.zhihu.com/column/c_1858865163022786560": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"The Math Academy Way\",\"card_open_url\":\"https://zhuanlan.zhihu.com/c_1858865163022786560\",\"desc\":\"55 内容 · 0 关注 \\u003ca class=\\\"tag type_a\\\"\\u003e专栏\\u003c/a\\u003e\",\"content\":null,\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"COLUMN\",\"content_id\":\"c_1858865163022786560\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://www.zhihu.com/column/c_1858865163022786560": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"The Math Academy Way\",\"card_open_url\":\"https://zhuanlan.zhihu.com/c_1858865163022786560\",\"desc\":\"58 内容 · 0 关注 \\u003ca class=\\\"tag type_a\\\"\\u003e专栏\\u003c/a\\u003e\",\"content\":null,\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"COLUMN\",\"content_id\":\"c_1858865163022786560\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/22605388725?contentId=1915732369849181617&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1746901896,
@@ -114,11 +126,13 @@
     "title": "普通人从幼儿园到大学毕业要花十几年时间，如果在智能机器人的辅助下这十几年的时间能否缩短？",
     "type": "question",
     "updated_time": 1746901896,
-    "url": "https://api.zhihu.com/questions/1904725287129821265"
+    "url": "https://www.zhihu.com/api/v4/questions/1904725287129821265"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 89
+  "updated_time": 1749526189,
+  "url": "https://www.zhihu.com/api/v4/answers/1915732369849181617",
+  "voteup_count": 90
 }

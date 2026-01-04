@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,6 +14,7 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,35 +84,55 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 0,
   "content": "<p data-pid=\"b6RlLkyK\">与其通过整改来强行推广某些人的“共识”</p><p data-pid=\"WfPUhdyv\">还不如考虑一下怎么在无法达成“共识”的情况下共处。</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/432249886/answer/1599210155\" data-image=\"https://pica.zhimg.com/v2-afcdb6e9abce36e0c147a1e81effce80_bh.jpg\" data-image-width=\"1207\" data-image-height=\"102\" class=\"internal\">如何看待B站安达与岛村下架？</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1641623296,
   "excerpt": "与其通过整改来强行推广某些人的“共识” 还不如考虑一下怎么在无法达成“共识”的情况下共处。 如何看待B站安达与岛村下架？",
-  "id": 2302653850,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2302653850",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://www.zhihu.com/question/432249886/answer/1599210155": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"如何看待B站安达与岛村下架？\",\"card_open_url\":\"https://www.zhihu.com/question/432249886/answer/1599210155\",\"desc\":\"54 赞同 · 4 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 不明白，我看个百合番危害谁了？B 站下过很多相关内容了吧？我还记得两年前写了篇介绍 Crypko 的文章，因为标题里带了百合两个字就被退回了： [图片] 至于有人拿 BL 出来对立，我觉得这是不该做的事。我们是小众爱好，是多元化的一支，我们也没有碍着谁喜欢自己的东西。虽然我们没有太多交集，但是我们的共同点就是与主流不同。当主流想要重新控制我们的时候，我们应当互相支持，这样最终也会保护自己所珍视的东西。 另外，从来就没有什…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-afcdb6e9abce36e0c147a1e81effce80.jpg?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"1599210155\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://www.zhihu.com/question/432249886/answer/1599210155": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"如何看待B站安达与岛村下架？\",\"card_open_url\":\"https://www.zhihu.com/question/432249886/answer/1599210155\",\"desc\":\"59 赞同 · 4 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 不明白，我看个百合番危害谁了？B 站下过很多相关内容了吧？我还记得两年前写了篇介绍 Crypko 的文章，因为标题里带了百合两个字就被退回了： [图片] 至于有人拿 BL 出来对立，我觉得这是不该做的事。我们是小众爱好，是多元化的一支，我们也没有碍着谁喜欢自己的东西。虽然我们没有太多交集，但是我们的共同点就是与主流不同。当主流想要重新控制我们的时候，我们应当互相支持，这样最终也会保护自己所珍视的东西。 另外，从来就没有什…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-afcdb6e9abce36e0c147a1e81effce80.jpg?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"1599210155\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=2302653850&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1641536734,
     "detail": "<p>       1月7日电 7日，北京市广播电视局网站刊发其在2022年全国广播电视工作会议上交流发言内容。其中，北京市广播电视局党组书记、局长杨烁指出，深入开展专项调研，全面叫停偶像养成类网综、“耽改”题材网络影视剧，认真开展网络影视剧、短视频、直播领域专项清查，着力营造清朗健康的首都网络文化空间。<br/> 　2022年1月6日上午，2022年全国广播电视工作会议召开，中宣部副部长、国家广电总局局长、党组书记聂辰席发表讲话，全面总结全国广电行业2021年成绩，分析广电工作面临的新阶段新要求，部署2022年重点工作任务。广电总局副局长、党组成员杨小伟就贯彻落实会议精神提出要求。广电总局副局长、党组成员朱咏雷、孟冬出席会议。中共北京市委副秘书长，市委宣传部副部长，北京广播电视台党组书记、台长余俊生，北京市广播电视局党组书记、局长杨烁，歌华有线总经理卢东涛等参加北京分会场会议，6省(区、市)广电局、广播电视台交流工作，杨烁围绕产业发展、网络治理、安全播出三方面工作在会上交流发言。杨烁在交流发言中指出，2021年，北京局贯彻落实中央和北京市要求，守正创新、砥砺奋进，坚持疫情常态化防控与行业长远发展、文化与科技、广播电视与网络视听、事业与产业“四个相结合”，各项工作实现了十四五良好开局：建党百年庆祝活动特别是广场音视频保障平稳顺利；冬奥广电专网北京段高标准完成；全国首个8K电视频道——北京广播电视台冬奥纪实8K超高清试验频道顺利开播；精品创作“北京模式”再结硕果，《觉醒年代》《香山叶正红》等作品广受好评；媒体融合务实推进，“京津冀之声”广播开播，媒体融合大会大赛交相辉映。贯通产业链、创新链、管理链、服务链，为企业纾困，支持企业发展，到去年底，北京市广播电视持证机构16000多家，约占全国三分之一，全年行业实际创收强势增长。<br/> 　　杨烁指出，北京局坚持科技引领，促进广播电视产业发展提质升级。一是强化数字赋能，打造8K先发优势。部市合作建成4K/8K超高清电视应用创新实验室。协同推出8K超高清国际标准和行业标准。设立全国首支8K超高清内容制作扶持资金，有效催生全社会参与8K内容生产的积极性和创造性。二是强化区域协同，激发产业集聚动能。中国(北京)高新视听产业园已经获得北京市和广电总局正式批复。中国(怀柔)影视示范基地实施行政审批“直通车”，并挂牌成立了国际影视摄制服务中心。中国(北京)星光视听产业基地运行良好。3个国家级视听园区发挥龙头效应，带动市区级园区(基地)和京津冀视听走廊协同发展。三是强化北京特色，擦亮产业活动品牌。统筹线上线下，顺利举办中国广电媒体融合发展大会等六大活动，积极搭建北京新视听展示交易平台。持续打造视听国际传播“北京模式”，创新开展北京优秀影视剧海外展播季、新加坡亚洲广播展北京展区等活动，首次与阿广联、香港贸发局达成战略合作，进一步讲好中国故事、北京故事。</p><a href=\"https://link.zhihu.com/?target=https%3A//www.chinanews.com/yl/2022/01-07/9646380.shtml\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">北京广电局：全面叫停偶像养成类网综、“耽改”网络影视剧</a><p></p>",
-    "id": 510321096,
+    "id": "510321096",
     "question_type": "normal",
     "relationship": {},
     "title": "北京广电局全面叫停偶像养成类网综、「耽改」网络影视剧，这给相关行业会带来哪些影响？",
     "type": "question",
     "updated_time": 1641536734,
-    "url": "https://api.zhihu.com/questions/510321096"
+    "url": "https://www.zhihu.com/api/v4/questions/510321096"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1641623296,
+  "url": "https://www.zhihu.com/api/v4/answers/2302653850",
   "voteup_count": 11
 }

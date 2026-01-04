@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,6 +14,7 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 10,
-  "content": "<p data-pid=\"-bzZQPs-\">Anki 不足在于，入门门槛高。虽然还有更高的 SuperMemo，但是我们还是别比烂了，确实是不足之处。</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//docs.ankiweb.net/%23/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anki Manual</a><p data-pid=\"nbaO7PzM\">这是 Anki 的用户手册，写得跟程序员文档似的，一般用户看得头都大，这就是第一点不足。不过 Anki 开发之初就是为了解决那个开发者的日语学习问题。。。所以这个可以说是历史遗留问题了。Anki 后来就是一群程序员自己继续开发解决自己的复习问题。所以那些所谓反人类的设计、界面、配置，和程序员有很大关系。（作为一个写代码的，我觉得 Anki 界面看得还蛮清爽的，简洁明了，可能这就是为什么我做不好UI的原因吧2333）</p><p data-pid=\"dq-luA-t\">再者，用 Anki 复习是很难绕开制卡这件事的。而制卡，大多数人都没有相关经验，所以也是道坎。我写了好多篇制卡的教程（<a href=\"https://zhuanlan.zhihu.com/p/35390139\" class=\"internal\">简单 Anki 高考制卡心得</a>、<a href=\"https://zhuanlan.zhihu.com/p/56048163\" class=\"internal\">传统学习究竟怎样对接 Anki 制卡？</a>、<a href=\"https://zhuanlan.zhihu.com/p/52369009\" class=\"internal\">Anki高考的20条原则</a>），依然觉得没有把这件事讲得很清楚。说白了，制卡是需要练习的，只有不断的制卡，踩一些坑，才能真正掌握制卡的方法。不过，这种不足真得怪 Anki 吗？</p><p data-pid=\"OVm44HNN\">所以，第一点不足可以通过简化交互、更好的用户教程来改进。第二点不足就只能说，希望 Anki 这种制卡、背卡的模式普及开来，就不再是一种门槛了。</p><p></p>",
+  "content": "<p data-pid=\"-bzZQPs-\">Anki 不足在于，入门门槛高。虽然还有更高的 SuperMemo，但是我们还是别比烂了，确实是不足之处。</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//docs.ankiweb.net/%23/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anki Manual</a><p data-pid=\"nbaO7PzM\">这是 Anki 的用户手册，写得跟程序员文档似的，一般用户看得头都大，这就是第一点不足。不过 Anki 开发之初就是为了解决那个开发者的日语学习问题。。。所以这个可以说是历史遗留问题了。Anki 后来就是一群程序员自己继续开发解决自己的复习问题。所以那些所谓反人类的设计、界面、配置，和程序员有很大关系。（作为一个写代码的，我觉得 Anki 界面看得还蛮清爽的，简洁明了，可能这就是为什么我做不好UI的原因吧2333）</p><p data-pid=\"dq-luA-t\">再者，用 Anki 复习是很难绕开制卡这件事的。而制卡，大多数人都没有相关经验，所以也是道坎。我写了好多篇制卡的教程（<a href=\"https://zhuanlan.zhihu.com/p/35390139\" class=\"internal\" target=\"_blank\">简单 Anki 高考制卡心得</a>、<a href=\"https://zhuanlan.zhihu.com/p/56048163\" class=\"internal\" target=\"_blank\">传统学习究竟怎样对接 Anki 制卡？</a>、<a href=\"https://zhuanlan.zhihu.com/p/52369009\" class=\"internal\" target=\"_blank\">Anki高考的20条原则</a>），依然觉得没有把这件事讲得很清楚。说白了，制卡是需要练习的，只有不断的制卡，踩一些坑，才能真正掌握制卡的方法。不过，这种不足真得怪 Anki 吗？</p><p data-pid=\"OVm44HNN\">所以，第一点不足可以通过简化交互、更好的用户教程来改进。第二点不足就只能说，希望 Anki 这种制卡、背卡的模式普及开来，就不再是一种门槛了。</p><p></p>",
   "content_need_truncated": false,
   "created_time": 1593878519,
   "excerpt": "Anki 不足在于，入门门槛高。虽然还有更高的 SuperMemo，但是我们还是别比烂了，确实是不足之处。 Anki Manual 这是 Anki 的用户手册，写得跟程序员文档似的，一般用户看得头都大，这就是第一点不足。不过 Anki 开发之初就是为了解决那个开发者的日语学习问题。。。所以这个可以说是历史遗留问题了。Anki 后来就是一群程序员自己继续开发解决自己的复习问题。所以那些所谓反人类的设计、界面、配置，和程序员有很大关系。（作为一…",
-  "id": 1319219794,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1319219794",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1319219794&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1593672447,
     "detail": "",
-    "id": 404611922,
+    "id": "404611922",
     "question_type": "normal",
     "relationship": {},
     "title": "anki有什么不足的地方？",
     "type": "question",
     "updated_time": 1593672447,
-    "url": "https://api.zhihu.com/questions/404611922"
+    "url": "https://www.zhihu.com/api/v4/questions/404611922"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 44
+  "updated_time": 1593878519,
+  "url": "https://www.zhihu.com/api/v4/answers/1319219794",
+  "voteup_count": 54
 }

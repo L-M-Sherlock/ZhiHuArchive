@@ -1,74 +1,345 @@
 {
-  "status": 0,
+  "id": "716570823",
+  "title": "使用机器学习从解释性文本中生成优质的间隔重复卡片",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/716570823",
+  "image_url": "",
+  "title_image": "",
+  "excerpt": "一个颇具挑战的问题。一些相关笔记： <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2VVmj24FLixtrijdAbkKty91JQruAaZGbHE6\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GPT-4 在指导下，通常能够从解释性文本中为陈述性知识生成可用的间隔重复卡片</a>[1]<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z62s1nNLEfhGbDmpb8Z7dZiYyi3kaSziuLVXd\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题</a>[2]<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zQ4E1DXZoZTTitsik89ZcvXMu8dQMkJzRUS\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">将卡片生成任务定义为强化目标的过滤问题</a>[3]<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zrqgkr9n3eCMNsAPDsRozt3HLd8nRT5nVASc\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对…</a>",
+  "created": 1724730928,
   "updated": 1729161868,
   "author": {
     "is_followed": false,
-    "badge": [],
-    "name": "Jarrett Ye",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
-    "gender": 1,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+    "uid": "1521893281407864832",
     "user_type": "people",
-    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=b1748391",
     "is_following": false,
+    "url_token": "JarrettYe",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+    "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+    "name": "Jarrett Ye",
+    "is_advertiser": false,
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "gender": 1,
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+    "is_org": false,
     "type": "people",
-    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    "badge": [],
+    "badge_v2": {
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "merged_badges": [],
+      "detail_badges": [],
+      "icon": "",
+      "night_icon": ""
+    },
+    "exposed_medal": {
+      "medal_id": "1463836052717301760",
+      "medal_name": "知「势」之星",
+      "avatar_url": "https://pic1.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_l.png?source=172ae18b",
+      "description": "「知势榜」上榜答主即可获得",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "一个颇具挑战的问题。一些相关笔记：GPT-4 在指导下，通常能够从解释性文本中为陈述…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 0,
+  "image_height": 0,
+  "content": "<p data-pid=\"6pPHa2e5\">一个颇具挑战的问题。一些相关笔记：</p><ul><li data-pid=\"iOcYRxgl\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2VVmj24FLixtrijdAbkKty91JQruAaZGbHE6\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GPT-4 在指导下，通常能够从解释性文本中为陈述性知识生成可用的间隔重复卡片</a><sup data-text=\"GPT-4 在指导下，通常能够从解释性文本中为陈述性知识生成可用的间隔重复卡片\" data-url=\"https://zhuanlan.zhihu.com/p/656760808\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup></li><ul><li data-pid=\"lS7IvQEy\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z62s1nNLEfhGbDmpb8Z7dZiYyi3kaSziuLVXd\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题</a><sup data-text=\"对于卡片生成任务，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题\" data-url=\"https://zhuanlan.zhihu.com/p/656354899\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup></li><li data-pid=\"xaCtgoRp\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zQ4E1DXZoZTTitsik89ZcvXMu8dQMkJzRUS\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">将卡片生成任务定义为强化目标的过滤问题</a><sup data-text=\"将卡片生成任务定义为强化目标的过滤问题\" data-url=\"https://zhuanlan.zhihu.com/p/639267420\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup></li><li data-pid=\"_oX2gylR\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zrqgkr9n3eCMNsAPDsRozt3HLd8nRT5nVASc\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，如果提供了编写卡片的原则，大型语言模型（LLM）的表现可能会有所提升</a><sup data-text=\"对于卡片生成任务，如果提供了编写卡片的原则，大型语言模型（LLM）的表现可能会有所提升\" data-url=\"https://zhuanlan.zhihu.com/p/644435843\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup></li><li data-pid=\"XWpzv_kc\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zomoPzCNzSi5GqtfTeVWgm7RjmiArjS8vvM5\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示来确定需要强化何种角度</a><sup data-text=\"对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示来确定强化的视角\" data-url=\"https://zhuanlan.zhihu.com/p/644435780\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup></li><li data-pid=\"KneG7ZcA\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5LQFLXHFLrb4nYAtLrB3JBzNyJng8fYHVJYN\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，如果提供了充足的上下文，大型语言模型（LLM）可能会表现得更好</a><sup data-text=\"对于卡片生成任务，如果提供了充足的上下文，大型语言模型（LLM）可能会表现得更好\" data-url=\"https://zhuanlan.zhihu.com/p/645670312\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup></li></ul><li data-pid=\"boD_768n\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zmrbnm683nVZi9ut63vsr8BwYKEtATA6e4B3\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式</a><sup data-text=\"对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式\" data-url=\"https://zhuanlan.zhihu.com/p/656355546\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup></li><li data-pid=\"SS4-wvlf\"> LLM 可以完成的一些更简单的子任务：</li><ul><li data-pid=\"_-ehJNgr\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zEhne31FD53eNQw3bpcuomfxMYL3s1qkhbF\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GPT-3 能够产生间隔重复记忆卡片问题的简单变体</a></li><li data-pid=\"G7duV5jG\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4A7LCXBAkAUH2uZ21JnNrBhJHCjkobFMyn\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GPT-3 可以基于填空卡生成问答卡</a></li><li data-pid=\"30_6Xyvr\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3r1Lqmf4W9KPU2scVDSdbafthRBisJgv3G6a\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GPT-4 或许可以判断两张卡片在功能上是否是等价的</a></li><li data-pid=\"Zq1em960\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3PxNiZC25rkdrbgig9zm6oYk9AAECVKySYKG\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GPT-4 或许可以判断一张卡片是否会剧透另一张卡片</a></li></ul><li data-pid=\"KNlH4u3b\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6ZUDZaQrh43M64sHsZL48QZVKcFKQsTi4kTY\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">专家编写的卡片数据集将有助于开发卡片生成系统</a><br/> </li></ul><h3>其他尝试</h3><ul><li data-pid=\"xRc0GVUq\"> 来自 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3HA4Pzw3eyayQWh99237BuH9L577TFxzq1V2\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">OpenAI</a> Sunny Chen 的 <a href=\"https://link.zhihu.com/?target=http%3A//autonki.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">http://autonki.com</a></li><li data-pid=\"ysZaeK-E\"> 使用 OpenAI GPT-3 API 的 Polar 和 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4xUYCRTU7uUjZhafKD3jAcn5u5mHsDJwPMcc\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Sana Labs</a></li><ul><li data-pid=\"3vV5ck6r\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4xUYCRTU7uUjZhafKD3jAcn5u5mHsDJwPMcc\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Sana Labs</a> 使用公认高质量的内容/问题/答案数据<a href=\"https://link.zhihu.com/?target=https%3A//openai.com/blog/improving-language-model-behavior/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">微调</a> GPT-3</li></ul><li data-pid=\"LsUJ3Z-C\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zn9igQGgecLncBSpKbgv5123mC5YEAP3hnfP\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Ozzie Kirkby</a> 使用 <a href=\"https://link.zhihu.com/?target=https%3A//huggingface.co/iarfmoose/t5-base-question-generator\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">iarfmoose/t5-base-question-generator · Hugging Face</a>（一个经过微调的 <a href=\"https://link.zhihu.com/?target=https%3A//ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">T5</a> 模型）进行了一系列实验。</li><li data-pid=\"iV9_yKQ0\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zUb4zm9zcMaRki1rhXLofjzzYciBrZrFqjC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Aithal, S. G., Rao, A. B., &amp; Singh, S. (2021). Automatic question-answer pairs generation and question similarity mechanism in question answering system. Applied Intelligence.</a> 使用了在 SQuAD 数据集上微调的 ProphetNet 模型从文本段落生成问题，并应用 BERT 模型来回答这些问题。</li><li data-pid=\"m_RFM8L8\"> Steuer, T., Filighera, A., Meuser, T., &amp; Rensing, C. (2021). I Do Not Understand What I Cannot Define: Automatic Question Generation With Pedagogically-Driven Content Selection. ArXiv.</li><ul><li data-pid=\"Bj11etrA\"> 一个基于BERT的模型，该模型配备了独立的内容选择机制</li><li data-pid=\"VApqiQ46\"> 有价值的参考文献目录</li></ul><li data-pid=\"QiXkuQPN\"><a href=\"https://link.zhihu.com/?target=https%3A//www.r-bloggers.com/2024/01/comparing-gpt-4-3-5-and-some-offline-local-llms-at-the-task-of-generating-flashcards-for-spaced-repetition-e-g-anki/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">r-bloggers.com/2024/01/</span><span class=\"invisible\">comparing-gpt-4-3-5-and-some-offline-local-llms-at-the-task-of-generating-flashcards-for-spaced-repetition-e-g-anki/</span><span class=\"ellipsis\"></span></a></li><ul><li data-pid=\"sLOwkFCp\">简洁的提示词设计，但有一些系统的评估设计</li></ul></ul><h3>阅读队列</h3><ul><li data-pid=\"WcKwl_c2\">A systematic review: Kurdi, G., Leo, J., Parsia, B., Sattler, U., &amp; Al-Emari, S. (2020). A Systematic Review of Automatic Question Generation for Educational Purposes. International Journal of Artificial Intelligence in Education, 30(1), 121–204. <a href=\"https://link.zhihu.com/?target=https%3A//doi.org/10.1007/s40593-019-00186-y\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">doi.org/10.1007/s40593-</span><span class=\"invisible\">019-00186-y</span><span class=\"ellipsis\"></span></a></li></ul><h3>坟场</h3><ul><li data-pid=\"cit8Lilu\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2FBdAnkR9BXc9YZE924sfFRXMKwmHFQAhLXv\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">日志：尝试使用 GPT-3 生成间隔重复卡片</a></li></ul><p class=\"ztext-empty-paragraph\"><br/></p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"Q3CA36FJ\"><a href=\"https://zhuanlan.zhihu.com/p/404257681\" class=\"internal\" target=\"_blank\">间隔重复记忆系统（Spaced repetition memory system）</a></li><li data-pid=\"49ccZFN2\"><a href=\"https://zhuanlan.zhihu.com/p/1660865898\" class=\"internal\" target=\"_blank\">以想法为中心的记忆系统</a></li><li data-pid=\"iGvfMpN1\"><a href=\"https://zhuanlan.zhihu.com/p/397245681\" class=\"internal\" target=\"_blank\">写好间隔重复记忆卡片很难</a></li><li data-pid=\"0pSYyyV8\"><a href=\"https://zhuanlan.zhihu.com/p/656760808\" class=\"internal\" target=\"_blank\">GPT-4 在指导下，通常能够从解释性文本中为陈述性知识生成可用的间隔重复卡片</a></li><li data-pid=\"fltRmKay\"><a href=\"https://zhuanlan.zhihu.com/p/656354899\" class=\"internal\" target=\"_blank\">对于卡片生成任务，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题</a></li><li data-pid=\"n1l8E9QR\"><a href=\"https://zhuanlan.zhihu.com/p/639267420\" class=\"internal\" target=\"_blank\">将卡片生成任务定义为强化目标的过滤问题</a></li><li data-pid=\"7BDcYeOw\"><a href=\"https://zhuanlan.zhihu.com/p/644435780\" class=\"internal\" target=\"_blank\">对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示，来确定从何种角度制卡</a></li><li data-pid=\"MkUrRBOt\"><a href=\"https://zhuanlan.zhihu.com/p/645670312\" class=\"internal\" target=\"_blank\">对于卡片生成任务，如果提供了充足的上下文，大型语言模型（LLM）可能会表现得更好</a></li><li data-pid=\"nmkce4iX\"><a href=\"https://zhuanlan.zhihu.com/p/656355546\" class=\"internal\" target=\"_blank\">对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式</a></li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"J3OxF5wO\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3.5-sonnet，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2DY7qsP5iHsiA5hxUHheV8hu7Xe96vdGyYX\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Using machine learning to generate good spaced repetition prompts from explanatory text (andymatuschak.org)</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/27267395",
+      "type": "topic",
+      "id": "27267395",
+      "name": "大语言模型"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21535352",
+      "type": "topic",
+      "id": "21535352",
+      "name": "抽认卡"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    }
+  ],
+  "voteup_count": 16,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "间隔重复使记忆成为一种选择",
+    "is_following": false,
+    "url_token": "c_1525782291741208576",
+    "id": "c_1525782291741208576",
+    "articles_count": 182,
+    "accept_submission": true,
+    "title": "间隔重复 & 注意力管理",
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "comment_permission": "all",
+    "created": 1751877449,
+    "updated": 1656554846,
+    "image_url": "https://pic1.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 227,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 1,
+  "contributions": [
+    {
+      "id": 49539170,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "间隔重复使记忆成为一种选择",
+        "is_following": false,
+        "url_token": "c_1525782291741208576",
+        "id": "c_1525782291741208576",
+        "articles_count": 182,
+        "accept_submission": true,
+        "title": "间隔重复 & 注意力管理",
+        "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+        "comment_permission": "all",
+        "created": 1751877449,
+        "updated": 1656554846,
+        "image_url": "https://pic1.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 227,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 716570823,
-  "voteup_count": 15,
+  "annotation_action": [],
+  "can_tip": false,
+  "can_open_tipjar": true,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 14,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "使用机器学习从解释性文本中生成优质的间隔重复卡片 - 来自知乎专栏「间隔重复 &amp; 注意力管理」，作者: Jarrett Ye https://zhuanlan.zhihu.com/p/716570823 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1724730928,
-  "url": "https://api.zhihu.com/articles/716570823",
-  "comment_permission": "all",
-  "title": "使用机器学习从解释性文本中生成优质的间隔重复卡片",
-  "content": "<p data-pid=\"6pPHa2e5\">一个颇具挑战的问题。一些相关笔记：</p><ul><li data-pid=\"iOcYRxgl\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2VVmj24FLixtrijdAbkKty91JQruAaZGbHE6\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GPT-4 在指导下，通常能够从解释性文本中为陈述性知识生成可用的间隔重复卡片</a><sup data-text=\"GPT-4 在指导下，通常能够从解释性文本中为陈述性知识生成可用的间隔重复卡片\" data-url=\"https://zhuanlan.zhihu.com/p/656760808\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup></li><ul><li data-pid=\"lS7IvQEy\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z62s1nNLEfhGbDmpb8Z7dZiYyi3kaSziuLVXd\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题</a><sup data-text=\"对于卡片生成任务，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题\" data-url=\"https://zhuanlan.zhihu.com/p/656354899\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup></li><li data-pid=\"xaCtgoRp\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zQ4E1DXZoZTTitsik89ZcvXMu8dQMkJzRUS\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">将卡片生成任务定义为强化目标的过滤问题</a><sup data-text=\"将卡片生成任务定义为强化目标的过滤问题\" data-url=\"https://zhuanlan.zhihu.com/p/639267420\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup></li><li data-pid=\"_oX2gylR\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zrqgkr9n3eCMNsAPDsRozt3HLd8nRT5nVASc\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，如果提供了编写卡片的原则，大型语言模型（LLM）的表现可能会有所提升</a><sup data-text=\"对于卡片生成任务，如果提供了编写卡片的原则，大型语言模型（LLM）的表现可能会有所提升\" data-url=\"https://zhuanlan.zhihu.com/p/644435843\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup></li><li data-pid=\"XWpzv_kc\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zomoPzCNzSi5GqtfTeVWgm7RjmiArjS8vvM5\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示来确定需要强化何种角度</a><sup data-text=\"对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示来确定强化的视角\" data-url=\"https://zhuanlan.zhihu.com/p/644435780\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup></li><li data-pid=\"KneG7ZcA\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5LQFLXHFLrb4nYAtLrB3JBzNyJng8fYHVJYN\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，如果提供了充足的上下文，大型语言模型（LLM）可能会表现得更好</a><sup data-text=\"对于卡片生成任务，如果提供了充足的上下文，大型语言模型（LLM）可能会表现得更好\" data-url=\"https://zhuanlan.zhihu.com/p/645670312\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup></li></ul><li data-pid=\"boD_768n\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zmrbnm683nVZi9ut63vsr8BwYKEtATA6e4B3\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式</a><sup data-text=\"对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式\" data-url=\"https://zhuanlan.zhihu.com/p/656355546\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup></li><li data-pid=\"SS4-wvlf\"> LLM 可以完成的一些更简单的子任务：</li><ul><li data-pid=\"_-ehJNgr\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zEhne31FD53eNQw3bpcuomfxMYL3s1qkhbF\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GPT-3 能够产生间隔重复记忆卡片问题的简单变体</a></li><li data-pid=\"G7duV5jG\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4A7LCXBAkAUH2uZ21JnNrBhJHCjkobFMyn\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GPT-3 可以基于填空卡生成问答卡</a></li><li data-pid=\"30_6Xyvr\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3r1Lqmf4W9KPU2scVDSdbafthRBisJgv3G6a\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GPT-4 或许可以判断两张卡片在功能上是否是等价的</a></li><li data-pid=\"Zq1em960\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3PxNiZC25rkdrbgig9zm6oYk9AAECVKySYKG\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GPT-4 或许可以判断一张卡片是否会剧透另一张卡片</a></li></ul><li data-pid=\"KNlH4u3b\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6ZUDZaQrh43M64sHsZL48QZVKcFKQsTi4kTY\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">专家编写的卡片数据集将有助于开发卡片生成系统</a><br/> </li></ul><h3>其他尝试</h3><ul><li data-pid=\"xRc0GVUq\"> 来自 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3HA4Pzw3eyayQWh99237BuH9L577TFxzq1V2\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">OpenAI</a> Sunny Chen 的 <a href=\"https://link.zhihu.com/?target=http%3A//autonki.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">http://autonki.com</a></li><li data-pid=\"ysZaeK-E\"> 使用 OpenAI GPT-3 API 的 Polar 和 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4xUYCRTU7uUjZhafKD3jAcn5u5mHsDJwPMcc\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Sana Labs</a></li><ul><li data-pid=\"3vV5ck6r\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4xUYCRTU7uUjZhafKD3jAcn5u5mHsDJwPMcc\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Sana Labs</a> 使用公认高质量的内容/问题/答案数据<a href=\"https://link.zhihu.com/?target=https%3A//openai.com/blog/improving-language-model-behavior/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">微调</a> GPT-3</li></ul><li data-pid=\"LsUJ3Z-C\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zn9igQGgecLncBSpKbgv5123mC5YEAP3hnfP\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Ozzie Kirkby</a> 使用 <a href=\"https://link.zhihu.com/?target=https%3A//huggingface.co/iarfmoose/t5-base-question-generator\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">iarfmoose/t5-base-question-generator · Hugging Face</a>（一个经过微调的 <a href=\"https://link.zhihu.com/?target=https%3A//ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">T5</a> 模型）进行了一系列实验。</li><li data-pid=\"iV9_yKQ0\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zUb4zm9zcMaRki1rhXLofjzzYciBrZrFqjC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Aithal, S. G., Rao, A. B., &amp; Singh, S. (2021). Automatic question-answer pairs generation and question similarity mechanism in question answering system. Applied Intelligence.</a> 使用了在 SQuAD 数据集上微调的 ProphetNet 模型从文本段落生成问题，并应用 BERT 模型来回答这些问题。</li><li data-pid=\"m_RFM8L8\"> Steuer, T., Filighera, A., Meuser, T., &amp; Rensing, C. (2021). I Do Not Understand What I Cannot Define: Automatic Question Generation With Pedagogically-Driven Content Selection. ArXiv.</li><ul><li data-pid=\"Bj11etrA\"> 一个基于BERT的模型，该模型配备了独立的内容选择机制</li><li data-pid=\"VApqiQ46\"> 有价值的参考文献目录</li></ul><li data-pid=\"QiXkuQPN\"><a href=\"https://link.zhihu.com/?target=https%3A//www.r-bloggers.com/2024/01/comparing-gpt-4-3-5-and-some-offline-local-llms-at-the-task-of-generating-flashcards-for-spaced-repetition-e-g-anki/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">r-bloggers.com/2024/01/</span><span class=\"invisible\">comparing-gpt-4-3-5-and-some-offline-local-llms-at-the-task-of-generating-flashcards-for-spaced-repetition-e-g-anki/</span><span class=\"ellipsis\"></span></a></li><ul><li data-pid=\"sLOwkFCp\">简洁的提示词设计，但有一些系统的评估设计</li></ul></ul><h3>阅读队列</h3><ul><li data-pid=\"WcKwl_c2\">A systematic review: Kurdi, G., Leo, J., Parsia, B., Sattler, U., &amp; Al-Emari, S. (2020). A Systematic Review of Automatic Question Generation for Educational Purposes. International Journal of Artificial Intelligence in Education, 30(1), 121–204. <a href=\"https://link.zhihu.com/?target=https%3A//doi.org/10.1007/s40593-019-00186-y\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">doi.org/10.1007/s40593-</span><span class=\"invisible\">019-00186-y</span><span class=\"ellipsis\"></span></a></li></ul><h3>坟场</h3><ul><li data-pid=\"cit8Lilu\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2FBdAnkR9BXc9YZE924sfFRXMKwmHFQAhLXv\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">日志：尝试使用 GPT-3 生成间隔重复卡片</a></li></ul><p class=\"ztext-empty-paragraph\"><br/></p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"Q3CA36FJ\"><a href=\"https://zhuanlan.zhihu.com/p/404257681\" class=\"internal\">间隔重复记忆系统（Spaced repetition memory system）</a></li><li data-pid=\"49ccZFN2\"><a href=\"https://zhuanlan.zhihu.com/p/1660865898\" class=\"internal\">以想法为中心的记忆系统</a></li><li data-pid=\"iGvfMpN1\"><a href=\"https://zhuanlan.zhihu.com/p/397245681\" class=\"internal\">写好间隔重复记忆卡片很难</a></li><li data-pid=\"0pSYyyV8\"><a href=\"https://zhuanlan.zhihu.com/p/656760808\" class=\"internal\">GPT-4 在指导下，通常能够从解释性文本中为陈述性知识生成可用的间隔重复卡片</a></li><li data-pid=\"fltRmKay\"><a href=\"https://zhuanlan.zhihu.com/p/656354899\" class=\"internal\">对于卡片生成任务，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题</a></li><li data-pid=\"n1l8E9QR\"><a href=\"https://zhuanlan.zhihu.com/p/639267420\" class=\"internal\">将卡片生成任务定义为强化目标的过滤问题</a></li><li data-pid=\"7BDcYeOw\"><a href=\"https://zhuanlan.zhihu.com/p/644435780\" class=\"internal\">对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示，来确定从何种角度制卡</a></li><li data-pid=\"MkUrRBOt\"><a href=\"https://zhuanlan.zhihu.com/p/645670312\" class=\"internal\">对于卡片生成任务，如果提供了充足的上下文，大型语言模型（LLM）可能会表现得更好</a></li><li data-pid=\"nmkce4iX\"><a href=\"https://zhuanlan.zhihu.com/p/656355546\" class=\"internal\">对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式</a></li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"J3OxF5wO\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3.5-sonnet，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2DY7qsP5iHsiA5hxUHheV8hu7Xe96vdGyYX\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Using machine learning to generate good spaced repetition prompts from explanatory text (andymatuschak.org)</a></blockquote>",
-  "column": {
-    "updated": 1656554884,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Jarrett Ye",
-      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
-    },
-    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
-    "title": "间隔重复 & 注意力管理",
-    "image_url": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1525782291741208576"
-  },
-  "comment_count": 1,
-  "image_url": "",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 1,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 1,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyNDczNjc5NjISCTcxNjU3MDgyMxgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 16,
+      "down_vote_count": 0,
+      "like_count": 1,
+      "comment_count": 1,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 14,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": true,
+      "vote": "Neutral",
+      "liked": false,
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {}
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/473187795?contentId=716570823&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 间隔重复 & 注意力管理",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525782291741208576",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 间隔重复 & 注意力管理"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

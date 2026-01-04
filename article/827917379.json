@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "827917379",
+  "title": "如何让我相信 2 + 2 = 3",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/827917379",
+  "image_url": "https://picx.zhimg.com/v2-10512ebf534a387ad44e33b0df09d031_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-10512ebf534a387ad44e33b0df09d031_720w.jpg?source=172ae18b",
+  "excerpt": "在 <a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/What-Is-Evidence\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《什么是证据？》</a>[1]一文中，我写道:正是基于这种认识，理性主义者高度重视一个看似矛盾的观点：一个信念只有在你原则上能够被说服改变时，才是真正有价值的。试想，如果你的视网膜无论接收到什么光线都保持相同的状态，那么你实际上就是盲人。……这就…",
+  "created": 1729225820,
   "updated": 1729309594,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "在《什么是证据？》 [1]一文中，我写道:正是基于这种认识，理性主义者高度重视一个看…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 1880,
+  "image_height": 1253,
+  "content": "<p data-pid=\"ITFas1G-\">在<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/What-Is-Evidence\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《什么是证据？》</a><sup data-text=\"什么是证据？\" data-url=\"https://zhuanlan.zhihu.com/p/1345584102\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>一文中，我写道:</p><blockquote data-pid=\"-1DLR_VH\">正是基于这种认识，理性主义者高度重视一个看似矛盾的观点：一个信念只有在你原则上能够被说服改变时，才是真正有价值的。试想，如果你的视网膜无论接收到什么光线都保持相同的状态，那么你实际上就是盲人。……这就是「盲目信仰」这个词的由来。如果你的信仰不依赖于你的所见所闻，那么你就等同于被蒙蔽了双眼，与直接戳瞎自己的眼睛没有什么区别。</blockquote><p data-pid=\"IwQSIIEh\">对此，Cihan Baran <a href=\"https://link.zhihu.com/?target=https%3A//www.greaterwrong.com/lw/jl/what_is_evidence/f7h\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">回应道</a>:</p><blockquote data-pid=\"iutf4uqx\">我无法想象出任何情形可以推翻 2 + 2 = 4 这个等式。或许正因如此，我对 2 + 2 = 4 深信不疑，毫无保留。</blockquote><p data-pid=\"DSwiqG36\">我必须坦言，我无法想象任何「情形」可以<b>使</b> 2 + 2 = 4 是假的。（倘若重新定义数字或运算符号，「情形」就不一样了，因为彼时讨论的对象已经不再是 2、4、= 或 +。） 然而，这并不意味着我对此公理的信念是无条件的。我很容易便能设想某种情形，足以让我<b>确信</b> 2+2=3。</p><p data-pid=\"luxZ0rzP\">假设有一天早上，我起床后拿出两个耳塞，把它们放在床头柜上另外两个耳塞旁边，却发现此时只有三个耳塞，没有任何耳塞凭空出现或消失——这与我记忆中 2 + 2 应该等于 4 的认知相矛盾。此外，当我在脑海中想象这个过程时，似乎要让 xx 加 xx 变成 xxxx，需要凭空冒出一个额外的 x，这也与我想象的其他算术规律不一致。例如，从 xxx 中减去 xx 剩下 xx，但从 xxxx 中减去 xx 却剩下 xxx。这明明与我记忆中 3 - 2 = 1 的等式相矛盾。然而，面对亲眼目睹 xxx - xx = xx 的物理事实和内心确信，再坚持记忆未免显得荒谬绝伦。</p><p data-pid=\"-PA-EDq5\">我还会求助于计算器、搜索引擎，甚或翻阅我收藏的《1984》——书中 Winston 曾写道：「自由就是能说 2 + 2 = 3 的自由」。所有这些都一致表明，此刻我的认知与世界的普遍共识相符，唯独与我自己的记忆相悖。</p><p data-pid=\"JGNbYESR\">我怎会如此荒谬地相信 2 + 2 = 4 呢？我能想到两种解释：一是某种神经紊乱（诸如打喷嚏之类）扰乱了我的记忆，致使所有加法运算的结果都偏大了1。二是有人对我实施了催眠，或者我身处虚拟的计算机模拟当中。如果是后一种情况，我更倾向于认为，是他们篡改了我对算术规则的<b>记忆</b>，而非 2+2 <b>实际上</b>就等于 4。尽管这两种解释乍听之下都颇为合理，我依然难以摆脱<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Your-Strength-As-A-Rationalist\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">此时此刻的迷惘困顿和深深的困惑</a><sup data-text=\"作为理性主义者的力量\" data-url=\"https://hpmor.xyz/ai2zb_26/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。</p><p data-pid=\"80y28Tgx\">究竟需要怎样的证据，才能让我相信 2 + 2 = 3，如同现在令我确信 2 + 2 = 4 的证据一样？这些证据包括物理观察、头脑中的想象，以及社会共识的多重印证。</p><p data-pid=\"rVDtuG21\">我原本并不知道 2 + 2 = 4。我之所以获得这个<b>新</b>观点，并非源自随机过程——否则我的大脑没有理由偏偏记住 2 + 2 = 4，而不是 2 + 2 = 7。事实上，我大脑所存的答案，与我把两个耳塞并排放在另外两个耳塞旁时观察到的情形惊人地吻合。这就引出一个问题：是什么样的关联，造就了心智和现实之间的这种奇特镜像？</p><p data-pid=\"hY-ZEteK\">一个关于<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Feeling-Rational\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">事实</a><sup data-text=\"感受理性\" data-url=\"https://hpmor.xyz/ai2zb_2/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>的信念，实际上只有两种可能：要么这个信念是通过<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/What-Is-Evidence\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">思维与现实的纠缠</a><sup data-text=\"什么是证据？\" data-url=\"https://zhuanlan.zhihu.com/p/1345584102\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>而形成的，要么不是。如果不是，除了靠巧合，这个信念就不可能正确。对于那些哪怕只有一丝内在<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Occams-Razor\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">复杂性</a><sup data-text=\"奥卡姆剃刀\" data-url=\"https://hpmor.xyz/ai2zb_25/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>的信念（需要超过 10 位二进制的计算机程序才能模拟），它们所处的可能性空间已经足够大，巧合几乎不可能发生。</p><p data-pid=\"gUCo1UCH\">无条件的事实与无条件的信念是有区别的。即使确凿的证据让我相信某个事实无条件成立，也不意味着我从一开始就笃信这个事实，而不需要任何佐证。</p><p data-pid=\"7dpHq2Nj\">我坚信 2 + 2 = 4，但我也能轻易设想一种情形，会同样令我确信 2 + 2 = 3。那就是目前令我笃定 2 + 2 = 4 的情形。由此可见，我绝非盲目信仰的受害者。</p><p data-pid=\"1oZnfIwk\">如果在座的听众中，有信奉基督教且懂贝叶斯定理的朋友（恕我直言，没有数字恐惧症的朋友请回答），我想请教一下，什么情形会让你相信伊斯兰教才是真理？我想，促成这一改变的原因，大概和你现在信仰基督教的缘由如出一辙：假如我们把你从一位穆斯林母亲的子宫中带到人世，你在虔诚的穆斯林父母的呵护下长大，耳濡目染他们的教诲，笃信伊斯兰教义，那么你很可能会成为一名虔诚的穆斯林。或者，你认为影响宗教信仰的因素远不止如此？如果是这样，你能想象出什么情景，会让你信服伊斯兰教的真实性，或者至少动摇你对基督教的笃信？</p><hr/><p data-pid=\"z-J8Sd9H\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/827910633\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-28bb3d53c86f48d56ffb3abeb347d031_qhd.jpg\" data-image-width=\"5035\" data-image-height=\"3339\" class=\"internal\">Thoughts Memo：绝对权威</a><p data-pid=\"zeqQVqy4\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/991150597\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-2f46e7de4de6c6283e78b8bae092d236_qhd.jpg\" data-image-width=\"3264\" data-image-height=\"2448\" class=\"internal\">Thoughts Memo：无限的确定性</a><hr/><blockquote data-pid=\"qddp827k\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3-opus，校对 <span class=\"nolink\">Jarrett Ye</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/How-To-Convince-Me-That-Two-Plus-Two-Equals-Three\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">How to Convince Me That 2 + 2 = 3 (readthesequences.com)</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19569579",
+      "type": "topic",
+      "id": "19569579",
+      "name": "理性"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19584802",
+      "type": "topic",
+      "id": "19584802",
+      "name": "信念"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19640256",
+      "type": "topic",
+      "id": "19640256",
+      "name": "证据"
+    }
+  ],
+  "voteup_count": 29,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "理性是一种「利用手头一切资源来尽己所能」的理念。",
+    "is_following": false,
+    "url_token": "c_1826322587032117248",
+    "id": "c_1826322587032117248",
+    "articles_count": 83,
+    "accept_submission": true,
+    "title": "理性 & 克服偏见",
+    "url": "https://api.zhihu.com/columns/c_1826322587032117248",
+    "comment_permission": "all",
+    "created": 1728209236,
+    "updated": 1751811441,
+    "image_url": "https://picx.zhimg.com/v2-c9036d409f5e65c53cfea750a0176c61_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 302,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 1,
+  "contributions": [
+    {
+      "id": 49914513,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "理性是一种「利用手头一切资源来尽己所能」的理念。",
+        "is_following": false,
+        "url_token": "c_1826322587032117248",
+        "id": "c_1826322587032117248",
+        "articles_count": 83,
+        "accept_submission": true,
+        "title": "理性 & 克服偏见",
+        "url": "https://api.zhihu.com/columns/c_1826322587032117248",
+        "comment_permission": "all",
+        "created": 1728209236,
+        "updated": 1751811441,
+        "image_url": "https://picx.zhimg.com/v2-c9036d409f5e65c53cfea750a0176c61_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 302,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 827917379,
-  "voteup_count": 28,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 20,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "如何让我相信 2 + 2 = 3 - 来自知乎专栏「理性 &amp; 克服偏见」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/827917379 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1729225820,
-  "url": "https://api.zhihu.com/articles/827917379",
-  "comment_permission": "all",
-  "title": "如何让我相信 2 + 2 = 3",
-  "image_width": 1253,
-  "content": "<p data-pid=\"ITFas1G-\">在<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/What-Is-Evidence\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《什么是证据？》</a><sup data-text=\"什么是证据？\" data-url=\"https://zhuanlan.zhihu.com/p/1345584102\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>一文中，我写道:</p><blockquote data-pid=\"-1DLR_VH\">正是基于这种认识，理性主义者高度重视一个看似矛盾的观点：一个信念只有在你原则上能够被说服改变时，才是真正有价值的。试想，如果你的视网膜无论接收到什么光线都保持相同的状态，那么你实际上就是盲人。……这就是「盲目信仰」这个词的由来。如果你的信仰不依赖于你的所见所闻，那么你就等同于被蒙蔽了双眼，与直接戳瞎自己的眼睛没有什么区别。</blockquote><p data-pid=\"IwQSIIEh\">对此，Cihan Baran <a href=\"https://link.zhihu.com/?target=https%3A//www.greaterwrong.com/lw/jl/what_is_evidence/f7h\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">回应道</a>:</p><blockquote data-pid=\"iutf4uqx\">我无法想象出任何情形可以推翻 2 + 2 = 4 这个等式。或许正因如此，我对 2 + 2 = 4 深信不疑，毫无保留。</blockquote><p data-pid=\"DSwiqG36\">我必须坦言，我无法想象任何「情形」可以<b>使</b> 2 + 2 = 4 是假的。（倘若重新定义数字或运算符号，「情形」就不一样了，因为彼时讨论的对象已经不再是 2、4、= 或 +。） 然而，这并不意味着我对此公理的信念是无条件的。我很容易便能设想某种情形，足以让我<b>确信</b> 2+2=3。</p><p data-pid=\"luxZ0rzP\">假设有一天早上，我起床后拿出两个耳塞，把它们放在床头柜上另外两个耳塞旁边，却发现此时只有三个耳塞，没有任何耳塞凭空出现或消失——这与我记忆中 2 + 2 应该等于 4 的认知相矛盾。此外，当我在脑海中想象这个过程时，似乎要让 xx 加 xx 变成 xxxx，需要凭空冒出一个额外的 x，这也与我想象的其他算术规律不一致。例如，从 xxx 中减去 xx 剩下 xx，但从 xxxx 中减去 xx 却剩下 xxx。这明明与我记忆中 3 - 2 = 1 的等式相矛盾。然而，面对亲眼目睹 xxx - xx = xx 的物理事实和内心确信，再坚持记忆未免显得荒谬绝伦。</p><p data-pid=\"-PA-EDq5\">我还会求助于计算器、搜索引擎，甚或翻阅我收藏的《1984》——书中 Winston 曾写道：「自由就是能说 2 + 2 = 3 的自由」。所有这些都一致表明，此刻我的认知与世界的普遍共识相符，唯独与我自己的记忆相悖。</p><p data-pid=\"JGNbYESR\">我怎会如此荒谬地相信 2 + 2 = 4 呢？我能想到两种解释：一是某种神经紊乱（诸如打喷嚏之类）扰乱了我的记忆，致使所有加法运算的结果都偏大了1。二是有人对我实施了催眠，或者我身处虚拟的计算机模拟当中。如果是后一种情况，我更倾向于认为，是他们篡改了我对算术规则的<b>记忆</b>，而非 2+2 <b>实际上</b>就等于 4。尽管这两种解释乍听之下都颇为合理，我依然难以摆脱<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Your-Strength-As-A-Rationalist\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">此时此刻的迷惘困顿和深深的困惑</a><sup data-text=\"作为理性主义者的力量\" data-url=\"https://hpmor.xyz/ai2zb_26/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。</p><p data-pid=\"80y28Tgx\">究竟需要怎样的证据，才能让我相信 2 + 2 = 3，如同现在令我确信 2 + 2 = 4 的证据一样？这些证据包括物理观察、头脑中的想象，以及社会共识的多重印证。</p><p data-pid=\"rVDtuG21\">我原本并不知道 2 + 2 = 4。我之所以获得这个<b>新</b>观点，并非源自随机过程——否则我的大脑没有理由偏偏记住 2 + 2 = 4，而不是 2 + 2 = 7。事实上，我大脑所存的答案，与我把两个耳塞并排放在另外两个耳塞旁时观察到的情形惊人地吻合。这就引出一个问题：是什么样的关联，造就了心智和现实之间的这种奇特镜像？</p><p data-pid=\"hY-ZEteK\">一个关于<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Feeling-Rational\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">事实</a><sup data-text=\"感受理性\" data-url=\"https://hpmor.xyz/ai2zb_2/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>的信念，实际上只有两种可能：要么这个信念是通过<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/What-Is-Evidence\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">思维与现实的纠缠</a><sup data-text=\"什么是证据？\" data-url=\"https://zhuanlan.zhihu.com/p/1345584102\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>而形成的，要么不是。如果不是，除了靠巧合，这个信念就不可能正确。对于那些哪怕只有一丝内在<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Occams-Razor\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">复杂性</a><sup data-text=\"奥卡姆剃刀\" data-url=\"https://hpmor.xyz/ai2zb_25/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>的信念（需要超过 10 位二进制的计算机程序才能模拟），它们所处的可能性空间已经足够大，巧合几乎不可能发生。</p><p data-pid=\"gUCo1UCH\">无条件的事实与无条件的信念是有区别的。即使确凿的证据让我相信某个事实无条件成立，也不意味着我从一开始就笃信这个事实，而不需要任何佐证。</p><p data-pid=\"7dpHq2Nj\">我坚信 2 + 2 = 4，但我也能轻易设想一种情形，会同样令我确信 2 + 2 = 3。那就是目前令我笃定 2 + 2 = 4 的情形。由此可见，我绝非盲目信仰的受害者。</p><p data-pid=\"1oZnfIwk\">如果在座的听众中，有信奉基督教且懂贝叶斯定理的朋友（恕我直言，没有数字恐惧症的朋友请回答），我想请教一下，什么情形会让你相信伊斯兰教才是真理？我想，促成这一改变的原因，大概和你现在信仰基督教的缘由如出一辙：假如我们把你从一位穆斯林母亲的子宫中带到人世，你在虔诚的穆斯林父母的呵护下长大，耳濡目染他们的教诲，笃信伊斯兰教义，那么你很可能会成为一名虔诚的穆斯林。或者，你认为影响宗教信仰的因素远不止如此？如果是这样，你能想象出什么情景，会让你信服伊斯兰教的真实性，或者至少动摇你对基督教的笃信？</p><hr/><p data-pid=\"z-J8Sd9H\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/827910633\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-28bb3d53c86f48d56ffb3abeb347d031_qhd.jpg\" data-image-width=\"5035\" data-image-height=\"3339\" class=\"internal\">Thoughts Memo：绝对权威</a><p data-pid=\"zeqQVqy4\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/991150597\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-2f46e7de4de6c6283e78b8bae092d236_qhd.jpg\" data-image-width=\"3264\" data-image-height=\"2448\" class=\"internal\">Thoughts Memo：无限的确定性</a><hr/><blockquote data-pid=\"qddp827k\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3-opus，校对 <span class=\"nolink\">Jarrett Ye</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/How-To-Convince-Me-That-Two-Plus-Two-Equals-Three\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">How to Convince Me That 2 + 2 = 3 (readthesequences.com)</a></blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 1,
-  "image_url": "https://picx.zhimg.com/v2-10512ebf534a387ad44e33b0df09d031_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 1,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 1,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyNDg4OTY1OTISCTgyNzkxNzM3ORgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 29,
+      "down_vote_count": 0,
+      "like_count": 1,
+      "comment_count": 1,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 20,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-10512ebf534a387ad44e33b0df09d031": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-10512ebf534a387ad44e33b0df09d031": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-10512ebf534a387ad44e33b0df09d031": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/1473638095?contentId=827917379&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 理性 & 克服偏见",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1826322587032117248",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 理性 & 克服偏见"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

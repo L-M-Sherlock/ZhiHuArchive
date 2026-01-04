@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,9 +37,10 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,36 +84,56 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 0,
   "content": "<p data-pid=\"tqfGxigX\">这三个时间间隔是由 Anki 的安排算法计算得出的。</p><p data-pid=\"jjmmGzKa\">关于 Anki 算法的通俗介绍可以看这篇文章：</p><a href=\"https://zhuanlan.zhihu.com/p/42921090\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-75cbe90ad0adb828b95624e2460d273f_180x120.jpg\" data-image-width=\"1339\" data-image-height=\"671\" class=\"internal\">叶峻峣：Anki 算法与术语浅谈</a><p data-pid=\"czBUCzYi\">嫌简单？那继续往下看吧！</p><hr/><h2><b>Anki 术语</b></h2><h3><b>新卡片</b></h3><p data-pid=\"x-0pE0dn\">graduating interval: 新卡片学习以 &#39;Good&#39; 结束后进入复习阶段的第一个间隔</p><p data-pid=\"kXqSnw1a\">easy interval: 新卡片学习以 &#39;Easy&#39; 结束后进入复习阶段的第一个间隔</p><p data-pid=\"M5rdPx-b\">starting ease: 初始间隔基数，默认 250%</p><h3><b>复习</b></h3><p data-pid=\"cLxppfot\">easy bonus: 简单奖励系数，默认 130%</p><p data-pid=\"rimfbpk9\">interval modifier: 间隔系数修饰，默认 100%</p><p data-pid=\"6PQ9CjMC\">maximum interval: 最大间隔</p><p data-pid=\"PTPfUqJU\">hard interval: &#39;Hard&#39; 间隔系数，默认为 120%</p><h3><b>遗忘</b></h3><p data-pid=\"qQ3pjnyB\">new interval: 遗忘间隔系数</p><p data-pid=\"XLGZE4tt\">minimum interval: 遗忘最小间隔</p><p data-pid=\"SLajG9fX\">leech threshold: 顽固卡片遗忘次数门槛</p><p data-pid=\"g82_-R7J\">leech action: 对顽固卡片的处理</p><h2><b>Anki 算法</b></h2><h3><b>初始化</b></h3><p data-pid=\"bsz4wAfi\">间隔系数 = 初始间隔基数​，默认为 250%</p><h3><b>again/重来</b></h3><p data-pid=\"w3h-p2Ut\">新间隔 = 上次规划间隔 * 遗忘间隔系数</p><p data-pid=\"mv0qEwyr\">间隔系数减少 20%</p><h3><b>hard/困难</b></h3><p data-pid=\"Z8qtKpXI\">新间隔 = 上次规划间隔 * &#39;Hard&#39; 间隔系数</p><p data-pid=\"TZCrKq3o\">间隔系数减少 15%</p><h3><b>good/一般</b></h3><p data-pid=\"eyj12vGZ\">新间隔 = (上次规划间隔 + 延迟 ) * 间隔系数</p><p data-pid=\"t7ya_3Rp\">间隔系数不变</p><h3><b>easy/简单</b></h3><p data-pid=\"LSitOTcg\">新间隔 = (上次规划间隔 + 延迟) * 间隔系数 * 简单奖励系数</p><p data-pid=\"3sSmW1EP\">间隔系数增加 15%</p><h3><b>early/提早</b></h3><p data-pid=\"IXVvmcZn\">新间隔 = (上次规划间隔 - 提早) * 间隔系数 * 提早奖励系数</p><p data-pid=\"N_FjJO0d\">提早奖励系数 = (简单奖励系数 - 100%) / 2 + 100%</p><p data-pid=\"yWMPvGzA\">间隔系数由具体选项确定</p><h3><b>通用</b></h3><p data-pid=\"QKYGyRMz\">规划间隔 = 新间隔 ​* 间隔系数修饰</p><h2><b>code/代码</b></h2><div class=\"highlight\"><pre><code class=\"language-python3\">    <span class=\"k\">def</span> <span class=\"nf\">_rescheduleRev</span><span class=\"p\">(</span><span class=\"bp\">self</span><span class=\"p\">,</span> <span class=\"n\">card</span><span class=\"p\">:</span> <span class=\"n\">Card</span><span class=\"p\">,</span> <span class=\"n\">ease</span><span class=\"p\">:</span> <span class=\"nb\">int</span><span class=\"p\">,</span> <span class=\"n\">early</span><span class=\"p\">:</span> <span class=\"nb\">bool</span><span class=\"p\">)</span> <span class=\"o\">-&gt;</span> <span class=\"kc\">None</span><span class=\"p\">:</span>\n        <span class=\"c1\"># update interval</span>\n        <span class=\"n\">card</span><span class=\"o\">.</span><span class=\"n\">lastIvl</span> <span class=\"o\">=</span> <span class=\"n\">card</span><span class=\"o\">.</span><span class=\"n\">ivl</span>\n        <span class=\"k\">if</span> <span class=\"n\">early</span><span class=\"p\">:</span>\n            <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_updateEarlyRevIvl</span><span class=\"p\">(</span><span class=\"n\">card</span><span class=\"p\">,</span> <span class=\"n\">ease</span><span class=\"p\">)</span>\n        <span class=\"k\">else</span><span class=\"p\">:</span>\n            <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_updateRevIvl</span><span class=\"p\">(</span><span class=\"n\">card</span><span class=\"p\">,</span> <span class=\"n\">ease</span><span class=\"p\">)</span>\n\n        <span class=\"c1\"># then the rest</span>\n        <span class=\"n\">card</span><span class=\"o\">.</span><span class=\"n\">factor</span> <span class=\"o\">=</span> <span class=\"nb\">max</span><span class=\"p\">(</span><span class=\"mi\">1300</span><span class=\"p\">,</span> <span class=\"n\">card</span><span class=\"o\">.</span><span class=\"n\">factor</span> <span class=\"o\">+</span> <span class=\"p\">[</span><span class=\"o\">-</span><span class=\"mi\">150</span><span class=\"p\">,</span> <span class=\"mi\">0</span><span class=\"p\">,</span> <span class=\"mi\">150</span><span class=\"p\">][</span><span class=\"n\">ease</span> <span class=\"o\">-</span> <span class=\"mi\">2</span><span class=\"p\">])</span>\n        <span class=\"n\">card</span><span class=\"o\">.</span><span class=\"n\">due</span> <span class=\"o\">=</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">today</span> <span class=\"o\">+</span> <span class=\"n\">card</span><span class=\"o\">.</span><span class=\"n\">ivl</span>\n\n        <span class=\"c1\"># card leaves filtered deck</span>\n        <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_removeFromFiltered</span><span class=\"p\">(</span><span class=\"n\">card</span><span class=\"p\">)</span>\n        \n    <span class=\"k\">def</span> <span class=\"nf\">_nextRevIvl</span><span class=\"p\">(</span><span class=\"bp\">self</span><span class=\"p\">,</span> <span class=\"n\">card</span><span class=\"p\">:</span> <span class=\"n\">Card</span><span class=\"p\">,</span> <span class=\"n\">ease</span><span class=\"p\">:</span> <span class=\"nb\">int</span><span class=\"p\">,</span> <span class=\"n\">fuzz</span><span class=\"p\">:</span> <span class=\"nb\">bool</span><span class=\"p\">)</span> <span class=\"o\">-&gt;</span> <span class=\"nb\">int</span><span class=\"p\">:</span>\n        <span class=\"s2\">&#34;Next review interval for CARD, given EASE.&#34;</span>\n        <span class=\"n\">delay</span> <span class=\"o\">=</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_daysLate</span><span class=\"p\">(</span><span class=\"n\">card</span><span class=\"p\">)</span>\n        <span class=\"n\">conf</span> <span class=\"o\">=</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_revConf</span><span class=\"p\">(</span><span class=\"n\">card</span><span class=\"p\">)</span>\n        <span class=\"n\">fct</span> <span class=\"o\">=</span> <span class=\"n\">card</span><span class=\"o\">.</span><span class=\"n\">factor</span> <span class=\"o\">/</span> <span class=\"mi\">1000</span>\n        <span class=\"n\">hardFactor</span> <span class=\"o\">=</span> <span class=\"n\">conf</span><span class=\"o\">.</span><span class=\"n\">get</span><span class=\"p\">(</span><span class=\"s2\">&#34;hardFactor&#34;</span><span class=\"p\">,</span> <span class=\"mf\">1.2</span><span class=\"p\">)</span>\n        <span class=\"k\">if</span> <span class=\"n\">hardFactor</span> <span class=\"o\">&gt;</span> <span class=\"mi\">1</span><span class=\"p\">:</span>\n            <span class=\"n\">hardMin</span> <span class=\"o\">=</span> <span class=\"n\">card</span><span class=\"o\">.</span><span class=\"n\">ivl</span>\n        <span class=\"k\">else</span><span class=\"p\">:</span>\n            <span class=\"n\">hardMin</span> <span class=\"o\">=</span> <span class=\"mi\">0</span>\n        <span class=\"n\">ivl2</span> <span class=\"o\">=</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_constrainedIvl</span><span class=\"p\">(</span><span class=\"n\">card</span><span class=\"o\">.</span><span class=\"n\">ivl</span> <span class=\"o\">*</span> <span class=\"n\">hardFactor</span><span class=\"p\">,</span> <span class=\"n\">conf</span><span class=\"p\">,</span> <span class=\"n\">hardMin</span><span class=\"p\">,</span> <span class=\"n\">fuzz</span><span class=\"p\">)</span>\n        <span class=\"k\">if</span> <span class=\"n\">ease</span> <span class=\"o\">==</span> <span class=\"n\">BUTTON_TWO</span><span class=\"p\">:</span>\n            <span class=\"k\">return</span> <span class=\"n\">ivl2</span>\n\n        <span class=\"n\">ivl3</span> <span class=\"o\">=</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_constrainedIvl</span><span class=\"p\">((</span><span class=\"n\">card</span><span class=\"o\">.</span><span class=\"n\">ivl</span> <span class=\"o\">+</span> <span class=\"n\">delay</span> <span class=\"o\">//</span> <span class=\"mi\">2</span><span class=\"p\">)</span> <span class=\"o\">*</span> <span class=\"n\">fct</span><span class=\"p\">,</span> <span class=\"n\">conf</span><span class=\"p\">,</span> <span class=\"n\">ivl2</span><span class=\"p\">,</span> <span class=\"n\">fuzz</span><span class=\"p\">)</span>\n        <span class=\"k\">if</span> <span class=\"n\">ease</span> <span class=\"o\">==</span> <span class=\"n\">BUTTON_THREE</span><span class=\"p\">:</span>\n            <span class=\"k\">return</span> <span class=\"n\">ivl3</span>\n\n        <span class=\"n\">ivl4</span> <span class=\"o\">=</span> <span class=\"bp\">self</span><span class=\"o\">.</span><span class=\"n\">_constrainedIvl</span><span class=\"p\">(</span>\n            <span class=\"p\">(</span><span class=\"n\">card</span><span class=\"o\">.</span><span class=\"n\">ivl</span> <span class=\"o\">+</span> <span class=\"n\">delay</span><span class=\"p\">)</span> <span class=\"o\">*</span> <span class=\"n\">fct</span> <span class=\"o\">*</span> <span class=\"n\">conf</span><span class=\"p\">[</span><span class=\"s2\">&#34;ease4&#34;</span><span class=\"p\">],</span> <span class=\"n\">conf</span><span class=\"p\">,</span> <span class=\"n\">ivl3</span><span class=\"p\">,</span> <span class=\"n\">fuzz</span>\n        <span class=\"p\">)</span>\n        <span class=\"k\">return</span> <span class=\"n\">ivl4</span></code></pre></div><p data-pid=\"_9Mt6oZn\">以上就是 Anki 算法的介绍，关于它的前身 SuperMemo 2 算法的诞生，可参阅以下文章：</p><a href=\"https://zhuanlan.zhihu.com/p/97887756\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-9e2ee5b10cd764c7dd1be40b81aa6c6d_180x120.jpg\" data-image-width=\"1258\" data-image-height=\"451\" class=\"internal\">叶峻峣：04 SuperMemo 1.0: 日志 (1987)</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1597413004,
   "excerpt": "这三个时间间隔是由 Anki 的安排算法计算得出的。 关于 Anki 算法的通俗介绍可以看这篇文章： [文章: Anki 算法与术语浅谈] 嫌简单？那继续往下看吧！ Anki 术语新卡片graduating interval: 新卡片学习以 &#39;Good&#39; 结束后进入复习阶段的第一个间隔 easy interval: 新卡片学习以 &#39;Easy&#39; 结束后进入复习阶段的第一个间隔 starting ease: 初始间隔基数，默认 250% 复习easy bonus: 简单奖励系数，默认 130% interval modifier: 间隔系…",
-  "id": 1408959119,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1408959119",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": false,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/42921090": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki 算法与术语浅谈\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/42921090\",\"desc\":\"199 赞同 · 34 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 直奔主题！先拿三个图来展示一下 [图片] [图片] 19/08/19 补充： [图片] 新卡片-步伐：第一个数字是学习新卡片选择【重来】的间隔，1 表示重来的间隔是 1 分钟，即一分钟后会重新出现。后面的数字是学习新卡片时选择【一般】的间隔， 5 10 表示第一次间隔 5 分钟，第二次间隔 10 分钟； 毕业间隔：学习新卡片后连续选择【一般】的间隔； 简单间隔：学习新卡片后选择【简单】的间隔； 开始简化：其实英文是 starting ease ，…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-75cbe90ad0adb828b95624e2460d273f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"42921090\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/97887756": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"04 1987 SuperMemo 1.0: 日志\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/97887756\",\"desc\":\"32 赞同 · 3 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 总目录： 0 目录《间隔重复的历史》 上一章： 03 1986：SuperMemo 的第一步 本文前半部分是 SuperMemo 作者的个人故事，有兴趣可以看。 后半部分是 SM-2 算法的介绍，Anki 的算法就是基于它的变体，推荐阅读。 1987：DOS 上的 SuperMemo 1.0SuperMemo 1.0: 日志 (1987)SuperMemo 的历史页面上写着：“ Wozniak 用 16 个晚上写了他的第一版 SuperMemo”。实际情况要复杂一些。让我用当天的笔记来详细描述一下。为这个想法做准备我不…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-9e2ee5b10cd764c7dd1be40b81aa6c6d_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"97887756\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/42921090": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki 算法与术语浅谈\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/42921090\",\"desc\":\"204 赞同 · 36 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 直奔主题！先拿三个图来展示一下 [图片] [图片] 19/08/19 补充： [图片] 新卡片-步伐：第一个数字是学习新卡片选择【重来】的间隔，1 表示重来的间隔是 1 分钟，即一分钟后会重新出现。后面的数字是学习新卡片时选择【一般】的间隔， 5 10 表示第一次间隔 5 分钟，第二次间隔 10 分钟； 毕业间隔：学习新卡片后连续选择【一般】的间隔； 简单间隔：学习新卡片后选择【简单】的间隔； 开始简化：其实英文是 starting ease ，…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-75cbe90ad0adb828b95624e2460d273f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"42921090\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/97887756": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"04 1987 SuperMemo 1.0: 日志\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/97887756\",\"desc\":\"32 赞同 · 3 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 总目录： 0 目录《间隔重复的历史》 上一章： 03 1986：SuperMemo 的第一步 本文前半部分是 SuperMemo 作者的个人故事，有兴趣可以看。 后半部分是 SM-2 算法的介绍，Anki 的算法就是基于它的变体，推荐阅读。 1987：DOS 上的 SuperMemo 1.0SuperMemo 1.0: 日志 (1987)SuperMemo 的历史页面上写着：“ Wozniak 用 16 个晚上写了他的第一版 SuperMemo”。实际情况要复杂一些。让我用当天的笔记来详细描述一下。为这个想法做准备我不…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-9e2ee5b10cd764c7dd1be40b81aa6c6d_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"97887756\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1408959119&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1596295562,
-    "detail": "<p></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b7bdd4796870f4d92c372571113b0492_b.jpg\" data-rawwidth=\"2388\" data-rawheight=\"1668\" data-size=\"normal\" class=\"origin_image zh-lightbox-thumb\" width=\"2388\" data-original=\"https://pic3.zhimg.com/v2-b7bdd4796870f4d92c372571113b0492_r.jpg\"/></figure><p>底部的三个时间如何设置呢，怎么样的时间间隔才算合理？</p>",
-    "id": 411447429,
+    "detail": "<p></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b7bdd4796870f4d92c372571113b0492_1440w.jpg\" data-rawwidth=\"2388\" data-rawheight=\"1668\" data-size=\"normal\" class=\"origin_image zh-lightbox-thumb\" width=\"2388\" data-original=\"https://pic3.zhimg.com/v2-b7bdd4796870f4d92c372571113b0492_r.jpg\"/></figure><p>底部的三个时间如何设置呢，怎么样的时间间隔才算合理？</p>",
+    "id": "411447429",
     "question_type": "normal",
     "relationship": {},
     "title": "anki如何设置三个时间间隔？",
     "type": "question",
     "updated_time": 1596295562,
-    "url": "https://api.zhihu.com/questions/411447429"
+    "url": "https://www.zhihu.com/api/v4/questions/411447429"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1629644802,
+  "url": "https://www.zhihu.com/api/v4/answers/1408959119",
   "voteup_count": 23
 }

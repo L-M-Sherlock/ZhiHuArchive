@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,19 +37,21 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,74 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 15,
-  "content": "<p data-pid=\"nDGc859D\">学没学会「根号」，很好测量、量化，考试就完事了，对多少题，及格率多少，很好汇报。</p><p data-pid=\"3ZvV8cdg\">学没学会《劳动法》，出默写题，有用么？会背书就算学会了么？怎么汇报教育“质量”？</p><p data-pid=\"GE_ux4Ev\">义务教育中的学校，是向上服务的，校长、行政领导、校董会成员、立法者、一直到官员。唯独不对学生本身服务。而越是身居高位，越不会关心具体的学生，而是抽象的数字。考试就是产生数字的高效方式。</p><p data-pid=\"uQYSg3px\">那么，为什么义务教育只教例如“根号”等可能一辈子都用不到的知识，答案就很明显了：因为这些知识容易被测试。</p><blockquote data-pid=\"JoYzAKiA\">不仅是考试被捆绑到标准上了；这些标准是根据他们的可测试性选出来的。「具体、可衡量的标准」这种短语不仅执迷于卓越，而且执迷于行为主义。说这种话最多的是公司职员和政治家，而不是前沿教育理论领袖，或者认知科学家，从中便可见一二。<br/><br/>我们在讨论这样一种观点，即学习或生活的方方面面，只要不能化作一个数字，其价值就是存疑的。相比之下，能以数字呈现的内容就是科学的，令人安心的；如果数字越来越大，那么我们肯定有所进步。内在动机和智力探索等概念，对于一些人来说难以捉摸，而成绩跟销售业绩与选票一样，能够被计算并制成图表，用来定义成功与失败。</blockquote><blockquote data-pid=\"cbpnkHM-\">可惜的是，有意义的学习并不沿着单一维度开展，我们也无法精确判断进步。莱斯大学的 Linda McNeil 观察到：「可衡量的结果可能是学习最不紧要的成果。」（这句话应该用 36 号 Helvetica 体打印出来，裱框后钉在这个国家每个学校管理员办公室的墙上）。将学校中的动态描述为某个指标在增长或下降的做法，不仅过度简化，更无法准确描述事情全貌；这种做法是破坏性的，因为它会破坏学校中的动态，使其越来越糟。<br/><br/>考虑 Sandra Stotsky 是马萨诸塞州的教育副专员，她曾评论道：「<b>探索</b>这个词不能放进标准里，因为探索无法被评估」。这个判断当然是错的，因为衡量学生探索质量的办法有很多——除非「评估」这一词被等同于标准化测试了。但让我们暂且假设 Stotsky 女士是对的。假如我们必须作出抉择，是看重课堂中的探索，还是看着衡量和指标呢？大部分深思熟虑的教育家会毫无疑虑地选择前者。显然，衡量文章中分号用了多少次，比衡量学生在论文中探索想法有多深入，是更简单的。因此，侧重于选择可以量化的标准，会让教学变得更平庸。<br/><br/>——摘自 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3\" data-hash=\"3c9990a12cdbcd92e20b1387b160f0a3\" data-hovercard=\"p$b$3c9990a12cdbcd92e20b1387b160f0a3\">@Thoughts Memo</a> 汉化组的译文《<a href=\"https://zhuanlan.zhihu.com/p/651720303\" class=\"internal\">标准化考试的「标准」同样值得警惕</a>》<br/><br/>Copyright 2001 by Alfie Kohn. Reprinted from <span class=\"nolink\">Beware of the Standards, Not Just the Tests</span> and translated by Thoughts Memo with the author&#39;s permission.</blockquote><hr/><p data-pid=\"yBCJtiCU\">创作声明：内容包含教育建议，国外经验仅供参考。</p>",
+  "content": "<p data-pid=\"nDGc859D\">学没学会「根号」，很好测量、量化，考试就完事了，对多少题，及格率多少，很好汇报。</p><p data-pid=\"3ZvV8cdg\">学没学会《劳动法》，出默写题，有用么？会背书就算学会了么？怎么汇报教育“质量”？</p><p data-pid=\"GE_ux4Ev\">义务教育中的学校，是向上服务的，校长、行政领导、校董会成员、立法者、一直到官员。唯独不对学生本身服务。而越是身居高位，越不会关心具体的学生，而是抽象的数字。考试就是产生数字的高效方式。</p><p data-pid=\"uQYSg3px\">那么，为什么义务教育只教例如“根号”等可能一辈子都用不到的知识，答案就很明显了：因为这些知识容易被测试。</p><blockquote data-pid=\"JoYzAKiA\">不仅是考试被捆绑到标准上了；这些标准是根据他们的可测试性选出来的。「具体、可衡量的标准」这种短语不仅执迷于卓越，而且执迷于行为主义。说这种话最多的是公司职员和政治家，而不是前沿教育理论领袖，或者认知科学家，从中便可见一二。<br/><br/>我们在讨论这样一种观点，即学习或生活的方方面面，只要不能化作一个数字，其价值就是存疑的。相比之下，能以数字呈现的内容就是科学的，令人安心的；如果数字越来越大，那么我们肯定有所进步。内在动机和智力探索等概念，对于一些人来说难以捉摸，而成绩跟销售业绩与选票一样，能够被计算并制成图表，用来定义成功与失败。</blockquote><blockquote data-pid=\"cbpnkHM-\">可惜的是，有意义的学习并不沿着单一维度开展，我们也无法精确判断进步。莱斯大学的 Linda McNeil 观察到：「可衡量的结果可能是学习最不紧要的成果。」（这句话应该用 36 号 Helvetica 体打印出来，裱框后钉在这个国家每个学校管理员办公室的墙上）。将学校中的动态描述为某个指标在增长或下降的做法，不仅过度简化，更无法准确描述事情全貌；这种做法是破坏性的，因为它会破坏学校中的动态，使其越来越糟。<br/><br/>考虑 Sandra Stotsky 是马萨诸塞州的教育副专员，她曾评论道：「<b>探索</b>这个词不能放进标准里，因为探索无法被评估」。这个判断当然是错的，因为衡量学生探索质量的办法有很多——除非「评估」这一词被等同于标准化测试了。但让我们暂且假设 Stotsky 女士是对的。假如我们必须作出抉择，是看重课堂中的探索，还是看着衡量和指标呢？大部分深思熟虑的教育家会毫无疑虑地选择前者。显然，衡量文章中分号用了多少次，比衡量学生在论文中探索想法有多深入，是更简单的。因此，侧重于选择可以量化的标准，会让教学变得更平庸。<br/><br/>——摘自 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3\" data-hash=\"3c9990a12cdbcd92e20b1387b160f0a3\" data-hovercard=\"p$b$3c9990a12cdbcd92e20b1387b160f0a3\">@Thoughts Memo</a> 汉化组的译文《<a href=\"https://zhuanlan.zhihu.com/p/651720303\" class=\"internal\" target=\"_blank\">标准化考试的「标准」同样值得警惕</a>》<br/><br/>Copyright 2001 by Alfie Kohn. Reprinted from <span class=\"nolink\">Beware of the Standards, Not Just the Tests</span> and translated by Thoughts Memo with the author&#39;s permission.</blockquote><hr/><p data-pid=\"yBCJtiCU\">创作声明：内容包含教育建议，国外经验仅供参考。</p>",
   "content_need_truncated": false,
   "created_time": 1692954208,
   "excerpt": "学没学会「根号」，很好测量、量化，考试就完事了，对多少题，及格率多少，很好汇报。 学没学会《劳动法》，出默写题，有用么？会背书就算学会了么？怎么汇报教育“质量”？ 义务教育中的学校，是向上服务的，校长、行政领导、校董会成员、立法者、一直到官员。唯独不对学生本身服务。而越是身居高位，越不会关心具体的学生，而是抽象的数字。考试就是产生数字的高效方式。 那么，为什么义务教育只教例如“根号”等可能一辈子都…",
-  "id": 3182336631,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3182336631",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=3182336631&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1692585273,
     "detail": "<p>为什么义务教育期间，校方宁愿教学生例如“根号”等可能一辈子都用不到的知识，也不教《劳动法》等实用知识？</p>",
-    "id": 618358300,
+    "id": "618358300",
     "question_type": "normal",
     "relationship": {},
     "title": "为什么义务教育期间，宁愿教学生例如“根号”等可能一辈子都用不到的知识，也不教《劳动法》等实用知识？",
     "type": "question",
     "updated_time": 1692891746,
-    "url": "https://api.zhihu.com/questions/618358300"
+    "url": "https://www.zhihu.com/api/v4/questions/618358300"
   },
   "relationship": {
     "upvoted_followees": []
   },
+  "segment_infos": [
+    {
+      "marks": [
+        {
+          "end_index": 78,
+          "seg_info": {
+            "comment_count": 0,
+            "is_like": false,
+            "is_span": false,
+            "like_count": 5,
+            "my_comment_count": 0,
+            "seg_ids": [
+              "1678706088705425408"
+            ]
+          },
+          "start_index": 0
+        }
+      ],
+      "pid": "GE_ux4Ev",
+      "text": "义务教育中的学校，是向上服务的，校长、行政领导、校董会成员、立法者、一直到官员。唯独不对学生本身服务。而越是身居高位，越不会关心具体的学生，而是抽象的数字。考试就是产生数字的高效方式。"
+    }
+  ],
   "type": "answer",
+  "updated_time": 1692954208,
+  "url": "https://www.zhihu.com/api/v4/answers/3182336631",
   "voteup_count": 140
 }

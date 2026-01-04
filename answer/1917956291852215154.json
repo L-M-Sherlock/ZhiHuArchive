@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pica.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -16,8 +17,8 @@
           "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -40,14 +41,14 @@
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
           "badge_status": "passed",
@@ -83,7 +84,7 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
@@ -99,9 +100,20 @@
   "content_need_truncated": false,
   "created_time": 1750056413,
   "excerpt": "别说老师了，你能不能理解你同学？某道题他做错了，你做对了，你能理解他为什么做错了吗？你能给他讲明白吗？ 根据我自己的经历，我常常无法理解为什么别人把某道数学题做错了，对我来说，这些题目的解题过程是非常显然的。 我那些英语特别好的同学也不能理解我为什么完形填空能 20 道错 19 道（我还觉得我的理解非常正确）。我问他们为什么这样选，他们告诉我凭语感（ 每个人的知识背景差异巨大，而且会在学习过程中自然分化 [1…",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "1917956291852215154",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/23434897373?contentId=1917956291852215154&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1749528081,
     "detail": "",
@@ -111,11 +123,35 @@
     "title": "为什么老师以前也是学生，可是等他们成为老师后，为什么就不能够理解学生了？",
     "type": "question",
     "updated_time": 1749528081,
-    "url": "https://api.zhihu.com/questions/1915740303698138137"
+    "url": "https://www.zhihu.com/api/v4/questions/1915740303698138137"
   },
   "relationship": {
     "upvoted_followees": []
   },
+  "segment_infos": [
+    {
+      "marks": [
+        {
+          "end_index": 71,
+          "seg_info": {
+            "comment_count": 0,
+            "is_like": false,
+            "is_span": false,
+            "like_count": 7,
+            "my_comment_count": 0,
+            "seg_ids": [
+              "1918031959990441597"
+            ]
+          },
+          "start_index": 51
+        }
+      ],
+      "pid": "AiJnqFGG",
+      "text": "我那些英语特别好的同学也不能理解我为什么完形填空能 20 道错 19 道（我还觉得我的理解非常正确）。我问他们为什么这样选，他们告诉我凭语感（"
+    }
+  ],
   "type": "answer",
-  "voteup_count": 251
+  "updated_time": 1750057629,
+  "url": "https://www.zhihu.com/api/v4/answers/1917956291852215154",
+  "voteup_count": 255
 }

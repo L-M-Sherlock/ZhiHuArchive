@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "670118024",
+  "title": "斯坦福教授 Huberman：如何应对压力与焦虑 ep.10",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/670118024",
+  "image_url": "https://picx.zhimg.com/v2-ebada888b14fec0bdf4d585731aa9a0f_720w.jpg?source=172ae18b",
+  "title_image": "https://pica.zhimg.com/v2-ebada888b14fec0bdf4d585731aa9a0f_720w.jpg?source=172ae18b",
+  "excerpt": "Andrew Huberman 是在斯坦福大学任教的知名神经科学家，他的 Huberman Lab Podcast 是一独特且极具价值的播客系列，在英文互联网享有极高的知名度。播客中，他探讨并分享了许多关于睡眠、压力管理、学习、锻炼和营养等方面的知识与实用建议。Huberman 博士…",
+  "created": 1701577199,
   "updated": 1704594133,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://pic1.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "Andrew Huberman 是在斯坦福大学任教的知名神经科学家，他的 Huberman Lab Podcast …",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 1280,
+  "image_height": 720,
+  "content": "<p data-pid=\"8TUTio17\">Andrew Huberman 是在斯坦福大学任教的知名神经科学家，他的 Huberman Lab Podcast 是一独特且极具价值的播客系列，在英文互联网享有极高的知名度。播客中，他探讨并分享了许多关于睡眠、压力管理、学习、锻炼和营养等方面的知识与实用建议。Huberman 博士擅长用通俗易懂的语言深入浅出地解释复杂的科学概念，让每个人都能从这个播客中获益。截至目前，播客已近 200 期。</p><p data-pid=\"foVc9XN7\">可即使这一播客系列是相当优秀的学习资源，由于其性质的原因，其内容有些过于口语化，显得拖沓、啰嗦，信噪比低。为了向更多人传播英文世界的优质内容，Thoughts Memo 汉化组启动了 Huberman Podcast 笔记工程。原 90 分钟左右的播客会被浓缩为一篇篇简短的文章，剔除重复、无意义的部分，将播客的精华保留下来，并用汉语文本的形式呈现。</p><p data-pid=\"ruaxRY1R\"><b>大家在点收藏的同时，别忘了点个赞支持我们。</b></p><p data-pid=\"dYsM33Wv\">作者：panda</p><p data-pid=\"sC-1bjNx\">原标题：Tools for Managing Stress &amp; Anxiety</p><hr/><h2>压力系统的来源</h2><p data-pid=\"FSQPJy6J\">有论调认为，压力系统是我们的祖先为了更好地从狮子老虎的口中脱险而进化出来的，现在我们已经无需应对这种生存威胁，它成了一种累赘。然而压力系统不是为了特定的目的设计出来的，而是一个通用的，帮助我们更好地应对各种事务的系统。</p><h2>为什么我们会紧张？</h2><p data-pid=\"lteMq0co\">首先区分两个概念，压力源，就是让我们感受到压力的事情；压力反应，是我们对于上述事情的反应。压力源既可以是心理上的，也可以是生理上的，比如让你同时准备七八场考试和让你在下雪天的室外只穿单衣，都可以是压力源。</p><p data-pid=\"NVJQf4VI\">当我们面对突如其来的压力源，比如在野外遭遇一头狼，我们会感到紧张，这就是一种压力反应，称为急性压力反应，或者说即时反应。</p><p data-pid=\"NTUtK50_\">我们通常会被吓呆，喉咙变干，心跳加速，这是因为我们的交感神经元被激活时放出了乙酰胆碱，乙酰胆碱能使肌肉收缩，让你一动不动。</p><p data-pid=\"vSCVZ4Kn\">同时后节神经元受到乙酰胆碱刺激，释放肾上腺素，进而刺激身体不同部位的受体，让它们产生反应，比如收缩唾液腺相关的血管，让你喉咙发干，刺激心脏，让你心跳加快，舒张腿部血管，增加供血，方便你逃离等等。</p><p data-pid=\"UmigfUL_\">同时肾上腺素也会使得一些在当下无关紧要的系统的供血减少，比如消化和生殖系统。</p><p data-pid=\"inB1qNn4\">总之，压力反应旨在调配身体资源，来更好地应对当下情况。</p><h2>如何处理紧张？</h2><p data-pid=\"OSSsinDi\">如果你想让自己放松下来，就要想办法减轻上述的生理反应，我将介绍一个好方法：生理性叹息（physiological sigh）。当你感到压力时，连续吸气两次（double inhale，注：意思就是正常吸一口气之后，再吸一口，相当于深吸气），然后长长地呼气。如此反复二到三次，就能明显降低你的压力水平。</p><p data-pid=\"TTIjuOX3\">要解释其中原理，就需要了解我们身体：当我们吸气时，身体内部的膈肌会因为肺膨胀而向下移动。我们的心脏就在这个过程中拥有了更大的跳动空间，能舒张得更大，血液的流动速度就相对降低了。这时，在心脏中有一小群称为窦房结的神经元，它们告诉大脑：血液在心脏中流动得更慢了。然后，大脑向心脏发送信号，让心脏加快跳动。</p><p data-pid=\"2QWCZYuL\">我们也可以反向利用这个原理，当压力反应出现时，我们便长长地呼气，让膈肌向上移动，使心脏收缩得更小，血液在这个紧凑的空间中流动得更快，窦房结感知到血液流动得更快，向大脑发送信号，副交感神经系统的神经元再向心脏发送信号，让心脏减慢跳动。也就是说，如果我们想要快速平静下来，就要让呼气时间比吸气时间长，或者让呼气更有力。</p><p data-pid=\"zd_Y9wXG\">另外，我们感到压力时，我们肺部的囊泡往往趋于收缩，并且二氧化碳会在我们的血液中大量堆积，这也是我们焦虑的原因之一。进行生理性叹息，肺部的这些小囊泡会在我们吸气时重新膨胀，然后长长的呼气将有效地排除体内的二氧化碳，从而迅速使你放松下来。</p><h2>关于生理性叹息（physiological sigh）</h2><p data-pid=\"-S8V_bS4\">生理性叹息在上世纪 30 年代被发现，目前加州大学洛杉矶分校的杰克·费尔德曼（Jack Feldman）实验室和斯坦福大学的马克·克拉斯诺（Mark Krasnow）实验室对其进行了更详细的研究。研究发现，无论是人类还是动物，入睡前都会进行生理性叹息。</p><p data-pid=\"TZqYWYfn\">当二氧化碳在身体中积累过多时，人们在睡眠过程中也会不时地进行生理性叹息。当人们哭泣后努力恢复呼吸或试图冷静下来时，生理性叹息也会自然出现。此外，在感到压抑或处于幽闭恐惧环境时，人们会自然地开始进行生理性叹息。</p><p data-pid=\"htlU0pve\">生理性叹息大约需要二三十秒才能让我们恢复到正常状态，同时会让我们感到思维更加敏锐。</p><p data-pid=\"t66sRUNZ\">对于睡不好或者白天难以放松自己的人来说，可以做十到十五次生理性叹息，可以帮助入睡和放松。</p><p data-pid=\"YXc_hise\">生理性叹息该用鼻呼吸还是口呼吸？关于这个问题，应该说与口呼吸相比，鼻呼吸更有优势，比如有利于面部的美观，尤其是对儿童的面部发育、预防感染等。在进行生理叹息时，最好的方式是通过鼻子吸气，然后通过嘴巴呼气。如果你做不到，那么就只用鼻子或只用嘴巴呼吸。</p><h2>压力还能带来好处？</h2><p data-pid=\"CDXN7BF9\">拖延症实际上是我们自己给自己施加压力。对失败的担忧，对优秀的渴望，迫在眉睫的截止日……无论以何种形式出现，压力就像一种药物，一种强大的脑功能增强剂。有它再加上一个好的睡眠，我们就能更好地完成任务。</p><p data-pid=\"rPN1MCVB\">不仅如此，急性压力反应对我们的免疫系统有益，这听起来匪夷所思，但绝对真实。事实上，细菌或病毒感染也可以是一种压力源，压力反应能提高我们的肾上腺素水平，激活你的脾脏，使其释放杀伤细胞（killer cell）去消灭他们。其中涉及的神经反应与使你奋起产生行动的神经反应是共同的。</p><p data-pid=\"bHwAUTyG\">有时我们经历一段充满压力的日子（比如持续忙碌地工作，或者疲于照顾爱人）之后，终于有了喘息的机会，能够放松下来，甚至拥有度假的机会时，反而在这个关口，我们病倒了。这正是因为压力源消失，没有什么能让我们持续维持高肾上腺素水平，于是我们的免疫系统也遭遇溃败。</p><p data-pid=\"WaAaIt1f\">炎症听起来不是什么好事，但短期的炎症反应有利于维持健康。如果你不小心被树枝划伤，在一天或一周内不时经历一些急性压力，可以更好地防止伤口感染。</p><p data-pid=\"7HFKHDLh\">另一种我们能自主控制的，可以激活免疫反应系统以对抗感染的方法是，先进行二十五至三十次深呼吸，接着长呼一口气，屏住呼吸二十五至三十秒，再深吸一口气，如此循环（注意，请确认自己适合这种方法后应用，否则可能带来危险。尤其是在游泳时。）在途中你会感到发热，出汗。这种呼吸也有助于你抵抗寒冷。</p><p data-pid=\"xbOUUf_C\">《美国国家科学院院刊》上的一项研究证明这是在模拟应激反应。实验的方式是给人们注射内毒素，或者注射模拟感染的细菌细胞壁。这会导致发热、恶心和不适感，其中一半的人随即出现了与上述类似的呼吸模式。</p><p data-pid=\"BNGdWfOG\">同时，这种呼吸模式也和所谓的 Wim Hof 呼吸法，Tummo 呼吸法以及 super oxygenation 呼吸法很类似，然而这里无意讨论它们的区别或优劣，我们只需要知道通过这种方法，可以激活我们的免疫反应。</p><p data-pid=\"STmv-oem\">不仅如此，上面这些呼吸法的「过度换气」（可以理解为模仿剧烈运动后的喘气）会明显让我们感到更兴奋，甚至触发小部分人的焦虑症。</p><h2>中等长度的压力期该如何管理？</h2><p data-pid=\"oOUT4gCD\">中期压力，即中等长度的压力期，指的是持续几天到几周的压力期。压力阈值简而言之就是承受压力的能力。有些人经历的压力太大，超越了压力阈值，结果十分严重：比如，有一种焦虑症（注：原文未给出出处，据我查找，应该是身体完整性焦虑，BID）会让患者感觉他们的肢体并不属于他们，甚至试图说服医生截断他们身体的某些健康部位。</p><p data-pid=\"IYukxznQ\">应对管理中等长度的压力期的方法都与提高压力阈值有关。我们要有意识地将自己置身于一种肾上腺素略高的情境中，哪怕这让我们的身体感到恐慌，我们也要锻炼一种在认知上使自己平静下来接受这种生理反应的能力。</p><p data-pid=\"Evwx5VNO\">我们可以进行生理性叹息，也可以长期用冷水淋浴，我们可以坚持进行高强度锻炼，使自己进入那种情境。只要我们能说服自己，在身体非常激动时仍然能够放松心灵，那么我们会发现生活更加可控，压力也不显得那么大了，因为我们的阈值已经提高。</p><p data-pid=\"4C0PTz4v\">另外一种方法是有意识地扩大我们的视野。当感受到压力时，我们的瞳孔会扩大，实际上缩小了我们的观察范围。我们无需转动头部，甚至不需转动眼珠，仅仅有意识地让自己的视觉更广阔（注：原博客没有说明，不过应该是指注意力不要局限在一个点上，通过余光关注周围），看清我们所处的环境，就有助于我们减轻压力，而且效果显著。在这个过程中当然可以眨眼。</p><p data-pid=\"-CUkXUnV\">最后，保持良好的睡眠，如果我们起夜了，尽量尝试继续入睡，直到感到自己获得了良好的休息为止。在理想情况下，压力水平会在一天中的不同时间内多次上升，但不会永远保持这个势头，它不会影响我们的睡眠；而现实情况并非如此，每月我们可能总有那么三四个晚上焦虑得睡不着觉。关于睡眠和 NSDR（非睡眠深度休息）等的问题，之前的节目中我们已经讨论过，你可以回去翻看它们是否适合你。</p><h2>长期压力</h2><p data-pid=\"woUkfAct\">长期压力绝对是有害的，这里的长期指的是数月或数年。长期处于高水平肾上腺素下，我们身体的部分血管会长期舒张，这实际上是一种慢性高血压，会导致一些心脏疾病，而这些疾病正是部分国家（如美国）的头号杀手。</p><p data-pid=\"AOpWV5R2\">有些管理长期压力的方法是我们都熟悉的：良好的饮食习惯，定期锻炼，良好的睡眠以及刚刚我们提到的一些实用方法都有利于减轻压力反应。我们也知道，良好的人际关系有助于减轻压力，但这可不像有些人说的，「社交联系有助于释放催产素」。催产素只在性高潮后，婴儿母亲哺乳时等等特定的情况下释放，其中机制有深刻的生物学意义。和某人见面，拥抱，一两句问候或者碰拳都不会让我们释放催产素。</p><p data-pid=\"Ojb1JQ_L\">社交活动能缓解长期压力的内在机制是它能促进我们身体的调节机制，增加如血清素等物质的释放和减少 Taqi Kynan【注：下文会解释这个奇怪的名词】的产生。血清素是一种神经递质，高水平的血清素能让我们感到幸福，也倾向于让我们对周围环境感到满足。</p><p data-pid=\"-A9KhrfZ\">部分抗抑郁药物正是通过提高大脑中的血清素水平来改善病情的，但大量外源性血清素会抑制人体自身血清素的产生，可能导致情绪麻木或性欲减退。与催产素相比，血清素起效更快。当我们看到我们熟识、信任的人时，大脑会释放血清素，这对免疫系统、其他神经的修复以及突触形成系统有积极影响，能防止大脑衰退。</p><p data-pid=\"aUpi6Kbf\">没有科学证据表明这种联系必须是人与人之间的联系，实际上也许我们和我们的宠物狗之间的联系也对健康大有裨益。</p><p data-pid=\"uTduLhMH\">我们常常听说，人就是要享受生活，就是要玩乐，但关键不在玩乐，而在于对所见所闻，所参与的事感到满足和享受，拥有愉悦感，这些都与血清素的产生有关。在生活中我们要留心识别那些让我们感到舒适、信任、幸福和愉悦的瞬间，记住它们发生于何时，以便你能更好地认识到做什么事情能让你产生血清素。这里介绍一个小技巧：注意到并写下那些让你感激的事，无论事情看起来多么小，都可能对血清素的分泌起着不小的作用。</p><p data-pid=\"6hHeUu0h\">对于部分人来说，维持与他人的联系可能有些困难，但这是一项值得的投资。也许在这个过程中我们需要迁就他人，吃不想吃的菜，不能按平时的时间作息等等……但人，灵长类，毕竟都是社交动物。去寻找吧，找到一两个人，甚至一个人或者其他能让你感到愉悦的动物，不管你相信与否，这都对缓解长期压力、改善心理健康有着非常积极的影响。 </p><p data-pid=\"zUnewazm\">让我们来谈谈孤独吧。长期孤独和长期压力导致 Taqi Kynan 的分泌，它是一种分子，会抑制我们大脑和身体的许多正常生理功能，同时促进烦躁、偏执和恐惧等不良情绪产生。Taqi Kynan 就像一个内源性的惩罚，使我们更加恐惧，偏执，并损害我们的免疫系统。它是我们的身体和大脑在告诉我们：「你没有花足够的时间与你真正信任的人在一起。你没有花时间做你真正喜欢的事情。」</p><p data-pid=\"J60mz4Dg\">当我们太过于注重眼前的目标，忙于行动并试图完成一切时，阴险的 Taqi Kynan 便开始分泌，危害身体。为了避免这样的事情发生，我们可以在桌子上贴一张便条提示自己记得常与家人或朋友共同进餐，时间宜长不宜短【注：作者自己的便条上写的是「Taqi Kynan」】。</p><h2>补充剂</h2><p data-pid=\"cX-ZErW5\">这里讨论的并非抗抑郁药物，如果你需要抗抑郁药，请咨询医生，接受他们的处方并且遵循医嘱。</p><p data-pid=\"E1dimohj\">介绍一个网站：<a href=\"https://link.zhihu.com/?target=http%3A//examine.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">examine.com</a>。它是免费的，你可以在其中输入任何补充剂，根据网站提供的链接到 PubMed 查看相关论文，从而客观专业地了解该补充剂是否适合你。这并非广告，纯粹觉得好用而推荐。</p><p data-pid=\"E7B9vCFM\">我们重点介绍三种补充剂，褪黑素，茶氨酸（或称为L-茶氨酸）和南非醉茄（ashwagandha）。</p><p data-pid=\"5lzbYtWv\">先说褪黑素（Melatonin）。褪黑素源于松果体，与人体身处的黑暗程度直接相关。这里的黑暗不是指前途上的黑暗，而是说指光线抑制褪黑素的分泌。褪黑素有助于入睡，但无助于睡眠的维持。个人而言，我不建议补充褪黑素，因为补充剂通常含量极高，每天 1mg~3mg 甚至更高的剂量是远超人体正常分泌的水平的。它还可能对生殖系统产生一些潜在的负面影响。</p><p data-pid=\"QBT4KYWE\">如果你能适应，那当然很好，但你仍然应该在 <a href=\"https://link.zhihu.com/?target=http%3A//examine.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">examine.com</a> 上进行查找，并与医生咨询是否应该服用褪黑素。特别是对于儿童来说，褪黑素会抑制多种物种的青春期反应。长时间摄入过高剂量的褪黑激素可能会导致对肾上腺释放的皮质醇和肾上腺素的抑制，从而导致一种类似肾上腺功能不全综合征的伪肾上腺功能不全综合征。</p><p data-pid=\"HO6fKBdG\">插播一个题外话，肾上腺疲劳并不存在。肾上腺疲劳的概念源于诺贝尔奖获得者汉斯·塞利（Hans Selye），他认为如果压力存在的时间足够长，那么人体最终会进入一种所谓「耗竭阶段」的状态，导致我们筋疲力竭。还有人说，喝咖啡会导致肾上腺疲劳，但这种病本身就不存在，毕竟肾上腺中的肾上腺素足够我们用200年的呢。</p><p data-pid=\"ZkWmUjG4\">再说说茶氨酸（L-theanine）。在睡前约 30 分钟或 60 分钟服用 100mg 或 200mg（请确认这个剂量对于你是安全的）。对于很多人来说，它可以帮助入睡和增加深度睡眠时间。它增加了脑中的抑制性神经递质-γ-氨基丁酸（GABA）的含量。它倾向于关闭我们的前脑或减少我们思考系统和反复思考系统的活动，帮助人们入睡。</p><p data-pid=\"4oawrjHc\">除了对睡眠的作用外，有研究表明，对于那些长期焦虑或有长期压力的人来说，茶氨酸可以帮助放松。已经有四项研究证明它对焦虑有轻微影响，其中一些发表在重要的期刊上，这些都可以在 <a href=\"https://link.zhihu.com/?target=http%3A//examine.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">examine.com</a> 上查到。它还可以减轻与任务完成有关的焦虑。这对于拖延症可能不太友好，但对于那些遭受长期压力的人来说，效果拔群。</p><p data-pid=\"lB-vvQm1\">它还可以在一定范围内提高注意力，一定程度上降低血压，还对失眠和一些血脂指标有影响。我本人也会服用茶氨酸，很多公司现在在能量饮料中也会添加茶氨酸。 </p><p data-pid=\"68dkiFiM\">再插播一个题外话，我不喜欢含牛磺酸的能量饮料，因为牛磺酸导致我眼睛巩膜的微血管破裂。但这只是我个人的经验，并不适用于所有人，否则能量饮料公司早就开不下去了。</p><p data-pid=\"LSBZPipo\">最后是南非醉茄（ashwagandha）。南非醉茄被认为具有减轻焦虑和降低皮质醇的作用。正常水平的皮质醇能让我们在早晨醒来，但长期高水平的皮质醇是有害的。</p><p data-pid=\"NkAFYyOb\">有六项研究支持南非醉茄能降低皮质醇，当实验对象为身体健康但压力大的人时，皮质醇降低了 14.5% 到 27.9%。这些研究的实验对象均为成人。在其他五项研究中，显示出其具有减轻压力的效果，这是指其有助于疲劳、认知障碍等方面的改善。</p><p data-pid=\"R_Sllpv5\">南非醉茄能降低总胆固醇，最多降低 10%。这有好有坏，毕竟胆固醇太低也不好。南非醉茄我也会用，但并不全年都用，只有在我感到自己没有很好地应对短期和中期压力时，我才会选择它，以免遭受长期压力副作用的影响。</p><h2>什么是情绪？</h2><p data-pid=\"GBMwsHSe\">让我们回到那个核心问题上来吧：到底什么是情绪？这是一个复杂的问题，没有一个固定的大脑区域与我们所称之为情绪东西相对应。</p><p data-pid=\"iBmHaJO7\">在这个问题上，我的观点和丽莎·费尔德曼·巴雷特（Lisa Feldman Barrett）的观点基本一致。她任职于东北大学（Northeastern University），是情绪领域的世界级专家，著有《Seven and a Half Facts About the Brain》和《How Emotions Are Made》两本非常棒的书。我认为她一定会赞同这样的观点：当我们内在的压力或平静的状态与我们所面临的处境相匹配时，我们倾向于将其解释为「好的情绪」；当不匹配时，我们解释其为「坏的情绪」。</p><p data-pid=\"DDDsYBWX\">举个例子，当我们感到非常焦虑、非常紧张，而又有很多事情要做时，这样的情绪就是负面的，我们本该斗志昂扬。相反的，如果我感到很疲倦，而我要做的事情仅仅是入睡，那么这样的疲倦感就是好的，如果我们感到清醒反而会让事情变得糟糕。</p><p data-pid=\"WVfce7Nm\">当然，真实的情绪反应远比这复杂的多，但思考情绪是否与处境相匹配，不失为一个很有用的思考角度。</p><h2>我们需要正念吗？</h2><p data-pid=\"_XRkPOrj\">正念，活在当下的概念听起来很美妙，但我不知道如何保持它。就个人而言，我每天只是单纯地工作并且试着保持专注，如果要我监控和观察自己，并从第三者的角度看待自己正在做的事情，那会让我降低效率并且失去沉浸的体验感。</p><p data-pid=\"Tk7bfqFL\">大多数人的烦躁，焦虑和抑郁都是因为休息不够，劳累以及压力过大，与其用主观的角度审视自己，不如采用更加客观的生理学视角，采用我上面提到的一些方法去调控我们身体中的各个系统，找回主动权。要承认这个世界上不可能事事尽在掌握，但至少我们可以控制我们对这些事情的反应。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"en2tpVnF\">希望今天的节目能给你一些有用的信息和启发，让你更好地应对生活。</p><hr/><p data-pid=\"xm7Ow1Yv\">系列目录：<a href=\"https://zhuanlan.zhihu.com/p/676445568\" class=\"internal\" target=\"_blank\">Thoughts Memo：全网首发：Huberman Lab Podcast 全系列笔记（持续更新）</a></p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19578479",
+      "type": "topic",
+      "id": "19578479",
+      "name": "压力"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19571469",
+      "type": "topic",
+      "id": "19571469",
+      "name": "焦虑"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19568143",
+      "type": "topic",
+      "id": "19568143",
+      "name": "心理健康"
+    }
+  ],
+  "voteup_count": 156,
+  "voting": 1,
+  "heavy_up_status": "has_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "好睡眠，好学习，好生活",
+    "is_following": false,
+    "url_token": "c_1525846593119449088",
+    "id": "c_1525846593119449088",
+    "articles_count": 97,
+    "accept_submission": true,
+    "title": "睡眠研究 & 生活建议",
+    "url": "https://api.zhihu.com/columns/c_1525846593119449088",
+    "comment_permission": "all",
+    "created": 1656570176,
+    "updated": 1751877207,
+    "image_url": "https://picx.zhimg.com/v2-080a085ec59b78d9d731960f7b0fdb50_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 339,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 24,
+  "contributions": [
+    {
+      "id": 47249869,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "好睡眠，好学习，好生活",
+        "is_following": false,
+        "url_token": "c_1525846593119449088",
+        "id": "c_1525846593119449088",
+        "articles_count": 97,
+        "accept_submission": true,
+        "title": "睡眠研究 & 生活建议",
+        "url": "https://api.zhihu.com/columns/c_1525846593119449088",
+        "comment_permission": "all",
+        "created": 1656570176,
+        "updated": 1751877207,
+        "image_url": "https://picx.zhimg.com/v2-080a085ec59b78d9d731960f7b0fdb50_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 339,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 670118024,
-  "voteup_count": 142,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 237,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "斯坦福教授 Huberman：如何应对压力与焦虑 ep.10 - 来自知乎专栏「睡眠研究 &amp; 生活建议」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/670118024 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1701577199,
-  "url": "https://api.zhihu.com/articles/670118024",
-  "comment_permission": "all",
-  "title": "斯坦福教授 Huberman：如何应对压力与焦虑 ep.10",
-  "image_width": 720,
-  "content": "<p data-pid=\"8TUTio17\">Andrew Huberman 是在斯坦福大学任教的知名神经科学家，他的 Huberman Lab Podcast 是一独特且极具价值的播客系列，在英文互联网享有极高的知名度。播客中，他探讨并分享了许多关于睡眠、压力管理、学习、锻炼和营养等方面的知识与实用建议。Huberman 博士擅长用通俗易懂的语言深入浅出地解释复杂的科学概念，让每个人都能从这个播客中获益。截至目前，播客已近 200 期。</p><p data-pid=\"foVc9XN7\">可即使这一播客系列是相当优秀的学习资源，由于其性质的原因，其内容有些过于口语化，显得拖沓、啰嗦，信噪比低。为了向更多人传播英文世界的优质内容，Thoughts Memo 汉化组启动了 Huberman Podcast 笔记工程。原 90 分钟左右的播客会被浓缩为一篇篇简短的文章，剔除重复、无意义的部分，将播客的精华保留下来，并用汉语文本的形式呈现。</p><p data-pid=\"ruaxRY1R\"><b>大家在点收藏的同时，别忘了点个赞支持我们。</b></p><p data-pid=\"dYsM33Wv\">作者：panda</p><p data-pid=\"sC-1bjNx\">原标题：Tools for Managing Stress &amp; Anxiety</p><hr/><h2>压力系统的来源</h2><p data-pid=\"FSQPJy6J\">有论调认为，压力系统是我们的祖先为了更好地从狮子老虎的口中脱险而进化出来的，现在我们已经无需应对这种生存威胁，它成了一种累赘。然而压力系统不是为了特定的目的设计出来的，而是一个通用的，帮助我们更好地应对各种事务的系统。</p><h2>为什么我们会紧张？</h2><p data-pid=\"lteMq0co\">首先区分两个概念，压力源，就是让我们感受到压力的事情；压力反应，是我们对于上述事情的反应。压力源既可以是心理上的，也可以是生理上的，比如让你同时准备七八场考试和让你在下雪天的室外只穿单衣，都可以是压力源。</p><p data-pid=\"NVJQf4VI\">当我们面对突如其来的压力源，比如在野外遭遇一头狼，我们会感到紧张，这就是一种压力反应，称为急性压力反应，或者说即时反应。</p><p data-pid=\"NTUtK50_\">我们通常会被吓呆，喉咙变干，心跳加速，这是因为我们的交感神经元被激活时放出了乙酰胆碱，乙酰胆碱能使肌肉收缩，让你一动不动。</p><p data-pid=\"vSCVZ4Kn\">同时后节神经元受到乙酰胆碱刺激，释放肾上腺素，进而刺激身体不同部位的受体，让它们产生反应，比如收缩唾液腺相关的血管，让你喉咙发干，刺激心脏，让你心跳加快，舒张腿部血管，增加供血，方便你逃离等等。</p><p data-pid=\"UmigfUL_\">同时肾上腺素也会使得一些在当下无关紧要的系统的供血减少，比如消化和生殖系统。</p><p data-pid=\"inB1qNn4\">总之，压力反应旨在调配身体资源，来更好地应对当下情况。</p><h2>如何处理紧张？</h2><p data-pid=\"OSSsinDi\">如果你想让自己放松下来，就要想办法减轻上述的生理反应，我将介绍一个好方法：生理性叹息（physiological sigh）。当你感到压力时，连续吸气两次（double inhale，注：意思就是正常吸一口气之后，再吸一口，相当于深吸气），然后长长地呼气。如此反复二到三次，就能明显降低你的压力水平。</p><p data-pid=\"TTIjuOX3\">要解释其中原理，就需要了解我们身体：当我们吸气时，身体内部的膈肌会因为肺膨胀而向下移动。我们的心脏就在这个过程中拥有了更大的跳动空间，能舒张得更大，血液的流动速度就相对降低了。这时，在心脏中有一小群称为窦房结的神经元，它们告诉大脑：血液在心脏中流动得更慢了。然后，大脑向心脏发送信号，让心脏加快跳动。</p><p data-pid=\"2QWCZYuL\">我们也可以反向利用这个原理，当压力反应出现时，我们便长长地呼气，让膈肌向上移动，使心脏收缩得更小，血液在这个紧凑的空间中流动得更快，窦房结感知到血液流动得更快，向大脑发送信号，副交感神经系统的神经元再向心脏发送信号，让心脏减慢跳动。也就是说，如果我们想要快速平静下来，就要让呼气时间比吸气时间长，或者让呼气更有力。</p><p data-pid=\"zd_Y9wXG\">另外，我们感到压力时，我们肺部的囊泡往往趋于收缩，并且二氧化碳会在我们的血液中大量堆积，这也是我们焦虑的原因之一。进行生理性叹息，肺部的这些小囊泡会在我们吸气时重新膨胀，然后长长的呼气将有效地排除体内的二氧化碳，从而迅速使你放松下来。</p><h2>关于生理性叹息（physiological sigh）</h2><p data-pid=\"-S8V_bS4\">生理性叹息在上世纪 30 年代被发现，目前加州大学洛杉矶分校的杰克·费尔德曼（Jack Feldman）实验室和斯坦福大学的马克·克拉斯诺（Mark Krasnow）实验室对其进行了更详细的研究。研究发现，无论是人类还是动物，入睡前都会进行生理性叹息。</p><p data-pid=\"TZqYWYfn\">当二氧化碳在身体中积累过多时，人们在睡眠过程中也会不时地进行生理性叹息。当人们哭泣后努力恢复呼吸或试图冷静下来时，生理性叹息也会自然出现。此外，在感到压抑或处于幽闭恐惧环境时，人们会自然地开始进行生理性叹息。</p><p data-pid=\"htlU0pve\">生理性叹息大约需要二三十秒才能让我们恢复到正常状态，同时会让我们感到思维更加敏锐。</p><p data-pid=\"t66sRUNZ\">对于睡不好或者白天难以放松自己的人来说，可以做十到十五次生理性叹息，可以帮助入睡和放松。</p><p data-pid=\"YXc_hise\">生理性叹息该用鼻呼吸还是口呼吸？关于这个问题，应该说与口呼吸相比，鼻呼吸更有优势，比如有利于面部的美观，尤其是对儿童的面部发育、预防感染等。在进行生理叹息时，最好的方式是通过鼻子吸气，然后通过嘴巴呼气。如果你做不到，那么就只用鼻子或只用嘴巴呼吸。</p><h2>压力还能带来好处？</h2><p data-pid=\"CDXN7BF9\">拖延症实际上是我们自己给自己施加压力。对失败的担忧，对优秀的渴望，迫在眉睫的截止日……无论以何种形式出现，压力就像一种药物，一种强大的脑功能增强剂。有它再加上一个好的睡眠，我们就能更好地完成任务。</p><p data-pid=\"rPN1MCVB\">不仅如此，急性压力反应对我们的免疫系统有益，这听起来匪夷所思，但绝对真实。事实上，细菌或病毒感染也可以是一种压力源，压力反应能提高我们的肾上腺素水平，激活你的脾脏，使其释放杀伤细胞（killer cell）去消灭他们。其中涉及的神经反应与使你奋起产生行动的神经反应是共同的。</p><p data-pid=\"bHwAUTyG\">有时我们经历一段充满压力的日子（比如持续忙碌地工作，或者疲于照顾爱人）之后，终于有了喘息的机会，能够放松下来，甚至拥有度假的机会时，反而在这个关口，我们病倒了。这正是因为压力源消失，没有什么能让我们持续维持高肾上腺素水平，于是我们的免疫系统也遭遇溃败。</p><p data-pid=\"WaAaIt1f\">炎症听起来不是什么好事，但短期的炎症反应有利于维持健康。如果你不小心被树枝划伤，在一天或一周内不时经历一些急性压力，可以更好地防止伤口感染。</p><p data-pid=\"7HFKHDLh\">另一种我们能自主控制的，可以激活免疫反应系统以对抗感染的方法是，先进行二十五至三十次深呼吸，接着长呼一口气，屏住呼吸二十五至三十秒，再深吸一口气，如此循环（注意，请确认自己适合这种方法后应用，否则可能带来危险。尤其是在游泳时。）在途中你会感到发热，出汗。这种呼吸也有助于你抵抗寒冷。</p><p data-pid=\"xbOUUf_C\">《美国国家科学院院刊》上的一项研究证明这是在模拟应激反应。实验的方式是给人们注射内毒素，或者注射模拟感染的细菌细胞壁。这会导致发热、恶心和不适感，其中一半的人随即出现了与上述类似的呼吸模式。</p><p data-pid=\"BNGdWfOG\">同时，这种呼吸模式也和所谓的 Wim Hof 呼吸法，Tummo 呼吸法以及 super oxygenation 呼吸法很类似，然而这里无意讨论它们的区别或优劣，我们只需要知道通过这种方法，可以激活我们的免疫反应。</p><p data-pid=\"STmv-oem\">不仅如此，上面这些呼吸法的「过度换气」（可以理解为模仿剧烈运动后的喘气）会明显让我们感到更兴奋，甚至触发小部分人的焦虑症。</p><h2>中等长度的压力期该如何管理？</h2><p data-pid=\"oOUT4gCD\">中期压力，即中等长度的压力期，指的是持续几天到几周的压力期。压力阈值简而言之就是承受压力的能力。有些人经历的压力太大，超越了压力阈值，结果十分严重：比如，有一种焦虑症（注：原文未给出出处，据我查找，应该是身体完整性焦虑，BID）会让患者感觉他们的肢体并不属于他们，甚至试图说服医生截断他们身体的某些健康部位。</p><p data-pid=\"IYukxznQ\">应对管理中等长度的压力期的方法都与提高压力阈值有关。我们要有意识地将自己置身于一种肾上腺素略高的情境中，哪怕这让我们的身体感到恐慌，我们也要锻炼一种在认知上使自己平静下来接受这种生理反应的能力。</p><p data-pid=\"Evwx5VNO\">我们可以进行生理性叹息，也可以长期用冷水淋浴，我们可以坚持进行高强度锻炼，使自己进入那种情境。只要我们能说服自己，在身体非常激动时仍然能够放松心灵，那么我们会发现生活更加可控，压力也不显得那么大了，因为我们的阈值已经提高。</p><p data-pid=\"4C0PTz4v\">另外一种方法是有意识地扩大我们的视野。当感受到压力时，我们的瞳孔会扩大，实际上缩小了我们的观察范围。我们无需转动头部，甚至不需转动眼珠，仅仅有意识地让自己的视觉更广阔（注：原博客没有说明，不过应该是指注意力不要局限在一个点上，通过余光关注周围），看清我们所处的环境，就有助于我们减轻压力，而且效果显著。在这个过程中当然可以眨眼。</p><p data-pid=\"-CUkXUnV\">最后，保持良好的睡眠，如果我们起夜了，尽量尝试继续入睡，直到感到自己获得了良好的休息为止。在理想情况下，压力水平会在一天中的不同时间内多次上升，但不会永远保持这个势头，它不会影响我们的睡眠；而现实情况并非如此，每月我们可能总有那么三四个晚上焦虑得睡不着觉。关于睡眠和 NSDR（非睡眠深度休息）等的问题，之前的节目中我们已经讨论过，你可以回去翻看它们是否适合你。</p><h2>长期压力</h2><p data-pid=\"woUkfAct\">长期压力绝对是有害的，这里的长期指的是数月或数年。长期处于高水平肾上腺素下，我们身体的部分血管会长期舒张，这实际上是一种慢性高血压，会导致一些心脏疾病，而这些疾病正是部分国家（如美国）的头号杀手。</p><p data-pid=\"AOpWV5R2\">有些管理长期压力的方法是我们都熟悉的：良好的饮食习惯，定期锻炼，良好的睡眠以及刚刚我们提到的一些实用方法都有利于减轻压力反应。我们也知道，良好的人际关系有助于减轻压力，但这可不像有些人说的，「社交联系有助于释放催产素」。催产素只在性高潮后，婴儿母亲哺乳时等等特定的情况下释放，其中机制有深刻的生物学意义。和某人见面，拥抱，一两句问候或者碰拳都不会让我们释放催产素。</p><p data-pid=\"Ojb1JQ_L\">社交活动能缓解长期压力的内在机制是它能促进我们身体的调节机制，增加如血清素等物质的释放和减少 Taqi Kynan【注：下文会解释这个奇怪的名词】的产生。血清素是一种神经递质，高水平的血清素能让我们感到幸福，也倾向于让我们对周围环境感到满足。</p><p data-pid=\"-A9KhrfZ\">部分抗抑郁药物正是通过提高大脑中的血清素水平来改善病情的，但大量外源性血清素会抑制人体自身血清素的产生，可能导致情绪麻木或性欲减退。与催产素相比，血清素起效更快。当我们看到我们熟识、信任的人时，大脑会释放血清素，这对免疫系统、其他神经的修复以及突触形成系统有积极影响，能防止大脑衰退。</p><p data-pid=\"aUpi6Kbf\">没有科学证据表明这种联系必须是人与人之间的联系，实际上也许我们和我们的宠物狗之间的联系也对健康大有裨益。</p><p data-pid=\"uTduLhMH\">我们常常听说，人就是要享受生活，就是要玩乐，但关键不在玩乐，而在于对所见所闻，所参与的事感到满足和享受，拥有愉悦感，这些都与血清素的产生有关。在生活中我们要留心识别那些让我们感到舒适、信任、幸福和愉悦的瞬间，记住它们发生于何时，以便你能更好地认识到做什么事情能让你产生血清素。这里介绍一个小技巧：注意到并写下那些让你感激的事，无论事情看起来多么小，都可能对血清素的分泌起着不小的作用。</p><p data-pid=\"6hHeUu0h\">对于部分人来说，维持与他人的联系可能有些困难，但这是一项值得的投资。也许在这个过程中我们需要迁就他人，吃不想吃的菜，不能按平时的时间作息等等……但人，灵长类，毕竟都是社交动物。去寻找吧，找到一两个人，甚至一个人或者其他能让你感到愉悦的动物，不管你相信与否，这都对缓解长期压力、改善心理健康有着非常积极的影响。 </p><p data-pid=\"zUnewazm\">让我们来谈谈孤独吧。长期孤独和长期压力导致 Taqi Kynan 的分泌，它是一种分子，会抑制我们大脑和身体的许多正常生理功能，同时促进烦躁、偏执和恐惧等不良情绪产生。Taqi Kynan 就像一个内源性的惩罚，使我们更加恐惧，偏执，并损害我们的免疫系统。它是我们的身体和大脑在告诉我们：「你没有花足够的时间与你真正信任的人在一起。你没有花时间做你真正喜欢的事情。」</p><p data-pid=\"J60mz4Dg\">当我们太过于注重眼前的目标，忙于行动并试图完成一切时，阴险的 Taqi Kynan 便开始分泌，危害身体。为了避免这样的事情发生，我们可以在桌子上贴一张便条提示自己记得常与家人或朋友共同进餐，时间宜长不宜短【注：作者自己的便条上写的是「Taqi Kynan」】。</p><h2>补充剂</h2><p data-pid=\"cX-ZErW5\">这里讨论的并非抗抑郁药物，如果你需要抗抑郁药，请咨询医生，接受他们的处方并且遵循医嘱。</p><p data-pid=\"E1dimohj\">介绍一个网站：<a href=\"https://link.zhihu.com/?target=http%3A//examine.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">examine.com</a>。它是免费的，你可以在其中输入任何补充剂，根据网站提供的链接到 PubMed 查看相关论文，从而客观专业地了解该补充剂是否适合你。这并非广告，纯粹觉得好用而推荐。</p><p data-pid=\"E7B9vCFM\">我们重点介绍三种补充剂，褪黑素，茶氨酸（或称为L-茶氨酸）和南非醉茄（ashwagandha）。</p><p data-pid=\"5lzbYtWv\">先说褪黑素（Melatonin）。褪黑素源于松果体，与人体身处的黑暗程度直接相关。这里的黑暗不是指前途上的黑暗，而是说指光线抑制褪黑素的分泌。褪黑素有助于入睡，但无助于睡眠的维持。个人而言，我不建议补充褪黑素，因为补充剂通常含量极高，每天 1mg~3mg 甚至更高的剂量是远超人体正常分泌的水平的。它还可能对生殖系统产生一些潜在的负面影响。</p><p data-pid=\"QBT4KYWE\">如果你能适应，那当然很好，但你仍然应该在 <a href=\"https://link.zhihu.com/?target=http%3A//examine.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">examine.com</a> 上进行查找，并与医生咨询是否应该服用褪黑素。特别是对于儿童来说，褪黑素会抑制多种物种的青春期反应。长时间摄入过高剂量的褪黑激素可能会导致对肾上腺释放的皮质醇和肾上腺素的抑制，从而导致一种类似肾上腺功能不全综合征的伪肾上腺功能不全综合征。</p><p data-pid=\"HO6fKBdG\">插播一个题外话，肾上腺疲劳并不存在。肾上腺疲劳的概念源于诺贝尔奖获得者汉斯·塞利（Hans Selye），他认为如果压力存在的时间足够长，那么人体最终会进入一种所谓「耗竭阶段」的状态，导致我们筋疲力竭。还有人说，喝咖啡会导致肾上腺疲劳，但这种病本身就不存在，毕竟肾上腺中的肾上腺素足够我们用200年的呢。</p><p data-pid=\"ZkWmUjG4\">再说说茶氨酸（L-theanine）。在睡前约 30 分钟或 60 分钟服用 100mg 或 200mg（请确认这个剂量对于你是安全的）。对于很多人来说，它可以帮助入睡和增加深度睡眠时间。它增加了脑中的抑制性神经递质-γ-氨基丁酸（GABA）的含量。它倾向于关闭我们的前脑或减少我们思考系统和反复思考系统的活动，帮助人们入睡。</p><p data-pid=\"4oawrjHc\">除了对睡眠的作用外，有研究表明，对于那些长期焦虑或有长期压力的人来说，茶氨酸可以帮助放松。已经有四项研究证明它对焦虑有轻微影响，其中一些发表在重要的期刊上，这些都可以在 <a href=\"https://link.zhihu.com/?target=http%3A//examine.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">examine.com</a> 上查到。它还可以减轻与任务完成有关的焦虑。这对于拖延症可能不太友好，但对于那些遭受长期压力的人来说，效果拔群。</p><p data-pid=\"lB-vvQm1\">它还可以在一定范围内提高注意力，一定程度上降低血压，还对失眠和一些血脂指标有影响。我本人也会服用茶氨酸，很多公司现在在能量饮料中也会添加茶氨酸。 </p><p data-pid=\"68dkiFiM\">再插播一个题外话，我不喜欢含牛磺酸的能量饮料，因为牛磺酸导致我眼睛巩膜的微血管破裂。但这只是我个人的经验，并不适用于所有人，否则能量饮料公司早就开不下去了。</p><p data-pid=\"LSBZPipo\">最后是南非醉茄（ashwagandha）。南非醉茄被认为具有减轻焦虑和降低皮质醇的作用。正常水平的皮质醇能让我们在早晨醒来，但长期高水平的皮质醇是有害的。</p><p data-pid=\"NkAFYyOb\">有六项研究支持南非醉茄能降低皮质醇，当实验对象为身体健康但压力大的人时，皮质醇降低了 14.5% 到 27.9%。这些研究的实验对象均为成人。在其他五项研究中，显示出其具有减轻压力的效果，这是指其有助于疲劳、认知障碍等方面的改善。</p><p data-pid=\"R_Sllpv5\">南非醉茄能降低总胆固醇，最多降低 10%。这有好有坏，毕竟胆固醇太低也不好。南非醉茄我也会用，但并不全年都用，只有在我感到自己没有很好地应对短期和中期压力时，我才会选择它，以免遭受长期压力副作用的影响。</p><h2>什么是情绪？</h2><p data-pid=\"GBMwsHSe\">让我们回到那个核心问题上来吧：到底什么是情绪？这是一个复杂的问题，没有一个固定的大脑区域与我们所称之为情绪东西相对应。</p><p data-pid=\"iBmHaJO7\">在这个问题上，我的观点和丽莎·费尔德曼·巴雷特（Lisa Feldman Barrett）的观点基本一致。她任职于东北大学（Northeastern University），是情绪领域的世界级专家，著有《Seven and a Half Facts About the Brain》和《How Emotions Are Made》两本非常棒的书。我认为她一定会赞同这样的观点：当我们内在的压力或平静的状态与我们所面临的处境相匹配时，我们倾向于将其解释为「好的情绪」；当不匹配时，我们解释其为「坏的情绪」。</p><p data-pid=\"DDDsYBWX\">举个例子，当我们感到非常焦虑、非常紧张，而又有很多事情要做时，这样的情绪就是负面的，我们本该斗志昂扬。相反的，如果我感到很疲倦，而我要做的事情仅仅是入睡，那么这样的疲倦感就是好的，如果我们感到清醒反而会让事情变得糟糕。</p><p data-pid=\"WVfce7Nm\">当然，真实的情绪反应远比这复杂的多，但思考情绪是否与处境相匹配，不失为一个很有用的思考角度。</p><h2>我们需要正念吗？</h2><p data-pid=\"_XRkPOrj\">正念，活在当下的概念听起来很美妙，但我不知道如何保持它。就个人而言，我每天只是单纯地工作并且试着保持专注，如果要我监控和观察自己，并从第三者的角度看待自己正在做的事情，那会让我降低效率并且失去沉浸的体验感。</p><p data-pid=\"Tk7bfqFL\">大多数人的烦躁，焦虑和抑郁都是因为休息不够，劳累以及压力过大，与其用主观的角度审视自己，不如采用更加客观的生理学视角，采用我上面提到的一些方法去调控我们身体中的各个系统，找回主动权。要承认这个世界上不可能事事尽在掌握，但至少我们可以控制我们对这些事情的反应。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"en2tpVnF\">希望今天的节目能给你一些有用的信息和启发，让你更好地应对生活。</p><hr/><p data-pid=\"xm7Ow1Yv\">系列目录：<a href=\"https://zhuanlan.zhihu.com/p/676445568\" class=\"internal\">Thoughts Memo：全网首发：Huberman Lab Podcast 全系列笔记（持续更新）</a></p>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 24,
-  "image_url": "https://pic1.zhimg.com/v2-ebada888b14fec0bdf4d585731aa9a0f_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 41,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 41,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMzcwNDU1NDASCTY3MDExODAyNBgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 156,
+      "down_vote_count": 0,
+      "like_count": 41,
+      "comment_count": 24,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 237,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-ebada888b14fec0bdf4d585731aa9a0f": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-ebada888b14fec0bdf4d585731aa9a0f": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-ebada888b14fec0bdf4d585731aa9a0f": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "4 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/18776568026?contentId=670118024&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 睡眠研究 & 生活建议",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525846593119449088",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 睡眠研究 & 生活建议"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

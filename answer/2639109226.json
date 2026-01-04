@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,6 +14,7 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
@@ -35,19 +37,21 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,43 +84,63 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 12,
   "content": "<p data-pid=\"abk8OQdL\">我在本科期间发表了一篇中文核心期刊，一篇国际顶会论文。先说说我发这两篇文章的前置条件：</p><ol><li data-pid=\"nvoLA3Gs\">我是计算机专业，做实验主要靠写代码，周期短，可以快速试错。如果是生物或者化学，培养实验材料和过柱子都要花很多时间，本科生不一定有那个时间。<br/><br/></li><li data-pid=\"cGehm5av\">我的论文是在公司实习的时候写的，我的科研成果正好可以应用在公司的业务上，公司很支持我的科研工作。<br/><br/></li><li data-pid=\"NWp8-NrN\">我的研究领域非常冷门，近 30 年一共才 20 多篇相关文献。想要在此基础上作出创新还是比较容易的，很多点子还没被前人使用，没有计算机视觉那么卷。</li></ol><p data-pid=\"TmdfZGK1\">关于我具体的科研经历，可以阅读下面这篇文章。</p><a href=\"https://zhuanlan.zhihu.com/p/543325359\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-08134e67de67b70a126b02829d90edcc_180x120.jpg\" data-image-width=\"2251\" data-image-height=\"1592\" class=\"internal\">叶峻峣：我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）</a><p data-pid=\"xF-2ry14\">好，进入正题。在校本科生怎么发表论文？作为一个学术异端，说说我自己的看法。</p><h2>不要为了发论文而发论文</h2><p data-pid=\"47Dg38tL\">有很多人是为了保研加分，或者其他指标才想着发论文。这很现实，我也不想批评什么。只是觉得，科研作为一个探索未知领域的活动，目的性太强，反而会很难做出突破。这里引用一段翻译：</p><blockquote data-pid=\"T_k2xRCA\">从文化上讲，科技发展是由工程式、目标驱动的思维方式所主导的。有一个非常具体的目标，设置 KPI、评估 OKR 和管理交付产品就容易得多。……<br/><br/>但从历史上看，人类巨大的突破并不依靠目标驱动来实现。语言的创造——原初的思想工具——也许是人类历史上的最重要事件。尽管围绕语言起源的争论十分激烈，也没有定论，但它似乎极不可能是目标驱动下的产物。语言的发展是史前时期的某个季度 OKR？想想就很引人发笑。这样怎么设定目标？再发明一个新的不规则动词的配额？这是不可想象的！<br/><br/>同样，发明其他思想工具的——写作、印刷术……——也跻身于我们有史以来最伟大的突破。而且，据我们所知，所有这些发明都主要在开放式的探索下自然涌现，而不是在目标驱动下完成。即使是计算机本身也是在探索中产生的，然而这种探索对于今天的技术从业者会是可笑的投机，定义十分模糊。没人有会坐下来想着「我需要发明计算机」；这样的想法没有任何可供参考的框架。相反，像艾伦·图灵和 Alonzo Church 这样的先驱者得到发明时，正在围绕逻辑、数学、可证明性探索基本的问题，基于这些探索，计算机的概念出现了，虽然已经时隔多年；它是一个被发现的概念，而非一个目标。基本的、开放性的问题似乎至少和目标一样是突破的源泉，无论多么雄心勃勃。在硅谷的目标驱动文化中，这一点很难想象或说服他人接受。事实上，我们自己也感受到了目标驱动文化的吸引力。但是，根据经验进行的开放式探索也可以同样，甚至更成功。</blockquote><p data-pid=\"pvJEGHqJ\">我发论文完全是顺带的，我最早的目标就是能解决我使用 Anki（一款开源的间隔重复软件）时遇到的问题：复习量太大，重复频率太高。但是让我自己去调整参数，又找不到什么依据。所以从那个时候，我就开始思考，怎么才能让间隔重复算法自适应我的记忆情况。后面进入业界做了诸多尝试，发现了合适的方法，并且有实际成果，我才考虑作为学术文献发表出来，推动这个领域发展。</p><a href=\"https://zhuanlan.zhihu.com/p/394795804\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-b0f18a2a3231dd7ee8fe28f860d0e1b9_180x120.jpg\" data-image-width=\"784\" data-image-height=\"392\" class=\"internal\">叶峻峣：我们如何才能开发出变革性的思想工具？</a><h2>从一个好的问题开始</h2><p data-pid=\"gClaO5BH\">很多本科生做科研，是因为有了现成的课题，可能来自导师、前辈，或者自己读了几篇文献，就想出来个问题。然后就想着一股脑儿钻进去搞研究。但是恕“我”直言：</p><blockquote data-pid=\"xDME2j3D\">……大部分论文没有问出好问题。不加筛选地选取一部分论文，里面往往都是些无聊的问题，对于领域的进展毫无助益，读了这些论文，你的品味也会变得同样无聊。<br/><br/>容易提出的问题通常是渐进式的。这些问题接纳现有框架的参数，然后试图澄清一些扩展或变化。……</blockquote><p data-pid=\"ole11Bxu\">水论文当然很容易，如果 m 种方法可以用在 n 个问题上，总会有几个方法没被用在几个问题上，你去试一试，说不定就做出来了，然后投稿。但是这种论文对领域有什么帮助吗？当然，这可能对本科生要求有点高。但是一旦通过水论文得到了点甜头，你下一篇论文很可能还是水文。</p><p data-pid=\"UERkf9rA\">那么，怎样才能找到好问题？下面这篇文章可能会对你有所启发（虽然这篇文章的作者 Andy 觉得我搞得研究没有意思哈哈哈哈）：</p><a href=\"https://zhuanlan.zhihu.com/p/556391072\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-5097386d779928eed7a9c91e6a11d022_180x120.jpg\" data-image-width=\"4496\" data-image-height=\"3000\" class=\"internal\">Thoughts Memo：寻找更好的问题</a><h2>综述 &amp; 导论 are you need</h2><p data-pid=\"JO3-AdFn\">该怎么找好问题？我的意见是，看综述。综述的特点就是范围很广，适合进行粗略的了解一个领域有哪些关键问题。别一开始就往最近刚发的论文里钻！大部分论文都是针对一个非常细小的研究问题展开，在你还没有自己的问题时去看这些文章，大概率是浪费时间。而且这种论文你花上一个月，又能看几篇？能看懂几篇？想要深入研究某个领域，离不开相关领域的基础支撑。所以从综述看起是比较好的。</p><p data-pid=\"Qc2qv5Xo\">至于寻找解决问题的工具，我也推荐从各种导论读起。和读综述的理由一样，导论有足够的广度，可以帮你快速了解相关工具。</p><p data-pid=\"j7jsAWLJ\">至于读哪些综述和导论，我推荐询问相关领域的资深人士，或者就好好锻炼锻炼自己的搜索能力吧。参考资料：</p><a href=\"https://zhuanlan.zhihu.com/p/401681418\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">二倍体：《给研究生的学术建议》6——阅读</a><h2>带着问题去看文献和学习</h2><p data-pid=\"hPoAIEl3\">看完了综述和导论，该读经典文献和专业书了，那么该怎么读怎么学呢？当然是要带着你的问题去读。但是怎么读怎么学，不是我一两段话能够说清楚的事情。我推荐看看：</p><a href=\"https://zhuanlan.zhihu.com/p/374403541\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-1a8d0bb90f07e4147c5e401dda14d280_180x120.jpg\" data-image-width=\"1780\" data-image-height=\"1100\" class=\"internal\">叶峻峣：渐进学习专栏导读</a><a href=\"https://zhuanlan.zhihu.com/p/446944151\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-b041a9a6fae89fd00c9bb1e8befa0749_180x120.jpg\" data-image-width=\"899\" data-image-height=\"748\" class=\"internal\">叶峻峣：写你所读，以求内化</a><h2>上面这些步骤都做完了？</h2><p data-pid=\"lXE8909U\">那我觉得剩下的应该也不用我教了。论文写作什么的，我也是新手，这里推荐一下我的几篇收藏：</p><a href=\"https://www.zhihu.com/question/20829666/answer/682250151\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">第一次写学术论文无从下手怎么办？</a><a href=\"https://www.zhihu.com/question/49355121/answer/322451208\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-4ae14693a80fe587594064e4501fd622_180x120.jpg\" data-image-width=\"1199\" data-image-height=\"676\" class=\"internal\">怎样写好英文论文的 Introduction 部分？</a><a href=\"https://zhuanlan.zhihu.com/p/368677897\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-d5af07eccbb99e9e57cd0102516de8cf_180x120.jpg\" data-image-width=\"640\" data-image-height=\"480\" class=\"internal\">张明瑞：DrustZ的论文小课堂 [相关工作Related Work]</a><h2>最后</h2><p data-pid=\"lfglkPPO\">如果你对我的研究领域感兴趣，不妨看看我写的这篇入门读物：</p><a href=\"https://zhuanlan.zhihu.com/p/556020884\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-d5734ba2a8f7443e5dd8001cb46031fc_180x120.jpg\" data-image-width=\"1920\" data-image-height=\"1080\" class=\"internal\">叶峻峣：间隔重复记忆算法：e 天内，从入门到入土。</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1661140854,
   "excerpt": "我在本科期间发表了一篇中文核心期刊，一篇国际顶会论文。先说说我发这两篇文章的前置条件： 我是计算机专业，做实验主要靠写代码，周期短，可以快速试错。如果是生物或者化学，培养实验材料和过柱子都要花很多时间，本科生不一定有那个时间。 我的论文是在公司实习的时候写的，我的科研成果正好可以应用在公司的业务上，公司很支持我的科研工作。 我的研究领域非常冷门，近 30 年一共才 20 多篇相关文献。想要在此基础上作出创…",
-  "id": 2639109226,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2639109226",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://www.zhihu.com/question/20829666/answer/682250151": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"第一次写学术论文无从下手怎么办？\",\"card_open_url\":\"https://www.zhihu.com/question/20829666/answer/682250151\",\"desc\":\"1546 赞同 · 42 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e刘洋:\\u003c/a\\u003e 这其实是个挺常见的现象。我给自己带的学生的建议是找一篇还不错的同领域同类型的文章，仔细阅读它的每一句话，思考一下它的行文结构，然后开始临摹。 对，临摹。 这个建议是只限于用在题主描述的这类已经有了idea和数据但不知如何下手的情景下。 例文的第一句写的什么内容那你就（在你的文章语境和技术背景下）写什么内容。例文的第二句承接第一句写了什么内容那你就同样承接起来在你的技术背景下写同样的内容。 举例说明，比如…\",\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"682250151\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://www.zhihu.com/question/49355121/answer/322451208": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"怎样写好英文论文的 Introduction 部分？\",\"card_open_url\":\"https://www.zhihu.com/question/49355121/answer/322451208\",\"desc\":\"4338 赞同 · 17 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e中科院张老师:\\u003c/a\\u003e 我从 Introduction的重要性、主要内容结构、中国学者常见写作误区和句型干货分享这四个方面来透彻聊聊Introduction引言部分。再次感谢我们工作室外籍老师整理的专业句型，本文内容全部摘自我的专栏文章，欢迎大家点击阅读： [文章: 科研论文Introduction引言部分的作用] [文章: 英文论文Introduction引言部分写什么？] [文章: 英文论文Introduction写作误区和建议] 「一、什么是Introduction？」 初次接触科研论…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-ef2b086d0dfb37fb87df0d426b7f89f7.jpg?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":true},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"322451208\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/368677897": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"DrustZ的论文小课堂 [相关工作Related Work]\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/368677897\",\"desc\":\"287 赞同 · 14 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e张明瑞:\\u003c/a\\u003e 这周我们说两句相关工作怎么写~ 相关工作（Related Work），很难写得出彩。但是出彩的话，会让人立刻感到文章的厚重感。很多论文真的就把这个部分写成了相关工作：只是平白地列出所有能找到的文献。听完这节小课堂，你可以比别人写得出彩一点点：） 一句话总结相关工作要注重内在逻辑，切忌东一榔头西一棒槌地列出其他文献；它的作用在于二：一为读者展开项目背景，如同讲故事铺垫；二为展示自己工作与众不同之处，突出贡献。 目录…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-d5af07eccbb99e9e57cd0102516de8cf_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"368677897\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/374403541": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"渐进学习专栏导读（SuperMemo 使用教程）\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/374403541\",\"desc\":\"322 赞同 · 29 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 更新已经将专栏重新编辑成电子书： SuperMemo 渐进学习大型指北 也可以下载到本地阅读（EPUB 体验比 PDF 好）： SuperMemo 渐进学习大型指北 - 叶峻峣 - 20210918.epub SuperMemo 渐进学习大型指北-09171826.pdf SuperMemo 下载： [文章: 【重新发布】SuperMemo 18 中文懒人包 ] SuperMemo 视频介绍： [文章: 【原稿】用 SuperMemo 打通阅读、理解与记忆] 初次见面的朋友初次见面，好久不见的朋友好久不见，这里是周六放假也还在码字的…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-1a8d0bb90f07e4147c5e401dda14d280_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"374403541\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/394795804": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"我们如何才能开发出变革性的思想工具？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/394795804\",\"desc\":\"205 赞同 · 19 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 原文： Andy Matuschak and Michael Nielsen , How can we develop transformative tools for thought? October 2019译者： @叶峻峣 @Shom @Mass Point （排名不分先后）译者按作者 Andy Matuschak 是软件工程师、设计师、研究员，目前致力于拓展人们思考和行动的技术。他曾在 Apple 帮助构建 iOS，并在可汗学院领导研发。作者 Michael Nielsen 是量子物理学家、科学作家、编程研究者，现供职于 Y Combinator Research 。他在 Nat…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-b0f18a2a3231dd7ee8fe28f860d0e1b9_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"394795804\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/401681418": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"《给研究生的学术建议》6——阅读\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/401681418\",\"desc\":\"1250 赞同 · 10 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e二倍体:\\u003c/a\\u003e 强烈建议刚入学的或者即将入学的研究生（特别是博士生）阅读本文，博主读这本书的收获挺大的。 目录 找到正确的参考文献 研究者的核心文献库 文献综述 在线搜索 传达正确的信息 在线检索概述 来源 策略 有经验的评审人如何读论文 参考文献 标题页与致谢 摘要 首页 方法 结果部分 讨论部分 结论 大量阅读 使用文献中的材料 剽窃 如何引用 文献回顾(literature survey)和文献综述( literature review)有何区别? 做一份带说明的文献…\",\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"401681418\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/446944151": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"写你所读，以求内化\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/446944151\",\"desc\":\"43 赞同 · 1 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 如果你想深刻内化你所读的内容，我所知的最好方法就是围绕它们写点什么： 因为理解概念需与其尽力较量 [1] 具体到写作上，写作促使人们更加深入地理解 [2] 记住：收集材料的作用在感觉上被夸大了 [3] 否则你就不会自主思考 [4] 因为知识工作应能聚沙成塔 [5]和常青笔记有助于积累阅读成果 [6] 诚然：多数人的阅读成效不大 [7] 对于理解深刻来说，仅仅在书本上划出重点或写上旁注是不够的：没有太多的压力去综合、联系，或去探究事物…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-b041a9a6fae89fd00c9bb1e8befa0749_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"446944151\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/543325359": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/543325359\",\"desc\":\"1801 赞同 · 85 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 最近我在时间线上刷到 @重剑无锋 所写的《我是如何从头开始写一篇顶级论文的 》一文，作者梳理了他论文的创作历程，对我也颇有启发。我自己本科期间发表了一篇国际顶会（ACM SIGKDD）论文和一篇 CCF A 中文核心期刊（中文信息学报）论文，这里也想记录这一路的机缘巧合和心路历程。KDD 论文地址： A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Confe…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-08134e67de67b70a126b02829d90edcc_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"543325359\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/556020884": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"间隔重复记忆算法：e 天内，从入门到入土。\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/556020884\",\"desc\":\"282 赞同 · 134 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 我是叶峻峣，论文 A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining 的第一作者，现就职于墨墨科技，主要负责墨墨背单词的记忆算法业务。关于我这篇论文的科研经历，请见： [文章: 我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）] 《间隔重复记忆算法：e 天内，从入门到入土。》改编自…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-d5734ba2a8f7443e5dd8001cb46031fc_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"556020884\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://www.zhihu.com/question/20829666/answer/682250151": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"第一次写学术论文无从下手怎么办？\",\"card_open_url\":\"https://www.zhihu.com/question/20829666/answer/682250151\",\"desc\":\"1556 赞同 · 42 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e刘洋:\\u003c/a\\u003e 这其实是个挺常见的现象。我给自己带的学生的建议是找一篇还不错的同领域同类型的文章，仔细阅读它的每一句话，思考一下它的行文结构，然后开始临摹。 对，临摹。 这个建议是只限于用在题主描述的这类已经有了idea和数据但不知如何下手的情景下。 例文的第一句写的什么内容那你就（在你的文章语境和技术背景下）写什么内容。例文的第二句承接第一句写了什么内容那你就同样承接起来在你的技术背景下写同样的内容。 举例说明，比如…\",\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"682250151\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://www.zhihu.com/question/49355121/answer/322451208": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"怎样写好英文论文的 Introduction 部分？\",\"card_open_url\":\"https://www.zhihu.com/question/49355121/answer/322451208\",\"desc\":\"4390 赞同 · 17 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e中科院张老师:\\u003c/a\\u003e 我从 Introduction的重要性、主要内容结构、中国学者常见写作误区和句型干货分享这四个方面来透彻聊聊Introduction引言部分。再次感谢我们工作室外籍老师整理的专业句型，本文内容全部摘自我的专栏文章，欢迎大家点击阅读： [文章: 科研论文Introduction引言部分的作用] [文章: 英文论文Introduction引言部分写什么？] [文章: 英文论文Introduction写作误区和建议] 「一、什么是Introduction？」 初次接触科研论…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-ef2b086d0dfb37fb87df0d426b7f89f7.jpg?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":true},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"322451208\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/368677897": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"DrustZ的论文小课堂 [相关工作Related Work]\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/368677897\",\"desc\":\"326 赞同 · 15 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e张明瑞:\\u003c/a\\u003e 这周我们说两句相关工作怎么写~ 相关工作（Related Work），很难写得出彩。但是出彩的话，会让人立刻感到文章的厚重感。很多论文真的就把这个部分写成了相关工作：只是平白地列出所有能找到的文献。听完这节小课堂，你可以比别人写得出彩一点点：） 一句话总结相关工作要注重内在逻辑，切忌东一榔头西一棒槌地列出其他文献；它的作用在于二：一为读者展开项目背景，如同讲故事铺垫；二为展示自己工作与众不同之处，突出贡献。 目录…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-d5af07eccbb99e9e57cd0102516de8cf_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"368677897\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/374403541": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"渐进学习专栏导读（SuperMemo 使用教程）\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/374403541\",\"desc\":\"376 赞同 · 33 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 更新已经将专栏重新编辑成电子书： SuperMemo 渐进学习大型指北 也可以下载到本地阅读（EPUB 体验比 PDF 好）： SuperMemo 渐进学习大型指北 - 叶峻峣 - 20210918.epub SuperMemo 渐进学习大型指北-09171826.pdf SuperMemo 下载： [文章: 【重新发布】SuperMemo 18 中文懒人包 ] SuperMemo 视频介绍： [文章: 【原稿】用 SuperMemo 打通阅读、理解与记忆] 初次见面的朋友初次见面，好久不见的朋友好久不见，这里是周六放假也还在码字的…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-1a8d0bb90f07e4147c5e401dda14d280_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"374403541\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/394795804": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"我们如何才能开发出变革性的思想工具？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/394795804\",\"desc\":\"211 赞同 · 20 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 原文： Andy Matuschak and Michael Nielsen , How can we develop transformative tools for thought? October 2019译者： @叶峻峣 @Shom @Mass Point （排名不分先后）译者按作者 Andy Matuschak 是软件工程师、设计师、研究员，目前致力于拓展人们思考和行动的技术。他曾在 Apple 帮助构建 iOS，并在可汗学院领导研发。作者 Michael Nielsen 是量子物理学家、科学作家、编程研究者，现供职于 Y Combinator Research 。他在 Nat…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-b0f18a2a3231dd7ee8fe28f860d0e1b9_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"394795804\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/401681418": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"《给研究生的学术建议》6——阅读\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/401681418\",\"desc\":\"1258 赞同 · 10 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e二倍体:\\u003c/a\\u003e 强烈建议刚入学的或者即将入学的研究生（特别是博士生）阅读本文，博主读这本书的收获挺大的。 目录 找到正确的参考文献 研究者的核心文献库 文献综述 在线搜索 传达正确的信息 在线检索概述 来源 策略 有经验的评审人如何读论文 参考文献 标题页与致谢 摘要 首页 方法 结果部分 讨论部分 结论 大量阅读 使用文献中的材料 剽窃 如何引用 文献回顾(literature survey)和文献综述( literature review)有何区别? 做一份带说明的文献…\",\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"401681418\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/446944151": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"写你所读，以求内化\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/446944151\",\"desc\":\"46 赞同 · 1 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 如果你想深刻内化你所读的内容，我所知的最好方法就是围绕它们写点什么： 因为理解概念需与其尽力较量 [1] 具体到写作上，写作促使人们更加深入地理解 [2] 记住：收集材料的作用在感觉上被夸大了 [3] 否则你就不会自主思考 [4] 因为知识工作应能聚沙成塔 [5]和常青笔记有助于积累阅读成果 [6] 诚然：多数人的阅读成效不大 [7] 对于理解深刻来说，仅仅在书本上划出重点或写上旁注是不够的：没有太多的压力去综合、联系，或去探究事物…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-b041a9a6fae89fd00c9bb1e8befa0749_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"446944151\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/543325359": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/543325359\",\"desc\":\"2268 赞同 · 90 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 最近我在时间线上刷到 @重剑无锋 所写的《我是如何从头开始写一篇顶级论文的 》一文，作者梳理了他论文的创作历程，对我也颇有启发。我自己本科期间发表了一篇国际顶会（ACM SIGKDD）论文和一篇 CCF A 中文核心期刊（中文信息学报）论文，这里也想记录这一路的机缘巧合和心路历程。KDD 论文地址： A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Confe…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-08134e67de67b70a126b02829d90edcc_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"543325359\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/556020884": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"间隔重复记忆算法：e 天内，从入门到入土。\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/556020884\",\"desc\":\"340 赞同 · 147 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 我是叶峻峣，论文 A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining 的第一作者，现就职于墨墨科技，主要负责墨墨背单词的记忆算法业务。关于我这篇论文的科研经历，请见： [文章: 我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）] 《间隔重复记忆算法：e 天内，从入门到入土。》改编自我在墨墨…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-d5734ba2a8f7443e5dd8001cb46031fc_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"556020884\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=2639109226&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1331551282,
     "detail": "",
-    "id": 20116328,
+    "id": "20116328",
     "question_type": "normal",
     "relationship": {},
     "title": "在校本科生该怎么发表论文？",
     "type": "question",
     "updated_time": 1331563186,
-    "url": "https://api.zhihu.com/questions/20116328"
+    "url": "https://www.zhihu.com/api/v4/questions/20116328"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1661140854,
+  "url": "https://www.zhihu.com/api/v4/answers/2639109226",
   "voteup_count": 74
 }

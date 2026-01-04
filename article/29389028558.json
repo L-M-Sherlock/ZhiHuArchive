@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "29389028558",
+  "title": "大量输入与间隔重复",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/29389028558",
+  "image_url": "https://picx.zhimg.com/v2-b7ffe2bad2079b5d69091b14772eec6e_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-b7ffe2bad2079b5d69091b14772eec6e_720w.jpg?source=172ae18b",
+  "excerpt": "摘要在某些领域和特定应用场景中，接触大量学习材料比运用间隔重复更为有效。 我曾撰写过几篇关于教育与学习的博文，例如这两篇关于 <a href=\"https://link.zhihu.com/?target=https%3A//nintil.com/bloom-sigma/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Bloom 的两个标准差与精熟学习法</a>[1]的文章，以及关于<a href=\"https://link.zhihu.com/?target=https%3A//nintil.com/what-should-you-memorize/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔</a>[2]重复系统（SRS）的文章。今天我注意到一个有趣的现象：一方面…",
+  "created": 1741665666,
   "updated": 1741665666,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "摘要在某些领域和特定应用场景中，接触大量学习材料比运用间隔重复更为有效。我曾撰…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 1400,
+  "image_height": 627,
+  "content": "<h2>摘要</h2><p data-pid=\"HjzWQrpw\">在某些领域和特定应用场景中，接触大量学习材料比运用间隔重复更为有效。</p><hr/><p data-pid=\"NXIdKqcZ\">我曾撰写过几篇关于教育与学习的博文，例如这两篇关于 <a href=\"https://link.zhihu.com/?target=https%3A//nintil.com/bloom-sigma/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Bloom 的两个标准差与精熟学习法</a><sup data-text=\"Bloom 的「两个标准差」问题：系统比较精熟学习法、一对一辅导和直接教学法的有效性\" data-url=\"https://zhuanlan.zhihu.com/p/720099642\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>的文章，以及关于<a href=\"https://link.zhihu.com/?target=https%3A//nintil.com/what-should-you-memorize/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔</a><sup data-text=\"你应该记住什么？间隔重复你的生活\" data-url=\"https://zhuanlan.zhihu.com/p/720345834\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>重复系统（SRS）的文章。</p><p data-pid=\"EJAS0gq9\">今天我注意到一个有趣的现象：一方面，我写了这些博文，并且在<b>理论上</b>认为 SRS 非常有价值；但实际上，我采用的学习方法却截然不同：大量输入。我在<a href=\"https://link.zhihu.com/?target=https%3A//nintil.com/scaling-tacit-knowledge/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《扩展隐性知识》</a>一文中曾简略提及这一概念。</p><blockquote data-pid=\"QO6Hc0nX\">语言学习的奇妙之处在于，对儿童来说这一过程似乎毫不费力。将<a href=\"https://link.zhihu.com/?target=https%3A//www.youtube.com/watch%3Fv%3DNiTsduRreug\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">大量输入</a>与适当的上下文结合，孩子首先会记住那些显著的词汇，然后识别整体模式，推断语法规则，最终能够流利地运用这门语言。成年人同样可以通过这种方式——接触大量带有恰当上下文的例子——在大约一年内掌握一门语言。有一个案例中，<a href=\"https://link.zhihu.com/?target=http%3A//www.alljapaneseallthetime.com/blog/pure-pwnage-how-fluent-was-i-after-18-months/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这位学习者</a>仅用了 18 个月时间，就从零基础达到了<a href=\"https://link.zhihu.com/?target=https%3A//www.youtube.com/watch%3Fv%3D3qWqIo1FR-8\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">近乎母语水平的日语</a>。<br/><br/>我并非宣称我们可以用学习语言的心智结构来学习所有事物。或许语言比其他领域更容易掌握，是因为我们在语言习得方面天生就有<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/The_Language_Instinct\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">预设机制</a>，而在其他领域则没有这种先天优势。我想表达的是，有一个领域中这种方法（海量的有上下文的例子输入）明显有效，我们应该思考如何将其拓展到其他知识领域。</blockquote><p data-pid=\"J5Fb0BP-\">我在撰写<a href=\"https://link.zhihu.com/?target=https%3A//nintil.com/longevity-making-of/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《长寿 FAQ》</a>时就采用了这种大量输入的方法：我先阅读了一本教科书，然后在数月内阅读了<b>大量</b>的论文，但并不刻意深入研读每一篇或做详细笔记，而是尝试以数量取胜，不过分深究任何特定论文。如我上文所提，「大量输入」这个概念源于语言习得领域，也是大多数人首次接触抽认卡（或某种基本形式的间隔重复）的地方，我发现这一点相当有趣。</p><p data-pid=\"YY6bePyW\">这种方法与 Andy Matuschak 描述的<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/reading-and-85345515\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">阅读</a><sup data-text=\"阅读理解与记忆系统\" data-url=\"https://zhuanlan.zhihu.com/p/653174197\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>量子力学书籍的方式截然相反。引用他的话：</p><blockquote data-pid=\"hzGrOkxM\">Dwarkesh 对我的读书方式感到相当惊讶。我阅读的速度大约是每页十五分钟，而他每页只需几分钟甚至更少。更为重要的是，我在阅读过程中不断地向文本和自己提问。比如：<br/>- 这句话是什么意思？我能用自己的话解释它吗？ <br/>- 在此处，哪些想法和概念尤为重要？<br/>- 作者显然认为我应该理解这个论点为何成立——那么它为什么成立？<br/>- 作者强调了这个细节——那么它为什么重要？<br/>- 作者似乎在这里设置了一个对比——那么究竟是什么对比？<br/>- 这个细节与我已有的物理学知识有何关联？<br/>- 如果我只看这个例题的开头，我能自己完成剩余部分吗？<br/>- 我刚才犯了个错误——我理解错误的原因吗？能解释我的误解吗？<br/>- 当然还有：我能回忆起上一页讲的内容吗？</blockquote><p data-pid=\"pKGAANvc\">大量输入的优势在于，你不必强迫自己停下来问这些问题（即强制自己放慢速度），也无需为了记笔记而放慢节奏。从我学习生物学的经历来看，这种方法对我有效的原因是，当进入一个新领域时，初学者面对着<b>太多</b>不确定是否重要的内容，即使是在教科书中。可能有些概念你以后再也不会遇到。在生物学领域这种情况极为常见。当你<b>知道</b>你正在阅读的大部分内容可能并不重要时，强迫自己做笔记和制作间隔重复记忆卡片会使学习过程变得缓慢且完全没有成就感。大量输入的方法给了你浏览、跳过内容和按兴趣探索的自由。</p><p data-pid=\"aVqE23BP\">然而，对于任何形式化学科（数学、物理、学习新的编程语言或通用的计算机科学），我绝不会采用这种方法。在这些领域，我认为 Andy 的方法才是正确的，也是我过去一直努力遵循的方法。</p><p data-pid=\"8942hplh\">原因似乎很清晰：形式化领域往往依赖于深层次的抽象塔，掌握一个层次对于进入下一个层次非常有意义，因为下一层次本质上就是前一层次被新符号重新包装的结果。这类领域接触的概念数量虽少，但它们之间的互动方式却异常丰富，人们必须能够驾驭这些互动关系，才能在相关领域产出成果。而像生物学这样的其他领域则抽象程度较低。这类领域的本质极其复杂，生物系统中各组件间的互动关系难以用那种能整齐封装在抽象中的形式化规则来清晰定义，它们总是会在某种程度上出现「泄漏」；因此在生物学实践中，人们与其说是在证明什么，不如说是在各个方向上进行摸索，然后通过具体实验来确认这些摸索的方向。</p><p data-pid=\"VeXEGjjU\">再来说说语言学习。</p><p data-pid=\"jVX0TCAm\">&#34;Khatzumoto&#34;，<a href=\"https://link.zhihu.com/?target=http%3A//www.alljapaneseallthetime.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">AJATT</a>（All Japanese All The Time，全日语，全时段）的作者，就是大量输入法的倡导者之一。这种方法对他非常有效，你可以在这里看到他说着<a href=\"https://link.zhihu.com/?target=https%3A//www.youtube.com/watch%3Fv%3DejRkuX1RGf4\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">非常</a>流利的日语</p><blockquote data-pid=\"0bHNr7X7\">我用了 18 个月时间学会了日语。2004 年 6 月，在我 21 岁这个「成熟」年龄，已经过了青春期，据说也已经过了智力巅峰期的时候，我开始学习日语。到 2005 年 9 月，我已经掌握了足够的日语能力，可以阅读技术资料，用日语进行商务交流和求职面试。到了下个月，我成功在东京一家大型日本企业获得了软件工程师的职位（耶！）。<br/><br/>我是如何做到的？通过每天 18-24 小时沉浸在日语环境中，做任何与日语相关的事情（「全日语，全时段」）。这听起来似乎投入了大量时间，但实际上我和你一样忙碌：我是美国一个小镇大学里的全日制计算机科学专业学生，在地理位置上离日本和日本人很远。我要应付计算机科学的课业，打工，甚至还有一个非日本籍的「另一半」。换句话说，我也有自己的生活。</blockquote><p data-pid=\"AXAsnxuL\">也许这个案例有些极端，但你明白了其中要点。大量输入<b>可以</b>与间隔重复结合使用，但关键在于你不必强制这样做。如果你的一天都围绕着某个主题，那么一周前接触的概念很可能在本周再次出现，这意味着你实际上在不知不觉中、无需刻意制作提示卡片的情况下，就在进行自然的间隔重复。事实上，在大量输入的理念中，有些观点甚至反对使用 SRS，认为它会妨碍大量输入的进程！当然，也有人支持一种<a href=\"https://link.zhihu.com/?target=https%3A//learnjapaneseonline.info/2018/06/25/massive-input-vs-srs-the-inverse-ratio-effect/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">折中的立场</a>，主张两种方法适度结合。</p><p data-pid=\"p7l4yyWJ\">抛开效果不谈，在 Andy 关于如何设计让阅读内容更好地留在记忆中的思考中，有一个反复出现的元素是间隔重复的强制性：你必须强迫自己坚持这个系统。那么，这种强制性能否被减轻并变得更加友好呢？为使用 SRS 建立一个合理的心理叙事是第一步：「如果我做 X，那么我将获得好处 Y」。如果你观察到其他人通过 SRS 成功了（获得了 Y），你就会有动力继续坚持：他们能做到，你也可以。然而在大多数领域，人们并没有这样的保证。再思考一下：如果你试图用 Anki 来记忆《细胞分子生物学》整本教材的内容，你认为这会比先通读全书然后再阅读几篇相关论文更有效吗？</p><p data-pid=\"AxYm1hDF\">因此，我推荐的方法是：首先通过大量输入构建该领域的知识地图，让自己沉浸在这个领域中。只有在这之后，才针对性地使用间隔重复法来补充那些最终缺失的关键知识点。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"uocn2sdC\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3.7-sonnet，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//nintil.com/massive-input-spaced-repetition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Nintil - Massive input and/or spaced repetition</a><br/>发布于 2023-09-10<br/>作者：<a href=\"https://link.zhihu.com/?target=https%3A//nintil.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Nintil</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19566266",
+      "type": "topic",
+      "id": "19566266",
+      "name": "学习方法"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19550564",
+      "type": "topic",
+      "id": "19550564",
+      "name": "阅读"
+    }
+  ],
+  "voteup_count": 106,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "间隔重复使记忆成为一种选择",
+    "is_following": false,
+    "url_token": "c_1525782291741208576",
+    "id": "c_1525782291741208576",
+    "articles_count": 182,
+    "accept_submission": true,
+    "title": "间隔重复 & 注意力管理",
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "comment_permission": "all",
+    "created": 1751877449,
+    "updated": 1656554846,
+    "image_url": "https://pica.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 227,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 5,
+  "contributions": [
+    {
+      "id": 51106657,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "间隔重复使记忆成为一种选择",
+        "is_following": false,
+        "url_token": "c_1525782291741208576",
+        "id": "c_1525782291741208576",
+        "articles_count": 182,
+        "accept_submission": true,
+        "title": "间隔重复 & 注意力管理",
+        "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+        "comment_permission": "all",
+        "created": 1751877449,
+        "updated": 1656554846,
+        "image_url": "https://pica.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 227,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 29389028558,
-  "voteup_count": 101,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 175,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "大量输入与间隔重复 - 来自知乎专栏「间隔重复 &amp; 注意力管理」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/29389028558 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1741665666,
-  "url": "https://api.zhihu.com/articles/29389028558",
-  "comment_permission": "all",
-  "title": "大量输入与间隔重复",
-  "image_width": 627,
-  "content": "<h2>摘要</h2><p data-pid=\"HjzWQrpw\">在某些领域和特定应用场景中，接触大量学习材料比运用间隔重复更为有效。</p><hr/><p data-pid=\"NXIdKqcZ\">我曾撰写过几篇关于教育与学习的博文，例如这两篇关于 <a href=\"https://link.zhihu.com/?target=https%3A//nintil.com/bloom-sigma/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Bloom 的两个标准差与精熟学习法</a><sup data-text=\"Bloom 的「两个标准差」问题：系统比较精熟学习法、一对一辅导和直接教学法的有效性\" data-url=\"https://zhuanlan.zhihu.com/p/720099642\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>的文章，以及关于<a href=\"https://link.zhihu.com/?target=https%3A//nintil.com/what-should-you-memorize/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔</a><sup data-text=\"你应该记住什么？间隔重复你的生活\" data-url=\"https://zhuanlan.zhihu.com/p/720345834\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>重复系统（SRS）的文章。</p><p data-pid=\"EJAS0gq9\">今天我注意到一个有趣的现象：一方面，我写了这些博文，并且在<b>理论上</b>认为 SRS 非常有价值；但实际上，我采用的学习方法却截然不同：大量输入。我在<a href=\"https://link.zhihu.com/?target=https%3A//nintil.com/scaling-tacit-knowledge/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《扩展隐性知识》</a>一文中曾简略提及这一概念。</p><blockquote data-pid=\"QO6Hc0nX\">语言学习的奇妙之处在于，对儿童来说这一过程似乎毫不费力。将<a href=\"https://link.zhihu.com/?target=https%3A//www.youtube.com/watch%3Fv%3DNiTsduRreug\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">大量输入</a>与适当的上下文结合，孩子首先会记住那些显著的词汇，然后识别整体模式，推断语法规则，最终能够流利地运用这门语言。成年人同样可以通过这种方式——接触大量带有恰当上下文的例子——在大约一年内掌握一门语言。有一个案例中，<a href=\"https://link.zhihu.com/?target=http%3A//www.alljapaneseallthetime.com/blog/pure-pwnage-how-fluent-was-i-after-18-months/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这位学习者</a>仅用了 18 个月时间，就从零基础达到了<a href=\"https://link.zhihu.com/?target=https%3A//www.youtube.com/watch%3Fv%3D3qWqIo1FR-8\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">近乎母语水平的日语</a>。<br/><br/>我并非宣称我们可以用学习语言的心智结构来学习所有事物。或许语言比其他领域更容易掌握，是因为我们在语言习得方面天生就有<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/The_Language_Instinct\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">预设机制</a>，而在其他领域则没有这种先天优势。我想表达的是，有一个领域中这种方法（海量的有上下文的例子输入）明显有效，我们应该思考如何将其拓展到其他知识领域。</blockquote><p data-pid=\"J5Fb0BP-\">我在撰写<a href=\"https://link.zhihu.com/?target=https%3A//nintil.com/longevity-making-of/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《长寿 FAQ》</a>时就采用了这种大量输入的方法：我先阅读了一本教科书，然后在数月内阅读了<b>大量</b>的论文，但并不刻意深入研读每一篇或做详细笔记，而是尝试以数量取胜，不过分深究任何特定论文。如我上文所提，「大量输入」这个概念源于语言习得领域，也是大多数人首次接触抽认卡（或某种基本形式的间隔重复）的地方，我发现这一点相当有趣。</p><p data-pid=\"YY6bePyW\">这种方法与 Andy Matuschak 描述的<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/reading-and-85345515\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">阅读</a><sup data-text=\"阅读理解与记忆系统\" data-url=\"https://zhuanlan.zhihu.com/p/653174197\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>量子力学书籍的方式截然相反。引用他的话：</p><blockquote data-pid=\"hzGrOkxM\">Dwarkesh 对我的读书方式感到相当惊讶。我阅读的速度大约是每页十五分钟，而他每页只需几分钟甚至更少。更为重要的是，我在阅读过程中不断地向文本和自己提问。比如：<br/>- 这句话是什么意思？我能用自己的话解释它吗？ <br/>- 在此处，哪些想法和概念尤为重要？<br/>- 作者显然认为我应该理解这个论点为何成立——那么它为什么成立？<br/>- 作者强调了这个细节——那么它为什么重要？<br/>- 作者似乎在这里设置了一个对比——那么究竟是什么对比？<br/>- 这个细节与我已有的物理学知识有何关联？<br/>- 如果我只看这个例题的开头，我能自己完成剩余部分吗？<br/>- 我刚才犯了个错误——我理解错误的原因吗？能解释我的误解吗？<br/>- 当然还有：我能回忆起上一页讲的内容吗？</blockquote><p data-pid=\"pKGAANvc\">大量输入的优势在于，你不必强迫自己停下来问这些问题（即强制自己放慢速度），也无需为了记笔记而放慢节奏。从我学习生物学的经历来看，这种方法对我有效的原因是，当进入一个新领域时，初学者面对着<b>太多</b>不确定是否重要的内容，即使是在教科书中。可能有些概念你以后再也不会遇到。在生物学领域这种情况极为常见。当你<b>知道</b>你正在阅读的大部分内容可能并不重要时，强迫自己做笔记和制作间隔重复记忆卡片会使学习过程变得缓慢且完全没有成就感。大量输入的方法给了你浏览、跳过内容和按兴趣探索的自由。</p><p data-pid=\"aVqE23BP\">然而，对于任何形式化学科（数学、物理、学习新的编程语言或通用的计算机科学），我绝不会采用这种方法。在这些领域，我认为 Andy 的方法才是正确的，也是我过去一直努力遵循的方法。</p><p data-pid=\"8942hplh\">原因似乎很清晰：形式化领域往往依赖于深层次的抽象塔，掌握一个层次对于进入下一个层次非常有意义，因为下一层次本质上就是前一层次被新符号重新包装的结果。这类领域接触的概念数量虽少，但它们之间的互动方式却异常丰富，人们必须能够驾驭这些互动关系，才能在相关领域产出成果。而像生物学这样的其他领域则抽象程度较低。这类领域的本质极其复杂，生物系统中各组件间的互动关系难以用那种能整齐封装在抽象中的形式化规则来清晰定义，它们总是会在某种程度上出现「泄漏」；因此在生物学实践中，人们与其说是在证明什么，不如说是在各个方向上进行摸索，然后通过具体实验来确认这些摸索的方向。</p><p data-pid=\"VeXEGjjU\">再来说说语言学习。</p><p data-pid=\"jVX0TCAm\">&#34;Khatzumoto&#34;，<a href=\"https://link.zhihu.com/?target=http%3A//www.alljapaneseallthetime.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">AJATT</a>（All Japanese All The Time，全日语，全时段）的作者，就是大量输入法的倡导者之一。这种方法对他非常有效，你可以在这里看到他说着<a href=\"https://link.zhihu.com/?target=https%3A//www.youtube.com/watch%3Fv%3DejRkuX1RGf4\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">非常</a>流利的日语</p><blockquote data-pid=\"0bHNr7X7\">我用了 18 个月时间学会了日语。2004 年 6 月，在我 21 岁这个「成熟」年龄，已经过了青春期，据说也已经过了智力巅峰期的时候，我开始学习日语。到 2005 年 9 月，我已经掌握了足够的日语能力，可以阅读技术资料，用日语进行商务交流和求职面试。到了下个月，我成功在东京一家大型日本企业获得了软件工程师的职位（耶！）。<br/><br/>我是如何做到的？通过每天 18-24 小时沉浸在日语环境中，做任何与日语相关的事情（「全日语，全时段」）。这听起来似乎投入了大量时间，但实际上我和你一样忙碌：我是美国一个小镇大学里的全日制计算机科学专业学生，在地理位置上离日本和日本人很远。我要应付计算机科学的课业，打工，甚至还有一个非日本籍的「另一半」。换句话说，我也有自己的生活。</blockquote><p data-pid=\"AXAsnxuL\">也许这个案例有些极端，但你明白了其中要点。大量输入<b>可以</b>与间隔重复结合使用，但关键在于你不必强制这样做。如果你的一天都围绕着某个主题，那么一周前接触的概念很可能在本周再次出现，这意味着你实际上在不知不觉中、无需刻意制作提示卡片的情况下，就在进行自然的间隔重复。事实上，在大量输入的理念中，有些观点甚至反对使用 SRS，认为它会妨碍大量输入的进程！当然，也有人支持一种<a href=\"https://link.zhihu.com/?target=https%3A//learnjapaneseonline.info/2018/06/25/massive-input-vs-srs-the-inverse-ratio-effect/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">折中的立场</a>，主张两种方法适度结合。</p><p data-pid=\"p7l4yyWJ\">抛开效果不谈，在 Andy 关于如何设计让阅读内容更好地留在记忆中的思考中，有一个反复出现的元素是间隔重复的强制性：你必须强迫自己坚持这个系统。那么，这种强制性能否被减轻并变得更加友好呢？为使用 SRS 建立一个合理的心理叙事是第一步：「如果我做 X，那么我将获得好处 Y」。如果你观察到其他人通过 SRS 成功了（获得了 Y），你就会有动力继续坚持：他们能做到，你也可以。然而在大多数领域，人们并没有这样的保证。再思考一下：如果你试图用 Anki 来记忆《细胞分子生物学》整本教材的内容，你认为这会比先通读全书然后再阅读几篇相关论文更有效吗？</p><p data-pid=\"AxYm1hDF\">因此，我推荐的方法是：首先通过大量输入构建该领域的知识地图，让自己沉浸在这个领域中。只有在这之后，才针对性地使用间隔重复法来补充那些最终缺失的关键知识点。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"uocn2sdC\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3.7-sonnet，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//nintil.com/massive-input-spaced-repetition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Nintil - Massive input and/or spaced repetition</a><br/>发布于 2023-09-10<br/>作者：<a href=\"https://link.zhihu.com/?target=https%3A//nintil.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Nintil</a></blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 5,
-  "image_url": "https://pic1.zhimg.com/v2-b7ffe2bad2079b5d69091b14772eec6e_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 5,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 5,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgImCgkyNTQ5MDAyNDASCzI5Mzg5MDI4NTU4GAciCklNQUdFX1RFWFQ=",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 106,
+      "down_vote_count": 1,
+      "like_count": 5,
+      "comment_count": 5,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 175,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-b7ffe2bad2079b5d69091b14772eec6e": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-b7ffe2bad2079b5d69091b14772eec6e": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-b7ffe2bad2079b5d69091b14772eec6e": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "4 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/11349056924?contentId=29389028558&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 间隔重复 & 注意力管理",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525782291741208576",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 间隔重复 & 注意力管理"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "1931325562166675274",
+  "title": "第一手观察",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/1931325562166675274",
+  "image_url": "https://pica.zhimg.com/v2-94217fc86f4874b6f99c86512df6b747_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-94217fc86f4874b6f99c86512df6b747_720w.jpg?source=172ae18b",
+  "excerpt": "既然 Robert Pirsig 已经说得如此透彻，我就原文照搬他的说法了。我不知道这个故事是否确有其事，但无论如何，它传达的真理是真实的。[1] 他一直在为那些找不到话说的学生们而烦恼。起初他觉得是学生在偷懒，但后来发现并非如此。他们是真的想不出有什么可…",
+  "created": 1753245013,
   "updated": 1753763441,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pica.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "既然 Robert Pirsig 已经说得如此透彻，我就原文照搬他的说法了。我不知道这个故事…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 5250,
+  "image_height": 3502,
+  "content": "<p data-pid=\"p_gKPixT\">既然 Robert Pirsig 已经说得如此透彻，我就原文照搬他的说法了。我不知道这个故事是否确有其事，但无论如何，它传达的真理是真实的。[1]</p><p data-pid=\"XseqwMyb\">他一直在为那些找不到话说的学生们而烦恼。起初他觉得是学生在偷懒，但后来发现并非如此。他们是真的想不出有什么可说的。</p><p data-pid=\"fNkCiokl\">他的其中一个学生，一个戴着厚镜片眼镜的女孩，想写一篇关于美国的五百字的文章。每次一听学生提出这种宏大空泛的选题，他总会感到一阵无力。他温和地建议道，不如把范围缩小，只写博兹曼市。</p><p data-pid=\"32Zf-Hxo\">到了截稿的时候，这个女孩什么都交不出来。她非常沮丧。她一再努力，试了又试，但就是想不出有什么可写的。</p><p data-pid=\"HX6wDXTz\">他一时语塞。现在轮到<b>他</b>想不出什么话来告诉这个女孩了。一阵沉默后，他灵光乍现：「那再把范围缩小到博兹曼<b>大街</b>吧。」</p><p data-pid=\"RISyB7uE\">她听话地点点头，走了出去。但就在下一堂课开始前，她又回来了，样子<b>极为</b>苦恼，还掉着眼泪，看得出她的苦恼积压已久。她还是想不出有什么可写的，也无法理解，一个<b>硕大</b>的博兹曼市她都想不出有什么可写的，把范围缩小到一条街，怎么就能让她写出东西呢？</p><p data-pid=\"jvmhvRao\">他非常生气。「你根本没有在用心<b>观察</b>！」他说。他想起自己因为想说的话<b>太多</b>，导致被大学开除的往事。每一个事实都有着无穷多解读的方式。你<b>观察</b>得越多，<b>洞见</b>也就越多。这个女孩是真的完全没有在观察，但不知为何她就是不懂这个道理。</p><p data-pid=\"6gwUJ-xz\">他怒气冲冲地说：「那就把范围再缩小。就写博兹曼大街上<b>那栋</b>歌剧院的<b>正面</b>。从左上角的第一块砖开始。」</p><p data-pid=\"TkiOpZAP\">在厚厚的眼镜片背后，女孩睁大了眼睛。</p><p data-pid=\"ucGx5Gin\">到了下一堂课的时候，这个女孩带着困惑的表情走进来，交上了一份关于蒙大拿州博兹曼主街歌剧院正面长达五千字的文章。「我当时就坐在街对面的汉堡店里，」女孩说，「开始写第一块砖，第二块砖，写到第三块砖的时候开始文思泉涌，根本停不下来。大家都以为我疯了，还不停地拿我开玩笑，但我写出来了，都在这里。我不懂这到底是怎么回事。」</p><p data-pid=\"alQFgLlT\">他也不懂。但在镇中街巷长时间地散步思考后，他得出了结论：这个女孩所遭遇的写作障碍，与他自己第一天教书时所陷入的思维瘫痪，实际上是一回事。这个女孩之所以思路受阻，是因为她总想在文章里重复那些自己听过的话；正如他第一天教书时，也只是想重复自己早已准备好的说辞。她想不出任何关于博兹曼市可写的内容，是因为她回忆不起任何自己听过的、值得重复的东西。她似乎完全没有意识到，自己可以不必总想着前人说过什么，而是在写作的同时，亲自下场，用自己的眼睛去观察和发现。将主题缩小到一块砖头破除了这一写作障碍，因为很显然，如此一来，她就<b>必须</b>进行第一手的直接观察了。</p><p data-pid=\"ExgvhmCj\">—Robert M. Pirsig《禅与摩托车维修艺术》</p><p data-pid=\"zPpkOp4z\">[1] Pirsig, <i>Zen and the Art of Motorcycle Maintenance</i>.</p><hr/><p data-pid=\"O1s6o0Mo\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1929866074574288391\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">「跳出思维定式」的思维定式</a><p data-pid=\"wNua5F6O\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1933497988854035949\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">比历史更离奇</a><hr/><blockquote data-pid=\"eErXtx1B\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者潜艇，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Original-Seeing\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Original Seeing</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/20060689",
+      "type": "topic",
+      "id": "20060689",
+      "name": "观察方法"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19574677",
+      "type": "topic",
+      "id": "19574677",
+      "name": "原创"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/1898649677861229557",
+      "type": "topic",
+      "id": "1898649677861229557",
+      "name": "第一手消息"
+    }
+  ],
+  "voteup_count": 40,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "理性是一种「利用手头一切资源来尽己所能」的理念。",
+    "is_following": false,
+    "url_token": "c_1826322587032117248",
+    "id": "c_1826322587032117248",
+    "articles_count": 83,
+    "accept_submission": true,
+    "title": "理性 & 克服偏见",
+    "url": "https://api.zhihu.com/columns/c_1826322587032117248",
+    "comment_permission": "all",
+    "created": 1728209236,
+    "updated": 1751811441,
+    "image_url": "https://picx.zhimg.com/v2-c9036d409f5e65c53cfea750a0176c61_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 302,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 2,
+  "contributions": [
+    {
+      "id": 52305976,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "理性是一种「利用手头一切资源来尽己所能」的理念。",
+        "is_following": false,
+        "url_token": "c_1826322587032117248",
+        "id": "c_1826322587032117248",
+        "articles_count": 83,
+        "accept_submission": true,
+        "title": "理性 & 克服偏见",
+        "url": "https://api.zhihu.com/columns/c_1826322587032117248",
+        "comment_permission": "all",
+        "created": 1728209236,
+        "updated": 1751811441,
+        "image_url": "https://picx.zhimg.com/v2-c9036d409f5e65c53cfea750a0176c61_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 302,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 1931325562166675200,
-  "voteup_count": 37,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 18,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "第一手观察 - 来自知乎专栏「理性 &amp; 克服偏见」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/1931325562166675274 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1753245013,
-  "url": "https://api.zhihu.com/articles/1931325562166675274",
-  "comment_permission": "all",
-  "title": "第一手观察",
-  "image_width": 3502,
-  "content": "<p data-pid=\"p_gKPixT\">既然 Robert Pirsig 已经说得如此透彻，我就原文照搬他的说法了。我不知道这个故事是否确有其事，但无论如何，它传达的真理是真实的。[1]</p><p data-pid=\"XseqwMyb\">他一直在为那些找不到话说的学生们而烦恼。起初他觉得是学生在偷懒，但后来发现并非如此。他们是真的想不出有什么可说的。</p><p data-pid=\"fNkCiokl\">他的其中一个学生，一个戴着厚镜片眼镜的女孩，想写一篇关于美国的五百字的文章。每次一听学生提出这种宏大空泛的选题，他总会感到一阵无力。他温和地建议道，不如把范围缩小，只写博兹曼市。</p><p data-pid=\"32Zf-Hxo\">到了截稿的时候，这个女孩什么都交不出来。她非常沮丧。她一再努力，试了又试，但就是想不出有什么可写的。</p><p data-pid=\"HX6wDXTz\">他一时语塞。现在轮到<b>他</b>想不出什么话来告诉这个女孩了。一阵沉默后，他灵光乍现：「那再把范围缩小到博兹曼<b>大街</b>吧。」</p><p data-pid=\"RISyB7uE\">她听话地点点头，走了出去。但就在下一堂课开始前，她又回来了，样子<b>极为</b>苦恼，还掉着眼泪，看得出她的苦恼积压已久。她还是想不出有什么可写的，也无法理解，一个<b>硕大</b>的博兹曼市她都想不出有什么可写的，把范围缩小到一条街，怎么就能让她写出东西呢？</p><p data-pid=\"jvmhvRao\">他非常生气。「你根本没有在用心<b>观察</b>！」他说。他想起自己因为想说的话<b>太多</b>，导致被大学开除的往事。每一个事实都有着无穷多解读的方式。你<b>观察</b>得越多，<b>洞见</b>也就越多。这个女孩是真的完全没有在观察，但不知为何她就是不懂这个道理。</p><p data-pid=\"6gwUJ-xz\">他怒气冲冲地说：「那就把范围再缩小。就写博兹曼大街上<b>那栋</b>歌剧院的<b>正面</b>。从左上角的第一块砖开始。」</p><p data-pid=\"TkiOpZAP\">在厚厚的眼镜片背后，女孩睁大了眼睛。</p><p data-pid=\"ucGx5Gin\">到了下一堂课的时候，这个女孩带着困惑的表情走进来，交上了一份关于蒙大拿州博兹曼主街歌剧院正面长达五千字的文章。「我当时就坐在街对面的汉堡店里，」女孩说，「开始写第一块砖，第二块砖，写到第三块砖的时候开始文思泉涌，根本停不下来。大家都以为我疯了，还不停地拿我开玩笑，但我写出来了，都在这里。我不懂这到底是怎么回事。」</p><p data-pid=\"alQFgLlT\">他也不懂。但在镇中街巷长时间地散步思考后，他得出了结论：这个女孩所遭遇的写作障碍，与他自己第一天教书时所陷入的思维瘫痪，实际上是一回事。这个女孩之所以思路受阻，是因为她总想在文章里重复那些自己听过的话；正如他第一天教书时，也只是想重复自己早已准备好的说辞。她想不出任何关于博兹曼市可写的内容，是因为她回忆不起任何自己听过的、值得重复的东西。她似乎完全没有意识到，自己可以不必总想着前人说过什么，而是在写作的同时，亲自下场，用自己的眼睛去观察和发现。将主题缩小到一块砖头破除了这一写作障碍，因为很显然，如此一来，她就<b>必须</b>进行第一手的直接观察了。</p><p data-pid=\"ExgvhmCj\">—Robert M. Pirsig《禅与摩托车维修艺术》</p><p data-pid=\"zPpkOp4z\">[1] Pirsig, <i>Zen and the Art of Motorcycle Maintenance</i>.</p><hr/><p data-pid=\"O1s6o0Mo\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1929866074574288391\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">「跳出思维定式」的思维定式</a><p data-pid=\"wNua5F6O\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1933497988854035949\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">比历史更离奇</a><hr/><blockquote data-pid=\"eErXtx1B\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者潜艇，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Original-Seeing\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Original Seeing</a></blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://pic1.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 1,
-  "image_url": "https://picx.zhimg.com/v2-94217fc86f4874b6f99c86512df6b747_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 0,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 0,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyNjA3MTc3ODUSEzE5MzEzMjU1NjIxNjY2NzUyNzQYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 40,
+      "down_vote_count": 0,
+      "like_count": 0,
+      "comment_count": 2,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 18,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-94217fc86f4874b6f99c86512df6b747": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-94217fc86f4874b6f99c86512df6b747": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-94217fc86f4874b6f99c86512df6b747": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/29225254947?contentId=1931325562166675274&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 理性 & 克服偏见",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1826322587032117248",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 理性 & 克服偏见"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

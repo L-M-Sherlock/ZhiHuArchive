@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pica.zhimg.com/v2-4355c018ed124b748dcefede70f34d8a_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-4355c018ed124b748dcefede70f34d8a.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -39,8 +40,8 @@
           "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -72,7 +73,7 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
     "gender": -1,
@@ -83,7 +84,7 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
@@ -99,9 +100,20 @@
   "content_need_truncated": false,
   "created_time": 1763029740,
   "excerpt": "这分人。陶哲轩确实在 6 岁的时候就开始上 7 年级的课程了，而且他的数学也确实越学越好。但是并非人人都是陶哲轩。 以下内容摘自 @Thoughts Memo 汉化组的译文《教育系统是否充分满足优秀学生的需求？ 》陶哲轩的父母走访了多所当地学校，他们在寻找一位既有灵活性又思想开放的校长，能够接受他们为陶哲轩设计的特殊教育方案。... 这种做法为「综合性」多年级加速教育计划奠定了基础，这正是哲轩父母所构想的，并在学校经过深入…",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "1972370368946758413",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1972370368946758413&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1750903466,
     "detail": "<p>一年前考比这个还要深小学三年级下册的期考试卷，都不致于只考个90分。而且在家考和在学校考结果完全不一样，考试的结果就像是薛定锷方程的解，好的可满分，差的如这次都直接崩溃险些就要破90了。过了一年了不但没进步，反而越学越差了，照这么下去，明年都怕要掉90以下了。语、数、英三科，语文92.5排第二名、数学90跌到第11名了、英语99排第一。语文与英语没有超前学，成绩保持稳定领先，数学超前学完六年级了，直接崩盘。奉劝越前学的普娃们，真的不能越前学数学，真的不要。现在是后悔莫及了。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-c719a5a469c0ff015ffdb292f7f78a78_1440w.jpeg\" data-rawwidth=\"451\" data-rawheight=\"709\" data-size=\"normal\" class=\"origin_image zh-lightbox-thumb\" width=\"451\" data-original=\"https://pica.zhimg.com/v2-c719a5a469c0ff015ffdb292f7f78a78_r.jpg\"/></figure><p></p>",
@@ -111,11 +123,13 @@
     "title": "超前学数学真的会越学越差吗？",
     "type": "question",
     "updated_time": 1750906940,
-    "url": "https://api.zhihu.com/questions/1921509089596400775"
+    "url": "https://www.zhihu.com/api/v4/questions/1921509089596400775"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1763029740,
+  "url": "https://www.zhihu.com/api/v4/answers/1972370368946758413",
   "voteup_count": 52
 }

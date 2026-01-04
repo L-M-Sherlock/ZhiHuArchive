@@ -1,15 +1,16 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-7a23f5ee157d58c2494e8a642e59b7ae.jpg?source=2c26e567",
+    "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
     "badge": [],
     "badge_v2": {
       "detail_badges": [],
       "icon": "",
       "merged_badges": [],
       "night_icon": "",
-      "title": ""
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。"
     },
     "gender": 1,
     "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
@@ -19,40 +20,60 @@
     "is_privacy": false,
     "name": "Jarrett Ye",
     "type": "people",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "url": "https://www.zhihu.com/api/v4/people/3c9990a12cdbcd92e20b1387b160f0a3",
     "url_token": "JarrettYe",
     "user_type": "people"
   },
-  "biz_ext": {},
-  "comment_count": 6,
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
+  "comment_count": 8,
   "content": "<p data-pid=\"jpXwV0FS\">像个童话故事。</p><p data-pid=\"CiJRmfQT\">课题是自己提出的，数据是在实习的公司查的，框架是两周内突击学的，论文是一个月内投的，但是兴趣却是在四年前慢慢开始积累的。</p><p data-pid=\"o9p_vPda\">大约是在 2017 年，我初次在知乎上了解到了 Anki，知道了原来记住知识这件事情是可以量化的，有多少投入，就有多少产出，不是听天由命的，而是可以自己掌控的。从那时起，我就对提高记忆效率这件事产生了兴趣。</p><p data-pid=\"HT05z145\">2018 年，借助 Anki，我考上了哈工深的计算机，平时闲来无事也会写写知乎，也顺带翻译起了 Anki 的记忆算法文档，一路顺藤摸瓜，找到了现代间隔重复算法的祖宗 SuperMemo 那儿，开始逐步了解记忆算法的目标、设计思路和原理。</p><p data-pid=\"09VkgEhw\">这一翻就是一年多，到了 2020 年，墨墨背单词的算法负责人通过知乎联系到我，邀我去实习，给他们介绍这个算法，并分析他们收集到的数据。借此机会，我才慢慢将理论和实际结合起来，开始验证前人的研究，并发现了有些理论存在问题。</p><p data-pid=\"Ft9uoRBX\">中间发生了很多事情，2021 年 9 月，大四的我决定放弃保研，去墨墨工作。不过导师肯定没那么容易放我走，让我先发篇论文。所以我就把记忆算法作为研究课题，开始了第一段科研经历。</p><p data-pid=\"7i1Rk5KC\">那个时候正值深度学习大火，我就准备了一手深度学习+人类语言学习记忆建模，突击学习了一下 PyTorch 怎么用，花了两周把实验代码写完，然后开始写论文，十月份投稿，没想到两周就有了消息，让我小修一下，即可录用。</p><p data-pid=\"TQa_53Oy\">可能是这个交叉方向过于冷门，后面我回到公司，又在导师的怂恿下，发了一篇 KDD，一篇 TKDE，都接收了，现在想想投中率居然是 100%，有点离谱。</p><p data-pid=\"H6ci6nGF\">更多细节我之前在这个回答中写过了，这里就不赘述了：</p><a href=\"https://www.zhihu.com/question/565784411/answer/2766306560\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-9b825ea5850c07c7370044050054cfd6_180x120.jpg\" data-image-width=\"1280\" data-image-height=\"800\" class=\"internal\">为什么有的计算机本科生就能发表顶会，但是许多博士生还是一篇都没有？</a><p data-pid=\"vMPktu19\">欢迎大家 follow 我的工作：</p><a href=\"https://zhuanlan.zhihu.com/p/577383961\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-337e676d732039a25471c1057c54bfa3_180x120.jpg\" data-image-width=\"2700\" data-image-height=\"1480\" class=\"internal\">Thoughts Memo：KDD&#39;22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]</a><a href=\"https://zhuanlan.zhihu.com/p/656714407\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-5285ed3ff6a616b988d261d5e1ec764f_180x120.jpg\" data-image-width=\"2752\" data-image-height=\"1526\" class=\"internal\">Thoughts Memo：IEEE TKDE 2023 | 墨墨背单词：通过捕捉记忆动态，优化间隔重复调度</a><a href=\"https://zhuanlan.zhihu.com/p/671340049\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-82281a99dbafb1ca7b46b067b6fb6c6a_180x120.jpg\" data-image-width=\"1537\" data-image-height=\"907\" class=\"internal\">Thoughts Memo：FSRS 现已成为世界上最精确的间隔重复算法*</a><a href=\"https://zhuanlan.zhihu.com/p/686756603\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-f0435340d3230b5ff02cc131055eff4e_180x120.jpg\" data-image-width=\"1708\" data-image-height=\"1418\" class=\"internal\">叶峻峣：目前世界最大的人类记忆行为数据集发布</a><a href=\"https://zhuanlan.zhihu.com/p/561539418\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-508467d2d77b37d7642c84c0a995408a_180x120.jpg\" data-image-width=\"1199\" data-image-height=\"815\" class=\"internal\">Thoughts Memo：间隔重复记忆算法研究资源汇总</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1711985485,
   "excerpt": "像个童话故事。 课题是自己提出的，数据是在实习的公司查的，框架是两周内突击学的，论文是一个月内投的，但是兴趣却是在四年前慢慢开始积累的。 大约是在 2017 年，我初次在知乎上了解到了 Anki，知道了原来记住知识这件事情是可以量化的，有多少投入，就有多少产出，不是听天由命的，而是可以自己掌控的。从那时起，我就对提高记忆效率这件事产生了兴趣。 2018 年，借助 Anki，我考上了哈工深的计算机，平时闲来无事也会写写知…",
-  "id": 3451331045,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3451331045",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://www.zhihu.com/question/565784411/answer/2766306560": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"为什么有的计算机本科生就能发表顶会，但是许多博士生还是一篇都没有？\",\"card_open_url\":\"https://www.zhihu.com/question/565784411/answer/2766306560\",\"desc\":\"3376 赞同 · 162 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 泻药，人在清远，刚开电脑，大四期间发表一篇 ACM KDD 顶会论文 [1]，一篇 CCF T1 中文期刊论文[2]，一篇 IEEE TKDE 顶刊论文[3]。KDD 论文中文版：KDD'22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育] TKDE 论文中文版：IEEE TKDE 2023 | 墨墨背单词：通过捕捉记忆动态，优化间隔重复调度 由于我的科研经历实在过于诡异（歪门邪道），所以我也不懂大多数人做科研到底是怎么样的，更不用说他们是怎么发论文的了。 …\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-e5d6c7c89b21326f0a8c6f78cb062f6f.jpg?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"2766306560\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/561539418": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"间隔重复记忆算法研究资源汇总\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/561539418\",\"desc\":\"106 赞同 · 10 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 离上次写间隔重复记忆算法研究的入门教程《 间隔重复记忆算法：e 天内，从入门到入土。 》已经过去半个多月了，不知道读者朋友们入门间隔重复记忆算法了吗？这次就主要分享一下我在研究过程[1]中用到的资源和阅读过的文献，帮助这个领域的探索者更快地上手。科普墨墨团队制作的间隔重复记忆模型科普，适合零基础入门： 【墨墨科普】几个公式，拯救你的记忆。_哔哩哔哩_bilibili 综述Gwern 所著的间隔重复综述，涵盖了大部分间隔重…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-508467d2d77b37d7642c84c0a995408a_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"561539418\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/577383961": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"KDD'22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/577383961\",\"desc\":\"477 赞同 · 91 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 大家好，我是叶峻峣，墨墨科技的记忆算法工程师。前三篇文章我分别介绍了我的科研经历 [1]、算法教程[2]和研究资源[3]。今天分享一下记忆算法论文 A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling 的详细介绍，该论文由我和哈工深的苏敬勇老师、墨墨背单词的曹译珑博士在 KDD 2022 上发表，研究了如何在背单词场景下对用户复习规划进行优化的问题。与以往的同类工作不同的是，本文构建了包含…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-337e676d732039a25471c1057c54bfa3_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"577383961\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/656714407": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"IEEE TKDE 2023 | 墨墨背单词：通过捕捉记忆动态，优化间隔重复调度\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/656714407\",\"desc\":\"301 赞同 · 38 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 大家好，我是叶峻峣，墨墨科技的记忆算法工程师。今天要分享的这篇论文研究了如何在背单词场景下对用户复习规划进行优化的问题。本来这篇论文在今年 3 月份的时候就已经录用了，不过一直处于 early access 阶段。目前终于正式刊出，所以在知乎分享一下论文的中文版本，让记忆算法的研究者能够更方便地了解该领域的前沿进展。 DOI：https://doi.org/10.1109/TKDE.2023.3251721 开源代码：maimemo/SSP-MMC-Plus: Optimizing Spaced Repetition Schedule …\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-5285ed3ff6a616b988d261d5e1ec764f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"656714407\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/671340049": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"FSRS 现已成为世界上最精确的间隔重复算法*\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/671340049\",\"desc\":\"124 赞同 · 64 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e *这是在我和 u/LMSherlock 能想出并实现的算法中最精确的。而且我们与 SuperMemo 的比较测试也只是基于有限的数据。嘿，我得取个酷酷的标题，对吧？这篇帖子可以看作是之前这个（过时的） 帖子 [1]的后续。任何一个「诚实」的间隔重复算法，都应该能够根据卡片的复习历史，预测在特定时间点回忆一张卡片的概率。我们把这个概率称为 R。 如果一个「不诚实」的算法不计算概率，只是输出一个时间间隔，我们仍然可以在某些假设下把这…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-82281a99dbafb1ca7b46b067b6fb6c6a_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"671340049\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/686756603": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"目前世界最大的人类记忆行为数据集发布\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/686756603\",\"desc\":\"95 赞同 · 4 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eJarrett Ye:\\u003c/a\\u003e 介绍为了促进记忆领域研究的发展，我与 Anki 的开发者 Damien Elmes 合作，发布了原用于 FSRS Benchmark 项目的数据集。现在可以在 Hugging Face 上下载该数据集： open-spaced-repetition/FSRS-Anki-20k · Datasets at Hugging Face 介绍FSRS-Anki-20k 数据集包含 2 万份 Anki 用户的复习日志集合文件。这些数据是在复习超过 5000 次的用户中随机挑选的。总计可用的复习日志有 15 亿条。 这份数据集中一共包含两种数据格式：原…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-f0435340d3230b5ff02cc131055eff4e_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"686756603\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://www.zhihu.com/question/565784411/answer/2766306560": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"为什么有的计算机本科生就能发表顶会，但是许多博士生还是一篇都没有？\",\"card_open_url\":\"https://www.zhihu.com/question/565784411/answer/2766306560\",\"desc\":\"3759 赞同 · 168 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 泻药，人在清远，刚开电脑，大四期间发表一篇 ACM KDD 顶会论文 [1]，一篇 CCF T1 中文期刊论文[2]，一篇 IEEE TKDE 顶刊论文[3]。KDD 论文中文版：KDD'22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育] TKDE 论文中文版：IEEE TKDE 2023 | 墨墨背单词：通过捕捉记忆动态，优化间隔重复调度 由于我的科研经历实在过于诡异（歪门邪道），所以我也不懂大多数人做科研到底是怎么样的，更不用说他们是怎么发论文的了。 …\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-e5d6c7c89b21326f0a8c6f78cb062f6f.jpg?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"2766306560\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/561539418": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"间隔重复记忆算法研究资源汇总\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/561539418\",\"desc\":\"126 赞同 · 11 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 离上次写间隔重复记忆算法研究的入门教程《 间隔重复记忆算法：e 天内，从入门到入土。 》已经过去半个多月了，不知道读者朋友们入门间隔重复记忆算法了吗？这次就主要分享一下我在研究过程[1]中用到的资源和阅读过的文献，帮助这个领域的探索者更快地上手。科普墨墨团队制作的间隔重复记忆模型科普，适合零基础入门： 【墨墨科普】几个公式，拯救你的记忆。_哔哩哔哩_bilibili 综述Gwern 所著的间隔重复综述，涵盖了大部分间隔重…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-508467d2d77b37d7642c84c0a995408a_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"561539418\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/577383961": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"KDD'22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/577383961\",\"desc\":\"559 赞同 · 98 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 大家好，我是叶峻峣，墨墨科技的记忆算法工程师。前三篇文章我分别介绍了我的科研经历 [1]、算法教程[2]和研究资源[3]。今天分享一下记忆算法论文 A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling 的详细介绍，该论文由我和哈工深的苏敬勇老师、墨墨背单词的曹译珑博士在 KDD 2022 上发表，研究了如何在背单词场景下对用户复习规划进行优化的问题。与以往的同类工作不同的是，本文构建了包含…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-337e676d732039a25471c1057c54bfa3_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"577383961\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/656714407": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"IEEE TKDE 2023 | 墨墨背单词：通过捕捉记忆动态，优化间隔重复调度\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/656714407\",\"desc\":\"327 赞同 · 54 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 大家好，我是叶峻峣，墨墨科技的记忆算法工程师。今天要分享的这篇论文研究了如何在背单词场景下对用户复习规划进行优化的问题。本来这篇论文在今年 3 月份的时候就已经录用了，不过一直处于 early access 阶段。目前终于正式刊出，所以在知乎分享一下论文的中文版本，让记忆算法的研究者能够更方便地了解该领域的前沿进展。 DOI：https://doi.org/10.1109/TKDE.2023.3251721 开源代码：maimemo/SSP-MMC-Plus: Optimizing Spaced Repetition Schedule …\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-5285ed3ff6a616b988d261d5e1ec764f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"656714407\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/671340049": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"FSRS 现已成为世界上最精确的间隔重复算法*\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/671340049\",\"desc\":\"165 赞同 · 71 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 译者：FSRS 是基于墨墨背单词的论文《优化间隔重复调度的随机最短路径算法 | 墨墨百科 》衍生出的开源项目。*这是在我和 u/LMSherlock 能想出并实现的算法中最精确的。而且我们与 SuperMemo 的比较测试也只是基于有限的数据。嘿，我得取个酷酷的标题，对吧？这篇帖子可以看作是之前这个（过时的） 帖子 [1]的后续。任何一个「诚实」的间隔重复算法，都应该能够根据卡片的复习历史，预测在特定时间点回忆一张卡片的概率。我们把这个…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-82281a99dbafb1ca7b46b067b6fb6c6a_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"671340049\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/686756603": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"目前世界最大的人类记忆行为数据集发布\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/686756603\",\"desc\":\"102 赞同 · 4 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eJarrett Ye:\\u003c/a\\u003e 介绍为了促进记忆领域研究的发展，我与 Anki 的开发者 Damien Elmes 合作，发布了原用于 FSRS Benchmark 项目的数据集。现在可以在 Hugging Face 上下载该数据集： open-spaced-repetition/FSRS-Anki-20k · Datasets at Hugging Face 介绍FSRS-Anki-20k 数据集包含 2 万份 Anki 用户的复习日志集合文件。这些数据是在复习超过 5000 次的用户中随机挑选的。总计可用的复习日志有 15 亿条。 这份数据集中一共包含两种数据格式：原…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-f0435340d3230b5ff02cc131055eff4e_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"686756603\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=3451331045&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1565077699,
     "detail": "",
-    "id": 338996639,
+    "id": "338996639",
     "question_type": "normal",
     "relationship": {},
     "title": "你的第一段科研经历是怎样的？",
     "type": "question",
     "updated_time": 1565077699,
-    "url": "https://api.zhihu.com/questions/338996639"
+    "url": "https://www.zhihu.com/api/v4/questions/338996639"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 128
+  "updated_time": 1711985485,
+  "url": "https://www.zhihu.com/api/v4/answers/3451331045",
+  "voteup_count": 146
 }

@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,6 +37,7 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,37 +84,57 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 9,
   "content": "<p data-pid=\"IXPuctPA\">书中有错误的知识和观点，并不可怕，对待任何内容都要抱以怀疑的态度。</p><p data-pid=\"guCejRP6\">一直被灌输正确的知识，反而存在隐秘的危险。这可能让人养成坏习惯，盲目接受所有权威观点、新观点，或是那些有几个貌似合理的理由支持的观点。</p><p data-pid=\"bWCiBetw\">我记得在哪看到过，某国学物理的人更容易成为极端宗教狂热分子。我很纳闷，不就是学个物理吗，怎么能把人变成狂热信徒？后来作者解释说，物理专业灌输的都是标准答案，学生时间久了就养成了盲从权威的习惯。</p><p data-pid=\"PUN8F20E\">向学生灌输大量权威知识可能是危险的，<b>尤其当</b>这些知识本身是正确的，因为它可能削弱学生质疑权威、独立思考的能力。</p><p data-pid=\"zqRKA7hG\">那么该怎么教呢？也许可以讲授物理学的发展史，告诉学生每个理论是如何被新的正确理论所取代的？「看，这是旧理论，这是新理论。新理论通过这个实验战胜了旧理论！」如果把这个过程重复讲十遍，学生学到的思维方式是什么？他们只会觉得「新理论总是战无不胜的，物理学中每个新观点最后都会被证明是正确的」。这样并没有传授批判性思维的方法，因为你只是在用后见之明看待历史。你无意中培养了学生一种肤浅的认识：对错很容易判断，非常简单明了。只要新观点略有可取之处，那它多半就是对的。</p><p data-pid=\"LiXTteCs\">我们也许可以尝试从历史发展的真实视角来教授物理学史，而不是站在上帝视角去评判：向学生展示当年物理学家们争论不止的各种理论，再现那些曾经被认为有道理的不同观点。</p><p data-pid=\"7nToLaZ0\">教学中可以避免直接把标准答案告诉学生，而是给他们展示一些貌似合理的物理公式，让他们自己去判断哪个才是正确的，或是设计实验来验证不同理论。这样的挑战不像让学生凭空发现问题、创立新理论那么困难，但相比被动记忆权威知识，已经是一个巨大的进步了。</p><p data-pid=\"LUOUPqgP\">如此，你就可以培养学生这样一种思维习惯：「权威的观念往往有缺陷，但要找到更好的新观点殊非易事。大部分变革尝试都可能以失败告终，尽管每一次进步都必然源于变革。」</p><p data-pid=\"UPe4b1ZE\">以上内容摘自 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0\" data-hash=\"4c592f496dc33822b560b382907ff1d0\" data-hovercard=\"p$b$4c592f496dc33822b560b382907ff1d0\">@Thoughts Memo</a> 汉化组的译文：</p><a href=\"https://zhuanlan.zhihu.com/p/705411294\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-352fd238dfb21af284b89314a183d672_180x120.jpg\" data-image-width=\"620\" data-image-height=\"350\" class=\"internal\">Thoughts Memo：还有两条要摒弃的学校思维</a><hr/><h2>相关文章</h2><a href=\"https://zhuanlan.zhihu.com/p/578061934\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-b0586912431fa78755d09b8656748f26_180x120.jpg\" data-image-width=\"1920\" data-image-height=\"1080\" class=\"internal\">Thoughts Memo：谬误：学校能预防伪科学思维</a><a href=\"https://zhuanlan.zhihu.com/p/489148688?utm_id=0\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-9666b6847590dca71b6c6856d408ad82_180x120.jpg\" data-image-width=\"1280\" data-image-height=\"720\" class=\"internal\">Thoughts Memo：谬误：非学校教育滋生阴谋论</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1721565304,
   "excerpt": "书中有错误的知识和观点，并不可怕，对待任何内容都要抱以怀疑的态度。 一直被灌输正确的知识，反而存在隐秘的危险。这可能让人养成坏习惯，盲目接受所有权威观点、新观点，或是那些有几个貌似合理的理由支持的观点。 我记得在哪看到过，某国学物理的人更容易成为极端宗教狂热分子。我很纳闷，不就是学个物理吗，怎么能把人变成狂热信徒？后来作者解释说，物理专业灌输的都是标准答案，学生时间久了就养成了盲从权威的习惯。 向…",
-  "id": 3569033377,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3569033377",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/489148688?utm_id=0": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"谬误：非学校教育滋生阴谋论\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/489148688\",\"desc\":\"44 赞同 · 2 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 谬误当我们任由孩子们自己探索世界时，他们有可能成为阴谋论的受害者。学校是最好的纠正方法。 事实事实恰恰相反。学校倾向于将信息划分为（1） 可靠的（学校饲喂的）和（2）不可靠的（所有其他信息）。这种非黑即白的二分法破坏了学生对虚假信息的警惕。学校里的孩子习惯于相信他们在学校学习的知识，他们认为没有必要、也没有兴趣去验证学校给的说法。正是这种习惯使成年人容易轻信假新闻（见：学校让人沾染上的 100+ 恶习 [1]…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-9666b6847590dca71b6c6856d408ad82_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"489148688\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/578061934": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"谬误：学校能预防伪科学思维\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/578061934\",\"desc\":\"55 赞同 · 20 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 谬误 将孩子送去学校，社会上流传的伪科学谬误一定会减少 事实最终结果恰恰相反。通过强迫学习，我们向学生灌输了 100+ 条学校恶习 [1]，影响了他们学习、解决问题的能力，以及各种行为，持续一生。学校恶习最为助长伪科学思维的学校恶习是： 懒于怀疑，这要归咎于学校向学生灌输唯一正确的知识，并责罚质疑既有思想的学生 容忍较低的理解水平，这要归咎于学生没有余裕来填补知识中的空缺，最终他们只能不加理解地学习 憎恨权威，…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-b0586912431fa78755d09b8656748f26_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"578061934\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/705411294": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"还有两条要摒弃的学校思维\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/705411294\",\"desc\":\"341 赞同 · 11 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e Ben Casnocha 在 《三件要从学校里要忘掉的事》 一文中提到了 Bill Bullard 总结的三个有害的思维习惯：看重个人意见、解决给定的问题和渴求他人认可。虽然我对 Bullard 给出的替代方案不以为然，但他确实指出了一些关键问题。学校里灌输的有害思维习惯不胜枚举，我就说两个我最深恶痛绝的。 我认为，学校教给学生的 最危险的思维习惯是：哪怕你根本不懂，也要鹦鹉学舌地重复答案。认识到自己的困惑和无知，是最基本的生存技能之…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-352fd238dfb21af284b89314a183d672_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"705411294\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/489148688?utm_id=0": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"谬误：非学校教育滋生阴谋论\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/489148688\",\"desc\":\"49 赞同 · 2 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 谬误当我们任由孩子们自己探索世界时，他们有可能成为阴谋论的受害者。学校是最好的纠正方法。 事实事实恰恰相反。学校倾向于将信息划分为（1） 可靠的（学校饲喂的）和（2）不可靠的（所有其他信息）。这种非黑即白的二分法破坏了学生对虚假信息的警惕。学校里的孩子习惯于相信他们在学校学习的知识，他们认为没有必要、也没有兴趣去验证学校给的说法。正是这种习惯使成年人容易轻信假新闻（见：学校让人沾染上的 100+ 恶习 [1]…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-9666b6847590dca71b6c6856d408ad82_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"489148688\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/578061934": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"谬误：学校能预防伪科学思维\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/578061934\",\"desc\":\"59 赞同 · 20 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 谬误 将孩子送去学校，社会上流传的伪科学谬误一定会减少 事实最终结果恰恰相反。通过强迫学习，我们向学生灌输了 100+ 条学校恶习 [1]，影响了他们学习、解决问题的能力，以及各种行为，持续一生。学校恶习最为助长伪科学思维的学校恶习是： 懒于怀疑，这要归咎于学校向学生灌输唯一正确的知识，并责罚质疑既有思想的学生 容忍较低的理解水平，这要归咎于学生没有余裕来填补知识中的空缺，最终他们只能不加理解地学习 憎恨权威，…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-b0586912431fa78755d09b8656748f26_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"578061934\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/705411294": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"还有两条要摒弃的学校思维\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/705411294\",\"desc\":\"465 赞同 · 20 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e Ben Casnocha 在 《三件要从学校里要忘掉的事》 一文中提到了 Bill Bullard 总结的三个有害的思维习惯：看重个人意见、解决给定的问题和渴求他人认可。虽然我对 Bullard 给出的替代方案不以为然，但他确实指出了一些关键问题。学校里灌输的有害思维习惯不胜枚举，我就说两个我最深恶痛绝的。 我认为，学校教给学生的 最危险的思维习惯是：哪怕你根本不懂，也要鹦鹉学舌地重复答案。认识到自己的困惑和无知，是最基本的生存技能之…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-352fd238dfb21af284b89314a183d672_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"705411294\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=3569033377&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1718822978,
     "detail": "<p>比如曾经的小学课本中，有一篇课文《长城砖》，说在太空里看地球，能看到中国的长城。但从光学和物理学的角度考虑，这根本无法实现。再比如初中物理学到杠杆原理时，书上讲到一句话“给我一个支点，我就能翘起地球”，这其实也是错的。你可以仔细思考一下，你要翘起一块石头，你可以把支点固定在地面上，可你想要翘动地球，你打算把支点固定在哪里？太空中你固定的住吗？还有历史课本上讲的“人和动物的区别是，人会使用工具”，那婴儿也是人，请问一下婴儿会使用什么工具？还有，人在睡着了以后还能使用工具吗？还是说，人在睡着以后就不是人了？其实深究的话，就连“人会直立行走”这句话也是错的，难道双腿瘫痪的人也会直立行走吗？</p><p>这还只是知识方面的问题。在讲道理方面，书上更是漏洞百出。比如“授人以鱼不如授人以渔”这句话，乍一听没啥问题，因为你可以用渔网去捞鱼，所以送人一条鱼，不如送人一个渔网。但仔细思考一下，假如我把渔网给你，让你去钓鱼，你一定能钓的到吗？你需不需要鱼饵？需不需要专门花时间去钓鱼？再说了，如果我只是单纯的想吃鱼，难道我不能去超市买现成的鱼，只能买个渔网自己钓吗？那我是吃饱了撑的？还有“只要功夫深，铁杵磨成针”这句话，就更是扯淡了，我只是想要一根针，我直接去超市买不行吗？姑且不讨论磨针会不会很累，用铁磨成的针，实用性如何？把特别粗的一块铁磨成特别细的一根针，会不会造成浪费？这些难道都不需要考虑吗？</p>",
-    "id": 659371883,
+    "id": "659371883",
     "question_type": "normal",
     "relationship": {},
     "title": "如何看待书中某些错误的知识和观点？",
     "type": "question",
     "updated_time": 1720189392,
-    "url": "https://api.zhihu.com/questions/659371883"
+    "url": "https://www.zhihu.com/api/v4/questions/659371883"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 67
+  "updated_time": 1721565304,
+  "url": "https://www.zhihu.com/api/v4/answers/3569033377",
+  "voteup_count": 68
 }

@@ -1,80 +1,419 @@
 {
-  "status": 0,
+  "id": "609773492",
+  "title": "摧毁学生的信念",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/609773492",
+  "image_url": "https://picx.zhimg.com/v2-1ffc19bb14cf12fcf0c5e91e09f32ae7_720w.jpg?source=172ae18b",
+  "title_image": "https://pica.zhimg.com/v2-1ffc19bb14cf12fcf0c5e91e09f32ae7_720w.jpg?source=172ae18b",
+  "excerpt": "很少有老师真正了解大脑的运作机制以及应该如何进行高效学习。然而，即使是受过良好教育且聪明的老师也会持有异端信念。我的一位教师同事 Marcus 说「信念与学习毫不相干」。 这个谬误无处不在，并在全世界的教师心中根深蒂固。Marcus 的想法很容易理解。他…",
+  "created": 1677472304,
   "updated": 1677472402,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "很少有老师真正了解大脑的运作机制以及应该如何进行高效学习。然而，即使是受过良好…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 4760,
+  "image_height": 3272,
+  "content": "<p data-pid=\"79AStLjk\">很少有老师真正了解大脑的运作机制以及应该如何进行高效学习。然而，即使是受过良好教育且聪明的老师也会持有异端信念。我的一位教师同事 Marcus 说「信念与学习毫不相干」。</p><p data-pid=\"Nvmn-RQV\">这个谬误无处不在，并在全世界的教师心中根深蒂固。Marcus 的想法很容易理解。他来自一个虔诚的宗教家庭，创世科学（译注：为神创论提供科学依据的一种伪科学）是过去每天的谈论话题。Marcus 通过自学摆脱了对神创论的信念。如今，他是一名科学和现实客观分析的狂热支持者。在他的课堂上，Marcus 希望给年轻人注入质疑精神，并使他们能够诚实地检验（1）现实以及（2）自己对现实的信念。他的想法与那些希望<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Ban_on_homeschooling\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">禁止在家上学</a>的人是类似的。</p><p data-pid=\"FNcDmN0J\">Marcus 是一位堪称典范的教师，然而，他仍然质疑人类思维的一个典型特性：</p><p data-pid=\"vL6eGTDE\"><b><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Learn_drive\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">学习内驱力</a></b><sup data-text=\"学习内驱力\" data-url=\"https://zhuanlan.zhihu.com/p/52990549\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup><b>来自于新知识与现有模型的匹配</b></p><p data-pid=\"3JRExRGs\">在学习时，能符合你模型的知识将提供奖励，而不能符合模型的知识通常会被忽视或引起不快。拿<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Jigsaw_puzzle_metaphor\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">拼图游戏比喻</a><sup data-text=\"拼图游戏比喻\" data-url=\"https://zhuanlan.zhihu.com/p/271646965\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，思想/知识的当前状态可以比作拼图的当前状态。为了获得最优学习效果，该状态是决定因素。信念基于模型，而模型决定学习的轨迹。这就是为什么信念决定了最优学习策略。</p><p data-pid=\"OLZf5b1R\">从数学上讲，教师必须知道两个语义知识图谱：一个针对学生当前的模型，另一个针对学生修正后的目标模型。然后，教师需要使用基于<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Knowledge_valuation_network\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知识估值网络</a>的知识渐进注入来绘制两者之间的最佳轨迹，而这是未知的，其中会用到奖励评估，这也是未知的。只有通过类似的设备，即大脑，才能以最佳方式进行这些评估。自学是一个碰运气的过程，可能经过数周、数月或数年的学习才会找到最佳方法。这完全取决于当前的知识状态和输入，即环境。一对一的互动使我们利用学生的反馈来近似求取最优轨迹成为可能，并且只要满足以下条件就能快速达成目标：（1）学生愿意，（2）老师很好，并且（3）为该过程分配了足够的时间。老师知道正确的模型的这一事实并没有多大帮助，因为每个知识网络图在每个人的大脑中的映射是不同的。同样，该映射取决于起点：知识的原始状态。</p><p data-pid=\"ZQdf187o\">Marcus 的思想与 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Freedom_undermines_public_schools\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Fineman 的论文</a>相互呼应，她希望通过学校的科学「教化」来根除「落后的圣经神学思维」。</p><p data-pid=\"vhw_R3Cp\">如果信念在学习中是必不可少的，那么问题来了：好老师应该做什么才能帮助学生克服错误的信念？通常，仅仅通过教学行为，教师便能促进对错误信念的纠正。然而，在最困难的情况下，策略的选择可能至关重要。创世科学或智慧设计论（译注：声称某种超自然的智慧设计了宇宙和生物的某些特征）就是很好的例子。在这一点上，我只能说策略很难选择。从来都没有简单的公式。需要像 Marcus 这样的优秀老师才能有所建树，而且需要付出的努力也是难以想象的。</p><p data-pid=\"uwJBEycC\">改变信念的最简单方法是进行畅所欲言的非情绪化对话。当然，这在二十人的小班级里很难做到。还要确保老师不被他人视为「别有用心的人」，那就更难了。他需要成为一个诚实的中间人，不去侵犯学生的思想自由。如果老师像一个烦人的保险代理人，总是怀着不可告人的目的，他就已经失败了。</p><p data-pid=\"xN8dTO2t\">要想完全消除错误信念，最好的方式是「自学」。学生可能需要数月或数年才能打破童年时期强加的坚定信念的固定框架，也有可能永远也无法打破，例如，由父母灌输的信念。通过<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Knowledge_crystallization\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">结晶比喻</a><sup data-text=\"知识结晶比喻\" data-url=\"https://zhuanlan.zhihu.com/p/268536400\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>可知，一个新的强大的知识结晶会形成。当它与错误的信念相碰撞时，它必须足够大且条理清晰，以承受「假结晶」所施加的压力。只有这样，两者之间的矛盾才能打破旧的结晶，从而导致信念的改变。面对坚定的信念，老师实际上是无能为力的。</p><p data-pid=\"SSyrMu6S\">如果自学是打破信念框架的关键，也许老师可以简单地建议他们阅读一些该学科的文献。然而，<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Does_reading_fiction_make_you_a_better_person%253F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">一旦他强制学生阅读，他就可能疏远学生，实际上反而强化了最初的信念</a>。</p><p data-pid=\"tL3--9JZ\"><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Ban_on_homeschooling\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Fineman 认为</a>在课堂上的客观陈述可以粉碎错误的知识并改变信念。然而，这种立场没有考虑到人类的思维是在现实模型上运作的，而这些模型决定了新知识在大脑中的位置。简而言之，向一个有坚定的神创论信念的孩子传授进化论是浪费时间，甚至会适得其反，更严重还有可能导致其对学校教育的仇恨、对老师的仇恨、对科学的仇恨。信念的转化率可以忽略不计，不值得付出灌输的代价。如果这个代价是禁止在家上学，那将会造成一场社会灾难，因为好的意图是无法和谬误相互兼容的。</p><p data-pid=\"u0can4B2\"><b><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Self-directed_learning\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">自我导向学习</a></b><sup data-text=\"自我导向/自定进度/自学\" data-url=\"https://zhuanlan.zhihu.com/p/353404375\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup><b>是未来，而认为「信念与学习毫不相干」的谬误正阻碍着未来到来。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"PSAMQMyc\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">wiiiiseman</span>、校对 <span class=\"nolink\">Rampling</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Crushing_student_convictions\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Crushing student convictions - supermemo.guru</a><br/>这段文字选自《<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Problem_of_Schooling\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我永远不会送我的孩子上学</a><sup data-text=\"目录《我永远不会送我的孩子去学校》\" data-url=\"https://zhuanlan.zhihu.com/p/73383015\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>》，作者是<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Piotr_Wozniak\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">彼得·沃兹尼亚克</a><sup data-text=\"彼得 · 沃兹尼亚克\" data-url=\"https://zhuanlan.zhihu.com/p/303204832\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>（2017）</blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
-  "reason": "",
-  "excerpt_title": "",
-  "id": 609773492,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19584802",
+      "type": "topic",
+      "id": "19584802",
+      "name": "信念"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19553176",
+      "type": "topic",
+      "id": "19553176",
+      "name": "教育"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19550581",
+      "type": "topic",
+      "id": "19550581",
+      "name": "学习"
+    }
+  ],
   "voteup_count": 195,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "该专栏翻译有关记忆，学习，睡眠，创造力，解决问题，脑科学，健康和教育的文章",
+    "can_manage": false,
+    "intro": "现代学校教育系统批判",
+    "is_following": false,
+    "url_token": "supermemo-guru-cn",
+    "id": "supermemo-guru-cn",
+    "articles_count": 356,
+    "accept_submission": true,
+    "title": "学校教育问题",
+    "url": "https://api.zhihu.com/columns/supermemo-guru-cn",
+    "comment_permission": "all",
+    "created": 1530510592,
+    "updated": 1751810952,
+    "image_url": "https://pic1.zhimg.com/v2-597185044fc216b1f6b0cf3d55439dbb_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 1363,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 32,
+  "contributions": [
+    {
+      "id": 44358216,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "该专栏翻译有关记忆，学习，睡眠，创造力，解决问题，脑科学，健康和教育的文章",
+        "can_manage": false,
+        "intro": "现代学校教育系统批判",
+        "is_following": false,
+        "url_token": "supermemo-guru-cn",
+        "id": "supermemo-guru-cn",
+        "articles_count": 356,
+        "accept_submission": true,
+        "title": "学校教育问题",
+        "url": "https://api.zhihu.com/columns/supermemo-guru-cn",
+        "comment_permission": "all",
+        "created": 1530510592,
+        "updated": 1751810952,
+        "image_url": "https://pic1.zhimg.com/v2-597185044fc216b1f6b0cf3d55439dbb_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 1363,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 549,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "摧毁学生的信念 - 来自知乎专栏「学校教育问题」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/609773492 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1677472304,
-  "url": "https://api.zhihu.com/articles/609773492",
-  "comment_permission": "all",
-  "title": "摧毁学生的信念",
-  "image_width": 3272,
-  "content": "<p data-pid=\"79AStLjk\">很少有老师真正了解大脑的运作机制以及应该如何进行高效学习。然而，即使是受过良好教育且聪明的老师也会持有异端信念。我的一位教师同事 Marcus 说「信念与学习毫不相干」。</p><p data-pid=\"Nvmn-RQV\">这个谬误无处不在，并在全世界的教师心中根深蒂固。Marcus 的想法很容易理解。他来自一个虔诚的宗教家庭，创世科学（译注：为神创论提供科学依据的一种伪科学）是过去每天的谈论话题。Marcus 通过自学摆脱了对神创论的信念。如今，他是一名科学和现实客观分析的狂热支持者。在他的课堂上，Marcus 希望给年轻人注入质疑精神，并使他们能够诚实地检验（1）现实以及（2）自己对现实的信念。他的想法与那些希望<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Ban_on_homeschooling\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">禁止在家上学</a>的人是类似的。</p><p data-pid=\"FNcDmN0J\">Marcus 是一位堪称典范的教师，然而，他仍然质疑人类思维的一个典型特性：</p><p data-pid=\"vL6eGTDE\"><b><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Learn_drive\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">学习内驱力</a></b><sup data-text=\"学习内驱力\" data-url=\"https://zhuanlan.zhihu.com/p/52990549\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup><b>来自于新知识与现有模型的匹配</b></p><p data-pid=\"3JRExRGs\">在学习时，能符合你模型的知识将提供奖励，而不能符合模型的知识通常会被忽视或引起不快。拿<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Jigsaw_puzzle_metaphor\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">拼图游戏比喻</a><sup data-text=\"拼图游戏比喻\" data-url=\"https://zhuanlan.zhihu.com/p/271646965\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，思想/知识的当前状态可以比作拼图的当前状态。为了获得最优学习效果，该状态是决定因素。信念基于模型，而模型决定学习的轨迹。这就是为什么信念决定了最优学习策略。</p><p data-pid=\"OLZf5b1R\">从数学上讲，教师必须知道两个语义知识图谱：一个针对学生当前的模型，另一个针对学生修正后的目标模型。然后，教师需要使用基于<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Knowledge_valuation_network\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知识估值网络</a>的知识渐进注入来绘制两者之间的最佳轨迹，而这是未知的，其中会用到奖励评估，这也是未知的。只有通过类似的设备，即大脑，才能以最佳方式进行这些评估。自学是一个碰运气的过程，可能经过数周、数月或数年的学习才会找到最佳方法。这完全取决于当前的知识状态和输入，即环境。一对一的互动使我们利用学生的反馈来近似求取最优轨迹成为可能，并且只要满足以下条件就能快速达成目标：（1）学生愿意，（2）老师很好，并且（3）为该过程分配了足够的时间。老师知道正确的模型的这一事实并没有多大帮助，因为每个知识网络图在每个人的大脑中的映射是不同的。同样，该映射取决于起点：知识的原始状态。</p><p data-pid=\"ZQdf187o\">Marcus 的思想与 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Freedom_undermines_public_schools\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Fineman 的论文</a>相互呼应，她希望通过学校的科学「教化」来根除「落后的圣经神学思维」。</p><p data-pid=\"vhw_R3Cp\">如果信念在学习中是必不可少的，那么问题来了：好老师应该做什么才能帮助学生克服错误的信念？通常，仅仅通过教学行为，教师便能促进对错误信念的纠正。然而，在最困难的情况下，策略的选择可能至关重要。创世科学或智慧设计论（译注：声称某种超自然的智慧设计了宇宙和生物的某些特征）就是很好的例子。在这一点上，我只能说策略很难选择。从来都没有简单的公式。需要像 Marcus 这样的优秀老师才能有所建树，而且需要付出的努力也是难以想象的。</p><p data-pid=\"uwJBEycC\">改变信念的最简单方法是进行畅所欲言的非情绪化对话。当然，这在二十人的小班级里很难做到。还要确保老师不被他人视为「别有用心的人」，那就更难了。他需要成为一个诚实的中间人，不去侵犯学生的思想自由。如果老师像一个烦人的保险代理人，总是怀着不可告人的目的，他就已经失败了。</p><p data-pid=\"xN8dTO2t\">要想完全消除错误信念，最好的方式是「自学」。学生可能需要数月或数年才能打破童年时期强加的坚定信念的固定框架，也有可能永远也无法打破，例如，由父母灌输的信念。通过<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Knowledge_crystallization\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">结晶比喻</a><sup data-text=\"知识结晶比喻\" data-url=\"https://zhuanlan.zhihu.com/p/268536400\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>可知，一个新的强大的知识结晶会形成。当它与错误的信念相碰撞时，它必须足够大且条理清晰，以承受「假结晶」所施加的压力。只有这样，两者之间的矛盾才能打破旧的结晶，从而导致信念的改变。面对坚定的信念，老师实际上是无能为力的。</p><p data-pid=\"SSyrMu6S\">如果自学是打破信念框架的关键，也许老师可以简单地建议他们阅读一些该学科的文献。然而，<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Does_reading_fiction_make_you_a_better_person%253F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">一旦他强制学生阅读，他就可能疏远学生，实际上反而强化了最初的信念</a>。</p><p data-pid=\"tL3--9JZ\"><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Ban_on_homeschooling\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Fineman 认为</a>在课堂上的客观陈述可以粉碎错误的知识并改变信念。然而，这种立场没有考虑到人类的思维是在现实模型上运作的，而这些模型决定了新知识在大脑中的位置。简而言之，向一个有坚定的神创论信念的孩子传授进化论是浪费时间，甚至会适得其反，更严重还有可能导致其对学校教育的仇恨、对老师的仇恨、对科学的仇恨。信念的转化率可以忽略不计，不值得付出灌输的代价。如果这个代价是禁止在家上学，那将会造成一场社会灾难，因为好的意图是无法和谬误相互兼容的。</p><p data-pid=\"u0can4B2\"><b><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Self-directed_learning\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">自我导向学习</a></b><sup data-text=\"自我导向/自定进度/自学\" data-url=\"https://zhuanlan.zhihu.com/p/353404375\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup><b>是未来，而认为「信念与学习毫不相干」的谬误正阻碍着未来到来。</b></p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"PSAMQMyc\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">wiiiiseman</span>、校对 <span class=\"nolink\">Rampling</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Crushing_student_convictions\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Crushing student convictions - supermemo.guru</a><br/>这段文字选自《<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Problem_of_Schooling\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我永远不会送我的孩子上学</a><sup data-text=\"目录《我永远不会送我的孩子去学校》\" data-url=\"https://zhuanlan.zhihu.com/p/73383015\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>》，作者是<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Piotr_Wozniak\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">彼得·沃兹尼亚克</a><sup data-text=\"彼得 · 沃兹尼亚克\" data-url=\"https://zhuanlan.zhihu.com/p/303204832\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>（2017）</blockquote>",
-  "column": {
-    "updated": 1710055189,
-    "description": "该专栏翻译有关记忆，学习，睡眠，创造力，解决问题，脑科学，健康和教育的文章",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/supermemo-guru-cn",
-    "title": "学校教育问题",
-    "image_url": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "supermemo-guru-cn"
-  },
-  "comment_count": 32,
-  "image_url": "https://picx.zhimg.com/v2-1ffc19bb14cf12fcf0c5e91e09f32ae7_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 93,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 93,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMjM2MzcxNzUSCTYwOTc3MzQ5MhgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 195,
+      "down_vote_count": 2,
+      "like_count": 93,
+      "comment_count": 32,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 549,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-1ffc19bb14cf12fcf0c5e91e09f32ae7": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-1ffc19bb14cf12fcf0c5e91e09f32ae7": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-1ffc19bb14cf12fcf0c5e91e09f32ae7": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=609773492&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 学校教育问题",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/supermemo-guru-cn",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 学校教育问题"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

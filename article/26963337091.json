@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "26963337091",
+  "title": "那是你拒绝的真正原因吗？",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/26963337091",
+  "image_url": "https://pic1.zhimg.com/v2-8118364be2133e778ff6d4471dca65c1_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-8118364be2133e778ff6d4471dca65c1_720w.jpg?source=172ae18b",
+  "excerpt": "常有人会遇到我的一些超人类主义观点——比如超级智能和友好人工智能——这些观点和我关于人类理性的观点不同，听起来新奇、怪异，他们便会拒绝这些观点。 当问及缘由时，常常会听到这样的回答：「我为什么要相信 Yudkowsky （本文作者）说的话？他连博士学…",
+  "created": 1740707220,
   "updated": 1741145707,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "常有人会遇到我的一些超人类主义观点——比如超级智能和友好人工智能——这些观点和…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 4528,
+  "image_height": 3019,
+  "content": "<p data-pid=\"-NbyCyaL\">常有人会遇到我的一些超人类主义观点——比如超级智能和友好人工智能——这些观点和我关于人类理性的观点不同，听起来新奇、怪异，他们便会拒绝这些观点。</p><p data-pid=\"LjKMSRNf\">当问及缘由时，常常会听到这样的回答：「我为什么要相信 Yudkowsky （本文作者）说的话？他连博士学位都没有！」</p><p data-pid=\"XTg8fTpG\">偶尔，还有人听完这类理由后会在旁边补充：「哦，你应该拿个博士学位，这样别人才会听你的。」或者，这个建议可能就是那个一开始就不相信的人提供的：「等你有了博士学位再说吧。」</p><p data-pid=\"IwiOVSQh\">当然，拿博士学位有或好或坏的理由，但为此获得一个博士学位，绝不是个好理由。</p><p data-pid=\"9MXmwvkW\">人们对「超人类主义」命题<b>确实</b>产生负面反应的原因有很多，大多数其实是基于模式识别，而非语言思考：这个命题让他们<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Science-As-Attire\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">匹配</a><sup data-text=\"科学外套\" data-url=\"https://hpmor.xyz/ai2zb_32/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>到「怪异的想法」、「科幻」、「末日邪教」或 「狂热的年轻人」。</p><p data-pid=\"_fAqXBAq\">因此，在感知的瞬间，观点就被拒绝了。如果事后有人问：「为什么拒绝？」，接下来就会进入寻找辩解的过程。但这种寻找未必能触及到「真正的原因」——我在这里说的「真正的原因」，并非指可能提供的最佳理由，而是指<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/We-Change-Our-Minds-Less-Often-Than-We-Think\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">在拒绝产生的第一时间，就对历史事实（对观点的拒绝）起决定性作用的因素</a>。</p><p data-pid=\"WhuhFAIA\">相反，寻找辩解时，他们可能会停留在这样一个看似合理的辩护事实上：「这个讲者没有博士学位。」</p><p data-pid=\"Vcek0XiK\">但当我谈论人类理性时，我同样也没有博士学位，为什么<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Cultish-Countercultishness\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">同样的反对意见没有出现呢</a>？</p><p data-pid=\"pmYUyaDz\">更重要的是，即便我<b>有</b>博士学位，人们也不会将此视为应该相信我所有言论的决定性因素。相反，出于同样的原因，一开始的拒绝同样会发生；之后，寻找辩解的过程会终止在另一个原因上。</p><p data-pid=\"GNuhAHmk\">他们可能会说：「我为什么要相信<b>你</b>？你只是个有博士学位的普通人！这种人多了去了。等你成为领域内的知名学者，并在顶尖大学获得终身教职再来吧。」</p><p data-pid=\"6vPMXhcr\">但人们<b>真的</b>会相信哈佛教授随口说的奇谈怪论吗？当然不会。（不过，如果我真是哈佛的教授，的确会更容易引起<b>媒体的关注</b>。那些一开始就不相信我的记者——他们可能同样不愿意相信随便一个博士学位持有者——仍然会报道我，因为哈佛教授会相信这种奇谈怪论，这本身就成了新闻。）</p><p data-pid=\"DfEDWkr4\">如果你说的话对外行人听起来是<b>错误的</b>，而且不是随口念出一些装神弄鬼的科幻术语，比如「关于 <b>N</b>+2 维空间中的轻夸克编织」；而听者又是个外行，对你本人<b>和</b>你的领域内容都不熟悉；那么我推测普通人<b>真正</b>开始<b>因</b>学术资历扭转初始负面印象的信任阈值，大约在诺贝尔奖得主级别。简言之，你需要达到被视作「超凡脱俗」的学术资历。</p><p data-pid=\"ozxPGXvQ\">据我所知，这大概就是 Eric Drexler 所经历的情况。他提出了纳米技术的愿景，但人们却说：「技术细节在哪里？」或者「等你拿到博士学位再说！」。于是，Eric Drexler 花了六年时间写出了技术细节，并在 Marvin Minsky 指导下获得了博士学位。《纳米系统》（Nanosystems）是一本很棒的书。然而，那些曾说过「等你有了博士学位再说」的人，是否真的改变了对分子纳米技术的看法呢？据我所知，似乎并没有。</p><p data-pid=\"pUzd7zrm\">同样，对于机器智能研究所（Machine Intelligence Research Institute，本文作者是该研究所的一名研究员）来说，似乎有一个普遍的规律：无论我们为提高可信度应该做什么，实际上做了之后，情况也没什么变化。「你们有做什么代码开发吗？我不想支持一个不开发代码的组织」 → OpenCog → 什么也没改变。「Eliezer Yudkowsky 缺乏学术背景」→ Professor Ben Goertzel 被任命为研究主任 → 什么也没改变。唯一似乎真的<b>已经</b>提高我们可信度的，还是一些名人和我们组织的关联，比如 Peter Thiel 资助我们，或者 Ray Kurzweil 加入董事会。</p><p data-pid=\"yzed-BdV\">这对年轻的企业和刚刚起步的顾问来说，可能是一个重要的启示——潜在客户或投资人<b>告诉</b>你的拒绝理由，可能并不是决定性因素；在付出巨大努力之前，你应该仔细思考这一点。如果潜在投资人说：「如果你的销售增长能再快一点就好了！」或者潜在客户说：「看起来不错，但你们缺少了功能 <b>X</b>」，这可能并不是<b>真正的</b>拒绝理由。即使你解决了这个问题，结果也不一定会有实质性的改变。</p><p data-pid=\"ESorET5Q\">这也是在争论中需要牢记的一点。我和 Robin Hanson 有一个共同的信条，那就是两个理性主义者不应该<a href=\"https://link.zhihu.com/?target=http%3A//www.overcomingbias.com/2006/12/agreeing_to_agr.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">同意存在分歧</a>：他们不应该对认识论上的分歧有共识，除非有什么东西错得非常离谱。</p><p data-pid=\"2iv2cIjW\">我怀疑，通常而言，如果两个理性主义者决定解决一个分歧，并且这个分歧在初次交流后仍然存在，他们应该预期到，真正的分歧根源要么很难沟通，要么很难暴露。比如：</p><ul><li data-pid=\"fQMf7iTE\"> 冷门，但坚实的科学理论或数学论证；<br/> </li><li data-pid=\"DDm-2-vn\"> 冗长的<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Expecting-Short-Inferential-Distances\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">推理距离</a><sup data-text=\"被低估的推断距离\" data-url=\"https://hpmor.xyz/ai2zb_9/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>；<br/> </li><li data-pid=\"uXwTeIft\"> 可能由具象化思维产生的一种难以言表的直觉；<br/> </li><li data-pid=\"Laet9aJQ\"> 从某个职业继承的时代思潮（这可能有充分的理由）；<br/> </li><li data-pid=\"-6SbfmfT\"> 经验塑造的认知模式；<br/> </li><li data-pid=\"BM5opsmY\"> 纯粹的思维习惯；<br/> </li><li data-pid=\"PjvSr2Jh\"> 对特定结果的情感承诺；<br/> </li><li data-pid=\"iV6UEs1A\"> 害怕承认过往错误；<br/> </li><li data-pid=\"ZCfPrclL\"> 为了维护面子或其他个人利益而进行的深度自我欺骗。<br/> </li></ul><p data-pid=\"z-znNM1p\">如果<b>所有</b>真正的拒绝理由都能轻易摆上台面，分歧可能会非常<b>简单</b>地解决，以至于不会在初次交流后持续下去。</p><p data-pid=\"ZYCaOaEV\">「这是我拒绝的真正原因吗？」是所有争论者在讨论中都应当问<b>自己</b>的问题，以便让对方更容易理解。然而，据我观察，试图直接、公开地对他人进行心理分析可能会导致交流<b>迅速</b>恶化。</p><p data-pid=\"VzngY2fz\">尽管如此——「那是你拒绝的真正原因吗？」对于分歧双方来说，如果有任何建设性的方式来探讨这个子问题，谦虚地提出这个问题应该是合理的。或许规则可以是这样：你可以坦率地问：「这个简单直接的理由是你<b>真正的</b>拒绝吗，还是它来自于直觉 <b>X</b> 或者职业的时代思潮 <b>Y</b>？」而那些更令人难堪、排在表格下方的可能性，则应留给对方的良知，作为他们自己应当承担的责任去处理。</p><hr/><p data-pid=\"sx4-RuRf\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/26272313205\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-7ed6856317a56dd90d9c1db0163deef5_qhd.jpg\" data-image-width=\"4608\" data-image-height=\"3456\" class=\"internal\">Thoughts Memo：虚假辩白</a><p data-pid=\"g-sXNC1u\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/28043168145\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-142522f206107aa2c729a1fd9a49b761_qhd.jpg\" data-image-width=\"7952\" data-image-height=\"5304\" class=\"internal\">Thoughts Memo：关联的真理，传染的谎言</a><hr/><blockquote data-pid=\"JQ0ewiTF\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">bstiat</span>，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Is-That-Your-True-Rejection\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Is That Your True Rejection? (readthesequences.com)</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
-  "reason": "",
-  "excerpt_title": "",
-  "id": 26963337091,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19569579",
+      "type": "topic",
+      "id": "19569579",
+      "name": "理性"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19711379",
+      "type": "topic",
+      "id": "19711379",
+      "name": "拒绝"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19589501",
+      "type": "topic",
+      "id": "19589501",
+      "name": "理由"
+    }
+  ],
   "voteup_count": 39,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "理性是一种「利用手头一切资源来尽己所能」的理念。",
+    "is_following": false,
+    "url_token": "c_1826322587032117248",
+    "id": "c_1826322587032117248",
+    "articles_count": 83,
+    "accept_submission": true,
+    "title": "理性 & 克服偏见",
+    "url": "https://api.zhihu.com/columns/c_1826322587032117248",
+    "comment_permission": "all",
+    "created": 1728209236,
+    "updated": 1751811441,
+    "image_url": "https://pic1.zhimg.com/v2-c9036d409f5e65c53cfea750a0176c61_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 302,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 1,
+  "contributions": [
+    {
+      "id": 51004293,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "理性是一种「利用手头一切资源来尽己所能」的理念。",
+        "is_following": false,
+        "url_token": "c_1826322587032117248",
+        "id": "c_1826322587032117248",
+        "articles_count": 83,
+        "accept_submission": true,
+        "title": "理性 & 克服偏见",
+        "url": "https://api.zhihu.com/columns/c_1826322587032117248",
+        "comment_permission": "all",
+        "created": 1728209236,
+        "updated": 1751811441,
+        "image_url": "https://pic1.zhimg.com/v2-c9036d409f5e65c53cfea750a0176c61_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 302,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 25,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "那是你拒绝的真正原因吗？ - 来自知乎专栏「理性 &amp; 克服偏见」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/26963337091 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1740707220,
-  "url": "https://api.zhihu.com/articles/26963337091",
-  "comment_permission": "all",
-  "title": "那是你拒绝的真正原因吗？",
-  "image_width": 3019,
-  "content": "<p data-pid=\"-NbyCyaL\">常有人会遇到我的一些超人类主义观点——比如超级智能和友好人工智能——这些观点和我关于人类理性的观点不同，听起来新奇、怪异，他们便会拒绝这些观点。</p><p data-pid=\"LjKMSRNf\">当问及缘由时，常常会听到这样的回答：「我为什么要相信 Yudkowsky （本文作者）说的话？他连博士学位都没有！」</p><p data-pid=\"XTg8fTpG\">偶尔，还有人听完这类理由后会在旁边补充：「哦，你应该拿个博士学位，这样别人才会听你的。」或者，这个建议可能就是那个一开始就不相信的人提供的：「等你有了博士学位再说吧。」</p><p data-pid=\"IwiOVSQh\">当然，拿博士学位有或好或坏的理由，但为此获得一个博士学位，绝不是个好理由。</p><p data-pid=\"9MXmwvkW\">人们对「超人类主义」命题<b>确实</b>产生负面反应的原因有很多，大多数其实是基于模式识别，而非语言思考：这个命题让他们<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Science-As-Attire\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">匹配</a><sup data-text=\"科学外套\" data-url=\"https://hpmor.xyz/ai2zb_32/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>到「怪异的想法」、「科幻」、「末日邪教」或 「狂热的年轻人」。</p><p data-pid=\"_fAqXBAq\">因此，在感知的瞬间，观点就被拒绝了。如果事后有人问：「为什么拒绝？」，接下来就会进入寻找辩解的过程。但这种寻找未必能触及到「真正的原因」——我在这里说的「真正的原因」，并非指可能提供的最佳理由，而是指<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/We-Change-Our-Minds-Less-Often-Than-We-Think\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">在拒绝产生的第一时间，就对历史事实（对观点的拒绝）起决定性作用的因素</a>。</p><p data-pid=\"WhuhFAIA\">相反，寻找辩解时，他们可能会停留在这样一个看似合理的辩护事实上：「这个讲者没有博士学位。」</p><p data-pid=\"Vcek0XiK\">但当我谈论人类理性时，我同样也没有博士学位，为什么<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Cultish-Countercultishness\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">同样的反对意见没有出现呢</a>？</p><p data-pid=\"pmYUyaDz\">更重要的是，即便我<b>有</b>博士学位，人们也不会将此视为应该相信我所有言论的决定性因素。相反，出于同样的原因，一开始的拒绝同样会发生；之后，寻找辩解的过程会终止在另一个原因上。</p><p data-pid=\"GNuhAHmk\">他们可能会说：「我为什么要相信<b>你</b>？你只是个有博士学位的普通人！这种人多了去了。等你成为领域内的知名学者，并在顶尖大学获得终身教职再来吧。」</p><p data-pid=\"6vPMXhcr\">但人们<b>真的</b>会相信哈佛教授随口说的奇谈怪论吗？当然不会。（不过，如果我真是哈佛的教授，的确会更容易引起<b>媒体的关注</b>。那些一开始就不相信我的记者——他们可能同样不愿意相信随便一个博士学位持有者——仍然会报道我，因为哈佛教授会相信这种奇谈怪论，这本身就成了新闻。）</p><p data-pid=\"DfEDWkr4\">如果你说的话对外行人听起来是<b>错误的</b>，而且不是随口念出一些装神弄鬼的科幻术语，比如「关于 <b>N</b>+2 维空间中的轻夸克编织」；而听者又是个外行，对你本人<b>和</b>你的领域内容都不熟悉；那么我推测普通人<b>真正</b>开始<b>因</b>学术资历扭转初始负面印象的信任阈值，大约在诺贝尔奖得主级别。简言之，你需要达到被视作「超凡脱俗」的学术资历。</p><p data-pid=\"ozxPGXvQ\">据我所知，这大概就是 Eric Drexler 所经历的情况。他提出了纳米技术的愿景，但人们却说：「技术细节在哪里？」或者「等你拿到博士学位再说！」。于是，Eric Drexler 花了六年时间写出了技术细节，并在 Marvin Minsky 指导下获得了博士学位。《纳米系统》（Nanosystems）是一本很棒的书。然而，那些曾说过「等你有了博士学位再说」的人，是否真的改变了对分子纳米技术的看法呢？据我所知，似乎并没有。</p><p data-pid=\"pUzd7zrm\">同样，对于机器智能研究所（Machine Intelligence Research Institute，本文作者是该研究所的一名研究员）来说，似乎有一个普遍的规律：无论我们为提高可信度应该做什么，实际上做了之后，情况也没什么变化。「你们有做什么代码开发吗？我不想支持一个不开发代码的组织」 → OpenCog → 什么也没改变。「Eliezer Yudkowsky 缺乏学术背景」→ Professor Ben Goertzel 被任命为研究主任 → 什么也没改变。唯一似乎真的<b>已经</b>提高我们可信度的，还是一些名人和我们组织的关联，比如 Peter Thiel 资助我们，或者 Ray Kurzweil 加入董事会。</p><p data-pid=\"yzed-BdV\">这对年轻的企业和刚刚起步的顾问来说，可能是一个重要的启示——潜在客户或投资人<b>告诉</b>你的拒绝理由，可能并不是决定性因素；在付出巨大努力之前，你应该仔细思考这一点。如果潜在投资人说：「如果你的销售增长能再快一点就好了！」或者潜在客户说：「看起来不错，但你们缺少了功能 <b>X</b>」，这可能并不是<b>真正的</b>拒绝理由。即使你解决了这个问题，结果也不一定会有实质性的改变。</p><p data-pid=\"ESorET5Q\">这也是在争论中需要牢记的一点。我和 Robin Hanson 有一个共同的信条，那就是两个理性主义者不应该<a href=\"https://link.zhihu.com/?target=http%3A//www.overcomingbias.com/2006/12/agreeing_to_agr.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">同意存在分歧</a>：他们不应该对认识论上的分歧有共识，除非有什么东西错得非常离谱。</p><p data-pid=\"2iv2cIjW\">我怀疑，通常而言，如果两个理性主义者决定解决一个分歧，并且这个分歧在初次交流后仍然存在，他们应该预期到，真正的分歧根源要么很难沟通，要么很难暴露。比如：</p><ul><li data-pid=\"fQMf7iTE\"> 冷门，但坚实的科学理论或数学论证；<br/> </li><li data-pid=\"DDm-2-vn\"> 冗长的<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Expecting-Short-Inferential-Distances\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">推理距离</a><sup data-text=\"被低估的推断距离\" data-url=\"https://hpmor.xyz/ai2zb_9/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>；<br/> </li><li data-pid=\"uXwTeIft\"> 可能由具象化思维产生的一种难以言表的直觉；<br/> </li><li data-pid=\"Laet9aJQ\"> 从某个职业继承的时代思潮（这可能有充分的理由）；<br/> </li><li data-pid=\"-6SbfmfT\"> 经验塑造的认知模式；<br/> </li><li data-pid=\"BM5opsmY\"> 纯粹的思维习惯；<br/> </li><li data-pid=\"PjvSr2Jh\"> 对特定结果的情感承诺；<br/> </li><li data-pid=\"iV6UEs1A\"> 害怕承认过往错误；<br/> </li><li data-pid=\"ZCfPrclL\"> 为了维护面子或其他个人利益而进行的深度自我欺骗。<br/> </li></ul><p data-pid=\"z-znNM1p\">如果<b>所有</b>真正的拒绝理由都能轻易摆上台面，分歧可能会非常<b>简单</b>地解决，以至于不会在初次交流后持续下去。</p><p data-pid=\"ZYCaOaEV\">「这是我拒绝的真正原因吗？」是所有争论者在讨论中都应当问<b>自己</b>的问题，以便让对方更容易理解。然而，据我观察，试图直接、公开地对他人进行心理分析可能会导致交流<b>迅速</b>恶化。</p><p data-pid=\"VzngY2fz\">尽管如此——「那是你拒绝的真正原因吗？」对于分歧双方来说，如果有任何建设性的方式来探讨这个子问题，谦虚地提出这个问题应该是合理的。或许规则可以是这样：你可以坦率地问：「这个简单直接的理由是你<b>真正的</b>拒绝吗，还是它来自于直觉 <b>X</b> 或者职业的时代思潮 <b>Y</b>？」而那些更令人难堪、排在表格下方的可能性，则应留给对方的良知，作为他们自己应当承担的责任去处理。</p><hr/><p data-pid=\"sx4-RuRf\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/26272313205\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-7ed6856317a56dd90d9c1db0163deef5_qhd.jpg\" data-image-width=\"4608\" data-image-height=\"3456\" class=\"internal\">Thoughts Memo：虚假辩白</a><p data-pid=\"g-sXNC1u\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/28043168145\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-142522f206107aa2c729a1fd9a49b761_qhd.jpg\" data-image-width=\"7952\" data-image-height=\"5304\" class=\"internal\">Thoughts Memo：关联的真理，传染的谎言</a><hr/><blockquote data-pid=\"JQ0ewiTF\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">bstiat</span>，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Is-That-Your-True-Rejection\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Is That Your True Rejection? (readthesequences.com)</a></blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 1,
-  "image_url": "https://picx.zhimg.com/v2-8118364be2133e778ff6d4471dca65c1_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 1,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 1,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgImCgkyNTQ0MTUzNTQSCzI2OTYzMzM3MDkxGAciCklNQUdFX1RFWFQ=",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 39,
+      "down_vote_count": 1,
+      "like_count": 1,
+      "comment_count": 1,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 25,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-8118364be2133e778ff6d4471dca65c1": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-8118364be2133e778ff6d4471dca65c1": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-8118364be2133e778ff6d4471dca65c1": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/10999641092?contentId=26963337091&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 理性 & 克服偏见",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1826322587032117248",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 理性 & 克服偏见"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

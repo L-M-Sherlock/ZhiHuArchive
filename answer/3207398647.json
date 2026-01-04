@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,38 +84,58 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 41,
   "content": "<p data-pid=\"ScTa8O0Q\">因为学生从小到大就是这么被教育的。在应试教育里，「怎么做」的比重远远高于「为什么」。背题型、背结论、背公式、背概念，对于应付考试效果极佳。当学生养成了这种做题习惯后，就形成了路径依赖，不管学什么，都是想尽办法先把「怎么做」给背下来。</p><p data-pid=\"brMAMdhc\">到了大学，他们中大部分人也是这样做的：数学生背一堆特定形式的函数的积分步骤，物理学生将旋转运动方程与线性运动方程分开背诵，而计算机学生死记硬背数据结构的各种特点。（我自己面试字节跳动的时候就背了很多 CS 八股文）</p><p data-pid=\"JytgiA1y\">在这种教育中，几乎所有学生都被「怎么做」蒙蔽了双眼。但这并不是最要命的。更要命的是，许多人以为，把做题的步骤背下来，按照步骤一步步做题，就是真正的理解。他们把「怎么做」和明白「为什么」当成了一回事。</p><p data-pid=\"V_M_U0qH\">一开始，这些人可能会觉得自己已经掌握了所需的知识和技能，因此会沾沾自喜，原地踏步。</p><p data-pid=\"MFtpcnoe\">当他们遇到新的、未曾学过的问题时，由于缺乏对背后原理的理解，他们可能会感到恐惧和不安。</p><p data-pid=\"KRKnMOrX\">面对这种恐惧和不安，他们可能会选择逃避或者否认问题的存在，甚至可能会劝告其他人也避开这些问题。</p><p data-pid=\"vLAHChME\">随着时间的推移，这种恐惧和不安可能会演变成一种形式的狂信。他们可能会坚持自己的方法是唯一正确的，而其他所有方法都是错误的。</p><p data-pid=\"yaOUSCaC\">这不仅会限制他们个人的成长，而且，如果他们身居高位，还可能对组织造成极大的负面影响。</p><blockquote data-pid=\"9KxXkFmo\">以上内容源自我对下面这篇译文的思考，也推荐大家继续往下读。</blockquote><h2>被「怎么做」蒙蔽了双眼</h2><p data-pid=\"xraHL0ad\">想象一下，你刚搬到一座新城市。每次出门，你都靠一台导航仪告诉你怎么走。但导航仪并不给你看地图，只告诉你走几步、往哪儿拐。出门时，你得戴上眼罩，街名和地标都看不见。但是，经过这么多年，你每次都能准时到达目的地，所以你也没抱怨.</p><p data-pid=\"Bv1DRVN_\">按照这种方式导航，如果没有逐步的指示，你根本不知道如何去一个新地点。你不可能在路上发现什么意料之外的事，也找不出更快到达目的地的捷径，甚至连一个地方和另一个你去过的地方是相邻的都察觉不到。但这恰恰就是我们平时被教育的方式！</p><p data-pid=\"p_QVtCQ2\">这种对待知识的方式几乎无所不在：数学生背一堆特定形式的函数的积分步骤，物理学生将旋转运动方程与线性运动方程分开背诵，而计算机学生死记硬背数据结构的各种特点。他们知道「怎么做」，但对「为什么」却一无所知。这种学习方式是很多人一直到毕业都在用的。</p><p data-pid=\"3FnhQg0j\">这种只学习一个领域的<b>结果</b>——但不理解背后<b>原理</b>的学生——基本上出社会也只能做些职业贡献。他只能照葫芦画瓢，用在学校里学到的<b>怎么做</b>来处理老师早就教过的问题。但没有了背后的<b>为什么</b>支撑，面对新情况他就束手无策了，就跟那个戴着眼罩在城市里走路的人差不多。</p><p data-pid=\"w50tMZw4\">当然，人不可能什么都懂，什么都知道！搞明白「为什么」自然比单纯知道「怎么做」费劲多了。<a href=\"https://link.zhihu.com/?target=http%3A//blog.andymatuschak.org/post/18851823748/top-to-bottom-bottom-to-top\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">有时候，先知道个大概结果，也能激发你去深挖背后的原理</a>。但麻烦的是，当我们<b>误以为</b>知道了「怎么做」就是真正懂了某事，那就走偏了——这种半桶水的知识容易束缚人，还可能拖后腿。我见过很多人，因为这种知识而变得过于保守，害怕尝试新事物，更糟糕的是，他们沾沾自喜，原地踏步。很多行业里的老鸟，往往也就像是走路带着眼罩，只知道数步数，却看不到前方的路。</p><hr/><p data-pid=\"Sh7Fwog6\">我很幸运，生活和工作中，我身边都是一群才华横溢的人。当然，我们应该肯定身边人的才华和贡献，但有时我和他人发出的赞美，却带有些不同的意味。是那种几乎是叹气的、无助的、沮丧的赞叹：「唉，那家伙真的是<b>太牛了</b>。」</p><p data-pid=\"n6T_k-Hi\">对他人的欣赏其实能带给我们动力。它可能会让你意识到自己在哪里需要更努力（e.g. 「唔，我好像得补补我的统计学」），或者启发你如何去解决问题（e.g. 「也许那种方法可以应用在同类问题上」）。但那种「真的太牛了」的赞叹背后，隐藏着<b>恐吓</b>。它无法带来见解，因为它其实是在说「我怎么也达不到他那样」。这就像是我们想去一个地方，但导航并不知道路，自己又无法摘下眼罩。</p><p data-pid=\"XqSedtY2\">知识可以指引我们从 A 走到 B——从仰慕者变成榜样。但单靠导航仪提供的脚步数的知识，对规划路线去新的地方显得太过狭隘。要真正探索新路，你需要更广阔的视角——一张地图。每当我自察到赞叹得有点失态，我会摘下眼罩，开始探索周围的环境，绘制一张地图，找一条回家的路。</p><p data-pid=\"Y-qTV3GD\">但在我生命中很多时光里，我都不知道自己带着眼罩，更别提摘下它了。我误将那些按步骤的指示当作了真正的理解。我把「怎么做」和明白「为什么」当做一回事。这些背下来的事实和程序性知识变成了「虚假知识」，有时候比一无所知还糟。（*译注：有点过于抽象了，举个例子：搞 AI 的被 chatgpt 破防了 / 用 python 的不知道 List 背后是数组 ）</p><p data-pid=\"6c9epmIU\">我从未想过可以用另一种方式来获取知识：毕竟，我周围的人似乎都是按照同样的方式来获取方向的。我从未见过有人摘下他们的眼罩——我该怎么做呢？有谁能指点我该怎么开拓自己的路？我怎么知道我知道了什么？</p><hr/><p data-pid=\"VaJQqjVt\">有时，这种「虚假知识」会引发更强烈的恐惧。有一天，你受邀去一个很远的地方会面。但你的导航从没听过那，你也不知道怎么走。时间渐渐接近，心里的疑惑也随之增多。过去，你总觉得跟着它走就对了。难道真有它不知道的地方吗？有多少这样的地方？它们难道都不重要？你觉得你自己很会导航 —— 难道以前都是靠的运气？</p><p data-pid=\"tDWdI7-F\">这一连串的想法真是吓人。每一步都在放大不断增长的认知失调。这时，很明显得换种方法来认识事物了。但由于要<a href=\"https://link.zhihu.com/?target=https%3A//href.li/%3Fhttp%3A//en.wikipedia.org/wiki/Cognitive_dissonance%23Belief_disconfirmation_paradigm\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">消除这种失调</a>的压力太大，人们更容易<b>主动回避</b>，逃避那些引发疑问的目标。</p><p data-pid=\"QDO6x2jU\">另一种方式看起来并不怎么好。这意味着你要鼓起勇气，承认自己所懂的远比想象中的要少。你需要去探索出背后的一群「为什么」，从而衍生出新的一群「怎么做」。因为你正在绘制地图（首先你会明白你<b>需要</b>一张地图，然后才是这张地图到底<b>是</b>什么），所以一开始，你到任何地方都得多花点儿时间。最后容易得到一些结论是：你根本不需要去会面；你不能理解某段数学证明，只有「真正聪明」的人才能；你没办法处理问题，应该「让专家」来处理。</p><p data-pid=\"akTTIomu\">这回，情况比单纯的惊慌失措还糟。认知失调的压力，直接让你放弃了深究事情真相的路。</p><hr/><p data-pid=\"Qqa-17fM\">我见过一些人，当这种恐惧越积越多，特别是在连续几年的顺风顺水后，会涌现出更大的隐患。有时，单纯逃避导航不知之地并不能解决渐增的认知失调。你可能还会劝<b>其他人</b>也不要去那些未知之地。你甚至必须说服自己去那儿的都是蠢货或者害虫，认为他们的导航一定会带歪他们。现在，你已经是个「狂信徒」了。</p><p data-pid=\"ANHsdfAK\">你并不知道，那些另辟蹊径的人其实并没有被蒙蔽双眼。他们是凭地图行走的，每个人都有自己手绘的地图，他们互相协作，补充其中的细节。</p><p data-pid=\"xwhlV_ut\">当这些深信不疑的观念在知识“权贵”心中滋生，它们会变得十分危险。强烈的失调会迫使这个狂信徒动用他的权力来<b>维持现状</b>，逼迫他人的方法不超过他能理解的范围，并将问题扭曲成他早已背下的答案所能解决的那种。对于这位狂信徒来说，任何激进的思想是都是对心理健康的威胁。</p><p data-pid=\"V5Xhejzy\">所以，当这种人能够影响他人，或掌控他人所依赖的东西时，众人就有麻烦了。无论怎么努力，新问题都会涌现出来，而他们的导航仪里不可能提前编入所有问题的解决方案。早晚有一天，会有一个没有预设答案的问题出现。这位狂信徒需要调动他所有的理解来合成一个新答案，但问题是，他什么都不<b>理解</b>，他只不过是记住了一些结论罢了。</p><hr/><p data-pid=\"L1r-TFiN\">在软件工程领域，有许多这样的狂信徒，他们固执地维护这种停滞不前的状态：他们只懂一种编程语言，只想了解这一种，认为这是最好的，其它语言都是垃圾。<a href=\"https://link.zhihu.com/?target=https%3A//href.li/%3Fhttps%3A//sites.google.com/site/steveyegge2/ancient-languages-perl\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Steve Yegge 分享过自己从这种偏见中觉醒的经历</a>：</p><blockquote data-pid=\"6GXDTKct\">当程序员花费多年时间死记硬背这些编程「咒语」后，告诉他们他们辛苦掌握的编程语言即将被淘汰，那感觉简直就像拿刀对着他们家人呢 …… 编程语言的宗教狂热很容易破解：你只需要编写一个编译器。…… 在此之后的几周，你再看自己的代码都会透视其背后的机制，就像你长时间盯着随机点立体图时的那种感觉。<br/><br/>能够熟练地敲出正确的代码，就像是一位萨满，祈求机器之神，得到你希望的计算结果，这感觉真好。但当你写一个编译器后，那些神话就会破灭，你再也不能创造真正的「魔法」。但你在刺激上失去什么，就在能力上获得什么：对编程语言和与语言相关的工具的掌控力。你会快速而无畏地掌握新的编程语言。你可能失去了那种盲目的信仰，但你会更深入地了解程序那令人心醉的美丽结构。</blockquote><p data-pid=\"laJ0CSru\">我的故事，其实起始于物理。我花了好几年时间去背那些物理公式，但背后的推导、它们的关系、它们的意义，我一窍不通。我只知道用这些公式来算题，至于为什么要这么算，一头雾水。这就是我们被教的方式，看起来，连老师也只是这样理解这些内容。</p><p data-pid=\"hu3BL8hu\">我尝试制作物理效果的游戏，但遇到了预料之中的问题：面对新问题时，我完全不知所措；看到那些成功的游戏开发者，我感到畏惧；这种恐惧建立后，我积极拒绝去深入理解其中的原理，我总是告诉自己，从网上随便搜点代码，拼凑一下就能应付过去。幸好，我当时并没有真正地为了维持这种现状而努力。</p><p data-pid=\"q4BeV6jD\">在加州理工的大一，有一堂课彻底颠覆了我对物理的学习方式。那是我首次真心对待学科，摘下「眼罩」。在之后的两年，我痛彻心扉地发现，实际上，我对很多事情，包括我最擅长的计算机科学，都缺乏真正的理解。</p><p data-pid=\"_crRHcGb\">那堂课是这样的：我们刚学完狭义相对论和电学知识。教授走进教室，把这两块知识巧妙地串联起来。他说：「假设我们有一个电子以相对论的速度沿着导线移动...」他开始写下熟悉的电学和相对论方程。几块黑板的代数运算后，<a href=\"https://link.zhihu.com/?target=https%3A//href.li/%3Fhttp%3A//books.google.com/books%3Fid%3DhlRhwGK40fgC%26pg%3DSA13-PA6%26lpg%3DSA13-PA6%26dq%3D%2522The%2Brelativity%2Bof%2Bmagnetic%2Band%2Belectric%2Bfields%2522%26source%3Dbl%26ots%3DG2RPq-eVq2%26sig%3D5Vh7tDOGUw7nc81NrZVBRYb0tH0%26hl%3Den%26sa%3DX%26ei%3DaeZSUvbvJ6r-igL4y4D4DQ%26ved%3D0CEIQ6AEwAw%23v%3Donepage%26q%3D%2522The%2520relativity%2520of%2520magnetic%2520and%2520electric%2520fields%2522%26f%3Dfalse\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">磁场的方程就这样...出现了</a>。</p><p data-pid=\"QbJb6Lvn\">那个公式，我早就<b>背</b>下来了，但从未理解过它背后的<b>意义</b>。电与磁，原来差的只是一个看问题的角度。那一刻，我恍然大悟，从此开始对一切都充满好奇，想要深入探究其背后的<b>为什么</b>。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"UCQNUybF\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3\" data-hash=\"3c9990a12cdbcd92e20b1387b160f0a3\" data-hovercard=\"p$b$3c9990a12cdbcd92e20b1387b160f0a3\">@Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4、JarrettYe，校对<span class=\"nolink\">偶然奇怪~ ☆</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//blog.andymatuschak.org/post/69049177559/blinded-by-how\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Square Signals : Blinded by &#34;how&#34; (andymatuschak.org)</a></blockquote><hr/><h2>相关文章/专栏</h2><a href=\"https://zhuanlan.zhihu.com/p/550812496\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-eaece448234fe7ebaf8dc0f3f732c586_180x120.jpg\" data-image-width=\"1024\" data-image-height=\"730\" class=\"internal\">叶峻峣：美国大学生：绩点堆得高，创新想得少</a><a href=\"https://zhuanlan.zhihu.com/p/559705516\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-bc2a3f36cf6b2e6d6425f07bd5e63c38_180x120.jpg\" data-image-width=\"4852\" data-image-height=\"3235\" class=\"internal\">叶峻峣：学校让人沾染上的 100+ 恶习</a><a href=\"https://zhuanlan.zhihu.com/p/611469462\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-012042f4f93df7672ff25121d0ef9ee7_180x120.jpg\" data-image-width=\"4000\" data-image-height=\"2962\" class=\"internal\">叶峻峣：学校教育的问题</a><a href=\"https://www.zhihu.com/column/c_1643279594408067072\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-5e181f31b379b3be25fbc815f981afa0_ipico.jpg\" data-image-width=\"200\" data-image-height=\"200\" class=\"internal\">美国教育批判</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1694482395,
   "excerpt": "因为学生从小到大就是这么被教育的。在应试教育里，「怎么做」的比重远远高于「为什么」。背题型、背结论、背公式、背概念，对于应付考试效果极佳。当学生养成了这种做题习惯后，就形成了路径依赖，不管学什么，都是想尽办法先把「怎么做」给背下来。 到了大学，他们中大部分人也是这样做的：数学生背一堆特定形式的函数的积分步骤，物理学生将旋转运动方程与线性运动方程分开背诵，而计算机学生死记硬背数据结构的各种特点。（…",
-  "id": 3207398647,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3207398647",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://www.zhihu.com/column/c_1643279594408067072": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"美国教育批判\",\"card_open_url\":\"https://zhuanlan.zhihu.com/c_1643279594408067072\",\"desc\":\"41 内容 · 0 关注 \\u003ca class=\\\"tag type_a\\\"\\u003e专栏\\u003c/a\\u003e\",\"content\":null,\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"COLUMN\",\"content_id\":\"c_1643279594408067072\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/550812496": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"美国大学生：绩点堆得高，创新想得少\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/550812496\",\"desc\":\"108 赞同 · 18 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 学生越着迷于高分，越缺少创造力。当今中小学生承受着非同以往的巨大成绩 压力 。几个月前，我发表了一篇文章（此处 ）证明大学生也是如此。许多学生留言回应，父母、老师和整个社会都对着他们说，他们的未来取决于有没有在高中和大学里斩获全 A。下面来看一些留言：只要成绩不是 A 就罪不可赦。我们自幼就让家长灌输这样的观点：竞争如此激烈的世界之下，事事完美是成功的唯一道路。 你知道是谁在向我们灌输必须全 A 的思想吗？父…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-eaece448234fe7ebaf8dc0f3f732c586_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"550812496\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/559705516": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"学校让人沾染上的 100+ 恶习\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/559705516\",\"desc\":\"7349 赞同 · 628 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 编者前言几乎所有自由学习者都明白，学校是摧毁学习的罪魁祸首，Wozniak 博士对此也是心知肚明。可当文章落成并与大家见面之时，我们还是难以相信：可列出的恶习竟超过了一百条！这正是学校恶行罄竹难书的证明。 檄文从多方面列举了学校的罪状，基于理论体系的论述穿插着作者感情的流露，可以称得上是 Wozniak 的代表性作品。前 1-3 章属于前文，4-8 章是文章的正文，最后的 9-14 章属于未分类的部分。全文共五万多字，各位读者…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-bc2a3f36cf6b2e6d6425f07bd5e63c38_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"559705516\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/611469462": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"学校教育的问题\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/611469462\",\"desc\":\"264 赞同 · 51 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 译者序大家好，我是 @Thoughts Memo 汉化组[1]的公仆叶峻峣。我第一次翻译 Woz 的文章，还是 18 年年底，从那时我独自一人，基于机翻文本进行润色，到如今建立汉化组，和志同道合的朋友们一起翻译，没想到已经过去四年多了。这四年我在翻译 Woz 文章的心态也发生了很多变化。从开始的叛逆，想要否定学校，庆幸自己的存活，到后来的分享，让更多人发现遇到问题的人不只有自己。我对 Woz 文章本身的看法也在演变。从最早的「他实在…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-012042f4f93df7672ff25121d0ef9ee7_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"611469462\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://www.zhihu.com/column/c_1643279594408067072": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"美国教育批判\",\"card_open_url\":\"https://zhuanlan.zhihu.com/c_1643279594408067072\",\"desc\":\"69 内容 · 0 关注 \\u003ca class=\\\"tag type_a\\\"\\u003e专栏\\u003c/a\\u003e\",\"content\":null,\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"COLUMN\",\"content_id\":\"c_1643279594408067072\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/550812496": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"美国大学生：绩点堆得高，创新想得少\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/550812496\",\"desc\":\"107 赞同 · 18 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 学生越着迷于高分，越缺少创造力。当今中小学生承受着非同以往的巨大成绩 压力 。几个月前，我发表了一篇文章（此处 ）证明大学生也是如此。许多学生留言回应，父母、老师和整个社会都对着他们说，他们的未来取决于有没有在高中和大学里斩获全 A。下面来看一些留言：只要成绩不是 A 就罪不可赦。我们自幼就让家长灌输这样的观点：竞争如此激烈的世界之下，事事完美是成功的唯一道路。 你知道是谁在向我们灌输必须全 A 的思想吗？父…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-eaece448234fe7ebaf8dc0f3f732c586_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"550812496\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/559705516": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"学校让人沾染上的 100+ 恶习\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/559705516\",\"desc\":\"8165 赞同 · 659 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 编者前言几乎所有自由学习者都明白，学校是摧毁学习的罪魁祸首，Wozniak 博士对此也是心知肚明。可当文章落成并与大家见面之时，我们还是难以相信：可列出的恶习竟超过了一百条！这正是学校恶行罄竹难书的证明。 檄文从多方面列举了学校的罪状，基于理论体系的论述穿插着作者感情的流露，可以称得上是 Wozniak 的代表性作品。前 1-3 章属于前文，4-8 章是文章的正文，最后的 9-14 章属于未分类的部分。全文共五万多字，各位读者…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-bc2a3f36cf6b2e6d6425f07bd5e63c38_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"559705516\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/611469462": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"学校教育的问题\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/611469462\",\"desc\":\"408 赞同 · 60 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 译者序大家好，我是 @Thoughts Memo 汉化组[1]的公仆叶峻峣。我第一次翻译 Woz 的文章，还是 18 年年底，从那时我独自一人，基于机翻文本进行润色，到如今建立汉化组，和志同道合的朋友们一起翻译，没想到已经过去四年多了。这四年我在翻译 Woz 文章的心态也发生了很多变化。从开始的叛逆，想要否定学校，庆幸自己的存活，到后来的分享，让更多人发现遇到问题的人不只有自己。我对 Woz 文章本身的看法也在演变。从最早的「他实在…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-012042f4f93df7672ff25121d0ef9ee7_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"611469462\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/6341428248?contentId=3207398647&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1655223278,
     "detail": "<p>我之前很在意做题，以为别人没我会做题，有许多高数线代老师解竞赛题能力甚至不如我，运气好拿两次大学生数学竞赛决赛，但是我后来才发现自己一直做的是同一个老旧知识点的“咬文嚼字”，没有深刻的去体会去分析去重新，对于我后来读paper有种非要全篇都弄懂，然后学了就忘，后面也不太会用，也不懂怎么去创造创新</p><p>我认为高中过于强调应试教育，让很多人觉得会做题就水平高，解题能力强，变戏法巧妙就好，比如我们会喊参变量积分的比为什么能交换次序的人多，会用黎曼定理做题的比知道黎曼定理怎么来的多，stolz会用比知道原理的多，种种，自从接触到科研才让我知道知识是在积累而不是一味做题，题都是成年老旧的知识点，很容易去学，真正厉害的人是对某个方向的发展有个清晰的脉络，有一个全面的认识</p>",
-    "id": 537731762,
+    "id": "537731762",
     "question_type": "normal",
     "relationship": {},
     "title": "为什么现在很多大学生硕士生还保留应试思维，以做题强调知识点而不是科研水平呢？",
     "type": "question",
     "updated_time": 1655223278,
-    "url": "https://api.zhihu.com/questions/537731762"
+    "url": "https://www.zhihu.com/api/v4/questions/537731762"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 183
+  "updated_time": 1694685056,
+  "url": "https://www.zhihu.com/api/v4/answers/3207398647",
+  "voteup_count": 185
 }

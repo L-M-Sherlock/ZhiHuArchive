@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,9 +14,10 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
@@ -35,19 +37,21 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,36 +84,56 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 17,
-  "content": "<p data-pid=\"y_SXnaLT\">别再提什么艾宾浩斯遗忘曲线、记忆曲线了。。。</p><p data-pid=\"D5EbbEZq\">先搞懂记忆原理：(太长不看就继续往下)</p><a href=\"https://zhuanlan.zhihu.com/p/99505568\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-810e0b24320f5cb2b6a3b357c474e014_r.jpg\" data-image-width=\"1402\" data-image-height=\"753\" class=\"internal\">叶峻峣：05 1988：记忆的两个组成成分</a><p data-pid=\"ZivdfKLe\">遗忘曲线的本质是记忆的可提取性（Retrievability ）随时间指数下降。</p><p data-pid=\"3WrsZCxR\">而每次重复可以提高记忆的稳定性（Stability）。</p><p data-pid=\"TVdghDOQ\">公式：</p><p data-pid=\"SwBbxGHp\"><img src=\"https://www.zhihu.com/equation?tex=R%3De%5E%7B-t%2FS%7D\" alt=\"R=e^{-t/S}\" eeimg=\"1\"/> </p><p data-pid=\"h7YI4Eyk\">S 提高，那 R 下降的速度就变慢了，所以才有间隔重复能够使记忆记得更牢。</p><p data-pid=\"q8Pe4Kxc\">而完整的公式是</p><p data-pid=\"skDdIRh0\"><img src=\"https://www.zhihu.com/equation?tex=R_i%28t%29%3D%5Cexp%5E%7B%28t%2A%5Cln%28K%29%2F%28C_1%2AC_2%5E%7Bi-1%7D%29%29%7D\" alt=\"R_i(t)=\\exp^{(t*\\ln(K)/(C_1*C_2^{i-1}))}\" eeimg=\"1\"/> </p><p data-pid=\"D1mjLxZ2\">K 是预期的保留率（比如我这次记 100 个单词，预期记住 100 * K 个）</p><p data-pid=\"9uW8mhnu\">i 是第 i 次重复</p><p data-pid=\"LSDjo1U2\">C1 是第一次重复的间隔</p><p data-pid=\"Mu1HqiFv\">C2 是记忆内容的难度（越难越小）</p><p data-pid=\"kuggCJM8\">（好吧理论看不懂也没关系）</p><hr/><p data-pid=\"T1eumy1B\">所以就会有这张图：</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-be9d0b0c5dcb41247df567d086a58d80_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"405\" data-original-token=\"v2-34f991f3f4fa225268160c1bb1dc59e7\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-6ec94ae194a80dc8a7a9fddc044cfe7b_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://picx.zhimg.com/v2-be9d0b0c5dcb41247df567d086a58d80_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;720&#39; height=&#39;405&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"405\" data-original-token=\"v2-34f991f3f4fa225268160c1bb1dc59e7\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-6ec94ae194a80dc8a7a9fddc044cfe7b_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"720\" data-original=\"https://picx.zhimg.com/v2-be9d0b0c5dcb41247df567d086a58d80_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-be9d0b0c5dcb41247df567d086a58d80_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"zxizDamD\">那该怎么做？</p><p data-pid=\"C0L-U0YE\">应该<b>动态</b>的调整复习的间隔。</p><p data-pid=\"5B2LOR64\">比如我第一天背了单词 A，第 1 次复习就隔 1 天，第 2 次复习就隔 C 天，第 n 次复习就隔 <img src=\"https://www.zhihu.com/equation?tex=C%5E%7Bn-1%7D\" alt=\"C^{n-1}\" eeimg=\"1\"/> 天。如果中间有一次复习忘记了，那么就重新开始，并且 C 要下调，因为记不住可能是因为这个单词对于我的难度较高，需要调整。</p><p data-pid=\"9d1eg7Bt\">如果只有几个单词，这样人工去计算间隔还算简单，但是需要背很多单词的话，就需要借助工具来安排复习了。</p><p data-pid=\"E9wjwVoz\">这里我推荐使用 Anki——开源、免费的多平台记忆软件：</p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-20d50031f4fd3464e19584f9c68ab210_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"634\" data-rawheight=\"542\" data-original-token=\"v2-4d53b76867340492916a40df172682a2\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-52112b9a59728b3a2818858cc0064e25_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"634\" data-original=\"https://picx.zhimg.com/v2-20d50031f4fd3464e19584f9c68ab210_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;634&#39; height=&#39;542&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"634\" data-rawheight=\"542\" data-original-token=\"v2-4d53b76867340492916a40df172682a2\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-52112b9a59728b3a2818858cc0064e25_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"634\" data-original=\"https://picx.zhimg.com/v2-20d50031f4fd3464e19584f9c68ab210_r.jpg?source=2c26e567\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-20d50031f4fd3464e19584f9c68ab210_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"gf_VyTsr\">左边是正面，可以用一个例句来辅助自己理解单词的语境，右边是背面，有中文翻译，将单词对应的中文标记就能来测试自己了。</p><p data-pid=\"8Y-Pap0K\">然后这些例句和翻译，用有道词典什么的查单词，都会有双语例句，复制粘贴，就能做出卡片。</p><p data-pid=\"H-ivfdjR\">Anki 自带算法，按照我们自己的记忆情况，来安排下一次复习的时间：</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-ffa93924ac6237d52d8120dc6ebd5560_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1002\" data-rawheight=\"1079\" data-original-token=\"v2-ffa93924ac6237d52d8120dc6ebd5560\" class=\"origin_image zh-lightbox-thumb\" width=\"1002\" data-original=\"https://pica.zhimg.com/v2-ffa93924ac6237d52d8120dc6ebd5560_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1002&#39; height=&#39;1079&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1002\" data-rawheight=\"1079\" data-original-token=\"v2-ffa93924ac6237d52d8120dc6ebd5560\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1002\" data-original=\"https://pica.zhimg.com/v2-ffa93924ac6237d52d8120dc6ebd5560_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-ffa93924ac6237d52d8120dc6ebd5560_720w.jpg?source=2c26e567\"/></figure><hr/><p data-pid=\"P13mCb6k\">Anki 支持 windows、mac、linux、安卓、苹果等常见设备，并且可以多端同步，走到哪学到哪。</p><p data-pid=\"zpMnSdsH\">为了帮到有缘人，我写了一份快速上手教程：</p><a href=\"https://zhuanlan.zhihu.com/p/61564332\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-2e8a109841199b0a18e70ae7bd16ea66_180x120.jpg\" data-image-width=\"1220\" data-image-height=\"535\" class=\"internal\">叶峻峣：B 站 Ankidroid 视频教程与电子书(全平台教程)快速通道</a>",
+  "content": "<p data-pid=\"y_SXnaLT\">别再提什么艾宾浩斯遗忘曲线、记忆曲线了。。。</p><p data-pid=\"D5EbbEZq\">先搞懂记忆原理：(太长不看就继续往下)</p><a href=\"https://zhuanlan.zhihu.com/p/99505568\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-810e0b24320f5cb2b6a3b357c474e014_r.jpg\" data-image-width=\"1402\" data-image-height=\"753\" class=\"internal\">叶峻峣：05 1988：记忆的两个组成成分</a><p data-pid=\"ZivdfKLe\">遗忘曲线的本质是记忆的可提取性（Retrievability ）随时间指数下降。</p><p data-pid=\"3WrsZCxR\">而每次重复可以提高记忆的稳定性（Stability）。</p><p data-pid=\"TVdghDOQ\">公式：</p><p data-pid=\"SwBbxGHp\"><img src=\"https://www.zhihu.com/equation?tex=R%3De%5E%7B-t%2FS%7D\" alt=\"R=e^{-t/S}\" eeimg=\"1\"/> </p><p data-pid=\"h7YI4Eyk\">S 提高，那 R 下降的速度就变慢了，所以才有间隔重复能够使记忆记得更牢。</p><p data-pid=\"q8Pe4Kxc\">而完整的公式是</p><p data-pid=\"skDdIRh0\"><img src=\"https://www.zhihu.com/equation?tex=R_i%28t%29%3D%5Cexp%5E%7B%28t%2A%5Cln%28K%29%2F%28C_1%2AC_2%5E%7Bi-1%7D%29%29%7D\" alt=\"R_i(t)=\\exp^{(t*\\ln(K)/(C_1*C_2^{i-1}))}\" eeimg=\"1\"/> </p><p data-pid=\"D1mjLxZ2\">K 是预期的保留率（比如我这次记 100 个单词，预期记住 100 * K 个）</p><p data-pid=\"9uW8mhnu\">i 是第 i 次重复</p><p data-pid=\"LSDjo1U2\">C1 是第一次重复的间隔</p><p data-pid=\"Mu1HqiFv\">C2 是记忆内容的难度（越难越小）</p><p data-pid=\"kuggCJM8\">（好吧理论看不懂也没关系）</p><hr/><p data-pid=\"T1eumy1B\">所以就会有这张图：</p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-be9d0b0c5dcb41247df567d086a58d80_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"405\" data-original-token=\"v2-34f991f3f4fa225268160c1bb1dc59e7\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-6ec94ae194a80dc8a7a9fddc044cfe7b_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pica.zhimg.com/v2-be9d0b0c5dcb41247df567d086a58d80_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;720&#39; height=&#39;405&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"405\" data-original-token=\"v2-34f991f3f4fa225268160c1bb1dc59e7\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-6ec94ae194a80dc8a7a9fddc044cfe7b_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"720\" data-original=\"https://pica.zhimg.com/v2-be9d0b0c5dcb41247df567d086a58d80_r.jpg?source=2c26e567\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-be9d0b0c5dcb41247df567d086a58d80_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"zxizDamD\">那该怎么做？</p><p data-pid=\"C0L-U0YE\">应该<b>动态</b>的调整复习的间隔。</p><p data-pid=\"5B2LOR64\">比如我第一天背了单词 A，第 1 次复习就隔 1 天，第 2 次复习就隔 C 天，第 n 次复习就隔 <img src=\"https://www.zhihu.com/equation?tex=C%5E%7Bn-1%7D\" alt=\"C^{n-1}\" eeimg=\"1\"/> 天。如果中间有一次复习忘记了，那么就重新开始，并且 C 要下调，因为记不住可能是因为这个单词对于我的难度较高，需要调整。</p><p data-pid=\"9d1eg7Bt\">如果只有几个单词，这样人工去计算间隔还算简单，但是需要背很多单词的话，就需要借助工具来安排复习了。</p><p data-pid=\"E9wjwVoz\">这里我推荐使用 Anki——开源、免费的多平台记忆软件：</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-20d50031f4fd3464e19584f9c68ab210_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"634\" data-rawheight=\"542\" data-original-token=\"v2-4d53b76867340492916a40df172682a2\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-52112b9a59728b3a2818858cc0064e25_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"634\" data-original=\"https://picx.zhimg.com/v2-20d50031f4fd3464e19584f9c68ab210_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;634&#39; height=&#39;542&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"634\" data-rawheight=\"542\" data-original-token=\"v2-4d53b76867340492916a40df172682a2\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-52112b9a59728b3a2818858cc0064e25_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"634\" data-original=\"https://picx.zhimg.com/v2-20d50031f4fd3464e19584f9c68ab210_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-20d50031f4fd3464e19584f9c68ab210_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"gf_VyTsr\">左边是正面，可以用一个例句来辅助自己理解单词的语境，右边是背面，有中文翻译，将单词对应的中文标记就能来测试自己了。</p><p data-pid=\"8Y-Pap0K\">然后这些例句和翻译，用有道词典什么的查单词，都会有双语例句，复制粘贴，就能做出卡片。</p><p data-pid=\"H-ivfdjR\">Anki 自带算法，按照我们自己的记忆情况，来安排下一次复习的时间：</p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-ffa93924ac6237d52d8120dc6ebd5560_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1002\" data-rawheight=\"1079\" data-original-token=\"v2-ffa93924ac6237d52d8120dc6ebd5560\" class=\"origin_image zh-lightbox-thumb\" width=\"1002\" data-original=\"https://picx.zhimg.com/v2-ffa93924ac6237d52d8120dc6ebd5560_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1002&#39; height=&#39;1079&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1002\" data-rawheight=\"1079\" data-original-token=\"v2-ffa93924ac6237d52d8120dc6ebd5560\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1002\" data-original=\"https://picx.zhimg.com/v2-ffa93924ac6237d52d8120dc6ebd5560_r.jpg?source=2c26e567\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-ffa93924ac6237d52d8120dc6ebd5560_720w.jpg?source=2c26e567\"/></figure><hr/><p data-pid=\"P13mCb6k\">Anki 支持 windows、mac、linux、安卓、苹果等常见设备，并且可以多端同步，走到哪学到哪。</p><p data-pid=\"zpMnSdsH\">为了帮到有缘人，我写了一份快速上手教程：</p><a href=\"https://zhuanlan.zhihu.com/p/61564332\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-2e8a109841199b0a18e70ae7bd16ea66_180x120.jpg\" data-image-width=\"1220\" data-image-height=\"535\" class=\"internal\">叶峻峣：B 站 Ankidroid 视频教程与电子书(全平台教程)快速通道</a>",
   "content_need_truncated": false,
   "created_time": 1578066505,
   "excerpt": "别再提什么艾宾浩斯遗忘曲线、记忆曲线了。。。 先搞懂记忆原理：(太长不看就继续往下) [文章: 05 1988：记忆的两个组成成分] 遗忘曲线的本质是记忆的可提取性（Retrievability ）随时间指数下降。 而每次重复可以提高记忆的稳定性（Stability）。 公式： [公式] S 提高，那 R 下降的速度就变慢了，所以才有间隔重复能够使记忆记得更牢。 而完整的公式是 [公式] K 是预期的保留率（比如我…",
-  "id": 961619758,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "961619758",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/61564332": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"【专栏导航】Anki 教程(电子书)与 B 站 Ankidroid 教程(视频)快速通道\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/61564332\",\"desc\":\"2294 赞同 · 177 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e Anki 制卡两万五千字长文，你最好的制卡参考书： [文章: 如何写出好卡片：利用间隔重复创造理解] Anki 下载百度云： https://pan.baidu.com/s/16JFHGO9Yk1hlUD1d84iCGA iOS 在 AppStore 上售价为 163 元，有能力可以支持一下。 B 站 Ankidroid 视频教程（没有声音，请关注操作）下载与安装：https://www.bilibili.com/video/av41518619/?p=1 创建牌组：https://www.bilibili.com/video/av41518619/?p=2 制作问答卡片：https://www.bilibili.com/video/av41518619/?p=3 问答卡片学习演示：https://www.bilibili.com/video/av41518619/?p=4 制作填空卡片与效果演示：…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-acfa8f607f2d3c74ba5c660c3ab25df0_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"61564332\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/99505568": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"05 1988：记忆的两个组成成分\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/99505568\",\"desc\":\"47 赞同 · 22 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 总目录： 0 目录《间隔重复的历史》 上一篇： 04 1987 SuperMemo 1.0: 日志 如果你没有时间阅读长文，建议看： 浓缩通俗版 注意：由于知乎对 markdown 的支持不完善，部分排版可能影响阅读体验。 推荐在这里阅读：05.1988 记忆的两个组成部分 · supermemo.guru 翻译计划 · 看云 本文提出的记忆双组分模型很有启发意义，推荐阅读。 1988：记忆的两个组成成分长期记忆的双组分模型是 SuperMemo 的基础，并在 SM-17 算法 中明确表示。…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-810e0b24320f5cb2b6a3b357c474e014_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"99505568\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/61564332": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"【专栏导航】Anki 教程(电子书)与 B 站 Ankidroid 教程(视频)快速通道\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/61564332\",\"desc\":\"2615 赞同 · 185 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e Anki 制卡两万五千字长文，你最好的制卡参考书： [文章: 如何写出好卡片：利用间隔重复创造理解] Anki 下载百度云： https://pan.baidu.com/s/16JFHGO9Yk1hlUD1d84iCGA iOS 在 AppStore 上售价为 163 元，有能力可以支持一下。 B 站 Ankidroid 视频教程（没有声音，请关注操作）下载与安装：https://www.bilibili.com/video/av41518619/?p=1 创建牌组：https://www.bilibili.com/video/av41518619/?p=2 制作问答卡片：https://www.bilibili.com/video/av41518619/?p=3 问答卡片学习演示：https://www.bilibili.com/video/av41518619/?p=4 制作填空卡片与效果演示：…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-acfa8f607f2d3c74ba5c660c3ab25df0_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"61564332\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/99505568": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"05 1988：记忆的两个组成成分\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/99505568\",\"desc\":\"49 赞同 · 22 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 总目录： 0 目录《间隔重复的历史》 上一篇： 04 1987 SuperMemo 1.0: 日志 如果你没有时间阅读长文，建议看： 浓缩通俗版 注意：由于知乎对 markdown 的支持不完善，部分排版可能影响阅读体验。 推荐在这里阅读：05.1988 记忆的两个组成部分 · supermemo.guru 翻译计划 · 看云 本文提出的记忆双组分模型很有启发意义，推荐阅读。 1988：记忆的两个组成成分长期记忆的双组分模型是 SuperMemo 的基础，并在 SM-17 算法 中明确表示。…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-810e0b24320f5cb2b6a3b357c474e014_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"99505568\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=961619758&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1577403727,
     "detail": "",
-    "id": 363190760,
+    "id": "363190760",
     "question_type": "normal",
     "relationship": {},
     "title": "背单词的过程中，如何形成牢固的记忆？",
     "type": "question",
     "updated_time": 1577403727,
-    "url": "https://api.zhihu.com/questions/363190760"
+    "url": "https://www.zhihu.com/api/v4/questions/363190760"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1580349690,
+  "url": "https://www.zhihu.com/api/v4/answers/961619758",
   "voteup_count": 30
 }

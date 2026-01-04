@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 0,
   "content": "<p data-pid=\"Xpn32bZk\">转一下我自己专栏里面写的相关文章：</p><hr/><p data-pid=\"2fFxeVqu\">首先，我们先从两个维度，将市面上的套题分类。</p><p data-pid=\"DOBUdRay\">难度（得分率）</p><p data-pid=\"RaPOX20z\">基础题（60%）</p><p data-pid=\"uFiMIDcb\">中难题（30%）</p><p data-pid=\"EJiFNe6B\">压轴题（10%）</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"SzH5mEhn\">综合度</p><p data-pid=\"OfTLQ64T\">综合卷（考察范围与高考接近或题型杂）</p><p data-pid=\"UuFDNQ-w\">专项题（考察范围为某章节或题型单一）</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"SBXF5Ei6\">好了，分类完毕。现在就让我站在战略的高度，谈谈如何刷题吧。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"8eLaAPy5\">综合卷/专项卷：</p><p data-pid=\"tbf9Oa5w\">综合卷的特点是知识覆盖面广而分散，这使其适合于检查自己的知识漏洞。并且综合卷贴近高考，适合我们练节奏找感觉。</p><p data-pid=\"5mdmLEhE\">而专项卷的特点是知识点集中，但是这并不意味着其没有价值。相反，做专项题有助于我们摸清关于一个知识点的考察方式，从不同角度刨析类提醒，使我们更容易看清自己对某知识点的熟悉程度。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"yT13WK9w\">基础/中难/压轴：循序渐进，并以自己的水平为准。一张正常的高考卷是不可能不包括这三种题的。所以我们不能轻视任何难度的题，当然，为了提高自己的水平，尽量挑战稍高于自己水平的题。</p><p class=\"ztext-empty-paragraph\"><br/></p><hr/><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"KTkdBSEW\">不过，理论很美好，现实很残酷。至少在我印象中，几乎没有教辅会以难度为维度来出版不同的套题。市面上的题，要么是像五三这样的，分不同专题的练习，要么就是像金考卷这样，全是整卷。</p><p data-pid=\"OKqQb0kK\">不过我的理论也只是一种方法论，大家只要能有这样的刷题意识，我相信大家一定会有收获。切忌盲目刷题！</p><hr/><a href=\"https://zhuanlan.zhihu.com/ankigaokao\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-31006511123dc6bc074c75ee9cb71bc2_ipico.jpg\" data-image-width=\"1180\" data-image-height=\"1180\" class=\"internal\">高考╳Anki——科学备考研究所</a><p data-pid=\"Cv0oLw_W\">欢迎敢于尝试的高中生关注和分享我的专栏，内含干货和资源，不要错过哦。</p>",
   "content_need_truncated": false,
   "created_time": 1526011480,
   "excerpt": "转一下我自己专栏里面写的相关文章： 首先，我们先从两个维度，将市面上的套题分类。 难度（得分率） 基础题（60%） 中难题（30%） 压轴题（10%） 综合度 综合卷（考察范围与高考接近或题型杂） 专项题（考察范围为某章节或题型单一） 好了，分类完毕。现在就让我站在战略的高度，谈谈如何刷题吧。 综合卷/专项卷： 综合卷的特点是知识覆盖面广而分散，这使其适合于检查自己的知识漏洞。并且综合卷贴近高考，适合我们练节奏找感…",
-  "id": 388799997,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "388799997",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=388799997&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1525008580,
     "detail": "",
-    "id": 275314421,
+    "id": "275314421",
     "question_type": "normal",
     "relationship": {},
     "title": "考前应该怎样刷试卷？",
     "type": "question",
     "updated_time": 1525008580,
-    "url": "https://api.zhihu.com/questions/275314421"
+    "url": "https://www.zhihu.com/api/v4/questions/275314421"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1526011480,
+  "url": "https://www.zhihu.com/api/v4/answers/388799997",
   "voteup_count": 3
 }

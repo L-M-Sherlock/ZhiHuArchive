@@ -1,80 +1,455 @@
 {
-  "status": 0,
+  "id": "484118458",
+  "title": "Orbit——让知识穿越时空，与你的读者相伴（内含部署教程）",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/484118458",
+  "image_url": "https://picx.zhimg.com/v2-468ee48cb5c403ed251a08ec410bff78_720w.jpg?source=172ae18b",
+  "title_image": "https://pic1.zhimg.com/v2-468ee48cb5c403ed251a08ec410bff78_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://picx.zhimg.com/v2-6d5a507c9f433d00eec91f1903c44def_200x112.jpg\" data-rawwidth=\"996\" data-rawheight=\"836\" data-size=\"normal\" data-caption=\"\" data-watermark=\"original\" data-original-src=\"v2-6d5a507c9f433d00eec91f1903c44def\" data-watermark-src=\"v2-a25287a9397353a764509808de990bf7\" data-private-watermark-src=\"\" data-original=\"https://picx.zhimg.com/v2-6d5a507c9f433d00eec91f1903c44def_r.jpg\" class=\"origin_image inline-img zh-lightbox-thumb\"/>简介离上次介绍 LingQ [1] 过去两个多月了，这次想给大伙儿介绍一下，我们汉化组最近一直在翻译的「助记媒介[2]」实例——Orbit先来个粗浅的定义：Orbit = 传统文章 + 复习卡片 + 间隔重复（如下图所示） 可能这张图大家看得不是很懂，不过不要着急，在具体…",
+  "created": 1647756728,
   "updated": 1660646831,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "简介离上次介绍 LingQ[1] 过去两个多月了，这次想给大伙儿介绍一下，我们汉化组最近…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 1200,
+  "image_height": 811,
+  "content": "<h2>简介</h2><p data-pid=\"bI7QZbt3\">离上次介绍 LingQ<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\" data-text=\"LingQ——外语阅读与词汇记忆的沉浸体验\" data-url=\"https://zhuanlan.zhihu.com/p/455244274\">[1]</sup> 过去两个多月了，这次想给大伙儿介绍一下，我们汉化组最近一直在翻译的「助记媒介<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\" data-text=\"助记媒介 (Mnemonic medium)\" data-url=\"http://zhuanlan.zhihu.com/p/459483765\">[2]</sup>」实例——Orbit</p><p data-pid=\"S3Ijaw_B\">先来个粗浅的定义：Orbit = 传统文章 + 复习卡片 + 间隔重复（如下图所示）</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-6d5a507c9f433d00eec91f1903c44def_1440w.jpg\" data-rawwidth=\"996\" data-rawheight=\"836\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-6d5a507c9f433d00eec91f1903c44def\" class=\"origin_image zh-lightbox-thumb\" width=\"996\" data-original=\"https://picx.zhimg.com/v2-6d5a507c9f433d00eec91f1903c44def_r.jpg\"/></figure><p data-pid=\"8p0buZvZ\">可能这张图大家看得不是很懂，不过不要着急，在具体介绍助记媒介之前，我们先说说它是因何而生的。</p><h2>为什么会有 Orbit？</h2><p data-pid=\"6A2v2M0k\">为什么 Andy 创造了 Orbit？我们来做一个思想实验：</p><p data-pid=\"CfywH5T4\">想象一下，你在阅读一篇专业课导论，里面有很多新颖的概念，读完后觉得自己学到了很多知识。但才过几天，当你想要回忆自己在那篇文章中所读内容时，却发现自己已经忘了大半。</p><p data-pid=\"RsTR93nU\">这就是传统文章的缺陷：它只负责呈现内容，不管你是否能够记住。</p><p data-pid=\"fFDlSZ-R\">再想一想，这篇传统文章来自于教科书，这里有部分习题可供你练习。你相信这些习题可以让你记住这些知识更长时间。但是又有更多的问题冒出来：你应该做哪些习题？什么时候做？这些习题想揭示什么深刻的见解？和文章中的哪个部分有关？</p><p data-pid=\"f9VNBwGC\">这是带习题的教科书的缺陷：理解和记忆的大多数工作，依然压在了你身上。</p><p data-pid=\"QpExi2Ny\">或许你该使用别人做好的 Anki/SuperMemo 牌组？只需要让这些间隔重复软件来帮我安排任务就行了？这确实是一个不错的想法，但学习别人的间隔重复记忆卡片通常是无效的<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\" data-text=\"学习别人的间隔重复记忆卡片通常是无效的\" data-url=\"http://zhuanlan.zhihu.com/p/397271029\">[3]</sup>。</p><p data-pid=\"0WTVWAg9\">好吧，你可能觉得我在贩卖焦虑。说了这么多这不行那不行的，到底该怎办？</p><p data-pid=\"iJlcni4_\">当然是解决这些问题，缺啥补啥：</p><ul><li data-pid=\"J7gFp6HO\">既然传统文章缺少让读者记忆的能力，我们就往传统文章里塞复习卡片</li><li data-pid=\"0wte0dVD\">既然卡片问题常常与文章脱节，我们就把卡片嵌到文章相关内容的附近</li><li data-pid=\"zbiW7TCL\">既然管理复习卡片的时间非常繁琐，我们就用一个间隔重复算法来安排</li></ul><p data-pid=\"IJnyHhpj\">于是，就有了 Orbit：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-3be45fe8c8a2b1c1e3df0a30ba7f9f43_1440w.jpg\" data-rawwidth=\"981\" data-rawheight=\"781\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-3be45fe8c8a2b1c1e3df0a30ba7f9f43\" class=\"origin_image zh-lightbox-thumb\" width=\"981\" data-original=\"https://pic2.zhimg.com/v2-3be45fe8c8a2b1c1e3df0a30ba7f9f43_r.jpg\"/></figure><h2>Orbit 是什么？</h2><p data-pid=\"RsZlnJR7\">Orbit 就是一个能够嵌入文章的复习卡片系统，并在合适的时机来给你发邮件，提醒你去复习：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-52e35e7013e911cb065f77c933061017_1440w.jpg\" data-rawwidth=\"2524\" data-rawheight=\"1098\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-52e35e7013e911cb065f77c933061017\" class=\"origin_image zh-lightbox-thumb\" width=\"2524\" data-original=\"https://pic4.zhimg.com/v2-52e35e7013e911cb065f77c933061017_r.jpg\"/></figure><p data-pid=\"CN8NTRlC\">不过这样说还是太抽象了，推荐大家直接来我部署的 GitHub Pages 来体验一下：</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//l-m-sherlock.github.io/thoughts-memo/post/how-to-write-good-prompts/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">如何写出好卡片</a><p data-pid=\"FnAwkP1N\">Orbit 这种设计，与我之前体验过的 Osmosis<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\" data-text=\"Osmosis——视频网课、卡片与间隔重复的有机结合\" data-url=\"http://zhuanlan.zhihu.com/p/106058169\">[4]</sup> 极为相似，都是为了克服理解到记忆之间的障碍而生的。</p><p data-pid=\"VS2tFlqb\">同时，它也是我之前的随笔所提到的间隔重复软件的两大进路<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\" data-text=\"间隔重复软件的两大进路\" data-url=\"https://zhuanlan.zhihu.com/p/396445859\">[5]</sup>中的专家制卡一路。所以 Orbit 的主要使用者分为两类：利用助记媒介创作的作者，和阅读助记媒介文章并复习卡片的读者。Orbit 对读者是非常友好的，不需要像 Anki/SuperMemo 那样自己阅读、自己制卡、自己管理，只需要阅读现成的助记文本，复习作者提供的卡片，Orbit 会在合适的时机给读者发邮件，读者只需要点击复习地址即可开始复习。</p><p data-pid=\"IrPnx9HW\">我相信如果这种媒介能够得到更多创作者的使用，会对未来的教育产生巨大影响。所以接下来就让我介绍一下，我是如何部署 Orbit 的吧～</p><h2>如何部署 Orbit</h2><p data-pid=\"DE3pHMzW\">Orbit 的文档<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\" data-text=\"Orbit Documentation\" data-url=\"https://docs.withorbit.com/\">[6]</sup>非常简陋（因为还在内测开发阶段），所以我就简单说说 Andy 的原始用法：</p><div class=\"highlight\"><pre><code class=\"language-html\"><span class=\"p\">&lt;</span><span class=\"nt\">html</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">&lt;</span><span class=\"nt\">head</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">script</span> <span class=\"na\">type</span><span class=\"o\">=</span><span class=\"s\">&#34;module&#34;</span> <span class=\"na\">src</span><span class=\"o\">=</span><span class=\"s\">&#34;https://js.withorbit.com/orbit-web-component.js&#34;</span><span class=\"p\">&gt;&lt;/</span><span class=\"nt\">script</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">&lt;/</span><span class=\"nt\">head</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">&lt;</span><span class=\"nt\">body</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">orbit-reviewarea</span> <span class=\"na\">color</span><span class=\"o\">=</span><span class=\"s\">&#34;turquoise&#34;</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">orbit-prompt</span>\n        <span class=\"na\">question</span><span class=\"o\">=</span><span class=\"s\">&#34;What&#39;s the working name for Andy&#39;s experimental mnemonic medium platform?&#34;</span>\n        <span class=\"na\">answer</span><span class=\"o\">=</span><span class=\"s\">&#34;Orbit&#34;</span>\n      <span class=\"p\">&gt;&lt;/</span><span class=\"nt\">orbit-prompt</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">orbit-prompt</span>\n        <span class=\"na\">question</span><span class=\"o\">=</span><span class=\"s\">&#34;What kind of quantum gate is this?&#34;</span>\n        <span class=\"na\">question-attachments</span><span class=\"o\">=</span><span class=\"s\">&#34;https://docs.withorbit.com/toffoli.png&#34;</span>\n        <span class=\"na\">answer</span><span class=\"o\">=</span><span class=\"s\">&#34;A Toffoli gate.&#34;</span>\n      <span class=\"p\">&gt;&lt;/</span><span class=\"nt\">orbit-prompt</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">orbit-prompt</span>\n        <span class=\"na\">question</span><span class=\"o\">=</span><span class=\"s\">&#34;Given a right triangle with legs of length $a$ and $b$, what is the length of hypotenuse $c$?&#34;</span>\n        <span class=\"na\">answer</span><span class=\"o\">=</span><span class=\"s\">&#34;$$c = \\sqrt{a^2 + b^2}$$&#34;</span>\n      <span class=\"p\">&gt;&lt;/</span><span class=\"nt\">orbit-prompt</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">orbit-reviewarea</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">&lt;/</span><span class=\"nt\">body</span><span class=\"p\">&gt;</span>\n<span class=\"p\">&lt;/</span><span class=\"nt\">html</span><span class=\"p\">&gt;</span></code></pre></div><p data-pid=\"CvfmwpBl\">直接调用 Andy 提供的 Web Component，然后在自己的网页里嵌入 orbit-reviewarea 即可。</p><figure data-size=\"small\"><img src=\"https://pic3.zhimg.com/v2-e4477be57c7e51d85eecfc9d67664772_1440w.jpg\" data-rawwidth=\"786\" data-rawheight=\"782\" data-size=\"small\" data-caption=\"\" data-original-token=\"v2-e4477be57c7e51d85eecfc9d67664772\" class=\"origin_image zh-lightbox-thumb\" width=\"786\" data-original=\"https://pic3.zhimg.com/v2-e4477be57c7e51d85eecfc9d67664772_r.jpg\"/></figure><p data-pid=\"emQ01G1S\">Andy 你太残忍了，用你个 Orbit 还得建站，才能嵌入 Web Component 啊！怎么让只有基础开发知识的人用上？</p><p data-pid=\"bOLLTehD\">我想到了很多建在 GitHub Pages 上的博客，部署起来还算简单，于是我选择了 Hugo<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\" data-text=\"Hugo\" data-url=\"https://gohugo.io/\">[7]</sup> 来试试水。</p><h3>安装 Hugo</h3><p data-pid=\"silHE5cc\">安装官方教程一路搞到底就行了：</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//gohugo.io/getting-started/quick-start/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Quick Start | Hugo (gohugo.io)</a><h3>部署 GitHub Pages</h3><p data-pid=\"ZsrfQXpH\">同样也是按官方教程，不过这里有个坑，如果你用了一些比较高级的博客模板，你需要把 GitHub action 脚本里的 <i>extended: true </i>给加上，不然会部署失败。</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//gohugo.io/hosting-and-deployment/hosting-on-github/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Host on GitHub | Hugo (gohugo.io)</a><h3>嵌入 Orbit</h3><p data-pid=\"IvrjyFzS\">Hugo 这类 blog 都是用 markdown 来写作，不需要直接编辑 html，是方便了不少，但是 Orbit 是 web component，肯定得在 markdown 里嵌入 html 的。这里我参考了下面这个方法：</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//anaulin.org/blog/hugo-raw-html-shortcode/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Simple Shortcode to Insert Raw HTML in Hugo · Ana Ulin</a><h3>在 head 中插入 script</h3><div class=\"highlight\"><pre><code class=\"language-text\">&lt;script type=&#34;module&#34; src=&#34;https://js.withorbit.com/orbit-web-component.js&#34;&gt;&lt;/script&gt;</code></pre></div><p data-pid=\"nHB_hfx0\">上面这个 script 嵌入到正文里也是没用的，得放到 Hugo 生成的 html 中的 head 里。Hugo 的原理其实就是把一堆 html 和 markdown 拼到一起去，所以找一找拼接的 html 有哪些，然后在目标位置插入上面这个脚本代码就行了：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-213c64e0bf83673c287633441ee12203_1440w.jpg\" data-rawwidth=\"2374\" data-rawheight=\"1292\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-213c64e0bf83673c287633441ee12203\" class=\"origin_image zh-lightbox-thumb\" width=\"2374\" data-original=\"https://picx.zhimg.com/v2-213c64e0bf83673c287633441ee12203_r.jpg\"/></figure><h3>太复杂了，能不能简单点？</h3><p data-pid=\"TkckIdLA\">确实，部署这玩意花了我一个周六的下午，踩了好几个坑。这里大家可以直接用我的最终成品：</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//github.com/L-M-Sherlock/thoughts-memo\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">L-M-Sherlock/thoughts-memo: Thoughts Memo 小站 (github.com)</a><p data-pid=\"vQSdVifO\">助记文章的编写方式可以直接参考我写好的内容：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-6f4046371d04cbded27e733fadbb937f_1440w.jpg\" data-rawwidth=\"1654\" data-rawheight=\"1084\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-6f4046371d04cbded27e733fadbb937f\" class=\"origin_image zh-lightbox-thumb\" width=\"1654\" data-original=\"https://pic4.zhimg.com/v2-6f4046371d04cbded27e733fadbb937f_r.jpg\"/></figure><p data-pid=\"-2JxX0lf\">当然如果你还是嫌麻烦的话，可以直接把写好的助记媒介内容发给我（逃</p><p data-pid=\"-lLGC_QO\">之后应该也会陆续将一些传统文章翻译成助记媒介（什么叫知识翻译官啊 doge）</p><h2>结尾</h2><p data-pid=\"9tYx3ZPv\">Orbit 还在成长中，我会继续跟进它的进展。想了解更多有关 Orbit 和助记媒介相关的内容，可以阅读我的专栏：</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/column/c_1525784109008203776\" data-image=\"https://pic2.zhimg.com/v2-52a669542a8699d42a3c5796c7e536e9_l.jpg\" data-image-width=\"200\" data-image-height=\"200\" class=\"internal\">助记媒介 &amp; 思想工具</a><p></p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/21868663",
+      "type": "topic",
+      "id": "21868663",
+      "name": "助记媒介"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19792731",
+      "type": "topic",
+      "id": "19792731",
+      "name": "GitHub Pages"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    }
+  ],
+  "voteup_count": 48,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "收录个人相关或不好分类的文章",
+    "is_following": true,
+    "url_token": "c_1280249768422608896",
+    "id": "c_1280249768422608896",
+    "articles_count": 73,
+    "accept_submission": true,
+    "title": "学委叶哥的随笔",
+    "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+    "comment_permission": "all",
+    "created": 1598015330,
+    "updated": 1751811281,
+    "image_url": "https://picx.zhimg.com/v2-c31ca0615bbbe77cc9d0ad05465dd223_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 251,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 6,
+  "contributions": [
+    {
+      "id": 38285211,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "收录个人相关或不好分类的文章",
+        "is_following": true,
+        "url_token": "c_1280249768422608896",
+        "id": "c_1280249768422608896",
+        "articles_count": 73,
+        "accept_submission": true,
+        "title": "学委叶哥的随笔",
+        "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+        "comment_permission": "all",
+        "created": 1598015330,
+        "updated": 1751811281,
+        "image_url": "https://picx.zhimg.com/v2-c31ca0615bbbe77cc9d0ad05465dd223_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 251,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 484118458,
-  "voteup_count": 46,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 55,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "Orbit——让知识穿越时空，与你的读者相伴（内含部署教程） - 来自知乎专栏「学委叶哥的随笔」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/484118458 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1647756728,
-  "url": "https://api.zhihu.com/articles/484118458",
-  "comment_permission": "all",
-  "title": "Orbit——让知识穿越时空，与你的读者相伴（内含部署教程）",
-  "image_width": 811,
-  "content": "<h2>简介</h2><p data-pid=\"bI7QZbt3\">离上次介绍 LingQ<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\" data-text=\"LingQ——外语阅读与词汇记忆的沉浸体验\" data-url=\"https://zhuanlan.zhihu.com/p/455244274\">[1]</sup> 过去两个多月了，这次想给大伙儿介绍一下，我们汉化组最近一直在翻译的「助记媒介<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\" data-text=\"助记媒介 (Mnemonic medium)\" data-url=\"http://zhuanlan.zhihu.com/p/459483765\">[2]</sup>」实例——Orbit</p><p data-pid=\"S3Ijaw_B\">先来个粗浅的定义：Orbit = 传统文章 + 复习卡片 + 间隔重复（如下图所示）</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-6d5a507c9f433d00eec91f1903c44def_b.jpg\" data-rawwidth=\"996\" data-rawheight=\"836\" data-size=\"normal\" data-caption=\"\" class=\"origin_image zh-lightbox-thumb\" width=\"996\" data-original=\"https://picx.zhimg.com/v2-6d5a507c9f433d00eec91f1903c44def_r.jpg\" data-original-token=\"v2-6d5a507c9f433d00eec91f1903c44def\"/></figure><p data-pid=\"8p0buZvZ\">可能这张图大家看得不是很懂，不过不要着急，在具体介绍助记媒介之前，我们先说说它是因何而生的。</p><h2>为什么会有 Orbit？</h2><p data-pid=\"6A2v2M0k\">为什么 Andy 创造了 Orbit？我们来做一个思想实验：</p><p data-pid=\"CfywH5T4\">想象一下，你在阅读一篇专业课导论，里面有很多新颖的概念，读完后觉得自己学到了很多知识。但才过几天，当你想要回忆自己在那篇文章中所读内容时，却发现自己已经忘了大半。</p><p data-pid=\"RsTR93nU\">这就是传统文章的缺陷：它只负责呈现内容，不管你是否能够记住。</p><p data-pid=\"fFDlSZ-R\">再想一想，这篇传统文章来自于教科书，这里有部分习题可供你练习。你相信这些习题可以让你记住这些知识更长时间。但是又有更多的问题冒出来：你应该做哪些习题？什么时候做？这些习题想揭示什么深刻的见解？和文章中的哪个部分有关？</p><p data-pid=\"f9VNBwGC\">这是带习题的教科书的缺陷：理解和记忆的大多数工作，依然压在了你身上。</p><p data-pid=\"QpExi2Ny\">或许你该使用别人做好的 Anki/SuperMemo 牌组？只需要让这些间隔重复软件来帮我安排任务就行了？这确实是一个不错的想法，但学习别人的间隔重复记忆卡片通常是无效的<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\" data-text=\"学习别人的间隔重复记忆卡片通常是无效的\" data-url=\"http://zhuanlan.zhihu.com/p/397271029\">[3]</sup>。</p><p data-pid=\"0WTVWAg9\">好吧，你可能觉得我在贩卖焦虑。说了这么多这不行那不行的，到底该怎办？</p><p data-pid=\"iJlcni4_\">当然是解决这些问题，缺啥补啥：</p><ul><li data-pid=\"J7gFp6HO\">既然传统文章缺少让读者记忆的能力，我们就往传统文章里塞复习卡片</li><li data-pid=\"0wte0dVD\">既然卡片问题常常与文章脱节，我们就把卡片嵌到文章相关内容的附近</li><li data-pid=\"zbiW7TCL\">既然管理复习卡片的时间非常繁琐，我们就用一个间隔重复算法来安排</li></ul><p data-pid=\"IJnyHhpj\">于是，就有了 Orbit：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-3be45fe8c8a2b1c1e3df0a30ba7f9f43_b.jpg\" data-rawwidth=\"981\" data-rawheight=\"781\" data-size=\"normal\" data-caption=\"\" class=\"origin_image zh-lightbox-thumb\" width=\"981\" data-original=\"https://pic2.zhimg.com/v2-3be45fe8c8a2b1c1e3df0a30ba7f9f43_r.jpg\" data-original-token=\"v2-3be45fe8c8a2b1c1e3df0a30ba7f9f43\"/></figure><h2>Orbit 是什么？</h2><p data-pid=\"RsZlnJR7\">Orbit 就是一个能够嵌入文章的复习卡片系统，并在合适的时机来给你发邮件，提醒你去复习：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-52e35e7013e911cb065f77c933061017_b.jpg\" data-rawwidth=\"2524\" data-rawheight=\"1098\" data-size=\"normal\" data-caption=\"\" class=\"origin_image zh-lightbox-thumb\" width=\"2524\" data-original=\"https://pic4.zhimg.com/v2-52e35e7013e911cb065f77c933061017_r.jpg\" data-original-token=\"v2-52e35e7013e911cb065f77c933061017\"/></figure><p data-pid=\"CN8NTRlC\">不过这样说还是太抽象了，推荐大家直接来我部署的 GitHub Pages 来体验一下：</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//l-m-sherlock.github.io/thoughts-memo/post/how-to-write-good-prompts/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">如何写出好卡片</a><p data-pid=\"FnAwkP1N\">Orbit 这种设计，与我之前体验过的 Osmosis<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\" data-text=\"Osmosis——视频网课、卡片与间隔重复的有机结合\" data-url=\"http://zhuanlan.zhihu.com/p/106058169\">[4]</sup> 极为相似，都是为了克服理解到记忆之间的障碍而生的。</p><p data-pid=\"VS2tFlqb\">同时，它也是我之前的随笔所提到的间隔重复软件的两大进路<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\" data-text=\"间隔重复软件的两大进路\" data-url=\"https://zhuanlan.zhihu.com/p/396445859\">[5]</sup>中的专家制卡一路。所以 Orbit 的主要使用者分为两类：利用助记媒介创作的作者，和阅读助记媒介文章并复习卡片的读者。Orbit 对读者是非常友好的，不需要像 Anki/SuperMemo 那样自己阅读、自己制卡、自己管理，只需要阅读现成的助记文本，复习作者提供的卡片，Orbit 会在合适的时机给读者发邮件，读者只需要点击复习地址即可开始复习。</p><p data-pid=\"IrPnx9HW\">我相信如果这种媒介能够得到更多创作者的使用，会对未来的教育产生巨大影响。所以接下来就让我介绍一下，我是如何部署 Orbit 的吧～</p><h2>如何部署 Orbit</h2><p data-pid=\"DE3pHMzW\">Orbit 的文档<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\" data-text=\"Orbit Documentation\" data-url=\"https://docs.withorbit.com/\">[6]</sup>非常简陋（因为还在内测开发阶段），所以我就简单说说 Andy 的原始用法：</p><div class=\"highlight\"><pre><code class=\"language-html\"><span class=\"p\">&lt;</span><span class=\"nt\">html</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">&lt;</span><span class=\"nt\">head</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">script</span> <span class=\"na\">type</span><span class=\"o\">=</span><span class=\"s\">&#34;module&#34;</span> <span class=\"na\">src</span><span class=\"o\">=</span><span class=\"s\">&#34;https://js.withorbit.com/orbit-web-component.js&#34;</span><span class=\"p\">&gt;&lt;/</span><span class=\"nt\">script</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">&lt;/</span><span class=\"nt\">head</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">&lt;</span><span class=\"nt\">body</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;</span><span class=\"nt\">orbit-reviewarea</span> <span class=\"na\">color</span><span class=\"o\">=</span><span class=\"s\">&#34;turquoise&#34;</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">orbit-prompt</span>\n        <span class=\"na\">question</span><span class=\"o\">=</span><span class=\"s\">&#34;What&#39;s the working name for Andy&#39;s experimental mnemonic medium platform?&#34;</span>\n        <span class=\"na\">answer</span><span class=\"o\">=</span><span class=\"s\">&#34;Orbit&#34;</span>\n      <span class=\"p\">&gt;&lt;/</span><span class=\"nt\">orbit-prompt</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">orbit-prompt</span>\n        <span class=\"na\">question</span><span class=\"o\">=</span><span class=\"s\">&#34;What kind of quantum gate is this?&#34;</span>\n        <span class=\"na\">question-attachments</span><span class=\"o\">=</span><span class=\"s\">&#34;https://docs.withorbit.com/toffoli.png&#34;</span>\n        <span class=\"na\">answer</span><span class=\"o\">=</span><span class=\"s\">&#34;A Toffoli gate.&#34;</span>\n      <span class=\"p\">&gt;&lt;/</span><span class=\"nt\">orbit-prompt</span><span class=\"p\">&gt;</span>\n      <span class=\"p\">&lt;</span><span class=\"nt\">orbit-prompt</span>\n        <span class=\"na\">question</span><span class=\"o\">=</span><span class=\"s\">&#34;Given a right triangle with legs of length $a$ and $b$, what is the length of hypotenuse $c$?&#34;</span>\n        <span class=\"na\">answer</span><span class=\"o\">=</span><span class=\"s\">&#34;$$c = \\sqrt{a^2 + b^2}$$&#34;</span>\n      <span class=\"p\">&gt;&lt;/</span><span class=\"nt\">orbit-prompt</span><span class=\"p\">&gt;</span>\n    <span class=\"p\">&lt;/</span><span class=\"nt\">orbit-reviewarea</span><span class=\"p\">&gt;</span>\n  <span class=\"p\">&lt;/</span><span class=\"nt\">body</span><span class=\"p\">&gt;</span>\n<span class=\"p\">&lt;/</span><span class=\"nt\">html</span><span class=\"p\">&gt;</span></code></pre></div><p data-pid=\"CvfmwpBl\">直接调用 Andy 提供的 Web Component，然后在自己的网页里嵌入 orbit-reviewarea 即可。</p><figure data-size=\"small\"><img src=\"https://pic3.zhimg.com/v2-e4477be57c7e51d85eecfc9d67664772_b.jpg\" data-rawwidth=\"786\" data-rawheight=\"782\" data-size=\"small\" data-caption=\"\" class=\"origin_image zh-lightbox-thumb\" width=\"786\" data-original=\"https://pic3.zhimg.com/v2-e4477be57c7e51d85eecfc9d67664772_r.jpg\" data-original-token=\"v2-e4477be57c7e51d85eecfc9d67664772\"/></figure><p data-pid=\"emQ01G1S\">Andy 你太残忍了，用你个 Orbit 还得建站，才能嵌入 Web Component 啊！怎么让只有基础开发知识的人用上？</p><p data-pid=\"bOLLTehD\">我想到了很多建在 GitHub Pages 上的博客，部署起来还算简单，于是我选择了 Hugo<sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\" data-text=\"Hugo\" data-url=\"https://gohugo.io/\">[7]</sup> 来试试水。</p><h3>安装 Hugo</h3><p data-pid=\"silHE5cc\">安装官方教程一路搞到底就行了：</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//gohugo.io/getting-started/quick-start/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Quick Start | Hugo (gohugo.io)</a><h3>部署 GitHub Pages</h3><p data-pid=\"ZsrfQXpH\">同样也是按官方教程，不过这里有个坑，如果你用了一些比较高级的博客模板，你需要把 GitHub action 脚本里的 <i>extended: true </i>给加上，不然会部署失败。</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//gohugo.io/hosting-and-deployment/hosting-on-github/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Host on GitHub | Hugo (gohugo.io)</a><h3>嵌入 Orbit</h3><p data-pid=\"IvrjyFzS\">Hugo 这类 blog 都是用 markdown 来写作，不需要直接编辑 html，是方便了不少，但是 Orbit 是 web component，肯定得在 markdown 里嵌入 html 的。这里我参考了下面这个方法：</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//anaulin.org/blog/hugo-raw-html-shortcode/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Simple Shortcode to Insert Raw HTML in Hugo · Ana Ulin</a><h3>在 head 中插入 script</h3><div class=\"highlight\"><pre><code class=\"language-text\">&lt;script type=&#34;module&#34; src=&#34;https://js.withorbit.com/orbit-web-component.js&#34;&gt;&lt;/script&gt;</code></pre></div><p data-pid=\"nHB_hfx0\">上面这个 script 嵌入到正文里也是没用的，得放到 Hugo 生成的 html 中的 head 里。Hugo 的原理其实就是把一堆 html 和 markdown 拼到一起去，所以找一找拼接的 html 有哪些，然后在目标位置插入上面这个脚本代码就行了：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-213c64e0bf83673c287633441ee12203_b.jpg\" data-rawwidth=\"2374\" data-rawheight=\"1292\" data-size=\"normal\" data-caption=\"\" class=\"origin_image zh-lightbox-thumb\" width=\"2374\" data-original=\"https://picx.zhimg.com/v2-213c64e0bf83673c287633441ee12203_r.jpg\" data-original-token=\"v2-213c64e0bf83673c287633441ee12203\"/></figure><h3>太复杂了，能不能简单点？</h3><p data-pid=\"TkckIdLA\">确实，部署这玩意花了我一个周六的下午，踩了好几个坑。这里大家可以直接用我的最终成品：</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//github.com/L-M-Sherlock/thoughts-memo\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">L-M-Sherlock/thoughts-memo: Thoughts Memo 小站 (github.com)</a><p data-pid=\"vQSdVifO\">助记文章的编写方式可以直接参考我写好的内容：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-6f4046371d04cbded27e733fadbb937f_b.jpg\" data-rawwidth=\"1654\" data-rawheight=\"1084\" data-size=\"normal\" data-caption=\"\" class=\"origin_image zh-lightbox-thumb\" width=\"1654\" data-original=\"https://pic4.zhimg.com/v2-6f4046371d04cbded27e733fadbb937f_r.jpg\" data-original-token=\"v2-6f4046371d04cbded27e733fadbb937f\"/></figure><p data-pid=\"-2JxX0lf\">当然如果你还是嫌麻烦的话，可以直接把写好的助记媒介内容发给我（逃</p><p data-pid=\"-lLGC_QO\">之后应该也会陆续将一些传统文章翻译成助记媒介（什么叫知识翻译官啊 doge）</p><h2>结尾</h2><p data-pid=\"9tYx3ZPv\">Orbit 还在成长中，我会继续跟进它的进展。想了解更多有关 Orbit 和助记媒介相关的内容，可以阅读我的专栏：</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/column/c_1525784109008203776\" data-image=\"https://pic2.zhimg.com/v2-52a669542a8699d42a3c5796c7e536e9_l.jpg\" data-image-width=\"200\" data-image-height=\"200\" class=\"internal\">助记媒介 &amp; 思想工具</a><p></p>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 6,
-  "image_url": "https://picx.zhimg.com/v2-468ee48cb5c403ed251a08ec410bff78_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 6,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 6,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxOTU3MTMzNjQSCTQ4NDExODQ1OBgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 48,
+      "down_vote_count": 0,
+      "like_count": 6,
+      "comment_count": 6,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 55,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-213c64e0bf83673c287633441ee12203": 0,
+        "v2-3be45fe8c8a2b1c1e3df0a30ba7f9f43": 0,
+        "v2-468ee48cb5c403ed251a08ec410bff78": 0,
+        "v2-52e35e7013e911cb065f77c933061017": 0,
+        "v2-6d5a507c9f433d00eec91f1903c44def": 0,
+        "v2-6f4046371d04cbded27e733fadbb937f": 0,
+        "v2-e4477be57c7e51d85eecfc9d67664772": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-213c64e0bf83673c287633441ee12203": false,
+        "v2-3be45fe8c8a2b1c1e3df0a30ba7f9f43": false,
+        "v2-468ee48cb5c403ed251a08ec410bff78": false,
+        "v2-52e35e7013e911cb065f77c933061017": false,
+        "v2-6d5a507c9f433d00eec91f1903c44def": false,
+        "v2-6f4046371d04cbded27e733fadbb937f": false,
+        "v2-e4477be57c7e51d85eecfc9d67664772": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-213c64e0bf83673c287633441ee12203": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-3be45fe8c8a2b1c1e3df0a30ba7f9f43": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-468ee48cb5c403ed251a08ec410bff78": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-52e35e7013e911cb065f77c933061017": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-6d5a507c9f433d00eec91f1903c44def": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-6f4046371d04cbded27e733fadbb937f": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-e4477be57c7e51d85eecfc9d67664772": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=484118458&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 学委叶哥的随笔",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1280249768422608896",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 学委叶哥的随笔"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

@@ -1,80 +1,519 @@
 {
-  "status": 0,
+  "id": "644412165",
+  "title": "爱因斯坦、马克·吐温和其他 48 位名人对学校的看法",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/644412165",
+  "image_url": "https://picx.zhimg.com/v2-22f09ba77c6a8423824057988519b1d1_720w.jpg?source=172ae18b",
+  "title_image": "https://pica.zhimg.com/v2-22f09ba77c6a8423824057988519b1d1_720w.jpg?source=172ae18b",
+  "excerpt": "「我在班上排名垫底。」——托马斯·爱迪生纵观历史，自柏拉图以来，有识之士都大声反对强制 教育的僵化影响。以下是 50 位这样的人的语录，这些语录部分来自我自己的阅读，但大部分来自其他各种网站。阿尔伯特·爱因斯坦 现代教学方法，竟然还没有把研究问…",
+  "created": 1689738202,
   "updated": 1713328160,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "「我在班上排名垫底。」——托马斯·爱迪生纵观历史，自柏拉图以来，有识之士都大声…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 3072,
+  "image_height": 2304,
+  "content": "<h2>「我在班上排名垫底。」——托马斯·爱迪生</h2><p data-pid=\"df8kd_GE\">纵观历史，自柏拉图以来，有识之士都大声反对强制<span class=\"nolink\">教育</span>的僵化影响。以下是 50 位这样的人的语录，这些语录部分来自我自己的阅读，但大部分来自其他各种网站。</p><h2>阿尔伯特·爱因斯坦</h2><ul><li data-pid=\"tqtkjRjY\"> 现代教学方法，竟然还没有把研究问题的神圣好奇心完全扼杀掉，真可以说是一个奇迹；因为这株脆弱的幼苗，除了需要鼓励以外，主要需要自由；要是没有自由，它不可避免地会夭折。认为用强制和责任感就能增进观察和探索的乐趣，那是一种严重的错误。<br/> <br/></li><li data-pid=\"Xvb5DmI4\"> 为了考试，我们把知识强塞到脑子里，也不管喜欢不喜欢。这样做的恶果是，期末考完，一整年里谈到科学我就犯恶心。<br/> <br/></li><li data-pid=\"IRe_W063\"> 在真理和知识方面，任何以权威者自居的人，必将在上帝的嬉笑中垮台！<br/> </li></ul><h2>柏拉图</h2><ul><li data-pid=\"uMPpNLvc\">用外力强迫接受的学问是不能（在心灵中）常住的。</li></ul><h2>庄子</h2><ul><li data-pid=\"iyzDnvgt\">赏罚利害，五刑之辟，教之末也。</li></ul><h2>马克·吐温</h2><ul><li data-pid=\"utWVIH7U\"> 我从未让学校教育妨碍我的学习。<br/> <br/></li><li data-pid=\"q_KwOdIR\"> 肥皂（译者注：文明化的代表）和教育不像大屠杀那样突如其来，但从长远来说，它们更致命。<br/> <br/></li><li data-pid=\"KBLv5M2U\"> 我们在学校学不到什么，教育就是什么。<br/> <br/></li><li data-pid=\"06iOLgdj\"> 首先，上帝创造了白痴。这是为了练手。然后，他创造了校董会。<br/> </li></ul><h2>奥斯卡·王尔德</h2><ul><li data-pid=\"kniKppP0\"> 现代教育的整个理论一无可取。还好，在英国，教育根本不会产生任何影响。如果它产生了影响，那将对上层阶级构成严重的危险，并可能导致暴力事件。<br/> <br/></li><li data-pid=\"GjrHNJIV\"> 教育是一件可敬的事，但要时刻牢记，没有什么值得知道的事是教得会的。<br/> <br/></li><li data-pid=\"V2FUuJ5r\"> 那些没学习能力的人都去当老师了。<br/> </li></ul><h2>温斯顿·丘吉尔</h2><ul><li data-pid=\"OGPjkSny\"> 我对学校深恶痛绝。那不是人过的日子，整天<span class=\"nolink\">焦虑</span>。每到期末，我就掰着手指头过日子，盼着放假回家。<br/> <br/></li><li data-pid=\"9Z6RnOS6\"> 我一直喜欢学习，但不喜欢上课。<br/> </li></ul><h2>伍迪·艾伦</h2><ul><li data-pid=\"cMiphNQ8\">我讨厌在学校里度过的每一天，也后悔在学校里的每一刻。</li></ul><h2>多莉·帕顿</h2><ul><li data-pid=\"4cQh6SIa\">我痛恨学校。直到现在，我一看到校车就颓丧。造孽！</li></ul><h2>乔治·萧伯纳</h2><ul><li data-pid=\"hgeqzslB\"> 在这个世界上，对无辜的人来说，没有什么比学校更可怕了。<br/> <br/></li><li data-pid=\"u6HOkERr\"> 我们所谓的教育和文化，大多数时候只不过是用阅读代替经验，用文学代替生活，用过时的虚构代替当代的现实。<br/> </li></ul><h2>法利·德昂</h2><ul><li data-pid=\"vEZU9KJT\">只要你不喜欢，你学什么都无关紧要。</li></ul><h2>托马斯·爱迪生</h2><ul><li data-pid=\"ScpYJGGz\">想起来我和学校也不对付。我在班上垫底。</li></ul><h2>亨利·大卫·梭罗</h2><ul><li data-pid=\"XbYvqtin\"> 教育经常做什么？拗曲作直。<br/> <br/></li><li data-pid=\"SrvYhrYe\"> 比起实验生活，难道直接去生活不是更好的学习方法吗？<br/> </li></ul><h2>伯特兰·罗素</h2><ul><li data-pid=\"g63LGrpv\"> 人生而无知，却不愚蠢；乃是教育令人愚蠢。<br/> <br/></li><li data-pid=\"W_Cax0NY\"> 教育是智力发展和自由之思的死对头。<br/> </li></ul><h2>本杰明·富兰克林</h2><ul><li data-pid=\"6G2LP-c9\">这位饱学之士能用九门语言叫出马，但是他却蠢到带来了一只奶牛来骑。</li></ul><h2>亨利·路易斯·孟肯</h2><ul><li data-pid=\"cP_LX6tM\">校长一般而且必须是个笨蛋。一个聪明人怎么会从事如此愚蠢的职业。</li></ul><h2>乔治·萨维尔（哈利法克斯侯爵）</h2><ul><li data-pid=\"xTubXD8X\">教书之傲往往使人忘乎所以，自以为是而不自知其愚顽。</li></ul><h2>斯大林（emmm，强制学校教育支持者）</h2><ul><li data-pid=\"pB_FeieA\">教育是把武器，谁把它牢牢掌握在自己手中，教育就为谁服务。</li></ul><h2>诺曼·道格拉斯</h2><ul><li data-pid=\"izs9MDDf\">教育是国有复读机制造工厂。</li></ul><h2>保罗·卡尔·费耶阿本德</h2><ul><li data-pid=\"WbTVllUk\">最好的教育是让人们免疫系统化的教育企图。</li></ul><h2>西奥多·罗斯福</h2><ul><li data-pid=\"LyFlZna0\">一个人，没上过学，他可能会偷辆货车；但要是上过大学，他偷的就是整个铁道公司了。</li></ul><h2>H. H. 蒙罗</h2><ul><li data-pid=\"9P5QEbN0\">但是，天呐，你得先自己教育他。你不能指望一个男孩在上过好学校之后就不再凶狠了。</li></ul><h2>罗伯特·弗罗斯特</h2><ul><li data-pid=\"gRhQs9vU\">教育就得到处闲逛，直到被逮到。</li></ul><h2>吉尔伯特·基思·却斯特顿</h2><ul><li data-pid=\"AiocqLb8\">教育就是这么一个过程，你受某个你不认识的人的教导，学一些你不想知道的东西。</li></ul><h2>拉尔夫·瓦尔多·爱默生</h2><ul><li data-pid=\"JOnXu2Ne\">我付钱给校长，教育我孩子的却是他的同学。</li></ul><h2>爱丽丝·詹姆斯</h2><ul><li data-pid=\"cAR0xAFH\">我有没有受过教育，说不定没两样。</li></ul><h2>海伦·碧雅翠丝·米奇</h2><ul><li data-pid=\"IB8NCJwH\">谢天谢地，我从未被送进学校；那将磨掉我的创造性。</li></ul><h2>玛格丽特·米德</h2><ul><li data-pid=\"vHIZ8wW9\">我奶奶想让我接受教育，所以她让我避开学校。</li></ul><h2>威廉·哈兹里特</h2><ul><li data-pid=\"2n2LwSlF\">任何人只要通过了正规的传统教育阶段，而且没有被它愚弄，可能会认为自己死里逃生。</li></ul><h2>劳伦斯·彼得</h2><ul><li data-pid=\"fWe1FD3W\">教育是一种获得更高等级偏见的方法。</li></ul><h2>安·沙利文（我向她致敬）</h2><ul><li data-pid=\"JpLwQzSN\">我开始怀疑所有精心设计的特殊教育体系。在我看来，它们似乎是建立在这样一种假设之上：每个孩子都是必须被教才会思考的白痴。</li></ul><h2>爱丽丝·杜尔·米勒</h2><ul><li data-pid=\"FkfC_YEj\">常常，我们先切断源头活水，然后再用人为的手段取代其自然功能，这是教育的常见现象。例如，我们先抑制了孩子的好奇心，然后，当他缺乏学习的天然兴趣时，他会因为学业困难而得到特殊的<a href=\"https://link.zhihu.com/?target=https%3A//www.psychologytoday.com/us/basics/coaching\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">辅导</a></li></ul><h2>弗洛伦斯·金</h2><ul><li data-pid=\"rXtUx5-l\">已经学会阅读的孩子出现在学校里（很恐怖），就像已经做了防腐处理的尸体送到了殡仪馆——有些人要担心失业喽。</li></ul><h2>埃玛·戈尔德曼</h2><ul><li data-pid=\"GbaTLyxM\">我们在教育中的一举一动都想让孩子不做自己。这必然会导致这个社会的个体之间彼此疏远、不断对抗。</li></ul><h2>爱德华 M. 福斯特</h2><ul><li data-pid=\"7FX14wZ2\">授之以鱼，永远都不会教会我们知识，只让我们知道鱼怎么吃。</li></ul><h2>威廉·约翰·伯奈特</h2><ul><li data-pid=\"iujDZxuP\">如果我们的学校还这么烂，也许我们应该宣布：教育破产了，把钱还给人民，让他们自己接受教育并创办自己的学校。</li></ul><h2>约翰·厄普代克</h2><ul><li data-pid=\"J7AqT6NH\">学校这个地方，是你在家里呆不下去，又还没那么快进厂之前去的地方。</li></ul><h2>罗伯特·巴泽尔</h2><ul><li data-pid=\"2keEWlST\">常常犯错，信誓旦旦，此即如假包换的 MBA（工商管理学硕士）。</li></ul><h2>罗伯特·M·哈钦斯</h2><ul><li data-pid=\"zoguApyi\"> 校园中的三大行政问题：学生的两性关系、校友运动会、教职员工的停车问题。<br/> <br/></li><li data-pid=\"lGCSs1fu\"> 大学生用一张毕业证书（羊皮纸）来掩盖脑袋空空。<br/> </li></ul><h2>阿尔伯特·哈伯德</h2><ul><li data-pid=\"hV4Jx5wq\">你大可把孩子留在学校，但这不能让他学会思考。</li></ul><h2>马克斯·莱昂·福尔曼</h2><ul><li data-pid=\"kqlPJtiO\">在美国，人们只对教育能省就省。</li></ul><h2>菲利普·K·狄克</h2><ul><li data-pid=\"JG_CDDsf\">接受教育的麻烦在于时间成本太高；它占据了你最好的时光，而毕业后，你突然发现，早点去银行工作才更好。</li></ul><h2>大卫·P·加德纳</h2><ul><li data-pid=\"I8ceq4Qk\">很多被认为是教育的东西根本不是教育，而是仪式。事实是，我们正在接受教育，尽管我们知之甚少。</li></ul><h2>伊凡·伊里奇</h2><ul><li data-pid=\"7cDI3pL7\"> 公立学校已经成为世俗社会的教会。<br/> <br/></li><li data-pid=\"w3AP0GEg\"> 我们共同认识到，上学的义务限制了学习的权利。<br/> </li></ul><h2>马歇尔·麦克卢汉</h2><ul><li data-pid=\"jXhxLXFS\">学校系统……是个把孩子们投入进行加工的同质化漏斗。</li></ul><h2>蒙田</h2><ul><li data-pid=\"wPH6Qt2_\">我们忙着过日子，让日常充满<span class=\"nolink\">记忆</span>，而对于<span class=\"nolink\">道德良知</span>和理解力，我们则置之不理，让其形同虚设。</li></ul><h2>彼得·德鲁克</h2><ul><li data-pid=\"rAqLE60-\">当一门学科完全过时时，我们就把它作为必修课。</li></ul><h2>C. C. 科尔顿</h2><ul><li data-pid=\"cp8qDvNL\">考试叫人害怕，准备的再好的人也会害怕，因为蠢人可能会问的东西完全有可能令人咋舌。</li></ul><h2>保罗·西蒙</h2><ul><li data-pid=\"k5ef4ljp\">当我回想起我在高中学到的那些废话，我现在还能思考真是个奇迹。</li></ul><h2>约翰·杜威</h2><ul><li data-pid=\"ZC9LmOas\">美国人爱这么干——要是我们发现教育系统的基础有问题，我们就再讲一个故事、再造一个梦想。</li></ul><h2>佚名（我最喜欢的历史人物）</h2><ul><li data-pid=\"zqIi5Geq\"> 要是没人初中就辍学，那谁来当大学生的老板啊！<br/> <br/></li><li data-pid=\"mJuz-FeY\"> 公立学校关押孩子，这些孩子由老师照管，老师怕校长，校长怕校董，校董则怕家长，家长又怕孩子，而孩子谁也不怕。<br/> <br/></li><li data-pid=\"RV1kNIch\"> 创造型人才总那么叛逆。他或她幸存于一场名为教育的<span class=\"nolink\">创伤</span>。<br/> <br/></li><li data-pid=\"X2osI-XI\"> 你总是能认出（tell）哈佛毕业生，但你跟他也没法说（tell）太多话。<br/> </li></ul><p data-pid=\"tkUgST4E\">朋友，没错，确实，这些名人名言的选择带有倾向性！我故意选了那些抱怨强制标准教育系统的引言。不过，这儿有一个挑战留给你们。也列出这么长的引言列表，但是得是支持强制教育系统的，然后，请你看看引用的作者是否与这些富有<span class=\"nolink\">创造力</span>的作者排名接近。</p><hr/><p data-pid=\"93N_4tdk\">此时此刻，你对这一切有什么看法？……这篇文章，从某种意义上来说，也为所有人提供了交流的平台。你的疑问、感悟、故事、观点都会被我以及阅读这篇文章的所有人尊重，无论我们是否赞同。（当然，鼓励大家在这篇文章下面的评论区里发言——译者注）</p><hr/><p data-pid=\"vc9BlvWu\">参见新书<a href=\"https://link.zhihu.com/?target=http%3A//www.freetolearnbook.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《自由学习》</a></p><hr/><blockquote data-pid=\"du4dizjL\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">jianglutan</span>、JarrettYe，校对 <span class=\"nolink\">Lucas-Tsui</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.psychologytoday.com/us/blog/freedom-learn/201107/what-einstein-twain-forty-eight-others-said-about-school\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">What Einstein, Twain, &amp; Forty Eight Others Said About School | Psychology Today</a><br/>发表于 2011 年 7 月 26 日<br/>作者：彼得•格雷（Peter Gray）博士<br/><a href=\"https://link.zhihu.com/?target=https%3A//www.psychologytoday.com/us/docs/editorial-process\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">审稿人： Ekua Hagan</a></blockquote><hr/><p data-pid=\"BJ7__Ax-\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/692955876\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-e6acee0698e8899f757d29759419db9f_qhd.jpg\" data-image-width=\"4592\" data-image-height=\"3056\" class=\"internal\">Thoughts Memo：学校如何伤害学生？Kirsten Olson 列举了几种途径</a><p data-pid=\"GKoY3NRI\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/687576239\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-c0b688b0ef41596813e4af8c08e6a54d_qhd.jpg\" data-image-width=\"4032\" data-image-height=\"2688\" class=\"internal\">Thoughts Memo：有可能开展真正的教育改革吗? 如果可能，怎么办？</a><hr/><p data-pid=\"yBCJtiCU\">创作声明：内容包含教育建议，国外经验仅供参考。</p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19550251",
+      "type": "topic",
+      "id": "19550251",
+      "name": "名言"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19553176",
+      "type": "topic",
+      "id": "19553176",
+      "name": "教育"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19589820",
+      "type": "topic",
+      "id": "19589820",
+      "name": "学校"
+    }
+  ],
+  "voteup_count": 168,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "彼得·格雷博士带你了解玩耍、好奇心与学习",
+    "is_following": false,
+    "url_token": "c_1570878483923955712",
+    "id": "c_1570878483923955712",
+    "articles_count": 108,
+    "accept_submission": true,
+    "title": "自由学习",
+    "url": "https://api.zhihu.com/columns/c_1570878483923955712",
+    "comment_permission": "all",
+    "created": 1667306618,
+    "updated": 1751811487,
+    "image_url": "https://picx.zhimg.com/v2-d9c2718ff2fa1ae33299a094eb1eda7c_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 170,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 24,
+  "contributions": [
+    {
+      "id": 45956589,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "彼得·格雷博士带你了解玩耍、好奇心与学习",
+        "is_following": false,
+        "url_token": "c_1570878483923955712",
+        "id": "c_1570878483923955712",
+        "articles_count": 108,
+        "accept_submission": true,
+        "title": "自由学习",
+        "url": "https://api.zhihu.com/columns/c_1570878483923955712",
+        "comment_permission": "all",
+        "created": 1667306618,
+        "updated": 1751811487,
+        "image_url": "https://picx.zhimg.com/v2-d9c2718ff2fa1ae33299a094eb1eda7c_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 170,
+        "type": "column",
+        "column_type": "normal"
+      }
+    },
+    {
+      "id": 45959171,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "开拓全新的神经科学。在人民精神领域，推翻旧思想禁锢",
+        "is_following": false,
+        "url_token": "c_1613115629585719296",
+        "id": "c_1613115629585719296",
+        "articles_count": 97,
+        "accept_submission": true,
+        "title": "批判应试教育的理论（背景知识）",
+        "url": "https://api.zhihu.com/columns/c_1613115629585719296",
+        "comment_permission": "all",
+        "created": 1677376736,
+        "updated": 1703388662,
+        "image_url": "https://picx.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-a6e0c6fd802223577b04c0fa49888b18.jpg?source=172ae18b",
+          "uid": "818992723691470848",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "wayne-88-81",
+          "id": "ce9c5446aaff95bcdd8b69f8859314b5",
+          "description": "如果我们要从人类文明中永恒性地消灭教育内卷，并使人民获得更多的自由和解放！！必须要突破神经科学的基础理论！！没有第二条可能的出路！！反对应试教育的有害文化，坚决批判人民意识深处的“唯分数论”信念，运用笛卡尔怀疑论，清除精神世界的毒素；发明基于全新原理的科研仪器，设计巧妙的新实验，收集大量神经生化分子运动数据，发现支配神经信息加工的新“自然定律”，开创全新哲学和脑科学理论；解放人民思想，团结所有被压迫的人民，推动社会变革，迎接全民人性化教育制度，实现从人类文明中永恒性消灭教育内卷化的伟大理想！",
+          "name": "教育内卷批判家",
+          "is_advertiser": false,
+          "headline": "反对应试教育的斗士，研究如何用脑科学推翻残酷教育内卷的现状。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/ce9c5446aaff95bcdd8b69f8859314b5",
+          "avatar_url": "https://picx.zhimg.com/v2-a6e0c6fd802223577b04c0fa49888b18_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 30,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 644412165,
-  "voteup_count": 166,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 216,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "爱因斯坦、马克·吐温和其他 48 位名人对学校的看法 - 来自知乎专栏「自由学习」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/644412165 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1689738202,
-  "url": "https://api.zhihu.com/articles/644412165",
-  "comment_permission": "all",
-  "title": "爱因斯坦、马克·吐温和其他 48 位名人对学校的看法",
-  "image_width": 2304,
-  "content": "<h2>「我在班上排名垫底。」——托马斯·爱迪生</h2><p data-pid=\"df8kd_GE\">纵观历史，自柏拉图以来，有识之士都大声反对强制<span class=\"nolink\">教育</span>的僵化影响。以下是 50 位这样的人的语录，这些语录部分来自我自己的阅读，但大部分来自其他各种网站。</p><h2>阿尔伯特·爱因斯坦</h2><ul><li data-pid=\"tqtkjRjY\"> 现代教学方法，竟然还没有把研究问题的神圣好奇心完全扼杀掉，真可以说是一个奇迹；因为这株脆弱的幼苗，除了需要鼓励以外，主要需要自由；要是没有自由，它不可避免地会夭折。认为用强制和责任感就能增进观察和探索的乐趣，那是一种严重的错误。<br/> <br/></li><li data-pid=\"Xvb5DmI4\"> 为了考试，我们把知识强塞到脑子里，也不管喜欢不喜欢。这样做的恶果是，期末考完，一整年里谈到科学我就犯恶心。<br/> <br/></li><li data-pid=\"IRe_W063\"> 在真理和知识方面，任何以权威者自居的人，必将在上帝的嬉笑中垮台！<br/> </li></ul><h2>柏拉图</h2><ul><li data-pid=\"uMPpNLvc\">用外力强迫接受的学问是不能（在心灵中）常住的。</li></ul><h2>庄子</h2><ul><li data-pid=\"iyzDnvgt\">赏罚利害，五刑之辟，教之末也。</li></ul><h2>马克·吐温</h2><ul><li data-pid=\"utWVIH7U\"> 我从未让学校教育妨碍我的学习。<br/> <br/></li><li data-pid=\"q_KwOdIR\"> 肥皂（译者注：文明化的代表）和教育不像大屠杀那样突如其来，但从长远来说，它们更致命。<br/> <br/></li><li data-pid=\"KBLv5M2U\"> 我们在学校学不到什么，教育就是什么。<br/> <br/></li><li data-pid=\"06iOLgdj\"> 首先，上帝创造了白痴。这是为了练手。然后，他创造了校董会。<br/> </li></ul><h2>奥斯卡·王尔德</h2><ul><li data-pid=\"kniKppP0\"> 现代教育的整个理论一无可取。还好，在英国，教育根本不会产生任何影响。如果它产生了影响，那将对上层阶级构成严重的危险，并可能导致暴力事件。<br/> <br/></li><li data-pid=\"GjrHNJIV\"> 教育是一件可敬的事，但要时刻牢记，没有什么值得知道的事是教得会的。<br/> <br/></li><li data-pid=\"V2FUuJ5r\"> 那些没学习能力的人都去当老师了。<br/> </li></ul><h2>温斯顿·丘吉尔</h2><ul><li data-pid=\"OGPjkSny\"> 我对学校深恶痛绝。那不是人过的日子，整天<span class=\"nolink\">焦虑</span>。每到期末，我就掰着手指头过日子，盼着放假回家。<br/> <br/></li><li data-pid=\"9Z6RnOS6\"> 我一直喜欢学习，但不喜欢上课。<br/> </li></ul><h2>伍迪·艾伦</h2><ul><li data-pid=\"cMiphNQ8\">我讨厌在学校里度过的每一天，也后悔在学校里的每一刻。</li></ul><h2>多莉·帕顿</h2><ul><li data-pid=\"4cQh6SIa\">我痛恨学校。直到现在，我一看到校车就颓丧。造孽！</li></ul><h2>乔治·萧伯纳</h2><ul><li data-pid=\"hgeqzslB\"> 在这个世界上，对无辜的人来说，没有什么比学校更可怕了。<br/> <br/></li><li data-pid=\"u6HOkERr\"> 我们所谓的教育和文化，大多数时候只不过是用阅读代替经验，用文学代替生活，用过时的虚构代替当代的现实。<br/> </li></ul><h2>法利·德昂</h2><ul><li data-pid=\"vEZU9KJT\">只要你不喜欢，你学什么都无关紧要。</li></ul><h2>托马斯·爱迪生</h2><ul><li data-pid=\"ScpYJGGz\">想起来我和学校也不对付。我在班上垫底。</li></ul><h2>亨利·大卫·梭罗</h2><ul><li data-pid=\"XbYvqtin\"> 教育经常做什么？拗曲作直。<br/> <br/></li><li data-pid=\"SrvYhrYe\"> 比起实验生活，难道直接去生活不是更好的学习方法吗？<br/> </li></ul><h2>伯特兰·罗素</h2><ul><li data-pid=\"g63LGrpv\"> 人生而无知，却不愚蠢；乃是教育令人愚蠢。<br/> <br/></li><li data-pid=\"W_Cax0NY\"> 教育是智力发展和自由之思的死对头。<br/> </li></ul><h2>本杰明·富兰克林</h2><ul><li data-pid=\"6G2LP-c9\">这位饱学之士能用九门语言叫出马，但是他却蠢到带来了一只奶牛来骑。</li></ul><h2>亨利·路易斯·孟肯</h2><ul><li data-pid=\"cP_LX6tM\">校长一般而且必须是个笨蛋。一个聪明人怎么会从事如此愚蠢的职业。</li></ul><h2>乔治·萨维尔（哈利法克斯侯爵）</h2><ul><li data-pid=\"xTubXD8X\">教书之傲往往使人忘乎所以，自以为是而不自知其愚顽。</li></ul><h2>斯大林（emmm，强制学校教育支持者）</h2><ul><li data-pid=\"pB_FeieA\">教育是把武器，谁把它牢牢掌握在自己手中，教育就为谁服务。</li></ul><h2>诺曼·道格拉斯</h2><ul><li data-pid=\"izs9MDDf\">教育是国有复读机制造工厂。</li></ul><h2>保罗·卡尔·费耶阿本德</h2><ul><li data-pid=\"WbTVllUk\">最好的教育是让人们免疫系统化的教育企图。</li></ul><h2>西奥多·罗斯福</h2><ul><li data-pid=\"LyFlZna0\">一个人，没上过学，他可能会偷辆货车；但要是上过大学，他偷的就是整个铁道公司了。</li></ul><h2>H. H. 蒙罗</h2><ul><li data-pid=\"9P5QEbN0\">但是，天呐，你得先自己教育他。你不能指望一个男孩在上过好学校之后就不再凶狠了。</li></ul><h2>罗伯特·弗罗斯特</h2><ul><li data-pid=\"gRhQs9vU\">教育就得到处闲逛，直到被逮到。</li></ul><h2>吉尔伯特·基思·却斯特顿</h2><ul><li data-pid=\"AiocqLb8\">教育就是这么一个过程，你受某个你不认识的人的教导，学一些你不想知道的东西。</li></ul><h2>拉尔夫·瓦尔多·爱默生</h2><ul><li data-pid=\"JOnXu2Ne\">我付钱给校长，教育我孩子的却是他的同学。</li></ul><h2>爱丽丝·詹姆斯</h2><ul><li data-pid=\"cAR0xAFH\">我有没有受过教育，说不定没两样。</li></ul><h2>海伦·碧雅翠丝·米奇</h2><ul><li data-pid=\"IB8NCJwH\">谢天谢地，我从未被送进学校；那将磨掉我的创造性。</li></ul><h2>玛格丽特·米德</h2><ul><li data-pid=\"vHIZ8wW9\">我奶奶想让我接受教育，所以她让我避开学校。</li></ul><h2>威廉·哈兹里特</h2><ul><li data-pid=\"2n2LwSlF\">任何人只要通过了正规的传统教育阶段，而且没有被它愚弄，可能会认为自己死里逃生。</li></ul><h2>劳伦斯·彼得</h2><ul><li data-pid=\"fWe1FD3W\">教育是一种获得更高等级偏见的方法。</li></ul><h2>安·沙利文（我向她致敬）</h2><ul><li data-pid=\"JpLwQzSN\">我开始怀疑所有精心设计的特殊教育体系。在我看来，它们似乎是建立在这样一种假设之上：每个孩子都是必须被教才会思考的白痴。</li></ul><h2>爱丽丝·杜尔·米勒</h2><ul><li data-pid=\"FkfC_YEj\">常常，我们先切断源头活水，然后再用人为的手段取代其自然功能，这是教育的常见现象。例如，我们先抑制了孩子的好奇心，然后，当他缺乏学习的天然兴趣时，他会因为学业困难而得到特殊的<a href=\"https://link.zhihu.com/?target=https%3A//www.psychologytoday.com/us/basics/coaching\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">辅导</a></li></ul><h2>弗洛伦斯·金</h2><ul><li data-pid=\"rXtUx5-l\">已经学会阅读的孩子出现在学校里（很恐怖），就像已经做了防腐处理的尸体送到了殡仪馆——有些人要担心失业喽。</li></ul><h2>埃玛·戈尔德曼</h2><ul><li data-pid=\"GbaTLyxM\">我们在教育中的一举一动都想让孩子不做自己。这必然会导致这个社会的个体之间彼此疏远、不断对抗。</li></ul><h2>爱德华 M. 福斯特</h2><ul><li data-pid=\"7FX14wZ2\">授之以鱼，永远都不会教会我们知识，只让我们知道鱼怎么吃。</li></ul><h2>威廉·约翰·伯奈特</h2><ul><li data-pid=\"iujDZxuP\">如果我们的学校还这么烂，也许我们应该宣布：教育破产了，把钱还给人民，让他们自己接受教育并创办自己的学校。</li></ul><h2>约翰·厄普代克</h2><ul><li data-pid=\"J7AqT6NH\">学校这个地方，是你在家里呆不下去，又还没那么快进厂之前去的地方。</li></ul><h2>罗伯特·巴泽尔</h2><ul><li data-pid=\"2keEWlST\">常常犯错，信誓旦旦，此即如假包换的 MBA（工商管理学硕士）。</li></ul><h2>罗伯特·M·哈钦斯</h2><ul><li data-pid=\"zoguApyi\"> 校园中的三大行政问题：学生的两性关系、校友运动会、教职员工的停车问题。<br/> <br/></li><li data-pid=\"lGCSs1fu\"> 大学生用一张毕业证书（羊皮纸）来掩盖脑袋空空。<br/> </li></ul><h2>阿尔伯特·哈伯德</h2><ul><li data-pid=\"hV4Jx5wq\">你大可把孩子留在学校，但这不能让他学会思考。</li></ul><h2>马克斯·莱昂·福尔曼</h2><ul><li data-pid=\"kqlPJtiO\">在美国，人们只对教育能省就省。</li></ul><h2>菲利普·K·狄克</h2><ul><li data-pid=\"JG_CDDsf\">接受教育的麻烦在于时间成本太高；它占据了你最好的时光，而毕业后，你突然发现，早点去银行工作才更好。</li></ul><h2>大卫·P·加德纳</h2><ul><li data-pid=\"I8ceq4Qk\">很多被认为是教育的东西根本不是教育，而是仪式。事实是，我们正在接受教育，尽管我们知之甚少。</li></ul><h2>伊凡·伊里奇</h2><ul><li data-pid=\"7cDI3pL7\"> 公立学校已经成为世俗社会的教会。<br/> <br/></li><li data-pid=\"w3AP0GEg\"> 我们共同认识到，上学的义务限制了学习的权利。<br/> </li></ul><h2>马歇尔·麦克卢汉</h2><ul><li data-pid=\"jXhxLXFS\">学校系统……是个把孩子们投入进行加工的同质化漏斗。</li></ul><h2>蒙田</h2><ul><li data-pid=\"wPH6Qt2_\">我们忙着过日子，让日常充满<span class=\"nolink\">记忆</span>，而对于<span class=\"nolink\">道德良知</span>和理解力，我们则置之不理，让其形同虚设。</li></ul><h2>彼得·德鲁克</h2><ul><li data-pid=\"rAqLE60-\">当一门学科完全过时时，我们就把它作为必修课。</li></ul><h2>C. C. 科尔顿</h2><ul><li data-pid=\"cp8qDvNL\">考试叫人害怕，准备的再好的人也会害怕，因为蠢人可能会问的东西完全有可能令人咋舌。</li></ul><h2>保罗·西蒙</h2><ul><li data-pid=\"k5ef4ljp\">当我回想起我在高中学到的那些废话，我现在还能思考真是个奇迹。</li></ul><h2>约翰·杜威</h2><ul><li data-pid=\"ZC9LmOas\">美国人爱这么干——要是我们发现教育系统的基础有问题，我们就再讲一个故事、再造一个梦想。</li></ul><h2>佚名（我最喜欢的历史人物）</h2><ul><li data-pid=\"zqIi5Geq\"> 要是没人初中就辍学，那谁来当大学生的老板啊！<br/> <br/></li><li data-pid=\"mJuz-FeY\"> 公立学校关押孩子，这些孩子由老师照管，老师怕校长，校长怕校董，校董则怕家长，家长又怕孩子，而孩子谁也不怕。<br/> <br/></li><li data-pid=\"RV1kNIch\"> 创造型人才总那么叛逆。他或她幸存于一场名为教育的<span class=\"nolink\">创伤</span>。<br/> <br/></li><li data-pid=\"X2osI-XI\"> 你总是能认出（tell）哈佛毕业生，但你跟他也没法说（tell）太多话。<br/> </li></ul><p data-pid=\"tkUgST4E\">朋友，没错，确实，这些名人名言的选择带有倾向性！我故意选了那些抱怨强制标准教育系统的引言。不过，这儿有一个挑战留给你们。也列出这么长的引言列表，但是得是支持强制教育系统的，然后，请你看看引用的作者是否与这些富有<span class=\"nolink\">创造力</span>的作者排名接近。</p><hr/><p data-pid=\"93N_4tdk\">此时此刻，你对这一切有什么看法？……这篇文章，从某种意义上来说，也为所有人提供了交流的平台。你的疑问、感悟、故事、观点都会被我以及阅读这篇文章的所有人尊重，无论我们是否赞同。（当然，鼓励大家在这篇文章下面的评论区里发言——译者注）</p><hr/><p data-pid=\"vc9BlvWu\">参见新书<a href=\"https://link.zhihu.com/?target=http%3A//www.freetolearnbook.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《自由学习》</a></p><hr/><blockquote data-pid=\"du4dizjL\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">jianglutan</span>、JarrettYe，校对 <span class=\"nolink\">Lucas-Tsui</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.psychologytoday.com/us/blog/freedom-learn/201107/what-einstein-twain-forty-eight-others-said-about-school\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">What Einstein, Twain, &amp; Forty Eight Others Said About School | Psychology Today</a><br/>发表于 2011 年 7 月 26 日<br/>作者：彼得•格雷（Peter Gray）博士<br/><a href=\"https://link.zhihu.com/?target=https%3A//www.psychologytoday.com/us/docs/editorial-process\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">审稿人： Ekua Hagan</a></blockquote><hr/><p data-pid=\"BJ7__Ax-\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/692955876\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-e6acee0698e8899f757d29759419db9f_qhd.jpg\" data-image-width=\"4592\" data-image-height=\"3056\" class=\"internal\">Thoughts Memo：学校如何伤害学生？Kirsten Olson 列举了几种途径</a><p data-pid=\"GKoY3NRI\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/687576239\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-c0b688b0ef41596813e4af8c08e6a54d_qhd.jpg\" data-image-width=\"4032\" data-image-height=\"2688\" class=\"internal\">Thoughts Memo：有可能开展真正的教育改革吗? 如果可能，怎么办？</a><hr/><p data-pid=\"yBCJtiCU\">创作声明：内容包含教育建议，国外经验仅供参考。</p>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 24,
-  "image_url": "https://picx.zhimg.com/v2-22f09ba77c6a8423824057988519b1d1_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 74,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-a6e0c6fd802223577b04c0fa49888b18.jpg?source=172ae18b",
+      "uid": "818992723691470848",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "wayne-88-81",
+      "id": "ce9c5446aaff95bcdd8b69f8859314b5",
+      "description": "如果我们要从人类文明中永恒性地消灭教育内卷，并使人民获得更多的自由和解放！！必须要突破神经科学的基础理论！！没有第二条可能的出路！！反对应试教育的有害文化，坚决批判人民意识深处的“唯分数论”信念，运用笛卡尔怀疑论，清除精神世界的毒素；发明基于全新原理的科研仪器，设计巧妙的新实验，收集大量神经生化分子运动数据，发现支配神经信息加工的新“自然定律”，开创全新哲学和脑科学理论；解放人民思想，团结所有被压迫的人民，推动社会变革，迎接全民人性化教育制度，实现从人类文明中永恒性消灭教育内卷化的伟大理想！",
+      "name": "教育内卷批判家",
+      "is_advertiser": false,
+      "headline": "反对应试教育的斗士，研究如何用脑科学推翻残酷教育内卷的现状。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/ce9c5446aaff95bcdd8b69f8859314b5",
+      "avatar_url": "https://picx.zhimg.com/v2-a6e0c6fd802223577b04c0fa49888b18_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 74,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMzEzMzMzODcSCTY0NDQxMjE2NRgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 168,
+      "down_vote_count": 0,
+      "like_count": 74,
+      "comment_count": 24,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 216,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-22f09ba77c6a8423824057988519b1d1": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-22f09ba77c6a8423824057988519b1d1": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-22f09ba77c6a8423824057988519b1d1": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=644412165&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 批判应试教育的理论（背景知识）",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1613115629585719296",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 批判应试教育的理论（背景知识）"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

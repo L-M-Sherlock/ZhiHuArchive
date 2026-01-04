@@ -1,80 +1,419 @@
 {
-  "status": 0,
+  "id": "26785682466",
+  "title": "前言 & 目录",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/26785682466",
+  "image_url": "https://pic1.zhimg.com/v2-c9e9f4c70cd6b3120f8c7f4ca3b98bc2_720w.jpg?source=172ae18b",
+  "title_image": "https://pica.zhimg.com/v2-c9e9f4c70cd6b3120f8c7f4ca3b98bc2_720w.jpg?source=172ae18b",
+  "excerpt": "本书旨在解答以下问题： 在数学教育领域，有哪些能够最大化学生学习效果和才能培养的技术？这些技术为何如此有效？如果它们真的这么有效，为什么在传统课堂中却很少被采用？Math Academy 是如何运用这些技术的？诚然，本书行文冗长，包含大量从文献中摘录的…",
+  "created": 1741053597,
   "updated": 1754972325,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "本书旨在解答以下问题：在数学教育领域，有哪些能够最大化学生学习效果和才能培养的…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 1200,
+  "image_height": 641,
+  "content": "<p data-pid=\"HoMzc1EW\">本书旨在解答以下问题：</p><ol><li data-pid=\"HerbgeLj\">在数学教育领域，有哪些能够最大化学生学习效果和才能培养的技术？</li><li data-pid=\"V4Zz_v_H\">这些技术为何如此有效？如果它们真的这么有效，为什么在传统课堂中却很少被采用？</li><li data-pid=\"nIJM9nzU\">Math Academy 是如何运用这些技术的？</li></ol><p data-pid=\"NVphq6yg\">诚然，本书行文冗长，包含大量从文献中摘录的冗长引文，但我们坚信这些「收据」对建立读者信任至关重要。教育领域的著述常存在引用文献与主张脱节的积弊，因此我们面临两难选择：(a) 通过广泛引证文献建立可信度，或 (b) 精简表述。最终我们选择向可信度倾斜——根据经验，若可信度不足，任何沟通都将失效。</p><p data-pid=\"LdSir7ST\">本书写作兼顾多元的读者群体：学生、教师、家长、研究者、技术专家、数学爱好者、学术教练等。我们力求为深度阅读者提供丰富信息，同时采用便于快速浏览的架构设计，满足浅层阅读的需求。</p><p data-pid=\"-OZ3PP-9\">本书目前处于编写中的草稿阶段，约完成五成内容。虽经悉心撰写，但尚未进行正式校对。</p><hr/><h2>一、绪论</h2><p data-pid=\"7o2KyWwo\"><a href=\"https://zhuanlan.zhihu.com/p/16343054758\" class=\"internal\" target=\"_blank\">第一章 两个标准差问题的解决方案</a></p><p data-pid=\"oHJMglRr\"><a href=\"https://zhuanlan.zhihu.com/p/16601875270\" class=\"internal\" target=\"_blank\">第二章 学习的科学</a></p><p data-pid=\"EUT2Y-YX\"><a href=\"https://zhuanlan.zhihu.com/p/17839729470\" class=\"internal\" target=\"_blank\">第三章 核心科学：大脑的工作机制</a></p><p data-pid=\"RisP-KJ6\"><a href=\"https://zhuanlan.zhihu.com/p/18159574293\" class=\"internal\" target=\"_blank\">第四章 核心技术：知识图谱</a></p><p data-pid=\"tAZTct5N\"><a href=\"https://zhuanlan.zhihu.com/p/21305809972\" class=\"internal\" target=\"_blank\">第五章 问责与激励</a></p><h2>二、消除关键误解</h2><p data-pid=\"vv6bRsAM\"><a href=\"https://zhuanlan.zhihu.com/p/21708130345\" class=\"internal\" target=\"_blank\">第六章 根深蒂固的神经迷思</a></p><p data-pid=\"pm9Ttsfy\"><a href=\"https://zhuanlan.zhihu.com/p/24164944495\" class=\"internal\" target=\"_blank\">第七章 个体差异：学习过程中的迷思与现实</a></p><p data-pid=\"MubUXutv\"><a href=\"https://zhuanlan.zhihu.com/p/25744478576\" class=\"internal\" target=\"_blank\">第八章 有效练习的迷思与现实</a></p><p data-pid=\"FK4EOfD_\"><a href=\"https://zhuanlan.zhihu.com/p/25955988878\" class=\"internal\" target=\"_blank\">第九章 关于数学加速的迷思与现实</a></p><h2>三、认知学习策略</h2><p data-pid=\"Io7ql_VZ\"><a href=\"https://zhuanlan.zhihu.com/p/26983893625\" class=\"internal\" target=\"_blank\">第十章 主动学习</a></p><p data-pid=\"DpZepSXf\">[In Progress] Chapter 11. Direct Instruction</p><p data-pid=\"-H29Ruxl\"><a href=\"https://zhuanlan.zhihu.com/p/28179723884\" class=\"internal\" target=\"_blank\">第十二章 刻意练习</a></p><p data-pid=\"3tBpZBal\"><a href=\"https://zhuanlan.zhihu.com/p/28954028250\" class=\"internal\" target=\"_blank\">第十三章 精熟学习</a></p><p data-pid=\"ljQ7qdhq\"><a href=\"https://zhuanlan.zhihu.com/p/29101571919\" class=\"internal\" target=\"_blank\">第十四章 最小化认知负荷</a></p><p data-pid=\"TybsUGMy\"><a href=\"https://zhuanlan.zhihu.com/p/29760184109\" class=\"internal\" target=\"_blank\">第十五章 培养自动性</a></p><p data-pid=\"cThxf8HD\"><a href=\"https://zhuanlan.zhihu.com/p/30567086704\" class=\"internal\" target=\"_blank\">第十六章 递进式学习</a></p><p data-pid=\"K6t1LX0K\"><a href=\"https://zhuanlan.zhihu.com/p/30839999273\" class=\"internal\" target=\"_blank\">第十七章 避免干扰</a></p><p data-pid=\"kAWDcdz5\"><a href=\"https://zhuanlan.zhihu.com/p/1895420939283440005\" class=\"internal\" target=\"_blank\">第十八章 间隔重复（分散练习）</a></p><p data-pid=\"MmyCm-65\"><a href=\"https://zhuanlan.zhihu.com/p/1895806402250905344\" class=\"internal\" target=\"_blank\">第十九章 交错练习（混合练习）</a></p><p data-pid=\"e3VxryiA\"><a href=\"https://zhuanlan.zhihu.com/p/1896502230300988542\" class=\"internal\" target=\"_blank\">第二十章 测试效应（提取练习）</a></p><p data-pid=\"ibOf-nXS\"><a href=\"https://zhuanlan.zhihu.com/p/1896508097243104808\" class=\"internal\" target=\"_blank\">第二十一章 针对性补习</a></p><p data-pid=\"FmwHwLpN\"><a href=\"https://zhuanlan.zhihu.com/p/1896510468136341564\" class=\"internal\" target=\"_blank\">第二十二章 游戏化</a></p><p data-pid=\"ysh_dYna\"><a href=\"https://zhuanlan.zhihu.com/p/1901295431943692756\" class=\"internal\" target=\"_blank\">第二十三章 利用认知学习策略需要技术</a></p><h2>四、辅导</h2><p data-pid=\"1WxW2QIk\">[In Progress] Chapter 24. Parental Support</p><p data-pid=\"X9ERP5dc\">[In Progress] Chapter 25. In-Task Coaching</p><p data-pid=\"qu5pchKp\"><span class=\"nolink\">[In Progress] Chapter 26. Developing Habit</span></p><p data-pid=\"xDfw_yFr\"><span class=\"nolink\">[In Progress] Chapter 27. Incentives and Motivation</span></p><p data-pid=\"LWhzlipT\"><span class=\"nolink\">[In Progress] Chapter 28. Lessons from Legendary Coaches</span></p><h2>五、技术深度剖析</h2><p data-pid=\"cU7o7loV\"><a href=\"https://zhuanlan.zhihu.com/p/1902336777538245191\" class=\"internal\" target=\"_blank\">第二十九章 间隔重复的技术深度剖析</a></p><p data-pid=\"5RwkSPhd\"><a href=\"https://zhuanlan.zhihu.com/p/1903424959960843411\" class=\"internal\" target=\"_blank\">第三十章 诊断性考试的技术深度剖析</a></p><p data-pid=\"K2Kz9tAP\"><a href=\"https://zhuanlan.zhihu.com/p/1903464003432322809\" class=\"internal\" target=\"_blank\">第三十一章 学习效率的技术深度剖析</a></p><p data-pid=\"ZbYtpc94\"><a href=\"https://zhuanlan.zhihu.com/p/1904984795546628821\" class=\"internal\" target=\"_blank\">第三十二章 核心主题优先策略的技术深度剖析</a></p><h2>六、常见问题</h2><p data-pid=\"kcKyrTz-\"><a href=\"https://zhuanlan.zhihu.com/p/1904986844518684475\" class=\"internal\" target=\"_blank\">常见问题解答：练习体验</a></p><p data-pid=\"uEVgIES7\"><a href=\"https://zhuanlan.zhihu.com/p/1905583686872704300\" class=\"internal\" target=\"_blank\">常见问题解答：学生行为</a></p><p data-pid=\"0tauYVxD\"><a href=\"https://zhuanlan.zhihu.com/p/1905584106550559607\" class=\"internal\" target=\"_blank\">常见问题解答：XP（经验值）和练习安排</a></p><p data-pid=\"XLuYN32s\"><a href=\"https://zhuanlan.zhihu.com/p/1905584201153115679\" class=\"internal\" target=\"_blank\">常见问题解答：诊断评估与课程体系</a></p><p data-pid=\"S6YHYHYN\"><a href=\"https://zhuanlan.zhihu.com/p/1905584303947101188\" class=\"internal\" target=\"_blank\">常见问题解答：其他</a></p><h2><a href=\"https://zhuanlan.zhihu.com/p/1938212378866086830\" class=\"internal\" target=\"_blank\">术语表</a></h2><h2>参考文献</h2><hr/><blockquote data-pid=\"AsMPQw48\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3.7-sonnet，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//docs.google.com/document/d/1LLZK_34Oer9LwuqAv-pqxfXlR8n7V8zJ_MO323R7egI\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Math Academy Way: Using the Power of Science to Supercharge Student Learning</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19558735",
+      "type": "topic",
+      "id": "19558735",
+      "name": "数学教育"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19571430",
+      "type": "topic",
+      "id": "19571430",
+      "name": "认知科学"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19566266",
+      "type": "topic",
+      "id": "19566266",
+      "name": "学习方法"
+    }
+  ],
+  "voteup_count": 268,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "传统教育的失败，及有效数学教学技术的复兴。",
+    "is_following": false,
+    "url_token": "c_1858865163022786560",
+    "id": "c_1858865163022786560",
+    "articles_count": 56,
+    "accept_submission": false,
+    "title": "The Math Academy Way",
+    "url": "https://api.zhihu.com/columns/c_1858865163022786560",
+    "comment_permission": "all",
+    "created": 1735967991,
+    "updated": 1748246557,
+    "image_url": "https://picx.zhimg.com/v2-b1651bba207f1c3370995962d00f5802_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 1639,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 38,
+  "contributions": [
+    {
+      "id": 51039302,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "传统教育的失败，及有效数学教学技术的复兴。",
+        "is_following": false,
+        "url_token": "c_1858865163022786560",
+        "id": "c_1858865163022786560",
+        "articles_count": 56,
+        "accept_submission": false,
+        "title": "The Math Academy Way",
+        "url": "https://api.zhihu.com/columns/c_1858865163022786560",
+        "comment_permission": "all",
+        "created": 1735967991,
+        "updated": 1748246557,
+        "image_url": "https://picx.zhimg.com/v2-b1651bba207f1c3370995962d00f5802_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 1639,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 26785682466,
-  "voteup_count": 259,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 582,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "前言 &amp; 目录 - 来自知乎专栏「The Math Academy Way」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/26785682466 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1741053597,
-  "url": "https://api.zhihu.com/articles/26785682466",
-  "comment_permission": "all",
-  "title": "前言 & 目录",
-  "image_width": 641,
-  "content": "<p data-pid=\"HoMzc1EW\">本书旨在解答以下问题：</p><ol><li data-pid=\"HerbgeLj\">在数学教育领域，有哪些能够最大化学生学习效果和才能培养的技术？</li><li data-pid=\"V4Zz_v_H\">这些技术为何如此有效？如果它们真的这么有效，为什么在传统课堂中却很少被采用？</li><li data-pid=\"nIJM9nzU\">Math Academy 是如何运用这些技术的？</li></ol><p data-pid=\"NVphq6yg\">诚然，本书行文冗长，包含大量从文献中摘录的冗长引文，但我们坚信这些「收据」对建立读者信任至关重要。教育领域的著述常存在引用文献与主张脱节的积弊，因此我们面临两难选择：(a) 通过广泛引证文献建立可信度，或 (b) 精简表述。最终我们选择向可信度倾斜——根据经验，若可信度不足，任何沟通都将失效。</p><p data-pid=\"LdSir7ST\">本书写作兼顾多元的读者群体：学生、教师、家长、研究者、技术专家、数学爱好者、学术教练等。我们力求为深度阅读者提供丰富信息，同时采用便于快速浏览的架构设计，满足浅层阅读的需求。</p><p data-pid=\"-OZ3PP-9\">本书目前处于编写中的草稿阶段，约完成五成内容。虽经悉心撰写，但尚未进行正式校对。</p><hr/><h2>一、绪论</h2><p data-pid=\"7o2KyWwo\"><a href=\"https://zhuanlan.zhihu.com/p/16343054758\" class=\"internal\" target=\"_blank\">第一章 两个标准差问题的解决方案</a></p><p data-pid=\"oHJMglRr\"><a href=\"https://zhuanlan.zhihu.com/p/16601875270\" class=\"internal\" target=\"_blank\">第二章 学习的科学</a></p><p data-pid=\"EUT2Y-YX\"><a href=\"https://zhuanlan.zhihu.com/p/17839729470\" class=\"internal\" target=\"_blank\">第三章 核心科学：大脑的工作机制</a></p><p data-pid=\"RisP-KJ6\"><a href=\"https://zhuanlan.zhihu.com/p/18159574293\" class=\"internal\" target=\"_blank\">第四章 核心技术：知识图谱</a></p><p data-pid=\"tAZTct5N\"><a href=\"https://zhuanlan.zhihu.com/p/21305809972\" class=\"internal\" target=\"_blank\">第五章 问责与激励</a></p><h2>二、消除关键误解</h2><p data-pid=\"vv6bRsAM\"><a href=\"https://zhuanlan.zhihu.com/p/21708130345\" class=\"internal\" target=\"_blank\">第六章 根深蒂固的神经迷思</a></p><p data-pid=\"pm9Ttsfy\"><a href=\"https://zhuanlan.zhihu.com/p/24164944495\" class=\"internal\" target=\"_blank\">第七章 个体差异：学习过程中的迷思与现实</a></p><p data-pid=\"MubUXutv\"><a href=\"https://zhuanlan.zhihu.com/p/25744478576\" class=\"internal\" target=\"_blank\">第八章 有效练习的迷思与现实</a></p><p data-pid=\"FK4EOfD_\"><a href=\"https://zhuanlan.zhihu.com/p/25955988878\" class=\"internal\" target=\"_blank\">第九章 关于数学加速的迷思与现实</a></p><h2>三、认知学习策略</h2><p data-pid=\"Io7ql_VZ\"><a href=\"https://zhuanlan.zhihu.com/p/26983893625\" class=\"internal\" target=\"_blank\">第十章 主动学习</a></p><p data-pid=\"DpZepSXf\">[In Progress] Chapter 11. Direct Instruction</p><p data-pid=\"-H29Ruxl\"><a href=\"https://zhuanlan.zhihu.com/p/28179723884\" class=\"internal\" target=\"_blank\">第十二章 刻意练习</a></p><p data-pid=\"3tBpZBal\"><a href=\"https://zhuanlan.zhihu.com/p/28954028250\" class=\"internal\" target=\"_blank\">第十三章 精熟学习</a></p><p data-pid=\"ljQ7qdhq\"><a href=\"https://zhuanlan.zhihu.com/p/29101571919\" class=\"internal\" target=\"_blank\">第十四章 最小化认知负荷</a></p><p data-pid=\"TybsUGMy\"><a href=\"https://zhuanlan.zhihu.com/p/29760184109\" class=\"internal\" target=\"_blank\">第十五章 培养自动性</a></p><p data-pid=\"cThxf8HD\"><a href=\"https://zhuanlan.zhihu.com/p/30567086704\" class=\"internal\" target=\"_blank\">第十六章 递进式学习</a></p><p data-pid=\"K6t1LX0K\"><a href=\"https://zhuanlan.zhihu.com/p/30839999273\" class=\"internal\" target=\"_blank\">第十七章 避免干扰</a></p><p data-pid=\"kAWDcdz5\"><a href=\"https://zhuanlan.zhihu.com/p/1895420939283440005\" class=\"internal\" target=\"_blank\">第十八章 间隔重复（分散练习）</a></p><p data-pid=\"MmyCm-65\"><a href=\"https://zhuanlan.zhihu.com/p/1895806402250905344\" class=\"internal\" target=\"_blank\">第十九章 交错练习（混合练习）</a></p><p data-pid=\"e3VxryiA\"><a href=\"https://zhuanlan.zhihu.com/p/1896502230300988542\" class=\"internal\" target=\"_blank\">第二十章 测试效应（提取练习）</a></p><p data-pid=\"ibOf-nXS\"><a href=\"https://zhuanlan.zhihu.com/p/1896508097243104808\" class=\"internal\" target=\"_blank\">第二十一章 针对性补习</a></p><p data-pid=\"FmwHwLpN\"><a href=\"https://zhuanlan.zhihu.com/p/1896510468136341564\" class=\"internal\" target=\"_blank\">第二十二章 游戏化</a></p><p data-pid=\"ysh_dYna\"><a href=\"https://zhuanlan.zhihu.com/p/1901295431943692756\" class=\"internal\" target=\"_blank\">第二十三章 利用认知学习策略需要技术</a></p><h2>四、辅导</h2><p data-pid=\"1WxW2QIk\">[In Progress] Chapter 24. Parental Support</p><p data-pid=\"X9ERP5dc\">[In Progress] Chapter 25. In-Task Coaching</p><p data-pid=\"qu5pchKp\"><span class=\"nolink\">[In Progress] Chapter 26. Developing Habit</span></p><p data-pid=\"xDfw_yFr\"><span class=\"nolink\">[In Progress] Chapter 27. Incentives and Motivation</span></p><p data-pid=\"LWhzlipT\"><span class=\"nolink\">[In Progress] Chapter 28. Lessons from Legendary Coaches</span></p><h2>五、技术深度剖析</h2><p data-pid=\"cU7o7loV\"><a href=\"https://zhuanlan.zhihu.com/p/1902336777538245191\" class=\"internal\" target=\"_blank\">第二十九章 间隔重复的技术深度剖析</a></p><p data-pid=\"5RwkSPhd\"><a href=\"https://zhuanlan.zhihu.com/p/1903424959960843411\" class=\"internal\" target=\"_blank\">第三十章 诊断性考试的技术深度剖析</a></p><p data-pid=\"K2Kz9tAP\"><a href=\"https://zhuanlan.zhihu.com/p/1903464003432322809\" class=\"internal\" target=\"_blank\">第三十一章 学习效率的技术深度剖析</a></p><p data-pid=\"ZbYtpc94\"><a href=\"https://zhuanlan.zhihu.com/p/1904984795546628821\" class=\"internal\" target=\"_blank\">第三十二章 核心主题优先策略的技术深度剖析</a></p><h2>六、常见问题</h2><p data-pid=\"kcKyrTz-\"><a href=\"https://zhuanlan.zhihu.com/p/1904986844518684475\" class=\"internal\" target=\"_blank\">常见问题解答：练习体验</a></p><p data-pid=\"uEVgIES7\"><a href=\"https://zhuanlan.zhihu.com/p/1905583686872704300\" class=\"internal\" target=\"_blank\">常见问题解答：学生行为</a></p><p data-pid=\"0tauYVxD\"><a href=\"https://zhuanlan.zhihu.com/p/1905584106550559607\" class=\"internal\" target=\"_blank\">常见问题解答：XP（经验值）和练习安排</a></p><p data-pid=\"XLuYN32s\"><a href=\"https://zhuanlan.zhihu.com/p/1905584201153115679\" class=\"internal\" target=\"_blank\">常见问题解答：诊断评估与课程体系</a></p><p data-pid=\"S6YHYHYN\"><a href=\"https://zhuanlan.zhihu.com/p/1905584303947101188\" class=\"internal\" target=\"_blank\">常见问题解答：其他</a></p><h2><a href=\"https://zhuanlan.zhihu.com/p/1938212378866086830\" class=\"internal\" target=\"_blank\">术语表</a></h2><h2>参考文献</h2><hr/><blockquote data-pid=\"AsMPQw48\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3.7-sonnet，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//docs.google.com/document/d/1LLZK_34Oer9LwuqAv-pqxfXlR8n7V8zJ_MO323R7egI\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Math Academy Way: Using the Power of Science to Supercharge Student Learning</a></blockquote>",
-  "column": {
-    "updated": 1748246557,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/c_1858865163022786560",
-    "title": "The Math Academy Way",
-    "image_url": "https://pic1.zhimg.com/v2-b1651bba207f1c3370995962d00f5802_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1858865163022786560"
-  },
-  "comment_count": 34,
-  "image_url": "https://picx.zhimg.com/v2-c9e9f4c70cd6b3120f8c7f4ca3b98bc2_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 15,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 15,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgImCgkyNTQzNzk4NDYSCzI2Nzg1NjgyNDY2GAciCklNQUdFX1RFWFQ=",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 268,
+      "down_vote_count": 0,
+      "like_count": 15,
+      "comment_count": 38,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 582,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-c9e9f4c70cd6b3120f8c7f4ca3b98bc2": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-c9e9f4c70cd6b3120f8c7f4ca3b98bc2": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-c9e9f4c70cd6b3120f8c7f4ca3b98bc2": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "6 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/31145826752?contentId=26785682466&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · The Math Academy Way",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1858865163022786560",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · The Math Academy Way"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

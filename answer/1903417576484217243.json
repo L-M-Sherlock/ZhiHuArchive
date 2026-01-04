@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -17,7 +18,7 @@
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -47,7 +48,7 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
           "badge_status": "passed",
@@ -72,7 +73,7 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
     "gender": -1,
@@ -83,7 +84,7 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
@@ -99,11 +100,22 @@
   "content_need_truncated": false,
   "created_time": 1746590114,
   "excerpt": "本质上还是打补丁，给小学教育擦屁股，有当然好，能解决部分问题。上完小学真不一定能熟练掌握算术，所谓“九漏鱼”并非调侃，而是一种常见现象。这种情况会对学生的长期数学发展造成严重影响。这里我用汉化组的译文节选，从认知心理学和教育学的角度解释一下引发这一现象的原因，以及可能造成的结果。 原因基于年龄分组的大锅饭，必定会有夹生来源：第一章 两个标准差问题的解决方案 ⠀⠀⠀「学校的课程安排和教学标准的制定主要…",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "1903417576484217243",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://www.zhihu.com/column/c_1858865163022786560": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"The Math Academy Way\",\"card_open_url\":\"https://zhuanlan.zhihu.com/c_1858865163022786560\",\"desc\":\"55 内容 · 0 关注 \\u003ca class=\\\"tag type_a\\\"\\u003e专栏\\u003c/a\\u003e\",\"content\":null,\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"COLUMN\",\"content_id\":\"c_1858865163022786560\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://www.zhihu.com/column/c_1858865163022786560": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"The Math Academy Way\",\"card_open_url\":\"https://zhuanlan.zhihu.com/c_1858865163022786560\",\"desc\":\"58 内容 · 0 关注 \\u003ca class=\\\"tag type_a\\\"\\u003e专栏\\u003c/a\\u003e\",\"content\":null,\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"COLUMN\",\"content_id\":\"c_1858865163022786560\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/18144417407?contentId=1903417576484217243&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1746356984,
@@ -114,11 +126,13 @@
     "title": "如何评价民国时代的\"初中算术\"课程？大家觉得它的存在是民国教育落后的象征，还是值得我们参考的先进做法？",
     "type": "question",
     "updated_time": 1746356984,
-    "url": "https://api.zhihu.com/questions/1902439762050134431"
+    "url": "https://www.zhihu.com/api/v4/questions/1902439762050134431"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1746591776,
+  "url": "https://www.zhihu.com/api/v4/answers/1903417576484217243",
   "voteup_count": 41
 }

@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,9 +37,10 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
@@ -45,9 +48,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,35 +84,55 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 5,
   "content": "<p data-pid=\"QHg9oDgS\">不要把 Anki 用的这么复杂。如果是准备语言学习的话，我推荐用划词助手就可以了。</p><p data-pid=\"UEy0fJuf\">语言学习方法论：</p><a href=\"https://zhuanlan.zhihu.com/p/25866272\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-804c516c471b69595e6f038b0225f066_180x120.jpg\" data-image-width=\"1280\" data-image-height=\"800\" class=\"internal\">你家老黄：我不是针对谁，我是说在座各位...</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1568111901,
   "excerpt": "不要把 Anki 用的这么复杂。如果是准备语言学习的话，我推荐用划词助手就可以了。 语言学习方法论： [文章: 我不是针对谁，我是说在座各位...]",
-  "id": 819513906,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "819513906",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/25866272": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"我不是针对谁，我是说在座各位...\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/25866272\",\"desc\":\"1369 赞同 · 119 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e你家老黄:\\u003c/a\\u003e …背单词的方法都是过时的 (垃圾)。开玩笑，各位大佬不要揍我。——— (我是”不说狠点你们不会进来看，但我真的不是标题党”的分割线) ——— 映射法背单词大家都知道，学习英语，背单词是必不可少的一部分。但是很遗憾，目前市面上所有的背单词方法其实都是同一类，我称这种方法为映射(mapping)法。 什么是映射法呢？不管你是拿一个四级六级GRE的词表来，还是有各种语音，例句，图片，乃至视频辅记手段的卡片，都是看英文…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-804c516c471b69595e6f038b0225f066_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"25866272\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/25866272": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"我不是针对谁，我是说在座各位...\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/25866272\",\"desc\":\"1447 赞同 · 122 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e你家老黄:\\u003c/a\\u003e …背单词的方法都是过时的 (垃圾)。开玩笑，各位大佬不要揍我。——— (我是”不说狠点你们不会进来看，但我真的不是标题党”的分割线) ——— 映射法背单词大家都知道，学习英语，背单词是必不可少的一部分。但是很遗憾，目前市面上所有的背单词方法其实都是同一类，我称这种方法为映射(mapping)法。 什么是映射法呢？不管你是拿一个四级六级GRE的词表来，还是有各种语音，例句，图片，乃至视频辅记手段的卡片，都是看英文…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-804c516c471b69595e6f038b0225f066_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"25866272\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=819513906&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1568110956,
-    "detail": "<p>考研党，时间很紧张，二外英语有难度，专业小语种要背的有很多，决定试试anki，花了两天看一些视频，知乎看看怎么做，基本可以上手，但是做起来真是要哭了，用了一些模板挺好的，但是一弄就乱码，有些模板还有很多限制，不能做到像别人的牌组那样在手机兼容，愁啊～毕竟时间不多，开始怀疑自己要不要放弃对anki的执着</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-642af1b2fabf8bbaa2c9d7de65312661_b.jpeg\" data-rawwidth=\"1536\" data-rawheight=\"2048\" data-size=\"normal\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pic2.zhimg.com/v2-642af1b2fabf8bbaa2c9d7de65312661_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-43e7993b1e9c8366b4c1050a12876470_b.jpeg\" data-rawwidth=\"1536\" data-rawheight=\"2048\" data-size=\"normal\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pic1.zhimg.com/v2-43e7993b1e9c8366b4c1050a12876470_r.jpg\"/></figure><p>最新更新—</p><p>谢谢下面的小伙伴的有用的回答，看了一下下面小伙伴们推荐的大佬开发的软件，确实很牛（默默许下了一个以后一定要嫁给程序猿的心愿 ）但是最新的软件好难啊，看不太懂怎么弄，本来还想利用到我的德语上去，结果一晚上都没捣鼓出来个什么，就时而放弃，时而挣扎的状态还是没搞懂，呜呜，可能我真的和它无缘了，呜呜，我要记的东西啊，呜呜呜呜呜，难受，考研继续低迷。。。。</p><p>我是分割线———————————</p><p>我第一次在知乎上提问，不知道这样做可不可以，就是编辑问题就可以让大家都看见，不过不重要啦！</p><p>其实这是一个我个人的（偏私人的）遇到的问题，没有什么探讨价值，但是下面有知友都回复了，而且愿意把好的方法推荐给我，我甚是感激，确实用起来很不错，嘻嘻～</p><p>确实在心态方面我也需要好好反思一下，自己是不是太浮躁了，是潜意识的逃避学习～嗯嗯确实，学！才是最重要的，我不能本末倒置了～也要感谢大神下凡指点 ，感激～</p><p>最后，就是祝大家月饼节快乐！！！好人一生平安❤️～       </p>",
-    "id": 345371514,
+    "detail": "<p>考研党，时间很紧张，二外英语有难度，专业小语种要背的有很多，决定试试anki，花了两天看一些视频，知乎看看怎么做，基本可以上手，但是做起来真是要哭了，用了一些模板挺好的，但是一弄就乱码，有些模板还有很多限制，不能做到像别人的牌组那样在手机兼容，愁啊～毕竟时间不多，开始怀疑自己要不要放弃对anki的执着</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-642af1b2fabf8bbaa2c9d7de65312661_1440w.jpeg\" data-rawwidth=\"1536\" data-rawheight=\"2048\" data-size=\"normal\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pic2.zhimg.com/v2-642af1b2fabf8bbaa2c9d7de65312661_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-43e7993b1e9c8366b4c1050a12876470_1440w.jpeg\" data-rawwidth=\"1536\" data-rawheight=\"2048\" data-size=\"normal\" class=\"origin_image zh-lightbox-thumb\" width=\"1536\" data-original=\"https://pic1.zhimg.com/v2-43e7993b1e9c8366b4c1050a12876470_r.jpg\"/></figure><p>最新更新—</p><p>谢谢下面的小伙伴的有用的回答，看了一下下面小伙伴们推荐的大佬开发的软件，确实很牛（默默许下了一个以后一定要嫁给程序猿的心愿 ）但是最新的软件好难啊，看不太懂怎么弄，本来还想利用到我的德语上去，结果一晚上都没捣鼓出来个什么，就时而放弃，时而挣扎的状态还是没搞懂，呜呜，可能我真的和它无缘了，呜呜，我要记的东西啊，呜呜呜呜呜，难受，考研继续低迷。。。。</p><p>我是分割线———————————</p><p>我第一次在知乎上提问，不知道这样做可不可以，就是编辑问题就可以让大家都看见，不过不重要啦！</p><p>其实这是一个我个人的（偏私人的）遇到的问题，没有什么探讨价值，但是下面有知友都回复了，而且愿意把好的方法推荐给我，我甚是感激，确实用起来很不错，嘻嘻～</p><p>确实在心态方面我也需要好好反思一下，自己是不是太浮躁了，是潜意识的逃避学习～嗯嗯确实，学！才是最重要的，我不能本末倒置了～也要感谢大神下凡指点 ，感激～</p><p>最后，就是祝大家月饼节快乐！！！好人一生平安❤️～       </p>",
+    "id": "345371514",
     "question_type": "normal",
     "relationship": {},
     "title": "Anki制作让我陷入了迷茫，该怎么才能好好利用啊?",
     "type": "question",
     "updated_time": 1568300996,
-    "url": "https://api.zhihu.com/questions/345371514"
+    "url": "https://www.zhihu.com/api/v4/questions/345371514"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 14
+  "updated_time": 1568111901,
+  "url": "https://www.zhihu.com/api/v4/answers/819513906",
+  "voteup_count": 15
 }

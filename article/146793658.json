@@ -1,80 +1,324 @@
 {
-  "status": 0,
+  "id": "146793658",
+  "title": "【授权转载】【Anki高级操作技巧】(19)-如何在模板上添加新字段",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/146793658",
+  "image_url": "https://pica.zhimg.com/v2-b9b78e01e5dd7b79861b1ce8f432e935_r.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-b9b78e01e5dd7b79861b1ce8f432e935_r.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://picx.zhimg.com/v2-4c34bdcefc7c1c25cc0292ef301da405_200x112.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"255\" data-rawheight=\"232\" data-watermark=\"\" data-original-src=\"\" data-watermark-src=\"\" data-private-watermark-src=\"\" class=\"origin_image inline-img zh-lightbox-thumb\" data-original=\"https://picx.zhimg.com/v2-4c34bdcefc7c1c25cc0292ef301da405_r.jpg\"/><b>如何在模版上添加新字段？</b> 有些时候，我们需要为一些需要发音的是卡片添加音频，但是会碰到一个问题就是现有的字段已经填满了，没有字段再放置发音的字段，所以今天我们解决的问题就是如何为模版添加新的字段。 <b>第一步：点击“工具”-“管理笔记类型”</b> <b>第二…</b>",
+  "created": 1591631890,
   "updated": 1591631890,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "如何在模版上添加新字段？ 有些时候，我们需要为一些需要发音的是卡片添加音频，但…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 1728,
+  "image_height": 1080,
+  "content": "<p data-pid=\"zZsLrk14\"><b>如何在模版上添加新字段？</b><br/>有些时候，我们需要为一些需要发音的是卡片添加音频，但是会碰到一个问题就是现有的字段已经填满了，没有字段再放置发音的字段，所以今天我们解决的问题就是如何为模版添加新的字段。<br/><b>第一步：点击“工具”-“管理笔记类型”</b><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-4c34bdcefc7c1c25cc0292ef301da405_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"255\" data-rawheight=\"232\" data-original-token=\"v2-4c34bdcefc7c1c25cc0292ef301da405\" class=\"content_image\" width=\"255\"/></figure><p data-pid=\"td94Sfe2\"><b>第二步：选择需要在哪个模版上添加并为新模板命名</b><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-31e8e2b868694ee1a1f63d2ea1438d2a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"616\" data-rawheight=\"496\" data-original-token=\"v2-31e8e2b868694ee1a1f63d2ea1438d2a\" class=\"origin_image zh-lightbox-thumb\" width=\"616\" data-original=\"https://pic1.zhimg.com/v2-31e8e2b868694ee1a1f63d2ea1438d2a_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-5a01edf75bba94add3f13f17e7cea9d3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"398\" data-rawheight=\"287\" data-original-token=\"v2-5a01edf75bba94add3f13f17e7cea9d3\" class=\"content_image\" width=\"398\"/></figure><p data-pid=\"Wo6syoHl\"><b>第三步：创建新字段并命名</b><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-d0c15e0902ff62298b1e860ae9b2bb30_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"945\" data-rawheight=\"442\" data-original-token=\"v2-d0c15e0902ff62298b1e860ae9b2bb30\" class=\"origin_image zh-lightbox-thumb\" width=\"945\" data-original=\"https://pic1.zhimg.com/v2-d0c15e0902ff62298b1e860ae9b2bb30_r.jpg\"/></figure><p data-pid=\"kxohh6SC\"><br/><br/>第四步：将新字段添加到模版<br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-64d0597d7d86c7adbd589a938869348c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1169\" data-rawheight=\"657\" data-original-token=\"v2-64d0597d7d86c7adbd589a938869348c\" class=\"origin_image zh-lightbox-thumb\" width=\"1169\" data-original=\"https://pic1.zhimg.com/v2-64d0597d7d86c7adbd589a938869348c_r.jpg\"/></figure><p data-pid=\"mn7tUuoG\"><br/>-----------------------------------------------------------------------------------------------<br/><b>如何给中文长句添加音频</b><br/>首先安装插件并重启ANKI<br/>插件代码：814349176<br/><br/>若是逐个添加，在主页面点击添加，然后输入内容之后复制到剪切板，再点击音频需要放置的字段，之后点击右上角小喇叭或者按下快捷键“Ctrl+T”，选择好音源，点击“Record”即可。<br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-fa936fb2a63b19a455dda26c179b927a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"571\" data-rawheight=\"435\" data-original-token=\"v2-fa936fb2a63b19a455dda26c179b927a\" class=\"origin_image zh-lightbox-thumb\" width=\"571\" data-original=\"https://pic1.zhimg.com/v2-fa936fb2a63b19a455dda26c179b927a_r.jpg\"/></figure><p data-pid=\"o9oNe7pK\">若是批量添加，在卡片浏览页面选中需要添加音频的卡片，然后点击“Add Audio to Selected…”或者使用快捷键“Ctrl+T”，之后选择需要发音和内容字段，音频放置字段和音源，点击&#34;Generate&#34;即可<br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-5b53427f0cb5386751ce38ff809c3446_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"371\" data-rawheight=\"110\" data-original-token=\"v2-5b53427f0cb5386751ce38ff809c3446\" class=\"content_image\" width=\"371\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e936b396d53e58c307d8ffd16b9aeabd_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"952\" data-rawheight=\"391\" data-original-token=\"v2-e936b396d53e58c307d8ffd16b9aeabd\" class=\"origin_image zh-lightbox-thumb\" width=\"952\" data-original=\"https://pic2.zhimg.com/v2-e936b396d53e58c307d8ffd16b9aeabd_r.jpg\"/></figure><p data-pid=\"ev8UKt3l\"><br/><br/><br/>本文只介绍了一种给模版添加字段的方法，当然还有更多可以让模版更强大，更美观的方法，大家可以参见下面的文章：<br/></p><a href=\"https://zhuanlan.zhihu.com/p/38054064\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-8d6ce69fe4ddab89e39e3e842a85e2c6_180x120.jpg\" data-image-width=\"2000\" data-image-height=\"1333\" class=\"internal\">学习骇客：「Leo的Anki系列」1000种Anki模板</a><a href=\"https://zhuanlan.zhihu.com/p/79679967\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-fe1c4b2bf58960bfd9e346c05894b6b1_180x120.jpg\" data-image-width=\"900\" data-image-height=\"600\" class=\"internal\">弥乱：成为Advanced users：提高卡片的制作能力</a><p></p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
-  "reason": "",
-  "excerpt_title": "",
-  "id": 146793658,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19783871",
+      "type": "topic",
+      "id": "19783871",
+      "name": "Anki（知识记忆工具）"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19566266",
+      "type": "topic",
+      "id": "19566266",
+      "name": "学习方法"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19558435",
+      "type": "topic",
+      "id": "19558435",
+      "name": "英语学习"
+    }
+  ],
   "voteup_count": 7,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "comment_count": 1,
+  "contributions": [],
+  "is_title_image_full_screen": true,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 14,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "【授权转载】【Anki高级操作技巧】(19)-如何在模板上添加新字段 - 来自知乎专栏，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/146793658 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1591631890,
-  "url": "https://api.zhihu.com/articles/146793658",
-  "comment_permission": "all",
-  "title": "【授权转载】【Anki高级操作技巧】(19)-如何在模板上添加新字段",
-  "image_width": 1080,
-  "content": "<p data-pid=\"zZsLrk14\"><b>如何在模版上添加新字段？</b><br/>有些时候，我们需要为一些需要发音的是卡片添加音频，但是会碰到一个问题就是现有的字段已经填满了，没有字段再放置发音的字段，所以今天我们解决的问题就是如何为模版添加新的字段。<br/><b>第一步：点击“工具”-“管理笔记类型”</b><br/></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-4c34bdcefc7c1c25cc0292ef301da405_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"255\" data-rawheight=\"232\" class=\"content_image\" width=\"255\" data-original-token=\"v2-4c34bdcefc7c1c25cc0292ef301da405\"/></figure><p data-pid=\"td94Sfe2\"><b>第二步：选择需要在哪个模版上添加并为新模板命名</b><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-31e8e2b868694ee1a1f63d2ea1438d2a_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"616\" data-rawheight=\"496\" class=\"origin_image zh-lightbox-thumb\" width=\"616\" data-original=\"https://pic1.zhimg.com/v2-31e8e2b868694ee1a1f63d2ea1438d2a_r.jpg\" data-original-token=\"v2-31e8e2b868694ee1a1f63d2ea1438d2a\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-5a01edf75bba94add3f13f17e7cea9d3_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"398\" data-rawheight=\"287\" class=\"content_image\" width=\"398\" data-original-token=\"v2-5a01edf75bba94add3f13f17e7cea9d3\"/></figure><p data-pid=\"Wo6syoHl\"><b>第三步：创建新字段并命名</b><br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-d0c15e0902ff62298b1e860ae9b2bb30_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"945\" data-rawheight=\"442\" class=\"origin_image zh-lightbox-thumb\" width=\"945\" data-original=\"https://pic1.zhimg.com/v2-d0c15e0902ff62298b1e860ae9b2bb30_r.jpg\" data-original-token=\"v2-d0c15e0902ff62298b1e860ae9b2bb30\"/></figure><p data-pid=\"kxohh6SC\"><br/><br/>第四步：将新字段添加到模版<br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-64d0597d7d86c7adbd589a938869348c_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1169\" data-rawheight=\"657\" class=\"origin_image zh-lightbox-thumb\" width=\"1169\" data-original=\"https://pic1.zhimg.com/v2-64d0597d7d86c7adbd589a938869348c_r.jpg\" data-original-token=\"v2-64d0597d7d86c7adbd589a938869348c\"/></figure><p data-pid=\"mn7tUuoG\"><br/>-----------------------------------------------------------------------------------------------<br/><b>如何给中文长句添加音频</b><br/>首先安装插件并重启ANKI<br/>插件代码：814349176<br/><br/>若是逐个添加，在主页面点击添加，然后输入内容之后复制到剪切板，再点击音频需要放置的字段，之后点击右上角小喇叭或者按下快捷键“Ctrl+T”，选择好音源，点击“Record”即可。<br/></p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-fa936fb2a63b19a455dda26c179b927a_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"571\" data-rawheight=\"435\" class=\"origin_image zh-lightbox-thumb\" width=\"571\" data-original=\"https://pic1.zhimg.com/v2-fa936fb2a63b19a455dda26c179b927a_r.jpg\" data-original-token=\"v2-fa936fb2a63b19a455dda26c179b927a\"/></figure><p data-pid=\"o9oNe7pK\">若是批量添加，在卡片浏览页面选中需要添加音频的卡片，然后点击“Add Audio to Selected…”或者使用快捷键“Ctrl+T”，之后选择需要发音和内容字段，音频放置字段和音源，点击&#34;Generate&#34;即可<br/></p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-5b53427f0cb5386751ce38ff809c3446_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"371\" data-rawheight=\"110\" class=\"content_image\" width=\"371\" data-original-token=\"v2-5b53427f0cb5386751ce38ff809c3446\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e936b396d53e58c307d8ffd16b9aeabd_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"952\" data-rawheight=\"391\" class=\"origin_image zh-lightbox-thumb\" width=\"952\" data-original=\"https://pic2.zhimg.com/v2-e936b396d53e58c307d8ffd16b9aeabd_r.jpg\" data-original-token=\"v2-e936b396d53e58c307d8ffd16b9aeabd\"/></figure><p data-pid=\"ev8UKt3l\"><br/><br/><br/>本文只介绍了一种给模版添加字段的方法，当然还有更多可以让模版更强大，更美观的方法，大家可以参见下面的文章：<br/></p><a href=\"https://zhuanlan.zhihu.com/p/38054064\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-8d6ce69fe4ddab89e39e3e842a85e2c6_180x120.jpg\" data-image-width=\"2000\" data-image-height=\"1333\" class=\"internal\">学习骇客：「Leo的Anki系列」1000种Anki模板</a><a href=\"https://zhuanlan.zhihu.com/p/79679967\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-fe1c4b2bf58960bfd9e346c05894b6b1_180x120.jpg\" data-image-width=\"900\" data-image-height=\"600\" class=\"internal\">弥乱：成为Advanced users：提高卡片的制作能力</a><p></p>",
-  "column": {
-    "updated": 1599152271,
-    "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/ankigaokao",
-    "title": "AnkiX高考",
-    "image_url": "https://pica.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "ankigaokao"
-  },
-  "comment_count": 1,
-  "image_url": "https://picx.zhimg.com/v2-b9b78e01e5dd7b79861b1ce8f432e935_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 1,
+  "has_column": false,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 1,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxMjA3NTM1MzESCTE0Njc5MzY1OBgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 7,
+      "down_vote_count": 0,
+      "like_count": 1,
+      "comment_count": 1,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 14,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-31e8e2b868694ee1a1f63d2ea1438d2a": 0,
+        "v2-4c34bdcefc7c1c25cc0292ef301da405": 0,
+        "v2-5a01edf75bba94add3f13f17e7cea9d3": 0,
+        "v2-5b53427f0cb5386751ce38ff809c3446": 0,
+        "v2-64d0597d7d86c7adbd589a938869348c": 0,
+        "v2-b9b78e01e5dd7b79861b1ce8f432e935": 0,
+        "v2-d0c15e0902ff62298b1e860ae9b2bb30": 0,
+        "v2-e936b396d53e58c307d8ffd16b9aeabd": 0,
+        "v2-fa936fb2a63b19a455dda26c179b927a": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-31e8e2b868694ee1a1f63d2ea1438d2a": false,
+        "v2-4c34bdcefc7c1c25cc0292ef301da405": false,
+        "v2-5a01edf75bba94add3f13f17e7cea9d3": false,
+        "v2-5b53427f0cb5386751ce38ff809c3446": false,
+        "v2-64d0597d7d86c7adbd589a938869348c": false,
+        "v2-b9b78e01e5dd7b79861b1ce8f432e935": false,
+        "v2-d0c15e0902ff62298b1e860ae9b2bb30": false,
+        "v2-e936b396d53e58c307d8ffd16b9aeabd": false,
+        "v2-fa936fb2a63b19a455dda26c179b927a": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-31e8e2b868694ee1a1f63d2ea1438d2a": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-4c34bdcefc7c1c25cc0292ef301da405": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-5a01edf75bba94add3f13f17e7cea9d3": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-5b53427f0cb5386751ce38ff809c3446": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-64d0597d7d86c7adbd589a938869348c": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-b9b78e01e5dd7b79861b1ce8f432e935": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-d0c15e0902ff62298b1e860ae9b2bb30": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-e936b396d53e58c307d8ffd16b9aeabd": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-fa936fb2a63b19a455dda26c179b927a": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=146793658&contentType=article"
+  },
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

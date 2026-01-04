@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "673004703",
+  "title": "斯坦福教授 Huberman：利用超日节律进行学习（90 分钟周期学习法）ama.1",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/673004703",
+  "image_url": "https://picx.zhimg.com/v2-853dc9776b97ee78d04d4935f60eca69_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-853dc9776b97ee78d04d4935f60eca69_720w.jpg?source=172ae18b",
+  "excerpt": "Andrew Huberman 是在斯坦福大学任教的知名神经科学家，他的 Huberman Lab Podcast 是一独特且极具价值的播客系列，在英文互联网享有极高的知名度。播客中，他探讨并分享了许多关于睡眠、压力管理、学习、锻炼和营养等方面的知识与实用建议。Huberman 博士…",
+  "created": 1702957305,
   "updated": 1704594221,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://pic1.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "Andrew Huberman 是在斯坦福大学任教的知名神经科学家，他的 Huberman Lab Podcast …",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 1280,
+  "image_height": 720,
+  "content": "<p data-pid=\"9FxTb1rq\">Andrew Huberman 是在斯坦福大学任教的知名神经科学家，他的 Huberman Lab Podcast 是一独特且极具价值的播客系列，在英文互联网享有极高的知名度。播客中，他探讨并分享了许多关于睡眠、压力管理、学习、锻炼和营养等方面的知识与实用建议。Huberman 博士擅长用通俗易懂的语言深入浅出地解释复杂的科学概念，让每个人都能从这个播客中获益。截至目前，播客已更新近 200 期。</p><p data-pid=\"1P1pDAuV\">可即使这一播客系列是相当优秀的学习资源，由于其性质的原因，其内容有些过于口语化，显得拖沓、啰嗦，信噪比低。为了向更多人传播英文世界的优质内容，Thoughts Memo 汉化组启动了 Huberman Podcast 笔记工程。原 90 分钟左右的播客会被浓缩为一篇篇简短的文章，剔除重复、无意义的部分，将播客的精华保留下来，并用汉语文本的形式呈现。</p><p data-pid=\"apcenvnK\"><b>大家在点收藏的同时，别忘了点个赞支持我们。</b></p><p data-pid=\"e9OWMPnv\">作者：shuo</p><p data-pid=\"cdGaEvec\">原标题：Leveraging Ultradian Cycles, How to Protect Your Brain, Seed Oils Examined and More</p><hr/><h2>1、什么是超日节律（Ultradian Cycles）</h2><p data-pid=\"W_sMfWz5\">在这篇文章里，超日节律是指 90 分钟的节律，它是一个 90 分钟的周期。</p><h2>2、利用超日节律学习的好处</h2><p data-pid=\"SgZBqBjx\">利用超日节律来学习，会让你更加专注，这可以大大促进你语言、数学、历史等领域的学习，帮助你建立新的神经连接。它既适用于认知技能的学习，也适用于运动技能。</p><h2>3、如何利用超日节律进行学习？</h2><p data-pid=\"rYxq4Nu9\">我自己每天的目标是完成 1-2 个超日节律学习周期。</p><p data-pid=\"WTWHqmUI\">首先，你需要用一天左右去观察自己在早晨（醒来到中午）和下午（中午到 6、7 点）什么时候最警觉，这个时候就是你开始 90 分钟学习周期的适当时间。</p><p data-pid=\"4tlR9PjN\">超日节律的周期性波动是糖皮质激素系统引起的，这个系统调节皮质醇的释放。一天中皮质醇的变化是这样的：你早晨照太阳、摄入咖啡因或者做一些运动后，它的峰值会很早到来，然后波动性下降，接着在下午晚些时候，它会短暂且显著的增加。</p><p data-pid=\"2D8f0GkD\">所以，糖皮质激素系统触发的生物钟周期主要高峰只有两次。找到这两次峰值以后，你需要在 90 分钟内排除干扰，进行专注学习。</p><p data-pid=\"XoWnfBXN\">另外，虽然我们在睡眠中也会经历这些超日节律，并或多或少的受到其影响，比如你睡眠模式的变化（慢波睡眠、浅睡眠和快速眼动睡眠的比例）也以 90 分钟为一周期。晚上的超日节律与白天学习时间的安排关系不大。</p><h2>4、如果要完成 3 次 90 分钟的学习，该怎么做呢？</h2><p data-pid=\"99buroUj\">举例来说，一个 7 点左右起床的人，他会在早上 9:00 或 10:00 左右迎来一个超日学习周期。</p><p data-pid=\"-UL_34tI\">如果他设 5:30 的闹钟起床，开启明亮人造光或照射太阳光，喝点咖啡或者只是白开水，进行一些短暂的高强度锻炼，比如跳 10 分钟绳，接下来，他的皮质醇就会提前激增了。</p><p data-pid=\"GPX-J0Ap\">另：他的皮质醇仍然会在早上 9:30-10:00 照常上升。 </p><p data-pid=\"S6H0ngtL\">完成 4 次学习周期的日程和生活方式非常罕见，但在理论上是可能的，只有在非常特殊的情况中才可能实现。比如考试前的临时抱佛脚，或去了一个环境非常好的度假胜地。</p><h2>5、一些误区和注意事项</h2><p data-pid=\"lQClvqrd\">很多人认为他们应该在超日节律周期内全程极度专注，这是错误的。专注时间的长短由神经生物学和超日周期的相互作用而决定。实际上，大多数人需要 10-15 分钟才能进入极度专注的状态，且会时不时的跳出状态。在 90 分钟的超日工作周期内，神经的最佳可塑性状态也顶多保持 60 分钟。</p><p data-pid=\"9aAwULTl\">所以，也请尽可能的关闭 wi-fi、远离手机，注意它们对你进入专注状态的影响，把其他不需要极度专注的内容放在超日工作周期之外。  </p><p data-pid=\"HG2s1Bvi\">在周末，我也会利用超日节律（旅行，家庭义务等特殊情况除外）。我可能只是用 90 分钟阅读一本书。我几乎不会暂停利用超日节律学习，因为神经的「专注通路」具有神经可塑性。换句话说，你越强迫自己专注，专注就越容易。</p><p data-pid=\"SoPU96jQ\">而且我提醒大家，如果你要强迫自己长期早起，也应该尽早睡觉。睡眠对于学习很重要，你的神经系统会在每天夜里发生改变。<br/></p><hr/><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"_5_rQeWb\">系列目录：<a href=\"https://zhuanlan.zhihu.com/p/676445568\" class=\"internal\" target=\"_blank\">Thoughts Memo：全网首发：Huberman Lab Podcast 全系列笔记（持续更新）</a></p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19550581",
+      "type": "topic",
+      "id": "19550581",
+      "name": "学习"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19556194",
+      "type": "topic",
+      "id": "19556194",
+      "name": "生物钟"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19566266",
+      "type": "topic",
+      "id": "19566266",
+      "name": "学习方法"
+    }
+  ],
+  "voteup_count": 268,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "好睡眠，好学习，好生活",
+    "is_following": false,
+    "url_token": "c_1525846593119449088",
+    "id": "c_1525846593119449088",
+    "articles_count": 97,
+    "accept_submission": true,
+    "title": "睡眠研究 & 生活建议",
+    "url": "https://api.zhihu.com/columns/c_1525846593119449088",
+    "comment_permission": "all",
+    "created": 1656570176,
+    "updated": 1751877207,
+    "image_url": "https://pic1.zhimg.com/v2-080a085ec59b78d9d731960f7b0fdb50_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 339,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 21,
+  "contributions": [
+    {
+      "id": 47400216,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "好睡眠，好学习，好生活",
+        "is_following": false,
+        "url_token": "c_1525846593119449088",
+        "id": "c_1525846593119449088",
+        "articles_count": 97,
+        "accept_submission": true,
+        "title": "睡眠研究 & 生活建议",
+        "url": "https://api.zhihu.com/columns/c_1525846593119449088",
+        "comment_permission": "all",
+        "created": 1656570176,
+        "updated": 1751877207,
+        "image_url": "https://pic1.zhimg.com/v2-080a085ec59b78d9d731960f7b0fdb50_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 339,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 673004703,
-  "voteup_count": 236,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 559,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "斯坦福教授 Huberman：利用超日节律进行学习（90 分钟周期学习法）ama.1 - 来自知乎专栏「睡眠研究 &amp; 生活建议」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/673004703 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1702957305,
-  "url": "https://api.zhihu.com/articles/673004703",
-  "comment_permission": "all",
-  "title": "斯坦福教授 Huberman：利用超日节律进行学习（90 分钟周期学习法）ama.1",
-  "image_width": 720,
-  "content": "<p data-pid=\"9FxTb1rq\">Andrew Huberman 是在斯坦福大学任教的知名神经科学家，他的 Huberman Lab Podcast 是一独特且极具价值的播客系列，在英文互联网享有极高的知名度。播客中，他探讨并分享了许多关于睡眠、压力管理、学习、锻炼和营养等方面的知识与实用建议。Huberman 博士擅长用通俗易懂的语言深入浅出地解释复杂的科学概念，让每个人都能从这个播客中获益。截至目前，播客已更新近 200 期。</p><p data-pid=\"1P1pDAuV\">可即使这一播客系列是相当优秀的学习资源，由于其性质的原因，其内容有些过于口语化，显得拖沓、啰嗦，信噪比低。为了向更多人传播英文世界的优质内容，Thoughts Memo 汉化组启动了 Huberman Podcast 笔记工程。原 90 分钟左右的播客会被浓缩为一篇篇简短的文章，剔除重复、无意义的部分，将播客的精华保留下来，并用汉语文本的形式呈现。</p><p data-pid=\"apcenvnK\"><b>大家在点收藏的同时，别忘了点个赞支持我们。</b></p><p data-pid=\"e9OWMPnv\">作者：shuo</p><p data-pid=\"cdGaEvec\">原标题：Leveraging Ultradian Cycles, How to Protect Your Brain, Seed Oils Examined and More</p><hr/><h2>1、什么是超日节律（Ultradian Cycles）</h2><p data-pid=\"W_sMfWz5\">在这篇文章里，超日节律是指 90 分钟的节律，它是一个 90 分钟的周期。</p><h2>2、利用超日节律学习的好处</h2><p data-pid=\"SgZBqBjx\">利用超日节律来学习，会让你更加专注，这可以大大促进你语言、数学、历史等领域的学习，帮助你建立新的神经连接。它既适用于认知技能的学习，也适用于运动技能。</p><h2>3、如何利用超日节律进行学习？</h2><p data-pid=\"rYxq4Nu9\">我自己每天的目标是完成 1-2 个超日节律学习周期。</p><p data-pid=\"WTWHqmUI\">首先，你需要用一天左右去观察自己在早晨（醒来到中午）和下午（中午到 6、7 点）什么时候最警觉，这个时候就是你开始 90 分钟学习周期的适当时间。</p><p data-pid=\"4tlR9PjN\">超日节律的周期性波动是糖皮质激素系统引起的，这个系统调节皮质醇的释放。一天中皮质醇的变化是这样的：你早晨照太阳、摄入咖啡因或者做一些运动后，它的峰值会很早到来，然后波动性下降，接着在下午晚些时候，它会短暂且显著的增加。</p><p data-pid=\"2D8f0GkD\">所以，糖皮质激素系统触发的生物钟周期主要高峰只有两次。找到这两次峰值以后，你需要在 90 分钟内排除干扰，进行专注学习。</p><p data-pid=\"XoWnfBXN\">另外，虽然我们在睡眠中也会经历这些超日节律，并或多或少的受到其影响，比如你睡眠模式的变化（慢波睡眠、浅睡眠和快速眼动睡眠的比例）也以 90 分钟为一周期。晚上的超日节律与白天学习时间的安排关系不大。</p><h2>4、如果要完成 3 次 90 分钟的学习，该怎么做呢？</h2><p data-pid=\"99buroUj\">举例来说，一个 7 点左右起床的人，他会在早上 9:00 或 10:00 左右迎来一个超日学习周期。</p><p data-pid=\"-UL_34tI\">如果他设 5:30 的闹钟起床，开启明亮人造光或照射太阳光，喝点咖啡或者只是白开水，进行一些短暂的高强度锻炼，比如跳 10 分钟绳，接下来，他的皮质醇就会提前激增了。</p><p data-pid=\"GPX-J0Ap\">另：他的皮质醇仍然会在早上 9:30-10:00 照常上升。 </p><p data-pid=\"S6H0ngtL\">完成 4 次学习周期的日程和生活方式非常罕见，但在理论上是可能的，只有在非常特殊的情况中才可能实现。比如考试前的临时抱佛脚，或去了一个环境非常好的度假胜地。</p><h2>5、一些误区和注意事项</h2><p data-pid=\"lQClvqrd\">很多人认为他们应该在超日节律周期内全程极度专注，这是错误的。专注时间的长短由神经生物学和超日周期的相互作用而决定。实际上，大多数人需要 10-15 分钟才能进入极度专注的状态，且会时不时的跳出状态。在 90 分钟的超日工作周期内，神经的最佳可塑性状态也顶多保持 60 分钟。</p><p data-pid=\"9aAwULTl\">所以，也请尽可能的关闭 wi-fi、远离手机，注意它们对你进入专注状态的影响，把其他不需要极度专注的内容放在超日工作周期之外。  </p><p data-pid=\"HG2s1Bvi\">在周末，我也会利用超日节律（旅行，家庭义务等特殊情况除外）。我可能只是用 90 分钟阅读一本书。我几乎不会暂停利用超日节律学习，因为神经的「专注通路」具有神经可塑性。换句话说，你越强迫自己专注，专注就越容易。</p><p data-pid=\"SoPU96jQ\">而且我提醒大家，如果你要强迫自己长期早起，也应该尽早睡觉。睡眠对于学习很重要，你的神经系统会在每天夜里发生改变。<br/></p><hr/><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"_5_rQeWb\">系列目录：<a href=\"https://zhuanlan.zhihu.com/p/676445568\" class=\"internal\">Thoughts Memo：全网首发：Huberman Lab Podcast 全系列笔记（持续更新）</a></p>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 20,
-  "image_url": "https://pic1.zhimg.com/v2-853dc9776b97ee78d04d4935f60eca69_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 72,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 72,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMzc2ODYwODQSCTY3MzAwNDcwMxgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 268,
+      "down_vote_count": 1,
+      "like_count": 72,
+      "comment_count": 21,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 559,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-853dc9776b97ee78d04d4935f60eca69": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-853dc9776b97ee78d04d4935f60eca69": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-853dc9776b97ee78d04d4935f60eca69": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=673004703&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 睡眠研究 & 生活建议",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525846593119449088",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 睡眠研究 & 生活建议"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

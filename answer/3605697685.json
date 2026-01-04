@@ -1,15 +1,16 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-7a23f5ee157d58c2494e8a642e59b7ae.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
     "badge": [],
     "badge_v2": {
       "detail_badges": [],
       "icon": "",
       "merged_badges": [],
       "night_icon": "",
-      "title": ""
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。"
     },
     "gender": 1,
     "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
@@ -19,32 +20,52 @@
     "is_privacy": false,
     "name": "Jarrett Ye",
     "type": "people",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "url": "https://www.zhihu.com/api/v4/people/3c9990a12cdbcd92e20b1387b160f0a3",
     "url_token": "JarrettYe",
     "user_type": "people"
   },
-  "biz_ext": {},
-  "comment_count": 35,
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
+  "comment_count": 41,
   "content": "<p data-pid=\"TSV-tiPJ\">不全是。我们还需要尊重生物学。比如减少含铅产品降低了犯罪率<sup data-text=\"\" data-url=\"http://www3.amherst.edu/~jwreyes/papers/LeadCrimeNBERWP13097.pdf\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，给盐加碘提高了胎儿未来的智商<sup data-text=\"\" data-url=\"https://gwern.net/iodine\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，推迟早课时间提高了学生成绩<sup data-text=\"教育和学习无关\" data-url=\"https://zhuanlan.zhihu.com/p/711526074\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。通过尊重生物学，我们也能改变人性。</p>",
   "content_need_truncated": false,
   "created_time": 1724583250,
   "excerpt": "不全是。我们还需要尊重生物学。比如减少含铅产品降低了犯罪率 [1]，给盐加碘提高了胎儿未来的智商[2]，推迟早课时间提高了学生成绩[3]。通过尊重生物学，我们也能改变人性。",
-  "id": 3605697685,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3605697685",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/47698988529?contentId=3605697685&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "2 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1723954602,
     "detail": "",
-    "id": 664610596,
+    "id": "664610596",
     "question_type": "normal",
     "relationship": {},
     "title": "如何评价左翼认为人性是社会关系建构的，只要改造社会就能改变人性？",
     "type": "question",
     "updated_time": 1723954602,
-    "url": "https://api.zhihu.com/questions/664610596"
+    "url": "https://www.zhihu.com/api/v4/questions/664610596"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 92
+  "updated_time": 1724584081,
+  "url": "https://www.zhihu.com/api/v4/answers/3605697685",
+  "voteup_count": 156
 }

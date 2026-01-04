@@ -1,80 +1,491 @@
 {
-  "status": 0,
+  "id": "337200754",
+  "title": "Anki 复习数据清洗与分析(附源码和数据)",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/337200754",
+  "image_url": "https://picx.zhimg.com/v2-40bf24813aeb0aa156a266aca1eb842d_r.jpg?source=172ae18b",
+  "title_image": "https://pic1.zhimg.com/v2-40bf24813aeb0aa156a266aca1eb842d_r.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://picx.zhimg.com/v2-21372ab80176304a734795cbb17194db_200x112.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"626\" data-rawheight=\"235\" data-watermark=\"watermark\" data-original-src=\"v2-21372ab80176304a734795cbb17194db\" data-watermark-src=\"v2-47141dfd16a70f8167a71458911ce305\" data-private-watermark-src=\"\" data-original=\"https://picx.zhimg.com/v2-21372ab80176304a734795cbb17194db_r.png\" class=\"origin_image inline-img zh-lightbox-thumb\"/>最近开始测试一些间隔重复算法，需要收集一些复习数据，如果大家感兴趣，可以按照本文的教程分析你的复习数据。 获取原始数据数据库查看工具Anki 的数据库用的是 SQLite，推荐使用 DB Browser for SQLite 来查看和导出复习数据，支持 Win 和 Mac。 下载地址…",
+  "created": 1608041403,
   "updated": 1608126487,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "最近开始测试一些间隔重复算法，需要收集一些复习数据，如果大家感兴趣，可以按照本…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 1901,
+  "image_height": 976,
+  "content": "<p data-pid=\"bY9aHAiR\">最近开始测试一些间隔重复算法，需要收集一些复习数据，如果大家感兴趣，可以按照本文的教程分析你的复习数据。</p><h2>获取原始数据</h2><h3>数据库查看工具</h3><p data-pid=\"Gl-bpjQ3\">Anki 的数据库用的是 SQLite，推荐使用 DB Browser for SQLite 来查看和导出复习数据，支持 Win 和 Mac。</p><p data-pid=\"8PUIgzzv\">下载地址：</p><a href=\"https://link.zhihu.com/?target=http%3A//www.sqlitebrowser.org/dl/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Downloads - DB Browser for SQLite</a><h3>打开 Anki 数据库</h3><p data-pid=\"4WuGX1Rm\">下载并安装好上面这个工具之后，按照以下步骤即可打开 Anki 数据库（记得先把 Anki 关了）：</p><ol><li data-pid=\"znOqhU2m\">打开 DB Browser，文件 &gt; 打开数据库</li></ol><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-47141dfd16a70f8167a71458911ce305_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"626\" data-rawheight=\"235\" data-original-token=\"v2-21372ab80176304a734795cbb17194db\" class=\"origin_image zh-lightbox-thumb\" width=\"626\" data-original=\"https://pic2.zhimg.com/v2-47141dfd16a70f8167a71458911ce305_r.jpg\"/></figure><ol><li data-pid=\"WaFvG4x8\">找到你 Anki 本地数据库的位置，通常这个位置是 <code>C:\\Users\\你电脑的用户名\\AppData\\Roaming\\Anki2\\你 Anki 本地配置的名称\\</code> </li></ol><p data-pid=\"czJ9RTLB\">记得把右下角这个改成所有文件，因为 Anki 的数据库后缀不是 db 也不是 sqlite。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-5efc00c8818bcbdd8cef43835c4d74b8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"740\" data-rawheight=\"468\" data-original-token=\"v2-687e864609a511f85f42cb41a02729cc\" class=\"origin_image zh-lightbox-thumb\" width=\"740\" data-original=\"https://pica.zhimg.com/v2-5efc00c8818bcbdd8cef43835c4d74b8_r.jpg\"/></figure><p data-pid=\"bIlEEOgc\">改好后如果你找到的位置是对的，那么就能看到 <code>collection.anki2</code> 的文件了</p><p data-pid=\"oiVQlyEF\">2. 提取数据</p><p data-pid=\"5j2pqgGn\">打开后转到执行 SQL，输入以下 SQL 语句：</p><div class=\"highlight\"><pre><code class=\"language-sql\"><span class=\"k\">SELECT</span> <span class=\"n\">id</span><span class=\"p\">,</span> <span class=\"n\">cid</span><span class=\"p\">,</span> <span class=\"n\">ease</span><span class=\"p\">,</span> <span class=\"n\">lastIvl</span><span class=\"p\">,</span> <span class=\"k\">type</span>\n<span class=\"k\">FROM</span> <span class=\"n\">revlog</span>\n<span class=\"k\">WHERE</span> <span class=\"k\">type</span> <span class=\"o\">!=</span> <span class=\"mi\">2</span>\n<span class=\"p\">;</span></code></pre></div><p data-pid=\"TrfsnBfg\">然后点</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-d7ac423ef8c5db79e516eff96f0ec10f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"259\" data-rawheight=\"76\" data-original-token=\"v2-384a5042a84a2c18fdad8ad257f4c1c0\" class=\"content_image\" width=\"259\"/></figure><p data-pid=\"rzSM__od\">就能得到以下结果</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-fc747a7ae56a272c845f9054d801e5ba_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"699\" data-original-token=\"v2-fc80277aacb9b2bee34e42d17e15a9c8\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic3.zhimg.com/v2-fc747a7ae56a272c845f9054d801e5ba_r.jpg\"/></figure><p data-pid=\"dVDYb6rX\">再点击</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-9443ee112755973af29f7e26f9482fb1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"441\" data-rawheight=\"169\" data-original-token=\"v2-48702b0798d4adffd4ebb1bea6edf970\" class=\"origin_image zh-lightbox-thumb\" width=\"441\" data-original=\"https://pic2.zhimg.com/v2-9443ee112755973af29f7e26f9482fb1_r.jpg\"/></figure><p data-pid=\"SDP_Qmws\">就能将数据导出成 csv 格式，用 excel 打开就能看到这样的数据：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-d8f2f2a856b19e7001312618101cf007_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"557\" data-rawheight=\"539\" data-original-token=\"v2-83a70176d54a950b7a80f1fd73a09d4e\" class=\"origin_image zh-lightbox-thumb\" width=\"557\" data-original=\"https://pic2.zhimg.com/v2-d8f2f2a856b19e7001312618101cf007_r.jpg\"/></figure><p data-pid=\"5qZfyRtJ\">里面没有关于卡片内容的敏感数据，大家可以安心分享。</p><p data-pid=\"X-WHPd6W\">欢迎将你的 .csv 文件发送到我的邮箱地址：jarrett.ye@outlook.com，</p><p data-pid=\"SIqWWuNq\">或者在专栏读者群(869469893)分享，也可以发送你的网盘分享链接。</p><p data-pid=\"KqyCwoeO\">PS: 当然，也可以导出带学习数据的 apkg 文件发送给我，如果你有调整复习参数，请详细说明。</p><p data-pid=\"khJlx7tD\">作为回报，我会将以下分析数据反馈给你。（如果你有想要分析的其它指标，也可以跟我提，如果基于目前的数据可以分析，我也会反馈给你）</p><h2>Anki 数据分析</h2><h3>不同反馈对应的记录数量</h3><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-624b389de77179d3b302576f52bf7eee_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1086\" data-rawheight=\"360\" data-original-token=\"v2-ecdf56b42244f134e8d89eb964ae051a\" class=\"origin_image zh-lightbox-thumb\" width=\"1086\" data-original=\"https://pica.zhimg.com/v2-624b389de77179d3b302576f52bf7eee_r.jpg\"/></figure><h3>总体遗忘/保留情况</h3><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-2d4cfc6bc4cbe384a9bd2210fba09322_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"729\" data-rawheight=\"413\" data-original-token=\"v2-729d2d29a5b5a5c0fbb218201f600cb5\" class=\"origin_image zh-lightbox-thumb\" width=\"729\" data-original=\"https://pica.zhimg.com/v2-2d4cfc6bc4cbe384a9bd2210fba09322_r.jpg\"/></figure><h3>不同间隔下的复习记录数量</h3><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-7b653027cde82cfe13d0b47255c00e74_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"735\" data-rawheight=\"395\" data-original-token=\"v2-c1b1bf00261db5d6680b9ab326b186ee\" class=\"origin_image zh-lightbox-thumb\" width=\"735\" data-original=\"https://pica.zhimg.com/v2-7b653027cde82cfe13d0b47255c00e74_r.jpg\"/></figure><h3>不同间隔区间对应的保留率</h3><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-1f3013fe4b60bd1c2e182bd67e4db0f2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1092\" data-rawheight=\"566\" data-original-token=\"v2-fcbdb4916ae6aba7b5756a1721a5729b\" class=\"origin_image zh-lightbox-thumb\" width=\"1092\" data-original=\"https://pic3.zhimg.com/v2-1f3013fe4b60bd1c2e182bd67e4db0f2_r.jpg\"/></figure><h3>不同复习次数对应的保留率</h3><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-5c4e8b0428c91a332fb3af31f39351b6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"727\" data-rawheight=\"454\" data-original-token=\"v2-e9952b2dd2c86f143b9b7cd45e31093c\" class=\"origin_image zh-lightbox-thumb\" width=\"727\" data-original=\"https://pic3.zhimg.com/v2-5c4e8b0428c91a332fb3af31f39351b6_r.jpg\"/></figure><h3>不同累计遗忘次数对应的记录数量</h3><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-62048b3b6fbf33595ce8b8357111df0c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"726\" data-rawheight=\"435\" data-original-token=\"v2-4c4d523f9fb1deffdd06ce9fd9426557\" class=\"origin_image zh-lightbox-thumb\" width=\"726\" data-original=\"https://pic3.zhimg.com/v2-62048b3b6fbf33595ce8b8357111df0c_r.jpg\"/></figure><p data-pid=\"LQ2FJOLB\">还有一些其它的指标，如果你有任何建议或者意见，欢迎留言。</p><p data-pid=\"bsUWo0hH\">另外，以上代码和我自己的复习数据都开源在我的 GitHub 仓库：</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/L-M-Sherlock/anki_revlog_analysis\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">L-M-Sherlock / anki_revlog_analysis</a><p data-pid=\"_PaRZnSZ\">如果想要自己分析可以直接下载源码运行。</p><p data-pid=\"vPvBW-7X\">感谢大家的支持！</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6WRS1b13\">2020 年 12 月 15 日</p><p data-pid=\"qSvBY-6S\">叶峻峣</p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
-  "reason": "",
-  "excerpt_title": "",
-  "id": 337200754,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19559424",
+      "type": "topic",
+      "id": "19559424",
+      "name": "数据分析"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19783871",
+      "type": "topic",
+      "id": "19783871",
+      "name": "Anki（知识记忆工具）"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19633431",
+      "type": "topic",
+      "id": "19633431",
+      "name": "遗忘曲线"
+    }
+  ],
   "voteup_count": 48,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "收录个人相关或不好分类的文章",
+    "is_following": true,
+    "url_token": "c_1280249768422608896",
+    "id": "c_1280249768422608896",
+    "articles_count": 73,
+    "accept_submission": true,
+    "title": "学委叶哥的随笔",
+    "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+    "comment_permission": "all",
+    "created": 1598015330,
+    "updated": 1751811281,
+    "image_url": "https://pic1.zhimg.com/v2-c31ca0615bbbe77cc9d0ad05465dd223_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 251,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 31,
+  "contributions": [
+    {
+      "id": 28004414,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "收录个人相关或不好分类的文章",
+        "is_following": true,
+        "url_token": "c_1280249768422608896",
+        "id": "c_1280249768422608896",
+        "articles_count": 73,
+        "accept_submission": true,
+        "title": "学委叶哥的随笔",
+        "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+        "comment_permission": "all",
+        "created": 1598015330,
+        "updated": 1751811281,
+        "image_url": "https://pic1.zhimg.com/v2-c31ca0615bbbe77cc9d0ad05465dd223_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 251,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": true,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 62,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "Anki 复习数据清洗与分析(附源码和数据) - 来自知乎专栏「学委叶哥的随笔」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/337200754 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1608041403,
-  "url": "https://api.zhihu.com/articles/337200754",
-  "comment_permission": "all",
-  "title": "Anki 复习数据清洗与分析(附源码和数据)",
-  "image_width": 976,
-  "content": "<p data-pid=\"bY9aHAiR\">最近开始测试一些间隔重复算法，需要收集一些复习数据，如果大家感兴趣，可以按照本文的教程分析你的复习数据。</p><h2>获取原始数据</h2><h3>数据库查看工具</h3><p data-pid=\"Gl-bpjQ3\">Anki 的数据库用的是 SQLite，推荐使用 DB Browser for SQLite 来查看和导出复习数据，支持 Win 和 Mac。</p><p data-pid=\"8PUIgzzv\">下载地址：</p><a href=\"https://link.zhihu.com/?target=http%3A//www.sqlitebrowser.org/dl/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Downloads - DB Browser for SQLite</a><h3>打开 Anki 数据库</h3><p data-pid=\"4WuGX1Rm\">下载并安装好上面这个工具之后，按照以下步骤即可打开 Anki 数据库（记得先把 Anki 关了）：</p><ol><li data-pid=\"znOqhU2m\">打开 DB Browser，文件 &gt; 打开数据库</li></ol><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-47141dfd16a70f8167a71458911ce305_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"626\" data-rawheight=\"235\" class=\"origin_image zh-lightbox-thumb\" width=\"626\" data-original=\"https://pic2.zhimg.com/v2-47141dfd16a70f8167a71458911ce305_r.jpg\" data-original-token=\"v2-21372ab80176304a734795cbb17194db\"/></figure><ol><li data-pid=\"WaFvG4x8\">找到你 Anki 本地数据库的位置，通常这个位置是 <code>C:\\Users\\你电脑的用户名\\AppData\\Roaming\\Anki2\\你 Anki 本地配置的名称\\</code> </li></ol><p data-pid=\"czJ9RTLB\">记得把右下角这个改成所有文件，因为 Anki 的数据库后缀不是 db 也不是 sqlite。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-5efc00c8818bcbdd8cef43835c4d74b8_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"740\" data-rawheight=\"468\" class=\"origin_image zh-lightbox-thumb\" width=\"740\" data-original=\"https://pica.zhimg.com/v2-5efc00c8818bcbdd8cef43835c4d74b8_r.jpg\" data-original-token=\"v2-687e864609a511f85f42cb41a02729cc\"/></figure><p data-pid=\"bIlEEOgc\">改好后如果你找到的位置是对的，那么就能看到 <code>collection.anki2</code> 的文件了</p><p data-pid=\"oiVQlyEF\">2. 提取数据</p><p data-pid=\"5j2pqgGn\">打开后转到执行 SQL，输入以下 SQL 语句：</p><div class=\"highlight\"><pre><code class=\"language-sql\"><span class=\"k\">SELECT</span> <span class=\"n\">id</span><span class=\"p\">,</span> <span class=\"n\">cid</span><span class=\"p\">,</span> <span class=\"n\">ease</span><span class=\"p\">,</span> <span class=\"n\">lastIvl</span><span class=\"p\">,</span> <span class=\"k\">type</span>\n<span class=\"k\">FROM</span> <span class=\"n\">revlog</span>\n<span class=\"k\">WHERE</span> <span class=\"k\">type</span> <span class=\"o\">!=</span> <span class=\"mi\">2</span>\n<span class=\"p\">;</span></code></pre></div><p data-pid=\"TrfsnBfg\">然后点</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-d7ac423ef8c5db79e516eff96f0ec10f_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"259\" data-rawheight=\"76\" class=\"content_image\" width=\"259\" data-original-token=\"v2-384a5042a84a2c18fdad8ad257f4c1c0\"/></figure><p data-pid=\"rzSM__od\">就能得到以下结果</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-fc747a7ae56a272c845f9054d801e5ba_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"590\" data-rawheight=\"699\" class=\"origin_image zh-lightbox-thumb\" width=\"590\" data-original=\"https://pic3.zhimg.com/v2-fc747a7ae56a272c845f9054d801e5ba_r.jpg\" data-original-token=\"v2-fc80277aacb9b2bee34e42d17e15a9c8\"/></figure><p data-pid=\"dVDYb6rX\">再点击</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-9443ee112755973af29f7e26f9482fb1_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"441\" data-rawheight=\"169\" class=\"origin_image zh-lightbox-thumb\" width=\"441\" data-original=\"https://pic2.zhimg.com/v2-9443ee112755973af29f7e26f9482fb1_r.jpg\" data-original-token=\"v2-48702b0798d4adffd4ebb1bea6edf970\"/></figure><p data-pid=\"SDP_Qmws\">就能将数据导出成 csv 格式，用 excel 打开就能看到这样的数据：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-d8f2f2a856b19e7001312618101cf007_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"557\" data-rawheight=\"539\" class=\"origin_image zh-lightbox-thumb\" width=\"557\" data-original=\"https://pic2.zhimg.com/v2-d8f2f2a856b19e7001312618101cf007_r.jpg\" data-original-token=\"v2-83a70176d54a950b7a80f1fd73a09d4e\"/></figure><p data-pid=\"5qZfyRtJ\">里面没有关于卡片内容的敏感数据，大家可以安心分享。</p><p data-pid=\"X-WHPd6W\">欢迎将你的 .csv 文件发送到我的邮箱地址：jarrett.ye@outlook.com，</p><p data-pid=\"SIqWWuNq\">或者在专栏读者群(869469893)分享，也可以发送你的网盘分享链接。</p><p data-pid=\"KqyCwoeO\">PS: 当然，也可以导出带学习数据的 apkg 文件发送给我，如果你有调整复习参数，请详细说明。</p><p data-pid=\"khJlx7tD\">作为回报，我会将以下分析数据反馈给你。（如果你有想要分析的其它指标，也可以跟我提，如果基于目前的数据可以分析，我也会反馈给你）</p><h2>Anki 数据分析</h2><h3>不同反馈对应的记录数量</h3><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-624b389de77179d3b302576f52bf7eee_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1086\" data-rawheight=\"360\" class=\"origin_image zh-lightbox-thumb\" width=\"1086\" data-original=\"https://pica.zhimg.com/v2-624b389de77179d3b302576f52bf7eee_r.jpg\" data-original-token=\"v2-ecdf56b42244f134e8d89eb964ae051a\"/></figure><h3>总体遗忘/保留情况</h3><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-2d4cfc6bc4cbe384a9bd2210fba09322_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"729\" data-rawheight=\"413\" class=\"origin_image zh-lightbox-thumb\" width=\"729\" data-original=\"https://pica.zhimg.com/v2-2d4cfc6bc4cbe384a9bd2210fba09322_r.jpg\" data-original-token=\"v2-729d2d29a5b5a5c0fbb218201f600cb5\"/></figure><h3>不同间隔下的复习记录数量</h3><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-7b653027cde82cfe13d0b47255c00e74_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"735\" data-rawheight=\"395\" class=\"origin_image zh-lightbox-thumb\" width=\"735\" data-original=\"https://pica.zhimg.com/v2-7b653027cde82cfe13d0b47255c00e74_r.jpg\" data-original-token=\"v2-c1b1bf00261db5d6680b9ab326b186ee\"/></figure><h3>不同间隔区间对应的保留率</h3><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-1f3013fe4b60bd1c2e182bd67e4db0f2_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1092\" data-rawheight=\"566\" class=\"origin_image zh-lightbox-thumb\" width=\"1092\" data-original=\"https://pic3.zhimg.com/v2-1f3013fe4b60bd1c2e182bd67e4db0f2_r.jpg\" data-original-token=\"v2-fcbdb4916ae6aba7b5756a1721a5729b\"/></figure><h3>不同复习次数对应的保留率</h3><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-5c4e8b0428c91a332fb3af31f39351b6_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"727\" data-rawheight=\"454\" class=\"origin_image zh-lightbox-thumb\" width=\"727\" data-original=\"https://pic3.zhimg.com/v2-5c4e8b0428c91a332fb3af31f39351b6_r.jpg\" data-original-token=\"v2-e9952b2dd2c86f143b9b7cd45e31093c\"/></figure><h3>不同累计遗忘次数对应的记录数量</h3><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-62048b3b6fbf33595ce8b8357111df0c_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"726\" data-rawheight=\"435\" class=\"origin_image zh-lightbox-thumb\" width=\"726\" data-original=\"https://pic3.zhimg.com/v2-62048b3b6fbf33595ce8b8357111df0c_r.jpg\" data-original-token=\"v2-4c4d523f9fb1deffdd06ce9fd9426557\"/></figure><p data-pid=\"LQ2FJOLB\">还有一些其它的指标，如果你有任何建议或者意见，欢迎留言。</p><p data-pid=\"bsUWo0hH\">另外，以上代码和我自己的复习数据都开源在我的 GitHub 仓库：</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/L-M-Sherlock/anki_revlog_analysis\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">L-M-Sherlock / anki_revlog_analysis</a><p data-pid=\"_PaRZnSZ\">如果想要自己分析可以直接下载源码运行。</p><p data-pid=\"vPvBW-7X\">感谢大家的支持！</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6WRS1b13\">2020 年 12 月 15 日</p><p data-pid=\"qSvBY-6S\">叶峻峣</p>",
-  "column": {
-    "updated": 1599152271,
-    "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/ankigaokao",
-    "title": "AnkiX高考",
-    "image_url": "https://pic1.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "ankigaokao"
-  },
-  "comment_count": 31,
-  "image_url": "https://pic1.zhimg.com/v2-40bf24813aeb0aa156a266aca1eb842d_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 6,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 6,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxNjMwNjM4NDUSCTMzNzIwMDc1NBgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 48,
+      "down_vote_count": 0,
+      "like_count": 6,
+      "comment_count": 31,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 62,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-21372ab80176304a734795cbb17194db": 0,
+        "v2-384a5042a84a2c18fdad8ad257f4c1c0": 0,
+        "v2-40bf24813aeb0aa156a266aca1eb842d": 0,
+        "v2-48702b0798d4adffd4ebb1bea6edf970": 0,
+        "v2-4c4d523f9fb1deffdd06ce9fd9426557": 0,
+        "v2-687e864609a511f85f42cb41a02729cc": 0,
+        "v2-729d2d29a5b5a5c0fbb218201f600cb5": 0,
+        "v2-83a70176d54a950b7a80f1fd73a09d4e": 0,
+        "v2-c1b1bf00261db5d6680b9ab326b186ee": 0,
+        "v2-e9952b2dd2c86f143b9b7cd45e31093c": 0,
+        "v2-ecdf56b42244f134e8d89eb964ae051a": 0,
+        "v2-fc80277aacb9b2bee34e42d17e15a9c8": 0,
+        "v2-fcbdb4916ae6aba7b5756a1721a5729b": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-21372ab80176304a734795cbb17194db": false,
+        "v2-384a5042a84a2c18fdad8ad257f4c1c0": false,
+        "v2-40bf24813aeb0aa156a266aca1eb842d": false,
+        "v2-48702b0798d4adffd4ebb1bea6edf970": false,
+        "v2-4c4d523f9fb1deffdd06ce9fd9426557": false,
+        "v2-687e864609a511f85f42cb41a02729cc": false,
+        "v2-729d2d29a5b5a5c0fbb218201f600cb5": false,
+        "v2-83a70176d54a950b7a80f1fd73a09d4e": false,
+        "v2-c1b1bf00261db5d6680b9ab326b186ee": false,
+        "v2-e9952b2dd2c86f143b9b7cd45e31093c": false,
+        "v2-ecdf56b42244f134e8d89eb964ae051a": false,
+        "v2-fc80277aacb9b2bee34e42d17e15a9c8": false,
+        "v2-fcbdb4916ae6aba7b5756a1721a5729b": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-21372ab80176304a734795cbb17194db": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-384a5042a84a2c18fdad8ad257f4c1c0": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-40bf24813aeb0aa156a266aca1eb842d": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-48702b0798d4adffd4ebb1bea6edf970": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-4c4d523f9fb1deffdd06ce9fd9426557": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-687e864609a511f85f42cb41a02729cc": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-729d2d29a5b5a5c0fbb218201f600cb5": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-83a70176d54a950b7a80f1fd73a09d4e": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-c1b1bf00261db5d6680b9ab326b186ee": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-e9952b2dd2c86f143b9b7cd45e31093c": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-ecdf56b42244f134e8d89eb964ae051a": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-fc80277aacb9b2bee34e42d17e15a9c8": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-fcbdb4916ae6aba7b5756a1721a5729b": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=337200754&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 学委叶哥的随笔",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1280249768422608896",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 学委叶哥的随笔"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

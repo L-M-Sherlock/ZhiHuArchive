@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,36 +84,56 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 1,
   "content": "<p data-pid=\"oPRdVV5F\">因为有换行啊。。。有换行当然就会多出几排了</p><p data-pid=\"68mn9sLT\">想要调整，需要用文本替换，将换行符换成 &lt;br&gt;，之前写过类似的回答了</p><a href=\"https://www.zhihu.com/question/396704044/answer/1241168207\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-d6860e0ff505451165d14f090d63334a_180x120.jpg\" data-image-width=\"852\" data-image-height=\"261\" class=\"internal\">有没有ANKI大神可以告诉我，excel导入的文件里面有多行要如何在ANKI里实现换行操作？</a><p data-pid=\"iWAxaCoV\">但是这个操作需要一定的编程基础。</p><p data-pid=\"3-uUp80b\">问问有没有程序员朋友可以帮你吧。</p><p data-pid=\"LOqq81Sq\">另外，用 Anki 背这种一大段的问答题，效率很低。我建议题主自己制卡，具体的制卡方法，可以参考：</p><a href=\"https://zhuanlan.zhihu.com/p/219996956\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">倪梓晋：Anki高考的20条原则—来自《有效的学习：组织知识的20条原则》</a><p data-pid=\"brVVsLWJ\">希望对题主有所帮助。</p>",
   "content_need_truncated": false,
   "created_time": 1614265589,
   "excerpt": "因为有换行啊。。。有换行当然就会多出几排了 想要调整，需要用文本替换，将换行符换成 &lt;br&gt;，之前写过类似的回答了 有没有ANKI大神可以告诉我，excel导入的文件里面有多行要如何在ANKI里实现换行操作？ 但是这个操作需要一定的编程基础。 问问有没有程序员朋友可以帮你吧。 另外，用 Anki 背这种一大段的问答题，效率很低。我建议题主自己制卡，具体的制卡方法，可以参考： [文章: Anki高考的20条原则—来自《有效的学习：组织知识的20条原则》]",
-  "id": 1749995040,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1749995040",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
     "https://www.zhihu.com/question/396704044/answer/1241168207": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"有没有ANKI大神可以告诉我，excel导入的文件里面有多行要如何在ANKI里实现换行操作？\",\"card_open_url\":\"https://www.zhihu.com/question/396704044/answer/1241168207\",\"desc\":\"16 赞同 · 8 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e anki 支持的 txt 导入吧？如果你只是想解决这个同字段有多行内容的情况，可以使用替换，将换行符 替换为\\u003cbr\\u003e，然后导入的时候允许在字段中使用HTML [图片] 简单讲一下原理： anki 默认是把 txt 文件中的换行 作为笔记分隔符，没法改。同一条笔记中的字段分隔符是可以自己设置的 [图片] 如果同一字段的内容有换行，那么 anki 就会把换行的部分当作新一条笔记。所以这里需要用 html 的换行标记来替代，也就是\\u003cbr\\u003e 当然，如果是批量替换的话也会有…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-d6860e0ff505451165d14f090d63334a.jpg?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"1241168207\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/219996956": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki高考的20条原则—来自《有效的学习：组织知识的20条原则》\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/219996956\",\"desc\":\"153 赞同 · 4 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eFDRFDR:\\u003c/a\\u003e 原文为叶哥 @叶峻峣 翻译，此处作了简单的整合 [文章: Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》] [文章: Anki高考的20条原则(6-10)—来自《有效的学习：组织知识的20条原则》] [文章: Anki高考的20条原则(11-15)—来自《有效的学习：组织知识的20条原则》] [文章: Anki高考的20条原则(16-20)—来自《有效的学习：组织知识的20条原则》] 第一、如果我不理解这个材料，那我不如不学学习不理解的东西可能是天方…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-39d910e9eb30a34a9640790d9f763753.jpg?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"219996956\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/219996956": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki高考的20条原则—来自《有效的学习：组织知识的20条原则》\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/219996956\",\"desc\":\"214 赞同 · 4 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eFDRFDR:\\u003c/a\\u003e 原文为叶哥 @叶峻峣 翻译，此处作了简单的整合 [文章: Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》] [文章: Anki高考的20条原则(6-10)—来自《有效的学习：组织知识的20条原则》] [文章: Anki高考的20条原则(11-15)—来自《有效的学习：组织知识的20条原则》] [文章: Anki高考的20条原则(16-20)—来自《有效的学习：组织知识的20条原则》] 第一、如果我不理解这个材料，那我不如不学学习不理解的东西可能是天方…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-39d910e9eb30a34a9640790d9f763753.jpg?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"219996956\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1749995040&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1614192292,
     "detail": "<p>大体意思是打算把几百个问答题导入进一个卡片学习软件里，放进excel表格的样子是一列是问题一列是答案。但我不知道怎么操作，只会操作一问一答的，一问不固定答就懵逼了</p><p>我研究了一个礼拜了都不行，想死啊！到处看教程都发现不是很适合，有个是拉到表格里就一排问题一排答案了，我就满脸问号？为什么我拉进去有些三排有些七排 ？还看到个是给问题加个颜色来筛选，excuse me?几百个问题该怎么加！ 举个例子比如</p><p>请简述民事法律关系的特征。 1.）民事法律关系是由民法规范调整的社会关系，也就是由民法确认和保护的社会关系。 2）民事法律关系是民法调整的社会关系在法律上的表现。 3）民事法律关系是人与人之间的权利义务关系。 4）民事法律关系具有平等性。 5）民事法律关系具有一定程度的任意性。</p><p>求大佬们指导，该怎么替换好分列，该怎么拉表格是一列问题一列答案的形式</p>",
-    "id": 446232981,
+    "id": "446232981",
     "question_type": "normal",
     "relationship": {},
     "title": "anki到底如何批量导入问答题？",
     "type": "question",
     "updated_time": 1614192974,
-    "url": "https://api.zhihu.com/questions/446232981"
+    "url": "https://www.zhihu.com/api/v4/questions/446232981"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 7
+  "updated_time": 1614265589,
+  "url": "https://www.zhihu.com/api/v4/answers/1749995040",
+  "voteup_count": 8
 }

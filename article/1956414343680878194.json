@@ -1,80 +1,441 @@
 {
-  "status": 0,
+  "id": "1956414343680878194",
+  "title": "无痛选择",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/1956414343680878194",
+  "image_url": "https://pic1.zhimg.com/v2-5bbc277fcb0685054f867df8f09b630f_720w.jpg?source=172ae18b",
+  "title_image": "https://pica.zhimg.com/v2-5bbc277fcb0685054f867df8f09b630f_720w.jpg?source=172ae18b",
+  "excerpt": "就拿在服务业工作的 Eve 来说吧。她的经理临到头了才告诉她，连个招呼都没打，说她明天必须去一个小镇支援一场活动。这地方离她家得开好几个小时车，而且她早上五点就得爬起来才能准时到。 咱们再进一步假设，她跟经理的关系本来就有点悬。这么一来，她就面…",
+  "created": 1759226298,
   "updated": 1760146370,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "就拿在服务业工作的 Eve 来说吧。她的经理临到头了才告诉她，连个招呼都没打，说她…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 4000,
+  "image_height": 811,
+  "content": "<p data-pid=\"tCuFbSCY\">就拿在服务业工作的 Eve 来说吧。她的经理临到头了才告诉她，连个招呼都没打，说她明天必须去一个小镇支援一场活动。这地方离她家得开好几个小时车，而且她早上五点就得爬起来才能准时到。</p><p data-pid=\"FarkFfd5\">咱们再进一步假设，她跟经理的关系本来就有点悬。这么一来，她就面临一个选择：要么明天早上五点爬起来去上班，要么就丢掉这份工作。</p><p data-pid=\"TqeXIP8Z\">你可以想象 Eve 知道这事儿后的表情。少说也是一脸郁闷。她八成会很暴躁，满肚子不乐意，而且很可能整个晚上都在发泄、抱怨。她多半会费老大的劲儿让自己去<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/see-the-dark-world/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">合理化容忍这个局面</a><sup data-text=\"直面黑暗世界\" data-url=\"https://zhuanlan.zhihu.com/p/1954836809650505396\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，不停地劝自己：要么是早起也没那么糟，要么就是她经理这人太差劲了。</p><p data-pid=\"kgedFZjn\">我觉得，这种事挺常见的：你要是让人在烂和更烂的选项之间做选择，他们就会变得<b>暴躁</b>。</p><p data-pid=\"B-7TCmk3\">当人们发现，所有选项都没能达到自己心里那个「还算过得去」的底线时，就会感到<b>挫败</b>。</p><p data-pid=\"cCbM0Vwc\">我想，这在一定程度上解释了为什么面对不幸的处境时，人们普遍会启动一种合理化容忍的应对机制。当周遭的一切都让人难以忍受时，你会觉得<b>所有</b>选项都无法接受：于是，你选择强行让自己接受，直到至少有一个选项（也许是愤慨，也许是变得玩世不恭，又或者干脆什么都不改变）能够达到你心中那个可接受的底线。只有到这时，你才能采取行动。</p><p data-pid=\"oVAkqQ20\">对于一个身处黑暗世界（或困境）里的人来说，这种行为是要不得的。倘若你要在这样的世界中生存，那么至关重要的一点是：学会选出当下你能做的最好的那个选择，而根本不必去管这个选择本身（在绝对意义上）到底有多好。</p><p data-pid=\"FP9jIdzW\">当要在烂和更烂之间做选择时，你必须能够坦然地选择那个「烂」的。</p><hr/><p data-pid=\"LWbPyidy\">我认为，人们之所以在所有选项都达不到「可接受」的底线时感到懊恼，一个重要原因往往是他们没能看到还藏着第三条路，而且他们潜意识里可能也知道这一点。在这种情况下，这种挫败感甚至可能是<b>有用的</b>，如果它能促使他们更迫切地去寻找一个突破口的话。</p><p data-pid=\"Q7wkHphz\">此外，人们表现得慌乱，也往往能引来他人相助，而这额外的援手常常能让情况好转。</p><p data-pid=\"7sYvh26e\">所以，当面临烂和更烂之间的选择时，感到沮丧在许多情况下可能是一种有用的反应。（至少，对咱们的祖先而言，这种反应足够管用。）的确，当你只能在烂和更烂之间选时，首先要做的是<b>寻找第三种方案</b>，然后是<b>寻求帮助</b>。想办法走捷径，试试能不能用点歪招儿。如果可以，就搬救兵。</p><p data-pid=\"5EYMMRd3\">但是，一旦你查实了，摆在你面前的确实只有烂和更烂这两个选项，而且真的没有其他出路了——</p><p data-pid=\"q-IsoN9E\">那么，有能力选择那个「烂」的选项，而不为此感到痛苦，就很有用了。</p><hr/><p data-pid=\"kp680MmN\">要想能够选择当下最好的选项而不为此痛苦，第一步就是先弄明白这其中的区别。下次，当你发现自己因所有选项都达不到一个绝对的「还算过得去」的底线而感到慌乱时，不妨停下来，换个角度思考，转而去看看你各个行动选项的<b>相对</b>可接受程度。仅仅是知道这个区别，并在现实生活中留意它，就很可能足够了。</p><p data-pid=\"OLr1RI5A\">对我而言，要在选择时不那么痛苦，另一个有用的办法是：在现实中做决定前，先设想一个虚拟情境，问问自己「假如……会怎样？」比方说，我正努力消除极端贫困，但似乎我怎么做都不理想。我可能会对自己说：「想象一下，你生活在一个无论你怎么选都会导致糟糕结果的世界里；那时你会怎么做？」我可以改善这三个人的生活，但无论如何，还是会有一百万人死于可预防的疾病。或者我可以尝试改变政治走向，但无论如何，也还是会有一百万人死于可预防的疾病。或者我可以投入资金研究可预防的疾病，但无论如何，照样会有一百万人死于可预防的疾病。无论我做什么，至少都会有一百万人死于可预防的疾病。在<b>那样一个</b>世界里，我会怎么做呢？</p><p data-pid=\"8_cuKmMH\">答案显而易见，就是「哪个行动能拯救<b>最多</b>生命，就选哪个。」我有时发现，把现实中的问题先当成是假设性的，在<b>那种假设</b>里找到答案，然后再把这个答案应用到现实世界中——这样做会更容易些。</p><p data-pid=\"Lhvnn4_B\">在那些假设的世界里，当你没有第三条路可走，摆在你面前的所有行动都会导致糟糕的结果时，这些结果本身有多烂其实无关紧要。最好的选择依然非常明确：采取能带来最好结果的行动，并且毫不懊悔地去做。在假设的情境中，当你确信没有其他选择时，从一堆糟糕的选项里挑出那个最不烂的，这事儿想象起来就很容易了。事实上，很容易想象，做这件事的时候不会有任何抱怨或挣扎的冲动，反而只有一种在困境中尽力而为的沉毅决心。</p><p data-pid=\"XP-FlFHP\">那么，在现实生活中，不妨也这样做。留意一下，你是不是在用<b>应该</b>会怎样来衡量自己的选择；留意一下，你是不是在<b>渴望</b>的未来去衡量能够实现的未来。一旦察觉到这些，就把它看作一个调整思路的信号。重新审视一下你手头有哪些可行的选项，别再用某个客观的、理想化的标准去衡量它们，而是开始将这些选项互相比较。试着找找有没有歪招儿，有没有两全其美之外的第三种方案，有没有其他的出路……</p><p data-pid=\"9B7asHbY\">……然后呢，等你把所有这些（指前面提到的各种可能性）都琢磨透了，所有能选的方案也都仔细衡量过了之后，</p><p data-pid=\"1KNAXGfu\">只需采取当下能做的最好的行动。</p><p data-pid=\"F97xVMR6\">接受它，无需痛苦，不管它有多烂。</p><p data-pid=\"6TBXo0on\">以上就是要做的全部。</p><hr/><p data-pid=\"HLTlcjfN\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1954836809650505396\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">直面黑暗世界</a><p data-pid=\"X4AbJC9W\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1960275727002895369\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">卸下凝重指数计</a><hr/><blockquote data-pid=\"uRko5gmY\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">Specialz-OST</span>，校对 <span class=\"nolink\">Naiq</span><span class=\"nolink\">Xieaiia</span>、Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/choose-without-suffering/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Choose without suffering</a><br/>2015 年 9 月 27 日</blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19563219",
+      "type": "topic",
+      "id": "19563219",
+      "name": "选择"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21285172",
+      "type": "topic",
+      "id": "21285172",
+      "name": "无痛"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19579817",
+      "type": "topic",
+      "id": "19579817",
+      "name": "纠结"
+    }
+  ],
+  "voteup_count": 51,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "<p>将无益的内疚感转化为更理性、更有效能的行动和思维模式，以实现个人目标并更好地为世界做出贡献。</p>",
+    "is_following": false,
+    "url_token": "c_1900848986845319905",
+    "id": "c_1900848986845319905",
+    "articles_count": 38,
+    "accept_submission": false,
+    "title": "超越内疚",
+    "url": "https://api.zhihu.com/columns/c_1900848986845319905",
+    "comment_permission": "all",
+    "created": 1745977714,
+    "updated": 1748310019,
+    "image_url": "https://picx.zhimg.com/v2-aadaf160e1a360ad997ceff62fd063a3_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 670,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 2,
+  "contributions": [
+    {
+      "id": 52794983,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "<p>将无益的内疚感转化为更理性、更有效能的行动和思维模式，以实现个人目标并更好地为世界做出贡献。</p>",
+        "is_following": false,
+        "url_token": "c_1900848986845319905",
+        "id": "c_1900848986845319905",
+        "articles_count": 38,
+        "accept_submission": false,
+        "title": "超越内疚",
+        "url": "https://api.zhihu.com/columns/c_1900848986845319905",
+        "comment_permission": "all",
+        "created": 1745977714,
+        "updated": 1748310019,
+        "image_url": "https://picx.zhimg.com/v2-aadaf160e1a360ad997ceff62fd063a3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 670,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 1956414343680878000,
-  "voteup_count": 49,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 54,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "无痛选择 - 来自知乎专栏「超越内疚」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/1956414343680878194 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1759226298,
-  "url": "https://api.zhihu.com/articles/1956414343680878194",
-  "comment_permission": "all",
-  "title": "无痛选择",
-  "image_width": 811,
-  "content": "<p data-pid=\"tCuFbSCY\">就拿在服务业工作的 Eve 来说吧。她的经理临到头了才告诉她，连个招呼都没打，说她明天必须去一个小镇支援一场活动。这地方离她家得开好几个小时车，而且她早上五点就得爬起来才能准时到。</p><p data-pid=\"FarkFfd5\">咱们再进一步假设，她跟经理的关系本来就有点悬。这么一来，她就面临一个选择：要么明天早上五点爬起来去上班，要么就丢掉这份工作。</p><p data-pid=\"TqeXIP8Z\">你可以想象 Eve 知道这事儿后的表情。少说也是一脸郁闷。她八成会很暴躁，满肚子不乐意，而且很可能整个晚上都在发泄、抱怨。她多半会费老大的劲儿让自己去<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/see-the-dark-world/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">合理化容忍这个局面</a><sup data-text=\"直面黑暗世界\" data-url=\"https://zhuanlan.zhihu.com/p/1954836809650505396\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，不停地劝自己：要么是早起也没那么糟，要么就是她经理这人太差劲了。</p><p data-pid=\"kgedFZjn\">我觉得，这种事挺常见的：你要是让人在烂和更烂的选项之间做选择，他们就会变得<b>暴躁</b>。</p><p data-pid=\"B-7TCmk3\">当人们发现，所有选项都没能达到自己心里那个「还算过得去」的底线时，就会感到<b>挫败</b>。</p><p data-pid=\"cCbM0Vwc\">我想，这在一定程度上解释了为什么面对不幸的处境时，人们普遍会启动一种合理化容忍的应对机制。当周遭的一切都让人难以忍受时，你会觉得<b>所有</b>选项都无法接受：于是，你选择强行让自己接受，直到至少有一个选项（也许是愤慨，也许是变得玩世不恭，又或者干脆什么都不改变）能够达到你心中那个可接受的底线。只有到这时，你才能采取行动。</p><p data-pid=\"oVAkqQ20\">对于一个身处黑暗世界（或困境）里的人来说，这种行为是要不得的。倘若你要在这样的世界中生存，那么至关重要的一点是：学会选出当下你能做的最好的那个选择，而根本不必去管这个选择本身（在绝对意义上）到底有多好。</p><p data-pid=\"FP9jIdzW\">当要在烂和更烂之间做选择时，你必须能够坦然地选择那个「烂」的。</p><hr/><p data-pid=\"LWbPyidy\">我认为，人们之所以在所有选项都达不到「可接受」的底线时感到懊恼，一个重要原因往往是他们没能看到还藏着第三条路，而且他们潜意识里可能也知道这一点。在这种情况下，这种挫败感甚至可能是<b>有用的</b>，如果它能促使他们更迫切地去寻找一个突破口的话。</p><p data-pid=\"Q7wkHphz\">此外，人们表现得慌乱，也往往能引来他人相助，而这额外的援手常常能让情况好转。</p><p data-pid=\"7sYvh26e\">所以，当面临烂和更烂之间的选择时，感到沮丧在许多情况下可能是一种有用的反应。（至少，对咱们的祖先而言，这种反应足够管用。）的确，当你只能在烂和更烂之间选时，首先要做的是<b>寻找第三种方案</b>，然后是<b>寻求帮助</b>。想办法走捷径，试试能不能用点歪招儿。如果可以，就搬救兵。</p><p data-pid=\"5EYMMRd3\">但是，一旦你查实了，摆在你面前的确实只有烂和更烂这两个选项，而且真的没有其他出路了——</p><p data-pid=\"q-IsoN9E\">那么，有能力选择那个「烂」的选项，而不为此感到痛苦，就很有用了。</p><hr/><p data-pid=\"kp680MmN\">要想能够选择当下最好的选项而不为此痛苦，第一步就是先弄明白这其中的区别。下次，当你发现自己因所有选项都达不到一个绝对的「还算过得去」的底线而感到慌乱时，不妨停下来，换个角度思考，转而去看看你各个行动选项的<b>相对</b>可接受程度。仅仅是知道这个区别，并在现实生活中留意它，就很可能足够了。</p><p data-pid=\"OLr1RI5A\">对我而言，要在选择时不那么痛苦，另一个有用的办法是：在现实中做决定前，先设想一个虚拟情境，问问自己「假如……会怎样？」比方说，我正努力消除极端贫困，但似乎我怎么做都不理想。我可能会对自己说：「想象一下，你生活在一个无论你怎么选都会导致糟糕结果的世界里；那时你会怎么做？」我可以改善这三个人的生活，但无论如何，还是会有一百万人死于可预防的疾病。或者我可以尝试改变政治走向，但无论如何，也还是会有一百万人死于可预防的疾病。或者我可以投入资金研究可预防的疾病，但无论如何，照样会有一百万人死于可预防的疾病。无论我做什么，至少都会有一百万人死于可预防的疾病。在<b>那样一个</b>世界里，我会怎么做呢？</p><p data-pid=\"8_cuKmMH\">答案显而易见，就是「哪个行动能拯救<b>最多</b>生命，就选哪个。」我有时发现，把现实中的问题先当成是假设性的，在<b>那种假设</b>里找到答案，然后再把这个答案应用到现实世界中——这样做会更容易些。</p><p data-pid=\"Lhvnn4_B\">在那些假设的世界里，当你没有第三条路可走，摆在你面前的所有行动都会导致糟糕的结果时，这些结果本身有多烂其实无关紧要。最好的选择依然非常明确：采取能带来最好结果的行动，并且毫不懊悔地去做。在假设的情境中，当你确信没有其他选择时，从一堆糟糕的选项里挑出那个最不烂的，这事儿想象起来就很容易了。事实上，很容易想象，做这件事的时候不会有任何抱怨或挣扎的冲动，反而只有一种在困境中尽力而为的沉毅决心。</p><p data-pid=\"XP-FlFHP\">那么，在现实生活中，不妨也这样做。留意一下，你是不是在用<b>应该</b>会怎样来衡量自己的选择；留意一下，你是不是在<b>渴望</b>的未来去衡量能够实现的未来。一旦察觉到这些，就把它看作一个调整思路的信号。重新审视一下你手头有哪些可行的选项，别再用某个客观的、理想化的标准去衡量它们，而是开始将这些选项互相比较。试着找找有没有歪招儿，有没有两全其美之外的第三种方案，有没有其他的出路……</p><p data-pid=\"9B7asHbY\">……然后呢，等你把所有这些（指前面提到的各种可能性）都琢磨透了，所有能选的方案也都仔细衡量过了之后，</p><p data-pid=\"1KNAXGfu\">只需采取当下能做的最好的行动。</p><p data-pid=\"F97xVMR6\">接受它，无需痛苦，不管它有多烂。</p><p data-pid=\"6TBXo0on\">以上就是要做的全部。</p><hr/><p data-pid=\"HLTlcjfN\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1954836809650505396\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">直面黑暗世界</a><p data-pid=\"X4AbJC9W\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1960275727002895369\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">卸下凝重指数计</a><hr/><blockquote data-pid=\"uRko5gmY\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">Specialz-OST</span>，校对 <span class=\"nolink\">Naiq</span><span class=\"nolink\">Xieaiia</span>、Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/choose-without-suffering/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Choose without suffering</a><br/>2015 年 9 月 27 日</blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://pic1.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 2,
-  "image_url": "https://picx.zhimg.com/v2-5bbc277fcb0685054f867df8f09b630f_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 7,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 7,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyNjM3MDY2NzkSEzE5NTY0MTQzNDM2ODA4NzgxOTQYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 51,
+      "down_vote_count": 2,
+      "like_count": 7,
+      "comment_count": 2,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 54,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-5bbc277fcb0685054f867df8f09b630f": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-5bbc277fcb0685054f867df8f09b630f": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-5bbc277fcb0685054f867df8f09b630f": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "3 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/40777220806?contentId=1956414343680878194&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 超越内疚",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1900848986845319905",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 超越内疚"
+      }
+    }
+  ],
+  "segment_infos": [
+    {
+      "pid": "oVAkqQ20",
+      "text": "对于一个身处黑暗世界（或困境）里的人来说，这种行为是要不得的。倘若你要在这样的世界中生存，那么至关重要的一点是：学会选出当下你能做的最好的那个选择，而根本不必去管这个选择本身（在绝对意义上）到底有多好。",
+      "marks": [
+        {
+          "start_index": 56,
+          "end_index": 101,
+          "seg_info": {
+            "seg_ids": [
+              "1956515412624774608"
+            ],
+            "is_like": false,
+            "like_count": 4,
+            "comment_count": 1,
+            "my_comment_count": 0,
+            "is_span": false
+          }
+        }
+      ]
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,9 +14,10 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
@@ -35,19 +37,21 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,38 +84,58 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 8,
   "content": "<p data-pid=\"YPn7HCQE\">可以，不过我建议先<b>把知识记在纸质的笔记本上</b>，再<b>将需要复习的要点放在 Anki 上制卡</b>。</p><p data-pid=\"mu4cCWv-\">为什么这样建议呢？</p><ul><li data-pid=\"Piyg0QL7\">Anki 的卡片形式难以像纸质笔记那样将知识点之间的关系明确的表现出来</li><li data-pid=\"uWRCbrPO\">并不是所有内容都值得用 Anki 记忆，有些内容需要先沉淀到笔记本上</li></ul><p data-pid=\"QV-sU57c\">另外，使用 Anki 最重要的不是各种插件、样式、参数，而是制卡+坚持。</p><p data-pid=\"UXSzsPXG\">关于如何制卡，参考我写的 Anki 高考 20 原则：</p><a href=\"https://zhuanlan.zhihu.com/p/52369009\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_180x120.jpg\" data-image-width=\"732\" data-image-height=\"271\" class=\"internal\">叶峻峣：Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》</a><p data-pid=\"O52jQkON\">如何坚持，那就看看和我一样用 Anki 备考的同学们是怎样做的吧：</p><a href=\"https://zhuanlan.zhihu.com/p/165108643\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-19066519c9dc3d91ecc404ef97d9ee34_180x120.jpg\" data-image-width=\"4474\" data-image-height=\"2975\" class=\"internal\">Shom：前2%考生中提升 800 名+？Anki 与我的提分之路</a><a href=\"https://zhuanlan.zhihu.com/p/161332209\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-e28788aa165bc57b76b0c33651d9d5d7_180x120.jpg\" data-image-width=\"2056\" data-image-height=\"1299\" class=\"internal\">静风：无法被复制的125天anki增分之路</a><a href=\"https://zhuanlan.zhihu.com/p/108313018\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">ACRL：我的anki高考自救之路</a><p data-pid=\"VDgQO3Sf\">最后，Anki 只是你的复习小助手，它能发挥多少作用，取决于你学习的质量，切忌将 Anki 当做决胜法宝，把时间全花在 Anki 上。你的时间很宝贵，合理分配时间才是最高效的做法。</p><p data-pid=\"XBLvhpgS\">我离高考结束已经三年多了，在这方面上很难再提供更多帮助了，希望后继有人吧。</p>",
   "content_need_truncated": false,
   "created_time": 1629080724,
   "excerpt": "可以，不过我建议先 把知识记在纸质的笔记本上，再将需要复习的要点放在 Anki 上制卡。为什么这样建议呢？ Anki 的卡片形式难以像纸质笔记那样将知识点之间的关系明确的表现出来并不是所有内容都值得用 Anki 记忆，有些内容需要先沉淀到笔记本上另外，使用 Anki 最重要的不是各种插件、样式、参数，而是制卡+坚持。 关于如何制卡，参考我写的 Anki 高考 20 原则： [文章: Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》]",
-  "id": 2063035456,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2063035456",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/108313018": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"我的anki高考自救之路\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/108313018\",\"desc\":\"157 赞同 · 44 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eACRL:\\u003c/a\\u003e 嗨，我是ACRL，原2019届高中毕业生，是使用anki备考高考的ankier。 今天，距离2020高考还有106天了，离100天还有6天。回想去年，这”100天“来得悄无声息，看到电子牌上的数字到100天的时候，内心毫无波澜。这好像不是一个高三应试者普遍具有的心态。我对于这一天，却完全没有任何感觉，因为我没有任何准备。 介绍一下我的备考情况。 我高一高二的时候，因为社交、环境不适应与一些个人问题，而陷入的较长时间的抑郁情绪。再此期…\",\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"108313018\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/161332209": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"无法被复制的125天anki增分之路\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/161332209\",\"desc\":\"178 赞同 · 33 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e静风:\\u003c/a\\u003e [图片] 2020届考生，省排1k3，不算太高。 但感谢anki，感谢理综，让我高考没有完全挂掉… 很抱歉使用略有夸大的标题！但除了希望你点进来看以外，我还希望通过标题传达一个信息： 任何人的成败经验都无法被复制。 任何人的成败经验都无法被复制！我完全可以像任意个学习问题下的高赞答案那样，打着“掌握了xx，你就可以多xx分”的幌子，向千万个无论是思维方式，亦或是能力水平都与自己不同的浏览者输出自己的一套，再附上一张录取通知…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-e28788aa165bc57b76b0c33651d9d5d7_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"161332209\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/165108643": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"前2%考生中提升 800 名+？Anki 与我的提分之路\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/165108643\",\"desc\":\"222 赞同 · 20 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eShom:\\u003c/a\\u003e 【多图预警】首先解释题目中排名数字。 在北京市3月的适应性测试中，作者分数为 666 分，排名为1114名；高考取得 689 分，排名为 289 名，提升 825 名，而 2020 年北京市参加高考的考生约为4.9万名。 [图片] 在高考中，因为 Anki 而巩固的知识点让我信心倍增；在高考外，通过 Anki 而培养的学习习惯让我受益终生。 Anki 的作用首先简单介绍 Anki 的作用。 Anki 通过间隔效应，主动回忆提升记忆的质量，通过数字化管理方便知识的整理。在…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-19066519c9dc3d91ecc404ef97d9ee34_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"165108643\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/52369009": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/52369009\",\"desc\":\"415 赞同 · 31 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 想要提高学习效率，加速学习？阅读本文来获得能力，克服来自「组织知识」的困难。 学习速度取决于我们组织学习材料的方式。如果组织的很好，那么对于相同的材料，我们就能学得又快又好，其效率（速度）上的差距是难以置信的。 下面的原则按照重要性排序，最前面的原则最易被不经意地违背，但是如果能够好好地遵守它们，将为我们带来极大的收益。 这里有一个前提：你在用「间隔重复」的方式进行学习和…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"52369009\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/108313018": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"我的anki高考自救之路\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/108313018\",\"desc\":\"191 赞同 · 44 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eACRL:\\u003c/a\\u003e 嗨，我是ACRL，原2019届高中毕业生，是使用anki备考高考的ankier。 今天，距离2020高考还有106天了，离100天还有6天。回想去年，这”100天“来得悄无声息，看到电子牌上的数字到100天的时候，内心毫无波澜。这好像不是一个高三应试者普遍具有的心态。我对于这一天，却完全没有任何感觉，因为我没有任何准备。 介绍一下我的备考情况。 我高一高二的时候，因为社交、环境不适应与一些个人问题，而陷入的较长时间的抑郁情绪。再此期…\",\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"108313018\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/161332209": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"无法被复制的125天anki增分之路\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/161332209\",\"desc\":\"236 赞同 · 33 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e静风:\\u003c/a\\u003e [图片] 2020届考生，省排1k3，不算太高。 但感谢anki，感谢理综，让我高考没有完全挂掉… 很抱歉使用略有夸大的标题！但除了希望你点进来看以外，我还希望通过标题传达一个信息： 任何人的成败经验都无法被复制。 任何人的成败经验都无法被复制！我完全可以像任意个学习问题下的高赞答案那样，打着“掌握了xx，你就可以多xx分”的幌子，向千万个无论是思维方式，亦或是能力水平都与自己不同的浏览者输出自己的一套，再附上一张录取通知…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-e28788aa165bc57b76b0c33651d9d5d7_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"161332209\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/165108643": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"前2%考生中提升 800 名+？Anki 与我的提分之路\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/165108643\",\"desc\":\"251 赞同 · 19 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eShom:\\u003c/a\\u003e 【多图预警】首先解释题目中排名数字。 在北京市3月的适应性测试中，作者分数为 666 分，排名为1114名；高考取得 689 分，排名为 289 名，提升 825 名，而 2020 年北京市参加高考的考生约为4.9万名。 [图片] 在高考中，因为 Anki 而巩固的知识点让我信心倍增；在高考外，通过 Anki 而培养的学习习惯让我受益终生。 Anki 的作用首先简单介绍 Anki 的作用。 Anki 通过间隔效应，主动回忆提升记忆的质量，通过数字化管理方便知识的整理。在…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-19066519c9dc3d91ecc404ef97d9ee34_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"165108643\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/52369009": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/52369009\",\"desc\":\"500 赞同 · 33 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 想要提高学习效率，加速学习？阅读本文来获得能力，克服来自「组织知识」的困难。 学习速度取决于我们组织学习材料的方式。如果组织的很好，那么对于相同的材料，我们就能学得又快又好，其效率（速度）上的差距是难以置信的。 下面的原则按照重要性排序，最前面的原则最易被不经意地违背，但是如果能够好好地遵守它们，将为我们带来极大的收益。 这里有一个前提：你在用「间隔重复」的方式进行学习和…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"52369009\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/15015069071?contentId=2063035456&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1627475498,
     "detail": "<p>高中生可以用anki作为系统的笔记归纳本吗（不考虑手机限制）? <a class=\"member_mention\" href=\"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0\" data-hash=\"4c592f496dc33822b560b382907ff1d0\" data-hovercard=\"p$b$4c592f496dc33822b560b382907ff1d0\">@叶峻峣</a> </p>",
-    "id": 475653741,
+    "id": "475653741",
     "question_type": "normal",
     "relationship": {},
     "title": "高中生可以用anki作为系统的笔记归纳本吗（不考虑手机限制）?",
     "type": "question",
     "updated_time": 1627475498,
-    "url": "https://api.zhihu.com/questions/475653741"
+    "url": "https://www.zhihu.com/api/v4/questions/475653741"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 24
+  "updated_time": 1629080724,
+  "url": "https://www.zhihu.com/api/v4/answers/2063035456",
+  "voteup_count": 41
 }

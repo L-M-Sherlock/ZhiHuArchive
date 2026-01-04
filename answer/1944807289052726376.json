@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -40,14 +41,14 @@
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
           "badge_status": "passed",
@@ -83,7 +84,7 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
@@ -99,9 +100,20 @@
   "content_need_truncated": false,
   "created_time": 1756458190,
   "excerpt": "怎么判断这个教材是否高质量呢？会听取学生的反馈吗？这个世界上并不缺垃圾教材，怎么保证集全国教育界之力编写的这一套统一教材会是高质量教材，而不是又一摞废纸？ 我建议先把编教材这个理念先搞清楚，建立一套关于编写教材的理论，并通过实验来检验它，而不是动不动就集中力量办大事。国足不也是举全国之力了吗？办成什么样了？泰国队输完输越南，再输缅甸，接下来没人输了。 以下内容摘自 @Thoughts Memo 汉化组的译文《为什…",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "1944807289052726376",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/33457254963?contentId=1944807289052726376&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1744040799,
     "detail": "<p>以中学理科教材为例：</p><p>生动清晰地直观讲授知识概念，适时总结归纳+引导学生思考并适时点拨，帮助其建立体系化思维方法以满足考纲题型要求+足够高质量例题与习题并附详解，培养训练学科素养及能力+所有实验内容以漫画展现，缓解落后地区器材缺乏</p><p>换言之，就是高水平教师讲义+高质量学生笔记+高质量习题集的整合大全</p>",
@@ -111,11 +123,13 @@
     "title": "集全国教育界之力编写一套统一的高质量教材，是否有助于教育平等?",
     "type": "question",
     "updated_time": 1744040799,
-    "url": "https://api.zhihu.com/questions/1892724977742095245"
+    "url": "https://www.zhihu.com/api/v4/questions/1892724977742095245"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 45
+  "updated_time": 1756458190,
+  "url": "https://www.zhihu.com/api/v4/answers/1944807289052726376",
+  "voteup_count": 47
 }

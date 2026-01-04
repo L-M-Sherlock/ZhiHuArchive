@@ -1,80 +1,419 @@
 {
-  "status": 0,
-  "updated": 1760589187,
+  "id": "1962132424247981610",
+  "title": "只需为自己定位",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/1962132424247981610",
+  "image_url": "https://pic1.zhimg.com/v2-5bbc277fcb0685054f867df8f09b630f_720w.jpg?source=172ae18b",
+  "title_image": "https://pic1.zhimg.com/v2-5bbc277fcb0685054f867df8f09b630f_720w.jpg?source=172ae18b",
+  "excerpt": "想象我向你提出这样的一个赌局：由我掷出一个公平的十面骰子。如果掷出 1-9，你赢得 100 万美元；如果掷出 0，你输 1 万美元。（如果你比普通人更富或更穷，可以相应地调整金额，让赢钱时足够兴奋，输钱时虽然心疼但还能承受。）假设你接受了这个赌局，毕竟…",
+  "created": 1760589186,
+  "updated": 1761966720,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://pic1.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "想象我向你提出这样的一个赌局：由我掷出一个公平的十面骰子。如果掷出 1-9，你赢得…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 4000,
+  "image_height": 811,
+  "content": "<p data-pid=\"WfZZ_LiE\">想象我向你提出这样的一个赌局：由我掷出一个公平的十面骰子。如果掷出 1-9，你赢得 100 万美元；如果掷出 0，你输 1 万美元。（如果你比普通人更富或更穷，可以相应地调整金额，让赢钱时足够兴奋，输钱时虽然心疼但还能承受。）假设你接受了这个赌局，毕竟你的胜算很大。现在想象我开始掷骰子，你看着它滚啊滚啊滚，直到开始慢慢稳定下来，然后它停在了……0。</p><p data-pid=\"pQ8XZYqZ\">想象一下看到 0 时的那种沮丧感，意识到你必须给我 1 万美元。也许你突然感到不舒服。也许你不愿意迎接我的目光。也许你很生气，或胃有些不舒服。也许你内心的某部分正在抗拒现实，试图否认它，希望时间能够<b>倒流</b>。</p><hr/><p data-pid=\"QoPky3EM\">现在想象第二个赌局。这次，设想一个已经弄清楚克隆和人体冷冻和太空旅行技术的世界。赌局运作流程如下：我让你进入休眠状态，然后我将你分成十个相同的副本（没有哪一个比其他更有资格称自己就是本体），然后让它们全部进入冷冻状态。你的财产被复制十份，十个你被分别送上十艘飞船，然后飞向十个不同的（已经殖民的）行星。在其中九个行星上，当地的你被安置在蓝色墙壁的房间里，并得到你的财产外加 100 万美元。在剩下的一个行星上，当地的你被安置在红色墙壁的房间里，财产被扣除 1 万美元。然后所有十个你都会被唤醒。这样，你的九个副本获得 100 万美元，一个副本损失 1 万美元。</p><p data-pid=\"KD7bJ4i2\">假设你理解并答应了这个赌局。现在，你进入了休眠，被分成了十个副本，进入冷冻状态，被送到十个行星，然后从冷冻中苏醒。你慢慢醒来，还没睁开眼。你知道有九个你在蓝色房间醒来并发现自己变得有钱了，一个你在红色房间醒来并发现自己变穷了，而你不知道你是哪个你。你睁开眼睛，墙壁是……红色的。</p><p data-pid=\"C-4L-5bw\">从某种意义上说，你这次输掉的赌局和第一个的类型是相同的。但是你的感觉可能截然不同。在第二个赌局中，你可能不会有那种沮丧感和想要抗拒现实的冲动，而只是简单地点点头，说：「噢，我是红色房间里的那个我。」</p><p data-pid=\"7zqA8nqD\">你不会把红色墙壁当作现实没如你所愿发展的坏消息，而是只把它当作一个简单的标志，让你知道<b>你在哪里</b>。你不会感到绝望，而是简单地觉得自己搞清楚了自己是哪一个你。</p><hr/><p data-pid=\"pyL7p4Du\">大多数人似乎习惯把他们观察到的大多数现实，当作是第一个赌局那样去理解：他们把观察到的结果当作是关于宇宙是如何<b>变成这样</b>的信息，而这结果可能比他们希望的要糟糕得多。他们感到绝望、抗拒，或觉得被不公平的宇宙所伤害。他们内心的一部分试图<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/see-the-dark-world/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">合理化容忍</a><sup data-text=\"直面黑暗世界\" data-url=\"https://zhuanlan.zhihu.com/p/1954836809650505396\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，一部分则逃避面对现实，等等。</p><p data-pid=\"HLU0hZs3\">还有另一种看待观察结果的方式。那就是第二个赌局的那种：仅仅把观察结果当作关于<b>你在哪里</b>的信息。</p><p data-pid=\"H-rM0mqk\">一方面想象上面描述的第一个赌局。现在再想象和这个同样的赌局，不同的是，这次使用一个特殊的骰子，它会生成你的十个副本（在多重宇宙的不同分支中，除了这个骰子掷出的点数外其他都是相同的，这些宇宙永不相互影响），其中九个你会赢得 100 万美元，一个会输去 1 万美元。</p><p data-pid=\"E9KkavwX\">注意，输掉前一个赌局的人可能会试图对抗现实，而输掉后一个赌局的人更能轻松地说：「哈，我猜我就是在 0 号分支里的那个人。原来这就是让十个多重宇宙分支中的九个都是富有的我所要付出的代价，现在我来承担它。」</p><p data-pid=\"0_P1Hgq2\">但这两个赌局差不多是相同的。为什么让人感受会如此不同？</p><p data-pid=\"T0sCqsmD\">要我说，<b>永远</b>把你的遇到的赌局当作后一种。停止与坏消息做斗争。不要把它当作关于现实如何发展的坏消息，而要像对待关于<b>你在多重宇宙中的哪里</b>的信息一样来对待它。试着<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/be-a-new-homunculus/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">更新自我</a><sup data-text=\"更新自我\" data-url=\"https://zhuanlan.zhihu.com/p/1934180803157395345\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。环顾下四周，搞清楚你刚刚降落在哪里，不管过去的你认为应该降落在哪。通常，这个地方会比过去的你预想的更糟，但这对你接下来要做什么几乎没有影响（除了调整你当前的预期，让未来的你少犯些错）。</p><p data-pid=\"SlyErdPC\">想象你是一个刚刚降落在多重宇宙某个分支的新小人，那里的情况很糟糕——就在你这个新小人传送过来之前，也许就失去了社会地位，或做出了一个效果比预期更差的选择。发现自己在这样一个不舒服的地方！你接下来会做什么？</p><p data-pid=\"GPGuZzdZ\">你会不会马上大发雷霆？那有什么意义？你刚刚传送到多重宇宙的这个部分；与过去抗争怎么能帮到你？这就是<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/detach-the-grim-o-meter/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">卸下凝重指数计</a><sup data-text=\"卸下凝重指数计\" data-url=\"https://zhuanlan.zhihu.com/p/1960275727002895369\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>的意义所在：如果你发现自己在多重宇宙的形式严峻的那部分，你会做什么？你会整天愁眉苦脸吗？不会？因为那听起来很傻？那么在这里你也没必要这样做！</p><p data-pid=\"EHRwndKe\">你的观察结果不是世界充满了极其不公平的厄运的讯息。你的观察结果只是关于<b>你在哪里</b>的指示器。它们是你定位自己所需要的信息。</p><p data-pid=\"JimpB-r4\">剧透一下：你现在正位于多重宇宙中相当不稳定的部分，在这里，一切众生在受苦和死去，而未来也岌岌可危。我觉得这个地方值得收拾一下。但不要为糟糕的现状而痛苦！想想：如果你<b>真的</b>被传送到多重宇宙的危险的分支，到达后你会做什么？你会确保无论如何都要过得愉快吗？你会尽你所能提供帮助吗？那你还是很幸运的！你<b>的确</b>刚刚到达了多重宇宙中危险的那部分，不过那些都是你在这里可以做的事。</p><p data-pid=\"YGMyVz79\">当你收到坏消息时，不要为此痛苦。它不是不公平的，不是在下判决，不是代表一切都糟糕的信号，也不会让未来变得更糟。它只是让你知道，你在哪里。</p><p data-pid=\"aZd9viIl\">最近，你来到了与我所在的多重宇宙的同一部分。就多重宇宙的其他部分来看，这里还是相当不错的：它适合生命居住，这里的情况比我们时间线上许多过去的时间点都要好。尽管如此，它确实看起来有是有些危险，有些地方明显还要收拾一番。</p><p data-pid=\"oATlyYJC\">所以，咱们开始行动吧！</p><hr/><p data-pid=\"HLTlcjfN\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1960275727002895369\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">卸下凝重指数计</a><p data-pid=\"XDu3v0lo\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1967550776080590264\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">没有借口</a><hr/><blockquote data-pid=\"_Trk4PFz\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">HyFren</span>，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/simply-locate-yourself/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Simply locate yourself</a><br/>2015 年 10 月 11 日</blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19553199",
+      "type": "topic",
+      "id": "19553199",
+      "name": "导航"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/20030532",
+      "type": "topic",
+      "id": "20030532",
+      "name": "平行宇宙"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19574610",
+      "type": "topic",
+      "id": "19574610",
+      "name": "概率"
+    }
+  ],
+  "voteup_count": 90,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "<p>将无益的内疚感转化为更理性、更有效能的行动和思维模式，以实现个人目标并更好地为世界做出贡献。</p>",
+    "is_following": false,
+    "url_token": "c_1900848986845319905",
+    "id": "c_1900848986845319905",
+    "articles_count": 38,
+    "accept_submission": false,
+    "title": "超越内疚",
+    "url": "https://api.zhihu.com/columns/c_1900848986845319905",
+    "comment_permission": "all",
+    "created": 1745977714,
+    "updated": 1748310019,
+    "image_url": "https://pic1.zhimg.com/v2-aadaf160e1a360ad997ceff62fd063a3_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 670,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 14,
+  "contributions": [
+    {
+      "id": 52868098,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "<p>将无益的内疚感转化为更理性、更有效能的行动和思维模式，以实现个人目标并更好地为世界做出贡献。</p>",
+        "is_following": false,
+        "url_token": "c_1900848986845319905",
+        "id": "c_1900848986845319905",
+        "articles_count": 38,
+        "accept_submission": false,
+        "title": "超越内疚",
+        "url": "https://api.zhihu.com/columns/c_1900848986845319905",
+        "comment_permission": "all",
+        "created": 1745977714,
+        "updated": 1748310019,
+        "image_url": "https://pic1.zhimg.com/v2-aadaf160e1a360ad997ceff62fd063a3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 670,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 1962132424247981600,
-  "voteup_count": 79,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 55,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "只需为自己定位 - 来自知乎专栏「超越内疚」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/1962132424247981610 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1760589186,
-  "url": "https://api.zhihu.com/articles/1962132424247981610",
-  "comment_permission": "all",
-  "title": "只需为自己定位",
-  "image_width": 811,
-  "content": "<p data-pid=\"GP9_Wxtc\">想象我向你提出这样的一个赌局：由我掷出一个公平的十面骰子。如果掷出 1-9，你赢得 100 万美元；如果掷出 0，你输 1 万美元。（如果你比普通人更富或更穷，可以相应地调整金额，让赢钱时足够兴奋，输钱时虽然心疼但还能承受。）假设你接受了这个赌局，毕竟你的胜算很大。现在想象我开始掷骰子，你看着它滚啊滚啊滚，直到开始慢慢稳定下来，然后它停在了……0。</p><p data-pid=\"gSk_VzLq\">想象一下看到 0 时的那种沮丧感，意识到你必须给我 1 万美元。也许你突然感到不舒服。也许你不愿意迎接我的目光。也许你很生气，或胃有些不舒服。也许你内心的某部分正在抗拒现实，试图否认它，希望时间能够<b>倒流</b>。</p><hr/><p data-pid=\"2MqNOhuK\">现在想象第二个赌局。这次，设想一个已经弄清楚克隆和人体冷冻和太空旅行技术的世界。赌局运作流程如下：我让你进入休眠状态，然后我将你分成十个相同的副本（没有哪一个比其他更有资格称自己就是本体），然后让它们全部进入冷冻状态。你的财产被复制十份，十个你被分别送上十艘飞船，然后飞向十个不同的（已经殖民的）行星。在其中九个行星上，当地的你被安置在蓝色墙壁的房间里，并得到你的财产外加 100 万美元。在剩下的一个行星上，当地的你被安置在红色墙壁的房间里，财产被扣除 1 万美元。然后所有十个你都会被唤醒。这样，你的九个副本获得 100 万美元，一个副本损失 1 万美元。</p><p data-pid=\"m1X8_g2w\">假设你理解并答应了这个赌局。现在，你进入了休眠，被分成了十个副本，进入冷冻状态，被送到十个行星，然后从冷冻中苏醒。你慢慢醒来，还没睁开眼。你知道有九个你在蓝色房间醒来并发现自己变得有钱了，一个你在红色房间醒来并发现自己变穷了，而你不知道你是哪个你。你睁开眼睛，墙壁是……红色的。</p><p data-pid=\"AYHKnrna\">从某种意义上说，你这次输掉的赌局和第一个的类型是相同的。但是你的感觉可能截然不同。在第二个赌局中，你可能不会有那种沮丧感和想要抗拒现实的冲动，而只是简单地点点头，说：「噢，我是红色房间里的那个我。」</p><p data-pid=\"OEHxA1r6\">你不会把红色墙壁当作现实没如你所愿发展的坏消息，而是只把它当作一个简单的标志，让你知道<b>你在哪里</b>。你不会感到绝望，而是简单地觉得自己搞清楚了自己是哪一个你。</p><hr/><p data-pid=\"RBxRrJ0H\">大多数人似乎习惯把他们观察到的大多数现实，当作是第一个赌局那样去理解：他们把观察到的结果当作是关于宇宙是如何<b>变成这样</b>的信息，而这结果可能比他们希望的要糟糕得多。他们感到绝望、抗拒，或觉得被不公平的宇宙所伤害。他们内心的一部分试图<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/see-the-dark-world/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">合理化容忍</a><sup data-text=\"直面黑暗世界\" data-url=\"https://zhuanlan.zhihu.com/p/1954836809650505396\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，一部分则逃避面对现实，等等。</p><p data-pid=\"gQXmYfqi\">还有另一种看待观察结果的方式。那就是第二个赌局的那种：仅仅把观察结果当作关于<b>你在哪里</b>的信息。</p><p data-pid=\"KEZCg3Kb\">一方面想象上面描述的第一个赌局。现在再想象和这个同样的赌局，不同的是，这次使用一个特殊的骰子，它会生成你的十个副本（在多重宇宙的不同分支中，除了这个骰子掷出的点数外其他都是相同的，这些宇宙永不相互影响），其中九个你会赢得 100 万美元，一个会输去 1 万美元。</p><p data-pid=\"melFof5I\">注意，输掉前一个赌局的人可能会试图对抗现实，而输掉后一个赌局的人更能轻松地说：「哈，我猜我就是在 0 号分支里的那个人。原来这就是让十个多重宇宙分支中的九个都是富有的我所要付出的代价，现在我来承担它。」</p><p data-pid=\"SaP9nQDP\">但这两个赌局差不多是相同的。为什么让人感受会如此不同？</p><p data-pid=\"Dc8SI4Ek\">要我说，<b>永远</b>把你的遇到的赌局当作后一种。停止与坏消息做斗争。不要把它当作关于现实如何发展的坏消息，而要像对待关于<b>你在多重宇宙中的哪里</b>的信息一样来对待它。试着<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/be-a-new-homunculus/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">更新自我</a><sup data-text=\"更新自我\" data-url=\"https://zhuanlan.zhihu.com/p/1934180803157395345\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。环顾下四周，搞清楚你刚刚降落在哪里，不管过去的你认为应该降落在哪。通常，这个地方会比过去的你预想的更糟，但这对你接下来要做什么几乎没有影响（除了调整你当前的预期，让未来的你少犯些错）。</p><p data-pid=\"MXlDk4N6\">想象你是一个刚刚降落在多重宇宙某个分支的新小人，那里的情况很糟糕——就在你这个新小人传送过来之前，也许就失去了社会地位，或做出了一个效果比预期更差的选择。发现自己在这样一个不舒服的地方！你接下来会做什么？</p><p data-pid=\"4y2FGOEi\">你会不会马上大发雷霆？那有什么意义？你刚刚传送到多重宇宙的这个部分；与过去抗争怎么能帮到你？这就是<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/detach-the-grim-o-meter/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">卸下凝重指数计</a><sup data-text=\"卸下凝重指数计\" data-url=\"https://zhuanlan.zhihu.com/p/1960275727002895369\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>的意义所在：如果你发现自己在多重宇宙的形式严峻的那部分，你会做什么？你会整天愁眉苦脸吗？不会？因为那听起来很傻？那么在这里你也没必要这样做！</p><p data-pid=\"0ryvtB2p\">你的观察结果不是世界充满了极其不公平的厄运的讯息。你的观察结果只是关于<b>你在哪里</b>的指示器。它们是你定位自己所需要的信息。</p><p data-pid=\"-4bVDQlI\">剧透一下：你现在正位于多重宇宙中相当不稳定的部分，在这里，一切众生在受苦和死去，而未来也岌岌可危。我觉得这个地方值得收拾一下。但不要为糟糕的现状而痛苦！想想：如果你<b>真的</b>被传送到多重宇宙的危险的分支，到达后你会做什么？你会确保无论如何都要过得愉快吗？你会尽你所能提供帮助吗？那你还是很幸运的！你<b>的确</b>刚刚到达了多重宇宙中危险的那部分，不过那些都是你在这里可以做的事。</p><p data-pid=\"6e38OSCK\">当你收到坏消息时，不要为此痛苦。它不是不公平的，不是在下判决，不是代表一切都糟糕的信号，也不会让未来变得更糟。它只是让你知道，你在哪里。</p><p data-pid=\"AncP4rd0\">最近，你来到了与我所在的多重宇宙的同一部分。就多重宇宙的其他部分来看，这里还是相当不错的：它适合生命居住，这里的情况比我们时间线上许多过去的时间点都要好。尽管如此，它确实看起来有是有些危险，有些地方明显还要收拾一番。</p><p data-pid=\"R8Lluwfb\">所以，咱们开始行动吧！</p><hr/><p data-pid=\"HLTlcjfN\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1960275727002895369\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">卸下凝重指数计</a><p data-pid=\"YCb62zSI\">下一篇：待翻译</p><hr/><blockquote data-pid=\"_Trk4PFz\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">HyFren</span>，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/simply-locate-yourself/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Simply locate yourself</a><br/>2015 年 10 月 11 日</blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 13,
-  "image_url": "https://picx.zhimg.com/v2-5bbc277fcb0685054f867df8f09b630f_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 3,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 3,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyNjQyOTYzMDUSEzE5NjIxMzI0MjQyNDc5ODE2MTAYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 90,
+      "down_vote_count": 1,
+      "like_count": 3,
+      "comment_count": 14,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 55,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-5bbc277fcb0685054f867df8f09b630f": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-5bbc277fcb0685054f867df8f09b630f": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-5bbc277fcb0685054f867df8f09b630f": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "4 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/44557157447?contentId=1962132424247981610&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 超越内疚",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1900848986845319905",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 超越内疚"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

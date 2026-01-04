@@ -1,80 +1,445 @@
 {
-  "status": 0,
-  "updated": 1713842107,
+  "id": "419172087",
+  "title": "人类认知中的「组块」",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/419172087",
+  "image_url": "https://pica.zhimg.com/v2-73fe42b90c7fbcf19c2ec682a0b888b3_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-73fe42b90c7fbcf19c2ec682a0b888b3_720w.jpg?source=172ae18b",
+  "excerpt": "在考虑人类的信息处理能力时， <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6Pe8LaXhDBjjiiVX1Y2WJquaZyRQPTJB3y2K\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">工作记忆容量一般与项目复杂性无关</a>[1]，因此我们必须区分正在处理的记忆内容的<b>数量</b>（一个<b>“块”</b>，由<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4omDTWHCLoqW7PLpN2tiW63QzoYN5tqxPT9B\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">工作记忆大小</a>限制）和每块记忆内容的<b>复杂性</b>（各自受<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/ziwhFzgTbrS2uxWEkCvoJzQrDzRz5EAWWZFy\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">绝对判断广度</a>[2]限制）。米勒写道（1956 年，第 92 页）： 我已经习惯了…",
+  "created": 1633690027,
+  "updated": 1756433764,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "在考虑人类的信息处理能力时，工作记忆容量一般与项目复杂性无关 [1]，因此我们必须…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 941,
+  "image_height": 666,
+  "content": "<p data-pid=\"FGrpigt6\">在考虑人类的信息处理能力时，<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6Pe8LaXhDBjjiiVX1Y2WJquaZyRQPTJB3y2K\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">工作记忆容量一般与项目复杂性无关</a><sup data-text=\"工作记忆容量一般与项目复杂性无关\" data-url=\"https://zhuanlan.zhihu.com/p/465252781\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，因此我们必须区分正在处理的记忆内容的<b>数量</b>（一个<b>“块”</b>，由<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4omDTWHCLoqW7PLpN2tiW63QzoYN5tqxPT9B\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">工作记忆大小</a>限制）和每块记忆内容的<b>复杂性</b>（各自受<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/ziwhFzgTbrS2uxWEkCvoJzQrDzRz5EAWWZFy\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">绝对判断广度</a><sup data-text=\"绝对判断广度 \" data-url=\"https://zhuanlan.zhihu.com/p/535214087\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>限制）。</p><p data-pid=\"yxrJ45cl\">米勒写道（1956 年，第 92 页）：</p><blockquote data-pid=\"-WvMfIB2\"> 我已经习惯了区分<b>比特</b>信息和<b>组块</b>信息。那么我可以说，对于绝对判断来说，信息的比特数是恒定的，而对于瞬时记忆来说，信息的组块数是恒定的。</blockquote><p data-pid=\"9Hhl6RQ_\">重要的是：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6ZFtY8UGPaF9uofckBB7HwK62pssJAUg8C91\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">人类信道容量随着每组块比特的增加而增加</a><sup data-text=\"人类的信道容量随着每个组块的比特量的增加而增加\" data-url=\"https://zhuanlan.zhihu.com/p/462011439\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>和<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7Xn37Ji3L6J33QHSVgaKyrpj5sm6spcZ7gH7\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">重新编码可以增加组块的大小</a><sup data-text=\"重新编码可以提升组块大小\" data-url=\"https://zhuanlan.zhihu.com/p/432809617\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>。</p><p data-pid=\"Y3fQZJkY\">特别是在更复杂的重新编码方案中，组块可以表示相当抽象的属性：例如，音乐家在即兴创作时考虑「张力」，或者国际象棋选手考虑「力量线」。</p><hr/><h2>参考文献</h2><p data-pid=\"J23Q3zTl\">Miller, G. A. (1956). 神奇的数字 7 ± 2：我们处理信息能力的一些限制。Psychological Review, 63(2), 81-97. <a href=\"https://link.zhihu.com/?target=https%3A//doi.org/10.1037/h0043158\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">doi.org/10.1037/h004315</span><span class=\"invisible\">8</span><span class=\"ellipsis\"></span></a> <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zjfsd9pyxWQAF3HU5k7RAXhRjJBqtMEGKK27\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Miller - The magical number seven, plus or minus two</a></p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"EZ48bKvn\"><a href=\"https://zhuanlan.zhihu.com/p/402333898\" class=\"internal\" target=\"_blank\">学习越来越复杂的概念可能相当于形成更大的有效组块</a></li><li data-pid=\"KOXqsIof\"><a href=\"https://zhuanlan.zhihu.com/p/397245681\" class=\"internal\" target=\"_blank\">写好间隔重复记忆卡片很难</a></li><li data-pid=\"j0w522SZ\"><a href=\"https://zhuanlan.zhihu.com/p/400053434\" class=\"internal\" target=\"_blank\">间隔重复记忆卡片通常应聚焦于一个原子化单元</a></li><li data-pid=\"0fwFVfg2\"><a href=\"https://zhuanlan.zhihu.com/p/462011439\" class=\"internal\" target=\"_blank\">人类的信道容量随着每个组块的比特量的增加而增加</a></li><li data-pid=\"Jm29J-43\"><a href=\"https://zhuanlan.zhihu.com/p/465252781\" class=\"internal\" target=\"_blank\">工作记忆容量一般与项目复杂性无关</a></li><li data-pid=\"vP1AnisK\"><a href=\"https://zhuanlan.zhihu.com/p/467156331\" class=\"internal\" target=\"_blank\">专业需要建立复杂精细的组块重编码架构</a></li><li data-pid=\"ywdyOraP\"><a href=\"https://zhuanlan.zhihu.com/p/694032460\" class=\"internal\" target=\"_blank\">用间隔重复系统来看穿数学概念 - Michael Nielsen</a></li><li data-pid=\"28Z3YPSf\"><a href=\"https://zhuanlan.zhihu.com/p/1915475356250514194\" class=\"internal\" target=\"_blank\">解题示例效应</a></li><li data-pid=\"2eh0rSzW\"><a href=\"https://zhuanlan.zhihu.com/p/1943815645885108370\" class=\"internal\" target=\"_blank\">Klein 等人 (2007)：《意义建构的数据-框架理论》</a></li></ul><h2>声明</h2><p data-pid=\"QqS_aI04\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"bO2wu4WL\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z75gWU7QuiB5L3x6zFGLGQk3fVkuVJ6eKuEwP\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">“Chunks” in human cognition</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19573247",
+      "type": "topic",
+      "id": "19573247",
+      "name": "认知"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/20130589",
+      "type": "topic",
+      "id": "20130589",
+      "name": "学习之道（奥克利 著）（书籍）"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19563807",
+      "type": "topic",
+      "id": "19563807",
+      "name": "记忆"
+    }
+  ],
+  "voteup_count": 19,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "<p>关于学习的元知识，以及教育、培训的理论和方法</p>",
+    "is_following": false,
+    "url_token": "c_1525846506753658880",
+    "id": "c_1525846506753658880",
+    "articles_count": 318,
+    "accept_submission": true,
+    "title": "认知基石 & 教育培训",
+    "url": "https://api.zhihu.com/columns/c_1525846506753658880",
+    "comment_permission": "all",
+    "created": 1656570156,
+    "updated": 1751877273,
+    "image_url": "https://pic1.zhimg.com/v2-c797eef62aec0151690f8d495787f6dc_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 486,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 0,
+  "contributions": [
+    {
+      "id": 41362984,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "<p>关于学习的元知识，以及教育、培训的理论和方法</p>",
+        "is_following": false,
+        "url_token": "c_1525846506753658880",
+        "id": "c_1525846506753658880",
+        "articles_count": 318,
+        "accept_submission": true,
+        "title": "认知基石 & 教育培训",
+        "url": "https://api.zhihu.com/columns/c_1525846506753658880",
+        "comment_permission": "all",
+        "created": 1656570156,
+        "updated": 1751877273,
+        "image_url": "https://pic1.zhimg.com/v2-c797eef62aec0151690f8d495787f6dc_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 486,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 419172087,
-  "voteup_count": 17,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 20,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "人类认知中的「组块」 - 来自知乎专栏「认知基石 &amp; 教育培训」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/419172087 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1633690027,
-  "url": "https://api.zhihu.com/articles/419172087",
-  "comment_permission": "all",
-  "title": "人类认知中的「组块」",
-  "image_width": 666,
-  "content": "<p data-pid=\"pxcPQ9qA\">在考虑人类的信息处理能力时，<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6Pe8LaXhDBjjiiVX1Y2WJquaZyRQPTJB3y2K\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">工作记忆容量一般与项目复杂性无关</a><sup data-text=\"工作记忆容量一般与项目复杂性无关\" data-url=\"https://zhuanlan.zhihu.com/p/465252781\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，因此我们必须区分正在处理的记忆内容的<b>数量</b>（一个<b>“块”</b>，由<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4omDTWHCLoqW7PLpN2tiW63QzoYN5tqxPT9B\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">工作记忆大小</a>限制）和每块记忆内容的<b>复杂性</b>（各自受<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/ziwhFzgTbrS2uxWEkCvoJzQrDzRz5EAWWZFy\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">绝对判断广度</a><sup data-text=\"绝对判断广度 \" data-url=\"https://zhuanlan.zhihu.com/p/535214087\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>限制）。</p><p data-pid=\"E_kK96Nd\">米勒写道（1956 年，第 92 页）：</p><blockquote data-pid=\"5PpPBhru\"> 我已经习惯了区分<b>比特</b>信息和<b>组块</b>信息。那么我可以说，对于绝对判断来说，信息的比特数是恒定的，而对于瞬时记忆来说，信息的组块数是恒定的。</blockquote><p data-pid=\"A3FCQa6-\">重要的是：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6ZFtY8UGPaF9uofckBB7HwK62pssJAUg8C91\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">人类信道容量随着每组块比特的增加而增加</a><sup data-text=\"人类的信道容量随着每个组块的比特量的增加而增加\" data-url=\"https://zhuanlan.zhihu.com/p/462011439\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>和<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7Xn37Ji3L6J33QHSVgaKyrpj5sm6spcZ7gH7\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">重新编码可以增加组块的大小</a><sup data-text=\"重新编码可以提升组块大小\" data-url=\"https://zhuanlan.zhihu.com/p/432809617\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>。</p><p data-pid=\"4hyGOzm0\">特别是在更复杂的重新编码方案中，组块可以表示相当抽象的属性：例如，音乐家在即兴创作时考虑「张力」，或者国际象棋选手考虑「力量线」。</p><hr/><h2>参考文献</h2><p data-pid=\"ZgbYx7hp\">Miller, G. A. (1956). 神奇的数字 7 ± 2：我们处理信息能力的一些限制。Psychological Review, 63(2), 81-97. <a href=\"https://link.zhihu.com/?target=https%3A//doi.org/10.1037/h0043158\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">doi.org/10.1037/h004315</span><span class=\"invisible\">8</span><span class=\"ellipsis\"></span></a> <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zjfsd9pyxWQAF3HU5k7RAXhRjJBqtMEGKK27\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Miller - The magical number seven, plus or minus two</a></p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"Y2UuUV8b\"><a href=\"https://zhuanlan.zhihu.com/p/402333898\" class=\"internal\">学习越来越复杂的概念可能相当于形成更大的有效组块</a></li><li data-pid=\"8XRQqr7T\"><a href=\"https://zhuanlan.zhihu.com/p/397245681\" class=\"internal\">写好间隔重复记忆卡片很难</a></li><li data-pid=\"WY3Xo96j\"><a href=\"https://zhuanlan.zhihu.com/p/400053434\" class=\"internal\">间隔重复记忆卡片通常应聚焦于一个原子化单元</a></li><li data-pid=\"yJPlZeJV\"><a href=\"https://zhuanlan.zhihu.com/p/462011439\" class=\"internal\">人类的信道容量随着每个组块的比特量的增加而增加</a></li><li data-pid=\"J26LG5Sk\"><a href=\"https://zhuanlan.zhihu.com/p/465252781\" class=\"internal\">工作记忆容量一般与项目复杂性无关</a></li><li data-pid=\"myL_nGUS\"><a href=\"https://zhuanlan.zhihu.com/p/467156331\" class=\"internal\">专业需要建立复杂精细的组块重编码架构</a></li><li data-pid=\"febSp-jr\"><a href=\"https://zhuanlan.zhihu.com/p/694032460\" class=\"internal\">用间隔重复系统来看穿数学概念 - Michael Nielsen</a></li></ul><h2>声明</h2><p data-pid=\"60CSjX7E\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"4efDDxso\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z75gWU7QuiB5L3x6zFGLGQk3fVkuVJ6eKuEwP\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">“Chunks” in human cognition</a></blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 0,
-  "image_url": "https://picx.zhimg.com/v2-73fe42b90c7fbcf19c2ec682a0b888b3_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 2,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 2,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxODEyNzkzNzUSCTQxOTE3MjA4NxgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 19,
+      "down_vote_count": 0,
+      "like_count": 2,
+      "comment_count": 0,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 20,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-73fe42b90c7fbcf19c2ec682a0b888b3": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-73fe42b90c7fbcf19c2ec682a0b888b3": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-73fe42b90c7fbcf19c2ec682a0b888b3": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=419172087&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 认知基石 & 教育培训",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525846506753658880",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 认知基石 & 教育培训"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

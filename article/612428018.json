@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "612428018",
+  "title": "躁动是好事",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/612428018",
+  "image_url": "https://pic1.zhimg.com/v2-86aec37587ebbf83c26564bc5c10bbf7_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-86aec37587ebbf83c26564bc5c10bbf7_720w.jpg?source=172ae18b",
+  "excerpt": "躁动的机制躁动的起因尚未完全阐明，但我认为可以通过与 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Creativity\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">创造力</a>[1]的联系轻松解释。大脑在接收到任何形式的启发时会进入创造模式。在这种模式下，大脑中破坏性的随机信号增加，这是由于搜索模式的激活，大脑在解决问题时会寻找新的联想。搜索模式的一个重要…",
+  "created": 1678362549,
   "updated": 1678362661,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "躁动的机制躁动的起因尚未完全阐明，但我认为可以通过与创造力 [1]的联系轻松解释。…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 5472,
+  "image_height": 3648,
+  "content": "<h2>躁动的机制</h2><p data-pid=\"EWQ3W7S6\">躁动的起因尚未完全阐明，但我认为可以通过与<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Creativity\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">创造力</a><sup data-text=\"创造力\" data-url=\"https://zhuanlan.zhihu.com/p/450093869\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>的联系轻松解释。大脑在接收到任何形式的启发时会进入创造模式。在这种模式下，大脑中破坏性的随机信号增加，这是由于搜索模式的激活，大脑在解决问题时会寻找新的联想。搜索模式的一个重要特性就是其随机性。在<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept_network\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念网络</a><sup data-text=\"概念网络\" data-url=\"https://zhuanlan.zhihu.com/p/266541480\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>中，随机搜索需要一种更为宽容和更加随机的<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Spreading_activation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">扩散激活</a>形式。即使概念之间的链接较弱或者不存在，单个<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念</a><sup data-text=\"概念\" data-url=\"https://zhuanlan.zhihu.com/p/571218385\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>也能够增加附近概念被激活的概率。弱链接是指价值较低的链接，而不存在的链接可能是无声突触的形式。在这种随机搜索模式下，一些信号可能会泄漏到运动系统中，引起随机肌肉抽动。抑制不受欢迎的抽动的最简单方法之一是激活同步运动程序，自动抑制不符合该程序的运动。这就是躁动。类似地，<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/REM\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">快速眼动（REM）</a>睡眠中的随机信号通过切断从睡眠大脑发出的运动信号来解决。</p><h2>躁动的重要性</h2><p data-pid=\"sZJNLQ9d\">躁动的假设机制表明它在大脑的健康功能中扮演着重要角色。</p><p data-pid=\"2Xwz33hv\"><b>躁动发挥着重要的神经生理作用，不应该被抑制。</b></p><p data-pid=\"5nw-QDmJ\">在学校中，孩子经常因躁动而受到责备。相反，Montessori 学校则允许在课堂上走动。有躁动自由对于孩子们如何看待学校有着重要的影响。对于小孩子来说，如果能够使用躁动作为防御武器，即使是枯燥无味的课堂也能够轻松度过。</p><p data-pid=\"odSglPVy\">由于躁动与<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Creativity\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">创造力</a><sup data-text=\"创造力\" data-url=\"https://zhuanlan.zhihu.com/p/450093869\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>相关，因此可能表示<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Cognitive_overload\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">工作记忆过载</a>、认知失调、<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Boredom\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">无聊</a><sup data-text=\"无聊\" data-url=\"https://zhuanlan.zhihu.com/p/386603182\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>、不耐烦、兴奋、<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Stress\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">压力</a><sup data-text=\"抗压韧性\" data-url=\"https://zhuanlan.zhihu.com/p/73207325\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>等等。在任何情况下，限制躁动都不会改善注意力，反而可能会让事情变得更糟。躁动是正常的，与 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/ADHD\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">ADHD</a> 关系不大。ADHD 的孩子会躁动更多，但有创造力的儿童或具有<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Rage_to_master\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">学成强欲</a><sup data-text=\"学成强欲\" data-url=\"https://zhuanlan.zhihu.com/p/525910430\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>的孩子也会这样做（尤其是在偏离他们「强欲」方向的班级中）。</p><p data-pid=\"DQK88a6D\">在发挥创意时，有个简单的方法可以驾驭躁动，那就是运动（比如步行）。<b>边走边聊</b>是最好的<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Brainstorming\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">头脑风暴</a>方式之一。<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/SuperMemo_World\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SuperMemo World</a> 就是通过这种形式的头脑风暴而产生的。</p><h2>被抑制的躁动</h2><p data-pid=\"RAWE9Bdb\">躁动无疑与大脑中的控制系统之间的矛盾有关。除了创造性的躁动外，我们还可能在其他控制矛盾的情况下观察到躁动（例如试图压制排尿时）。躁动不应该被抑制。如果矛盾可以解决（例如通过上厕所），它就应该被解决。如果矛盾源于<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Creativity\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">创造力</a><sup data-text=\"创造力\" data-url=\"https://zhuanlan.zhihu.com/p/450093869\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，则应继续躁动，因为这是最好的矛盾解决方法。</p><h2>延伸阅读</h2><ul><li data-pid=\"phEUN976\"><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Fidgeting_may_improve_cognitive_performance\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">躁动可能提高认知能力</a><br/> </li><li data-pid=\"MKRbtLZB\"><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Confusing_creativity_with_ADHD\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">将创造力与 ADHD 混淆</a><sup data-text=\"将创造力与 ADHD 混淆\" data-url=\"https://zhuanlan.zhihu.com/p/521885826\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup><br/> </li><li data-pid=\"v4JxxFjn\"><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/I_have_ADHD_and_I_love_it\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我有 ADHD，我喜欢它</a><br/> </li><li data-pid=\"DXzfxldF\"><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/How_to_solve_any_problem%253F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「如何解决任何问题？」</a><sup data-text=\"如何解决任何问题？\" data-url=\"https://zhuanlan.zhihu.com/p/351779186\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"8\">[8]</sup>中有关躁动的笔记。</li></ul><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"pJiuyjwy\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 JarrettYe、校对 <span class=\"nolink\">Rampling</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Fidgeting_is_good\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Fidgeting is good - supermemo.guru</a><br/>这篇文章是 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Piotr_Wozniak\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">彼得 · 沃兹尼亚克</a><sup data-text=\"彼得 · 沃兹尼亚克\" data-url=\"https://zhuanlan.zhihu.com/p/303204832\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"9\">[9]</sup> 博士在 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/SuperMemo_Guru\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SuperMemo Guru</a> 上关于记忆、学习、创造力和问题解决系列文章的一部分</blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
-  "reason": "",
-  "excerpt_title": "",
-  "id": 612428018,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19619550",
+      "type": "topic",
+      "id": "19619550",
+      "name": "神经科学"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19551432",
+      "type": "topic",
+      "id": "19551432",
+      "name": "心理学"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19620291",
+      "type": "topic",
+      "id": "19620291",
+      "name": "脑科学"
+    }
+  ],
   "voteup_count": 126,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "<p>关于学习的元知识，以及教育、培训的理论和方法</p>",
+    "is_following": false,
+    "url_token": "c_1525846506753658880",
+    "id": "c_1525846506753658880",
+    "articles_count": 318,
+    "accept_submission": true,
+    "title": "认知基石 & 教育培训",
+    "url": "https://api.zhihu.com/columns/c_1525846506753658880",
+    "comment_permission": "all",
+    "created": 1656570156,
+    "updated": 1751877273,
+    "image_url": "https://pica.zhimg.com/v2-c797eef62aec0151690f8d495787f6dc_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 486,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 5,
+  "contributions": [
+    {
+      "id": 44482839,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "<p>关于学习的元知识，以及教育、培训的理论和方法</p>",
+        "is_following": false,
+        "url_token": "c_1525846506753658880",
+        "id": "c_1525846506753658880",
+        "articles_count": 318,
+        "accept_submission": true,
+        "title": "认知基石 & 教育培训",
+        "url": "https://api.zhihu.com/columns/c_1525846506753658880",
+        "comment_permission": "all",
+        "created": 1656570156,
+        "updated": 1751877273,
+        "image_url": "https://pica.zhimg.com/v2-c797eef62aec0151690f8d495787f6dc_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 486,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 183,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "躁动是好事 - 来自知乎专栏「认知基石 &amp; 教育培训」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/612428018 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1678362549,
-  "url": "https://api.zhihu.com/articles/612428018",
-  "comment_permission": "all",
-  "title": "躁动是好事",
-  "image_width": 3648,
-  "content": "<h2>躁动的机制</h2><p data-pid=\"EWQ3W7S6\">躁动的起因尚未完全阐明，但我认为可以通过与<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Creativity\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">创造力</a><sup data-text=\"创造力\" data-url=\"https://zhuanlan.zhihu.com/p/450093869\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>的联系轻松解释。大脑在接收到任何形式的启发时会进入创造模式。在这种模式下，大脑中破坏性的随机信号增加，这是由于搜索模式的激活，大脑在解决问题时会寻找新的联想。搜索模式的一个重要特性就是其随机性。在<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept_network\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念网络</a><sup data-text=\"概念网络\" data-url=\"https://zhuanlan.zhihu.com/p/266541480\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>中，随机搜索需要一种更为宽容和更加随机的<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Spreading_activation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">扩散激活</a>形式。即使概念之间的链接较弱或者不存在，单个<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念</a><sup data-text=\"概念\" data-url=\"https://zhuanlan.zhihu.com/p/571218385\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>也能够增加附近概念被激活的概率。弱链接是指价值较低的链接，而不存在的链接可能是无声突触的形式。在这种随机搜索模式下，一些信号可能会泄漏到运动系统中，引起随机肌肉抽动。抑制不受欢迎的抽动的最简单方法之一是激活同步运动程序，自动抑制不符合该程序的运动。这就是躁动。类似地，<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/REM\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">快速眼动（REM）</a>睡眠中的随机信号通过切断从睡眠大脑发出的运动信号来解决。</p><h2>躁动的重要性</h2><p data-pid=\"sZJNLQ9d\">躁动的假设机制表明它在大脑的健康功能中扮演着重要角色。</p><p data-pid=\"2Xwz33hv\"><b>躁动发挥着重要的神经生理作用，不应该被抑制。</b></p><p data-pid=\"5nw-QDmJ\">在学校中，孩子经常因躁动而受到责备。相反，Montessori 学校则允许在课堂上走动。有躁动自由对于孩子们如何看待学校有着重要的影响。对于小孩子来说，如果能够使用躁动作为防御武器，即使是枯燥无味的课堂也能够轻松度过。</p><p data-pid=\"odSglPVy\">由于躁动与<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Creativity\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">创造力</a><sup data-text=\"创造力\" data-url=\"https://zhuanlan.zhihu.com/p/450093869\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>相关，因此可能表示<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Cognitive_overload\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">工作记忆过载</a>、认知失调、<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Boredom\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">无聊</a><sup data-text=\"无聊\" data-url=\"https://zhuanlan.zhihu.com/p/386603182\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>、不耐烦、兴奋、<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Stress\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">压力</a><sup data-text=\"抗压韧性\" data-url=\"https://zhuanlan.zhihu.com/p/73207325\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>等等。在任何情况下，限制躁动都不会改善注意力，反而可能会让事情变得更糟。躁动是正常的，与 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/ADHD\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">ADHD</a> 关系不大。ADHD 的孩子会躁动更多，但有创造力的儿童或具有<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Rage_to_master\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">学成强欲</a><sup data-text=\"学成强欲\" data-url=\"https://zhuanlan.zhihu.com/p/525910430\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>的孩子也会这样做（尤其是在偏离他们「强欲」方向的班级中）。</p><p data-pid=\"DQK88a6D\">在发挥创意时，有个简单的方法可以驾驭躁动，那就是运动（比如步行）。<b>边走边聊</b>是最好的<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Brainstorming\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">头脑风暴</a>方式之一。<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/SuperMemo_World\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SuperMemo World</a> 就是通过这种形式的头脑风暴而产生的。</p><h2>被抑制的躁动</h2><p data-pid=\"RAWE9Bdb\">躁动无疑与大脑中的控制系统之间的矛盾有关。除了创造性的躁动外，我们还可能在其他控制矛盾的情况下观察到躁动（例如试图压制排尿时）。躁动不应该被抑制。如果矛盾可以解决（例如通过上厕所），它就应该被解决。如果矛盾源于<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Creativity\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">创造力</a><sup data-text=\"创造力\" data-url=\"https://zhuanlan.zhihu.com/p/450093869\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，则应继续躁动，因为这是最好的矛盾解决方法。</p><h2>延伸阅读</h2><ul><li data-pid=\"phEUN976\"><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Fidgeting_may_improve_cognitive_performance\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">躁动可能提高认知能力</a><br/> </li><li data-pid=\"MKRbtLZB\"><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Confusing_creativity_with_ADHD\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">将创造力与 ADHD 混淆</a><sup data-text=\"将创造力与 ADHD 混淆\" data-url=\"https://zhuanlan.zhihu.com/p/521885826\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup><br/> </li><li data-pid=\"v4JxxFjn\"><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/I_have_ADHD_and_I_love_it\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我有 ADHD，我喜欢它</a><br/> </li><li data-pid=\"DXzfxldF\"><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/How_to_solve_any_problem%253F\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「如何解决任何问题？」</a><sup data-text=\"如何解决任何问题？\" data-url=\"https://zhuanlan.zhihu.com/p/351779186\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"8\">[8]</sup>中有关躁动的笔记。</li></ul><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"pJiuyjwy\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 JarrettYe、校对 <span class=\"nolink\">Rampling</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Fidgeting_is_good\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Fidgeting is good - supermemo.guru</a><br/>这篇文章是 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Piotr_Wozniak\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">彼得 · 沃兹尼亚克</a><sup data-text=\"彼得 · 沃兹尼亚克\" data-url=\"https://zhuanlan.zhihu.com/p/303204832\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"9\">[9]</sup> 博士在 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/SuperMemo_Guru\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SuperMemo Guru</a> 上关于记忆、学习、创造力和问题解决系列文章的一部分</blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 5,
-  "image_url": "https://picx.zhimg.com/v2-86aec37587ebbf83c26564bc5c10bbf7_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 29,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 29,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMjQyMjY3NTMSCTYxMjQyODAxOBgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 126,
+      "down_vote_count": 0,
+      "like_count": 29,
+      "comment_count": 5,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 183,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-86aec37587ebbf83c26564bc5c10bbf7": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-86aec37587ebbf83c26564bc5c10bbf7": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-86aec37587ebbf83c26564bc5c10bbf7": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=612428018&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 认知基石 & 教育培训",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525846506753658880",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 认知基石 & 教育培训"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

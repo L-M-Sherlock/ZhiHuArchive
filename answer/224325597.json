@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,9 +14,10 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
@@ -35,19 +37,21 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 0,
   "content": "<p data-pid=\"iyo7IsM1\">L难度多周目折磨自己好爽啊！！！但是没有文文啊！！！人物完全可以继续增加，我喜欢的人物肯定会去买的。不过单机游戏剧情打完就感觉没啥事干了...要是有成就系统和无尽模式就太好了，耐玩性再度升高！</p>",
   "content_need_truncated": false,
   "created_time": 1504340081,
   "excerpt": "L难度多周目折磨自己好爽啊！！！但是没有文文啊！！！人物完全可以继续增加，我喜欢的人物肯定会去买的。不过单机游戏剧情打完就感觉没啥事干了...要是有成就系统和无尽模式就太好了，耐玩性再度升高！",
-  "id": 224325597,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "224325597",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=224325597&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1503319208,
-    "detail": "<p>完整版指的是版本号2.0.0以上的版本。之前的版本算抢先体验版。</p><p>我是作者，想知道一下大家是怎么看待这个奇怪的游戏的。</p><p>没见过游戏的请看：<a href=\"https://link.zhihu.com/?target=http%3A//www.MyACG.cc\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://www.</span><span class=\"visible\">MyACG.cc</span><span class=\"invisible\"></span></a></p><p>问点意见，也算是宣传一下吧，喷也可以，会认真倾听，但拒绝破坏性搞事情。</p><p>游戏做了2年多，付出了很大的精力，最终本人还是比较满意的，达到了自己也能玩很久，感觉很爽而且偶然还会会心一笑的程度。。。</p><p>想知道大家的看法：</p><p>可以从玩法上，剧情上，技术角度，同人题材上，以及其他点切入讨论~</p><figure><img src=\"https://pic3.zhimg.com/v2-75cf941e950b5940ad2e197e82ee55b0_b.png\" data-rawwidth=\"1458\" data-rawheight=\"822\" class=\"origin_image zh-lightbox-thumb\" width=\"1458\" data-original=\"https://pic3.zhimg.com/v2-75cf941e950b5940ad2e197e82ee55b0_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure><img src=\"https://picx.zhimg.com/v2-762219e6356e966a39f5c3f3b069c9dd_b.png\" data-rawwidth=\"2449\" data-rawheight=\"1261\" class=\"origin_image zh-lightbox-thumb\" width=\"2449\" data-original=\"https://picx.zhimg.com/v2-762219e6356e966a39f5c3f3b069c9dd_r.jpg\"/></figure><p></p>",
-    "id": 64245228,
+    "detail": "<p>完整版指的是版本号2.0.0以上的版本。之前的版本算抢先体验版。</p><p>我是作者，想知道一下大家是怎么看待这个奇怪的游戏的。</p><p>没见过游戏的请看：<a href=\"https://link.zhihu.com/?target=http%3A//www.MyACG.cc\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://www.</span><span class=\"visible\">MyACG.cc</span><span class=\"invisible\"></span></a></p><p>问点意见，也算是宣传一下吧，喷也可以，会认真倾听，但拒绝破坏性搞事情。</p><p>游戏做了2年多，付出了很大的精力，最终本人还是比较满意的，达到了自己也能玩很久，感觉很爽而且偶然还会会心一笑的程度。。。</p><p>想知道大家的看法：</p><p>可以从玩法上，剧情上，技术角度，同人题材上，以及其他点切入讨论~</p><figure><img src=\"https://pic3.zhimg.com/v2-75cf941e950b5940ad2e197e82ee55b0_1440w.png\" data-rawwidth=\"1458\" data-rawheight=\"822\" class=\"origin_image zh-lightbox-thumb\" width=\"1458\" data-original=\"https://pic3.zhimg.com/v2-75cf941e950b5940ad2e197e82ee55b0_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure><img src=\"https://picx.zhimg.com/v2-762219e6356e966a39f5c3f3b069c9dd_1440w.png\" data-rawwidth=\"2449\" data-rawheight=\"1261\" class=\"origin_image zh-lightbox-thumb\" width=\"2449\" data-original=\"https://picx.zhimg.com/v2-762219e6356e966a39f5c3f3b069c9dd_r.jpg\"/></figure><p></p>",
+    "id": "64245228",
     "question_type": "normal",
     "relationship": {},
     "title": "如何评价《永远消失的幻想乡》完整版?",
     "type": "question",
     "updated_time": 1503917839,
-    "url": "https://api.zhihu.com/questions/64245228"
+    "url": "https://www.zhihu.com/api/v4/questions/64245228"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1525010976,
+  "url": "https://www.zhihu.com/api/v4/answers/224325597",
   "voteup_count": 2
 }

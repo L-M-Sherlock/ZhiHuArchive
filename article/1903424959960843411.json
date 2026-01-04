@@ -1,80 +1,425 @@
 {
-  "status": 0,
+  "id": "1903424959960843411",
+  "title": "第三十章 诊断性考试的技术深度剖析",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/1903424959960843411",
+  "image_url": "https://pic1.zhimg.com/v2-5d17208c9b2f3007613045ec4d417fd1_720w.jpg?source=172ae18b",
+  "title_image": "https://pica.zhimg.com/v2-5d17208c9b2f3007613045ec4d417fd1_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://picx.zhimg.com/v2-0defb5e4cf75de5af719e7f90d2c9545_200x112.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1277\" data-rawheight=\"1280\" data-watermark=\"original\" data-original-src=\"v2-0defb5e4cf75de5af719e7f90d2c9545\" data-watermark-src=\"v2-ad5fa632d4611a72afec0d831dac7b1c\" data-private-watermark-src=\"\" data-original=\"https://picx.zhimg.com/v2-0defb5e4cf75de5af719e7f90d2c9545_r.png\" class=\"origin_image inline-img zh-lightbox-thumb\"/><b>注：</b>本章将展开阐述第四章[1]和第二十一章[2]中引入的概念。⠀⠀⠀ <b>摘要：</b>Math Academy 采用自适应诊断技术来推断每位新生的知识画像。这种创新的诊断评估算法是利用知识图谱中的因果关系和基于相关性的推理，来高效且精确地评估学生的知识边界，同时…",
+  "created": 1746668932,
   "updated": 1754964581,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pica.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "注：本章将展开阐述第四章[1]和第二十一章[2]中引入的概念。⠀⠀⠀摘要：Math…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 964,
+  "image_height": 654,
+  "content": "<blockquote data-pid=\"rDVZ9V6Q\"><b>注：</b>本章将展开阐述第四章<sup data-text=\"第四章 核心技术：知识图谱\" data-url=\"https://zhuanlan.zhihu.com/p/18159574293\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>和第二十一章<sup data-text=\"第二十一章 针对性补习\" data-url=\"https://zhuanlan.zhihu.com/p/1896508097243104808\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>中引入的概念。</blockquote><p data-pid=\"f_QINs-v\">⠀⠀⠀<b>摘要：</b>Math Academy 采用自适应诊断技术来推断每位新生的知识画像。这种创新的诊断评估算法是利用知识图谱中的因果关系和基于相关性的推理，来高效且精确地评估学生的知识边界，同时最大限度地减少诊断中的问题数量。该算法能够衡量知识掌握的置信度并处理矛盾信息，使其诊断能够适应诸如前置知识与后继知识的掌握情况，以及准确性与答题时间冲突等微妙场景。对于那些经推断知识掌握置信度较低的领域，系统采用条件性完成机制，从而能够在收集更多关于学生表现的数据时，持续优化其学习定位。</p><h2>最小化问题数量</h2><p data-pid=\"-l-tw0Jh\">如果没有智能算法的支持，我们将需要海量的诊断问题来推断学生的知识边界。课程通常包含多达数百个主题，再加上两倍数量的基础主题——这意味着如果我们从最基础开始，为每个主题都设置诊断问题，那么直到学生无法正确回答为止，我们最终会向学生提出多达 500 多个问题。</p><p data-pid=\"BW0BG0Av\">然而，Math Academy 通过一种创新的诊断问题选择算法，成功地将诊断问题数量减少了一个数量级。我们的诊断系统对于低年级课程（如前代数）通常只需要 20-40 个问题，对于高年级课程（如微积分）则需要 40-60 个问题。</p><p data-pid=\"Leg9x0NC\">我们能够实现这种高效诊断的原因有两个：</p><ol><li data-pid=\"B-93WgW9\">除了利用知识间的「因果」包含关系，我们还采用了更灵活的基于相关性的推理方法。<br/><br/></li><li data-pid=\"KDSXmWwK\">我们预先将知识图谱压缩成最少数量的主题节点，这些节点能以所需精细度完整「覆盖」一门课程及其基础知识体系。</li></ol><p data-pid=\"u6EuK_d2\">基于这些策略，我们的诊断评估算法在准确性和精确性方面得到了高度的优化。虽然一个完美准确且精确的诊断可能需要多达上千道题目，但是通过牺牲微不足道的准确度和精确度，我们成功将所需题目数量减少了一个数量级。</p><p data-pid=\"pWtQ1CGw\">（当然，高度优化的算法也面临着被错误输入干扰的更大风险——但我们通过检测并重新评估那些可能被错误判断的问题来有效降低这种风险。）</p><h2>知识置信度和条件性完成机制</h2><h3>| 理论</h3><p data-pid=\"6Vz_wYsO\">在诊断过程中，Math Academy 还测量<b>知识置信度</b>，即我们判断学生是否掌握某个主题的信心程度。大多数诊断能够完成并对学生的整体知识状况给出高置信度的评估，但有时也会出现一些置信度较低的区域。这些并非源于诊断覆盖范围不足，而是因为学生的答题表现中出现了矛盾冲突的情况。</p><p data-pid=\"EPsVuXpD\">主要有两种冲突类型：</p><ol><li data-pid=\"D8w0U5oA\">前置知识与后续知识的冲突：学生能正确回答较高级主题的问题，却错误回答了较基础的问题，这可能表明学生的知识画像中存在缺口。<br/><br/></li><li data-pid=\"W9pWDgFY\">准确性与时间的冲突：学生提交了正确答案，但解题时间过长，这表明他们可能并未真正掌握相应主题。</li></ol><p data-pid=\"DbTyTgoM\">为了处理这些冲突，我们精心权衡两个矛盾的情形，形成对学生知识状态的高度细致化诊断，就像一位优秀的家教那样，能够根据后续观察恰当地调整评估结果。</p><p data-pid=\"bWeWKQKL\">特别地，如果评估结果刚好「勉强」达到让学生可以跳过某些主题的临界点，系统会将这些主题标记为<b>有条件完成</b>：系统最初会假定学生已掌握这些主题并据此安排学习任务，但一旦学生在学习过程中遇到困难，系统将立即沿着适当的学习路径进行「回溯」调整。</p><h3>| 示例</h3><p data-pid=\"q1KB1kaA\">举例来说，假设：</p><ul><li data-pid=\"584LKqyn\">学生 A 在诊断测试中答对了很多题，但大多数题目都花费了过长时间；而<br/><br/></li><li data-pid=\"4KrbGi6o\">学生 B 正确回答的题目较少，但答题又快又自信。</li></ul><p data-pid=\"2p98rpwI\">那么结果是：</p><ul><li data-pid=\"4Gv2E3VG\">学生 A 会被认为掌握了更多的整体知识，但其中相当一部分是低置信度的知识（如果他们遇到困难，这部分知识可能会被遗忘）；而<br/><br/></li><li data-pid=\"YdbwiVfo\">学生 B 虽然整体知识量较少，但可能拥有更多高置信度的知识。</li></ul><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-0defb5e4cf75de5af719e7f90d2c9545_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1277\" data-rawheight=\"1280\" data-original-token=\"v2-0defb5e4cf75de5af719e7f90d2c9545\" class=\"origin_image zh-lightbox-thumb\" width=\"1277\" data-original=\"https://picx.zhimg.com/v2-0defb5e4cf75de5af719e7f90d2c9545_r.jpg\"/></figure><h3>| 实现</h3><p data-pid=\"gIOvw32e\">为了实现这种机制，我们在每个主题上采用<b>正负平衡值</b>来权衡诊断证据。</p><ul><li data-pid=\"6pQV3T29\"><b>正负号</b>（正数或非正数）用来预测学生是否掌握该主题。</li><li data-pid=\"wMcQz0Ob\">平衡值的<b>大小</b>则代表对这一预测的置信程度。</li></ul><p data-pid=\"cwgjEJJe\">每个答案都关联一个<b>权重</b>，代表其对相应主题正负平衡的贡献。默认情况下，答案权重为 1。然而，如果学生提交了正确答案但花费的时间远超过已掌握该主题的学生的预期时间，那么这个答案的权重会相应降低。虽然这个答案仍然会给学生提供正面评价，但由于解题时间越长（超过合理时间标准），那么获得的正面评价就越少。<br/>一旦确定了答案的权重值，它会在整个知识图谱中传播，相应地更新各主题的正负值平衡：</p><ul><li data-pid=\"aLxfuTDF\">一个<b>正确的</b>答案会<b>提高</b>该回答所涉及主题及其<b>前置知识点</b>（以及这些前置知识点的前置知识点，以此类推）的正负值平衡，而<br/><br/></li><li data-pid=\"gfKQwe8X\">一个<b>错误的</b>答案则会<b>降低</b>该回答所涉及主题及其<b>后续知识点</b>（以及这些后续知识点的后续知识点，以此类推）的正负值平衡。</li></ul><p data-pid=\"wCb5VA32\">在处理完所有诊断性问题后，任何具有正向正负值权重的主题都会等同于其正负值平衡数量，被记入重复练习次数。</p><h2>保守型与激进型掌握边界</h2><p data-pid=\"YGYJS_R5\">曾经有这样的情况：学生完成了某门课程，随后参加了同一课程的分级测试，却惊讶地发现测试结果显示他们在该课程中的知识水平比预期低。但这实际上是一个正常的结果，尤其对于基础较弱的学生而言。</p><p data-pid=\"6aGsz4tH\">学生成功完成了课程的所有作业，并不意味着他们能在该课程的综合期末考试中取得优异成绩。这一点在分级测试中尤为明显，因为分级测试比普通考试更具挑战性：与普通考试不同，</p><ul><li data-pid=\"IgBFjcd7\">分级测试必须覆盖每一个知识点（包括所有最难的主题），并且<br/><br/></li><li data-pid=\"_ytuJgU5\">它必须包含每个知识点中最高级别的问题类型（如果学生只会解决简单情况，我们就不能让他们跳过该知识点）。</li></ul><p data-pid=\"q5sSvDor\">此外，虽然我们常常将学生的「掌握边界」描述为贯穿学生知识图谱的单一界线，但实际上学生拥有的是一个「掌握区域」，其下限是保守型掌握边界，上限则是激进型掌握边界。分级测试测量的是保守型掌握边界，而基于掌握的分层学习则是在激进型掌握边界上运作的。</p><p data-pid=\"SBfntVCe\">当学生成功完成一节课程后，他们已经充分掌握了该主题的知识，足以继续在已学内容的基础上叠加学习新知识，但他们可能还未达到对该主题的自主运用程度。打个比方，就像体操运动员在训练中学习新动作时，需要一段时间的练习，才能在比赛中自信展示这项技能，但这并不妨碍他们在此期间继续训练更高难度的动作。</p><h2>补充诊断</h2><p data-pid=\"KKgZ2XCd\">随着知识图谱中不断添加新主题和修订知识连接关系，从学生初始评估诊断中推断出的知识画像可能会逐渐过时。当这种情况发生时，我们会安排名为<b>补充诊断</b>的小型测评，以更新学生的知识状况。</p><p data-pid=\"0WCNFdOD\">补充诊断所涵盖的主题是那些在原始诊断中未直接评估过的，并且在考虑原始诊断及之后所有评估答案时，正负权重平衡为零的主题。补充诊断采用与原始诊断相同的高效推断方法，因此通常规模较小，最多只包含几个问题。</p><h2>选择优质的诊断问题</h2><p data-pid=\"Q7rL6ERW\">为特定主题选择一个好的诊断问题需要考虑许多细微因素。</p><ul><li data-pid=\"O8w0HLO1\">一方面，诊断性问题不能过于简单。每个诊断性问题应当具有足够的难度，使得当学生能够正确作答时，专业导师或教师能够判断出该学生已经完全掌握了相应的知识点。<br/><br/></li><li data-pid=\"Y_j5y7Ce\">此外，诊断性问题应当考察相应主题的所有前置知识。否则，如果某个前置知识未被问题覆盖，那么即使学生不了解这一前置知识，也可能正确回答问题，从而错误地被认为掌握了这些前置知识。<br/><br/></li><li data-pid=\"BCbNYAqU\">尽管如此，诊断性问题通常不应是其对应主题中最具挑战性的问题。问题越复杂，学生就越有可能因为一些小失误而犯错。</li></ul><p data-pid=\"BF7Fwx0Z\">因此，每个诊断性问题应当选择为最简单的问题，同时满足：</p><ol><li data-pid=\"Sw7jXNDs\">能够让专业导师或教师确信学生已经掌握了相应的主题，并且</li><li data-pid=\"xBI-U8iA\">考察了该主题的所有前置知识。</li></ol><p data-pid=\"KSIzxict\">在实际操作中，由于需要考虑诸多细微因素，我们通常通过人工方式选择诊断性问题。</p><hr/><p data-pid=\"Rj0-4Gin\">上一章：</p><a href=\"https://zhuanlan.zhihu.com/p/1902336777538245191\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">第二十六章 间隔重复的技术深度剖析 - 知乎</a><p data-pid=\"9ClM8dxK\">下一章：</p><a href=\"https://zhuanlan.zhihu.com/p/1903464003432322809\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">第二十八章 学习效率的技术深度剖析 - 知乎</a><hr/><blockquote data-pid=\"VuJdCQZl\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3.7-sonnet，校对 Jarrett Ye、白侑<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//docs.google.com/document/d/1LLZK_34Oer9LwuqAv-pqxfXlR8n7V8zJ_MO323R7egI\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Math Academy Way: Using the Power of Science to Supercharge Student Learning</a></blockquote><p></p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19556327",
+      "type": "topic",
+      "id": "19556327",
+      "name": "考试"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19564367",
+      "type": "topic",
+      "id": "19564367",
+      "name": "教育技术"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19553510",
+      "type": "topic",
+      "id": "19553510",
+      "name": "算法"
+    }
+  ],
+  "voteup_count": 20,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "传统教育的失败，及有效数学教学技术的复兴。",
+    "is_following": false,
+    "url_token": "c_1858865163022786560",
+    "id": "c_1858865163022786560",
+    "articles_count": 56,
+    "accept_submission": false,
+    "title": "The Math Academy Way",
+    "url": "https://api.zhihu.com/columns/c_1858865163022786560",
+    "comment_permission": "all",
+    "created": 1735967991,
+    "updated": 1748246557,
+    "image_url": "https://pic1.zhimg.com/v2-b1651bba207f1c3370995962d00f5802_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 1639,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 0,
+  "contributions": [
+    {
+      "id": 51641759,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "传统教育的失败，及有效数学教学技术的复兴。",
+        "is_following": false,
+        "url_token": "c_1858865163022786560",
+        "id": "c_1858865163022786560",
+        "articles_count": 56,
+        "accept_submission": false,
+        "title": "The Math Academy Way",
+        "url": "https://api.zhihu.com/columns/c_1858865163022786560",
+        "comment_permission": "all",
+        "created": 1735967991,
+        "updated": 1748246557,
+        "image_url": "https://pic1.zhimg.com/v2-b1651bba207f1c3370995962d00f5802_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 1639,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 1903424959960843500,
-  "voteup_count": 18,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 15,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "第三十章 诊断性考试的技术深度剖析 - 来自知乎专栏「The Math Academy Way」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/1903424959960843411 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1746668932,
-  "url": "https://api.zhihu.com/articles/1903424959960843411",
-  "comment_permission": "all",
-  "title": "第三十章 诊断性考试的技术深度剖析",
-  "image_width": 654,
-  "content": "<blockquote data-pid=\"rDVZ9V6Q\"><b>注：</b>本章将展开阐述第四章<sup data-text=\"第四章 核心技术：知识图谱\" data-url=\"https://zhuanlan.zhihu.com/p/18159574293\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>和第二十一章<sup data-text=\"第二十一章 针对性补习\" data-url=\"https://zhuanlan.zhihu.com/p/1896508097243104808\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>中引入的概念。</blockquote><p data-pid=\"f_QINs-v\">⠀⠀⠀<b>摘要：</b>Math Academy 采用自适应诊断技术来推断每位新生的知识画像。这种创新的诊断评估算法是利用知识图谱中的因果关系和基于相关性的推理，来高效且精确地评估学生的知识边界，同时最大限度地减少诊断中的问题数量。该算法能够衡量知识掌握的置信度并处理矛盾信息，使其诊断能够适应诸如前置知识与后继知识的掌握情况，以及准确性与答题时间冲突等微妙场景。对于那些经推断知识掌握置信度较低的领域，系统采用条件性完成机制，从而能够在收集更多关于学生表现的数据时，持续优化其学习定位。</p><h2>最小化问题数量</h2><p data-pid=\"-l-tw0Jh\">如果没有智能算法的支持，我们将需要海量的诊断问题来推断学生的知识边界。课程通常包含多达数百个主题，再加上两倍数量的基础主题——这意味着如果我们从最基础开始，为每个主题都设置诊断问题，那么直到学生无法正确回答为止，我们最终会向学生提出多达 500 多个问题。</p><p data-pid=\"BW0BG0Av\">然而，Math Academy 通过一种创新的诊断问题选择算法，成功地将诊断问题数量减少了一个数量级。我们的诊断系统对于低年级课程（如前代数）通常只需要 20-40 个问题，对于高年级课程（如微积分）则需要 40-60 个问题。</p><p data-pid=\"Leg9x0NC\">我们能够实现这种高效诊断的原因有两个：</p><ol><li data-pid=\"B-93WgW9\">除了利用知识间的「因果」包含关系，我们还采用了更灵活的基于相关性的推理方法。<br/><br/></li><li data-pid=\"KDSXmWwK\">我们预先将知识图谱压缩成最少数量的主题节点，这些节点能以所需精细度完整「覆盖」一门课程及其基础知识体系。</li></ol><p data-pid=\"u6EuK_d2\">基于这些策略，我们的诊断评估算法在准确性和精确性方面得到了高度的优化。虽然一个完美准确且精确的诊断可能需要多达上千道题目，但是通过牺牲微不足道的准确度和精确度，我们成功将所需题目数量减少了一个数量级。</p><p data-pid=\"pWtQ1CGw\">（当然，高度优化的算法也面临着被错误输入干扰的更大风险——但我们通过检测并重新评估那些可能被错误判断的问题来有效降低这种风险。）</p><h2>知识置信度和条件性完成机制</h2><h3>| 理论</h3><p data-pid=\"6Vz_wYsO\">在诊断过程中，Math Academy 还测量<b>知识置信度</b>，即我们判断学生是否掌握某个主题的信心程度。大多数诊断能够完成并对学生的整体知识状况给出高置信度的评估，但有时也会出现一些置信度较低的区域。这些并非源于诊断覆盖范围不足，而是因为学生的答题表现中出现了矛盾冲突的情况。</p><p data-pid=\"EPsVuXpD\">主要有两种冲突类型：</p><ol><li data-pid=\"D8w0U5oA\">前置知识与后续知识的冲突：学生能正确回答较高级主题的问题，却错误回答了较基础的问题，这可能表明学生的知识画像中存在缺口。<br/><br/></li><li data-pid=\"W9pWDgFY\">准确性与时间的冲突：学生提交了正确答案，但解题时间过长，这表明他们可能并未真正掌握相应主题。</li></ol><p data-pid=\"DbTyTgoM\">为了处理这些冲突，我们精心权衡两个矛盾的情形，形成对学生知识状态的高度细致化诊断，就像一位优秀的家教那样，能够根据后续观察恰当地调整评估结果。</p><p data-pid=\"bWeWKQKL\">特别地，如果评估结果刚好「勉强」达到让学生可以跳过某些主题的临界点，系统会将这些主题标记为<b>有条件完成</b>：系统最初会假定学生已掌握这些主题并据此安排学习任务，但一旦学生在学习过程中遇到困难，系统将立即沿着适当的学习路径进行「回溯」调整。</p><h3>| 示例</h3><p data-pid=\"q1KB1kaA\">举例来说，假设：</p><ul><li data-pid=\"584LKqyn\">学生 A 在诊断测试中答对了很多题，但大多数题目都花费了过长时间；而<br/><br/></li><li data-pid=\"4KrbGi6o\">学生 B 正确回答的题目较少，但答题又快又自信。</li></ul><p data-pid=\"2p98rpwI\">那么结果是：</p><ul><li data-pid=\"4Gv2E3VG\">学生 A 会被认为掌握了更多的整体知识，但其中相当一部分是低置信度的知识（如果他们遇到困难，这部分知识可能会被遗忘）；而<br/><br/></li><li data-pid=\"YdbwiVfo\">学生 B 虽然整体知识量较少，但可能拥有更多高置信度的知识。</li></ul><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-0defb5e4cf75de5af719e7f90d2c9545_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1277\" data-rawheight=\"1280\" class=\"origin_image zh-lightbox-thumb\" width=\"1277\" data-original=\"https://picx.zhimg.com/v2-0defb5e4cf75de5af719e7f90d2c9545_r.jpg\" data-original-token=\"v2-0defb5e4cf75de5af719e7f90d2c9545\"/></figure><h3>| 实现</h3><p data-pid=\"gIOvw32e\">为了实现这种机制，我们在每个主题上采用<b>正负平衡值</b>来权衡诊断证据。</p><ul><li data-pid=\"6pQV3T29\"><b>正负号</b>（正数或非正数）用来预测学生是否掌握该主题。</li><li data-pid=\"wMcQz0Ob\">平衡值的<b>大小</b>则代表对这一预测的置信程度。</li></ul><p data-pid=\"cwgjEJJe\">每个答案都关联一个<b>权重</b>，代表其对相应主题正负平衡的贡献。默认情况下，答案权重为 1。然而，如果学生提交了正确答案但花费的时间远超过已掌握该主题的学生的预期时间，那么这个答案的权重会相应降低。虽然这个答案仍然会给学生提供正面评价，但由于解题时间越长（超过合理时间标准），那么获得的正面评价就越少。<br/>一旦确定了答案的权重值，它会在整个知识图谱中传播，相应地更新各主题的正负值平衡：</p><ul><li data-pid=\"aLxfuTDF\">一个<b>正确的</b>答案会<b>提高</b>该回答所涉及主题及其<b>前置知识点</b>（以及这些前置知识点的前置知识点，以此类推）的正负值平衡，而<br/><br/></li><li data-pid=\"gfKQwe8X\">一个<b>错误的</b>答案则会<b>降低</b>该回答所涉及主题及其<b>后续知识点</b>（以及这些后续知识点的后续知识点，以此类推）的正负值平衡。</li></ul><p data-pid=\"wCb5VA32\">在处理完所有诊断性问题后，任何具有正向正负值权重的主题都会等同于其正负值平衡数量，被记入重复练习次数。</p><h2>保守型与激进型掌握边界</h2><p data-pid=\"YGYJS_R5\">曾经有这样的情况：学生完成了某门课程，随后参加了同一课程的分级测试，却惊讶地发现测试结果显示他们在该课程中的知识水平比预期低。但这实际上是一个正常的结果，尤其对于基础较弱的学生而言。</p><p data-pid=\"6aGsz4tH\">学生成功完成了课程的所有作业，并不意味着他们能在该课程的综合期末考试中取得优异成绩。这一点在分级测试中尤为明显，因为分级测试比普通考试更具挑战性：与普通考试不同，</p><ul><li data-pid=\"IgBFjcd7\">分级测试必须覆盖每一个知识点（包括所有最难的主题），并且<br/><br/></li><li data-pid=\"_ytuJgU5\">它必须包含每个知识点中最高级别的问题类型（如果学生只会解决简单情况，我们就不能让他们跳过该知识点）。</li></ul><p data-pid=\"q5sSvDor\">此外，虽然我们常常将学生的「掌握边界」描述为贯穿学生知识图谱的单一界线，但实际上学生拥有的是一个「掌握区域」，其下限是保守型掌握边界，上限则是激进型掌握边界。分级测试测量的是保守型掌握边界，而基于掌握的分层学习则是在激进型掌握边界上运作的。</p><p data-pid=\"SBfntVCe\">当学生成功完成一节课程后，他们已经充分掌握了该主题的知识，足以继续在已学内容的基础上叠加学习新知识，但他们可能还未达到对该主题的自主运用程度。打个比方，就像体操运动员在训练中学习新动作时，需要一段时间的练习，才能在比赛中自信展示这项技能，但这并不妨碍他们在此期间继续训练更高难度的动作。</p><h2>补充诊断</h2><p data-pid=\"KKgZ2XCd\">随着知识图谱中不断添加新主题和修订知识连接关系，从学生初始评估诊断中推断出的知识画像可能会逐渐过时。当这种情况发生时，我们会安排名为<b>补充诊断</b>的小型测评，以更新学生的知识状况。</p><p data-pid=\"0WCNFdOD\">补充诊断所涵盖的主题是那些在原始诊断中未直接评估过的，并且在考虑原始诊断及之后所有评估答案时，正负权重平衡为零的主题。补充诊断采用与原始诊断相同的高效推断方法，因此通常规模较小，最多只包含几个问题。</p><h2>选择优质的诊断问题</h2><p data-pid=\"Q7rL6ERW\">为特定主题选择一个好的诊断问题需要考虑许多细微因素。</p><ul><li data-pid=\"O8w0HLO1\">一方面，诊断性问题不能过于简单。每个诊断性问题应当具有足够的难度，使得当学生能够正确作答时，专业导师或教师能够判断出该学生已经完全掌握了相应的知识点。<br/><br/></li><li data-pid=\"Y_j5y7Ce\">此外，诊断性问题应当考察相应主题的所有前置知识。否则，如果某个前置知识未被问题覆盖，那么即使学生不了解这一前置知识，也可能正确回答问题，从而错误地被认为掌握了这些前置知识。<br/><br/></li><li data-pid=\"BCbNYAqU\">尽管如此，诊断性问题通常不应是其对应主题中最具挑战性的问题。问题越复杂，学生就越有可能因为一些小失误而犯错。</li></ul><p data-pid=\"BF7Fwx0Z\">因此，每个诊断性问题应当选择为最简单的问题，同时满足：</p><ol><li data-pid=\"Sw7jXNDs\">能够让专业导师或教师确信学生已经掌握了相应的主题，并且</li><li data-pid=\"xBI-U8iA\">考察了该主题的所有前置知识。</li></ol><p data-pid=\"KSIzxict\">在实际操作中，由于需要考虑诸多细微因素，我们通常通过人工方式选择诊断性问题。</p><hr/><p data-pid=\"Rj0-4Gin\">上一章：</p><a href=\"https://zhuanlan.zhihu.com/p/1902336777538245191\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">第二十六章 间隔重复的技术深度剖析 - 知乎</a><p data-pid=\"9ClM8dxK\">下一章：</p><a href=\"https://zhuanlan.zhihu.com/p/1903464003432322809\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">第二十八章 学习效率的技术深度剖析 - 知乎</a><hr/><blockquote data-pid=\"VuJdCQZl\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3.7-sonnet，校对 Jarrett Ye、白侑<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//docs.google.com/document/d/1LLZK_34Oer9LwuqAv-pqxfXlR8n7V8zJ_MO323R7egI\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Math Academy Way: Using the Power of Science to Supercharge Student Learning</a></blockquote><p></p>",
-  "column": {
-    "updated": 1748246557,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/c_1858865163022786560",
-    "title": "The Math Academy Way",
-    "image_url": "https://picx.zhimg.com/v2-b1651bba207f1c3370995962d00f5802_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1858865163022786560"
-  },
-  "comment_count": 0,
-  "image_url": "https://pic1.zhimg.com/v2-5d17208c9b2f3007613045ec4d417fd1_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 0,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 0,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyNTc0MTc0NzUSEzE5MDM0MjQ5NTk5NjA4NDM0MTEYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 20,
+      "down_vote_count": 0,
+      "like_count": 0,
+      "comment_count": 0,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 15,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-0defb5e4cf75de5af719e7f90d2c9545": 0,
+        "v2-5d17208c9b2f3007613045ec4d417fd1": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-0defb5e4cf75de5af719e7f90d2c9545": false,
+        "v2-5d17208c9b2f3007613045ec4d417fd1": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-0defb5e4cf75de5af719e7f90d2c9545": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-5d17208c9b2f3007613045ec4d417fd1": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "2 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/31131086026?contentId=1903424959960843411&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · The Math Academy Way",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1858865163022786560",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · The Math Academy Way"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

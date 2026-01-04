@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,9 +14,10 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
@@ -35,19 +37,21 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,36 +84,56 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 20,
-  "content": "<p data-pid=\"z8rWUAhX\">表面上看是遗忘的问题，有时实际上是阅读理解的问题，而且大部分受过教育的成年人在阅读理解上都有问题，但他们却都对自己很自信。</p><blockquote data-pid=\"wyHz_T9f\">以下内容节选自 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0\" data-hash=\"4c592f496dc33822b560b382907ff1d0\" data-hovercard=\"p$b$4c592f496dc33822b560b382907ff1d0\">@Thoughts Memo</a> 汉化组的译文《<a href=\"https://zhuanlan.zhihu.com/p/653174197\" class=\"internal\">阅读理解与记忆系统</a>》</blockquote><p data-pid=\"e6U_P9zb\">在追求「让人们更容易记住他们读过的内容」这一目标时，我碰到了一个出人意料的困难：对于大段大段的文本，人们一开始就没搞清楚它们到底表达了什么意思。</p><p data-pid=\"RgQw0d5i\">这还没涉及到长期记忆。问题在于，读者的目光就像打水漂的石子一样掠过书页。他们对文本的处理最多只到视觉解码层面，文中的概念甚至从未进入工作记忆。诚然，我们可以不屑一顾，将之归咎于「阅读技能很差」，但我并不想过于轻视这一问题：我怀疑许多高薪的知识工作者也经常会像这样，在最简单的阅读理解上出错。</p><p data-pid=\"1GxoZOAD\">自从我将阅读作为一个研究问题进行探索以来，我的阅读能力已经大大提高。然而，我仍然（意外地）经常会犯些低级失误。去年，我报名参加了<a href=\"https://link.zhihu.com/?target=https%3A//graham.uchicago.edu/programs-courses/basic-program\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">芝加哥大学的一个为期四年的名著研读项目</a>。这个项目非常有趣：我们每周都会聚在一起，深入讨论各种富有挑战性的文本。但是，在大多数课程中，讲师的提问（不少于一个）会让我意识到，我其实并没有理解某个重要段落的文本所表达的内容 —— 而且我自己都没有注意到。</p><h2><b>领会主旨</b></h2><p data-pid=\"vV0cvthM\">受过教育的成年人，真的每天都在基本的阅读理解上出现问题吗？也许是我的问题，我考虑的情景要求上太严苛了 —— 在我的研究中，我要一直观察读者的理解，并且我追求的目标是帮助人们极其详尽地内化文本，而我参加的芝大课程，涵盖了自古流传的一些文本，它们也难度极大；另外一种可能是，讨论题比你「平常」阅读时会探索得更加深入。</p><p data-pid=\"3jm3Tz01\">另外，有人说，反正大多数人只是「为了领会主旨而阅读」。他们只想看几个要点，不觉得有必要真正理解作者论述的所有关键细节，更不用说记住。好吧，假设我暂时接受这个观点。那么，人们「领会主旨」了吗？他们知道自己是否领会了主旨吗？</p><p data-pid=\"sICPyann\"><a href=\"https://link.zhihu.com/?target=http%3A//andymatuschak.org/files/papers/Pressley%2520et%2520al%2520-%25201990%2520-%2520Sometimes%2520Adults%2520Miss%2520the%2520Main%2520Ideas%2520and%2520Do%2520Not%2520Realize%2520It.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">在一个研究成人阅读理解的开创性实验中，Michael Pressley 及其同事要求</a>大学生阅读 SAT 风格的短文片段（约 118 到 520 词），并指示他们调整阅读速度，以保证读完后可以回答相关问题。其中一些问题涉及「主旨」—— 比如「陈述段落的主要思想或基本目的」，其他的问题则涉及细节。学生每读完一个段落后，他们需要回答一个问题。 如果他们觉得之前回答错了的话，可以选择是否要重读该段落，以及是否要修改回答。</p><p data-pid=\"oV3qoEGk\">该实验的核心发现是：对于涉及主旨的问题，如果读者第一次阅读后给出了错误答案，他们不大可能选择重读并再次尝试回答 —— 只有 20% / 27% （对应两种实验情景）的测试情况会选择再次尝试。在重读的情况中，也只有 50% / 57% 的最终回答是正确的。</p><p data-pid=\"yvof_BTX\">可能只是学生们比较懒，因为这只是一个人为的实验而不选择重读？或许吧，相比之下，如果是涉及段落细节的问题，回答错误的学生<b>会</b>选择重读，并且有 60% / 75% 都改变了答案。这个差异不符合「学生们比较懒、不关心答案正确」这个假设。为了进一步的探索该假设，作者进行了第二个实验。这一次，学生只需要对自己答案的自信程度评分，但不能重读和修改答案。结果，在对「主旨」问题的<b>错误</b>回答中，60% / 64% 的学生都显示高度自信！实际上，不论正确与否，他们对于自己的答案都非常自信。</p><p data-pid=\"H4hPrzeD\">作者还想知道，察觉自己是否理解的意识（comprehension awareness），是否只源于有较高的「语言理解和表达能力」（SAT verbal，verbal ability）？结果发现并非如此。他们对同样的学生样本实施了一次微型的口头 SAT，发现口头测试表现虽然和回答的准确度存在中等相关，但与学生的自信评分相关性并不明显。作者对此的解释是，这种自省意识至少部分<b>区别</b>于传统的自省评估手段（译注：也就是说传统的评估可能测不出来）。学生在 SAT 考试中得分较高是因为他们的第一次尝试就更可能是对的。当他们的答案错误时，相较于比他们的分数低的同学，他们不一定更可能注意到这一点。（译注：也就是高理解的同学在答错的时候，并不会更可能意识到自己错了）</p><p data-pid=\"wRpfLH-C\">上述论文的作者还发表了<a href=\"https://link.zhihu.com/?target=https%3A//psycnet.apa.org/record/1991-14388-001\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">另一项研究</a>[1]，标题很有吸引力：《你不一定了解心里笃定的文章主旨》。他们做了另一个实验，和上文介绍的实验类似，也是要求一组学生阅读每篇文章并回答问题。不同的是，这一次，为了可以自信地回答问题，只要学生觉得有必要，可以不限阅读次数。对照组则是只能读一次文章。结果，「高确定度」的实验组虽然在每篇文章上花了更多的时间，且拥有更多的自信，但再理解上并没有显著地表现得更好。</p><p data-pid=\"siBGhWNz\">现在，我们还不应该得出「没有人可以『领会主旨』」这样的结论。有经验的读者的确存在 —— 像<a href=\"https://link.zhihu.com/?target=http%3A//andymatuschak.org/files/papers/Wyatt%2520et%2520al%2520-%25201993%2520-%2520Comprehension%2520strategies%2C%2520worth%2520and%2520credibility%2520monitoring%2C%2520and%2520evaluations.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">积极发表论文的教授通常富有经验</a>—— <a href=\"https://link.zhihu.com/?target=http%3A//andymatuschak.org/files/papers/Pressley%2C%2520Afflerbach%2520-%25201995%2520-%2520Verbal%2520Protocols%2520of%2520Reading.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我们可以从研究他们的行为当中学到很多东西</a>。但是我猜测大多数的知识工作者会经常表现出阅读理解问题，就像我们反复在大学生中观察到的那样[2]。</p><h2><b>脚注</b></h2><p data-pid=\"S42gqdKm\">[1] 不幸的是，我找不到这篇文章的全文（《国家阅读会议年鉴》看起来像一个小型的论文集），所以在这里，我无法评估整个研究，只能总结概要。</p><p data-pid=\"W7pTXBJR\">[2] 更多信息请见<a href=\"https://link.zhihu.com/?target=http%3A//andymatuschak.org/files/papers/Pressley%2520et%2520al%2520-%25201997%2520-%2520Some%2520of%2520the%2520Reasons%2520Why%2520Preparing%2520for%2520Exams%2520Is%2520So%2520Hard.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这篇综述</a>第九页第一段所包含的参考文献。</p><blockquote data-pid=\"BLTkJOuU\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者崔家辉、 荆慢慢2.2，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/reading-and-85345515\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Reading comprehension and memory systems</a><br/>作者：Andy Matuschak</blockquote><hr/><p data-pid=\"di3l9YUl\">那么，该怎么提高自己的阅读理解能力？推荐阅读以下笔记：</p><a href=\"https://zhuanlan.zhihu.com/p/679063443\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">叶峻峣：阅读理解</a><p data-pid=\"O_dDEZK5\">为什么看书记不住？因为作为一种媒介，<b>书本在传递知识方面出奇的糟糕，而读者大多没有意识到这一点</b>。</p><a href=\"https://zhuanlan.zhihu.com/p/390507468\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-1eebdcea711e5baa694bac7feaad0878_ipico.jpg\" data-image-width=\"1024\" data-image-height=\"1024\" class=\"internal\">Thoughts Memo：为什么书本不起作用？</a><p></p>",
+  "content": "<p data-pid=\"z8rWUAhX\">表面上看是遗忘的问题，有时实际上是阅读理解的问题，而且大部分受过教育的成年人在阅读理解上都有问题，但他们却都对自己很自信。</p><blockquote data-pid=\"wyHz_T9f\">以下内容节选自 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0\" data-hash=\"4c592f496dc33822b560b382907ff1d0\" data-hovercard=\"p$b$4c592f496dc33822b560b382907ff1d0\">@Thoughts Memo</a> 汉化组的译文《<a href=\"https://zhuanlan.zhihu.com/p/653174197\" class=\"internal\" target=\"_blank\">阅读理解与记忆系统</a>》</blockquote><p data-pid=\"e6U_P9zb\">在追求「让人们更容易记住他们读过的内容」这一目标时，我碰到了一个出人意料的困难：对于大段大段的文本，人们一开始就没搞清楚它们到底表达了什么意思。</p><p data-pid=\"RgQw0d5i\">这还没涉及到长期记忆。问题在于，读者的目光就像打水漂的石子一样掠过书页。他们对文本的处理最多只到视觉解码层面，文中的概念甚至从未进入工作记忆。诚然，我们可以不屑一顾，将之归咎于「阅读技能很差」，但我并不想过于轻视这一问题：我怀疑许多高薪的知识工作者也经常会像这样，在最简单的阅读理解上出错。</p><p data-pid=\"1GxoZOAD\">自从我将阅读作为一个研究问题进行探索以来，我的阅读能力已经大大提高。然而，我仍然（意外地）经常会犯些低级失误。去年，我报名参加了<a href=\"https://link.zhihu.com/?target=https%3A//graham.uchicago.edu/programs-courses/basic-program\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">芝加哥大学的一个为期四年的名著研读项目</a>。这个项目非常有趣：我们每周都会聚在一起，深入讨论各种富有挑战性的文本。但是，在大多数课程中，讲师的提问（不少于一个）会让我意识到，我其实并没有理解某个重要段落的文本所表达的内容 —— 而且我自己都没有注意到。</p><h2><b>领会主旨</b></h2><p data-pid=\"vV0cvthM\">受过教育的成年人，真的每天都在基本的阅读理解上出现问题吗？也许是我的问题，我考虑的情景要求上太严苛了 —— 在我的研究中，我要一直观察读者的理解，并且我追求的目标是帮助人们极其详尽地内化文本，而我参加的芝大课程，涵盖了自古流传的一些文本，它们也难度极大；另外一种可能是，讨论题比你「平常」阅读时会探索得更加深入。</p><p data-pid=\"3jm3Tz01\">另外，有人说，反正大多数人只是「为了领会主旨而阅读」。他们只想看几个要点，不觉得有必要真正理解作者论述的所有关键细节，更不用说记住。好吧，假设我暂时接受这个观点。那么，人们「领会主旨」了吗？他们知道自己是否领会了主旨吗？</p><p data-pid=\"sICPyann\"><a href=\"https://link.zhihu.com/?target=http%3A//andymatuschak.org/files/papers/Pressley%2520et%2520al%2520-%25201990%2520-%2520Sometimes%2520Adults%2520Miss%2520the%2520Main%2520Ideas%2520and%2520Do%2520Not%2520Realize%2520It.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">在一个研究成人阅读理解的开创性实验中，Michael Pressley 及其同事要求</a>大学生阅读 SAT 风格的短文片段（约 118 到 520 词），并指示他们调整阅读速度，以保证读完后可以回答相关问题。其中一些问题涉及「主旨」—— 比如「陈述段落的主要思想或基本目的」，其他的问题则涉及细节。学生每读完一个段落后，他们需要回答一个问题。 如果他们觉得之前回答错了的话，可以选择是否要重读该段落，以及是否要修改回答。</p><p data-pid=\"oV3qoEGk\">该实验的核心发现是：对于涉及主旨的问题，如果读者第一次阅读后给出了错误答案，他们不大可能选择重读并再次尝试回答 —— 只有 20% / 27% （对应两种实验情景）的测试情况会选择再次尝试。在重读的情况中，也只有 50% / 57% 的最终回答是正确的。</p><p data-pid=\"yvof_BTX\">可能只是学生们比较懒，因为这只是一个人为的实验而不选择重读？或许吧，相比之下，如果是涉及段落细节的问题，回答错误的学生<b>会</b>选择重读，并且有 60% / 75% 都改变了答案。这个差异不符合「学生们比较懒、不关心答案正确」这个假设。为了进一步的探索该假设，作者进行了第二个实验。这一次，学生只需要对自己答案的自信程度评分，但不能重读和修改答案。结果，在对「主旨」问题的<b>错误</b>回答中，60% / 64% 的学生都显示高度自信！实际上，不论正确与否，他们对于自己的答案都非常自信。</p><p data-pid=\"H4hPrzeD\">作者还想知道，察觉自己是否理解的意识（comprehension awareness），是否只源于有较高的「语言理解和表达能力」（SAT verbal，verbal ability）？结果发现并非如此。他们对同样的学生样本实施了一次微型的口头 SAT，发现口头测试表现虽然和回答的准确度存在中等相关，但与学生的自信评分相关性并不明显。作者对此的解释是，这种自省意识至少部分<b>区别</b>于传统的自省评估手段（译注：也就是说传统的评估可能测不出来）。学生在 SAT 考试中得分较高是因为他们的第一次尝试就更可能是对的。当他们的答案错误时，相较于比他们的分数低的同学，他们不一定更可能注意到这一点。（译注：也就是高理解的同学在答错的时候，并不会更可能意识到自己错了）</p><p data-pid=\"wRpfLH-C\">上述论文的作者还发表了<a href=\"https://link.zhihu.com/?target=https%3A//psycnet.apa.org/record/1991-14388-001\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">另一项研究</a>[1]，标题很有吸引力：《你不一定了解心里笃定的文章主旨》。他们做了另一个实验，和上文介绍的实验类似，也是要求一组学生阅读每篇文章并回答问题。不同的是，这一次，为了可以自信地回答问题，只要学生觉得有必要，可以不限阅读次数。对照组则是只能读一次文章。结果，「高确定度」的实验组虽然在每篇文章上花了更多的时间，且拥有更多的自信，但再理解上并没有显著地表现得更好。</p><p data-pid=\"siBGhWNz\">现在，我们还不应该得出「没有人可以『领会主旨』」这样的结论。有经验的读者的确存在 —— 像<a href=\"https://link.zhihu.com/?target=http%3A//andymatuschak.org/files/papers/Wyatt%2520et%2520al%2520-%25201993%2520-%2520Comprehension%2520strategies%2C%2520worth%2520and%2520credibility%2520monitoring%2C%2520and%2520evaluations.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">积极发表论文的教授通常富有经验</a>—— <a href=\"https://link.zhihu.com/?target=http%3A//andymatuschak.org/files/papers/Pressley%2C%2520Afflerbach%2520-%25201995%2520-%2520Verbal%2520Protocols%2520of%2520Reading.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我们可以从研究他们的行为当中学到很多东西</a>。但是我猜测大多数的知识工作者会经常表现出阅读理解问题，就像我们反复在大学生中观察到的那样[2]。</p><h2><b>脚注</b></h2><p data-pid=\"S42gqdKm\">[1] 不幸的是，我找不到这篇文章的全文（《国家阅读会议年鉴》看起来像一个小型的论文集），所以在这里，我无法评估整个研究，只能总结概要。</p><p data-pid=\"W7pTXBJR\">[2] 更多信息请见<a href=\"https://link.zhihu.com/?target=http%3A//andymatuschak.org/files/papers/Pressley%2520et%2520al%2520-%25201997%2520-%2520Some%2520of%2520the%2520Reasons%2520Why%2520Preparing%2520for%2520Exams%2520Is%2520So%2520Hard.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这篇综述</a>第九页第一段所包含的参考文献。</p><blockquote data-pid=\"BLTkJOuU\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者崔家辉、 荆慢慢2.2，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/reading-and-85345515\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Reading comprehension and memory systems</a><br/>作者：Andy Matuschak</blockquote><hr/><p data-pid=\"di3l9YUl\">那么，该怎么提高自己的阅读理解能力？推荐阅读以下笔记：</p><a href=\"https://zhuanlan.zhihu.com/p/679063443\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">叶峻峣：阅读理解</a><p data-pid=\"O_dDEZK5\">为什么看书记不住？因为作为一种媒介，<b>书本在传递知识方面出奇的糟糕，而读者大多没有意识到这一点</b>。</p><a href=\"https://zhuanlan.zhihu.com/p/390507468\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-1eebdcea711e5baa694bac7feaad0878_ipico.jpg\" data-image-width=\"1024\" data-image-height=\"1024\" class=\"internal\">Thoughts Memo：为什么书本不起作用？</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1706154626,
   "excerpt": "表面上看是遗忘的问题，有时实际上是阅读理解的问题，而且大部分受过教育的成年人在阅读理解上都有问题，但他们却都对自己很自信。 以下内容节选自 @Thoughts Memo 汉化组的译文《阅读理解与记忆系统 》在追求「让人们更容易记住他们读过的内容」这一目标时，我碰到了一个出人意料的困难：对于大段大段的文本，人们一开始就没搞清楚它们到底表达了什么意思。 这还没涉及到长期记忆。问题在于，读者的目光就像打水漂的石子一样掠过…",
-  "id": 3375415081,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3375415081",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/390507468": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"为什么书本不起作用？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/390507468\",\"desc\":\"136 赞同 · 8 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 原文：Why books donʼt work | Andy Matuschak 书本很容易被认为是理所当然的。我不是针对任何具体的书，我的意思是：书的 形式。纸张或像素——这不重要。文字在每一行中，在每一页中，在每一章节中。至少对于非小说类读物来说，有一个隐含的假设是基础：「人们通过阅读句子来吸收知识」。这一想法是如此无形地定义了媒介，以至于很难不认为这是理所当然的，这是一种耻辱，因为正如我们将看到的，它相当错误。想象一些严肃的…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-1eebdcea711e5baa694bac7feaad0878_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"390507468\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/679063443": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"阅读理解\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/679063443\",\"desc\":\"37 赞同 · 0 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eJarrett Ye:\\u003c/a\\u003e 我最感兴趣的是成年人的阅读理解，尤其是难懂的解释文本。一些笔记： 人们经常难以回忆起文本的细节，原因在于他们起初就根本没有加工文本 [1] （见 2023-06-30, 2023-08-01, 2023-08-31 patron letters） 干预措施 附加问题 [2] 阅读理解问题可以发现文本基础的漏洞 [3] 阅读理解问题令人不快 [4] 教材的习题集并不善于检测阅读理解问题 [5] 附加问题能够提高学习者对相关但未直接测试的内容的理解 [6] 助记媒介可能会促使读者更缓…\",\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"679063443\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/390507468": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"为什么书本不起作用？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/390507468\",\"desc\":\"166 赞同 · 12 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 请看重译版，质量更高： [文章: 【重译】为什么书籍不起作用] 原文：Why books donʼt work | Andy Matuschak 书本很容易被认为是理所当然的。我不是针对任何具体的书，我的意思是：书的 形式。纸张或像素——这不重要。文字在每一行中，在每一页中，在每一章节中。至少对于非小说类读物来说，有一个隐含的假设是基础：「人们通过阅读句子来吸收知识」。这一想法是如此无形地定义了媒介，以至于很难不认为这是理所当然的，这是一种耻辱，…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-1eebdcea711e5baa694bac7feaad0878_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"390507468\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/679063443": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"阅读理解\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/679063443\",\"desc\":\"38 赞同 · 0 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eJarrett Ye:\\u003c/a\\u003e 我最感兴趣的是成年人的阅读理解，尤其是难懂的解释文本。一些笔记： 人们经常难以回忆起文本的细节，原因在于他们起初就根本没有加工文本 [1] （见 2023-06-30, 2023-08-01, 2023-08-31 patron letters） 干预措施 附加问题 [2] 阅读理解问题可以发现文本基础的漏洞 [3] 阅读理解问题令人不快 [4] 教材的习题集并不善于检测阅读理解问题 [5] 附加问题能够提高学习者对相关但未直接测试的内容的理解 [6] 助记媒介可能会促使读者更缓…\",\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"679063443\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/628705447?contentId=3375415081&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1635429408,
     "detail": "<p>以前一直不怎么看书，今天为了孩子教育问题，和老婆约定每天看书一小时</p>",
-    "id": 495160950,
+    "id": "495160950",
     "question_type": "normal",
     "relationship": {},
     "title": "每天看书一个小时，但是看完记不住，是方法不对还是学习能力低？",
     "type": "question",
     "updated_time": 1635429408,
-    "url": "https://api.zhihu.com/questions/495160950"
+    "url": "https://www.zhihu.com/api/v4/questions/495160950"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 162
+  "updated_time": 1706154626,
+  "url": "https://www.zhihu.com/api/v4/answers/3375415081",
+  "voteup_count": 168
 }

@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,9 +37,10 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,37 +84,57 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 0,
-  "content": "<h2>「Anki是在又一次回答错误后，提示这张卡片加入记忆难点；而 supermemo 为什么在这张卡片显示之前会就出现难点管理？」</h2><p data-pid=\"E-sECg4e\">emmm，两个区别很大，但是重点不是回答错误前还是回答错误后。Anki 默认是 8 次错误加入记忆难点，然后自动暂停这张卡片。而 SuperMemo 则是 4 次错误后，会在你下一次看到这张卡片时，提醒你对这张卡片做出选择。</p><h2>这样的意义是什么呢？</h2><p data-pid=\"73ClHg7w\">记忆难点，就是你频繁遗忘的内容。针对这样的卡片，继续重复往往是浪费时间。</p><p data-pid=\"yCu0VnPM\">为什么？这些卡片都或多或少有以下特点：</p><ul><li data-pid=\"tdZLQhyw\">与现实缺乏有意义的联系</li><li data-pid=\"s3bsxQsZ\">和其他卡片内容相似，互相干扰</li><li data-pid=\"pt9W-PG-\">内容过于复杂，无法完全记住</li></ul><p data-pid=\"lGPEXBOD\">光靠重复，是无法记住这些内容的。如果尝试死记硬背，你可能付出代价：</p><blockquote data-pid=\"5ChpT472\">如果一个学生总是用一打困难的项目（<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Leech\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">记忆难点</a>）来填塞糟糕的记忆库，他会浪费很多时间在与自己的情感和记忆作斗争上。没有乐趣，毒性记忆<sup data-text=\"毒性记忆\" data-url=\"https://zhuanlan.zhihu.com/p/67390960\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>就会形成，对<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Pleasure_of_learning\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">学习的热爱</a><sup data-text=\"学习的乐趣\" data-url=\"https://www.zhihu.com/question/429432467/answer/1578551193\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>就会被破坏。此外，还有一个机会成本，就是同一个学生可能会把同样的时间花在愉快的学习上，而不是试图敲打讨厌的记忆难点。他可能不会死记硬背<sup data-text=\"死记硬背（填鸭式学习）\" data-url=\"https://zhuanlan.zhihu.com/p/360416156\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>英语词汇，而会看一些英语电影。</blockquote><h2>如何在sm的难点管理中进行操作</h2><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-be1c3cfcc813a46a00878aa159aa4ec0_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"757\" data-original-token=\"v2-be1c3cfcc813a46a00878aa159aa4ec0\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-2b243a44123801dbba6608c54c8efe95_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic1.zhimg.com/v2-be1c3cfcc813a46a00878aa159aa4ec0_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;720&#39; height=&#39;757&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"757\" data-original-token=\"v2-be1c3cfcc813a46a00878aa159aa4ec0\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-2b243a44123801dbba6608c54c8efe95_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"720\" data-original=\"https://pic1.zhimg.com/v2-be1c3cfcc813a46a00878aa159aa4ec0_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-be1c3cfcc813a46a00878aa159aa4ec0_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"DBOAfbVP\">这幅图已经很显然了。你有四个选项：</p><ol><li data-pid=\"yYn1I_ZY\">编辑</li><li data-pid=\"uiTvbVz-\">忘记</li><li data-pid=\"J3atvcXx\">排除</li><li data-pid=\"ouz0K1ws\">删除</li></ol><p data-pid=\"CWfRFOrg\">下面详细说明</p><h3>编辑</h3><blockquote data-pid=\"odBAuEa_\">大多数情况下，记忆难点<sup data-text=\"难点卡片(Leech)\" data-url=\"https://zhuanlan.zhihu.com/p/307602868\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>来自对知识表述的 20 条规则<sup data-text=\"20 条知识表述规则\" data-url=\"https://zhuanlan.zhihu.com/p/269997143\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>的不尊重。</blockquote><p data-pid=\"QpNeiNI1\">请对这张卡片进行修改，以符合知识表述的 20 条规则。这样才是从根本上解决问题。</p><h3>忘记</h3><p data-pid=\"DcUOYsaS\">将这张卡片重置为新卡片，放入等待队列<sup data-text=\"Pending queue 等待队列\" data-url=\"https://www.yuque.com/supermemo/wiki/pending_queue\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>。在等待队列中的卡片，需要你进入学习新材料阶段才会加入你的复习过程。</p><h3>排除</h3><p data-pid=\"bZobSG2_\">类似于 Anki 中的暂停。以后不复习这张卡片了，但是内容会保留在 SuperMemo 中。</p><h3>删除</h3><p data-pid=\"dXT0XBwM\">再也不见！</p><h2>如何处理这张卡片？</h2><p data-pid=\"OG9NCyAE\">请参考以下文章：</p><a href=\"https://zhuanlan.zhihu.com/p/434074509\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-3fc5e91c7a88c26207775c8301afbe1f_180x120.jpg\" data-image-width=\"1579\" data-image-height=\"328\" class=\"internal\">叶峻峣：如何写出好卡片：利用间隔重复创造理解</a><a href=\"https://zhuanlan.zhihu.com/p/52369009\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_180x120.jpg\" data-image-width=\"732\" data-image-height=\"271\" class=\"internal\">叶峻峣：Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》</a><a href=\"https://zhuanlan.zhihu.com/p/297790034\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-2a911033533550382335768d3296177a_180x120.jpg\" data-image-width=\"1920\" data-image-height=\"813\" class=\"internal\">叶峻峣：基于主动回忆的学习中的知识结构与表述</a><p></p>",
+  "content": "<h2>「Anki是在又一次回答错误后，提示这张卡片加入记忆难点；而 supermemo 为什么在这张卡片显示之前会就出现难点管理？」</h2><p data-pid=\"E-sECg4e\">emmm，两个区别很大，但是重点不是回答错误前还是回答错误后。Anki 默认是 8 次错误加入记忆难点，然后自动暂停这张卡片。而 SuperMemo 则是 4 次错误后，会在你下一次看到这张卡片时，提醒你对这张卡片做出选择。</p><h2>这样的意义是什么呢？</h2><p data-pid=\"73ClHg7w\">记忆难点，就是你频繁遗忘的内容。针对这样的卡片，继续重复往往是浪费时间。</p><p data-pid=\"yCu0VnPM\">为什么？这些卡片都或多或少有以下特点：</p><ul><li data-pid=\"tdZLQhyw\">与现实缺乏有意义的联系</li><li data-pid=\"s3bsxQsZ\">和其他卡片内容相似，互相干扰</li><li data-pid=\"pt9W-PG-\">内容过于复杂，无法完全记住</li></ul><p data-pid=\"lGPEXBOD\">光靠重复，是无法记住这些内容的。如果尝试死记硬背，你可能付出代价：</p><blockquote data-pid=\"5ChpT472\">如果一个学生总是用一打困难的项目（<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Leech\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">记忆难点</a>）来填塞糟糕的记忆库，他会浪费很多时间在与自己的情感和记忆作斗争上。没有乐趣，毒性记忆<sup data-text=\"毒性记忆\" data-url=\"https://zhuanlan.zhihu.com/p/67390960\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>就会形成，对<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Pleasure_of_learning\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">学习的热爱</a><sup data-text=\"学习的乐趣\" data-url=\"https://www.zhihu.com/question/429432467/answer/1578551193\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>就会被破坏。此外，还有一个机会成本，就是同一个学生可能会把同样的时间花在愉快的学习上，而不是试图敲打讨厌的记忆难点。他可能不会死记硬背<sup data-text=\"死记硬背（填鸭式学习）\" data-url=\"https://zhuanlan.zhihu.com/p/360416156\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>英语词汇，而会看一些英语电影。</blockquote><h2>如何在sm的难点管理中进行操作</h2><figure data-size=\"normal\"><noscript><img src=\"https://pica.zhimg.com/50/v2-be1c3cfcc813a46a00878aa159aa4ec0_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"757\" data-original-token=\"v2-be1c3cfcc813a46a00878aa159aa4ec0\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-2b243a44123801dbba6608c54c8efe95_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pica.zhimg.com/v2-be1c3cfcc813a46a00878aa159aa4ec0_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;720&#39; height=&#39;757&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"757\" data-original-token=\"v2-be1c3cfcc813a46a00878aa159aa4ec0\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-2b243a44123801dbba6608c54c8efe95_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"720\" data-original=\"https://pica.zhimg.com/v2-be1c3cfcc813a46a00878aa159aa4ec0_r.jpg?source=2c26e567\" data-actualsrc=\"https://pica.zhimg.com/50/v2-be1c3cfcc813a46a00878aa159aa4ec0_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"DBOAfbVP\">这幅图已经很显然了。你有四个选项：</p><ol><li data-pid=\"yYn1I_ZY\">编辑</li><li data-pid=\"uiTvbVz-\">忘记</li><li data-pid=\"J3atvcXx\">排除</li><li data-pid=\"ouz0K1ws\">删除</li></ol><p data-pid=\"CWfRFOrg\">下面详细说明</p><h3>编辑</h3><blockquote data-pid=\"odBAuEa_\">大多数情况下，记忆难点<sup data-text=\"难点卡片(Leech)\" data-url=\"https://zhuanlan.zhihu.com/p/307602868\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>来自对知识表述的 20 条规则<sup data-text=\"20 条知识表述规则\" data-url=\"https://zhuanlan.zhihu.com/p/269997143\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>的不尊重。</blockquote><p data-pid=\"QpNeiNI1\">请对这张卡片进行修改，以符合知识表述的 20 条规则。这样才是从根本上解决问题。</p><h3>忘记</h3><p data-pid=\"DcUOYsaS\">将这张卡片重置为新卡片，放入等待队列<sup data-text=\"Pending queue 等待队列\" data-url=\"https://www.yuque.com/supermemo/wiki/pending_queue\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>。在等待队列中的卡片，需要你进入学习新材料阶段才会加入你的复习过程。</p><h3>排除</h3><p data-pid=\"bZobSG2_\">类似于 Anki 中的暂停。以后不复习这张卡片了，但是内容会保留在 SuperMemo 中。</p><h3>删除</h3><p data-pid=\"dXT0XBwM\">再也不见！</p><h2>如何处理这张卡片？</h2><p data-pid=\"OG9NCyAE\">请参考以下文章：</p><a href=\"https://zhuanlan.zhihu.com/p/434074509\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-3fc5e91c7a88c26207775c8301afbe1f_180x120.jpg\" data-image-width=\"1579\" data-image-height=\"328\" class=\"internal\">叶峻峣：如何写出好卡片：利用间隔重复创造理解</a><a href=\"https://zhuanlan.zhihu.com/p/52369009\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_180x120.jpg\" data-image-width=\"732\" data-image-height=\"271\" class=\"internal\">叶峻峣：Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》</a><a href=\"https://zhuanlan.zhihu.com/p/297790034\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-2a911033533550382335768d3296177a_180x120.jpg\" data-image-width=\"1920\" data-image-height=\"813\" class=\"internal\">叶峻峣：基于主动回忆的学习中的知识结构与表述</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1638634744,
   "excerpt": "「Anki是在又一次回答错误后，提示这张卡片加入记忆难点；而 supermemo 为什么在这张卡片显示之前会就出现难点管理？」emmm，两个区别很大，但是重点不是回答错误前还是回答错误后。Anki 默认是 8 次错误加入记忆难点，然后自动暂停这张卡片。而 SuperMemo 则是 4 次错误后，会在你下一次看到这张卡片时，提醒你对这张卡片做出选择。 这样的意义是什么呢？记忆难点，就是你频繁遗忘的内容。针对这样的卡片，继续重复往往是浪费时…",
-  "id": 2256709277,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2256709277",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/297790034": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"基于主动回忆的学习中的知识结构与表述\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/297790034\",\"desc\":\"129 赞同 · 11 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 原文：http://super-memory.com/english/ol/ks.htm Piotr Wozniak , 1994| 本文摘自 P.A.沃兹尼亚克，《学习经济学》，博士论文（1995 年），并经改编后作为独立文章在网上发表（P.A.沃兹尼亚克，1997 年 4 月 23 日）。用通俗的科普语言编写的同等文本见： 学习中的 20 条知识表述规则 | 在这篇文章中，我将试图表明，将学习到的知识分解为小块，并将其归结为在一个受学习过程约束的知识系统中的独立语义单位，是可行的。我还预测这种方法在未来基于主…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-2a911033533550382335768d3296177a_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"297790034\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/434074509": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"如何写出好卡片：利用间隔重复创造理解\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/434074509\",\"desc\":\"1059 赞同 · 134 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 译序： 考试里有学习的奥秘？！前苹果系统工程师手把手教学 注：正文中的[数字]表示的是注释，可以善用 Ctrl+F 进行页面内搜索。 本文有两万五千多字，可以在你做卡片时作为参考。小时候，我时常做这样的白日梦，只要像打游戏那样敲对作弊代码，电脑就「哔哔」两声，自动给我打开神奇的世界，让我拥有和游戏主角一样超凡的力量，摆脱这单调乏味的生活。 以上幻想多半是游戏玩太多的缘故，但那神奇的感觉正与我后来使用「间隔重复…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-3fc5e91c7a88c26207775c8301afbe1f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"434074509\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/52369009": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/52369009\",\"desc\":\"415 赞同 · 31 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 想要提高学习效率，加速学习？阅读本文来获得能力，克服来自「组织知识」的困难。 学习速度取决于我们组织学习材料的方式。如果组织的很好，那么对于相同的材料，我们就能学得又快又好，其效率（速度）上的差距是难以置信的。 下面的原则按照重要性排序，最前面的原则最易被不经意地违背，但是如果能够好好地遵守它们，将为我们带来极大的收益。 这里有一个前提：你在用「间隔重复」的方式进行学习和…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"52369009\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/297790034": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"基于主动回忆的学习中的知识结构与表述\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/297790034\",\"desc\":\"156 赞同 · 11 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 原文：http://super-memory.com/english/ol/ks.htm Piotr Wozniak , 1994| 本文摘自 P.A.沃兹尼亚克，《学习经济学》，博士论文（1995 年），并经改编后作为独立文章在网上发表（P.A.沃兹尼亚克，1997 年 4 月 23 日）。用通俗的科普语言编写的同等文本见： 学习中的 20 条知识表述规则 | 在这篇文章中，我将试图表明，将学习到的知识分解为小块，并将其归结为在一个受学习过程约束的知识系统中的独立语义单位，是可行的。我还预测这种方法在未来基于主…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-2a911033533550382335768d3296177a_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"297790034\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/434074509": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"如何写出好卡片：利用间隔重复创造理解\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/434074509\",\"desc\":\"1325 赞同 · 151 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 译序： 考试里有学习的奥秘？！前苹果系统工程师手把手教学 注：正文中的[数字]表示的是注释，可以善用 Ctrl+F 进行页面内搜索。 本文有两万五千多字，可以在你做卡片时作为参考。小时候，我时常做这样的白日梦，只要像打游戏那样敲对作弊代码，电脑就「哔哔」两声，自动给我打开神奇的世界，让我拥有和游戏主角一样超凡的力量，摆脱这单调乏味的生活。 以上幻想多半是游戏玩太多的缘故，但那神奇的感觉正与我后来使用「间隔重复…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-3fc5e91c7a88c26207775c8301afbe1f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"434074509\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/52369009": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/52369009\",\"desc\":\"500 赞同 · 33 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 想要提高学习效率，加速学习？阅读本文来获得能力，克服来自「组织知识」的困难。 学习速度取决于我们组织学习材料的方式。如果组织的很好，那么对于相同的材料，我们就能学得又快又好，其效率（速度）上的差距是难以置信的。 下面的原则按照重要性排序，最前面的原则最易被不经意地违背，但是如果能够好好地遵守它们，将为我们带来极大的收益。 这里有一个前提：你在用「间隔重复」的方式进行学习和…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"52369009\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=2256709277&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1638633202,
-    "detail": "<p>Anki是在又一次回答错误后，提示这张卡片加入记忆难点；而supermemo 为什么在这张卡片显示之前会就出现难点管理？</p><p>这样的意义是什么呢？ 而已应该如何在sm的难点管理中进行操作；以及如何处理这张卡片？</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-8c27c87e4d34f7ea7f2e088f0996e16e_b.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1600\" data-rawheight=\"1682\" class=\"origin_image zh-lightbox-thumb\" width=\"1600\" data-original=\"https://pic3.zhimg.com/v2-8c27c87e4d34f7ea7f2e088f0996e16e_r.jpg\"/></figure><p></p>",
-    "id": 503736498,
+    "detail": "<p>Anki是在又一次回答错误后，提示这张卡片加入记忆难点；而supermemo 为什么在这张卡片显示之前会就出现难点管理？</p><p>这样的意义是什么呢？ 而已应该如何在sm的难点管理中进行操作；以及如何处理这张卡片？</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-8c27c87e4d34f7ea7f2e088f0996e16e_1440w.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1600\" data-rawheight=\"1682\" class=\"origin_image zh-lightbox-thumb\" width=\"1600\" data-original=\"https://pic3.zhimg.com/v2-8c27c87e4d34f7ea7f2e088f0996e16e_r.jpg\"/></figure><p></p>",
+    "id": "503736498",
     "question_type": "normal",
     "relationship": {},
     "title": "supermemo 为什么会出现难点管理？",
     "type": "question",
     "updated_time": 1638633202,
-    "url": "https://api.zhihu.com/questions/503736498"
+    "url": "https://www.zhihu.com/api/v4/questions/503736498"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 21
+  "updated_time": 1638638816,
+  "url": "https://www.zhihu.com/api/v4/answers/2256709277",
+  "voteup_count": 24
 }

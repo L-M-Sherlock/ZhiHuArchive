@@ -1,80 +1,481 @@
 {
-  "status": 0,
-  "updated": 1741532425,
+  "id": "26983893625",
+  "title": "第十章 主动学习",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/26983893625",
+  "image_url": "https://picx.zhimg.com/v2-861bf0e3e25f72e079506a935550ef4c_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-861bf0e3e25f72e079506a935550ef4c_720w.jpg?source=172ae18b",
+  "excerpt": "⠀⠀⠀ <b>摘要：</b>教育学领域存在一项关键结论：相较于被动接收教学内容，学生在主动参与学习活动时能取得更优的学习效果。真正的主动学习要求每个学习者都必须对每个知识点进行主动思考。<b>定义与重要性</b>关于学习数学的最大谬误，莫过于认为看视频、听讲座…",
+  "created": 1740888960,
+  "updated": 1763722750,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "⠀⠀⠀摘要：教育学领域存在一项关键结论：相较于被动接收教学内容，学生在主…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 1280,
+  "image_height": 720,
+  "content": "<p data-pid=\"5yOVPmPI\">⠀⠀⠀<b>摘要：</b>教育学领域存在一项关键结论：相较于被动接收教学内容，学生在主动参与学习活动时能取得更优的学习效果。真正的主动学习要求每个学习者都必须对每个知识点进行主动思考。</p><h2><b>定义与重要性</b></h2><p data-pid=\"mv6YwJf1\">关于学习数学的最大谬误，莫过于认为看视频、听讲座、阅读书籍或复习笔记是最高效的学习方式。这是错误的。正如<a href=\"https://link.zhihu.com/?target=https%3A//www.pnas.org/doi/10.1073/pnas.1319030111\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">数百项研究</a>表明的那样，与要求学生积极主动地进行学习活动的<b><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Active_learning\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">主动学习</a></b>相比，<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Passive_learning\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">被动地</a>接受教学内容会导致学习效果显著下降（Freeman et al., 2014）。</p><p data-pid=\"OyyNTqoP\">在观看视频这类被动学习场景中，如果学生能够理解视频内容并跟上节奏，他们可能会认为自己在有效学习。然而，跟上节奏并理解视频内容的过程并不等同于学习，即使学生声称自己是在学习。正如第三章<sup data-text=\"第三章 核心科学：大脑的工作机制\" data-url=\"https://zhuanlan.zhihu.com/p/17839729470\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>所讨论的，学习的本质是长期记忆的积极变化。为了让学生真正学到东西，他们需要能够始终如一地复现知识，并用它来解决问题。而这些能力的培养，在学生单纯观看视频（即使完全理解内容）的过程中根本无法实现。同样的道理也适用于听讲座、阅读书籍、重读笔记以及所有其他被动学习技巧。</p><p data-pid=\"ohNY7sKR\">主动学习在各个学科和实验方法中的优越性如此强大，以至于一项被广泛引用的<a href=\"https://link.zhihu.com/?target=https%3A//www.pnas.org/doi/10.1073/pnas.1319030111\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">元分析</a>报告（Freeman et al., 2014）指出：</p><p data-pid=\"1NzLFbOp\">⠀⠀⠀「……增加获得 STEM 学位的学生人数的呼吁，至少可以通过放弃传统的讲授方式，转而采用主动学习来部分实现。</p><p data-pid=\"lgMchaa4\">⠀⠀⠀……</p><p data-pid=\"0mVSrXza\">⠀⠀⠀鉴于我们的研究结果，在未来的实验中继续使用传统的讲授方式作为对照组是令人担忧的。」</p><p data-pid=\"K_5UNB5_\">诺贝尔奖获得者 Carl Wieman <a href=\"https://link.zhihu.com/?target=https%3A//www.npr.org/sections/ed/2016/04/14/465729968/a-nobel-laureates-education-plea-revolutionize-teaching\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">认为</a>，讲课是教育界的放血疗法（Westervelt, 2016）：</p><p data-pid=\"gbGODP5w\">⠀⠀⠀「你放一些血出去，然后他们就康复了。是放血疗法起作用了吗，还是其他原因？……你给人们讲课，一些学生离开，之学会了这些东西。但他们并不是从讲课中学到的——他们是从家庭作业、作业中学到的。当我们衡量人们从实际讲课中学到的东西有多么少时，你会发现它真的非常少。</p><p data-pid=\"0dtu133c\">⠀⠀⠀……</p><p data-pid=\"lG6tOIID\">⠀⠀⠀大学管理者不会因为教学质量而获得奖励，相应的，他们也不知道或不在乎教学质量……这就像你有一家医院，却不检查你的医生是否在使用抗生素或放血疗法。」</p><p data-pid=\"6SjXVJry\">与讲课一样，反复阅读也不算作主动学习。正如 Brown, Roediger, &amp; McDaniel (2014, pp.10) <a href=\"https://link.zhihu.com/?target=https%3A//www.hup.harvard.edu/books/9780674729018\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">描述</a>的那样：</p><p data-pid=\"XrubC8WM\">⠀⠀⠀「研究发现反复阅读教科书往往是徒劳无功的，这个结论应该让教育工作者和学习者感到不寒而栗，因为这恰恰是大多数人的首选学习方法——据一些调查显示，超过 80% 的大学生采用这种策略——并且在我们为学习付出的时间里，这是我们告诉自己要做的核心任务。</p><p data-pid=\"woKWTleK\">⠀⠀⠀反复阅读存在三个主要缺陷。首先，它耗时耗力。其次，它无法形成持久的记忆。最后，它往往会导致一种不知不觉的自我欺骗，因为对文本日益熟悉会让人感觉像是掌握了内容。花费大量时间进行重复阅读可能看起来很勤奋，但学习时间的长短并不能真正衡量知识的掌握程度。」</p><p data-pid=\"15M1-1yT\">重要的是要认识到，真正的主动学习意味着每个学生都参与到认知活动中，而非仅仅是班级整体的表面活跃。以全班讨论为例，表面上看起来像主动学习，实则无法保证每个学生都真正投入。实际情况往往是，只有少数热情的、喜欢表达的学生能全程参与，可以算作真正主动。即使老师随机点名那些没有参与的学生，多数学生也仅会保持最低限度的注意力——刚够在被点名时不致出丑而已。</p><p data-pid=\"whX7gu1s\">更重要的是，真正的主动学习要求每个学习者都必须对每个知识点进行主动加工。分工合作的小组项目不算作完全的主动学习，因为每个学生只主动学习自己在分工中负责的材料。对其他成员的工作内容，他们只是被动地观察，（甚至可能完全忽视）。</p><p data-pid=\"ufRKkXy4\">Math Academy 的数学教育方法完全以真正的主动学习为中心——在每个知识点上，学生上课几分钟内就会开始动手解题（老师只做最必要的简短讲解）。他们的课堂时间几乎全花在主动解决问题上。</p><h2><b>案例研究</b></h2><h3>| <b>案例研究 1：为什么主动学习是显而易见的</b></h3><p data-pid=\"wLuflX2J\">为了清楚、具体地了解主动学习的含义以及它为何如此有益，回顾一个在主动学习中最熟悉的场景中的案例研究会很有帮助：学习一项新的运动。</p><p data-pid=\"RrKcnRUP\">假设你想学习打网球。你去了当地的网球俱乐部，那里有一位曾经是职业网球运动员的教练。他们提供每小时 100 美元的高价私人课程，但你真的想尽可能高效地向最好的教练学习，所以你为下周的课程支付了费用。</p><p data-pid=\"-8oKEzIK\">下周，你准时来上课。教练向你问好，并开始了长达一小时的课程。过程如下：</p><p data-pid=\"4XcP7htk\">⠀⠀⠀[5 分钟] 教练谈论网球的魅力以及为什么这是一项值得学习的运动</p><p data-pid=\"Qyc1N6eS\">⠀⠀⠀[5 分钟] 教练演示网球站姿，并解释站姿的具体组成部分：膝盖弯曲、身体前倾、球拍在身前等。</p><p data-pid=\"cAr1aglO\">⠀⠀⠀[5 分钟] 教练演示接球时理想的站位：靠近底线，在球场中央，这样你离后方足够远，对手就不能把球打到你的身后，但你离网足够近，可以向前冲向任何较短的截击球。</p><p data-pid=\"dK1kzALG\">⠀⠀⠀[10 分钟] 教练演示正手挥杆，解释如何用腿和身体扭动（而不是手臂）发力，并强调挥杆时「随杆」的重要性。</p><p data-pid=\"jqRBrH5y\">⠀⠀⠀[20 分钟] 教练演示反手挥杆，分解其组成部分，并分享关于网球历史上的时刻，当时球员没有时间调整姿势进行正手挥杆，因此不得不依靠反手来赢得比赛。教练演示单手反手，这是一个看起来特别酷炫的高级动作。</p><p data-pid=\"1vUUbFLu\">⠀⠀⠀[15 分钟] 教练演示发球，并展示了一些快如闪电、目标精准的发球，这些发球似乎不可能接住。同样，这些都是看起来非常酷炫的高级动作。</p><p data-pid=\"wEi7H6tw\">课程结束时，教练问你是否要安排下周的另一节课。</p><p data-pid=\"mmT0mTyX\">你会怎么做？你会满意吗？你会想再预约一节课吗？当然不会！教练整堂课就只顾着滔滔不绝地讲理论，炫耀自己的球技。你实际上什么都没学到。这和在电视上看网球比赛没什么两样。你报名参加网球课是为了提高球技，而不是来欣赏教练的表演。你刚刚白白浪费了 100 美元，这完全是在浪费时间，你肯定想要求退款。</p><p data-pid=\"UJP2zGLU\">当然，这种情况在现实生活中的体育训练中几乎不可能发生，因为教练们都清楚，能否继续受雇完全取决于他们让学生进步的能力。他们必须为提高学生的表现负责。他们需要迅速取得真实的、可见的进步——如果做不到这一点，他们就会失去客户，还会落得一个骗子的名声，被人指责为靠欺骗来赚取高额费用，却提供毫无效果的服务。</p><p data-pid=\"GjSfbEkc\">在现实生活中的体育训练中，教练通常会在课程开始后的几分钟内就让学生开始主动练习动作。当然，教练可能会花一分钟来演示并分解一个新动作，让学生观看，但在那之后的 10 多分钟里，学生将主动地练习那个新动作。教练会观察学生，并指出他们需要纠正姿势以提高效率的地方——随着学生在新动作上的进步，他们将在运动表现方面体验到真实、可证明的进步。也许他们能够更快或更准确地击球。也许他们能够接住一个棘手的截击球，这个球在课程开始时一直从他们身边飞过。无论进步是什么，它都将是切实的和可复制的。</p><p data-pid=\"G3P_6XJH\">值得特别强调的是：在一对一教练课程中，真正的学习究竟发生在什么时候？不是当你付钱给教练的时候。不是当你观看教练演示动作的时候。而是当你真正开始做你以前做不到的事情时。而是当你尝试一个动作，教练纠正你的姿势，然后你再次尝试这个动作，结果更好时。学习是提升你能力的过程。如果你没有获得提升，你就没有在学习。</p><p data-pid=\"rJZBB802\">同样的道理也适用于你接受钢琴或吉他课程。你不仅仅是在吸收信息——你还在培养技能。数学也是基于技能的。学习如何解一种新型的方程与学习一些关于拿破仑生平的新历史完全不同。从本质上讲，有效的数学训练的关键与有效的体育或音乐训练的关键相同。</p><h3><b>|</b> <b>案例研究 2：大多数学生甚至在讲课时都没有注意听讲</b></h3><p data-pid=\"F6QIWtAa\">客户数据平台 Segment 的联合创始人兼首席执行官 Peter Reinhardt 在一次<a href=\"https://link.zhihu.com/?target=https%3A//www.ycombinator.com/blog/peter-reinhardt-on-finding-product-market-fit-at-segment/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">访谈</a>中透露，他付出了相当大的代价才明白，大多数学生甚至在讲课时都没有注意听讲（Y Combinator, 2018）。</p><p data-pid=\"A73J5Qu5\">据 Reinhardt 说，Segment 最初的产品实际上是一个课堂讲座工具：</p><p data-pid=\"QhKqVnC3\">⠀⠀⠀「这个想法是给学生一个按钮，让他们按一下就可以说『我很困惑』。教授会得到一张随着时间推移学生困惑程度的图表。我们认为这是一个非常酷的想法。我们当时是大学生，我们有很多在麻省理工学院和其他地方对此感到兴奋的教授。……我们和大约 20 位其他教授谈过，他们都对此感到兴奋。」</p><p data-pid=\"Y0JQavIR\">然而，尽管教授们都很兴奋，但在波士顿大学的实际课堂上测试该工具时，结果却是一场彻底的灾难——不是因为该工具不起作用，而是因为学生们甚至没有注意到教授在说什么。</p><p data-pid=\"XHvRVLpy\">实际上，大多数学生要么部分要么完全沉浸在浏览 Facebook 中。讲课实际上只是一场闹剧：学生们甚至不是在被动学习；他们只是坐在那里做其他事情。</p><p data-pid=\"W4nS-Hi5\">⠀⠀⠀「这简直是一场彻底的灾难。所有学生都打开了笔记本电脑，然后都直接去了 Facebook。</p><p data-pid=\"1JZKEFZh\">⠀⠀⠀我们发现这一点是因为站在教室后排，数着电脑屏幕的数量。我们挨个查看学生的屏幕，1、2、3……结果发现刚上课时就有 60% 的学生在刷 Facebook，到快下课时这个数字涨到了 80%。天哪。</p><p data-pid=\"BeCo44Fx\">⠀⠀⠀……</p><p data-pid=\"H0jHhr3r\">⠀⠀⠀我们站在波士顿大学的一间教室后面。这是一门人类学课。我记得当我们得出 60% 和 80% 的比例时，我们走上前向教授道歉，然后走出了教室。」</p><p data-pid=\"TDD9DaiL\">这种情况似乎如此绝望，以至于——尽管经历了长达数月的创业孵化计划，构建了一个由数十万行代码组成的非常复杂的产品，并在不到一周前筹集了超过 50 万美元的投资——他们彻底放弃了该产品，并打电话让投资者撤资。</p><p data-pid=\"0FKCnCoq\">⠀⠀⠀「我们带着这个想法完成了整个 YC [Y Combinator 创业孵化器] 计划。构建了它。数十万行代码。超级复杂的课堂讲课工具产品。它有演示视图，人们可以提问。它非常复杂。我们甚至在演示日用这个想法筹集了资金。大约 60 万美元。</p><p data-pid=\"575AjhtJ\">⠀⠀⠀……</p><p data-pid=\"oApD_omj\">⠀⠀⠀实际上，就在一周前我们刚收到了这些投资的汇款。我们回电给了所有投资者，告诉他们，『好吧，事实证明这是一个糟糕的主意。那么你们想让我们怎么处理这些钱？』几乎所有人都说，我们是投资给你们这个团队的，去找点别的事情做吧。」</p><p data-pid=\"H1f6RHzY\">机缘巧合的是，大多数投资人都愿意保留投资，只要团队转向解决更有前景的问题——因此团队转向开发一个网络分析工具，该工具将通过更好地了解用户在其应用程序上的行为方式来帮助其他开发人员避免此类灾难。</p><p data-pid=\"lJs64Dse\">⠀⠀⠀「我们意识到，不应该只靠站在教室后排来获取这些分析数据。我们应该能够通过数字化的方式看到这些信息。但在现有的分析指标里完全看不到这些。我们决定，嘿，让我们构建一个分析工具。」</p><h3><b>|</b> <b>案例研究 3：主动学习如何拯救了麻省理工学院的物理课</b></h3><p data-pid=\"tW8xvK9E\">在 21 世纪初，麻省理工学院通过将被动学习转变为主动学习，解决了其物理课程的问题。<a href=\"https://link.zhihu.com/?target=https%3A//web.mit.edu/edtech/casestudies/pdf/teal1.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">据</a>麻省理工学院教授 John Belcher 称，大量本科生未能通过他们的新生（第一年）物理课程，这是通识教育的要求（Dori &amp; Belcher, 2005）：</p><p data-pid=\"3_VnTXJ2\">⠀⠀⠀「在拥有 300 多名学生的大型阶梯教室中教授新生课程……是基于这样一种假设，即教师可以将他或她庞大知识库中的知识『倾倒』到学生空空如也的头脑中。</p><p data-pid=\"Bbo22rvB\">⠀⠀⠀……</p><p data-pid=\"vc_RBbxn\">⠀⠀⠀如果这是真的，麻省理工学院的学生就不会在这些大型必修课中不及格。麻省理工学院这些课程的高不及格率（接近 15%）以及期末讲座的低出勤率（低于 50%）表明，这种教学模式存在根本缺陷。」</p><p data-pid=\"Dy1vBJVw\">别忘了麻省理工学院作为全球顶尖学府，素以录取数学能力顶尖、对数理学科充满热情的学生著称。该校每年招收约 1000 名新生，15% 的不及格率意味着，每年大约有 150 名麻省理工学院的学生未能通过这些课程。如果这么多高素质的学生都未能通过第一年的通识教育要求，那么显然问题出在教学方法上，而不是学生的能力。</p><p data-pid=\"x5pUB4Q7\">正如 Belcher 和同事所描述的那样，问题在于物理课程以被动学习为中心。因此，解决方案是将课程转变为主动学习（Dori &amp; Belcher, 2005）。</p><p data-pid=\"K2vMa3-1\">⠀⠀⠀「听讲座时所需的思考是对事实知识的低级理解，这种理解是从耳朵到书写手（Towns &amp; Grant, 1997）。Johnson et al. (1998) 指出，随着讲座的进行，学生对老师所说内容的注意力逐渐下降。……正如 Bybee 和 Ben-Zvi（1998）指出的那样，科学教育工作者主要关注内容，其次关注教学，将评估和实施留给其他人或完全忽略它们。</p><p data-pid=\"AGw295Mf\">⠀⠀⠀在 20 世纪 90 年代初之前，大多数物理教师在很大程度上不知道物理教育研究的成果（Laws, Rosborough &amp; Poodry, 1999）。在过去的 15 年里，人们开发了许多利用教育研究成果的物理课程。……所有这些课程的共同点是，它们强调主动学习和概念理解的要素，这些要素建立在做出预测、观察并与同伴讨论结果的基础上。Hake (1998) 表明，当涉及主动学习时，本科物理的学习收获几乎翻了一番。」</p><p data-pid=\"91STCPuZ\">这些麻省理工学院物理课程从被动讲座转向主动学习课堂的转变被称为技术增强主动学习 (TEAL) 项目，其中 TEAL 课程的运作方式如下：</p><p data-pid=\"tatSy8Z3\">⠀⠀⠀「一个典型的 TEAL 课程由穿插在整个课程中的迷你讲座组成，讲座之间穿插着学生参与动手桌面实验、可视化、问题解决和同伴讨论的时期。」</p><p data-pid=\"IVOrbOVz\">事实上，Belcher 和同事报告了惊人的结果，主动学习使不及格率降低了近三分之二：</p><p data-pid=\"-lLlLrd3\">⠀⠀⠀「两个实验组的不及格率分别低于 5% 和 5%（小规模和大规模实验组），而在传统的对照组中，该比例为 13%（2002 年春季）。」</p><p data-pid=\"tMrP7FKa\">在 1000 名学生的班级中，这意味着在 130 名会在被动学习课程中不及格的学生中，只有 50 名学生仍然会在主动学习课程中不及格，而另外 70 名学生将从不及格中解救出来，最终通过该课程。</p><h3><b>|</b> <b>案例研究 4：如果你有一半时间是主动的，那仍然不够</b></h3><p data-pid=\"fTeFEVy1\">在一项<a href=\"https://link.zhihu.com/?target=https%3A//books.google.com/books%3Fid%3Dgl8nqUjyXWUC%26printsec%3Dfrontcover%23v%3Donepage%26q%26f%3Dfalse\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">研究</a>（Deakin &amp; Cobley, 2003, pp.115-136）中，对练习年限相似的花样滑冰运动员进行了研究，主动练习（相对于被动练习）的比例是区分精英滑冰运动员和普通滑冰运动员的决定性特征。精英滑冰运动员将更多的时间用于主动练习一些最棘手、最费力的动作（跳跃和旋转），即便在休息时段，他们也更倾向于继续主动练习不太费力的动作，如步法和手臂位置。</p><p data-pid=\"hIUEs75m\">作者记录了具体的百分比细分，我们将其整理成表格，以说明每组滑冰运动员将如何使用 100 分钟的练习时间。</p><p data-pid=\"jw4JrQE6\">⠀⠀⠀「……精英组平均花费 14% 的冰上练习时间休息；竞技组花费 31%；而测试组花费 46%。……精英和竞技组分别花费 68% 和 59% 的练习时间练习跳跃，而测试组只花费 48%。</p><p data-pid=\"qMBInIC9\">⠀⠀⠀……</p><p data-pid=\"-31KCCFd\">⠀⠀⠀精英组不仅在冰上练习时跳跃和旋转的比例较高，而且休息时间也较少，并将剩余的 18% 的冰上时间用于练习他们项目的其他要素，如步法和手臂位置。」</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>组别</th><th>主动时间（分钟） (= 费力 + 非费力)</th><th>被动时间（分钟）</th><th>被动时间/主动时间</th></tr><tr><th>精英</th><td>86 (= 68 + 18)</td><td>14</td><td>6.1</td></tr><tr><th>竞技 非精英</th><td>69 (= 59 + 10)</td><td>31</td><td>2.2</td></tr><tr><th>非竞技</th><td>54 (= 48 + 06)</td><td>46</td><td>1.2</td></tr></tbody></table><p data-pid=\"tt-6hu-3\">在表格中，我们看到精英滑冰运动员的时间分配效率更高：在练习过程中，精英滑冰运动员的主动程度是被动程度的 6 倍以上，而非竞技滑冰运动员的被动程度几乎与主动程度相同。</p><p data-pid=\"cdEYLb5W\">关键的收获是，虽然一定程度的主动学习肯定比没有主动学习要好，但通过充分最大化富有成效的主动学习量，可以获得最佳结果。（当然，通常需要一些被动指导来向学习者演示他们需要练习的内容，但这种被动指导应保持在最低有效剂量，然后再开始更广泛的主动学习。）</p><p data-pid=\"qc673pZO\">如果我们粗略估计一下 Math Academy 学生用于主动学习的时间比例，我们会得到与精英滑冰运动员相似的比例。平均而言，一个典型的 Math Academy 课程可能由 3 个例题组成，每个例题后跟大约 3 个练习题（视学生表现而定），课程后跟几个明确的复习题（每个复习题大约 4 个问题，再次视学生表现而定），这些复习题分散在未来进行。因此，学生每阅读 3 个例题，他们将积极地做大约 3 × 3 + 3 × 4 = 21 个练习题，大约就是每个被动例题对应 7 个主动练习题。</p><h2><b>主动学习背后的神经科学</b></h2><p data-pid=\"sgARBAs9\">主动学习的效果可以非常明显地在大脑中看到：脑成像研究显示，主动学习引发的神经活动强度始终高于被动学习。</p><p data-pid=\"IxwYQPSX\">以一项针对书写训练的<a href=\"https://link.zhihu.com/?target=https%3A//www.frontiersin.org/articles/10.3389/fpsyg.2013.00567/full%3Famp%3D1\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">研究</a>为例：当学生主动书写字母时，其感觉运动神经网络等脑区的激活程度显著高于被动观察书写过程（Kersey &amp; James, 2013）：</p><p data-pid=\"_sHl8D98\">⠀⠀⠀「学习过程中自主书写连笔字母，会激活负责字母识别与阅读的感觉运动神经网络——而被动观察字母书写过程则无此效应。这一发现印证了学界共识：自主书写对儿童大脑阅读通路的建立至关重要。</p><p data-pid=\"ApA1VBQr\">⠀⠀⠀……</p><p data-pid=\"zrQzN0Kk\">⠀⠀⠀进一步研究发现，主动学习字母时，双侧脑岛及屏状核的激活程度显著高于被动学习……这说明：儿童对通过书写习得的字母具有更强的语音解码能力；且书写训练能使大脑对印刷体字母与手写体字母形成更统一的神经表征。」</p><p data-pid=\"GnffmWbW\">正如上文所述，主动表现不仅比被动观看产生更多的脑活动，而且研究人员还发现，先前的主动训练甚至可以提高以后被动观看过程时的脑活跃度，在某种意义上「延续」到使大脑内的被动观看更主动。</p><p data-pid=\"RYCW9380\">具体而言，Calvo-Merino et al. (2006) <a href=\"https://link.zhihu.com/?target=https%3A//www.cell.com/current-biology/pdf/S0960-9822%2806%2901998-1.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">证明</a>，当一个人观看另一个人执行动作时，如果观看者自己经常执行该动作，那么观看者在该运动区域的激活程度会更高：</p><p data-pid=\"Vkmr-Iur\">⠀⠀⠀「我们发现，当舞蹈演员观看来自他们自己的运动领域的动作时，与他们经常看到但没有执行的陌生动作相比，他们在前运动区、顶叶和小脑的活动程度更高。」</p><p data-pid=\"Up5b3Jl7\">同一批研究人员在早期的<a href=\"https://link.zhihu.com/?target=https%3A//academic.oup.com/cercor/article/15/8/1243/304707\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">论文</a>中对此进行了更详细的阐述（Calvo-Merino et al., 2005）：</p><p data-pid=\"z2aWf4xq\">⠀⠀⠀「对比舞者观看本舞种与他舞种时的脑活动差异，能清晰展现运动经验对动作观察的塑造作用</p><p data-pid=\"v0tddFcC\">⠀⠀⠀我们发现，当专业舞者观看他们受训动作时，与观看他们未受训的动作相比，他们在前运动皮层和顶内沟、右侧上顶叶和左侧后部上颞沟中出现更大的双侧激活。</p><p data-pid=\"dmBoxnIP\">⠀⠀⠀我们的结果表明，这种『镜像系统』将观察到的他人的动作与个人的运动经验相结合，并表明人脑通过运动模拟来理解动作。」</p><h2><b>误解的根深蒂固</b></h2><p data-pid=\"hB67DmPM\">为什么尽管有清晰的直觉和决定性的证据支持主动学习，但关于主动学习和被动学习的误解仍然根深蒂固？有几个明显的原因：</p><ol><li data-pid=\"t8XbYLhg\">被动学习对学生和教师来说都更方便。教师不必花费时间和精力实施学习活动，学生也不必花费时间和精力参与这些活动。大多数教师乐于讲述他们研究领域的美丽复杂之处，并相信他们的学生正在学习，而大多数学生乐于向后靠、放松、半心半意地注意听（如果能做到的话），并相信他们正在学习。（一般来说，总是很容易相信最方便的事情。）<br/><br/></li><li data-pid=\"a8eY64vm\">当你没有被要求尝试这些事情时，很容易错误地认为你已经很好地掌握了一个概念，可以进行推理和解决问题。（出于同样的原因，许多人错误地认为他们可以跑过熊。）<br/><br/></li><li data-pid=\"r9pEUVxG\">一些教师担心会让学生感到不舒服而抵制主动学习方法，例如点名——尽管研究<a href=\"https://link.zhihu.com/?target=https%3A//www.researchgate.net/profile/Elise-Dallimore/publication/258153531_Impact_of_Cold-Calling_on_Student_Voluntary_Participation/links/02e7e536a25071b4f9000000/Impact-of-Cold-Calling-on-Student-Voluntary-Participation.pdf%3F_sg%255B0%255D%3Dstarted_experiment_milestone%26origin%3DjournalDetail\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">表明</a>，点名不仅可以提高参与度，还可以随着时间的推移增加自愿参与度和舒适度（Dallimore, Hertenstein, &amp; Platt, 2013）。</li></ol><p data-pid=\"JysNtPT5\">第四个不太明显的原因是哈佛大学物理课程的一项<a href=\"https://link.zhihu.com/?target=https%3A//www.pnas.org/cji/doi/10.1073/pnas.1821936116\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">研究</a>发现的（Deslauriers et al., 2019），该研究不仅衡量了主动学习和被动学习环境下的教育成果，还衡量了学生对他们学习的看法。正如研究中引用的那样：</p><p data-pid=\"IuA6l2EP\">⠀⠀⠀「与传统讲座中的学生相比，主动教学课堂中的学生认为他们学得更少，而实际上他们学得更多。</p><p data-pid=\"Y7AjKgHU\">⠀⠀⠀学生对被动讲座的教学质量评价更高，他们表示希望『所有物理课都以这种方式教授』，尽管他们在独立学习测试中的得分低于主动教学课堂的学生。</p><p data-pid=\"UKRs1Zbn\">⠀⠀⠀……当学生体验到与主动学习相关的困惑和认知努力增加时，他们会将这种不流畅视为学习效果不佳的信号，而实际上情况恰恰相反。」</p><p data-pid=\"ZwX6ghSv\">换句话说，主动学习通过增加认知活动来产生更好的学习效果，但学生将额外的认知努力误解为他们没有学得那么好的表现，而实际上情况恰恰相反。主动学习创造了一种<b><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Desirable_difficulty\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">合意难度</a></b>，使课程感觉更具挑战性，但可以提高学习效果。另一方面，被动学习促进了一种<b>能力的错觉</b>，在这种错觉中，学生（及其教师）高估了自己的知识，因为他们没有被要求运用这些知识。</p><p data-pid=\"Ixo73hMX\">不过细想也有矛盾：当真正需要验证学习成效时（比如备战 AP 这类标准化考试），师生们会立即切换为「刷题+实时反馈」的主动学习模式——这种行为的自然转变，恰恰说明他们内心深处未必真正认同那些关于被动学习的迷思。</p><p data-pid=\"mh9bLqgy\">同样，人们可能会质疑学生，从本质上讲，是否真的不喜欢主动学习。Tharayil et al.（2018）<a href=\"https://link.zhihu.com/?target=https%3A//link.springer.com/article/10.1186/s40594-018-0102-y\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">指出</a>，在不同的研究中，学生对主动学习的看法并不一致，并且通常是积极的：</p><p data-pid=\"qrRCNgGt\">⠀⠀⠀「尽管许多已发表的文献表明，学生通常对主动学习策略做出积极回应（Arce 1994; Armbruster et al. 2009; Carlson and Winquist 2011; Hoffman 2001; Leckie 2001; Oakley et al. 2007; O’Brocta and Swigart 2013; Reddy 2000; Richardson and Birge 1995），也有一些研究表明学生反应不一（Bacon et al. 1999; Brent and Felder 2009; Goodwin et al. 1991; Hall et al. 2002; Kvam 2000; Rangachari 1991; Wilke 2003）或学生反应消极（Lake 2001; Yadav et al. 2011）。」</p><p data-pid=\"8c3b5UjG\">人们通常不喜欢锻炼，但一旦他们开始锻炼，他们就不介意了，然后他们会为自己的努力感到自豪。如果主动学习类似于体育活动，那么学生可能更喜欢被动学习而不是主动学习，仅仅是因为被动学习更容易（人性），但他们在主动学习期间可能会感觉更投入（而被动学习对学生来说非常无聊），并且在做完实际工作并知道自己取得了真正的进步之后，他们可能会感觉更好。</p><h2>关键论文</h2><p data-pid=\"WvLjjE-L\"><b>注意</b>：「重要性」部分可能包含了本章前文中直接引用的片段。如需引用本章内容，请以正文（上文）为准。</p><ul><li data-pid=\"_cB4RapJ\">Freeman, S., Eddy, S. L., McDonough, M., Smith, M. K., Okoroafor, N., Jordt, H., &amp; Wenderoth, M. P. (2014). <a href=\"https://link.zhihu.com/?target=https%3A//www.pnas.org/doi/10.1073/pnas.1319030111\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Active learning increases student performance in science, engineering, and mathematics.</a> <i>Proceedings of the National Academy of Sciences, 111</i>(23), 8410-8415. <br/><br/><b>重要性</b>：正如<span class=\"nolink\">数百项研究</span>表明的那样，与要求学生积极进行学习活动的<span class=\"nolink\">主动学习</span>相比，<span class=\"nolink\">被动地</span>接受教学内容会导致学习效果显著下降<br/><br/></li><li data-pid=\"jhtf2SLt\">Dori, Y. J., &amp; Belcher, J. (2005). <a href=\"https://link.zhihu.com/?target=https%3A//web.mit.edu/edtech/casestudies/pdf/teal1.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">How does technology-enabled active learning affect undergraduate students&#39; understanding of electromagnetism concepts?.</a> <i>The journal of the learning sciences, 14</i>(2), 243-279. <br/><br/><b>重要性</b>：麻省理工学院通过将被动学习转变为主动学习，解决了其物理课程的问题，使不及格率降低了近三分之二。<br/><br/></li><li data-pid=\"Eppm3ReX\">Kersey, A. J., &amp; James, K. H. (2013). <a href=\"https://link.zhihu.com/?target=https%3A//www.frontiersin.org/articles/10.3389/fpsyg.2013.00567/full%3Famp%3D1\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Brain activation patterns resulting from learning letter forms through active self-production and passive observation in young children.</a> <i>Frontiers in psychology, 4</i>, 567. <br/><br/><b>重要性</b>：主动表现比被动观看产生更多的脑活动。<br/><br/></li><li data-pid=\"ESMENnDP\">Calvo-Merino, B., Grèzes, J., Glaser, D. E., Passingham, R. E., &amp; Haggard, P. (2006). <a href=\"https://link.zhihu.com/?target=https%3A//www.cell.com/current-biology/pdf/S0960-9822%2806%2901998-1.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Seeing or doing? Influence of visual and motor familiarity in action observation.</a> <i>Current biology, 16</i>(19), 1905-1910. <br/>Calvo-Merino, B., Glaser, D. E., Grèzes, J., Passingham, R. E., &amp; Haggard, P. (2005). <a href=\"https://link.zhihu.com/?target=https%3A//academic.oup.com/cercor/article/15/8/1243/304707\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Action observation and acquired motor skills: an FMRI study with expert dancers.</a> Cerebral cortex, 15(8), 1243-1249. <br/><br/><b>重要性</b>：先前的主动训练甚至可以提高以后被动观看过程时的脑活跃度，在某种意义上「延续」到使大脑内的被动观看更主动。<br/><br/></li><li data-pid=\"ssItRYFP\">Deakin, J. M., &amp; Cobley, S. (2003). A search for deliberate practice. <i><a href=\"https://link.zhihu.com/?target=https%3A//books.google.com/books%3Fid%3Dgl8nqUjyXWUC%26printsec%3Dfrontcover%23v%3Donepage%26q%26f%3Dfalse\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Expert performance in sports</a></i>, 115-36. <br/><br/><b>重要性</b>：在一项针对练习年限相似的花样滑冰运动员的研究中，主动练习（相对于被动练习）的比例是区分精英滑冰运动员和普通滑冰运动员的决定性特征。<br/><br/></li><li data-pid=\"YY6-4xYN\">Deslauriers, L., McCarty, L. S., Miller, K., Callaghan, K., &amp; Kestin, G. (2019). <a href=\"https://link.zhihu.com/?target=https%3A//www.pnas.org/cji/doi/10.1073/pnas.1821936116\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom.</a> <i>Proceedings of the National Academy of Sciences, 116</i>(39), 19251-19257. <br/><br/><b>重要性</b>：主动学习通过增加认知活动来产生更好的学习效果，但学生将额外的认知努力（如有益的思考挣扎和偶尔的困惑）误解为他们没有学得那么好的表现，而实际上情况恰恰相反。</li></ul><hr/><p data-pid=\"dxjXdTEi\">上一章：</p><a href=\"https://zhuanlan.zhihu.com/p/25955988878\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">Thoughts Memo：第九章 关于数学加速的迷思与现实</a><p data-pid=\"E7tNgnXZ\">下一章：</p><a href=\"https://zhuanlan.zhihu.com/p/28179723884\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">Thoughts Memo：第十二章 刻意练习</a><hr/><blockquote data-pid=\"Pk0KeC9m\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者飛鳥湊，校对 bstiat、Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//docs.google.com/document/d/1LLZK_34Oer9LwuqAv-pqxfXlR8n7V8zJ_MO323R7egI\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Math Academy Way: Using the Power of Science to Supercharge Student Learning</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19566266",
+      "type": "topic",
+      "id": "19566266",
+      "name": "学习方法"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19571430",
+      "type": "topic",
+      "id": "19571430",
+      "name": "认知科学"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19627046",
+      "type": "topic",
+      "id": "19627046",
+      "name": "教育学"
+    }
+  ],
+  "voteup_count": 152,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "传统教育的失败，及有效数学教学技术的复兴。",
+    "is_following": false,
+    "url_token": "c_1858865163022786560",
+    "id": "c_1858865163022786560",
+    "articles_count": 56,
+    "accept_submission": false,
+    "title": "The Math Academy Way",
+    "url": "https://api.zhihu.com/columns/c_1858865163022786560",
+    "comment_permission": "all",
+    "created": 1735967991,
+    "updated": 1748246557,
+    "image_url": "https://pica.zhimg.com/v2-b1651bba207f1c3370995962d00f5802_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 1639,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 14,
+  "contributions": [
+    {
+      "id": 51021597,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "传统教育的失败，及有效数学教学技术的复兴。",
+        "is_following": false,
+        "url_token": "c_1858865163022786560",
+        "id": "c_1858865163022786560",
+        "articles_count": 56,
+        "accept_submission": false,
+        "title": "The Math Academy Way",
+        "url": "https://api.zhihu.com/columns/c_1858865163022786560",
+        "comment_permission": "all",
+        "created": 1735967991,
+        "updated": 1748246557,
+        "image_url": "https://pica.zhimg.com/v2-b1651bba207f1c3370995962d00f5802_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 1639,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 26983893625,
-  "voteup_count": 132,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 204,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "第十章 主动学习 - 来自知乎专栏「The Math Academy Way」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/26983893625 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1740888960,
-  "url": "https://api.zhihu.com/articles/26983893625",
-  "comment_permission": "all",
-  "title": "第十章 主动学习",
-  "image_width": 720,
-  "content": "<p data-pid=\"6ldpc2et\">⠀⠀⠀<b>摘要：</b>教育学领域存在一项关键结论：相较于被动接收教学内容，学生在主动参与学习活动时能取得更优的学习效果。真正的主动学习要求每个学习者都必须对每个知识点进行主动思考。</p><h2><b>定义与重要性</b></h2><p data-pid=\"AHUz4NHG\">关于学习数学的最大谬误，莫过于认为看视频、听讲座、阅读书籍或复习笔记是最高效的学习方式。这是错误的。正如<a href=\"https://link.zhihu.com/?target=https%3A//www.pnas.org/doi/10.1073/pnas.1319030111\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">数百项研究</a>表明的那样，与要求学生积极主动地进行学习活动的<b><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Active_learning\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">主动学习</a></b>相比，<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Passive_learning\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">被动地</a>接受教学内容会导致学习效果显著下降（Freeman et al., 2014）。</p><p data-pid=\"1RX8No9S\">在观看视频这类被动学习场景中，如果学生能够理解视频内容并跟上节奏，他们可能会认为自己在有效学习。然而，跟上节奏并理解视频内容的过程并不等同于学习，即使学生声称自己是在学习。正如第三章<sup data-text=\"第三章 核心科学：大脑的工作机制\" data-url=\"https://zhuanlan.zhihu.com/p/17839729470\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>所讨论的，学习的本质是长期记忆的积极变化。为了让学生真正学到东西，他们需要能够始终如一地复现知识，并用它来解决问题。而这些能力的培养，在学生单纯观看视频（即使完全理解内容）的过程中根本无法实现。同样的道理也适用于听讲座、阅读书籍、重读笔记以及所有其他被动学习技巧。</p><p data-pid=\"tzU7G0CE\">主动学习在各个学科和实验方法中的优越性如此强大，以至于一项被广泛引用的<a href=\"https://link.zhihu.com/?target=https%3A//www.pnas.org/doi/10.1073/pnas.1319030111\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">元分析</a>报告（Freeman et al., 2014）指出：</p><p data-pid=\"AhztjyR_\">⠀⠀⠀「……增加获得 STEM 学位的学生人数的呼吁，至少可以通过放弃传统的讲授方式，转而采用主动学习来部分实现。</p><p data-pid=\"EaNqeBGV\">⠀⠀⠀……</p><p data-pid=\"EcPGtYfj\">⠀⠀⠀鉴于我们的研究结果，在未来的实验中继续使用传统的讲授方式作为对照组是令人担忧的。」</p><p data-pid=\"oEQadKY3\">诺贝尔奖获得者 Carl Wieman <a href=\"https://link.zhihu.com/?target=https%3A//www.npr.org/sections/ed/2016/04/14/465729968/a-nobel-laureates-education-plea-revolutionize-teaching\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">认为</a>，讲课是教育界的放血疗法（Westervelt, 2016）：</p><p data-pid=\"37HnVGV6\">⠀⠀⠀「你放一些血出去，然后他们就康复了。是放血疗法起作用了吗，还是其他原因？……你给人们讲课，一些学生离开，之学会了这些东西。但他们并不是从讲课中学到的——他们是从家庭作业、作业中学到的。当我们衡量人们从实际讲课中学到的东西有多么少时，你会发现它真的非常少。</p><p data-pid=\"kO109zsN\">⠀⠀⠀……</p><p data-pid=\"ckS5gYee\">⠀⠀⠀大学管理者不会因为教学质量而获得奖励，相应的，他们也不知道或不在乎教学质量……这就像你有一家医院，却不检查你的医生是否在使用抗生素或放血疗法。」</p><p data-pid=\"xCAZ6Ykh\">与讲课一样，反复阅读也不算作主动学习。正如 Brown, Roediger, &amp; McDaniel (2014, pp.10) <a href=\"https://link.zhihu.com/?target=https%3A//www.hup.harvard.edu/books/9780674729018\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">描述</a>的那样：</p><p data-pid=\"XeklMIyV\">⠀⠀⠀「研究发现反复阅读教科书往往是徒劳无功的，这个结论应该让教育工作者和学习者感到不寒而栗，因为这恰恰是大多数人的首选学习方法——据一些调查显示，超过 80% 的大学生采用这种策略——并且在我们为学习付出的时间里，这是我们告诉自己要做的核心任务。</p><p data-pid=\"PXS9IqFO\">⠀⠀⠀反复阅读存在三个主要缺陷。首先，它耗时耗力。其次，它无法形成持久的记忆。最后，它往往会导致一种不知不觉的自我欺骗，因为对文本日益熟悉会让人感觉像是掌握了内容。花费大量时间进行重复阅读可能看起来很勤奋，但学习时间的长短并不能真正衡量知识的掌握程度。」</p><p data-pid=\"v_Pdb0rE\">重要的是要认识到，真正的主动学习意味着每个学生都参与到认知活动中，而非仅仅是班级整体的表面活跃。以全班讨论为例，表面上看起来像主动学习，实则无法保证每个学生都真正投入。实际情况往往是，只有少数热情的、喜欢表达的学生能全程参与，可以算作真正主动。即使老师随机点名那些没有参与的学生，多数学生也仅会保持最低限度的注意力——刚够在被点名时不致出丑而已。</p><p data-pid=\"HKTrL_-Z\">更重要的是，真正的主动学习要求每个学习者都必须对每个知识点进行主动加工。分工合作的小组项目不算作完全的主动学习，因为每个学生只主动学习自己在分工中负责的材料。对其他成员的工作内容，他们只是被动地观察，（甚至可能完全忽视）。</p><p data-pid=\"Vt3ZB9mH\">Math Academy 的数学教育方法完全以真正的主动学习为中心——在每个知识点上，学生上课几分钟内就会开始动手解题（老师只做最必要的简短讲解）。他们的课堂时间几乎全花在主动解决问题上。</p><h2><b>案例研究</b></h2><h3>| <b>案例研究 1：为什么主动学习是显而易见的</b></h3><p data-pid=\"uT34rY7V\">为了清楚、具体地了解主动学习的含义以及它为何如此有益，回顾一个在主动学习中最熟悉的场景中的案例研究会很有帮助：学习一项新的运动。</p><p data-pid=\"VyyR5A9W\">假设你想学习打网球。你去了当地的网球俱乐部，那里有一位曾经是职业网球运动员的教练。他们提供每小时 100 美元的高价私人课程，但你真的想尽可能高效地向最好的教练学习，所以你为下周的课程支付了费用。</p><p data-pid=\"fGpaA5lv\">下周，你准时来上课。教练向你问好，并开始了长达一小时的课程。过程如下：</p><p data-pid=\"VonM1vmR\">⠀⠀⠀[5 分钟] 教练谈论网球的魅力以及为什么这是一项值得学习的运动</p><p data-pid=\"9yLo2Psc\">⠀⠀⠀[5 分钟] 教练演示网球站姿，并解释站姿的具体组成部分：膝盖弯曲、身体前倾、球拍在身前等。</p><p data-pid=\"zdIKr6YC\">⠀⠀⠀[5 分钟] 教练演示接球时理想的站位：靠近底线，在球场中央，这样你离后方足够远，对手就不能把球打到你的身后，但你离网足够近，可以向前冲向任何较短的截击球。</p><p data-pid=\"DRCNo-0e\">⠀⠀⠀[10 分钟] 教练演示正手挥杆，解释如何用腿和身体扭动（而不是手臂）发力，并强调挥杆时「随杆」的重要性。</p><p data-pid=\"87uszGWY\">⠀⠀⠀[20 分钟] 教练演示反手挥杆，分解其组成部分，并分享关于网球历史上的时刻，当时球员没有时间调整姿势进行正手挥杆，因此不得不依靠反手来赢得比赛。教练演示单手反手，这是一个看起来特别酷炫的高级动作。</p><p data-pid=\"XO0DhFmE\">⠀⠀⠀[15 分钟] 教练演示发球，并展示了一些快如闪电、目标精准的发球，这些发球似乎不可能接住。同样，这些都是看起来非常酷炫的高级动作。</p><p data-pid=\"PvVWFW9c\">课程结束时，教练问你是否要安排下周的另一节课。</p><p data-pid=\"15lJ2QXC\">你会怎么做？你会满意吗？你会想再预约一节课吗？当然不会！教练整堂课就只顾着滔滔不绝地讲理论，炫耀自己的球技。你实际上什么都没学到。这和在电视上看网球比赛没什么两样。你报名参加网球课是为了提高球技，而不是来欣赏教练的表演。你刚刚白白浪费了 100 美元，这完全是在浪费时间，你肯定想要求退款。</p><p data-pid=\"ara5XUbw\">当然，这种情况在现实生活中的体育训练中几乎不可能发生，因为教练们都清楚，能否继续受雇完全取决于他们让学生进步的能力。他们必须为提高学生的表现负责。他们需要迅速取得真实的、可见的进步——如果做不到这一点，他们就会失去客户，还会落得一个骗子的名声，被人指责为靠欺骗来赚取高额费用，却提供毫无效果的服务。</p><p data-pid=\"cPQLPjt3\">在现实生活中的体育训练中，教练通常会在课程开始后的几分钟内就让学生开始主动练习动作。当然，教练可能会花一分钟来演示并分解一个新动作，让学生观看，但在那之后的 10 多分钟里，学生将主动地练习那个新动作。教练会观察学生，并指出他们需要纠正姿势以提高效率的地方——随着学生在新动作上的进步，他们将在运动表现方面体验到真实、可证明的进步。也许他们能够更快或更准确地击球。也许他们能够接住一个棘手的截击球，这个球在课程开始时一直从他们身边飞过。无论进步是什么，它都将是切实的和可复制的。</p><p data-pid=\"1xQGZ-XI\">值得特别强调的是：在一对一教练课程中，真正的学习究竟发生在什么时候？不是当你付钱给教练的时候。不是当你观看教练演示动作的时候。而是当你真正开始做你以前做不到的事情时。而是当你尝试一个动作，教练纠正你的姿势，然后你再次尝试这个动作，结果更好时。学习是提升你能力的过程。如果你没有获得提升，你就没有在学习。</p><p data-pid=\"o4ztYoVL\">同样的道理也适用于你接受钢琴或吉他课程。你不仅仅是在吸收信息——你还在培养技能。数学也是基于技能的。学习如何解一种新型的方程与学习一些关于拿破仑生平的新历史完全不同。从本质上讲，有效的数学训练的关键与有效的体育或音乐训练的关键相同。</p><h3><b>|</b> <b>案例研究 2：大多数学生甚至在讲课时都没有注意听讲</b></h3><p data-pid=\"rIRR53R2\">客户数据平台 Segment 的联合创始人兼首席执行官 Peter Reinhardt 在一次<a href=\"https://link.zhihu.com/?target=https%3A//www.ycombinator.com/blog/peter-reinhardt-on-finding-product-market-fit-at-segment/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">访谈</a>中透露，他付出了相当大的代价才明白，大多数学生甚至在讲课时都没有注意听讲（Y Combinator, 2018）。</p><p data-pid=\"zeVSO3dm\">据 Reinhardt 说，Segment 最初的产品实际上是一个课堂讲座工具：</p><p data-pid=\"BMkg6dn_\">⠀⠀⠀「这个想法是给学生一个按钮，让他们按一下就可以说『我很困惑』。教授会得到一张随着时间推移学生困惑程度的图表。我们认为这是一个非常酷的想法。我们当时是大学生，我们有很多在麻省理工学院和其他地方对此感到兴奋的教授。……我们和大约 20 位其他教授谈过，他们都对此感到兴奋。」</p><p data-pid=\"R4IpTtkK\">然而，尽管教授们都很兴奋，但在波士顿大学的实际课堂上测试该工具时，结果却是一场彻底的灾难——不是因为该工具不起作用，而是因为学生们甚至没有注意到教授在说什么。</p><p data-pid=\"BvFVDOav\">实际上，大多数学生要么部分要么完全沉浸在浏览 Facebook 中。讲课实际上只是一场闹剧：学生们甚至不是在被动学习；他们只是坐在那里做其他事情。</p><p data-pid=\"IaoUpPlt\">⠀⠀⠀「这简直是一场彻底的灾难。所有学生都打开了笔记本电脑，然后都直接去了 Facebook。</p><p data-pid=\"3l7ZiRJR\">⠀⠀⠀我们发现这一点是因为站在教室后排，数着电脑屏幕的数量。我们挨个查看学生的屏幕，1、2、3……结果发现刚上课时就有 60% 的学生在刷 Facebook，到快下课时这个数字涨到了 80%。天哪。</p><p data-pid=\"CruxdaeS\">⠀⠀⠀……</p><p data-pid=\"EampWA4g\">⠀⠀⠀我们站在波士顿大学的一间教室后面。这是一门人类学课。我记得当我们得出 60% 和 80% 的比例时，我们走上前向教授道歉，然后走出了教室。」</p><p data-pid=\"QdGiWpSv\">这种情况似乎如此绝望，以至于——尽管经历了长达数月的创业孵化计划，构建了一个由数十万行代码组成的非常复杂的产品，并在不到一周前筹集了超过 50 万美元的投资——他们彻底放弃了该产品，并打电话让投资者撤资。</p><p data-pid=\"IriKcQKZ\">⠀⠀⠀「我们带着这个想法完成了整个 YC [Y Combinator 创业孵化器] 计划。构建了它。数十万行代码。超级复杂的课堂讲课工具产品。它有演示视图，人们可以提问。它非常复杂。我们甚至在演示日用这个想法筹集了资金。大约 60 万美元。</p><p data-pid=\"WimzSuPk\">⠀⠀⠀……</p><p data-pid=\"O-qRWbC_\">⠀⠀⠀实际上，就在一周前我们刚收到了这些投资的汇款。我们回电给了所有投资者，告诉他们，『好吧，事实证明这是一个糟糕的主意。那么你们想让我们怎么处理这些钱？』几乎所有人都说，我们是投资给你们这个团队的，去找点别的事情做吧。」</p><p data-pid=\"FX6AUX7P\">机缘巧合的是，大多数投资人都愿意保留投资，只要团队转向解决更有前景的问题——因此团队转向开发一个网络分析工具，该工具将通过更好地了解用户在其应用程序上的行为方式来帮助其他开发人员避免此类灾难。</p><p data-pid=\"HOYB4NmW\">⠀⠀⠀「我们意识到，不应该只靠站在教室后排来获取这些分析数据。我们应该能够通过数字化的方式看到这些信息。但在现有的分析指标里完全看不到这些。我们决定，嘿，让我们构建一个分析工具。」</p><h3><b>|</b> <b>案例研究 3：主动学习如何拯救了麻省理工学院的物理课</b></h3><p data-pid=\"Y5fDrgHd\">在 21 世纪初，麻省理工学院通过将被动学习转变为主动学习，解决了其物理课程的问题。<a href=\"https://link.zhihu.com/?target=https%3A//web.mit.edu/edtech/casestudies/pdf/teal1.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">据</a>麻省理工学院教授 John Belcher 称，大量本科生未能通过他们的新生（第一年）物理课程，这是通识教育的要求（Dori &amp; Belcher, 2005）：</p><p data-pid=\"A_aAs1bA\">⠀⠀⠀「在拥有 300 多名学生的大型阶梯教室中教授新生课程……是基于这样一种假设，即教师可以将他或她庞大知识库中的知识『倾倒』到学生空空如也的头脑中。</p><p data-pid=\"worV3fKs\">⠀⠀⠀……</p><p data-pid=\"qAJyGdyv\">⠀⠀⠀如果这是真的，麻省理工学院的学生就不会在这些大型必修课中不及格。麻省理工学院这些课程的高不及格率（接近 15%）以及期末讲座的低出勤率（低于 50%）表明，这种教学模式存在根本缺陷。」</p><p data-pid=\"Wkcz3ksv\">别忘了麻省理工学院作为全球顶尖学府，素以录取数学能力顶尖、对数理学科充满热情的学生著称。该校每年招收约 1000 名新生，15% 的不及格率意味着，每年大约有 150 名麻省理工学院的学生未能通过这些课程。如果这么多高素质的学生都未能通过第一年的通识教育要求，那么显然问题出在教学方法上，而不是学生的能力。</p><p data-pid=\"tMrtsmNr\">正如 Belcher 和同事所描述的那样，问题在于物理课程以被动学习为中心。因此，解决方案是将课程转变为主动学习（Dori &amp; Belcher, 2005）。</p><p data-pid=\"Rlq5ZrMd\">⠀⠀⠀「听讲座时所需的思考是对事实知识的低级理解，这种理解是从耳朵到书写手（Towns &amp; Grant, 1997）。Johnson et al. (1998) 指出，随着讲座的进行，学生对老师所说内容的注意力逐渐下降。……正如 Bybee 和 Ben-Zvi（1998）指出的那样，科学教育工作者主要关注内容，其次关注教学，将评估和实施留给其他人或完全忽略它们。</p><p data-pid=\"VFGZ16BY\">⠀⠀⠀在 20 世纪 90 年代初之前，大多数物理教师在很大程度上不知道物理教育研究的成果（Laws, Rosborough &amp; Poodry, 1999）。在过去的 15 年里，人们开发了许多利用教育研究成果的物理课程。……所有这些课程的共同点是，它们强调主动学习和概念理解的要素，这些要素建立在做出预测、观察并与同伴讨论结果的基础上。Hake (1998) 表明，当涉及主动学习时，本科物理的学习收获几乎翻了一番。」</p><p data-pid=\"TtBVO5gG\">这些麻省理工学院物理课程从被动讲座转向主动学习课堂的转变被称为技术增强主动学习 (TEAL) 项目，其中 TEAL 课程的运作方式如下：</p><p data-pid=\"OWK4sFci\">⠀⠀⠀「一个典型的 TEAL 课程由穿插在整个课程中的迷你讲座组成，讲座之间穿插着学生参与动手桌面实验、可视化、问题解决和同伴讨论的时期。」</p><p data-pid=\"gd_xuilw\">事实上，Belcher 和同事报告了惊人的结果，主动学习使不及格率降低了近三分之二：</p><p data-pid=\"euv_b_kx\">⠀⠀⠀「两个实验组的不及格率分别低于 5% 和 5%（小规模和大规模实验组），而在传统的对照组中，该比例为 13%（2002 年春季）。」</p><p data-pid=\"ihqwM1HO\">在 1000 名学生的班级中，这意味着在 130 名会在被动学习课程中不及格的学生中，只有 50 名学生仍然会在主动学习课程中不及格，而另外 70 名学生将从不及格中解救出来，最终通过该课程。</p><h3><b>|</b> <b>案例研究 4：如果你有一半时间是主动的，那仍然不够</b></h3><p data-pid=\"RU2SQe3g\">在一项<a href=\"https://link.zhihu.com/?target=https%3A//books.google.com/books%3Fid%3Dgl8nqUjyXWUC%26printsec%3Dfrontcover%23v%3Donepage%26q%26f%3Dfalse\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">研究</a>（Deakin &amp; Cobley, 2003, pp.115-136）中，对练习年限相似的花样滑冰运动员进行了研究，主动练习（相对于被动练习）的比例是区分精英滑冰运动员和普通滑冰运动员的决定性特征。精英滑冰运动员将更多的时间用于主动练习一些最棘手、最费力的动作（跳跃和旋转），即便在休息时段，他们也更倾向于继续主动练习不太费力的动作，如步法和手臂位置。</p><p data-pid=\"UCu_Mwdy\">作者记录了具体的百分比细分，我们将其整理成表格，以说明每组滑冰运动员将如何使用 100 分钟的练习时间。</p><p data-pid=\"T7WUT-Gj\">⠀⠀⠀「……精英组平均花费 14% 的冰上练习时间休息；竞技组花费 31%；而测试组花费 46%。……精英和竞技组分别花费 68% 和 59% 的练习时间练习跳跃，而测试组只花费 48%。</p><p data-pid=\"I6sljsSu\">⠀⠀⠀……</p><p data-pid=\"VnO-UkL1\">⠀⠀⠀精英组不仅在冰上练习时跳跃和旋转的比例较高，而且休息时间也较少，并将剩余的 18% 的冰上时间用于练习他们项目的其他要素，如步法和手臂位置。」</p><table data-draft-node=\"block\" data-draft-type=\"table\" data-size=\"normal\" data-row-style=\"normal\"><tbody><tr><th>组别</th><th>主动时间（分钟） (= 费力 + 非费力)</th><th>被动时间（分钟）</th><th>被动时间/主动时间</th></tr><tr><th>精英</th><td>86 (= 68 + 18)</td><td>14</td><td>6.1</td></tr><tr><th>竞技 非精英</th><td>69 (= 59 + 10)</td><td>31</td><td>2.2</td></tr><tr><th>非竞技</th><td>54 (= 48 + 06)</td><td>46</td><td>1.2</td></tr></tbody></table><p data-pid=\"AT4O1xgk\">在表格中，我们看到精英滑冰运动员的时间分配效率更高：在练习过程中，精英滑冰运动员的主动程度是被动程度的 6 倍以上，而非竞技滑冰运动员的被动程度几乎与主动程度相同。</p><p data-pid=\"jXD3U6om\">关键的收获是，虽然一定程度的主动学习肯定比没有主动学习要好，但通过充分最大化富有成效的主动学习量，可以获得最佳结果。（当然，通常需要一些被动指导来向学习者演示他们需要练习的内容，但这种被动指导应保持在最低有效剂量，然后再开始更广泛的主动学习。）</p><p data-pid=\"vXLks0Ka\">如果我们粗略估计一下 Math Academy 学生用于主动学习的时间比例，我们会得到与精英滑冰运动员相似的比例。平均而言，一个典型的 Math Academy 课程可能由 3 个例题组成，每个例题后跟大约 3 个练习题（视学生表现而定），课程后跟几个明确的复习题（每个复习题大约 4 个问题，再次视学生表现而定），这些复习题分散在未来进行。因此，学生每阅读 3 个例题，他们将积极地做大约 3 × 3 + 3 × 4 = 21 个练习题，大约就是每个被动例题对应 7 个主动练习题。</p><h2><b>主动学习背后的神经科学</b></h2><p data-pid=\"47Y8aMsE\">主动学习的效果可以非常明显地在大脑中看到：脑成像研究显示，主动学习引发的神经活动强度始终高于被动学习。</p><p data-pid=\"oPZ7v6Rb\">以一项针对书写训练的<a href=\"https://link.zhihu.com/?target=https%3A//www.frontiersin.org/articles/10.3389/fpsyg.2013.00567/full%3Famp%3D1\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">研究</a>为例：当学生主动书写字母时，其感觉运动神经网络等脑区的激活程度显著高于被动观察书写过程（Kersey &amp; James, 2013）：</p><p data-pid=\"fqY_S7ff\">⠀⠀⠀「学习过程中自主书写连笔字母，会激活负责字母识别与阅读的感觉运动神经网络——而被动观察字母书写过程则无此效应。这一发现印证了学界共识：自主书写对儿童大脑阅读通路的建立至关重要。</p><p data-pid=\"gwXgMcnj\">⠀⠀⠀……</p><p data-pid=\"3spbffyk\">⠀⠀⠀进一步研究发现，主动学习字母时，双侧脑岛及屏状核的激活程度显著高于被动学习……这说明：儿童对通过书写习得的字母具有更强的语音解码能力；且书写训练能使大脑对印刷体字母与手写体字母形成更统一的神经表征。」</p><p data-pid=\"DMjgGgUV\">正如上文所述，主动表现不仅比被动观看产生更多的脑活动，而且研究人员还发现，先前的主动训练甚至可以提高以后被动观看过程时的脑活跃度，在某种意义上「延续」到使大脑内的被动观看更主动。</p><p data-pid=\"-Hvdu1j3\">具体而言，Calvo-Merino et al. (2006) <a href=\"https://link.zhihu.com/?target=https%3A//www.cell.com/current-biology/pdf/S0960-9822%2806%2901998-1.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">证明</a>，当一个人观看另一个人执行动作时，如果观看者自己经常执行该动作，那么观看者在该运动区域的激活程度会更高：</p><p data-pid=\"Pnr_rkhb\">⠀⠀⠀「我们发现，当舞蹈演员观看来自他们自己的运动领域的动作时，与他们经常看到但没有执行的陌生动作相比，他们在前运动区、顶叶和小脑的活动程度更高。」</p><p data-pid=\"mTnGE878\">同一批研究人员在早期的<a href=\"https://link.zhihu.com/?target=https%3A//academic.oup.com/cercor/article/15/8/1243/304707\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">论文</a>中对此进行了更详细的阐述（Calvo-Merino et al., 2005）：</p><p data-pid=\"-x1Fqx2f\">⠀⠀⠀「对比舞者观看本舞种与他舞种时的脑活动差异，能清晰展现运动经验对动作观察的塑造作用</p><p data-pid=\"eY3-3N7v\">⠀⠀⠀我们发现，当专业舞者观看他们受训动作时，与观看他们未受训的动作相比，他们在前运动皮层和顶内沟、右侧上顶叶和左侧后部上颞沟中出现更大的双侧激活。</p><p data-pid=\"pmuFgIC-\">⠀⠀⠀我们的结果表明，这种『镜像系统』将观察到的他人的动作与个人的运动经验相结合，并表明人脑通过运动模拟来理解动作。」</p><h2><b>误解的根深蒂固</b></h2><p data-pid=\"Qh_lsW48\">为什么尽管有清晰的直觉和决定性的证据支持主动学习，但关于主动学习和被动学习的误解仍然根深蒂固？有几个明显的原因：</p><ol><li data-pid=\"AvTqGDXh\">被动学习对学生和教师来说都更方便。教师不必花费时间和精力实施学习活动，学生也不必花费时间和精力参与这些活动。大多数教师乐于讲述他们研究领域的美丽复杂之处，并相信他们的学生正在学习，而大多数学生乐于向后靠、放松、半心半意地注意听（如果能做到的话），并相信他们正在学习。（一般来说，总是很容易相信最方便的事情。）<br/><br/></li><li data-pid=\"XUycaJMx\">当你没有被要求尝试这些事情时，很容易错误地认为你已经很好地掌握了一个概念，可以进行推理和解决问题。（出于同样的原因，许多人错误地认为他们可以跑过熊。）<br/><br/></li><li data-pid=\"lb4O7qmU\">一些教师担心会让学生感到不舒服而抵制主动学习方法，例如点名——尽管研究<a href=\"https://link.zhihu.com/?target=https%3A//www.researchgate.net/profile/Elise-Dallimore/publication/258153531_Impact_of_Cold-Calling_on_Student_Voluntary_Participation/links/02e7e536a25071b4f9000000/Impact-of-Cold-Calling-on-Student-Voluntary-Participation.pdf%3F_sg%255B0%255D%3Dstarted_experiment_milestone%26origin%3DjournalDetail\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">表明</a>，点名不仅可以提高参与度，还可以随着时间的推移增加自愿参与度和舒适度（Dallimore, Hertenstein, &amp; Platt, 2013）。</li></ol><p data-pid=\"6H4nOlXB\">第四个不太明显的原因是哈佛大学物理课程的一项<a href=\"https://link.zhihu.com/?target=https%3A//www.pnas.org/cji/doi/10.1073/pnas.1821936116\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">研究</a>发现的（Deslauriers et al., 2019），该研究不仅衡量了主动学习和被动学习环境下的教育成果，还衡量了学生对他们学习的看法。正如研究中引用的那样：</p><p data-pid=\"dkCkx9yH\">⠀⠀⠀「与传统讲座中的学生相比，主动教学课堂中的学生认为他们学得更少，而实际上他们学得更多。</p><p data-pid=\"MqqMwq-8\">⠀⠀⠀学生对被动讲座的教学质量评价更高，他们表示希望『所有物理课都以这种方式教授』，尽管他们在独立学习测试中的得分低于主动教学课堂的学生。</p><p data-pid=\"WefpSYVa\">⠀⠀⠀……当学生体验到与主动学习相关的困惑和认知努力增加时，他们会将这种不流畅视为学习效果不佳的信号，而实际上情况恰恰相反。」</p><p data-pid=\"jI6rAjqN\">换句话说，主动学习通过增加认知活动来产生更好的学习效果，但学生将额外的认知努力误解为他们没有学得那么好的表现，而实际上情况恰恰相反。主动学习创造了一种<b><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Desirable_difficulty\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">合意难度</a></b>，使课程感觉更具挑战性，但可以提高学习效果。另一方面，被动学习促进了一种<b>能力的错觉</b>，在这种错觉中，学生（及其教师）高估了自己的知识，因为他们没有被要求运用这些知识。</p><p data-pid=\"5DV95Zwi\">不过细想也有矛盾：当真正需要验证学习成效时（比如备战 AP 这类标准化考试），师生们会立即切换为「刷题+实时反馈」的主动学习模式——这种行为的自然转变，恰恰说明他们内心深处未必真正认同那些关于被动学习的迷思。</p><p data-pid=\"-Tp7ARUL\">同样，人们可能会质疑学生，从本质上讲，是否真的不喜欢主动学习。Tharayil et al.（2018）<a href=\"https://link.zhihu.com/?target=https%3A//link.springer.com/article/10.1186/s40594-018-0102-y\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">指出</a>，在不同的研究中，学生对主动学习的看法并不一致，并且通常是积极的：</p><p data-pid=\"s13iEhq_\">⠀⠀⠀「尽管许多已发表的文献表明，学生通常对主动学习策略做出积极回应（Arce 1994; Armbruster et al. 2009; Carlson and Winquist 2011; Hoffman 2001; Leckie 2001; Oakley et al. 2007; O’Brocta and Swigart 2013; Reddy 2000; Richardson and Birge 1995），也有一些研究表明学生反应不一（Bacon et al. 1999; Brent and Felder 2009; Goodwin et al. 1991; Hall et al. 2002; Kvam 2000; Rangachari 1991; Wilke 2003）或学生反应消极（Lake 2001; Yadav et al. 2011）。」</p><p data-pid=\"WgCg53I_\">人们通常不喜欢锻炼，但一旦他们开始锻炼，他们就不介意了，然后他们会为自己的努力感到自豪。如果主动学习类似于体育活动，那么学生可能更喜欢被动学习而不是主动学习，仅仅是因为被动学习更容易（人性），但他们在主动学习期间可能会感觉更投入（而被动学习对学生来说非常无聊），并且在做完实际工作并知道自己取得了真正的进步之后，他们可能会感觉更好。</p><h2>关键论文</h2><p data-pid=\"WvLjjE-L\"><b>注意</b>：「重要性」部分可能包含了本章前文中直接引用的片段。如需引用本章内容，请以正文（上文）为准。</p><ul><li data-pid=\"pdZ_g9Y3\">Freeman, S., Eddy, S. L., McDonough, M., Smith, M. K., Okoroafor, N., Jordt, H., &amp; Wenderoth, M. P. (2014). <a href=\"https://link.zhihu.com/?target=https%3A//www.pnas.org/doi/10.1073/pnas.1319030111\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Active learning increases student performance in science, engineering, and mathematics.</a> <i>Proceedings of the National Academy of Sciences, 111</i>(23), 8410-8415. <br/><br/><b>重要性</b>：正如<span class=\"nolink\">数百项研究</span>表明的那样，与要求学生积极进行学习活动的<span class=\"nolink\">主动学习</span>相比，<span class=\"nolink\">被动地</span>接受教学内容会导致学习效果显著下降<br/><br/></li><li data-pid=\"29U6G6_3\">Dori, Y. J., &amp; Belcher, J. (2005). <a href=\"https://link.zhihu.com/?target=https%3A//web.mit.edu/edtech/casestudies/pdf/teal1.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">How does technology-enabled active learning affect undergraduate students&#39; understanding of electromagnetism concepts?.</a> <i>The journal of the learning sciences, 14</i>(2), 243-279. <br/><br/><b>重要性</b>：麻省理工学院通过将被动学习转变为主动学习，解决了其物理课程的问题，使不及格率降低了近三分之二。<br/><br/></li><li data-pid=\"fr9gcxy3\">Kersey, A. J., &amp; James, K. H. (2013). <a href=\"https://link.zhihu.com/?target=https%3A//www.frontiersin.org/articles/10.3389/fpsyg.2013.00567/full%3Famp%3D1\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Brain activation patterns resulting from learning letter forms through active self-production and passive observation in young children.</a> <i>Frontiers in psychology, 4</i>, 567. <br/><br/><b>重要性</b>：主动表现比被动观看产生更多的脑活动。<br/><br/></li><li data-pid=\"BtKj33Wt\">Calvo-Merino, B., Grèzes, J., Glaser, D. E., Passingham, R. E., &amp; Haggard, P. (2006). <a href=\"https://link.zhihu.com/?target=https%3A//www.cell.com/current-biology/pdf/S0960-9822%2806%2901998-1.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Seeing or doing? Influence of visual and motor familiarity in action observation.</a> <i>Current biology, 16</i>(19), 1905-1910. <br/>Calvo-Merino, B., Glaser, D. E., Grèzes, J., Passingham, R. E., &amp; Haggard, P. (2005). <a href=\"https://link.zhihu.com/?target=https%3A//academic.oup.com/cercor/article/15/8/1243/304707\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Action observation and acquired motor skills: an FMRI study with expert dancers.</a> Cerebral cortex, 15(8), 1243-1249. <br/><br/><b>重要性</b>：先前的主动训练甚至可以提高以后被动观看过程时的脑活跃度，在某种意义上「延续」到使大脑内的被动观看更主动。<br/><br/></li><li data-pid=\"tivY2h2Q\">Deakin, J. M., &amp; Cobley, S. (2003). A search for deliberate practice. <i><a href=\"https://link.zhihu.com/?target=https%3A//books.google.com/books%3Fid%3Dgl8nqUjyXWUC%26printsec%3Dfrontcover%23v%3Donepage%26q%26f%3Dfalse\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Expert performance in sports</a></i>, 115-36. <br/><br/><b>重要性</b>：在一项针对练习年限相似的花样滑冰运动员的研究中，主动练习（相对于被动练习）的比例是区分精英滑冰运动员和普通滑冰运动员的决定性特征。<br/><br/></li><li data-pid=\"MbeTOvZa\">Deslauriers, L., McCarty, L. S., Miller, K., Callaghan, K., &amp; Kestin, G. (2019). <a href=\"https://link.zhihu.com/?target=https%3A//www.pnas.org/cji/doi/10.1073/pnas.1821936116\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom.</a> <i>Proceedings of the National Academy of Sciences, 116</i>(39), 19251-19257. <br/><br/><b>重要性</b>：主动学习通过增加认知活动来产生更好的学习效果，但学生将额外的认知努力（如有益的思考挣扎和偶尔的困惑）误解为他们没有学得那么好的表现，而实际上情况恰恰相反。</li></ul><hr/><p data-pid=\"Z5ez-iNd\">上一章：</p><a href=\"https://zhuanlan.zhihu.com/p/25955988878\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-710dc7738f1fab39028a1695982d91e5_qhd.jpg\" data-image-width=\"2400\" data-image-height=\"1260\" class=\"internal\">Thoughts Memo：第九章 关于数学加速的迷思与现实</a><p data-pid=\"J34l0QkB\">下一章：</p><a href=\"https://zhuanlan.zhihu.com/p/28179723884\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-1ea15cccbe051e0a33ee1ecc97c56bb2_qhd.jpg\" data-image-width=\"1280\" data-image-height=\"720\" class=\"internal\">Thoughts Memo：第十二章 刻意练习</a><hr/><blockquote data-pid=\"a5coQts_\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者飛鳥湊，校对 bstiat、Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//docs.google.com/document/d/1LLZK_34Oer9LwuqAv-pqxfXlR8n7V8zJ_MO323R7egI\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Math Academy Way: Using the Power of Science to Supercharge Student Learning</a></blockquote>",
-  "column": {
-    "updated": 1748246557,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/c_1858865163022786560",
-    "title": "The Math Academy Way",
-    "image_url": "https://picx.zhimg.com/v2-b1651bba207f1c3370995962d00f5802_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1858865163022786560"
-  },
-  "comment_count": 14,
-  "image_url": "https://pica.zhimg.com/v2-861bf0e3e25f72e079506a935550ef4c_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 51,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 51,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgImCgkyNTQ0MTk0NzESCzI2OTgzODkzNjI1GAciCklNQUdFX1RFWFQ=",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 152,
+      "down_vote_count": 0,
+      "like_count": 51,
+      "comment_count": 14,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 204,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-861bf0e3e25f72e079506a935550ef4c": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-861bf0e3e25f72e079506a935550ef4c": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-861bf0e3e25f72e079506a935550ef4c": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "15 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/48225188957?contentId=26983893625&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · The Math Academy Way",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1858865163022786560",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · The Math Academy Way"
+      }
+    }
+  ],
+  "segment_infos": [
+    {
+      "pid": "whX7gu1s",
+      "text": "更重要的是，真正的主动学习要求每个学习者都必须对每个知识点进行主动加工。分工合作的小组项目不算作完全的主动学习，因为每个学生只主动学习自己在分工中负责的材料。对其他成员的工作内容，他们只是被动地观察，（甚至可能完全忽视）。",
+      "marks": [
+        {
+          "start_index": 6,
+          "end_index": 36,
+          "seg_info": {
+            "seg_ids": [
+              "1916431557704549880"
+            ],
+            "is_like": false,
+            "like_count": 3,
+            "comment_count": 0,
+            "my_comment_count": 0,
+            "is_span": false
+          }
+        }
+      ]
+    },
+    {
+      "pid": "ufRKkXy4",
+      "text": "Math Academy 的数学教育方法完全以真正的主动学习为中心——在每个知识点上，学生上课几分钟内就会开始动手解题（老师只做最必要的简短讲解）。他们的课堂时间几乎全花在主动解决问题上。",
+      "marks": [
+        {
+          "start_index": 35,
+          "end_index": 94,
+          "seg_info": {
+            "seg_ids": [
+              "1879592941619757195"
+            ],
+            "is_like": false,
+            "like_count": 4,
+            "comment_count": 0,
+            "my_comment_count": 0,
+            "is_span": false
+          }
+        }
+      ]
+    },
+    {
+      "pid": "rJZBB802",
+      "text": "同样的道理也适用于你接受钢琴或吉他课程。你不仅仅是在吸收信息——你还在培养技能。数学也是基于技能的。学习如何解一种新型的方程与学习一些关于拿破仑生平的新历史完全不同。从本质上讲，有效的数学训练的关键与有效的体育或音乐训练的关键相同。",
+      "marks": [
+        {
+          "start_index": 50,
+          "end_index": 82,
+          "seg_info": {
+            "seg_ids": [
+              "1879593835493058078"
+            ],
+            "is_like": false,
+            "like_count": 2,
+            "comment_count": 0,
+            "my_comment_count": 0,
+            "is_span": false
+          }
+        }
+      ]
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,9 +14,10 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
@@ -35,6 +37,7 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
@@ -45,9 +48,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,36 +84,56 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 0,
   "content": "<p data-pid=\"Hn5nB9Qm\">「我不禁想问，白天老师上课，教授学业，布置的作业应该切合白天所学知识，课后作业是对上课知识的一种巩固，理论上不需要任何人辅导。」</p><p data-pid=\"vKGL45Z9\">孩子在白天能不能跟上教学进度，就是一个问题。如果没有跟上，课后又没有人帮助，那么落后进度就成最常见的结果。</p><p data-pid=\"OJ8HKAkP\">我回想起小学时，一个班级有 60 号人，老师完全管不过来每个人的情况，只能照顾中游学生。</p><p data-pid=\"9xRL4b2J\">接下来是引用环节：</p><h2>在大班授课中，因材施教是极其困难的</h2><p data-pid=\"GLECboCI\">在课堂进步的道路上有许多障碍，但是其中一些可以帮助我们快速说明问题：</p><ul><li data-pid=\"Fs2mvYwk\">能力的差异使教师很难选择正确的难度水平。</li><li data-pid=\"5JIheXph\">推动区<sup data-text=\"最佳推动区\" data-url=\"https://zhuanlan.zhihu.com/p/67694020\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>图显示，教育中只有很小程度的强制性力量可能对发展产生有益的影响(在陈述性学习中，该区域可以通过学生与特定教师互动以实现特定目标所能达到的最佳语义距离来定义)</li></ul><p data-pid=\"cbvM3Z9B\">如果我们使用不同语义距离的推动区公式，在一个能力水平不同的课堂小组中，我们会发现，对于一组天才学生，课堂可能会抑制他们的发展。然而，天才们仍然会被他们的表现所折服，他们的成功通常会被学校所接受，尽管同样的学生也会受到实际的伤害。对于一小部分中等水平的学生来说，如过强制性的学校教育达到了最佳推动区<sup data-text=\"最佳推动区\" data-url=\"https://zhuanlan.zhihu.com/p/67694020\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，那么它可能看起来是有益的。对于最大的群体来说，他们的规模将取决于教师的目标知识水平和教师对学生的个性化教学方式的能力，强制性的学校教育将把孩子们推向倒退区<sup data-text=\"最佳推动区\" data-url=\"https://zhuanlan.zhihu.com/p/67694020\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，并且内在地增加了对学习的厌恶。</p><p data-pid=\"5mhaCNFa\">然后我们可以把课堂中的学生分为天才、受益者和受害者。我们不需要担心天才，我们应该让他们自由成长。受益者是一个对于他们来说学校是有意义的群体。当然，在主题 a 的受益者可能不同于在主题 b 的受益者。这增加了受害者群体的总规模，即使这些受害“只是”部分受害。遗憾的是，一个领域的福利并不能弥补其他领域的损失。我们可能无法计算细节，但是如果几乎所有的青少年都讨厌学校，我们知道力量的平衡倾向于惩罚和伤害。</p><p class=\"ztext-empty-paragraph\"><br/></p><a href=\"http://zhuanlan.zhihu.com/p/347510057\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-b7c05e3af1b2094580d34d6596c6de80_180x120.jpg\" data-image-width=\"1621\" data-image-height=\"861\" class=\"internal\">叶峻峣：课堂教学的内在问题</a><h2>完美的家庭教师</h2><p data-pid=\"1Jm_cDsz\"><u><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Jean-Jacques_Rousseau\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">让-雅克·卢梭</a></u>在《爱弥儿》中提出了一个完美守护者的概念。直到今天，许多教育工作者都相信一个完美的家教是孩子的最佳解决方案(见：<u><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Progressive_education\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">进步教育</a></u>)。然而，卢梭的思想属于前工业化世界的乡村背景。在现代社会，点击一个按钮就可以找到成千上万的知识渊博的人，每个孩子都可以在现实生活和虚拟生活中找到自己的最佳朋友和顾问组合。</p><p data-pid=\"tUYHUhCA\">良好的意愿，温暖和爱，是健康和丰富的成人和儿童之间的互动必不可少的组成部分。这一因素增加了慈爱的父母作为高效的沟通者、大师和榜样的另一个优势。在理想的世界里，好的父母可能是最好的老师。遗憾的是，许多父母已经被我们组织社会的方式、学校教育、或者他们自己的家庭状况，包括他们自己的父母毁掉了。</p><p data-pid=\"uN427-9g\"><b>我们接受的学校教育越多，实践育儿的艺术就越少，我们就越需要老师</b></p><p data-pid=\"wDd3L1Xc\">这种恶性循环必须打破。渐进式的文化和行为进步具有代际性。</p><a href=\"http://zhuanlan.zhihu.com/p/259398622\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-6250077e5ab32f4777e919bc25737662_180x120.jpg\" data-image-width=\"1898\" data-image-height=\"962\" class=\"internal\">叶峻峣：我们需要老师吗？</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1649064511,
   "excerpt": "「我不禁想问，白天老师上课，教授学业，布置的作业应该切合白天所学知识，课后作业是对上课知识的一种巩固，理论上不需要任何人辅导。」 孩子在白天能不能跟上教学进度，就是一个问题。如果没有跟上，课后又没有人帮助，那么落后进度就成最常见的结果。 我回想起小学时，一个班级有 60 号人，老师完全管不过来每个人的情况，只能照顾中游学生。 接下来是引用环节： 在大班授课中，因材施教是极其困难的在课堂进步的道路上有许多…",
-  "id": 2423019834,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2423019834",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "http://zhuanlan.zhihu.com/p/259398622": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"我们需要老师吗？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/259398622\",\"desc\":\"84 赞同 · 9 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 学习中的交流在 自由学习 [1]中，不需要老师（为了清晰起见，请看“老师”的定义 [2]）。在 自由学习 [1]中，一对一的辅导也是可选的。所有人类都需要与其他人类互动。这种互动对于满足与生俱来的社会需求是必要的。这也是有效学习所必需的。人际交往是优化学习轨迹最有效的方法之一。因此，在理想的情况下，一个孩子应该在丰富的环境中成长，有可能与来自不同行业、不同年龄、不同能力、不同性格、不同专业领域的其他人进行互动。…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-7678a4ef2fbf12c5c3e31c1ec84042bb_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"259398622\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "http://zhuanlan.zhihu.com/p/347510057": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"课堂教学的内在问题\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/347510057\",\"desc\":\"51 赞同 · 30 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 课堂学习学校根据年龄和能力实行严格的隔离。这是为了防止与年龄相关的增长率加深技能分层。技能分层导致天赋的抑制（例如 无聊 [1]的有害影响）。它也会导致弱势学生的倒退（例如，压力、自尊的丧失、有毒的记忆 [2]、习得性无助 [3]等等）。自然的不受限制的发展导致树状的增长和利益和能力的多样化。由于这个原因，学校越来越严格地要求达到标准，惩罚落后者和不合格的教师，通过 考试 [4]基准等等。在学校 进步的同质化是大规模…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-b7c05e3af1b2094580d34d6596c6de80_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"347510057\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "http://zhuanlan.zhihu.com/p/259398622": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"我们还需要老师吗？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/259398622\",\"desc\":\"90 赞同 · 9 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 学习中的交流在 自由学习 [1]的模式下，我们不再需要传统意义上的老师（为清晰起见，请参见「老师」的定义 [2]）。在 自由学习 [1]中，即便是一对一的家教，也并非必需品。人人都需要与他人互动，这既是满足与生俱来的社交需求，也是有效社会化 [3]和学习的必要条件。人际沟通是优化学习轨迹最高效的方式之一。因此，理想情况下，孩子应在丰富的环境中成长，有机会与各行各业、不同年龄、不同能力、不同个性和不同专业背景的人互动。…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-7678a4ef2fbf12c5c3e31c1ec84042bb_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"259398622\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "http://zhuanlan.zhihu.com/p/347510057": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"课堂教学的内在问题\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/347510057\",\"desc\":\"61 赞同 · 31 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 课堂学习学校根据年龄和能力实行严格的隔离。这是为了防止与年龄相关的增长率加深技能分层。技能分层导致天赋的抑制（例如 无聊 [1]的有害影响）。它也会导致弱势学生的倒退（例如，压力、自尊的丧失、有毒的记忆 [2]、习得性无助 [3]等等）。自然的不受限制的发展导致树状的增长和利益和能力的多样化。由于这个原因，学校越来越严格地要求达到标准，惩罚落后者和不合格的教师，通过 考试 [4]基准等等。在学校 进步的同质化是大规模…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-b7c05e3af1b2094580d34d6596c6de80_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"347510057\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=2423019834&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1536925266,
     "detail": "<p>目前，接触过很多孩子上小学、初中的父母，基本上都在抱怨，老师布置了不少作业，都是让家长辅导、检查、然后发微信群。整个下来家长比老师还忙。我不禁想问，白天老师上课，教授学业，布置的作业应该切合白天所学知识，课后作业是对上课知识的一种巩固，理论上不需要任何人辅导。为何现在学生上课要这么依赖家长呢，诚然，家长有责任和义务对自己的孩子进行辅导，但不是现在这种情况。值得反思！！！</p>",
-    "id": 294650785,
+    "id": "294650785",
     "question_type": "normal",
     "relationship": {},
     "title": "现在的教师失去教书育人的能力了吗？",
     "type": "question",
     "updated_time": 1536925266,
-    "url": "https://api.zhihu.com/questions/294650785"
+    "url": "https://www.zhihu.com/api/v4/questions/294650785"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1649064511,
+  "url": "https://www.zhihu.com/api/v4/answers/2423019834",
   "voteup_count": 31
 }

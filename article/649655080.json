@@ -1,80 +1,419 @@
 {
-  "status": 0,
+  "id": "649655080",
+  "title": "解释 FSRS（上篇）：算法描述与运作原理",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/649655080",
+  "image_url": "https://pic1.zhimg.com/v2-9c14ae073ac7ff2f3d208d31b0ed10b2_720w.jpg?source=172ae18b",
+  "title_image": "https://pic1.zhimg.com/v2-9c14ae073ac7ff2f3d208d31b0ed10b2_720w.jpg?source=172ae18b",
+  "excerpt": "如果你正在使用 Anki 但还没听说过 <a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">FSRS</a>，那我来简单地给你介绍一下：它是一个新的调度算法，比 Anki 的默认算法更加灵活、准确。最近，FSRS 的新版本已经发布，它比之前更加精确，因此我决定写两篇关于 FSRS 的文章。注：我并不是 FSRS 的开发者。我只是一…",
+  "created": 1691842497,
   "updated": 1691894582,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://pic1.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "如果你正在使用 Anki 但还没听说过 FSRS ，那我来简单地给你介绍一下：它是一个新的…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 2638,
+  "image_height": 1304,
+  "content": "<p data-pid=\"NRc916OM\">如果你正在使用 Anki 但还没听说过 <a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">FSRS</a>，那我来简单地给你介绍一下：它是一个新的调度算法，比 Anki 的默认算法更加灵活、准确。最近，FSRS 的新版本已经发布，它比之前更加精确，因此我决定写两篇关于 FSRS 的文章。</p><blockquote data-pid=\"3cyEH253\">注：我并不是 FSRS 的开发者。我只是一个在 GitHub 上经常提交错误报告和功能请求的普通人。但我对 FSRS 非常了解，特别是 v4 版本的很多改动，都是我一手提议的。（校对：这人提了几十个 issue，累死我了）</blockquote><h2><b>等级 1：小白版</b></h2><p data-pid=\"w413PeJV\">FSRS 采用了一个叫做 DSR 的记忆模型，全称是「难度（<b>D</b>ifficulty）、稳定性（<b>S</b>tability）和回忆概率（Probability of <b>R</b>ecall）」。如果你是 Piotr Wozniak<sup data-text=\"彼得 · 沃兹尼亚克\" data-url=\"https://zhuanlan.zhihu.com/p/303204832\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup> 的话，可能会说成是「保留率（<b>R</b>etention）」或「可提取性（<b>R</b>etrievability）」。不过在他的术语中，「保留率」和「可提取性」又不是一回事……唉，要给这些概念起个好名字真不容易。</p><p data-pid=\"X18kpvaN\"><b>R</b> 代表着用户根据某卡片的复习历史，在某一天回忆起这张卡片的概率。这个概率取决于自上次复习过去了多少天，以及 <b>S</b>。重要的是，任何<b>诚实</b>的间隔重复算法都得能预测 R，无论用什么方式（即使它不使用记忆稳定性）。否则，它不可能确定哪些间隔是最优的。 </p><p data-pid=\"p9LUqLLB\"><b>S</b> 代表记忆稳定性，定义为 <b>R</b> 从 100% 降到 90% 所需的天数。越高越好。比如，S=365 意味着整整一年后，回忆某张卡片的概率才会降到 90%。估计 <b>S</b> 是最难的部分，这正是 FSRS 的核心所在。</p><p data-pid=\"E38hUD33\"><b>D</b> 代表难度。不同于其他两个变量，难度没有明确的定义，而是基于一堆与人类记忆理解不太相关的启发式方法来计算的。简单说，如果你按下「简单」，难度就下降；如果你按「困难」或「重来」，难度就上升。</p><p data-pid=\"cRPoxFBa\">这个模型最初是由 SuperMemo 的缔造者 Piotr Wozniak 提出的。一年前，<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/u/LMSherlock/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">u/LMSherlock</a>（校对：正是在下）发表了一篇论文<sup data-text=\"KDD&#39;22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]\" data-url=\"https://zhuanlan.zhihu.com/p/577383961\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，也用到了这个模型。</p><h2><b>等级 2：完整描述，但不涉及数学</b></h2><p data-pid=\"VERC6Afw\">对于任何给定的卡片，FSRS 都会进行以下操作：</p><p data-pid=\"JCYIG5tC\">如果这是首次复习：</p><ol><li data-pid=\"L_zK-0BW\">根据评分——「重来」、「困难」、「良好」和「简单」，设置初始的记忆稳定性 S。这些初始值是经过特定方法优化后得到的，并作为参数传递给调度器。<br/><br/></li><li data-pid=\"ZZ84Lsgf\">计算初始难度 D。这个难度完全基于评分。<br/><br/></li><li data-pid=\"VC5NZOvO\">根据 S 和期望的回忆概率 R（由用户设置）来安排下一次复习。</li></ol><p data-pid=\"ez77PhWJ\">若不是第一次复习该卡片：</p><ol><li data-pid=\"kb7wJqs2\">计算复习时的理论（预测）回忆概率 R。它基于两个变量：从上次复习到现在过去的天数 Δt，以及复习时的记忆稳定性 S。<br/><br/></li><li data-pid=\"uSaRhvWe\">计算难度 D，但与第一次复习时的公式不同。D 基于两个变量：其先前的值和此次的评分。<br/><br/></li><li data-pid=\"s8mkMxub\">根据 D、S 和 R 来获取复习<b>后</b>的<b>新</b>稳定性估计。每次成功的复习后（用户按下「困难」、「良好」或「简单」），稳定性都会提高或至少保持不变，但在失败后（用户按下「重来」）会降低。新的稳定性估值取决于四个变量：D、S、R 和评分。如果用户按「重来」，公式会有所不同。<br/><br/></li><li data-pid=\"cETDaDls\">根据 S 的新估值和期望的回忆概率 R（由用户设置）来安排下一次的复习。</li></ol><h2><b>等级 3：完整描述，包括数学</b></h2><p data-pid=\"C9sOkF43\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/The-Algorithm\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">阅读这个 wiki 即可 ¯_(ツ)_/¯</a></p><h2><b>FSRS v4 的强项</b></h2><ol><li data-pid=\"elbgV-Xr\">得益于通用记忆公式与机器学习的结合，FSRS 能够适应任何用户的记忆和复习习惯，例如只使用「重来」和「良好」。所以你不需要改变自己的复习习惯。<br/><br/></li><li data-pid=\"yOBLO9o7\">FSRS 让你能够自己设置期望的回忆概率 R，这使得你可以在复习压力和长期记忆保留之间权衡。<br/><br/></li><li data-pid=\"bgHGhNKi\">FSRS 允许你提前或推迟复习，同时最小化对长期学习的影响。当你积压了大量的复习时，可以选择推迟；考试前，可以选择提前复习。但<b>过于</b>频繁的推迟/提前仍然可能造成伤害。如果你选择某天不学习，如周日，FSRS 也允许你有「休息日」。所有这些都得益于 FSRS 能够准确预测 S 和 R，即使复习太晚或太早。<br/><br/></li><li data-pid=\"gxlrAiOV\">FSRS 能帮助你准确估算目前大脑中掌握的知识量。这是任何其他插件都做不到的，因为它依赖于准确预测所有卡片的 R。<br/><br/></li><li data-pid=\"Mhkzq_ko\">从标准的 Anki 调度器转到 FSRS 并不需要花上数月或数周——只需轻触按钮，卡片就可以被助手插件重新安排。不过，重新安排后的初始复习量通常较大。顺便说一下，助手插件同时支持 v3 和 v4 版本。<br/><br/></li><li data-pid=\"qu0xZ0NI\">如果你一直在为「学习步伐」、「毕业间隔」、「简单奖励」等参数的最佳值而烦恼，那么现在不需要再折腾了。优化器会为你找到最佳参数，再也不用手动调整了。</li></ol><h2><b>FSRS v4 的弱项</b></h2><ol><li data-pid=\"kMcmA-xC\">对于最简单的卡片（D=1）和最困难的卡片（D=10），理论上预测的 R 与实测的 R 存在较大偏差。这表明我们计算 D 的公式有待改进。尽管我们注意到了公式中的其他一些问题，但修正尝试都未能取得成功。<br/><br/></li><li data-pid=\"myvc3hB9\">FSRS 要求很多复习数据（至少一千条，最好更多）才能准确优化其参数。如果你是新用户，还没有做过几千次的复习，优化器只会给你默认参数，这些参数可能适合也可能不适合你。<br/><br/></li><li data-pid=\"pyG_0W1L\">FSRS 的用户友好度不高。目前，它有三个模块：优化器（在 Google Colab 中为你找到最佳参数的部分）、调度器（你粘贴到 Anki 的代码）和助手插件，而目前还无法将它们合并成一个模块。除非 Anki 的开发者决定直接将 FSRS 整合到 Anki 中，否则这种情况不太可能改变。我敢赌 100 块，就算太阳成为红巨星并吞噬地球，也比这来得快。<br/><br/></li><li data-pid=\"EB28iqys\">虽然我说你不再需要手动调整任何参数，但如果你目前的学习步伐超过有超过 1 天的话，唯一需要更改的是<b>将你的学习（和重新学习）步伐设置改为不超过 1 天</b>。否则，你可能会遇到「困难」的间隔比「良好」或「简单」的间隔长的情况，这会导致助手插件和调度器出现奇怪的行为。不幸的是，Anki 的数据库有些古怪，所以处于「学习」（和「重新学习」）阶段的卡片与处于「复习」阶段的卡片的处理方式不同，FSRS 调度器只能影响处于「复习」阶段的卡片。这也意味着「休息日」功能并不如名字所述，它只是让你选择的日子不再有「复习」卡片，但你仍然需要处理「学习」和「重新学习」的卡片。</li></ol><hr/><p data-pid=\"8miVETmr\">在<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/r/Anki/comments/15mab6e/fsrs_explained_part_2_accuracy/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">下篇</a>，我将解释如何评估间隔重复算法的准确性。剧透一下：尽管这个 Reddit 版块上的人都在说需要随机对照试验，但实际上并不需要。真正需要的是大量的复习数据。</p><a href=\"https://zhuanlan.zhihu.com/p/649701172\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-e9f56ba072166b28b7c371e246a79fc5_qhd.jpg\" data-image-width=\"2638\" data-image-height=\"1304\" class=\"internal\">叶峻峣：解释 FSRS（下篇）：准确度</a><p data-pid=\"CtMmUAbm\">PS：如果你目前正在使用 FSRS v3，我建议你切换到 v4 版本。如何安装，请在<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki%232-advanced-usage\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">此处</a><sup data-text=\"FSRS4Anki 使用指北\" data-url=\"https://zhuanlan.zhihu.com/p/636564830\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>查阅。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"RXOLia9e\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3\" data-hash=\"3c9990a12cdbcd92e20b1387b160f0a3\" data-hovercard=\"p$b$3c9990a12cdbcd92e20b1387b160f0a3\">@Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/r/Anki/comments/15mab3r/fsrs_explained_part_1_what_it_is_and_how_it_works/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">FSRS explained, part 1: What it is and how it works : Anki (reddit.com)</a><br/>作者：<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/user/ClarityInMadness/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">ClarityInMadness</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19783871",
+      "type": "topic",
+      "id": "19783871",
+      "name": "Anki（知识记忆工具）"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19559450",
+      "type": "topic",
+      "id": "19559450",
+      "name": "机器学习"
+    }
+  ],
+  "voteup_count": 105,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
+    "can_manage": false,
+    "intro": "带你用「Anki」高效战高考！",
+    "is_following": true,
+    "url_token": "ankigaokao",
+    "id": "ankigaokao",
+    "articles_count": 157,
+    "accept_submission": true,
+    "title": "AnkiX高考",
+    "url": "https://api.zhihu.com/columns/ankigaokao",
+    "comment_permission": "all",
+    "created": 1522117223,
+    "updated": 1599152271,
+    "image_url": "https://pic1.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 6763,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 42,
+  "contributions": [
+    {
+      "id": 46203342,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
+        "can_manage": false,
+        "intro": "带你用「Anki」高效战高考！",
+        "is_following": true,
+        "url_token": "ankigaokao",
+        "id": "ankigaokao",
+        "articles_count": 157,
+        "accept_submission": true,
+        "title": "AnkiX高考",
+        "url": "https://api.zhihu.com/columns/ankigaokao",
+        "comment_permission": "all",
+        "created": 1522117223,
+        "updated": 1599152271,
+        "image_url": "https://pic1.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 6763,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 649655080,
-  "voteup_count": 87,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 167,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "解释 FSRS（上篇）：算法描述与运作原理 - 来自知乎专栏「AnkiX高考」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/649655080 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1691842497,
-  "url": "https://api.zhihu.com/articles/649655080",
-  "comment_permission": "all",
-  "title": "解释 FSRS（上篇）：算法描述与运作原理",
-  "image_width": 1304,
-  "content": "<p data-pid=\"NRc916OM\">如果你正在使用 Anki 但还没听说过 <a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">FSRS</a>，那我来简单地给你介绍一下：它是一个新的调度算法，比 Anki 的默认算法更加灵活、准确。最近，FSRS 的新版本已经发布，它比之前更加精确，因此我决定写两篇关于 FSRS 的文章。</p><blockquote data-pid=\"3cyEH253\">注：我并不是 FSRS 的开发者。我只是一个在 GitHub 上经常提交错误报告和功能请求的普通人。但我对 FSRS 非常了解，特别是 v4 版本的很多改动，都是我一手提议的。（校对：这人提了几十个 issue，累死我了）</blockquote><h2><b>等级 1：小白版</b></h2><p data-pid=\"w413PeJV\">FSRS 采用了一个叫做 DSR 的记忆模型，全称是「难度（<b>D</b>ifficulty）、稳定性（<b>S</b>tability）和回忆概率（Probability of <b>R</b>ecall）」。如果你是 Piotr Wozniak<sup data-text=\"彼得 · 沃兹尼亚克\" data-url=\"https://zhuanlan.zhihu.com/p/303204832\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup> 的话，可能会说成是「保留率（<b>R</b>etention）」或「可提取性（<b>R</b>etrievability）」。不过在他的术语中，「保留率」和「可提取性」又不是一回事……唉，要给这些概念起个好名字真不容易。</p><p data-pid=\"X18kpvaN\"><b>R</b> 代表着用户根据某卡片的复习历史，在某一天回忆起这张卡片的概率。这个概率取决于自上次复习过去了多少天，以及 <b>S</b>。重要的是，任何<b>诚实</b>的间隔重复算法都得能预测 R，无论用什么方式（即使它不使用记忆稳定性）。否则，它不可能确定哪些间隔是最优的。 </p><p data-pid=\"p9LUqLLB\"><b>S</b> 代表记忆稳定性，定义为 <b>R</b> 从 100% 降到 90% 所需的天数。越高越好。比如，S=365 意味着整整一年后，回忆某张卡片的概率才会降到 90%。估计 <b>S</b> 是最难的部分，这正是 FSRS 的核心所在。</p><p data-pid=\"E38hUD33\"><b>D</b> 代表难度。不同于其他两个变量，难度没有明确的定义，而是基于一堆与人类记忆理解不太相关的启发式方法来计算的。简单说，如果你按下「简单」，难度就下降；如果你按「困难」或「重来」，难度就上升。</p><p data-pid=\"cRPoxFBa\">这个模型最初是由 SuperMemo 的缔造者 Piotr Wozniak 提出的。一年前，<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/u/LMSherlock/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">u/LMSherlock</a>（校对：正是在下）发表了一篇论文<sup data-text=\"KDD&#39;22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]\" data-url=\"https://zhuanlan.zhihu.com/p/577383961\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，也用到了这个模型。</p><h2><b>等级 2：完整描述，但不涉及数学</b></h2><p data-pid=\"VERC6Afw\">对于任何给定的卡片，FSRS 都会进行以下操作：</p><p data-pid=\"JCYIG5tC\">如果这是首次复习：</p><ol><li data-pid=\"L_zK-0BW\">根据评分——「重来」、「困难」、「良好」和「简单」，设置初始的记忆稳定性 S。这些初始值是经过特定方法优化后得到的，并作为参数传递给调度器。<br/><br/></li><li data-pid=\"ZZ84Lsgf\">计算初始难度 D。这个难度完全基于评分。<br/><br/></li><li data-pid=\"VC5NZOvO\">根据 S 和期望的回忆概率 R（由用户设置）来安排下一次复习。</li></ol><p data-pid=\"ez77PhWJ\">若不是第一次复习该卡片：</p><ol><li data-pid=\"kb7wJqs2\">计算复习时的理论（预测）回忆概率 R。它基于两个变量：从上次复习到现在过去的天数 Δt，以及复习时的记忆稳定性 S。<br/><br/></li><li data-pid=\"uSaRhvWe\">计算难度 D，但与第一次复习时的公式不同。D 基于两个变量：其先前的值和此次的评分。<br/><br/></li><li data-pid=\"s8mkMxub\">根据 D、S 和 R 来获取复习<b>后</b>的<b>新</b>稳定性估计。每次成功的复习后（用户按下「困难」、「良好」或「简单」），稳定性都会提高或至少保持不变，但在失败后（用户按下「重来」）会降低。新的稳定性估值取决于四个变量：D、S、R 和评分。如果用户按「重来」，公式会有所不同。<br/><br/></li><li data-pid=\"cETDaDls\">根据 S 的新估值和期望的回忆概率 R（由用户设置）来安排下一次的复习。</li></ol><h2><b>等级 3：完整描述，包括数学</b></h2><p data-pid=\"C9sOkF43\"><a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki/wiki/The-Algorithm\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">阅读这个 wiki 即可 ¯_(ツ)_/¯</a></p><h2><b>FSRS v4 的强项</b></h2><ol><li data-pid=\"elbgV-Xr\">得益于通用记忆公式与机器学习的结合，FSRS 能够适应任何用户的记忆和复习习惯，例如只使用「重来」和「良好」。所以你不需要改变自己的复习习惯。<br/><br/></li><li data-pid=\"yOBLO9o7\">FSRS 让你能够自己设置期望的回忆概率 R，这使得你可以在复习压力和长期记忆保留之间权衡。<br/><br/></li><li data-pid=\"bgHGhNKi\">FSRS 允许你提前或推迟复习，同时最小化对长期学习的影响。当你积压了大量的复习时，可以选择推迟；考试前，可以选择提前复习。但<b>过于</b>频繁的推迟/提前仍然可能造成伤害。如果你选择某天不学习，如周日，FSRS 也允许你有「休息日」。所有这些都得益于 FSRS 能够准确预测 S 和 R，即使复习太晚或太早。<br/><br/></li><li data-pid=\"gxlrAiOV\">FSRS 能帮助你准确估算目前大脑中掌握的知识量。这是任何其他插件都做不到的，因为它依赖于准确预测所有卡片的 R。<br/><br/></li><li data-pid=\"Mhkzq_ko\">从标准的 Anki 调度器转到 FSRS 并不需要花上数月或数周——只需轻触按钮，卡片就可以被助手插件重新安排。不过，重新安排后的初始复习量通常较大。顺便说一下，助手插件同时支持 v3 和 v4 版本。<br/><br/></li><li data-pid=\"qu0xZ0NI\">如果你一直在为「学习步伐」、「毕业间隔」、「简单奖励」等参数的最佳值而烦恼，那么现在不需要再折腾了。优化器会为你找到最佳参数，再也不用手动调整了。</li></ol><h2><b>FSRS v4 的弱项</b></h2><ol><li data-pid=\"kMcmA-xC\">对于最简单的卡片（D=1）和最困难的卡片（D=10），理论上预测的 R 与实测的 R 存在较大偏差。这表明我们计算 D 的公式有待改进。尽管我们注意到了公式中的其他一些问题，但修正尝试都未能取得成功。<br/><br/></li><li data-pid=\"myvc3hB9\">FSRS 要求很多复习数据（至少一千条，最好更多）才能准确优化其参数。如果你是新用户，还没有做过几千次的复习，优化器只会给你默认参数，这些参数可能适合也可能不适合你。<br/><br/></li><li data-pid=\"pyG_0W1L\">FSRS 的用户友好度不高。目前，它有三个模块：优化器（在 Google Colab 中为你找到最佳参数的部分）、调度器（你粘贴到 Anki 的代码）和助手插件，而目前还无法将它们合并成一个模块。除非 Anki 的开发者决定直接将 FSRS 整合到 Anki 中，否则这种情况不太可能改变。我敢赌 100 块，就算太阳成为红巨星并吞噬地球，也比这来得快。<br/><br/></li><li data-pid=\"EB28iqys\">虽然我说你不再需要手动调整任何参数，但如果你目前的学习步伐超过有超过 1 天的话，唯一需要更改的是<b>将你的学习（和重新学习）步伐设置改为不超过 1 天</b>。否则，你可能会遇到「困难」的间隔比「良好」或「简单」的间隔长的情况，这会导致助手插件和调度器出现奇怪的行为。不幸的是，Anki 的数据库有些古怪，所以处于「学习」（和「重新学习」）阶段的卡片与处于「复习」阶段的卡片的处理方式不同，FSRS 调度器只能影响处于「复习」阶段的卡片。这也意味着「休息日」功能并不如名字所述，它只是让你选择的日子不再有「复习」卡片，但你仍然需要处理「学习」和「重新学习」的卡片。</li></ol><hr/><p data-pid=\"8miVETmr\">在<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/r/Anki/comments/15mab6e/fsrs_explained_part_2_accuracy/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">下篇</a>，我将解释如何评估间隔重复算法的准确性。剧透一下：尽管这个 Reddit 版块上的人都在说需要随机对照试验，但实际上并不需要。真正需要的是大量的复习数据。</p><a href=\"https://zhuanlan.zhihu.com/p/649701172\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-e9f56ba072166b28b7c371e246a79fc5_qhd.jpg\" data-image-width=\"2638\" data-image-height=\"1304\" class=\"internal\">叶峻峣：解释 FSRS（下篇）：准确度</a><p data-pid=\"CtMmUAbm\">PS：如果你目前正在使用 FSRS v3，我建议你切换到 v4 版本。如何安装，请在<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki%232-advanced-usage\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">此处</a><sup data-text=\"FSRS4Anki 使用指北\" data-url=\"https://zhuanlan.zhihu.com/p/636564830\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>查阅。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"RXOLia9e\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3\" data-hash=\"3c9990a12cdbcd92e20b1387b160f0a3\" data-hovercard=\"p$b$3c9990a12cdbcd92e20b1387b160f0a3\">@Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/r/Anki/comments/15mab3r/fsrs_explained_part_1_what_it_is_and_how_it_works/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">FSRS explained, part 1: What it is and how it works : Anki (reddit.com)</a><br/>作者：<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/user/ClarityInMadness/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">ClarityInMadness</a></blockquote>",
-  "column": {
-    "updated": 1599152271,
-    "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/ankigaokao",
-    "title": "AnkiX高考",
-    "image_url": "https://picx.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "ankigaokao"
-  },
-  "comment_count": 42,
-  "image_url": "https://pic1.zhimg.com/v2-9c14ae073ac7ff2f3d208d31b0ed10b2_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 39,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 39,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMzI0OTc2MjgSCTY0OTY1NTA4MBgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 105,
+      "down_vote_count": 2,
+      "like_count": 39,
+      "comment_count": 42,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 167,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-9c14ae073ac7ff2f3d208d31b0ed10b2": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-9c14ae073ac7ff2f3d208d31b0ed10b2": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-9c14ae073ac7ff2f3d208d31b0ed10b2": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/14182364377?contentId=649655080&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · AnkiX高考",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/ankigaokao",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · AnkiX高考"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

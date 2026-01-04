@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "991304319",
+  "title": "过于方便的借口",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/991304319",
+  "image_url": "https://picx.zhimg.com/v2-eb16b34c242bf59997738a371a8063ba_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-eb16b34c242bf59997738a371a8063ba_720w.jpg?source=172ae18b",
+  "excerpt": "《如何真正改变你的想法》的第一个系列 《过于方便的借口》，聚焦于那些从概率角度来看再明确不过的问题。尽管要得出贝叶斯最优解通常是不可行的，但即便在证据确凿、有充分时间深思熟虑的情况下，诸如确认偏差之类的错误思维也可能根深蒂固。—— <a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Rationality-An-Introduction\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《理性：…</a>",
+  "created": 1729503613,
   "updated": 1729503613,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "《如何真正改变你的想法》的第一个系列《过于方便的借口》，聚焦于那些从概率角度来…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 1400,
+  "image_height": 915,
+  "content": "<p data-pid=\"fYw9BT5-\">《如何真正改变你的想法》的第一个系列<span class=\"nolink\">《过于方便的借口》</span>，聚焦于那些从概率角度来看再明确不过的问题。尽管要得出贝叶斯最优解通常是不可行的，但即便在证据确凿、有充分时间深思熟虑的情况下，诸如确认偏差之类的错误思维也可能根深蒂固。</p><p data-pid=\"ge5Xzcs-\">——<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Rationality-An-Introduction\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《理性：序言》</a> by Rob Bensinger</p><hr/><a href=\"https://zhuanlan.zhihu.com/p/827867683\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-2bd65ed24fab69e8a975e874c9c0c3d9_qhd.jpg\" data-image-width=\"5917\" data-image-height=\"3945\" class=\"internal\">Thoughts Memo：谦逊的恰当用法</a><a href=\"https://zhuanlan.zhihu.com/p/827889716\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-0181deba80d88464e3b039de5e4609ca_200x0.jpg\" data-image-width=\"3024\" data-image-height=\"3780\" class=\"internal\">Thoughts Memo：第三条道路</a><a href=\"https://zhuanlan.zhihu.com/p/812068575\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-4c064bac9e1b28a5b99b309bddd0f3b9_qhd.jpg\" data-image-width=\"5932\" data-image-height=\"3965\" class=\"internal\">Thoughts Memo：彩票：浪费希望</a><a href=\"https://zhuanlan.zhihu.com/p/827889733\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-c8a9bea059a6febe1ec136dde992e35d_qhd.jpg\" data-image-width=\"2560\" data-image-height=\"1675\" class=\"internal\">Thoughts Memo：全新升级的彩票</a><a href=\"https://zhuanlan.zhihu.com/p/827897391\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-76220c7e3945b5814238f7789f4ffbb9_qhd.jpg\" data-image-width=\"6000\" data-image-height=\"4000\" class=\"internal\">Thoughts Memo：但就是有那么一丁点可能性嘛，不是吗？</a><a href=\"https://zhuanlan.zhihu.com/p/827900306\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-64a3f15449905ac5551cbdf6271a22fc_qhd.jpg\" data-image-width=\"5012\" data-image-height=\"3341\" class=\"internal\">Thoughts Memo：灰色谬误（一极管谬误）</a><a href=\"https://zhuanlan.zhihu.com/p/827910633\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-28bb3d53c86f48d56ffb3abeb347d031_qhd.jpg\" data-image-width=\"5035\" data-image-height=\"3339\" class=\"internal\">Thoughts Memo：绝对权威</a><a href=\"https://zhuanlan.zhihu.com/p/827917379\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-10512ebf534a387ad44e33b0df09d031_qhd.jpg\" data-image-width=\"1880\" data-image-height=\"1253\" class=\"internal\">Thoughts Memo：如何让我相信 2 + 2 = 3</a><a href=\"https://zhuanlan.zhihu.com/p/991150597\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-2f46e7de4de6c6283e78b8bae092d236_qhd.jpg\" data-image-width=\"3264\" data-image-height=\"2448\" class=\"internal\">Thoughts Memo：无限的确定性</a><a href=\"https://zhuanlan.zhihu.com/p/991286265\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-537b8828a99088f370fe08b9b8968942_qhd.jpg\" data-image-width=\"6016\" data-image-height=\"4016\" class=\"internal\">Thoughts Memo：0 和 1 不是概率</a><a href=\"https://zhuanlan.zhihu.com/p/991296194\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-7e8e62ce2064df35735c1f8d8fd3f912_qhd.jpg\" data-image-width=\"1200\" data-image-height=\"852\" class=\"internal\">Thoughts Memo：你的理性是我的事</a><hr/><p data-pid=\"zycGiEb0\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/827867654\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-52b323f664f6af45cbdffbe5bc602b8d_qhd.jpg\" data-image-width=\"4096\" data-image-height=\"3051\" class=\"internal\">Thoughts Memo：理性：序言</a><p data-pid=\"dq6tU2Ml\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/827867683\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-2bd65ed24fab69e8a975e874c9c0c3d9_qhd.jpg\" data-image-width=\"5917\" data-image-height=\"3945\" class=\"internal\">Thoughts Memo：谦逊的恰当用法</a><hr/><blockquote data-pid=\"C8qj-bNm\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3-opus，校对<span class=\"nolink\">Jarrett Ye</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Overly-Convenient-Excuses-Sequence\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Overly Convenient Excuses - Sequence</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19569579",
+      "type": "topic",
+      "id": "19569579",
+      "name": "理性"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19594061",
+      "type": "topic",
+      "id": "19594061",
+      "name": "借口"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19589501",
+      "type": "topic",
+      "id": "19589501",
+      "name": "理由"
+    }
+  ],
+  "voteup_count": 50,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "理性是一种「利用手头一切资源来尽己所能」的理念。",
+    "is_following": false,
+    "url_token": "c_1826322587032117248",
+    "id": "c_1826322587032117248",
+    "articles_count": 83,
+    "accept_submission": true,
+    "title": "理性 & 克服偏见",
+    "url": "https://api.zhihu.com/columns/c_1826322587032117248",
+    "comment_permission": "all",
+    "created": 1728209236,
+    "updated": 1751811441,
+    "image_url": "https://picx.zhimg.com/v2-c9036d409f5e65c53cfea750a0176c61_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 302,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 2,
+  "contributions": [
+    {
+      "id": 49935219,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "理性是一种「利用手头一切资源来尽己所能」的理念。",
+        "is_following": false,
+        "url_token": "c_1826322587032117248",
+        "id": "c_1826322587032117248",
+        "articles_count": 83,
+        "accept_submission": true,
+        "title": "理性 & 克服偏见",
+        "url": "https://api.zhihu.com/columns/c_1826322587032117248",
+        "comment_permission": "all",
+        "created": 1728209236,
+        "updated": 1751811441,
+        "image_url": "https://picx.zhimg.com/v2-c9036d409f5e65c53cfea750a0176c61_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 302,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 991304319,
-  "voteup_count": 49,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 65,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "过于方便的借口 - 来自知乎专栏「理性 &amp; 克服偏见」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/991304319 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1729503613,
-  "url": "https://api.zhihu.com/articles/991304319",
-  "comment_permission": "all",
-  "title": "过于方便的借口",
-  "image_width": 915,
-  "content": "<p data-pid=\"fYw9BT5-\">《如何真正改变你的想法》的第一个系列<span class=\"nolink\">《过于方便的借口》</span>，聚焦于那些从概率角度来看再明确不过的问题。尽管要得出贝叶斯最优解通常是不可行的，但即便在证据确凿、有充分时间深思熟虑的情况下，诸如确认偏差之类的错误思维也可能根深蒂固。</p><p data-pid=\"ge5Xzcs-\">——<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Rationality-An-Introduction\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《理性：序言》</a> by Rob Bensinger</p><hr/><a href=\"https://zhuanlan.zhihu.com/p/827867683\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-2bd65ed24fab69e8a975e874c9c0c3d9_qhd.jpg\" data-image-width=\"5917\" data-image-height=\"3945\" class=\"internal\">Thoughts Memo：谦逊的恰当用法</a><a href=\"https://zhuanlan.zhihu.com/p/827889716\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-0181deba80d88464e3b039de5e4609ca_200x0.jpg\" data-image-width=\"3024\" data-image-height=\"3780\" class=\"internal\">Thoughts Memo：第三条道路</a><a href=\"https://zhuanlan.zhihu.com/p/812068575\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-4c064bac9e1b28a5b99b309bddd0f3b9_qhd.jpg\" data-image-width=\"5932\" data-image-height=\"3965\" class=\"internal\">Thoughts Memo：彩票：浪费希望</a><a href=\"https://zhuanlan.zhihu.com/p/827889733\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-c8a9bea059a6febe1ec136dde992e35d_qhd.jpg\" data-image-width=\"2560\" data-image-height=\"1675\" class=\"internal\">Thoughts Memo：全新升级的彩票</a><a href=\"https://zhuanlan.zhihu.com/p/827897391\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-76220c7e3945b5814238f7789f4ffbb9_qhd.jpg\" data-image-width=\"6000\" data-image-height=\"4000\" class=\"internal\">Thoughts Memo：但就是有那么一丁点可能性嘛，不是吗？</a><a href=\"https://zhuanlan.zhihu.com/p/827900306\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-64a3f15449905ac5551cbdf6271a22fc_qhd.jpg\" data-image-width=\"5012\" data-image-height=\"3341\" class=\"internal\">Thoughts Memo：灰色谬误（一极管谬误）</a><a href=\"https://zhuanlan.zhihu.com/p/827910633\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-28bb3d53c86f48d56ffb3abeb347d031_qhd.jpg\" data-image-width=\"5035\" data-image-height=\"3339\" class=\"internal\">Thoughts Memo：绝对权威</a><a href=\"https://zhuanlan.zhihu.com/p/827917379\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-10512ebf534a387ad44e33b0df09d031_qhd.jpg\" data-image-width=\"1880\" data-image-height=\"1253\" class=\"internal\">Thoughts Memo：如何让我相信 2 + 2 = 3</a><a href=\"https://zhuanlan.zhihu.com/p/991150597\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-2f46e7de4de6c6283e78b8bae092d236_qhd.jpg\" data-image-width=\"3264\" data-image-height=\"2448\" class=\"internal\">Thoughts Memo：无限的确定性</a><a href=\"https://zhuanlan.zhihu.com/p/991286265\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-537b8828a99088f370fe08b9b8968942_qhd.jpg\" data-image-width=\"6016\" data-image-height=\"4016\" class=\"internal\">Thoughts Memo：0 和 1 不是概率</a><a href=\"https://zhuanlan.zhihu.com/p/991296194\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-7e8e62ce2064df35735c1f8d8fd3f912_qhd.jpg\" data-image-width=\"1200\" data-image-height=\"852\" class=\"internal\">Thoughts Memo：你的理性是我的事</a><hr/><p data-pid=\"zycGiEb0\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/827867654\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-52b323f664f6af45cbdffbe5bc602b8d_qhd.jpg\" data-image-width=\"4096\" data-image-height=\"3051\" class=\"internal\">Thoughts Memo：理性：序言</a><p data-pid=\"dq6tU2Ml\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/827867683\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-2bd65ed24fab69e8a975e874c9c0c3d9_qhd.jpg\" data-image-width=\"5917\" data-image-height=\"3945\" class=\"internal\">Thoughts Memo：谦逊的恰当用法</a><hr/><blockquote data-pid=\"C8qj-bNm\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3-opus，校对<span class=\"nolink\">Jarrett Ye</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Overly-Convenient-Excuses-Sequence\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Overly Convenient Excuses - Sequence</a></blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 2,
-  "image_url": "https://picx.zhimg.com/v2-eb16b34c242bf59997738a371a8063ba_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 1,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 1,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyNDkxNzcxODASCTk5MTMwNDMxORgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 50,
+      "down_vote_count": 1,
+      "like_count": 1,
+      "comment_count": 2,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 65,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-eb16b34c242bf59997738a371a8063ba": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-eb16b34c242bf59997738a371a8063ba": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-eb16b34c242bf59997738a371a8063ba": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=991304319&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 理性 & 克服偏见",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1826322587032117248",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 理性 & 克服偏见"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

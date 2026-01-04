@@ -1,80 +1,443 @@
 {
-  "status": 0,
+  "id": "346463057",
+  "title": "Anki 制卡对复习记忆效率的影响分析",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/346463057",
+  "image_url": "https://picx.zhimg.com/v2-57bbe8c427bb90bbe81876c1451dc090_720w.jpg?source=172ae18b",
+  "title_image": "https://pic1.zhimg.com/v2-57bbe8c427bb90bbe81876c1451dc090_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://pic4.zhimg.com/v2-9a052aaebabf967448818bd1fc8e6c19_200x112.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"480\" data-watermark=\"watermark\" data-original-src=\"v2-9a052aaebabf967448818bd1fc8e6c19\" data-watermark-src=\"v2-325583b6332e11569dc9bd5b1bcdcb55\" data-private-watermark-src=\"\" data-original=\"https://pic4.zhimg.com/v2-9a052aaebabf967448818bd1fc8e6c19_r.png\" class=\"origin_image inline-img zh-lightbox-thumb\"/>要简单地解释 Anki 中制卡与复习之间的关系，可以将制卡看作编码记忆的过程。编码越精细，后续的复习就会越轻松 [1]。当然，长期以来，我们并没有对这一影响做详尽的分析。本期我们将引入之前所提及的记忆模型，将制卡对复习的影响量化，让大家直观地感受到…",
+  "created": 1611388206,
   "updated": 1611388206,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "要简单地解释 Anki 中制卡与复习之间的关系，可以将制卡看作编码记忆的过程。编码越…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 1000,
+  "image_height": 706,
+  "content": "<p data-pid=\"ovFeCAGG\">要简单地解释 Anki 中制卡与复习之间的关系，可以将制卡看作编码记忆的过程。编码越精细，后续的复习就会越轻松<sup data-text=\"记忆研究者反复发现对记忆的编码越精细，记忆也就会更持久。精细的编码本身就相当于你构造的联系的丰富程度。\" data-url=\"https://zhuanlan.zhihu.com/p/65131722\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>。当然，长期以来，我们并没有对这一影响做详尽的分析。本期我们将引入之前所提及的记忆模型，将制卡对复习的影响量化，让大家直观地感受到制卡的重要性。</p><p data-pid=\"E1K5iW43\">为了让大家更清楚地看到制卡与复习效率的关系，我用 Python 编写了一个简单的复习模拟器，输出一些模拟结果的可视化图像供大家参考。</p><p data-pid=\"B_MfoPSI\">模拟脚本地址：</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/L-M-Sherlock/space_repetition_simulators\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/L-M-Sherlock</span><span class=\"invisible\">/space_repetition_simulators</span><span class=\"ellipsis\"></span></a><h2>模拟条件</h2><ul><li data-pid=\"JzNHrXi3\">间隔系数：2.5</li><li data-pid=\"cIupxEJR\">保留率：0.9</li><li data-pid=\"4KBLlXK0\">初始间隔：1</li><li data-pid=\"fNYRj6UK\">新卡片总量：10000</li><li data-pid=\"69DUdpLN\">每日新卡片上限：50</li><li data-pid=\"OLcipbpG\">每日复习上限：不限</li><li data-pid=\"RRulyJ_N\">模拟周期：300 天</li></ul><h2>基准情况</h2><p data-pid=\"l-e_o9MF\">我们先以 Anki 算法的默认参数作为基准，假设一个人的制卡水平一般，那么他的复习过程会近似于 Anki 默认的复习规划。</p><p data-pid=\"pi42nfNB\">每日的复习量模拟如下：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-325583b6332e11569dc9bd5b1bcdcb55_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"480\" data-original-token=\"v2-9a052aaebabf967448818bd1fc8e6c19\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic2.zhimg.com/v2-325583b6332e11569dc9bd5b1bcdcb55_r.jpg\"/></figure><ul><li data-pid=\"Bw99ZWCl\">总重复次数：88515</li><li data-pid=\"W0JCVFlh\">平均每日重复次数：295</li></ul><h2>制卡水平</h2><p data-pid=\"l1QxOfrU\">以上图为基准，我们就可以根据制卡水平来调整模拟参数，从而对比不同学习者的复习效率。</p><p data-pid=\"6cGtFEm1\">什么？怎么判断制卡水平？这个看起来很难量化，但是只要我们从复习行为的角度来看，就能将制卡水平转换为记忆稳定性的初始值<sup data-text=\"记忆稳定性是指一批记忆在一次复习后遗忘率达到 10% 所需的时间。\" data-url=\"https://zhuanlan.zhihu.com/p/343115387\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup><sup data-text=\"值得注意的是，随着复习的早期进行，稳定性往往急剧增加，并且在几十年后接近极低的稳定性增长水平。这可以解释为这样一个事实，即记忆在个体的整体知识结构中找到了自己的位置，获得了高度的稳定性\" data-url=\"https://zhuanlan.zhihu.com/p/268782211\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。</p><p data-pid=\"oveC8VXp\">怎么理解呢？这里就需要看看 SuperMemo 的做法了。SuperMemo 会根据学习者的复习反馈，逐步调整间隔，保证每次复习都是发生在回忆概率为 90% 的时刻。那么只要我们看看第一个间隔的长度，就能知道记忆稳定性的初始值。而我们不断复习的目标，实际上就是不断提高记忆稳定性。记忆稳定性的初始值高，就相当于领先在起跑线上。</p><p data-pid=\"r1kErf52\">好了，废话不多说，先看看我自己用 SuperMemo 这几个月来，SuperMemo 算法估计的第一个间隔长度吧：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-965ccc82ff6902a0024bdabce601c319_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1512\" data-rawheight=\"972\" data-original-token=\"v2-4747cd51cff9d9854a6bcdb51af40175\" class=\"origin_image zh-lightbox-thumb\" width=\"1512\" data-original=\"https://picx.zhimg.com/v2-965ccc82ff6902a0024bdabce601c319_r.jpg\"/></figure><p data-pid=\"1qXx1lpT\">8.2 约等于 8，也就是说我复习的第一个间隔是 8 天。如果在 Anki 中，新卡片的毕业间隔是 1 天，即使是简单间隔也有 3 天<sup data-text=\"毕业间隔：学习新卡片后连续选择【一般】的间隔；  简单间隔：学习新卡片后选择【简单】的间隔；\" data-url=\"https://zhuanlan.zhihu.com/p/42921090\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>。让我们看看如果记忆稳定的初值为 8，模拟的结果如何：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-99bca30459e11587008258b2514c7101_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"480\" data-original-token=\"v2-2c53304a6e77d7c00bb68f7375dab25b\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic4.zhimg.com/v2-99bca30459e11587008258b2514c7101_r.jpg\"/></figure><ul><li data-pid=\"kosudJcl\">总重复次数：62130</li><li data-pid=\"vb-Y6fvA\">平均每日重复次数：207</li></ul><p data-pid=\"7daRVtfm\">比基准情况整整少了 1/3，而基准情况其实已经比一些批量制卡要好上不少了。</p><p data-pid=\"w0kOfcS-\">如果卡片做的差一点（大段文字直接糊上去、批量制卡等等），每天的保留率都达不到 90%，那么模拟的结果可能是：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-991ab38986dc0c6fba0c2e94b8b866b2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"480\" data-original-token=\"v2-d712ce84a482ac3bbd1505313680581b\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic1.zhimg.com/v2-991ab38986dc0c6fba0c2e94b8b866b2_r.jpg\"/></figure><ul><li data-pid=\"SYKfnxBA\">总重复次数：120123</li><li data-pid=\"aOTLGmL5\">平均每日重复次数：400</li></ul><p data-pid=\"hcjvbwax\">比基准情况多了 1/3，更是比我的模拟结果多了整整一倍。由此可见，不同的制卡习惯所造成复习过程的差异可能会很大。</p><p data-pid=\"ixN4rb0Z\">另外，本模拟没有考虑每次复习的回忆时间。从直觉上来说，下功夫做的卡片回忆起来更快，那么好好制卡的效率就更高了。</p><h2>进一步阅读</h2><p data-pid=\"tKu_O12C\">本期重点论述了制卡对复习效率的重要影响，建议大家制卡时多下功夫。关于如何制卡，以前写过/翻译过很多相关文章，我整理了一个收藏夹，方便大家查阅：<a href=\"https://www.zhihu.com/collection/614280525\" class=\"internal\" target=\"_blank\">制卡原则与知识表述</a>本期重点论述了制卡对复习效率的重要影响，建议大家制卡时多下功夫。关于如何制卡，以前写过/翻译过很多相关文章，我整理了一个收藏夹，方便大家查阅：</p><a href=\"https://www.zhihu.com/collection/614280525\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">制卡原则与知识表述</a><p></p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19695588",
+      "type": "topic",
+      "id": "19695588",
+      "name": "SuperMemo"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19783871",
+      "type": "topic",
+      "id": "19783871",
+      "name": "Anki（知识记忆工具）"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19633431",
+      "type": "topic",
+      "id": "19633431",
+      "name": "遗忘曲线"
+    }
+  ],
+  "voteup_count": 44,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "收录个人相关或不好分类的文章",
+    "is_following": true,
+    "url_token": "c_1280249768422608896",
+    "id": "c_1280249768422608896",
+    "articles_count": 73,
+    "accept_submission": true,
+    "title": "学委叶哥的随笔",
+    "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+    "comment_permission": "all",
+    "created": 1598015330,
+    "updated": 1751811281,
+    "image_url": "https://pica.zhimg.com/v2-c31ca0615bbbe77cc9d0ad05465dd223_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 251,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 5,
+  "contributions": [
+    {
+      "id": 28689865,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "收录个人相关或不好分类的文章",
+        "is_following": true,
+        "url_token": "c_1280249768422608896",
+        "id": "c_1280249768422608896",
+        "articles_count": 73,
+        "accept_submission": true,
+        "title": "学委叶哥的随笔",
+        "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+        "comment_permission": "all",
+        "created": 1598015330,
+        "updated": 1751811281,
+        "image_url": "https://pica.zhimg.com/v2-c31ca0615bbbe77cc9d0ad05465dd223_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 251,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 346463057,
-  "voteup_count": 42,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 70,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "Anki 制卡对复习记忆效率的影响分析 - 来自知乎专栏「学委叶哥的随笔」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/346463057 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1611388206,
-  "url": "https://api.zhihu.com/articles/346463057",
-  "comment_permission": "all",
-  "title": "Anki 制卡对复习记忆效率的影响分析",
-  "image_width": 706,
-  "content": "<p data-pid=\"ovFeCAGG\">要简单地解释 Anki 中制卡与复习之间的关系，可以将制卡看作编码记忆的过程。编码越精细，后续的复习就会越轻松<sup data-text=\"记忆研究者反复发现对记忆的编码越精细，记忆也就会更持久。精细的编码本身就相当于你构造的联系的丰富程度。\" data-url=\"https://zhuanlan.zhihu.com/p/65131722\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>。当然，长期以来，我们并没有对这一影响做详尽的分析。本期我们将引入之前所提及的记忆模型，将制卡对复习的影响量化，让大家直观地感受到制卡的重要性。</p><p data-pid=\"E1K5iW43\">为了让大家更清楚地看到制卡与复习效率的关系，我用 Python 编写了一个简单的复习模拟器，输出一些模拟结果的可视化图像供大家参考。</p><p data-pid=\"B_MfoPSI\">模拟脚本地址：</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/L-M-Sherlock/space_repetition_simulators\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">github.com/L-M-Sherlock</span><span class=\"invisible\">/space_repetition_simulators</span><span class=\"ellipsis\"></span></a><h2>模拟条件</h2><ul><li data-pid=\"JzNHrXi3\">间隔系数：2.5</li><li data-pid=\"cIupxEJR\">保留率：0.9</li><li data-pid=\"4KBLlXK0\">初始间隔：1</li><li data-pid=\"fNYRj6UK\">新卡片总量：10000</li><li data-pid=\"69DUdpLN\">每日新卡片上限：50</li><li data-pid=\"OLcipbpG\">每日复习上限：不限</li><li data-pid=\"RRulyJ_N\">模拟周期：300 天</li></ul><h2>基准情况</h2><p data-pid=\"l-e_o9MF\">我们先以 Anki 算法的默认参数作为基准，假设一个人的制卡水平一般，那么他的复习过程会近似于 Anki 默认的复习规划。</p><p data-pid=\"pi42nfNB\">每日的复习量模拟如下：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-325583b6332e11569dc9bd5b1bcdcb55_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"480\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic2.zhimg.com/v2-325583b6332e11569dc9bd5b1bcdcb55_r.jpg\" data-original-token=\"v2-9a052aaebabf967448818bd1fc8e6c19\"/></figure><ul><li data-pid=\"Bw99ZWCl\">总重复次数：88515</li><li data-pid=\"W0JCVFlh\">平均每日重复次数：295</li></ul><h2>制卡水平</h2><p data-pid=\"l1QxOfrU\">以上图为基准，我们就可以根据制卡水平来调整模拟参数，从而对比不同学习者的复习效率。</p><p data-pid=\"6cGtFEm1\">什么？怎么判断制卡水平？这个看起来很难量化，但是只要我们从复习行为的角度来看，就能将制卡水平转换为记忆稳定性的初始值<sup data-text=\"记忆稳定性是指一批记忆在一次复习后遗忘率达到 10% 所需的时间。\" data-url=\"https://zhuanlan.zhihu.com/p/343115387\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup><sup data-text=\"值得注意的是，随着复习的早期进行，稳定性往往急剧增加，并且在几十年后接近极低的稳定性增长水平。这可以解释为这样一个事实，即记忆在个体的整体知识结构中找到了自己的位置，获得了高度的稳定性\" data-url=\"https://zhuanlan.zhihu.com/p/268782211\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。</p><p data-pid=\"oveC8VXp\">怎么理解呢？这里就需要看看 SuperMemo 的做法了。SuperMemo 会根据学习者的复习反馈，逐步调整间隔，保证每次复习都是发生在回忆概率为 90% 的时刻。那么只要我们看看第一个间隔的长度，就能知道记忆稳定性的初始值。而我们不断复习的目标，实际上就是不断提高记忆稳定性。记忆稳定性的初始值高，就相当于领先在起跑线上。</p><p data-pid=\"r1kErf52\">好了，废话不多说，先看看我自己用 SuperMemo 这几个月来，SuperMemo 算法估计的第一个间隔长度吧：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-965ccc82ff6902a0024bdabce601c319_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1512\" data-rawheight=\"972\" class=\"origin_image zh-lightbox-thumb\" width=\"1512\" data-original=\"https://picx.zhimg.com/v2-965ccc82ff6902a0024bdabce601c319_r.jpg\" data-original-token=\"v2-4747cd51cff9d9854a6bcdb51af40175\"/></figure><p data-pid=\"1qXx1lpT\">8.2 约等于 8，也就是说我复习的第一个间隔是 8 天。如果在 Anki 中，新卡片的毕业间隔是 1 天，即使是简单间隔也有 3 天<sup data-text=\"毕业间隔：学习新卡片后连续选择【一般】的间隔；  简单间隔：学习新卡片后选择【简单】的间隔；\" data-url=\"https://zhuanlan.zhihu.com/p/42921090\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>。让我们看看如果记忆稳定的初值为 8，模拟的结果如何：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-99bca30459e11587008258b2514c7101_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"480\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic4.zhimg.com/v2-99bca30459e11587008258b2514c7101_r.jpg\" data-original-token=\"v2-2c53304a6e77d7c00bb68f7375dab25b\"/></figure><ul><li data-pid=\"kosudJcl\">总重复次数：62130</li><li data-pid=\"vb-Y6fvA\">平均每日重复次数：207</li></ul><p data-pid=\"7daRVtfm\">比基准情况整整少了 1/3，而基准情况其实已经比一些批量制卡要好上不少了。</p><p data-pid=\"w0kOfcS-\">如果卡片做的差一点（大段文字直接糊上去、批量制卡等等），每天的保留率都达不到 90%，那么模拟的结果可能是：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-991ab38986dc0c6fba0c2e94b8b866b2_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"480\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic1.zhimg.com/v2-991ab38986dc0c6fba0c2e94b8b866b2_r.jpg\" data-original-token=\"v2-d712ce84a482ac3bbd1505313680581b\"/></figure><ul><li data-pid=\"SYKfnxBA\">总重复次数：120123</li><li data-pid=\"aOTLGmL5\">平均每日重复次数：400</li></ul><p data-pid=\"hcjvbwax\">比基准情况多了 1/3，更是比我的模拟结果多了整整一倍。由此可见，不同的制卡习惯所造成复习过程的差异可能会很大。</p><p data-pid=\"ixN4rb0Z\">另外，本模拟没有考虑每次复习的回忆时间。从直觉上来说，下功夫做的卡片回忆起来更快，那么好好制卡的效率就更高了。</p><h2>进一步阅读</h2><p data-pid=\"tKu_O12C\">本期重点论述了制卡对复习效率的重要影响，建议大家制卡时多下功夫。关于如何制卡，以前写过/翻译过很多相关文章，我整理了一个收藏夹，方便大家查阅：<a href=\"https://www.zhihu.com/collection/614280525\" class=\"internal\">制卡原则与知识表述</a>本期重点论述了制卡对复习效率的重要影响，建议大家制卡时多下功夫。关于如何制卡，以前写过/翻译过很多相关文章，我整理了一个收藏夹，方便大家查阅：</p><a href=\"https://www.zhihu.com/collection/614280525\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">制卡原则与知识表述</a><p></p>",
-  "column": {
-    "updated": 1706022041,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/c_1280249768422608896",
-    "title": "学委叶哥的随笔",
-    "image_url": "https://pic1.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1280249768422608896"
-  },
-  "comment_count": 5,
-  "image_url": "https://pica.zhimg.com/v2-57bbe8c427bb90bbe81876c1451dc090_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 9,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 9,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxNjUxMjE3MDASCTM0NjQ2MzA1NxgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 44,
+      "down_vote_count": 1,
+      "like_count": 9,
+      "comment_count": 5,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 70,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-2c53304a6e77d7c00bb68f7375dab25b": 0,
+        "v2-4747cd51cff9d9854a6bcdb51af40175": 0,
+        "v2-57bbe8c427bb90bbe81876c1451dc090": 0,
+        "v2-9a052aaebabf967448818bd1fc8e6c19": 0,
+        "v2-d712ce84a482ac3bbd1505313680581b": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-2c53304a6e77d7c00bb68f7375dab25b": false,
+        "v2-4747cd51cff9d9854a6bcdb51af40175": false,
+        "v2-57bbe8c427bb90bbe81876c1451dc090": false,
+        "v2-9a052aaebabf967448818bd1fc8e6c19": false,
+        "v2-d712ce84a482ac3bbd1505313680581b": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-2c53304a6e77d7c00bb68f7375dab25b": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-4747cd51cff9d9854a6bcdb51af40175": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-57bbe8c427bb90bbe81876c1451dc090": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-9a052aaebabf967448818bd1fc8e6c19": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-d712ce84a482ac3bbd1505313680581b": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=346463057&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 学委叶哥的随笔",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1280249768422608896",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 学委叶哥的随笔"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

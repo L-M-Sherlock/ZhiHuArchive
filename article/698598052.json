@@ -1,74 +1,345 @@
 {
-  "status": 0,
+  "id": "698598052",
+  "title": "知识估值中的频率编码",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/698598052",
+  "image_url": "",
+  "title_image": "",
+  "excerpt": "价值的频率编码在 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept_network\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念网络</a>[1]中，为了让某个神经元或<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept_map\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念图</a>[2]传递<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Knowledge_valuation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知识估值</a>[3]，它要么需要与编码价值的神经元同时激发，要么在输出信号中编码价值。激发频率（或激发率）看起来是表达与<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念</a>[4]（由<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept_neuron\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念神经元</a>或<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept_map\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念图</a>表示）相关价值的一个有吸引力的候选…",
+  "created": 1716099158,
   "updated": 1716099158,
   "author": {
     "is_followed": false,
-    "badge": [],
-    "name": "Jarrett Ye",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
-    "gender": 1,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+    "uid": "1521893281407864832",
     "user_type": "people",
-    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=b1748391",
     "is_following": false,
+    "url_token": "JarrettYe",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+    "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+    "name": "Jarrett Ye",
+    "is_advertiser": false,
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "gender": 1,
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+    "is_org": false,
     "type": "people",
-    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    "badge": [],
+    "badge_v2": {
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "merged_badges": [],
+      "detail_badges": [],
+      "icon": "",
+      "night_icon": ""
+    },
+    "exposed_medal": {
+      "medal_id": "1463836052717301760",
+      "medal_name": "知「势」之星",
+      "avatar_url": "https://pica.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_r.png?source=172ae18b",
+      "mini_avatar_url": "https://pic1.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_l.png?source=172ae18b",
+      "description": "「知势榜」上榜答主即可获得",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "价值的频率编码在概念网络 [1]中，为了让某个神经元或概念图 [2]传递知识估值 [3]，它…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 0,
+  "image_height": 0,
+  "content": "<h2>价值的频率编码</h2><p data-pid=\"UzTp9hqB\">在<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept_network\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念网络</a><sup data-text=\"概念网络\" data-url=\"https://zhuanlan.zhihu.com/p/266541480\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>中，为了让某个神经元或<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept_map\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念图</a><sup data-text=\"概念图\" data-url=\"https://zhuanlan.zhihu.com/p/627555200\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>传递<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Knowledge_valuation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知识估值</a><sup data-text=\"知识估值\" data-url=\"https://zhuanlan.zhihu.com/p/560852624\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>，它要么需要与编码价值的神经元同时激发，要么在输出信号中编码价值。激发频率（或激发率）看起来是表达与<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念</a><sup data-text=\"概念\" data-url=\"https://zhuanlan.zhihu.com/p/571218385\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>（由<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept_neuron\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念神经元</a>或<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept_map\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念图</a>表示）相关价值的一个有吸引力的候选者。</p><h2>证据</h2><p data-pid=\"ydgxJvan\"><b>频率编码</b>可能在<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept_network\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念网络</a><sup data-text=\"概念网络\" data-url=\"https://zhuanlan.zhihu.com/p/266541480\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>中表达价值。以下是来自神经生理学各个领域的一些线索：</p><ul><li data-pid=\"ZmCQxhG4\"> 肌肉的收缩与激发频率成正比（这一事实在 1926 年被发现，并催生了<b>频率编码</b>的概念）<br/> </li><li data-pid=\"tUqyAZ4c\"> 神经元的更大激活会增加激发频率<br/> </li><li data-pid=\"aOutD-Sm\"> 激发频率可能需要达到一个临界值才能激活目标神经元<br/> </li><li data-pid=\"DGkkvmgF\"> 位置细胞在特定位置显示出更高的激发频率<br/> </li><li data-pid=\"OT3dZ9we\"> 信号的频率与疼痛程度相对应<br/> </li><li data-pid=\"OvJO4WUX\"> 声音的音高通过频率编码<br/> </li><li data-pid=\"EbkFqYo5\"> 物体的颜色通过频率编码<br/> </li><li data-pid=\"pVLcnMxD\"> 频率编码用于表达关节的位置<br/> </li><li data-pid=\"4dRoT0qL\"> 凝视注视（gaze fixation）通过频率编码，可能表达被观察物体的<b>价值</b>（<a href=\"https://link.zhihu.com/?target=https%3A//www.ncbi.nlm.nih.gov/pmc/articles/PMC4911340/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">来源</a>）<br/> </li><li data-pid=\"FMTYZgF2\"> 阿片类药物可能通过抑制 GABA 释放来增加多巴胺细胞的激发（<a href=\"https://link.zhihu.com/?target=http%3A//www.physiology.org/doi/full/10.1152/physrev.2001.81.1.299\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">来源</a>）<br/> </li><li data-pid=\"2NK61V8M\"> CA1 细胞通过频率编码来表示时间延迟（<a href=\"https://link.zhihu.com/?target=https%3A//www.sciencedirect.com/science/article/pii/S2211124719309398\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">来源</a>）<br/> </li></ul><h2>价值决策树</h2><p data-pid=\"SKM-hPKe\">在<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Knowledge_valuation_network\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知识估值网络</a><sup data-text=\"知识估值网络\" data-url=\"https://zhuanlan.zhihu.com/p/617467538\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>中，参与<b><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念</a></b><sup data-text=\"概念\" data-url=\"https://zhuanlan.zhihu.com/p/571218385\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>的<b>频率编码</b>会调节<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Spreading_activation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">激活-扩散</a>的波动。这就像<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Decision_tree\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">决策树</a>中的期望价值估计。此外，激活可能会受到价值阈值的限制，使得估值过程既有选择性又省算力。这类似于决策树中的剪枝（<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Branch_and_bound\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">分支定界法</a>）。</p><h2>例子</h2><p data-pid=\"JtkOONLO\">假设你遇到一本鸟类爱好者写的鸟类分类书。当大脑解读出书名时，鸟类的概念可能会在网络中被激活并传播价值。不过，真正的强烈反应可能取决于这本书的可获得性。同样的书，如果在电视上看到，效果会与作为圣诞礼物拆开的书完全不同。电视上的书可能只是带来一种基于期待的「想要」奖励，而圣诞礼物则会迅速引发高水平的「喜欢」奖励。在<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Knowledge_valuation_network\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知识估值网络</a><sup data-text=\"知识估值网络\" data-url=\"https://zhuanlan.zhihu.com/p/617467538\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>中，这种价值差异可能通过一个与「可获得性」相关的概念来表达。</p><p data-pid=\"EnrlRDGU\">同样，如果大脑能计算出获取食物的路径，其表达了「可获得性」，食物的预期奖励可能会瞬间放大。</p><p data-pid=\"aKLZhOo9\">用频率编码的术语来说，<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Knowledge_valuation_network\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知识估值网络</a><sup data-text=\"知识估值网络\" data-url=\"https://zhuanlan.zhihu.com/p/617467538\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>的输出会决定决策<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念</a><sup data-text=\"概念图\" data-url=\"https://zhuanlan.zhihu.com/p/627555200\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>的激发频率，这个激发会受到「可获得性」的增强。或者，「关于鸟类的书」这个概念，可能通过「可获得性」概念的反馈来增加其激发频率。心理实验表明，后一种情况似乎更合理。当「可获得性」消失时，对这本书的兴趣显然不会降到最低（例如，仅对电视上的书产生的适度反应）。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"z_Aa8Lek\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Rate_coding_in_knowledge_valuation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Rate coding in knowledge valuation - supermemo.guru</a><br/>这篇文章是<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Piotr_Wozniak\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">彼得·沃兹尼亚克</a><sup data-text=\"彼得 · 沃兹尼亚克\" data-url=\"https://zhuanlan.zhihu.com/p/303204832\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>博士在 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/SuperMemo_Guru\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SuperMemo Guru</a> 上关于记忆、学习、创造力和问题解决系列文章的一部分</blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
-  "reason": "",
-  "excerpt_title": "",
-  "id": 698598052,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19553939",
+      "type": "topic",
+      "id": "19553939",
+      "name": "知识"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19620291",
+      "type": "topic",
+      "id": "19620291",
+      "name": "脑科学"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19619550",
+      "type": "topic",
+      "id": "19619550",
+      "name": "神经科学"
+    }
+  ],
   "voteup_count": 9,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "<p>关于学习的元知识，以及教育、培训的理论和方法</p>",
+    "is_following": false,
+    "url_token": "c_1525846506753658880",
+    "id": "c_1525846506753658880",
+    "articles_count": 318,
+    "accept_submission": true,
+    "title": "认知基石 & 教育培训",
+    "url": "https://api.zhihu.com/columns/c_1525846506753658880",
+    "comment_permission": "all",
+    "created": 1656570156,
+    "updated": 1751877273,
+    "image_url": "https://pic1.zhimg.com/v2-c797eef62aec0151690f8d495787f6dc_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 486,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 0,
+  "contributions": [
+    {
+      "id": 48713539,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "<p>关于学习的元知识，以及教育、培训的理论和方法</p>",
+        "is_following": false,
+        "url_token": "c_1525846506753658880",
+        "id": "c_1525846506753658880",
+        "articles_count": 318,
+        "accept_submission": true,
+        "title": "认知基石 & 教育培训",
+        "url": "https://api.zhihu.com/columns/c_1525846506753658880",
+        "comment_permission": "all",
+        "created": 1656570156,
+        "updated": 1751877273,
+        "image_url": "https://pic1.zhimg.com/v2-c797eef62aec0151690f8d495787f6dc_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 486,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "can_open_tipjar": true,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 10,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "知识估值中的频率编码 - 来自知乎专栏「认知基石 &amp; 教育培训」，作者: Jarrett Ye https://zhuanlan.zhihu.com/p/698598052 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1716099158,
-  "url": "https://api.zhihu.com/articles/698598052",
-  "comment_permission": "all",
-  "title": "知识估值中的频率编码",
-  "content": "<h2>价值的频率编码</h2><p data-pid=\"UzTp9hqB\">在<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept_network\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念网络</a><sup data-text=\"概念网络\" data-url=\"https://zhuanlan.zhihu.com/p/266541480\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>中，为了让某个神经元或<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept_map\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念图</a><sup data-text=\"概念图\" data-url=\"https://zhuanlan.zhihu.com/p/627555200\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>传递<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Knowledge_valuation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知识估值</a><sup data-text=\"知识估值\" data-url=\"https://zhuanlan.zhihu.com/p/560852624\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>，它要么需要与编码价值的神经元同时激发，要么在输出信号中编码价值。激发频率（或激发率）看起来是表达与<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念</a><sup data-text=\"概念\" data-url=\"https://zhuanlan.zhihu.com/p/571218385\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>（由<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept_neuron\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念神经元</a>或<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept_map\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念图</a>表示）相关价值的一个有吸引力的候选者。</p><h2>证据</h2><p data-pid=\"ydgxJvan\"><b>频率编码</b>可能在<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept_network\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念网络</a><sup data-text=\"概念网络\" data-url=\"https://zhuanlan.zhihu.com/p/266541480\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>中表达价值。以下是来自神经生理学各个领域的一些线索：</p><ul><li data-pid=\"ZmCQxhG4\"> 肌肉的收缩与激发频率成正比（这一事实在 1926 年被发现，并催生了<b>频率编码</b>的概念）<br/> </li><li data-pid=\"tUqyAZ4c\"> 神经元的更大激活会增加激发频率<br/> </li><li data-pid=\"aOutD-Sm\"> 激发频率可能需要达到一个临界值才能激活目标神经元<br/> </li><li data-pid=\"DGkkvmgF\"> 位置细胞在特定位置显示出更高的激发频率<br/> </li><li data-pid=\"OT3dZ9we\"> 信号的频率与疼痛程度相对应<br/> </li><li data-pid=\"OvJO4WUX\"> 声音的音高通过频率编码<br/> </li><li data-pid=\"EbkFqYo5\"> 物体的颜色通过频率编码<br/> </li><li data-pid=\"pVLcnMxD\"> 频率编码用于表达关节的位置<br/> </li><li data-pid=\"4dRoT0qL\"> 凝视注视（gaze fixation）通过频率编码，可能表达被观察物体的<b>价值</b>（<a href=\"https://link.zhihu.com/?target=https%3A//www.ncbi.nlm.nih.gov/pmc/articles/PMC4911340/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">来源</a>）<br/> </li><li data-pid=\"FMTYZgF2\"> 阿片类药物可能通过抑制 GABA 释放来增加多巴胺细胞的激发（<a href=\"https://link.zhihu.com/?target=http%3A//www.physiology.org/doi/full/10.1152/physrev.2001.81.1.299\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">来源</a>）<br/> </li><li data-pid=\"2NK61V8M\"> CA1 细胞通过频率编码来表示时间延迟（<a href=\"https://link.zhihu.com/?target=https%3A//www.sciencedirect.com/science/article/pii/S2211124719309398\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">来源</a>）<br/> </li></ul><h2>价值决策树</h2><p data-pid=\"SKM-hPKe\">在<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Knowledge_valuation_network\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知识估值网络</a><sup data-text=\"知识估值网络\" data-url=\"https://zhuanlan.zhihu.com/p/617467538\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>中，参与<b><a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念</a></b><sup data-text=\"概念\" data-url=\"https://zhuanlan.zhihu.com/p/571218385\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>的<b>频率编码</b>会调节<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Spreading_activation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">激活-扩散</a>的波动。这就像<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Decision_tree\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">决策树</a>中的期望价值估计。此外，激活可能会受到价值阈值的限制，使得估值过程既有选择性又省算力。这类似于决策树中的剪枝（<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Branch_and_bound\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">分支定界法</a>）。</p><h2>例子</h2><p data-pid=\"JtkOONLO\">假设你遇到一本鸟类爱好者写的鸟类分类书。当大脑解读出书名时，鸟类的概念可能会在网络中被激活并传播价值。不过，真正的强烈反应可能取决于这本书的可获得性。同样的书，如果在电视上看到，效果会与作为圣诞礼物拆开的书完全不同。电视上的书可能只是带来一种基于期待的「想要」奖励，而圣诞礼物则会迅速引发高水平的「喜欢」奖励。在<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Knowledge_valuation_network\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知识估值网络</a><sup data-text=\"知识估值网络\" data-url=\"https://zhuanlan.zhihu.com/p/617467538\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>中，这种价值差异可能通过一个与「可获得性」相关的概念来表达。</p><p data-pid=\"EnrlRDGU\">同样，如果大脑能计算出获取食物的路径，其表达了「可获得性」，食物的预期奖励可能会瞬间放大。</p><p data-pid=\"aKLZhOo9\">用频率编码的术语来说，<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Knowledge_valuation_network\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知识估值网络</a><sup data-text=\"知识估值网络\" data-url=\"https://zhuanlan.zhihu.com/p/617467538\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>的输出会决定决策<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Concept\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">概念</a><sup data-text=\"概念图\" data-url=\"https://zhuanlan.zhihu.com/p/627555200\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>的激发频率，这个激发会受到「可获得性」的增强。或者，「关于鸟类的书」这个概念，可能通过「可获得性」概念的反馈来增加其激发频率。心理实验表明，后一种情况似乎更合理。当「可获得性」消失时，对这本书的兴趣显然不会降到最低（例如，仅对电视上的书产生的适度反应）。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"z_Aa8Lek\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Rate_coding_in_knowledge_valuation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Rate coding in knowledge valuation - supermemo.guru</a><br/>这篇文章是<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Piotr_Wozniak\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">彼得·沃兹尼亚克</a><sup data-text=\"彼得 · 沃兹尼亚克\" data-url=\"https://zhuanlan.zhihu.com/p/303204832\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>博士在 <a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/SuperMemo_Guru\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SuperMemo Guru</a> 上关于记忆、学习、创造力和问题解决系列文章的一部分</blockquote>",
-  "column": {
-    "updated": 1656658518,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Jarrett Ye",
-      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
-      "avatar_url": "https://picx.zhimg.com/50/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
-    },
-    "url": "https://api.zhihu.com/columns/c_1525846506753658880",
-    "title": "认知基石 & 学校教育",
-    "image_url": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1525846506753658880"
-  },
-  "comment_count": 0,
-  "image_url": "",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 2,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 2,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyNDMzNzQxMjESCTY5ODU5ODA1MhgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 9,
+      "down_vote_count": 0,
+      "like_count": 2,
+      "comment_count": 0,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 10,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": true,
+      "vote": "Neutral",
+      "liked": false,
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {}
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/749830292?contentId=698598052&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 认知基石 & 教育培训",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525846506753658880",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 认知基石 & 教育培训"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

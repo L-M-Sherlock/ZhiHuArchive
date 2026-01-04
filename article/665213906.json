@@ -1,74 +1,345 @@
 {
-  "status": 0,
+  "id": "665213906",
+  "title": "间隔重复记忆系统让你误以为自己的记忆很差",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/665213906",
+  "image_url": "",
+  "title_image": "",
+  "excerpt": "<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4eXdSMJFv2qVGXSUEKH4vdcHBrLHcFY1ZGfC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复记忆系统</a>[1]在普及和日常体验中有个问题：你几乎会把所有复习时间都花在那些难记的内容上。容易记住的内容很快就被推到几个月后的复习里去了，因此你在它们上花费的时间较少。与之相对的，是那些陷在「几天或几周」复习周期里的卡片。虽然整体来看…",
+  "created": 1699282473,
   "updated": 1699438456,
   "author": {
     "is_followed": false,
-    "badge": [],
-    "name": "Jarrett Ye",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
-    "gender": 1,
+    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+    "uid": "1521893281407864832",
     "user_type": "people",
-    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
-    "avatar_url": "https://picx.zhimg.com/50/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=b1748391",
     "is_following": false,
+    "url_token": "JarrettYe",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+    "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+    "name": "Jarrett Ye",
+    "is_advertiser": false,
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "gender": 1,
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+    "is_org": false,
     "type": "people",
-    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    "badge": [],
+    "badge_v2": {
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "merged_badges": [],
+      "detail_badges": [],
+      "icon": "",
+      "night_icon": ""
+    },
+    "exposed_medal": {
+      "medal_id": "1463836052717301760",
+      "medal_name": "知「势」之星",
+      "avatar_url": "https://picx.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_l.png?source=172ae18b",
+      "description": "「知势榜」上榜答主即可获得",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "间隔重复记忆系统 [1]在普及和日常体验中有个问题：你几乎会把所有复习时间都花在那…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 0,
+  "image_height": 0,
+  "content": "<p data-pid=\"gOnQHCG-\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4eXdSMJFv2qVGXSUEKH4vdcHBrLHcFY1ZGfC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复记忆系统</a><sup data-text=\"间隔重复记忆系统（Spaced repetition memory system）\" data-url=\"https://zhuanlan.zhihu.com/p/404257681\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>在普及和日常体验中有个问题：你几乎会把所有复习时间都花在那些难记的内容上。容易记住的内容很快就被推到几个月后的复习里去了，因此你在它们上花费的时间较少。与之相对的，是那些陷在「几天或几周」复习周期里的卡片。虽然整体来看，你可能记住了 95% 以上的内容，但在单个复习环节中的正确率可能会低得多。</p><p data-pid=\"2al743Hl\">如果你一次性添加了很多卡片，然后一段时间不再添加新卡片，这种效应会更加明显。你可能会经历几轮复习，几乎全是那一批卡片中难以回答的卡片。（这在<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4rRX3qwSSJRsEkdXKwH2shamgHNeRthrMLiF\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">助记媒介</a><sup data-text=\"助记媒介（Mnemonic medium）\" data-url=\"https://zhuanlan.zhihu.com/p/459483765\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>的新手引导过程中是个问题）。</p><p data-pid=\"xkqNFqDL\">这种现象产生了一种误会，即用户觉得间隔重复记忆系统<b>效果</b>一般。因为学习者对这个系统效果的直观感受，仅仅来自于自己能否记住被问到的卡片，在这一点上，间隔重复系统给人的反馈是参差不齐的。</p><p data-pid=\"LqZoYtnK\">或许在复习环节结束时提供一些信息能稍微解决这个问题，但我担心这样做效果有限，因为这（可能）只是读者看一眼就过的文字，而不是他们真切<b>体验</b>到的反馈。</p><p data-pid=\"KmzpOPlD\">另一种可能的办法是经常添加新材料，这样至少能让复习环节中的正确率相对提高。相关笔记：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4hNAfe6TrqjxCydF3CaAVn1svaqiu86JFVBz\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">没有源源不断的新卡片，间隔重复的复习环节常常变得枯燥而脱节</a><sup data-text=\"没有源源不断的新卡片，间隔重复的复习环节常常变得枯燥而脱节\" data-url=\"https://zhuanlan.zhihu.com/p/417555450\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup></p><p data-pid=\"31KtkY--\">再就是，加入一个「提示」之类的功能，让用户更容易回答正确（但愿这样做不会牺牲记忆效果）；具体可以参见 Vaugh 和 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z88ihqREJVzHg3iwR7cRee4ZNevQvDYSzj7Zw\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Nate Kornell</a> 在 2019 年的相关研究。</p><blockquote data-pid=\"MW7lPKwg\"> 换句话说，难度高的测试就像是黑咖啡（令人讨厌），而带有提示的测试则像是加了牛奶和糖的咖啡（美味至极）。</blockquote><p data-pid=\"dX9CzctX\">参见<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z49u8mtc9wZoY7siV7nz4V3PG2oMkNBn7AgUk\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">合意困难，出自 Bjork</a><sup data-text=\"Bjork ：「上帝啊，这个困难正合我意」—— 合意困难\" data-url=\"https://zhuanlan.zhihu.com/p/490699755\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup></p><h3>几个实证例子</h3><p data-pid=\"gEIZJHGr\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zcHyJy8EutFjUfJcEUw7sYLJ4UVTmR3NDsYS\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Robert A. Bjork</a> 在 1994 年发现：</p><blockquote data-pid=\"fRI4eO1m\"> Baddeley 和 Longman（1978 年）发现，那些在集中练习（效率较低）下学习键盘技能的英国邮政工人，实际上对他们的培训更为满意，相比之下，那些在间隔练习（效率更高）下接受培训的工人则较为不满。</blockquote><p data-pid=\"IB7KBwyh\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z88ihqREJVzHg3iwR7cRee4ZNevQvDYSzj7Zw\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Nate Kornell</a>（2009 年）在一项针对 GRE 类型词汇的研究中发现：</p><blockquote data-pid=\"HC4_XfjK\"> 跨越多个试验，有 90% 的参与者在间隔学习下表现得更好。但在第一轮学习后，72% 的人却错误地认为集中学习更有效。<br/> ……参与者预测，在最终的测试中，间隔学习组的准确率会比集中学习组低 14 个百分点。然而实际情况恰恰相反，间隔学习组的准确率高出了 31 个百分点。<br/> ……这样看来，间隔在学习过程中可能会降低短期表现，但同时能增强长期学习效果。当人们误以为短期表现就是长期学习——这种情况经常出现（参见 Bjork，1994 年，1999 年）——他们就可能会自欺欺人，认为集中学习比间隔学习更有效。</blockquote><hr/><h3>参考文献</h3><p data-pid=\"024ekg2s\">Bjork, R. A. (1994). Memory and Metamemory Considerations in the Training of Human Beings. In J. Metcalfe &amp; A. Shimamura (Eds.), Metacognition: Knowing about Knowing (pp. 185–205). MIT Press.</p><p data-pid=\"81_ZQtNr\">Kornell, N. (2009). Optimising learning using flashcards: Spacing is more effective than cramming. Applied Cognitive Psychology, 23(9), 1297–1317. <a href=\"https://link.zhihu.com/?target=https%3A//doi.org/10.1002/acp.1537\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">doi.org/10.1002/acp.153</span><span class=\"invisible\">7</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"8Yt_JixL\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2rbPH6LWwumtCoahMHirGpHwLH1sDqab1xHE\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Vaughn, K. E., &amp; Kornell, N. (2019). How to activate students’ natural desire to test themselves. Cognitive Research: Principles and Implications, 4(1), 35</a></p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"icsQYAhJ\"><a href=\"https://zhuanlan.zhihu.com/p/404257681\" class=\"internal\" target=\"_blank\">间隔重复记忆系统（Spaced repetition memory system）</a></li><li data-pid=\"s0eWtOjK\"><a href=\"https://zhuanlan.zhihu.com/p/459483765\" class=\"internal\" target=\"_blank\">助记媒介（Mnemonic medium）</a></li><li data-pid=\"D7LLNYEy\"><a href=\"https://zhuanlan.zhihu.com/p/452010838\" class=\"internal\" target=\"_blank\">间隔重复记忆系统并不能迅速展现出它的优势</a></li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"tdIO9cMW\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4vCGd9Gt715AXtqTXxoKjrEawbvT9o9NA6DC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Spaced repetition memory systems make you feel like your memory is worse than it really is (andymatuschak.org)</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19563807",
+      "type": "topic",
+      "id": "19563807",
+      "name": "记忆"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19596204",
+      "type": "topic",
+      "id": "19596204",
+      "name": "认知心理学"
+    }
+  ],
+  "voteup_count": 31,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "间隔重复使记忆成为一种选择",
+    "is_following": false,
+    "url_token": "c_1525782291741208576",
+    "id": "c_1525782291741208576",
+    "articles_count": 182,
+    "accept_submission": true,
+    "title": "间隔重复 & 注意力管理",
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "comment_permission": "all",
+    "created": 1751877449,
+    "updated": 1656554846,
+    "image_url": "https://picx.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 227,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 2,
+  "contributions": [
+    {
+      "id": 47000345,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "间隔重复使记忆成为一种选择",
+        "is_following": false,
+        "url_token": "c_1525782291741208576",
+        "id": "c_1525782291741208576",
+        "articles_count": 182,
+        "accept_submission": true,
+        "title": "间隔重复 & 注意力管理",
+        "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+        "comment_permission": "all",
+        "created": 1751877449,
+        "updated": 1656554846,
+        "image_url": "https://picx.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 227,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 665213906,
-  "voteup_count": 28,
+  "annotation_action": [],
+  "can_tip": false,
+  "can_open_tipjar": true,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 39,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "间隔重复记忆系统让你误以为自己的记忆很差 - 来自知乎专栏「间隔重复 &amp; 注意力管理」，作者: Jarrett Ye https://zhuanlan.zhihu.com/p/665213906 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1699282473,
-  "url": "https://api.zhihu.com/articles/665213906",
-  "comment_permission": "all",
-  "title": "间隔重复记忆系统让你误以为自己的记忆很差",
-  "content": "<p data-pid=\"gOnQHCG-\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4eXdSMJFv2qVGXSUEKH4vdcHBrLHcFY1ZGfC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复记忆系统</a><sup data-text=\"间隔重复记忆系统（Spaced repetition memory system）\" data-url=\"https://zhuanlan.zhihu.com/p/404257681\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>在普及和日常体验中有个问题：你几乎会把所有复习时间都花在那些难记的内容上。容易记住的内容很快就被推到几个月后的复习里去了，因此你在它们上花费的时间较少。与之相对的，是那些陷在「几天或几周」复习周期里的卡片。虽然整体来看，你可能记住了 95% 以上的内容，但在单个复习环节中的正确率可能会低得多。</p><p data-pid=\"2al743Hl\">如果你一次性添加了很多卡片，然后一段时间不再添加新卡片，这种效应会更加明显。你可能会经历几轮复习，几乎全是那一批卡片中难以回答的卡片。（这在<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4rRX3qwSSJRsEkdXKwH2shamgHNeRthrMLiF\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">助记媒介</a><sup data-text=\"助记媒介（Mnemonic medium）\" data-url=\"https://zhuanlan.zhihu.com/p/459483765\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>的新手引导过程中是个问题）。</p><p data-pid=\"xkqNFqDL\">这种现象产生了一种误会，即用户觉得间隔重复记忆系统<b>效果</b>一般。因为学习者对这个系统效果的直观感受，仅仅来自于自己能否记住被问到的卡片，在这一点上，间隔重复系统给人的反馈是参差不齐的。</p><p data-pid=\"LqZoYtnK\">或许在复习环节结束时提供一些信息能稍微解决这个问题，但我担心这样做效果有限，因为这（可能）只是读者看一眼就过的文字，而不是他们真切<b>体验</b>到的反馈。</p><p data-pid=\"KmzpOPlD\">另一种可能的办法是经常添加新材料，这样至少能让复习环节中的正确率相对提高。相关笔记：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4hNAfe6TrqjxCydF3CaAVn1svaqiu86JFVBz\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">没有源源不断的新卡片，间隔重复的复习环节常常变得枯燥而脱节</a><sup data-text=\"没有源源不断的新卡片，间隔重复的复习环节常常变得枯燥而脱节\" data-url=\"https://zhuanlan.zhihu.com/p/417555450\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup></p><p data-pid=\"31KtkY--\">再就是，加入一个「提示」之类的功能，让用户更容易回答正确（但愿这样做不会牺牲记忆效果）；具体可以参见 Vaugh 和 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z88ihqREJVzHg3iwR7cRee4ZNevQvDYSzj7Zw\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Nate Kornell</a> 在 2019 年的相关研究。</p><blockquote data-pid=\"MW7lPKwg\"> 换句话说，难度高的测试就像是黑咖啡（令人讨厌），而带有提示的测试则像是加了牛奶和糖的咖啡（美味至极）。</blockquote><p data-pid=\"dX9CzctX\">参见<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z49u8mtc9wZoY7siV7nz4V3PG2oMkNBn7AgUk\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">合意困难，出自 Bjork</a><sup data-text=\"Bjork ：「上帝啊，这个困难正合我意」—— 合意困难\" data-url=\"https://zhuanlan.zhihu.com/p/490699755\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup></p><h3>几个实证例子</h3><p data-pid=\"gEIZJHGr\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zcHyJy8EutFjUfJcEUw7sYLJ4UVTmR3NDsYS\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Robert A. Bjork</a> 在 1994 年发现：</p><blockquote data-pid=\"fRI4eO1m\"> Baddeley 和 Longman（1978 年）发现，那些在集中练习（效率较低）下学习键盘技能的英国邮政工人，实际上对他们的培训更为满意，相比之下，那些在间隔练习（效率更高）下接受培训的工人则较为不满。</blockquote><p data-pid=\"IB7KBwyh\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z88ihqREJVzHg3iwR7cRee4ZNevQvDYSzj7Zw\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Nate Kornell</a>（2009 年）在一项针对 GRE 类型词汇的研究中发现：</p><blockquote data-pid=\"HC4_XfjK\"> 跨越多个试验，有 90% 的参与者在间隔学习下表现得更好。但在第一轮学习后，72% 的人却错误地认为集中学习更有效。<br/> ……参与者预测，在最终的测试中，间隔学习组的准确率会比集中学习组低 14 个百分点。然而实际情况恰恰相反，间隔学习组的准确率高出了 31 个百分点。<br/> ……这样看来，间隔在学习过程中可能会降低短期表现，但同时能增强长期学习效果。当人们误以为短期表现就是长期学习——这种情况经常出现（参见 Bjork，1994 年，1999 年）——他们就可能会自欺欺人，认为集中学习比间隔学习更有效。</blockquote><hr/><h3>参考文献</h3><p data-pid=\"024ekg2s\">Bjork, R. A. (1994). Memory and Metamemory Considerations in the Training of Human Beings. In J. Metcalfe &amp; A. Shimamura (Eds.), Metacognition: Knowing about Knowing (pp. 185–205). MIT Press.</p><p data-pid=\"81_ZQtNr\">Kornell, N. (2009). Optimising learning using flashcards: Spacing is more effective than cramming. Applied Cognitive Psychology, 23(9), 1297–1317. <a href=\"https://link.zhihu.com/?target=https%3A//doi.org/10.1002/acp.1537\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">doi.org/10.1002/acp.153</span><span class=\"invisible\">7</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"8Yt_JixL\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2rbPH6LWwumtCoahMHirGpHwLH1sDqab1xHE\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Vaughn, K. E., &amp; Kornell, N. (2019). How to activate students’ natural desire to test themselves. Cognitive Research: Principles and Implications, 4(1), 35</a></p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"icsQYAhJ\"><a href=\"https://zhuanlan.zhihu.com/p/404257681\" class=\"internal\">间隔重复记忆系统（Spaced repetition memory system）</a></li><li data-pid=\"s0eWtOjK\"><a href=\"https://zhuanlan.zhihu.com/p/459483765\" class=\"internal\">助记媒介（Mnemonic medium）</a></li><li data-pid=\"D7LLNYEy\"><a href=\"https://zhuanlan.zhihu.com/p/452010838\" class=\"internal\">间隔重复记忆系统并不能迅速展现出它的优势</a></li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"tdIO9cMW\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4vCGd9Gt715AXtqTXxoKjrEawbvT9o9NA6DC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Spaced repetition memory systems make you feel like your memory is worse than it really is (andymatuschak.org)</a></blockquote>",
-  "column": {
-    "updated": 1656554884,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Jarrett Ye",
-      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
-      "avatar_url": "https://picx.zhimg.com/50/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
-    },
-    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
-    "title": "间隔重复 & 注意力管理",
-    "image_url": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1525782291741208576"
-  },
-  "comment_count": 2,
-  "image_url": "",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 13,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 13,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMzU5NTQ2NzUSCTY2NTIxMzkwNhgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 31,
+      "down_vote_count": 0,
+      "like_count": 13,
+      "comment_count": 2,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 39,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": true,
+      "vote": "Neutral",
+      "liked": false,
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {}
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=665213906&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 间隔重复 & 注意力管理",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525782291741208576",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 间隔重复 & 注意力管理"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

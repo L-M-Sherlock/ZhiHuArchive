@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -40,14 +41,14 @@
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
           "badge_status": "passed",
@@ -83,7 +84,7 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
@@ -99,11 +100,22 @@
   "content_need_truncated": false,
   "created_time": 1757484315,
   "excerpt": "教的。只是教得很烂。任何与人交往的过程，都是社会化的过程，也是从中学习人情世故的过程。 然而，学校提供的是一个高度人工化、与真实社会脱节的环境，其内在机制从根本上就违背了有效社会化学习的神经原理。 有效的社会化学习需要满足两个核心原理，而学校教育在这两方面都存在严重缺陷： 环境匹配原理（预先训练）：要想在真实社会中游刃有余，就需要在类似真实社会的环境中学习。但学校是一个高度人为的环境：年龄隔离：学…",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "1949111167927685211",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/558434252": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"社会化模型\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/558434252\",\"desc\":\"94 赞同 · 20 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 介绍 社会化 过程可以建模 。想要进行数学优化 就需要模型。只要建立了一个优秀模型，我们就可以选定一套标准来优化「社会化」这一过程。 「社会化模型」说明了以学校教育进行现代大众社会化的缺点。在本章中，我将把社会化看作神经学习，社会化如同 生物进化 一般，被演化过程中所形成的规则控制。这些进化规则源自博弈论 。除此之外，决定社会化学习过程的社会动力学 也受到博弈论的影响。此处的社会化模型不基于价值观，也不依赖于…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-61399d8cbb8942cf0a48b9d51fa81ff0_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"558434252\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/558434252": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"社会化模型\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/558434252\",\"desc\":\"94 赞同 · 20 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 介绍 社会化 过程可以建模 。想要进行数学优化 就需要模型。只要建立了一个优秀模型，我们就可以选定一套标准来优化「社会化」这一过程。 「社会化模型」说明了以学校教育进行现代大众社会化的缺点。在本章中，我将把社会化看作神经学习，社会化如同 生物进化 一般，被演化过程中所形成的规则控制。这些进化规则源自博弈论 。除此之外，决定社会化学习过程的社会动力学 也受到博弈论的影响。此处的社会化模型不基于价值观，也不依赖于…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-61399d8cbb8942cf0a48b9d51fa81ff0_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"558434252\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/35082527718?contentId=1949111167927685211&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "4 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1753555541,
@@ -114,11 +126,13 @@
     "title": "为什么所有的学校不教人情世故?",
     "type": "question",
     "updated_time": 1753555541,
-    "url": "https://api.zhihu.com/questions/1932632695868985562"
+    "url": "https://www.zhihu.com/api/v4/questions/1932632695868985562"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 121
+  "updated_time": 1757484315,
+  "url": "https://www.zhihu.com/api/v4/answers/1949111167927685211",
+  "voteup_count": 127
 }

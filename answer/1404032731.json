@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,9 +37,10 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,37 +84,57 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 12,
-  "content": "<p data-pid=\"-Wt0FJNq\">自己做卡片当然还是选 Anki，甚至是 SuperMemo。</p><p data-pid=\"jYscrLP2\">毕竟离线编辑+学习，意味着完全不需要网络。我高三一年，就是拿着一部没有卡的手机背 Anki ，这么过来的：</p><a href=\"https://zhuanlan.zhihu.com/p/34881368\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-608c64b63b8de3f705632ab6c27834d8_120x160.jpg\" data-image-width=\"1440\" data-image-height=\"2560\" class=\"internal\">叶峻峣：某高三学生的「Anki」使用心得</a><p data-pid=\"Ql3a6gwo\">另外，Anki 的插件可以实现很多不错的功能。比如图片遮挡、文字转语音、学习数据分析等等。</p><p data-pid=\"mFzoNngQ\">还有可以提前复习、适合考前突击的筛选牌组：</p><a href=\"https://zhuanlan.zhihu.com/p/94067520\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-d28d0ab92b4b5442f13e9f3393c0a19d_ipico.jpg\" data-image-width=\"667\" data-image-height=\"594\" class=\"internal\">弥乱：[实用]蓝色牌组:啊哈哈哈,高阶魔法</a><p data-pid=\"CV43LBhj\">当然，不喜欢折腾、想直接用别人的卡片直接背的话，选记乎也不错。不过类似的产品挺多的，比如记一、Quizlet、拾忆笔记等等。好像还有其它的软件，也有不少停止运营了。（Anki 倒是不用担心停止运营，毕竟是国际开源项目，顶多不能用同步服务）</p><p data-pid=\"KbritM5D\">记乎的算法，估计也是 sm2 那一套吧，模板则是 Anki 那一套？</p><p data-pid=\"dfypxmg2\">另外用别人做的卡片，最好先理解再记忆，Anki 的操作请看这篇：</p><a href=\"https://zhuanlan.zhihu.com/p/168386543\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-04d8d795b54c5ecd480bb315b867745f_180x120.jpg\" data-image-width=\"3508\" data-image-height=\"2480\" class=\"internal\">叶峻峣：【经验】他人牌组食用指北|Anki</a><p data-pid=\"Gw00552g\">利益相关：</p><p data-pid=\"SzL6oJUB\">Anki 3 年用户</p><figure data-size=\"small\"><noscript><img src=\"https://pica.zhimg.com/50/v2-31af862daacf3657fc448141b55ddace_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1603\" data-rawheight=\"979\" data-original-token=\"v2-cc539580e704d1e04a7833bf06bc4775\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-9035514f0ad8551e82b873a01a3c62fc_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1603\" data-original=\"https://picx.zhimg.com/v2-31af862daacf3657fc448141b55ddace_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1603&#39; height=&#39;979&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1603\" data-rawheight=\"979\" data-original-token=\"v2-cc539580e704d1e04a7833bf06bc4775\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-9035514f0ad8551e82b873a01a3c62fc_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1603\" data-original=\"https://picx.zhimg.com/v2-31af862daacf3657fc448141b55ddace_r.jpg?source=2c26e567\" data-actualsrc=\"https://pica.zhimg.com/50/v2-31af862daacf3657fc448141b55ddace_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"xdcxSNFJ\">Anki 高考专栏主编兼作者：</p><figure data-size=\"small\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-b08f3f097722d981e0357ff305adbe8c_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1530\" data-rawheight=\"880\" data-original-token=\"v2-66df34c4f3755e91cc72c0d55e5169c3\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-606b0281fc2e231ce8155f176b1eb15a_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1530\" data-original=\"https://picx.zhimg.com/v2-b08f3f097722d981e0357ff305adbe8c_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1530&#39; height=&#39;880&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1530\" data-rawheight=\"880\" data-original-token=\"v2-66df34c4f3755e91cc72c0d55e5169c3\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-606b0281fc2e231ce8155f176b1eb15a_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1530\" data-original=\"https://picx.zhimg.com/v2-b08f3f097722d981e0357ff305adbe8c_r.jpg?source=2c26e567\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-b08f3f097722d981e0357ff305adbe8c_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"-AiwSNT4\">顺便问一下记乎老板 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/b6153b48bf14d94ebb7a7109855bb7e8\" data-hash=\"b6153b48bf14d94ebb7a7109855bb7e8\" data-hovercard=\"p$b$b6153b48bf14d94ebb7a7109855bb7e8\">@亮亮</a> ，记乎啥时支持公式啊。。。我的高考牌组和大学牌组还等着搬过去呢。。。</p><figure data-size=\"small\"><noscript><img src=\"https://pica.zhimg.com/50/v2-a13ee0a8373dde77ea418c0d3122fd42_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"926\" data-rawheight=\"452\" data-original-token=\"v2-43632f16a5758d8050d6369d477edb58\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-92755db3896be0ba2b6dd063257cd93f_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"926\" data-original=\"https://picx.zhimg.com/v2-a13ee0a8373dde77ea418c0d3122fd42_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;926&#39; height=&#39;452&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"926\" data-rawheight=\"452\" data-original-token=\"v2-43632f16a5758d8050d6369d477edb58\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-92755db3896be0ba2b6dd063257cd93f_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"926\" data-original=\"https://picx.zhimg.com/v2-a13ee0a8373dde77ea418c0d3122fd42_r.jpg?source=2c26e567\" data-actualsrc=\"https://pica.zhimg.com/50/v2-a13ee0a8373dde77ea418c0d3122fd42_720w.jpg?source=2c26e567\"/></figure><figure data-size=\"small\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-4cd0674ea1928dcb084cb5a2f23abbd1_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1393\" data-rawheight=\"831\" data-original-token=\"v2-21f8c9b7968aaeabe2f9eb0bbb5a897a\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-24bc3bca627fb99477fe59577df8f87e_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1393\" data-original=\"https://pic1.zhimg.com/v2-4cd0674ea1928dcb084cb5a2f23abbd1_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1393&#39; height=&#39;831&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1393\" data-rawheight=\"831\" data-original-token=\"v2-21f8c9b7968aaeabe2f9eb0bbb5a897a\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-24bc3bca627fb99477fe59577df8f87e_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1393\" data-original=\"https://pic1.zhimg.com/v2-4cd0674ea1928dcb084cb5a2f23abbd1_r.jpg?source=2c26e567\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-4cd0674ea1928dcb084cb5a2f23abbd1_720w.jpg?source=2c26e567\"/></figure><p></p>",
+  "content": "<p data-pid=\"-Wt0FJNq\">自己做卡片当然还是选 Anki，甚至是 SuperMemo。</p><p data-pid=\"jYscrLP2\">毕竟离线编辑+学习，意味着完全不需要网络。我高三一年，就是拿着一部没有卡的手机背 Anki ，这么过来的：</p><a href=\"https://zhuanlan.zhihu.com/p/34881368\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-608c64b63b8de3f705632ab6c27834d8_120x160.jpg\" data-image-width=\"1440\" data-image-height=\"2560\" class=\"internal\">叶峻峣：某高三学生的「Anki」使用心得</a><p data-pid=\"Ql3a6gwo\">另外，Anki 的插件可以实现很多不错的功能。比如图片遮挡、文字转语音、学习数据分析等等。</p><p data-pid=\"mFzoNngQ\">还有可以提前复习、适合考前突击的筛选牌组：</p><a href=\"https://zhuanlan.zhihu.com/p/94067520\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-d28d0ab92b4b5442f13e9f3393c0a19d_ipico.jpg\" data-image-width=\"667\" data-image-height=\"594\" class=\"internal\">弥乱：[实用]蓝色牌组:啊哈哈哈,高阶魔法</a><p data-pid=\"CV43LBhj\">当然，不喜欢折腾、想直接用别人的卡片直接背的话，选记乎也不错。不过类似的产品挺多的，比如记一、Quizlet、拾忆笔记等等。好像还有其它的软件，也有不少停止运营了。（Anki 倒是不用担心停止运营，毕竟是国际开源项目，顶多不能用同步服务）</p><p data-pid=\"KbritM5D\">记乎的算法，估计也是 sm2 那一套吧，模板则是 Anki 那一套？</p><p data-pid=\"dfypxmg2\">另外用别人做的卡片，最好先理解再记忆，Anki 的操作请看这篇：</p><a href=\"https://zhuanlan.zhihu.com/p/168386543\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-04d8d795b54c5ecd480bb315b867745f_180x120.jpg\" data-image-width=\"3508\" data-image-height=\"2480\" class=\"internal\">叶峻峣：【经验】他人牌组食用指北|Anki</a><p data-pid=\"Gw00552g\">利益相关：</p><p data-pid=\"SzL6oJUB\">Anki 3 年用户</p><figure data-size=\"small\"><noscript><img src=\"https://pica.zhimg.com/50/v2-31af862daacf3657fc448141b55ddace_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1603\" data-rawheight=\"979\" data-original-token=\"v2-cc539580e704d1e04a7833bf06bc4775\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-9035514f0ad8551e82b873a01a3c62fc_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1603\" data-original=\"https://pic1.zhimg.com/v2-31af862daacf3657fc448141b55ddace_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1603&#39; height=&#39;979&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1603\" data-rawheight=\"979\" data-original-token=\"v2-cc539580e704d1e04a7833bf06bc4775\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-9035514f0ad8551e82b873a01a3c62fc_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1603\" data-original=\"https://pic1.zhimg.com/v2-31af862daacf3657fc448141b55ddace_r.jpg?source=2c26e567\" data-actualsrc=\"https://pica.zhimg.com/50/v2-31af862daacf3657fc448141b55ddace_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"xdcxSNFJ\">Anki 高考专栏主编兼作者：</p><figure data-size=\"small\"><noscript><img src=\"https://picx.zhimg.com/50/v2-b08f3f097722d981e0357ff305adbe8c_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1530\" data-rawheight=\"880\" data-original-token=\"v2-66df34c4f3755e91cc72c0d55e5169c3\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-606b0281fc2e231ce8155f176b1eb15a_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1530\" data-original=\"https://picx.zhimg.com/v2-b08f3f097722d981e0357ff305adbe8c_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1530&#39; height=&#39;880&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1530\" data-rawheight=\"880\" data-original-token=\"v2-66df34c4f3755e91cc72c0d55e5169c3\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-606b0281fc2e231ce8155f176b1eb15a_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1530\" data-original=\"https://picx.zhimg.com/v2-b08f3f097722d981e0357ff305adbe8c_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-b08f3f097722d981e0357ff305adbe8c_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"-AiwSNT4\">顺便问一下记乎老板 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/b6153b48bf14d94ebb7a7109855bb7e8\" data-hash=\"b6153b48bf14d94ebb7a7109855bb7e8\" data-hovercard=\"p$b$b6153b48bf14d94ebb7a7109855bb7e8\">@亮亮</a> ，记乎啥时支持公式啊。。。我的高考牌组和大学牌组还等着搬过去呢。。。</p><figure data-size=\"small\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-a13ee0a8373dde77ea418c0d3122fd42_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"926\" data-rawheight=\"452\" data-original-token=\"v2-43632f16a5758d8050d6369d477edb58\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-92755db3896be0ba2b6dd063257cd93f_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"926\" data-original=\"https://picx.zhimg.com/v2-a13ee0a8373dde77ea418c0d3122fd42_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;926&#39; height=&#39;452&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"926\" data-rawheight=\"452\" data-original-token=\"v2-43632f16a5758d8050d6369d477edb58\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-92755db3896be0ba2b6dd063257cd93f_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"926\" data-original=\"https://picx.zhimg.com/v2-a13ee0a8373dde77ea418c0d3122fd42_r.jpg?source=2c26e567\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-a13ee0a8373dde77ea418c0d3122fd42_720w.jpg?source=2c26e567\"/></figure><figure data-size=\"small\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-4cd0674ea1928dcb084cb5a2f23abbd1_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1393\" data-rawheight=\"831\" data-original-token=\"v2-21f8c9b7968aaeabe2f9eb0bbb5a897a\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-24bc3bca627fb99477fe59577df8f87e_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1393\" data-original=\"https://pica.zhimg.com/v2-4cd0674ea1928dcb084cb5a2f23abbd1_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1393&#39; height=&#39;831&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1393\" data-rawheight=\"831\" data-original-token=\"v2-21f8c9b7968aaeabe2f9eb0bbb5a897a\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-24bc3bca627fb99477fe59577df8f87e_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1393\" data-original=\"https://pica.zhimg.com/v2-4cd0674ea1928dcb084cb5a2f23abbd1_r.jpg?source=2c26e567\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-4cd0674ea1928dcb084cb5a2f23abbd1_720w.jpg?source=2c26e567\"/></figure><p></p>",
   "content_need_truncated": false,
   "created_time": 1597238485,
   "excerpt": "自己做卡片当然还是选 Anki，甚至是 SuperMemo。 毕竟离线编辑+学习，意味着完全不需要网络。我高三一年，就是拿着一部没有卡的手机背 Anki ，这么过来的： [文章: 某高三学生的「Anki」使用心得] 另外，Anki 的插件可以实现很多不错的功能。比如图片遮挡、文字转语音、学习数据分析等等。 还有可以提前复习、适合考前突击的筛选牌组： [文章: [实用]蓝色牌组:啊哈哈哈,高阶魔法] 当然，不喜欢折腾、想直接用别人的卡片直接背的话，…",
-  "id": 1404032731,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1404032731",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": false,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/168386543": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"【经验】他人牌组食用指北|Anki\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/168386543\",\"desc\":\"214 赞同 · 19 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 题图：https://www.pixiv.net/artworks/82186488 随着 Anki 在不少前辈的推广中被更多人知道，他人发布的牌组和批量制卡的教程也层出不穷。 看着 Anki 社区欣欣向荣地发展，作为一个推广者，我自然是很自豪的。但是在社区发展过程中，我也发现了不少问题。其中一个尤为明显的问题是： 大多数 Anki 入门者只会基础操作（添加牌组、卡片，设置计划，学习卡片等等），而没有认识到 Anki 的原理。遇到别人制作的牌组，只会定好学习计划然后一头扎进去猛背…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-04d8d795b54c5ecd480bb315b867745f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"168386543\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/34881368": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"某高三学生的「Anki」使用心得\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/34881368\",\"desc\":\"126 赞同 · 6 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 阅读须知：本文内容皆基于个人经历、阅读和思考，如有不妥，欢迎交流。 关键词：「Anki」、学习模式、高中 先提出我对学习的认识： 学习包括记忆知识、理解知识和运用知识。 学生常遇的问题： 没有固定的学习方法，对自己的学习很少有回顾和预期。被排名左右，以排名为学习动力和衡量学习效果的标准。 这里，我有一个学习模式与各位高中生参考。 「Anki」对应记忆知识 做题对应运用知识 归纳反思对应…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-608c64b63b8de3f705632ab6c27834d8_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"34881368\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/94067520": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"[实用]蓝色牌组:啊哈哈哈,高阶魔法\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/94067520\",\"desc\":\"100 赞同 · 11 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e弥乱:\\u003c/a\\u003e 关键词: 筛选牌组; 自定义学习; 卡片查找/搜索 ⭐相关案例一: @鬼影刘 :您好，很抱歉，打扰您，我有一个困惑，比如说咋们把今天的复习完了，它得等到第二天才开始复习，我现在是不想等到第二天再复习第二次，我是想比如说10点把今天的复习完了，然后下午几点，我还想把今天学过的在复习一次，这个要如何处理啊?按我的理解,简单来说,向我咨询的问题是: \\\"今天到期的需要复习的卡片中,想在这天中多复习一次.\\\"\\\"每次复习完今天的日…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-d28d0ab92b4b5442f13e9f3393c0a19d_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"94067520\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/168386543": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"【经验】他人牌组食用指北|Anki\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/168386543\",\"desc\":\"261 赞同 · 21 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 题图：https://www.pixiv.net/artworks/82186488 随着 Anki 在不少前辈的推广中被更多人知道，他人发布的牌组和批量制卡的教程也层出不穷。 看着 Anki 社区欣欣向荣地发展，作为一个推广者，我自然是很自豪的。但是在社区发展过程中，我也发现了不少问题。其中一个尤为明显的问题是： 大多数 Anki 入门者只会基础操作（添加牌组、卡片，设置计划，学习卡片等等），而没有认识到 Anki 的原理。遇到别人制作的牌组，只会定好学习计划然后一头扎进去猛背…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-04d8d795b54c5ecd480bb315b867745f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"168386543\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/34881368": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"某高三学生的「Anki」使用心得\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/34881368\",\"desc\":\"175 赞同 · 7 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 阅读须知：本文内容皆基于个人经历、阅读和思考，如有不妥，欢迎交流。 关键词：「Anki」、学习模式、高中 先提出我对学习的认识： 学习包括记忆知识、理解知识和运用知识。 学生常遇的问题： 没有固定的学习方法，对自己的学习很少有回顾和预期。被排名左右，以排名为学习动力和衡量学习效果的标准。 这里，我有一个学习模式与各位高中生参考。 「Anki」对应记忆知识 做题对应运用知识 归纳反思对应…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-608c64b63b8de3f705632ab6c27834d8_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"34881368\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/94067520": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"[实用]蓝色牌组:啊哈哈哈,高阶魔法\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/94067520\",\"desc\":\"105 赞同 · 11 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e弥乱:\\u003c/a\\u003e 关键词: 筛选牌组; 自定义学习; 卡片查找/搜索 ⭐相关案例一: @鬼影刘 :您好，很抱歉，打扰您，我有一个困惑，比如说咋们把今天的复习完了，它得等到第二天才开始复习，我现在是不想等到第二天再复习第二次，我是想比如说10点把今天的复习完了，然后下午几点，我还想把今天学过的在复习一次，这个要如何处理啊?按我的理解,简单来说,向我咨询的问题是: \\\"今天到期的需要复习的卡片中,想在这天中多复习一次.\\\"\\\"每次复习完今天的日…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-d28d0ab92b4b5442f13e9f3393c0a19d_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"94067520\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1404032731&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1596985978,
     "detail": "",
-    "id": 413140322,
+    "id": "413140322",
     "question_type": "normal",
     "relationship": {},
     "title": "“Anki”和“记乎”我应如何取舍？",
     "type": "question",
     "updated_time": 1596985978,
-    "url": "https://api.zhihu.com/questions/413140322"
+    "url": "https://www.zhihu.com/api/v4/questions/413140322"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1597238485,
+  "url": "https://www.zhihu.com/api/v4/answers/1404032731",
   "voteup_count": 50
 }

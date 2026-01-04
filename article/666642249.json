@@ -1,80 +1,519 @@
 {
-  "status": 0,
+  "id": "666642249",
+  "title": "斯坦福教授 Huberman：如何提高工作切换效率 ama.11",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/666642249",
+  "image_url": "https://picx.zhimg.com/v2-b3c53bf089213ee2ca823a166652c15f_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-b3c53bf089213ee2ca823a166652c15f_720w.jpg?source=172ae18b",
+  "excerpt": "Andrew Huberman 是在斯坦福大学任教的知名神经科学家，他的 Huberman Lab Podcast 是一独特且极具价值的播客系列，在英文互联网享有极高的知名度。播客中，他探讨并分享了许多关于睡眠、压力管理、学习、锻炼和营养等方面的知识与实用建议。Huberman 博士…",
+  "created": 1699966363,
   "updated": 1712886148,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://pic1.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "Andrew Huberman 是在斯坦福大学任教的知名神经科学家，他的 Huberman Lab Podcast …",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 1280,
+  "image_height": 720,
+  "content": "<p data-pid=\"uRGv2u5F\">Andrew Huberman 是在斯坦福大学任教的知名神经科学家，他的 Huberman Lab Podcast 是一独特且极具价值的播客系列，在英文互联网享有极高的知名度。播客中，他探讨并分享了许多关于睡眠、压力管理、学习、锻炼和营养等方面的知识与实用建议。Huberman 博士擅长用通俗易懂的语言深入浅出地解释复杂的科学概念，让每个人都能从这个播客中获益。截至目前，播客已更新近 200 期。</p><p data-pid=\"YU1scUrq\">可即使这一播客系列是相当优秀的学习资源，由于其性质的原因，其内容有些过于口语化，显得拖沓、啰嗦，信噪比低。为了向更多人传播英文世界的优质内容，Thoughts Memo 汉化组启动了 Huberman Podcast 笔记工程。原 90 分钟左右的播客会被浓缩为一篇篇简短的文章，剔除重复、无意义的部分，将播客的精华保留下来，并用汉语文本的形式呈现。</p><p data-pid=\"A5cTG_33\"><b>大家在点收藏的同时，别忘了点个赞支持我们。</b></p><blockquote data-pid=\"P0hTNtNo\">AMA 系列是 Huberman Podcast 的特别问答系列，其篇幅较短，在 30 分钟左右，属于付费内容的一部分。本篇是 AMA 系列的第 11 篇<br/>原标题：AMA #11: Improve Task Switching &amp; Productivity and Reduce Brain Fog<br/>原视频：<a href=\"https://link.zhihu.com/?target=https%3A//www.youtube.com/watch%3Fv%3D7Ey_vTTgJGc\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">youtube.com/watch?</span><span class=\"invisible\">v=7Ey_vTTgJGc</span><span class=\"ellipsis\"></span></a><br/>想了解更多付费内容，请访问 <a href=\"https://link.zhihu.com/?target=https%3A//www.hubermanlab.com/premium\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">hubermanlab.com/premium</span><span class=\"invisible\"></span></a><br/><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢笔记作者 shuo</blockquote><hr/><h2>1 简单解释下何为任务切换</h2><p data-pid=\"4XhklBh0\">我们大脑中有一个叫做前额皮质（prefrontal cortex）的区域，它包括很多子区。</p><p data-pid=\"g2eCRk04\">它的一个主要功能就是通过联系情景引导注意力和思考。</p><p data-pid=\"6CGr45su\">比如数学或历史或社会研究，我们在不同的课上仍需要遵守一些不同的规则。有的老师宽松，可能会允许你把脚放在凳子上，而有些不允许。而不同学科要进行的认知操作也不同。 </p><p data-pid=\"FRFDiVSW\">前额皮质（prefrontal cortex）会让你在特定情景下做出相应的行为、思考和理解，令你做些什么或不做什么。这就是所谓的认知灵活性。</p><p data-pid=\"eqEUEu0_\">事实上，任务切换和认知灵活性并不完全是一码事，但任务切换需要认知灵活性。</p><p data-pid=\"S4D5YC-K\">任务切换在通常是指人们进行一种特定的心理或生理活动（做一项任务），然后在随机或特定时间后切换注意力，做与之前完全不同的任务。</p><p data-pid=\"sflbXgN6\">举个例子：「象棋拳击」，是指两位实验参与者须在倒计时内下象棋，倒计时结束后暂停下棋，跳上擂台戴上拳套打拳击，并重新开始倒计时，倒计时结束后脱下拳套，从擂台上回到象棋桌前继续下棋，如此反复。</p><h2>2 不要苛求自己切换任务后要立刻集中注意力</h2><p data-pid=\"j4u-6jh_\">很多人认为，当坐下看一本书时，应该能够立即专注于你正在阅读的材料。如果进入不了状态，那么就错误地认为自己有注意力问题。</p><p data-pid=\"eMjZN2Ak\">但实际上，从刚开始阅读的一刻算起，需要大约五到十分钟，大脑中负责理解、消化这些材料的记忆神经回路（neural circuits）才会开启到所需水平。一些特殊情况下，你从第一个字开始就被深深的吸引，那么进入状态可能会快一些。</p><p data-pid=\"bOj5NeAa\">当从一个任务转移到另一个任务时，你既需要激活某些神经回路（neural circuits），也要抑制某些神经回路（neural circuits）。就像在运动时，你不可能不需要热身、过渡，就能立刻达到自己的最佳表现。这根本不符合神经回路（neural circuits）的工作方式。</p><h2>3 如何提高任务切换的能力？</h2><p data-pid=\"xsymlOV5\">我们可以在切换两个任务之间引入过渡期，在这个过渡期间你可以只是坐着，喝口水，闭上眼睛等待几分钟。</p><p data-pid=\"eVeXCX8M\">这可以提高你的任务切换能力，让你可以全身心的投入第二个任务当中——这已经被科学研究所证实。</p><p data-pid=\"SNVaTvoZ\">你越是全身心地投入了一项活动，它的过渡期就要越长。</p><p data-pid=\"vFjD7_cz\">另外，过渡期最主要的就是减少对新事物的关注，比如刷手机、聊八卦等。只有努力限制自己对周围信息的关注，才能全身心的、尽量高效的切换任务。</p><h2>4 分享一个启发我的例子</h2><p data-pid=\"um48PC_N\"> 我认识一位有成就的教授，每天只在 to do list 上列三项要完成的事，从不超过三项。这三项事都是需要大量认知关注的。像一些并不需要大量的认知关注，大脑自动化完成的习惯（如散步、撸铁等），并不列在清单中。</p><h2>5 另一种能提高任务切换能力的方法</h2><p data-pid=\"2wnwz2AO\">我介绍一种类似于（但并不是）冥想的感知练习（perceptual exercise），这个练习我每天都做，整个过程只需2到3分钟。</p><p data-pid=\"ZjffZ-O1\">步骤一：把注意力集中在呼吸或皮肤表面上，持续 5 到 15 秒。步骤二：待进入状态后睁开眼，注视你面前的场景，持续 5 到 15 秒。步骤三：看更远的地方，持续 5 到 15 秒……可以循环练习。</p><p data-pid=\"mT1CVAgh\">当你把你的注意力放在不同的空间，你对时间的感知也会不相同。当你把视线集中在离身体很近的地方，或者集中在眼前的环境时，你对时间的感知会变慢。</p><p data-pid=\"KJWG9MCH\">在进行这种感知练习时，你会立即意识到大脑在从任务 A 转向任务 B 或从任务 B 转向任务 C 时需要进行的那种转变。</p><p data-pid=\"RsMs6Eyc\">这实质上是在训练大脑改变视觉焦点和处理时间方式，而你需要在训练中努力感受时间流速的变化。我们执行任务的高效能力很大程度上取决于我们的思维和行动是否进入正确的「时间领域」。我们可以通过这种练习提高任务切换的能力。 </p><hr/><p data-pid=\"mWSc9Qgk\">系列目录：<a href=\"https://zhuanlan.zhihu.com/p/676445568\" class=\"internal\" target=\"_blank\">Thoughts Memo：全网首发：Huberman Lab Podcast 全系列笔记（持续更新）</a></p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19550928",
+      "type": "topic",
+      "id": "19550928",
+      "name": "高效工作"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19620291",
+      "type": "topic",
+      "id": "19620291",
+      "name": "脑科学"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19596204",
+      "type": "topic",
+      "id": "19596204",
+      "name": "认知心理学"
+    }
+  ],
+  "voteup_count": 197,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "好睡眠，好学习，好生活",
+    "is_following": false,
+    "url_token": "c_1525846593119449088",
+    "id": "c_1525846593119449088",
+    "articles_count": 97,
+    "accept_submission": true,
+    "title": "睡眠研究 & 生活建议",
+    "url": "https://api.zhihu.com/columns/c_1525846593119449088",
+    "comment_permission": "all",
+    "created": 1656570176,
+    "updated": 1751877207,
+    "image_url": "https://pic1.zhimg.com/v2-080a085ec59b78d9d731960f7b0fdb50_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 339,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 18,
+  "contributions": [
+    {
+      "id": 47087874,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "好睡眠，好学习，好生活",
+        "is_following": false,
+        "url_token": "c_1525846593119449088",
+        "id": "c_1525846593119449088",
+        "articles_count": 97,
+        "accept_submission": true,
+        "title": "睡眠研究 & 生活建议",
+        "url": "https://api.zhihu.com/columns/c_1525846593119449088",
+        "comment_permission": "all",
+        "created": 1656570176,
+        "updated": 1751877207,
+        "image_url": "https://pic1.zhimg.com/v2-080a085ec59b78d9d731960f7b0fdb50_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 339,
+        "type": "column",
+        "column_type": "normal"
+      }
+    },
+    {
+      "id": 47466947,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "",
+        "is_following": false,
+        "url_token": "c_1292856353757589504",
+        "id": "c_1292856353757589504",
+        "articles_count": 22,
+        "accept_submission": true,
+        "title": "维P搬运站",
+        "url": "https://api.zhihu.com/columns/c_1292856353757589504",
+        "comment_permission": "all",
+        "created": 1601020974,
+        "updated": 1745039927,
+        "image_url": "https://picx.zhimg.com/v2-1060d228afd0229d5f399817164bcf10_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pica.zhimg.com/v2-1b2164302ecc0ec7567e6ef8b2b58025.jpg?source=172ae18b",
+          "uid": "553906201298006016",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "sms-parry",
+          "id": "2e31e51961052d49c748fead6f9aadd4",
+          "description": "🌟 数码控 | 科技达人 | 新品推荐 | 选购指南🌟 \n💻 笔记本电脑深度解读 \n🔍 专业数码评测 & 产品体验\n📚 实用选购指南 & 玩转数码\n💫 点个关注 让你的数码生活更精彩",
+          "name": "维生素P",
+          "is_advertiser": false,
+          "headline": "✨ 优秀答主｜数码家电种草 | 笔电玩客  ",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/2e31e51961052d49c748fead6f9aadd4",
+          "avatar_url": "https://picx.zhimg.com/v2-1b2164302ecc0ec7567e6ef8b2b58025_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 2,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 666642249,
-  "voteup_count": 193,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 292,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "斯坦福教授 Huberman：如何提高工作切换效率 ama.11 - 来自知乎专栏「睡眠研究 &amp; 生活建议」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/666642249 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1699966363,
-  "url": "https://api.zhihu.com/articles/666642249",
-  "comment_permission": "all",
-  "title": "斯坦福教授 Huberman：如何提高工作切换效率 ama.11",
-  "image_width": 720,
-  "content": "<p data-pid=\"uRGv2u5F\">Andrew Huberman 是在斯坦福大学任教的知名神经科学家，他的 Huberman Lab Podcast 是一独特且极具价值的播客系列，在英文互联网享有极高的知名度。播客中，他探讨并分享了许多关于睡眠、压力管理、学习、锻炼和营养等方面的知识与实用建议。Huberman 博士擅长用通俗易懂的语言深入浅出地解释复杂的科学概念，让每个人都能从这个播客中获益。截至目前，播客已更新近 200 期。</p><p data-pid=\"YU1scUrq\">可即使这一播客系列是相当优秀的学习资源，由于其性质的原因，其内容有些过于口语化，显得拖沓、啰嗦，信噪比低。为了向更多人传播英文世界的优质内容，Thoughts Memo 汉化组启动了 Huberman Podcast 笔记工程。原 90 分钟左右的播客会被浓缩为一篇篇简短的文章，剔除重复、无意义的部分，将播客的精华保留下来，并用汉语文本的形式呈现。</p><p data-pid=\"A5cTG_33\"><b>大家在点收藏的同时，别忘了点个赞支持我们。</b></p><blockquote data-pid=\"P0hTNtNo\">AMA 系列是 Huberman Podcast 的特别问答系列，其篇幅较短，在 30 分钟左右，属于付费内容的一部分。本篇是 AMA 系列的第 11 篇<br/>原标题：AMA #11: Improve Task Switching &amp; Productivity and Reduce Brain Fog<br/>原视频：<a href=\"https://link.zhihu.com/?target=https%3A//www.youtube.com/watch%3Fv%3D7Ey_vTTgJGc\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">youtube.com/watch?</span><span class=\"invisible\">v=7Ey_vTTgJGc</span><span class=\"ellipsis\"></span></a><br/>想了解更多付费内容，请访问 <a href=\"https://link.zhihu.com/?target=https%3A//www.hubermanlab.com/premium\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">hubermanlab.com/premium</span><span class=\"invisible\"></span></a><br/><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢笔记作者 shuo</blockquote><hr/><h2>1 简单解释下何为任务切换</h2><p data-pid=\"4XhklBh0\">我们大脑中有一个叫做前额皮质（prefrontal cortex）的区域，它包括很多子区。</p><p data-pid=\"g2eCRk04\">它的一个主要功能就是通过联系情景引导注意力和思考。</p><p data-pid=\"6CGr45su\">比如数学或历史或社会研究，我们在不同的课上仍需要遵守一些不同的规则。有的老师宽松，可能会允许你把脚放在凳子上，而有些不允许。而不同学科要进行的认知操作也不同。 </p><p data-pid=\"FRFDiVSW\">前额皮质（prefrontal cortex）会让你在特定情景下做出相应的行为、思考和理解，令你做些什么或不做什么。这就是所谓的认知灵活性。</p><p data-pid=\"eqEUEu0_\">事实上，任务切换和认知灵活性并不完全是一码事，但任务切换需要认知灵活性。</p><p data-pid=\"S4D5YC-K\">任务切换在通常是指人们进行一种特定的心理或生理活动（做一项任务），然后在随机或特定时间后切换注意力，做与之前完全不同的任务。</p><p data-pid=\"sflbXgN6\">举个例子：「象棋拳击」，是指两位实验参与者须在倒计时内下象棋，倒计时结束后暂停下棋，跳上擂台戴上拳套打拳击，并重新开始倒计时，倒计时结束后脱下拳套，从擂台上回到象棋桌前继续下棋，如此反复。</p><h2>2 不要苛求自己切换任务后要立刻集中注意力</h2><p data-pid=\"j4u-6jh_\">很多人认为，当坐下看一本书时，应该能够立即专注于你正在阅读的材料。如果进入不了状态，那么就错误地认为自己有注意力问题。</p><p data-pid=\"eMjZN2Ak\">但实际上，从刚开始阅读的一刻算起，需要大约五到十分钟，大脑中负责理解、消化这些材料的记忆神经回路（neural circuits）才会开启到所需水平。一些特殊情况下，你从第一个字开始就被深深的吸引，那么进入状态可能会快一些。</p><p data-pid=\"bOj5NeAa\">当从一个任务转移到另一个任务时，你既需要激活某些神经回路（neural circuits），也要抑制某些神经回路（neural circuits）。就像在运动时，你不可能不需要热身、过渡，就能立刻达到自己的最佳表现。这根本不符合神经回路（neural circuits）的工作方式。</p><h2>3 如何提高任务切换的能力？</h2><p data-pid=\"xsymlOV5\">我们可以在切换两个任务之间引入过渡期，在这个过渡期间你可以只是坐着，喝口水，闭上眼睛等待几分钟。</p><p data-pid=\"eVeXCX8M\">这可以提高你的任务切换能力，让你可以全身心的投入第二个任务当中——这已经被科学研究所证实。</p><p data-pid=\"SNVaTvoZ\">你越是全身心地投入了一项活动，它的过渡期就要越长。</p><p data-pid=\"vFjD7_cz\">另外，过渡期最主要的就是减少对新事物的关注，比如刷手机、聊八卦等。只有努力限制自己对周围信息的关注，才能全身心的、尽量高效的切换任务。</p><h2>4 分享一个启发我的例子</h2><p data-pid=\"um48PC_N\"> 我认识一位有成就的教授，每天只在 to do list 上列三项要完成的事，从不超过三项。这三项事都是需要大量认知关注的。像一些并不需要大量的认知关注，大脑自动化完成的习惯（如散步、撸铁等），并不列在清单中。</p><h2>5 另一种能提高任务切换能力的方法</h2><p data-pid=\"2wnwz2AO\">我介绍一种类似于（但并不是）冥想的感知练习（perceptual exercise），这个练习我每天都做，整个过程只需2到3分钟。</p><p data-pid=\"ZjffZ-O1\">步骤一：把注意力集中在呼吸或皮肤表面上，持续 5 到 15 秒。步骤二：待进入状态后睁开眼，注视你面前的场景，持续 5 到 15 秒。步骤三：看更远的地方，持续 5 到 15 秒……可以循环练习。</p><p data-pid=\"mT1CVAgh\">当你把你的注意力放在不同的空间，你对时间的感知也会不相同。当你把视线集中在离身体很近的地方，或者集中在眼前的环境时，你对时间的感知会变慢。</p><p data-pid=\"KJWG9MCH\">在进行这种感知练习时，你会立即意识到大脑在从任务 A 转向任务 B 或从任务 B 转向任务 C 时需要进行的那种转变。</p><p data-pid=\"RsMs6Eyc\">这实质上是在训练大脑改变视觉焦点和处理时间方式，而你需要在训练中努力感受时间流速的变化。我们执行任务的高效能力很大程度上取决于我们的思维和行动是否进入正确的「时间领域」。我们可以通过这种练习提高任务切换的能力。 </p><hr/><p data-pid=\"mWSc9Qgk\">系列目录：<a href=\"https://zhuanlan.zhihu.com/p/676445568\" class=\"internal\">Thoughts Memo：全网首发：Huberman Lab Podcast 全系列笔记（持续更新）</a></p>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 18,
-  "image_url": "https://pic1.zhimg.com/v2-b3c53bf089213ee2ca823a166652c15f_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 44,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://pica.zhimg.com/v2-1b2164302ecc0ec7567e6ef8b2b58025.jpg?source=172ae18b",
+      "uid": "553906201298006016",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "sms-parry",
+      "id": "2e31e51961052d49c748fead6f9aadd4",
+      "description": "🌟 数码控 | 科技达人 | 新品推荐 | 选购指南🌟 \n💻 笔记本电脑深度解读 \n🔍 专业数码评测 & 产品体验\n📚 实用选购指南 & 玩转数码\n💫 点个关注 让你的数码生活更精彩",
+      "name": "维生素P",
+      "is_advertiser": false,
+      "headline": "✨ 优秀答主｜数码家电种草 | 笔电玩客  ",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/2e31e51961052d49c748fead6f9aadd4",
+      "avatar_url": "https://picx.zhimg.com/v2-1b2164302ecc0ec7567e6ef8b2b58025_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 44,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMzYyNzIyMzESCTY2NjY0MjI0ORgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 197,
+      "down_vote_count": 0,
+      "like_count": 44,
+      "comment_count": 18,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 292,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-b3c53bf089213ee2ca823a166652c15f": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-b3c53bf089213ee2ca823a166652c15f": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-b3c53bf089213ee2ca823a166652c15f": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=666642249&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 睡眠研究 & 生活建议",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525846593119449088",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 睡眠研究 & 生活建议"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

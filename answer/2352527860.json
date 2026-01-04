@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,19 +37,21 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,35 +84,55 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 0,
   "content": "<p data-pid=\"IED5j8eD\">类似的事情一直在发生，学校教育却鲜有改观：</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/441266434/answer/1701028559\" class=\"internal\">如何看待衡水二中学生反映学校寒假期间「要求高一学生早五晚十学习，开摄像头监控」，是否涉嫌侵犯学生权益?</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1645097792,
   "excerpt": "类似的事情一直在发生，学校教育却鲜有改观： 如何看待衡水二中学生反映学校寒假期间「要求高一学生早五晚十学习，开摄像头监控」，是否涉嫌侵犯学生权益?",
-  "id": 2352527860,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2352527860",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://www.zhihu.com/question/441266434/answer/1701028559": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"如何看待衡水二中学生反映学校寒假期间「要求高一学生早五晚十学习，开摄像头监控」，是否涉嫌侵犯学生权益?\",\"card_open_url\":\"https://www.zhihu.com/question/441266434/answer/1701028559\",\"desc\":\"956 赞同 · 374 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 学校之所以失败，是因为它们不尊重并抑制了关于学习、创造力和解决问题的基本机制。作为负责培养科学的机构来说，学校对大脑如何运作的基本原理一无所知，这是令人毛骨悚然的。 对儿童健康和福祉的不尊重程度使大多数学校都有资格成为合法虐待儿童 的机构（只要它们仍然是强制性的）。[1]学校的强制正在逐渐蔓延到学生生活的方方面面。 普鲁士的学校模式或普鲁士的教育体系是可以追溯到马丁·路德（Martin Luther）和普鲁士大帝弗…\",\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"1701028559\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://www.zhihu.com/question/441266434/answer/1701028559": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"如何看待衡水二中学生反映学校寒假期间「要求高一学生早五晚十学习，开摄像头监控」，是否涉嫌侵犯学生权益?\",\"card_open_url\":\"https://www.zhihu.com/question/441266434/answer/1701028559\",\"desc\":\"966 赞同 · 374 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 学校之所以失败，是因为它们不尊重并抑制了关于学习、创造力和解决问题的基本机制。作为负责培养科学的机构来说，学校对大脑如何运作的基本原理一无所知，这是令人毛骨悚然的。 对儿童健康和福祉的不尊重程度使大多数学校都有资格成为合法虐待儿童 的机构（只要它们仍然是强制性的）。[1]学校的强制正在逐渐蔓延到学生生活的方方面面。 普鲁士的学校模式或普鲁士的教育体系是可以追溯到马丁·路德（Martin Luther）和普鲁士大帝弗…\",\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"1701028559\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=2352527860&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1644977826,
-    "detail": "<p>近日，一名自称衡水桃城中学学生的网友发长文控诉学校存在多项违规，并表示自己因此抑郁处于休学状态。17日，桃城区教育局工作人员表示，已了解到该网络文章，教育局逐条排查衡水桃城中学违规问题，也要求学校对提出的问题加强管理，将会根据调查结果给出相应处置。</p><a href=\"https://link.zhihu.com/?target=https%3A//finance.sina.com.cn/jjxw/2022-02-17/doc-ikyakumy6414550.shtml\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-600dd548fa917a5d760c26826440bc39_120x160.jpg\" data-image-width=\"720\" data-image-height=\"1280\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">教育局回应衡水桃城中学被指多项违规：正逐条、逐项排查</a><hr/><p>近日，一名自称为河北衡水桃城中学的学生在社交平台发布文章，控诉学校不合理、违规行为导致学生心理健康出现问题，引发广泛关注。对此，桃城中学回应天目新闻，正在紧急调查中。</p><p>记者注意到，这名自称为衡水桃城中学学生的网友，在文中列举学校存在多项违规行为，比如频繁考试，一周一小测，一月一大测，即使在网课期间也没有停歇；老师体罚辱骂学生现象常见，被扇巴掌、打手心、把试卷作业扔到学生脸上属于家常便饭；老师收礼现象严重；学校食堂存在食品安全问题；校内所卖的物品价格是外面的两倍；学校时间安排不合理，十点休息，五点半起床，课间休息只有五分钟；洗脑式教育；强制性收费，饮用水收费、热水收费；水质发黄，还经常停水等。</p><p>该网友表示自己出现抑郁症焦虑症近一年，目前正处于休学的阶段，接下去还需住院治疗，怀疑病情跟所处学校的高压环境有关。该网友还表示，身边出现心理问题的朋友很多。</p><p>天目新闻 16 日搜索发现，该网友用于发文的社交账号已被注销，但不少自称也是衡水桃城中学的学生或认识的朋友在转发的留言中声援文中的部分内容，如考试频繁、体罚严重等现象。</p><p>天目新闻注意到，就前述网友在社交平台发布的内容，衡水桃城中学早在 2022 年 2 月 10 日发布一则声明，声明中称有体罚、语罚学生等违纪行为，可以拨打学校相关电话进行正面沟通，对于网络上给学校造成负面影响和伤害的个人和相关行为，学校保留追究其法律责任的权利。</p><p>16 日中午，桃城中学办公室一名工作人员告诉天目新闻，学校领导目前正在开会，紧急调查该事。桃城区教育局法制科一名工作人员对此表示，已经关注到此事，目前正在进一步核实中。</p><a href=\"https://link.zhihu.com/?target=https%3A//news.ifeng.com/c/8DgIXYfIRg1\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">河北衡水桃城中学被控诉多项违规行为致学生抑郁 学校：正在紧急调查</a><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-54b94d18b5df28156aef48285c2d7e86_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"440\" data-rawheight=\"952\" class=\"origin_image zh-lightbox-thumb\" width=\"440\" data-original=\"https://pic1.zhimg.com/v2-54b94d18b5df28156aef48285c2d7e86_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-6ad9485568790c144513c6995f960eec_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"440\" data-rawheight=\"952\" class=\"origin_image zh-lightbox-thumb\" width=\"440\" data-original=\"https://pica.zhimg.com/v2-6ad9485568790c144513c6995f960eec_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-b39657f3cd6bf5747103c4aa2670ffa2_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"440\" data-rawheight=\"952\" class=\"origin_image zh-lightbox-thumb\" width=\"440\" data-original=\"https://pic1.zhimg.com/v2-b39657f3cd6bf5747103c4aa2670ffa2_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-39bfcda5b5210094207a7553090145f7_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"440\" data-rawheight=\"952\" class=\"origin_image zh-lightbox-thumb\" width=\"440\" data-original=\"https://picx.zhimg.com/v2-39bfcda5b5210094207a7553090145f7_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-7cd804eb53c3be305adceba0fb8074bd_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"440\" data-rawheight=\"952\" class=\"origin_image zh-lightbox-thumb\" width=\"440\" data-original=\"https://picx.zhimg.com/v2-7cd804eb53c3be305adceba0fb8074bd_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-4839822a33691c6f193c3a58ac86b94d_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"440\" data-rawheight=\"516\" class=\"origin_image zh-lightbox-thumb\" width=\"440\" data-original=\"https://pic2.zhimg.com/v2-4839822a33691c6f193c3a58ac86b94d_r.jpg\"/></figure><p></p>",
-    "id": 516850449,
+    "detail": "<p>近日，一名自称衡水桃城中学学生的网友发长文控诉学校存在多项违规，并表示自己因此抑郁处于休学状态。17日，桃城区教育局工作人员表示，已了解到该网络文章，教育局逐条排查衡水桃城中学违规问题，也要求学校对提出的问题加强管理，将会根据调查结果给出相应处置。</p><a href=\"https://link.zhihu.com/?target=https%3A//finance.sina.com.cn/jjxw/2022-02-17/doc-ikyakumy6414550.shtml\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-600dd548fa917a5d760c26826440bc39_120x160.jpg\" data-image-width=\"720\" data-image-height=\"1280\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">教育局回应衡水桃城中学被指多项违规：正逐条、逐项排查</a><hr/><p>近日，一名自称为河北衡水桃城中学的学生在社交平台发布文章，控诉学校不合理、违规行为导致学生心理健康出现问题，引发广泛关注。对此，桃城中学回应天目新闻，正在紧急调查中。</p><p>记者注意到，这名自称为衡水桃城中学学生的网友，在文中列举学校存在多项违规行为，比如频繁考试，一周一小测，一月一大测，即使在网课期间也没有停歇；老师体罚辱骂学生现象常见，被扇巴掌、打手心、把试卷作业扔到学生脸上属于家常便饭；老师收礼现象严重；学校食堂存在食品安全问题；校内所卖的物品价格是外面的两倍；学校时间安排不合理，十点休息，五点半起床，课间休息只有五分钟；洗脑式教育；强制性收费，饮用水收费、热水收费；水质发黄，还经常停水等。</p><p>该网友表示自己出现抑郁症焦虑症近一年，目前正处于休学的阶段，接下去还需住院治疗，怀疑病情跟所处学校的高压环境有关。该网友还表示，身边出现心理问题的朋友很多。</p><p>天目新闻 16 日搜索发现，该网友用于发文的社交账号已被注销，但不少自称也是衡水桃城中学的学生或认识的朋友在转发的留言中声援文中的部分内容，如考试频繁、体罚严重等现象。</p><p>天目新闻注意到，就前述网友在社交平台发布的内容，衡水桃城中学早在 2022 年 2 月 10 日发布一则声明，声明中称有体罚、语罚学生等违纪行为，可以拨打学校相关电话进行正面沟通，对于网络上给学校造成负面影响和伤害的个人和相关行为，学校保留追究其法律责任的权利。</p><p>16 日中午，桃城中学办公室一名工作人员告诉天目新闻，学校领导目前正在开会，紧急调查该事。桃城区教育局法制科一名工作人员对此表示，已经关注到此事，目前正在进一步核实中。</p><a href=\"https://link.zhihu.com/?target=https%3A//news.ifeng.com/c/8DgIXYfIRg1\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">河北衡水桃城中学被控诉多项违规行为致学生抑郁 学校：正在紧急调查</a><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-54b94d18b5df28156aef48285c2d7e86_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"440\" data-rawheight=\"952\" class=\"origin_image zh-lightbox-thumb\" width=\"440\" data-original=\"https://pic1.zhimg.com/v2-54b94d18b5df28156aef48285c2d7e86_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-6ad9485568790c144513c6995f960eec_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"440\" data-rawheight=\"952\" class=\"origin_image zh-lightbox-thumb\" width=\"440\" data-original=\"https://pica.zhimg.com/v2-6ad9485568790c144513c6995f960eec_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-b39657f3cd6bf5747103c4aa2670ffa2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"440\" data-rawheight=\"952\" class=\"origin_image zh-lightbox-thumb\" width=\"440\" data-original=\"https://pic1.zhimg.com/v2-b39657f3cd6bf5747103c4aa2670ffa2_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-39bfcda5b5210094207a7553090145f7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"440\" data-rawheight=\"952\" class=\"origin_image zh-lightbox-thumb\" width=\"440\" data-original=\"https://picx.zhimg.com/v2-39bfcda5b5210094207a7553090145f7_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-7cd804eb53c3be305adceba0fb8074bd_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"440\" data-rawheight=\"952\" class=\"origin_image zh-lightbox-thumb\" width=\"440\" data-original=\"https://picx.zhimg.com/v2-7cd804eb53c3be305adceba0fb8074bd_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-4839822a33691c6f193c3a58ac86b94d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"440\" data-rawheight=\"516\" class=\"origin_image zh-lightbox-thumb\" width=\"440\" data-original=\"https://pic2.zhimg.com/v2-4839822a33691c6f193c3a58ac86b94d_r.jpg\"/></figure><p></p>",
+    "id": "516850449",
     "question_type": "normal",
     "relationship": {},
     "title": "衡水桃城中学一学生万字长文痛斥学校导致其抑郁，还曝光食品安全、教师收礼等问题，真实情况如何？",
     "type": "question",
     "updated_time": 1645102685,
-    "url": "https://api.zhihu.com/questions/516850449"
+    "url": "https://www.zhihu.com/api/v4/questions/516850449"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 19
+  "updated_time": 1645097793,
+  "url": "https://www.zhihu.com/api/v4/answers/2352527860",
+  "voteup_count": 18
 }

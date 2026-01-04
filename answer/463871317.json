@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,9 +14,10 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
@@ -35,19 +37,21 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 2,
-  "content": "<p data-pid=\"OzP87HLN\">​我推荐Anki，我刚用它完成高考逆袭。</p><p data-pid=\"9BBE7qFl\"><a href=\"https://zhuanlan.zhihu.com/p/41568928\" class=\"internal\">你想知道如何高考逆袭吗？</a><br/><a href=\"https://zhuanlan.zhihu.com/p/41568928\" class=\"internal\">看我怎样从本一线上涨157分！</a></p><p data-pid=\"ow5Y4S-T\">       Anki是一款美国的学习辅助软件，开源软件，免费使用；</p><p data-pid=\"SGhWdKtx\">​       它的基本原理可以描述为三个方面：</p><p data-pid=\"sS1yKw8D\">一、通过“卡片式学习法”，将知识点碎片化，问题和答案分离，逐条掌握知识；</p><p data-pid=\"sPs1Qfbz\">二、通过分类与标签管理已有的知识点，使现有知识点条理清晰；</p><p data-pid=\"2gwUN__4\">三、通过“艾宾浩斯遗忘曲线”算法，精确掌握每张卡片的复习时间，成倍提高复习效率。</p><p data-pid=\"kRMkQe-f\">也就是说，通过任意材料（书本、网课、课堂）+Anki，将学习材料中不明白的、需要重点掌握的知识，录入Anki中，就可以实现“高效学习+科学知识管理+精准复习”的学习闭环，无需考虑遗忘，无需反复复习学习过的材料，完全由Anki的算法告诉你你复习任务，整个学习路线清晰明朗。</p><p data-pid=\"siFEyCI7\">以下是Anki的界面图以及我的使用情况，请大家感受其中蕴含的精妙原理。</p><figure data-size=\"normal\"><noscript><img src=\"https://pica.zhimg.com/50/v2-c655c0cdb591a4317d5d52514db9d888_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"634\" data-rawheight=\"542\" data-original-token=\"v2-b7bc9d68cc3bad4191d13f9c9ee9231d\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-d9a641a697f7c377f601ead979040ecf_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"634\" data-original=\"https://picx.zhimg.com/v2-c655c0cdb591a4317d5d52514db9d888_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;634&#39; height=&#39;542&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"634\" data-rawheight=\"542\" data-original-token=\"v2-b7bc9d68cc3bad4191d13f9c9ee9231d\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-d9a641a697f7c377f601ead979040ecf_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"634\" data-original=\"https://picx.zhimg.com/v2-c655c0cdb591a4317d5d52514db9d888_r.jpg?source=2c26e567\" data-actualsrc=\"https://pica.zhimg.com/50/v2-c655c0cdb591a4317d5d52514db9d888_720w.jpg?source=2c26e567\"/></figure><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-73bc767e2336fa44ba5d7d9face3b2d3_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"406\" data-rawheight=\"898\" data-original-token=\"v2-f562556dce91ce47c4116ffb2048f413\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-b4727d744358ed814711d9d130853e7a_720w.jpg?source=2c26e567\" class=\"content_image\" width=\"406\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;406&#39; height=&#39;898&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"406\" data-rawheight=\"898\" data-original-token=\"v2-f562556dce91ce47c4116ffb2048f413\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-b4727d744358ed814711d9d130853e7a_720w.jpg?source=2c26e567\" class=\"content_image lazy\" width=\"406\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-73bc767e2336fa44ba5d7d9face3b2d3_720w.jpg?source=2c26e567\"/></figure><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-dbb46ba91b8a2d146af81d7457003a8f_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"752\" data-rawheight=\"532\" data-original-token=\"v2-05b36cc23a3d0c03b411e61f574f6c00\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-48275c3c6e465856cb4c0dc495275a8f_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"752\" data-original=\"https://pic1.zhimg.com/v2-dbb46ba91b8a2d146af81d7457003a8f_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;752&#39; height=&#39;532&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"752\" data-rawheight=\"532\" data-original-token=\"v2-05b36cc23a3d0c03b411e61f574f6c00\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-48275c3c6e465856cb4c0dc495275a8f_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"752\" data-original=\"https://pic1.zhimg.com/v2-dbb46ba91b8a2d146af81d7457003a8f_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-dbb46ba91b8a2d146af81d7457003a8f_720w.jpg?source=2c26e567\"/></figure><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-e28d7ee97005cf06369a5a43e94f751d_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"880\" data-rawheight=\"476\" data-original-token=\"v2-7f6c3952543d8aa75a7ad55375eefd78\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-2349f93c4f44a050e22d7c7243652634_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"880\" data-original=\"https://pica.zhimg.com/v2-e28d7ee97005cf06369a5a43e94f751d_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;880&#39; height=&#39;476&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"880\" data-rawheight=\"476\" data-original-token=\"v2-7f6c3952543d8aa75a7ad55375eefd78\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-2349f93c4f44a050e22d7c7243652634_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"880\" data-original=\"https://pica.zhimg.com/v2-e28d7ee97005cf06369a5a43e94f751d_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-e28d7ee97005cf06369a5a43e94f751d_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"IzAVez7T\">​       我结合了很多学习理论和方法并运用到Anki中：</p><p data-pid=\"cWV_qp_j\">​       <b>举例一</b>：许多人看网络小说可以十分专注，但是一看教科书就走神。这是为什么呢？</p><p data-pid=\"f4H7AV9O\">​       Will Zhang 的答案：当我们处理信息的速度趋近于接收信息的速度时，我们容易长时间集中注意力。网络小说信息量是不及教科书的，更不用说我们看网络小说一目十行，中间全靠脑补，照样可以看懂剧情。但是教科书信息量密集，我们跟不上教科书的思维，可能因为不知道他说这些是在干嘛，也可能因为不知道他要干嘛，看了一会儿我们自然就很容易地丢失了注意力。</p><p data-pid=\"gOOexr8P\">​       Anki的解决办法：尽可能<b>减少一条笔记的信息量</b>。这样我们复习时每次只需要面对一小块知识点，我们的处理速度就能跟上接收速度。这样一来，我们的<b>专注度</b>就<b>提升</b>了，持续学习下去的<b>阻碍</b>也<b>减少</b>了。</p><p data-pid=\"dO6rVIAl\">​       <b>举例二</b>：看书时印象深刻，但是忘记的非常快，哪怕之后不断重新回看。</p><p data-pid=\"Grg-Ux7R\">​       高太爷 的答案：自我检测效果要远远好于复读和背诵，更加有利于知识的掌握、理解。</p><p data-pid=\"3MiuEqzP\">​       Anki的解决办法：用正反面卡片的形式复习，促使我们主动回忆知识，这便是自我检测。毕竟，知识<b>不用就会忘记</b>，让Anki来提醒你使用你的知识。</p><p data-pid=\"0Yh0bLc8\">​       <b>举例三</b>：错题本做了，可是每次复习错题都很吃力，而且错题不断增加，甚至有种错过一次还错的感觉。</p><p data-pid=\"bwfKcnvr\">​       我 的答案：错题本如果只是收录错题，就无法调用知识间的联系来加深我们的理解。特别是每天的错题都来自不同的模块，一起复习时我们就要不断的提取关联性不大的知识，这反而会降低对单独模块的印象。</p><p data-pid=\"-h3ohYGE\">​       Anki 的解决方法：按照牌组来归纳错题，在错题的复习过程中寻找相似的套路，并随时在卡片上记录自己的心得。</p><p data-pid=\"JOoKXekt\"><b>通过对学习方法的深度探索，我最终找到了“Anki”这一最优解，实现了高考的逆袭，也改变了一生的命运</b>。所以，作为今年刚毕业的学长，我希望告诉各位学弟学妹：</p><ol><li data-pid=\"6-S1KC4m\">对于普通人来说，<b>学习方法&gt;努力&gt;天赋</b>；</li><li data-pid=\"KusLSjA4\">开始探索自己学习方法的最好时机是10年前，其次就是<b>现在</b>；</li><li data-pid=\"zZp6U0GM\">需要依靠太多意志和自控力的方法，都不是好方法。</li><li data-pid=\"oN8HT4z7\">对Anki有兴趣的同学可以关注一下<a href=\"https://zhuanlan.zhihu.com/ankigaokao\" class=\"internal\">我的专栏</a>了解一下。</li></ol><p data-pid=\"EUgaeqbs\">教程：</p><p data-pid=\"tuH_jYAm\"><a href=\"https://zhuanlan.zhihu.com/p/41251789\" class=\"internal\">AnkiDroid不会用？一篇解决“所有”问题！</a></p>",
+  "content": "<p data-pid=\"OzP87HLN\">​我推荐Anki，我刚用它完成高考逆袭。</p><p data-pid=\"9BBE7qFl\"><a href=\"https://zhuanlan.zhihu.com/p/41568928\" class=\"internal\" target=\"_blank\">你想知道如何高考逆袭吗？</a><br/><a href=\"https://zhuanlan.zhihu.com/p/41568928\" class=\"internal\" target=\"_blank\">看我怎样从本一线上涨157分！</a></p><p data-pid=\"ow5Y4S-T\">       Anki是一款美国的学习辅助软件，开源软件，免费使用；</p><p data-pid=\"SGhWdKtx\">​       它的基本原理可以描述为三个方面：</p><p data-pid=\"sS1yKw8D\">一、通过“卡片式学习法”，将知识点碎片化，问题和答案分离，逐条掌握知识；</p><p data-pid=\"sPs1Qfbz\">二、通过分类与标签管理已有的知识点，使现有知识点条理清晰；</p><p data-pid=\"2gwUN__4\">三、通过“艾宾浩斯遗忘曲线”算法，精确掌握每张卡片的复习时间，成倍提高复习效率。</p><p data-pid=\"kRMkQe-f\">也就是说，通过任意材料（书本、网课、课堂）+Anki，将学习材料中不明白的、需要重点掌握的知识，录入Anki中，就可以实现“高效学习+科学知识管理+精准复习”的学习闭环，无需考虑遗忘，无需反复复习学习过的材料，完全由Anki的算法告诉你你复习任务，整个学习路线清晰明朗。</p><p data-pid=\"siFEyCI7\">以下是Anki的界面图以及我的使用情况，请大家感受其中蕴含的精妙原理。</p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-c655c0cdb591a4317d5d52514db9d888_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"634\" data-rawheight=\"542\" data-original-token=\"v2-b7bc9d68cc3bad4191d13f9c9ee9231d\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-d9a641a697f7c377f601ead979040ecf_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"634\" data-original=\"https://pic1.zhimg.com/v2-c655c0cdb591a4317d5d52514db9d888_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;634&#39; height=&#39;542&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"634\" data-rawheight=\"542\" data-original-token=\"v2-b7bc9d68cc3bad4191d13f9c9ee9231d\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-d9a641a697f7c377f601ead979040ecf_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"634\" data-original=\"https://pic1.zhimg.com/v2-c655c0cdb591a4317d5d52514db9d888_r.jpg?source=2c26e567\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-c655c0cdb591a4317d5d52514db9d888_720w.jpg?source=2c26e567\"/></figure><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-73bc767e2336fa44ba5d7d9face3b2d3_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"406\" data-rawheight=\"898\" data-original-token=\"v2-f562556dce91ce47c4116ffb2048f413\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-b4727d744358ed814711d9d130853e7a_720w.jpg?source=2c26e567\" class=\"content_image\" width=\"406\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;406&#39; height=&#39;898&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"406\" data-rawheight=\"898\" data-original-token=\"v2-f562556dce91ce47c4116ffb2048f413\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-b4727d744358ed814711d9d130853e7a_720w.jpg?source=2c26e567\" class=\"content_image lazy\" width=\"406\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-73bc767e2336fa44ba5d7d9face3b2d3_720w.jpg?source=2c26e567\"/></figure><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-dbb46ba91b8a2d146af81d7457003a8f_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"752\" data-rawheight=\"532\" data-original-token=\"v2-05b36cc23a3d0c03b411e61f574f6c00\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-48275c3c6e465856cb4c0dc495275a8f_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"752\" data-original=\"https://picx.zhimg.com/v2-dbb46ba91b8a2d146af81d7457003a8f_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;752&#39; height=&#39;532&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"752\" data-rawheight=\"532\" data-original-token=\"v2-05b36cc23a3d0c03b411e61f574f6c00\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-48275c3c6e465856cb4c0dc495275a8f_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"752\" data-original=\"https://picx.zhimg.com/v2-dbb46ba91b8a2d146af81d7457003a8f_r.jpg?source=2c26e567\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-dbb46ba91b8a2d146af81d7457003a8f_720w.jpg?source=2c26e567\"/></figure><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-e28d7ee97005cf06369a5a43e94f751d_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"880\" data-rawheight=\"476\" data-original-token=\"v2-7f6c3952543d8aa75a7ad55375eefd78\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-2349f93c4f44a050e22d7c7243652634_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"880\" data-original=\"https://pic1.zhimg.com/v2-e28d7ee97005cf06369a5a43e94f751d_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;880&#39; height=&#39;476&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"880\" data-rawheight=\"476\" data-original-token=\"v2-7f6c3952543d8aa75a7ad55375eefd78\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-2349f93c4f44a050e22d7c7243652634_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"880\" data-original=\"https://pic1.zhimg.com/v2-e28d7ee97005cf06369a5a43e94f751d_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-e28d7ee97005cf06369a5a43e94f751d_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"IzAVez7T\">​       我结合了很多学习理论和方法并运用到Anki中：</p><p data-pid=\"cWV_qp_j\">​       <b>举例一</b>：许多人看网络小说可以十分专注，但是一看教科书就走神。这是为什么呢？</p><p data-pid=\"f4H7AV9O\">​       Will Zhang 的答案：当我们处理信息的速度趋近于接收信息的速度时，我们容易长时间集中注意力。网络小说信息量是不及教科书的，更不用说我们看网络小说一目十行，中间全靠脑补，照样可以看懂剧情。但是教科书信息量密集，我们跟不上教科书的思维，可能因为不知道他说这些是在干嘛，也可能因为不知道他要干嘛，看了一会儿我们自然就很容易地丢失了注意力。</p><p data-pid=\"gOOexr8P\">​       Anki的解决办法：尽可能<b>减少一条笔记的信息量</b>。这样我们复习时每次只需要面对一小块知识点，我们的处理速度就能跟上接收速度。这样一来，我们的<b>专注度</b>就<b>提升</b>了，持续学习下去的<b>阻碍</b>也<b>减少</b>了。</p><p data-pid=\"dO6rVIAl\">​       <b>举例二</b>：看书时印象深刻，但是忘记的非常快，哪怕之后不断重新回看。</p><p data-pid=\"Grg-Ux7R\">​       高太爷 的答案：自我检测效果要远远好于复读和背诵，更加有利于知识的掌握、理解。</p><p data-pid=\"3MiuEqzP\">​       Anki的解决办法：用正反面卡片的形式复习，促使我们主动回忆知识，这便是自我检测。毕竟，知识<b>不用就会忘记</b>，让Anki来提醒你使用你的知识。</p><p data-pid=\"0Yh0bLc8\">​       <b>举例三</b>：错题本做了，可是每次复习错题都很吃力，而且错题不断增加，甚至有种错过一次还错的感觉。</p><p data-pid=\"bwfKcnvr\">​       我 的答案：错题本如果只是收录错题，就无法调用知识间的联系来加深我们的理解。特别是每天的错题都来自不同的模块，一起复习时我们就要不断的提取关联性不大的知识，这反而会降低对单独模块的印象。</p><p data-pid=\"-h3ohYGE\">​       Anki 的解决方法：按照牌组来归纳错题，在错题的复习过程中寻找相似的套路，并随时在卡片上记录自己的心得。</p><p data-pid=\"JOoKXekt\"><b>通过对学习方法的深度探索，我最终找到了“Anki”这一最优解，实现了高考的逆袭，也改变了一生的命运</b>。所以，作为今年刚毕业的学长，我希望告诉各位学弟学妹：</p><ol><li data-pid=\"6-S1KC4m\">对于普通人来说，<b>学习方法&gt;努力&gt;天赋</b>；</li><li data-pid=\"KusLSjA4\">开始探索自己学习方法的最好时机是10年前，其次就是<b>现在</b>；</li><li data-pid=\"zZp6U0GM\">需要依靠太多意志和自控力的方法，都不是好方法。</li><li data-pid=\"oN8HT4z7\">对Anki有兴趣的同学可以关注一下<a href=\"https://zhuanlan.zhihu.com/ankigaokao\" class=\"internal\" target=\"_blank\">我的专栏</a>了解一下。</li></ol><p data-pid=\"EUgaeqbs\">教程：</p><p data-pid=\"tuH_jYAm\"><a href=\"https://zhuanlan.zhihu.com/p/41251789\" class=\"internal\" target=\"_blank\">AnkiDroid不会用？一篇解决“所有”问题！</a></p>",
   "content_need_truncated": false,
   "created_time": 1533723163,
   "excerpt": "我推荐Anki，我刚用它完成高考逆袭。 你想知道如何高考逆袭吗？ 看我怎样从本一线上涨157分！ Anki是一款美国的学习辅助软件，开源软件，免费使用； 它的基本原理可以描述为三个方面： 一、通过“卡片式学习法”，将知识点碎片化，问题和答案分离，逐条掌握知识； 二、通过分类与标签管理已有的知识点，使现有知识点条理清晰； 三、通过“艾宾浩斯遗忘曲线”算法，精确掌握每张卡片的复习时间，成倍提高复习效率。 也就是说，通…",
-  "id": 463871317,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "463871317",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=463871317&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1423405898,
     "detail": "<p>未找到好用的、版面清晰的、资料内容很新的应用程序（本人虽然是高中生，但大家推荐内容可以不限年龄）。</p>",
-    "id": 28070701,
+    "id": "28070701",
     "question_type": "normal",
     "relationship": {},
     "title": "有哪些有利于学习的APP？",
     "type": "question",
     "updated_time": 1593759058,
-    "url": "https://api.zhihu.com/questions/28070701"
+    "url": "https://www.zhihu.com/api/v4/questions/28070701"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1533728185,
+  "url": "https://www.zhihu.com/api/v4/answers/463871317",
   "voteup_count": 5
 }

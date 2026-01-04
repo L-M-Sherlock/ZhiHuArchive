@@ -1,74 +1,345 @@
 {
-  "status": 0,
+  "id": "552263007",
+  "title": "有效的系统设计需要从真刀真枪的使用情境汲取洞见",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/552263007",
+  "image_url": "",
+  "title_image": "",
+  "excerpt": "粗制而成的原型很不错：由此能开展粗糙的迭代和快速评估。但是，许多重要的洞见，只有依托于真刀真枪的创造性问题才能够涌现，这些问题与原型系统本身无关。这是 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7YyAp683VNbTmDG4hx9QFpf5urwxZJpsycS6\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">实践出洞见</a>[1]提出的一个关键主张。听起来像是标准做法：系统当然需要经过评估！但大多数系统…",
+  "created": 1660180169,
   "updated": 1716011972,
   "author": {
     "is_followed": false,
-    "badge": [],
-    "name": "Jarrett Ye",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
-    "gender": 1,
+    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+    "uid": "1521893281407864832",
     "user_type": "people",
-    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
-    "avatar_url": "https://picx.zhimg.com/50/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=b1748391",
     "is_following": false,
+    "url_token": "JarrettYe",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+    "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+    "name": "Jarrett Ye",
+    "is_advertiser": false,
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "gender": 1,
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+    "is_org": false,
     "type": "people",
-    "id": "3c9990a12cdbcd92e20b1387b160f0a3"
+    "badge": [],
+    "badge_v2": {
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "merged_badges": [],
+      "detail_badges": [],
+      "icon": "",
+      "night_icon": ""
+    },
+    "exposed_medal": {
+      "medal_id": "1463836052717301760",
+      "medal_name": "知「势」之星",
+      "avatar_url": "https://picx.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_l.png?source=172ae18b",
+      "description": "「知势榜」上榜答主即可获得",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "粗制而成的原型很不错：由此能开展粗糙的迭代和快速评估。但是，许多重要的洞见，只…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 0,
+  "image_height": 0,
+  "content": "<p data-pid=\"z4YTenCG\">粗制而成的原型很不错：由此能开展粗糙的迭代和快速评估。但是，许多重要的洞见，只有依托于真刀真枪的创造性问题才能够涌现，这些问题与原型系统本身无关。这是<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7YyAp683VNbTmDG4hx9QFpf5urwxZJpsycS6\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">实践出洞见</a><sup data-text=\"实践出洞见\" data-url=\"https://zhuanlan.zhihu.com/p/521844479\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>提出的一个关键主张。</p><p data-pid=\"qukRZkbW\">听起来像是标准做法：系统当然需要经过评估！但大多数系统设计者并不认真对待「真刀真枪」：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zs5uUEv9iJH7JuAmsCChxBEMP2zW6CRbiAWE\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">工具制作者通常缺乏与真刀真枪的使用环境的联系</a>。</p><p data-pid=\"O1uUtMj8\">理论寓于系统之中。观察系统与现实相互作用，可以从中获得见解，对后续完善理论有所帮助。这些见解的成色，与系统的使用场景息息相关。如果系统没有经过真刀真枪地使用，得到的见解也就是单纯坐而论道者能够想到的，不建造系统也可以实现。</p><p data-pid=\"EOQNNTDl\">皮克斯是很好的例子。这家动画公司创造了真刀真枪的使用环境，反过来又推动了系统设计：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z45gUHaD2DcqH3zMWhwHaXESZLCWWk6tHLDi6\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">皮克斯的电影和技术发展是啮合紧密的飞轮</a>。</p><p data-pid=\"BrB9Hqon\">常见挑战：</p><ul><li data-pid=\"nYR6g8S6\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zagVn3aaVDFhU4JhGCntgs88oHMJSpzu7ar\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">优秀的工具制造者往往不是优秀的工具使用者，反之亦然</a><br/> <br/></li><li data-pid=\"zAtPFDJN\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7Rdcpa64TtUx6s5dNtLgZpFR6G3G6YpoD4ks\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">研究思想工具的团体需要足够的能力来建立足以用于严肃工作的原型</a><sup data-text=\"研究思想工具的团体需要足够的能力来建立足以用于严肃工作的原型\" data-url=\"https://zhuanlan.zhihu.com/p/582796159\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup><br/> </li></ul><p data-pid=\"T8cDuCQ4\">相关理论：</p><ul><li data-pid=\"0GaJ9vGd\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4N6d29XL2PZXCa64HPcxA64RGWDb6Cagc1gs\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">强大的赋能环境通常是追求自身内在意义的项目的副产品</a><sup data-text=\"强大的赋能环境通常是追求自身内在意义的项目的副产品\" data-url=\"https://zhuanlan.zhihu.com/p/558196133\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup><br/> <br/></li><li data-pid=\"O1DrPtMP\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z34mYTEEEQcrywWkoNnz1Fzr8NmwaDsVRNgTK\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">创制环境极大程度受作者的动机塑造</a><sup data-text=\"创制环境极大程度由作者的动机塑造\" data-url=\"https://zhuanlan.zhihu.com/p/463811042\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup><br/> <br/></li><li data-pid=\"crfdP6dt\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8jg7T3YhvyXiEpy4humYAioLUEjnrdZgwHYs\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">强大的赋能环境注重专业用例</a><sup data-text=\"强大的赋能环境注重专业用例\" data-url=\"https://zhuanlan.zhihu.com/p/638575951\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup><br/> </li></ul><hr/><h3>参考文献</h3><p data-pid=\"9u-R3vbu\">Matuschak, A., &amp; Nielsen, M. (2019). How can we develop transformative tools for thought?<sup data-text=\"我们如何才能开发出变革性的思想工具？\" data-url=\"https://zhuanlan.zhihu.com/p/394795804\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup> Retrieved December 2, 2019, from <a href=\"https://link.zhihu.com/?target=https%3A//numinous.productions/ttft\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">numinous.productions/tt</span><span class=\"invisible\">ft</span><span class=\"ellipsis\"></span></a></p><blockquote data-pid=\"shPYPZkO\">具体来说：假设你想为 X 学科（比如 X=微分几何）建立工具。没有深入研习这门学科，是难以创造优质工具的。这就像没有沾过木头就像创作木工工具一样。<b>Mathematica</b> 这样的工具趁手好用的原因也在于此——Stephen Wolfram 这一主要设计者，对数学和物理这两门学科抱有由衷的研究兴趣，具备制作优质工具的先决条件。当然，也有些 Mathematica 部件不如人意：这些部件简直像玩具一样，估计 Wolfram 公司内部也没有怎么认真使用过。</blockquote><p data-pid=\"B4S2Vdqu\">Brooks, F. P., Jr. (1994). The Computer Scientist as Toolsmith II <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3H98n8DGZmu8XArqHZVsckyWvbTe8wK4kAt2\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">ACM Allen Newell Award Lecture</a>. SIGGRAPH.</p><blockquote data-pid=\"EVPpo2k8\">我们因而能聚焦于关键问题，而不只是课后练习或者小儿科问题。<br/><br/>我们因而能对成败开诚布公，而不轻易愚弄自己。<br/><br/>我们因而能直面<b>完整</b>问题，而不只是简单的，或数学理论完美解决的地方。例如，计算几何中，我们不能避开三重共线点或者四重共面点的情况，不能掩耳盗铃假装病态条件不存在。<br/><br/>直面完整问题，迫使我们学习更多知识，甚至往往要进军至从未踏足过的疆域，发展计算机科学最前沿。<br/><br/>除此之外，你实则已迫近领军者之列，其中有揭秘蛋白质原理、设计出潜水艇，实现纳米制造的先驱。如今，你要与他们挥手作别，向无尽疆界更进一步，实为乐也。</blockquote><p data-pid=\"Bm-Xow1Q\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/Guo%252C_P._%282021%29._Ten_Million_Users_and_Ten_Years_Later\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Python Tutor’s Design Guidelines for Building Scalable and Sustainable Research Software in Academia. In The 34th Annual ACM Symposium on User Interface Software and Technology (pp. 1235–1251). Association for Computing Machinery</a></p><blockquote data-pid=\"H_HvFGGJ\">软件研究者想写出令人肃然起敬的学术论文，便力求想出适于推广的高层次想法，并为此建造系统。但是我们认为，在推广上用力过度，实际上不利于系统扩大规模，运行持久。为了创造生而不息，受众自然聚集的软件，必须从具体处入手。<br/><br/>在 2009 年，我们创造了 Python Tutor 网站，目标非常具体：为学生和导师（比如我们自己）提供一种方便的方式，逐步浏览 Python 代码并查看变量的值。</blockquote><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"7qWXEary\"><a href=\"https://zhuanlan.zhihu.com/p/698476935\" class=\"internal\" target=\"_blank\">§赋能环境、游戏和《启蒙琼林》</a></li><li data-pid=\"THIY0qvz\"><a href=\"https://zhuanlan.zhihu.com/p/521844479\" class=\"internal\" target=\"_blank\">实践出洞见</a></li><li data-pid=\"6zCOCvs8\"><a href=\"https://zhuanlan.zhihu.com/p/484620977\" class=\"internal\" target=\"_blank\">实践出洞见时，建议摸石头过河而不是先画蓝图</a></li><li data-pid=\"WikqpWBF\"><a href=\"https://zhuanlan.zhihu.com/p/428442216\" class=\"internal\" target=\"_blank\">对笔记写作大谈特谈的人很少有严肃的使用场景</a></li><li data-pid=\"aSBBlnEa\"><a href=\"https://zhuanlan.zhihu.com/p/500973639\" class=\"internal\" target=\"_blank\">过早的扩大规模会阻碍系统的迭代</a></li><li data-pid=\"wrsvOLCl\"><a href=\"https://zhuanlan.zhihu.com/p/558196133\" class=\"internal\" target=\"_blank\">强大的赋能环境通常是追求自身内在意义的项目的副产品</a></li><li data-pid=\"rfQxZDkZ\"><a href=\"https://zhuanlan.zhihu.com/p/571702216\" class=\"internal\" target=\"_blank\">灵感源泉在何方？</a></li><li data-pid=\"B-XgyOEd\"><a href=\"https://zhuanlan.zhihu.com/p/582796159\" class=\"internal\" target=\"_blank\">研究思想工具的团体需要足够的能力来建立足以用于严肃工作的原型</a></li><li data-pid=\"OChatjtk\"><a href=\"https://zhuanlan.zhihu.com/p/599284700\" class=\"internal\" target=\"_blank\">助记媒介应该为那些服务于有意义的使用的学习而开发</a></li><li data-pid=\"INp14IQ3\"><a href=\"https://zhuanlan.zhihu.com/p/603624798\" class=\"internal\" target=\"_blank\">助记媒介应针对真正需要流利掌握知识的情景而开发</a></li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"6TvUp4Ep\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3H98n8DGZmu8XArqHZVsckyWvbTe8wK4kAt2\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Effective system design requires insights drawn from serious contexts of use (andymatuschak.org)</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
-  "reason": "",
-  "excerpt_title": "",
-  "id": 552263007,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19572259",
+      "type": "topic",
+      "id": "19572259",
+      "name": "系统设计"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19569273",
+      "type": "topic",
+      "id": "19569273",
+      "name": "实践"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19552777",
+      "type": "topic",
+      "id": "19552777",
+      "name": "环境"
+    }
+  ],
   "voteup_count": 7,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "助记媒介在叙事性散文中嵌入了间隔重复记忆系统",
+    "is_following": false,
+    "url_token": "c_1525784109008203776",
+    "id": "c_1525784109008203776",
+    "articles_count": 189,
+    "accept_submission": true,
+    "title": "助记媒介 & 思想工具",
+    "url": "https://api.zhihu.com/columns/c_1525784109008203776",
+    "comment_permission": "all",
+    "created": 1656555279,
+    "updated": 1751877351,
+    "image_url": "https://picx.zhimg.com/v2-f4040c00796b5bb3ba64980f9be88d6f_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 66,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 0,
+  "contributions": [
+    {
+      "id": 41989641,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "助记媒介在叙事性散文中嵌入了间隔重复记忆系统",
+        "is_following": false,
+        "url_token": "c_1525784109008203776",
+        "id": "c_1525784109008203776",
+        "articles_count": 189,
+        "accept_submission": true,
+        "title": "助记媒介 & 思想工具",
+        "url": "https://api.zhihu.com/columns/c_1525784109008203776",
+        "comment_permission": "all",
+        "created": 1656555279,
+        "updated": 1751877351,
+        "image_url": "https://picx.zhimg.com/v2-f4040c00796b5bb3ba64980f9be88d6f_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 66,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "can_open_tipjar": true,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 6,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "有效的系统设计需要从真刀真枪的使用情境汲取洞见 - 来自知乎专栏「助记媒介 &amp; 思想工具」，作者: Jarrett Ye https://zhuanlan.zhihu.com/p/552263007 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1660180169,
-  "url": "https://api.zhihu.com/articles/552263007",
-  "comment_permission": "all",
-  "title": "有效的系统设计需要从真刀真枪的使用情境汲取洞见",
-  "content": "<p data-pid=\"z4YTenCG\">粗制而成的原型很不错：由此能开展粗糙的迭代和快速评估。但是，许多重要的洞见，只有依托于真刀真枪的创造性问题才能够涌现，这些问题与原型系统本身无关。这是<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7YyAp683VNbTmDG4hx9QFpf5urwxZJpsycS6\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">实践出洞见</a><sup data-text=\"实践出洞见\" data-url=\"https://zhuanlan.zhihu.com/p/521844479\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>提出的一个关键主张。</p><p data-pid=\"qukRZkbW\">听起来像是标准做法：系统当然需要经过评估！但大多数系统设计者并不认真对待「真刀真枪」：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zs5uUEv9iJH7JuAmsCChxBEMP2zW6CRbiAWE\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">工具制作者通常缺乏与真刀真枪的使用环境的联系</a>。</p><p data-pid=\"O1uUtMj8\">理论寓于系统之中。观察系统与现实相互作用，可以从中获得见解，对后续完善理论有所帮助。这些见解的成色，与系统的使用场景息息相关。如果系统没有经过真刀真枪地使用，得到的见解也就是单纯坐而论道者能够想到的，不建造系统也可以实现。</p><p data-pid=\"EOQNNTDl\">皮克斯是很好的例子。这家动画公司创造了真刀真枪的使用环境，反过来又推动了系统设计：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z45gUHaD2DcqH3zMWhwHaXESZLCWWk6tHLDi6\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">皮克斯的电影和技术发展是啮合紧密的飞轮</a>。</p><p data-pid=\"BrB9Hqon\">常见挑战：</p><ul><li data-pid=\"nYR6g8S6\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zagVn3aaVDFhU4JhGCntgs88oHMJSpzu7ar\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">优秀的工具制造者往往不是优秀的工具使用者，反之亦然</a><br/> <br/></li><li data-pid=\"zAtPFDJN\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7Rdcpa64TtUx6s5dNtLgZpFR6G3G6YpoD4ks\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">研究思想工具的团体需要足够的能力来建立足以用于严肃工作的原型</a><sup data-text=\"研究思想工具的团体需要足够的能力来建立足以用于严肃工作的原型\" data-url=\"https://zhuanlan.zhihu.com/p/582796159\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup><br/> </li></ul><p data-pid=\"T8cDuCQ4\">相关理论：</p><ul><li data-pid=\"0GaJ9vGd\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4N6d29XL2PZXCa64HPcxA64RGWDb6Cagc1gs\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">强大的赋能环境通常是追求自身内在意义的项目的副产品</a><sup data-text=\"强大的赋能环境通常是追求自身内在意义的项目的副产品\" data-url=\"https://zhuanlan.zhihu.com/p/558196133\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup><br/> <br/></li><li data-pid=\"O1DrPtMP\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z34mYTEEEQcrywWkoNnz1Fzr8NmwaDsVRNgTK\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">创制环境极大程度受作者的动机塑造</a><sup data-text=\"创制环境极大程度由作者的动机塑造\" data-url=\"https://zhuanlan.zhihu.com/p/463811042\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup><br/> <br/></li><li data-pid=\"crfdP6dt\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8jg7T3YhvyXiEpy4humYAioLUEjnrdZgwHYs\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">强大的赋能环境注重专业用例</a><sup data-text=\"强大的赋能环境注重专业用例\" data-url=\"https://zhuanlan.zhihu.com/p/638575951\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup><br/> </li></ul><hr/><h3>参考文献</h3><p data-pid=\"9u-R3vbu\">Matuschak, A., &amp; Nielsen, M. (2019). How can we develop transformative tools for thought?<sup data-text=\"我们如何才能开发出变革性的思想工具？\" data-url=\"https://zhuanlan.zhihu.com/p/394795804\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup> Retrieved December 2, 2019, from <a href=\"https://link.zhihu.com/?target=https%3A//numinous.productions/ttft\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">numinous.productions/tt</span><span class=\"invisible\">ft</span><span class=\"ellipsis\"></span></a></p><blockquote data-pid=\"shPYPZkO\">具体来说：假设你想为 X 学科（比如 X=微分几何）建立工具。没有深入研习这门学科，是难以创造优质工具的。这就像没有沾过木头就像创作木工工具一样。<b>Mathematica</b> 这样的工具趁手好用的原因也在于此——Stephen Wolfram 这一主要设计者，对数学和物理这两门学科抱有由衷的研究兴趣，具备制作优质工具的先决条件。当然，也有些 Mathematica 部件不如人意：这些部件简直像玩具一样，估计 Wolfram 公司内部也没有怎么认真使用过。</blockquote><p data-pid=\"B4S2Vdqu\">Brooks, F. P., Jr. (1994). The Computer Scientist as Toolsmith II <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3H98n8DGZmu8XArqHZVsckyWvbTe8wK4kAt2\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">ACM Allen Newell Award Lecture</a>. SIGGRAPH.</p><blockquote data-pid=\"EVPpo2k8\">我们因而能聚焦于关键问题，而不只是课后练习或者小儿科问题。<br/><br/>我们因而能对成败开诚布公，而不轻易愚弄自己。<br/><br/>我们因而能直面<b>完整</b>问题，而不只是简单的，或数学理论完美解决的地方。例如，计算几何中，我们不能避开三重共线点或者四重共面点的情况，不能掩耳盗铃假装病态条件不存在。<br/><br/>直面完整问题，迫使我们学习更多知识，甚至往往要进军至从未踏足过的疆域，发展计算机科学最前沿。<br/><br/>除此之外，你实则已迫近领军者之列，其中有揭秘蛋白质原理、设计出潜水艇，实现纳米制造的先驱。如今，你要与他们挥手作别，向无尽疆界更进一步，实为乐也。</blockquote><p data-pid=\"Bm-Xow1Q\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/Guo%252C_P._%282021%29._Ten_Million_Users_and_Ten_Years_Later\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Python Tutor’s Design Guidelines for Building Scalable and Sustainable Research Software in Academia. In The 34th Annual ACM Symposium on User Interface Software and Technology (pp. 1235–1251). Association for Computing Machinery</a></p><blockquote data-pid=\"H_HvFGGJ\">软件研究者想写出令人肃然起敬的学术论文，便力求想出适于推广的高层次想法，并为此建造系统。但是我们认为，在推广上用力过度，实际上不利于系统扩大规模，运行持久。为了创造生而不息，受众自然聚集的软件，必须从具体处入手。<br/><br/>在 2009 年，我们创造了 Python Tutor 网站，目标非常具体：为学生和导师（比如我们自己）提供一种方便的方式，逐步浏览 Python 代码并查看变量的值。</blockquote><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"7qWXEary\"><a href=\"https://zhuanlan.zhihu.com/p/698476935\" class=\"internal\">§赋能环境、游戏和《启蒙琼林》</a></li><li data-pid=\"THIY0qvz\"><a href=\"https://zhuanlan.zhihu.com/p/521844479\" class=\"internal\">实践出洞见</a></li><li data-pid=\"6zCOCvs8\"><a href=\"https://zhuanlan.zhihu.com/p/484620977\" class=\"internal\">实践出洞见时，建议摸石头过河而不是先画蓝图</a></li><li data-pid=\"WikqpWBF\"><a href=\"https://zhuanlan.zhihu.com/p/428442216\" class=\"internal\">对笔记写作大谈特谈的人很少有严肃的使用场景</a></li><li data-pid=\"aSBBlnEa\"><a href=\"https://zhuanlan.zhihu.com/p/500973639\" class=\"internal\">过早的扩大规模会阻碍系统的迭代</a></li><li data-pid=\"wrsvOLCl\"><a href=\"https://zhuanlan.zhihu.com/p/558196133\" class=\"internal\">强大的赋能环境通常是追求自身内在意义的项目的副产品</a></li><li data-pid=\"rfQxZDkZ\"><a href=\"https://zhuanlan.zhihu.com/p/571702216\" class=\"internal\">灵感源泉在何方？</a></li><li data-pid=\"B-XgyOEd\"><a href=\"https://zhuanlan.zhihu.com/p/582796159\" class=\"internal\">研究思想工具的团体需要足够的能力来建立足以用于严肃工作的原型</a></li><li data-pid=\"OChatjtk\"><a href=\"https://zhuanlan.zhihu.com/p/599284700\" class=\"internal\">助记媒介应该为那些服务于有意义的使用的学习而开发</a></li><li data-pid=\"INp14IQ3\"><a href=\"https://zhuanlan.zhihu.com/p/603624798\" class=\"internal\">助记媒介应针对真正需要流利掌握知识的情景而开发</a></li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"6TvUp4Ep\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3H98n8DGZmu8XArqHZVsckyWvbTe8wK4kAt2\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Effective system design requires insights drawn from serious contexts of use (andymatuschak.org)</a></blockquote>",
-  "column": {
-    "updated": 1656897956,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Jarrett Ye",
-      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "3c9990a12cdbcd92e20b1387b160f0a3"
-    },
-    "url": "https://api.zhihu.com/columns/c_1525784109008203776",
-    "title": "助记媒介 & 思想工具",
-    "image_url": "https://pic1.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1525784109008203776"
-  },
-  "comment_count": 0,
-  "image_url": "",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 1,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 1,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMTA4NTgwMDkSCTU1MjI2MzAwNxgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 7,
+      "down_vote_count": 0,
+      "like_count": 1,
+      "comment_count": 0,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 6,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": true,
+      "vote": "Neutral",
+      "liked": false,
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {}
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=552263007&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 助记媒介 & 思想工具",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525784109008203776",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 助记媒介 & 思想工具"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

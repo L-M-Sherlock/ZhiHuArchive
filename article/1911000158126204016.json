@@ -1,80 +1,487 @@
 {
-  "status": 0,
+  "id": "1911000158126204016",
+  "title": "锚定与调整效应",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/1911000158126204016",
+  "image_url": "https://pic1.zhimg.com/v2-54ae6d8b5a8ed2e0e5a02e44a0bfb4e4_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-54ae6d8b5a8ed2e0e5a02e44a0bfb4e4_720w.jpg?source=172ae18b",
+  "excerpt": "假设我当着你的面转动一个幸运轮盘，最终指针停在了数字 65 上。然后我问你：你认为联合国中非洲国家所占的百分比，是高于、还是低于这个数字？你认为联合国中非洲国家的实际百分占比是多少？如果你愿意，可以花点时间自己思考一下这两个问题，但请不要上网…",
+  "created": 1748404331,
   "updated": 1756981352,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://pica.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://pica.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "假设我当着你的面转动一个幸运轮盘，最终指针停在了数字 65 上。然后我问你：你认为…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 4913,
+  "image_height": 3275,
+  "content": "<p data-pid=\"YQr61mxw\">假设我当着你的面转动一个幸运轮盘，最终指针停在了数字 65 上。然后我问你：你认为联合国中非洲国家所占的百分比，是高于、还是低于这个数字？你认为联合国中非洲国家的实际百分占比是多少？如果你愿意，可以花点时间自己思考一下这两个问题，但请不要上网搜索答案。</p><p data-pid=\"YcIL8noQ\">另外，请尝试在<b>五秒钟</b>之内，估算以下算术表达式的结果。五秒钟。准备好了吗？预备……<b>开始！</b></p><p data-pid=\"E-_UUigA\">1 × 2 × 3 × 4 × 5 × 6 × 7 × 8</p><p data-pid=\"FM0ruxeb\">Tversky 与 Kahneman 记下了受试者们给出的估值。这些受试者看到的幸运轮盘数字各有不同。[1] 看到轮盘指向 65 的受试者们，其估值中位数为 45%；看到轮盘指向 10 的受试者们，其给出的估值中位数为 25%。</p><p data-pid=\"0bvS0fEa\">对于此实验及类似实验，目前的理论解释是：受试者会将最初那个并无信息价值的数字作为思考的起点或<b>锚点</b>；之后，他们会基于这个初始估值，向上或向下进行<b>调整</b>，直到得出一个「听起来似乎合理」的答案，随后停止调整。这通常会导致从锚点出发的调整不充分——与锚点相距更远的数字同样可能「合理」，但人们往往在在得到第一个听起来还算满意的答案时就停下了。</p><p data-pid=\"NKuuA0em\">类似地，看到算式「1 × 2 × 3 × 4 × 5 × 6 × 7 × 8」的学生们，其估值中位数为 512；而看到算式「8 × 7 × 6 × 5 × 4 × 3 × 2 × 1」的学生们，其估值中位数为 2250。该实验意图验证的设想是，学生们会尝试计算（或猜测性地组合）乘积中的前几个因子，然后以此为基础，向上调整。在这两种情况下，相对于 40320 的真实答案，其调整幅度都明显不足，但第一组的猜测值偏差更大——因为他们一开始的锚点更低。</p><p data-pid=\"Eus0B1Bk\">Tversky 与 Kahneman 报告称，即便为准确估算提供奖励，也未能削弱锚定效应的影响。</p><p data-pid=\"tLrGOKXh\">Strack 与 Mussweiler 曾让受试者估算爱因斯坦首次访问美国的年份。[2] 实验发现，即便是像 1215 年或 1992 年这样完全不合理的锚点，其所产生的锚定效应，与那些更为合理的锚点（例如 1905 年或 1939 年）相比，强度并无二致。</p><p data-pid=\"59rlY0LA\">在诸如薪资谈判或购买汽车等情境中，该效应显然有其应用价值。我并非建议你利用这一点，但务必警惕试图利用该效应的人。</p><p data-pid=\"g4sDyROQ\">同时，留心审视自己的思考过程，试着留意在估算过程中，自己是否是在以某个数字为基础进行<b>调整</b>。</p><p data-pid=\"SMa8kTGv\">针对锚定效应的纠偏方法，通常效果都不太理想。我谨建议以下两种策略：首先，如果最初的猜测听起来不合理，那就试着完全抛开它，从头开始估算，而不是以它为基准上下调整。但仅凭这一点可能还不够——即便被明确告知要避免锚定效应，受试者似乎依然会受到影响。[3] 因此，方法二：在尝试第一种方法的过程中，不妨同时试着在反方向设定第二个锚点——一个明显偏高或偏低的锚点，以对应第一个明显偏低或偏高的锚点——并对此思考一番。</p><h2>脚注</h2><p data-pid=\"5fhPA96T\">[1] Amos Tversky and Daniel Kahneman, “Judgment Under Uncertainty: Heuristics and Biases,” <i>Science</i> 185, no. 4157 (1974): 1124–1131, doi:10.1126/science.185.4157.1124.</p><p data-pid=\"aDZ1qc3z\">[2] Fritz Strack and Thomas Mussweiler, “Explaining the Enigmatic Anchoring Effect: Mechanisms of Selective Accessibility,” <i>Journal of Personality and Social Psychology</i> 73, no. 3 (1997): 437–446.</p><p data-pid=\"9v6M-oJV\">[3] George A. Quattrone et al., “Explorations in Anchoring: The Effects of Prior Range, Anchor Extremity, and Suggestive Hints” (Unpublished manuscript, Stanford University, 1981).</p><hr/><p data-pid=\"nno1RS1w\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1946993902033835772\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">用新眼光看问题</a><p data-pid=\"1qsFObNj\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1913274184290793262\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">启动效应与污染效应</a><hr/><blockquote data-pid=\"eErXtx1B\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">gemini-2.5-pro-exp</span>，校对潜艇<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Anchoring-And-Adjustment\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anchoring and Adjustment</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
-  "reason": "",
-  "excerpt_title": "",
-  "id": 1911000158126204000,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19551432",
+      "type": "topic",
+      "id": "19551432",
+      "name": "心理学"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/20441926",
+      "type": "topic",
+      "id": "20441926",
+      "name": "锚定效应"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19629056",
+      "type": "topic",
+      "id": "19629056",
+      "name": "理性思考"
+    }
+  ],
   "voteup_count": 32,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "理性是一种「利用手头一切资源来尽己所能」的理念。",
+    "is_following": false,
+    "url_token": "c_1826322587032117248",
+    "id": "c_1826322587032117248",
+    "articles_count": 83,
+    "accept_submission": true,
+    "title": "理性 & 克服偏见",
+    "url": "https://api.zhihu.com/columns/c_1826322587032117248",
+    "comment_permission": "all",
+    "created": 1728209236,
+    "updated": 1751811441,
+    "image_url": "https://pica.zhimg.com/v2-c9036d409f5e65c53cfea750a0176c61_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 302,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 0,
+  "contributions": [
+    {
+      "id": 51815323,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "理性是一种「利用手头一切资源来尽己所能」的理念。",
+        "is_following": false,
+        "url_token": "c_1826322587032117248",
+        "id": "c_1826322587032117248",
+        "articles_count": 83,
+        "accept_submission": true,
+        "title": "理性 & 克服偏见",
+        "url": "https://api.zhihu.com/columns/c_1826322587032117248",
+        "comment_permission": "all",
+        "created": 1728209236,
+        "updated": 1751811441,
+        "image_url": "https://pica.zhimg.com/v2-c9036d409f5e65c53cfea750a0176c61_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 302,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 21,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "锚定与调整效应 - 来自知乎专栏「理性 &amp; 克服偏见」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/1911000158126204016 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1748404331,
-  "url": "https://api.zhihu.com/articles/1911000158126204016",
-  "comment_permission": "all",
-  "title": "锚定与调整效应",
-  "image_width": 3275,
-  "content": "<p data-pid=\"YQr61mxw\">假设我当着你的面转动一个幸运轮盘，最终指针停在了数字 65 上。然后我问你：你认为联合国中非洲国家所占的百分比，是高于、还是低于这个数字？你认为联合国中非洲国家的实际百分占比是多少？如果你愿意，可以花点时间自己思考一下这两个问题，但请不要上网搜索答案。</p><p data-pid=\"YcIL8noQ\">另外，请尝试在<b>五秒钟</b>之内，估算以下算术表达式的结果。五秒钟。准备好了吗？预备……<b>开始！</b></p><p data-pid=\"E-_UUigA\">1 × 2 × 3 × 4 × 5 × 6 × 7 × 8</p><p data-pid=\"FM0ruxeb\">Tversky 与 Kahneman 记下了受试者们给出的估值。这些受试者看到的幸运轮盘数字各有不同。[1] 看到轮盘指向 65 的受试者们，其估值中位数为 45%；看到轮盘指向 10 的受试者们，其给出的估值中位数为 25%。</p><p data-pid=\"0bvS0fEa\">对于此实验及类似实验，目前的理论解释是：受试者会将最初那个并无信息价值的数字作为思考的起点或<b>锚点</b>；之后，他们会基于这个初始估值，向上或向下进行<b>调整</b>，直到得出一个「听起来似乎合理」的答案，随后停止调整。这通常会导致从锚点出发的调整不充分——与锚点相距更远的数字同样可能「合理」，但人们往往在在得到第一个听起来还算满意的答案时就停下了。</p><p data-pid=\"NKuuA0em\">类似地，看到算式「1 × 2 × 3 × 4 × 5 × 6 × 7 × 8」的学生们，其估值中位数为 512；而看到算式「8 × 7 × 6 × 5 × 4 × 3 × 2 × 1」的学生们，其估值中位数为 2250。该实验意图验证的设想是，学生们会尝试计算（或猜测性地组合）乘积中的前几个因子，然后以此为基础，向上调整。在这两种情况下，相对于 40320 的真实答案，其调整幅度都明显不足，但第一组的猜测值偏差更大——因为他们一开始的锚点更低。</p><p data-pid=\"Eus0B1Bk\">Tversky 与 Kahneman 报告称，即便为准确估算提供奖励，也未能削弱锚定效应的影响。</p><p data-pid=\"tLrGOKXh\">Strack 与 Mussweiler 曾让受试者估算爱因斯坦首次访问美国的年份。[2] 实验发现，即便是像 1215 年或 1992 年这样完全不合理的锚点，其所产生的锚定效应，与那些更为合理的锚点（例如 1905 年或 1939 年）相比，强度并无二致。</p><p data-pid=\"59rlY0LA\">在诸如薪资谈判或购买汽车等情境中，该效应显然有其应用价值。我并非建议你利用这一点，但务必警惕试图利用该效应的人。</p><p data-pid=\"g4sDyROQ\">同时，留心审视自己的思考过程，试着留意在估算过程中，自己是否是在以某个数字为基础进行<b>调整</b>。</p><p data-pid=\"SMa8kTGv\">针对锚定效应的纠偏方法，通常效果都不太理想。我谨建议以下两种策略：首先，如果最初的猜测听起来不合理，那就试着完全抛开它，从头开始估算，而不是以它为基准上下调整。但仅凭这一点可能还不够——即便被明确告知要避免锚定效应，受试者似乎依然会受到影响。[3] 因此，方法二：在尝试第一种方法的过程中，不妨同时试着在反方向设定第二个锚点——一个明显偏高或偏低的锚点，以对应第一个明显偏低或偏高的锚点——并对此思考一番。</p><h2>脚注</h2><p data-pid=\"5fhPA96T\">[1] Amos Tversky and Daniel Kahneman, “Judgment Under Uncertainty: Heuristics and Biases,” <i>Science</i> 185, no. 4157 (1974): 1124–1131, doi:10.1126/science.185.4157.1124.</p><p data-pid=\"aDZ1qc3z\">[2] Fritz Strack and Thomas Mussweiler, “Explaining the Enigmatic Anchoring Effect: Mechanisms of Selective Accessibility,” <i>Journal of Personality and Social Psychology</i> 73, no. 3 (1997): 437–446.</p><p data-pid=\"9v6M-oJV\">[3] George A. Quattrone et al., “Explorations in Anchoring: The Effects of Prior Range, Anchor Extremity, and Suggestive Hints” (Unpublished manuscript, Stanford University, 1981).</p><hr/><p data-pid=\"nno1RS1w\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1946993902033835772\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">用新眼光看问题</a><p data-pid=\"1qsFObNj\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1913274184290793262\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">启动效应与污染效应</a><hr/><blockquote data-pid=\"eErXtx1B\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">gemini-2.5-pro-exp</span>，校对潜艇<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/Anchoring-And-Adjustment\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anchoring and Adjustment</a></blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pica.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://pica.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 0,
-  "image_url": "https://picx.zhimg.com/v2-54ae6d8b5a8ed2e0e5a02e44a0bfb4e4_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 9,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 9,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyNTgyOTA5MDESEzE5MTEwMDAxNTgxMjYyMDQwMTYYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 32,
+      "down_vote_count": 0,
+      "like_count": 9,
+      "comment_count": 0,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 21,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-54ae6d8b5a8ed2e0e5a02e44a0bfb4e4": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-54ae6d8b5a8ed2e0e5a02e44a0bfb4e4": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-54ae6d8b5a8ed2e0e5a02e44a0bfb4e4": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/34235947236?contentId=1911000158126204016&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 理性 & 克服偏见",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1826322587032117248",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 理性 & 克服偏见"
+      }
+    }
+  ],
+  "segment_infos": [
+    {
+      "pid": "g4sDyROQ",
+      "text": "同时，留心审视自己的思考过程，试着留意在估算过程中，自己是否是在以某个数字为基础进行调整。",
+      "marks": [
+        {
+          "start_index": 3,
+          "end_index": 45,
+          "seg_info": {
+            "seg_ids": [
+              "1911076109442856319"
+            ],
+            "is_like": false,
+            "like_count": 3,
+            "comment_count": 0,
+            "my_comment_count": 0,
+            "is_span": false
+          }
+        }
+      ]
+    },
+    {
+      "pid": "SMa8kTGv",
+      "text": "针对锚定效应的纠偏方法，通常效果都不太理想。我谨建议以下两种策略：首先，如果最初的猜测听起来不合理，那就试着完全抛开它，从头开始估算，而不是以它为基准上下调整。但仅凭这一点可能还不够——即便被明确告知要避免锚定效应，受试者似乎依然会受到影响。[3] 因此，方法二：在尝试第一种方法的过程中，不妨同时试着在反方向设定第二个锚点——一个明显偏高或偏低的锚点，以对应第一个明显偏低或偏高的锚点——并对此思考一番。",
+      "marks": [
+        {
+          "start_index": 33,
+          "end_index": 121,
+          "seg_info": {
+            "seg_ids": [
+              "1911076169761153979"
+            ],
+            "is_like": false,
+            "like_count": 2,
+            "comment_count": 0,
+            "my_comment_count": 0,
+            "is_span": false
+          }
+        }
+      ]
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

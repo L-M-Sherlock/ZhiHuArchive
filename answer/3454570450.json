@@ -1,15 +1,16 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-7a23f5ee157d58c2494e8a642e59b7ae.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
     "badge": [],
     "badge_v2": {
       "detail_badges": [],
       "icon": "",
       "merged_badges": [],
       "night_icon": "",
-      "title": ""
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。"
     },
     "gender": 1,
     "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
@@ -19,32 +20,52 @@
     "is_privacy": false,
     "name": "Jarrett Ye",
     "type": "people",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "url": "https://www.zhihu.com/api/v4/people/3c9990a12cdbcd92e20b1387b160f0a3",
     "url_token": "JarrettYe",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 10,
   "content": "<p data-pid=\"V15rxful\">当然可以，我已经八年（还是九年，记不清了）没有去祭祖、扫墓了，清明节对我来说就是放个假，休息一下，也可以快乐地度过。</p><p data-pid=\"VkCvbaJB\">想起《维特根斯坦传》中的一句话：</p><p data-pid=\"xNQKERQW\">传统不是人能学习的东西；不是一根他觉得喜欢就能捡起的线；就像人不能选择自己的祖先。</p><p></p>",
   "content_need_truncated": false,
   "created_time": 1712235206,
   "excerpt": "当然可以，我已经八年（还是九年，记不清了）没有去祭祖、扫墓了，清明节对我来说就是放个假，休息一下，也可以快乐地度过。 想起《维特根斯坦传》中的一句话： 传统不是人能学习的东西；不是一根他觉得喜欢就能捡起的线；就像人不能选择自己的祖先。",
-  "id": 3454570450,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3454570450",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=3454570450&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1712223277,
     "detail": "<p>清明节能不能祝人快乐？蒙曼：当然能~</p><p>清明节是一个混合了多种元素的节日，可以慎终追远、缅怀先人，也可以踏青游春、尽享春光，祝福我们的祖先同时也祝我们自己春天快乐！</p><a class=\"video-box\" href=\"https://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1759272605658517505\" target=\"_blank\" data-video-id=\"\" data-video-playable=\"true\" data-name=\"\" data-poster=\"https://picx.zhimg.com/v2-bac5fca428a7d1a677c8816b4a6b4f94.jpg?source=382ee89a\" data-lens-id=\"1759272605658517505\"><img class=\"thumbnail\" src=\"https://picx.zhimg.com/v2-bac5fca428a7d1a677c8816b4a6b4f94.jpg?source=382ee89a\"/><span class=\"content\"><span class=\"title\"><span class=\"z-ico-extern-gray\"></span><span class=\"z-ico-extern-blue\"></span></span><span class=\"url\"><span class=\"z-ico-video\"></span>https://www.zhihu.com/video/1759272605658517505</span></span></a><p></p>",
-    "id": 651662525,
+    "id": "651662525",
     "question_type": "normal",
     "relationship": {},
     "title": "清明节能不能祝人快乐？",
     "type": "question",
     "updated_time": 1712223277,
-    "url": "https://api.zhihu.com/questions/651662525"
+    "url": "https://www.zhihu.com/api/v4/questions/651662525"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 47
+  "updated_time": 1712235206,
+  "url": "https://www.zhihu.com/api/v4/answers/3454570450",
+  "voteup_count": 48
 }

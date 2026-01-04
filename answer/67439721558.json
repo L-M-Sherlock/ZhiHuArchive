@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
     "badge": [],
     "badge_v2": {
       "detail_badges": [],
@@ -19,7 +20,7 @@
     "is_privacy": false,
     "name": "Jarrett Ye",
     "type": "people",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "url": "https://www.zhihu.com/api/v4/people/3c9990a12cdbcd92e20b1387b160f0a3",
     "url_token": "JarrettYe",
     "user_type": "people"
   },
@@ -31,13 +32,24 @@
     }
   },
   "comment_count": 4,
-  "content": "<p data-pid=\"y6ai9FDt\">还是有点小问题，把英译中搞错成英译英了：</p><figure data-size=\"normal\"><noscript><img src=\"https://pica.zhimg.com/50/v2-abba8ff20026982988102d9ac3726f41_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1111\" data-rawheight=\"4096\" data-original-token=\"v2-abba8ff20026982988102d9ac3726f41\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-343d4023efbe0c8e2bc63ed3141bbce8_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1111\" data-original=\"https://picx.zhimg.com/v2-abba8ff20026982988102d9ac3726f41_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1111&#39; height=&#39;4096&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1111\" data-rawheight=\"4096\" data-original-token=\"v2-abba8ff20026982988102d9ac3726f41\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-343d4023efbe0c8e2bc63ed3141bbce8_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1111\" data-original=\"https://picx.zhimg.com/v2-abba8ff20026982988102d9ac3726f41_r.jpg?source=2c26e567\" data-actualsrc=\"https://pica.zhimg.com/50/v2-abba8ff20026982988102d9ac3726f41_720w.jpg?source=2c26e567\"/></figure><p></p>",
+  "content": "<p data-pid=\"y6ai9FDt\">还是有点小问题，把英译中搞错成英译英了：</p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-abba8ff20026982988102d9ac3726f41_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1111\" data-rawheight=\"4096\" data-original-token=\"v2-abba8ff20026982988102d9ac3726f41\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-343d4023efbe0c8e2bc63ed3141bbce8_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1111\" data-original=\"https://pica.zhimg.com/v2-abba8ff20026982988102d9ac3726f41_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1111&#39; height=&#39;4096&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1111\" data-rawheight=\"4096\" data-original-token=\"v2-abba8ff20026982988102d9ac3726f41\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-343d4023efbe0c8e2bc63ed3141bbce8_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1111\" data-original=\"https://pica.zhimg.com/v2-abba8ff20026982988102d9ac3726f41_r.jpg?source=2c26e567\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-abba8ff20026982988102d9ac3726f41_720w.jpg?source=2c26e567\"/></figure><p></p>",
   "content_need_truncated": false,
   "created_time": 1735534754,
   "excerpt": "还是有点小问题，把英译中搞错成英译英了： [图片]",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "67439721558",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=67439721558&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1735124437,
     "detail": "<p>官网显示模型名为deepseek-V3-600B</p><p>Deepseek V3的<span class=\"nolink\">Aider代码能力排行榜</span>正确率为48.4%，仅次于OpenAI o1，超过Claude 3.5 Sonnet。</p><a href=\"https://link.zhihu.com/?target=https%3A//www.jiemian.com/article/12175297.html\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">幻方量化旗下模型DeepSeek上线V3版本|界面新闻 · 快讯</a><p></p>",
@@ -47,11 +59,13 @@
     "title": "如何评价 DeepSeek 的 DeepSeek-V3 模型？",
     "type": "question",
     "updated_time": 1738996907,
-    "url": "https://api.zhihu.com/questions/7837132971"
+    "url": "https://www.zhihu.com/api/v4/questions/7837132971"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1735534754,
+  "url": "https://www.zhihu.com/api/v4/answers/67439721558",
   "voteup_count": 8
 }

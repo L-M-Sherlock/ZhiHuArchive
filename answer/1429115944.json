@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,9 +14,10 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
@@ -35,9 +37,10 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,35 +84,55 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 1,
   "content": "<h2>关于复习量</h2><p data-pid=\"49e_wrC6\">题主可以试试我这篇文章提到的模拟器来预测一下不同计划下的未来复习预期。</p><a href=\"https://zhuanlan.zhihu.com/p/78398403\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-8fd199975dad37526725da7ddfc4f381_180x120.jpg\" data-image-width=\"1822\" data-image-height=\"733\" class=\"internal\">叶峻峣：【硬核】参数模拟——每天 40 张新卡片，365 天后我要复习多少？</a><p data-pid=\"dgOXXaWc\">结合自己目前的复习速度，对保留率和复习频率做一个取舍。</p><h2>关于 leech</h2><p data-pid=\"fFSq01Rr\">对于特别难记忆的卡片，请考虑拆分、删除<sup data-text=\"【硬核】参数模拟(续)——从“诡异”的曲线上扬到“有毒”的记忆\" data-url=\"https://zhuanlan.zhihu.com/p/79015431\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>。</p><h2>关于卡片制作</h2><p data-pid=\"xHdp1uIp\">最好按照 20 原则来<sup data-text=\"有效的学习：组织知识的20条原则\" data-url=\"https://zhuanlan.zhihu.com/p/52369009\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。</p><h2>关于考前突击</h2><p data-pid=\"YyV4BTxc\">可以使用筛选牌组<sup data-text=\"[实用]蓝色牌组:啊哈哈哈,高阶魔法\" data-url=\"https://zhuanlan.zhihu.com/p/94067520\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>和高级搜索<sup data-text=\"如何正确利用 「Anki」强大的卡片查找功能？\" data-url=\"https://zhuanlan.zhihu.com/p/48318470\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>。</p><h2>其它</h2><p data-pid=\"ydyGNsOe\">其它也没啥了，欢迎来 Anki 圈子交流：</p><a href=\"https://www.zhihu.com/club/1182973609588469760\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-544c42a77ae8e7cefb1a03b1833788e1_ipico.jpg\" data-image-width=\"213\" data-image-height=\"213\" class=\"internal\">Anki圈 - 知乎</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1598196185,
   "excerpt": "关于复习量题主可以试试我这篇文章提到的模拟器来预测一下不同计划下的未来复习预期。 [文章: 【硬核】参数模拟——每天 40 张新卡片，365 天后我要复习多少？] 结合自己目前的复习速度，对保留率和复习频率做一个取舍。 关于 leech对于特别难记忆的卡片，请考虑拆分、删除 [1]。关于卡片制作最好按照 20 原则来 [2]。关于考前突击可以使用筛选牌组 [3]和高级搜索[4]。其它其它也没啥了，欢迎来 Anki 圈子交流： Anki圈 - 知乎",
-  "id": 1429115944,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1429115944",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": false,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/78398403": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"【硬核】参数模拟——每天 40 张新卡片，365 天后我要复习多少？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/78398403\",\"desc\":\"293 赞同 · 66 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 本文的得力助手： Anki Optimizer and Simulator 每天 40 张新卡片，365 天后能学 14600 个知识点，是不是很心动？我也是这么过来的，但是这里有个大坑在我长期使用 Anki 后被发现了！ 先从最常见的情况入手不修改 Anki 的默认参数每天的保留率是 90%（理论值）只点【重来】和【一般】好，输入数据： [图片] 等待结果… 叮！好了： [图片] 这跟我当时情况有些偏差（统计记录在这篇文章里： 简单「Anki」高考制卡心得 ），当时正值我使用 Anki …\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-8fd199975dad37526725da7ddfc4f381_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"78398403\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/78398403": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"【硬核】参数模拟——每天 40 张新卡片，365 天后我要复习多少？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/78398403\",\"desc\":\"301 赞同 · 67 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 本文的得力助手： Anki Optimizer and Simulator 每天 40 张新卡片，365 天后能学 14600 个知识点，是不是很心动？我也是这么过来的，但是这里有个大坑在我长期使用 Anki 后被发现了！ 先从最常见的情况入手不修改 Anki 的默认参数每天的保留率是 90%（理论值）只点【重来】和【一般】好，输入数据： [图片] 等待结果… 叮！好了： [图片] 这跟我当时情况有些偏差（统计记录在这篇文章里： 简单「Anki」高考制卡心得 ），当时正值我使用 Anki …\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-8fd199975dad37526725da7ddfc4f381_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"78398403\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1429115944&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1598015255,
     "detail": "<p>目前正在忙碌的把知识点录入anki之中，请问在后期背诵有什么需要注意的？或者说要避开的坑？在录入全部知识点之后，anki有什么功能是必须要知道的？<br/></p><p>他们都说anki的法则会导致每天复习量非常大，容易产生焦虑，如何平衡？</p>",
-    "id": 416278918,
+    "id": "416278918",
     "question_type": "normal",
     "relationship": {},
     "title": "anki在考研专业课背诵阶段有什么注意事项？",
     "type": "question",
     "updated_time": 1598015255,
-    "url": "https://api.zhihu.com/questions/416278918"
+    "url": "https://www.zhihu.com/api/v4/questions/416278918"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1598196185,
+  "url": "https://www.zhihu.com/api/v4/answers/1429115944",
   "voteup_count": 17
 }

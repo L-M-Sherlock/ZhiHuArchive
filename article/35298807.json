@@ -1,80 +1,419 @@
 {
-  "status": 0,
+  "id": "35298807",
+  "title": "简单分享高考╳Anki使用经验",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/35298807",
+  "image_url": "https://picx.zhimg.com/v2-a7c55ea5039e579fc9ff5bc4af3916ff_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-a7c55ea5039e579fc9ff5bc4af3916ff_720w.jpg?source=172ae18b",
+  "excerpt": "已收录于<a href=\"https://zhuanlan.zhihu.com/p/57637220\" class=\"internal\" target=\"_blank\">「一周年」专栏整理</a><b>个人作息</b>（<i>仅供参考</i>）上午 5:30 起床，背「Anki」； 6:25 记忆完 400 张卡片，去吃早饭； 6:45 到班，先拿出昨天完成的英语练习和老师评讲的试题，将错题的知识点和老师评讲时的要点转换成Anki卡片，然后是生物选择题和大题长句…",
+  "created": 1522845905,
   "updated": 1553519653,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "已收录于「一周年」专栏整理 个人作息（仅供参考）上午5:30 起床，背「Anki」；6:25 …",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 4961,
+  "image_height": 3502,
+  "content": "<blockquote data-pid=\"H4RUe9uy\">已收录于<a href=\"https://zhuanlan.zhihu.com/p/57637220\" class=\"internal\" target=\"_blank\">「一周年」专栏整理</a></blockquote><hr/><h2><b>个人作息</b>（<i>仅供参考</i>）</h2><p data-pid=\"xHg5vLem\">上午</p><p data-pid=\"mY_fTvn_\">5:30 起床，背「Anki」；</p><p data-pid=\"o6RDDHZ_\">6:25 记忆完 400 张卡片，去吃早饭；</p><p data-pid=\"6q-mW87L\">6:45 到班，先拿出昨天完成的英语练习和老师评讲的试题，将错题的知识点和老师评讲时的要点转换成Anki卡片，然后是生物选择题和大题长句录入，最后录入其他科目的答题注意点；</p><p data-pid=\"5PBiwokc\">7:15 制卡结束，练两套生物选择题（ 12 题）；</p><p data-pid=\"cRIU-8Ww\">7:35 早读开始，接下来都是上课</p><p data-pid=\"0xmslAtL\">11:45 上午课程结束，短文改错* 3 <b>/ </b>完型填空* 2 / 语法填空* 4 三选一</p><p data-pid=\"KjnedhgF\">下午</p><p data-pid=\"aKWDVhR6\">17:35 下午课程结束，跑步</p><p data-pid=\"9B5dEwE3\">17:50 专项训练 / 专项制卡</p><p data-pid=\"x2Q9SBwy\">晚上</p><p data-pid=\"LD5SMaON\">10:00 晚自习结束，解决「Anki」剩下的卡片（ 100 +）</p><p data-pid=\"QaIw192a\">10:30 洗漱睡觉</p><p data-pid=\"WpBHXEpG\"><b>说明</b>：</p><p data-pid=\"WLAVEWrD\">我的作息只是我个性化学习的一部分，但是其中也有许多共性是大家可以复制的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"LeJhOzNo\">不难发现，联系我的高中学习理论，每天的上课和做笔记都是知识的输入过程，而「Anki」背诵恰是知识的记忆过程，而刷题则是知识应用过程。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"r0Ty-vh9\">而最关键的一点，就是「Anki」卡片的制作，这对应的是知识的归纳与反思过程。正是每天的制卡提醒我思考学习过程中的收获。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"vrdnLexk\">于此同时，制作卡片就是设计问题和回答，这恰恰让我们学生站在了出题人的角度，使我们更加深刻的理解知识和考察知识，并且使知识刻上了我们个性的烙印。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"bKiY1zeg\">所以，同学们在使用我分享的「Anki」牌组的同时，也请尝试自己制卡，因为我们对知识的掌握是有差异的，我觉得简单而没有录入的知识可能恰是同学们不熟悉的（又在为自己的偷懒找借口）。</p><p data-pid=\"N0syGx2Q\">以上四个过程同学可以自己安排时间或者听从学校安排，但是千万不要轻视任何一个过程哦！</p><h2><b>注意事项</b></h2><ol><li data-pid=\"s4IJPvzQ\">初期不要设置太多的新卡片（几周后每天的复习卡片大概是新卡片数量的 4 倍，不过学完新卡片后复习卡片会逐渐减少）</li><li data-pid=\"-WOOelQR\">学习新卡片的数量基于卡片难度（背单词明显比记生物长句简单，一般一张生物顶三张英语单词）</li><li data-pid=\"hDqBwJ9v\">每天坚持使用「Anki」，保证每天的复习卡片被清空（不然哪一天点开「Anki」会被 1000 +的卡片吓倒）</li><li data-pid=\"liQ9I4Ep\">制作卡片耗费时间，建议使用语音输入和扫录笔，或者直接使用电子材料（笔记和个人心得等推荐自己写）</li><li data-pid=\"vH0rA-Jr\">与他人合作制卡可以节省更多的时间，又可以从不同的角度看待知识（确保学习伙伴信得过）</li><li data-pid=\"Ky10BwYr\">喜欢这个专栏就帮忙分享一下吧！</li></ol><hr/><p data-pid=\"CMKmWr5p\"><a href=\"https://zhuanlan.zhihu.com/p/35235203\" class=\"internal\" target=\"_blank\">返回目录</a></p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19783871",
+      "type": "topic",
+      "id": "19783871",
+      "name": "Anki（知识记忆工具）"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19567664",
+      "type": "topic",
+      "id": "19567664",
+      "name": "高考"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19566266",
+      "type": "topic",
+      "id": "19566266",
+      "name": "学习方法"
+    }
+  ],
+  "voteup_count": 56,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
+    "can_manage": false,
+    "intro": "带你用「Anki」高效战高考！",
+    "is_following": true,
+    "url_token": "ankigaokao",
+    "id": "ankigaokao",
+    "articles_count": 157,
+    "accept_submission": true,
+    "title": "AnkiX高考",
+    "url": "https://api.zhihu.com/columns/ankigaokao",
+    "comment_permission": "all",
+    "created": 1522117223,
+    "updated": 1599152271,
+    "image_url": "https://picx.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 6763,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 9,
+  "contributions": [
+    {
+      "id": 1220660,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
+        "can_manage": false,
+        "intro": "带你用「Anki」高效战高考！",
+        "is_following": true,
+        "url_token": "ankigaokao",
+        "id": "ankigaokao",
+        "articles_count": 157,
+        "accept_submission": true,
+        "title": "AnkiX高考",
+        "url": "https://api.zhihu.com/columns/ankigaokao",
+        "comment_permission": "all",
+        "created": 1522117223,
+        "updated": 1599152271,
+        "image_url": "https://picx.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 6763,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 35298807,
-  "voteup_count": 49,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 76,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "简单分享高考╳Anki使用经验 - 来自知乎专栏「AnkiX高考」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/35298807 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1522845905,
-  "url": "https://api.zhihu.com/articles/35298807",
-  "comment_permission": "all",
-  "title": "简单分享高考╳Anki使用经验",
-  "image_width": 3502,
-  "content": "<blockquote data-pid=\"H4RUe9uy\">已收录于<a href=\"https://zhuanlan.zhihu.com/p/57637220\" class=\"internal\">「一周年」专栏整理</a></blockquote><hr/><h2><b>个人作息</b>（<i>仅供参考</i>）</h2><p data-pid=\"xHg5vLem\">上午</p><p data-pid=\"mY_fTvn_\">5:30 起床，背「Anki」；</p><p data-pid=\"o6RDDHZ_\">6:25 记忆完 400 张卡片，去吃早饭；</p><p data-pid=\"6q-mW87L\">6:45 到班，先拿出昨天完成的英语练习和老师评讲的试题，将错题的知识点和老师评讲时的要点转换成Anki卡片，然后是生物选择题和大题长句录入，最后录入其他科目的答题注意点；</p><p data-pid=\"5PBiwokc\">7:15 制卡结束，练两套生物选择题（ 12 题）；</p><p data-pid=\"cRIU-8Ww\">7:35 早读开始，接下来都是上课</p><p data-pid=\"0xmslAtL\">11:45 上午课程结束，短文改错* 3 <b>/ </b>完型填空* 2 / 语法填空* 4 三选一</p><p data-pid=\"KjnedhgF\">下午</p><p data-pid=\"aKWDVhR6\">17:35 下午课程结束，跑步</p><p data-pid=\"9B5dEwE3\">17:50 专项训练 / 专项制卡</p><p data-pid=\"x2Q9SBwy\">晚上</p><p data-pid=\"LD5SMaON\">10:00 晚自习结束，解决「Anki」剩下的卡片（ 100 +）</p><p data-pid=\"QaIw192a\">10:30 洗漱睡觉</p><p data-pid=\"WpBHXEpG\"><b>说明</b>：</p><p data-pid=\"WLAVEWrD\">我的作息只是我个性化学习的一部分，但是其中也有许多共性是大家可以复制的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"LeJhOzNo\">不难发现，联系我的高中学习理论，每天的上课和做笔记都是知识的输入过程，而「Anki」背诵恰是知识的记忆过程，而刷题则是知识应用过程。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"r0Ty-vh9\">而最关键的一点，就是「Anki」卡片的制作，这对应的是知识的归纳与反思过程。正是每天的制卡提醒我思考学习过程中的收获。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"vrdnLexk\">于此同时，制作卡片就是设计问题和回答，这恰恰让我们学生站在了出题人的角度，使我们更加深刻的理解知识和考察知识，并且使知识刻上了我们个性的烙印。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"bKiY1zeg\">所以，同学们在使用我分享的「Anki」牌组的同时，也请尝试自己制卡，因为我们对知识的掌握是有差异的，我觉得简单而没有录入的知识可能恰是同学们不熟悉的（又在为自己的偷懒找借口）。</p><p data-pid=\"N0syGx2Q\">以上四个过程同学可以自己安排时间或者听从学校安排，但是千万不要轻视任何一个过程哦！</p><h2><b>注意事项</b></h2><ol><li data-pid=\"s4IJPvzQ\">初期不要设置太多的新卡片（几周后每天的复习卡片大概是新卡片数量的 4 倍，不过学完新卡片后复习卡片会逐渐减少）</li><li data-pid=\"-WOOelQR\">学习新卡片的数量基于卡片难度（背单词明显比记生物长句简单，一般一张生物顶三张英语单词）</li><li data-pid=\"hDqBwJ9v\">每天坚持使用「Anki」，保证每天的复习卡片被清空（不然哪一天点开「Anki」会被 1000 +的卡片吓倒）</li><li data-pid=\"liQ9I4Ep\">制作卡片耗费时间，建议使用语音输入和扫录笔，或者直接使用电子材料（笔记和个人心得等推荐自己写）</li><li data-pid=\"vH0rA-Jr\">与他人合作制卡可以节省更多的时间，又可以从不同的角度看待知识（确保学习伙伴信得过）</li><li data-pid=\"Ky10BwYr\">喜欢这个专栏就帮忙分享一下吧！</li></ol><hr/><p data-pid=\"CMKmWr5p\"><a href=\"https://zhuanlan.zhihu.com/p/35235203\" class=\"internal\">返回目录</a></p>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 9,
-  "image_url": "https://picx.zhimg.com/v2-a7c55ea5039e579fc9ff5bc4af3916ff_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 8,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 8,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIhCgc2MzA5NjY4EggzNTI5ODgwNxgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 56,
+      "down_vote_count": 1,
+      "like_count": 8,
+      "comment_count": 9,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 76,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-a7c55ea5039e579fc9ff5bc4af3916ff": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-a7c55ea5039e579fc9ff5bc4af3916ff": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-a7c55ea5039e579fc9ff5bc4af3916ff": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=35298807&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · AnkiX高考",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/ankigaokao",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · AnkiX高考"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

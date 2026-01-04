@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "637442975",
+  "title": "围绕读者控制力改造助记媒介",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/637442975",
+  "image_url": "https://picx.zhimg.com/v2-2db108f37ee86004a508364898bdcee5_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-2db108f37ee86004a508364898bdcee5_720w.jpg?source=172ae18b",
+  "excerpt": "在读非虚构作品时，一切由你做主。你可以只读最后一页看结论。你可以飞快翻书只看标题；你可以花一周极其仔细地阅读 10 页内容。你可以关注多篇材料，把两本书并排翻开，对比他们的论点。好的非虚构作品作者事无巨细地把控着他们的文本，但只要书落到了你的…",
+  "created": 1686879550,
   "updated": 1693714990,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "在读非虚构作品时，一切由你做主。你可以只读最后一页看结论。你可以飞快翻书只看标…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 7952,
+  "image_height": 4472,
+  "content": "<p data-pid=\"7zdIYZfO\">在读非虚构作品时，一切由你做主。你可以只读最后一页看结论。你可以飞快翻书只看标题；你可以花一周极其仔细地阅读 10 页内容。你可以关注多篇材料，把两本书并排翻开，对比他们的论点。好的非虚构作品作者事无巨细地把控着他们的文本，但只要书落到了你的手上，这本书就是为你服务的工具。你要根据你的需求和兴趣使用这些工具。</p><p data-pid=\"jwQebcWR\">这种以读者为中心的特点，是非虚构作品和视频和讲座之类信息大众媒体的区别。消费那些形式的媒体时，观众无法「控制」自己的体验，例如，关注他们认为最有趣的部分。事实上，没有控制权是这些媒体吸引力的一部分。全心跟从 <a href=\"https://link.zhihu.com/?target=https%3A//www.3blue1brown.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">3blue1brown</a> 之类优秀解释者的节奏，是很有趣的体验。如果我不想自己做主，我就会看他的视频：我想放松下来，享受从 Grant 的视角审视他讨论的话题。</p><p data-pid=\"2g9GN09c\">然而，如果作品的目标是增强读者的能力，那么以读者为中心做法有一些重要的优势。这时候，作者需要考虑读者已经知道哪些知识，可能对哪些知识感兴趣，并据此设计文章的框架。当然，很难有普适的方案能解决大部分情况，但并没有问题；读者可以与作者合作，根据自己的兴趣调整阅读体验。由此，相比以作者为中心的媒介，以读者为中心的文本能让读者获得更多场景的能力。可能更重要的是，文本让读者持续关注他们认为有意义目标。</p><p data-pid=\"GEZs_o38\">说了这么多，我现在可以明确指出<a href=\"https://link.zhihu.com/?target=https%3A//numinous.productions/ttft\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">助记媒介</a><sup data-text=\"我们如何才能开发出变革性的思想工具？\" data-url=\"https://zhuanlan.zhihu.com/p/394795804\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>的一个关键问题：助记媒介不得不由作者做主。助记媒介的关键见解，是将间隔重复记忆卡片与叙述散文相结合。这些由作者提供的记忆卡片使人们很容易记住他们所读的内容，但其代价是控制权完全交给了作者。阅读助记文本与阅读普通文本有着极大的不同。目前的互动方式不仅要求你完整地阅读一篇文本，还要求你反复地学习——并记住——作者认为重要的内容，无论作者选择的形式是什么。记忆系统不是「你的」；它是从作者那里借来的，放在玻璃罩里。正如 Gary Wolf 向我指出的，这是一种专制的媒介。</p><h2><b>当今助记媒介的成与败</b></h2><p data-pid=\"_wl0rgsq\">尽管有这些限制，《<a href=\"https://link.zhihu.com/?target=https%3A//quantum.country/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">量子国度</a>》还是成功了，因为它是成熟技术领域的入门书。作为入门书，它可以安全地假设大多数读者之前没有什么经验。他们可能特别愿意（也可能特别合适）听从作者的意见。因为《量子国度》是对成熟领域的介绍，所以它有一套预期要涵盖的主题。它的目录，部分出于作者的选择，但主要反映了普遍共识。想了解该领域的读者通常不会觉得有必要在这些基础概念中挑选。而且，由于量子计算是技术性话题，卡片的内容较少依赖于作者对隐喻或措辞的选择。而主要是对一些物理定律的标准描述。因此，读者更有可能乐于按原样内化卡片，而不会想重新表述这些卡片，以更好切合他们对主题的思考角度。因此，读者更有可能乐于按原样内化卡片，而不是想用更符合他们对该主题思考方式的术语来重新表述它们。</p><p data-pid=\"FA7upYTS\">如果这些假设不成立，当前设计的助记媒介的效果就差多了。例如，在我自己的助记文章<a href=\"https://link.zhihu.com/?target=https%3A//andymatuschak.org/prompts/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《如何写出好卡片》</a><sup data-text=\"如何写出好卡片：利用间隔重复创造理解\" data-url=\"https://zhuanlan.zhihu.com/p/434074509\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>中，许多读者对编写卡片有丰富的经验，而其他读者则从未写过卡片。读者的兴趣领域和投入程度差异很大。文章的主题没有清晰共识，也没有标准化。我发明了自己的抽象概念，这与一些读者的经验产生了很好的共鸣，而与另一些读者的经验则不尽相同。而且，由于这是非技术性的话题，这些卡片更多地依赖于我作为作者的隐喻、命名、措辞等选择。根据读者的反馈，其他作者的类似助记文章也遇到了类似的问题。</p><p data-pid=\"03Wxguz5\">这不是话题不够正式的问题，也不是读者不愿意付出精力的问题。助记媒介的一个有价值的应用是增强重要的学术论文。暑期实习生 <a href=\"https://link.zhihu.com/?target=https%3A//kirkbyo.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Ozzie Kirkby</a> 一直在探索去中心化技术相关的话题，所以作为一个实验，我把<a href=\"https://link.zhihu.com/?target=https%3A//ipfs.io/ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">星际文件系统（IPFS）的论文</a>改编成助记媒介，并记录了他的阅读经验。我的许多卡片都是照本宣科，但也有些卡片专注于他个人并不想探索的方面。Ozzie 发现自己想在某些部分内化更多细节，所以他在日志中写了额外的卡片（假装他可以通过这种方式将它们添加到 Orbit 中）。有几张卡片对于他的知识背景来说感觉太复杂，所以他把它们分成了更短的卡片。我相信，由于背景和动机差别很大，而且论文的阅读要比散文更具策略性，因此像这样的问题在大多数论文阅读经历中都会出现。</p><h2>只有编辑和删除按钮是不够的</h2><p data-pid=\"mQ62C_v9\">从实际角度来说，我得到的读者反馈听起来像是对控制的简单请求：你可以添加一个让我删除卡片的按钮吗？你能让我编辑作者的文字吗？我一直犹豫是否实现这些简单的功能，因为我认为助记媒体的基本模式需要重新塑造。传统文本是一种工具，可以按照读者的意愿使用。读者是驾驶员。但编辑和删除按钮还不足以将助记媒介的作者离开驾驶座。即使有了这些按钮，读者也只是随波逐流，也许会在途中做出调整。</p><p data-pid=\"-64FW4ZP\">这里的部分问题是媒介的积极起始假设，即读者被期望收集作者的所有卡片（除了他们否决的卡片）。这创造了一种学校式的学习范式，一种作者正在<b>分配</b>你从文本中获得 X、Y 和 Z 的感觉。一些读者会对此感到沮丧并放弃；其他人则会毫无激情但被动地学习他们并不真正关心的东西，这实际上与 <a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/nascent-art-for-39070865\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Orbit 的价值观</a>（「帮助你加深与你最关心的东西的关系......而不是为了你认为你<b>应该</b>参与的东西......不是<b>教育</b>的口吻」）不相符。这种不匹配的情况确实让我不能只在类似助记媒介的「入门」背景下推进助记媒介（按其现状），在这种背景下，许多读者不介意放弃控制权。我想提倡一种更加自主、更少义务的学习态度。</p><p data-pid=\"XyebT2AJ\">问题的另一部分在于，如果没有为读者提供更完整的创作体验，允许编辑的媒介仍然会给作者的写作带来很大的特权。这种媒介允许读者调整作者的措辞以更好地配合他们的理解，但不允许读者捕捉他们注意到的与文本之外的一些想法的有趣联系。读者无法捕捉到他们认为有趣但作者并没有提供卡片的细节。读者无法捕捉到文本在第二天所激发的想法。从哲学角度看，这种不对称性促进了这样一种观点：卡片是你消费的东西，而不是你创造的东西。想象一下，如果你在仔细研究一本书时被禁止使用任何你自己的书写材料：你只允许在书页的空白处写字。你的思想会相应地收缩。</p><p data-pid=\"1WiHKXWk\">当然，这里的一个简单解决方案是在 Orbit 上添加一个创作界面。我对一种可能性感到兴奋，即作者的卡片写作实践将为读者自己的卡片写作能力提供帮助。但是，如果读者不能在受到启发时流畅地写出卡片，这就不会发生。今天人们可以在阅读助记文章时，在 Anki 或 SuperMemo 中添加自己的卡片。但我的直觉是，在参与作者提供的卡片和写自己的卡片之间建立强烈的分离——例如，要求读者在阅读时访问一个单独的应用程序或页面来写自己的卡片——是有害的。如果你在看卡片，你应该同时能够写卡片。作者提供的卡片应该感觉是你手中的材料，可以根据你的需要和兴趣塑造，而不是与你为自己写的卡片不同「种类」的东西。我想要纯文本的流畅性：在文档之间复制和粘贴、粗略或精细地编辑和组合、批量处理、生成、grep、pipe、转发社交媒体，等等。</p><h2><b>记忆幻想</b></h2><p data-pid=\"u5lahhA1\">让我们退一步，重新审视这种媒介的最初目标。暂时沉浸在科幻小说的幻想中，如果能把插头插到我们的脖子上，按一下开关，就能深入理解任何主题，那就太好了。这个目标（暂时）无法实现——但我们能做到多接近呢？</p><p data-pid=\"Hf4xzl2m\">试想，每当你阅读或思考一些有趣或重要的内容，你都能轻松地记住那个想法。学习不会像即插即用那样简单，但你可以读一本书（只读一次）并记住每一个有意义的细节；你可以在你的工作台上琢磨这些想法，并记住你在实践中注意到的一切；你可以与合作者讨论这些想法，并记住产生的所有影响。为了避开反乌托邦的反对意见，想象一下，你也可以毫不费力地纠正那些证明是错误或无用的记忆。上述这些事情在现在还做不到，但我们至少可以在某种程度上接近。</p><p data-pid=\"MajWa6nw\">间隔重复记忆系统让我们能以在第一年花费 20-60 秒，之后每年花费不到 10 秒的代价，记住一个特定的细节。这并不算不费吹灰之力，但也不是特别繁重——<b>如果</b>你已经写了一张好卡片。写出好卡片比复习需要更多的努力，而且需要一种很少有人已经掌握的技能。这提示我们的幻想有一个稍微容易实现的版本：一个精灵自动为你读到的、想到的或听到的所有有趣的东西创造间隔重复卡片；你只需每天花费，比如说，十分钟的时间复习，就能记住所有这些细节。</p><p data-pid=\"j9V2FCbs\">我们的精灵需要两种技能：它必须读懂你的心思（即注意到你觉得有趣的是什么，在什么情况下，以什么方式理解）；它必须写出有效的间隔重复卡片（即这些卡片能引导回忆起构成理解的细节）。作为一个更合理的近似，你也许可以想象雇一个人整天跟着你，参加你的会议，读你正在阅读的内容，听你大声思考——并为所有看起来重要的事情写下记忆卡片。你可以称他们为你的「记忆主管」，向你的首席助手示意。当然，这非常昂贵（并且有侵入性）；而且因为这个助手不能读懂你的心思，他们的工作会不完美。但是，作为一个非科幻模型，如果你有能力的话，你可以实现它，这还是很有趣的。我们能否更经济地近似这个模型呢？</p><p data-pid=\"EHmSVAMc\">书籍与这种情况至少有一部分是惊人的类似。如果你很富有，你可以聘请一位私人导师来教你某个课题。这在某些方面很不方便，当然，这也相当昂贵。幸运的是，由于印刷术和互联网的出现，你可以选择阅读有关该主题的书籍。在某些方面，这本书将提供比你与导师合作<b>更好</b>的体验：当你买了一本书，你可以（间接地、部分地）聘请世界上最优秀的领域专家来教你。书中的文段将（希望）代表精心编辑和雕琢的叙述，而不是即兴的解释。当然，你阅读的速度比你听的速度要快得多。对于「翻阅书页」或「扫视标题」这样的动作，没有对应的对话形式。</p><p data-pid=\"E53ei9vG\">我们可以将类似的逻辑应用于我们的「记忆主管」，至少对于你花在阅读上的一部分时间是这样。这里的想法是，你在这些文本中认为重要的细节，会与其他读者认为重要的细节有所重叠。因此，也许你的「记忆主管」在你阅读这篇文本时需要做的工作，可能会与其他人的「记忆主管」需要做的工作有很大的重叠。如果重叠足够多，那么这可能成为领域专家——也许是作者，也许是另一个专家——写出涵盖这些重叠部分的卡片的高杠杆机会。事实上，对于这个特定的文本，领域专家可能会比通用的「记忆主管」写出更高质量的卡片。</p><p data-pid=\"rqKK8fbw\">现在我们得到了一个类似于助记媒介的想法，但还不是助记媒介。在我们的思想实验中，我们的想法是让你毫不费力地记住你认为有趣或有意义的一切。作者提供的卡片只是这一过程的素材。更具体地说，想象一下，当你阅读时，你通过扬起眉毛或在向你认为重要的材料挥手来大声地与你的「记忆主管」交谈。如果作者已经做了一些工作，写了关于那一点的卡片，而且这些卡片符合助手认为你觉得有趣的内容，他们就可以走捷径，使用作者的卡片。否则，他们就得自己动手，绕写新卡片的远路。也许在某些情况下，你会大声说：「这个细节实际上与我在研究项目中遇到的问题有关；这是一个考虑做 X 而不是 Y 的理由。」与助记媒介不同，这种工作流是由读者的兴趣，而不是作者的规定，驱动的。作者提供的卡片是一种捷径，而不是一份期望清单。</p><p data-pid=\"ErpCzY0v\">好吧，现在想象一下你没有「记忆主管」。我认识到，在这一点上，我们已经离「I know Kung Fu*」很远了，但如果我们把自己限制在你每天花在阅读上的部分，那么在软件中使用作者提供的卡片，我们能达到什么程度？Ozzie 和我一直在沿着这一思路探索一些方法。我们的原型还很初级，但你可以想象在阅读时高亮你觉得有趣的细节；如果作者提供了相关的卡片，你会收集这些卡片；否则，我们可以提供一个批量编辑界面，将笔记塑造成卡片，包括那些你可能无中生有的卡片。（*译注：在《黑客帝国》中，尼奥为了对抗矩阵，必须学会各种武术对抗特务，而他不需要经过多年训练，而是直接将几十种武术风格下载到自己的大脑中，然后说出了 I know Kung Fu 这句台词。这个梗的意思其实就是刷的一下，毫不费劲就学会了。）</p><h2><b>不费吹灰之力</b></h2><p data-pid=\"h_eVlUZL\">这种方法有很多问题！一个核心的矛盾是，几乎在所有情况下，赋予作者的正确权限并不是零；赋予读者的正确控制和责任也不是 100%。我们应该如何在作者和读者之间协调控制的比例？</p><p data-pid=\"ynk4a5_U\">作者的卡片其实并不只是一种捷径，正如我之前所描述的那样。它们还带有意义。卡片标志着作者认为什么是重要的。它们传达了一种规范，说明理解一个话题意味着什么（或至少是作者认为意味着什么）。它们使作者有机会以不同的方式传达文章的观点，甚至在卡片和文章之间创造对话——但这是另一篇文章的话题了。它们引起人们的注意和参与；当它们运作良好时，它们会产生一种支持和安全的感觉。</p><p data-pid=\"alOCtkiW\">因此，也许我们仍然应该展示作者的卡片，也许是以注释的形式，但让读者「勾选」他们想收集的每张卡片。这里的问题是，<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z87TFgTr98bz3MNFT26NhegyRCMgdkfNTBAzp\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">交互是界面设计中的成本中心</a><sup data-text=\"交互是界面设计中的成本中心\" data-url=\"https://zhuanlan.zhihu.com/p/472770296\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。如果在 80% 的时间，有 80% 的用户想收集作者 80% 的卡片，那么一个朴素的勾选机制将需要读者进行大量交互来标示常见情况。想象一下，读完《量子国度》的第一章，一张一张点击边缘处的 112 张卡片来全部收集它们。你也许可以通过把这些交互分批放在章节结束的「复习区」来改善这种情况，类似于 Orbit 目前的复习区——但我认为这还不够。</p><p data-pid=\"BezhV2Xu\">如果我们不小心，我们不仅会要求用户进行过多的交互：我们还会分散他们的注意力，并造成决策疲劳。想象一下，当你在阅读一篇文章时，你得不断地评估出现在文本旁边的卡片：我想收集这个卡片吗？还是想写我自己的？你的目光在文本和边栏之间来回游移；你的注意力从文本中被吸引过去。这种设计的混乱性质可以通过在章节末尾的批量操作来改善，但要求用户一张一张明确决定是否想保留《量子国度》第一章中的 112 张卡片，这仍然难以想象。要求他们努力记住答案已经很强人所难了。</p><p data-pid=\"rEpn6npS\">另一个困难的问题是调和。假设你发现一个细节特别有趣，所以你高亮了它。你看到作者为这段话提供了一张卡片——很好。但现在你需要决定：作者的卡片和我发现的有趣意义相关吗？你需要对你<b>想</b>写的卡片形成一些画面，如果你要写卡片的话，然后阅读作者的卡片，并进行某种差异比较。更糟糕的是：如果你不完全信任作者能够写出好卡片，你还需要评估他们卡片的质量。我对阅读其他人的记忆文本的实验表明，这两项活动都相当费力。</p><p data-pid=\"b8JjWVym\">我认为这里的成功方法可能是更加渐进的，即阶段性地对卡片集进行精炼。也许你可以用一些非常粗略的交互来标记你认为有趣的段落。如果一个段落激发了一些你知道作者不会涵盖的特定卡片——例如，因为它们与你目前的项目有关——你可以在阅读时就在那里写下来。渐进地，在各部分结束时，你可以回顾标记段落中作者提供的卡片，这既是为了加强你的记忆，也是为了提供一个轻量级的机会来丢弃或编辑那些明显不适用的卡片。也许你在这个时候注意到，作者并没有就你认为重要的一些细节提供卡片，所以你当场写了一些。然后，在接下来的几周复习中，你完善来自这一文本的卡片，修改和删除那些没有灵感的卡片，删除无意中重复的卡片，用新的卡片来填补细节，增加你没有注意到的联系，等等。但关键是，这篇文本的卡片感觉像是<b>你的</b>；它们与你自己写的，有关自己想法的卡片混合在一起。Taylor Rogalski 提出了一个我喜欢的比喻：有人把他们的谷歌文档发给你，然后你点击文件 &gt; 复制，这样你就可以肆无忌惮地在上面乱写乱画。</p><h2><b>关于机器学习和语言模型的后记</b></h2><p data-pid=\"deumlOM8\">我想，我的许多读者一直都在念叨着这句话：那语言模型呢！？为什么坚持要求作者（或那些将其文本改编为助记媒介的人）做所有这些工作？那些永远不会被改编的长尾文本怎么办？</p><p data-pid=\"Hz0FAJBc\">我知道。我也对这些问题感兴趣。我沿着这些路线试验了几种方法，到目前为止，我的印象是，对于某些类型的卡片，这里有可能实现部分自动化，但一个像样的解决方案将需要大量的工作和深刻的见解。我不认为正在流传的<a href=\"https://link.zhihu.com/?target=https%3A//getpolarized.io/2020/12/16/Polar-2-0-99-Released-with-AI-Flashcards.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">简单方法</a>会代表可行的路径。但我确实认为这项工作值得一做；如果你有兴趣并有能力把它作为一个研究项目，而且你希望我监督你的工作（并可能提供资助）或提供建议，请联系我。</p><p data-pid=\"lkJAbBuJ\">我的直觉告诉我，至少在近期，我们最好把这个问题作为一种增强问题，而不是一种自动化问题。沿着这个思路，我有一些具体的工作流程的想法，但它们必须留到另一篇文章再谈了。</p><p data-pid=\"v9JsPyAu\">————————————</p><p data-pid=\"36rvQ2RG\">我想感谢 Ozzie Kirkby 在这个夏天和我一起围绕这个问题进行了原型设计；感谢 Nick Barr、Ty Jung 和 Taylor Rogalski 进行了长时间的讨论和白板交流；感谢 Gary Wolf 在这个问题上的宝贵通信。</p><p data-pid=\"D7ktSg4A\">我想感谢你们，所有 Patreon 赞助者，感谢你们的善意支持。有机会像这样进行开放式的探索是相当了不起的。你们的贡献使之成为可能，我很感激。</p><hr/><blockquote data-pid=\"rpaISNcl\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4、校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/revamping-medium-55309960\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Revamping the mnemonic medium around reader control | Patreon 上的 Andy Matuschak</a><br/>作者：<span class=\"nolink\">Andy Matuschak</span></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
-  "reason": "",
-  "excerpt_title": "",
-  "id": 637442975,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/21868663",
+      "type": "topic",
+      "id": "21868663",
+      "name": "助记媒介"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19568344",
+      "type": "topic",
+      "id": "19568344",
+      "name": "读者"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19550581",
+      "type": "topic",
+      "id": "19550581",
+      "name": "学习"
+    }
+  ],
   "voteup_count": 31,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "助记媒介在叙事性散文中嵌入了间隔重复记忆系统",
+    "is_following": false,
+    "url_token": "c_1525784109008203776",
+    "id": "c_1525784109008203776",
+    "articles_count": 189,
+    "accept_submission": true,
+    "title": "助记媒介 & 思想工具",
+    "url": "https://api.zhihu.com/columns/c_1525784109008203776",
+    "comment_permission": "all",
+    "created": 1656555279,
+    "updated": 1751877351,
+    "image_url": "https://picx.zhimg.com/v2-f4040c00796b5bb3ba64980f9be88d6f_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 66,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 17,
+  "contributions": [
+    {
+      "id": 45618866,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "助记媒介在叙事性散文中嵌入了间隔重复记忆系统",
+        "is_following": false,
+        "url_token": "c_1525784109008203776",
+        "id": "c_1525784109008203776",
+        "articles_count": 189,
+        "accept_submission": true,
+        "title": "助记媒介 & 思想工具",
+        "url": "https://api.zhihu.com/columns/c_1525784109008203776",
+        "comment_permission": "all",
+        "created": 1656555279,
+        "updated": 1751877351,
+        "image_url": "https://picx.zhimg.com/v2-f4040c00796b5bb3ba64980f9be88d6f_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 66,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 23,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "围绕读者控制力改造助记媒介 - 来自知乎专栏「助记媒介 &amp; 思想工具」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/637442975 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1686879550,
-  "url": "https://api.zhihu.com/articles/637442975",
-  "comment_permission": "all",
-  "title": "围绕读者控制力改造助记媒介",
-  "image_width": 4472,
-  "content": "<p data-pid=\"7zdIYZfO\">在读非虚构作品时，一切由你做主。你可以只读最后一页看结论。你可以飞快翻书只看标题；你可以花一周极其仔细地阅读 10 页内容。你可以关注多篇材料，把两本书并排翻开，对比他们的论点。好的非虚构作品作者事无巨细地把控着他们的文本，但只要书落到了你的手上，这本书就是为你服务的工具。你要根据你的需求和兴趣使用这些工具。</p><p data-pid=\"jwQebcWR\">这种以读者为中心的特点，是非虚构作品和视频和讲座之类信息大众媒体的区别。消费那些形式的媒体时，观众无法「控制」自己的体验，例如，关注他们认为最有趣的部分。事实上，没有控制权是这些媒体吸引力的一部分。全心跟从 <a href=\"https://link.zhihu.com/?target=https%3A//www.3blue1brown.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">3blue1brown</a> 之类优秀解释者的节奏，是很有趣的体验。如果我不想自己做主，我就会看他的视频：我想放松下来，享受从 Grant 的视角审视他讨论的话题。</p><p data-pid=\"2g9GN09c\">然而，如果作品的目标是增强读者的能力，那么以读者为中心做法有一些重要的优势。这时候，作者需要考虑读者已经知道哪些知识，可能对哪些知识感兴趣，并据此设计文章的框架。当然，很难有普适的方案能解决大部分情况，但并没有问题；读者可以与作者合作，根据自己的兴趣调整阅读体验。由此，相比以作者为中心的媒介，以读者为中心的文本能让读者获得更多场景的能力。可能更重要的是，文本让读者持续关注他们认为有意义目标。</p><p data-pid=\"GEZs_o38\">说了这么多，我现在可以明确指出<a href=\"https://link.zhihu.com/?target=https%3A//numinous.productions/ttft\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">助记媒介</a><sup data-text=\"我们如何才能开发出变革性的思想工具？\" data-url=\"https://zhuanlan.zhihu.com/p/394795804\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>的一个关键问题：助记媒介不得不由作者做主。助记媒介的关键见解，是将间隔重复记忆卡片与叙述散文相结合。这些由作者提供的记忆卡片使人们很容易记住他们所读的内容，但其代价是控制权完全交给了作者。阅读助记文本与阅读普通文本有着极大的不同。目前的互动方式不仅要求你完整地阅读一篇文本，还要求你反复地学习——并记住——作者认为重要的内容，无论作者选择的形式是什么。记忆系统不是「你的」；它是从作者那里借来的，放在玻璃罩里。正如 Gary Wolf 向我指出的，这是一种专制的媒介。</p><h2><b>当今助记媒介的成与败</b></h2><p data-pid=\"_wl0rgsq\">尽管有这些限制，《<a href=\"https://link.zhihu.com/?target=https%3A//quantum.country/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">量子国度</a>》还是成功了，因为它是成熟技术领域的入门书。作为入门书，它可以安全地假设大多数读者之前没有什么经验。他们可能特别愿意（也可能特别合适）听从作者的意见。因为《量子国度》是对成熟领域的介绍，所以它有一套预期要涵盖的主题。它的目录，部分出于作者的选择，但主要反映了普遍共识。想了解该领域的读者通常不会觉得有必要在这些基础概念中挑选。而且，由于量子计算是技术性话题，卡片的内容较少依赖于作者对隐喻或措辞的选择。而主要是对一些物理定律的标准描述。因此，读者更有可能乐于按原样内化卡片，而不会想重新表述这些卡片，以更好切合他们对主题的思考角度。因此，读者更有可能乐于按原样内化卡片，而不是想用更符合他们对该主题思考方式的术语来重新表述它们。</p><p data-pid=\"FA7upYTS\">如果这些假设不成立，当前设计的助记媒介的效果就差多了。例如，在我自己的助记文章<a href=\"https://link.zhihu.com/?target=https%3A//andymatuschak.org/prompts/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《如何写出好卡片》</a><sup data-text=\"如何写出好卡片：利用间隔重复创造理解\" data-url=\"https://zhuanlan.zhihu.com/p/434074509\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>中，许多读者对编写卡片有丰富的经验，而其他读者则从未写过卡片。读者的兴趣领域和投入程度差异很大。文章的主题没有清晰共识，也没有标准化。我发明了自己的抽象概念，这与一些读者的经验产生了很好的共鸣，而与另一些读者的经验则不尽相同。而且，由于这是非技术性的话题，这些卡片更多地依赖于我作为作者的隐喻、命名、措辞等选择。根据读者的反馈，其他作者的类似助记文章也遇到了类似的问题。</p><p data-pid=\"03Wxguz5\">这不是话题不够正式的问题，也不是读者不愿意付出精力的问题。助记媒介的一个有价值的应用是增强重要的学术论文。暑期实习生 <a href=\"https://link.zhihu.com/?target=https%3A//kirkbyo.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Ozzie Kirkby</a> 一直在探索去中心化技术相关的话题，所以作为一个实验，我把<a href=\"https://link.zhihu.com/?target=https%3A//ipfs.io/ipfs/QmR7GSQM93Cx5eAg6a6yRzNde1FQv7uL6X1o4k7zrJa3LX/ipfs.draft3.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">星际文件系统（IPFS）的论文</a>改编成助记媒介，并记录了他的阅读经验。我的许多卡片都是照本宣科，但也有些卡片专注于他个人并不想探索的方面。Ozzie 发现自己想在某些部分内化更多细节，所以他在日志中写了额外的卡片（假装他可以通过这种方式将它们添加到 Orbit 中）。有几张卡片对于他的知识背景来说感觉太复杂，所以他把它们分成了更短的卡片。我相信，由于背景和动机差别很大，而且论文的阅读要比散文更具策略性，因此像这样的问题在大多数论文阅读经历中都会出现。</p><h2>只有编辑和删除按钮是不够的</h2><p data-pid=\"mQ62C_v9\">从实际角度来说，我得到的读者反馈听起来像是对控制的简单请求：你可以添加一个让我删除卡片的按钮吗？你能让我编辑作者的文字吗？我一直犹豫是否实现这些简单的功能，因为我认为助记媒体的基本模式需要重新塑造。传统文本是一种工具，可以按照读者的意愿使用。读者是驾驶员。但编辑和删除按钮还不足以将助记媒介的作者离开驾驶座。即使有了这些按钮，读者也只是随波逐流，也许会在途中做出调整。</p><p data-pid=\"-64FW4ZP\">这里的部分问题是媒介的积极起始假设，即读者被期望收集作者的所有卡片（除了他们否决的卡片）。这创造了一种学校式的学习范式，一种作者正在<b>分配</b>你从文本中获得 X、Y 和 Z 的感觉。一些读者会对此感到沮丧并放弃；其他人则会毫无激情但被动地学习他们并不真正关心的东西，这实际上与 <a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/nascent-art-for-39070865\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Orbit 的价值观</a>（「帮助你加深与你最关心的东西的关系......而不是为了你认为你<b>应该</b>参与的东西......不是<b>教育</b>的口吻」）不相符。这种不匹配的情况确实让我不能只在类似助记媒介的「入门」背景下推进助记媒介（按其现状），在这种背景下，许多读者不介意放弃控制权。我想提倡一种更加自主、更少义务的学习态度。</p><p data-pid=\"XyebT2AJ\">问题的另一部分在于，如果没有为读者提供更完整的创作体验，允许编辑的媒介仍然会给作者的写作带来很大的特权。这种媒介允许读者调整作者的措辞以更好地配合他们的理解，但不允许读者捕捉他们注意到的与文本之外的一些想法的有趣联系。读者无法捕捉到他们认为有趣但作者并没有提供卡片的细节。读者无法捕捉到文本在第二天所激发的想法。从哲学角度看，这种不对称性促进了这样一种观点：卡片是你消费的东西，而不是你创造的东西。想象一下，如果你在仔细研究一本书时被禁止使用任何你自己的书写材料：你只允许在书页的空白处写字。你的思想会相应地收缩。</p><p data-pid=\"1WiHKXWk\">当然，这里的一个简单解决方案是在 Orbit 上添加一个创作界面。我对一种可能性感到兴奋，即作者的卡片写作实践将为读者自己的卡片写作能力提供帮助。但是，如果读者不能在受到启发时流畅地写出卡片，这就不会发生。今天人们可以在阅读助记文章时，在 Anki 或 SuperMemo 中添加自己的卡片。但我的直觉是，在参与作者提供的卡片和写自己的卡片之间建立强烈的分离——例如，要求读者在阅读时访问一个单独的应用程序或页面来写自己的卡片——是有害的。如果你在看卡片，你应该同时能够写卡片。作者提供的卡片应该感觉是你手中的材料，可以根据你的需要和兴趣塑造，而不是与你为自己写的卡片不同「种类」的东西。我想要纯文本的流畅性：在文档之间复制和粘贴、粗略或精细地编辑和组合、批量处理、生成、grep、pipe、转发社交媒体，等等。</p><h2><b>记忆幻想</b></h2><p data-pid=\"u5lahhA1\">让我们退一步，重新审视这种媒介的最初目标。暂时沉浸在科幻小说的幻想中，如果能把插头插到我们的脖子上，按一下开关，就能深入理解任何主题，那就太好了。这个目标（暂时）无法实现——但我们能做到多接近呢？</p><p data-pid=\"Hf4xzl2m\">试想，每当你阅读或思考一些有趣或重要的内容，你都能轻松地记住那个想法。学习不会像即插即用那样简单，但你可以读一本书（只读一次）并记住每一个有意义的细节；你可以在你的工作台上琢磨这些想法，并记住你在实践中注意到的一切；你可以与合作者讨论这些想法，并记住产生的所有影响。为了避开反乌托邦的反对意见，想象一下，你也可以毫不费力地纠正那些证明是错误或无用的记忆。上述这些事情在现在还做不到，但我们至少可以在某种程度上接近。</p><p data-pid=\"MajWa6nw\">间隔重复记忆系统让我们能以在第一年花费 20-60 秒，之后每年花费不到 10 秒的代价，记住一个特定的细节。这并不算不费吹灰之力，但也不是特别繁重——<b>如果</b>你已经写了一张好卡片。写出好卡片比复习需要更多的努力，而且需要一种很少有人已经掌握的技能。这提示我们的幻想有一个稍微容易实现的版本：一个精灵自动为你读到的、想到的或听到的所有有趣的东西创造间隔重复卡片；你只需每天花费，比如说，十分钟的时间复习，就能记住所有这些细节。</p><p data-pid=\"j9V2FCbs\">我们的精灵需要两种技能：它必须读懂你的心思（即注意到你觉得有趣的是什么，在什么情况下，以什么方式理解）；它必须写出有效的间隔重复卡片（即这些卡片能引导回忆起构成理解的细节）。作为一个更合理的近似，你也许可以想象雇一个人整天跟着你，参加你的会议，读你正在阅读的内容，听你大声思考——并为所有看起来重要的事情写下记忆卡片。你可以称他们为你的「记忆主管」，向你的首席助手示意。当然，这非常昂贵（并且有侵入性）；而且因为这个助手不能读懂你的心思，他们的工作会不完美。但是，作为一个非科幻模型，如果你有能力的话，你可以实现它，这还是很有趣的。我们能否更经济地近似这个模型呢？</p><p data-pid=\"EHmSVAMc\">书籍与这种情况至少有一部分是惊人的类似。如果你很富有，你可以聘请一位私人导师来教你某个课题。这在某些方面很不方便，当然，这也相当昂贵。幸运的是，由于印刷术和互联网的出现，你可以选择阅读有关该主题的书籍。在某些方面，这本书将提供比你与导师合作<b>更好</b>的体验：当你买了一本书，你可以（间接地、部分地）聘请世界上最优秀的领域专家来教你。书中的文段将（希望）代表精心编辑和雕琢的叙述，而不是即兴的解释。当然，你阅读的速度比你听的速度要快得多。对于「翻阅书页」或「扫视标题」这样的动作，没有对应的对话形式。</p><p data-pid=\"E53ei9vG\">我们可以将类似的逻辑应用于我们的「记忆主管」，至少对于你花在阅读上的一部分时间是这样。这里的想法是，你在这些文本中认为重要的细节，会与其他读者认为重要的细节有所重叠。因此，也许你的「记忆主管」在你阅读这篇文本时需要做的工作，可能会与其他人的「记忆主管」需要做的工作有很大的重叠。如果重叠足够多，那么这可能成为领域专家——也许是作者，也许是另一个专家——写出涵盖这些重叠部分的卡片的高杠杆机会。事实上，对于这个特定的文本，领域专家可能会比通用的「记忆主管」写出更高质量的卡片。</p><p data-pid=\"rqKK8fbw\">现在我们得到了一个类似于助记媒介的想法，但还不是助记媒介。在我们的思想实验中，我们的想法是让你毫不费力地记住你认为有趣或有意义的一切。作者提供的卡片只是这一过程的素材。更具体地说，想象一下，当你阅读时，你通过扬起眉毛或在向你认为重要的材料挥手来大声地与你的「记忆主管」交谈。如果作者已经做了一些工作，写了关于那一点的卡片，而且这些卡片符合助手认为你觉得有趣的内容，他们就可以走捷径，使用作者的卡片。否则，他们就得自己动手，绕写新卡片的远路。也许在某些情况下，你会大声说：「这个细节实际上与我在研究项目中遇到的问题有关；这是一个考虑做 X 而不是 Y 的理由。」与助记媒介不同，这种工作流是由读者的兴趣，而不是作者的规定，驱动的。作者提供的卡片是一种捷径，而不是一份期望清单。</p><p data-pid=\"ErpCzY0v\">好吧，现在想象一下你没有「记忆主管」。我认识到，在这一点上，我们已经离「I know Kung Fu*」很远了，但如果我们把自己限制在你每天花在阅读上的部分，那么在软件中使用作者提供的卡片，我们能达到什么程度？Ozzie 和我一直在沿着这一思路探索一些方法。我们的原型还很初级，但你可以想象在阅读时高亮你觉得有趣的细节；如果作者提供了相关的卡片，你会收集这些卡片；否则，我们可以提供一个批量编辑界面，将笔记塑造成卡片，包括那些你可能无中生有的卡片。（*译注：在《黑客帝国》中，尼奥为了对抗矩阵，必须学会各种武术对抗特务，而他不需要经过多年训练，而是直接将几十种武术风格下载到自己的大脑中，然后说出了 I know Kung Fu 这句台词。这个梗的意思其实就是刷的一下，毫不费劲就学会了。）</p><h2><b>不费吹灰之力</b></h2><p data-pid=\"h_eVlUZL\">这种方法有很多问题！一个核心的矛盾是，几乎在所有情况下，赋予作者的正确权限并不是零；赋予读者的正确控制和责任也不是 100%。我们应该如何在作者和读者之间协调控制的比例？</p><p data-pid=\"ynk4a5_U\">作者的卡片其实并不只是一种捷径，正如我之前所描述的那样。它们还带有意义。卡片标志着作者认为什么是重要的。它们传达了一种规范，说明理解一个话题意味着什么（或至少是作者认为意味着什么）。它们使作者有机会以不同的方式传达文章的观点，甚至在卡片和文章之间创造对话——但这是另一篇文章的话题了。它们引起人们的注意和参与；当它们运作良好时，它们会产生一种支持和安全的感觉。</p><p data-pid=\"alOCtkiW\">因此，也许我们仍然应该展示作者的卡片，也许是以注释的形式，但让读者「勾选」他们想收集的每张卡片。这里的问题是，<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z87TFgTr98bz3MNFT26NhegyRCMgdkfNTBAzp\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">交互是界面设计中的成本中心</a><sup data-text=\"交互是界面设计中的成本中心\" data-url=\"https://zhuanlan.zhihu.com/p/472770296\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。如果在 80% 的时间，有 80% 的用户想收集作者 80% 的卡片，那么一个朴素的勾选机制将需要读者进行大量交互来标示常见情况。想象一下，读完《量子国度》的第一章，一张一张点击边缘处的 112 张卡片来全部收集它们。你也许可以通过把这些交互分批放在章节结束的「复习区」来改善这种情况，类似于 Orbit 目前的复习区——但我认为这还不够。</p><p data-pid=\"BezhV2Xu\">如果我们不小心，我们不仅会要求用户进行过多的交互：我们还会分散他们的注意力，并造成决策疲劳。想象一下，当你在阅读一篇文章时，你得不断地评估出现在文本旁边的卡片：我想收集这个卡片吗？还是想写我自己的？你的目光在文本和边栏之间来回游移；你的注意力从文本中被吸引过去。这种设计的混乱性质可以通过在章节末尾的批量操作来改善，但要求用户一张一张明确决定是否想保留《量子国度》第一章中的 112 张卡片，这仍然难以想象。要求他们努力记住答案已经很强人所难了。</p><p data-pid=\"rEpn6npS\">另一个困难的问题是调和。假设你发现一个细节特别有趣，所以你高亮了它。你看到作者为这段话提供了一张卡片——很好。但现在你需要决定：作者的卡片和我发现的有趣意义相关吗？你需要对你<b>想</b>写的卡片形成一些画面，如果你要写卡片的话，然后阅读作者的卡片，并进行某种差异比较。更糟糕的是：如果你不完全信任作者能够写出好卡片，你还需要评估他们卡片的质量。我对阅读其他人的记忆文本的实验表明，这两项活动都相当费力。</p><p data-pid=\"b8JjWVym\">我认为这里的成功方法可能是更加渐进的，即阶段性地对卡片集进行精炼。也许你可以用一些非常粗略的交互来标记你认为有趣的段落。如果一个段落激发了一些你知道作者不会涵盖的特定卡片——例如，因为它们与你目前的项目有关——你可以在阅读时就在那里写下来。渐进地，在各部分结束时，你可以回顾标记段落中作者提供的卡片，这既是为了加强你的记忆，也是为了提供一个轻量级的机会来丢弃或编辑那些明显不适用的卡片。也许你在这个时候注意到，作者并没有就你认为重要的一些细节提供卡片，所以你当场写了一些。然后，在接下来的几周复习中，你完善来自这一文本的卡片，修改和删除那些没有灵感的卡片，删除无意中重复的卡片，用新的卡片来填补细节，增加你没有注意到的联系，等等。但关键是，这篇文本的卡片感觉像是<b>你的</b>；它们与你自己写的，有关自己想法的卡片混合在一起。Taylor Rogalski 提出了一个我喜欢的比喻：有人把他们的谷歌文档发给你，然后你点击文件 &gt; 复制，这样你就可以肆无忌惮地在上面乱写乱画。</p><h2><b>关于机器学习和语言模型的后记</b></h2><p data-pid=\"deumlOM8\">我想，我的许多读者一直都在念叨着这句话：那语言模型呢！？为什么坚持要求作者（或那些将其文本改编为助记媒介的人）做所有这些工作？那些永远不会被改编的长尾文本怎么办？</p><p data-pid=\"Hz0FAJBc\">我知道。我也对这些问题感兴趣。我沿着这些路线试验了几种方法，到目前为止，我的印象是，对于某些类型的卡片，这里有可能实现部分自动化，但一个像样的解决方案将需要大量的工作和深刻的见解。我不认为正在流传的<a href=\"https://link.zhihu.com/?target=https%3A//getpolarized.io/2020/12/16/Polar-2-0-99-Released-with-AI-Flashcards.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">简单方法</a>会代表可行的路径。但我确实认为这项工作值得一做；如果你有兴趣并有能力把它作为一个研究项目，而且你希望我监督你的工作（并可能提供资助）或提供建议，请联系我。</p><p data-pid=\"lkJAbBuJ\">我的直觉告诉我，至少在近期，我们最好把这个问题作为一种增强问题，而不是一种自动化问题。沿着这个思路，我有一些具体的工作流程的想法，但它们必须留到另一篇文章再谈了。</p><p data-pid=\"v9JsPyAu\">————————————</p><p data-pid=\"36rvQ2RG\">我想感谢 Ozzie Kirkby 在这个夏天和我一起围绕这个问题进行了原型设计；感谢 Nick Barr、Ty Jung 和 Taylor Rogalski 进行了长时间的讨论和白板交流；感谢 Gary Wolf 在这个问题上的宝贵通信。</p><p data-pid=\"D7ktSg4A\">我想感谢你们，所有 Patreon 赞助者，感谢你们的善意支持。有机会像这样进行开放式的探索是相当了不起的。你们的贡献使之成为可能，我很感激。</p><hr/><blockquote data-pid=\"rpaISNcl\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4、校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.patreon.com/posts/revamping-medium-55309960\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Revamping the mnemonic medium around reader control | Patreon 上的 Andy Matuschak</a><br/>作者：<span class=\"nolink\">Andy Matuschak</span></blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 17,
-  "image_url": "https://pic1.zhimg.com/v2-2db108f37ee86004a508364898bdcee5_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 8,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 8,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMjk3ODUxODgSCTYzNzQ0Mjk3NRgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 31,
+      "down_vote_count": 1,
+      "like_count": 8,
+      "comment_count": 17,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 23,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-2db108f37ee86004a508364898bdcee5": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-2db108f37ee86004a508364898bdcee5": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-2db108f37ee86004a508364898bdcee5": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=637442975&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 助记媒介 & 思想工具",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525784109008203776",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 助记媒介 & 思想工具"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

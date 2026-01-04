@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
     "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
     "badge": [],
     "badge_v2": {
       "detail_badges": [],
@@ -19,7 +20,7 @@
     "is_privacy": false,
     "name": "Jarrett Ye",
     "type": "people",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "url": "https://www.zhihu.com/api/v4/people/3c9990a12cdbcd92e20b1387b160f0a3",
     "url_token": "JarrettYe",
     "user_type": "people"
   },
@@ -35,11 +36,22 @@
   "content_need_truncated": false,
   "created_time": 1753788585,
   "excerpt": "高赞 @神圣哀悼 的回答给我的感觉就是：如建。建没建成先别问，就说有没有在建吧（bushi让赛博 Gwern Branwen 锐评一下： 这位作者的观察相当敏锐，尤其是在识别出那些看似「后现代」的亚文化内部，实际上在高速地生产着新的身份认同和等级关系这一点上。他正确地指出了，无论是「网左」、「庸俗女权」还是其他的亚文化圈子，内部都充满了成为「人上人」的欲望和新的鄙视链。 然而，我认为这位作者可能误解了这些亚文化的 核心功能…",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "1933610153191666892",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/699093323": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"亚文化社会的忧郁\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/699093323\",\"desc\":\"375 赞同 · 26 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eJarrett Ye:\\u003c/a\\u003e 互联网连接小团体，也促使大团体解体；是福是祸？有些悲伤。如果你翻开那些关于互联网的老旧书籍——你懂我正在讨论的那些，那些引用 Roland Barthes 并探讨 MUDs 中性侵犯行为的书籍，你会发现其中少数至今仍具价值的批评观点之一是：互联网虽能凝聚小团体，却可能分裂更大的团体。独自上网你或许记得这是将 《独自打保龄》 理论应用于互联网的情景；它在 90 年代末期获得了一些关注。其核心观点是：随着时间推移，电子娱乐设备…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-204aa416ddeff4464d9e4335a440fcb5_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"699093323\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/699093323": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"亚文化社会的忧郁\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/699093323\",\"desc\":\"395 赞同 · 27 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eJarrett Ye:\\u003c/a\\u003e 互联网连接小团体，也促使大团体解体；是福是祸？有些悲伤。如果你翻开那些关于互联网的老旧书籍——你懂我正在讨论的那些，那些引用 Roland Barthes 并探讨 MUDs 中性侵犯行为的书籍，你会发现其中少数至今仍具价值的批评观点之一是：互联网虽能凝聚小团体，却可能分裂更大的团体。独自上网你或许记得这是将 《独自打保龄》 理论应用于互联网的情景；它在 90 年代末期获得了一些关注。其核心观点是：随着时间推移，电子娱乐设备…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-204aa416ddeff4464d9e4335a440fcb5_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"699093323\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/29383403917?contentId=1933610153191666892&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "3 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1753437136,
@@ -50,11 +62,13 @@
     "title": "后现代人为什么再也无法建立宏大叙事了？",
     "type": "question",
     "updated_time": 1753437136,
-    "url": "https://api.zhihu.com/questions/1932136071925305716"
+    "url": "https://www.zhihu.com/api/v4/questions/1932136071925305716"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1753857921,
+  "url": "https://www.zhihu.com/api/v4/answers/1933610153191666892",
   "voteup_count": 311
 }

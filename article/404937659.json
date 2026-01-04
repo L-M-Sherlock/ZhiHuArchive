@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "404937659",
+  "title": "避免孤立的间隔重复记忆卡片",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/404937659",
+  "image_url": "https://pica.zhimg.com/v2-c867fa21d4d87de40d67da5d52ae5782_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-c867fa21d4d87de40d67da5d52ae5782_720w.jpg?source=172ae18b",
+  "excerpt": "在为 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4eXdSMJFv2qVGXSUEKH4vdcHBrLHcFY1ZGfC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复记忆系统</a>[1]添加卡片时，通常会犯一个错误，那就是把卡片写在一个看似有趣的细节上，但却与你正在思考的其他事情脱节。<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z49EwwPL1CzKHTyLHXwJJH7hsciCg772Vm5WJ\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复记忆卡片应关联和联系概念</a>[2]——而且最好让它们与你经常思考的想法相关联和联系。「孤岛问题」（Michael Nielsen…",
+  "created": 1630291160,
   "updated": 1672999474,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "在为间隔重复记忆系统 [1]添加卡片时，通常会犯一个错误，那就是把卡片写在一个看似…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 905,
+  "image_height": 1280,
+  "content": "<p data-pid=\"tDqXvTV5\">在为<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4eXdSMJFv2qVGXSUEKH4vdcHBrLHcFY1ZGfC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复记忆系统</a><sup data-text=\"间隔重复记忆系统（Spaced repetition memory system）\" data-url=\"https://zhuanlan.zhihu.com/p/404257681\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>添加卡片时，通常会犯一个错误，那就是把卡片写在一个看似有趣的细节上，但却与你正在思考的其他事情脱节。<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z49EwwPL1CzKHTyLHXwJJH7hsciCg772Vm5WJ\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复记忆卡片应关联和联系概念</a><sup data-text=\"间隔重复记忆卡片应关联和联系概念\" data-url=\"https://zhuanlan.zhihu.com/p/405151942\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>——而且最好让它们与你经常思考的想法相关联和联系。</p><p data-pid=\"cAbNKbFI\">「孤岛问题」（Michael Nielsen 称之为生造词，2018年）导致两个重要的问题：</p><ol><li data-pid=\"a1JXNMkH\">一段时间后，你往往开始感觉这些孤立的卡片是复习环节的负担，它们与你真正关心的内容脱节（参见<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z64si3kA3bkCgz3Bsr5YNWsAAQUR2pmXab63T\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">在间隔重复记忆系统中，优化的关键是复习环节及其内容的情感联系</a><sup data-text=\"在间隔重复记忆系统中，优化的关键是复习环节及其内容的情感联系\" data-url=\"https://zhuanlan.zhihu.com/p/399811533\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>）。</li><li data-pid=\"qKc2gjLc\">你很可能更难记住这些问题的答案，因为它们不会通过你的日常生活自然强化。即使你记住了这些答案，也有可能因为它们与其他知识没有联系而被模式匹配（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6S3cEUXNktEEZEzRqUXh5ivRNMWjJ2nq72Ys\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">编写间隔重复记忆卡片应避免浅层次的「模式匹配」</a><sup data-text=\"编写间隔重复记忆卡片应避免浅层次的「模式匹配」\" data-url=\"https://zhuanlan.zhihu.com/p/401944262\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>）</li></ol><p data-pid=\"2-AffboN\">至少对我来说，经常导致孤岛问题的一种常见情况是：有人在我一无所知的领域分享了一篇有趣的论文；我阅读后写了一些卡片。几个月后，我不知道为什么要复习它们。它们与我正在做或正在思考的事情没有联系。</p><p data-pid=\"VLkWAOK7\">Michael 强调了「孤立的孤岛」这种特别有害的情况：</p><blockquote data-pid=\"ZkZGKphk\">避免孤立的孤岛（那些与其他事物完全脱节的单一问题）尤为重要。比方说，我正在读一篇关于一个新主题的文章，我学到一个看起来尤其有用的知识。我会定下一个规矩——永远不只输入单个问题。反之我会输入至少两个问题，三个以上更佳。对于某则有用知识的核心来说这一般足够了。对于孤立的孤岛问题，我会不可避免地经常答错它们，输入它们本身就是浪费时间。</blockquote><p class=\"ztext-empty-paragraph\"><br/></p><hr/><p class=\"ztext-empty-paragraph\"><br/></p><h2>参考文献</h2><p data-pid=\"0nWEI6Xn\">Nielsen, M. (2018). <i>Augmenting Long-term Memory</i>.<sup data-text=\"【三万字长文】量子物理学家是如何使用 Anki 的？\" data-url=\"https://zhuanlan.zhihu.com/p/65131722\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup> <a href=\"https://link.zhihu.com/?target=http%3A//augmentingcognition.com/ltm.html\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">augmentingcognition.com</span><span class=\"invisible\">/ltm.html</span><span class=\"ellipsis\"></span></a></p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"iSYPJRgx\"><a href=\"https://zhuanlan.zhihu.com/p/398094270\" class=\"internal\" target=\"_blank\">高质量的间隔重复记忆卡片最重要的属性是什么？</a></li><li data-pid=\"WZwLWykY\"><a href=\"https://zhuanlan.zhihu.com/p/399811533\" class=\"internal\" target=\"_blank\">在间隔重复记忆系统中，优化的关键是复习环节及其内容的情感联系</a></li><li data-pid=\"C9awuGeP\"><a href=\"https://zhuanlan.zhihu.com/p/401944262\" class=\"internal\" target=\"_blank\">编写间隔重复记忆卡片应避免浅层次的「模式匹配」</a></li></ul><h2>声明</h2><p data-pid=\"NgxNCt_q\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"NUXvSCfr\">原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8QtbrR4cxDshTYBq3RCfwUVkXS8mSjRmAnqk\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Avoid orphan spaced repetition memory prompts</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
-  "reason": "",
-  "excerpt_title": "",
-  "id": 404937659,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21535352",
+      "type": "topic",
+      "id": "21535352",
+      "name": "抽认卡"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19575062",
+      "type": "topic",
+      "id": "19575062",
+      "name": "联系"
+    }
+  ],
   "voteup_count": 18,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "间隔重复使记忆成为一种选择",
+    "is_following": false,
+    "url_token": "c_1525782291741208576",
+    "id": "c_1525782291741208576",
+    "articles_count": 182,
+    "accept_submission": true,
+    "title": "间隔重复 & 注意力管理",
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "comment_permission": "all",
+    "created": 1656554846,
+    "updated": 1751877449,
+    "image_url": "https://picx.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 227,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 1,
+  "contributions": [
+    {
+      "id": 41487662,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "间隔重复使记忆成为一种选择",
+        "is_following": false,
+        "url_token": "c_1525782291741208576",
+        "id": "c_1525782291741208576",
+        "articles_count": 182,
+        "accept_submission": true,
+        "title": "间隔重复 & 注意力管理",
+        "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+        "comment_permission": "all",
+        "created": 1656554846,
+        "updated": 1751877449,
+        "image_url": "https://picx.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 227,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 13,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "避免孤立的间隔重复记忆卡片 - 来自知乎专栏「间隔重复 &amp; 注意力管理」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/404937659 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1630291160,
-  "url": "https://api.zhihu.com/articles/404937659",
-  "comment_permission": "all",
-  "title": "避免孤立的间隔重复记忆卡片",
-  "image_width": 1280,
-  "content": "<p data-pid=\"tDqXvTV5\">在为<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4eXdSMJFv2qVGXSUEKH4vdcHBrLHcFY1ZGfC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复记忆系统</a><sup data-text=\"间隔重复记忆系统（Spaced repetition memory system）\" data-url=\"https://zhuanlan.zhihu.com/p/404257681\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>添加卡片时，通常会犯一个错误，那就是把卡片写在一个看似有趣的细节上，但却与你正在思考的其他事情脱节。<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z49EwwPL1CzKHTyLHXwJJH7hsciCg772Vm5WJ\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复记忆卡片应关联和联系概念</a><sup data-text=\"间隔重复记忆卡片应关联和联系概念\" data-url=\"https://zhuanlan.zhihu.com/p/405151942\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>——而且最好让它们与你经常思考的想法相关联和联系。</p><p data-pid=\"cAbNKbFI\">「孤岛问题」（Michael Nielsen 称之为生造词，2018年）导致两个重要的问题：</p><ol><li data-pid=\"a1JXNMkH\">一段时间后，你往往开始感觉这些孤立的卡片是复习环节的负担，它们与你真正关心的内容脱节（参见<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z64si3kA3bkCgz3Bsr5YNWsAAQUR2pmXab63T\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">在间隔重复记忆系统中，优化的关键是复习环节及其内容的情感联系</a><sup data-text=\"在间隔重复记忆系统中，优化的关键是复习环节及其内容的情感联系\" data-url=\"https://zhuanlan.zhihu.com/p/399811533\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>）。</li><li data-pid=\"qKc2gjLc\">你很可能更难记住这些问题的答案，因为它们不会通过你的日常生活自然强化。即使你记住了这些答案，也有可能因为它们与其他知识没有联系而被模式匹配（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6S3cEUXNktEEZEzRqUXh5ivRNMWjJ2nq72Ys\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">编写间隔重复记忆卡片应避免浅层次的「模式匹配」</a><sup data-text=\"编写间隔重复记忆卡片应避免浅层次的「模式匹配」\" data-url=\"https://zhuanlan.zhihu.com/p/401944262\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>）</li></ol><p data-pid=\"2-AffboN\">至少对我来说，经常导致孤岛问题的一种常见情况是：有人在我一无所知的领域分享了一篇有趣的论文；我阅读后写了一些卡片。几个月后，我不知道为什么要复习它们。它们与我正在做或正在思考的事情没有联系。</p><p data-pid=\"VLkWAOK7\">Michael 强调了「孤立的孤岛」这种特别有害的情况：</p><blockquote data-pid=\"ZkZGKphk\">避免孤立的孤岛（那些与其他事物完全脱节的单一问题）尤为重要。比方说，我正在读一篇关于一个新主题的文章，我学到一个看起来尤其有用的知识。我会定下一个规矩——永远不只输入单个问题。反之我会输入至少两个问题，三个以上更佳。对于某则有用知识的核心来说这一般足够了。对于孤立的孤岛问题，我会不可避免地经常答错它们，输入它们本身就是浪费时间。</blockquote><p class=\"ztext-empty-paragraph\"><br/></p><hr/><p class=\"ztext-empty-paragraph\"><br/></p><h2>参考文献</h2><p data-pid=\"0nWEI6Xn\">Nielsen, M. (2018). <i>Augmenting Long-term Memory</i>.<sup data-text=\"【三万字长文】量子物理学家是如何使用 Anki 的？\" data-url=\"https://zhuanlan.zhihu.com/p/65131722\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup> <a href=\"https://link.zhihu.com/?target=http%3A//augmentingcognition.com/ltm.html\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">augmentingcognition.com</span><span class=\"invisible\">/ltm.html</span><span class=\"ellipsis\"></span></a></p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"iSYPJRgx\"><a href=\"https://zhuanlan.zhihu.com/p/398094270\" class=\"internal\">高质量的间隔重复记忆卡片最重要的属性是什么？</a></li><li data-pid=\"WZwLWykY\"><a href=\"https://zhuanlan.zhihu.com/p/399811533\" class=\"internal\">在间隔重复记忆系统中，优化的关键是复习环节及其内容的情感联系</a></li><li data-pid=\"C9awuGeP\"><a href=\"https://zhuanlan.zhihu.com/p/401944262\" class=\"internal\">编写间隔重复记忆卡片应避免浅层次的「模式匹配」</a></li></ul><h2>声明</h2><p data-pid=\"NgxNCt_q\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"NUXvSCfr\">原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8QtbrR4cxDshTYBq3RCfwUVkXS8mSjRmAnqk\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Avoid orphan spaced repetition memory prompts</a></blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 1,
-  "image_url": "https://pic1.zhimg.com/v2-c867fa21d4d87de40d67da5d52ae5782_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 2,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 2,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxNzgxMTYwODYSCTQwNDkzNzY1ORgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 18,
+      "down_vote_count": 0,
+      "like_count": 2,
+      "comment_count": 1,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 13,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-c867fa21d4d87de40d67da5d52ae5782": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-c867fa21d4d87de40d67da5d52ae5782": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-c867fa21d4d87de40d67da5d52ae5782": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=404937659&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 间隔重复 & 注意力管理",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525782291741208576",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 间隔重复 & 注意力管理"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

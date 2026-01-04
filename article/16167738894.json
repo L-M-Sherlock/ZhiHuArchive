@@ -1,79 +1,548 @@
 {
-  "status": 0,
+  "id": "16167738894",
+  "title": "【工具分享】PDF、图片、公式——阻碍我们知识数字化的敌人终于倒下了，吗？",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/16167738894",
+  "image_url": "",
+  "title_image": "",
+  "excerpt": "<img src=\"https://pic2.zhimg.com/v2-70d8576d043a84992b6fe3c543ecd7ef_200x112.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"1074\" data-watermark=\"original\" data-original-src=\"v2-70d8576d043a84992b6fe3c543ecd7ef\" data-watermark-src=\"v2-8281f5ee17e135c89d4b8c522ce5abf7\" data-private-watermark-src=\"\" class=\"origin_image inline-img zh-lightbox-thumb\" data-original=\"https://pic2.zhimg.com/v2-70d8576d043a84992b6fe3c543ecd7ef_r.png\"/>引言从第一次我用同济版高等数学的 PDF 制作 Anki 卡片的时候，我就发现了一件让我深深地感到无语的事情： <b>为什么这些 PDF 复制出来都是一坨？</b>与收敛数列的性质相比较，可得函数极限的 一些相应的性质. 它们都可以根 据函数极限的定义，运用类似于证明收敛…",
+  "created": 1735898653,
   "updated": 1740808457,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://pic1.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "引言从第一次我用同济版高等数学的 PDF 制作 Anki 卡片的时候，我就发现了一件让我…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 0,
+  "image_height": 0,
+  "content": "<h2>引言</h2><p data-pid=\"giH5_eJr\">从第一次我用同济版高等数学的 PDF 制作 Anki 卡片的时候，我就发现了一件让我深深地感到无语的事情：</p><p data-pid=\"FstPCe2V\"><b>为什么这些 PDF 复制出来都是一坨？</b></p><blockquote data-pid=\"2DNrXJn6\">与收敛数列的性质相比较，可得函数极限的 一些相应的性质. 它们都可以根 据函数极限的定义，运用类似于证明收敛数列性质的方法加以证明. 由于函数极 限 的 定 义 按 自 变 量 的 变 化 过 程 不 同 有 各 种 形 式 ，下 面 仅 以 “ I i m f (x )” 这 种 形 式 为<br/>代表给出关于函数极限性质的一些定理，并就其中的几个给出证明. 至于其他形 式的极限的性质及其证明 ，只要相应地做一些修改即可得出.</blockquote><p data-pid=\"fk9PRagL\">本来教材内容就已经是一坨了，我当年给这些教材内容制卡的时候<sup data-text=\"Anki+Markdown/Word，这样自学很扎实！\" data-url=\"https://zhuanlan.zhihu.com/p/84712668\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，又要在文本处理上再吃一坨。</p><p data-pid=\"rNN2_Xgk\">当我有耐心的时候，制出来的卡是这样的<sup data-text=\"高树是什么树？可以吃吗？大学牌组第一弹——「高等数学」\" data-url=\"https://zhuanlan.zhihu.com/p/71560512\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-70d8576d043a84992b6fe3c543ecd7ef_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"1074\" data-original-token=\"v2-70d8576d043a84992b6fe3c543ecd7ef\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic2.zhimg.com/v2-70d8576d043a84992b6fe3c543ecd7ef_r.jpg\"/></figure><p data-pid=\"d-EAKnQK\">没耐心的时候是这样的：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-685279a5b2b52d5318878091f09fa4ac_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"1074\" data-original-token=\"v2-685279a5b2b52d5318878091f09fa4ac\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic1.zhimg.com/v2-685279a5b2b52d5318878091f09fa4ac_r.jpg\"/></figure><p data-pid=\"hRCWcxCh\">摆烂的时候：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-e39bfd804ec9dd7730003d26834eac1a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"1074\" data-original-token=\"v2-e39bfd804ec9dd7730003d26834eac1a\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic3.zhimg.com/v2-e39bfd804ec9dd7730003d26834eac1a_r.jpg\"/></figure><p data-pid=\"Pa25kQ-z\">而且想要在这种教材里面搜索内容，也是玄学：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-2f713ab3842890482cf5c2facf4e77c2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1240\" data-rawheight=\"1126\" data-original-token=\"v2-2f713ab3842890482cf5c2facf4e77c2\" class=\"origin_image zh-lightbox-thumb\" width=\"1240\" data-original=\"https://pic1.zhimg.com/v2-2f713ab3842890482cf5c2facf4e77c2_r.jpg\"/></figure><p data-pid=\"ARCOx1rN\">复制一看：</p><blockquote data-pid=\"lNgemhdu\">的 某 一 去 心 部</blockquote><p data-pid=\"XOllFxcR\">这能搜到就有鬼了。</p><p data-pid=\"9E2m9_KU\">这种糟糕的经历伴随了我大学四年。期间我也尝试了不少其他解决方法。比如</p><ul><li data-pid=\"nUaG1lpw\">用 Abbyy 来 OCR 建立文本层</li><li data-pid=\"wyB4RjdI\">上网找非扫描版的 PDF</li><li data-pid=\"Euwh1fGs\">用 Mathpix 做数学公式识别</li></ul><p data-pid=\"K-Su-hqv\">但这些工具要么贵，要么各种卡壳。常常导致我学习一小时，有半小时都在折腾卡壳的地方，极大地降低了我的效率。</p><p data-pid=\"0gKJTvpl\">我一直在想，就没有什么工具能够完美解决这些问题，不再让我操心？</p><p data-pid=\"2usFa5CG\">最近，Thoughts Memo 汉化组（养老院）的朋友告诉我了一个好消息：在 2025 年，这都不是问题了！</p><h2>Doc2X</h2><p data-pid=\"8nfPRuC1\">我对它的第一眼就让我印象深刻：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-37fe46a8e10d4c5a4eff3e5bcb6c3676_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"4410\" data-rawheight=\"2650\" data-original-token=\"v2-37fe46a8e10d4c5a4eff3e5bcb6c3676\" class=\"origin_image zh-lightbox-thumb\" width=\"4410\" data-original=\"https://pica.zhimg.com/v2-37fe46a8e10d4c5a4eff3e5bcb6c3676_r.jpg\"/></figure><p data-pid=\"lD_rtXTZ\">你说这是去印刷厂里把原始的 LaTeX 代码偷出来渲染的我都信。</p><p data-pid=\"wob9Ftih\">再看看这个公式识别的效果：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a8af024b760447604fe0304197c4ec30_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1434\" data-rawheight=\"580\" data-original-token=\"v2-a8af024b760447604fe0304197c4ec30\" class=\"origin_image zh-lightbox-thumb\" width=\"1434\" data-original=\"https://pic1.zhimg.com/v2-a8af024b760447604fe0304197c4ec30_r.jpg\"/></figure><p data-pid=\"BjmSbkNK\"><img src=\"https://www.zhihu.com/equation?tex=f%5Cleft%28+x%5Cright%29++%3D+%7B%5Cmathrm%7Be%7D%7D%5E%7B%5Clambda+x%7D%5Cleft%5Clbrack++%7B%7BP%7D_%7Bl%7D%5Ccos+%7B%5Comega+x%7D+%2B+%7BQ%7D_%7Bn%7D%5Csin+%7B%5Comega+x%7D%7D%5Cright%5Crbrack+%5C%5C+%3D+%7B%5Cmathrm%7Be%7D%7D%5E%7B%5Clambda+x%7D%5Cleft%5Clbrack++%7B%7BP%7D_%7Bl%7D%5Cfrac%7B%7B%5Cmathrm%7Be%7D%7D%5E%7B%5Comega+%5Cmathrm%7B%7Bxi%7D%7D%7D+%2B+%7B%5Cmathrm%7Be%7D%7D%5E%7B-%5Comega+%5Cmathrm%7B%7Bxi%7D%7D%7D%7D%7B2%7D+%2B+%7BQ%7D_%7Bn%7D%5Cfrac%7B%7B%5Cmathrm%7Be%7D%7D%5E%7B%5Comega+%5Cmathrm%7B%7Bxi%7D%7D%7D+-+%7B%5Cmathrm%7Be%7D%7D%5E%7B-%5Comega+%5Cmathrm%7B%7Bxi%7D%7D%7D%7D%7B2%5Cmathrm%7Bi%7D%7D%7D%5Cright%5Crbrack+%5C%5C+%3D+%5Cleft%28+%7B%5Cfrac%7B%7BP%7D_%7Bl%7D%7D%7B2%7D+%2B+%5Cfrac%7B%7BQ%7D_%7Bn%7D%7D%7B2%5Cmathrm%7Bi%7D%7D%7D%5Cright%29+%7B%5Cmathrm%7Be%7D%7D%5E%7B%5Cleft%28+%7B%5Clambda++%2B+%5Comega+%5Cmathrm%7Bi%7D%7D%5Cright%29+x%7D+%2B+%5Cleft%28+%7B%5Cfrac%7B%7BP%7D_%7Bl%7D%7D%7B2%7D+-+%5Cfrac%7B%7BQ%7D_%7Bn%7D%7D%7B2%5Cmathrm%7Bi%7D%7D%7D%5Cright%29+%7B%5Cmathrm%7Be%7D%7D%5E%7B%5Cleft%28+%7B%5Clambda++-+%5Comega+%5Cmathrm%7Bi%7D%7D%5Cright%29+x%7D+%5C%5C++%3D+P%5Cleft%28+x%5Cright%29+%7B%5Cmathrm%7Be%7D%7D%5E%7B%5Cleft%28+%7B%5Clambda++%2B+%5Comega+%5Cmathrm%7Bi%7D%7D%5Cright%29+x%7D+%2B+%5Cbar%7BP%7D%5Cleft%28+x%5Cright%29+%7B%5Cmathrm%7Be%7D%7D%5E%7B%5Cleft%28+%7B%5Clambda++-+%5Comega+%5Cmathrm%7Bi%7D%7D%5Cright%29+x%7D%2C\" alt=\"f\\left( x\\right)  = {\\mathrm{e}}^{\\lambda x}\\left\\lbrack  {{P}_{l}\\cos {\\omega x} + {Q}_{n}\\sin {\\omega x}}\\right\\rbrack \\\\ = {\\mathrm{e}}^{\\lambda x}\\left\\lbrack  {{P}_{l}\\frac{{\\mathrm{e}}^{\\omega \\mathrm{{xi}}} + {\\mathrm{e}}^{-\\omega \\mathrm{{xi}}}}{2} + {Q}_{n}\\frac{{\\mathrm{e}}^{\\omega \\mathrm{{xi}}} - {\\mathrm{e}}^{-\\omega \\mathrm{{xi}}}}{2\\mathrm{i}}}\\right\\rbrack \\\\ = \\left( {\\frac{{P}_{l}}{2} + \\frac{{Q}_{n}}{2\\mathrm{i}}}\\right) {\\mathrm{e}}^{\\left( {\\lambda  + \\omega \\mathrm{i}}\\right) x} + \\left( {\\frac{{P}_{l}}{2} - \\frac{{Q}_{n}}{2\\mathrm{i}}}\\right) {\\mathrm{e}}^{\\left( {\\lambda  - \\omega \\mathrm{i}}\\right) x} \\\\  = P\\left( x\\right) {\\mathrm{e}}^{\\left( {\\lambda  + \\omega \\mathrm{i}}\\right) x} + \\bar{P}\\left( x\\right) {\\mathrm{e}}^{\\left( {\\lambda  - \\omega \\mathrm{i}}\\right) x},\" eeimg=\"1\"/> </p><p data-pid=\"OOcBC8-y\">我甚至觉得它眼神比我好。</p><p data-pid=\"kTuwZRAE\">再试试我自己的草稿纸（我自己都看不懂了现在），意外地还行：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-9e9ea591b5bc84bdaed0ca76cce30c23_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1480\" data-rawheight=\"718\" data-original-token=\"v2-9e9ea591b5bc84bdaed0ca76cce30c23\" class=\"origin_image zh-lightbox-thumb\" width=\"1480\" data-original=\"https://picx.zhimg.com/v2-9e9ea591b5bc84bdaed0ca76cce30c23_r.jpg\"/></figure><p data-pid=\"8wJWAFEp\">而且 Doc2X 还接入了 DeepSeek-v3，哪里不会点哪里，省得我再去复制到其他 LLM 那里了：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b0abec1a953a2b817d7e99e1325ba4b2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"4460\" data-rawheight=\"2550\" data-original-token=\"v2-b0abec1a953a2b817d7e99e1325ba4b2\" class=\"origin_image zh-lightbox-thumb\" width=\"4460\" data-original=\"https://pic3.zhimg.com/v2-b0abec1a953a2b817d7e99e1325ba4b2_r.jpg\"/></figure><p data-pid=\"o1S6Z03s\">当然，有人可能会问，你不是早毕业了，还在看同济版高数？没有其他活了吗？</p><p data-pid=\"Mcr8ImFt\">有的，而且还是个好活：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-1ce41be7a38f6e04407768e9c4e03639_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"4484\" data-rawheight=\"2640\" data-original-token=\"v2-1ce41be7a38f6e04407768e9c4e03639\" class=\"origin_image zh-lightbox-thumb\" width=\"4484\" data-original=\"https://pic4.zhimg.com/v2-1ce41be7a38f6e04407768e9c4e03639_r.jpg\"/></figure><p data-pid=\"uqHa6jMf\">做算法难免要经常看学术论文，而现在论文实在太多了，哪怕是挑着看，也要花不少时间。Doc2X 这个对照翻译直接让我看得飞快。</p><p data-pid=\"4KZD0HXG\">除了看论文，我业余还会做做教育研究，看点教育相关的书，回答教育问题。怎么高效地查找自己看过的内容，也让我头疼了很久。我之前会用 Calibre 管理电子书，但是搜索的时候有可能会记错关键词，导致老是找不到我看过的片段。Doc2X 的这个 AI 回答引用就相当于一个高级的模糊搜索，不仅能够根据原文内容回答，还可以帮我定位到对应的页面，省去不少检索资料的时间：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-1ac5a05b8a51356e308d4629fe0f19ce_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"4482\" data-rawheight=\"2564\" data-original-token=\"v2-1ac5a05b8a51356e308d4629fe0f19ce\" class=\"origin_image zh-lightbox-thumb\" width=\"4482\" data-original=\"https://pic1.zhimg.com/v2-1ac5a05b8a51356e308d4629fe0f19ce_r.jpg\"/></figure><h2>总结</h2><p data-pid=\"RH74H5Ig\">不得不感慨技术升级是如此之快，六年前我还在练习打字速度，给 LaTeX 公式设置各种快捷输入<sup data-text=\"电脑端如何快速输入数学符号？\" data-url=\"https://zhuanlan.zhihu.com/p/48313836\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>，搞各种奇技淫巧，现在我只需要动动手指，把要处理的文件拖到 Doc2X 就完事了。</p><p data-pid=\"H781Qgti\">但是，工具在变得越来越好用的同时，使用工具和不用工具的人之间的差距也变得越来越大。是否使用间隔重复，就能拉开 20% 以上的差距<sup data-text=\"anki是否被神化了？\" data-url=\"https://www.zhihu.com/question/57569577/answer/3630356580\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>。各种 AI 导师也层出不穷。可是，现在已经 2025 年了，真正知道这些工具，并在日常学习中使用它们的人，又有多少呢？</p><p data-pid=\"0mEz4En5\">也许，这并不是一个教育学的问题。</p><p data-pid=\"XQgzqN2w\">之后我会发布一些相关译文，讨论这个问题。</p><p data-pid=\"yJEsMONZ\">敬请期待。</p><hr/><p data-pid=\"cRDc5Sll\">恰个饭：</p><a href=\"https://link.zhihu.com/?target=https%3A//doc2x.noedgeai.com/%3FinviteCode%3DSYLTI8\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Doc2X</a><p data-pid=\"tEhu-3JW\">通过这个链接，或使用邀请码（SYLTI8）注册，可以增加我的会员时长和页面解析额度～</p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19575317",
+      "type": "topic",
+      "id": "19575317",
+      "name": "数字化"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19556393",
+      "type": "topic",
+      "id": "19556393",
+      "name": "PDF"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19574441",
+      "type": "topic",
+      "id": "19574441",
+      "name": "OCR（光学字符识别）"
+    }
+  ],
+  "voteup_count": 183,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "收录个人相关或不好分类的文章",
+    "is_following": true,
+    "url_token": "c_1280249768422608896",
+    "id": "c_1280249768422608896",
+    "articles_count": 73,
+    "accept_submission": true,
+    "title": "学委叶哥的随笔",
+    "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+    "comment_permission": "all",
+    "created": 1598015330,
+    "updated": 1751811281,
+    "image_url": "https://pic1.zhimg.com/v2-c31ca0615bbbe77cc9d0ad05465dd223_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 251,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 33,
+  "contributions": [
+    {
+      "id": 50549102,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "收录个人相关或不好分类的文章",
+        "is_following": true,
+        "url_token": "c_1280249768422608896",
+        "id": "c_1280249768422608896",
+        "articles_count": 73,
+        "accept_submission": true,
+        "title": "学委叶哥的随笔",
+        "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+        "comment_permission": "all",
+        "created": 1598015330,
+        "updated": 1751811281,
+        "image_url": "https://pic1.zhimg.com/v2-c31ca0615bbbe77cc9d0ad05465dd223_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 251,
+        "type": "column",
+        "column_type": "normal"
+      }
+    },
+    {
+      "id": 50549233,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "分享经典优秀高引用论文的翻译",
+        "is_following": false,
+        "url_token": "c_1842711182865219585",
+        "id": "c_1842711182865219585",
+        "articles_count": 2,
+        "accept_submission": false,
+        "title": "Doc2X论文翻译分享",
+        "url": "https://api.zhihu.com/columns/c_1842711182865219585",
+        "comment_permission": "all",
+        "created": 1732116582,
+        "updated": 1732116582,
+        "image_url": "https://pica.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-8e64374d21b1780c3dd5e4bd4bccd2d4.jpg?source=172ae18b",
+          "uid": "821131013135683584",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "mu-su-33-33",
+          "id": "5732d035fd25131ddb9c6b1d5b77379c",
+          "description": "",
+          "name": "Doc2X",
+          "is_advertiser": false,
+          "headline": "免费文档识别图片公式识别表格识别对照沉浸式翻译神器Doc2X",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/5732d035fd25131ddb9c6b1d5b77379c",
+          "avatar_url": "https://pic1.zhimg.com/v2-8e64374d21b1780c3dd5e4bd4bccd2d4_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 1,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 16167738894,
-  "voteup_count": 182,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 313,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "【工具分享】PDF、图片、公式——阻碍我们知识数字化的敌人终于倒下了，吗？ - 来自知乎专栏「学委叶哥的随笔」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/16167738894 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1735898653,
-  "url": "https://api.zhihu.com/articles/16167738894",
-  "comment_permission": "all",
-  "title": "【工具分享】PDF、图片、公式——阻碍我们知识数字化的敌人终于倒下了，吗？",
-  "content": "<h2>引言</h2><p data-pid=\"giH5_eJr\">从第一次我用同济版高等数学的 PDF 制作 Anki 卡片的时候，我就发现了一件让我深深地感到无语的事情：</p><p data-pid=\"FstPCe2V\"><b>为什么这些 PDF 复制出来都是一坨？</b></p><blockquote data-pid=\"2DNrXJn6\">与收敛数列的性质相比较，可得函数极限的 一些相应的性质. 它们都可以根 据函数极限的定义，运用类似于证明收敛数列性质的方法加以证明. 由于函数极 限 的 定 义 按 自 变 量 的 变 化 过 程 不 同 有 各 种 形 式 ，下 面 仅 以 “ I i m f (x )” 这 种 形 式 为<br/>代表给出关于函数极限性质的一些定理，并就其中的几个给出证明. 至于其他形 式的极限的性质及其证明 ，只要相应地做一些修改即可得出.</blockquote><p data-pid=\"fk9PRagL\">本来教材内容就已经是一坨了，我当年给这些教材内容制卡的时候<sup data-text=\"Anki+Markdown/Word，这样自学很扎实！\" data-url=\"https://zhuanlan.zhihu.com/p/84712668\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，又要在文本处理上再吃一坨。</p><p data-pid=\"rNN2_Xgk\">当我有耐心的时候，制出来的卡是这样的<sup data-text=\"高树是什么树？可以吃吗？大学牌组第一弹——「高等数学」\" data-url=\"https://zhuanlan.zhihu.com/p/71560512\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-70d8576d043a84992b6fe3c543ecd7ef_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"1074\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic2.zhimg.com/v2-70d8576d043a84992b6fe3c543ecd7ef_r.jpg\" data-original-token=\"v2-70d8576d043a84992b6fe3c543ecd7ef\"/></figure><p data-pid=\"d-EAKnQK\">没耐心的时候是这样的：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-685279a5b2b52d5318878091f09fa4ac_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"1074\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic1.zhimg.com/v2-685279a5b2b52d5318878091f09fa4ac_r.jpg\" data-original-token=\"v2-685279a5b2b52d5318878091f09fa4ac\"/></figure><p data-pid=\"hRCWcxCh\">摆烂的时候：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-e39bfd804ec9dd7730003d26834eac1a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"1074\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic3.zhimg.com/v2-e39bfd804ec9dd7730003d26834eac1a_r.jpg\" data-original-token=\"v2-e39bfd804ec9dd7730003d26834eac1a\"/></figure><p data-pid=\"Pa25kQ-z\">而且想要在这种教材里面搜索内容，也是玄学：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-2f713ab3842890482cf5c2facf4e77c2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1240\" data-rawheight=\"1126\" class=\"origin_image zh-lightbox-thumb\" width=\"1240\" data-original=\"https://pic1.zhimg.com/v2-2f713ab3842890482cf5c2facf4e77c2_r.jpg\" data-original-token=\"v2-2f713ab3842890482cf5c2facf4e77c2\"/></figure><p data-pid=\"ARCOx1rN\">复制一看：</p><blockquote data-pid=\"lNgemhdu\">的 某 一 去 心 部</blockquote><p data-pid=\"XOllFxcR\">这能搜到就有鬼了。</p><p data-pid=\"9E2m9_KU\">这种糟糕的经历伴随了我大学四年。期间我也尝试了不少其他解决方法。比如</p><ul><li data-pid=\"nUaG1lpw\">用 Abbyy 来 OCR 建立文本层</li><li data-pid=\"wyB4RjdI\">上网找非扫描版的 PDF</li><li data-pid=\"Euwh1fGs\">用 Mathpix 做数学公式识别</li></ul><p data-pid=\"K-Su-hqv\">但这些工具要么贵，要么各种卡壳。常常导致我学习一小时，有半小时都在折腾卡壳的地方，极大地降低了我的效率。</p><p data-pid=\"0gKJTvpl\">我一直在想，就没有什么工具能够完美解决这些问题，不再让我操心？</p><p data-pid=\"2usFa5CG\">最近，Thoughts Memo 汉化组（养老院）的朋友告诉我了一个好消息：在 2025 年，这都不是问题了！</p><h2>Doc2X</h2><p data-pid=\"8nfPRuC1\">我对它的第一眼就让我印象深刻：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-37fe46a8e10d4c5a4eff3e5bcb6c3676_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"4410\" data-rawheight=\"2650\" class=\"origin_image zh-lightbox-thumb\" width=\"4410\" data-original=\"https://pica.zhimg.com/v2-37fe46a8e10d4c5a4eff3e5bcb6c3676_r.jpg\" data-original-token=\"v2-37fe46a8e10d4c5a4eff3e5bcb6c3676\"/></figure><p data-pid=\"lD_rtXTZ\">你说这是去印刷厂里把原始的 LaTeX 代码偷出来渲染的我都信。</p><p data-pid=\"wob9Ftih\">再看看这个公式识别的效果：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-a8af024b760447604fe0304197c4ec30_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1434\" data-rawheight=\"580\" class=\"origin_image zh-lightbox-thumb\" width=\"1434\" data-original=\"https://pic1.zhimg.com/v2-a8af024b760447604fe0304197c4ec30_r.jpg\" data-original-token=\"v2-a8af024b760447604fe0304197c4ec30\"/></figure><p data-pid=\"BjmSbkNK\"><img src=\"https://www.zhihu.com/equation?tex=f%5Cleft%28+x%5Cright%29++%3D+%7B%5Cmathrm%7Be%7D%7D%5E%7B%5Clambda+x%7D%5Cleft%5Clbrack++%7B%7BP%7D_%7Bl%7D%5Ccos+%7B%5Comega+x%7D+%2B+%7BQ%7D_%7Bn%7D%5Csin+%7B%5Comega+x%7D%7D%5Cright%5Crbrack+%5C%5C+%3D+%7B%5Cmathrm%7Be%7D%7D%5E%7B%5Clambda+x%7D%5Cleft%5Clbrack++%7B%7BP%7D_%7Bl%7D%5Cfrac%7B%7B%5Cmathrm%7Be%7D%7D%5E%7B%5Comega+%5Cmathrm%7B%7Bxi%7D%7D%7D+%2B+%7B%5Cmathrm%7Be%7D%7D%5E%7B-%5Comega+%5Cmathrm%7B%7Bxi%7D%7D%7D%7D%7B2%7D+%2B+%7BQ%7D_%7Bn%7D%5Cfrac%7B%7B%5Cmathrm%7Be%7D%7D%5E%7B%5Comega+%5Cmathrm%7B%7Bxi%7D%7D%7D+-+%7B%5Cmathrm%7Be%7D%7D%5E%7B-%5Comega+%5Cmathrm%7B%7Bxi%7D%7D%7D%7D%7B2%5Cmathrm%7Bi%7D%7D%7D%5Cright%5Crbrack+%5C%5C+%3D+%5Cleft%28+%7B%5Cfrac%7B%7BP%7D_%7Bl%7D%7D%7B2%7D+%2B+%5Cfrac%7B%7BQ%7D_%7Bn%7D%7D%7B2%5Cmathrm%7Bi%7D%7D%7D%5Cright%29+%7B%5Cmathrm%7Be%7D%7D%5E%7B%5Cleft%28+%7B%5Clambda++%2B+%5Comega+%5Cmathrm%7Bi%7D%7D%5Cright%29+x%7D+%2B+%5Cleft%28+%7B%5Cfrac%7B%7BP%7D_%7Bl%7D%7D%7B2%7D+-+%5Cfrac%7B%7BQ%7D_%7Bn%7D%7D%7B2%5Cmathrm%7Bi%7D%7D%7D%5Cright%29+%7B%5Cmathrm%7Be%7D%7D%5E%7B%5Cleft%28+%7B%5Clambda++-+%5Comega+%5Cmathrm%7Bi%7D%7D%5Cright%29+x%7D+%5C%5C++%3D+P%5Cleft%28+x%5Cright%29+%7B%5Cmathrm%7Be%7D%7D%5E%7B%5Cleft%28+%7B%5Clambda++%2B+%5Comega+%5Cmathrm%7Bi%7D%7D%5Cright%29+x%7D+%2B+%5Cbar%7BP%7D%5Cleft%28+x%5Cright%29+%7B%5Cmathrm%7Be%7D%7D%5E%7B%5Cleft%28+%7B%5Clambda++-+%5Comega+%5Cmathrm%7Bi%7D%7D%5Cright%29+x%7D%2C\" alt=\"f\\left( x\\right)  = {\\mathrm{e}}^{\\lambda x}\\left\\lbrack  {{P}_{l}\\cos {\\omega x} + {Q}_{n}\\sin {\\omega x}}\\right\\rbrack \\\\ = {\\mathrm{e}}^{\\lambda x}\\left\\lbrack  {{P}_{l}\\frac{{\\mathrm{e}}^{\\omega \\mathrm{{xi}}} + {\\mathrm{e}}^{-\\omega \\mathrm{{xi}}}}{2} + {Q}_{n}\\frac{{\\mathrm{e}}^{\\omega \\mathrm{{xi}}} - {\\mathrm{e}}^{-\\omega \\mathrm{{xi}}}}{2\\mathrm{i}}}\\right\\rbrack \\\\ = \\left( {\\frac{{P}_{l}}{2} + \\frac{{Q}_{n}}{2\\mathrm{i}}}\\right) {\\mathrm{e}}^{\\left( {\\lambda  + \\omega \\mathrm{i}}\\right) x} + \\left( {\\frac{{P}_{l}}{2} - \\frac{{Q}_{n}}{2\\mathrm{i}}}\\right) {\\mathrm{e}}^{\\left( {\\lambda  - \\omega \\mathrm{i}}\\right) x} \\\\  = P\\left( x\\right) {\\mathrm{e}}^{\\left( {\\lambda  + \\omega \\mathrm{i}}\\right) x} + \\bar{P}\\left( x\\right) {\\mathrm{e}}^{\\left( {\\lambda  - \\omega \\mathrm{i}}\\right) x},\" eeimg=\"1\"/> </p><p data-pid=\"OOcBC8-y\">我甚至觉得它眼神比我好。</p><p data-pid=\"kTuwZRAE\">再试试我自己的草稿纸（我自己都看不懂了现在），意外地还行：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-9e9ea591b5bc84bdaed0ca76cce30c23_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1480\" data-rawheight=\"718\" class=\"origin_image zh-lightbox-thumb\" width=\"1480\" data-original=\"https://picx.zhimg.com/v2-9e9ea591b5bc84bdaed0ca76cce30c23_r.jpg\" data-original-token=\"v2-9e9ea591b5bc84bdaed0ca76cce30c23\"/></figure><p data-pid=\"8wJWAFEp\">而且 Doc2X 还接入了 DeepSeek-v3，哪里不会点哪里，省得我再去复制到其他 LLM 那里了：</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-b0abec1a953a2b817d7e99e1325ba4b2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"4460\" data-rawheight=\"2550\" class=\"origin_image zh-lightbox-thumb\" width=\"4460\" data-original=\"https://pic3.zhimg.com/v2-b0abec1a953a2b817d7e99e1325ba4b2_r.jpg\" data-original-token=\"v2-b0abec1a953a2b817d7e99e1325ba4b2\"/></figure><p data-pid=\"o1S6Z03s\">当然，有人可能会问，你不是早毕业了，还在看同济版高数？没有其他活了吗？</p><p data-pid=\"Mcr8ImFt\">有的，而且还是个好活：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-1ce41be7a38f6e04407768e9c4e03639_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"4484\" data-rawheight=\"2640\" class=\"origin_image zh-lightbox-thumb\" width=\"4484\" data-original=\"https://pic4.zhimg.com/v2-1ce41be7a38f6e04407768e9c4e03639_r.jpg\" data-original-token=\"v2-1ce41be7a38f6e04407768e9c4e03639\"/></figure><p data-pid=\"uqHa6jMf\">做算法难免要经常看学术论文，而现在论文实在太多了，哪怕是挑着看，也要花不少时间。Doc2X 这个对照翻译直接让我看得飞快。</p><p data-pid=\"4KZD0HXG\">除了看论文，我业余还会做做教育研究，看点教育相关的书，回答教育问题。怎么高效地查找自己看过的内容，也让我头疼了很久。我之前会用 Calibre 管理电子书，但是搜索的时候有可能会记错关键词，导致老是找不到我看过的片段。Doc2X 的这个 AI 回答引用就相当于一个高级的模糊搜索，不仅能够根据原文内容回答，还可以帮我定位到对应的页面，省去不少检索资料的时间：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-1ac5a05b8a51356e308d4629fe0f19ce_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"4482\" data-rawheight=\"2564\" class=\"origin_image zh-lightbox-thumb\" width=\"4482\" data-original=\"https://pic1.zhimg.com/v2-1ac5a05b8a51356e308d4629fe0f19ce_r.jpg\" data-original-token=\"v2-1ac5a05b8a51356e308d4629fe0f19ce\"/></figure><h2>总结</h2><p data-pid=\"RH74H5Ig\">不得不感慨技术升级是如此之快，六年前我还在练习打字速度，给 LaTeX 公式设置各种快捷输入<sup data-text=\"电脑端如何快速输入数学符号？\" data-url=\"https://zhuanlan.zhihu.com/p/48313836\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>，搞各种奇技淫巧，现在我只需要动动手指，把要处理的文件拖到 Doc2X 就完事了。</p><p data-pid=\"H781Qgti\">但是，工具在变得越来越好用的同时，使用工具和不用工具的人之间的差距也变得越来越大。是否使用间隔重复，就能拉开 20% 以上的差距<sup data-text=\"anki是否被神化了？\" data-url=\"https://www.zhihu.com/question/57569577/answer/3630356580\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>。各种 AI 导师也层出不穷。可是，现在已经 2025 年了，真正知道这些工具，并在日常学习中使用它们的人，又有多少呢？</p><p data-pid=\"0mEz4En5\">也许，这并不是一个教育学的问题。</p><p data-pid=\"XQgzqN2w\">之后我会发布一些相关译文，讨论这个问题。</p><p data-pid=\"yJEsMONZ\">敬请期待。</p><hr/><p data-pid=\"cRDc5Sll\">恰个饭：</p><a href=\"https://link.zhihu.com/?target=https%3A//doc2x.noedgeai.com/%3FinviteCode%3DSYLTI8\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Doc2X</a><p data-pid=\"tEhu-3JW\">通过这个链接，或使用邀请码（SYLTI8）注册，可以增加我的会员时长和页面解析额度～</p>",
-  "column": {
-    "updated": 1751811281,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/c_1280249768422608896",
-    "title": "学委叶哥的随笔",
-    "image_url": "https://pica.zhimg.com/v2-c31ca0615bbbe77cc9d0ad05465dd223_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1280249768422608896"
-  },
-  "comment_count": 33,
-  "image_url": "",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 9,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-8e64374d21b1780c3dd5e4bd4bccd2d4.jpg?source=172ae18b",
+      "uid": "821131013135683584",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "mu-su-33-33",
+      "id": "5732d035fd25131ddb9c6b1d5b77379c",
+      "description": "",
+      "name": "Doc2X",
+      "is_advertiser": false,
+      "headline": "免费文档识别图片公式识别表格识别对照沉浸式翻译神器Doc2X",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/5732d035fd25131ddb9c6b1d5b77379c",
+      "avatar_url": "https://pic1.zhimg.com/v2-8e64374d21b1780c3dd5e4bd4bccd2d4_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 9,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgImCgkyNTIyNTU4MjgSCzE2MTY3NzM4ODk0GAciCklNQUdFX1RFWFQ=",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 183,
+      "down_vote_count": 0,
+      "like_count": 9,
+      "comment_count": 33,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 313,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-1ac5a05b8a51356e308d4629fe0f19ce": 2,
+        "v2-1ce41be7a38f6e04407768e9c4e03639": 0,
+        "v2-2f713ab3842890482cf5c2facf4e77c2": 0,
+        "v2-37fe46a8e10d4c5a4eff3e5bcb6c3676": 0,
+        "v2-685279a5b2b52d5318878091f09fa4ac": 0,
+        "v2-70d8576d043a84992b6fe3c543ecd7ef": 0,
+        "v2-9e9ea591b5bc84bdaed0ca76cce30c23": 0,
+        "v2-a8af024b760447604fe0304197c4ec30": 0,
+        "v2-b0abec1a953a2b817d7e99e1325ba4b2": 2,
+        "v2-e39bfd804ec9dd7730003d26834eac1a": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-1ac5a05b8a51356e308d4629fe0f19ce": false,
+        "v2-1ce41be7a38f6e04407768e9c4e03639": false,
+        "v2-2f713ab3842890482cf5c2facf4e77c2": false,
+        "v2-37fe46a8e10d4c5a4eff3e5bcb6c3676": false,
+        "v2-685279a5b2b52d5318878091f09fa4ac": false,
+        "v2-70d8576d043a84992b6fe3c543ecd7ef": false,
+        "v2-9e9ea591b5bc84bdaed0ca76cce30c23": false,
+        "v2-a8af024b760447604fe0304197c4ec30": false,
+        "v2-b0abec1a953a2b817d7e99e1325ba4b2": false,
+        "v2-e39bfd804ec9dd7730003d26834eac1a": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-1ac5a05b8a51356e308d4629fe0f19ce": {
+        "like_count": 2,
+        "is_liked": false
+      },
+      "v2-1ce41be7a38f6e04407768e9c4e03639": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-2f713ab3842890482cf5c2facf4e77c2": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-37fe46a8e10d4c5a4eff3e5bcb6c3676": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-685279a5b2b52d5318878091f09fa4ac": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-70d8576d043a84992b6fe3c543ecd7ef": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-9e9ea591b5bc84bdaed0ca76cce30c23": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-a8af024b760447604fe0304197c4ec30": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-b0abec1a953a2b817d7e99e1325ba4b2": {
+        "like_count": 2,
+        "is_liked": false
+      },
+      "v2-e39bfd804ec9dd7730003d26834eac1a": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/7727895707?contentId=16167738894&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 学委叶哥的随笔",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1280249768422608896",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 学委叶哥的随笔"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

@@ -1,80 +1,360 @@
 {
-  "status": 0,
+  "id": "59438099",
+  "title": "「硬核」卡片模板修改与制作入门",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/59438099",
+  "image_url": "https://pic1.zhimg.com/v2-ab0834cb0750344951ff332d224e9838_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-ab0834cb0750344951ff332d224e9838_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://pic1.zhimg.com/v2-2e0941f07cbe46688ed069462a25eab2_200x112.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1080\" data-watermark=\"watermark\" data-original-src=\"v2-2e0941f07cbe46688ed069462a25eab2\" data-watermark-src=\"v2-fb9cf203cf75d0cd9f3fda03dce7ae15\" data-private-watermark-src=\"\" class=\"origin_image inline-img zh-lightbox-thumb\" data-original=\"https://pic1.zhimg.com/v2-2e0941f07cbe46688ed069462a25eab2_r.jpg\"/>已收录于<a href=\"https://zhuanlan.zhihu.com/p/57637220\" class=\"internal\" target=\"_blank\">「一周年」专栏整理</a>本文又是个大坑，最近有读者私信问我怎么改模板，我想找篇文章直接发过去，可惜我找了半天，只找到了这篇《 <a href=\"https://zhuanlan.zhihu.com/p/38053599\" class=\"internal\" target=\"_blank\">「Leo的Anki系列」 小白一看就懂的Anki模板修改方法</a>》，感觉还不是很详细(不过太详细就不如去看Anki官网的用户手册了)…",
+  "created": 1552718616,
   "updated": 1553519270,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://pica.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "已收录于「一周年」专栏整理 本文又是个大坑，最近有读者私信问我怎么改模板，我想找…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 720,
+  "image_height": 374,
+  "content": "<blockquote data-pid=\"LC6jhyn5\">已收录于<a href=\"https://zhuanlan.zhihu.com/p/57637220\" class=\"internal\" target=\"_blank\">「一周年」专栏整理</a></blockquote><p data-pid=\"sWfWgWRE\">本文又是个大坑，最近有读者私信问我怎么改模板，我想找篇文章直接发过去，可惜我找了半天，只找到了这篇《<a href=\"https://zhuanlan.zhihu.com/p/38053599\" class=\"internal\" target=\"_blank\">「Leo的Anki系列」​小白一看就懂的Anki模板修改方法</a>》，感觉还不是很详细(不过太详细就不如去看Anki官网的用户手册了)，我就在此基础上进行一些补充吧。</p><hr/><h2><b>本文教程使用的 Anki 版本为 Windows 版的 Anki-2.1.9</b></h2><p data-pid=\"D-X6wGSc\">首先，我们先到 Anki 的卡片浏览器中，选择需要修改的模板对应的卡片</p><p data-pid=\"khdAtxgA\">(为什么不直接去笔记模板里面改呢？因为没有结合卡片内容的预览，看不到具体效果。)</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-fb9cf203cf75d0cd9f3fda03dce7ae15_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1080\" data-original-token=\"v2-2e0941f07cbe46688ed069462a25eab2\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic2.zhimg.com/v2-fb9cf203cf75d0cd9f3fda03dce7ae15_r.jpg\"/></figure><p data-pid=\"2q_Jnqgm\">然后先介绍一下「字段」，字段就是卡片添加和编辑时，可以编辑的文本框</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-d9ffeb0bf9951acc5b372c956c3804e7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1578\" data-rawheight=\"495\" data-original-token=\"v2-5ce6f8730463a6569a4a574ca0dc18c9\" class=\"origin_image zh-lightbox-thumb\" width=\"1578\" data-original=\"https://pic4.zhimg.com/v2-d9ffeb0bf9951acc5b372c956c3804e7_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-9659d900e462b5f60ef6eb8d3d3679a4_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1581\" data-rawheight=\"501\" data-original-token=\"v2-c53b6599a395ed2ee322614e20bcdc8f\" class=\"origin_image zh-lightbox-thumb\" width=\"1581\" data-original=\"https://pic1.zhimg.com/v2-9659d900e462b5f60ef6eb8d3d3679a4_r.jpg\"/></figure><p data-pid=\"tLTcAThb\">可以说，卡片就是由一个一个字段组合而成的，现在就先介绍一下添加字段的方法</p><p data-pid=\"vQiOi2pD\">点击「字段」按钮，就会显示以下界面，点击添加，然后命名新字段，即可增加新字段，而「重新定位」是指添加或编辑卡片时，字段从上至下的排列顺序</p><p data-pid=\"hoNHbMUS\">而下面的字体也是指在添加和编辑界面显示的字体，与卡片上显示的字体无关</p><p data-pid=\"gxol0EEu\">最下面的「在浏览器中按照此字段排序」是指在卡片浏览器中，该字段被称为排序字段，不能为「空」</p><p data-pid=\"mFjFQ7Tm\">「当添加时记住上一次选择」是指添加一张卡片后，这个字段会保留上次输入的内容，使用场景为「章节」、「分类」等需要重复输入相同内容的字段。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-8cf68a9b91b6247c83d3249b5a70225f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1080\" data-original-token=\"v2-a85dae60cba1602959c6337e4d09ddc1\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic4.zhimg.com/v2-8cf68a9b91b6247c83d3249b5a70225f_r.jpg\"/></figure><p data-pid=\"SiTtBB0I\">好了，开始进入正题，讲讲笔记(卡片)模板的修改与制作，我们回到卡片浏览器界面，点击「卡片」按钮，进入下面这个界面</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-80564fba788bdcd69c5423a4db30262e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1080\" data-original-token=\"v2-97948be7d2ca97789f16bd551bc22b90\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic1.zhimg.com/v2-80564fba788bdcd69c5423a4db30262e_r.jpg\"/></figure><p data-pid=\"-J5o1HLa\">是不是觉得很复杂？不怕，想了解的就看看我继续分析</p><p data-pid=\"dZWqEtAG\">首先是正面模板</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-6a62ef8f3e688d63b7c3b4d000432c74_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"919\" data-rawheight=\"296\" data-original-token=\"v2-888ae4c03a5c7cd373f7bda8a5ee0691\" class=\"origin_image zh-lightbox-thumb\" width=\"919\" data-original=\"https://pica.zhimg.com/v2-6a62ef8f3e688d63b7c3b4d000432c74_r.jpg\"/></figure><p data-pid=\"xqFO_XEK\">{{<i>字段名</i>}}就是将该字段显示到正面上，这里一共显示了{{问题}}{{Deck}}{{《》}}三个字段，如下图，这由于这张卡片的《》字段是空的，所以就留白了，{{Deck}}是卡片内置字段，不需要自己设置，用来显示卡片所属的牌组名称，更多特殊字段，请参考 Anki 用户手册</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-8f07bda1c35d8239b3576c1a15b3522a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"570\" data-rawheight=\"311\" data-original-token=\"v2-fcc91383cf0dc72eaf3463f09167bd14\" class=\"origin_image zh-lightbox-thumb\" width=\"570\" data-original=\"https://pica.zhimg.com/v2-8f07bda1c35d8239b3576c1a15b3522a_r.jpg\"/></figure><p data-pid=\"1J_fDA0G\">然后你可能还想问，&lt;div style=&#39;&#39;&gt;&lt;/div&gt;这个东西是啥？</p><p data-pid=\"Mp-iqHN9\">说的明白点，就是 Anki 的每张卡片其实都是一个网页，然后这一串代码就是 html 的标记，想要设计复杂的卡片模板，建议学习一下 html 和 css，如果只是想添加一下普普通通的字段的话，Anki 提供了简单的添加字段到正面或背面的方法，只要点击最下方的添加字段</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-7ed3f389db51f4d23139c95babfcd72f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"518\" data-rawheight=\"60\" data-original-token=\"v2-7ed3f389db51f4d23139c95babfcd72f\" class=\"origin_image zh-lightbox-thumb\" width=\"518\" data-original=\"https://pic2.zhimg.com/v2-7ed3f389db51f4d23139c95babfcd72f_r.jpg\"/></figure><p data-pid=\"0LzeVYns\">就会弹出一个操作界面，如下图(旁边两个Add TTS是插件的效果，与教程无关)</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-db4de8149a961407aa1da06961c911ff_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1080\" data-original-token=\"v2-1d1a6a2ff717cebba640e09638a0366e\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://picx.zhimg.com/v2-db4de8149a961407aa1da06961c911ff_r.jpg\"/></figure><p data-pid=\"JZk42xPT\">然后就可以高高兴兴的选好字段和字体以及字号，并添加到正面或者背面了</p><p data-pid=\"LZBErRAO\">再等等！下面的那个&lt;script&gt;&lt;/script&gt;是啥？</p><p data-pid=\"3ba0ynpW\">那个是 JavaScript 的代码，可以对卡片内容的 html 代码进行一些比较复杂的操作，感兴趣可以去学一下 js (务必选择有空闲的假期，学这些东西其实不仅可以制作卡片模板，还能用来设计网页和小程序，其实蛮有用的，特别是想要当前端工程师的读者)</p><p data-pid=\"RJDu_S2P\">好了，现在我们介绍一下「格式刷」，其实就是 css</p><p data-pid=\"9DlNmJld\">.card{</p><p data-pid=\"BHiKRCfJ\">}表示这里面的样式是用来修饰整张卡片的内容，然后里面的内容在文章开头分享的那篇文章里介绍过了，我就不细说了</p><p data-pid=\"UBn8TOhC\">.card.night_mode{}是专门修饰夜间模式的整张卡片，在桌面版需要安装夜间模式插件，安卓版则是自带的，两者可以通用</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-38243ede23a01c9448c727b13042b8ea_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"912\" data-rawheight=\"297\" data-original-token=\"v2-fd2353e816f736a56db90ad5ef7e0e2d\" class=\"origin_image zh-lightbox-thumb\" width=\"912\" data-original=\"https://pic1.zhimg.com/v2-38243ede23a01c9448c727b13042b8ea_r.jpg\"/></figure><p data-pid=\"Wlrs3LrC\">好了，到了最后一个区域，背面模板</p><p data-pid=\"fKKHRszZ\">{{FrontSide}}是指卡片正面的所有内容</p><p data-pid=\"kZDKZwt8\">&lt;br&gt;是 html 里的换行符</p><p data-pid=\"4yDlysYD\">&lt;hr id=answer&gt;是区分正面和反面内容的分割线</p><p data-pid=\"2wN9nmJY\">然后{{答案}}就是答案字段</p><p data-pid=\"yFJP6fKI\">再简单说一下{{hint:xx}}，在字段前加上 hint: 表示这个字段不会立即显示出来，需要点一下才会显示</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-d9f2efa97e220c06b0694cf10ed38b9b_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"913\" data-rawheight=\"301\" data-original-token=\"v2-6077207e12561bdbe078ac0530158e5d\" class=\"origin_image zh-lightbox-thumb\" width=\"913\" data-original=\"https://pic4.zhimg.com/v2-d9f2efa97e220c06b0694cf10ed38b9b_r.jpg\"/></figure><p data-pid=\"jK-UOUxq\">大概效果如下(至于剩下的那些小旗子之类的效果实现，就不是本教程能够教会的了)</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-73bc85f99bb167bdbec932190808091c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"962\" data-rawheight=\"722\" data-original-token=\"v2-411ed190bce917668b2524a4d8b6c99f\" class=\"origin_image zh-lightbox-thumb\" width=\"962\" data-original=\"https://pic1.zhimg.com/v2-73bc85f99bb167bdbec932190808091c_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-15d53dba9d9f64fe065e45d3a68a7cc9_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"962\" data-rawheight=\"722\" data-original-token=\"v2-e70258be22c3b22f035919537c337e7b\" class=\"origin_image zh-lightbox-thumb\" width=\"962\" data-original=\"https://picx.zhimg.com/v2-15d53dba9d9f64fe065e45d3a68a7cc9_r.jpg\"/></figure><hr/><p data-pid=\"QX8pIcaG\">OK，本文就是个入门教程，能够尽力帮到部分读者就是本文的价值，希望对大家有所帮助。</p><p data-pid=\"V-zppu88\">预告：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-90642806e05136ca031b4c86be91b90a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1156\" data-rawheight=\"662\" data-original-token=\"v2-ba3c7cab397b0a5dc9debfb73eb2260f\" class=\"origin_image zh-lightbox-thumb\" width=\"1156\" data-original=\"https://pica.zhimg.com/v2-90642806e05136ca031b4c86be91b90a_r.jpg\"/></figure><p data-pid=\"3nbsmkW6\">之后会写一篇文章，介绍一些比较有用的插件。</p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19783871",
+      "type": "topic",
+      "id": "19783871",
+      "name": "Anki（知识记忆工具）"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19605593",
+      "type": "topic",
+      "id": "19605593",
+      "name": "自定义"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19577346",
+      "type": "topic",
+      "id": "19577346",
+      "name": "教程"
+    }
+  ],
+  "voteup_count": 55,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "comment_count": 4,
+  "contributions": [],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 59438099,
-  "voteup_count": 51,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 135,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "「硬核」卡片模板修改与制作入门 - 来自知乎专栏，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/59438099 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1552718616,
-  "url": "https://api.zhihu.com/articles/59438099",
-  "comment_permission": "all",
-  "title": "「硬核」卡片模板修改与制作入门",
-  "image_width": 374,
-  "content": "<blockquote data-pid=\"LC6jhyn5\">已收录于<a href=\"https://zhuanlan.zhihu.com/p/57637220\" class=\"internal\">「一周年」专栏整理</a></blockquote><p data-pid=\"sWfWgWRE\">本文又是个大坑，最近有读者私信问我怎么改模板，我想找篇文章直接发过去，可惜我找了半天，只找到了这篇《<a href=\"https://zhuanlan.zhihu.com/p/38053599\" class=\"internal\">「Leo的Anki系列」​小白一看就懂的Anki模板修改方法</a>》，感觉还不是很详细(不过太详细就不如去看Anki官网的用户手册了)，我就在此基础上进行一些补充吧。</p><hr/><h2><b>本文教程使用的 Anki 版本为 Windows 版的 Anki-2.1.9</b></h2><p data-pid=\"D-X6wGSc\">首先，我们先到 Anki 的卡片浏览器中，选择需要修改的模板对应的卡片</p><p data-pid=\"khdAtxgA\">(为什么不直接去笔记模板里面改呢？因为没有结合卡片内容的预览，看不到具体效果。)</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-fb9cf203cf75d0cd9f3fda03dce7ae15_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1080\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic2.zhimg.com/v2-fb9cf203cf75d0cd9f3fda03dce7ae15_r.jpg\" data-original-token=\"v2-2e0941f07cbe46688ed069462a25eab2\"/></figure><p data-pid=\"2q_Jnqgm\">然后先介绍一下「字段」，字段就是卡片添加和编辑时，可以编辑的文本框</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-d9ffeb0bf9951acc5b372c956c3804e7_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1578\" data-rawheight=\"495\" class=\"origin_image zh-lightbox-thumb\" width=\"1578\" data-original=\"https://pic4.zhimg.com/v2-d9ffeb0bf9951acc5b372c956c3804e7_r.jpg\" data-original-token=\"v2-5ce6f8730463a6569a4a574ca0dc18c9\"/></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-9659d900e462b5f60ef6eb8d3d3679a4_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1581\" data-rawheight=\"501\" class=\"origin_image zh-lightbox-thumb\" width=\"1581\" data-original=\"https://pic1.zhimg.com/v2-9659d900e462b5f60ef6eb8d3d3679a4_r.jpg\" data-original-token=\"v2-c53b6599a395ed2ee322614e20bcdc8f\"/></figure><p data-pid=\"tLTcAThb\">可以说，卡片就是由一个一个字段组合而成的，现在就先介绍一下添加字段的方法</p><p data-pid=\"vQiOi2pD\">点击「字段」按钮，就会显示以下界面，点击添加，然后命名新字段，即可增加新字段，而「重新定位」是指添加或编辑卡片时，字段从上至下的排列顺序</p><p data-pid=\"hoNHbMUS\">而下面的字体也是指在添加和编辑界面显示的字体，与卡片上显示的字体无关</p><p data-pid=\"gxol0EEu\">最下面的「在浏览器中按照此字段排序」是指在卡片浏览器中，该字段被称为排序字段，不能为「空」</p><p data-pid=\"mFjFQ7Tm\">「当添加时记住上一次选择」是指添加一张卡片后，这个字段会保留上次输入的内容，使用场景为「章节」、「分类」等需要重复输入相同内容的字段。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-8cf68a9b91b6247c83d3249b5a70225f_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1080\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic4.zhimg.com/v2-8cf68a9b91b6247c83d3249b5a70225f_r.jpg\" data-original-token=\"v2-a85dae60cba1602959c6337e4d09ddc1\"/></figure><p data-pid=\"SiTtBB0I\">好了，开始进入正题，讲讲笔记(卡片)模板的修改与制作，我们回到卡片浏览器界面，点击「卡片」按钮，进入下面这个界面</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-80564fba788bdcd69c5423a4db30262e_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1080\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://pic1.zhimg.com/v2-80564fba788bdcd69c5423a4db30262e_r.jpg\" data-original-token=\"v2-97948be7d2ca97789f16bd551bc22b90\"/></figure><p data-pid=\"-J5o1HLa\">是不是觉得很复杂？不怕，想了解的就看看我继续分析</p><p data-pid=\"dZWqEtAG\">首先是正面模板</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-6a62ef8f3e688d63b7c3b4d000432c74_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"919\" data-rawheight=\"296\" class=\"origin_image zh-lightbox-thumb\" width=\"919\" data-original=\"https://pica.zhimg.com/v2-6a62ef8f3e688d63b7c3b4d000432c74_r.jpg\" data-original-token=\"v2-888ae4c03a5c7cd373f7bda8a5ee0691\"/></figure><p data-pid=\"xqFO_XEK\">{{<i>字段名</i>}}就是将该字段显示到正面上，这里一共显示了{{问题}}{{Deck}}{{《》}}三个字段，如下图，这由于这张卡片的《》字段是空的，所以就留白了，{{Deck}}是卡片内置字段，不需要自己设置，用来显示卡片所属的牌组名称，更多特殊字段，请参考 Anki 用户手册</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-8f07bda1c35d8239b3576c1a15b3522a_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"570\" data-rawheight=\"311\" class=\"origin_image zh-lightbox-thumb\" width=\"570\" data-original=\"https://pica.zhimg.com/v2-8f07bda1c35d8239b3576c1a15b3522a_r.jpg\" data-original-token=\"v2-fcc91383cf0dc72eaf3463f09167bd14\"/></figure><p data-pid=\"1J_fDA0G\">然后你可能还想问，&lt;div style=&#39;&#39;&gt;&lt;/div&gt;这个东西是啥？</p><p data-pid=\"Mp-iqHN9\">说的明白点，就是 Anki 的每张卡片其实都是一个网页，然后这一串代码就是 html 的标记，想要设计复杂的卡片模板，建议学习一下 html 和 css，如果只是想添加一下普普通通的字段的话，Anki 提供了简单的添加字段到正面或背面的方法，只要点击最下方的添加字段</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-7ed3f389db51f4d23139c95babfcd72f_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"518\" data-rawheight=\"60\" class=\"origin_image zh-lightbox-thumb\" width=\"518\" data-original=\"https://pic2.zhimg.com/v2-7ed3f389db51f4d23139c95babfcd72f_r.jpg\" data-original-token=\"v2-7ed3f389db51f4d23139c95babfcd72f\"/></figure><p data-pid=\"0LzeVYns\">就会弹出一个操作界面，如下图(旁边两个Add TTS是插件的效果，与教程无关)</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-db4de8149a961407aa1da06961c911ff_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1920\" data-rawheight=\"1080\" class=\"origin_image zh-lightbox-thumb\" width=\"1920\" data-original=\"https://picx.zhimg.com/v2-db4de8149a961407aa1da06961c911ff_r.jpg\" data-original-token=\"v2-1d1a6a2ff717cebba640e09638a0366e\"/></figure><p data-pid=\"JZk42xPT\">然后就可以高高兴兴的选好字段和字体以及字号，并添加到正面或者背面了</p><p data-pid=\"LZBErRAO\">再等等！下面的那个&lt;script&gt;&lt;/script&gt;是啥？</p><p data-pid=\"3ba0ynpW\">那个是 JavaScript 的代码，可以对卡片内容的 html 代码进行一些比较复杂的操作，感兴趣可以去学一下 js (务必选择有空闲的假期，学这些东西其实不仅可以制作卡片模板，还能用来设计网页和小程序，其实蛮有用的，特别是想要当前端工程师的读者)</p><p data-pid=\"RJDu_S2P\">好了，现在我们介绍一下「格式刷」，其实就是 css</p><p data-pid=\"9DlNmJld\">.card{</p><p data-pid=\"BHiKRCfJ\">}表示这里面的样式是用来修饰整张卡片的内容，然后里面的内容在文章开头分享的那篇文章里介绍过了，我就不细说了</p><p data-pid=\"UBn8TOhC\">.card.night_mode{}是专门修饰夜间模式的整张卡片，在桌面版需要安装夜间模式插件，安卓版则是自带的，两者可以通用</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-38243ede23a01c9448c727b13042b8ea_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"912\" data-rawheight=\"297\" class=\"origin_image zh-lightbox-thumb\" width=\"912\" data-original=\"https://pic1.zhimg.com/v2-38243ede23a01c9448c727b13042b8ea_r.jpg\" data-original-token=\"v2-fd2353e816f736a56db90ad5ef7e0e2d\"/></figure><p data-pid=\"Wlrs3LrC\">好了，到了最后一个区域，背面模板</p><p data-pid=\"fKKHRszZ\">{{FrontSide}}是指卡片正面的所有内容</p><p data-pid=\"kZDKZwt8\">&lt;br&gt;是 html 里的换行符</p><p data-pid=\"4yDlysYD\">&lt;hr id=answer&gt;是区分正面和反面内容的分割线</p><p data-pid=\"2wN9nmJY\">然后{{答案}}就是答案字段</p><p data-pid=\"yFJP6fKI\">再简单说一下{{hint:xx}}，在字段前加上 hint: 表示这个字段不会立即显示出来，需要点一下才会显示</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-d9f2efa97e220c06b0694cf10ed38b9b_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"913\" data-rawheight=\"301\" class=\"origin_image zh-lightbox-thumb\" width=\"913\" data-original=\"https://pic4.zhimg.com/v2-d9f2efa97e220c06b0694cf10ed38b9b_r.jpg\" data-original-token=\"v2-6077207e12561bdbe078ac0530158e5d\"/></figure><p data-pid=\"jK-UOUxq\">大概效果如下(至于剩下的那些小旗子之类的效果实现，就不是本教程能够教会的了)</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-73bc85f99bb167bdbec932190808091c_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"962\" data-rawheight=\"722\" class=\"origin_image zh-lightbox-thumb\" width=\"962\" data-original=\"https://pic1.zhimg.com/v2-73bc85f99bb167bdbec932190808091c_r.jpg\" data-original-token=\"v2-411ed190bce917668b2524a4d8b6c99f\"/></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-15d53dba9d9f64fe065e45d3a68a7cc9_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"962\" data-rawheight=\"722\" class=\"origin_image zh-lightbox-thumb\" width=\"962\" data-original=\"https://picx.zhimg.com/v2-15d53dba9d9f64fe065e45d3a68a7cc9_r.jpg\" data-original-token=\"v2-e70258be22c3b22f035919537c337e7b\"/></figure><hr/><p data-pid=\"QX8pIcaG\">OK，本文就是个入门教程，能够尽力帮到部分读者就是本文的价值，希望对大家有所帮助。</p><p data-pid=\"V-zppu88\">预告：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-90642806e05136ca031b4c86be91b90a_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1156\" data-rawheight=\"662\" class=\"origin_image zh-lightbox-thumb\" width=\"1156\" data-original=\"https://pica.zhimg.com/v2-90642806e05136ca031b4c86be91b90a_r.jpg\" data-original-token=\"v2-ba3c7cab397b0a5dc9debfb73eb2260f\"/></figure><p data-pid=\"3nbsmkW6\">之后会写一篇文章，介绍一些比较有用的插件。</p>",
-  "column": {
-    "updated": 1599152271,
-    "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/ankigaokao",
-    "title": "AnkiX高考",
-    "image_url": "https://picx.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "ankigaokao"
-  },
-  "comment_count": 4,
-  "image_url": "https://pic1.zhimg.com/v2-ab0834cb0750344951ff332d224e9838_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 7,
+  "has_column": false,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 7,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIjCgkxMDEzMzc5NjYSCDU5NDM4MDk5GAciCklNQUdFX1RFWFQ=",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 55,
+      "down_vote_count": 0,
+      "like_count": 7,
+      "comment_count": 4,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 135,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-1d1a6a2ff717cebba640e09638a0366e": 0,
+        "v2-2e0941f07cbe46688ed069462a25eab2": 0,
+        "v2-411ed190bce917668b2524a4d8b6c99f": 0,
+        "v2-5ce6f8730463a6569a4a574ca0dc18c9": 0,
+        "v2-6077207e12561bdbe078ac0530158e5d": 0,
+        "v2-7ed3f389db51f4d23139c95babfcd72f": 0,
+        "v2-888ae4c03a5c7cd373f7bda8a5ee0691": 0,
+        "v2-97948be7d2ca97789f16bd551bc22b90": 0,
+        "v2-a85dae60cba1602959c6337e4d09ddc1": 0,
+        "v2-ab0834cb0750344951ff332d224e9838": 0,
+        "v2-ba3c7cab397b0a5dc9debfb73eb2260f": 0,
+        "v2-c53b6599a395ed2ee322614e20bcdc8f": 0,
+        "v2-e70258be22c3b22f035919537c337e7b": 0,
+        "v2-fcc91383cf0dc72eaf3463f09167bd14": 0,
+        "v2-fd2353e816f736a56db90ad5ef7e0e2d": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-1d1a6a2ff717cebba640e09638a0366e": false,
+        "v2-2e0941f07cbe46688ed069462a25eab2": false,
+        "v2-411ed190bce917668b2524a4d8b6c99f": false,
+        "v2-5ce6f8730463a6569a4a574ca0dc18c9": false,
+        "v2-6077207e12561bdbe078ac0530158e5d": false,
+        "v2-7ed3f389db51f4d23139c95babfcd72f": false,
+        "v2-888ae4c03a5c7cd373f7bda8a5ee0691": false,
+        "v2-97948be7d2ca97789f16bd551bc22b90": false,
+        "v2-a85dae60cba1602959c6337e4d09ddc1": false,
+        "v2-ab0834cb0750344951ff332d224e9838": false,
+        "v2-ba3c7cab397b0a5dc9debfb73eb2260f": false,
+        "v2-c53b6599a395ed2ee322614e20bcdc8f": false,
+        "v2-e70258be22c3b22f035919537c337e7b": false,
+        "v2-fcc91383cf0dc72eaf3463f09167bd14": false,
+        "v2-fd2353e816f736a56db90ad5ef7e0e2d": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-1d1a6a2ff717cebba640e09638a0366e": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-2e0941f07cbe46688ed069462a25eab2": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-411ed190bce917668b2524a4d8b6c99f": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-5ce6f8730463a6569a4a574ca0dc18c9": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-6077207e12561bdbe078ac0530158e5d": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-7ed3f389db51f4d23139c95babfcd72f": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-888ae4c03a5c7cd373f7bda8a5ee0691": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-97948be7d2ca97789f16bd551bc22b90": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-a85dae60cba1602959c6337e4d09ddc1": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-ab0834cb0750344951ff332d224e9838": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-ba3c7cab397b0a5dc9debfb73eb2260f": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-c53b6599a395ed2ee322614e20bcdc8f": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-e70258be22c3b22f035919537c337e7b": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-fcc91383cf0dc72eaf3463f09167bd14": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-fd2353e816f736a56db90ad5ef7e0e2d": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=59438099&contentType=article"
+  },
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

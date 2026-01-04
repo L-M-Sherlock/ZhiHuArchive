@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,38 +84,240 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
-  "comment_count": 204,
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
+  "comment_count": 210,
   "content": "<p data-pid=\"3dC5ExPL\">不太谦虚地说，除了我，整个知乎应该没有答主会正面回答这个问题。这也反映了关于学习的谬误流毒甚广。<b>很多人理所应当地认为：学习就是一个痛苦的过程。这篇文章将告诉你，他们完全是错的。</b></p><p data-pid=\"UetMrlIg\">在正文开始之前，我想先介绍一下这篇回答的理论来源，同时也是我们汉化组的翻译内容的作者之一——Piotr Wozniak<sup data-text=\"彼得·沃兹尼亚克\" data-url=\"https://zhuanlan.zhihu.com/p/303204832\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup> 博士：</p><p data-pid=\"yYMJmTbq\">Wozniak 来自波兰，在学习与记忆领域是名副其实的超级专家。40 年来他专心于学习和记忆的研究，不断优化自己创建的学习软件 Supermemo，同时写下了许多在学习领域的所思所想。</p><p data-pid=\"JHVjLuEc\">如果 Wozniak 看到这个提问，他估计会气到高血压。「如何把学习变成快乐？」这个提问本身就蕴含着一条逻辑：「学习本身并不快乐」。在这里引用 Wozniak 博士的原话：</p><p data-pid=\"6OX0boW1\"><b>「好的学习本身就是快乐的，没有快乐就没有好的学习」</b><sup data-text=\"学习的基本规律\" data-url=\"https://zhuanlan.zhihu.com/p/273225977\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup></p><p data-pid=\"5EuvKNTt\"><b>「学习就和做爱一样爽」</b><sup data-text=\"Schooled people do not understand free learning\" data-url=\"https://supermemo.guru/wiki/Schooled_people_do_not_understand_free_learning\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup></p><p data-pid=\"DglX0MBd\">我知道，许多读者读到这里可能会有疑问：「那么为什么我不能从学习中获得快乐？」。接下来的文章将会从学习快乐的生理机制，引起学习不快的因素等方面进行科普，较为全面的回答这个问题。</p><h2>人类的大脑天生渴望学习</h2><p data-pid=\"KPBxygE9\">来看这两句话：</p><blockquote data-pid=\"Dri-OVRs\"><b>一</b>：晚上吃番茄炒鸡蛋行吗？好嘞！<br/><b>二</b>：真没想到，一碗普普通通的番茄炒鸡蛋竟然吃出了上古神兽螭吻！</blockquote><p data-pid=\"wvQE4Sw5\">请问各位读者：第一句话和第二句话哪一句更能引起读者的阅读兴趣？</p><p data-pid=\"MTXEngYl\">想都不用想，一定是第二句。第一句话是没劲的家常对话，让人没有读下去的欲望。而第二句话，在平淡的叙述中突出「上古神兽螭吻」这一<b>未知</b>，让人想读下去，看看这吃出来的上古神兽到底是何方神圣。</p><p data-pid=\"47GvRnHQ\">第一句话，没劲就没劲在<b>太容易理解了</b>，以至于无聊。而第二句话<b>已知＋未知</b>的叙述可以很好地引起人的好奇心。</p><p data-pid=\"wN0VAcq0\">举这个例子就是为了告诉大家，大脑对于一切所学知识都会有类似反应：</p><blockquote data-pid=\"Wqs0cLyu\">已有的科学研究表明：神经影像显示前海马对视觉信息熵有反应，腹侧纹状体也有类似的发现。<b>这意味着人类的大脑会对「熵」作出反应，从而判断是否有学习机会。</b> </blockquote><p data-pid=\"jJ18Dwpy\">第一句话的「熵」太低，大脑识别到这句话中的「番茄」「鸡蛋」「炒饭」「晚餐」都是<b>已知，</b>而没有<b>未知</b>。但，大脑的奖励中枢恰恰需要<b>未知</b>来激活。而读第二句话时，我们的大脑识别到了“螭吻”这一未知的神兽，从而激活了和产生好奇有关的机制。</p><p data-pid=\"BRCmwRI7\">不断探索未知<b>，</b>学习未知，让未知成为已知，再去探索新的未知——这是人类的本能，是刻在我们基因中生物算法的表现。人类位于自然界的顶端，其探索算法也是所有生物中最高级的。</p><p data-pid=\"pm3sqP1p\"><b>人类进化出了学习未知时快乐的能力，探索和学习是人类的本能。人之所以为人，正是因为探索和学习。</b>研究发现：</p><blockquote data-pid=\"vC3sMNOD\">大脑中伏隔核和腹侧被盖区的持续活跃产生了学习中的快乐与上瘾。<sup data-text=\"学习的乐趣\" data-url=\"https://www.zhihu.com/question/429432467/answer/1578551193\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup></blockquote><p data-pid=\"2yrEn2Zb\"><b>未知是学习快乐的根源</b>。我们的大脑会自动检测未知，从而产生学习动机。</p><p data-pid=\"d4Q35kte\">很多读者在这里可能会产生疑问：「既然未知引起学习动力，那么越多的未知就意味着更多的学习动力吗？」</p><p data-pid=\"e-j-VJW1\">并非如此。</p><p data-pid=\"jAK2x2XK\">上面的内容只能算是对于学习愉悦生理机制的简单科普，接下来要讲的内容更加关键。</p><h2> 是什么让学习变得不快？</h2><p data-pid=\"7b-KMU9U\"> 我们再来对比这两句话：</p><blockquote data-pid=\"fz9Cg7sf\"><b>一</b>：晚上吃番茄炒鸡蛋行吗？好嘞！<br/><b>二</b>：如选择太长的时间片，时间片轮转算法便退化为 FCFS 算法，无法满足交互式用户的需求。</blockquote><p data-pid=\"zH16cF8F\">对大多数人来说，比起简单易懂的第一句话，第二句话像是看不懂的「胡言乱语」。这也难怪，因为第二句话是我从计算机专业书里面随便找的，外行读这句话的感觉就是「每个字都认识，连在一起就看不懂」。</p><p data-pid=\"0GKw3i3f\">用专业一点的话来讲就是：第二句话涵盖的几乎全是「噪音」，而第一句话涵盖的全是「信息」。</p><p data-pid=\"H-R7Im2P\">说白了，<b>「噪音」就是我们不理解的无意义数据，和大脑中现存的知识储备没有关联。</b>对于非计算机专业读者来说，第二句话中的「时间片」「时间片轮转算法」「FCFS 算法」「交互式用户」这些都是「噪音」。</p><p data-pid=\"wVn1nvRi\">与之相对的就是可以被理解的「信息」。第一句话中的「番茄」「鸡蛋」「炒饭」「晚餐」这些都是「信息」。</p><p data-pid=\"CZEBVIHx\">这里可以简单把「噪音」理解成<b>无关联的未知</b>，把「信息」理解成<b>已知</b>。</p><p data-pid=\"H4av5uR8\">「噪音」太多而「信息」太少，会导致我们的大脑会在理解时<b>过度简化输入</b>：</p><blockquote data-pid=\"F-49EJae\">高熵信号往往是无趣的，因为「噪音」太多，这使得大脑过滤掉了过多的知识。<br/>丢失过多的知识，会使信号的「熵」下降，从而<b>难以激活大脑的奖励中枢</b>。</blockquote><p data-pid=\"dBTbrpVa\">这也解释了我们为什么讨厌晦涩难懂的语言：因为有太多无关联的未知知识，也就是有太多「噪音」，会让大脑把大部分知识输入都给过滤掉，造成的体验就是：「看似啥都读了，实则啥都没读」。</p><p data-pid=\"_pqJiVAS\">所以，我们所学的内容要有<b>未知，</b>但要避免<b>和现存知识储备没有关联的未知（无关联未知）</b>，<b>即噪音</b>。</p><p data-pid=\"MwH6qOSC\">要防止学习变得无趣，我们的学习材料必须要有合适的「信噪比」。过多的「噪音」会带来更多的「知识损失」，这使得输入的大量知识被大脑丢弃，不仅让我们几乎什么都学不到，还会让整个学习过程变得无趣。</p><p data-pid=\"xK7aDAyf\">上面的这些都可以抽象为一句简单的道理：所学不能太难。</p><p data-pid=\"p_HsINqP\">读到这里，你也许会想：既然学习快乐是由「未知」引起的，太多的「噪音」又会让大脑厌烦而造成过度简化，那么该如何找到既有未知，能引起兴趣，又不会让大脑厌烦的材料呢？或者说，如何找到真正的<b>难度平衡点？</b></p><h2> 你爱的，恰恰就是最好的</h2><p data-pid=\"-AFHSSH7\">一本专业领域的书籍，对于外行来说是一句话也读不懂的天书，但对于这个领域的专家来说很容易理解。同样的材料带有的「信息熵」是相同的，但对于不同的人来说，他们的大脑所理解到的信息量可大有区别，一些人的“信息”在另一些人看来则是「噪音」，这是因为人和人的知识储备本就不同。这就决定了：<b>学习材料的最佳难度是高度个性化的，不可能有同一学习材料可以同时满足所有人的学习需求。</b></p><p data-pid=\"lwXjNzVg\">随之而来的问题是：「如何找到最适合自己的学习材料？」，其实这是一个很蠢的问题。因为，作为最智慧的物种，很多人已经忘记了这一行为原则：<b>相信人脑自己的判断</b><sup data-text=\"学习的乐趣\" data-url=\"https://www.zhihu.com/question/429432467/answer/1578551193\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup><b>：</b></p><blockquote data-pid=\"qA9pZzOx\">丘脑处理的特定刺激可能会向杏仁体发送单独的信号进行感性评估，向新皮层发送单独的信号进行理性评估。<br/><br/>大脑处理过的所有知识片段都会立即评估其相关性、连贯性和价值。我们能立即知道这些信息是否可以理解的和有用的。当它们前后矛盾、不连贯或不相关时，我们也常常会立即注意到。<br/><br/>进入大脑的任何知识都会在大脑的<b>知识评估网络</b>中得到估值，高估值的信息会激活<b>奖励中枢</b>。</blockquote><p data-pid=\"7ezkid1U\">也就是说，大脑会自行判断哪些知识有价值，哪些知识无价值。当大脑检测到高价值信息时会向奖励中枢发送信号，使我们产生学习动力，也就是学习内驱力<sup data-text=\"学习内驱力\" data-url=\"https://zhuanlan.zhihu.com/p/52990549\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>，最终达成学习乐趣。</p><p data-pid=\"hqzEzLJX\">正如前文所说，「噪音」太多和缺乏「未知」都会被大脑判断为无趣。而既不会太容易，又不会太难的知识，既可以和大脑中的已有知识产生关联，又能激活奖励中枢，则是最合适的。</p><p data-pid=\"qVXVffV7\"><b>有趣的是，最合适的学习内容，往往就是我们最爱的。</b>因为只有难度合适的知识才会被大脑评估为高价值并触发大脑对知识的奖励机制，让我们想学。<b>内容越合适，我们就越想学。</b></p><p data-pid=\"fPi2qbub\">其实这句话倒过来说更成立：<b>我们越想学，意味着学习内容越合适。</b></p><p data-pid=\"6uOMcwHm\">我们越是偏爱某领域的知识，大脑对于这一领域知识的估值也就越高，从而形成<b>正反馈</b>：越学越喜欢，越喜欢越学。</p><p data-pid=\"F2KeN_N7\">同样，如果我们讨厌某一学科的知识，大脑对于这一学科的估值就会低，这又让我们更难以获得学习动机和快乐。</p><p data-pid=\"BEPFG8p0\">总的来说，最好的学习材料恰恰就是你最喜欢的。大脑会通过已知的信息，结合理性和感性，对知识做出对应的判断，从而为你选择出最合适的主题、最合适的方向、最合适的难度。</p><p data-pid=\"ODPrvQrQ\">举例来说，一个消防员不需要木工干活掌握的知识，那么大脑在理性评估时对木工的知识技能估值也会很低。同样，如果一个热爱数学的人，大脑在感性评估下会对所有此学科的知识，甚至是所有和数字有关的知识「打高分」。</p><p data-pid=\"0zIT9Jts\">要产生最好的学习效果，我们唯一需要做的就是<b>惯着大脑。</b>换句话说，我们要听从自己内心的声音，尊重大脑的兴趣，尊重大脑选择的学习难度。<b>大脑喜欢的，就是最好的。</b></p><p data-pid=\"oOTOr1rB\"><b>可是阻碍我们选择合适材料，享受学习乐趣的，往往不是别的，而是学校。</b></p><h2>学校为什么是错的</h2><p data-pid=\"vOI1tAMw\"> Wozniak 博士深耕学习记忆领域四十年，在此期间发现的成果使他对教育的看法产生了很大影响。事实上，他是传统强制学校教育的坚决反对者。他甚至写了一本书，名为<b>《</b>我永远不会送我的孩子去学校<b>》</b><sup data-text=\"《我永远不会送我的孩子去学校》\" data-url=\"https://zhuanlan.zhihu.com/p/73383015\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>。他认为<b>传统的强制教育应该被完全废除</b>。他说<sup data-text=\"1 前言\" data-url=\"https://zhuanlan.zhihu.com/p/52805512\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup>：</p><blockquote data-pid=\"FHCFE0-v\">「现在的学校没有教育孩子，反而对许多孩子造成了伤害。学校本应当成为新文艺复兴或新启蒙运动的工具。然而它已经成为一种压迫的工具，剥夺了孩子们的自由和对学习的热爱。」<br/><br/>「教育系统的主要问题是一种千篇一律的方法，在这种方法中，所有的孩子都以流水线的方式接受相同的知识，而很少考虑有效学习的关键组成部分：学习内驱力。」<br/><br/>「我每天一觉醒来都不敢相信古老的普鲁士工厂学校模式的存在。」</blockquote><p data-pid=\"maTZZD5w\">Wozniak 是一位热爱学习的终身学习者，又拥有此领域的专家身份，我们没有理由不去认真思考他的观点。大众一般认为：学校是帮助学生学习的场所，可真的是这样吗？在 21 世纪，得益于全球互联网的发展，只需要动动指头，我们就可以在电子设备上获得任何我们想学的材料，无需学校。</p><p data-pid=\"gFC7x-C3\">许多人认为：离开了学校的管教，学生就不会主动去学习。可是，脑科学的发现早已证实了学习快乐的生理机制存在。对于史前史的研究也发现：采集狩猎时期的人类在童年玩耍时学到了大量知识，这些知识帮助他们进行成年后的复杂生活需要。此外，人类历史上伟大的学者和科学家，几乎都是凭借自身的兴趣进行学习，沉醉于所发现的真理之中。</p><p data-pid=\"2gHRSvhS\">与此相反，经历了强制教育的大多数学生都终身厌恶学习，对于知识的好奇心完全被扑灭，把「学习」当作「应付考试」的同义词，当作「痛苦」「自卑」的代名词。可以说，他们几乎完全失去了学习能力。不仅如此，学校教授知识的效率也是极低的。举例来说，大多数学生学了十年英语，词汇量不过三四千，开口说不出五句话。而许多零基础的自由学习者，在一两年的学习后反而可以流利掌握英文。</p><p data-pid=\"LvNIEYgb\">学校的最大罪过就是两个字：<b>强制</b>。学生们不允许学习自己喜爱的内容，不允许自由选择难度。<b>长期的强制会让学生厌恶所学，学生的大脑对于所有知识的估值都会降低，并进入厌恶学习的恶性循环。</b>这会让一个人的学习内驱力被大大压制，使他不愿意主动学习，只得被外界压力逼迫继续学下去。毫无疑问，这样的方式是低效甚至无效的。</p><p data-pid=\"bgeYK8F3\"><b>学校的教育方式违背了人类大脑学习的自然机制。这使得学习从一种快乐变为一种痛苦。</b></p><blockquote data-pid=\"NnChhkVJ\">儿童应学的事情，决不应该变成儿童的一种负担，也不应当当做一种任务去加在他们身上。否则他们立刻便会讨厌它；哪怕他们以前本来喜爱那件事，或者不爱也不憎，他们对他都会感到厌恶。<br/>——约翰·洛克（John Locke）<sup data-text=\"2 箴言\" data-url=\"https://zhuanlan.zhihu.com/p/52990307\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"8\">[8]</sup></blockquote><h2>后记</h2><p data-pid=\"6zJQlcSu\">作为自由学习者，我深感学习本就是快乐的，可以成为一种享受，是<b>上天赐予人类最珍贵的礼物</b>。</p><p data-pid=\"Fem6slWU\">同时，我也在为无数学生的悲惨所唏嘘。</p><p data-pid=\"jsput156\">与大家一样，我也曾饱受教育系统的摧残。我本以为所有的悲剧都注定发生，无可避免。</p><p data-pid=\"E23BluRM\">但接触到自由学习<sup data-text=\"自由学习\" data-url=\"https://zhuanlan.zhihu.com/p/272543239\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"9\">[9]</sup>理念后，我意识到：对于强制教育<sup data-text=\"强制学校教育\" data-url=\"https://zhuanlan.zhihu.com/p/351869026\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"10\">[10]</sup>的批判观点并不只来源于学生的无意义抱怨，其背后拥有充足的科学理论支持。同时，我也从部分自由学习者身上找到了希望和出路。</p><p data-pid=\"i0u7R6tF\">抱着改变这一切的梦想，我决定传播我们的声音。这个账号下的文章将会持续对现存学校教育体制进行系统批判，并分享这个时代下的出路，分享自由学习、互联网学习、间隔重复<sup data-text=\"高效学习的间隔重复\" data-url=\"https://zhuanlan.zhihu.com/p/420105707\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"11\">[11]</sup>等理念。</p><p data-pid=\"vNKBibp6\">欢迎每个人在评论区进行留言来表达自己的想法。点赞可以将文章推广给更多人。当然，希望有共识的人可以关注我们后续的工作。</p><p data-pid=\"nm-LkGLy\">感谢每位读完这篇文章的人，您的阅读就是对我们工作最大的尊重。</p><h2>相关阅读</h2><a href=\"https://zhuanlan.zhihu.com/p/73383015\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-e4ebb7f6a7de63dc09d8ca287f51b726_180x120.jpg\" data-image-width=\"1229\" data-image-height=\"441\" class=\"internal\">叶峻峣：0 目录《我永远不会送我的孩子去学校》</a><a href=\"https://www.zhihu.com/question/540975730/answer/2632926143\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">你认为中国当前的教育最缺少什么？</a><a href=\"https://zhuanlan.zhihu.com/p/559705516\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-bc2a3f36cf6b2e6d6425f07bd5e63c38_180x120.jpg\" data-image-width=\"4852\" data-image-height=\"3235\" class=\"internal\">叶峻峣：学校让人沾染上的 100+ 恶习</a><h2>本文改编自</h2><a href=\"https://www.zhihu.com/question/429432467/answer/1578551193\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">学习的乐趣</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1661995944,
   "excerpt": "不太谦虚地说，除了我，整个知乎应该没有答主会正面回答这个问题。这也反映了关于学习的谬误流毒甚广。 很多人理所应当地认为：学习就是一个痛苦的过程。这篇文章将告诉你，他们完全是错的。在正文开始之前，我想先介绍一下这篇回答的理论来源，同时也是我们汉化组的翻译内容的作者之一——Piotr Wozniak [1] 博士：Wozniak 来自波兰，在学习与记忆领域是名副其实的超级专家。40 年来他专心于学习和记忆的研究，不断优化自己创建…",
-  "id": 2654856255,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2654856255",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://www.zhihu.com/question/429432467/answer/1578551193": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"普通人怎么才会像打游戏一样爱上学习？\",\"card_open_url\":\"https://www.zhihu.com/question/429432467/answer/1578551193\",\"desc\":\"1418 赞同 · 103 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e No pleasure, no good learning!以下内容来自我的翻译文集： [文章: 0 目录《我永远不会送我的孩子去学校》] 6.1 教育中的主要问题关于教育的主要问题是认为学习可能会引起不快，而且应该 忍受 [1]这种不快从而学的更多。有无数的教育者认为学校应该像工作一样：它令人不快，但它只是需要去做。在这一章中，我将解释相反的才是对的： 好的学习本身就是快乐的，没有快乐就没有好的学习。不快的错误观念如此普遍，以至于即使是对学习乐趣有广泛了解的好老师…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-b3487faa0925574fc0a90be9dbd5d439.jpg?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"1578551193\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://www.zhihu.com/question/540975730/answer/2632926143": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"你认为中国当前的教育最缺少什么？\",\"card_open_url\":\"https://www.zhihu.com/question/540975730/answer/2632926143\",\"desc\":\"903 赞同 · 139 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 缺少教育。 以下内容且看且珍惜，说不定待会儿就没了。个人觉得，当前的中国教育算不上真正的教育，对个人全面发展没什么帮助，甚至也不能帮助提高学生的学习能力。 许多读者在读了往期的一些文章后往往会抱有疑问：「我们的教育为什么离谱到这种程度？」如果你理解了中国教育的本质，这个问题其实很容易想明白。 科举制度的根本目的是社会分层对学生来说，考试和排名从来都是家常便饭。学校和教师会欺骗学生：「学校组织的考试…\",\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"2632926143\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/559705516": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"学校让人沾染上的 100+ 恶习\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/559705516\",\"desc\":\"7349 赞同 · 628 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 编者前言几乎所有自由学习者都明白，学校是摧毁学习的罪魁祸首，Wozniak 博士对此也是心知肚明。可当文章落成并与大家见面之时，我们还是难以相信：可列出的恶习竟超过了一百条！这正是学校恶行罄竹难书的证明。 檄文从多方面列举了学校的罪状，基于理论体系的论述穿插着作者感情的流露，可以称得上是 Wozniak 的代表性作品。前 1-3 章属于前文，4-8 章是文章的正文，最后的 9-14 章属于未分类的部分。全文共五万多字，各位读者…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-bc2a3f36cf6b2e6d6425f07bd5e63c38_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"559705516\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/73383015": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"0 目录《我永远不会送我的孩子去学校》\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/73383015\",\"desc\":\"359 赞同 · 50 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 总算是填好了一个大坑 下面这个是译文在专栏的地址： 前言 箴言 脑科学 学习内驱力 学校教育对学习内驱力的影响 学习内驱力和奖励6.1-6.10 （知识评估网络）6.11-6.16 （学习熵）6.17-6.21 （学习成瘾）6.22-6.25 + 摘要 （学习的基本规律）学习内驱力与习得性无助 教育抵消进化 毒性记忆 为什么学校会失败 最佳推动区 自然创造力周期 大脑进化 婴儿管理 婴儿的大脑怎样不起作用 童年失忆症 16.1-16.5 16.6-16.11 + 摘要 幼儿园的苦难 抗压力韧性 …\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-e4ebb7f6a7de63dc09d8ca287f51b726_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"73383015\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://www.zhihu.com/question/429432467/answer/1578551193": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"普通人怎么才会像打游戏一样爱上学习？\",\"card_open_url\":\"https://www.zhihu.com/question/429432467/answer/1578551193\",\"desc\":\"1543 赞同 · 102 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e No pleasure, no good learning!以下内容来自我的翻译文集： [文章: 0 目录《我永远不会送我的孩子去学校》] 6.1 教育中的主要问题关于教育的主要问题是认为学习可能会引起不快，而且应该 忍受 [1]这种不快从而学的更多。有无数的教育者认为学校应该像工作一样：它令人不快，但它只是需要去做。在这一章中，我将解释相反的才是对的： 好的学习本身就是快乐的，没有快乐就没有好的学习。不快的错误观念如此普遍，以至于即使是对学习乐趣有广泛了解的好老师…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-b3487faa0925574fc0a90be9dbd5d439.jpg?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"1578551193\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://www.zhihu.com/question/540975730/answer/2632926143": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"你认为中国当前的教育最缺少什么？\",\"card_open_url\":\"https://www.zhihu.com/question/540975730/answer/2632926143\",\"desc\":\"919 赞同 · 139 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 缺少教育。 以下内容且看且珍惜，说不定待会儿就没了。个人觉得，当前的中国教育算不上真正的教育，对个人全面发展没什么帮助，甚至也不能帮助提高学生的学习能力。 许多读者在读了往期的一些文章后往往会抱有疑问：「我们的教育为什么离谱到这种程度？」如果你理解了中国教育的本质，这个问题其实很容易想明白。 科举制度的根本目的是社会分层对学生来说，考试和排名从来都是家常便饭。学校和教师会欺骗学生：「学校组织的考试…\",\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"2632926143\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/559705516": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"学校让人沾染上的 100+ 恶习\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/559705516\",\"desc\":\"8165 赞同 · 659 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 编者前言几乎所有自由学习者都明白，学校是摧毁学习的罪魁祸首，Wozniak 博士对此也是心知肚明。可当文章落成并与大家见面之时，我们还是难以相信：可列出的恶习竟超过了一百条！这正是学校恶行罄竹难书的证明。 檄文从多方面列举了学校的罪状，基于理论体系的论述穿插着作者感情的流露，可以称得上是 Wozniak 的代表性作品。前 1-3 章属于前文，4-8 章是文章的正文，最后的 9-14 章属于未分类的部分。全文共五万多字，各位读者…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-bc2a3f36cf6b2e6d6425f07bd5e63c38_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"559705516\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/73383015": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"0 目录《我永远不会送我的孩子去学校》\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/73383015\",\"desc\":\"379 赞同 · 50 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 总算是填好了一个大坑 下面这个是译文在专栏的地址： 前言 箴言 脑科学 学习内驱力 学校教育对学习内驱力的影响 学习内驱力和奖励6.1-6.10 （知识评估网络）6.11-6.16 （学习熵）6.17-6.21 （学习成瘾）6.22-6.25 + 摘要 （学习的基本规律）学习内驱力与习得性无助 教育抵消进化 毒性记忆 为什么学校会失败 最佳推动区 自然创造力周期 大脑进化 婴儿管理 婴儿的大脑怎样不起作用 童年失忆症 16.1-16.5 16.6-16.11 + 摘要 幼儿园的苦难 抗压力韧性 …\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-e4ebb7f6a7de63dc09d8ca287f51b726_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"73383015\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/3176240141?contentId=2654856255&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "15 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1540992856,
     "detail": "",
-    "id": 300783371,
+    "id": "300783371",
     "question_type": "normal",
     "relationship": {},
     "title": "如何把学习变成一种快乐？",
     "type": "question",
     "updated_time": 1540992856,
-    "url": "https://api.zhihu.com/questions/300783371"
+    "url": "https://www.zhihu.com/api/v4/questions/300783371"
   },
   "relationship": {
     "upvoted_followees": []
   },
+  "segment_infos": [
+    {
+      "marks": [
+        {
+          "end_index": 11,
+          "seg_info": {
+            "comment_count": 0,
+            "is_like": false,
+            "is_span": false,
+            "like_count": 10,
+            "my_comment_count": 0,
+            "seg_ids": [
+              "1548763986593832960"
+            ]
+          },
+          "start_index": 0
+        }
+      ],
+      "pid": "5EuvKNTt",
+      "text": "「学习就和做爱一样爽」[3]"
+    },
+    {
+      "marks": [
+        {
+          "end_index": 54,
+          "seg_info": {
+            "comment_count": 0,
+            "is_like": false,
+            "is_span": false,
+            "like_count": 12,
+            "my_comment_count": 0,
+            "seg_ids": [
+              "1555551136408358912"
+            ]
+          },
+          "start_index": 0
+        }
+      ],
+      "pid": "BRCmwRI7",
+      "text": "不断探索未知，学习未知，让未知成为已知，再去探索新的未知——这是人类的本能，是刻在我们基因中生物算法的表现。人类位于自然界的顶端，其探索算法也是所有生物中最高级的。"
+    },
+    {
+      "marks": [
+        {
+          "end_index": 25,
+          "seg_info": {
+            "comment_count": 0,
+            "is_like": false,
+            "is_span": false,
+            "like_count": 9,
+            "my_comment_count": 0,
+            "seg_ids": [
+              "1549895465449209856"
+            ]
+          },
+          "start_index": 0
+        }
+      ],
+      "pid": "xK7aDAyf",
+      "text": "上面的这些都可以抽象为一句简单的道理：所学不能太难。"
+    },
+    {
+      "marks": [
+        {
+          "end_index": 180,
+          "seg_info": {
+            "comment_count": 0,
+            "is_like": false,
+            "is_span": false,
+            "like_count": 10,
+            "my_comment_count": 0,
+            "seg_ids": [
+              "1552595673559818240"
+            ]
+          },
+          "start_index": 138
+        }
+      ],
+      "pid": "-AFHSSH7",
+      "text": "一本专业领域的书籍，对于外行来说是一句话也读不懂的天书，但对于这个领域的专家来说很容易理解。同样的材料带有的「信息熵」是相同的，但对于不同的人来说，他们的大脑所理解到的信息量可大有区别，一些人的“信息”在另一些人看来则是「噪音」，这是因为人和人的知识储备本就不同。这就决定了：学习材料的最佳难度是高度个性化的，不可能有同一学习材料可以同时满足所有人的学习需求。"
+    },
+    {
+      "marks": [
+        {
+          "end_index": 79,
+          "seg_info": {
+            "comment_count": 0,
+            "is_like": false,
+            "is_span": true,
+            "like_count": 8,
+            "my_comment_count": 0,
+            "seg_ids": [
+              "1549895529416323073"
+            ]
+          },
+          "start_index": 44
+        }
+      ],
+      "pid": "lwXjNzVg",
+      "text": "随之而来的问题是：「如何找到最适合自己的学习材料？」，其实这是一个很蠢的问题。因为，作为最智慧的物种，很多人已经忘记了这一行为原则：相信人脑自己的判断[4]："
+    },
+    {
+      "marks": [
+        {
+          "end_index": 30,
+          "seg_info": {
+            "comment_count": 0,
+            "is_like": false,
+            "is_span": true,
+            "like_count": 8,
+            "my_comment_count": 0,
+            "seg_ids": [
+              "1573419731973029888"
+            ]
+          },
+          "start_index": 13
+        }
+      ],
+      "pid": "fPi2qbub",
+      "text": "其实这句话倒过来说更成立：我们越想学，意味着学习内容越合适。"
+    },
+    {
+      "marks": [
+        {
+          "end_index": 51,
+          "seg_info": {
+            "comment_count": 0,
+            "is_like": false,
+            "is_span": true,
+            "like_count": 8,
+            "my_comment_count": 0,
+            "seg_ids": [
+              "1573419731973029888"
+            ]
+          },
+          "start_index": 0
+        }
+      ],
+      "pid": "6uOMcwHm",
+      "text": "我们越是偏爱某领域的知识，大脑对于这一领域知识的估值也就越高，从而形成正反馈：越学越喜欢，越喜欢越学。"
+    },
+    {
+      "marks": [
+        {
+          "end_index": 21,
+          "seg_info": {
+            "comment_count": 0,
+            "is_like": false,
+            "is_span": false,
+            "like_count": 5,
+            "my_comment_count": 0,
+            "seg_ids": [
+              "1549894169950126080"
+            ]
+          },
+          "start_index": 0
+        }
+      ],
+      "pid": "BEPFG8p0",
+      "text": "总的来说，最好的学习材料恰恰就是你最喜欢的。大脑会通过已知的信息，结合理性和感性，对知识做出对应的判断，从而为你选择出最合适的主题、最合适的方向、最合适的难度。"
+    },
+    {
+      "marks": [
+        {
+          "end_index": 150,
+          "seg_info": {
+            "comment_count": 1,
+            "is_like": false,
+            "is_span": false,
+            "like_count": 22,
+            "my_comment_count": 0,
+            "seg_ids": [
+              "1548771705061052416"
+            ]
+          },
+          "start_index": 0
+        }
+      ],
+      "pid": "LvNIEYgb",
+      "text": "学校的最大罪过就是两个字：强制。学生们不允许学习自己喜爱的内容，不允许自由选择难度。长期的强制会让学生厌恶所学，学生的大脑对于所有知识的估值都会降低，并进入厌恶学习的恶性循环。这会让一个人的学习内驱力被大大压制，使他不愿意主动学习，只得被外界压力逼迫继续学下去。毫无疑问，这样的方式是低效甚至无效的。"
+    }
+  ],
   "type": "answer",
-  "voteup_count": 2027
+  "updated_time": 1662434326,
+  "url": "https://www.zhihu.com/api/v4/answers/2654856255",
+  "voteup_count": 2252
 }

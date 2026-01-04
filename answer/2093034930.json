@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,9 +14,10 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
@@ -35,19 +37,21 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,36 +84,56 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 0,
   "content": "<p data-pid=\"75A5GnVr\">考试并非都是不好的，判断其好坏的标准是考试的目的。</p><p data-pid=\"UJ2I5cY-\">有些考试是为了让学生主动回忆所学知识，为了提高学生的学习效果，这样的考试是好的，所谓测试效应中的测试就是指这种考试：</p><a href=\"https://zhuanlan.zhihu.com/p/57113246\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-c0bf765a9b03e60d38b8df6e2c5920c5_180x120.jpg\" data-image-width=\"1211\" data-image-height=\"677\" class=\"internal\">叶峻峣：【理论】测试效应——什么？考试有助于我的学习？</a><p data-pid=\"fwMM4P5u\">另外一些考试是为了对学生进行评估，这种考试就会有很多负面的影响：</p><blockquote data-pid=\"vHrxZXy4\">测试的问题在于它通常是强制性的，而且是事先宣布的。强制性的高风险测试涉及压力。事先宣布的测试促进了填鸭式学习。填鸭式学习促进无语义学习，导致专注于低质量的短期记忆。这种短期专注会导致干扰、记忆力稳定性差、连贯性差、对不相关知识部分的遗忘增加等。测试也增加了压力，破坏了睡眠，增加了对学校的仇恨。</blockquote><a href=\"https://www.zhihu.com/question/448045582/answer/1770370189\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">全国政协委员唐江澎表示：「孩子只有分数赢不了未来的大考」，你觉得呢？</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1630311971,
   "excerpt": "考试并非都是不好的，判断其好坏的标准是考试的目的。 有些考试是为了让学生主动回忆所学知识，为了提高学生的学习效果，这样的考试是好的，所谓测试效应中的测试就是指这种考试： [文章: 【理论】测试效应——什么？考试有助于我的学习？] 另外一些考试是为了对学生进行评估，这种考试就会有很多负面的影响： 测试的问题在于它通常是强制性的，而且是事先宣布的。强制性的高风险测试涉及压力。事先宣布的测试促进了填鸭式学习。…",
-  "id": 2093034930,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2093034930",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
     "https://www.zhihu.com/question/448045582/answer/1770370189": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"全国政协委员唐江澎表示：「孩子只有分数赢不了未来的大考」，你觉得呢？\",\"card_open_url\":\"https://www.zhihu.com/question/448045582/answer/1770370189\",\"desc\":\"13 赞同 · 0 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 原文： 考试 - 知乎 (zhihu.com) 定义 考试就是利用大考和小测对知识进行评估。一些设计良好的考试，可以提供对良好的知识和推理技能的评估。考试的问题考试的问题是，它通常是强制性的，而且是预先宣布的。强制性的高风险考试涉及压力。预先宣布的考试促进了 死记硬背 [1]。死记硬背 促进了无语义学习 [2]，导致专注于低质量的短期记忆。这种短视关注导致了干扰 [3]、糟糕的记忆稳定性 、糟糕的连贯性 [4]，增加了对不相关部分知识的遗忘 …\",\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"1770370189\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/57113246": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"【理论】测试效应——什么？考试有助于我的学习？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/57113246\",\"desc\":\"86 赞同 · 7 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 今天我们聊聊 测试效应(Testing effect)。先卖个关子，假如还有几天就有一个重要的 考试，你需要复习相关材料，你怎样才能准备的更好？你或许会想去重新 看看教材，或者看自己的笔记。但是， 高效复习的方法竟然是用相关的材料来测试自己！也就是说，仅仅一个回答问题的行为就能增强记忆，这就是名为测试效应的现象。 [图片] 导致这个现象有许多原因，其中之一就是 积极学习优于消极学习。当我们阅读教科书上…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-c0bf765a9b03e60d38b8df6e2c5920c5_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"57113246\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/57113246": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"【理论】测试效应——什么？考试有助于我的学习？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/57113246\",\"desc\":\"101 赞同 · 7 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 今天我们聊聊 测试效应(Testing effect)。先卖个关子，假如还有几天就有一个重要的 考试，你需要复习相关材料，你怎样才能准备的更好？你或许会想去重新 看看教材，或者看自己的笔记。但是， 高效复习的方法竟然是用相关的材料来测试自己！也就是说，仅仅一个回答问题的行为就能增强记忆，这就是名为测试效应的现象。 [图片] 导致这个现象有许多原因，其中之一就是 积极学习优于消极学习。当我们阅读教科书上…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-c0bf765a9b03e60d38b8df6e2c5920c5_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"57113246\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=2093034930&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1630289359,
     "detail": "<p>记者30日从教育部新闻发布会获悉，为切实降低学生考试压力，教育部印发了《关于加强义务教育学校考试管理的通知》，明确小学一二年级不进行纸笔考试，其他年级由学校每学期组织一次期末考试；初中年级从不同学科实际出发，可适当安排一次期中考试。要合理控制考试难度，严禁超课标超教学进度命题。要合理运用考试结果，学校期中期末考试实行等级评价。（新华社）</p>",
-    "id": 483444092,
+    "id": "483444092",
     "question_type": "normal",
     "relationship": {},
     "title": "教育部称小学一二年级不进行纸笔考试，将产生哪些影响？",
     "type": "question",
     "updated_time": 1630289359,
-    "url": "https://api.zhihu.com/questions/483444092"
+    "url": "https://www.zhihu.com/api/v4/questions/483444092"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1630311971,
+  "url": "https://www.zhihu.com/api/v4/answers/2093034930",
   "voteup_count": 11
 }

@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,36 +84,56 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 1,
   "content": "<p data-pid=\"potJxzF1\">我只是搬运一下</p><a href=\"https://zhuanlan.zhihu.com/p/40219067\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-65f52a37e7457b2395e78b7f517747e6_180x120.jpg\" data-image-width=\"4096\" data-image-height=\"2730\" class=\"internal\">Aoyu Zuo：JavaScript实现Anki隔字挖空背新概念英语文章</a><p data-pid=\"MqrHO8RF\">让错过的朋友们与它见面。</p><p data-pid=\"cnQ3rAdk\">让好文章不被埋没。</p><h2>2024 更新：</h2><a href=\"https://zhuanlan.zhihu.com/p/3953703611\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-199d44766283e7522391b148e7eb1d1f_180x120.jpg\" data-image-width=\"5472\" data-image-height=\"3648\" class=\"internal\">Thoughts Memo：运用记忆系统背诵文章段落</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1543427152,
   "excerpt": "我只是搬运一下 [文章: JavaScript实现Anki隔字挖空背新概念英语文章] 让错过的朋友们与它见面。 让好文章不被埋没。 2024 更新： [文章: 运用记忆系统背诵文章段落]",
-  "id": 541226864,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "541226864",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/3953703611": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"运用记忆系统背诵文章段落\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/3953703611\",\"desc\":\"118 赞同 · 11 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 最近，我尝试借助一种记忆系统来帮助自己背诵几段我深爱的文字。我从我最为推崇的一篇文章——卡尔·萨根那篇脍炙人口的《暗淡蓝点》着手。这次体验给我带来了莫大的满足感，并因此记住了其他几段文字，包括亚伯拉罕·林肯的《葛底斯堡演说》，以及 Wendell Berry 的诗作《大自然的安宁》。 本文记录了我在这个过程中的一些观察和感悟。需要强调的是，这些仅仅是我个人的心得体会——我绝非在宣称这是每个人「都应该」去做的事情…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-199d44766283e7522391b148e7eb1d1f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"3953703611\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/40219067": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"JavaScript实现Anki隔字挖空背新概念英语文章\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/40219067\",\"desc\":\"323 赞同 · 65 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e那就离开吧:\\u003c/a\\u003e 之前为了学好英语，在知乎浏览了很多人的回答、文章，看到 @白诗诗 的一篇文章让我眼前一亮。我准备用 @白诗诗 介绍的方法背《新概念英语·第三册》。这种记忆方式很简单，就是在要背的文章中每隔一个单词挖一个空，通过对空缺的单词的联想，很快地完成对整篇文章的记忆。就像这样： [图片] 白诗诗介绍这种方法的文章在知乎收获了很多的赞，更有人写了一个工具“背个X啊”来完成对单词的挖空，后来也出了APP。但我觉得不够优雅，也不实用…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-65f52a37e7457b2395e78b7f517747e6_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"40219067\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/3953703611": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"运用记忆系统背诵文章段落\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/3953703611\",\"desc\":\"165 赞同 · 16 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 最近，我尝试借助一种记忆系统来帮助自己背诵几段我深爱的文字。我从我最为推崇的一篇文章——卡尔·萨根那篇脍炙人口的《暗淡蓝点》着手。这次体验给我带来了莫大的满足感，并因此记住了其他几段文字，包括亚伯拉罕·林肯的《葛底斯堡演说》，以及 Wendell Berry 的诗作《大自然的安宁》。 本文记录了我在这个过程中的一些观察和感悟。需要强调的是，这些仅仅是我个人的心得体会——我绝非在宣称这是每个人「都应该」去做的事情…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-199d44766283e7522391b148e7eb1d1f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"3953703611\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/40219067": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"JavaScript实现Anki隔字挖空背新概念英语文章\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/40219067\",\"desc\":\"331 赞同 · 65 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e那就离开吧:\\u003c/a\\u003e 之前为了学好英语，在知乎浏览了很多人的回答、文章，看到 @白诗诗 的一篇文章让我眼前一亮。我准备用 @白诗诗 介绍的方法背《新概念英语·第三册》。这种记忆方式很简单，就是在要背的文章中每隔一个单词挖一个空，通过对空缺的单词的联想，很快地完成对整篇文章的记忆。就像这样： [图片] 白诗诗介绍这种方法的文章在知乎收获了很多的赞，更有人写了一个工具“背个X啊”来完成对单词的挖空，后来也出了APP。但我觉得不够优雅，也不实用…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-65f52a37e7457b2395e78b7f517747e6_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"40219067\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=541226864&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1494370041,
     "detail": "打算背新概念，注意是课文不是单词。以前也背过一段时间，但是背到后面前面的全忘了，后来就放弃了。所以想用anki来合理复习，避免背到后面忘记前面的情况。",
-    "id": 59635392,
+    "id": "59635392",
     "question_type": "normal",
     "relationship": {},
     "title": "怎么用anki背课文？",
     "type": "question",
     "updated_time": 1494370349,
-    "url": "https://api.zhihu.com/questions/59635392"
+    "url": "https://www.zhihu.com/api/v4/questions/59635392"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 10
+  "updated_time": 1730942875,
+  "url": "https://www.zhihu.com/api/v4/answers/541226864",
+  "voteup_count": 12
 }

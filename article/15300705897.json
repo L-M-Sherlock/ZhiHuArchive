@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "15300705897",
+  "title": "什么是证据筛选？",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/15300705897",
+  "image_url": "https://pic1.zhimg.com/v2-db1516149e617d9ff143a15423233b22_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-db1516149e617d9ff143a15423233b22_720w.jpg?source=172ae18b",
+  "excerpt": "我曾讨论过这样一个困境：一位能言善道的说客，受雇向你兜售一个盒子；盒中可能有钻石，也可能是空的。这位说客指出，盒子上印有蓝色印章，而根据已知事实，装有钻石的盒子比空盒子更可能带有蓝色印章。从贝叶斯理论的角度来看，此刻你会如何反应？你是否一…",
+  "created": 1735465724,
   "updated": 1735803683,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pica.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://pica.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "我曾讨论过这样一个困境：一位能言善道的说客，受雇向你兜售一个盒子；盒中可能有钻…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 6000,
+  "image_height": 4000,
+  "content": "<p data-pid=\"iJcqwOwK\">我曾讨论过这样一个困境：一位能言善道的说客，受雇向你兜售一个盒子；盒中可能有钻石，也可能是空的。这位说客指出，盒子上印有蓝色印章，而根据已知事实，装有钻石的盒子比空盒子更可能带有蓝色印章。从贝叶斯理论的角度来看，此刻你会如何反应？你是否一定要如说客所愿，无奈地以此调整自己的概率判断？</p><p data-pid=\"m9JqE6Rr\">若能亲自检查盒子，自然可以自行评估所有线索。但如果你无法亲自检查呢？倘若你唯一能得到的证据只有来自说客的只言片语——受法律约束只能陈述真相，却又不将一切和盘托出——你又当作何反应？这位说客提出的每一条论据都确实构成了有效证据——你怎能无动于衷，不去调整自己相应的概率判断？在特定比例的 Everett 分支或 Tagmark 世界的平行宇宙中，带蓝色印章的 <b>B</b> 盒内确实存在钻石——这一事实难道就不成立了吗？根据 Jaynes 的观点，贝叶斯主义者必须始终根据所有已知证据作出判断，否则就会自相矛盾。但这样一来，只要有足够多的线索可供选择性报告，这位说客就能诱导你相信他们希望你相信的任何事。这听起来似乎不太对劲。</p><p data-pid=\"pxbNeppZ\">一个更简单的例子：一枚有偏差的硬币，要么偏向正面（正面概率 2/3，反面概率 1/3），要么偏向反面（正面概率 1/3，反面概率 2/3）。这两种情况的先验概率相等。每观察到一次正面，就有 <a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/How-Much-Evidence-Does-It-Take\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">1 比特</a><sup data-text=\"支持一个信念需要多少证据？\" data-url=\"https://hpmor.xyz/ai2zb_23/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>的证据支持硬币偏向正面；每观察到一次反面，就有 1 比特的证据支持硬币偏向反面。假设我抛了这枚硬币十次，然后告诉你：「第 4 次、第 6 次和第 9 次都是正面。」现在，你认为这枚硬币偏向正面的后验概率是多少？</p><p data-pid=\"79Pv4zeK\">答案是，这个概率几乎可以是任何值，完全取决于我话语背后的因果动机——也就是说，我在报告时筛选抛掷结果的方式。</p><ul><li data-pid=\"DcuZPvnN\"> 我或许是在按这样一种规则行事：只报告第 4、6、9 次抛掷结果，无论其他抛掷的结果如何。假设你知道了我所采用的报告规则，就能得出后验概率比为 8:1，即硬币偏向正面的可能性是偏向反面的 8 倍。<br/> <br/></li><li data-pid=\"yFgJD8G4\"> 我可能是在报告所有正面朝上的结果，且只报告正面。在这种情况下，你能就此推断出其他 7 次均为反面朝上，后验概率因此变成 1:16，即硬币偏向正面的可能性仅为偏向反面的 1/16。<br/> <br/></li><li data-pid=\"24fbY1Zg\"> 我也可能事先决定，只有当硬币偏向正面的概率超过 98% 时，才报告第 4、6、9 次的结果。诸如此类。<br/> </li></ul><p data-pid=\"_pJSsasm\">再来看看 Monty Hall 问题：</p><blockquote data-pid=\"Ku7E-gSk\">你参加一个游戏节目，面前有三扇门，分别通向三个房间。已知其中一个房间里有 10 万美元大奖，而另外两个房间则是空的。主持人请你选一扇门，你选了 1 号门。接着主持人打开了 2 号门，展示里面空无一物。现在你是否要改选 3 号门，还是坚持最初的 1 号门呢？</blockquote><p data-pid=\"9dNOY-xX\">答案取决于主持人的行为规则。如果主持人每次都会打开一扇门，而且总是选择一扇通向空房间的门，那么你应该换到 3 号门。如果无论门后是什么，主持人都会打开 2 号门，那么 1 号门和 3 号门各有 50% 的机会藏有奖金。如果主持人只在你最初选中了有奖金的门时才会打开另一扇门，那么你绝对应该坚持 1 号门不变。</p><p data-pid=\"95_z5Z4D\">在做判断时，你不应该仅仅考虑 「2 号门为空」这一事实，还得考虑「主持人<b>选择</b>打开 2 号门」这一行为。许多人之所以对经典的 Monty Hall 问题感到困惑，是因为他们在更新自己的概率判断时，只考虑到了 「2 号门为空」；单看这一条，1 号门和 3 号门确实各有 50% 的机会藏有奖金。这就是为什么，贝叶斯学派强调，我们必须根据所有已知信息来进行条件概率推理，否则就可能陷入自相矛盾。</p><p data-pid=\"Es_A4KXl\">当有人说出「第四次抛掷结果为正面」时，我们要考虑的并非「第四次抛掷结果为正面」这一事实本身。如果我们想从所有可能性的平行宇宙中找出自己所身处的宇宙，使用的筛选条件并非「硬币的第四次抛掷结果为正面」，而是「有一位遵循特定发言规则的发言人，<b>说出</b>了『第四次抛掷结果为正面』这句话」。说出的话语本身不等同于事实；不要被词语的字面意思所误导。</p><p data-pid=\"jj6G8A3T\">大多数法律程序都基于这样一种理论：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/The-Scales-Of-Justice-The-Notebook-Of-Rationality\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">每一个案件有且仅有双方对立</a><sup data-text=\"正义之为天平，理性之为笔记\" data-url=\"https://zhuanlan.zhihu.com/p/2855161945\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，以及找两个各有偏见的人比找一个完全中立的人更容易。对于任意一项证据，控辩双方<b>总有一方</b>会有动机提出，如此法庭便能看到案件的全貌，这就是该理论的核心。在前文「两盒一钻」的困境中，如果能有两位能言善辩的说客各站一方，虽不如一位好奇的探索者那么理想，但效果也算是接近了。然而，这仅适用于只存在两个盒子的情况。现实中的问题往往涉及多方利益，矛盾错综复杂，答案也非昭然若揭，不是靠着<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/A-Fable-Of-Science-And-Politics\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对立双方彼此争吵叫嚣</a><sup data-text=\"一个有关科学和政治的寓言\" data-url=\"https://hpmor.xyz/ai2zb_12/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>就能轻易解决的。</p><p data-pid=\"kj60k2iL\">务必小心，千万不要滥用「证据筛选」这一概念，将其变成一个万能论据，用来排除所有不合己意的证据，比如说：「这个论点经过筛选，所以我可以置之不理。」如果某个反论令你感到不快，这恰恰说明你对该问题很熟悉，而且关心到足以站边。你可能已经了解过自己这一方最有力的论据。你不能从某一反论中凭空推断出有自己尚未发现的<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/One-Argument-Against-An-Army\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">新的</a><sup data-text=\"以一当千的论证谬误\" data-url=\"https://zhuanlan.zhihu.com/p/12852320444\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>有利证据存在*。因此，你只能面对这些令人不适的事实本身——<b>B</b> 盒上的蓝色印章依然是不可忽视的证据。</p><blockquote data-pid=\"IJ3nLtGV\">*译注：就是说你不能用「反方肯定筛选掉了对我有利的新证据」这种想法，来自我安慰或逃避反方的论证。</blockquote><p data-pid=\"mXrhFNe6\">但是，如果你是首次听到某个论点，而且只听过一方的说法，那么你确实应该保持警惕！从某种意义上说，没有人会<b>真正</b>信服自然选择理论，除非他们先花五分钟时间听听神创论者的观点；<b>之后</b>他们就知道自然选择理论有多坚实了。</p><hr/><p data-pid=\"9T9owq7Q\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/13265385885\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-1efa9d935aef83dce2e8e809a4a0e989_qhd.jpg\" data-image-width=\"6000\" data-image-height=\"4000\" class=\"internal\">Thoughts Memo：结论从何而来</a><p data-pid=\"_oGMfCbc\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/15807962622\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-49a182753963b1fad90ba797b5032b39_qhd.jpg\" data-image-width=\"2000\" data-image-height=\"1375\" class=\"internal\">Thoughts Memo：合理化</a><hr/><blockquote data-pid=\"8mCaEl4c\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者潜艇，校对 <span class=\"nolink\">Jarrett Ye</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/What-Evidence-Filtered-Evidence\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">What Evidence Filtered Evidence? (readthesequences.com)</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
-  "reason": "",
-  "excerpt_title": "",
-  "id": 15300705897,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19569579",
+      "type": "topic",
+      "id": "19569579",
+      "name": "理性"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19640256",
+      "type": "topic",
+      "id": "19640256",
+      "name": "证据"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19604183",
+      "type": "topic",
+      "id": "19604183",
+      "name": "推理"
+    }
+  ],
   "voteup_count": 38,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "理性是一种「利用手头一切资源来尽己所能」的理念。",
+    "is_following": false,
+    "url_token": "c_1826322587032117248",
+    "id": "c_1826322587032117248",
+    "articles_count": 83,
+    "accept_submission": true,
+    "title": "理性 & 克服偏见",
+    "url": "https://api.zhihu.com/columns/c_1826322587032117248",
+    "comment_permission": "all",
+    "created": 1728209236,
+    "updated": 1751811441,
+    "image_url": "https://picx.zhimg.com/v2-c9036d409f5e65c53cfea750a0176c61_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 302,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 1,
+  "contributions": [
+    {
+      "id": 50504819,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "理性是一种「利用手头一切资源来尽己所能」的理念。",
+        "is_following": false,
+        "url_token": "c_1826322587032117248",
+        "id": "c_1826322587032117248",
+        "articles_count": 83,
+        "accept_submission": true,
+        "title": "理性 & 克服偏见",
+        "url": "https://api.zhihu.com/columns/c_1826322587032117248",
+        "comment_permission": "all",
+        "created": 1728209236,
+        "updated": 1751811441,
+        "image_url": "https://picx.zhimg.com/v2-c9036d409f5e65c53cfea750a0176c61_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 302,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 46,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "什么是证据筛选？ - 来自知乎专栏「理性 &amp; 克服偏见」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/15300705897 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1735465724,
-  "url": "https://api.zhihu.com/articles/15300705897",
-  "comment_permission": "all",
-  "title": "什么是证据筛选？",
-  "image_width": 4000,
-  "content": "<p data-pid=\"iJcqwOwK\">我曾讨论过这样一个困境：一位能言善道的说客，受雇向你兜售一个盒子；盒中可能有钻石，也可能是空的。这位说客指出，盒子上印有蓝色印章，而根据已知事实，装有钻石的盒子比空盒子更可能带有蓝色印章。从贝叶斯理论的角度来看，此刻你会如何反应？你是否一定要如说客所愿，无奈地以此调整自己的概率判断？</p><p data-pid=\"m9JqE6Rr\">若能亲自检查盒子，自然可以自行评估所有线索。但如果你无法亲自检查呢？倘若你唯一能得到的证据只有来自说客的只言片语——受法律约束只能陈述真相，却又不将一切和盘托出——你又当作何反应？这位说客提出的每一条论据都确实构成了有效证据——你怎能无动于衷，不去调整自己相应的概率判断？在特定比例的 Everett 分支或 Tagmark 世界的平行宇宙中，带蓝色印章的 <b>B</b> 盒内确实存在钻石——这一事实难道就不成立了吗？根据 Jaynes 的观点，贝叶斯主义者必须始终根据所有已知证据作出判断，否则就会自相矛盾。但这样一来，只要有足够多的线索可供选择性报告，这位说客就能诱导你相信他们希望你相信的任何事。这听起来似乎不太对劲。</p><p data-pid=\"pxbNeppZ\">一个更简单的例子：一枚有偏差的硬币，要么偏向正面（正面概率 2/3，反面概率 1/3），要么偏向反面（正面概率 1/3，反面概率 2/3）。这两种情况的先验概率相等。每观察到一次正面，就有 <a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/How-Much-Evidence-Does-It-Take\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">1 比特</a><sup data-text=\"支持一个信念需要多少证据？\" data-url=\"https://hpmor.xyz/ai2zb_23/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>的证据支持硬币偏向正面；每观察到一次反面，就有 1 比特的证据支持硬币偏向反面。假设我抛了这枚硬币十次，然后告诉你：「第 4 次、第 6 次和第 9 次都是正面。」现在，你认为这枚硬币偏向正面的后验概率是多少？</p><p data-pid=\"79Pv4zeK\">答案是，这个概率几乎可以是任何值，完全取决于我话语背后的因果动机——也就是说，我在报告时筛选抛掷结果的方式。</p><ul><li data-pid=\"DcuZPvnN\"> 我或许是在按这样一种规则行事：只报告第 4、6、9 次抛掷结果，无论其他抛掷的结果如何。假设你知道了我所采用的报告规则，就能得出后验概率比为 8:1，即硬币偏向正面的可能性是偏向反面的 8 倍。<br/> <br/></li><li data-pid=\"yFgJD8G4\"> 我可能是在报告所有正面朝上的结果，且只报告正面。在这种情况下，你能就此推断出其他 7 次均为反面朝上，后验概率因此变成 1:16，即硬币偏向正面的可能性仅为偏向反面的 1/16。<br/> <br/></li><li data-pid=\"24fbY1Zg\"> 我也可能事先决定，只有当硬币偏向正面的概率超过 98% 时，才报告第 4、6、9 次的结果。诸如此类。<br/> </li></ul><p data-pid=\"_pJSsasm\">再来看看 Monty Hall 问题：</p><blockquote data-pid=\"Ku7E-gSk\">你参加一个游戏节目，面前有三扇门，分别通向三个房间。已知其中一个房间里有 10 万美元大奖，而另外两个房间则是空的。主持人请你选一扇门，你选了 1 号门。接着主持人打开了 2 号门，展示里面空无一物。现在你是否要改选 3 号门，还是坚持最初的 1 号门呢？</blockquote><p data-pid=\"9dNOY-xX\">答案取决于主持人的行为规则。如果主持人每次都会打开一扇门，而且总是选择一扇通向空房间的门，那么你应该换到 3 号门。如果无论门后是什么，主持人都会打开 2 号门，那么 1 号门和 3 号门各有 50% 的机会藏有奖金。如果主持人只在你最初选中了有奖金的门时才会打开另一扇门，那么你绝对应该坚持 1 号门不变。</p><p data-pid=\"95_z5Z4D\">在做判断时，你不应该仅仅考虑 「2 号门为空」这一事实，还得考虑「主持人<b>选择</b>打开 2 号门」这一行为。许多人之所以对经典的 Monty Hall 问题感到困惑，是因为他们在更新自己的概率判断时，只考虑到了 「2 号门为空」；单看这一条，1 号门和 3 号门确实各有 50% 的机会藏有奖金。这就是为什么，贝叶斯学派强调，我们必须根据所有已知信息来进行条件概率推理，否则就可能陷入自相矛盾。</p><p data-pid=\"Es_A4KXl\">当有人说出「第四次抛掷结果为正面」时，我们要考虑的并非「第四次抛掷结果为正面」这一事实本身。如果我们想从所有可能性的平行宇宙中找出自己所身处的宇宙，使用的筛选条件并非「硬币的第四次抛掷结果为正面」，而是「有一位遵循特定发言规则的发言人，<b>说出</b>了『第四次抛掷结果为正面』这句话」。说出的话语本身不等同于事实；不要被词语的字面意思所误导。</p><p data-pid=\"jj6G8A3T\">大多数法律程序都基于这样一种理论：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/The-Scales-Of-Justice-The-Notebook-Of-Rationality\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">每一个案件有且仅有双方对立</a><sup data-text=\"正义之为天平，理性之为笔记\" data-url=\"https://zhuanlan.zhihu.com/p/2855161945\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，以及找两个各有偏见的人比找一个完全中立的人更容易。对于任意一项证据，控辩双方<b>总有一方</b>会有动机提出，如此法庭便能看到案件的全貌，这就是该理论的核心。在前文「两盒一钻」的困境中，如果能有两位能言善辩的说客各站一方，虽不如一位好奇的探索者那么理想，但效果也算是接近了。然而，这仅适用于只存在两个盒子的情况。现实中的问题往往涉及多方利益，矛盾错综复杂，答案也非昭然若揭，不是靠着<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/A-Fable-Of-Science-And-Politics\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对立双方彼此争吵叫嚣</a><sup data-text=\"一个有关科学和政治的寓言\" data-url=\"https://hpmor.xyz/ai2zb_12/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>就能轻易解决的。</p><p data-pid=\"kj60k2iL\">务必小心，千万不要滥用「证据筛选」这一概念，将其变成一个万能论据，用来排除所有不合己意的证据，比如说：「这个论点经过筛选，所以我可以置之不理。」如果某个反论令你感到不快，这恰恰说明你对该问题很熟悉，而且关心到足以站边。你可能已经了解过自己这一方最有力的论据。你不能从某一反论中凭空推断出有自己尚未发现的<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/One-Argument-Against-An-Army\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">新的</a><sup data-text=\"以一当千的论证谬误\" data-url=\"https://zhuanlan.zhihu.com/p/12852320444\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>有利证据存在*。因此，你只能面对这些令人不适的事实本身——<b>B</b> 盒上的蓝色印章依然是不可忽视的证据。</p><blockquote data-pid=\"IJ3nLtGV\">*译注：就是说你不能用「反方肯定筛选掉了对我有利的新证据」这种想法，来自我安慰或逃避反方的论证。</blockquote><p data-pid=\"mXrhFNe6\">但是，如果你是首次听到某个论点，而且只听过一方的说法，那么你确实应该保持警惕！从某种意义上说，没有人会<b>真正</b>信服自然选择理论，除非他们先花五分钟时间听听神创论者的观点；<b>之后</b>他们就知道自然选择理论有多坚实了。</p><hr/><p data-pid=\"9T9owq7Q\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/13265385885\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-1efa9d935aef83dce2e8e809a4a0e989_qhd.jpg\" data-image-width=\"6000\" data-image-height=\"4000\" class=\"internal\">Thoughts Memo：结论从何而来</a><p data-pid=\"_oGMfCbc\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/15807962622\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-49a182753963b1fad90ba797b5032b39_qhd.jpg\" data-image-width=\"2000\" data-image-height=\"1375\" class=\"internal\">Thoughts Memo：合理化</a><hr/><blockquote data-pid=\"8mCaEl4c\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者潜艇，校对 <span class=\"nolink\">Jarrett Ye</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/What-Evidence-Filtered-Evidence\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">What Evidence Filtered Evidence? (readthesequences.com)</a></blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 1,
-  "image_url": "https://pic1.zhimg.com/v2-db1516149e617d9ff143a15423233b22_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 2,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 2,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgImCgkyNTIwODI4NzYSCzE1MzAwNzA1ODk3GAciCklNQUdFX1RFWFQ=",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 38,
+      "down_vote_count": 1,
+      "like_count": 2,
+      "comment_count": 1,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 46,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-db1516149e617d9ff143a15423233b22": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-db1516149e617d9ff143a15423233b22": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-db1516149e617d9ff143a15423233b22": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/7623097583?contentId=15300705897&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 理性 & 克服偏见",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1826322587032117248",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 理性 & 克服偏见"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

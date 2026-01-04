@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,9 +14,10 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
@@ -35,6 +37,7 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
@@ -45,9 +48,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
-  "comment_count": 1,
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
+  "comment_count": 0,
   "content": "<p data-pid=\"p7n5QxS0\">“人生太短，普鲁斯特太长”，我是通过《追忆逝水年华》才知道许老师的，一路走好</p>",
   "content_need_truncated": false,
   "created_time": 1623924632,
   "excerpt": "“人生太短，普鲁斯特太长”，我是通过《追忆逝水年华》才知道许老师的，一路走好",
-  "id": 1945596987,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1945596987",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1945596987&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1623900108,
-    "detail": "<p>记者从许渊冲先生友人处获悉，中国翻译界泰斗、北京大学新闻与传播学院教授许渊冲先生6月17日上午在北京逝世，享年100岁。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0f908583156c616a7dcd2274ad3075fd_b.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1620\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-0f908583156c616a7dcd2274ad3075fd_r.jpg\"/></figure><a href=\"https://link.zhihu.com/?target=https%3A//www.03law.com/03law/16310.html\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-07bcbe5880bc73e6a11dc3ee5240c0c0_180x120.jpg\" data-image-width=\"640\" data-image-height=\"426\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">百岁翻译界泰斗许渊冲逝世 回顾许渊冲精彩的一生</a><p>许渊冲1921年生于江西南昌。1938年考入国立西南联合大学外文系，师从钱锺书、闻一多、冯友兰、柳无忌、吴宓等学术大家。1944年考入清华大学外国文学研究所，后赴法国巴黎大学留学。他是目前中国唯一能在古典诗词和英法韵文之间进行互译的专家，被誉为“诗译英法唯一人”，已出版译著120余本。2010年，继季羡林、杨宪益之后，许渊冲获“中国翻译文化终身成就奖”，2014年获国际翻译界最高奖项——“北极光”杰出文学翻译奖，系首位获此殊荣的亚洲翻译家。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-07bcbe5880bc73e6a11dc3ee5240c0c0_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"426\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic1.zhimg.com/v2-07bcbe5880bc73e6a11dc3ee5240c0c0_r.jpg\"/></figure><a href=\"https://link.zhihu.com/?target=https%3A//ishare.ifeng.com/c/s/v006djuADJCTzqIQHwpYi--rvAG0oO9tUnnQwEsB61sPnLwKWmuzeqFaeHGg9yIyDhiHUMdpmVRpllY9AxJi--r76aQQ____%3Fspss%3Dnp%26aman%3Dedodd0ie9aTb32s1aecc9171e4A023D896h4eeH00c\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-07bcbe5880bc73e6a11dc3ee5240c0c0_180x120.jpg\" data-image-width=\"640\" data-image-height=\"426\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">中国翻译界泰斗许渊冲去世 享年100岁</a><p></p>",
-    "id": 465502478,
+    "detail": "<p>记者从许渊冲先生友人处获悉，中国翻译界泰斗、北京大学新闻与传播学院教授许渊冲先生6月17日上午在北京逝世，享年100岁。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-0f908583156c616a7dcd2274ad3075fd_1440w.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"1620\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic2.zhimg.com/v2-0f908583156c616a7dcd2274ad3075fd_r.jpg\"/></figure><a href=\"https://link.zhihu.com/?target=https%3A//www.03law.com/03law/16310.html\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-07bcbe5880bc73e6a11dc3ee5240c0c0_180x120.jpg\" data-image-width=\"640\" data-image-height=\"426\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">百岁翻译界泰斗许渊冲逝世 回顾许渊冲精彩的一生</a><p>许渊冲1921年生于江西南昌。1938年考入国立西南联合大学外文系，师从钱锺书、闻一多、冯友兰、柳无忌、吴宓等学术大家。1944年考入清华大学外国文学研究所，后赴法国巴黎大学留学。他是目前中国唯一能在古典诗词和英法韵文之间进行互译的专家，被誉为“诗译英法唯一人”，已出版译著120余本。2010年，继季羡林、杨宪益之后，许渊冲获“中国翻译文化终身成就奖”，2014年获国际翻译界最高奖项——“北极光”杰出文学翻译奖，系首位获此殊荣的亚洲翻译家。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-07bcbe5880bc73e6a11dc3ee5240c0c0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"640\" data-rawheight=\"426\" class=\"origin_image zh-lightbox-thumb\" width=\"640\" data-original=\"https://pic1.zhimg.com/v2-07bcbe5880bc73e6a11dc3ee5240c0c0_r.jpg\"/></figure><a href=\"https://link.zhihu.com/?target=https%3A//ishare.ifeng.com/c/s/v006djuADJCTzqIQHwpYi--rvAG0oO9tUnnQwEsB61sPnLwKWmuzeqFaeHGg9yIyDhiHUMdpmVRpllY9AxJi--r76aQQ____%3Fspss%3Dnp%26aman%3Dedodd0ie9aTb32s1aecc9171e4A023D896h4eeH00c\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-07bcbe5880bc73e6a11dc3ee5240c0c0_180x120.jpg\" data-image-width=\"640\" data-image-height=\"426\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">中国翻译界泰斗许渊冲去世 享年100岁</a><p></p>",
+    "id": "465502478",
     "question_type": "normal",
     "relationship": {},
     "title": "中国翻译界泰斗许渊冲去世，享年 100 岁，他有哪些译文让你印象深刻？你能在许老身上学到哪些？",
     "type": "question",
     "updated_time": 1623900604,
-    "url": "https://api.zhihu.com/questions/465502478"
+    "url": "https://www.zhihu.com/api/v4/questions/465502478"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1623924632,
+  "url": "https://www.zhihu.com/api/v4/answers/1945596987",
   "voteup_count": 13
 }

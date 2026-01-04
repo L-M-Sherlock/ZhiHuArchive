@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,9 +37,10 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 4,
   "content": "<p data-pid=\"asCzK64n\">这个本来就是为了方便查看该组下面所有子牌组的到期情况，除非编写插件，否则无法隐藏。</p>",
   "content_need_truncated": false,
   "created_time": 1617718982,
   "excerpt": "这个本来就是为了方便查看该组下面所有子牌组的到期情况，除非编写插件，否则无法隐藏。",
-  "id": 1821035692,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1821035692",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1821035692&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1617634682,
-    "detail": "<p>如图 为了美观分了一下组 但是“日语”父卡组后面出现了把子卡组加起来的数据 这样看起来就像是多了一个记忆库需要复习一样 压力较大 有没有办法隐藏呢？</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-c7853195dd399025c683e8f07a996b46_b.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"393\" data-rawheight=\"263\" class=\"content_image\" width=\"393\"/></figure><p></p>",
-    "id": 453097236,
+    "detail": "<p>如图 为了美观分了一下组 但是“日语”父卡组后面出现了把子卡组加起来的数据 这样看起来就像是多了一个记忆库需要复习一样 压力较大 有没有办法隐藏呢？</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-c7853195dd399025c683e8f07a996b46_1440w.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"393\" data-rawheight=\"263\" class=\"content_image\" width=\"393\"/></figure><p></p>",
+    "id": "453097236",
     "question_type": "normal",
     "relationship": {},
     "title": "Anki父卡组的到期和新建下面的数字有没有办法隐藏？",
     "type": "question",
     "updated_time": 1617634682,
-    "url": "https://api.zhihu.com/questions/453097236"
+    "url": "https://www.zhihu.com/api/v4/questions/453097236"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1617718982,
+  "url": "https://www.zhihu.com/api/v4/answers/1821035692",
   "voteup_count": 5
 }

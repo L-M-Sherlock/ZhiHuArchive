@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,6 +14,7 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 1,
   "content": "<p data-pid=\"ep2VBGBw\">也就是说，题主想要在不改变模板的情况下改变一张卡的排版？</p><p data-pid=\"BlFW3f5O\">可能需要用到 html，不过可以先试试在其他编辑软件里居中后再复制进去，如果开了带格式粘贴就会按编辑好的居中了。</p>",
   "content_need_truncated": false,
   "created_time": 1611835277,
   "excerpt": "也就是说，题主想要在不改变模板的情况下改变一张卡的排版？ 可能需要用到 html，不过可以先试试在其他编辑软件里居中后再复制进去，如果开了带格式粘贴就会按编辑好的居中了。",
-  "id": 1702960535,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1702960535",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1702960535&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1611051384,
-    "detail": "<p></p><figure data-size=\"small\"><img src=\"https://pic1.zhimg.com/v2-f74eea19a7dcbaee79d1251a6e89f3a2_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1622\" data-rawheight=\"1081\" class=\"origin_image zh-lightbox-thumb\" width=\"1622\" data-original=\"https://pic1.zhimg.com/v2-f74eea19a7dcbaee79d1251a6e89f3a2_r.jpg\"/></figure><p>如图，我习惯设置成为文字靠左，但这一张文字居中会看着更舒服，试了几次都只能改成所有卡片文字都居中。能否只改变这张卡片的排版？</p><figure data-size=\"small\"><img src=\"https://pica.zhimg.com/v2-6554f47018a78d92713099689278a910_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1440\" data-rawheight=\"1016\" class=\"origin_image zh-lightbox-thumb\" width=\"1440\" data-original=\"https://pica.zhimg.com/v2-6554f47018a78d92713099689278a910_r.jpg\"/></figure><p></p>",
-    "id": 440157378,
+    "detail": "<p></p><figure data-size=\"small\"><img src=\"https://pic1.zhimg.com/v2-f74eea19a7dcbaee79d1251a6e89f3a2_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1622\" data-rawheight=\"1081\" class=\"origin_image zh-lightbox-thumb\" width=\"1622\" data-original=\"https://pic1.zhimg.com/v2-f74eea19a7dcbaee79d1251a6e89f3a2_r.jpg\"/></figure><p>如图，我习惯设置成为文字靠左，但这一张文字居中会看着更舒服，试了几次都只能改成所有卡片文字都居中。能否只改变这张卡片的排版？</p><figure data-size=\"small\"><img src=\"https://pica.zhimg.com/v2-6554f47018a78d92713099689278a910_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1440\" data-rawheight=\"1016\" class=\"origin_image zh-lightbox-thumb\" width=\"1440\" data-original=\"https://pica.zhimg.com/v2-6554f47018a78d92713099689278a910_r.jpg\"/></figure><p></p>",
+    "id": "440157378",
     "question_type": "normal",
     "relationship": {},
     "title": "Anki卡片怎么改变单张卡的排版？",
     "type": "question",
     "updated_time": 1611051384,
-    "url": "https://api.zhihu.com/questions/440157378"
+    "url": "https://www.zhihu.com/api/v4/questions/440157378"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1611835277,
+  "url": "https://www.zhihu.com/api/v4/answers/1702960535",
   "voteup_count": 4
 }

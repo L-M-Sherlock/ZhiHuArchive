@@ -1,80 +1,447 @@
 {
-  "status": 0,
+  "id": "472770296",
+  "title": "交互是界面设计中的成本中心",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/472770296",
+  "image_url": "https://pic1.zhimg.com/v2-c278f21ea35731dbbfaafd3e44849db9_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-c278f21ea35731dbbfaafd3e44849db9_720w.jpg?source=172ae18b",
+  "excerpt": "界面设计者通常对设计「有吸引力的交互」感兴趣，但交互本来就是是强加给用户的负担——是需要避免的负担。如果我正在使用界面来分析数据，零互动是最理想的状态。我阅读一屏幕的信息，注意到一个模式，然后回答我的问题。任何过滤框、导航按钮和清洗器都是…",
+  "created": 1645942446,
   "updated": 1667034297,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "界面设计者通常对设计「有吸引力的交互」感兴趣，但交互本来就是是强加给用户的负担…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 1280,
+  "image_height": 824,
+  "content": "<p data-pid=\"qmc0d_GL\">界面设计者通常对设计「有吸引力的交互」感兴趣，但交互本来就是是强加给用户的负担——是需要避免的负担。如果我正在使用界面来分析数据，零互动是最理想的状态。我阅读一屏幕的信息，注意到一个模式，然后回答我的问题。任何过滤框、导航按钮和清洗器都是额外的成本。</p><p data-pid=\"CKc63AuN\">当然，无论如何深思熟虑地呈现，在没有互动的情况下，都有太多的信息无法理解。在这些情况下，谨慎地使用互动性，可以过滤可能性空间，进而得到益处，但必须始终仔细地平衡这种益处所带来的割裂感。</p><p data-pid=\"svCiM3lG\">（2006 年）Bret Victor 还观察到：</p><blockquote data-pid=\"_unH1fv2\">交互除了可能极其浪费时间，还有更严重的问题：<br/><br/>用户必须已经知道她想要<b>什么</b>，才能要求得到它。如果软件能利用历史信息和环境做推断，便能为用户提供相关的信息，而用户甚至不知道自己需要这些信息，纯粹的交互式软件迫使用户做出先手。<br/><br/>用户必须知道<b>如何</b>问。也就是说，她必须学会操纵一台机器。在软件可用性社区中，Donald Norman 关于确定用户的「心理模型」的概念已经广为流传，直至现在，被认为是一个核心的设计挑战。然而，Norman 是在<b>机械</b>设备的背景下描述这个概念的。它只适用于某些软件，那些软件实际上隐性令用户建立模型。一个低交互的、非机械性的信息图形可以使用户和设计者免于在心理模型上的挣扎。<br/><br/>导航意味着状态。可以导航的软件会使用户迷路。导航越多，陷进去的角落就越多。可操纵的状态越多，进入「坏模式」的方式就越多。状态是人们害怕计算机的主要原因——有状态的东西可以被<b>破坏</b>。(注：一本书保持的唯一状态是它打开了哪一页，这就是为什么「迷失在一本书里」描述了一种愉悦的体验！）。</blockquote><hr/><h2>参考文献</h2><p data-pid=\"GG9bLmkN\">Victor, B. (2006, March 15). Magic Ink: Information Software and the Graphical Interface. <a href=\"https://link.zhihu.com/?target=http%3A//worrydream.com/MagicInk/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">worrydream.com/MagicInk</span><span class=\"invisible\">/</span><span class=\"ellipsis\"></span></a></p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"IHaB_8jp\"><a href=\"https://zhuanlan.zhihu.com/p/472256442\" class=\"internal\" target=\"_blank\">自主评分的间隔重复记忆系统比机器评分的系统更有效率</a></li><li data-pid=\"ZX24lwAf\"><a href=\"https://zhuanlan.zhihu.com/p/473212636\" class=\"internal\" target=\"_blank\">设赋体验成为大众媒体时蕴藏极大潜力</a></li></ul><h2>声明</h2><p data-pid=\"EXe-X8pe\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"PWQNkBD5\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z87TFgTr98bz3MNFT26NhegyRCMgdkfNTBAzp\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Interaction is a cost center in interface design (andymatuschak.org)</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
-  "reason": "",
-  "excerpt_title": "",
-  "id": 472770296,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19556231",
+      "type": "topic",
+      "id": "19556231",
+      "name": "交互设计"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19553525",
+      "type": "topic",
+      "id": "19553525",
+      "name": "人机交互"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19859221",
+      "type": "topic",
+      "id": "19859221",
+      "name": "前端 UI"
+    }
+  ],
   "voteup_count": 15,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "助记媒介在叙事性散文中嵌入了间隔重复记忆系统",
+    "is_following": false,
+    "url_token": "c_1525784109008203776",
+    "id": "c_1525784109008203776",
+    "articles_count": 189,
+    "accept_submission": true,
+    "title": "助记媒介 & 思想工具",
+    "url": "https://api.zhihu.com/columns/c_1525784109008203776",
+    "comment_permission": "all",
+    "created": 1656555279,
+    "updated": 1751877351,
+    "image_url": "https://pica.zhimg.com/v2-f4040c00796b5bb3ba64980f9be88d6f_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 66,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 3,
+  "contributions": [
+    {
+      "id": 41263443,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "助记媒介在叙事性散文中嵌入了间隔重复记忆系统",
+        "is_following": false,
+        "url_token": "c_1525784109008203776",
+        "id": "c_1525784109008203776",
+        "articles_count": 189,
+        "accept_submission": true,
+        "title": "助记媒介 & 思想工具",
+        "url": "https://api.zhihu.com/columns/c_1525784109008203776",
+        "comment_permission": "all",
+        "created": 1656555279,
+        "updated": 1751877351,
+        "image_url": "https://pica.zhimg.com/v2-f4040c00796b5bb3ba64980f9be88d6f_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 66,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 9,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "交互是界面设计中的成本中心 - 来自知乎专栏「助记媒介 &amp; 思想工具」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/472770296 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1645942446,
-  "url": "https://api.zhihu.com/articles/472770296",
-  "comment_permission": "all",
-  "title": "交互是界面设计中的成本中心",
-  "image_width": 824,
-  "content": "<p data-pid=\"qmc0d_GL\">界面设计者通常对设计「有吸引力的交互」感兴趣，但交互本来就是是强加给用户的负担——是需要避免的负担。如果我正在使用界面来分析数据，零互动是最理想的状态。我阅读一屏幕的信息，注意到一个模式，然后回答我的问题。任何过滤框、导航按钮和清洗器都是额外的成本。</p><p data-pid=\"CKc63AuN\">当然，无论如何深思熟虑地呈现，在没有互动的情况下，都有太多的信息无法理解。在这些情况下，谨慎地使用互动性，可以过滤可能性空间，进而得到益处，但必须始终仔细地平衡这种益处所带来的割裂感。</p><p data-pid=\"svCiM3lG\">（2006 年）Bret Victor 还观察到：</p><blockquote data-pid=\"_unH1fv2\">交互除了可能极其浪费时间，还有更严重的问题：<br/><br/>用户必须已经知道她想要<b>什么</b>，才能要求得到它。如果软件能利用历史信息和环境做推断，便能为用户提供相关的信息，而用户甚至不知道自己需要这些信息，纯粹的交互式软件迫使用户做出先手。<br/><br/>用户必须知道<b>如何</b>问。也就是说，她必须学会操纵一台机器。在软件可用性社区中，Donald Norman 关于确定用户的「心理模型」的概念已经广为流传，直至现在，被认为是一个核心的设计挑战。然而，Norman 是在<b>机械</b>设备的背景下描述这个概念的。它只适用于某些软件，那些软件实际上隐性令用户建立模型。一个低交互的、非机械性的信息图形可以使用户和设计者免于在心理模型上的挣扎。<br/><br/>导航意味着状态。可以导航的软件会使用户迷路。导航越多，陷进去的角落就越多。可操纵的状态越多，进入「坏模式」的方式就越多。状态是人们害怕计算机的主要原因——有状态的东西可以被<b>破坏</b>。(注：一本书保持的唯一状态是它打开了哪一页，这就是为什么「迷失在一本书里」描述了一种愉悦的体验！）。</blockquote><hr/><h2>参考文献</h2><p data-pid=\"GG9bLmkN\">Victor, B. (2006, March 15). Magic Ink: Information Software and the Graphical Interface. <a href=\"https://link.zhihu.com/?target=http%3A//worrydream.com/MagicInk/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">worrydream.com/MagicInk</span><span class=\"invisible\">/</span><span class=\"ellipsis\"></span></a></p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"IHaB_8jp\"><a href=\"https://zhuanlan.zhihu.com/p/472256442\" class=\"internal\">自主评分的间隔重复记忆系统比机器评分的系统更有效率</a></li><li data-pid=\"ZX24lwAf\"><a href=\"https://zhuanlan.zhihu.com/p/473212636\" class=\"internal\">设赋体验成为大众媒体时蕴藏极大潜力</a></li></ul><h2>声明</h2><p data-pid=\"EXe-X8pe\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"PWQNkBD5\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z87TFgTr98bz3MNFT26NhegyRCMgdkfNTBAzp\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Interaction is a cost center in interface design (andymatuschak.org)</a></blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 3,
-  "image_url": "https://picx.zhimg.com/v2-c278f21ea35731dbbfaafd3e44849db9_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 3,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 3,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxOTMxOTEzNDISCTQ3Mjc3MDI5NhgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {
+    "REACTION_CONTENT_SEGMENT_LIKE": "HIDE"
+  },
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 15,
+      "down_vote_count": 0,
+      "like_count": 3,
+      "comment_count": 3,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 9,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-c278f21ea35731dbbfaafd3e44849db9": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-c278f21ea35731dbbfaafd3e44849db9": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-c278f21ea35731dbbfaafd3e44849db9": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=472770296&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 助记媒介 & 思想工具",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525784109008203776",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 助记媒介 & 思想工具"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

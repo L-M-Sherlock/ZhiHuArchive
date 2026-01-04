@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "438419831",
+  "title": "收件箱维护的分流策略（如「收件箱归零」）往往不够稳健",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/438419831",
+  "image_url": "https://pica.zhimg.com/v2-5c958e9783d3afae5efb5540f5b74532_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-5c958e9783d3afae5efb5540f5b74532_720w.jpg?source=172ae18b",
+  "excerpt": "<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5tiFxnNKMZCnc8G9R1N51L5hknyRGmyCQx18\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">收件箱需要可靠的清空流程才有效</a>[1]，而<a href=\"https://link.zhihu.com/?target=http%3A//www.43folders.com/izero\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">收件箱归零</a>是确保流程发挥作用的一种方法。它通过积极提高流出率来，降低项目排队等候处理的时间（理论上为一天）。在 <i>Getting Things Done (GTD)</i> 中，大卫-艾伦建议，你可以通过策略性延后、委托或放弃任务来提高代…",
+  "created": 1637995856,
   "updated": 1669254474,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "收件箱需要可靠的清空流程才有效 [1]，而收件箱归零 是确保流程发挥作用的一种方法。…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 1200,
+  "image_height": 630,
+  "content": "<p data-pid=\"ldn-vgmM\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5tiFxnNKMZCnc8G9R1N51L5hknyRGmyCQx18\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">收件箱需要可靠的清空流程才有效</a><sup data-text=\"收件箱需要可靠的清空流程才有效\" data-url=\"https://zhuanlan.zhihu.com/p/434717044\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，而<a href=\"https://link.zhihu.com/?target=http%3A//www.43folders.com/izero\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">收件箱归零</a>是确保流程发挥作用的一种方法。它通过积极提高流出率来，降低项目排队等候处理的时间（理论上为一天）。</p><p data-pid=\"MRIuUuGu\">在 <i>Getting Things Done (GTD)</i> 中，大卫-艾伦建议，你可以通过策略性延后、委托或放弃任务来提高代办队列的流出率。「收件箱归零」是 Merlin Mann 对这个建议的一个实现。它通过每天归零整个收件箱的方式，来确保队列的流出率得到<b>充分</b>提高。这个方法简单粗暴，但确实能保证流出率恒大于流入。</p><h2>挑战</h2><p data-pid=\"GjWUVeMt\">你必须对收件箱中每一个项目做处理，判断去留。成本上既巨大，也没有支付意义（除非收件箱比较小）</p><p data-pid=\"qN4yPfLB\">明确地点击「推迟任务」会带来不必要的情绪压力：只有在流入<b>恒</b>大于流出的情况下，「收件箱归零」才是必要的。如果流入率是波动的，时常低于流出率，你仍然可以在合理的时间范围内处理所有的事情，而不需要每日都归零。</p><p data-pid=\"B5nAh-WB\">明确地点击「放弃」很难，因为<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5vXaKVAPBNKAAi9RXNudduhyGadGXqtMVTEs\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">软件界面经常将破坏性操作作为最终决定，而不是视情况而定的选择</a><sup data-text=\"软件界面经常将破坏性操作作为最终决定，而不是视情况而定的选择\" data-url=\"https://zhuanlan.zhihu.com/p/439652714\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。</p><p data-pid=\"mguxXuLM\">而考虑方法的落地，「收件箱归零」通常会导致对推迟麻木：我们太容易把一个任务一次又一次地推掉。艾伦建议，人们应该定期进行自我反思性的审查，重新考虑那些被反复推迟的任务，但这些审查需要做更多的决定。长期使用可能很难坚持。</p><p data-pid=\"j_CNy-tG\">最后，以这种方式处理收件箱时，会有压力鼓励你简单地多<b>做</b>这些任务，这可能不是你真正想要的。</p><h2>机会</h2><p data-pid=\"xPa_YnYb\">一个更理想的机制将确保等待时间保持在可容忍的范围内，但周期不一定非得是 1 天。我们还必须考虑要做的决定的数量。我宁愿做更少的决定，但容忍更长的平均等待时间。</p><p data-pid=\"31CePquc\">一个可能的实例：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7yRMBXGc81KkUwLxefodzfnnfKXx63vXzP88\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复可以降低破坏性收件箱维护操作的风险</a><sup data-text=\"间隔重复可以降低对收件箱进行维护中破坏性操作风险\" data-url=\"https://zhuanlan.zhihu.com/p/438631838\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。</p><hr/><h2>参考文献</h2><p data-pid=\"p3Sz96IC\">Allen, D. (2015). Getting Things Done: The Art of Stress-Free Productivity.</p><p data-pid=\"9N4ovuYF\"><a href=\"https://link.zhihu.com/?target=http%3A//www.43folders.com/izero\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">43 Folders Series: Inbox Zero | 43 Folders</a></p><p data-pid=\"jz3r_Mkg\">Matuschak, A. (2019, December). Taking knowledge work seriously. Presented at the Stripe Convergence, San Francisco.</p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"aCGDMBJB\"><a href=\"https://zhuanlan.zhihu.com/p/501187896\" class=\"internal\" target=\"_blank\">§收件箱与注意力管理</a></li><li data-pid=\"4Mfcgx-5\"><a href=\"https://zhuanlan.zhihu.com/p/434717044\" class=\"internal\" target=\"_blank\">收件箱需要可靠的清空流程才有效</a></li><li data-pid=\"nfLfvHvn\"><a href=\"https://zhuanlan.zhihu.com/p/414293765\" class=\"internal\" target=\"_blank\">可使用间隔重复系统对注意力编程</a></li><li data-pid=\"qJqiKB9Z\"><a href=\"https://zhuanlan.zhihu.com/p/429818028\" class=\"internal\" target=\"_blank\">间隔重复机制让人感觉轻松不费力</a></li><li data-pid=\"lolCDGQV\"><a href=\"https://zhuanlan.zhihu.com/p/438631838?\" class=\"internal\" target=\"_blank\">间隔重复可以降低对收件箱进行维护中破坏性操作风险</a></li><li data-pid=\"QZqwkgAD\"><a href=\"https://zhuanlan.zhihu.com/p/442485060\" class=\"internal\" target=\"_blank\">为临时性的和不完整的笔记设置写作收件箱</a></li><li data-pid=\"BqCn0wjv\"><a href=\"https://zhuanlan.zhihu.com/p/454732041\" class=\"internal\" target=\"_blank\">可执行的策略</a></li></ul><h2>声明</h2><p data-pid=\"f7p2cbpx\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"IJ-K28rW\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8aZybuJJopS5fL7TnPou2JcmCsBUJeqirbBh\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Triage strategies for maintaining inboxes (e.g. Inbox Zero) are often too brittle (andymatuschak.org)</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19550921",
+      "type": "topic",
+      "id": "19550921",
+      "name": "时间管理"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19550932",
+      "type": "topic",
+      "id": "19550932",
+      "name": "GTD（Getting Things Done）"
+    }
+  ],
+  "voteup_count": 20,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "间隔重复使记忆成为一种选择",
+    "is_following": false,
+    "url_token": "c_1525782291741208576",
+    "id": "c_1525782291741208576",
+    "articles_count": 182,
+    "accept_submission": true,
+    "title": "间隔重复 & 注意力管理",
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "comment_permission": "all",
+    "created": 1656554846,
+    "updated": 1751877449,
+    "image_url": "https://pic1.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 227,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 1,
+  "contributions": [
+    {
+      "id": 41315329,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "间隔重复使记忆成为一种选择",
+        "is_following": false,
+        "url_token": "c_1525782291741208576",
+        "id": "c_1525782291741208576",
+        "articles_count": 182,
+        "accept_submission": true,
+        "title": "间隔重复 & 注意力管理",
+        "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+        "comment_permission": "all",
+        "created": 1656554846,
+        "updated": 1751877449,
+        "image_url": "https://pic1.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 227,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 438419831,
-  "voteup_count": 18,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 6,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "收件箱维护的分流策略（如「收件箱归零」）往往不够稳健 - 来自知乎专栏「间隔重复 &amp; 注意力管理」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/438419831 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1637995856,
-  "url": "https://api.zhihu.com/articles/438419831",
-  "comment_permission": "all",
-  "title": "收件箱维护的分流策略（如「收件箱归零」）往往不够稳健",
-  "image_width": 630,
-  "content": "<p data-pid=\"ldn-vgmM\"><a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5tiFxnNKMZCnc8G9R1N51L5hknyRGmyCQx18\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">收件箱需要可靠的清空流程才有效</a><sup data-text=\"收件箱需要可靠的清空流程才有效\" data-url=\"https://zhuanlan.zhihu.com/p/434717044\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，而<a href=\"https://link.zhihu.com/?target=http%3A//www.43folders.com/izero\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">收件箱归零</a>是确保流程发挥作用的一种方法。它通过积极提高流出率来，降低项目排队等候处理的时间（理论上为一天）。</p><p data-pid=\"MRIuUuGu\">在 <i>Getting Things Done (GTD)</i> 中，大卫-艾伦建议，你可以通过策略性延后、委托或放弃任务来提高代办队列的流出率。「收件箱归零」是 Merlin Mann 对这个建议的一个实现。它通过每天归零整个收件箱的方式，来确保队列的流出率得到<b>充分</b>提高。这个方法简单粗暴，但确实能保证流出率恒大于流入。</p><h2>挑战</h2><p data-pid=\"GjWUVeMt\">你必须对收件箱中每一个项目做处理，判断去留。成本上既巨大，也没有支付意义（除非收件箱比较小）</p><p data-pid=\"qN4yPfLB\">明确地点击「推迟任务」会带来不必要的情绪压力：只有在流入<b>恒</b>大于流出的情况下，「收件箱归零」才是必要的。如果流入率是波动的，时常低于流出率，你仍然可以在合理的时间范围内处理所有的事情，而不需要每日都归零。</p><p data-pid=\"B5nAh-WB\">明确地点击「放弃」很难，因为<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5vXaKVAPBNKAAi9RXNudduhyGadGXqtMVTEs\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">软件界面经常将破坏性操作作为最终决定，而不是视情况而定的选择</a><sup data-text=\"软件界面经常将破坏性操作作为最终决定，而不是视情况而定的选择\" data-url=\"https://zhuanlan.zhihu.com/p/439652714\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。</p><p data-pid=\"mguxXuLM\">而考虑方法的落地，「收件箱归零」通常会导致对推迟麻木：我们太容易把一个任务一次又一次地推掉。艾伦建议，人们应该定期进行自我反思性的审查，重新考虑那些被反复推迟的任务，但这些审查需要做更多的决定。长期使用可能很难坚持。</p><p data-pid=\"j_CNy-tG\">最后，以这种方式处理收件箱时，会有压力鼓励你简单地多<b>做</b>这些任务，这可能不是你真正想要的。</p><h2>机会</h2><p data-pid=\"xPa_YnYb\">一个更理想的机制将确保等待时间保持在可容忍的范围内，但周期不一定非得是 1 天。我们还必须考虑要做的决定的数量。我宁愿做更少的决定，但容忍更长的平均等待时间。</p><p data-pid=\"31CePquc\">一个可能的实例：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7yRMBXGc81KkUwLxefodzfnnfKXx63vXzP88\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复可以降低破坏性收件箱维护操作的风险</a><sup data-text=\"间隔重复可以降低对收件箱进行维护中破坏性操作风险\" data-url=\"https://zhuanlan.zhihu.com/p/438631838\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。</p><hr/><h2>参考文献</h2><p data-pid=\"p3Sz96IC\">Allen, D. (2015). Getting Things Done: The Art of Stress-Free Productivity.</p><p data-pid=\"9N4ovuYF\"><a href=\"https://link.zhihu.com/?target=http%3A//www.43folders.com/izero\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">43 Folders Series: Inbox Zero | 43 Folders</a></p><p data-pid=\"jz3r_Mkg\">Matuschak, A. (2019, December). Taking knowledge work seriously. Presented at the Stripe Convergence, San Francisco.</p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"aCGDMBJB\"><a href=\"https://zhuanlan.zhihu.com/p/501187896\" class=\"internal\">§收件箱与注意力管理</a></li><li data-pid=\"4Mfcgx-5\"><a href=\"https://zhuanlan.zhihu.com/p/434717044\" class=\"internal\">收件箱需要可靠的清空流程才有效</a></li><li data-pid=\"nfLfvHvn\"><a href=\"https://zhuanlan.zhihu.com/p/414293765\" class=\"internal\">可使用间隔重复系统对注意力编程</a></li><li data-pid=\"qJqiKB9Z\"><a href=\"https://zhuanlan.zhihu.com/p/429818028\" class=\"internal\">间隔重复机制让人感觉轻松不费力</a></li><li data-pid=\"lolCDGQV\"><a href=\"https://zhuanlan.zhihu.com/p/438631838?\" class=\"internal\">间隔重复可以降低对收件箱进行维护中破坏性操作风险</a></li><li data-pid=\"QZqwkgAD\"><a href=\"https://zhuanlan.zhihu.com/p/442485060\" class=\"internal\">为临时性的和不完整的笔记设置写作收件箱</a></li><li data-pid=\"BqCn0wjv\"><a href=\"https://zhuanlan.zhihu.com/p/454732041\" class=\"internal\">可执行的策略</a></li></ul><h2>声明</h2><p data-pid=\"f7p2cbpx\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"IJ-K28rW\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8aZybuJJopS5fL7TnPou2JcmCsBUJeqirbBh\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Triage strategies for maintaining inboxes (e.g. Inbox Zero) are often too brittle (andymatuschak.org)</a></blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 1,
-  "image_url": "https://pica.zhimg.com/v2-5c958e9783d3afae5efb5540f5b74532_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 4,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 4,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxODU1NTYzMjcSCTQzODQxOTgzMRgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 20,
+      "down_vote_count": 0,
+      "like_count": 4,
+      "comment_count": 1,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 6,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-5c958e9783d3afae5efb5540f5b74532": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-5c958e9783d3afae5efb5540f5b74532": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-5c958e9783d3afae5efb5540f5b74532": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=438419831&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 间隔重复 & 注意力管理",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525782291741208576",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 间隔重复 & 注意力管理"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

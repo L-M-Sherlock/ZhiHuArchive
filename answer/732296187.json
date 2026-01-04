@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,6 +14,7 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 3,
   "content": "<p data-pid=\"CoKD_jmP\">感谢邀请</p><p data-pid=\"8OFxdQst\">我认为设问分为两种情况：</p><ol><li data-pid=\"cVFzfrpA\">知识点针对型</li><li data-pid=\"zyuvVegf\">考点针对型</li></ol><p data-pid=\"-XQk6_70\">两种不同类型我分别介绍一下</p><h2>知识点针对型</h2><p data-pid=\"yiiASrEM\">顾名思义，设问方式以知识点为核心，是学习时最简单的设问方式。</p><p data-pid=\"tpmJBXSt\">多数情况下，就是将课本、教辅上的包含知识点的句子进行挖空，或者简单的问答。</p><p data-pid=\"LHkD6CGz\">填空示例：</p><blockquote data-pid=\"IbbcmsIT\">在{{c1::盐酸酸化}}条件下，亚硝酸盐与{{c2::对氨基苯磺酸}}发生{{c3::重氮化}}反应后，与{{c4::N-1-萘基乙二胺盐酸盐}}结合形成{{c5::玫瑰红色染料}}。与已知浓度的标准显色液目测比较，{{c6::估算}}泡菜中亚硝酸盐含量。</blockquote><p data-pid=\"I4NiXOsJ\">问答示例：</p><blockquote data-pid=\"kTsoLd27\">问：衰老细胞的体积会怎么变化？<br/>答：变小。<br/>问：衰老细胞的体积变化的具体表现是什么？<br/>答：细胞萎缩。<br/>问：衰老细胞的体积变化原因是什么？<br/>答：细胞内的水分减少。<br/>问：衰老细胞内的水分变化对细胞代谢的影响是什么？<br/>答：细胞代谢的速率减慢。<br/>问：衰老细胞内的酶活性如何变化？<br/>答：活性降低。<br/>问：衰老细胞的细胞核体积如何变化？<br/>答：体积变大。<br/>问：衰老细胞的细胞核的核膜如何变化？<br/>答：核膜内折。<br/>问：衰老细胞的细胞核的染色质如何变化？<br/>答：染色质收缩。<br/>问：衰老细胞的细胞核的染色质变化对细胞核形态的影响是？<br/>答：染色加深。<br/>问：衰老细胞的物质运输功能如何变化？<br/>答：物质运输功能降低。<br/>问：衰老细胞的物质运输功能为何变化？<br/>答：细胞膜通透性改变。</blockquote><p data-pid=\"HSqUMwkT\">不难发现，这些卡片的内容都是来自于课本原句。</p><h2>考点针对型</h2><p data-pid=\"dNjJ5TWJ\">用特定角度来制作一个知识点的问题，就是考点了</p><p data-pid=\"XuCKNbLa\">问答示例：</p><blockquote data-pid=\"1pHkygIk\">Q：足量铁粉和一定量浓硫酸共热，所得溶液的主要成分是Fe2(SO4)3和FeSO4，正误？<br/>A：误，过量铁粉！！</blockquote><p data-pid=\"XArDVZlp\">填空示例：</p><blockquote data-pid=\"hoHmayte\">绿杨{{c1::阴}}里白沙堤。</blockquote><p data-pid=\"ogGeL20I\">（这个主要是错了好几次，于是放入 Anki 来提醒自己）</p><p data-pid=\"5eC0S68p\">这种情况下，大部分制卡来源就是自己的错题。我高三就做了超级多这种卡片。</p><p data-pid=\"brUJgcYl\">制作这种卡片的要点就是，要提炼考点（特别的自己错的），而不是把整个题记下来。</p><hr/><p data-pid=\"urgr7fBA\">好了，这两种设问方式介绍完毕。更多有关 Anki 与高中知识的内容，欢迎来我的专栏</p><a href=\"https://zhuanlan.zhihu.com/ankigaokao\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-806198e16268a9f1232bf272d5d3f9b8_ipico.jpg\" data-image-width=\"256\" data-image-height=\"256\" class=\"internal\">高考╳Anki——科学备考研究所</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1561816757,
   "excerpt": "感谢邀请 我认为设问分为两种情况： 知识点针对型考点针对型两种不同类型我分别介绍一下 知识点针对型顾名思义，设问方式以知识点为核心，是学习时最简单的设问方式。 多数情况下，就是将课本、教辅上的包含知识点的句子进行挖空，或者简单的问答。 填空示例： 在{{c1::盐酸酸化}}条件下，亚硝酸盐与{{c2::对氨基苯磺酸}}发生{{c3::重氮化}}反应后，与{{c4::N-1-萘基乙二胺盐酸盐}}结合形成{{c5::玫瑰红色染料}}。与已知浓度的标…",
-  "id": 732296187,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "732296187",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=732296187&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1561654738,
     "detail": "<p>比较想了解一下大家使用anki的方式，以及由此产生的影响。</p><p>比如，在某一个情景下，你是如何设问的，以及为什么要这么设问，这样设问产生了些什么影响，你的体会如何</p>",
-    "id": 332044966,
+    "id": "332044966",
     "question_type": "normal",
     "relationship": {},
     "title": "在Anki制卡过程中，你是如何设问的？",
     "type": "question",
     "updated_time": 1561654738,
-    "url": "https://api.zhihu.com/questions/332044966"
+    "url": "https://www.zhihu.com/api/v4/questions/332044966"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 14
+  "updated_time": 1562505977,
+  "url": "https://www.zhihu.com/api/v4/answers/732296187",
+  "voteup_count": 17
 }

@@ -1,80 +1,494 @@
 {
-  "status": 0,
+  "id": "730667783",
+  "title": "为什么你仍然需要记忆知识",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/730667783",
+  "image_url": "https://picx.zhimg.com/v2-e088d166cea2306402d2e46b16ab3f4e_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-e088d166cea2306402d2e46b16ab3f4e_720w.jpg?source=172ae18b",
+  "excerpt": "学习新知识是一件困难的事，而如果不经常运用，记住所学更是难上加难。这个关于学习和记忆的难题，自人类诞生之日起就一直存在。为了改善这种状况，我们做出了一些努力。我们发明了助记技巧，使建立和保持记忆变得更容易；我们发明了文字，让我们能够将信息…",
+  "created": 1727348325,
   "updated": 1727348325,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "学习新知识是一件困难的事，而如果不经常运用，记住所学更是难上加难。这个关于学习…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 7149,
+  "image_height": 4756,
+  "content": "<p data-pid=\"Ilo4x6Lb\">学习新知识是一件困难的事，而如果不经常运用，记住所学更是难上加难。这个关于学习和记忆的难题，自人类诞生之日起就一直存在。为了改善这种状况，我们做出了一些努力。我们发明了助记技巧，使建立和保持记忆变得更容易；我们发明了文字，让我们能够将信息从头脑中释放出来，与他人分享，并在遗忘时重新检索；随后，我们又发明了互联网，似乎让我们完全不需要记忆知识，因为我们可以随时在几秒钟内查找任何信息。...但真的是这样吗？</p><p data-pid=\"uR0srqcU\">这似乎是我们所有教育材料的发展趋势。我在高中和大学修过几门物理课，在所有这些课程中，我们不再需要记忆牛顿物理学的公式；每次考试时，我们都会得到一张列有所有公式的卡片，我们只需要弄清楚如何将这些公式应用到具体问题中。诚然，这并不意味着物理学习变得容易了，尤其是对那些缺乏物理学习经验的人来说（这就是为什么市面上有如此多的「解决应用题」教材为苦恼的代数学生而编写，而且这些问题比一年级代数的问题要复杂得多）。物理学培养的批判性分析和解决问题的能力是非常宝贵的，而且可以广泛应用于其他学科。因此，我能理解为什么教育工作者更倾向于让学生专注于培养这些能力，而不是纠结于公式的记忆。</p><p data-pid=\"POcq_8OE\">其实，那些看似烦人的需要记忆的公式，本质上<b>就是</b>牛顿物理学的精髓所在。当我百无聊赖地观察周遭世界并产生疑问时，正是这些公式能够帮我找到答案。设想一下，当我在公路旅行中，想要快速估算还需多久才能到达下一个休息站，又不想在驾驶时分心操作手机，这时我就需要运用「距离等于速率乘以时间」这个公式；单凭分析能力在这种情况下可能帮不上太大忙。如果我熟知公式，就能清晰地理解这三个要素之间的关系，从而轻松回答问题。公式的作用远不止于此。它还能告诉我，当我触碰小提琴弦的不同位置时会发出什么<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Harmonic%23On_stringed_instruments\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">音高</a>，以及为什么它们会有不同的音色；<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/r/bicycling/comments/zvxlv/difference_in_road_damage_between_the_average/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">卡车相比摩托车会对公路造成多少倍的磨损</a>；在电脑运行的同时，我能否将吹风机插入厨房插座<a href=\"https://link.zhihu.com/?target=https%3A//www.allaboutcircuits.com/textbook/direct-current/chpt-2/calculating-electric-power/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">而不会烧断保险丝</a>（没错，我的公寓仍在使用老式热熔断器）。如果你学过物理，却对这些公式一无所知，我不得不说，<b>你可能并没有真正理解物理学最根本的部分</b>。</p><p data-pid=\"HradySb0\">好吧，也许我只是个爱发牢骚的二十几岁「老头子」。我们那个年代上下学可是得在山路上跋涉，还要每天背诵十个新公式，哪像现在的年轻人这么轻松。难道我们就不能简单地查一下这些公式吗？</p><p data-pid=\"m4MHhG_N\">让我们来探讨一下「简单地查一下」这种思维方式存在的两个问题。第一个问题，也是在讨论记忆时常被提及的，就是记忆知识会更加便利。我之前举的开车和用电的例子就很好地说明了这种便利性的价值。诚然，只要我知道有公式可以联系距离、时间和速度，或者功率与电路的电流容量，我就可以在需要计算时去查找。但实际上，我可能不太愿意这么做。如果我不经常需要用到这些公式，为了省去记忆的麻烦，这种权衡或许是值得的。然而，如果我经常使用这些公式，那么最好还是把它们牢记在心。这就像大多数学生仍然会记忆乘法表一样，因为即便在计算器盛行的今天，如果不记住乘法表，进行任何复杂的数学运算都会非常麻烦。</p><p data-pid=\"mVLYKfLw\">然而，我们面临着一个更大的问题：我们无法利用未知的信息进行创造性思考。这恰恰是人类仍然（普遍）胜过计算机的少数领域之一：识别模式并在不同概念之间建立富有创意的联系。在理想条件下，我们能够轻松地产生新的想法和洞见，而这是当前技术水平下的预编程计算机所无法实现的，至少不会在不产生大量错误结果的情况下做到这一点。但是，如果没有输入，我们就无法进行创造性思考。正如俗语所说，「垃圾进，垃圾出」，或者在这种情况下更贴切地比喻为「<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Null_device\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">/dev/null</a> 进，<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/End-of-file\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">EOF</a> 出」。互联网仅仅为我们提供了获取信息的可能性，而非随时可用的信息。如果我们希望在创造过程中运用某些信息，就必须能够即时获取这些信息，这意味着我们需要记忆它们。仅仅知道某处存在一些可能有帮助的模糊信息是毫无价值的，因为如果我们不清楚这些信息的<b>具体内容</b>，就无法在新的情境中认识到它们的相关性。</p><p data-pid=\"9uHY64Dy\">我想这一点我们心知肚明。<a href=\"https://link.zhihu.com/?target=https%3A//www.washingtontimes.com/news/2017/sep/13/37-percent-of-americans-cant-name-any-of-the-right/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">近 40% 的美国人无法说出他们的第一修正案权利中的任何一项</a>，这难道不是一个令人担忧的问题吗？如果我们连这些权利是什么都说不清楚，我们又怎能真正珍视这些最基本的自由呢？如果我们不了解公民应当拥有的权利，我们又如何能识别出他人的权利正在遭受侵犯呢？仅仅能够查阅第一修正案的条文是远远不够的——只有当你真正内化了这些原则，它们才能影响你的行为和决策。（当然，如果你不能解释每一部分的含义，那么仅仅将第一修正案的文本一字不差地背诵出来也是不够的。这是另一个问题，虽然经常被混为一谈——对于不理解的内容进行死记硬背<a href=\"https://link.zhihu.com/?target=http%3A//super-memory.com/articles/20rules.htm%23Do%2520not%2520learn%2520if%2520you%2520do%2520not%2520understand\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">确实毫无意义</a><sup data-text=\"如果我不理解这个材料，那我不如不学\" data-url=\"https://zhuanlan.zhihu.com/p/52369009#h_52369009_0\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，但是仅仅因为未经消化的死记硬背知识无用就全盘否定记忆知识<b>本身</b>的价值，这同样会导致我们低估那些真正被理解和整合到知识体系中的记忆信息的重要性。）</p><hr/><p data-pid=\"3K4PWj3q\">最近，我在工作中遇到了一个问题。我正试图在一台新电脑上运行一些古董软件（有多「古董」？这软件陈旧到可能还需要修复<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Year_2000_problem\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">千年虫问题</a>）。我输入了一个大致如下的命令：</p><div class=\"highlight\"><pre><code class=\"language-text\">myprogram c:\\myfolder\\myfile.bat</code></pre></div><p data-pid=\"Xn_M6vq9\">（简而言之，这是指示 <code>myprogram</code> 执行 <code>myfile.bat</code> 文件中的命令。）然而，系统返回了这样的错误信息：</p><div class=\"highlight\"><pre><code class=\"language-text\">‘ÿþc’ 不被识别为内部或外部命令，也不是可执行程序或批处理文件。</code></pre></div><p data-pid=\"GUQqKgYZ\">搞什么<b>鬼</b>？我明明没有输入过这种内容，<code>myfile.bat</code> 文件中也绝对不包含这些字符！</p><p data-pid=\"nSa_2WKp\">尽管问题看似棘手，但我只用了不到半小时就找到了解决方案。诚然，像所有 IT 专业人士一样，我在解决问题时也利用了互联网，但那只是整个过程中很小的一部分。我并非在网上找到了现成的解决方案。下面，让我简要介绍一下我是如何一步步排查并解决这个问题的：</p><ol><li data-pid=\"Kqr9qPmu\"> 计算机的运作基于二进制系统，即只使用 0 和 1。因此，文本在计算机中实际上是以一系列数字的形式存在的。我们把字母（以及其他字符）与数字之间的对应关系称为<b>文本编码</b>。在本例中，<code>myprogram</code> 这个程序相当老旧，它只支持两种编码方式：ASCII 编码（仅能表示 127 个不同的字符）和 Latin-1 编码（可以表示 255 个不同的字符）。显然，255 个字符是远远不够用来表示世界上所有语言中的所有字符的。为了在文件中包含更多的字符，人们开发了各种不同的编码方案。这些方案中，有些<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Utf-8\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">明显优于</a><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Code_page\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">其他方案</a>。<br/> <br/></li><li data-pid=\"USJnoe07\"> 我使用 <a href=\"https://link.zhihu.com/?target=https%3A//controlaltbackspace.org/design/dreamdir-and-the-unix-philosophy-or-likable-software/%23the-future-of-likable-software\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">PowerShell</a> 创建了名为 <code>myfile.bat</code> 的文件。然而，PowerShell 默认会以 UTF-16 编码格式保存文件，而这种编码与较旧的 ASCII 或 Latin-1 编码不兼容。<br/> <br/></li><li data-pid=\"iSpZjYD9\"> UTF-16 格式的文件通常以一个特殊的标记开头，这个标记被称为<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Byte_order_mark\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">字节顺序标记</a>。它在文件中以<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Hexadecimal\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">十六进制数字</a> <code>0xFFFE</code> 的形式出现。这个标记的主要作用是指示文件的编码方式，但在我们的问题中，它成了关键的「罪魁祸首」。因为当这些数字被错误地按照 Latin-1 编码来解读时，它们会在屏幕上显示为「ÿþ」这两个奇怪的字符。（将 UTF-16 格式的文本按照 Latin-1 格式来解读是一个完全没有意义的操作，永远不会得到任何有用的结果。这就像试图把构成罗马数字的字母当作英语单词来理解一样荒谬 —— 你可能会把「XIV」（罗马数字的 14）读作「xiv」，但这显然毫无意义。）<br/> <br/></li><li data-pid=\"XZaxUsT-\"> 下一个字符是 <code>c</code>，它在 UTF-16 中的编码是 <code>0x0063</code>...<br/> <br/></li><li data-pid=\"G5GZLywd\"> ...然而，在 Latin-1 编码中，一个字符是由两个而非四个十六进制数字表示的，而且读取顺序是先读第二个字节，再读第一个字节。因此，接下来被读取的字符实际上是 <code>63</code>（对应字母 C）和 <code>00</code>。<br/> <br/></li><li data-pid=\"GpDlvfUQ\"> 在计算机领域，一个只包含零的字节被称为空字节，通常用来标识<b>文本的结束</b>。因此，这个老旧的应用程序误以为已经到达了<b>文件的末尾</b>（实际上它甚至还没有读到第一个命令的第二个字母），然后试图寻找并运行一个名为 <code>ÿþc</code> 的程序。毫无疑问，我的电脑上并没有这样一个程序，所以它就崩溃了。<br/> </li></ol><p data-pid=\"RGSiujTt\">解决方案？只需让 PowerShell 使用 ASCII 编码而非 UTF-16 编码来写入文件，这个小修复仅需两分钟。</p><p data-pid=\"C7kQ4ocx\">言归正传。通常来说，做我这份工作完全不需要了解任何文本编码的知识。不过，作为一个技术迷，我曾为了大学里的项目和工作之外的其他任务学习过一些基础知识。正是这些基础知识让我意识到应该查看 ÿþ 的十六进制表示（即 <code>0xFFFE</code>），并在 Google 上搜索它。通过搜索，我发现这是一个字节顺序标记，于是我检查了文件中是否存在这个字符，进而发现文件使用了错误的编码。解决问题的思路就这样逐步明晰起来。</p><p data-pid=\"8jjXW-NX\">通常情况下，我的工作并不要求掌握文本编码方面的知识，因此大多数管理者可能会认为深入学习这方面知识没有必要。毕竟，如果真的需要用到，我随时可以查阅资料。然而，如果我不了解不同编码的存在，不知道旧程序经常使用不兼容的编码，也不清楚可以通过查看原始十六进制数据来分析问题，我又怎么能意识到这个问题与文本编码有关呢？在弄清楚问题所在之前，我可能已经浪费了<b>好几个小时</b>。其实，解决这个问题所需的文本编码知识，只需一小时就能学会。我认为每个程序员都应该学习这些知识，因为类似的问题迟早会困扰到他们。提前掌握这些信息，能让你在遇到问题时迅速<b>识别出需要运用哪些知识</b>，这往往是解决问题最关键的一步。如果你总能准确知道解决问题需要什么信息，那么等到需要时再查找也无妨。但实际上，如果你能精确地知道解决问题需要什么信息，那就意味着你已经找到了解决方案！遗憾的是，提前学习带来的生产力提升几乎无法量化，因此在当今这个数据驱动的世界里，这种做法很容易被忽视。</p><p data-pid=\"zaMg3_J_\">当你面对前人未解、网上也找不到答案的新问题时，能够轻松获取网络上浩如烟海的信息无疑是一大优势。然而，仅有海量信息是不够的，你还需要自身的知识储备来整合这些信息。这里的知识包括技能和方法，通常被称为「批判性思维技能」——这一点的重要性至今无人质疑。同时，它还包括陈述性知识（也就是「事实」，或者可以说是需要记忆的基础知识）：比如不同的文本编码方式，使用错误编码会导致乱码，空字节常用于终止字符串，美国宪法第一修正案保障所有美国人的宗教自由，距离等于速度乘以时间等。尽管获取和保持这些知识有时会让人感到吃力，但没有这些基础知识，你将无法发挥作用。而且，你掌握的陈述性知识越多，你的能力就越强。因此，不要畏惧寻求知识，也不要犹豫要求他人这样做。</p><p data-pid=\"HIzbdcO7\">在接下来的几个月里，我们将深入探讨多种学习、保持和运用陈述性知识的策略。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"DnbEuP5S\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3.5-sonnet，校对 <span class=\"nolink\">Jarrett Ye</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//controlaltbackspace.org/know/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Why You Still Need To Know Things - Control-Alt-Backspace (controlaltbackspace.org)</a><br/>作者：Soren Bjornstad</blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19563807",
+      "type": "topic",
+      "id": "19563807",
+      "name": "记忆"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19553939",
+      "type": "topic",
+      "id": "19553939",
+      "name": "知识"
+    }
+  ],
+  "voteup_count": 81,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
+    "can_manage": false,
+    "intro": "带你用「Anki」高效战高考！",
+    "is_following": true,
+    "url_token": "ankigaokao",
+    "id": "ankigaokao",
+    "articles_count": 157,
+    "accept_submission": true,
+    "title": "AnkiX高考",
+    "url": "https://api.zhihu.com/columns/ankigaokao",
+    "comment_permission": "all",
+    "created": 1522117223,
+    "updated": 1599152271,
+    "image_url": "https://picx.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 6763,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 9,
+  "contributions": [
+    {
+      "id": 49768261,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
+        "can_manage": false,
+        "intro": "带你用「Anki」高效战高考！",
+        "is_following": true,
+        "url_token": "ankigaokao",
+        "id": "ankigaokao",
+        "articles_count": 157,
+        "accept_submission": true,
+        "title": "AnkiX高考",
+        "url": "https://api.zhihu.com/columns/ankigaokao",
+        "comment_permission": "all",
+        "created": 1522117223,
+        "updated": 1599152271,
+        "image_url": "https://picx.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 6763,
+        "type": "column",
+        "column_type": "normal"
+      }
+    },
+    {
+      "id": 49768265,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "间隔重复使记忆成为一种选择",
+        "is_following": false,
+        "url_token": "c_1525782291741208576",
+        "id": "c_1525782291741208576",
+        "articles_count": 182,
+        "accept_submission": true,
+        "title": "间隔重复 & 注意力管理",
+        "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+        "comment_permission": "all",
+        "created": 1751877449,
+        "updated": 1656554846,
+        "image_url": "https://pic1.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 227,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 730667783,
-  "voteup_count": 63,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 121,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "为什么你仍然需要记忆知识 - 来自知乎专栏「AnkiX高考」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/730667783 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1727348325,
-  "url": "https://api.zhihu.com/articles/730667783",
-  "comment_permission": "all",
-  "title": "为什么你仍然需要记忆知识",
-  "image_width": 4756,
-  "content": "<p data-pid=\"Ilo4x6Lb\">学习新知识是一件困难的事，而如果不经常运用，记住所学更是难上加难。这个关于学习和记忆的难题，自人类诞生之日起就一直存在。为了改善这种状况，我们做出了一些努力。我们发明了助记技巧，使建立和保持记忆变得更容易；我们发明了文字，让我们能够将信息从头脑中释放出来，与他人分享，并在遗忘时重新检索；随后，我们又发明了互联网，似乎让我们完全不需要记忆知识，因为我们可以随时在几秒钟内查找任何信息。...但真的是这样吗？</p><p data-pid=\"uR0srqcU\">这似乎是我们所有教育材料的发展趋势。我在高中和大学修过几门物理课，在所有这些课程中，我们不再需要记忆牛顿物理学的公式；每次考试时，我们都会得到一张列有所有公式的卡片，我们只需要弄清楚如何将这些公式应用到具体问题中。诚然，这并不意味着物理学习变得容易了，尤其是对那些缺乏物理学习经验的人来说（这就是为什么市面上有如此多的「解决应用题」教材为苦恼的代数学生而编写，而且这些问题比一年级代数的问题要复杂得多）。物理学培养的批判性分析和解决问题的能力是非常宝贵的，而且可以广泛应用于其他学科。因此，我能理解为什么教育工作者更倾向于让学生专注于培养这些能力，而不是纠结于公式的记忆。</p><p data-pid=\"POcq_8OE\">其实，那些看似烦人的需要记忆的公式，本质上<b>就是</b>牛顿物理学的精髓所在。当我百无聊赖地观察周遭世界并产生疑问时，正是这些公式能够帮我找到答案。设想一下，当我在公路旅行中，想要快速估算还需多久才能到达下一个休息站，又不想在驾驶时分心操作手机，这时我就需要运用「距离等于速率乘以时间」这个公式；单凭分析能力在这种情况下可能帮不上太大忙。如果我熟知公式，就能清晰地理解这三个要素之间的关系，从而轻松回答问题。公式的作用远不止于此。它还能告诉我，当我触碰小提琴弦的不同位置时会发出什么<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Harmonic%23On_stringed_instruments\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">音高</a>，以及为什么它们会有不同的音色；<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/r/bicycling/comments/zvxlv/difference_in_road_damage_between_the_average/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">卡车相比摩托车会对公路造成多少倍的磨损</a>；在电脑运行的同时，我能否将吹风机插入厨房插座<a href=\"https://link.zhihu.com/?target=https%3A//www.allaboutcircuits.com/textbook/direct-current/chpt-2/calculating-electric-power/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">而不会烧断保险丝</a>（没错，我的公寓仍在使用老式热熔断器）。如果你学过物理，却对这些公式一无所知，我不得不说，<b>你可能并没有真正理解物理学最根本的部分</b>。</p><p data-pid=\"HradySb0\">好吧，也许我只是个爱发牢骚的二十几岁「老头子」。我们那个年代上下学可是得在山路上跋涉，还要每天背诵十个新公式，哪像现在的年轻人这么轻松。难道我们就不能简单地查一下这些公式吗？</p><p data-pid=\"m4MHhG_N\">让我们来探讨一下「简单地查一下」这种思维方式存在的两个问题。第一个问题，也是在讨论记忆时常被提及的，就是记忆知识会更加便利。我之前举的开车和用电的例子就很好地说明了这种便利性的价值。诚然，只要我知道有公式可以联系距离、时间和速度，或者功率与电路的电流容量，我就可以在需要计算时去查找。但实际上，我可能不太愿意这么做。如果我不经常需要用到这些公式，为了省去记忆的麻烦，这种权衡或许是值得的。然而，如果我经常使用这些公式，那么最好还是把它们牢记在心。这就像大多数学生仍然会记忆乘法表一样，因为即便在计算器盛行的今天，如果不记住乘法表，进行任何复杂的数学运算都会非常麻烦。</p><p data-pid=\"mVLYKfLw\">然而，我们面临着一个更大的问题：我们无法利用未知的信息进行创造性思考。这恰恰是人类仍然（普遍）胜过计算机的少数领域之一：识别模式并在不同概念之间建立富有创意的联系。在理想条件下，我们能够轻松地产生新的想法和洞见，而这是当前技术水平下的预编程计算机所无法实现的，至少不会在不产生大量错误结果的情况下做到这一点。但是，如果没有输入，我们就无法进行创造性思考。正如俗语所说，「垃圾进，垃圾出」，或者在这种情况下更贴切地比喻为「<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Null_device\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">/dev/null</a> 进，<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/End-of-file\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">EOF</a> 出」。互联网仅仅为我们提供了获取信息的可能性，而非随时可用的信息。如果我们希望在创造过程中运用某些信息，就必须能够即时获取这些信息，这意味着我们需要记忆它们。仅仅知道某处存在一些可能有帮助的模糊信息是毫无价值的，因为如果我们不清楚这些信息的<b>具体内容</b>，就无法在新的情境中认识到它们的相关性。</p><p data-pid=\"9uHY64Dy\">我想这一点我们心知肚明。<a href=\"https://link.zhihu.com/?target=https%3A//www.washingtontimes.com/news/2017/sep/13/37-percent-of-americans-cant-name-any-of-the-right/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">近 40% 的美国人无法说出他们的第一修正案权利中的任何一项</a>，这难道不是一个令人担忧的问题吗？如果我们连这些权利是什么都说不清楚，我们又怎能真正珍视这些最基本的自由呢？如果我们不了解公民应当拥有的权利，我们又如何能识别出他人的权利正在遭受侵犯呢？仅仅能够查阅第一修正案的条文是远远不够的——只有当你真正内化了这些原则，它们才能影响你的行为和决策。（当然，如果你不能解释每一部分的含义，那么仅仅将第一修正案的文本一字不差地背诵出来也是不够的。这是另一个问题，虽然经常被混为一谈——对于不理解的内容进行死记硬背<a href=\"https://link.zhihu.com/?target=http%3A//super-memory.com/articles/20rules.htm%23Do%2520not%2520learn%2520if%2520you%2520do%2520not%2520understand\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">确实毫无意义</a><sup data-text=\"如果我不理解这个材料，那我不如不学\" data-url=\"https://zhuanlan.zhihu.com/p/52369009#h_52369009_0\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，但是仅仅因为未经消化的死记硬背知识无用就全盘否定记忆知识<b>本身</b>的价值，这同样会导致我们低估那些真正被理解和整合到知识体系中的记忆信息的重要性。）</p><hr/><p data-pid=\"3K4PWj3q\">最近，我在工作中遇到了一个问题。我正试图在一台新电脑上运行一些古董软件（有多「古董」？这软件陈旧到可能还需要修复<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Year_2000_problem\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">千年虫问题</a>）。我输入了一个大致如下的命令：</p><div class=\"highlight\"><pre><code class=\"language-text\">myprogram c:\\myfolder\\myfile.bat</code></pre></div><p data-pid=\"Xn_M6vq9\">（简而言之，这是指示 <code>myprogram</code> 执行 <code>myfile.bat</code> 文件中的命令。）然而，系统返回了这样的错误信息：</p><div class=\"highlight\"><pre><code class=\"language-text\">‘ÿþc’ 不被识别为内部或外部命令，也不是可执行程序或批处理文件。</code></pre></div><p data-pid=\"GUQqKgYZ\">搞什么<b>鬼</b>？我明明没有输入过这种内容，<code>myfile.bat</code> 文件中也绝对不包含这些字符！</p><p data-pid=\"nSa_2WKp\">尽管问题看似棘手，但我只用了不到半小时就找到了解决方案。诚然，像所有 IT 专业人士一样，我在解决问题时也利用了互联网，但那只是整个过程中很小的一部分。我并非在网上找到了现成的解决方案。下面，让我简要介绍一下我是如何一步步排查并解决这个问题的：</p><ol><li data-pid=\"Kqr9qPmu\"> 计算机的运作基于二进制系统，即只使用 0 和 1。因此，文本在计算机中实际上是以一系列数字的形式存在的。我们把字母（以及其他字符）与数字之间的对应关系称为<b>文本编码</b>。在本例中，<code>myprogram</code> 这个程序相当老旧，它只支持两种编码方式：ASCII 编码（仅能表示 127 个不同的字符）和 Latin-1 编码（可以表示 255 个不同的字符）。显然，255 个字符是远远不够用来表示世界上所有语言中的所有字符的。为了在文件中包含更多的字符，人们开发了各种不同的编码方案。这些方案中，有些<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Utf-8\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">明显优于</a><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Code_page\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">其他方案</a>。<br/> <br/></li><li data-pid=\"USJnoe07\"> 我使用 <a href=\"https://link.zhihu.com/?target=https%3A//controlaltbackspace.org/design/dreamdir-and-the-unix-philosophy-or-likable-software/%23the-future-of-likable-software\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">PowerShell</a> 创建了名为 <code>myfile.bat</code> 的文件。然而，PowerShell 默认会以 UTF-16 编码格式保存文件，而这种编码与较旧的 ASCII 或 Latin-1 编码不兼容。<br/> <br/></li><li data-pid=\"iSpZjYD9\"> UTF-16 格式的文件通常以一个特殊的标记开头，这个标记被称为<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Byte_order_mark\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">字节顺序标记</a>。它在文件中以<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Hexadecimal\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">十六进制数字</a> <code>0xFFFE</code> 的形式出现。这个标记的主要作用是指示文件的编码方式，但在我们的问题中，它成了关键的「罪魁祸首」。因为当这些数字被错误地按照 Latin-1 编码来解读时，它们会在屏幕上显示为「ÿþ」这两个奇怪的字符。（将 UTF-16 格式的文本按照 Latin-1 格式来解读是一个完全没有意义的操作，永远不会得到任何有用的结果。这就像试图把构成罗马数字的字母当作英语单词来理解一样荒谬 —— 你可能会把「XIV」（罗马数字的 14）读作「xiv」，但这显然毫无意义。）<br/> <br/></li><li data-pid=\"XZaxUsT-\"> 下一个字符是 <code>c</code>，它在 UTF-16 中的编码是 <code>0x0063</code>...<br/> <br/></li><li data-pid=\"G5GZLywd\"> ...然而，在 Latin-1 编码中，一个字符是由两个而非四个十六进制数字表示的，而且读取顺序是先读第二个字节，再读第一个字节。因此，接下来被读取的字符实际上是 <code>63</code>（对应字母 C）和 <code>00</code>。<br/> <br/></li><li data-pid=\"GpDlvfUQ\"> 在计算机领域，一个只包含零的字节被称为空字节，通常用来标识<b>文本的结束</b>。因此，这个老旧的应用程序误以为已经到达了<b>文件的末尾</b>（实际上它甚至还没有读到第一个命令的第二个字母），然后试图寻找并运行一个名为 <code>ÿþc</code> 的程序。毫无疑问，我的电脑上并没有这样一个程序，所以它就崩溃了。<br/> </li></ol><p data-pid=\"RGSiujTt\">解决方案？只需让 PowerShell 使用 ASCII 编码而非 UTF-16 编码来写入文件，这个小修复仅需两分钟。</p><p data-pid=\"C7kQ4ocx\">言归正传。通常来说，做我这份工作完全不需要了解任何文本编码的知识。不过，作为一个技术迷，我曾为了大学里的项目和工作之外的其他任务学习过一些基础知识。正是这些基础知识让我意识到应该查看 ÿþ 的十六进制表示（即 <code>0xFFFE</code>），并在 Google 上搜索它。通过搜索，我发现这是一个字节顺序标记，于是我检查了文件中是否存在这个字符，进而发现文件使用了错误的编码。解决问题的思路就这样逐步明晰起来。</p><p data-pid=\"8jjXW-NX\">通常情况下，我的工作并不要求掌握文本编码方面的知识，因此大多数管理者可能会认为深入学习这方面知识没有必要。毕竟，如果真的需要用到，我随时可以查阅资料。然而，如果我不了解不同编码的存在，不知道旧程序经常使用不兼容的编码，也不清楚可以通过查看原始十六进制数据来分析问题，我又怎么能意识到这个问题与文本编码有关呢？在弄清楚问题所在之前，我可能已经浪费了<b>好几个小时</b>。其实，解决这个问题所需的文本编码知识，只需一小时就能学会。我认为每个程序员都应该学习这些知识，因为类似的问题迟早会困扰到他们。提前掌握这些信息，能让你在遇到问题时迅速<b>识别出需要运用哪些知识</b>，这往往是解决问题最关键的一步。如果你总能准确知道解决问题需要什么信息，那么等到需要时再查找也无妨。但实际上，如果你能精确地知道解决问题需要什么信息，那就意味着你已经找到了解决方案！遗憾的是，提前学习带来的生产力提升几乎无法量化，因此在当今这个数据驱动的世界里，这种做法很容易被忽视。</p><p data-pid=\"zaMg3_J_\">当你面对前人未解、网上也找不到答案的新问题时，能够轻松获取网络上浩如烟海的信息无疑是一大优势。然而，仅有海量信息是不够的，你还需要自身的知识储备来整合这些信息。这里的知识包括技能和方法，通常被称为「批判性思维技能」——这一点的重要性至今无人质疑。同时，它还包括陈述性知识（也就是「事实」，或者可以说是需要记忆的基础知识）：比如不同的文本编码方式，使用错误编码会导致乱码，空字节常用于终止字符串，美国宪法第一修正案保障所有美国人的宗教自由，距离等于速度乘以时间等。尽管获取和保持这些知识有时会让人感到吃力，但没有这些基础知识，你将无法发挥作用。而且，你掌握的陈述性知识越多，你的能力就越强。因此，不要畏惧寻求知识，也不要犹豫要求他人这样做。</p><p data-pid=\"HIzbdcO7\">在接下来的几个月里，我们将深入探讨多种学习、保持和运用陈述性知识的策略。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"DnbEuP5S\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3.5-sonnet，校对 <span class=\"nolink\">Jarrett Ye</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//controlaltbackspace.org/know/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Why You Still Need To Know Things - Control-Alt-Backspace (controlaltbackspace.org)</a><br/>作者：Soren Bjornstad</blockquote>",
-  "column": {
-    "updated": 1599152271,
-    "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/ankigaokao",
-    "title": "AnkiX高考",
-    "image_url": "https://picx.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "ankigaokao"
-  },
-  "comment_count": 9,
-  "image_url": "https://pica.zhimg.com/v2-e088d166cea2306402d2e46b16ab3f4e_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 5,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 5,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyNDg2NDUxNzYSCTczMDY2Nzc4MxgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 81,
+      "down_vote_count": 1,
+      "like_count": 5,
+      "comment_count": 9,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 121,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-e088d166cea2306402d2e46b16ab3f4e": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-e088d166cea2306402d2e46b16ab3f4e": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-e088d166cea2306402d2e46b16ab3f4e": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "2 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/250424424?contentId=730667783&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · AnkiX高考",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/ankigaokao",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · AnkiX高考"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

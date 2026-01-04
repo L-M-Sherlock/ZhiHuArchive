@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
-  "comment_count": 0,
-  "content": "<p data-pid=\"XmS6YZ74\">Anki 的本质就是根据间隔效应来制定复习计划。可行性当然是有的，毕竟练字和盲打都是需要通过重复练习来提高熟练程度。</p><p data-pid=\"kDIPeOwi\">为了让 Anki 能跟踪我们的复习进度，我们需要制作卡片。比如练字，我要练 100 个字。那我制作 100 张卡片一一对应。然后每天根据 Anki 给出的卡片来练习对应的字。根据你自己对练字的打分来选择卡片的评分。</p><p data-pid=\"S-6Q-x5f\">但是如果是练习盲打，事情就变得复杂起来了。首先我们不可能一次只练一个键，这很没有意义。我们需要掌握的能力是在输入一长串单词中能敲对每一个键。这需要我们把不少键位混合在一起练习。其次，我们的练习量一般会很大，手动统计错误率和速度就变得很困难。所以并不适合使用 Anki 来练习盲打。</p><p data-pid=\"ljgSuz7s\">这里我推荐使用这个网站练习</p><a href=\"https://link.zhihu.com/?target=https%3A//www.keybr.com/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">keybr.com/</span><span class=\"invisible\"></span></a><p data-pid=\"p7MRkV42\">本质上也是用到了间隔重复，相当于 Anki 对于盲打的特化版本。</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-c1c0ad059bd9e23665c2d654ef03e7b2_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1367\" data-rawheight=\"491\" data-original-token=\"v2-c1c0ad059bd9e23665c2d654ef03e7b2\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-eddf7565f9e862b30b92dde07cd05341_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1367\" data-original=\"https://picx.zhimg.com/v2-c1c0ad059bd9e23665c2d654ef03e7b2_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1367&#39; height=&#39;491&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1367\" data-rawheight=\"491\" data-original-token=\"v2-c1c0ad059bd9e23665c2d654ef03e7b2\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-eddf7565f9e862b30b92dde07cd05341_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1367\" data-original=\"https://picx.zhimg.com/v2-c1c0ad059bd9e23665c2d654ef03e7b2_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-c1c0ad059bd9e23665c2d654ef03e7b2_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"xNkkkap4\">一开始会从最高频的 ENIT 四个键开始练习。</p><p data-pid=\"9hbTNvTY\">当你目前练习的键位的正确率和速度达到一定门槛，就会加入新的键位练习，相当于自动评分。</p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-118e774cc1b772f39d4e807982d8a3db_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1282\" data-rawheight=\"789\" data-original-token=\"v2-118e774cc1b772f39d4e807982d8a3db\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-1db077f7e74da53f81012d95e27d7bda_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1282\" data-original=\"https://pic1.zhimg.com/v2-118e774cc1b772f39d4e807982d8a3db_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1282&#39; height=&#39;789&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1282\" data-rawheight=\"789\" data-original-token=\"v2-118e774cc1b772f39d4e807982d8a3db\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-1db077f7e74da53f81012d95e27d7bda_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1282\" data-original=\"https://pic1.zhimg.com/v2-118e774cc1b772f39d4e807982d8a3db_r.jpg?source=2c26e567\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-118e774cc1b772f39d4e807982d8a3db_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"jbkGAPxm\">统计数据很详尽，同时网站也给了不少案例。</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-fd606e1455efd95e3adedc220df39d41_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"936\" data-rawheight=\"395\" data-original-token=\"v2-fd606e1455efd95e3adedc220df39d41\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-316ed48bc76ccacf148ff9f1e12f3a3f_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"936\" data-original=\"https://picx.zhimg.com/v2-fd606e1455efd95e3adedc220df39d41_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;936&#39; height=&#39;395&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"936\" data-rawheight=\"395\" data-original-token=\"v2-fd606e1455efd95e3adedc220df39d41\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-316ed48bc76ccacf148ff9f1e12f3a3f_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"936\" data-original=\"https://picx.zhimg.com/v2-fd606e1455efd95e3adedc220df39d41_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-fd606e1455efd95e3adedc220df39d41_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"GQ8YYJzd\">我从二指禅到熟练盲打也就用了 9 天。</p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-7ee6029969ef8b66d185ff13d60801d2_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"233\" data-rawheight=\"268\" data-original-token=\"v2-7ee6029969ef8b66d185ff13d60801d2\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-11fcdd99e48f4de85b0991aa04a55f97_720w.jpg?source=2c26e567\" class=\"content_image\" width=\"233\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;233&#39; height=&#39;268&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"233\" data-rawheight=\"268\" data-original-token=\"v2-7ee6029969ef8b66d185ff13d60801d2\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-11fcdd99e48f4de85b0991aa04a55f97_720w.jpg?source=2c26e567\" class=\"content_image lazy\" width=\"233\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-7ee6029969ef8b66d185ff13d60801d2_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"Qo6UR-r9\">希望对你有帮助。</p>",
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
+  "comment_count": 1,
+  "content": "<p data-pid=\"XmS6YZ74\">Anki 的本质就是根据间隔效应来制定复习计划。可行性当然是有的，毕竟练字和盲打都是需要通过重复练习来提高熟练程度。</p><p data-pid=\"kDIPeOwi\">为了让 Anki 能跟踪我们的复习进度，我们需要制作卡片。比如练字，我要练 100 个字。那我制作 100 张卡片一一对应。然后每天根据 Anki 给出的卡片来练习对应的字。根据你自己对练字的打分来选择卡片的评分。</p><p data-pid=\"S-6Q-x5f\">但是如果是练习盲打，事情就变得复杂起来了。首先我们不可能一次只练一个键，这很没有意义。我们需要掌握的能力是在输入一长串单词中能敲对每一个键。这需要我们把不少键位混合在一起练习。其次，我们的练习量一般会很大，手动统计错误率和速度就变得很困难。所以并不适合使用 Anki 来练习盲打。</p><p data-pid=\"ljgSuz7s\">这里我推荐使用这个网站练习</p><a href=\"https://link.zhihu.com/?target=https%3A//www.keybr.com/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">keybr.com/</span><span class=\"invisible\"></span></a><p data-pid=\"p7MRkV42\">本质上也是用到了间隔重复，相当于 Anki 对于盲打的特化版本。</p><figure data-size=\"normal\"><noscript><img src=\"https://pica.zhimg.com/50/v2-c1c0ad059bd9e23665c2d654ef03e7b2_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1367\" data-rawheight=\"491\" data-original-token=\"v2-c1c0ad059bd9e23665c2d654ef03e7b2\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-eddf7565f9e862b30b92dde07cd05341_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1367\" data-original=\"https://picx.zhimg.com/v2-c1c0ad059bd9e23665c2d654ef03e7b2_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1367&#39; height=&#39;491&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1367\" data-rawheight=\"491\" data-original-token=\"v2-c1c0ad059bd9e23665c2d654ef03e7b2\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-eddf7565f9e862b30b92dde07cd05341_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1367\" data-original=\"https://picx.zhimg.com/v2-c1c0ad059bd9e23665c2d654ef03e7b2_r.jpg?source=2c26e567\" data-actualsrc=\"https://pica.zhimg.com/50/v2-c1c0ad059bd9e23665c2d654ef03e7b2_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"xNkkkap4\">一开始会从最高频的 ENIT 四个键开始练习。</p><p data-pid=\"9hbTNvTY\">当你目前练习的键位的正确率和速度达到一定门槛，就会加入新的键位练习，相当于自动评分。</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-118e774cc1b772f39d4e807982d8a3db_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1282\" data-rawheight=\"789\" data-original-token=\"v2-118e774cc1b772f39d4e807982d8a3db\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-1db077f7e74da53f81012d95e27d7bda_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1282\" data-original=\"https://pic1.zhimg.com/v2-118e774cc1b772f39d4e807982d8a3db_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1282&#39; height=&#39;789&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1282\" data-rawheight=\"789\" data-original-token=\"v2-118e774cc1b772f39d4e807982d8a3db\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-1db077f7e74da53f81012d95e27d7bda_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1282\" data-original=\"https://pic1.zhimg.com/v2-118e774cc1b772f39d4e807982d8a3db_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-118e774cc1b772f39d4e807982d8a3db_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"jbkGAPxm\">统计数据很详尽，同时网站也给了不少案例。</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-fd606e1455efd95e3adedc220df39d41_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"936\" data-rawheight=\"395\" data-original-token=\"v2-fd606e1455efd95e3adedc220df39d41\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-316ed48bc76ccacf148ff9f1e12f3a3f_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"936\" data-original=\"https://picx.zhimg.com/v2-fd606e1455efd95e3adedc220df39d41_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;936&#39; height=&#39;395&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"936\" data-rawheight=\"395\" data-original-token=\"v2-fd606e1455efd95e3adedc220df39d41\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-316ed48bc76ccacf148ff9f1e12f3a3f_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"936\" data-original=\"https://picx.zhimg.com/v2-fd606e1455efd95e3adedc220df39d41_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-fd606e1455efd95e3adedc220df39d41_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"GQ8YYJzd\">我从二指禅到熟练盲打也就用了 9 天。</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-7ee6029969ef8b66d185ff13d60801d2_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"233\" data-rawheight=\"268\" data-original-token=\"v2-7ee6029969ef8b66d185ff13d60801d2\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-11fcdd99e48f4de85b0991aa04a55f97_720w.jpg?source=2c26e567\" class=\"content_image\" width=\"233\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;233&#39; height=&#39;268&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"233\" data-rawheight=\"268\" data-original-token=\"v2-7ee6029969ef8b66d185ff13d60801d2\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-11fcdd99e48f4de85b0991aa04a55f97_720w.jpg?source=2c26e567\" class=\"content_image lazy\" width=\"233\" data-actualsrc=\"https://picx.zhimg.com/50/v2-7ee6029969ef8b66d185ff13d60801d2_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"Qo6UR-r9\">希望对你有帮助。</p>",
   "content_need_truncated": false,
   "created_time": 1586525978,
   "excerpt": "Anki 的本质就是根据间隔效应来制定复习计划。可行性当然是有的，毕竟练字和盲打都是需要通过重复练习来提高熟练程度。 为了让 Anki 能跟踪我们的复习进度，我们需要制作卡片。比如练字，我要练 100 个字。那我制作 100 张卡片一一对应。然后每天根据 Anki 给出的卡片来练习对应的字。根据你自己对练字的打分来选择卡片的评分。 但是如果是练习盲打，事情就变得复杂起来了。首先我们不可能一次只练一个键，这很没有意义。我们需…",
-  "id": 1143801024,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1143801024",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1143801024&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1586356301,
     "detail": "",
-    "id": 386248706,
+    "id": "386248706",
     "question_type": "normal",
     "relationship": {},
     "title": "用anki可以练字或者练习盲打之类的项目可行吗？",
     "type": "question",
     "updated_time": 1586356301,
-    "url": "https://api.zhihu.com/questions/386248706"
+    "url": "https://www.zhihu.com/api/v4/questions/386248706"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 18
+  "updated_time": 1586525978,
+  "url": "https://www.zhihu.com/api/v4/answers/1143801024",
+  "voteup_count": 19
 }

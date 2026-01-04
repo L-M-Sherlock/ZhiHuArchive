@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,36 +84,56 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 28,
-  "content": "<p data-pid=\"OOp51exn\">记忆难点的功能是用来帮助你识别非常难记住的卡片，通常来说是累积遗忘了8次的卡片。</p><p data-pid=\"l9UxDlnk\">这些卡片会被打上 leech 的标志，leech 意思是寄生虫，非常形象的描述了这些卡片的特点——像寄生虫一样不断消耗你的复习时间，而你却无能为力<sup data-text=\"【硬核】参数模拟(续)——从“诡异”的曲线上扬到“有毒”的记忆\" data-url=\"https://zhuanlan.zhihu.com/p/79015431\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup><sup data-text=\" 毒性记忆\" data-url=\"https://zhuanlan.zhihu.com/p/67390960\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。</p><p data-pid=\"78nu-Ni5\">对于这样的卡片，我不建议恢复其暂停，而是建议直接删除，另做一张卡片。</p><h2>为什么？</h2><p data-pid=\"9MRH6MPN\">因为通常来说，这种卡片记不住并不是重复的次数够不够多的问题。而是这张卡片的知识点无法和你自己的知识体系产生联系。它就像无处安放的灵魂，在你的记忆里找不到可以寄居的位置（2333），其理论解释是记忆稳定性的双变量模型<sup data-text=\"记忆稳定性的两个组成成分\" data-url=\"https://zhuanlan.zhihu.com/p/268782211\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>，重复能提高分子稳定性，而寻找联系能提高结构稳定性。</p><h2>那怎么办呢？</h2><p data-pid=\"MR1kAOBm\">你需要回到原文，回到这个知识的上下文，去重新理解它，并遵循知识表述的20规则来重新制卡。</p><p data-pid=\"b-th2fP-\">具体可以参考：</p><p data-pid=\"H5mX8K5g\">本土版：</p><a href=\"https://zhuanlan.zhihu.com/p/52369009\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_180x120.jpg\" data-image-width=\"732\" data-image-height=\"271\" class=\"internal\">叶峻峣：Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》</a><p data-pid=\"q75ssxTj\">原版：</p><a href=\"https://zhuanlan.zhihu.com/p/269997143\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-a52924624d23c2db3f2e1f542f0f7999_180x120.jpg\" data-image-width=\"939\" data-image-height=\"530\" class=\"internal\">叶峻峣：20 条知识表述规则（20 周年版）</a><h2>我要恢复，请告诉我怎么做！</h2><p data-pid=\"QD3cuPvY\">好吧，首先打开卡片浏览器</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-a842259642c87ead41f199999df42447_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"848\" data-rawheight=\"99\" data-original-token=\"v2-a842259642c87ead41f199999df42447\" class=\"origin_image zh-lightbox-thumb\" width=\"848\" data-original=\"https://picx.zhimg.com/v2-a842259642c87ead41f199999df42447_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;848&#39; height=&#39;99&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"848\" data-rawheight=\"99\" data-original-token=\"v2-a842259642c87ead41f199999df42447\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"848\" data-original=\"https://picx.zhimg.com/v2-a842259642c87ead41f199999df42447_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-a842259642c87ead41f199999df42447_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"KcEG_Pfk\">右侧找到 leech 标签</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-908451be57bbcda0647f5e53d47ca815_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"258\" data-rawheight=\"304\" data-original-token=\"v2-dce723be636851f3b3cd85832be03fb8\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-9c46d8a080f10a6b61d355b73c6f3503_720w.jpg?source=2c26e567\" class=\"content_image\" width=\"258\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;258&#39; height=&#39;304&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"258\" data-rawheight=\"304\" data-original-token=\"v2-dce723be636851f3b3cd85832be03fb8\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-9c46d8a080f10a6b61d355b73c6f3503_720w.jpg?source=2c26e567\" class=\"content_image lazy\" width=\"258\" data-actualsrc=\"https://picx.zhimg.com/50/v2-908451be57bbcda0647f5e53d47ca815_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"vk650Iqe\">点击左侧卡片，Ctrl + A 全选，右键》开关暂停状态</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-dca9f9a53f767cc069986adb88e4e0ea_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1096\" data-rawheight=\"632\" data-original-token=\"v2-ff25a2288df841f37a4a753884110f9e\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-d1f13065cf8ecf6dd8b1aa895e3a41cc_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1096\" data-original=\"https://picx.zhimg.com/v2-dca9f9a53f767cc069986adb88e4e0ea_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1096&#39; height=&#39;632&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1096\" data-rawheight=\"632\" data-original-token=\"v2-ff25a2288df841f37a4a753884110f9e\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-d1f13065cf8ecf6dd8b1aa895e3a41cc_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1096\" data-original=\"https://picx.zhimg.com/v2-dca9f9a53f767cc069986adb88e4e0ea_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-dca9f9a53f767cc069986adb88e4e0ea_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"Kz38y2z2\">好了，操作完了，如果你还想把 leech 标签给去了，点这个移除标签，选中 leech 即可。</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-cd76d5752654281b2d04c75581ba62cd_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"451\" data-rawheight=\"151\" data-original-token=\"v2-398be31263f144d6512511971816549b\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-8f5f6e1bc6259e657627f1f8b7f5afcc_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"451\" data-original=\"https://pic1.zhimg.com/v2-cd76d5752654281b2d04c75581ba62cd_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;451&#39; height=&#39;151&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"451\" data-rawheight=\"151\" data-original-token=\"v2-398be31263f144d6512511971816549b\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-8f5f6e1bc6259e657627f1f8b7f5afcc_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"451\" data-original=\"https://pic1.zhimg.com/v2-cd76d5752654281b2d04c75581ba62cd_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-cd76d5752654281b2d04c75581ba62cd_720w.jpg?source=2c26e567\"/></figure><p></p>",
+  "content": "<p data-pid=\"OOp51exn\">记忆难点的功能是用来帮助你识别非常难记住的卡片，通常来说是累积遗忘了8次的卡片。</p><p data-pid=\"l9UxDlnk\">这些卡片会被打上 leech 的标志，leech 意思是寄生虫，非常形象的描述了这些卡片的特点——像寄生虫一样不断消耗你的复习时间，而你却无能为力<sup data-text=\"【硬核】参数模拟(续)——从“诡异”的曲线上扬到“有毒”的记忆\" data-url=\"https://zhuanlan.zhihu.com/p/79015431\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup><sup data-text=\" 毒性记忆\" data-url=\"https://zhuanlan.zhihu.com/p/67390960\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。</p><p data-pid=\"78nu-Ni5\">对于这样的卡片，我不建议恢复其暂停，而是建议直接删除，另做一张卡片。</p><h2>为什么？</h2><p data-pid=\"9MRH6MPN\">因为通常来说，这种卡片记不住并不是重复的次数够不够多的问题。而是这张卡片的知识点无法和你自己的知识体系产生联系。它就像无处安放的灵魂，在你的记忆里找不到可以寄居的位置（2333），其理论解释是记忆稳定性的双变量模型<sup data-text=\"记忆稳定性的两个组成成分\" data-url=\"https://zhuanlan.zhihu.com/p/268782211\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>，重复能提高分子稳定性，而寻找联系能提高结构稳定性。</p><h2>那怎么办呢？</h2><p data-pid=\"MR1kAOBm\">你需要回到原文，回到这个知识的上下文，去重新理解它，并遵循知识表述的20规则来重新制卡。</p><p data-pid=\"b-th2fP-\">具体可以参考：</p><p data-pid=\"H5mX8K5g\">本土版：</p><a href=\"https://zhuanlan.zhihu.com/p/52369009\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_180x120.jpg\" data-image-width=\"732\" data-image-height=\"271\" class=\"internal\">叶峻峣：Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》</a><p data-pid=\"q75ssxTj\">原版：</p><a href=\"https://zhuanlan.zhihu.com/p/269997143\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-a52924624d23c2db3f2e1f542f0f7999_180x120.jpg\" data-image-width=\"939\" data-image-height=\"530\" class=\"internal\">叶峻峣：20 条知识表述规则（20 周年版）</a><h2>我要恢复，请告诉我怎么做！</h2><p data-pid=\"QD3cuPvY\">好吧，首先打开卡片浏览器</p><figure data-size=\"normal\"><noscript><img src=\"https://pica.zhimg.com/50/v2-a842259642c87ead41f199999df42447_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"848\" data-rawheight=\"99\" data-original-token=\"v2-a842259642c87ead41f199999df42447\" class=\"origin_image zh-lightbox-thumb\" width=\"848\" data-original=\"https://picx.zhimg.com/v2-a842259642c87ead41f199999df42447_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;848&#39; height=&#39;99&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"848\" data-rawheight=\"99\" data-original-token=\"v2-a842259642c87ead41f199999df42447\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"848\" data-original=\"https://picx.zhimg.com/v2-a842259642c87ead41f199999df42447_r.jpg?source=2c26e567\" data-actualsrc=\"https://pica.zhimg.com/50/v2-a842259642c87ead41f199999df42447_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"KcEG_Pfk\">右侧找到 leech 标签</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-908451be57bbcda0647f5e53d47ca815_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"258\" data-rawheight=\"304\" data-original-token=\"v2-dce723be636851f3b3cd85832be03fb8\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-9c46d8a080f10a6b61d355b73c6f3503_720w.jpg?source=2c26e567\" class=\"content_image\" width=\"258\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;258&#39; height=&#39;304&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"258\" data-rawheight=\"304\" data-original-token=\"v2-dce723be636851f3b3cd85832be03fb8\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-9c46d8a080f10a6b61d355b73c6f3503_720w.jpg?source=2c26e567\" class=\"content_image lazy\" width=\"258\" data-actualsrc=\"https://picx.zhimg.com/50/v2-908451be57bbcda0647f5e53d47ca815_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"vk650Iqe\">点击左侧卡片，Ctrl + A 全选，右键》开关暂停状态</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-dca9f9a53f767cc069986adb88e4e0ea_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1096\" data-rawheight=\"632\" data-original-token=\"v2-ff25a2288df841f37a4a753884110f9e\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-d1f13065cf8ecf6dd8b1aa895e3a41cc_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1096\" data-original=\"https://pica.zhimg.com/v2-dca9f9a53f767cc069986adb88e4e0ea_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1096&#39; height=&#39;632&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1096\" data-rawheight=\"632\" data-original-token=\"v2-ff25a2288df841f37a4a753884110f9e\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-d1f13065cf8ecf6dd8b1aa895e3a41cc_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1096\" data-original=\"https://pica.zhimg.com/v2-dca9f9a53f767cc069986adb88e4e0ea_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-dca9f9a53f767cc069986adb88e4e0ea_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"Kz38y2z2\">好了，操作完了，如果你还想把 leech 标签给去了，点这个移除标签，选中 leech 即可。</p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-cd76d5752654281b2d04c75581ba62cd_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"451\" data-rawheight=\"151\" data-original-token=\"v2-398be31263f144d6512511971816549b\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-8f5f6e1bc6259e657627f1f8b7f5afcc_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"451\" data-original=\"https://pic1.zhimg.com/v2-cd76d5752654281b2d04c75581ba62cd_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;451&#39; height=&#39;151&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"451\" data-rawheight=\"151\" data-original-token=\"v2-398be31263f144d6512511971816549b\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-8f5f6e1bc6259e657627f1f8b7f5afcc_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"451\" data-original=\"https://pic1.zhimg.com/v2-cd76d5752654281b2d04c75581ba62cd_r.jpg?source=2c26e567\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-cd76d5752654281b2d04c75581ba62cd_720w.jpg?source=2c26e567\"/></figure><p></p>",
   "content_need_truncated": false,
   "created_time": 1605170755,
   "excerpt": "记忆难点的功能是用来帮助你识别非常难记住的卡片，通常来说是累积遗忘了8次的卡片。 这些卡片会被打上 leech 的标志，leech 意思是寄生虫，非常形象的描述了这些卡片的特点——像寄生虫一样不断消耗你的复习时间，而你却无能为力 [1][2]。对于这样的卡片，我不建议恢复其暂停，而是建议直接删除，另做一张卡片。 为什么？因为通常来说，这种卡片记不住并不是重复的次数够不够多的问题。而是这张卡片的知识点无法和你自己的知识…",
-  "id": 1571659270,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1571659270",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": false,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/269997143": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"20 条知识表述规则（20 周年版）\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/269997143\",\"desc\":\"182 赞同 · 20 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 引言我们在学习中对知识的表述方式对记忆有着巨大的影响。措辞得当的问题会让学习变得轻松。结构合理的知识将有助于将知识终身保存在记忆中。 1999年编撰的《 有效学习：知识表述的20条规则 [1]》，描述了有效表述好问题以保持长期记忆 所需的最重要规则。下面我提供一个简明扼要的执行摘要（特别是对渐进阅读 [2]感兴趣的人）。摘要：20 条规则不要学你不理解的东西 [3]先学后背从基础开始，再到复杂保持问题简单 [4]图片帮助记忆学…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-a52924624d23c2db3f2e1f542f0f7999_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"269997143\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/52369009": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/52369009\",\"desc\":\"415 赞同 · 31 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 想要提高学习效率，加速学习？阅读本文来获得能力，克服来自「组织知识」的困难。 学习速度取决于我们组织学习材料的方式。如果组织的很好，那么对于相同的材料，我们就能学得又快又好，其效率（速度）上的差距是难以置信的。 下面的原则按照重要性排序，最前面的原则最易被不经意地违背，但是如果能够好好地遵守它们，将为我们带来极大的收益。 这里有一个前提：你在用「间隔重复」的方式进行学习和…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"52369009\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/269997143": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"20 条知识表述规则（20 周年版）\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/269997143\",\"desc\":\"220 赞同 · 21 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 引言我们在学习中对知识的表述方式对记忆有着巨大的影响。措辞得当的问题会让学习变得轻松。结构合理的知识将有助于将知识终身保存在记忆中。 1999年编撰的《 有效学习：知识表述的20条规则 [1]》，描述了有效表述好问题以保持长期记忆 所需的最重要规则。下面我提供一个简明扼要的执行摘要（特别是对渐进阅读 [2]感兴趣的人）。摘要：20 条规则不要学你不理解的东西 [3]先学后背从基础开始，再到复杂保持问题简单 [4]图片帮助记忆学…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-a52924624d23c2db3f2e1f542f0f7999_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"269997143\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/52369009": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/52369009\",\"desc\":\"500 赞同 · 33 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 想要提高学习效率，加速学习？阅读本文来获得能力，克服来自「组织知识」的困难。 学习速度取决于我们组织学习材料的方式。如果组织的很好，那么对于相同的材料，我们就能学得又快又好，其效率（速度）上的差距是难以置信的。 下面的原则按照重要性排序，最前面的原则最易被不经意地违背，但是如果能够好好地遵守它们，将为我们带来极大的收益。 这里有一个前提：你在用「间隔重复」的方式进行学习和…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"52369009\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1571659270&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1605150583,
     "detail": "",
-    "id": 429900069,
+    "id": "429900069",
     "question_type": "normal",
     "relationship": {},
     "title": "请问anki记忆难点的功能是什么？卡片暂停后还能恢复吗？",
     "type": "question",
     "updated_time": 1605150583,
-    "url": "https://api.zhihu.com/questions/429900069"
+    "url": "https://www.zhihu.com/api/v4/questions/429900069"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 31
+  "updated_time": 1605170755,
+  "url": "https://www.zhihu.com/api/v4/answers/1571659270",
+  "voteup_count": 32
 }

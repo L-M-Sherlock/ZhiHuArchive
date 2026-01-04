@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,9 +14,10 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
@@ -35,6 +37,7 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
@@ -45,9 +48,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,36 +84,56 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 0,
   "content": "<h2><b>定义</b></h2><p data-pid=\"E-0dEzQb\"><b>考试</b>就是利用大考和小测对知识进行评估。一些设计良好的考试，可以提供对良好的知识和推理技能的评估。</p><h2><b>考试的问题</b></h2><p data-pid=\"a6RgFHBT\">考试的问题是，它通常是强制性的，而且是预先宣布的。强制性的高风险考试涉及压力。预先宣布的考试促进了<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Kevin_Kruse%3A_School_serves_mindless_cramming\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">死记硬背</a><sup data-text=\"死记硬背\" data-url=\"https://zhuanlan.zhihu.com/p/360416156\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>。<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Cramming\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">死记硬背</a>促进了<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Asemantic_learning\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">无语义学习</a><sup data-text=\"无语义学习\" data-url=\"https://zhuanlan.zhihu.com/p/295053968\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，导致专注于低质量的短期记忆。这种短视关注导致了<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Interference\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">干扰</a><sup data-text=\"干扰\" data-url=\"https://zhuanlan.zhihu.com/p/269974053\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>、糟糕的<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Memory_stability\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">记忆稳定性</a>、糟糕的<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Coherence\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">连贯性</a><sup data-text=\"一致性与连贯性(Consistency vs Coherence)\" data-url=\"https://zhuanlan.zhihu.com/p/264327134\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>，增加了对不相关部分知识的<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Forgetting\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">遗忘</a><sup data-text=\"遗忘机制\" data-url=\"https://zhuanlan.zhihu.com/p/265081034\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>，等等。考试还增加了<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Stress\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">压力</a><sup data-text=\"18 压力适应力\" data-url=\"https://zhuanlan.zhihu.com/p/73207325\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>，破坏了<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Sleep\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">睡眠</a>，增加了<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Why_kids_hate_school\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对学校的厌恶</a><sup data-text=\"20 为什么孩子们讨厌学校？\" data-url=\"https://zhuanlan.zhihu.com/p/70779863\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup>。</p><p data-pid=\"jWltzcDq\">多项选择题考试可以提供一个很好的知识评估工具，但也会鼓励获胜的策略，导致有害的学习形式，即基于记忆，而不是理解。这放大了考试所造成的损害。</p><p data-pid=\"v2fBN-Ie\">短期限的考试会让孩子在<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Regress_zone\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">退步区</a><sup data-text=\"11 最佳推动区\" data-url=\"https://zhuanlan.zhihu.com/p/67694020\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"8\">[8]</sup>学习，因为这违反了<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Fundamental_law_of_learning\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">学习的基本法则</a><sup data-text=\"学习的基本规律\" data-url=\"https://zhuanlan.zhihu.com/p/273225977\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"9\">[9]</sup>。它偏向于<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Cramming\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">死记硬背</a>，淡化长期记忆的重要性。见：<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/50_bad_habits_learned_at_school\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">在学校学到的50个坏习惯</a>。</p><p data-pid=\"KKP4QeCv\">考试只能作为一种研究工具。如果绝对必要，考试也可以被公司和机构用作处理大量无法管理的应用程序的过滤器。如果学校把考试作为录取的过滤器，他们可能会失去优秀的学生。</p><p data-pid=\"Uh_YdBKj\">考试是造成<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Problem_of_schooling\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">学校教育危害</a><sup data-text=\"我永远不会送我的孩子去学校\" data-url=\"https://zhuanlan.zhihu.com/p/73383015\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"10\">[10]</sup>的主要原因之一</p><a href=\"https://zhuanlan.zhihu.com/p/417595864\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-a894930ae6bfc083c4b2ab42af76fc2a_180x120.jpg\" data-image-width=\"1200\" data-image-height=\"826\" class=\"internal\">叶峻峣：考试</a><h2>哪如何考察英语？</h2><p data-pid=\"mAaahOJH\">类似英语四六级一样，每年都有两次考试机会，学生可以自主选择什么时候参加考试。</p><p data-pid=\"4teVTpCt\">更多相关内容可见：</p><a href=\"https://www.zhihu.com/question/20275692/answer/2386164401\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-4ae5342f29a2b1008425b8d6c39f99ac_ipico.jpg\" data-image-width=\"1304\" data-image-height=\"1112\" class=\"internal\">为什么许多人学了十几年英语仍旧学不好英语？</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1648389662,
   "excerpt": "定义 考试就是利用大考和小测对知识进行评估。一些设计良好的考试，可以提供对良好的知识和推理技能的评估。考试的问题考试的问题是，它通常是强制性的，而且是预先宣布的。强制性的高风险考试涉及压力。预先宣布的考试促进了 死记硬背 [1]。死记硬背 促进了无语义学习 [2]，导致专注于低质量的短期记忆。这种短视关注导致了干扰 [3]、糟糕的记忆稳定性 、糟糕的连贯性 [4]，增加了对不相关部分知识的遗忘 [5]，等等。考试还增加了压力 […",
-  "id": 2410290184,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2410290184",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://www.zhihu.com/question/20275692/answer/2386164401": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"为什么许多人学了十几年英语仍旧学不好英语？\",\"card_open_url\":\"https://www.zhihu.com/question/20275692/answer/2386164401\",\"desc\":\"187 赞同 · 38 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 从我自己的经历，以及二语习得理论来谈谈这个问题吧。 个人经历我是 00 年的，小学和初中都是在城乡结合部读的，高中在市里读的，可能没法代表大多数人的情况，所以我的个人经历仅供参考。 小学我依稀记得我小学是从 3 年级开始上英语的。但是我小学的时候几乎就对英语不感兴趣，现在记得的原因是，在英语考试发卷的时候和同桌聊天，被英语老师扇了一巴掌，半边脸肿了一天。从此埋下了对英语的厌恶。 初中老师要求我们要背诵课文…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-4ae5342f29a2b1008425b8d6c39f99ac.jpg?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"2386164401\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/417595864": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"考试\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/417595864\",\"desc\":\"42 赞同 · 6 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 定义 考试就是利用大考和小测对知识进行评估。一些设计良好的考试，可以提供对良好的知识和推理技能的评估。考试的问题考试的问题是，它通常是强制性的，而且是预先宣布的。强制性的高风险考试涉及压力。预先宣布的考试促进了 死记硬背 [1]。死记硬背 促进了无语义学习 [2]，导致专注于低质量的短期记忆。这种短视关注导致了干扰 [3]、糟糕的记忆稳定性 [4]、糟糕的连贯性 [5]，增加了对不相关部分知识的遗忘 [6]，等等。考试还增加了压力 …\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-a894930ae6bfc083c4b2ab42af76fc2a_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"417595864\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://www.zhihu.com/question/20275692/answer/2386164401": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"为什么许多人学了十几年英语仍旧学不好英语？\",\"card_open_url\":\"https://www.zhihu.com/question/20275692/answer/2386164401\",\"desc\":\"210 赞同 · 39 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 从我自己的经历，以及二语习得理论来谈谈这个问题吧。 个人经历我是 00 年的，小学和初中都是在城乡结合部读的，高中在市里读的，可能没法代表大多数人的情况，所以我的个人经历仅供参考。 小学我依稀记得我小学是从 3 年级开始上英语的。但是我小学的时候几乎就对英语不感兴趣，现在记得的原因是，在英语考试发卷的时候和同桌聊天，被英语老师扇了一巴掌，半边脸肿了一天。从此埋下了对英语的厌恶。 初中老师要求我们要背诵课文…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-4ae5342f29a2b1008425b8d6c39f99ac.jpg?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"2386164401\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/417595864": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"考试\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/417595864\",\"desc\":\"44 赞同 · 6 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 定义 考试就是利用大考和小测对知识进行评估。一些设计良好的考试，可以提供对良好的知识和推理技能的评估。考试的问题考试的问题是，它通常是强制性的，而且是预先宣布的。强制性的高风险考试涉及压力。预先宣布的考试促进了 死记硬背 [1]。死记硬背 促进了无语义学习 [2]，导致专注于低质量的短期记忆。这种短视关注导致了干扰 [3]、糟糕的记忆稳定性 [4]、糟糕的连贯性 [5]，增加了对不相关部分知识的遗忘 [6]，等等。考试还增加了压力 …\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-a894930ae6bfc083c4b2ab42af76fc2a_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"417595864\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=2410290184&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1641655527,
     "detail": "<p>中考取消英语，你支持吗？</p>",
-    "id": 510559953,
+    "id": "510559953",
     "question_type": "normal",
     "relationship": {},
     "title": "你支持英语退出中考吗？",
     "type": "question",
     "updated_time": 1641655527,
-    "url": "https://api.zhihu.com/questions/510559953"
+    "url": "https://www.zhihu.com/api/v4/questions/510559953"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1648389662,
+  "url": "https://www.zhihu.com/api/v4/answers/2410290184",
   "voteup_count": 16
 }

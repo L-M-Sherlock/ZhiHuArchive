@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-b10214702e40f6088c1f71cc1c60ca83.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -16,7 +17,7 @@
           "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
@@ -39,8 +40,8 @@
           "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -83,7 +84,7 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
@@ -99,9 +100,20 @@
   "content_need_truncated": false,
   "created_time": 1735919095,
   "excerpt": "除了高赞 @刘镇锐 提到的理由，我觉得还有其他支持的理由。你认为这个世界存在巨大的问题吗？ 你认为你现在做的事情有助于解决这个问题吗？ 如果对于这两个问题，你的答案分别是「存在」和「没有」，那就不奇怪为什么你害怕把孩子带到这个世界上来了。 毕竟，谁会想把自己都没把握去解决的问题，丢给一个对此一无所知的生命呢？ 改变这个世界，请从我们自己开始。当我们有了改变世界的信心、动机和能力，再来谈孩子，那也不晚。 …",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "71014538833",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=71014538833&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1444477237,
     "detail": "<p>反出生主义是一种哲学观点，对生殖持有否定态度。支持者认为人生苦多乐少，因此最正确的态度应该是不把孩子带到世界上来</p>",
@@ -111,11 +123,13 @@
     "title": "反出生主义有没有道理？生活有没有意义？若有，在哪里？生活的目标是什么？",
     "type": "question",
     "updated_time": 1635320074,
-    "url": "https://api.zhihu.com/questions/36365369"
+    "url": "https://www.zhihu.com/api/v4/questions/36365369"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 93
+  "updated_time": 1735919095,
+  "url": "https://www.zhihu.com/api/v4/answers/71014538833",
+  "voteup_count": 94
 }

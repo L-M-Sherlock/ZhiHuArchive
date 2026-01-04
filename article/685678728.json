@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "685678728",
+  "title": "斯坦福教授 Huberman：如何用科学的方法减肥？ep.21",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/685678728",
+  "image_url": "https://pic1.zhimg.com/v2-d40ff7a930b9cc60c592bb1a56b4d5e4_720w.jpg?source=172ae18b",
+  "title_image": "https://pic1.zhimg.com/v2-d40ff7a930b9cc60c592bb1a56b4d5e4_720w.jpg?source=172ae18b",
+  "excerpt": "Andrew Huberman 是在斯坦福大学任教的知名神经科学家，他的 Huberman Lab Podcast 是一独特且极具价值的播客系列，在英文互联网享有极高的知名度。播客中，他探讨并分享了许多关于睡眠、压力管理、学习、锻炼和营养等方面的知识与实用建议。Huberman 博士…",
+  "created": 1709783461,
   "updated": 1709783465,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "Andrew Huberman 是在斯坦福大学任教的知名神经科学家，他的 Huberman Lab Podcast …",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "美国",
+  "image_width": 0,
+  "image_height": 0,
+  "content": "<p data-pid=\"x9Hk2gzw\">Andrew Huberman 是在斯坦福大学任教的知名神经科学家，他的 Huberman Lab Podcast 是一独特且极具价值的播客系列，在英文互联网享有极高的知名度。播客中，他探讨并分享了许多关于睡眠、压力管理、学习、锻炼和营养等方面的知识与实用建议。Huberman 博士擅长用通俗易懂的语言深入浅出地解释复杂的科学概念，让每个人都能从这个播客中获益。截至目前，播客已近 200 期。</p><p data-pid=\"1P1pDAuV\">可即使这一播客系列是相当优秀的学习资源，由于其性质的原因，其内容有些过于口语化，显得拖沓、啰嗦，信噪比低。为了向更多人传播英文世界的优质内容，Thoughts Memo 汉化组启动了 Huberman Podcast 笔记工程。原 90 分钟左右的播客会被浓缩为一篇篇简短的文章，剔除重复、无意义的部分，将播客的精华保留下来，并用汉语文本的形式呈现。</p><p data-pid=\"PmhexwJh\"><b>大家在点收藏的同时，别忘了点个赞支持我们。</b></p><p data-pid=\"mn-pPt1S\">作者：Zero</p><p data-pid=\"W5NTqMfh\">原标题：How to Lose Fat with Science-Based Tools</p><hr/><p data-pid=\"QlUfMR-_\">众所周知，体脂率过高对健康有害，但减脂对于大多数人来说都不容易。</p><p data-pid=\"zJUrpQ50\">因此，本文将会介绍一些鲜为人知但易于实践的减脂方法，比方说冷冻法、棕色脂肪、米色脂肪、NEAT，这些方法都是来源于各种文献资料。</p><p data-pid=\"vf2PedOL\">本文还会讨论神经系统对于脂肪减少的调控作用，很多减脂方法都忽视这种重要的调控作用。</p><h2><b>卡路里</b></h2><p data-pid=\"S409CTIv\">摄入卡路里与消耗卡路里之间的平衡关系，是减脂和体重管理最重要且最基本的原则。</p><p data-pid=\"SBHsoz9C\">简而言之，<b>摄入 ＞ 消耗 = 增重</b>；<b>摄入 ＜ 消耗 = 减重</b>。</p><p data-pid=\"suAHvhC_\">影响卡路里消耗的因素有：</p><ol><li data-pid=\"6i1KAMR7\">产热环境：我们身体的温度<br/><br/></li><li data-pid=\"wURYahff\">新陈代谢水平：把食物转化为能量的速率<br/><br/></li><li data-pid=\"6N7THx1-\">甲状腺激素水平：它对新陈代谢的调节很重要<br/><br/></li><li data-pid=\"E1Psneg5\">神经支配程度：我们的神经元与脂肪细胞的连接数量。这是一个在减脂方法被忽视，但在科学文献中得到充分支持的因素。</li></ol><p data-pid=\"P97-xmvD\">（注：「支配」即 innervate，「支配脂肪的神经元」指的是那些调控脂肪储存和消耗的神经细胞。简单来说，就是大脑中的一些神经元能够控制我们身体里的脂肪。）</p><p data-pid=\"2HrayX9Z\">不过，如果你的健康基础、激素水平和新陈代谢方面有问题，那么你很难从运动或者减脂方法中取得明显效果。</p><p data-pid=\"ipyUox0N\">在作者的前几期节目中，已经讨论过睡眠质量、必需脂肪酸的摄入、以及甲状腺和新陈代谢的帮助，这里不再赘述。</p><h2><b>神经系统的力量</b></h2><p data-pid=\"7HFa6jCA\">作者在斯坦福的同事 Alia Crum 做了一项研究——信念和思考如何影响运动对减重的效果。</p><ul><li data-pid=\"ivZkRaOF\">实验的设计： 对于第一组服务员，研究人员告诉他们，他们的日常活动已经符合美国运动的标准，并简单讲解了运动对健康的好处； 对于第二组服务员，研究人员告诉他们，他们的日常活动对心血管健康有很大益处，还可以帮助减肥。 随后，研究人员对这些服务员进行了数周的跟踪研究。<br/><br/></li><li data-pid=\"C7WekMhu\">实验的结果：被告知运动有好处的那组，身体脂肪显著减少，腰臀比例也有所改善，可以说是有了「瘦身」的效果。而另一组，他们的心血管健康等方面也有积极影响。</li></ul><p data-pid=\"C33iMlex\">这项研究说明了：神经系统拥有控制我们生理状态的能力。</p><p data-pid=\"TKABfvhR\">我们通常认为这种控制能力超出意识控制的范畴，但实际上，我们的思维方式和活动的执行方式对生理状态有着实质性的影响。</p><h2><b>产热作用  </b></h2><p data-pid=\"EFqwsImA\">尽管我们常常对脂肪抱有抵触情绪，但在饥饿状态下，脂肪却扮演着核心能量供应者的角色。此外，脂肪同样是我们身体代谢机制中不可或缺的燃料。有趣的是，神经系统具有调控这一「体内炉火」、使其燃烧更为旺盛的能力。</p><p data-pid=\"bqEiTzqy\">有的人吃不胖，有的人随便吃点就胖了，其中原因牵扯到很多因素，很难解释清楚，因此单纯通过控制饮食来减肥比较「玄学」；相比之下，通过控制神经系统来减肥也许是更可行、原理更易于解释的方法。</p><p data-pid=\"ROwE_coO\">二战期间，有一家军工厂会招募一些女工从事炸弹、弹药等军事装备的编号涂写工作。在工作过程中，这些女工会偶尔会舔一下沾有油漆的刷子。结果，在没有改变饮食的情况下，她们出现了明显的体重减轻现象。</p><p data-pid=\"kl1J3ouq\">这种导致减重的化合物被命名为二硝基苯酚（Dinitrophenol，DNP）。</p><p data-pid=\"9NRYfvMA\">DNP 在一些小众领域，如健身界、运动员圈子甚至是模特行业，曾被滥用为快速减脂的手段。但是，DNP 是一种非常危险的化合物，因为它会导致体温急剧上升，还可能会导致死亡。</p><p data-pid=\"qs2Z__oO\">这件事告诉我们：体温可以影响我们的体重。而神经系统可以控制我们的能量利用的方式和体温，也就是说神经系统也可以影响我们的体重。</p><h2><b>脂肪的利用</b></h2><p data-pid=\"6eteMxiB\">虽然互联网上的诸多减脂策略主要围绕饮食管理和规律锻炼展开，但是人体的「热生成环境（thermogenic environment）」——即身体如何产生和利用热量——在减脂方面扮演着至关重要的角色。</p><h3><b>脂肪燃烧的过程</b></h3><ol><li data-pid=\"a0Rzifnc\"><b>脂肪动员</b>（Fat Mobilization）：这是脂肪从脂肪细胞中释放到血液循环的过程。这个过程由一种叫做脂肪酶（lipase）的酶催化，它可以分解脂肪细胞中的甘油和脂肪酸之间的化学键。<br/><br/></li><li data-pid=\"YkJUfclV\"><b>脂肪氧化（脂肪利用）</b>（Fat Oxidation）：释放到血液中的脂肪酸被运送到身体的细胞中，进入线粒体，然后通过氧化过程被转化为三磷酸腺苷（ATP，身体的能量货币）。</li></ol><p data-pid=\"jv__XbK-\">如果只是动员脂肪（Fat Mobilization）而不进行氧化（Fat Oxidation），脂肪动员后产生的脂肪酸会重新存储为脂肪。因此，神经系统的作用不仅限于增加脂肪的动员的能力，还在于加强对脂肪的氧化进程的调控。</p><h2><b>神经系统如何影响脂肪的燃烧？</b></h2><p data-pid=\"5qT-lxv0\">神经系统通过向脂肪组织发送特定信号，并释放一系列化学物质，尤其是肾上腺素这一关键激素，来激活并强化脂肪动员与氧化的过程。</p><p data-pid=\"c50ftCup\">肾上腺素的释放有两个主要来源：</p><ol><li data-pid=\"PXekmMJZ\"><b>肾上腺</b>：它位于我们的肾脏之上，负责分泌肾上腺素进入血液。</li><li data-pid=\"SgeeVU3q\"><b>交感神经系统</b>：它与刺激警觉和促进身体行动有关。</li></ol><p data-pid=\"YmocJX-F\">在过去的文献解读中，存在一个普遍误解，即认为血液中循环的肾上腺素是促进脂肪减少和氧化的主要驱动力。故而人们通常认为禁食、剧烈运动或压力状态下通过提高血浆肾上腺素水平来促进脂肪氧化。</p><p data-pid=\"47dIU9n3\">但实际上，真正激发脂肪细胞动员与氧化作用的肾上腺素并非主要来源于血液循环，而是源自那些直接与脂肪细胞形成神经连接的特定神经元所释放的。</p><p data-pid=\"S_LT3Xzd\">这意味着，通过科学方法直接激活这些与脂肪细胞相连的神经元，以增强其对脂肪组织的调控功能，是一个理论上更高效、针对性更强的减脂策略，能够有效地促使脂肪动员并被代谢消耗掉。</p><p data-pid=\"FqzA4bFJ\">减脂的过程实际上是一个复杂的神经系统调控活动，远不止简单的「卡路里摄入与消耗的差额」所能完全概括。其中，运动扮演着激活这一系统的关键角色。</p><p data-pid=\"n2BcRZlk\">运动能够直接作用于与脂肪细胞形成神经联系的神经元，从而刺激更多肾上腺素的释放，促进脂肪的动员和氧化。</p><h2><b>抖腿减肥</b></h2><p data-pid=\"ltLbJAY3\">通过激活神经系统实现减脂的运动中，有一种独特的方式是<b>颤抖</b>（shivering）。</p><p data-pid=\"-ltrt3gF\">在 1960 至 1970 年代，英国的一个研究团队注意到一个有趣的现象：有一部分人群即使过量饮食也不会增加体重。这些人的日常行为主要表现为「颤抖」，这种颤抖不是得了帕金森症的那种颤抖，而是一些频繁的小动作，如坐着时抖腿、交谈时伴有大幅度手势等，给人一种充满活力的印象，并被赋予「fidgeters」（坐立不安者）这一称呼。该研究表明：这类习惯性做出细微身体活动的人，在一天中通过诸如抖腿、点头、频繁站立和坐下以及走动等活动，比对照组能够额外消耗大约 800 至 2500 卡路里的热量。</p><p data-pid=\"39O3GE2F\">现代科研也进一步证实了上述观察结果。在 2015 年和 2017 年的一些研究中，科学家运用先进的代谢跟踪技术进行了深入探究，发现日常生活中的简单多动行为，如抖腿、频繁地站立和走动，可以在食物摄入量相同的情况下带来明显的脂肪减少和体重下降的效果。</p><p data-pid=\"xdQiVHAP\">颤抖作为身体对寒冷刺激的自然反应，能够显著促进肾上腺素分泌，进而增强脂肪氧化作用。不过，除了因寒冷引发的颤抖之外，还存在其他更为微妙的身体运动形式，这些运动同样可以极大地提升体内脂肪代谢效率。</p><p data-pid=\"Nv_R3rA9\">如果有人过量饮食，他可以通过增加这些日常微小动作来抵消多余的能量摄入。如果他试图减肥，并且有意识地增加日常生活中的微动，他们会发现自己的体重减轻的效果提升了 20 到 30%。</p><p data-pid=\"F6Yv34De\">这种方法似乎对那些已经有些超重的人效果最好。这是一种不需要进行额外长跑就能增加燃烧卡路里的方法，特别适合那些对锻炼有抵触情绪的超重人群，或者是那些时间有限或不愿意接受常规锻炼的人。</p><p data-pid=\"pnGZotEw\">所以，除了传统的锻炼方式（比如跑步或游泳），我们日常生活中的一些微小动作（比如「乱动」、晃膝盖、频繁站立和坐下）也能帮助我们燃烧卡路里并减少脂肪。这种微小动作被称为非运动性活动产热（Non-Exercise Activity Thermogenesis，NEAT）。</p><p data-pid=\"dnyRqU0V\">虽然这样的颤抖运动以及日常微小动作确实能够在一定程度上帮助减轻体重，但作者仍然希望人们保持定期的规律锻炼，因为这对大脑和身体其他方面的健康非常重要。</p><h3><b>寒冷</b></h3><p data-pid=\"w5tdC9tM\">说到颤抖，我们很容易联想到寒冷，因为有「打冷颤」这个词。因此，除了通过NEAT 来颤抖，我们还可以利用寒冷来颤抖，从而加速脂肪燃烧。</p><p data-pid=\"ryfV_h6b\">几年前，有一项研究发表在 Nature 上，它准确地展示了寒冷是如何增加新陈代谢和脂肪损失的。</p><p data-pid=\"afFR3pTq\">首先，我们体内有三种脂肪细胞：</p><ol><li data-pid=\"eMH6Ki9J\"><b>白色脂肪组织</b>（White Adipose Tissue）：这是我们通常所说的脂肪，它储存在皮下，主要作为能量存储，<b>并不富含线粒体</b>。<br/><br/></li><li data-pid=\"nG5gngwY\"><b>棕色脂肪组织</b>（Brown Adipose Tissue）：这种脂肪主要存在于肩胛骨之间和颈背部，<b>富含线粒体</b>，因此呈棕色。棕色脂肪能够直接将食物能量转化为热量，帮助身体保持温暖。（注：因此，网络上很多相关的减肥博主把「棕色脂肪」称为「让人吃不胖的脂肪」）<br/><br/></li><li data-pid=\"LYAnYBBl\"><b>米色脂肪组织</b>（Beige Adipose Tissue）：介于白色和棕色脂肪之间，<b>含有一些线粒体</b>，但没有棕色脂肪那么多。</li></ol><p data-pid=\"hzpRxI3a\">而接触寒冷的环境对脂肪有两个方面的影响：</p><ul><li data-pid=\"1hjcOAso\">刺激肾上腺素释放：寒冷的环境会刺激肾上腺素的释放，还会引起肾上腺素从连接到脂肪的这些神经元释放。<br/><br/></li><li data-pid=\"Su-GWM2G\">促进新陈代谢：寒冷的环境会激活棕色脂肪，并将更多的米色脂肪转化为棕色脂肪，从而增加身体热量的产生。</li></ul><p data-pid=\"z2EfEqcb\">当我们洗冷水澡的时候，或者是在冬天打冷颤的时候，我们就激活了棕色脂肪产热机制。</p><p data-pid=\"WPpaqyGq\">回想起本文开头提到的摄入和消耗，我们提出的这些减脂方法，本质都是在增加身体内部热量的强度，从而增加能量的燃烧量。</p><p data-pid=\"V4vlSKta\">在 Nature 上发表的论文指出，颤抖会激活棕色脂肪，从而增加热量的产生和新陈代谢率。</p><p data-pid=\"VcybepSi\">当人体颤抖时，肌肉的微小运动会触发一种叫做琥珀酸（succinate）的分子释放。琥珀酸作用于棕色脂肪，增加其热量产生效率和整体的脂肪燃烧能力。这不仅会立即增加身体产生的热量，而且随着时间的推移，还能够将米色脂肪转化为棕色脂肪。</p><p data-pid=\"4auYvgfT\">有研究指出，并不是暴露在寒冷环境中的时间越长，效果就会越好。每周 1~5 次就可以达到减脂效果。我们的目标是通过颤抖来诱导琥珀酸的释放，所以最好的方法是反复进出寒冷环境，而不是一直呆在寒冷环境中。</p><p data-pid=\"EzCW9Lch\">此外，这个寒冷的环境并不是真的冷到让水结冰的地步，不同的人对于温度的适应能力不同，所以这个温度要自己把握，只要记住最后的目标是打冷颤就行了。</p><p data-pid=\"VPJEDzYh\">一个比较好的方法就是：洗冷水澡的时候，调一个能让自己打冷颤的水温，洗 1 分钟后停止。不要擦干身体，1~3 分钟后再继续洗。反复 3 次就行了。</p><p data-pid=\"0y3-shyT\">不过，一段时间后洗冷水澡可能就无法让你打冷颤了（适应了），所以你可以寻找其他方式来接触寒冷，比如说冬泳，但这要注意安全。</p><p data-pid=\"Pkn0RMYa\">几年前，有人发现了一种名为 irisin 的激素，人们认为它可以增加人体的新陈代谢从而达到减脂效果，不过这方面的研究一直没有进展。所以，目前减肥药物的研究焦点集中在琥珀酸上。</p><h2><b>再谈棕色脂肪</b></h2><p data-pid=\"sPCP9Igh\">棕色脂肪是一种特殊类型的脂肪，其核心功能在于产生热量以协助身体维持恒温。我们在婴儿时期拥有大量的棕色脂肪。</p><p data-pid=\"9Bn8KxPd\">婴儿时期，由于神经系统的某些部分（那些将肾上腺素释放到脂肪中的神经元）尚未完全发育或数量不足，婴儿无法通过颤抖来产生热量。作为弥补，我们早期的生命中被赋予了过量的棕色脂肪，这些脂肪主要分布在上背部、背部中央和颈背部。</p><p data-pid=\"JVE1nHky\">随着年龄的增长，如果我们不经常暴露在寒冷环境中或者进行其他能引起颤抖的活动，体内原本丰富的棕色脂肪会逐渐减少。</p><p data-pid=\"278W9jR2\">有研究认为，棕色脂肪不仅可以增大，还可以产生新的细胞。但这种说法存在争议，因为人们普遍认为脂肪细胞数量无法改变，只能缩小或增加它们的大小。</p><p data-pid=\"72U1dN4r\">不过，肾上腺素和体内循环的琥珀酸<b>可能</b>（这一点还有争议）促进将米色脂肪转化为棕色脂肪，从而增加棕色脂肪细胞的数量。</p><p data-pid=\"xExQPeFm\">如果你有兴趣了解更多关于神经元如何与脂肪相连的知识，推荐阅读一篇发表在 Frontiers in Neuroendocrinology 的论文，标题是 <i>Neural Innervation of White Adipose Tissue and the Control of Lipolysis </i>（白色脂肪组织的神经支配和脂解的控制）。</p><h2><b>关于局部减脂</b></h2><p data-pid=\"YbJlzsjW\">有很多广告都在谈论局部减脂，比如说做仰卧起坐可以减少腹部脂肪、做臀部提拉可以减少臀部脂肪。你可能不会相信这些广告，因为你知道，脂肪代谢是在全身系统性地发生的。</p><p data-pid=\"CBG5cNDR\">但有相关的科学文献表明，通过特定的运动激活那些支配脂肪的神经纤维，理论上可以增加在特定「脂肪垫（fat pads）」内释放的肾上腺素，从而可能实现真正的局部脂肪减少。</p><p data-pid=\"eiOslNtO\">因此，理论上，通过刺激肾上腺素的释放的运动，结合颤抖、轻微的震动运动或非运动活动产热可以增强局部的脂肪动员。</p><p data-pid=\"5C2d11gr\">作者猜测：进行涉及多个身体部位的运动，可能会增加支配全身脂肪的神经元。尝试多样化的运动模式或探索新的锻炼方式，可能是接触这种顽固脂肪垫（stubborn fat pads）的一种方式。一旦人体对某种特定的运动形式适应，该运动所引发的针对脂肪组织的神经元刺激可能会逐渐减弱。为了维持这些神经元活跃，需要给它一个强烈的刺激，比如寒冷、颤抖或新的运动形式。</p><h2><b>常规的运动就可以减脂</b></h2><p data-pid=\"ve8OpmB7\">常规的运动已经被证明可以增加新陈代谢和减少脂肪，但具体效果取决于多种因素，例如运动时是否空腹，或者是先进行有氧运动还是抗阻训练。</p><p data-pid=\"647GYH3U\">虽然不像营养和饮食那样争议重重，但运动减脂仍是一个有争议的话题。运动的不同类型以不同的方式激活身体的肌肉、心脏和肺部，并且根据运动的强度（高、中、低）对激素和新陈代谢有着截然不同的影响。</p><p data-pid=\"yRkYLWsf\">与其考虑举重训练与有氧运动哪个好，不如先来聊聊运动强度的「高中低」之分：</p><ol><li data-pid=\"6-G82uGD\">冲刺间歇训练（SIT）：全力以赴，用超过 100% VO2 最大值的活动爆发（注： VO2 值是指氧气摄取量（Volume of Oxygen），它是衡量身体在一分钟内能够使用多少氧气的指标；VO2 最大值（VO2 max）是个体在最大运动努力下能达到的最大氧气摄取量，是有氧耐力的黄金标准。），持续 8 到 30 秒，然后穿插较为平缓的恢复期。所以这可能是在场地上冲刺 8 到 30 秒，然后可能走回来一两分钟，然后再次冲刺，然后继续。<br/><br/></li><li data-pid=\"543Z0eWP\">高强度间歇训练（HIIT）：用 80% 到 100% VO2 最大值的活动爆发，持续 60 到 240 秒，穿插较为平缓的恢复期。<br/><br/></li><li data-pid=\"5pW7V1Hf\">中等强度连续训练（MICT）：这是一种比较稳定的有氧运动状态，通常在互联网上称为 Zone 2 心率区间，连续进行 20 到 60 分钟，强度为 40% ~ 60% 的 VO2 最大值，或者 55% ~ 70% 的最大心率。（注：Zone 2 心率区间是指运动时心率达到最大心率的一定百分比区间。这个区间通常与有氧耐力训练相关，是一种中等强度的运动状态，可以持续较长时间进行而不会过度疲劳。）</li></ol><p data-pid=\"Jpl3awrd\">运动的强度很重要，因为它决定了运动的类型和效果。</p><h2><b>空腹运动能否更好减脂？</b></h2><p data-pid=\"zxNksKca\">所谓的「空腹」运动，指的是在没有摄入任何食物的情况下进行运动。可能是清晨起床后，在仅摄入水分的前提下进行锻炼，或者在运动前摄入咖啡因，不过运动前摄入咖啡因是否会影响空腹状态是争议的。</p><p data-pid=\"Vm9Mtfnw\">空腹也可能意味着在过去的 3 ~ 24 小时甚至更长时间内没有进食，举例来说，比如下午四五点或六点，晚饭前的空腹状态。</p><p data-pid=\"tGCx5j9u\">有人说：因为脂肪和蛋白质不会像其他食物那样导致胰岛素大幅增加，所以即使是在摄入少量的脂肪或蛋白质（比如几颗杏仁）后进行锻炼也可能是可以的。</p><p data-pid=\"J0r3tnpF\">有研究表明，运动前摄入含糖食物可能会减少运动中的脂肪氧化。但也有研究表明，运动前或运动中进食并不会减少脂肪的氧化。这是因为不同研究中的运动类型和强度差异很大，因此很难确定一个理想的运动方案。</p><p data-pid=\"riGYzbkl\">作者从众多文献中总结出来一个规律：</p><ul><li data-pid=\"yz3evQsK\">进行大约 90 分钟的中等强度的有氧运动时，会有一个转折点。在这个转折点之后，如果你在运动前吃过东西（在运动前 1 到 3 小时内），从第 90 分钟开始，你燃烧脂肪的量会减少。换句话说，如果你在运动前吃过东西，那么在运动了 90 分钟后，燃烧的脂肪会比空腹运动时少。<br/><br/></li><li data-pid=\"kb3FJLFY\">如果你在运动前进行了长时间的禁食（至少 3 小时以上没有进食），那么从运动开始后的第 90 分钟起，你开始燃烧的脂肪量会比进食后运动的情况要多。<br/><br/></li><li data-pid=\"qisTQaVW\">但要注意，90 分钟中等强度运动难度不小，可能涵盖了长距离的跑步、游泳、步行或徒步。但对于那些准备进行全天的远足、长跑或步行的人来说，如果他们的目标是燃烧更多的脂肪，那么空腹运动可能是一个更有效的策略。</li></ul><p data-pid=\"PepEjOMB\">现在也有研究指出，90 分钟不是必须的。如果进行高强度训练，比如短跑、深蹲、硬拉等运动，这种转折点会提前出现。这是因为高强度运动可以更快地耗尽肌肉中的糖原储备，迫使身体开始燃烧储存的脂肪。</p><p data-pid=\"2Y9zHJtv\">对于中等强度的有氧运动来说，通常在运动进行约90分钟后，身体会从主要依赖糖原（主要源自肌肉和肝脏）供能转向更多地利用储备的脂肪。这种转换并非由人的主观意识控制，而是由体内一系列激素调节机制所决定，胰岛素水平必须下降到足够低。</p><h2><b>运动与新陈代谢</b></h2><p data-pid=\"VUkQR5G5\">通常，人们会关注运动期间燃烧了多少卡路里，但这种关注忽视了更重要的问题——运动后身体新陈代谢的增加。</p><p data-pid=\"5TGU3IcZ\">高强度运动（如举重、短跑、俯卧撑、仰卧起坐等）主要消耗糖原，并且会燃烧比中等强度运动更多的能量。更有趣的是，这种高强度运动后，身体在恢复期间会燃烧更多脂肪。这是因为高强度运动后，人体的氧气消耗量（有时称为运动后氧消耗）增加，这种增加有时可持续长达 24 小时，而在这段时间内，身体主要燃烧脂肪而非糖原。</p><p data-pid=\"rtNw0Yke\">对于进行长时间低或中等强度运动（如跑步、游泳、骑自行车等）的人来说，他们在运动期间燃烧了更多的脂肪，但在运动后燃烧的则主要是糖原。</p><p data-pid=\"RJr7kAxB\">高强度运动后再进行中等强度运动，这整体上最有利于燃烧脂肪。这是因为高强度运动能够在运动后提高基础代谢率，从而有助于持续燃烧体脂。</p><p data-pid=\"UiTi3ZBC\">把上述内容简化为一个简单的减肥方案，那就是：每周三到四次进行高强度训练。这种训练可以单独进行，或者在高强度训练后跟随一段低强度训练。如果能在空腹状态下进行这样的训练，那会更好。</p><p data-pid=\"IGY2KsAx\">但如果你的目标不是减肥，而是提高运动表现（比如参加体育比赛），那么你<b>需要调整饮食。</b></p><h2><b>对减脂有用的化合物</b></h2><h3><b>肾上腺素</b></h3><p data-pid=\"gjJyFshR\">实际上，任何种类的运动，无论是颤抖、举起杠铃冲上山，还是长时间的骑行，肾上腺素都在减少体内脂肪的过程中扮演着重要角色。</p><p data-pid=\"lt8uYFcw\">如果把脂肪比作等待燃烧的木材，那么肾上腺素就是打火机和鼓风机，它既可以点燃这堆木材，也可以控制火势的大小。</p><h3><b>咖啡因</b></h3><p data-pid=\"Iq1wSuQE\">除了肾上腺素，还有一种东西对减脂有用，那就是咖啡因。</p><p data-pid=\"8b4weYN9\">咖啡因是一种常见的化合物，它可以增强体能表现，并促进脂肪燃烧。如果人们适应了咖啡因的摄入，咖啡因可以通过增加肾上腺素的释放来增加脂肪燃烧。运动前摄入咖啡因，可以增加脂肪的燃烧量。此外，咖啡因还可以改变脂肪与糖原的氧化之比。</p><p data-pid=\"DaW0AbvG\">但要注意：如果你不习惯摄入咖啡因，大量摄入咖啡因可能会导致血管收缩，从而引发心血管疾病。</p><h3><b>麻黄素（ephedrine）</b></h3><p data-pid=\"jOBEkXJ-\">这是一种曾广泛用来减脂的化合物，因为它能够通过肾上腺素受体增加体温和热量的产生。然而，由于使用麻黄素后发生过多起因体温过高而导致的致命案例，因此在许多国家和地区，使用麻黄素作为减脂手段已被明确列为非法行为。</p><h3><b>Fen-Phen</b></h3><p data-pid=\"5BMkso3x\">这是一种被称为氟苯那敏（fenfluramine）的药物，它曾经作为一种抗肥胖药物风靡一时。但由于它对心血管有副作用，从而致人死亡，最终 FDA（美国食品药品监督管理局）撤销了对其的批准。</p><h3><b>GLP-1</b></h3><p data-pid=\"V1KwcW9C\">GLP-1（胰高血糖素样肽-1）是一种可以促进脂肪燃烧的物质，可以通过饮用马黛茶（yerba mate）来增加体内的GLP-1水平。</p><p data-pid=\"9k1vMHJX\">有一类正在研发中或已用于治疗糖尿病的药物，这些药物作用于 GLP-1 途径，有助于减重和降低食欲。其中一个药物是塞美格鲁肽（Semaglutide），它是 GLP-1 的类似物，需要处方使用。</p><p data-pid=\"DrJr_wn2\">如果你不喜欢马黛茶，你可以试试瓜尤萨茶（guayusa），它产自厄瓜多尔，口味比马黛茶甜。</p><h3><b>胰岛素和胰高血糖素</b></h3><p data-pid=\"egFaU3Aw\">胰岛素与胰高血糖素这两种激素在体内共同承担着调节血糖水平的职责。有许多因素可以影响胰岛素和胰高血糖素的水平，从而使身体倾向于更多地燃烧脂肪。</p><p data-pid=\"ValJkqV7\">在之前关于激素的一期节目中，我们有详细讨论这些因素。例如，黄连素（berberine）和二甲双胍（metformin）是两种可以有效降低血糖的化合物，因为它们可以降低胰岛素水平，从而帮助脂肪燃烧。</p><h3><b>左旋肉碱和乙酰左旋肉碱</b></h3><p data-pid=\"EhaQ1Wdn\">左旋肉碱（L-carnitine）或乙酰左旋肉碱（acetyl-L-carnitine）是参与脂肪代谢的化合物，它们会将脂肪酸转化为 ATP。</p><p data-pid=\"IB_Bt2IP\">左旋肉碱可以影响激素，有研究表明它对怀孕率和精子质量有显著影响。它也轻微降低血压，以及减少运动中的疲劳和炎症标志物。乙酰左旋肉碱是左旋肉碱在体内最容易被运输和利用的一种形式。</p><p data-pid=\"Q2MMnkJ9\">除了促进脂肪氧化外，乙酰左旋肉碱还有多种对细胞代谢有益的效果，比如降低血液中的氨水平、降低 C 反应蛋白（C-reactive protein，一种炎症标志物）、轻微降低血糖、增加高密度脂蛋白胆固醇（这是有益的胆固醇形式）以及轻微降低总胆固醇。</p><h2><b>饮食和营养</b></h2><p data-pid=\"9gha22da\">根据斯坦福大学加德纳实验室和其他实验室的坚实证据，在不同的饮食方式（低脂饮食、高脂饮食、生酮饮食、间歇性禁食等）下，只要能坚持他们特定的饮食，哪种饮食方式并不真正重要。只要这种饮食方式健康，能长期坚持就行了。</p><p data-pid=\"-hRGr28G\">作者本人更喜欢较低的碳水摄入饮食，这可以帮助他在白天集中注意力。</p><h2><b>最后，祝愿每个努力瘦身的人都能在新的一年里轻装上阵！</b></h2><hr/><p data-pid=\"_5_rQeWb\">系列目录：<a href=\"https://zhuanlan.zhihu.com/p/676445568\" class=\"internal\" target=\"_blank\">Thoughts Memo：全网首发：Huberman Lab Podcast 全系列笔记（持续更新）</a></p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19553128",
+      "type": "topic",
+      "id": "19553128",
+      "name": "减肥"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19554375",
+      "type": "topic",
+      "id": "19554375",
+      "name": "斯坦福大学 (Stanford University)"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19621010",
+      "type": "topic",
+      "id": "19621010",
+      "name": "瘦身"
+    }
+  ],
+  "voteup_count": 120,
+  "voting": 1,
+  "heavy_up_status": "has_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "好睡眠，好学习，好生活",
+    "is_following": false,
+    "url_token": "c_1525846593119449088",
+    "id": "c_1525846593119449088",
+    "articles_count": 97,
+    "accept_submission": true,
+    "title": "睡眠研究 & 生活建议",
+    "url": "https://api.zhihu.com/columns/c_1525846593119449088",
+    "comment_permission": "all",
+    "created": 1656570176,
+    "updated": 1751877207,
+    "image_url": "https://picx.zhimg.com/v2-080a085ec59b78d9d731960f7b0fdb50_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 339,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 5,
+  "contributions": [
+    {
+      "id": 48066620,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "好睡眠，好学习，好生活",
+        "is_following": false,
+        "url_token": "c_1525846593119449088",
+        "id": "c_1525846593119449088",
+        "articles_count": 97,
+        "accept_submission": true,
+        "title": "睡眠研究 & 生活建议",
+        "url": "https://api.zhihu.com/columns/c_1525846593119449088",
+        "comment_permission": "all",
+        "created": 1656570176,
+        "updated": 1751877207,
+        "image_url": "https://picx.zhimg.com/v2-080a085ec59b78d9d731960f7b0fdb50_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 339,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 685678728,
-  "voteup_count": 110,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 104,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "斯坦福教授 Huberman：如何用科学的方法减肥？ep.21 - 来自知乎专栏「睡眠研究 &amp; 生活建议」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/685678728 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1709783461,
-  "url": "https://api.zhihu.com/articles/685678728",
-  "comment_permission": "all",
-  "title": "斯坦福教授 Huberman：如何用科学的方法减肥？ep.21",
-  "image_width": 0,
-  "content": "<p data-pid=\"x9Hk2gzw\">Andrew Huberman 是在斯坦福大学任教的知名神经科学家，他的 Huberman Lab Podcast 是一独特且极具价值的播客系列，在英文互联网享有极高的知名度。播客中，他探讨并分享了许多关于睡眠、压力管理、学习、锻炼和营养等方面的知识与实用建议。Huberman 博士擅长用通俗易懂的语言深入浅出地解释复杂的科学概念，让每个人都能从这个播客中获益。截至目前，播客已近 200 期。</p><p data-pid=\"1P1pDAuV\">可即使这一播客系列是相当优秀的学习资源，由于其性质的原因，其内容有些过于口语化，显得拖沓、啰嗦，信噪比低。为了向更多人传播英文世界的优质内容，Thoughts Memo 汉化组启动了 Huberman Podcast 笔记工程。原 90 分钟左右的播客会被浓缩为一篇篇简短的文章，剔除重复、无意义的部分，将播客的精华保留下来，并用汉语文本的形式呈现。</p><p data-pid=\"PmhexwJh\"><b>大家在点收藏的同时，别忘了点个赞支持我们。</b></p><p data-pid=\"mn-pPt1S\">作者：Zero</p><p data-pid=\"W5NTqMfh\">原标题：How to Lose Fat with Science-Based Tools</p><hr/><p data-pid=\"QlUfMR-_\">众所周知，体脂率过高对健康有害，但减脂对于大多数人来说都不容易。</p><p data-pid=\"zJUrpQ50\">因此，本文将会介绍一些鲜为人知但易于实践的减脂方法，比方说冷冻法、棕色脂肪、米色脂肪、NEAT，这些方法都是来源于各种文献资料。</p><p data-pid=\"vf2PedOL\">本文还会讨论神经系统对于脂肪减少的调控作用，很多减脂方法都忽视这种重要的调控作用。</p><h2><b>卡路里</b></h2><p data-pid=\"S409CTIv\">摄入卡路里与消耗卡路里之间的平衡关系，是减脂和体重管理最重要且最基本的原则。</p><p data-pid=\"SBHsoz9C\">简而言之，<b>摄入 ＞ 消耗 = 增重</b>；<b>摄入 ＜ 消耗 = 减重</b>。</p><p data-pid=\"suAHvhC_\">影响卡路里消耗的因素有：</p><ol><li data-pid=\"6i1KAMR7\">产热环境：我们身体的温度<br/><br/></li><li data-pid=\"wURYahff\">新陈代谢水平：把食物转化为能量的速率<br/><br/></li><li data-pid=\"6N7THx1-\">甲状腺激素水平：它对新陈代谢的调节很重要<br/><br/></li><li data-pid=\"E1Psneg5\">神经支配程度：我们的神经元与脂肪细胞的连接数量。这是一个在减脂方法被忽视，但在科学文献中得到充分支持的因素。</li></ol><p data-pid=\"P97-xmvD\">（注：「支配」即 innervate，「支配脂肪的神经元」指的是那些调控脂肪储存和消耗的神经细胞。简单来说，就是大脑中的一些神经元能够控制我们身体里的脂肪。）</p><p data-pid=\"2HrayX9Z\">不过，如果你的健康基础、激素水平和新陈代谢方面有问题，那么你很难从运动或者减脂方法中取得明显效果。</p><p data-pid=\"ipyUox0N\">在作者的前几期节目中，已经讨论过睡眠质量、必需脂肪酸的摄入、以及甲状腺和新陈代谢的帮助，这里不再赘述。</p><h2><b>神经系统的力量</b></h2><p data-pid=\"7HFa6jCA\">作者在斯坦福的同事 Alia Crum 做了一项研究——信念和思考如何影响运动对减重的效果。</p><ul><li data-pid=\"ivZkRaOF\">实验的设计： 对于第一组服务员，研究人员告诉他们，他们的日常活动已经符合美国运动的标准，并简单讲解了运动对健康的好处； 对于第二组服务员，研究人员告诉他们，他们的日常活动对心血管健康有很大益处，还可以帮助减肥。 随后，研究人员对这些服务员进行了数周的跟踪研究。<br/><br/></li><li data-pid=\"C7WekMhu\">实验的结果：被告知运动有好处的那组，身体脂肪显著减少，腰臀比例也有所改善，可以说是有了「瘦身」的效果。而另一组，他们的心血管健康等方面也有积极影响。</li></ul><p data-pid=\"C33iMlex\">这项研究说明了：神经系统拥有控制我们生理状态的能力。</p><p data-pid=\"TKABfvhR\">我们通常认为这种控制能力超出意识控制的范畴，但实际上，我们的思维方式和活动的执行方式对生理状态有着实质性的影响。</p><h2><b>产热作用  </b></h2><p data-pid=\"EFqwsImA\">尽管我们常常对脂肪抱有抵触情绪，但在饥饿状态下，脂肪却扮演着核心能量供应者的角色。此外，脂肪同样是我们身体代谢机制中不可或缺的燃料。有趣的是，神经系统具有调控这一「体内炉火」、使其燃烧更为旺盛的能力。</p><p data-pid=\"bqEiTzqy\">有的人吃不胖，有的人随便吃点就胖了，其中原因牵扯到很多因素，很难解释清楚，因此单纯通过控制饮食来减肥比较「玄学」；相比之下，通过控制神经系统来减肥也许是更可行、原理更易于解释的方法。</p><p data-pid=\"ROwE_coO\">二战期间，有一家军工厂会招募一些女工从事炸弹、弹药等军事装备的编号涂写工作。在工作过程中，这些女工会偶尔会舔一下沾有油漆的刷子。结果，在没有改变饮食的情况下，她们出现了明显的体重减轻现象。</p><p data-pid=\"kl1J3ouq\">这种导致减重的化合物被命名为二硝基苯酚（Dinitrophenol，DNP）。</p><p data-pid=\"9NRYfvMA\">DNP 在一些小众领域，如健身界、运动员圈子甚至是模特行业，曾被滥用为快速减脂的手段。但是，DNP 是一种非常危险的化合物，因为它会导致体温急剧上升，还可能会导致死亡。</p><p data-pid=\"qs2Z__oO\">这件事告诉我们：体温可以影响我们的体重。而神经系统可以控制我们的能量利用的方式和体温，也就是说神经系统也可以影响我们的体重。</p><h2><b>脂肪的利用</b></h2><p data-pid=\"6eteMxiB\">虽然互联网上的诸多减脂策略主要围绕饮食管理和规律锻炼展开，但是人体的「热生成环境（thermogenic environment）」——即身体如何产生和利用热量——在减脂方面扮演着至关重要的角色。</p><h3><b>脂肪燃烧的过程</b></h3><ol><li data-pid=\"a0Rzifnc\"><b>脂肪动员</b>（Fat Mobilization）：这是脂肪从脂肪细胞中释放到血液循环的过程。这个过程由一种叫做脂肪酶（lipase）的酶催化，它可以分解脂肪细胞中的甘油和脂肪酸之间的化学键。<br/><br/></li><li data-pid=\"YkJUfclV\"><b>脂肪氧化（脂肪利用）</b>（Fat Oxidation）：释放到血液中的脂肪酸被运送到身体的细胞中，进入线粒体，然后通过氧化过程被转化为三磷酸腺苷（ATP，身体的能量货币）。</li></ol><p data-pid=\"jv__XbK-\">如果只是动员脂肪（Fat Mobilization）而不进行氧化（Fat Oxidation），脂肪动员后产生的脂肪酸会重新存储为脂肪。因此，神经系统的作用不仅限于增加脂肪的动员的能力，还在于加强对脂肪的氧化进程的调控。</p><h2><b>神经系统如何影响脂肪的燃烧？</b></h2><p data-pid=\"5qT-lxv0\">神经系统通过向脂肪组织发送特定信号，并释放一系列化学物质，尤其是肾上腺素这一关键激素，来激活并强化脂肪动员与氧化的过程。</p><p data-pid=\"c50ftCup\">肾上腺素的释放有两个主要来源：</p><ol><li data-pid=\"PXekmMJZ\"><b>肾上腺</b>：它位于我们的肾脏之上，负责分泌肾上腺素进入血液。</li><li data-pid=\"SgeeVU3q\"><b>交感神经系统</b>：它与刺激警觉和促进身体行动有关。</li></ol><p data-pid=\"YmocJX-F\">在过去的文献解读中，存在一个普遍误解，即认为血液中循环的肾上腺素是促进脂肪减少和氧化的主要驱动力。故而人们通常认为禁食、剧烈运动或压力状态下通过提高血浆肾上腺素水平来促进脂肪氧化。</p><p data-pid=\"47dIU9n3\">但实际上，真正激发脂肪细胞动员与氧化作用的肾上腺素并非主要来源于血液循环，而是源自那些直接与脂肪细胞形成神经连接的特定神经元所释放的。</p><p data-pid=\"S_LT3Xzd\">这意味着，通过科学方法直接激活这些与脂肪细胞相连的神经元，以增强其对脂肪组织的调控功能，是一个理论上更高效、针对性更强的减脂策略，能够有效地促使脂肪动员并被代谢消耗掉。</p><p data-pid=\"FqzA4bFJ\">减脂的过程实际上是一个复杂的神经系统调控活动，远不止简单的「卡路里摄入与消耗的差额」所能完全概括。其中，运动扮演着激活这一系统的关键角色。</p><p data-pid=\"n2BcRZlk\">运动能够直接作用于与脂肪细胞形成神经联系的神经元，从而刺激更多肾上腺素的释放，促进脂肪的动员和氧化。</p><h2><b>抖腿减肥</b></h2><p data-pid=\"ltLbJAY3\">通过激活神经系统实现减脂的运动中，有一种独特的方式是<b>颤抖</b>（shivering）。</p><p data-pid=\"-ltrt3gF\">在 1960 至 1970 年代，英国的一个研究团队注意到一个有趣的现象：有一部分人群即使过量饮食也不会增加体重。这些人的日常行为主要表现为「颤抖」，这种颤抖不是得了帕金森症的那种颤抖，而是一些频繁的小动作，如坐着时抖腿、交谈时伴有大幅度手势等，给人一种充满活力的印象，并被赋予「fidgeters」（坐立不安者）这一称呼。该研究表明：这类习惯性做出细微身体活动的人，在一天中通过诸如抖腿、点头、频繁站立和坐下以及走动等活动，比对照组能够额外消耗大约 800 至 2500 卡路里的热量。</p><p data-pid=\"39O3GE2F\">现代科研也进一步证实了上述观察结果。在 2015 年和 2017 年的一些研究中，科学家运用先进的代谢跟踪技术进行了深入探究，发现日常生活中的简单多动行为，如抖腿、频繁地站立和走动，可以在食物摄入量相同的情况下带来明显的脂肪减少和体重下降的效果。</p><p data-pid=\"xdQiVHAP\">颤抖作为身体对寒冷刺激的自然反应，能够显著促进肾上腺素分泌，进而增强脂肪氧化作用。不过，除了因寒冷引发的颤抖之外，还存在其他更为微妙的身体运动形式，这些运动同样可以极大地提升体内脂肪代谢效率。</p><p data-pid=\"Nv_R3rA9\">如果有人过量饮食，他可以通过增加这些日常微小动作来抵消多余的能量摄入。如果他试图减肥，并且有意识地增加日常生活中的微动，他们会发现自己的体重减轻的效果提升了 20 到 30%。</p><p data-pid=\"F6Yv34De\">这种方法似乎对那些已经有些超重的人效果最好。这是一种不需要进行额外长跑就能增加燃烧卡路里的方法，特别适合那些对锻炼有抵触情绪的超重人群，或者是那些时间有限或不愿意接受常规锻炼的人。</p><p data-pid=\"pnGZotEw\">所以，除了传统的锻炼方式（比如跑步或游泳），我们日常生活中的一些微小动作（比如「乱动」、晃膝盖、频繁站立和坐下）也能帮助我们燃烧卡路里并减少脂肪。这种微小动作被称为非运动性活动产热（Non-Exercise Activity Thermogenesis，NEAT）。</p><p data-pid=\"dnyRqU0V\">虽然这样的颤抖运动以及日常微小动作确实能够在一定程度上帮助减轻体重，但作者仍然希望人们保持定期的规律锻炼，因为这对大脑和身体其他方面的健康非常重要。</p><h3><b>寒冷</b></h3><p data-pid=\"w5tdC9tM\">说到颤抖，我们很容易联想到寒冷，因为有「打冷颤」这个词。因此，除了通过NEAT 来颤抖，我们还可以利用寒冷来颤抖，从而加速脂肪燃烧。</p><p data-pid=\"ryfV_h6b\">几年前，有一项研究发表在 Nature 上，它准确地展示了寒冷是如何增加新陈代谢和脂肪损失的。</p><p data-pid=\"afFR3pTq\">首先，我们体内有三种脂肪细胞：</p><ol><li data-pid=\"eMH6Ki9J\"><b>白色脂肪组织</b>（White Adipose Tissue）：这是我们通常所说的脂肪，它储存在皮下，主要作为能量存储，<b>并不富含线粒体</b>。<br/><br/></li><li data-pid=\"nG5gngwY\"><b>棕色脂肪组织</b>（Brown Adipose Tissue）：这种脂肪主要存在于肩胛骨之间和颈背部，<b>富含线粒体</b>，因此呈棕色。棕色脂肪能够直接将食物能量转化为热量，帮助身体保持温暖。（注：因此，网络上很多相关的减肥博主把「棕色脂肪」称为「让人吃不胖的脂肪」）<br/><br/></li><li data-pid=\"LYAnYBBl\"><b>米色脂肪组织</b>（Beige Adipose Tissue）：介于白色和棕色脂肪之间，<b>含有一些线粒体</b>，但没有棕色脂肪那么多。</li></ol><p data-pid=\"hzpRxI3a\">而接触寒冷的环境对脂肪有两个方面的影响：</p><ul><li data-pid=\"1hjcOAso\">刺激肾上腺素释放：寒冷的环境会刺激肾上腺素的释放，还会引起肾上腺素从连接到脂肪的这些神经元释放。<br/><br/></li><li data-pid=\"Su-GWM2G\">促进新陈代谢：寒冷的环境会激活棕色脂肪，并将更多的米色脂肪转化为棕色脂肪，从而增加身体热量的产生。</li></ul><p data-pid=\"z2EfEqcb\">当我们洗冷水澡的时候，或者是在冬天打冷颤的时候，我们就激活了棕色脂肪产热机制。</p><p data-pid=\"WPpaqyGq\">回想起本文开头提到的摄入和消耗，我们提出的这些减脂方法，本质都是在增加身体内部热量的强度，从而增加能量的燃烧量。</p><p data-pid=\"V4vlSKta\">在 Nature 上发表的论文指出，颤抖会激活棕色脂肪，从而增加热量的产生和新陈代谢率。</p><p data-pid=\"VcybepSi\">当人体颤抖时，肌肉的微小运动会触发一种叫做琥珀酸（succinate）的分子释放。琥珀酸作用于棕色脂肪，增加其热量产生效率和整体的脂肪燃烧能力。这不仅会立即增加身体产生的热量，而且随着时间的推移，还能够将米色脂肪转化为棕色脂肪。</p><p data-pid=\"4auYvgfT\">有研究指出，并不是暴露在寒冷环境中的时间越长，效果就会越好。每周 1~5 次就可以达到减脂效果。我们的目标是通过颤抖来诱导琥珀酸的释放，所以最好的方法是反复进出寒冷环境，而不是一直呆在寒冷环境中。</p><p data-pid=\"EzCW9Lch\">此外，这个寒冷的环境并不是真的冷到让水结冰的地步，不同的人对于温度的适应能力不同，所以这个温度要自己把握，只要记住最后的目标是打冷颤就行了。</p><p data-pid=\"VPJEDzYh\">一个比较好的方法就是：洗冷水澡的时候，调一个能让自己打冷颤的水温，洗 1 分钟后停止。不要擦干身体，1~3 分钟后再继续洗。反复 3 次就行了。</p><p data-pid=\"0y3-shyT\">不过，一段时间后洗冷水澡可能就无法让你打冷颤了（适应了），所以你可以寻找其他方式来接触寒冷，比如说冬泳，但这要注意安全。</p><p data-pid=\"Pkn0RMYa\">几年前，有人发现了一种名为 irisin 的激素，人们认为它可以增加人体的新陈代谢从而达到减脂效果，不过这方面的研究一直没有进展。所以，目前减肥药物的研究焦点集中在琥珀酸上。</p><h2><b>再谈棕色脂肪</b></h2><p data-pid=\"sPCP9Igh\">棕色脂肪是一种特殊类型的脂肪，其核心功能在于产生热量以协助身体维持恒温。我们在婴儿时期拥有大量的棕色脂肪。</p><p data-pid=\"9Bn8KxPd\">婴儿时期，由于神经系统的某些部分（那些将肾上腺素释放到脂肪中的神经元）尚未完全发育或数量不足，婴儿无法通过颤抖来产生热量。作为弥补，我们早期的生命中被赋予了过量的棕色脂肪，这些脂肪主要分布在上背部、背部中央和颈背部。</p><p data-pid=\"JVE1nHky\">随着年龄的增长，如果我们不经常暴露在寒冷环境中或者进行其他能引起颤抖的活动，体内原本丰富的棕色脂肪会逐渐减少。</p><p data-pid=\"278W9jR2\">有研究认为，棕色脂肪不仅可以增大，还可以产生新的细胞。但这种说法存在争议，因为人们普遍认为脂肪细胞数量无法改变，只能缩小或增加它们的大小。</p><p data-pid=\"72U1dN4r\">不过，肾上腺素和体内循环的琥珀酸<b>可能</b>（这一点还有争议）促进将米色脂肪转化为棕色脂肪，从而增加棕色脂肪细胞的数量。</p><p data-pid=\"xExQPeFm\">如果你有兴趣了解更多关于神经元如何与脂肪相连的知识，推荐阅读一篇发表在 Frontiers in Neuroendocrinology 的论文，标题是 <i>Neural Innervation of White Adipose Tissue and the Control of Lipolysis </i>（白色脂肪组织的神经支配和脂解的控制）。</p><h2><b>关于局部减脂</b></h2><p data-pid=\"YbJlzsjW\">有很多广告都在谈论局部减脂，比如说做仰卧起坐可以减少腹部脂肪、做臀部提拉可以减少臀部脂肪。你可能不会相信这些广告，因为你知道，脂肪代谢是在全身系统性地发生的。</p><p data-pid=\"CBG5cNDR\">但有相关的科学文献表明，通过特定的运动激活那些支配脂肪的神经纤维，理论上可以增加在特定「脂肪垫（fat pads）」内释放的肾上腺素，从而可能实现真正的局部脂肪减少。</p><p data-pid=\"eiOslNtO\">因此，理论上，通过刺激肾上腺素的释放的运动，结合颤抖、轻微的震动运动或非运动活动产热可以增强局部的脂肪动员。</p><p data-pid=\"5C2d11gr\">作者猜测：进行涉及多个身体部位的运动，可能会增加支配全身脂肪的神经元。尝试多样化的运动模式或探索新的锻炼方式，可能是接触这种顽固脂肪垫（stubborn fat pads）的一种方式。一旦人体对某种特定的运动形式适应，该运动所引发的针对脂肪组织的神经元刺激可能会逐渐减弱。为了维持这些神经元活跃，需要给它一个强烈的刺激，比如寒冷、颤抖或新的运动形式。</p><h2><b>常规的运动就可以减脂</b></h2><p data-pid=\"ve8OpmB7\">常规的运动已经被证明可以增加新陈代谢和减少脂肪，但具体效果取决于多种因素，例如运动时是否空腹，或者是先进行有氧运动还是抗阻训练。</p><p data-pid=\"647GYH3U\">虽然不像营养和饮食那样争议重重，但运动减脂仍是一个有争议的话题。运动的不同类型以不同的方式激活身体的肌肉、心脏和肺部，并且根据运动的强度（高、中、低）对激素和新陈代谢有着截然不同的影响。</p><p data-pid=\"yRkYLWsf\">与其考虑举重训练与有氧运动哪个好，不如先来聊聊运动强度的「高中低」之分：</p><ol><li data-pid=\"6-G82uGD\">冲刺间歇训练（SIT）：全力以赴，用超过 100% VO2 最大值的活动爆发（注： VO2 值是指氧气摄取量（Volume of Oxygen），它是衡量身体在一分钟内能够使用多少氧气的指标；VO2 最大值（VO2 max）是个体在最大运动努力下能达到的最大氧气摄取量，是有氧耐力的黄金标准。），持续 8 到 30 秒，然后穿插较为平缓的恢复期。所以这可能是在场地上冲刺 8 到 30 秒，然后可能走回来一两分钟，然后再次冲刺，然后继续。<br/><br/></li><li data-pid=\"543Z0eWP\">高强度间歇训练（HIIT）：用 80% 到 100% VO2 最大值的活动爆发，持续 60 到 240 秒，穿插较为平缓的恢复期。<br/><br/></li><li data-pid=\"5pW7V1Hf\">中等强度连续训练（MICT）：这是一种比较稳定的有氧运动状态，通常在互联网上称为 Zone 2 心率区间，连续进行 20 到 60 分钟，强度为 40% ~ 60% 的 VO2 最大值，或者 55% ~ 70% 的最大心率。（注：Zone 2 心率区间是指运动时心率达到最大心率的一定百分比区间。这个区间通常与有氧耐力训练相关，是一种中等强度的运动状态，可以持续较长时间进行而不会过度疲劳。）</li></ol><p data-pid=\"Jpl3awrd\">运动的强度很重要，因为它决定了运动的类型和效果。</p><h2><b>空腹运动能否更好减脂？</b></h2><p data-pid=\"zxNksKca\">所谓的「空腹」运动，指的是在没有摄入任何食物的情况下进行运动。可能是清晨起床后，在仅摄入水分的前提下进行锻炼，或者在运动前摄入咖啡因，不过运动前摄入咖啡因是否会影响空腹状态是争议的。</p><p data-pid=\"Vm9Mtfnw\">空腹也可能意味着在过去的 3 ~ 24 小时甚至更长时间内没有进食，举例来说，比如下午四五点或六点，晚饭前的空腹状态。</p><p data-pid=\"tGCx5j9u\">有人说：因为脂肪和蛋白质不会像其他食物那样导致胰岛素大幅增加，所以即使是在摄入少量的脂肪或蛋白质（比如几颗杏仁）后进行锻炼也可能是可以的。</p><p data-pid=\"J0r3tnpF\">有研究表明，运动前摄入含糖食物可能会减少运动中的脂肪氧化。但也有研究表明，运动前或运动中进食并不会减少脂肪的氧化。这是因为不同研究中的运动类型和强度差异很大，因此很难确定一个理想的运动方案。</p><p data-pid=\"riGYzbkl\">作者从众多文献中总结出来一个规律：</p><ul><li data-pid=\"yz3evQsK\">进行大约 90 分钟的中等强度的有氧运动时，会有一个转折点。在这个转折点之后，如果你在运动前吃过东西（在运动前 1 到 3 小时内），从第 90 分钟开始，你燃烧脂肪的量会减少。换句话说，如果你在运动前吃过东西，那么在运动了 90 分钟后，燃烧的脂肪会比空腹运动时少。<br/><br/></li><li data-pid=\"kb3FJLFY\">如果你在运动前进行了长时间的禁食（至少 3 小时以上没有进食），那么从运动开始后的第 90 分钟起，你开始燃烧的脂肪量会比进食后运动的情况要多。<br/><br/></li><li data-pid=\"qisTQaVW\">但要注意，90 分钟中等强度运动难度不小，可能涵盖了长距离的跑步、游泳、步行或徒步。但对于那些准备进行全天的远足、长跑或步行的人来说，如果他们的目标是燃烧更多的脂肪，那么空腹运动可能是一个更有效的策略。</li></ul><p data-pid=\"PepEjOMB\">现在也有研究指出，90 分钟不是必须的。如果进行高强度训练，比如短跑、深蹲、硬拉等运动，这种转折点会提前出现。这是因为高强度运动可以更快地耗尽肌肉中的糖原储备，迫使身体开始燃烧储存的脂肪。</p><p data-pid=\"2Y9zHJtv\">对于中等强度的有氧运动来说，通常在运动进行约90分钟后，身体会从主要依赖糖原（主要源自肌肉和肝脏）供能转向更多地利用储备的脂肪。这种转换并非由人的主观意识控制，而是由体内一系列激素调节机制所决定，胰岛素水平必须下降到足够低。</p><h2><b>运动与新陈代谢</b></h2><p data-pid=\"VUkQR5G5\">通常，人们会关注运动期间燃烧了多少卡路里，但这种关注忽视了更重要的问题——运动后身体新陈代谢的增加。</p><p data-pid=\"5TGU3IcZ\">高强度运动（如举重、短跑、俯卧撑、仰卧起坐等）主要消耗糖原，并且会燃烧比中等强度运动更多的能量。更有趣的是，这种高强度运动后，身体在恢复期间会燃烧更多脂肪。这是因为高强度运动后，人体的氧气消耗量（有时称为运动后氧消耗）增加，这种增加有时可持续长达 24 小时，而在这段时间内，身体主要燃烧脂肪而非糖原。</p><p data-pid=\"rtNw0Yke\">对于进行长时间低或中等强度运动（如跑步、游泳、骑自行车等）的人来说，他们在运动期间燃烧了更多的脂肪，但在运动后燃烧的则主要是糖原。</p><p data-pid=\"RJr7kAxB\">高强度运动后再进行中等强度运动，这整体上最有利于燃烧脂肪。这是因为高强度运动能够在运动后提高基础代谢率，从而有助于持续燃烧体脂。</p><p data-pid=\"UiTi3ZBC\">把上述内容简化为一个简单的减肥方案，那就是：每周三到四次进行高强度训练。这种训练可以单独进行，或者在高强度训练后跟随一段低强度训练。如果能在空腹状态下进行这样的训练，那会更好。</p><p data-pid=\"IGY2KsAx\">但如果你的目标不是减肥，而是提高运动表现（比如参加体育比赛），那么你<b>需要调整饮食。</b></p><h2><b>对减脂有用的化合物</b></h2><h3><b>肾上腺素</b></h3><p data-pid=\"gjJyFshR\">实际上，任何种类的运动，无论是颤抖、举起杠铃冲上山，还是长时间的骑行，肾上腺素都在减少体内脂肪的过程中扮演着重要角色。</p><p data-pid=\"lt8uYFcw\">如果把脂肪比作等待燃烧的木材，那么肾上腺素就是打火机和鼓风机，它既可以点燃这堆木材，也可以控制火势的大小。</p><h3><b>咖啡因</b></h3><p data-pid=\"Iq1wSuQE\">除了肾上腺素，还有一种东西对减脂有用，那就是咖啡因。</p><p data-pid=\"8b4weYN9\">咖啡因是一种常见的化合物，它可以增强体能表现，并促进脂肪燃烧。如果人们适应了咖啡因的摄入，咖啡因可以通过增加肾上腺素的释放来增加脂肪燃烧。运动前摄入咖啡因，可以增加脂肪的燃烧量。此外，咖啡因还可以改变脂肪与糖原的氧化之比。</p><p data-pid=\"DaW0AbvG\">但要注意：如果你不习惯摄入咖啡因，大量摄入咖啡因可能会导致血管收缩，从而引发心血管疾病。</p><h3><b>麻黄素（ephedrine）</b></h3><p data-pid=\"jOBEkXJ-\">这是一种曾广泛用来减脂的化合物，因为它能够通过肾上腺素受体增加体温和热量的产生。然而，由于使用麻黄素后发生过多起因体温过高而导致的致命案例，因此在许多国家和地区，使用麻黄素作为减脂手段已被明确列为非法行为。</p><h3><b>Fen-Phen</b></h3><p data-pid=\"5BMkso3x\">这是一种被称为氟苯那敏（fenfluramine）的药物，它曾经作为一种抗肥胖药物风靡一时。但由于它对心血管有副作用，从而致人死亡，最终 FDA（美国食品药品监督管理局）撤销了对其的批准。</p><h3><b>GLP-1</b></h3><p data-pid=\"V1KwcW9C\">GLP-1（胰高血糖素样肽-1）是一种可以促进脂肪燃烧的物质，可以通过饮用马黛茶（yerba mate）来增加体内的GLP-1水平。</p><p data-pid=\"9k1vMHJX\">有一类正在研发中或已用于治疗糖尿病的药物，这些药物作用于 GLP-1 途径，有助于减重和降低食欲。其中一个药物是塞美格鲁肽（Semaglutide），它是 GLP-1 的类似物，需要处方使用。</p><p data-pid=\"DrJr_wn2\">如果你不喜欢马黛茶，你可以试试瓜尤萨茶（guayusa），它产自厄瓜多尔，口味比马黛茶甜。</p><h3><b>胰岛素和胰高血糖素</b></h3><p data-pid=\"egFaU3Aw\">胰岛素与胰高血糖素这两种激素在体内共同承担着调节血糖水平的职责。有许多因素可以影响胰岛素和胰高血糖素的水平，从而使身体倾向于更多地燃烧脂肪。</p><p data-pid=\"ValJkqV7\">在之前关于激素的一期节目中，我们有详细讨论这些因素。例如，黄连素（berberine）和二甲双胍（metformin）是两种可以有效降低血糖的化合物，因为它们可以降低胰岛素水平，从而帮助脂肪燃烧。</p><h3><b>左旋肉碱和乙酰左旋肉碱</b></h3><p data-pid=\"EhaQ1Wdn\">左旋肉碱（L-carnitine）或乙酰左旋肉碱（acetyl-L-carnitine）是参与脂肪代谢的化合物，它们会将脂肪酸转化为 ATP。</p><p data-pid=\"IB_Bt2IP\">左旋肉碱可以影响激素，有研究表明它对怀孕率和精子质量有显著影响。它也轻微降低血压，以及减少运动中的疲劳和炎症标志物。乙酰左旋肉碱是左旋肉碱在体内最容易被运输和利用的一种形式。</p><p data-pid=\"Q2MMnkJ9\">除了促进脂肪氧化外，乙酰左旋肉碱还有多种对细胞代谢有益的效果，比如降低血液中的氨水平、降低 C 反应蛋白（C-reactive protein，一种炎症标志物）、轻微降低血糖、增加高密度脂蛋白胆固醇（这是有益的胆固醇形式）以及轻微降低总胆固醇。</p><h2><b>饮食和营养</b></h2><p data-pid=\"9gha22da\">根据斯坦福大学加德纳实验室和其他实验室的坚实证据，在不同的饮食方式（低脂饮食、高脂饮食、生酮饮食、间歇性禁食等）下，只要能坚持他们特定的饮食，哪种饮食方式并不真正重要。只要这种饮食方式健康，能长期坚持就行了。</p><p data-pid=\"-hRGr28G\">作者本人更喜欢较低的碳水摄入饮食，这可以帮助他在白天集中注意力。</p><h2><b>最后，祝愿每个努力瘦身的人都能在新的一年里轻装上阵！</b></h2><hr/><p data-pid=\"_5_rQeWb\">系列目录：<a href=\"https://zhuanlan.zhihu.com/p/676445568\" class=\"internal\">Thoughts Memo：全网首发：Huberman Lab Podcast 全系列笔记（持续更新）</a></p>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 5,
-  "image_url": "https://picx.zhimg.com/v2-d40ff7a930b9cc60c592bb1a56b4d5e4_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 13,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 13,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyNDA1MDMxNzUSCTY4NTY3ODcyOBgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 120,
+      "down_vote_count": 0,
+      "like_count": 13,
+      "comment_count": 5,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 104,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-d40ff7a930b9cc60c592bb1a56b4d5e4": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-d40ff7a930b9cc60c592bb1a56b4d5e4": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-d40ff7a930b9cc60c592bb1a56b4d5e4": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "2 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/2199393581?contentId=685678728&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 睡眠研究 & 生活建议",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525846593119449088",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 睡眠研究 & 生活建议"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

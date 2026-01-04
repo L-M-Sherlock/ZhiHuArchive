@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,9 +37,10 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
-  "comment_count": 2,
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
+  "comment_count": 0,
   "content": "<p data-pid=\"HtziEYJk\">把保留学习记录取消勾选就可以设置了。</p>",
   "content_need_truncated": false,
   "created_time": 1639290925,
   "excerpt": "把保留学习记录取消勾选就可以设置了。",
-  "id": 2267551253,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2267551253",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=2267551253&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1639195065,
-    "detail": "<p>请问大佬2.1.49版本的ANKI怎么不能对筛选出来的牌组设定学习计划了。。按F弹出来的窗口也不一样？</p><p>原来是这样的</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-bb0311701054ecb615e6a656cd05d41a_b.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"444\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic1.zhimg.com/v2-bb0311701054ecb615e6a656cd05d41a_r.jpg\"/></figure><p>现在是这样的 </p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-fb5291c00011cbb55bbb2af380709e79_b.jpeg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"773\" data-rawheight=\"627\" class=\"origin_image zh-lightbox-thumb\" width=\"773\" data-original=\"https://pic4.zhimg.com/v2-fb5291c00011cbb55bbb2af380709e79_r.jpg\"/></figure><p>找不到制定学习计划的选项。。。。</p><p>怎么还越改越回去了呢。。是不是只能新建牌组重新设定计划啊。。太麻烦了。。</p><p>请大佬们帮忙指点一下。。 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0\" data-hash=\"4c592f496dc33822b560b382907ff1d0\" data-hovercard=\"p$b$4c592f496dc33822b560b382907ff1d0\">@叶峻峣</a>    <a class=\"member_mention\" href=\"https://www.zhihu.com/people/1ad14f86f56dbe14d148035084bcf3c7\" data-hash=\"1ad14f86f56dbe14d148035084bcf3c7\" data-hovercard=\"p$b$1ad14f86f56dbe14d148035084bcf3c7\">@弥乱</a> </p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-41f74f3795489083630fa29fde6c1c4d_b.png\" data-caption=\"\" data-size=\"normal\" class=\"content_image\"/></figure>",
-    "id": 505256481,
+    "detail": "<p>请问大佬2.1.49版本的ANKI怎么不能对筛选出来的牌组设定学习计划了。。按F弹出来的窗口也不一样？</p><p>原来是这样的</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-bb0311701054ecb615e6a656cd05d41a_1440w.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"444\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic1.zhimg.com/v2-bb0311701054ecb615e6a656cd05d41a_r.jpg\"/></figure><p>现在是这样的 </p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-fb5291c00011cbb55bbb2af380709e79_1440w.jpeg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"773\" data-rawheight=\"627\" class=\"origin_image zh-lightbox-thumb\" width=\"773\" data-original=\"https://pic4.zhimg.com/v2-fb5291c00011cbb55bbb2af380709e79_r.jpg\"/></figure><p>找不到制定学习计划的选项。。。。</p><p>怎么还越改越回去了呢。。是不是只能新建牌组重新设定计划啊。。太麻烦了。。</p><p>请大佬们帮忙指点一下。。 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0\" data-hash=\"4c592f496dc33822b560b382907ff1d0\" data-hovercard=\"p$b$4c592f496dc33822b560b382907ff1d0\">@叶峻峣</a>    <a class=\"member_mention\" href=\"https://www.zhihu.com/people/1ad14f86f56dbe14d148035084bcf3c7\" data-hash=\"1ad14f86f56dbe14d148035084bcf3c7\" data-hovercard=\"p$b$1ad14f86f56dbe14d148035084bcf3c7\">@弥乱</a> </p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-41f74f3795489083630fa29fde6c1c4d_1440w.png\" data-caption=\"\" data-size=\"normal\" class=\"content_image\"/></figure>",
+    "id": "505256481",
     "question_type": "normal",
     "relationship": {},
     "title": "请问大佬2.1.49版本的ANKI怎么不能对筛选出来的牌组设定学习计划了。。按F弹出来的窗口也不一样？",
     "type": "question",
     "updated_time": 1639195065,
-    "url": "https://api.zhihu.com/questions/505256481"
+    "url": "https://www.zhihu.com/api/v4/questions/505256481"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1639290925,
+  "url": "https://www.zhihu.com/api/v4/answers/2267551253",
   "voteup_count": 3
 }

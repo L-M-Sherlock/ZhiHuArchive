@@ -1,15 +1,16 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-7a23f5ee157d58c2494e8a642e59b7ae_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-7a23f5ee157d58c2494e8a642e59b7ae.jpg?source=2c26e567",
+    "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
     "badge": [],
     "badge_v2": {
       "detail_badges": [],
       "icon": "",
       "merged_badges": [],
       "night_icon": "",
-      "title": ""
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。"
     },
     "gender": 1,
     "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
@@ -19,32 +20,52 @@
     "is_privacy": false,
     "name": "Jarrett Ye",
     "type": "people",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "url": "https://www.zhihu.com/api/v4/people/3c9990a12cdbcd92e20b1387b160f0a3",
     "url_token": "JarrettYe",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 2,
   "content": "<p data-pid=\"A7aV-si7\">首个？我同学上个月就开源了他们的可控视频生成模型 <span class=\"nolink\">ControlNeXt</span>：</p><a href=\"https://link.zhihu.com/?target=https%3A//github.com/dvlab-research/ControlNeXt\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">dvlab-research/ControlNeXt: Controllable video and image Generation, SVD, Animate Anyone, ControlNet, LoRA (github.com)</a><a class=\"video-box\" href=\"https://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1793672973791678464\" target=\"_blank\" data-video-id=\"\" data-video-playable=\"true\" data-name=\"\" data-poster=\"https://picx.zhimg.com/v2-fd4ac111b203c7e2580fff67554048f7.jpg?source=382ee89a\" data-lens-id=\"1793672973791678464\"><img class=\"thumbnail\" src=\"https://picx.zhimg.com/v2-fd4ac111b203c7e2580fff67554048f7.jpg?source=382ee89a\"/><span class=\"content\"><span class=\"title\"><span class=\"z-ico-extern-gray\"></span><span class=\"z-ico-extern-blue\"></span></span><span class=\"url\"><span class=\"z-ico-video\"></span>https://www.zhihu.com/video/1793672973791678464</span></span></a><a class=\"video-box\" href=\"https://link.zhihu.com/?target=https%3A//www.zhihu.com/video/1793673014547705859\" target=\"_blank\" data-video-id=\"\" data-video-playable=\"true\" data-name=\"\" data-poster=\"https://picx.zhimg.com/v2-8ef520ef6b743daa8aa8a4c2c04629c8.jpg?source=382ee89a\" data-lens-id=\"1793673014547705859\"><img class=\"thumbnail\" src=\"https://picx.zhimg.com/v2-8ef520ef6b743daa8aa8a4c2c04629c8.jpg?source=382ee89a\"/><span class=\"content\"><span class=\"title\"><span class=\"z-ico-extern-gray\"></span><span class=\"z-ico-extern-blue\"></span></span><span class=\"url\"><span class=\"z-ico-video\"></span>https://www.zhihu.com/video/1793673014547705859</span></span></a><p data-pid=\"wf6xP71T\">这下又新闻学魅力时刻了。</p><p data-pid=\"AfgBOAG0\">具体的技术介绍还在待发表的论文中，敬请期待。</p>",
   "content_need_truncated": false,
   "created_time": 1720425090,
   "excerpt": "首个？我同学上个月就开源了他们的可控视频生成模型 ControlNeXt：dvlab-research/ControlNeXt: Controllable video and image Generation, SVD, Animate Anyone, ControlNet, LoRA (github.com) [视频] [视频] 这下又新闻学魅力时刻了。 具体的技术介绍还在待发表的论文中，敬请期待。",
-  "id": 3555321700,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3555321700",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=3555321700&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1720097888,
     "detail": "<p>7月4日，界面新闻获悉，商汤发布首个“可控”人物视频生成大模型Vimi，该模型主要面向C端用户，支持聊天、唱歌、舞动等多种娱乐互动场景。商汤方面称，Vimi可生成长达1分钟的单镜头人物类视频，画面效果不会随着时间的变化而劣化或失真，Vimi基于商汤日日新大模型，通过一张任意风格的照片就能生成和目标动作一致的人物类视频，可通过已有人物视频、动画、声音、文字等多种元素进行驱动。</p><a href=\"https://link.zhihu.com/?target=https%3A//finance.sina.com.cn/jjxw/2024-07-04/doc-incaxsxm5986626.shtml\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"\" data-image-width=\"\" data-image-height=\"\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">商汤发布首个“可控”人物视频生成大模型Vimi</a>",
-    "id": 660746007,
+    "id": "660746007",
     "question_type": "normal",
     "relationship": {},
     "title": "商汤发布首个「可控」人物视频生成大模型 Vimi，Vimi 大模型应用了哪些关键性技术？",
     "type": "question",
     "updated_time": 1720097888,
-    "url": "https://api.zhihu.com/questions/660746007"
+    "url": "https://www.zhihu.com/api/v4/questions/660746007"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1720425090,
+  "url": "https://www.zhihu.com/api/v4/answers/3555321700",
   "voteup_count": 23
 }

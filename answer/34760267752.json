@@ -1,7 +1,8 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
     "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
     "badge": [],
     "badge_v2": {
@@ -19,7 +20,7 @@
     "is_privacy": false,
     "name": "Jarrett Ye",
     "type": "people",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "url": "https://www.zhihu.com/api/v4/people/3c9990a12cdbcd92e20b1387b160f0a3",
     "url_token": "JarrettYe",
     "user_type": "people"
   },
@@ -35,9 +36,20 @@
   "content_need_truncated": false,
   "created_time": 1731935384,
   "excerpt": "不是。 想听我声音，看我的访谈就行： 叶峻峣·用 SuperMemo 打通阅读、理解与记忆_哔哩哔哩_bilibili 记忆算法的新进展及本科生的科研路-OR Talk NO.21_哔哩哔哩_bilibili",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "34760267752",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=34760267752&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1731678675,
     "detail": "",
@@ -47,11 +59,13 @@
     "title": "墨墨背单词的引导男声是叶峻峣的声音吗？",
     "type": "question",
     "updated_time": 1731678675,
-    "url": "https://api.zhihu.com/questions/4267512931"
+    "url": "https://www.zhihu.com/api/v4/questions/4267512931"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 90
+  "updated_time": 1731939293,
+  "url": "https://www.zhihu.com/api/v4/answers/34760267752",
+  "voteup_count": 91
 }

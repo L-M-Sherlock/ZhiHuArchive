@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,19 +37,21 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 5,
   "content": "<p data-pid=\"O_KkegWT\">SuperMemo 不用设复习上限：</p><blockquote data-pid=\"12JMUOs-\">SuperMemo 2006对<b>支配</b>进行了最后一击。随着优先级队列、复习自动排序和自动推迟的出现，我们不再需要用支配来解决未完成材料的堆积问题。材料超负荷成为常态，用户只能尽量先学会尽可能多的最优先材料。这似乎削减 SuperMemo 的著名优势之一——成为无情的执行者，将待复习材料变成零。然而，有证据表明，取消强制学习反而大大提高了用户的学习热情。矛盾的是，没有对每日复习次数的具体要求，用户会渴望将更多时间花在学习新知识上，而不是复习旧知识！<sup data-text=\"SuperMemo中的支配简史\" data-url=\"https://www.yuque.com/supermemo/wiki/mercy#90d40fd4\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup></blockquote><p data-pid=\"bWLLYDfO\">也不用日清：</p><blockquote data-pid=\"Gy-AxHzW\">一天只有 24 小时，人人平等。我们实际上想要的是在有限的时间中，获得尽可能多的价值。如果我们专注于学习领域，那么做题是有价值的，刷卡片是有价值的，看书是有价值的。但是这些事情都需要花时间，一个小时用来做题，就无法用来刷卡片。<br/><br/>那么，日清的本质问题就浮出水面了：日清过程中，有很多时间花在了价值较低的卡片上（相较于做题、看书）。<br/><br/>解决这个问题的思路就是：多复习高价值的卡片，剩下的卡片可以推迟，把省下来的时间花在看书、做题等可能更有价值的事情上。<sup data-text=\"渐进阅读：卡片刷不完？拥抱优先级！\" data-url=\"https://zhuanlan.zhihu.com/p/364351955\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup></blockquote><p data-pid=\"QU0wyJ4J\">另外 SuperMemo 里面的 topic 和 item 本来就是自然穿插的，其比例默认为 1:4，topic 对我而言就是尚未制卡的新材料，所以每天都能学习新东西。</p><hr/><p data-pid=\"NpGnZfpZ\">更多 SuperMemo 教程请见：</p><a href=\"https://link.zhihu.com/?target=https%3A//www.kancloud.cn/ankigaokao/incremental_learning\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-4e268482aff6edd6711a17459ba155a4_120x160.jpg\" data-image-width=\"194\" data-image-height=\"259\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SuperMemo 渐进学习大型指北</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1645494617,
   "excerpt": "SuperMemo 不用设复习上限： SuperMemo 2006对支配进行了最后一击。随着优先级队列、复习自动排序和自动推迟的出现，我们不再需要用支配来解决未完成材料的堆积问题。材料超负荷成为常态，用户只能尽量先学会尽可能多的最优先材料。这似乎削减 SuperMemo 的著名优势之一——成为无情的执行者，将待复习材料变成零。然而，有证据表明，取消强制学习反而大大提高了用户的学习热情。矛盾的是，没有对每日复习次数的具体要求，用户会…",
-  "id": 2358527858,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2358527858",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/53440974804?contentId=2358527858&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1645453140,
     "detail": "<p>这边指的最佳简单来说就是每日复习的平均值，可以使每日的复习量接近却不会没办法复习到较新的记忆。</p>",
-    "id": 517907557,
+    "id": "517907557",
     "question_type": "normal",
     "relationship": {},
     "title": "Anki 认为复习上限至少要是学习上限的10倍，那 SuperMemo 的复习上限设多少最佳？",
     "type": "question",
     "updated_time": 1645453140,
-    "url": "https://api.zhihu.com/questions/517907557"
+    "url": "https://www.zhihu.com/api/v4/questions/517907557"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 39
+  "updated_time": 1645494617,
+  "url": "https://www.zhihu.com/api/v4/answers/2358527858",
+  "voteup_count": 47
 }

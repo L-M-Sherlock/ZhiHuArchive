@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,6 +14,7 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
@@ -35,6 +37,7 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 0,
-  "content": "<p data-pid=\"Wd9aggf8\">先做一个简单的类比</p><p data-pid=\"Lczato3p\">很久很久以前，在一个热带荒岛上，有一个遭遇海难的倒霉蛋在使劲种田，麻雀来啄嫩芽时发现没有稻草人，暴雨来临时发现没有棚屋，丰收时发现没有仓库。随着时间流逝，在高温和潮湿的作用下，粮食很快发霉腐烂，无法食用。</p><p data-pid=\"CDcYJv2E\">真正要在荒岛上生存，应当像鲁滨逊那样，一边种粮一边修地窖和棚屋、编藤篮和稻草人。待到丰收日，计算来年的种子和余粮数量，做到未雨绸缪、合理规划。</p><p data-pid=\"ByaI0GsO\">学习也像荒岛生存。如果一味的刷题，没有抽出归纳知识和记忆知识的时间，就像第一个倒霉蛋那样，学到的知识很快就归零了。没有计划则会导致对高考的备考没有时间观念，将过多时间花在某一个模块上，最后时间紧张，自己也对高考没底。</p><p data-pid=\"cxznsM0v\">唯有像鲁滨逊那样，我们才能将学过的完好地知识储存到高考那天。而且，有条理的复习可以加强信心，设定合理的目标。</p><p data-pid=\"m9xSFsU3\">好吧，这些和开环学习还有闭环学习有什么关系吗？？？</p><p data-pid=\"VWt3T8sz\">没关系吗？第一个倒霉蛋每次种田只能维持一段时间的口粮。没有多少余粮能够留到下一次生产周期。这可谓开环，因为每次的生产都是出清的，种的太多吃不完也只能扔掉，烂掉的粮食也没法吃。虽然很辛苦，却只能勉强维持一下生存。</p><p data-pid=\"wFmWkBlE\">鲁滨逊则不仅养活自己，还有3-5年的存粮，遇上野蛮人打战，也能暂时放下生产计划，积极应战。甚至还能教授其他海难的船员一起高效生产。每次的余粮都能投入到下次扩大生产，这不就是闭环么？</p><p data-pid=\"DjU1E-g4\">那么，学习闭环究竟该如何实现呢？</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-f7402ac1be70c4aecac6c3ea1a130334_720w.jpg?source=2c26e567\" data-rawwidth=\"1720\" data-rawheight=\"812\" data-size=\"normal\" data-original-token=\"v2-f7402ac1be70c4aecac6c3ea1a130334\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-53b62d2e12c363824a5c361a4da04ade_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1720\" data-original=\"https://pic1.zhimg.com/v2-f7402ac1be70c4aecac6c3ea1a130334_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1720&#39; height=&#39;812&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"1720\" data-rawheight=\"812\" data-size=\"normal\" data-original-token=\"v2-f7402ac1be70c4aecac6c3ea1a130334\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-53b62d2e12c363824a5c361a4da04ade_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1720\" data-original=\"https://pic1.zhimg.com/v2-f7402ac1be70c4aecac6c3ea1a130334_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-f7402ac1be70c4aecac6c3ea1a130334_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"PzjlxAU2\">1.从学习资料输入概念和公式等基础知识</p><p data-pid=\"zwhAZ1mv\">2.通过记忆基础知识，为归纳出模型铺路</p><p data-pid=\"qF2JxpSt\">3.搭建初步的知识体系，可以拓宽解题思路</p><p data-pid=\"IwF5l6Pl\">4.解题检验出知识漏洞并提供更多知识模型以供归纳</p><p data-pid=\"DJ3rY9BZ\">5.归纳后的知识得到内化，加深理解，记忆更加牢固</p><p data-pid=\"CiSAk_5I\">6.不断地在学习闭环中循环提升，最终超过教材的境界</p><p data-pid=\"pDo_foVj\">以上就是对学习闭环的理解。</p>",
+  "content": "<p data-pid=\"Wd9aggf8\">先做一个简单的类比</p><p data-pid=\"Lczato3p\">很久很久以前，在一个热带荒岛上，有一个遭遇海难的倒霉蛋在使劲种田，麻雀来啄嫩芽时发现没有稻草人，暴雨来临时发现没有棚屋，丰收时发现没有仓库。随着时间流逝，在高温和潮湿的作用下，粮食很快发霉腐烂，无法食用。</p><p data-pid=\"CDcYJv2E\">真正要在荒岛上生存，应当像鲁滨逊那样，一边种粮一边修地窖和棚屋、编藤篮和稻草人。待到丰收日，计算来年的种子和余粮数量，做到未雨绸缪、合理规划。</p><p data-pid=\"ByaI0GsO\">学习也像荒岛生存。如果一味的刷题，没有抽出归纳知识和记忆知识的时间，就像第一个倒霉蛋那样，学到的知识很快就归零了。没有计划则会导致对高考的备考没有时间观念，将过多时间花在某一个模块上，最后时间紧张，自己也对高考没底。</p><p data-pid=\"cxznsM0v\">唯有像鲁滨逊那样，我们才能将学过的完好地知识储存到高考那天。而且，有条理的复习可以加强信心，设定合理的目标。</p><p data-pid=\"m9xSFsU3\">好吧，这些和开环学习还有闭环学习有什么关系吗？？？</p><p data-pid=\"VWt3T8sz\">没关系吗？第一个倒霉蛋每次种田只能维持一段时间的口粮。没有多少余粮能够留到下一次生产周期。这可谓开环，因为每次的生产都是出清的，种的太多吃不完也只能扔掉，烂掉的粮食也没法吃。虽然很辛苦，却只能勉强维持一下生存。</p><p data-pid=\"wFmWkBlE\">鲁滨逊则不仅养活自己，还有3-5年的存粮，遇上野蛮人打战，也能暂时放下生产计划，积极应战。甚至还能教授其他海难的船员一起高效生产。每次的余粮都能投入到下次扩大生产，这不就是闭环么？</p><p data-pid=\"DjU1E-g4\">那么，学习闭环究竟该如何实现呢？</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-f7402ac1be70c4aecac6c3ea1a130334_720w.jpg?source=2c26e567\" data-rawwidth=\"1720\" data-rawheight=\"812\" data-size=\"normal\" data-original-token=\"v2-f7402ac1be70c4aecac6c3ea1a130334\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-53b62d2e12c363824a5c361a4da04ade_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1720\" data-original=\"https://picx.zhimg.com/v2-f7402ac1be70c4aecac6c3ea1a130334_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1720&#39; height=&#39;812&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"1720\" data-rawheight=\"812\" data-size=\"normal\" data-original-token=\"v2-f7402ac1be70c4aecac6c3ea1a130334\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-53b62d2e12c363824a5c361a4da04ade_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1720\" data-original=\"https://picx.zhimg.com/v2-f7402ac1be70c4aecac6c3ea1a130334_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-f7402ac1be70c4aecac6c3ea1a130334_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"PzjlxAU2\">1.从学习资料输入概念和公式等基础知识</p><p data-pid=\"zwhAZ1mv\">2.通过记忆基础知识，为归纳出模型铺路</p><p data-pid=\"qF2JxpSt\">3.搭建初步的知识体系，可以拓宽解题思路</p><p data-pid=\"IwF5l6Pl\">4.解题检验出知识漏洞并提供更多知识模型以供归纳</p><p data-pid=\"DJ3rY9BZ\">5.归纳后的知识得到内化，加深理解，记忆更加牢固</p><p data-pid=\"CiSAk_5I\">6.不断地在学习闭环中循环提升，最终超过教材的境界</p><p data-pid=\"pDo_foVj\">以上就是对学习闭环的理解。</p>",
   "content_need_truncated": false,
   "created_time": 1594132641,
   "excerpt": "先做一个简单的类比 很久很久以前，在一个热带荒岛上，有一个遭遇海难的倒霉蛋在使劲种田，麻雀来啄嫩芽时发现没有稻草人，暴雨来临时发现没有棚屋，丰收时发现没有仓库。随着时间流逝，在高温和潮湿的作用下，粮食很快发霉腐烂，无法食用。 真正要在荒岛上生存，应当像鲁滨逊那样，一边种粮一边修地窖和棚屋、编藤篮和稻草人。待到丰收日，计算来年的种子和余粮数量，做到未雨绸缪、合理规划。 学习也像荒岛生存。如果一味的刷…",
-  "id": 1325045698,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1325045698",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1325045698&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1555777436,
     "detail": "",
-    "id": 321014499,
+    "id": "321014499",
     "question_type": "normal",
     "relationship": {},
     "title": "一个完整的学习周期都包含什么过程？",
     "type": "question",
     "updated_time": 1555777436,
-    "url": "https://api.zhihu.com/questions/321014499"
+    "url": "https://www.zhihu.com/api/v4/questions/321014499"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 26
+  "updated_time": 1594132641,
+  "url": "https://www.zhihu.com/api/v4/answers/1325045698",
+  "voteup_count": 29
 }

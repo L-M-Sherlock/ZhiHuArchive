@@ -1,80 +1,463 @@
 {
-  "status": 0,
+  "id": "242322075",
+  "title": "在 RemNote 中构建知识",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/242322075",
+  "image_url": "https://pic1.zhimg.com/v2-eda87b70aa4f8b9492c10301bd402076_r.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-eda87b70aa4f8b9492c10301bd402076_r.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://pica.zhimg.com/v2-b566f5e964db3ff4dfcb2bbca5311536_200x112.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"402\" data-rawheight=\"302\" data-watermark=\"\" data-original-src=\"\" data-watermark-src=\"\" data-private-watermark-src=\"\" data-thumbnail=\"https://pic3.zhimg.com/v2-b566f5e964db3ff4dfcb2bbca5311536_b.jpg\" class=\"origin_image inline-img zh-lightbox-thumb\" data-original=\"https://pica.zhimg.com/v2-b566f5e964db3ff4dfcb2bbca5311536_r.jpg\"/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.remnote.io/documentation/4cSP28pBtAgrNTLkg\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Structuring Knowledge in RemNote</a> 争取把官方的教程全部翻译完一个关于记忆的思想实验花点时间看看你的周围，观察你所看到的，也许是：一台电脑，一部手机，一株植物，或者一个人。这些都是你经常与之交互的内容，并且你已经建立了关于它们每一个的…",
+  "created": 1600055405,
   "updated": 1600055405,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "原文：Structuring Knowledge in RemNote 争取把官方的教程全部翻译完一个关于记忆…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 1897,
+  "image_height": 970,
+  "content": "<blockquote data-pid=\"tTwFvrt0\">原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.remnote.io/documentation/4cSP28pBtAgrNTLkg\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Structuring Knowledge in RemNote</a><br/>争取把官方的教程全部翻译完</blockquote><hr/><h2>一个关于记忆的思想实验</h2><p data-pid=\"lHGe4uNn\">花点时间看看你的周围，观察你所看到的，也许是：一台电脑，一部手机，一株植物，或者一个人。这些都是你经常与之交互的内容，并且你已经建立了关于它们每一个的广泛的知识体系。假设我让你给我描述一下你的<b>电脑</b>。你你可以从它的主要组件开始：<b>鼠标</b>、<b>键盘</b>和<b>屏幕</b>。你将描述如何移动<b>鼠标</b>来打开屏幕上的<b>浏览器</b>，以及如何使用<b>浏览器</b>打开<b>网站</b>。如果我问你你的<b>鼠标</b>是什么颜色（或者问你一百个类似的问题），你可能会立刻回答。你似乎非常了解这个系统！</p><p data-pid=\"sdoi9ANS\">让我们检查一下你的电脑在你的记忆和思考过程中的表现方式。</p><ol><li data-pid=\"FBbWyRSX\">请注意，我们在上面加粗了几个主要概念，例如“<b>电脑</b>”，“<b>鼠标</b>”和“<b>键盘</b>”。 这些概念可以分解为以下组件：你的<b>计算机</b>具有<b>浏览器</b>，该<b>浏览器</b>具有<b>地址栏</b>。 这些概念形成一个层次结构，其中复杂的概念由不太复杂的概念组成。</li><li data-pid=\"FV0rchPG\">请注意，对于这些概念，你知道许多不同的“描述”：<b>电脑</b>的重量、<b>屏幕</b>的大小、<b>鼠标</b>的颜色等等。</li><li data-pid=\"CAWBXS8i\">请注意，你是根据它们之间的关系来考虑这些概念的——例如，你使用键盘来让字符显示在屏幕上。</li></ol><p data-pid=\"ORVOBEKu\"> 如果我们试图根据上述原则来编写所有这些知识，你可能会编写如下内容</p><ul><li data-pid=\"56Q8NLdV\">电脑</li><ul><li data-pid=\"C37S8dwx\"><i>重量</i>:: 中等重量，一只手拿着不太舒服，但两只手可以轻松拿着</li><li data-pid=\"IHVaLdr7\"><b>浏览器</b>:: 用于浏览网站的工具</li><ul><li data-pid=\"NurKJ0NE\"><i>网站访问过程</i>:: 使用鼠标单击地址栏，然后使用键盘输入网址。</li><li data-pid=\"oUpfqVGi\">地址栏  </li></ul><li data-pid=\"tYwnM6kl\">键盘</li><ul><li data-pid=\"rtZMQWXj\"><i>在黑暗中找到键位</i>:: “f”和“j”键底部的小突起</li></ul><li data-pid=\"7k8V--Um\">屏幕</li><li data-pid=\"Fntgon4S\">鼠标</li><ul><li data-pid=\"VEQ253ec\"><i>颜色</i>:: 黑色</li></ul></ul><li data-pid=\"DJIANKwy\">网站</li><ul><li data-pid=\"cAXjofKr\">网址</li></ul></ul><h2>为什么要把一个想法分解成这么多细节呢？</h2><ol><li data-pid=\"XJBxN9Qi\">它帮助你理解复杂的概念。</li></ol><p data-pid=\"cOLJzN61\">分解一个复杂的想法可以让你从简单的部分来理解它。我们相信，你如此了解你的电脑，是因为你对它的知识在你的大脑中以这种方式分解。想象一下，如果你想学习一些“更复杂的”东西。学习的过程将是完全相同的：把系统分解成你可以分别理解的更小的部分，学习每个部分是如何工作的，最后把所有的东西联系起来。</p><p data-pid=\"dd_UhqJa\">2. 你可以更高效地测试你的知识。</p><p data-pid=\"6weNLPyM\">分解一个复杂的概念意味着你可以测试你对个别细节的理解，大大提高你的学习效率。RemNote 可以帮助你自动化这个过程。上面的每条信息都会变成自动生成的抽认卡，你可以用它进行自我测试。这里有一些抽认卡示例。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-b566f5e964db3ff4dfcb2bbca5311536_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"402\" data-rawheight=\"302\" data-thumbnail=\"https://pica.zhimg.com/v2-b566f5e964db3ff4dfcb2bbca5311536_b.jpg\" data-original-token=\"v2-b566f5e964db3ff4dfcb2bbca5311536\" class=\"content_image\" width=\"402\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-0f3a2928447762e0c0472a8abd121a23_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"402\" data-rawheight=\"302\" data-thumbnail=\"https://pic4.zhimg.com/v2-0f3a2928447762e0c0472a8abd121a23_b.jpg\" data-original-token=\"v2-0f3a2928447762e0c0472a8abd121a23\" class=\"content_image\" width=\"402\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-62342797d4402a3c7ef024bfddaa5ba9_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"402\" data-rawheight=\"302\" data-thumbnail=\"https://pic4.zhimg.com/v2-62342797d4402a3c7ef024bfddaa5ba9_b.jpg\" data-original-token=\"v2-62342797d4402a3c7ef024bfddaa5ba9\" class=\"content_image\" width=\"402\"/></figure><p data-pid=\"GIcLd2Ou\">从你的 Rem 生成抽认卡后，RemNote 会自动安排一个接近最佳的练习安排。 通过不断地对自己所学的内容进行测试，你可以防止自己忘记。</p><h2>建构知识的三个原则</h2><p data-pid=\"Uv31vM8N\">在 RemNote 中，你需要按照信息在你大脑中的存在方式来组织信息。我们认为，我们上面探讨的三个原则体现了这种结构：</p><ol><li data-pid=\"w0Q2wvO8\">把世界想象成排列成层次结构的概念。</li><li data-pid=\"vCWh5u5-\">概念具有描述，可以让你更深入地理解它们。 </li><li data-pid=\"AAGg3FcD\">概念之间要相互关联、相互连接，形成丰富的、具有联想性的思想知识库。</li></ol><p data-pid=\"NprJRuWi\">让我们将这些想法应用于自己。 我们建议你考虑一下这些想法，以便记住它们。 你可以将以下结构直接导入知识库中，也可以编写自己的版本，这对你来说更有意义。 （我们建议你尝试用自己的语言重写这些想法——你的知识应该是你自己的！）</p><ul><li data-pid=\"l-pi8UXN\">原则</li><ul><li data-pid=\"ypdJi9fA\">建构知识的三个原则</li><ul><li data-pid=\"zyIG1PYS\">把世界想象成排列成层次结构的概念。</li><li data-pid=\"Hs8_gVI5\">概念具有描述，可以让你更深入地理解它们。</li><li data-pid=\"GJQtN8oZ\">概念之间应该在思想上相互联系。</li></ul></ul><li data-pid=\"DIA4qna2\">概念:: 一种缺失的 Rem，它代表了现实世界中的一个概念或东西。</li><ul><li data-pid=\"PTQt4ZRJ\">描述:: 描述概念的一条信息（例如概念的“颜色”，或者你可以就概念提出的问题）</li><ul><li data-pid=\"5qPLCOSG\">你可以从一种疾病学到的样例描述:: 该疾病的一系列症状</li></ul></ul></ul>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
-  "reason": "",
-  "excerpt_title": "",
-  "id": 242322075,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/21349162",
+      "type": "topic",
+      "id": "21349162",
+      "name": "RemNote"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19581102",
+      "type": "topic",
+      "id": "19581102",
+      "name": "知识体系"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19580586",
+      "type": "topic",
+      "id": "19580586",
+      "name": "高效学习"
+    }
+  ],
   "voteup_count": 33,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "暂时没有专栏分类的文章",
+    "is_following": false,
+    "url_token": "c_1853848933266227200",
+    "id": "c_1853848933266227200",
+    "articles_count": 104,
+    "accept_submission": true,
+    "title": "杂项",
+    "url": "https://api.zhihu.com/columns/c_1853848933266227200",
+    "comment_permission": "all",
+    "created": 1734772028,
+    "updated": 1734772042,
+    "image_url": "https://picx.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 48,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 2,
+  "contributions": [
+    {
+      "id": 50433164,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "暂时没有专栏分类的文章",
+        "is_following": false,
+        "url_token": "c_1853848933266227200",
+        "id": "c_1853848933266227200",
+        "articles_count": 104,
+        "accept_submission": true,
+        "title": "杂项",
+        "url": "https://api.zhihu.com/columns/c_1853848933266227200",
+        "comment_permission": "all",
+        "created": 1734772028,
+        "updated": 1734772042,
+        "image_url": "https://picx.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 48,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": true,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 65,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "在 RemNote 中构建知识 - 来自知乎专栏「杂项」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/242322075 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1600055405,
-  "url": "https://api.zhihu.com/articles/242322075",
-  "comment_permission": "all",
-  "title": "在 RemNote 中构建知识",
-  "image_width": 970,
-  "content": "<blockquote data-pid=\"tTwFvrt0\">原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.remnote.io/documentation/4cSP28pBtAgrNTLkg\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Structuring Knowledge in RemNote</a><br/>争取把官方的教程全部翻译完</blockquote><hr/><h2>一个关于记忆的思想实验</h2><p data-pid=\"lHGe4uNn\">花点时间看看你的周围，观察你所看到的，也许是：一台电脑，一部手机，一株植物，或者一个人。这些都是你经常与之交互的内容，并且你已经建立了关于它们每一个的广泛的知识体系。假设我让你给我描述一下你的<b>电脑</b>。你你可以从它的主要组件开始：<b>鼠标</b>、<b>键盘</b>和<b>屏幕</b>。你将描述如何移动<b>鼠标</b>来打开屏幕上的<b>浏览器</b>，以及如何使用<b>浏览器</b>打开<b>网站</b>。如果我问你你的<b>鼠标</b>是什么颜色（或者问你一百个类似的问题），你可能会立刻回答。你似乎非常了解这个系统！</p><p data-pid=\"sdoi9ANS\">让我们检查一下你的电脑在你的记忆和思考过程中的表现方式。</p><ol><li data-pid=\"FBbWyRSX\">请注意，我们在上面加粗了几个主要概念，例如“<b>电脑</b>”，“<b>鼠标</b>”和“<b>键盘</b>”。 这些概念可以分解为以下组件：你的<b>计算机</b>具有<b>浏览器</b>，该<b>浏览器</b>具有<b>地址栏</b>。 这些概念形成一个层次结构，其中复杂的概念由不太复杂的概念组成。</li><li data-pid=\"FV0rchPG\">请注意，对于这些概念，你知道许多不同的“描述”：<b>电脑</b>的重量、<b>屏幕</b>的大小、<b>鼠标</b>的颜色等等。</li><li data-pid=\"CAWBXS8i\">请注意，你是根据它们之间的关系来考虑这些概念的——例如，你使用键盘来让字符显示在屏幕上。</li></ol><p data-pid=\"ORVOBEKu\"> 如果我们试图根据上述原则来编写所有这些知识，你可能会编写如下内容</p><ul><li data-pid=\"56Q8NLdV\">电脑</li><ul><li data-pid=\"C37S8dwx\"><i>重量</i>:: 中等重量，一只手拿着不太舒服，但两只手可以轻松拿着</li><li data-pid=\"IHVaLdr7\"><b>浏览器</b>:: 用于浏览网站的工具</li><ul><li data-pid=\"NurKJ0NE\"><i>网站访问过程</i>:: 使用鼠标单击地址栏，然后使用键盘输入网址。</li><li data-pid=\"oUpfqVGi\">地址栏  </li></ul><li data-pid=\"tYwnM6kl\">键盘</li><ul><li data-pid=\"rtZMQWXj\"><i>在黑暗中找到键位</i>:: “f”和“j”键底部的小突起</li></ul><li data-pid=\"7k8V--Um\">屏幕</li><li data-pid=\"Fntgon4S\">鼠标</li><ul><li data-pid=\"VEQ253ec\"><i>颜色</i>:: 黑色</li></ul></ul><li data-pid=\"DJIANKwy\">网站</li><ul><li data-pid=\"cAXjofKr\">网址</li></ul></ul><h2>为什么要把一个想法分解成这么多细节呢？</h2><ol><li data-pid=\"XJBxN9Qi\">它帮助你理解复杂的概念。</li></ol><p data-pid=\"cOLJzN61\">分解一个复杂的想法可以让你从简单的部分来理解它。我们相信，你如此了解你的电脑，是因为你对它的知识在你的大脑中以这种方式分解。想象一下，如果你想学习一些“更复杂的”东西。学习的过程将是完全相同的：把系统分解成你可以分别理解的更小的部分，学习每个部分是如何工作的，最后把所有的东西联系起来。</p><p data-pid=\"dd_UhqJa\">2. 你可以更高效地测试你的知识。</p><p data-pid=\"6weNLPyM\">分解一个复杂的概念意味着你可以测试你对个别细节的理解，大大提高你的学习效率。RemNote 可以帮助你自动化这个过程。上面的每条信息都会变成自动生成的抽认卡，你可以用它进行自我测试。这里有一些抽认卡示例。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-b566f5e964db3ff4dfcb2bbca5311536_b.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"402\" data-rawheight=\"302\" data-thumbnail=\"https://pica.zhimg.com/v2-b566f5e964db3ff4dfcb2bbca5311536_b.jpg\" class=\"content_image\" width=\"402\" data-original-token=\"v2-b566f5e964db3ff4dfcb2bbca5311536\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-0f3a2928447762e0c0472a8abd121a23_b.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"402\" data-rawheight=\"302\" data-thumbnail=\"https://pic4.zhimg.com/v2-0f3a2928447762e0c0472a8abd121a23_b.jpg\" class=\"content_image\" width=\"402\" data-original-token=\"v2-0f3a2928447762e0c0472a8abd121a23\"/></figure><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-62342797d4402a3c7ef024bfddaa5ba9_b.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"402\" data-rawheight=\"302\" data-thumbnail=\"https://pic4.zhimg.com/v2-62342797d4402a3c7ef024bfddaa5ba9_b.jpg\" class=\"content_image\" width=\"402\" data-original-token=\"v2-62342797d4402a3c7ef024bfddaa5ba9\"/></figure><p data-pid=\"GIcLd2Ou\">从你的 Rem 生成抽认卡后，RemNote 会自动安排一个接近最佳的练习安排。 通过不断地对自己所学的内容进行测试，你可以防止自己忘记。</p><h2>建构知识的三个原则</h2><p data-pid=\"Uv31vM8N\">在 RemNote 中，你需要按照信息在你大脑中的存在方式来组织信息。我们认为，我们上面探讨的三个原则体现了这种结构：</p><ol><li data-pid=\"w0Q2wvO8\">把世界想象成排列成层次结构的概念。</li><li data-pid=\"vCWh5u5-\">概念具有描述，可以让你更深入地理解它们。 </li><li data-pid=\"AAGg3FcD\">概念之间要相互关联、相互连接，形成丰富的、具有联想性的思想知识库。</li></ol><p data-pid=\"NprJRuWi\">让我们将这些想法应用于自己。 我们建议你考虑一下这些想法，以便记住它们。 你可以将以下结构直接导入知识库中，也可以编写自己的版本，这对你来说更有意义。 （我们建议你尝试用自己的语言重写这些想法——你的知识应该是你自己的！）</p><ul><li data-pid=\"l-pi8UXN\">原则</li><ul><li data-pid=\"ypdJi9fA\">建构知识的三个原则</li><ul><li data-pid=\"zyIG1PYS\">把世界想象成排列成层次结构的概念。</li><li data-pid=\"Hs8_gVI5\">概念具有描述，可以让你更深入地理解它们。</li><li data-pid=\"GJQtN8oZ\">概念之间应该在思想上相互联系。</li></ul></ul><li data-pid=\"DIA4qna2\">概念:: 一种缺失的 Rem，它代表了现实世界中的一个概念或东西。</li><ul><li data-pid=\"PTQt4ZRJ\">描述:: 描述概念的一条信息（例如概念的“颜色”，或者你可以就概念提出的问题）</li><ul><li data-pid=\"5qPLCOSG\">你可以从一种疾病学到的样例描述:: 该疾病的一系列症状</li></ul></ul></ul>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 2,
-  "image_url": "https://pic1.zhimg.com/v2-eda87b70aa4f8b9492c10301bd402076_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 14,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 14,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxNDE5ODIxMjUSCTI0MjMyMjA3NRgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 33,
+      "down_vote_count": 0,
+      "like_count": 14,
+      "comment_count": 2,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 65,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-0f3a2928447762e0c0472a8abd121a23": 0,
+        "v2-62342797d4402a3c7ef024bfddaa5ba9": 0,
+        "v2-b566f5e964db3ff4dfcb2bbca5311536": 0,
+        "v2-eda87b70aa4f8b9492c10301bd402076": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-0f3a2928447762e0c0472a8abd121a23": false,
+        "v2-62342797d4402a3c7ef024bfddaa5ba9": false,
+        "v2-b566f5e964db3ff4dfcb2bbca5311536": false,
+        "v2-eda87b70aa4f8b9492c10301bd402076": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-0f3a2928447762e0c0472a8abd121a23": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-62342797d4402a3c7ef024bfddaa5ba9": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-b566f5e964db3ff4dfcb2bbca5311536": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-eda87b70aa4f8b9492c10301bd402076": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=242322075&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 杂项",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1853848933266227200",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 杂项"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,19 +37,21 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,37 +84,57 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 0,
   "content": "<p data-pid=\"FsIkQ3cd\">看起来很接近指数：1、2、4、8-1、16-1、32-1</p><p data-pid=\"W2_61_F4\">但是细看相邻间隔之间的比值，又怪怪的：</p><ul><li data-pid=\"3o8Hj0WX\">2 / 1 = 2</li><li data-pid=\"ifbxS_IZ\">4 / 2 = 2</li><li data-pid=\"tEEYziZx\">7 / 4 = 1.75</li><li data-pid=\"_zfHvFdy\">15 / 7 <i>=</i> 2.14</li><li data-pid=\"Ao1Fg5fS\">31 / 15 = 2.07</li></ul><p data-pid=\"bVmBTEqc\">一会儿等于 2，一会儿小于 2，一会儿又大于 2，没有单调性</p><p data-pid=\"vl-8cPUH\">不过这个间隔本来就是杜撰的，没有规律也很正常：</p><a href=\"https://www.zhihu.com/question/378740835/answer/2362242567\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-cbfc5108a772ad8077c26bf82451edfa_ipico.jpg\" data-image-width=\"849\" data-image-height=\"836\" class=\"internal\">艾宾浩斯记忆法这么一个杜撰的东西，居然  @滴答清单  还能一起传谣。</a><p data-pid=\"B1Kn6Gqy\">这种按照一定间隔进行复习记忆的方法，实际上被称作间隔重复（spaced repetition）</p><p data-pid=\"YIR3Wrt7\">相关文献综述，请看：</p><a href=\"http://zhuanlan.zhihu.com/p/420105707\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-9268cd1d0435215e42750c7d34ecd7b5_180x120.jpg\" data-image-width=\"2183\" data-image-height=\"1203\" class=\"internal\">叶峻峣：(1/5) 高效学习的间隔重复——概述</a><p data-pid=\"uMZP30lj\">更多关于间隔重复的故事，请看：</p><a href=\"http://zhuanlan.zhihu.com/p/375379522\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-e2f3e31b3b37b0c9b2abe6171cf5329f_180x120.jpg\" data-image-width=\"1199\" data-image-height=\"854\" class=\"internal\">叶峻峣：0 Content 目录《间隔重复的历史》</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1646579890,
   "excerpt": "看起来很接近指数：1、2、4、8-1、16-1、32-1 但是细看相邻间隔之间的比值，又怪怪的： 2 / 1 = 24 / 2 = 27 / 4 = 1.7515 / 7 = 2.1431 / 15 = 2.07一会儿等于 2，一会儿小于 2，一会儿又大于 2，没有单调性 不过这个间隔本来就是杜撰的，没有规律也很正常： 艾宾浩斯记忆法这么一个杜撰的东西，居然 @滴答清单 还能一起传谣。 这种按照一定间隔进行复习记忆的方法，实际上被称作间隔重复（spaced repetition） 相关文献综述，请…",
-  "id": 2377281111,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2377281111",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "http://zhuanlan.zhihu.com/p/375379522": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"0 目录《间隔重复的历史》\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/375379522\",\"desc\":\"52 赞同 · 3 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e SuperMemo 的创造者，沃兹尼亚克以第一人称叙述关于他所认知的，间隔重复的历史。 前言 1985：SuperMemo 的诞生 1986：SuperMemo 的第一步 SuperMemo 1.0: 日志 (1987) 1988：记忆的两个组成成分 1989: SuperMemo 适应用户记忆 (上) (中) (下) 1990：记忆的通用公式 1991：启用遗忘曲线 1994：遗忘的指数性质 1995：超媒体 SuperMemo 1997：启用神经网络 1999：命名为「间隔重复」 2005：稳定性增长函数 2014：SM-17 算法 间隔重复的指数式普及 …\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-e2f3e31b3b37b0c9b2abe6171cf5329f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"375379522\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "http://zhuanlan.zhihu.com/p/420105707": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"(1/5) 高效学习的间隔重复——概述\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/420105707\",\"desc\":\"222 赞同 · 11 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 原文： Spaced Repetition for Efficient Learning · Gwern.net 译者： @Shom @住在树洞里的二猪 @彩练空舞 @ACRL 等 Thoughts Memo 汉化组成员译者按由于原文长达 3 万词，翻译后接近 4 万字，故拆分为以下 5 个部分发布： 概述（现在在这儿）文献综述测试效应：https://zhuanlan.zhihu.com/p/420309917 间隔效应：https://zhuanlan.zhihu.com/p/420924493 应用指南：https://zhuanlan.zhihu.com/p/423065882 脚注：https://zhuanlan.zhihu.com/p/453406457 本文内容翔实，参考了大量文献，也被多篇领域内论文…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-9268cd1d0435215e42750c7d34ecd7b5_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"420105707\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://www.zhihu.com/question/378740835/answer/2362242567": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"滴答清单新更新的艾宾浩斯记忆法重复规则怎么利用？\",\"card_open_url\":\"https://www.zhihu.com/question/378740835/answer/2362242567\",\"desc\":\"84 赞同 · 20 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 艾宾浩斯记忆法这么一个杜撰的东西，居然 @滴答清单 还能一起传谣。 [图片] 但凡去看看艾宾浩斯的原著，或者艾宾浩斯的 wikipedia 页面，也不至于把这玩意当真。 Classics in the History of Psychology 艾宾浩斯的遗忘曲线是真的，他的数据有归档记录： [图片] 但这只是他测试的几个复习时间点，和是否是合适的记忆时间半毛钱关系都没有。 另外这表上的时间是 20 分钟、1 小时、8.8 小时、1 天、2 天、6 天、31 天，和滴答清单上的 1 2 4 7 15 …\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-cbfc5108a772ad8077c26bf82451edfa.png?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"2362242567\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "http://zhuanlan.zhihu.com/p/375379522": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"0 目录《间隔重复的历史》\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/375379522\",\"desc\":\"56 赞同 · 3 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e SuperMemo 的创造者，沃兹尼亚克以第一人称叙述关于他所认知的，间隔重复的历史。 前言 1985：SuperMemo 的诞生 1986：SuperMemo 的第一步 SuperMemo 1.0: 日志 (1987) 1988：记忆的两个组成成分 1989: SuperMemo 适应用户记忆 (上) (中) (下) 1990：记忆的通用公式 1991：启用遗忘曲线 1994：遗忘的指数性质 1995：超媒体 SuperMemo 1997：启用神经网络 1999：命名为「间隔重复」 2005：稳定性增长函数 2014：SM-17 算法 间隔重复的指数式普及 …\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-e2f3e31b3b37b0c9b2abe6171cf5329f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"375379522\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "http://zhuanlan.zhihu.com/p/420105707": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"(1/5) 高效学习的间隔重复——概述\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/420105707\",\"desc\":\"297 赞同 · 13 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 原文： Spaced Repetition for Efficient Learning · Gwern.net 译者： @Shom @住在树洞里的二猪 @彩练空舞 @ACRL 等 Thoughts Memo 汉化组成员译者按由于原文长达 3 万词，翻译后接近 4 万字，故拆分为以下 5 个部分发布： 概述（现在在这儿）文献综述测试效应：https://zhuanlan.zhihu.com/p/420309917 间隔效应：https://zhuanlan.zhihu.com/p/420924493 应用指南：https://zhuanlan.zhihu.com/p/423065882 脚注：https://zhuanlan.zhihu.com/p/453406457 本文内容翔实，参考了大量文献，也被多篇领域内论文…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-9268cd1d0435215e42750c7d34ecd7b5_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"420105707\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://www.zhihu.com/question/378740835/answer/2362242567": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"滴答清单新更新的艾宾浩斯记忆法重复规则怎么利用？\",\"card_open_url\":\"https://www.zhihu.com/question/378740835/answer/2362242567\",\"desc\":\"83 赞同 · 19 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 艾宾浩斯记忆法这么一个杜撰的东西，居然 @滴答清单 还能一起传谣。 [图片] 但凡去看看艾宾浩斯的原著，或者艾宾浩斯的 wikipedia 页面，也不至于把这玩意当真。 Classics in the History of Psychology 艾宾浩斯的遗忘曲线是真的，他的数据有归档记录： [图片] 但这只是他测试的几个复习时间点，和是否是合适的记忆时间半毛钱关系都没有。 另外这表上的时间是 20 分钟、1 小时、8.8 小时、1 天、2 天、6 天、31 天，和滴答清单上的 1 2 4 7 15 …\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-cbfc5108a772ad8077c26bf82451edfa.png?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"2362242567\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=2377281111&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1645765553,
     "detail": "<p>艾宾浩斯时间间隔是怎么计算出来的？</p><p>如果把时间无限延长，有没有间隔时间的公式？</p><p>1、2、4、7、15、31、 …… 、n、n+1</p>",
-    "id": 518632789,
+    "id": "518632789",
     "question_type": "normal",
     "relationship": {},
     "title": "艾宾浩斯记忆计划表规律是什么？",
     "type": "question",
     "updated_time": 1645765553,
-    "url": "https://api.zhihu.com/questions/518632789"
+    "url": "https://www.zhihu.com/api/v4/questions/518632789"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 8
+  "updated_time": 1646579890,
+  "url": "https://www.zhihu.com/api/v4/answers/2377281111",
+  "voteup_count": 9
 }

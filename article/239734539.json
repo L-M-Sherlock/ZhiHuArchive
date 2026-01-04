@@ -1,80 +1,505 @@
 {
-  "status": 0,
+  "id": "239734539",
+  "title": "间隔重复概述",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/239734539",
+  "image_url": "https://picx.zhimg.com/v2-c0a057efaea02db6f982a188704f250d_r.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-c0a057efaea02db6f982a188704f250d_r.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://pica.zhimg.com/v2-dc10d9bdf216de6c2a83c325da289cd4_200x112.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"402\" data-rawheight=\"340\" data-watermark=\"\" data-original-src=\"\" data-watermark-src=\"\" data-private-watermark-src=\"\" data-thumbnail=\"https://pic1.zhimg.com/v2-dc10d9bdf216de6c2a83c325da289cd4_b.jpg\" class=\"origin_image inline-img zh-lightbox-thumb\" data-original=\"https://pica.zhimg.com/v2-dc10d9bdf216de6c2a83c325da289cd4_r.jpg\"/>抽认卡会自动从你的知识库中生成RemNote 帮助你记住所学的内容。当你把一个想法分解成它的组成部分的层次结构后，RemNote 会自动从每个组成部分生成一张抽认卡。 下面是一个知识层次结构和相关的抽认卡的例子 基本结构:: <u><a href=\"https://zhuanlan.zhihu.com/%E7%BB%BC%E5%90%88%E6%95%B0%E6%8D%AE%E5%BA%93.md\" class=\"internal\" target=\"_blank\">综合数据库</a></u>+<u><a href=\"https://zhuanlan.zhihu.com/%E8%A7%84%E5%88%99%E5%BA%93.md\" class=\"internal\" target=\"_blank\">规则库</a></u>+<u><a href=\"https://zhuanlan.zhihu.com/%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F.md\" class=\"internal\" target=\"_blank\">控制系统</a></u>综合数…",
+  "created": 1599959381,
   "updated": 1599959381,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "抽认卡会自动从你的知识库中生成RemNote 帮助你记住所学的内容。当你把一个想法分解…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 1801,
+  "image_height": 930,
+  "content": "<h2>抽认卡会自动从你的知识库中生成</h2><p data-pid=\"GRD6RKvZ\">RemNote 帮助你记住所学的内容。当你把一个想法分解成它的组成部分的层次结构后，RemNote 会自动从每个组成部分生成一张抽认卡。</p><p data-pid=\"slDt1XDh\">下面是一个知识层次结构和相关的抽认卡的例子</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-dc10d9bdf216de6c2a83c325da289cd4_1440w.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"402\" data-rawheight=\"340\" data-thumbnail=\"https://pica.zhimg.com/v2-dc10d9bdf216de6c2a83c325da289cd4_b.jpg\" data-original-token=\"v2-dc10d9bdf216de6c2a83c325da289cd4\" class=\"content_image\" width=\"402\"/></figure><ul><li data-pid=\"v8gjb9Be\">基本结构:: <u><a href=\"https://zhuanlan.zhihu.com/%E7%BB%BC%E5%90%88%E6%95%B0%E6%8D%AE%E5%BA%93.md\" class=\"internal\" target=\"_blank\">综合数据库</a></u>+<u><a href=\"https://zhuanlan.zhihu.com/%E8%A7%84%E5%88%99%E5%BA%93.md\" class=\"internal\" target=\"_blank\">规则库</a></u>+<u><a href=\"https://zhuanlan.zhihu.com/%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F.md\" class=\"internal\" target=\"_blank\">控制系统</a></u></li><ul><li data-pid=\"JiUMDhrY\">综合数据库</li><ul><li data-pid=\"OlgXZxZm\">存放内容:: 推理过程的各种当前信息</li><li data-pid=\"qh0ZGGZL\">作用:: 推理过程选择可用<u><a href=\"https://zhuanlan.zhihu.com/%E8%A7%84%E5%88%99.md\" class=\"internal\" target=\"_blank\">规则</a></u>的依据</li></ul><li data-pid=\"Ai8sIBIE\">规则库</li><ul><li data-pid=\"biswEgNo\">作用:: 用于存放推理所需要的所有<u><a href=\"https://zhuanlan.zhihu.com/%E8%A7%84%E5%88%99.md\" class=\"internal\" target=\"_blank\">规则</a></u>, 是进行推理的根本</li><li data-pid=\"gGA2rV84\">要求:: 知识的完整性、一致性、准确性、灵活性和可组织性</li></ul></ul></ul><p data-pid=\"POdFw_ZZ\">练习这些抽认卡将帮助你记住所学的东西。</p><h2>间隔重复——你的最佳抽认卡练习安排<br/></h2><p data-pid=\"IvQQ3XLd\">什么时候练习，多久练习一次?为了回答这个问题，认知心理学家测量了人们忘记所学知识的速度。如果我们把你成功回忆起某项知识的可能性与你学习它的天数做个图，我们会看到一条衰减的曲线，就像下面的红线一样：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-8a32c9e9c0cb351ad7ea098c02dd7665_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2000\" data-rawheight=\"1711\" data-original-token=\"v2-e786934858015d7b6b601603f3af8ee1\" class=\"origin_image zh-lightbox-thumb\" width=\"2000\" data-original=\"https://pic2.zhimg.com/v2-8a32c9e9c0cb351ad7ea098c02dd7665_r.jpg\"/></figure><p data-pid=\"AIx4MZyA\">这条曲线被称为遗忘曲线。它有两个重要的性质：</p><ul><li data-pid=\"rDmZz2yi\">在最初学习到一些东西之后，您对这个想法的记忆就会迅速（呈指数下降）。 我们将衰减速率称为衰减率。</li><li data-pid=\"s2aJRR5y\">积极练习卡会重置相应记忆的“遗忘曲线”。 更好的是，它<b>降低</b>了衰减率，这意味着记忆的衰减速度在将来会变慢，并且你会更长久地保留自己的知识。</li></ul><p data-pid=\"Ntet-Z-Y\">遗忘曲线意味着你不需要在每张卡片上练习那么多次，只要你在“最佳”时间练习每张牌就可以了。与其在一天内多次填鸭式地练习一张卡片，不如把练习间隔在几天、几周、甚至几个月、几年的时间里。这种间隔练习的方法叫做间隔重复</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-13c7b910cda736e9e5d275016098ada8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"630\" data-rawheight=\"369\" data-original-token=\"v2-f8533613334c4317f2c55a47c9e2ba00\" class=\"origin_image zh-lightbox-thumb\" width=\"630\" data-original=\"https://pica.zhimg.com/v2-13c7b910cda736e9e5d275016098ada8_r.jpg\"/></figure><p data-pid=\"c_cxltjf\">间隔重复很实用，因为每次练习时，连续练习之间的间隔都会扩大。 第一次和第二次练习之间有大约 1 天的延迟，第二次和第三次练习之间有 3 天的延迟，第三次和第四次练习之间有 7 天的延迟，依此类推。 仅仅重复几次，你看到这个概念就需要到几个月甚至几年之后。 这意味着每张卡都不需要花费很多时间来永久学习。</p><p data-pid=\"5NCRAeeg\">大量的科学研究表明，与简单地多次阅读材料或以其他方式进行练习而没有记忆的方式相比，间隔重复是一种更为有效的学习工具。 练习迫使你确定自己对某条信息的了解程度。 此外，练习可以增强思想联系，使您的大脑自动提示你从记忆中检索相关的信息。最后，根据衰减率调整你的练习计划意味着你可以用最小的努力来防止遗忘。 </p><ul><li data-pid=\"BhaOw8wH\">遗忘曲线:: 记忆衰减模型表明，独立的记忆在学习后呈指数衰减</li><ul><li data-pid=\"6BnUF1dh\">是一种技术?:: 不，这是关于记忆如何工作的一个模型</li><li data-pid=\"sRQBDdLb\">如何对抗衰减?:: 按间隔重复进行练习</li></ul><li data-pid=\"bKCio-9G\">间隔重复:: 一种学习技巧，你可以在即将忘记之前练习回忆知识点（重置遗忘曲线）。</li><ul><li data-pid=\"Mt9CMDkf\">每次练习对衰减率的影响:: 降低你练习的每个想法的衰减率，这意味着你记住这些想法的时间更长</li><li data-pid=\"Aw2zrCm8\">在第一天需要多次练习吗?:: 不，最好是随着时间的推移，把它分隔开</li></ul></ul><h2>队列自动生成最佳练习安排</h2><p data-pid=\"NB7m8F9E\">在从你的 Rem 中生成抽认卡后，RemNote 自动安排了一个接近最佳间隔的重复练习计划。练习卡会在每天开始时自动放入你的队列中。这些卡片留在你的队列中，直到你练习它们。</p><h2>在队列中使用你的抽认卡</h2><p data-pid=\"DeXmopxV\">下面是每个抽认卡的工作方式。</p><p data-pid=\"B8a6o8CL\">首先，你看到一个提示</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-37bfb70103a740edd4fa18e7858d5032_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"398\" data-rawheight=\"296\" data-original-token=\"v2-149ba34b53974edfc1105139bb1d54d1\" class=\"content_image\" width=\"398\"/></figure><p data-pid=\"Yo6UykEa\">第二，尝试积极地回忆相关的知识。</p><p data-pid=\"yZBS0tPk\">第三，你按“显示答案”以检查你的记忆。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-22b05dd55b6b0ae1d58624115658005a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"399\" data-rawheight=\"295\" data-original-token=\"v2-45177753dd68294a4187542161944676\" class=\"content_image\" width=\"399\"/></figure><p data-pid=\"r7WIqCw4\">最后，你要评估你回忆知识的成功程度。你有四种选择：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-205244fa4136409adb7e73177574a64a_1440w.png\" data-size=\"normal\" data-rawwidth=\"72\" data-rawheight=\"64\" data-original-token=\"v2-205244fa4136409adb7e73177574a64a\" class=\"content_image\" width=\"72\"/><figcaption>我知道这个。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-40ac94e40788d92b476a29abf904b28d_1440w.png\" data-size=\"normal\" data-rawwidth=\"64\" data-rawheight=\"62\" data-original-token=\"v2-40ac94e40788d92b476a29abf904b28d\" class=\"content_image\" width=\"64\"/><figcaption>我答对了，但很费劲（很慢或不确定）。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-4bae1fa035ed42366aca320bec5d7208_1440w.png\" data-size=\"normal\" data-rawwidth=\"62\" data-rawheight=\"62\" data-original-token=\"v2-4bae1fa035ed42366aca320bec5d7208\" class=\"content_image\" width=\"62\"/><figcaption>我不知道这个。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-56350d42157072e5e080fe23717308ee_1440w.png\" data-size=\"normal\" data-rawwidth=\"54\" data-rawheight=\"50\" data-original-token=\"v2-56350d42157072e5e080fe23717308ee\" class=\"content_image\" width=\"54\"/><figcaption>我不小心太早按下了“显示答案”，并没有真正测试我自己。</figcaption></figure><p data-pid=\"vkbolg_A\">队列使用你的反馈来自动安排下次你练习那张卡的时间。</p><p data-pid=\"_-2eBOx7\">正确使用抽认卡是有效学习的关键。在看到提示后，确保你确实暂停并试着回忆相关的信息。积极地这样做需要付出努力，但这是建立思想联系以帮助保持这个想法的关键。当报告你的准确性时，选择正确的回应也是极其重要的，以帮助安排算法优化你的长期学习。</p><h2>每日目标功能可帮助你保持进度</h2><p data-pid=\"0auZG55j\">每天练习队列需要花费一些时间和精力。每日目标功能就像你的“私人教练”，自动设定你每天要练习多少张卡片来正确地学习 Rem。</p><p data-pid=\"rFlZ0tJH\">队列框顶部下方的细深灰色条反映了你的进度。当你学习抽认卡时，进度条向右移动。尽量每天把进度条填满！</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-26a6a90cc833a6706cc7d1f4ddef8cd4_1440w.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"400\" data-rawheight=\"39\" data-original-token=\"v2-26a6a90cc833a6706cc7d1f4ddef8cd4\" class=\"content_image\" width=\"400\"/></figure><h2>你手机上的抽认卡</h2><p data-pid=\"Ua83bQ9K\">顺便说一下，你可以打开手机上的队列。许多 RemNote 用户在他们的队列中练习，否则这些时间会被浪费掉，比如坐在公交车上或排长队等待。</p><p></p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
-  "reason": "",
-  "excerpt_title": "",
-  "id": 239734539,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/21349162",
+      "type": "topic",
+      "id": "21349162",
+      "name": "RemNote"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19633431",
+      "type": "topic",
+      "id": "19633431",
+      "name": "遗忘曲线"
+    }
+  ],
   "voteup_count": 24,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "暂时没有专栏分类的文章",
+    "is_following": false,
+    "url_token": "c_1853848933266227200",
+    "id": "c_1853848933266227200",
+    "articles_count": 104,
+    "accept_submission": true,
+    "title": "杂项",
+    "url": "https://api.zhihu.com/columns/c_1853848933266227200",
+    "comment_permission": "all",
+    "created": 1734772028,
+    "updated": 1734772042,
+    "image_url": "https://pica.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 48,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 0,
+  "contributions": [
+    {
+      "id": 50433163,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "暂时没有专栏分类的文章",
+        "is_following": false,
+        "url_token": "c_1853848933266227200",
+        "id": "c_1853848933266227200",
+        "articles_count": 104,
+        "accept_submission": true,
+        "title": "杂项",
+        "url": "https://api.zhihu.com/columns/c_1853848933266227200",
+        "comment_permission": "all",
+        "created": 1734772028,
+        "updated": 1734772042,
+        "image_url": "https://pica.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 48,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": true,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 18,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "间隔重复概述 - 来自知乎专栏「杂项」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/239734539 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1599959381,
-  "url": "https://api.zhihu.com/articles/239734539",
-  "comment_permission": "all",
-  "title": "间隔重复概述",
-  "image_width": 930,
-  "content": "<h2>抽认卡会自动从你的知识库中生成</h2><p data-pid=\"GRD6RKvZ\">RemNote 帮助你记住所学的内容。当你把一个想法分解成它的组成部分的层次结构后，RemNote 会自动从每个组成部分生成一张抽认卡。</p><p data-pid=\"slDt1XDh\">下面是一个知识层次结构和相关的抽认卡的例子</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-dc10d9bdf216de6c2a83c325da289cd4_b.gif\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"402\" data-rawheight=\"340\" data-thumbnail=\"https://pica.zhimg.com/v2-dc10d9bdf216de6c2a83c325da289cd4_b.jpg\" class=\"content_image\" width=\"402\" data-original-token=\"v2-dc10d9bdf216de6c2a83c325da289cd4\"/></figure><ul><li data-pid=\"v8gjb9Be\">基本结构:: <u><a href=\"https://zhuanlan.zhihu.com/%E7%BB%BC%E5%90%88%E6%95%B0%E6%8D%AE%E5%BA%93.md\" class=\"internal\">综合数据库</a></u>+<u><a href=\"https://zhuanlan.zhihu.com/%E8%A7%84%E5%88%99%E5%BA%93.md\" class=\"internal\">规则库</a></u>+<u><a href=\"https://zhuanlan.zhihu.com/%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F.md\" class=\"internal\">控制系统</a></u></li><ul><li data-pid=\"JiUMDhrY\">综合数据库</li><ul><li data-pid=\"OlgXZxZm\">存放内容:: 推理过程的各种当前信息</li><li data-pid=\"qh0ZGGZL\">作用:: 推理过程选择可用<u><a href=\"https://zhuanlan.zhihu.com/%E8%A7%84%E5%88%99.md\" class=\"internal\">规则</a></u>的依据</li></ul><li data-pid=\"Ai8sIBIE\">规则库</li><ul><li data-pid=\"biswEgNo\">作用:: 用于存放推理所需要的所有<u><a href=\"https://zhuanlan.zhihu.com/%E8%A7%84%E5%88%99.md\" class=\"internal\">规则</a></u>, 是进行推理的根本</li><li data-pid=\"gGA2rV84\">要求:: 知识的完整性、一致性、准确性、灵活性和可组织性</li></ul></ul></ul><p data-pid=\"POdFw_ZZ\">练习这些抽认卡将帮助你记住所学的东西。</p><h2>间隔重复——你的最佳抽认卡练习安排<br/></h2><p data-pid=\"IvQQ3XLd\">什么时候练习，多久练习一次?为了回答这个问题，认知心理学家测量了人们忘记所学知识的速度。如果我们把你成功回忆起某项知识的可能性与你学习它的天数做个图，我们会看到一条衰减的曲线，就像下面的红线一样：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-8a32c9e9c0cb351ad7ea098c02dd7665_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2000\" data-rawheight=\"1711\" class=\"origin_image zh-lightbox-thumb\" width=\"2000\" data-original=\"https://pic2.zhimg.com/v2-8a32c9e9c0cb351ad7ea098c02dd7665_r.jpg\" data-original-token=\"v2-e786934858015d7b6b601603f3af8ee1\"/></figure><p data-pid=\"AIx4MZyA\">这条曲线被称为遗忘曲线。它有两个重要的性质：</p><ul><li data-pid=\"rDmZz2yi\">在最初学习到一些东西之后，您对这个想法的记忆就会迅速（呈指数下降）。 我们将衰减速率称为衰减率。</li><li data-pid=\"s2aJRR5y\">积极练习卡会重置相应记忆的“遗忘曲线”。 更好的是，它<b>降低</b>了衰减率，这意味着记忆的衰减速度在将来会变慢，并且你会更长久地保留自己的知识。</li></ul><p data-pid=\"Ntet-Z-Y\">遗忘曲线意味着你不需要在每张卡片上练习那么多次，只要你在“最佳”时间练习每张牌就可以了。与其在一天内多次填鸭式地练习一张卡片，不如把练习间隔在几天、几周、甚至几个月、几年的时间里。这种间隔练习的方法叫做间隔重复</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-13c7b910cda736e9e5d275016098ada8_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"630\" data-rawheight=\"369\" class=\"origin_image zh-lightbox-thumb\" width=\"630\" data-original=\"https://pica.zhimg.com/v2-13c7b910cda736e9e5d275016098ada8_r.jpg\" data-original-token=\"v2-f8533613334c4317f2c55a47c9e2ba00\"/></figure><p data-pid=\"c_cxltjf\">间隔重复很实用，因为每次练习时，连续练习之间的间隔都会扩大。 第一次和第二次练习之间有大约 1 天的延迟，第二次和第三次练习之间有 3 天的延迟，第三次和第四次练习之间有 7 天的延迟，依此类推。 仅仅重复几次，你看到这个概念就需要到几个月甚至几年之后。 这意味着每张卡都不需要花费很多时间来永久学习。</p><p data-pid=\"5NCRAeeg\">大量的科学研究表明，与简单地多次阅读材料或以其他方式进行练习而没有记忆的方式相比，间隔重复是一种更为有效的学习工具。 练习迫使你确定自己对某条信息的了解程度。 此外，练习可以增强思想联系，使您的大脑自动提示你从记忆中检索相关的信息。最后，根据衰减率调整你的练习计划意味着你可以用最小的努力来防止遗忘。 </p><ul><li data-pid=\"BhaOw8wH\">遗忘曲线:: 记忆衰减模型表明，独立的记忆在学习后呈指数衰减</li><ul><li data-pid=\"6BnUF1dh\">是一种技术?:: 不，这是关于记忆如何工作的一个模型</li><li data-pid=\"sRQBDdLb\">如何对抗衰减?:: 按间隔重复进行练习</li></ul><li data-pid=\"bKCio-9G\">间隔重复:: 一种学习技巧，你可以在即将忘记之前练习回忆知识点（重置遗忘曲线）。</li><ul><li data-pid=\"Mt9CMDkf\">每次练习对衰减率的影响:: 降低你练习的每个想法的衰减率，这意味着你记住这些想法的时间更长</li><li data-pid=\"Aw2zrCm8\">在第一天需要多次练习吗?:: 不，最好是随着时间的推移，把它分隔开</li></ul></ul><h2>队列自动生成最佳练习安排</h2><p data-pid=\"NB7m8F9E\">在从你的 Rem 中生成抽认卡后，RemNote 自动安排了一个接近最佳间隔的重复练习计划。练习卡会在每天开始时自动放入你的队列中。这些卡片留在你的队列中，直到你练习它们。</p><h2>在队列中使用你的抽认卡</h2><p data-pid=\"DeXmopxV\">下面是每个抽认卡的工作方式。</p><p data-pid=\"B8a6o8CL\">首先，你看到一个提示</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-37bfb70103a740edd4fa18e7858d5032_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"398\" data-rawheight=\"296\" class=\"content_image\" width=\"398\" data-original-token=\"v2-149ba34b53974edfc1105139bb1d54d1\"/></figure><p data-pid=\"Yo6UykEa\">第二，尝试积极地回忆相关的知识。</p><p data-pid=\"yZBS0tPk\">第三，你按“显示答案”以检查你的记忆。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-22b05dd55b6b0ae1d58624115658005a_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"399\" data-rawheight=\"295\" class=\"content_image\" width=\"399\" data-original-token=\"v2-45177753dd68294a4187542161944676\"/></figure><p data-pid=\"r7WIqCw4\">最后，你要评估你回忆知识的成功程度。你有四种选择：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-205244fa4136409adb7e73177574a64a_b.png\" data-size=\"normal\" data-rawwidth=\"72\" data-rawheight=\"64\" class=\"content_image\" width=\"72\" data-original-token=\"v2-205244fa4136409adb7e73177574a64a\"/><figcaption>我知道这个。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-40ac94e40788d92b476a29abf904b28d_b.png\" data-size=\"normal\" data-rawwidth=\"64\" data-rawheight=\"62\" class=\"content_image\" width=\"64\" data-original-token=\"v2-40ac94e40788d92b476a29abf904b28d\"/><figcaption>我答对了，但很费劲（很慢或不确定）。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-4bae1fa035ed42366aca320bec5d7208_b.png\" data-size=\"normal\" data-rawwidth=\"62\" data-rawheight=\"62\" class=\"content_image\" width=\"62\" data-original-token=\"v2-4bae1fa035ed42366aca320bec5d7208\"/><figcaption>我不知道这个。</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-56350d42157072e5e080fe23717308ee_b.png\" data-size=\"normal\" data-rawwidth=\"54\" data-rawheight=\"50\" class=\"content_image\" width=\"54\" data-original-token=\"v2-56350d42157072e5e080fe23717308ee\"/><figcaption>我不小心太早按下了“显示答案”，并没有真正测试我自己。</figcaption></figure><p data-pid=\"vkbolg_A\">队列使用你的反馈来自动安排下次你练习那张卡的时间。</p><p data-pid=\"_-2eBOx7\">正确使用抽认卡是有效学习的关键。在看到提示后，确保你确实暂停并试着回忆相关的信息。积极地这样做需要付出努力，但这是建立思想联系以帮助保持这个想法的关键。当报告你的准确性时，选择正确的回应也是极其重要的，以帮助安排算法优化你的长期学习。</p><h2>每日目标功能可帮助你保持进度</h2><p data-pid=\"0auZG55j\">每天练习队列需要花费一些时间和精力。每日目标功能就像你的“私人教练”，自动设定你每天要练习多少张卡片来正确地学习 Rem。</p><p data-pid=\"rFlZ0tJH\">队列框顶部下方的细深灰色条反映了你的进度。当你学习抽认卡时，进度条向右移动。尽量每天把进度条填满！</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-26a6a90cc833a6706cc7d1f4ddef8cd4_b.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"400\" data-rawheight=\"39\" class=\"content_image\" width=\"400\" data-original-token=\"v2-26a6a90cc833a6706cc7d1f4ddef8cd4\"/></figure><h2>你手机上的抽认卡</h2><p data-pid=\"Ua83bQ9K\">顺便说一下，你可以打开手机上的队列。许多 RemNote 用户在他们的队列中练习，否则这些时间会被浪费掉，比如坐在公交车上或排长队等待。</p><p></p>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 0,
-  "image_url": "https://pica.zhimg.com/v2-c0a057efaea02db6f982a188704f250d_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 6,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 6,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxNDE0MDc3MjkSCTIzOTczNDUzORgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 24,
+      "down_vote_count": 0,
+      "like_count": 6,
+      "comment_count": 0,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 18,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-149ba34b53974edfc1105139bb1d54d1": 0,
+        "v2-205244fa4136409adb7e73177574a64a": 0,
+        "v2-26a6a90cc833a6706cc7d1f4ddef8cd4": 0,
+        "v2-40ac94e40788d92b476a29abf904b28d": 0,
+        "v2-45177753dd68294a4187542161944676": 0,
+        "v2-4bae1fa035ed42366aca320bec5d7208": 0,
+        "v2-56350d42157072e5e080fe23717308ee": 0,
+        "v2-c0a057efaea02db6f982a188704f250d": 0,
+        "v2-dc10d9bdf216de6c2a83c325da289cd4": 0,
+        "v2-e786934858015d7b6b601603f3af8ee1": 0,
+        "v2-f8533613334c4317f2c55a47c9e2ba00": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-149ba34b53974edfc1105139bb1d54d1": false,
+        "v2-205244fa4136409adb7e73177574a64a": false,
+        "v2-26a6a90cc833a6706cc7d1f4ddef8cd4": false,
+        "v2-40ac94e40788d92b476a29abf904b28d": false,
+        "v2-45177753dd68294a4187542161944676": false,
+        "v2-4bae1fa035ed42366aca320bec5d7208": false,
+        "v2-56350d42157072e5e080fe23717308ee": false,
+        "v2-c0a057efaea02db6f982a188704f250d": false,
+        "v2-dc10d9bdf216de6c2a83c325da289cd4": false,
+        "v2-e786934858015d7b6b601603f3af8ee1": false,
+        "v2-f8533613334c4317f2c55a47c9e2ba00": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-149ba34b53974edfc1105139bb1d54d1": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-205244fa4136409adb7e73177574a64a": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-26a6a90cc833a6706cc7d1f4ddef8cd4": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-40ac94e40788d92b476a29abf904b28d": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-45177753dd68294a4187542161944676": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-4bae1fa035ed42366aca320bec5d7208": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-56350d42157072e5e080fe23717308ee": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-c0a057efaea02db6f982a188704f250d": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-dc10d9bdf216de6c2a83c325da289cd4": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-e786934858015d7b6b601603f3af8ee1": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-f8533613334c4317f2c55a47c9e2ba00": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=239734539&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 杂项",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1853848933266227200",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 杂项"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

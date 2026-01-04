@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "442485060",
+  "title": "为临时性的和不完整的笔记设置写作收件箱",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/442485060",
+  "image_url": "https://picx.zhimg.com/v2-e13eab78605dc804cd767a56215794f5_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-e13eab78605dc804cd767a56215794f5_720w.jpg?source=172ae18b",
+  "excerpt": "即使你想要写出 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常青笔记</a>[1]，其中大部分也是从临时的笔记开始的。所以你应该能零阻力地捕获想法（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8d4eJNaKrVDGTFpqRnQUPRkexB7K6XbcffAV\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">关闭开环</a>[2]），然后可靠地将它们逐步完善，写成常青笔记（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6UDDkom8Aifg6mLdjT1sPtbMBweCmpyTwmJT\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知识工作应能聚沙成塔</a>[3]）。这意味着两个重要的机制： 一个能快速捕获临时笔记的方法，将它们与…",
+  "created": 1638890210,
   "updated": 1657960023,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "即使你想要写出常青笔记 [1]，其中大部分也是从临时的笔记开始的。所以你应该能零阻…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 1056,
+  "image_height": 814,
+  "content": "<p data-pid=\"HvKLTPqJ\">即使你想要写出<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常青笔记</a><sup data-text=\"常青笔记 (Evergreen notes)\" data-url=\"https://zhuanlan.zhihu.com/p/416319260\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，其中大部分也是从临时的笔记开始的。所以你应该能零阻力地捕获想法（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8d4eJNaKrVDGTFpqRnQUPRkexB7K6XbcffAV\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">关闭开环</a><sup data-text=\"闭合开环\" data-url=\"https://zhuanlan.zhihu.com/p/441969379\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>），然后可靠地将它们逐步完善，写成常青笔记（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6UDDkom8Aifg6mLdjT1sPtbMBweCmpyTwmJT\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知识工作应能聚沙成塔</a><sup data-text=\"知识工作应能聚沙成塔\" data-url=\"https://zhuanlan.zhihu.com/p/422894427\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>）。这意味着两个重要的机制：</p><ol><li data-pid=\"f5-RwQP9\"> 一个能快速捕获临时笔记的方法，将它们与常青笔记本身明确隔离；以及<br/> <br/></li><li data-pid=\"5kOLwsER\"> 一个笔记暂存处，存放你想进一步完善笔记。并且应有一套流程实践，能可靠地清空它（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5tiFxnNKMZCnc8G9R1N51L5hknyRGmyCQx18\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">收件箱需要可靠的清空流程才有效</a><sup data-text=\"收件箱需要可靠的清空流程才有效\" data-url=\"https://zhuanlan.zhihu.com/p/434717044\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>） <br/></li></ol><p data-pid=\"LnefC6to\">为此，我使用了一个「写作收件箱」。好多想法的种子、<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z28QkpK3vRKQTacjFDfGYBhCXHqHuVWJzny9\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">每日工作日志</a><sup data-text=\"每日工作日志\" data-url=\"https://zhuanlan.zhihu.com/p/526326964\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>中的摘录、读书笔记、单行卡片等，都从这个队列开始的。在<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zVFGpprS64TzmKGNzGxq9FiCDnAnCPwRU5T\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我的晨间写作</a><sup data-text=\"我的晨间写作\" data-url=\"https://zhuanlan.zhihu.com/p/427953380\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>中，我会查看这个收件箱中的笔记，并花时间深入任何触动我想法的东西。多数日子里，我的写作时间主要会这么使用。</p><p data-pid=\"upvCG-6f\">我写作收件箱中的许多笔记会写成常青笔记，但不是所有笔记都适合（或可能）这么做。如果某个笔记看到几次，却仍不够有趣，最好是归档或删除它。（这里有一个挑战：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8aZybuJJopS5fL7TnPou2JcmCsBUJeqirbBh\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">收件箱维护的分流策略（如「收件箱归零」）往往不够稳健</a><sup data-text=\"收件箱维护的分流策略（如「收件箱归零」）往往不够稳健\" data-url=\"https://zhuanlan.zhihu.com/p/438419831\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup>）</p><p data-pid=\"nwKKEtH-\">当我在电脑前时，我把笔记直接捕获到我的写作收件箱中。我同样也会设立<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5FKgZAnMhS73t9kenbVUYx23CHSQAE1gKxVf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">外出时方便抓住灵感的口袋便笺</a><sup data-text=\"外出时方便抓住灵感的口袋便笺\" data-url=\"https://zhuanlan.zhihu.com/p/532646217\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"8\">[8]</sup>来投喂临时笔记。</p><hr/><h2>参考文献</h2><p data-pid=\"-KLCTWi0\"><a href=\"https://link.zhihu.com/?target=https%3A//zettelkasten.de/posts/zettelkasten-building-blocks/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Zettelkasten 的构建模块 • Zettelkasten 方法</a></p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"NWOAQx9o\"><a href=\"https://zhuanlan.zhihu.com/p/501187896\" class=\"internal\" target=\"_blank\">§收件箱与注意力管理</a></li><li data-pid=\"XcmaJ3E1\"><a href=\"https://zhuanlan.zhihu.com/p/416319260\" class=\"internal\" target=\"_blank\">常青笔记 (Evergreen notes)</a></li><li data-pid=\"47FroLmY\"><a href=\"https://zhuanlan.zhihu.com/p/436335609\" class=\"internal\" target=\"_blank\">常青笔记和 Zettelkasten 卡片系统的异同点</a></li><li data-pid=\"GrRxyFxw\"><a href=\"https://zhuanlan.zhihu.com/p/415857130\" class=\"internal\" target=\"_blank\">间隔重复对于逐步完善灵光一闪可能有用</a></li><li data-pid=\"NfeMhiPb\"><a href=\"https://zhuanlan.zhihu.com/p/427953380\" class=\"internal\" target=\"_blank\">我的晨间写作</a></li><li data-pid=\"mPwRgdaO\"><a href=\"https://zhuanlan.zhihu.com/p/460888905\" class=\"internal\" target=\"_blank\">如何在阅读时整理所得</a></li><li data-pid=\"9hciVkgJ\"><a href=\"https://zhuanlan.zhihu.com/p/508467062?\" class=\"internal\" target=\"_blank\">常青笔记工作流能降低改稿的情绪负担</a></li><li data-pid=\"D0S7rSCq\"><a href=\"https://zhuanlan.zhihu.com/p/526326964?\" class=\"internal\" target=\"_blank\">每日工作日志</a></li><li data-pid=\"eKOOBq_f\"><a href=\"https://zhuanlan.zhihu.com/p/542384570\" class=\"internal\" target=\"_blank\">笔记类型体系</a></li></ul><h2>声明</h2><p data-pid=\"MkhzspXJ\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"mmBaoWwp\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5aJUJcSbxuQxzHr2YvaY4cX5TuvLQT7r27Dz\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">A writing inbox for transient and incomplete notes (andymatuschak.org)</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
-  "reason": "",
-  "excerpt_title": "",
-  "id": 442485060,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19552516",
+      "type": "topic",
+      "id": "19552516",
+      "name": "写作"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/22016022",
+      "type": "topic",
+      "id": "22016022",
+      "name": "常青笔记"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19556758",
+      "type": "topic",
+      "id": "19556758",
+      "name": "知识管理"
+    }
+  ],
   "voteup_count": 21,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "「更好地记笔记」流于表面；核心在于「更好地思考」",
+    "is_following": false,
+    "url_token": "c_1525779661229830144",
+    "id": "c_1525779661229830144",
+    "articles_count": 127,
+    "accept_submission": true,
+    "title": "常青笔记 & 知识工作",
+    "url": "https://api.zhihu.com/columns/c_1525779661229830144",
+    "comment_permission": "all",
+    "created": 1656554219,
+    "updated": 1751877118,
+    "image_url": "https://picx.zhimg.com/v2-ad6fc1d31bc9e915c75b9ff23bb56b5e_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 118,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 0,
+  "contributions": [
+    {
+      "id": 41203506,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "「更好地记笔记」流于表面；核心在于「更好地思考」",
+        "is_following": false,
+        "url_token": "c_1525779661229830144",
+        "id": "c_1525779661229830144",
+        "articles_count": 127,
+        "accept_submission": true,
+        "title": "常青笔记 & 知识工作",
+        "url": "https://api.zhihu.com/columns/c_1525779661229830144",
+        "comment_permission": "all",
+        "created": 1656554219,
+        "updated": 1751877118,
+        "image_url": "https://picx.zhimg.com/v2-ad6fc1d31bc9e915c75b9ff23bb56b5e_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 118,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 12,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "为临时性的和不完整的笔记设置写作收件箱 - 来自知乎专栏「常青笔记 &amp; 知识工作」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/442485060 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1638890210,
-  "url": "https://api.zhihu.com/articles/442485060",
-  "comment_permission": "all",
-  "title": "为临时性的和不完整的笔记设置写作收件箱",
-  "image_width": 814,
-  "content": "<p data-pid=\"HvKLTPqJ\">即使你想要写出<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">常青笔记</a><sup data-text=\"常青笔记 (Evergreen notes)\" data-url=\"https://zhuanlan.zhihu.com/p/416319260\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，其中大部分也是从临时的笔记开始的。所以你应该能零阻力地捕获想法（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8d4eJNaKrVDGTFpqRnQUPRkexB7K6XbcffAV\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">关闭开环</a><sup data-text=\"闭合开环\" data-url=\"https://zhuanlan.zhihu.com/p/441969379\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>），然后可靠地将它们逐步完善，写成常青笔记（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z6UDDkom8Aifg6mLdjT1sPtbMBweCmpyTwmJT\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">知识工作应能聚沙成塔</a><sup data-text=\"知识工作应能聚沙成塔\" data-url=\"https://zhuanlan.zhihu.com/p/422894427\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>）。这意味着两个重要的机制：</p><ol><li data-pid=\"f5-RwQP9\"> 一个能快速捕获临时笔记的方法，将它们与常青笔记本身明确隔离；以及<br/> <br/></li><li data-pid=\"5kOLwsER\"> 一个笔记暂存处，存放你想进一步完善笔记。并且应有一套流程实践，能可靠地清空它（<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5tiFxnNKMZCnc8G9R1N51L5hknyRGmyCQx18\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">收件箱需要可靠的清空流程才有效</a><sup data-text=\"收件箱需要可靠的清空流程才有效\" data-url=\"https://zhuanlan.zhihu.com/p/434717044\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>） <br/></li></ol><p data-pid=\"LnefC6to\">为此，我使用了一个「写作收件箱」。好多想法的种子、<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z28QkpK3vRKQTacjFDfGYBhCXHqHuVWJzny9\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">每日工作日志</a><sup data-text=\"每日工作日志\" data-url=\"https://zhuanlan.zhihu.com/p/526326964\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>中的摘录、读书笔记、单行卡片等，都从这个队列开始的。在<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zVFGpprS64TzmKGNzGxq9FiCDnAnCPwRU5T\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我的晨间写作</a><sup data-text=\"我的晨间写作\" data-url=\"https://zhuanlan.zhihu.com/p/427953380\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>中，我会查看这个收件箱中的笔记，并花时间深入任何触动我想法的东西。多数日子里，我的写作时间主要会这么使用。</p><p data-pid=\"upvCG-6f\">我写作收件箱中的许多笔记会写成常青笔记，但不是所有笔记都适合（或可能）这么做。如果某个笔记看到几次，却仍不够有趣，最好是归档或删除它。（这里有一个挑战：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z8aZybuJJopS5fL7TnPou2JcmCsBUJeqirbBh\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">收件箱维护的分流策略（如「收件箱归零」）往往不够稳健</a><sup data-text=\"收件箱维护的分流策略（如「收件箱归零」）往往不够稳健\" data-url=\"https://zhuanlan.zhihu.com/p/438419831\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup>）</p><p data-pid=\"nwKKEtH-\">当我在电脑前时，我把笔记直接捕获到我的写作收件箱中。我同样也会设立<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5FKgZAnMhS73t9kenbVUYx23CHSQAE1gKxVf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">外出时方便抓住灵感的口袋便笺</a><sup data-text=\"外出时方便抓住灵感的口袋便笺\" data-url=\"https://zhuanlan.zhihu.com/p/532646217\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"8\">[8]</sup>来投喂临时笔记。</p><hr/><h2>参考文献</h2><p data-pid=\"-KLCTWi0\"><a href=\"https://link.zhihu.com/?target=https%3A//zettelkasten.de/posts/zettelkasten-building-blocks/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Zettelkasten 的构建模块 • Zettelkasten 方法</a></p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"NWOAQx9o\"><a href=\"https://zhuanlan.zhihu.com/p/501187896\" class=\"internal\">§收件箱与注意力管理</a></li><li data-pid=\"XcmaJ3E1\"><a href=\"https://zhuanlan.zhihu.com/p/416319260\" class=\"internal\">常青笔记 (Evergreen notes)</a></li><li data-pid=\"47FroLmY\"><a href=\"https://zhuanlan.zhihu.com/p/436335609\" class=\"internal\">常青笔记和 Zettelkasten 卡片系统的异同点</a></li><li data-pid=\"GrRxyFxw\"><a href=\"https://zhuanlan.zhihu.com/p/415857130\" class=\"internal\">间隔重复对于逐步完善灵光一闪可能有用</a></li><li data-pid=\"NfeMhiPb\"><a href=\"https://zhuanlan.zhihu.com/p/427953380\" class=\"internal\">我的晨间写作</a></li><li data-pid=\"mPwRgdaO\"><a href=\"https://zhuanlan.zhihu.com/p/460888905\" class=\"internal\">如何在阅读时整理所得</a></li><li data-pid=\"9hciVkgJ\"><a href=\"https://zhuanlan.zhihu.com/p/508467062?\" class=\"internal\">常青笔记工作流能降低改稿的情绪负担</a></li><li data-pid=\"D0S7rSCq\"><a href=\"https://zhuanlan.zhihu.com/p/526326964?\" class=\"internal\">每日工作日志</a></li><li data-pid=\"eKOOBq_f\"><a href=\"https://zhuanlan.zhihu.com/p/542384570\" class=\"internal\">笔记类型体系</a></li></ul><h2>声明</h2><p data-pid=\"MkhzspXJ\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"mmBaoWwp\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5aJUJcSbxuQxzHr2YvaY4cX5TuvLQT7r27Dz\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">A writing inbox for transient and incomplete notes (andymatuschak.org)</a></blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 0,
-  "image_url": "https://picx.zhimg.com/v2-e13eab78605dc804cd767a56215794f5_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 2,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 2,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxODY0NTk2MTUSCTQ0MjQ4NTA2MBgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 21,
+      "down_vote_count": 1,
+      "like_count": 2,
+      "comment_count": 0,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 12,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-e13eab78605dc804cd767a56215794f5": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-e13eab78605dc804cd767a56215794f5": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-e13eab78605dc804cd767a56215794f5": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=442485060&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 常青笔记 & 知识工作",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525779661229830144",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 常青笔记 & 知识工作"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

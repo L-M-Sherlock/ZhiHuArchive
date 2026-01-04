@@ -1,80 +1,419 @@
 {
-  "status": 0,
+  "id": "1967550776080590264",
+  "title": "没有借口",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/1967550776080590264",
+  "image_url": "https://pic1.zhimg.com/v2-5bbc277fcb0685054f867df8f09b630f_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-5bbc277fcb0685054f867df8f09b630f_720w.jpg?source=172ae18b",
+  "excerpt": "网球比赛中除极少情况外，通常是世界顶尖选手的较量，几乎每场比赛都会有那么一个时刻（有时甚至从一开始），输家就认定自己会输掉比赛。在那之后，他所做的一切，其目的都在于为自己为何会输提供一个解释。他可能会奋不顾身地扑向球（这样他就能说，面对更…",
+  "created": 1761966693,
   "updated": 1763376478,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-4355c018ed124b748dcefede70f34d8a_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://pic1.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://pica.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "网球比赛中除极少情况外，通常是世界顶尖选手的较量，几乎每场比赛都会有那么一个时…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 4000,
+  "image_height": 811,
+  "content": "<blockquote data-pid=\"iDRF8hdc\">网球比赛中除极少情况外，通常是世界顶尖选手的较量，几乎每场比赛都会有那么一个时刻（有时甚至从一开始），输家就认定自己会输掉比赛。在那之后，他所做的一切，其目的都在于为自己为何会输提供一个解释。他可能会奋不顾身地扑向球（这样他就能说，面对更强的对手，他已经尽力了）。他可能会质疑判罚（这样他就能说自己遭遇了不公）。他可能会咒骂自己、怒摔球拍（这样他就能显而易见地表明，自己发挥失常了）。他的精力不再用于争取胜利，而是用于为自己的失败编织理由、寻找借口、进行辩解。<br/>― C. Terry Warner, <i>Bonds That Make Us Free</i></blockquote><p data-pid=\"XMYLh17d\">纵观我的高中和大学时代，我注意到许多同龄人看似努力，但他们努力的方向并非学习知识或通过课程——他们努力的是确保在失败时，能有完美的借口和令人信服的说辞。目睹这一切，我下定决心，绝不为自己的失败找任何借口——即便理由非常充分。一旦你预备好了借口，你会忍不住依赖它作为退路。借口，在某种程度上，让失败变得更容易接受。它无异于一张失败的通行证。</p><p data-pid=\"_u6vZHkc\">如果你真的渴望在某项任务上取得成功，那么我建议你下定决心：万一真的失败了，也决不为自己的失败寻找借口。即便那次失败情有可原，即便你因为无法预见的因素而毫无理由地失败。干脆地拒绝借口吧。要<b>理解</b>自己的错误，并从中吸取教训，但如果有人追问你失败的原因，只需说：「对不起，是我做得不够好。」如果情况属实，你可以补充一句：「而且我想我知道自己错在哪里了，我会努力改进，下次争取做得更好。」</p><p data-pid=\"G-1W0JeF\">除此之外，不要再添加任何辩解：如果你想全力争胜，就必须拒绝任何借口。如果你为自己找到了借口，那意味着你当时无能为力，不可能做得更好，那么下次你也无法学会做得更好。因此，我建议你应学会免疫任何借口，免得你自然而然地陷入那种陷阱——宁为失败找遍借口，不为成功略微发愁。</p><hr/><p data-pid=\"647hsz8k\">「可有时候就是单纯运气不好嘛！」有人会这样抗议。假设有人参加了这样一个赌局：有九成把握能赢得一百万美元，若输了则损失一万美元。我们不妨设想他输了，不难想象他说着「我本该拿到那笔钱的！」，或沮丧或懊恼，抱怨时运不济，咒骂命运不公。我们可以想到，他大声嚷嚷，试图让在场的每一个人都知道他下的那个赌注是明智的，以确保自己的损失情有可原。那么这种人行事的出发点是为了确保自己的行为能被接受，而不是为了争取胜利。</p><p data-pid=\"jpnUB6-r\">我的建议是，不要试图为坏运气找借口。别奢望绝对公正的裁判。别抱怨命运不公。你完全可以说：「我很抱歉，我赌了一把，然后输了。不过，即便回到当时，知道了那些情况，我还是会做出同样的选择。」这样一来，你依然是在<b>为选择负责</b>。你是在<b>为失败负责</b>，这才是重中之重。只有为失败负责，你才有希望从中改变，并在下一次做得更好：如果你觉得每次骰出不利点数时，都可以咒骂命运，然后你的同伴也会以「运气太差」为由原谅你的赌徒行径（「哦，他真是个倒霉蛋，这不是他的错……」），那么你永远也学不会何时应该下注，何时应该收手。</p><p data-pid=\"7143Yo0H\">我建议你培养这样的思维习惯：想到「为失败找可乘之藉」这件事，本身就让你感到<b>不适</b>。拒绝寻找借口。拒绝掩饰自己的失败。只有到那时，在不再指望社会庇护的情况下，你才会真正开始思考如何争取胜利。</p><hr/><p data-pid=\"uok89t5W\">「不，我是说真的，有时候就是会发生无法预料的状况嘛！」那人再次抗议道。我们可以想象某人原本计划得好好的要按时完成论文，结果却突然病倒了。诚然：无法预料的状况会打乱你的计划。但是你<b>理应知道</b><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Planning_fallacy\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">规划谬误</a>（或者如果你之前不知道，那么现在你知道了）。你活了这么久了，对于普通疾病的发病率，常见意外状况的发生率，你心里有数。那你为什么没有在计划中预留缓冲余地呢？你为什么不能提前预见到那些风险呢？</p><p data-pid=\"evXKyrXL\">如果你<b>确实</b>在计划中预留了大量额外的缓冲时间，结果还是因为一些非常特殊的情况而栽了跟头，那么和之前一样，你完全可以说：「我赌了一把，然后输了。但在同样的胜算下，我还是会再赌一次。」你完全可以去衡量风险是否值得收益，然后为之再下一次赌注。</p><p data-pid=\"tRS_d9i6\">如果你<b>没有</b>预留出必要的余地，那么你可以说：「我很抱歉，我搞砸了。」<b>如果情况属实</b>，你也可以补充一句：「而且我从中吸取了教训，下次我会做得更好。」</p><p data-pid=\"YJ8xuIIr\">如果你允许自己找借口，你<b>真的</b>能学会克服规划谬误吗？你<b>真的</b>会去设想所有可能的失败，学会从旁观者的视角看待问题，并在风险降临之前就预见到它们吗？还说是，你仅仅是期望着会出现一些情有可原的状况，并在其确实发生时如释重负，因为一个看似合理的借口自己送上门来了？</p><p data-pid=\"3PRqdnZ8\">我发现，通常正是在我下定决心即便失败也绝不找借口的那一刻，我才真正开始提前谋划胜利。</p><hr/><p data-pid=\"_MAc-S__\">「可人<b>总是想要</b>借口的！他们是社会性动物！他们想知道到底发生了什么！」有人会这样抗议。</p><p data-pid=\"76DorIhT\">有时候确实如此。有时候人们的确希望你给他们一些借口，或者至少是一些解释。但即便在这种情况下，也要小心：我注意到，我的朋友们常常会出于这样或那样的原因，试图为<b>我</b>开脱，而我认为，屈服于这种压力可能是有害的。</p><p data-pid=\"Q8UrWhiO\">想象一下，某人在经历了长达三年的创伤后，始终未能摆脱一段虐待性的关系。当他最终成功挣脱出来时，他们的朋友们很可能会第一时间涌上来，说些诸如「他们在 PUA 你」、「你当时根本无能为力」以及「你那时候又怎么可能知道该怎么办呢？」之类的安慰话语。</p><p data-pid=\"3TXE5bLh\">他们这是在提供借口，而这些借口是有毒的。它们会剥夺你的力量。它们会剥夺你说出这样一番话的能力：「实际上，如果我当时思路更清晰，我<b>本可以</b>知道的。如果我当时了解得更多，我<b>本可以</b>采取不同的行动。而这未尝不是<b>好事</b>，因为它意味着我并非一个无助的受害者，因为它意味着我可以学会如何变得更强大。因为它意味着我不会再次陷入那种境地。」</p><p data-pid=\"hRNdBhmW\">借口会剥夺你的自主性。是的，如果旁人觉得你给自己施加了太大的压力，许多人会试图让你为自己开脱。<b>但那种压力恰恰是学习和适应的真正动力</b>，如果你能承受得住，我建议你选择承受。</p><hr/><p data-pid=\"yp24U_vk\">在某些情况下，不找借口会让你在社交上付出代价，尤其是当你身边的人经常在为自己编造借口的时候。如果有三个学生都为自己未能按时完成项目找了些苍白的借口，而你只说：「我很抱歉，是我做得不够好。我想我知道自己错在哪里了，下次我会努力做得更好」；那么他们很可能会对你怒目而视。当其他所有人都在这么做的时候，你却拒绝找借口，这无异于打破了某种不言而喻的平庸者之间的默契。</p><p data-pid=\"bHMLczQ9\">有时候，别人要求<b>你</b>也找借口，以正当化<b>他们</b>找借口的事实；如果你打破了这种惯例，他们就会被迫直面自身的不足。这可能会导致一些令人尴尬的处境，而对于这种处境，我能给你的最好建议是：它们为你提供了一个绝佳的机会，让你表态<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/self-signaling-the-ability-to-do-what-you-want/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">自我信号</a><sup data-text=\"自我信号：你能做你想做之事\" data-url=\"https://zhuanlan.zhihu.com/p/1947622029839803429\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>——表明即便在巨大的社会压力下，你也绝不为自己的行为开脱。</p><p data-pid=\"hxUl-Ray\">另外，也请注意，在许多其他情况下，拒绝找借口反而会为你<b>赢得</b>很高的社会地位。确实，有些人会将拒绝找借口视为对平庸者约法三章的背叛，但我发现，在交往过程中使我获益最多的人，往往都会对那些对勇于正视并承担自身错误的人抱有深深欣赏和敬意。</p><hr/><p data-pid=\"8BcwkKmE\">找借口会让你向外寻求失败的外因，而不是反思自身的弱点。发生了意料之外的事？那就学着下次如何更好地预测。被人背叛了？那就学着建立更牢固的社会纽带，并学着下次如何更早地察觉背叛的迹象。命运之神不眷顾你了？那就坦然接受自己的赌注，并确保自己只参与值得一搏的冒险。</p><p data-pid=\"1HFy5ome\">对许多人而言，「行有不得，反求诸己」这条准则将是有害且具毁灭性的。如果你主要被内疚感或羞耻感所驱动，那么请忽略本文的建议。如果你倾向于<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/being-unable-to-despair/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">躺平而非努力</a><sup data-text=\"无法绝望\" data-url=\"https://zhuanlan.zhihu.com/p/1946505224375206434\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，那么请忽略本文的建议。如果你正为自我形象和自我价值感而苦苦挣扎，如果你认为<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/there-are-no/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">人有善恶分明的评判标准</a><sup data-text=\"世上没有「坏人」\" data-url=\"https://zhuanlan.zhihu.com/p/1941792108211054104\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>，如果你因畏惧而不敢<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/see-the-dark-world/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">直视世界的阴暗面</a><sup data-text=\"直面黑暗世界\" data-url=\"https://zhuanlan.zhihu.com/p/1954836809650505396\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>，那么请忽略本文的建议。或者，如果「反求诸己」这句话此刻因任何其他原因让你感到不适或重创，那么请直接忽略本文。</p><p data-pid=\"-yCl46Or\">但是，如果你已经摆脱了内疚感的驱动，坦然接受我们<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/not-yet-gods/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">终究不是神</a><sup data-text=\"尚非神明\" data-url=\"https://zhuanlan.zhihu.com/p/1935273252781007870\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>这一事实，并且能够<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/detach-the-grim-o-meter/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">摆脱悲观情绪的左右</a><sup data-text=\"卸下凝重指数计\" data-url=\"https://zhuanlan.zhihu.com/p/1960275727002895369\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>，那么我强烈建议你：不要找任何借口。找出你内心的缺陷。不要容忍它们。直面它们，并规划应对或绕开它们的方法。如果你看不清自己哪里需要改进，那么下次就很难做得更好。</p><p data-pid=\"Wv8BjKlq\">这是我用以取代内疚感驱动的工具组合的一部分：<b>为赢而战</b>。不要为你的失败寻找借口。</p><p data-pid=\"blUVzTwK\">你不必每次都赢——但每一次都要<b>吸取教训</b>。</p><p data-pid=\"-vPgi2iV\">如果你发现自己试图辩解情况不公，辩解当时自己根本没可能预见到这种情况，那么请立刻打住。解释你当时怎么可能预见到这种情况，不过是一种社交手段，是为了确保别人认为你安然无恙，认为你之前的行为是可以接受的。玩这种社交游戏本身没什么问题；社交游戏偶尔也需要玩玩。但是首先，<b>弄清楚下次要如何才能真正预见到那种情况</b>，这才是关键所在。</p><p data-pid=\"oIdbGlyA\">借口是一种社交的产物，一种确保你在失败时不会丢脸的方式。</p><p data-pid=\"p3spCow9\">但我们并非为了赢得社交游戏而来。</p><p data-pid=\"jy-4AD5E\">尽管你所有的兽性本能会告诉你，你不是在与别的同类竞争这场名为「生命」的游戏。</p><p data-pid=\"m-D7_RPl\">你是在与整个宇宙进行这场「生命」的博弈，而赌注是全部的未来。</p><p data-pid=\"30fpOdf3\">最终，衡量你的标准，不会是你为所有不如愿的事情找的借口有多么漂亮。</p><p data-pid=\"w1S8Yrd0\">你最终只会被实际发生的结果所评判（我们所有人都将如此）。</p><hr/><p data-pid=\"ZAZlvux0\">「这不是借口，这是<b>解释</b>。」</p><p data-pid=\"n4cO4Elo\">解释就是借口。</p><p data-pid=\"Tt4qEhNm\">别误会，<b>理解</b>你的失败至关重要。但请注意，这两种「理解」之间有天壤之别：一种是理解你那不争气的膝盖出了毛病、太阳正好刺眼、运气又差到了极点；另一种是你真正理解到自己训练不够刻苦、或者对不利条件的预判不足。</p><p data-pid=\"lId3-Hsq\">在试图理解你的失败时，关键在于找出<b>你</b>本可以做得更好的地方，而不是罗列一堆你当初根本不可能赢的理由。如果确实存在无法预料的情况，那就去理解你为什么没能预料到它们。如果你的膝盖出了问题，那就学着下次如何解决，或者将其纳入你的预期之中。</p><p data-pid=\"JeM18Bi8\">（并且值得注意的是，在反思自己本可以如何改进时，要非常警惕你语气中流露出的破坏性倾向和宿命论腔调。想象一下，有人在遭受背叛后大喊：「好吧，我想我现在学乖了，从此再也不相信任何人了！」尽管他们摆出一副吸取了教训的样子，实际上却在自我伤害。在我看来，这种自我伤害与找借口有共通之处：它表面看起来是将问题归咎于自身（「我太善良、太容易相信别人了」），而实际上却将问题指向了外部世界（「这个世界太糟糕了」）。真正应该吸取的教训，很可能永远不是「从此再也不相信任何人」，而更应该是「学会如何建立更稳固的友谊」或「学会如何更准确地识人」这一类。在采纳你给自己的建议之前，先审视一下它是否明显带有破坏性，这通常很有益处。）</p><p data-pid=\"tElhEQt_\">理解失败的意义在于学会下一次如何做得更好，我建议你尽可能地去理解你的每一次失败。但是，不要试图解释开脱，更不要原谅它们。</p><p data-pid=\"oMrbf4Tg\">如果你想成功，就停止罗列那些你根本不可能赢的理由，然后全力以赴争取胜利。</p><hr/><p data-pid=\"HLTlcjfN\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1962132424247981610\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">只需为自己定位</a><p data-pid=\"2phJx2Mp\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1973738182160954006\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">达成和解</a><hr/><blockquote data-pid=\"uVdkC-5-\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">gemini-2.5-pro</span>，校对<span class=\"nolink\">鱼鳔</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/have-no-excuses/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Have no excuses</a><br/>2015 年 10 月 19 日</blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19594061",
+      "type": "topic",
+      "id": "19594061",
+      "name": "借口"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19589501",
+      "type": "topic",
+      "id": "19589501",
+      "name": "理由"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/1899601784219105143",
+      "type": "topic",
+      "id": "1899601784219105143",
+      "name": "自我辩解"
+    }
+  ],
+  "voteup_count": 187,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "<p>将无益的内疚感转化为更理性、更有效能的行动和思维模式，以实现个人目标并更好地为世界做出贡献。</p>",
+    "is_following": false,
+    "url_token": "c_1900848986845319905",
+    "id": "c_1900848986845319905",
+    "articles_count": 38,
+    "accept_submission": false,
+    "title": "超越内疚",
+    "url": "https://api.zhihu.com/columns/c_1900848986845319905",
+    "comment_permission": "all",
+    "created": 1745977714,
+    "updated": 1748310019,
+    "image_url": "https://pica.zhimg.com/v2-aadaf160e1a360ad997ceff62fd063a3_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 670,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 6,
+  "contributions": [
+    {
+      "id": 52949835,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "<p>将无益的内疚感转化为更理性、更有效能的行动和思维模式，以实现个人目标并更好地为世界做出贡献。</p>",
+        "is_following": false,
+        "url_token": "c_1900848986845319905",
+        "id": "c_1900848986845319905",
+        "articles_count": 38,
+        "accept_submission": false,
+        "title": "超越内疚",
+        "url": "https://api.zhihu.com/columns/c_1900848986845319905",
+        "comment_permission": "all",
+        "created": 1745977714,
+        "updated": 1748310019,
+        "image_url": "https://pica.zhimg.com/v2-aadaf160e1a360ad997ceff62fd063a3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 670,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 1967550776080590300,
-  "voteup_count": 179,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 277,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "没有借口 - 来自知乎专栏「超越内疚」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/1967550776080590264 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1761966693,
-  "url": "https://api.zhihu.com/articles/1967550776080590264",
-  "comment_permission": "all",
-  "title": "没有借口",
-  "image_width": 811,
-  "content": "<blockquote data-pid=\"iDRF8hdc\">网球比赛中除极少情况外，通常是世界顶尖选手的较量，几乎每场比赛都会有那么一个时刻（有时甚至从一开始），输家就认定自己会输掉比赛。在那之后，他所做的一切，其目的都在于为自己为何会输提供一个解释。他可能会奋不顾身地扑向球（这样他就能说，面对更强的对手，他已经尽力了）。他可能会质疑判罚（这样他就能说自己遭遇了不公）。他可能会咒骂自己、怒摔球拍（这样他就能显而易见地表明，自己发挥失常了）。他的精力不再用于争取胜利，而是用于为自己的失败编织理由、寻找借口、进行辩解。<br/>― C. Terry Warner, <i>Bonds That Make Us Free</i></blockquote><p data-pid=\"XMYLh17d\">纵观我的高中和大学时代，我注意到许多同龄人看似努力，但他们努力的方向并非学习知识或通过课程——他们努力的是确保在失败时，能有完美的借口和令人信服的说辞。目睹这一切，我下定决心，绝不为自己的失败找任何借口——即便理由非常充分。一旦你预备好了借口，你会忍不住依赖它作为退路。借口，在某种程度上，让失败变得更容易接受。它无异于一张失败的通行证。</p><p data-pid=\"_u6vZHkc\">如果你真的渴望在某项任务上取得成功，那么我建议你下定决心：万一真的失败了，也决不为自己的失败寻找借口。即便那次失败情有可原，即便你因为无法预见的因素而毫无理由地失败。干脆地拒绝借口吧。要<b>理解</b>自己的错误，并从中吸取教训，但如果有人追问你失败的原因，只需说：「对不起，是我做得不够好。」如果情况属实，你可以补充一句：「而且我想我知道自己错在哪里了，我会努力改进，下次争取做得更好。」</p><p data-pid=\"G-1W0JeF\">除此之外，不要再添加任何辩解：如果你想全力争胜，就必须拒绝任何借口。如果你为自己找到了借口，那意味着你当时无能为力，不可能做得更好，那么下次你也无法学会做得更好。因此，我建议你应学会免疫任何借口，免得你自然而然地陷入那种陷阱——宁为失败找遍借口，不为成功略微发愁。</p><hr/><p data-pid=\"647hsz8k\">「可有时候就是单纯运气不好嘛！」有人会这样抗议。假设有人参加了这样一个赌局：有九成把握能赢得一百万美元，若输了则损失一万美元。我们不妨设想他输了，不难想象他说着「我本该拿到那笔钱的！」，或沮丧或懊恼，抱怨时运不济，咒骂命运不公。我们可以想到，他大声嚷嚷，试图让在场的每一个人都知道他下的那个赌注是明智的，以确保自己的损失情有可原。那么这种人行事的出发点是为了确保自己的行为能被接受，而不是为了争取胜利。</p><p data-pid=\"jpnUB6-r\">我的建议是，不要试图为坏运气找借口。别奢望绝对公正的裁判。别抱怨命运不公。你完全可以说：「我很抱歉，我赌了一把，然后输了。不过，即便回到当时，知道了那些情况，我还是会做出同样的选择。」这样一来，你依然是在<b>为选择负责</b>。你是在<b>为失败负责</b>，这才是重中之重。只有为失败负责，你才有希望从中改变，并在下一次做得更好：如果你觉得每次骰出不利点数时，都可以咒骂命运，然后你的同伴也会以「运气太差」为由原谅你的赌徒行径（「哦，他真是个倒霉蛋，这不是他的错……」），那么你永远也学不会何时应该下注，何时应该收手。</p><p data-pid=\"7143Yo0H\">我建议你培养这样的思维习惯：想到「为失败找可乘之藉」这件事，本身就让你感到<b>不适</b>。拒绝寻找借口。拒绝掩饰自己的失败。只有到那时，在不再指望社会庇护的情况下，你才会真正开始思考如何争取胜利。</p><hr/><p data-pid=\"uok89t5W\">「不，我是说真的，有时候就是会发生无法预料的状况嘛！」那人再次抗议道。我们可以想象某人原本计划得好好的要按时完成论文，结果却突然病倒了。诚然：无法预料的状况会打乱你的计划。但是你<b>理应知道</b><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Planning_fallacy\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">规划谬误</a>（或者如果你之前不知道，那么现在你知道了）。你活了这么久了，对于普通疾病的发病率，常见意外状况的发生率，你心里有数。那你为什么没有在计划中预留缓冲余地呢？你为什么不能提前预见到那些风险呢？</p><p data-pid=\"evXKyrXL\">如果你<b>确实</b>在计划中预留了大量额外的缓冲时间，结果还是因为一些非常特殊的情况而栽了跟头，那么和之前一样，你完全可以说：「我赌了一把，然后输了。但在同样的胜算下，我还是会再赌一次。」你完全可以去衡量风险是否值得收益，然后为之再下一次赌注。</p><p data-pid=\"tRS_d9i6\">如果你<b>没有</b>预留出必要的余地，那么你可以说：「我很抱歉，我搞砸了。」<b>如果情况属实</b>，你也可以补充一句：「而且我从中吸取了教训，下次我会做得更好。」</p><p data-pid=\"YJ8xuIIr\">如果你允许自己找借口，你<b>真的</b>能学会克服规划谬误吗？你<b>真的</b>会去设想所有可能的失败，学会从旁观者的视角看待问题，并在风险降临之前就预见到它们吗？还说是，你仅仅是期望着会出现一些情有可原的状况，并在其确实发生时如释重负，因为一个看似合理的借口自己送上门来了？</p><p data-pid=\"3PRqdnZ8\">我发现，通常正是在我下定决心即便失败也绝不找借口的那一刻，我才真正开始提前谋划胜利。</p><hr/><p data-pid=\"_MAc-S__\">「可人<b>总是想要</b>借口的！他们是社会性动物！他们想知道到底发生了什么！」有人会这样抗议。</p><p data-pid=\"76DorIhT\">有时候确实如此。有时候人们的确希望你给他们一些借口，或者至少是一些解释。但即便在这种情况下，也要小心：我注意到，我的朋友们常常会出于这样或那样的原因，试图为<b>我</b>开脱，而我认为，屈服于这种压力可能是有害的。</p><p data-pid=\"Q8UrWhiO\">想象一下，某人在经历了长达三年的创伤后，始终未能摆脱一段虐待性的关系。当他最终成功挣脱出来时，他们的朋友们很可能会第一时间涌上来，说些诸如「他们在 PUA 你」、「你当时根本无能为力」以及「你那时候又怎么可能知道该怎么办呢？」之类的安慰话语。</p><p data-pid=\"3TXE5bLh\">他们这是在提供借口，而这些借口是有毒的。它们会剥夺你的力量。它们会剥夺你说出这样一番话的能力：「实际上，如果我当时思路更清晰，我<b>本可以</b>知道的。如果我当时了解得更多，我<b>本可以</b>采取不同的行动。而这未尝不是<b>好事</b>，因为它意味着我并非一个无助的受害者，因为它意味着我可以学会如何变得更强大。因为它意味着我不会再次陷入那种境地。」</p><p data-pid=\"hRNdBhmW\">借口会剥夺你的自主性。是的，如果旁人觉得你给自己施加了太大的压力，许多人会试图让你为自己开脱。<b>但那种压力恰恰是学习和适应的真正动力</b>，如果你能承受得住，我建议你选择承受。</p><hr/><p data-pid=\"yp24U_vk\">在某些情况下，不找借口会让你在社交上付出代价，尤其是当你身边的人经常在为自己编造借口的时候。如果有三个学生都为自己未能按时完成项目找了些苍白的借口，而你只说：「我很抱歉，是我做得不够好。我想我知道自己错在哪里了，下次我会努力做得更好」；那么他们很可能会对你怒目而视。当其他所有人都在这么做的时候，你却拒绝找借口，这无异于打破了某种不言而喻的平庸者之间的默契。</p><p data-pid=\"bHMLczQ9\">有时候，别人要求<b>你</b>也找借口，以正当化<b>他们</b>找借口的事实；如果你打破了这种惯例，他们就会被迫直面自身的不足。这可能会导致一些令人尴尬的处境，而对于这种处境，我能给你的最好建议是：它们为你提供了一个绝佳的机会，让你表态<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/self-signaling-the-ability-to-do-what-you-want/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">自我信号</a><sup data-text=\"自我信号：你能做你想做之事\" data-url=\"https://zhuanlan.zhihu.com/p/1947622029839803429\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>——表明即便在巨大的社会压力下，你也绝不为自己的行为开脱。</p><p data-pid=\"hxUl-Ray\">另外，也请注意，在许多其他情况下，拒绝找借口反而会为你<b>赢得</b>很高的社会地位。确实，有些人会将拒绝找借口视为对平庸者约法三章的背叛，但我发现，在交往过程中使我获益最多的人，往往都会对那些对勇于正视并承担自身错误的人抱有深深欣赏和敬意。</p><hr/><p data-pid=\"8BcwkKmE\">找借口会让你向外寻求失败的外因，而不是反思自身的弱点。发生了意料之外的事？那就学着下次如何更好地预测。被人背叛了？那就学着建立更牢固的社会纽带，并学着下次如何更早地察觉背叛的迹象。命运之神不眷顾你了？那就坦然接受自己的赌注，并确保自己只参与值得一搏的冒险。</p><p data-pid=\"1HFy5ome\">对许多人而言，「行有不得，反求诸己」这条准则将是有害且具毁灭性的。如果你主要被内疚感或羞耻感所驱动，那么请忽略本文的建议。如果你倾向于<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/being-unable-to-despair/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">躺平而非努力</a><sup data-text=\"无法绝望\" data-url=\"https://zhuanlan.zhihu.com/p/1946505224375206434\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，那么请忽略本文的建议。如果你正为自我形象和自我价值感而苦苦挣扎，如果你认为<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/there-are-no/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">人有善恶分明的评判标准</a><sup data-text=\"世上没有「坏人」\" data-url=\"https://zhuanlan.zhihu.com/p/1941792108211054104\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>，如果你因畏惧而不敢<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/see-the-dark-world/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">直视世界的阴暗面</a><sup data-text=\"直面黑暗世界\" data-url=\"https://zhuanlan.zhihu.com/p/1954836809650505396\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>，那么请忽略本文的建议。或者，如果「反求诸己」这句话此刻因任何其他原因让你感到不适或重创，那么请直接忽略本文。</p><p data-pid=\"-yCl46Or\">但是，如果你已经摆脱了内疚感的驱动，坦然接受我们<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/not-yet-gods/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">终究不是神</a><sup data-text=\"尚非神明\" data-url=\"https://zhuanlan.zhihu.com/p/1935273252781007870\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>这一事实，并且能够<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/detach-the-grim-o-meter/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">摆脱悲观情绪的左右</a><sup data-text=\"卸下凝重指数计\" data-url=\"https://zhuanlan.zhihu.com/p/1960275727002895369\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>，那么我强烈建议你：不要找任何借口。找出你内心的缺陷。不要容忍它们。直面它们，并规划应对或绕开它们的方法。如果你看不清自己哪里需要改进，那么下次就很难做得更好。</p><p data-pid=\"Wv8BjKlq\">这是我用以取代内疚感驱动的工具组合的一部分：<b>为赢而战</b>。不要为你的失败寻找借口。</p><p data-pid=\"blUVzTwK\">你不必每次都赢——但每一次都要<b>吸取教训</b>。</p><p data-pid=\"-vPgi2iV\">如果你发现自己试图辩解情况不公，辩解当时自己根本没可能预见到这种情况，那么请立刻打住。解释你当时怎么可能预见到这种情况，不过是一种社交手段，是为了确保别人认为你安然无恙，认为你之前的行为是可以接受的。玩这种社交游戏本身没什么问题；社交游戏偶尔也需要玩玩。但是首先，<b>弄清楚下次要如何才能真正预见到那种情况</b>，这才是关键所在。</p><p data-pid=\"oIdbGlyA\">借口是一种社交的产物，一种确保你在失败时不会丢脸的方式。</p><p data-pid=\"p3spCow9\">但我们并非为了赢得社交游戏而来。</p><p data-pid=\"jy-4AD5E\">尽管你所有的兽性本能会告诉你，你不是在与别的同类竞争这场名为「生命」的游戏。</p><p data-pid=\"m-D7_RPl\">你是在与整个宇宙进行这场「生命」的博弈，而赌注是全部的未来。</p><p data-pid=\"30fpOdf3\">最终，衡量你的标准，不会是你为所有不如愿的事情找的借口有多么漂亮。</p><p data-pid=\"w1S8Yrd0\">你最终只会被实际发生的结果所评判（我们所有人都将如此）。</p><hr/><p data-pid=\"ZAZlvux0\">「这不是借口，这是<b>解释</b>。」</p><p data-pid=\"n4cO4Elo\">解释就是借口。</p><p data-pid=\"Tt4qEhNm\">别误会，<b>理解</b>你的失败至关重要。但请注意，这两种「理解」之间有天壤之别：一种是理解你那不争气的膝盖出了毛病、太阳正好刺眼、运气又差到了极点；另一种是你真正理解到自己训练不够刻苦、或者对不利条件的预判不足。</p><p data-pid=\"lId3-Hsq\">在试图理解你的失败时，关键在于找出<b>你</b>本可以做得更好的地方，而不是罗列一堆你当初根本不可能赢的理由。如果确实存在无法预料的情况，那就去理解你为什么没能预料到它们。如果你的膝盖出了问题，那就学着下次如何解决，或者将其纳入你的预期之中。</p><p data-pid=\"JeM18Bi8\">（并且值得注意的是，在反思自己本可以如何改进时，要非常警惕你语气中流露出的破坏性倾向和宿命论腔调。想象一下，有人在遭受背叛后大喊：「好吧，我想我现在学乖了，从此再也不相信任何人了！」尽管他们摆出一副吸取了教训的样子，实际上却在自我伤害。在我看来，这种自我伤害与找借口有共通之处：它表面看起来是将问题归咎于自身（「我太善良、太容易相信别人了」），而实际上却将问题指向了外部世界（「这个世界太糟糕了」）。真正应该吸取的教训，很可能永远不是「从此再也不相信任何人」，而更应该是「学会如何建立更稳固的友谊」或「学会如何更准确地识人」这一类。在采纳你给自己的建议之前，先审视一下它是否明显带有破坏性，这通常很有益处。）</p><p data-pid=\"tElhEQt_\">理解失败的意义在于学会下一次如何做得更好，我建议你尽可能地去理解你的每一次失败。但是，不要试图解释开脱，更不要原谅它们。</p><p data-pid=\"oMrbf4Tg\">如果你想成功，就停止罗列那些你根本不可能赢的理由，然后全力以赴争取胜利。</p><hr/><p data-pid=\"HLTlcjfN\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1962132424247981610\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">只需为自己定位</a><p data-pid=\"2phJx2Mp\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/1973738182160954006\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">达成和解</a><hr/><blockquote data-pid=\"uVdkC-5-\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">gemini-2.5-pro</span>，校对<span class=\"nolink\">鱼鳔</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//mindingourway.com/have-no-excuses/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Have no excuses</a><br/>2015 年 10 月 19 日</blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-4355c018ed124b748dcefede70f34d8a_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://pic1.zhimg.com/50/v2-4355c018ed124b748dcefede70f34d8a_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 5,
-  "image_url": "https://pic1.zhimg.com/v2-5bbc277fcb0685054f867df8f09b630f_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 13,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 13,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyNjU3OTk0NDcSEzE5Njc1NTA3NzYwODA1OTAyNjQYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 187,
+      "down_vote_count": 4,
+      "like_count": 13,
+      "comment_count": 6,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 277,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-5bbc277fcb0685054f867df8f09b630f": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-5bbc277fcb0685054f867df8f09b630f": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-5bbc277fcb0685054f867df8f09b630f": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "4 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/47493132463?contentId=1967550776080590264&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 超越内疚",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1900848986845319905",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 超越内疚"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,37 +84,57 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
-  "comment_count": 40,
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
+  "comment_count": 41,
   "content": "<p data-pid=\"9rLB8u0E\">同 C2 本科生，计算机专业，放弃保研名额，不喜欢学校，不喜欢考研，发表过两篇 CCF A，其中一篇中文核心期刊，一篇 KDD 应用类论文。现在在墨墨背单词做 ML，主要研究方向是记忆算法优化。</p><p data-pid=\"9vJXKWt2\">我认为本科生投大厂的算法岗还是比较困难的，卷的人太多了。我自己的经验是，走自己的赛道，填补空白，形成独属于你自己的价值，工作会找上你的。我自己也是在知乎写了不少算法相关的文章后，收到了墨墨算法负责人的实习 offer，然后在墨墨进一步提升自己，发表了论文，同时也优化了墨墨的间隔重复记忆算法，提高了用户的记忆效率。</p><p data-pid=\"0Eb5Ze8Q\">相关记录：</p><a href=\"https://www.zhihu.com/question/268064577/answer/1435928774\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-9b2035bb3ef64977899575a4723f4baf_720w.jpg\" data-image-width=\"910\" data-image-height=\"1920\" class=\"internal\">在墨墨科技（墨墨背单词）工作是一种怎样的体验？</a><p class=\"ztext-empty-paragraph\"><br/></p><a href=\"https://zhuanlan.zhihu.com/p/543325359\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-08134e67de67b70a126b02829d90edcc_720w.jpg\" data-entity-type=\"article\" data-entity-data=\"null\" class=\"internal\">我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）</a><p class=\"ztext-empty-paragraph\"><br/></p><a href=\"https://zhuanlan.zhihu.com/p/561539418\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-508467d2d77b37d7642c84c0a995408a_720w.jpg\" data-entity-type=\"article\" data-entity-data=\"null\" class=\"internal\">间隔重复记忆算法研究资源汇总</a><hr/><p data-pid=\"ZqVBGwzw\">更新：看了一下题主的简介，没想到真是窝工的学弟……说不定可以试试来墨墨背单词一起做记忆算法，当然你可能看不上小厂吧。我的论文请见：</p><a href=\"https://link.zhihu.com/?target=https%3A//www.maimemo.com/paper/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1663931637,
   "excerpt": "同 C2 本科生，计算机专业，放弃保研名额，不喜欢学校，不喜欢考研，发表过两篇 CCF A，其中一篇中文核心期刊，一篇 KDD 应用类论文。现在在墨墨背单词做 ML，主要研究方向是记忆算法优化。 我认为本科生投大厂的算法岗还是比较困难的，卷的人太多了。我自己的经验是，走自己的赛道，填补空白，形成独属于你自己的价值，工作会找上你的。我自己也是在知乎写了不少算法相关的文章后，收到了墨墨算法负责人的实习 offer，然后在墨…",
-  "id": 2686717447,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2686717447",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://www.zhihu.com/question/268064577/answer/1435928774": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"在墨墨科技（墨墨背单词）工作是一种怎样的体验？\",\"card_open_url\":\"https://www.zhihu.com/question/268064577/answer/1435928774\",\"desc\":\"79 赞同 · 22 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 利益相关：墨墨算法实习生、长期兼职 体验不错，虽然实习的时间不长(7月15日～8月26日) 机缘巧合本人在记忆算法这块地折腾了三年多，对相关的数学模型和术语比较熟悉，自己也在知乎写了两年多的相关话题。 而墨墨，作为一家教育科技企业，主要的产品是墨墨背单词，非常重视用户的记忆体验。 说来也巧，墨墨最近在加大力度投入算法，缺人，而我在找暑假实习。墨墨的算法负责人在知乎上找到了我，我们一拍即合。于是我就去墨墨实习…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-9b2035bb3ef64977899575a4723f4baf.jpg?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"1435928774\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/543325359": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/543325359\",\"desc\":\"1801 赞同 · 85 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 最近我在时间线上刷到 @重剑无锋 所写的《我是如何从头开始写一篇顶级论文的 》一文，作者梳理了他论文的创作历程，对我也颇有启发。我自己本科期间发表了一篇国际顶会（ACM SIGKDD）论文和一篇 CCF A 中文核心期刊（中文信息学报）论文，这里也想记录这一路的机缘巧合和心路历程。KDD 论文地址： A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Confe…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-08134e67de67b70a126b02829d90edcc_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"543325359\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/561539418": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"间隔重复记忆算法研究资源汇总\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/561539418\",\"desc\":\"106 赞同 · 10 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 离上次写间隔重复记忆算法研究的入门教程《 间隔重复记忆算法：e 天内，从入门到入土。 》已经过去半个多月了，不知道读者朋友们入门间隔重复记忆算法了吗？这次就主要分享一下我在研究过程[1]中用到的资源和阅读过的文献，帮助这个领域的探索者更快地上手。科普墨墨团队制作的间隔重复记忆模型科普，适合零基础入门： 【墨墨科普】几个公式，拯救你的记忆。_哔哩哔哩_bilibili 综述Gwern 所著的间隔重复综述，涵盖了大部分间隔重…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-508467d2d77b37d7642c84c0a995408a_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"561539418\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://www.zhihu.com/question/268064577/answer/1435928774": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"在墨墨科技（墨墨背单词）工作是一种怎样的体验？\",\"card_open_url\":\"https://www.zhihu.com/question/268064577/answer/1435928774\",\"desc\":\"83 赞同 · 21 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 利益相关：墨墨算法实习生、长期兼职 体验不错，虽然实习的时间不长(7月15日～8月26日) 机缘巧合本人在记忆算法这块地折腾了三年多，对相关的数学模型和术语比较熟悉，自己也在知乎写了两年多的相关话题。 而墨墨，作为一家教育科技企业，主要的产品是墨墨背单词，非常重视用户的记忆体验。 说来也巧，墨墨最近在加大力度投入算法，缺人，而我在找暑假实习。墨墨的算法负责人在知乎上找到了我，我们一拍即合。于是我就去墨墨实习…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-9b2035bb3ef64977899575a4723f4baf.jpg?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"1435928774\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/543325359": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/543325359\",\"desc\":\"2268 赞同 · 90 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 最近我在时间线上刷到 @重剑无锋 所写的《我是如何从头开始写一篇顶级论文的 》一文，作者梳理了他论文的创作历程，对我也颇有启发。我自己本科期间发表了一篇国际顶会（ACM SIGKDD）论文和一篇 CCF A 中文核心期刊（中文信息学报）论文，这里也想记录这一路的机缘巧合和心路历程。KDD 论文地址： A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Confe…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-08134e67de67b70a126b02829d90edcc_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"543325359\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/561539418": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"间隔重复记忆算法研究资源汇总\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/561539418\",\"desc\":\"126 赞同 · 11 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 离上次写间隔重复记忆算法研究的入门教程《 间隔重复记忆算法：e 天内，从入门到入土。 》已经过去半个多月了，不知道读者朋友们入门间隔重复记忆算法了吗？这次就主要分享一下我在研究过程[1]中用到的资源和阅读过的文献，帮助这个领域的探索者更快地上手。科普墨墨团队制作的间隔重复记忆模型科普，适合零基础入门： 【墨墨科普】几个公式，拯救你的记忆。_哔哩哔哩_bilibili 综述Gwern 所著的间隔重复综述，涵盖了大部分间隔重…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-508467d2d77b37d7642c84c0a995408a_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"561539418\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=2686717447&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1663251910,
     "detail": "<p>先说下背景，本人某C2的本科生，大三，专业是计算机科学。错失保研机会，不太愿意考研。大一拿过ICPC铜奖，算法基础和自学能力算是还行（对比周边本科生）。目前有一些机器学习基础，掌握常见聚类算法，提升树模型等，做过NLP方面的命名实体识别项目，CCF C类论文一篇（很水），此外在参与一些联邦学习项目。目前对ML方面更感兴趣，CV，NLP或者数据挖掘领域都接触过，还没有确定哪一方向。但得到的信息普遍是本科生算法岗就业没出路，希望专业人士能给一些就业可能的分析以及未来两年的努力方向。</p>",
-    "id": 553803598,
+    "id": "553803598",
     "question_type": "normal",
     "relationship": {},
     "title": "本科生毕业能否找到ML方面的工作？",
     "type": "question",
     "updated_time": 1663251910,
-    "url": "https://api.zhihu.com/questions/553803598"
+    "url": "https://www.zhihu.com/api/v4/questions/553803598"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 110
+  "updated_time": 1663933266,
+  "url": "https://www.zhihu.com/api/v4/answers/2686717447",
+  "voteup_count": 122
 }

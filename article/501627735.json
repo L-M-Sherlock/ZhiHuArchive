@@ -1,80 +1,445 @@
 {
-  "status": 0,
+  "id": "501627735",
+  "title": "我的阅读收件箱实践",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/501627735",
+  "image_url": "https://picx.zhimg.com/v2-4edc7fe393ad673db670c9bee8e3aaac_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-4edc7fe393ad673db670c9bee8e3aaac_720w.jpg?source=172ae18b",
+  "excerpt": "本条笔记描述了我是如何在我的系统里实践 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3N113rxPFreW9xUkLkUFomr2LUqfXbdCo3M\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">为有潜在价值的参考引用建立一个阅读收件箱</a>[1]的。阅读有多种口味，不同的工具适合捕捉和阅读不同类型的媒体，但我会同时「清空」这个收件箱内的所有类型的项目。而由于 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7bj6MiUnFnP3GvM5QqHafy3LTaqQV56e1Mek\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">不应该设置多处收件箱</a>[2]，所以我创建了一个…",
+  "created": 1650422016,
   "updated": 1657005235,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "本条笔记描述了我是如何在我的系统里实践为有潜在价值的参考引用建立一个阅读收件箱 …",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 1280,
+  "image_height": 1000,
+  "content": "<p data-pid=\"WiXnHNGx\">本条笔记描述了我是如何在我的系统里实践<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3N113rxPFreW9xUkLkUFomr2LUqfXbdCo3M\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">为有潜在价值的参考引用建立一个阅读收件箱</a><sup data-text=\"为有潜在价值的参考引用建立一个阅读收件箱\" data-url=\"http://zhuanlan.zhihu.com/p/440328209\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>的。</p><p data-pid=\"M3fCSTFq\">阅读有多种口味，不同的工具适合捕捉和阅读不同类型的媒体，但我会同时「清空」这个收件箱内的所有类型的项目。而由于<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7bj6MiUnFnP3GvM5QqHafy3LTaqQV56e1Mek\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">不应该设置多处收件箱</a><sup data-text=\"不应该设置多处收件箱\" data-url=\"https://zhuanlan.zhihu.com/p/499389499\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，所以我创建了一个「虚拟」收件箱，为所有类型的项目构建出一个统一操作的抽象层。</p><h2>网页</h2><p data-pid=\"iSDFwOhX\">数据库是由 Pocket 管理的。我可以通过桌面和手机上的浏览器扩展来添加网页。</p><p data-pid=\"tw5ILeHj\">我选择 Pocket 是因为它是免费的，有像样点的 API、不错的扩展，而且可以用作书签管理器。</p><p data-pid=\"BGCIDa--\">我通过归档网页来整理它们；我通过将它们扔入回收站来销毁它们。</p><h2>PDFs</h2><p data-pid=\"6JfWt6Mg\">我把它们保存在 <code>~/Documents/Archive/Inbox</code>。我有一个 Alfred 工作流程，将当前在预览中打开的 PDF 复制/移动到这个文件夹。</p><p data-pid=\"4jlKGW8g\">我在 Skim 中阅读 PDF，因为它支持链接到特定位置和可导出注释。</p><p data-pid=\"iNfsqe8N\">我把 PDF 文件移到 <code>~/Documents/Archive</code>，然后把它们添加到 Zotero。我想丢弃它们时就将他们移入回收站。</p><h2>电子书</h2><p data-pid=\"t0E_4lN2\">我把它们保存在 <code>~/Documents/Archive/Inbox</code>。</p><p data-pid=\"Ow6MVWAa\">我用 Clearview 阅读电子书，但我很讨厌它（参见<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5EgfjG9cqZKWW16JQD7Pd51bXZVeNpiFaYJS\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">所有桌面 EPUB 阅读器都很糟糕</a>）。</p><p data-pid=\"DRfEXXQj\">电子书也一样，我通过将它们转移到 <code>~/Documents/Archive</code> 并将其添加到 Zotero 来存档。我想丢弃它们时就将他们移入回收站。</p><h2>实体书</h2><p data-pid=\"kneEtiKU\">我把代表书的 .bib 保存到 <code>~/Documents/Archive/Inbox</code>。我创建了一个快捷方式来使其快速完成。</p><p data-pid=\"mbunRNfB\">我通过将电子书移到 <code>~/Documents/Archive</code> 来归档，然后运行 <code>file_epub.sh</code>，根据它们的元数据重命名。然后我从 <code>Inbox</code> 文件夹的 <code>.bib</code> 中删除它们的条目。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"kYFNnoLP\"><a href=\"https://zhuanlan.zhihu.com/p/501187896\" class=\"internal\" target=\"_blank\">§收件箱与注意力管理</a></li><li data-pid=\"LUqsE431\"><a href=\"https://zhuanlan.zhihu.com/p/499389499\" class=\"internal\" target=\"_blank\">不应该设置多处收件箱</a></li></ul><h2>声明</h2><p data-pid=\"EXe-X8pe\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"xu0Ax__m\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制 <br/>题图：<a href=\"https://link.zhihu.com/?target=https%3A//www.pixiv.net/artworks/47165513\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">#ラブライブ! Good morning - 幻像黒兎的插画 - pixiv</a> <br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z61sPhxF8ZiXcDQF36W4HaYKnSxYJfZmLrkb4\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">My implementation of a reading inbox (andymatuschak.org)</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
-  "reason": "",
-  "excerpt_title": "",
-  "id": 501627735,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/20516001",
+      "type": "topic",
+      "id": "20516001",
+      "name": "收件箱"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19550564",
+      "type": "topic",
+      "id": "19550564",
+      "name": "阅读"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19550932",
+      "type": "topic",
+      "id": "19550932",
+      "name": "GTD（Getting Things Done）"
+    }
+  ],
   "voteup_count": 10,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "间隔重复使记忆成为一种选择",
+    "is_following": false,
+    "url_token": "c_1525782291741208576",
+    "id": "c_1525782291741208576",
+    "articles_count": 182,
+    "accept_submission": true,
+    "title": "间隔重复 & 注意力管理",
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "comment_permission": "all",
+    "created": 1656554846,
+    "updated": 1751877449,
+    "image_url": "https://picx.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 227,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 0,
+  "contributions": [
+    {
+      "id": 41203368,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "间隔重复使记忆成为一种选择",
+        "is_following": false,
+        "url_token": "c_1525782291741208576",
+        "id": "c_1525782291741208576",
+        "articles_count": 182,
+        "accept_submission": true,
+        "title": "间隔重复 & 注意力管理",
+        "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+        "comment_permission": "all",
+        "created": 1656554846,
+        "updated": 1751877449,
+        "image_url": "https://picx.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 227,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 7,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "我的阅读收件箱实践 - 来自知乎专栏「间隔重复 &amp; 注意力管理」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/501627735 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1650422016,
-  "url": "https://api.zhihu.com/articles/501627735",
-  "comment_permission": "all",
-  "title": "我的阅读收件箱实践",
-  "image_width": 1000,
-  "content": "<p data-pid=\"WiXnHNGx\">本条笔记描述了我是如何在我的系统里实践<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z3N113rxPFreW9xUkLkUFomr2LUqfXbdCo3M\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">为有潜在价值的参考引用建立一个阅读收件箱</a><sup data-text=\"为有潜在价值的参考引用建立一个阅读收件箱\" data-url=\"http://zhuanlan.zhihu.com/p/440328209\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>的。</p><p data-pid=\"M3fCSTFq\">阅读有多种口味，不同的工具适合捕捉和阅读不同类型的媒体，但我会同时「清空」这个收件箱内的所有类型的项目。而由于<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z7bj6MiUnFnP3GvM5QqHafy3LTaqQV56e1Mek\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">不应该设置多处收件箱</a><sup data-text=\"不应该设置多处收件箱\" data-url=\"https://zhuanlan.zhihu.com/p/499389499\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，所以我创建了一个「虚拟」收件箱，为所有类型的项目构建出一个统一操作的抽象层。</p><h2>网页</h2><p data-pid=\"iSDFwOhX\">数据库是由 Pocket 管理的。我可以通过桌面和手机上的浏览器扩展来添加网页。</p><p data-pid=\"tw5ILeHj\">我选择 Pocket 是因为它是免费的，有像样点的 API、不错的扩展，而且可以用作书签管理器。</p><p data-pid=\"BGCIDa--\">我通过归档网页来整理它们；我通过将它们扔入回收站来销毁它们。</p><h2>PDFs</h2><p data-pid=\"6JfWt6Mg\">我把它们保存在 <code>~/Documents/Archive/Inbox</code>。我有一个 Alfred 工作流程，将当前在预览中打开的 PDF 复制/移动到这个文件夹。</p><p data-pid=\"4jlKGW8g\">我在 Skim 中阅读 PDF，因为它支持链接到特定位置和可导出注释。</p><p data-pid=\"iNfsqe8N\">我把 PDF 文件移到 <code>~/Documents/Archive</code>，然后把它们添加到 Zotero。我想丢弃它们时就将他们移入回收站。</p><h2>电子书</h2><p data-pid=\"t0E_4lN2\">我把它们保存在 <code>~/Documents/Archive/Inbox</code>。</p><p data-pid=\"Ow6MVWAa\">我用 Clearview 阅读电子书，但我很讨厌它（参见<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z5EgfjG9cqZKWW16JQD7Pd51bXZVeNpiFaYJS\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">所有桌面 EPUB 阅读器都很糟糕</a>）。</p><p data-pid=\"DRfEXXQj\">电子书也一样，我通过将它们转移到 <code>~/Documents/Archive</code> 并将其添加到 Zotero 来存档。我想丢弃它们时就将他们移入回收站。</p><h2>实体书</h2><p data-pid=\"kneEtiKU\">我把代表书的 .bib 保存到 <code>~/Documents/Archive/Inbox</code>。我创建了一个快捷方式来使其快速完成。</p><p data-pid=\"mbunRNfB\">我通过将电子书移到 <code>~/Documents/Archive</code> 来归档，然后运行 <code>file_epub.sh</code>，根据它们的元数据重命名。然后我从 <code>Inbox</code> 文件夹的 <code>.bib</code> 中删除它们的条目。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"kYFNnoLP\"><a href=\"https://zhuanlan.zhihu.com/p/501187896\" class=\"internal\">§收件箱与注意力管理</a></li><li data-pid=\"LUqsE431\"><a href=\"https://zhuanlan.zhihu.com/p/499389499\" class=\"internal\">不应该设置多处收件箱</a></li></ul><h2>声明</h2><p data-pid=\"EXe-X8pe\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"xu0Ax__m\"><a href=\"https://link.zhihu.com/?target=https%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制 <br/>题图：<a href=\"https://link.zhihu.com/?target=https%3A//www.pixiv.net/artworks/47165513\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">#ラブライブ! Good morning - 幻像黒兎的插画 - pixiv</a> <br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z61sPhxF8ZiXcDQF36W4HaYKnSxYJfZmLrkb4\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">My implementation of a reading inbox (andymatuschak.org)</a></blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 0,
-  "image_url": "https://pic1.zhimg.com/v2-4edc7fe393ad673db670c9bee8e3aaac_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 1,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 1,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxOTk2MDQ2OTgSCTUwMTYyNzczNRgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 10,
+      "down_vote_count": 0,
+      "like_count": 1,
+      "comment_count": 0,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 7,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-4edc7fe393ad673db670c9bee8e3aaac": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-4edc7fe393ad673db670c9bee8e3aaac": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-4edc7fe393ad673db670c9bee8e3aaac": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=501627735&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 间隔重复 & 注意力管理",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525782291741208576",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 间隔重复 & 注意力管理"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

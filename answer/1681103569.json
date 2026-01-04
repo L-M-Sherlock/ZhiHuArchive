@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,6 +14,7 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "ただ幸福に生きよ、みたい",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 3,
   "content": "<p data-pid=\"S93xxV2b\">说多了都是黑历史。。。</p><p data-pid=\"d-e4umMt\">初中</p><p data-pid=\"DUe_jNXs\">玩秋之回忆，在贴吧里写用 PSP 模拟器玩 Memory off 6 NR 的教程，还拿了个精品</p><p data-pid=\"Kl2OeQi6\">后面又扒谱了最喜欢的女主的角色歌，为此学了竖笛。还有收集全立绘分享在吧里，整整有 40G，被我压成 400M。(当然这些都因为贴吧清贴搞没了)</p><p data-pid=\"phKy1Pev\">高中</p><p data-pid=\"N1tKEBvf\">后来玩素晴日，然后就入了维特根斯坦的坑，从《逻辑哲学论》到《哲学研究》，再到《语言哲学》，现在回味起来还是觉得特别有启发，至少自己不再像以前那玩文字游戏了。</p><p data-pid=\"YMMeQARE\">大学</p><p data-pid=\"BO4ZtPK9\">入了黑露社的聆花系列的大坑，从此成为入正党，在 steam 上把以前玩过的 gal 都补了正版。</p><p data-pid=\"kqNXdkVe\">差不多就是这样吧。</p>",
   "content_need_truncated": false,
   "created_time": 1610785903,
   "excerpt": "说多了都是黑历史。。。 初中 玩秋之回忆，在贴吧里写用 PSP 模拟器玩 Memory off 6 NR 的教程，还拿了个精品 后面又扒谱了最喜欢的女主的角色歌，为此学了竖笛。还有收集全立绘分享在吧里，整整有 40G，被我压成 400M。(当然这些都因为贴吧清贴搞没了) 高中 后来玩素晴日，然后就入了维特根斯坦的坑，从《逻辑哲学论》到《哲学研究》，再到《语言哲学》，现在回味起来还是觉得特别有启发，至少自己不再像以前那玩文字游戏了。 …",
-  "id": 1681103569,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1681103569",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1681103569&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1610735714,
     "detail": "<p>具体些，结合具体游戏来说，下列是一些例子</p><p>1、玩了悠久之翼而登上了天台，去附近的教堂看了看</p><p>2、迷上朱雀院椿之后，疯狂寻找白发角色或者卯衣配音的角色</p><p>3、玩了五彩斑斓的世界后将微信个性签名改成 愿明天对XX来说又是美好的一天</p><p>4、贴吧，知乎，B站，微博，论坛发言吹游戏或者角色，寻求同好，加q群什么的。</p><p>5、玩了爱因斯坦以后骂新岛夕</p><p>6、努力制作Galgame的二创，如绘画，写同人等等</p><p>7、圣地巡礼</p>",
-    "id": 439594905,
+    "id": "439594905",
     "question_type": "normal",
     "relationship": {},
     "title": "你因为某部Galgame而做出过什么行动吗？",
     "type": "question",
     "updated_time": 1610735714,
-    "url": "https://api.zhihu.com/questions/439594905"
+    "url": "https://www.zhihu.com/api/v4/questions/439594905"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1610785903,
+  "url": "https://www.zhihu.com/api/v4/answers/1681103569",
   "voteup_count": 31
 }

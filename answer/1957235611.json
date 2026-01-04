@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,6 +37,7 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
@@ -45,9 +48,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,36 +84,56 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 8,
   "content": "<p data-pid=\"3ZjXnx-E\">遇事不决就默认！我写了不少anki参数教程，最终还是放弃折腾参数了。</p><p data-pid=\"yFstufwB\">有这个时间，不如好好打磨卡片的质量，每天制卡每天复习，预估自己的进度，看看每天做多少张卡片能赶得上你过 3 遍的计划。</p><p data-pid=\"zqjB1viM\">关于制卡，可以参考这篇文章：</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://zhuanlan.zhihu.com/p/52369009\" data-size=\"small\" data-image=\"https://pica.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_720w.jpg\" data-entity-type=\"article\" class=\"internal\">Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》</a><p data-pid=\"gD74auNH\">先用起来，如果在用的过程中发现复习量太大，就看一下这篇回答：</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/465450224\" class=\"internal\">Anki牌组参数该怎样设置，不会产生太多的刷卡压力？</a><p data-pid=\"acVqoofa\">总之最重要的先用起来！</p><p data-pid=\"E-lEtPgl\">别什么磨刀不误砍柴工</p><p data-pid=\"2KEp18S_\">边砍柴边磨刀不就得了</p><p data-pid=\"7osREORr\">希望对题主有所帮助</p>",
   "content_need_truncated": false,
   "created_time": 1624462244,
   "excerpt": "遇事不决就默认！我写了不少anki参数教程，最终还是放弃折腾参数了。 有这个时间，不如好好打磨卡片的质量，每天制卡每天复习，预估自己的进度，看看每天做多少张卡片能赶得上你过 3 遍的计划。 关于制卡，可以参考这篇文章： [文章: Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》] 先用起来，如果在用的过程中发现复习量太大，就看一下这篇回答： Anki牌组参数该怎样设置，不会产生太多的刷卡压力？ 总之最重要的先用…",
-  "id": 1957235611,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1957235611",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://www.zhihu.com/question/465450224": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki牌组参数该怎样设置，不会产生太多的刷卡压力？\",\"card_open_url\":\"https://www.zhihu.com/question/465450224\",\"desc\":\"26 关注 · 3 回答 \\u003ca class=\\\"tag type_a\\\"\\u003e问题\\u003c/a\\u003e\",\"content\":null,\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"QUESTION\",\"content_id\":\"465450224\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/52369009": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/52369009\",\"desc\":\"415 赞同 · 31 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 想要提高学习效率，加速学习？阅读本文来获得能力，克服来自「组织知识」的困难。 学习速度取决于我们组织学习材料的方式。如果组织的很好，那么对于相同的材料，我们就能学得又快又好，其效率（速度）上的差距是难以置信的。 下面的原则按照重要性排序，最前面的原则最易被不经意地违背，但是如果能够好好地遵守它们，将为我们带来极大的收益。 这里有一个前提：你在用「间隔重复」的方式进行学习和…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"52369009\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://www.zhihu.com/question/465450224": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki牌组参数该怎样设置，不会产生太多的刷卡压力？\",\"card_open_url\":\"https://www.zhihu.com/question/465450224\",\"desc\":\"26 关注 · 4 回答 \\u003ca class=\\\"tag type_a\\\"\\u003e问题\\u003c/a\\u003e\",\"content\":null,\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"QUESTION\",\"content_id\":\"465450224\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/52369009": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki高考的20条原则(1-5)—来自《有效的学习：组织知识的20条原则》\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/52369009\",\"desc\":\"500 赞同 · 33 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 已收录于「一周年」专栏整理 想要提高学习效率，加速学习？阅读本文来获得能力，克服来自「组织知识」的困难。 学习速度取决于我们组织学习材料的方式。如果组织的很好，那么对于相同的材料，我们就能学得又快又好，其效率（速度）上的差距是难以置信的。 下面的原则按照重要性排序，最前面的原则最易被不经意地违背，但是如果能够好好地遵守它们，将为我们带来极大的收益。 这里有一个前提：你在用「间隔重复」的方式进行学习和…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-5753541fed53c1aa73f9ce332a1ac5d0_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"52369009\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1957235611&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1624352391,
     "detail": "<p>看了一大堆攻略，满满的数字直接把我看晕，跟着攻略设置了几个，其实还是没怎么明白。</p><p>专业课要背六本书，我打算弄成6套牌组，距离考试大概半年，想把内容至少过3遍，我该如何设置参数呢，数学白痴真的看不懂算法TAT</p>",
-    "id": 466579828,
+    "id": "466579828",
     "question_type": "normal",
     "relationship": {},
     "title": "被anki的参数设置绕晕了，我该如何用anki背考研专业课？",
     "type": "question",
     "updated_time": 1624352391,
-    "url": "https://api.zhihu.com/questions/466579828"
+    "url": "https://www.zhihu.com/api/v4/questions/466579828"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 58
+  "updated_time": 1624462244,
+  "url": "https://www.zhihu.com/api/v4/answers/1957235611",
+  "voteup_count": 64
 }

@@ -1,80 +1,515 @@
 {
-  "status": 0,
+  "id": "455244274",
+  "title": "LingQ——外语阅读与词汇记忆的沉浸体验",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/455244274",
+  "image_url": "https://picx.zhimg.com/v2-0a7ef610997813deaaf786f5c49edd92_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-0a7ef610997813deaaf786f5c49edd92_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://pic4.zhimg.com/v2-4657d701913f7928988825d9f9565d5d_200x112.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2876\" data-rawheight=\"1556\" data-watermark=\"original\" data-original-src=\"v2-4657d701913f7928988825d9f9565d5d\" data-watermark-src=\"v2-df9382a0e0fc9917717fbf2ee460a69f\" data-private-watermark-src=\"\" data-original=\"https://pic4.zhimg.com/v2-4657d701913f7928988825d9f9565d5d_r.jpg\" class=\"origin_image inline-img zh-lightbox-thumb\"/>简介 上个月和 SuperMemo 群友讨论背单词方法的过程中，了解了 LingQ 这款特殊的“背单词”软件。 与墨墨、扇贝、不背这些 APP 所采用的纯抽认卡+间隔重复 [1]方法不同，LingQ 是在阅读过程中学习单词（基于<a href=\"https://www.zhihu.com/question/27269636/answer/836340381\" class=\"internal\" target=\"_blank\">克拉申的语言习得假说</a>） 这样说可能有点儿抽象，…",
+  "created": 1641744300,
   "updated": 1646876666,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "简介 上个月和 SuperMemo 群友讨论背单词方法的过程中，了解了 LingQ 这款特殊的“…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 1199,
+  "image_height": 848,
+  "content": "<h2>简介 </h2><p data-pid=\"L7FDfD4Q\">上个月和 SuperMemo 群友讨论背单词方法的过程中，了解了 LingQ 这款特殊的“背单词”软件。 </p><p data-pid=\"3EyTqXG7\">与墨墨、扇贝、不背这些 APP 所采用的纯抽认卡+间隔重复<sup data-text=\"【理论】Study smarter， NOT longer. 你需要间隔重复！\" data-url=\"https://zhuanlan.zhihu.com/p/57020308\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>方法不同，LingQ 是在阅读过程中学习单词（基于<a href=\"https://www.zhihu.com/question/27269636/answer/836340381\" class=\"internal\" target=\"_blank\">克拉申的语言习得假说</a>） </p><p data-pid=\"usZkk4tX\">这样说可能有点儿抽象，不妨让我们直接看看 LingQ 的使用过程吧！ </p><h2>界面介绍 </h2><p data-pid=\"STl8HO0u\">打开 LingQ，选择一门课程进行学习，我们就会进入阅读页面： </p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-4657d701913f7928988825d9f9565d5d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2876\" data-rawheight=\"1556\" data-original-token=\"v2-4657d701913f7928988825d9f9565d5d\" class=\"origin_image zh-lightbox-thumb\" width=\"2876\" data-original=\"https://pic4.zhimg.com/v2-4657d701913f7928988825d9f9565d5d_r.jpg\"/></figure><p data-pid=\"FvEDbt2n\">其主要分为两块区域：文章区和卡片区。文章区用于阅读，卡片区用于制作单词卡片。 </p><p data-pid=\"UB4IX6sd\">可能大家已经注意到文章区中花花绿绿的标记色了吧，它们主要包括三种颜色： </p><ul><li data-pid=\"THVjU29Z\">白色 - 已认识的单词 </li><li data-pid=\"7x0BsIC6\">蓝色 - 没见过的单词 </li><li data-pid=\"vyDExeXE\">黄色 - 学习中的单词 </li></ul><p data-pid=\"o00fFGcy\">而卡片区中，包含的主要内容为： </p><ul><li data-pid=\"u9ZsLjx2\">单词释义 </li><li data-pid=\"YBBebjti\">掌握等级（1 2 3 4） </li><li data-pid=\"b71o7au8\">上下文和例句 </li></ul><p data-pid=\"ZSKm-LVd\">其他内容我没怎样看过，就不展开介绍了。让我们直接开始用起来吧～ </p><h2>使用过程 </h2><p data-pid=\"z_esmd32\">LingQ 的使用过程主要可以划分为： </p><ol><li data-pid=\"_s-A0xGK\">导入阅读材料 </li><li data-pid=\"KtFhsWbm\">在阅读中标记生词 </li><li data-pid=\"yhdeHqgW\">间隔重复生词 </li></ol><p data-pid=\"4LJTEhyJ\">我们一步一步来～ </p><h3>导入材料 </h3><p data-pid=\"Itr48Tvr\">主要有三种导入方式： </p><ul><li data-pid=\"U5_A9COd\">网页导入 </li><li data-pid=\"9e6BDi9t\">文件导入 </li><li data-pid=\"tUmqvzVW\">复制粘贴 </li></ul><p data-pid=\"p1pMCgny\"><b>网页导入 </b></p><p data-pid=\"6qRH6hKO\">可以使用 LingQ 官方的插件 </p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-30eafef33541a73ca272b4c024366166_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2164\" data-rawheight=\"1502\" data-original-token=\"v2-30eafef33541a73ca272b4c024366166\" class=\"origin_image zh-lightbox-thumb\" width=\"2164\" data-original=\"https://pica.zhimg.com/v2-30eafef33541a73ca272b4c024366166_r.jpg\"/></figure><p data-pid=\"opGtBIW3\"><br/> </p><p data-pid=\"BBixUhCf\"><b>文件导入 </b></p><p data-pid=\"wFwgwKWe\">支持电子书、Word 文档、PDF 等文件导入 </p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-c10ddc40982e84b2c7d55fa7a4c2f30d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1842\" data-rawheight=\"964\" data-original-token=\"v2-c10ddc40982e84b2c7d55fa7a4c2f30d\" class=\"origin_image zh-lightbox-thumb\" width=\"1842\" data-original=\"https://pic4.zhimg.com/v2-c10ddc40982e84b2c7d55fa7a4c2f30d_r.jpg\"/></figure><p data-pid=\"W7TGwYSn\"><br/> </p><p data-pid=\"2x3tACyS\"><b>复制粘贴 </b></p><p data-pid=\"EOz6ql8u\">也可以直接输入/粘贴自己想要阅读的文本 </p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-6cc179359e14c01a9c929410eab485c1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2290\" data-rawheight=\"1390\" data-original-token=\"v2-6cc179359e14c01a9c929410eab485c1\" class=\"origin_image zh-lightbox-thumb\" width=\"2290\" data-original=\"https://pic4.zhimg.com/v2-6cc179359e14c01a9c929410eab485c1_r.jpg\"/></figure><p data-pid=\"6wfUJC8l\"><br/> </p><h3>标记生词 </h3><p data-pid=\"BP1YO_L0\">在阅读过程中，可以点击白色或蓝色背景的单词，然后右侧卡片区就会出现这个单词的常见释义： </p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-e0cb36628c776c9e555547b6eff0d92e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2840\" data-rawheight=\"1214\" data-original-token=\"v2-e0cb36628c776c9e555547b6eff0d92e\" class=\"origin_image zh-lightbox-thumb\" width=\"2840\" data-original=\"https://pic3.zhimg.com/v2-e0cb36628c776c9e555547b6eff0d92e_r.jpg\"/></figure><p data-pid=\"FZNrXBBj\"><br/> </p><p data-pid=\"x47I0QF2\">可以选择释义，或者自己添加释义，然后就制作了一张单词卡片，同时单词的背景颜色会变成黄色。 </p><p data-pid=\"A3Txvqps\">同时 LingQ 是可以选词组的： </p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-ba9fb442f28789951a8cf352baf902b1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2674\" data-rawheight=\"1100\" data-original-token=\"v2-ba9fb442f28789951a8cf352baf902b1\" class=\"origin_image zh-lightbox-thumb\" width=\"2674\" data-original=\"https://picx.zhimg.com/v2-ba9fb442f28789951a8cf352baf902b1_r.jpg\"/></figure><p data-pid=\"stjsU3GS\"><br/> </p><h3>间隔重复 </h3><p data-pid=\"UlYBWVo1\">LingQ 的间隔重复虽然简陋，但是能用，而且 LingQ 的学习形式决定了它可以简陋（稍后解释） </p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e76a3e3a48e5452364ad3376759df6a5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2760\" data-rawheight=\"1470\" data-original-token=\"v2-e76a3e3a48e5452364ad3376759df6a5\" class=\"origin_image zh-lightbox-thumb\" width=\"2760\" data-original=\"https://pic2.zhimg.com/v2-e76a3e3a48e5452364ad3376759df6a5_r.jpg\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1P-0r_up\">点击 Review，LingQ 就会展示抽认卡让你复习了： </p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-9746c809542f6c208cd07dcb53f050b1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2128\" data-rawheight=\"1306\" data-original-token=\"v2-9746c809542f6c208cd07dcb53f050b1\" class=\"origin_image zh-lightbox-thumb\" width=\"2128\" data-original=\"https://picx.zhimg.com/v2-9746c809542f6c208cd07dcb53f050b1_r.jpg\"/></figure><p data-pid=\"NxBTPfLC\">LingQ 的抽认卡正面包含单词拼写、阅读原文以及发音。 </p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-84d2dd36eb89b734db2701b31ce617de_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2064\" data-rawheight=\"1306\" data-original-token=\"v2-84d2dd36eb89b734db2701b31ce617de\" class=\"origin_image zh-lightbox-thumb\" width=\"2064\" data-original=\"https://pic3.zhimg.com/v2-84d2dd36eb89b734db2701b31ce617de_r.jpg\"/></figure><p data-pid=\"vbxsH5ek\"><br/>背面则是释义、目前的掌握进度。点击 ❌ 或者 ✅ 来反馈你的记忆情况。 </p><p data-pid=\"8a-RI9EG\">LingQ 的 4 个掌握进度，分别对应 1天、3天、7天、15天，这 4 个复习间隔。 </p><p data-pid=\"RQqRkRUy\">在复习过程中，如果对一个单词点击两次 ❌，掌握进度 -1；一次 ❌ 一次 ✅，掌握进度不变；两次 ✅；掌握进度 + 1。 </p><p data-pid=\"L50HQw_V\">当单词掌握进度超过 4 后，LingQ 就不会主动安排复习了。 </p><p data-pid=\"RoPJCazc\">这个算法确实简陋，比 SM-2 还简陋，但是 LingQ 的掌握进度是可以自己选择的！可以直接点击 1 2 3 4 来修改自己的掌握进度。而且，别忘了，之前提到的卡片区里也有掌握进度： </p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-0819618e4c935981b0128eb6700072a5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1128\" data-rawheight=\"650\" data-original-token=\"v2-0819618e4c935981b0128eb6700072a5\" class=\"origin_image zh-lightbox-thumb\" width=\"1128\" data-original=\"https://pic4.zhimg.com/v2-0819618e4c935981b0128eb6700072a5_r.jpg\"/></figure><p data-pid=\"Ck5dTi_C\"><br/> 在这里也可以修改掌握进度。这使得我们可以在阅读中间隔重复，并修改复习间隔，可以省下不少复习时间。</p><p data-pid=\"IXRejMWk\">同时，由于单词的状态是全部文章共享的，所以在阅读其他文章的时候，依然可以知道哪些单词自己在之前不认识，并可以借此机会来测试一下自己，然后调整掌握进度。 （这点是最戳我的，因为可以在<b>不同上下文</b>里复习了！） </p><h2>心得体会 </h2><p data-pid=\"1VoTI-c9\">其实在用 LingQ 之前，我就在 SuperMemo 里尝试这套背单词流程了，但是由于这套流程中很多功能都得借助 Quicker 完成，在不同软件中跳来跳去，让我感觉使用过程中的摩擦力有点大。在群友的推荐下，我上手了 LingQ，最近已经学英语上头了： </p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-df76ca7fc48c0ff9c597981a5cb5fdcc_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2878\" data-rawheight=\"1570\" data-original-token=\"v2-df76ca7fc48c0ff9c597981a5cb5fdcc\" class=\"origin_image zh-lightbox-thumb\" width=\"2878\" data-original=\"https://pic1.zhimg.com/v2-df76ca7fc48c0ff9c597981a5cb5fdcc_r.jpg\"/></figure><p data-pid=\"tYnji-S8\"><br/> 平时要给汉化组挑选材料<sup data-text=\"如何和网友们一起愉快地合作翻译？我推荐 Paratranz + DeepL\" data-url=\"https://zhuanlan.zhihu.com/p/412325171\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，我就会先放到 LingQ 里读一遍，顺便还能积累单词，一举两得。 </p><p data-pid=\"I2ytwGsV\">同时由于是在阅读中记单词，相比单调的抽认卡，阅读更有乐趣，让我能够持续学习。 </p><p data-pid=\"mNTgvKrN\">我感觉这套流程其实和 SuperMemo 中的渐进阅读<sup data-text=\"渐进阅读\" data-url=\"https://www.yuque.com/supermemo/wiki/incremental_reading\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>异曲同工，都是在阅读中理解记忆，并在未来不断巩固，而且 LingQ 的单词背景色更方便我在不同上下文中复习。 </p><p data-pid=\"3AGxQDZy\">不过 LingQ 还是有一些缺点的，我这边简单罗列一下： </p><ul><li data-pid=\"TeUylifO\">上下文有时候会截取不全，而且无法自行修改 <br/><br/></li><li data-pid=\"gaCHIAMD\">一个单词只能一张卡片，对一词多义不友好 <br/><br/></li><li data-pid=\"P1gsax4S\">复习算法还是简陋了点，不过好在直观 <br/><br/></li><li data-pid=\"ktAkiN9G\">词组不能非连续选取，但很多搭配都是非连续的 <br/><br/></li><li data-pid=\"2MCmvhWy\">需要科学上网（据说是因为上面可以找外教交流）<br/><br/></li><li data-pid=\"xafQk6NG\">贵！半年订阅费 $71.99（感谢 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/3431283542f2aacaa4db5bc70e7d71ab\" data-hash=\"3431283542f2aacaa4db5bc70e7d71ab\" data-hovercard=\"p$b$3431283542f2aacaa4db5bc70e7d71ab\">@墨墨背单词</a> 报销的经费）<br/><br/> </li></ul><p data-pid=\"rVMdgmuI\">差不多就介绍到这里，如果有任何想法，欢迎在评论区讨论～ </p><h2>相关资源</h2><p data-pid=\"Ktwk1OKk\">LingQ 官网：<a href=\"https://link.zhihu.com/?target=https%3A//www.lingq.com/en/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Learn languages online: English, German, Russian, Japanese... - LingQ</a></p><p data-pid=\"5a9DU6SO\">LingL 介绍：<a href=\"https://zhuanlan.zhihu.com/p/449212898\" class=\"internal\" target=\"_blank\">lingq 的开源现代替代品 - 知乎 (zhihu.com)</a> </p><p data-pid=\"Rw5Xngqa\">克拉申语言学习：<a href=\"https://link.zhihu.com/?target=http%3A//www.sdkrashen.com/content/books/principles_and_practice.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">principles_and_practice.pdf (sdkrashen.com)</a></p><p data-pid=\"d5hOJkFw\">例句法背单词：<a href=\"https://zhuanlan.zhihu.com/p/25866272\" class=\"internal\" target=\"_blank\">我不是针对谁，我是说在座各位... - 知乎 (zhihu.com)</a></p><h2>附录</h2><h3>其他卡片样式</h3><figure data-size=\"small\"><img src=\"https://pic1.zhimg.com/v2-8f06b8a86bfa48d33d371da08119c672_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1734\" data-rawheight=\"1086\" data-original-token=\"v2-8f06b8a86bfa48d33d371da08119c672\" class=\"origin_image zh-lightbox-thumb\" width=\"1734\" data-original=\"https://pic1.zhimg.com/v2-8f06b8a86bfa48d33d371da08119c672_r.jpg\"/></figure><p data-pid=\"4HR9sujf\">从上往下分别为：</p><ul><li data-pid=\"LhX_Qzat\">单词 - 释义</li><li data-pid=\"bH75u1ZI\">释义 - 单词</li><li data-pid=\"2bV_4nz4\">原文挖空 - 选择对应填入的单词</li><li data-pid=\"LtejkArf\">单词/释义 - 选择对应的释义/单词</li><li data-pid=\"MoIp9frb\">发音 - 单词</li></ul><p data-pid=\"iIZ8MgGF\">前两种大家应该都很熟悉，就只展示一下后三种卡片：</p><figure data-size=\"small\"><img src=\"https://pic1.zhimg.com/v2-81e9641b2ee916ecc29868357b9bb04a_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"2104\" data-rawheight=\"1264\" data-original-token=\"v2-81e9641b2ee916ecc29868357b9bb04a\" class=\"origin_image zh-lightbox-thumb\" width=\"2104\" data-original=\"https://pic1.zhimg.com/v2-81e9641b2ee916ecc29868357b9bb04a_r.jpg\"/></figure><figure data-size=\"small\"><img src=\"https://pic1.zhimg.com/v2-92aff0d8ae329ac63f36ef8dadbe0e9e_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"2102\" data-rawheight=\"1236\" data-original-token=\"v2-92aff0d8ae329ac63f36ef8dadbe0e9e\" class=\"origin_image zh-lightbox-thumb\" width=\"2102\" data-original=\"https://pic1.zhimg.com/v2-92aff0d8ae329ac63f36ef8dadbe0e9e_r.jpg\"/></figure><figure data-size=\"small\"><img src=\"https://pic1.zhimg.com/v2-12d0fd9bb9b7c06fff0a084a646a0212_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"2008\" data-rawheight=\"1226\" data-original-token=\"v2-12d0fd9bb9b7c06fff0a084a646a0212\" class=\"origin_image zh-lightbox-thumb\" width=\"2008\" data-original=\"https://pic1.zhimg.com/v2-12d0fd9bb9b7c06fff0a084a646a0212_r.jpg\"/></figure><h3>手机端展示</h3><figure data-size=\"small\"><img src=\"https://pica.zhimg.com/v2-5b8e33d7ccfa56ef7bc012fe0f47692a_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"828\" data-rawheight=\"1792\" data-original-token=\"v2-5b8e33d7ccfa56ef7bc012fe0f47692a\" class=\"origin_image zh-lightbox-thumb\" width=\"828\" data-original=\"https://pica.zhimg.com/v2-5b8e33d7ccfa56ef7bc012fe0f47692a_r.jpg\"/></figure><figure data-size=\"small\"><img src=\"https://pica.zhimg.com/v2-ae17b1e9ccb68f788c8d814e8b0ec638_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"828\" data-rawheight=\"1792\" data-qrcode-action=\"none\" data-original-token=\"v2-ae17b1e9ccb68f788c8d814e8b0ec638\" class=\"origin_image zh-lightbox-thumb\" width=\"828\" data-original=\"https://pica.zhimg.com/v2-ae17b1e9ccb68f788c8d814e8b0ec638_r.jpg\"/></figure><figure data-size=\"small\"><img src=\"https://pica.zhimg.com/v2-964520e7aab80731e932532e40bb6b18_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"828\" data-rawheight=\"1792\" data-qrcode-action=\"none\" data-original-token=\"v2-964520e7aab80731e932532e40bb6b18\" class=\"origin_image zh-lightbox-thumb\" width=\"828\" data-original=\"https://pica.zhimg.com/v2-964520e7aab80731e932532e40bb6b18_r.jpg\"/></figure><h2>更新</h2><a href=\"https://www.zhihu.com/question/520956397/answer/2381545475\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-a2f13454e133059ba81c327d6759ade5_720w.jpg\" data-image-width=\"1576\" data-image-height=\"902\" class=\"internal\">LingQ有什么使用技巧？</a><p></p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19563805",
+      "type": "topic",
+      "id": "19563805",
+      "name": "背单词"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19585374",
+      "type": "topic",
+      "id": "19585374",
+      "name": "语言学习"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    }
+  ],
+  "voteup_count": 280,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "你并不需要刻意记住语言，而是要去熟悉语言",
+    "is_following": false,
+    "url_token": "c_1537015147880669184",
+    "id": "c_1537015147880669184",
+    "articles_count": 82,
+    "accept_submission": false,
+    "title": "外语习得",
+    "url": "https://api.zhihu.com/columns/c_1537015147880669184",
+    "comment_permission": "all",
+    "created": 1659232967,
+    "updated": 1751811168,
+    "image_url": "https://pic1.zhimg.com/v2-9e674c4fb024a1226e2d46e314d3ca5f_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 840,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 129,
+  "contributions": [
+    {
+      "id": 41756944,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "你并不需要刻意记住语言，而是要去熟悉语言",
+        "is_following": false,
+        "url_token": "c_1537015147880669184",
+        "id": "c_1537015147880669184",
+        "articles_count": 82,
+        "accept_submission": false,
+        "title": "外语习得",
+        "url": "https://api.zhihu.com/columns/c_1537015147880669184",
+        "comment_permission": "all",
+        "created": 1659232967,
+        "updated": 1751811168,
+        "image_url": "https://pic1.zhimg.com/v2-9e674c4fb024a1226e2d46e314d3ca5f_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 840,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 455244274,
-  "voteup_count": 236,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 705,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "LingQ——外语阅读与词汇记忆的沉浸体验 - 来自知乎专栏「外语习得」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/455244274 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1641744300,
-  "url": "https://api.zhihu.com/articles/455244274",
-  "comment_permission": "all",
-  "title": "LingQ——外语阅读与词汇记忆的沉浸体验",
-  "image_width": 848,
-  "content": "<h2>简介 </h2><p data-pid=\"L7FDfD4Q\">上个月和 SuperMemo 群友讨论背单词方法的过程中，了解了 LingQ 这款特殊的“背单词”软件。 </p><p data-pid=\"3EyTqXG7\">与墨墨、扇贝、不背这些 APP 所采用的纯抽认卡+间隔重复<sup data-text=\"【理论】Study smarter， NOT longer. 你需要间隔重复！\" data-url=\"https://zhuanlan.zhihu.com/p/57020308\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>方法不同，LingQ 是在阅读过程中学习单词（基于<a href=\"https://www.zhihu.com/question/27269636/answer/836340381\" class=\"internal\">克拉申的语言习得假说</a>） </p><p data-pid=\"usZkk4tX\">这样说可能有点儿抽象，不妨让我们直接看看 LingQ 的使用过程吧！ </p><h2>界面介绍 </h2><p data-pid=\"STl8HO0u\">打开 LingQ，选择一门课程进行学习，我们就会进入阅读页面： </p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-4657d701913f7928988825d9f9565d5d_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2876\" data-rawheight=\"1556\" class=\"origin_image zh-lightbox-thumb\" width=\"2876\" data-original=\"https://pic4.zhimg.com/v2-4657d701913f7928988825d9f9565d5d_r.jpg\" data-original-token=\"v2-4657d701913f7928988825d9f9565d5d\"/></figure><p data-pid=\"FvEDbt2n\">其主要分为两块区域：文章区和卡片区。文章区用于阅读，卡片区用于制作单词卡片。 </p><p data-pid=\"UB4IX6sd\">可能大家已经注意到文章区中花花绿绿的标记色了吧，它们主要包括三种颜色： </p><ul><li data-pid=\"THVjU29Z\">白色 - 已认识的单词 </li><li data-pid=\"7x0BsIC6\">蓝色 - 没见过的单词 </li><li data-pid=\"vyDExeXE\">黄色 - 学习中的单词 </li></ul><p data-pid=\"o00fFGcy\">而卡片区中，包含的主要内容为： </p><ul><li data-pid=\"u9ZsLjx2\">单词释义 </li><li data-pid=\"YBBebjti\">掌握等级（1 2 3 4） </li><li data-pid=\"b71o7au8\">上下文和例句 </li></ul><p data-pid=\"ZSKm-LVd\">其他内容我没怎样看过，就不展开介绍了。让我们直接开始用起来吧～ </p><h2>使用过程 </h2><p data-pid=\"z_esmd32\">LingQ 的使用过程主要可以划分为： </p><ol><li data-pid=\"_s-A0xGK\">导入阅读材料 </li><li data-pid=\"KtFhsWbm\">在阅读中标记生词 </li><li data-pid=\"yhdeHqgW\">间隔重复生词 </li></ol><p data-pid=\"4LJTEhyJ\">我们一步一步来～ </p><h3>导入材料 </h3><p data-pid=\"Itr48Tvr\">主要有三种导入方式： </p><ul><li data-pid=\"U5_A9COd\">网页导入 </li><li data-pid=\"9e6BDi9t\">文件导入 </li><li data-pid=\"tUmqvzVW\">复制粘贴 </li></ul><p data-pid=\"p1pMCgny\"><b>网页导入 </b></p><p data-pid=\"6qRH6hKO\">可以使用 LingQ 官方的插件 </p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-30eafef33541a73ca272b4c024366166_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2164\" data-rawheight=\"1502\" class=\"origin_image zh-lightbox-thumb\" width=\"2164\" data-original=\"https://pica.zhimg.com/v2-30eafef33541a73ca272b4c024366166_r.jpg\" data-original-token=\"v2-30eafef33541a73ca272b4c024366166\"/></figure><p data-pid=\"opGtBIW3\"><br/> </p><p data-pid=\"BBixUhCf\"><b>文件导入 </b></p><p data-pid=\"wFwgwKWe\">支持电子书、Word 文档、PDF 等文件导入 </p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-c10ddc40982e84b2c7d55fa7a4c2f30d_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1842\" data-rawheight=\"964\" class=\"origin_image zh-lightbox-thumb\" width=\"1842\" data-original=\"https://pic4.zhimg.com/v2-c10ddc40982e84b2c7d55fa7a4c2f30d_r.jpg\" data-original-token=\"v2-c10ddc40982e84b2c7d55fa7a4c2f30d\"/></figure><p data-pid=\"W7TGwYSn\"><br/> </p><p data-pid=\"2x3tACyS\"><b>复制粘贴 </b></p><p data-pid=\"EOz6ql8u\">也可以直接输入/粘贴自己想要阅读的文本 </p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-6cc179359e14c01a9c929410eab485c1_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2290\" data-rawheight=\"1390\" class=\"origin_image zh-lightbox-thumb\" width=\"2290\" data-original=\"https://pic4.zhimg.com/v2-6cc179359e14c01a9c929410eab485c1_r.jpg\" data-original-token=\"v2-6cc179359e14c01a9c929410eab485c1\"/></figure><p data-pid=\"6wfUJC8l\"><br/> </p><h3>标记生词 </h3><p data-pid=\"BP1YO_L0\">在阅读过程中，可以点击白色或蓝色背景的单词，然后右侧卡片区就会出现这个单词的常见释义： </p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-e0cb36628c776c9e555547b6eff0d92e_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2840\" data-rawheight=\"1214\" class=\"origin_image zh-lightbox-thumb\" width=\"2840\" data-original=\"https://pic3.zhimg.com/v2-e0cb36628c776c9e555547b6eff0d92e_r.jpg\" data-original-token=\"v2-e0cb36628c776c9e555547b6eff0d92e\"/></figure><p data-pid=\"FZNrXBBj\"><br/> </p><p data-pid=\"x47I0QF2\">可以选择释义，或者自己添加释义，然后就制作了一张单词卡片，同时单词的背景颜色会变成黄色。 </p><p data-pid=\"A3Txvqps\">同时 LingQ 是可以选词组的： </p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-ba9fb442f28789951a8cf352baf902b1_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2674\" data-rawheight=\"1100\" class=\"origin_image zh-lightbox-thumb\" width=\"2674\" data-original=\"https://picx.zhimg.com/v2-ba9fb442f28789951a8cf352baf902b1_r.jpg\" data-original-token=\"v2-ba9fb442f28789951a8cf352baf902b1\"/></figure><p data-pid=\"stjsU3GS\"><br/> </p><h3>间隔重复 </h3><p data-pid=\"UlYBWVo1\">LingQ 的间隔重复虽然简陋，但是能用，而且 LingQ 的学习形式决定了它可以简陋（稍后解释） </p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-e76a3e3a48e5452364ad3376759df6a5_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2760\" data-rawheight=\"1470\" class=\"origin_image zh-lightbox-thumb\" width=\"2760\" data-original=\"https://pic2.zhimg.com/v2-e76a3e3a48e5452364ad3376759df6a5_r.jpg\" data-original-token=\"v2-e76a3e3a48e5452364ad3376759df6a5\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1P-0r_up\">点击 Review，LingQ 就会展示抽认卡让你复习了： </p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-9746c809542f6c208cd07dcb53f050b1_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2128\" data-rawheight=\"1306\" class=\"origin_image zh-lightbox-thumb\" width=\"2128\" data-original=\"https://picx.zhimg.com/v2-9746c809542f6c208cd07dcb53f050b1_r.jpg\" data-original-token=\"v2-9746c809542f6c208cd07dcb53f050b1\"/></figure><p data-pid=\"NxBTPfLC\">LingQ 的抽认卡正面包含单词拼写、阅读原文以及发音。 </p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-84d2dd36eb89b734db2701b31ce617de_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2064\" data-rawheight=\"1306\" class=\"origin_image zh-lightbox-thumb\" width=\"2064\" data-original=\"https://pic3.zhimg.com/v2-84d2dd36eb89b734db2701b31ce617de_r.jpg\" data-original-token=\"v2-84d2dd36eb89b734db2701b31ce617de\"/></figure><p data-pid=\"vbxsH5ek\"><br/>背面则是释义、目前的掌握进度。点击 ❌ 或者 ✅ 来反馈你的记忆情况。 </p><p data-pid=\"8a-RI9EG\">LingQ 的 4 个掌握进度，分别对应 1天、3天、7天、15天，这 4 个复习间隔。 </p><p data-pid=\"RQqRkRUy\">在复习过程中，如果对一个单词点击两次 ❌，掌握进度 -1；一次 ❌ 一次 ✅，掌握进度不变；两次 ✅；掌握进度 + 1。 </p><p data-pid=\"L50HQw_V\">当单词掌握进度超过 4 后，LingQ 就不会主动安排复习了。 </p><p data-pid=\"RoPJCazc\">这个算法确实简陋，比 SM-2 还简陋，但是 LingQ 的掌握进度是可以自己选择的！可以直接点击 1 2 3 4 来修改自己的掌握进度。而且，别忘了，之前提到的卡片区里也有掌握进度： </p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-0819618e4c935981b0128eb6700072a5_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1128\" data-rawheight=\"650\" class=\"origin_image zh-lightbox-thumb\" width=\"1128\" data-original=\"https://pic4.zhimg.com/v2-0819618e4c935981b0128eb6700072a5_r.jpg\" data-original-token=\"v2-0819618e4c935981b0128eb6700072a5\"/></figure><p data-pid=\"Ck5dTi_C\"><br/> 在这里也可以修改掌握进度。这使得我们可以在阅读中间隔重复，并修改复习间隔，可以省下不少复习时间。</p><p data-pid=\"IXRejMWk\">同时，由于单词的状态是全部文章共享的，所以在阅读其他文章的时候，依然可以知道哪些单词自己在之前不认识，并可以借此机会来测试一下自己，然后调整掌握进度。 （这点是最戳我的，因为可以在<b>不同上下文</b>里复习了！） </p><h2>心得体会 </h2><p data-pid=\"1VoTI-c9\">其实在用 LingQ 之前，我就在 SuperMemo 里尝试这套背单词流程了，但是由于这套流程中很多功能都得借助 Quicker 完成，在不同软件中跳来跳去，让我感觉使用过程中的摩擦力有点大。在群友的推荐下，我上手了 LingQ，最近已经学英语上头了： </p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-df76ca7fc48c0ff9c597981a5cb5fdcc_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2878\" data-rawheight=\"1570\" class=\"origin_image zh-lightbox-thumb\" width=\"2878\" data-original=\"https://pic1.zhimg.com/v2-df76ca7fc48c0ff9c597981a5cb5fdcc_r.jpg\" data-original-token=\"v2-df76ca7fc48c0ff9c597981a5cb5fdcc\"/></figure><p data-pid=\"tYnji-S8\"><br/> 平时要给汉化组挑选材料<sup data-text=\"如何和网友们一起愉快地合作翻译？我推荐 Paratranz + DeepL\" data-url=\"https://zhuanlan.zhihu.com/p/412325171\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，我就会先放到 LingQ 里读一遍，顺便还能积累单词，一举两得。 </p><p data-pid=\"I2ytwGsV\">同时由于是在阅读中记单词，相比单调的抽认卡，阅读更有乐趣，让我能够持续学习。 </p><p data-pid=\"mNTgvKrN\">我感觉这套流程其实和 SuperMemo 中的渐进阅读<sup data-text=\"渐进阅读\" data-url=\"https://www.yuque.com/supermemo/wiki/incremental_reading\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>异曲同工，都是在阅读中理解记忆，并在未来不断巩固，而且 LingQ 的单词背景色更方便我在不同上下文中复习。 </p><p data-pid=\"3AGxQDZy\">不过 LingQ 还是有一些缺点的，我这边简单罗列一下： </p><ul><li data-pid=\"TeUylifO\">上下文有时候会截取不全，而且无法自行修改 <br/><br/></li><li data-pid=\"gaCHIAMD\">一个单词只能一张卡片，对一词多义不友好 <br/><br/></li><li data-pid=\"P1gsax4S\">复习算法还是简陋了点，不过好在直观 <br/><br/></li><li data-pid=\"ktAkiN9G\">词组不能非连续选取，但很多搭配都是非连续的 <br/><br/></li><li data-pid=\"2MCmvhWy\">需要科学上网（据说是因为上面可以找外教交流）<br/><br/></li><li data-pid=\"xafQk6NG\">贵！半年订阅费 $71.99（感谢 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/3431283542f2aacaa4db5bc70e7d71ab\" data-hash=\"3431283542f2aacaa4db5bc70e7d71ab\" data-hovercard=\"p$b$3431283542f2aacaa4db5bc70e7d71ab\">@墨墨背单词</a> 报销的经费）<br/><br/> </li></ul><p data-pid=\"rVMdgmuI\">差不多就介绍到这里，如果有任何想法，欢迎在评论区讨论～ </p><h2>相关资源</h2><p data-pid=\"Ktwk1OKk\">LingQ 官网：<a href=\"https://link.zhihu.com/?target=https%3A//www.lingq.com/en/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Learn languages online: English, German, Russian, Japanese... - LingQ</a></p><p data-pid=\"5a9DU6SO\">LingL 介绍：<a href=\"https://zhuanlan.zhihu.com/p/449212898\" class=\"internal\">lingq 的开源现代替代品 - 知乎 (zhihu.com)</a> </p><p data-pid=\"Rw5Xngqa\">克拉申语言学习：<a href=\"https://link.zhihu.com/?target=http%3A//www.sdkrashen.com/content/books/principles_and_practice.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">principles_and_practice.pdf (sdkrashen.com)</a></p><p data-pid=\"d5hOJkFw\">例句法背单词：<a href=\"https://zhuanlan.zhihu.com/p/25866272\" class=\"internal\">我不是针对谁，我是说在座各位... - 知乎 (zhihu.com)</a></p><h2>附录</h2><h3>其他卡片样式</h3><figure data-size=\"small\"><img src=\"https://pic1.zhimg.com/v2-8f06b8a86bfa48d33d371da08119c672_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1734\" data-rawheight=\"1086\" class=\"origin_image zh-lightbox-thumb\" width=\"1734\" data-original=\"https://pic1.zhimg.com/v2-8f06b8a86bfa48d33d371da08119c672_r.jpg\" data-original-token=\"v2-8f06b8a86bfa48d33d371da08119c672\"/></figure><p data-pid=\"4HR9sujf\">从上往下分别为：</p><ul><li data-pid=\"LhX_Qzat\">单词 - 释义</li><li data-pid=\"bH75u1ZI\">释义 - 单词</li><li data-pid=\"2bV_4nz4\">原文挖空 - 选择对应填入的单词</li><li data-pid=\"LtejkArf\">单词/释义 - 选择对应的释义/单词</li><li data-pid=\"MoIp9frb\">发音 - 单词</li></ul><p data-pid=\"iIZ8MgGF\">前两种大家应该都很熟悉，就只展示一下后三种卡片：</p><figure data-size=\"small\"><img src=\"https://pic1.zhimg.com/v2-81e9641b2ee916ecc29868357b9bb04a_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"2104\" data-rawheight=\"1264\" class=\"origin_image zh-lightbox-thumb\" width=\"2104\" data-original=\"https://pic1.zhimg.com/v2-81e9641b2ee916ecc29868357b9bb04a_r.jpg\" data-original-token=\"v2-81e9641b2ee916ecc29868357b9bb04a\"/></figure><figure data-size=\"small\"><img src=\"https://pic1.zhimg.com/v2-92aff0d8ae329ac63f36ef8dadbe0e9e_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"2102\" data-rawheight=\"1236\" class=\"origin_image zh-lightbox-thumb\" width=\"2102\" data-original=\"https://pic1.zhimg.com/v2-92aff0d8ae329ac63f36ef8dadbe0e9e_r.jpg\" data-original-token=\"v2-92aff0d8ae329ac63f36ef8dadbe0e9e\"/></figure><figure data-size=\"small\"><img src=\"https://pic1.zhimg.com/v2-12d0fd9bb9b7c06fff0a084a646a0212_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"2008\" data-rawheight=\"1226\" class=\"origin_image zh-lightbox-thumb\" width=\"2008\" data-original=\"https://pic1.zhimg.com/v2-12d0fd9bb9b7c06fff0a084a646a0212_r.jpg\" data-original-token=\"v2-12d0fd9bb9b7c06fff0a084a646a0212\"/></figure><h3>手机端展示</h3><figure data-size=\"small\"><img src=\"https://pica.zhimg.com/v2-5b8e33d7ccfa56ef7bc012fe0f47692a_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"828\" data-rawheight=\"1792\" class=\"origin_image zh-lightbox-thumb\" width=\"828\" data-original=\"https://pica.zhimg.com/v2-5b8e33d7ccfa56ef7bc012fe0f47692a_r.jpg\" data-original-token=\"v2-5b8e33d7ccfa56ef7bc012fe0f47692a\"/></figure><figure data-size=\"small\"><img src=\"https://pica.zhimg.com/v2-ae17b1e9ccb68f788c8d814e8b0ec638_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"828\" data-rawheight=\"1792\" class=\"origin_image zh-lightbox-thumb\" width=\"828\" data-original=\"https://pica.zhimg.com/v2-ae17b1e9ccb68f788c8d814e8b0ec638_r.jpg\" data-original-token=\"v2-ae17b1e9ccb68f788c8d814e8b0ec638\"/></figure><figure data-size=\"small\"><img src=\"https://pica.zhimg.com/v2-964520e7aab80731e932532e40bb6b18_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"828\" data-rawheight=\"1792\" class=\"origin_image zh-lightbox-thumb\" width=\"828\" data-original=\"https://pica.zhimg.com/v2-964520e7aab80731e932532e40bb6b18_r.jpg\" data-original-token=\"v2-964520e7aab80731e932532e40bb6b18\"/></figure><h2>更新</h2><a href=\"https://www.zhihu.com/question/520956397/answer/2381545475\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-a2f13454e133059ba81c327d6759ade5_720w.jpg\" data-image-width=\"1576\" data-image-height=\"902\" class=\"internal\">LingQ有什么使用技巧？</a><p></p>",
-  "column": {
-    "updated": 1706022041,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/c_1280249768422608896",
-    "title": "学委叶哥的随笔",
-    "image_url": "https://pic1.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1280249768422608896"
-  },
-  "comment_count": 126,
-  "image_url": "https://picx.zhimg.com/v2-0a7ef610997813deaaf786f5c49edd92_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 83,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 83,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxODkyOTYxMjYSCTQ1NTI0NDI3NBgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 280,
+      "down_vote_count": 3,
+      "like_count": 83,
+      "comment_count": 129,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 705,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-0819618e4c935981b0128eb6700072a5": 0,
+        "v2-0a7ef610997813deaaf786f5c49edd92": 0,
+        "v2-12d0fd9bb9b7c06fff0a084a646a0212": 0,
+        "v2-30eafef33541a73ca272b4c024366166": 0,
+        "v2-4657d701913f7928988825d9f9565d5d": 0,
+        "v2-5b8e33d7ccfa56ef7bc012fe0f47692a": 0,
+        "v2-6cc179359e14c01a9c929410eab485c1": 1,
+        "v2-81e9641b2ee916ecc29868357b9bb04a": 1,
+        "v2-84d2dd36eb89b734db2701b31ce617de": 0,
+        "v2-8f06b8a86bfa48d33d371da08119c672": 0,
+        "v2-92aff0d8ae329ac63f36ef8dadbe0e9e": 0,
+        "v2-9746c809542f6c208cd07dcb53f050b1": 0,
+        "v2-ba9fb442f28789951a8cf352baf902b1": 0,
+        "v2-c10ddc40982e84b2c7d55fa7a4c2f30d": 0,
+        "v2-df76ca7fc48c0ff9c597981a5cb5fdcc": 0,
+        "v2-e0cb36628c776c9e555547b6eff0d92e": 0,
+        "v2-e76a3e3a48e5452364ad3376759df6a5": 1
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-0819618e4c935981b0128eb6700072a5": false,
+        "v2-0a7ef610997813deaaf786f5c49edd92": false,
+        "v2-12d0fd9bb9b7c06fff0a084a646a0212": false,
+        "v2-30eafef33541a73ca272b4c024366166": false,
+        "v2-4657d701913f7928988825d9f9565d5d": false,
+        "v2-5b8e33d7ccfa56ef7bc012fe0f47692a": false,
+        "v2-6cc179359e14c01a9c929410eab485c1": false,
+        "v2-81e9641b2ee916ecc29868357b9bb04a": false,
+        "v2-84d2dd36eb89b734db2701b31ce617de": false,
+        "v2-8f06b8a86bfa48d33d371da08119c672": false,
+        "v2-92aff0d8ae329ac63f36ef8dadbe0e9e": false,
+        "v2-9746c809542f6c208cd07dcb53f050b1": false,
+        "v2-ba9fb442f28789951a8cf352baf902b1": false,
+        "v2-c10ddc40982e84b2c7d55fa7a4c2f30d": false,
+        "v2-df76ca7fc48c0ff9c597981a5cb5fdcc": false,
+        "v2-e0cb36628c776c9e555547b6eff0d92e": false,
+        "v2-e76a3e3a48e5452364ad3376759df6a5": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-0819618e4c935981b0128eb6700072a5": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-0a7ef610997813deaaf786f5c49edd92": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-12d0fd9bb9b7c06fff0a084a646a0212": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-30eafef33541a73ca272b4c024366166": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-4657d701913f7928988825d9f9565d5d": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-5b8e33d7ccfa56ef7bc012fe0f47692a": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-6cc179359e14c01a9c929410eab485c1": {
+        "like_count": 1,
+        "is_liked": false
+      },
+      "v2-81e9641b2ee916ecc29868357b9bb04a": {
+        "like_count": 1,
+        "is_liked": false
+      },
+      "v2-84d2dd36eb89b734db2701b31ce617de": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-8f06b8a86bfa48d33d371da08119c672": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-92aff0d8ae329ac63f36ef8dadbe0e9e": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-9746c809542f6c208cd07dcb53f050b1": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-ba9fb442f28789951a8cf352baf902b1": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-c10ddc40982e84b2c7d55fa7a4c2f30d": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-df76ca7fc48c0ff9c597981a5cb5fdcc": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-e0cb36628c776c9e555547b6eff0d92e": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-e76a3e3a48e5452364ad3376759df6a5": {
+        "like_count": 1,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/5552635056?contentId=455244274&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 外语习得",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1537015147880669184",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 外语习得"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

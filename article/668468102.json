@@ -1,80 +1,419 @@
 {
-  "status": 0,
+  "id": "668468102",
+  "title": "3B2：输出问题排查",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/668468102",
+  "image_url": "https://picx.zhimg.com/v2-ad9410444c8009e2820980f0bc70960c_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-ad9410444c8009e2820980f0bc70960c_720w.jpg?source=172ae18b",
+  "excerpt": "返回目录：<a href=\"https://zhuanlan.zhihu.com/p/671671625\" class=\"internal\" target=\"_blank\">从 0 开始学外语：Refold 路线图（详细版）</a>如果输出对你来说是自然而然的事儿，那么你可能不需要这份指南。但若你在吸收了大量输入后，输出仍然步履维艰，那这份指南将为你提供一个框架，帮助你思考可能面临的问题以及解决方案。 从根本上说，几…",
+  "created": 1700789830,
   "updated": 1702346995,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://pic1.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://pic1.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "返回目录：从 0 开始学外语：Refold 路线图（详细版） 如果输出对你来说是自然而然的…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 2160,
+  "image_height": 1216,
+  "content": "<blockquote data-pid=\"WcCJ2BKH\">返回目录：<a href=\"https://zhuanlan.zhihu.com/p/671671625\" class=\"internal\" target=\"_blank\">从 0 开始学外语：Refold 路线图（详细版）</a></blockquote><p data-pid=\"T3ZOzMb9\">如果输出对你来说是自然而然的事儿，那么你可能不需要这份指南。但若你在吸收了大量输入后，输出仍然步履维艰，那这份指南将为你提供一个框架，帮助你思考可能面临的问题以及解决方案。</p><p data-pid=\"ziDAfMQa\">从根本上说，几乎所有输出问题都能通过增加输入来解决。</p><h2>激活的各个阶段</h2><p data-pid=\"lc2uZ0n0\">正如 <a href=\"https://link.zhihu.com/?target=https%3A//refold.la/roadmap/stage-3/b/language-activation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">3B：语言激活</a><sup data-text=\"3B1：语言激活\" data-url=\"https://zhuanlan.zhihu.com/p/668072036\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>所述，语言在激活过程中经历了三个阶段：</p><ol><li data-pid=\"YzIhwe4h\"><b>习得</b>：此时你正在构建语言的内在认知模型。<br/> </li><li data-pid=\"rv7eT6Zh\"><b>可用</b>：习得的语言开始浮现在你的脑中。<br/> </li><li data-pid=\"ULtLDe6O\"><b>激活</b>：你开始把纯粹的想法与脑海中的语言连接起来。<br/> </li></ol><p data-pid=\"sjfuRLWc\">你的目标是要让目标语言完全习得、随时可用、彻底激活。这样你就能立刻、不假思索地生成你知道是正确的输出。</p><p data-pid=\"AhQcozyr\">如果你在输出上遇到困难，可能是因为这三个阶段中的某个环节出了问题。</p><h2>理想情况</h2><p data-pid=\"ekTxXCIx\">你已经完全习得了一部分语言，并且随时可用。但之前你从未尝试输出过这些语言。</p><p data-pid=\"jFlToHmu\">每当你第一次尝试输出某个词语或短语时，都会有一些犹豫。一旦你输出过这个短语一两次，它就会被完全激活，犹豫也随之消失。</p><h2>可用性问题</h2><p data-pid=\"vh7C21Na\">你可能已经完全习得了某个语言知识（即你在沉浸学习中能轻松识别和理解），但并不意味着它随时都可用于输出。</p><h3>部分可用</h3><p data-pid=\"lZ2d5Tyf\">部分可用的语言有三种情况：</p><p data-pid=\"QqXK00AI\">1. <b>不完整</b>：脑海中浮现某些短语，但不足以完整表达你的意思。比如，你想到了个名词，却想不起与之相配的动词。</p><p data-pid=\"Rpl13on5\">2. <b>不确定</b>：脑中出现了某个词，但你对它不太确定。虽然拼图似乎能拼在一起，但总感觉有点不对劲。</p><p data-pid=\"SabuV-KC\">3. <b>目标语言冲突</b>：脑中同时出现两个不同的表达方式，你不确定哪个是对的。</p><p data-pid=\"J59lCr_f\">在这三种情况下，你只需要更多地接触这个词汇或语言模式，就能建立起自己使用它的能力。请记得在沉浸学习中留意这类模式。你也可以尝试当场谷歌或找母语者确认。</p><p data-pid=\"1NFfMPFz\">想了解更多，可参阅 <a href=\"https://link.zhihu.com/?target=https%3A//refold.la/roadmap/stage-3/b/language-activation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">3B：语言激活</a><sup data-text=\"3B1：语言激活\" data-url=\"https://zhuanlan.zhihu.com/p/668072036\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>中《确认》一节的说明。</p><h3>母语冲突</h3><p data-pid=\"34FKEH6x\">在语言输出时最常见的错误之一，是人们倾向于从母语翻译到目标语言，而不是用目标语言自然的表达方式。</p><p data-pid=\"U30uqFjP\">这就像我们之前提到的纸鹤比喻，意味着你又回到了母语的折痕。正如我们在 <a href=\"https://link.zhihu.com/?target=https%3A//refold.la/roadmap/stage-2/b/casual-monolingual-transition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">2B：自然单语过渡</a><sup data-text=\"2B3：自然单语过渡\" data-url=\"https://zhuanlan.zhihu.com/p/663375434\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>中所讲的那样，每种语言都有其特有的看待世界的方式。想要用目标语言自然地表达，你需要理解并接受这种语言的世界观。</p><p data-pid=\"wQ66dIXR\">大多数情况下，你实际上已经习得了所需的语言，只是需要转变你的思维方式。解决这个问题的关键在于提出正确的问题。不是去问「我该怎么说？」，而是要思考「一个母语者在这种情况下会怎么说？」。这样微妙地转变问题的角度，往往能激发你的潜意识输出完全不同的结果。</p><h3>不可用</h3><p data-pid=\"W4sFzXIj\">有时候，即使你已经完全习得了某个语言知识，但当你需要用到它的时候，它却不会自然地浮现在你的脑海中。你觉得自己知道该怎么表达，却怎么也想不起来。</p><p data-pid=\"z5QMvy3t\">你的大脑会自动记录这些令人挫败的瞬间，并对它们变得更加敏感，以便在你的沉浸学习中留意到它们。由于<a href=\"https://link.zhihu.com/?target=https%3A//refold.la/roadmap/stage-0/c/active-study%23Priming\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">频率错觉</a>，你可能会发现这种情形似乎无处不在。</p><p data-pid=\"_yaQsIjs\">只要是你已经习得的内容，下次再遇到时，你通常会有一个尤里卡（eureka）的时刻，那时这个语言表达就会在你下次输出的时候变得可用。</p><p data-pid=\"rcl4Oopb\">你也可以有意识地通过谷歌搜索这个表达。但是，如果你对搜到的答案感觉陌生，那就意味着你还未真正习得它，你应该避免在对话中使用它。</p><h2>习得问题</h2><h3>部分习得</h3><p data-pid=\"cKXWWD6B\">如果你在沉浸学习中能识别并理解某个词汇或短语，但还需要付出一定的脑力劳动，那么你可能还没有完全习得它。当你试图在输出中使用这样的短语时，最初可能会感觉像是可用性问题。</p><p data-pid=\"te0HLYIz\">要判断这是可用性问题还是习得问题，可以使用谷歌搜索或询问母语者来确认短语的正确用法。如果正确的表达在你脑海里感觉既熟悉又清晰，那么这是一个可用性问题。如果感觉不太熟悉，或者意义不够明确，那么就是习得问题。</p><p data-pid=\"bO-o8Wxn\">解决习得问题需要的是更多的沉浸学习。在这种情况下，频率错觉会让你在沉浸中更频繁地注意到这个词汇或短语，帮助你完全习得它。</p><p data-pid=\"OEOj5lMp\">在你能够在沉浸中观察到其正确用法之前，尽量避免使用这些未习得的语言。</p><h3>部分习得——语法</h3><p data-pid=\"I8Yq5q7M\">如果你在理解某种特定语法形式时没有问题，但在输出中反复遇到困难，这表明你还没有完全习得这种语法。</p><p data-pid=\"jl1HuKMQ\"><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Comprehensible_output\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">可理解输出假说</a>认为，在输入过程中，你可能不会总是注意到语言的具体语法或句法，因为这些对理解来说并不必要。当你试图在输出中使用尚未习得的语法时，你会遇到困难。这种困难会提示你的大脑在沉浸中寻找该语法的示例，以便更快地习得它。</p><p data-pid=\"Ywhyg3X9\">通常情况下，我们建议在你完全习得这种语法前，避免使用它。不幸的是，这可能做不到。许多语法形式是日常输出所必需的，即使你还没有习得它们，你也需要使用它们。</p><p data-pid=\"R0t2ENcy\">只有在这唯一一种情况下，我们会建议在输出时进行有意识的监控。如果你无法避免这种错误，那就得有意识地学习正确用法，在输出时仔细检查自己的使用是否正确。随着时间的推移，你会习得这些语法，不再需要自我监控。</p><h3>未习得</h3><p data-pid=\"l-SZJ3jR\">如果你还没学会理解某个领域，自然就无法用语言表达这个领域的事物。</p><p data-pid=\"3jfJMlML\">如果你不知道如何表达某事，那就不要强行尝试。说一些你有把握的话。不要试图使用高深的词汇、复杂的概念，或你还没学会如何理解的领域。</p><p data-pid=\"vWM5RrGT\">记住，你当前的目标是精通日常对话这个领域。不要企图在物理学或政治学上写论文。</p><p data-pid=\"giwP1saW\">对于自己知识上的缺口，不必自责。一旦你精通了第一个领域，向其他领域扩展就会变得更加简单。在阶段 4，你将开始攻克新领域。</p><p class=\"ztext-empty-paragraph\"><br/></p><hr/><p data-pid=\"kQae7y2c\">上一篇：<a href=\"https://zhuanlan.zhihu.com/p/668072036\" class=\"internal\" target=\"_blank\">3B1：语言激活</a></p><p data-pid=\"oo4CTxRG\">下一篇：<a href=\"https://zhuanlan.zhihu.com/p/668913799\" class=\"internal\" target=\"_blank\">3B3：发音训练</a></p><hr/><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"Yhr41D3u\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//refold.la/roadmap/stage-3/b/output-troubleshooting\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Output Troubleshooting | Refold</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19585374",
+      "type": "topic",
+      "id": "19585374",
+      "name": "语言学习"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19581105",
+      "type": "topic",
+      "id": "19581105",
+      "name": "外语学习"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19558435",
+      "type": "topic",
+      "id": "19558435",
+      "name": "英语学习"
+    }
+  ],
+  "voteup_count": 22,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "你并不需要刻意记住语言，而是要去熟悉语言",
+    "is_following": false,
+    "url_token": "c_1537015147880669184",
+    "id": "c_1537015147880669184",
+    "articles_count": 82,
+    "accept_submission": false,
+    "title": "外语习得",
+    "url": "https://api.zhihu.com/columns/c_1537015147880669184",
+    "comment_permission": "all",
+    "created": 1659232967,
+    "updated": 1751811168,
+    "image_url": "https://pica.zhimg.com/v2-9e674c4fb024a1226e2d46e314d3ca5f_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 840,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 0,
+  "contributions": [
+    {
+      "id": 47165464,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "你并不需要刻意记住语言，而是要去熟悉语言",
+        "is_following": false,
+        "url_token": "c_1537015147880669184",
+        "id": "c_1537015147880669184",
+        "articles_count": 82,
+        "accept_submission": false,
+        "title": "外语习得",
+        "url": "https://api.zhihu.com/columns/c_1537015147880669184",
+        "comment_permission": "all",
+        "created": 1659232967,
+        "updated": 1751811168,
+        "image_url": "https://pica.zhimg.com/v2-9e674c4fb024a1226e2d46e314d3ca5f_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 840,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 668468102,
-  "voteup_count": 20,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 14,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "3B2：输出问题排查 - 来自知乎专栏「外语习得」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/668468102 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1700789830,
-  "url": "https://api.zhihu.com/articles/668468102",
-  "comment_permission": "all",
-  "title": "3B2：输出问题排查",
-  "image_width": 1216,
-  "content": "<blockquote data-pid=\"WcCJ2BKH\">返回目录：<a href=\"https://zhuanlan.zhihu.com/p/671671625\" class=\"internal\">从 0 开始学外语：Refold 路线图（详细版）</a></blockquote><p data-pid=\"T3ZOzMb9\">如果输出对你来说是自然而然的事儿，那么你可能不需要这份指南。但若你在吸收了大量输入后，输出仍然步履维艰，那这份指南将为你提供一个框架，帮助你思考可能面临的问题以及解决方案。</p><p data-pid=\"ziDAfMQa\">从根本上说，几乎所有输出问题都能通过增加输入来解决。</p><h2>激活的各个阶段</h2><p data-pid=\"lc2uZ0n0\">正如 <a href=\"https://link.zhihu.com/?target=https%3A//refold.la/roadmap/stage-3/b/language-activation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">3B：语言激活</a><sup data-text=\"3B1：语言激活\" data-url=\"https://zhuanlan.zhihu.com/p/668072036\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>所述，语言在激活过程中经历了三个阶段：</p><ol><li data-pid=\"YzIhwe4h\"><b>习得</b>：此时你正在构建语言的内在认知模型。<br/> </li><li data-pid=\"rv7eT6Zh\"><b>可用</b>：习得的语言开始浮现在你的脑中。<br/> </li><li data-pid=\"ULtLDe6O\"><b>激活</b>：你开始把纯粹的想法与脑海中的语言连接起来。<br/> </li></ol><p data-pid=\"sjfuRLWc\">你的目标是要让目标语言完全习得、随时可用、彻底激活。这样你就能立刻、不假思索地生成你知道是正确的输出。</p><p data-pid=\"AhQcozyr\">如果你在输出上遇到困难，可能是因为这三个阶段中的某个环节出了问题。</p><h2>理想情况</h2><p data-pid=\"ekTxXCIx\">你已经完全习得了一部分语言，并且随时可用。但之前你从未尝试输出过这些语言。</p><p data-pid=\"jFlToHmu\">每当你第一次尝试输出某个词语或短语时，都会有一些犹豫。一旦你输出过这个短语一两次，它就会被完全激活，犹豫也随之消失。</p><h2>可用性问题</h2><p data-pid=\"vh7C21Na\">你可能已经完全习得了某个语言知识（即你在沉浸学习中能轻松识别和理解），但并不意味着它随时都可用于输出。</p><h3>部分可用</h3><p data-pid=\"lZ2d5Tyf\">部分可用的语言有三种情况：</p><p data-pid=\"QqXK00AI\">1. <b>不完整</b>：脑海中浮现某些短语，但不足以完整表达你的意思。比如，你想到了个名词，却想不起与之相配的动词。</p><p data-pid=\"Rpl13on5\">2. <b>不确定</b>：脑中出现了某个词，但你对它不太确定。虽然拼图似乎能拼在一起，但总感觉有点不对劲。</p><p data-pid=\"SabuV-KC\">3. <b>目标语言冲突</b>：脑中同时出现两个不同的表达方式，你不确定哪个是对的。</p><p data-pid=\"J59lCr_f\">在这三种情况下，你只需要更多地接触这个词汇或语言模式，就能建立起自己使用它的能力。请记得在沉浸学习中留意这类模式。你也可以尝试当场谷歌或找母语者确认。</p><p data-pid=\"1NFfMPFz\">想了解更多，可参阅 <a href=\"https://link.zhihu.com/?target=https%3A//refold.la/roadmap/stage-3/b/language-activation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">3B：语言激活</a><sup data-text=\"3B1：语言激活\" data-url=\"https://zhuanlan.zhihu.com/p/668072036\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>中《确认》一节的说明。</p><h3>母语冲突</h3><p data-pid=\"34FKEH6x\">在语言输出时最常见的错误之一，是人们倾向于从母语翻译到目标语言，而不是用目标语言自然的表达方式。</p><p data-pid=\"U30uqFjP\">这就像我们之前提到的纸鹤比喻，意味着你又回到了母语的折痕。正如我们在 <a href=\"https://link.zhihu.com/?target=https%3A//refold.la/roadmap/stage-2/b/casual-monolingual-transition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">2B：自然单语过渡</a><sup data-text=\"2B3：自然单语过渡\" data-url=\"https://zhuanlan.zhihu.com/p/663375434\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>中所讲的那样，每种语言都有其特有的看待世界的方式。想要用目标语言自然地表达，你需要理解并接受这种语言的世界观。</p><p data-pid=\"wQ66dIXR\">大多数情况下，你实际上已经习得了所需的语言，只是需要转变你的思维方式。解决这个问题的关键在于提出正确的问题。不是去问「我该怎么说？」，而是要思考「一个母语者在这种情况下会怎么说？」。这样微妙地转变问题的角度，往往能激发你的潜意识输出完全不同的结果。</p><h3>不可用</h3><p data-pid=\"W4sFzXIj\">有时候，即使你已经完全习得了某个语言知识，但当你需要用到它的时候，它却不会自然地浮现在你的脑海中。你觉得自己知道该怎么表达，却怎么也想不起来。</p><p data-pid=\"z5QMvy3t\">你的大脑会自动记录这些令人挫败的瞬间，并对它们变得更加敏感，以便在你的沉浸学习中留意到它们。由于<a href=\"https://link.zhihu.com/?target=https%3A//refold.la/roadmap/stage-0/c/active-study%23Priming\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">频率错觉</a>，你可能会发现这种情形似乎无处不在。</p><p data-pid=\"_yaQsIjs\">只要是你已经习得的内容，下次再遇到时，你通常会有一个尤里卡（eureka）的时刻，那时这个语言表达就会在你下次输出的时候变得可用。</p><p data-pid=\"rcl4Oopb\">你也可以有意识地通过谷歌搜索这个表达。但是，如果你对搜到的答案感觉陌生，那就意味着你还未真正习得它，你应该避免在对话中使用它。</p><h2>习得问题</h2><h3>部分习得</h3><p data-pid=\"cKXWWD6B\">如果你在沉浸学习中能识别并理解某个词汇或短语，但还需要付出一定的脑力劳动，那么你可能还没有完全习得它。当你试图在输出中使用这样的短语时，最初可能会感觉像是可用性问题。</p><p data-pid=\"te0HLYIz\">要判断这是可用性问题还是习得问题，可以使用谷歌搜索或询问母语者来确认短语的正确用法。如果正确的表达在你脑海里感觉既熟悉又清晰，那么这是一个可用性问题。如果感觉不太熟悉，或者意义不够明确，那么就是习得问题。</p><p data-pid=\"bO-o8Wxn\">解决习得问题需要的是更多的沉浸学习。在这种情况下，频率错觉会让你在沉浸中更频繁地注意到这个词汇或短语，帮助你完全习得它。</p><p data-pid=\"OEOj5lMp\">在你能够在沉浸中观察到其正确用法之前，尽量避免使用这些未习得的语言。</p><h3>部分习得——语法</h3><p data-pid=\"I8Yq5q7M\">如果你在理解某种特定语法形式时没有问题，但在输出中反复遇到困难，这表明你还没有完全习得这种语法。</p><p data-pid=\"jl1HuKMQ\"><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Comprehensible_output\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">可理解输出假说</a>认为，在输入过程中，你可能不会总是注意到语言的具体语法或句法，因为这些对理解来说并不必要。当你试图在输出中使用尚未习得的语法时，你会遇到困难。这种困难会提示你的大脑在沉浸中寻找该语法的示例，以便更快地习得它。</p><p data-pid=\"Ywhyg3X9\">通常情况下，我们建议在你完全习得这种语法前，避免使用它。不幸的是，这可能做不到。许多语法形式是日常输出所必需的，即使你还没有习得它们，你也需要使用它们。</p><p data-pid=\"R0t2ENcy\">只有在这唯一一种情况下，我们会建议在输出时进行有意识的监控。如果你无法避免这种错误，那就得有意识地学习正确用法，在输出时仔细检查自己的使用是否正确。随着时间的推移，你会习得这些语法，不再需要自我监控。</p><h3>未习得</h3><p data-pid=\"l-SZJ3jR\">如果你还没学会理解某个领域，自然就无法用语言表达这个领域的事物。</p><p data-pid=\"3jfJMlML\">如果你不知道如何表达某事，那就不要强行尝试。说一些你有把握的话。不要试图使用高深的词汇、复杂的概念，或你还没学会如何理解的领域。</p><p data-pid=\"vWM5RrGT\">记住，你当前的目标是精通日常对话这个领域。不要企图在物理学或政治学上写论文。</p><p data-pid=\"giwP1saW\">对于自己知识上的缺口，不必自责。一旦你精通了第一个领域，向其他领域扩展就会变得更加简单。在阶段 4，你将开始攻克新领域。</p><p class=\"ztext-empty-paragraph\"><br/></p><hr/><p data-pid=\"kQae7y2c\">上一篇：<a href=\"https://zhuanlan.zhihu.com/p/668072036\" class=\"internal\">3B1：语言激活</a></p><p data-pid=\"oo4CTxRG\">下一篇：<a href=\"https://zhuanlan.zhihu.com/p/668913799\" class=\"internal\">3B3：发音训练</a></p><hr/><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"Yhr41D3u\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//refold.la/roadmap/stage-3/b/output-troubleshooting\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Output Troubleshooting | Refold</a></blockquote>",
-  "column": {
-    "updated": 1659232967,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/c_1537015147880669184",
-    "title": "外语习得",
-    "image_url": "https://pic1.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1537015147880669184"
-  },
-  "comment_count": 0,
-  "image_url": "https://pic1.zhimg.com/v2-ad9410444c8009e2820980f0bc70960c_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 5,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 5,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMzY2Nzg2NzkSCTY2ODQ2ODEwMhgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 22,
+      "down_vote_count": 0,
+      "like_count": 5,
+      "comment_count": 0,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 14,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-ad9410444c8009e2820980f0bc70960c": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-ad9410444c8009e2820980f0bc70960c": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-ad9410444c8009e2820980f0bc70960c": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=668468102&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 外语习得",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1537015147880669184",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 外语习得"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

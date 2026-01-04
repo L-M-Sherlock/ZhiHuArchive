@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,9 +37,10 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 0,
   "content": "<p data-pid=\"F-CNR1fJ\">这个是历史遗留问题了，修改一下模板即可。</p><p data-pid=\"UdYp2L4Q\">打开模板，你可能会看到</p><p data-pid=\"zOsfA1AY\">{{=&lt;% %&gt;=}}</p><p data-pid=\"T2DvqeDn\">和</p><p data-pid=\"fy7jT5NK\">&lt;%问题%&gt;</p><p data-pid=\"vJaRVCID\">我们只需要把 {{=&lt;% %&gt;=}} 改成 {{问题}}，并把 &lt;%问题%&gt; 删掉即可。对于有多个 {{=&lt;% %&gt;=}} 和 &lt;%XX%&gt;，请逐个替换为 {{XX}}。</p><p data-pid=\"cbhww8A3\">你问为啥我知道？看 Anki 手册吧：</p><h3><a href=\"https://link.zhihu.com/?target=https%3A//docs.ankiweb.net/%23/math%3Fid%3Dtemplate-conflicts\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Template Conflicts</a></h3><p data-pid=\"X3kdes91\">As of Anki 2.1.20 / AnkiMobile 2.0.56, this workaround is no longer required, as <code>{{field}}</code> text inside fields no longer causes problems. If you need to support AnkiDroid or older Anki versions and want to keep using this syntax, please make sure you place the <code>{{=&lt;% %&gt;=}}</code> string at the very top of your front and back template, as recent Anki versions will not recognize it anywhere but the start.</p><p data-pid=\"pY0EoNx3\">For older versions:</p><p data-pid=\"wt5Gd7Pi\">It’s not uncommon for {{ and }} to pop up in LaTeX code when writing mathematical equations. To ensure that your LaTeX equations don’t conflict with Anki’s field replacements, it’s possible to change the separator to something else.</p><p data-pid=\"gEpNP-xt\">For example, if you have a template:</p><div class=\"highlight\"><pre><code class=\"language-cfm\">{{latex field}}</code></pre></div><p data-pid=\"bDl66MAL\">Changing it to the following will make it unlikely that the LaTeX will conflict:</p><div class=\"highlight\"><pre><code class=\"language-text\">{{=&lt;% %&gt;=}}\n&lt;%latex field%&gt;</code></pre></div><p></p>",
   "content_need_truncated": false,
   "created_time": 1597596413,
   "excerpt": "这个是历史遗留问题了，修改一下模板即可。 打开模板，你可能会看到 {{=&lt;% %&gt;=}} 和 &lt;%问题%&gt; 我们只需要把 {{=&lt;% %&gt;=}} 改成 {{问题}}，并把 &lt;%问题%&gt; 删掉即可。对于有多个 {{=&lt;% %&gt;=}} 和 &lt;%XX%&gt;，请逐个替换为 {{XX}}。 你问为啥我知道？看 Anki 手册吧： Template Conflicts As of Anki 2.1.20 / AnkiMobile 2.0.56, this workaround is no longer required, as {{field}} text inside fields no longer causes problems. If…",
-  "id": 1413571089,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1413571089",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": false,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1413571089&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1585823013,
-    "detail": "<p></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-12f9d4b41dbf913c6f2912d59b53e6c7_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"1558\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic4.zhimg.com/v2-12f9d4b41dbf913c6f2912d59b53e6c7_r.jpg\"/></figure><p>更新了最新版的2.1.22版本之后，卡片上是 &lt;%问题%&gt;，</p><p>打开牌组</p><p>Front template has a problem:</p><p>Found &#39;⁨{{=&lt;% %&gt;=}}⁩&#39;, but there is no field called &#39;⁨=&lt;% %&gt;=⁩&#39;</p><p>怎么办呀！！！！！</p>",
-    "id": 384610916,
+    "detail": "<p></p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-12f9d4b41dbf913c6f2912d59b53e6c7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"1558\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic4.zhimg.com/v2-12f9d4b41dbf913c6f2912d59b53e6c7_r.jpg\"/></figure><p>更新了最新版的2.1.22版本之后，卡片上是 &lt;%问题%&gt;，</p><p>打开牌组</p><p>Front template has a problem:</p><p>Found &#39;⁨{{=&lt;% %&gt;=}}⁩&#39;, but there is no field called &#39;⁨=&lt;% %&gt;=⁩&#39;</p><p>怎么办呀！！！！！</p>",
+    "id": "384610916",
     "question_type": "normal",
     "relationship": {},
     "title": "Anki 提示 Front template has a problem，怎么办呀？",
     "type": "question",
     "updated_time": 1597627717,
-    "url": "https://api.zhihu.com/questions/384610916"
+    "url": "https://www.zhihu.com/api/v4/questions/384610916"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 8
+  "updated_time": 1597596413,
+  "url": "https://www.zhihu.com/api/v4/answers/1413571089",
+  "voteup_count": 9
 }

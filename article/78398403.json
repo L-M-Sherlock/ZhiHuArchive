@@ -1,80 +1,509 @@
 {
-  "status": 0,
+  "id": "78398403",
+  "title": "【硬核】参数模拟——每天 40 张新卡片，365 天后我要复习多少？",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/78398403",
+  "image_url": "https://pic1.zhimg.com/v2-8fd199975dad37526725da7ddfc4f381_r.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-8fd199975dad37526725da7ddfc4f381_r.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://pic2.zhimg.com/v2-8f80f5d5f25bb1ae3b1de1adf7c84001_200x112.jpeg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1002\" data-rawheight=\"904\" data-watermark=\"watermark\" data-original-src=\"v2-8f80f5d5f25bb1ae3b1de1adf7c84001\" data-watermark-src=\"v2-abc6a4b68be6531d18092e8d74954871\" data-private-watermark-src=\"\" class=\"origin_image inline-img zh-lightbox-thumb\" data-original=\"https://pic2.zhimg.com/v2-8f80f5d5f25bb1ae3b1de1adf7c84001_r.jpeg\"/>本文的得力助手： <a href=\"https://link.zhihu.com/?target=https%3A//pheartheceal.github.io/anki-optimizer/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anki Optimizer and Simulator</a>每天 40 张新卡片，365 天后能学 14600 个知识点，是不是很心动？我也是这么过来的，但是这里有个大坑在我长期使用 Anki 后被发现了！ 先从最常见的情况入手不修改 Anki 的默认参数每天的保留率是 90%（理论…",
+  "created": 1566017011,
   "updated": 1596537991,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": true,
-  "excerpt": "本文的得力助手：Anki Optimizer and Simulator 每天 40 张新卡片，365 天后能学 146…",
-  "tipjarors_count": 1,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 1822,
+  "image_height": 733,
+  "content": "<p data-pid=\"cZIkvpi4\">本文的得力助手：</p><a href=\"https://link.zhihu.com/?target=https%3A//pheartheceal.github.io/anki-optimizer/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anki Optimizer and Simulator</a><hr/><p data-pid=\"iVdrs5II\">每天 40 张新卡片，365 天后能学 14600 个知识点，是不是很心动？我也是这么过来的，但是这里有个大坑在我长期使用 Anki 后被发现了！</p><h2>先从最常见的情况入手</h2><ul><li data-pid=\"ur9LjoLV\">不修改 Anki 的默认参数</li><li data-pid=\"7otmHG1z\">每天的保留率是 90%（理论值）</li><li data-pid=\"3nKMSjKz\">只点【重来】和【一般】</li></ul><p data-pid=\"h2iwPYkD\">好，输入数据：</p><figure data-size=\"small\"><img src=\"https://pic2.zhimg.com/v2-abc6a4b68be6531d18092e8d74954871_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1002\" data-rawheight=\"904\" data-original-token=\"v2-8f80f5d5f25bb1ae3b1de1adf7c84001\" class=\"origin_image zh-lightbox-thumb\" width=\"1002\" data-original=\"https://pic2.zhimg.com/v2-abc6a4b68be6531d18092e8d74954871_r.jpg\"/></figure><p data-pid=\"TqOQ1v46\">等待结果……</p><p data-pid=\"mXWg86Am\">叮！好了：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-4163050355df26e02b78bccfc0cffead_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1825\" data-rawheight=\"732\" data-original-token=\"v2-91847aae13295353767c41662bc3d69c\" class=\"origin_image zh-lightbox-thumb\" width=\"1825\" data-original=\"https://pic2.zhimg.com/v2-4163050355df26e02b78bccfc0cffead_r.jpg\"/></figure><p data-pid=\"5xkaywMN\">这跟我当时情况有些偏差（统计记录在这篇文章里：<a href=\"https://zhuanlan.zhihu.com/p/35390139\" class=\"internal\" target=\"_blank\">简单「Anki」高考制卡心得</a>），当时正值我使用 Anki 满一年，学了 14231 张卡片，平均每天 39 张，熟悉卡片的保留率在 92%。我复习卡片数量最多的时候是 608 张/天：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-b71c190e0c9660c772ed9e018af57993_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1281\" data-rawheight=\"342\" data-original-token=\"v2-9d848ca945faf8a206be74c478f039d2\" class=\"origin_image zh-lightbox-thumb\" width=\"1281\" data-original=\"https://pic4.zhimg.com/v2-b71c190e0c9660c772ed9e018af57993_r.jpg\"/></figure><p data-pid=\"Z7KofxNs\">比模拟（reviews per day max ）的 700 张少 13%，我觉得这个模拟还是较为准确的（毕竟当时我经常按【简单】）。</p><blockquote data-pid=\"JgAlRo1n\">注：该模拟器有随机性，所以相同参数的结果会有不同，不过还是会在一个范围内浮动（ 660~770 ，大部分数据落在 690~730）</blockquote><p data-pid=\"qMmKN7xD\">那个时候我的刷卡片速度有多快呢？</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-e26b5c35f04d90abc536b7dbf15b5a07_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"414\" data-rawheight=\"168\" data-original-token=\"v2-5d1b5de62f45aedb3920d5446a76692d\" class=\"content_image\" width=\"414\"/></figure><p data-pid=\"kmFZdy5u\">以这个速度刷 600 张卡片大概要 68 分钟，刷 700 张得要 80 分钟。当然，回报也是丰厚的：14600 * 90% = 13140，也就是我们记住了 13140 张卡片上的知识！</p><p data-pid=\"WQHlgnZq\">负担会不会太重？性价比会不会太低？这取决于你！别忘了 Anki 能通过算法来适应每个人的情况，这是 Anki 为什么有那么多设置可以自定义的原因。</p><p data-pid=\"tGzAjQVX\">接下来我来为大家调整一下参数，看看复习量怎么变化：</p><h2>加倍间隔，牺牲保留率</h2><ul><li data-pid=\"2aufAdUO\">间隔修饰符调整到 200%</li><li data-pid=\"KttHqpw2\">预期保留率下降到 80%（理论上）</li></ul><figure data-size=\"small\"><img src=\"https://picx.zhimg.com/v2-79c412054f315584b92145bf8f0ac30d_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1002\" data-rawheight=\"910\" data-original-token=\"v2-8748939668b1e801c40259f689039e2a\" class=\"origin_image zh-lightbox-thumb\" width=\"1002\" data-original=\"https://picx.zhimg.com/v2-79c412054f315584b92145bf8f0ac30d_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-9a9a6b061ed4de19785601c33c99994f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1822\" data-rawheight=\"733\" data-original-token=\"v2-8fd199975dad37526725da7ddfc4f381\" class=\"origin_image zh-lightbox-thumb\" width=\"1822\" data-original=\"https://pic2.zhimg.com/v2-9a9a6b061ed4de19785601c33c99994f_r.jpg\"/></figure><p data-pid=\"yf9IWfL6\">哇！负担不到之前的一半了！虽然保留率只有 81%，14600 * 81% =  11826。</p><p data-pid=\"lHa1-vcl\">当然，这里大家可能会有疑问：继续扩大间隔是不是能进一步减小负担呢？</p><p data-pid=\"oM85T2nN\">答案显然是否定的，因为保留率会进一步下降，从而使每天【重来】的卡片数量增加，这些卡片的简易度会下降，也就是说间隔会缩小，导致每天要复习的卡片不降反升。</p><p data-pid=\"A-IQe_JJ\">那么最优的参数是多少呢？我用模拟器一个一个参数测试，发现 121% 的间隔修饰符最优：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-59a6016655f82379ae5cb040b5df9f0a_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1822\" data-rawheight=\"733\" data-original-token=\"v2-41f2b4ab2547b0667eb5cc04b4a4f8dc\" class=\"origin_image zh-lightbox-thumb\" width=\"1822\" data-original=\"https://pica.zhimg.com/v2-59a6016655f82379ae5cb040b5df9f0a_r.jpg\"/></figure><p data-pid=\"i-PcwJhK\">最大复习量在 360 至 380 之间，保留率理论值为 88%（用 2% 的保留率下降换来 50% 的减负，还不错）</p><p data-pid=\"sF_55sjt\">间隔修饰符的优化就讲到这里，接下来我们讲讲【新间隔(Failure Penalty)】</p><figure data-size=\"small\"><img src=\"https://pic2.zhimg.com/v2-9aa23c580d71fdfd8e33ce3990c4e79f_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"840\" data-rawheight=\"636\" data-original-token=\"v2-f634e3b4456e28674e4451fbfffdb29e\" class=\"origin_image zh-lightbox-thumb\" width=\"840\" data-original=\"https://pic2.zhimg.com/v2-9aa23c580d71fdfd8e33ce3990c4e79f_r.jpg\"/></figure><h2>新间隔参数介绍</h2><p data-pid=\"fSAEg9Pk\">【新间隔】参数从属于【失误次数】这一菜单，表明了它和【重来】息息相关。</p><p data-pid=\"OGhEyiXN\">在默认情况下，一旦我们按了【重来】，卡片的间隔就会归零，并且后续的间隔会比新卡片更短。为什么呢？</p><p data-pid=\"B4Bq0tna\">因为当我们点下【重来】时，卡片的【间隔】就是【上次的间隔】*【新间隔】，而【新间隔】默认为 0%，所以乘起来就是 0，而且卡片的【简易度】（实际被翻译为难度系数，下文都用简易度代替）还会下降 20%，如下图：</p><figure data-size=\"small\"><img src=\"https://pic2.zhimg.com/v2-13df5b20b8d5a39149efb4367f1b33c5_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"882\" data-rawheight=\"448\" data-original-token=\"v2-860f8df79fd97ce44783cd231278a058\" class=\"origin_image zh-lightbox-thumb\" width=\"882\" data-original=\"https://pic2.zhimg.com/v2-13df5b20b8d5a39149efb4367f1b33c5_r.jpg\"/></figure><p data-pid=\"Z0VdTaaj\">评分 1 就是【重来】，从上图可知其【简易度】从 280% 下降到了 260%，【间隔】从 1.4 个月直接变成 1 天（指的是【重新学习】后的【间隔】）</p><p data-pid=\"evkI91lc\">假设我将【新间隔】改为 10%，那么【重新学习】后的【间隔】就会变成 1.4 个月 * 10% = 4.2 天，Anki 取整后为 4 天，这样这张卡片就不会堆积太久（因为下一次你遇到它并选择【一般】时，新间隔为 4.2 天 * 230% = 9.66天，取整为 9 天。而不是 1 天 * 230% = 2.3 天，取整为 2 天）</p><p data-pid=\"ATb5cEqe\">当然，我这么改难道不违背了 Anki 增加错误卡片出现频率的初衷了吗？</p><p data-pid=\"FeVAPL1j\">我是有理由的，因为【新间隔】影响最大的是【间隔】已经很长的卡片（假设我设置【新间隔】为 10%，那么能影响到的卡片【间隔】已经超过 20 天，也就是重复了 5 次以上的卡片）。而【间隔】很长的卡片通常是记得比较熟练了，偶尔出错只是状态不佳，没有必要像新卡片一样频繁学习，浪费时间。（当然，对保留率可能也会有影响，但是没有具体的计算公式）</p><p data-pid=\"Tk4fOCRf\">废话不多说，调下参数试试</p><h2>提高新间隔（可能会降低保留率）</h2><ul><li data-pid=\"gFrZyHk4\">间隔修饰符不变</li><li data-pid=\"Afi1L5d2\">新间隔改为 10%</li></ul><figure data-size=\"small\"><img src=\"https://pica.zhimg.com/v2-fc43ea35c874171c5e23b989f1c3d19e_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"999\" data-rawheight=\"906\" data-original-token=\"v2-796c43eacf42d10688d34764275d641c\" class=\"origin_image zh-lightbox-thumb\" width=\"999\" data-original=\"https://pica.zhimg.com/v2-fc43ea35c874171c5e23b989f1c3d19e_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-8e794d34fe6a39d27cd59458905f8fd8_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1822\" data-rawheight=\"730\" data-original-token=\"v2-42c7dcc6204d5e3c1e07d507f48c6776\" class=\"origin_image zh-lightbox-thumb\" width=\"1822\" data-original=\"https://pic3.zhimg.com/v2-8e794d34fe6a39d27cd59458905f8fd8_r.jpg\"/></figure><p data-pid=\"mzqtyFy_\">复习量在 540~600 之间，相比一开始减少了 20% 的复习量。</p><p data-pid=\"n_cUG4_5\">造成的影响是：如果你有一张【间隔】为一年的卡片，那么出错后先会在【重新学习】中等待 10 分钟来重新检验你。再次正确后的【间隔】就是 36 天了。</p><p data-pid=\"kFFfV0eX\">最后，我再讲讲一个反常识的事情：（理论上）减少每日新卡片对减轻每日复习量帮助不大（假设学习总量一样）</p><h2>拉长战线，减少每日新卡片，（理论上）无法减负，甚至增负？</h2><ul><li data-pid=\"U_L36wfp\">默认参数不变</li><li data-pid=\"MDbNyPYO\">将新卡片数量减少到 20 张/天</li></ul><figure data-size=\"small\"><img src=\"https://pic4.zhimg.com/v2-ff3f711f0f560f82213a8d8dd451938f_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1002\" data-rawheight=\"916\" data-original-token=\"v2-1edd82e9cdecef83d3ac2dd86c6032ed\" class=\"origin_image zh-lightbox-thumb\" width=\"1002\" data-original=\"https://pic4.zhimg.com/v2-ff3f711f0f560f82213a8d8dd451938f_r.jpg\"/></figure><p data-pid=\"Iks-H4EP\">模拟结果竟然会是！！！</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-e8943984d0857db9365cf70e4aea3a63_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1819\" data-rawheight=\"736\" data-original-token=\"v2-9da497955347dcb76c26f98785c68c36\" class=\"origin_image zh-lightbox-thumb\" width=\"1819\" data-original=\"https://picx.zhimg.com/v2-e8943984d0857db9365cf70e4aea3a63_r.jpg\"/></figure><p data-pid=\"2CtL5x0v\">这也太奇怪了吧？增负了？而且后面学完的 100 天中，曲线怎么还往上涨了？？？模拟器出 bug 了？</p><p data-pid=\"lAilCWZq\">大家找到原因了吗？我已经理解到了，毕竟理论与实际是有偏差的。这也是为什么模拟器给出的复习量会比我实际上的复习量多的原因。</p><p data-pid=\"2XYjNFHC\">这里我暂时不做解释，留给大家做讨论。</p><p data-pid=\"WQjjCgC3\">（更新：已经在新文章中解答：<a href=\"https://zhuanlan.zhihu.com/p/79015431\" class=\"internal\" target=\"_blank\">【硬核】参数模拟(续)——从“诡异”的曲线上扬到“有毒”的记忆</a>）</p><blockquote data-pid=\"dawZaDHT\">提示：该问题涉及到的知识在本文和<a href=\"https://zhuanlan.zhihu.com/p/42921090\" class=\"internal\" target=\"_blank\">Anki 算法与术语浅谈</a>中都覆盖到了，只要理解了就能解释清楚。</blockquote><p data-pid=\"Z3xYMsXx\">2020/8/4 更新：</p><p data-pid=\"Q6f52jrz\">模拟器作者修复这个 bug 了！</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-fbfb77e21eb0733ef25ed322d9027072_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"974\" data-rawheight=\"858\" data-original-token=\"v2-fbfb77e21eb0733ef25ed322d9027072\" class=\"origin_image zh-lightbox-thumb\" width=\"974\" data-original=\"https://pic1.zhimg.com/v2-fbfb77e21eb0733ef25ed322d9027072_r.jpg\"/></figure><p data-pid=\"IXyfIpE6\">现在拉长战线后的情况更贴合真实情况了：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-1f22cc31ee7861acdae012729e550d63_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1886\" data-rawheight=\"680\" data-original-token=\"v2-1f22cc31ee7861acdae012729e550d63\" class=\"origin_image zh-lightbox-thumb\" width=\"1886\" data-original=\"https://pic4.zhimg.com/v2-1f22cc31ee7861acdae012729e550d63_r.jpg\"/></figure><p data-pid=\"xai-tX1S\">并且按照我原先的计划模拟的结果也得到了修正：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-a9255f1bd4685b289c1160d8b8734a62_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1884\" data-rawheight=\"674\" data-original-token=\"v2-a9255f1bd4685b289c1160d8b8734a62\" class=\"origin_image zh-lightbox-thumb\" width=\"1884\" data-original=\"https://pica.zhimg.com/v2-a9255f1bd4685b289c1160d8b8734a62_r.jpg\"/></figure><p></p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19783871",
+      "type": "topic",
+      "id": "19783871",
+      "name": "Anki（知识记忆工具）"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19570630",
+      "type": "topic",
+      "id": "19570630",
+      "name": "规划"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19550581",
+      "type": "topic",
+      "id": "19550581",
+      "name": "学习"
+    }
+  ],
+  "voteup_count": 301,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
+    "can_manage": false,
+    "intro": "带你用「Anki」高效战高考！",
+    "is_following": true,
+    "url_token": "ankigaokao",
+    "id": "ankigaokao",
+    "articles_count": 157,
+    "accept_submission": true,
+    "title": "AnkiX高考",
+    "url": "https://api.zhihu.com/columns/ankigaokao",
+    "comment_permission": "all",
+    "created": 1522117223,
+    "updated": 1599152271,
+    "image_url": "https://pic1.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 6763,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 67,
+  "contributions": [
+    {
+      "id": 21534219,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
+        "can_manage": false,
+        "intro": "带你用「Anki」高效战高考！",
+        "is_following": true,
+        "url_token": "ankigaokao",
+        "id": "ankigaokao",
+        "articles_count": 157,
+        "accept_submission": true,
+        "title": "AnkiX高考",
+        "url": "https://api.zhihu.com/columns/ankigaokao",
+        "comment_permission": "all",
+        "created": 1522117223,
+        "updated": 1599152271,
+        "image_url": "https://pic1.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 6763,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": true,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 78398403,
-  "voteup_count": 293,
+  "annotation_action": [],
+  "can_tip": true,
+  "tipjarors_count": 1,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 672,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "【硬核】参数模拟——每天 40 张新卡片，365 天后我要复习多少？ - 来自知乎专栏「AnkiX高考」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/78398403 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1566017011,
-  "url": "https://api.zhihu.com/articles/78398403",
-  "comment_permission": "all",
-  "title": "【硬核】参数模拟——每天 40 张新卡片，365 天后我要复习多少？",
-  "image_width": 733,
-  "content": "<p data-pid=\"cZIkvpi4\">本文的得力助手：</p><a href=\"https://link.zhihu.com/?target=https%3A//pheartheceal.github.io/anki-optimizer/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anki Optimizer and Simulator</a><hr/><p data-pid=\"iVdrs5II\">每天 40 张新卡片，365 天后能学 14600 个知识点，是不是很心动？我也是这么过来的，但是这里有个大坑在我长期使用 Anki 后被发现了！</p><h2>先从最常见的情况入手</h2><ul><li data-pid=\"ur9LjoLV\">不修改 Anki 的默认参数</li><li data-pid=\"7otmHG1z\">每天的保留率是 90%（理论值）</li><li data-pid=\"3nKMSjKz\">只点【重来】和【一般】</li></ul><p data-pid=\"h2iwPYkD\">好，输入数据：</p><figure data-size=\"small\"><img src=\"https://pic2.zhimg.com/v2-abc6a4b68be6531d18092e8d74954871_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1002\" data-rawheight=\"904\" class=\"origin_image zh-lightbox-thumb\" width=\"1002\" data-original=\"https://pic2.zhimg.com/v2-abc6a4b68be6531d18092e8d74954871_r.jpg\" data-original-token=\"v2-8f80f5d5f25bb1ae3b1de1adf7c84001\"/></figure><p data-pid=\"TqOQ1v46\">等待结果……</p><p data-pid=\"mXWg86Am\">叮！好了：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-4163050355df26e02b78bccfc0cffead_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1825\" data-rawheight=\"732\" class=\"origin_image zh-lightbox-thumb\" width=\"1825\" data-original=\"https://pic2.zhimg.com/v2-4163050355df26e02b78bccfc0cffead_r.jpg\" data-original-token=\"v2-91847aae13295353767c41662bc3d69c\"/></figure><p data-pid=\"5xkaywMN\">这跟我当时情况有些偏差（统计记录在这篇文章里：<a href=\"https://zhuanlan.zhihu.com/p/35390139\" class=\"internal\">简单「Anki」高考制卡心得</a>），当时正值我使用 Anki 满一年，学了 14231 张卡片，平均每天 39 张，熟悉卡片的保留率在 92%。我复习卡片数量最多的时候是 608 张/天：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-b71c190e0c9660c772ed9e018af57993_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1281\" data-rawheight=\"342\" class=\"origin_image zh-lightbox-thumb\" width=\"1281\" data-original=\"https://pic4.zhimg.com/v2-b71c190e0c9660c772ed9e018af57993_r.jpg\" data-original-token=\"v2-9d848ca945faf8a206be74c478f039d2\"/></figure><p data-pid=\"Z7KofxNs\">比模拟（reviews per day max ）的 700 张少 13%，我觉得这个模拟还是较为准确的（毕竟当时我经常按【简单】）。</p><blockquote data-pid=\"JgAlRo1n\">注：该模拟器有随机性，所以相同参数的结果会有不同，不过还是会在一个范围内浮动（ 660~770 ，大部分数据落在 690~730）</blockquote><p data-pid=\"qMmKN7xD\">那个时候我的刷卡片速度有多快呢？</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-e26b5c35f04d90abc536b7dbf15b5a07_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"414\" data-rawheight=\"168\" class=\"content_image\" width=\"414\" data-original-token=\"v2-5d1b5de62f45aedb3920d5446a76692d\"/></figure><p data-pid=\"kmFZdy5u\">以这个速度刷 600 张卡片大概要 68 分钟，刷 700 张得要 80 分钟。当然，回报也是丰厚的：14600 * 90% = 13140，也就是我们记住了 13140 张卡片上的知识！</p><p data-pid=\"WQHlgnZq\">负担会不会太重？性价比会不会太低？这取决于你！别忘了 Anki 能通过算法来适应每个人的情况，这是 Anki 为什么有那么多设置可以自定义的原因。</p><p data-pid=\"tGzAjQVX\">接下来我来为大家调整一下参数，看看复习量怎么变化：</p><h2>加倍间隔，牺牲保留率</h2><ul><li data-pid=\"2aufAdUO\">间隔修饰符调整到 200%</li><li data-pid=\"KttHqpw2\">预期保留率下降到 80%（理论上）</li></ul><figure data-size=\"small\"><img src=\"https://picx.zhimg.com/v2-79c412054f315584b92145bf8f0ac30d_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1002\" data-rawheight=\"910\" class=\"origin_image zh-lightbox-thumb\" width=\"1002\" data-original=\"https://picx.zhimg.com/v2-79c412054f315584b92145bf8f0ac30d_r.jpg\" data-original-token=\"v2-8748939668b1e801c40259f689039e2a\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-9a9a6b061ed4de19785601c33c99994f_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1822\" data-rawheight=\"733\" class=\"origin_image zh-lightbox-thumb\" width=\"1822\" data-original=\"https://pic2.zhimg.com/v2-9a9a6b061ed4de19785601c33c99994f_r.jpg\" data-original-token=\"v2-8fd199975dad37526725da7ddfc4f381\"/></figure><p data-pid=\"yf9IWfL6\">哇！负担不到之前的一半了！虽然保留率只有 81%，14600 * 81% =  11826。</p><p data-pid=\"lHa1-vcl\">当然，这里大家可能会有疑问：继续扩大间隔是不是能进一步减小负担呢？</p><p data-pid=\"oM85T2nN\">答案显然是否定的，因为保留率会进一步下降，从而使每天【重来】的卡片数量增加，这些卡片的简易度会下降，也就是说间隔会缩小，导致每天要复习的卡片不降反升。</p><p data-pid=\"A-IQe_JJ\">那么最优的参数是多少呢？我用模拟器一个一个参数测试，发现 121% 的间隔修饰符最优：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-59a6016655f82379ae5cb040b5df9f0a_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1822\" data-rawheight=\"733\" class=\"origin_image zh-lightbox-thumb\" width=\"1822\" data-original=\"https://pica.zhimg.com/v2-59a6016655f82379ae5cb040b5df9f0a_r.jpg\" data-original-token=\"v2-41f2b4ab2547b0667eb5cc04b4a4f8dc\"/></figure><p data-pid=\"i-PcwJhK\">最大复习量在 360 至 380 之间，保留率理论值为 88%（用 2% 的保留率下降换来 50% 的减负，还不错）</p><p data-pid=\"sF_55sjt\">间隔修饰符的优化就讲到这里，接下来我们讲讲【新间隔(Failure Penalty)】</p><figure data-size=\"small\"><img src=\"https://pic2.zhimg.com/v2-9aa23c580d71fdfd8e33ce3990c4e79f_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"840\" data-rawheight=\"636\" class=\"origin_image zh-lightbox-thumb\" width=\"840\" data-original=\"https://pic2.zhimg.com/v2-9aa23c580d71fdfd8e33ce3990c4e79f_r.jpg\" data-original-token=\"v2-f634e3b4456e28674e4451fbfffdb29e\"/></figure><h2>新间隔参数介绍</h2><p data-pid=\"fSAEg9Pk\">【新间隔】参数从属于【失误次数】这一菜单，表明了它和【重来】息息相关。</p><p data-pid=\"OGhEyiXN\">在默认情况下，一旦我们按了【重来】，卡片的间隔就会归零，并且后续的间隔会比新卡片更短。为什么呢？</p><p data-pid=\"B4Bq0tna\">因为当我们点下【重来】时，卡片的【间隔】就是【上次的间隔】*【新间隔】，而【新间隔】默认为 0%，所以乘起来就是 0，而且卡片的【简易度】（实际被翻译为难度系数，下文都用简易度代替）还会下降 20%，如下图：</p><figure data-size=\"small\"><img src=\"https://pic2.zhimg.com/v2-13df5b20b8d5a39149efb4367f1b33c5_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"882\" data-rawheight=\"448\" class=\"origin_image zh-lightbox-thumb\" width=\"882\" data-original=\"https://pic2.zhimg.com/v2-13df5b20b8d5a39149efb4367f1b33c5_r.jpg\" data-original-token=\"v2-860f8df79fd97ce44783cd231278a058\"/></figure><p data-pid=\"Z0VdTaaj\">评分 1 就是【重来】，从上图可知其【简易度】从 280% 下降到了 260%，【间隔】从 1.4 个月直接变成 1 天（指的是【重新学习】后的【间隔】）</p><p data-pid=\"evkI91lc\">假设我将【新间隔】改为 10%，那么【重新学习】后的【间隔】就会变成 1.4 个月 * 10% = 4.2 天，Anki 取整后为 4 天，这样这张卡片就不会堆积太久（因为下一次你遇到它并选择【一般】时，新间隔为 4.2 天 * 230% = 9.66天，取整为 9 天。而不是 1 天 * 230% = 2.3 天，取整为 2 天）</p><p data-pid=\"ATb5cEqe\">当然，我这么改难道不违背了 Anki 增加错误卡片出现频率的初衷了吗？</p><p data-pid=\"FeVAPL1j\">我是有理由的，因为【新间隔】影响最大的是【间隔】已经很长的卡片（假设我设置【新间隔】为 10%，那么能影响到的卡片【间隔】已经超过 20 天，也就是重复了 5 次以上的卡片）。而【间隔】很长的卡片通常是记得比较熟练了，偶尔出错只是状态不佳，没有必要像新卡片一样频繁学习，浪费时间。（当然，对保留率可能也会有影响，但是没有具体的计算公式）</p><p data-pid=\"Tk4fOCRf\">废话不多说，调下参数试试</p><h2>提高新间隔（可能会降低保留率）</h2><ul><li data-pid=\"gFrZyHk4\">间隔修饰符不变</li><li data-pid=\"Afi1L5d2\">新间隔改为 10%</li></ul><figure data-size=\"small\"><img src=\"https://pica.zhimg.com/v2-fc43ea35c874171c5e23b989f1c3d19e_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"999\" data-rawheight=\"906\" class=\"origin_image zh-lightbox-thumb\" width=\"999\" data-original=\"https://pica.zhimg.com/v2-fc43ea35c874171c5e23b989f1c3d19e_r.jpg\" data-original-token=\"v2-796c43eacf42d10688d34764275d641c\"/></figure><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-8e794d34fe6a39d27cd59458905f8fd8_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1822\" data-rawheight=\"730\" class=\"origin_image zh-lightbox-thumb\" width=\"1822\" data-original=\"https://pic3.zhimg.com/v2-8e794d34fe6a39d27cd59458905f8fd8_r.jpg\" data-original-token=\"v2-42c7dcc6204d5e3c1e07d507f48c6776\"/></figure><p data-pid=\"mzqtyFy_\">复习量在 540~600 之间，相比一开始减少了 20% 的复习量。</p><p data-pid=\"n_cUG4_5\">造成的影响是：如果你有一张【间隔】为一年的卡片，那么出错后先会在【重新学习】中等待 10 分钟来重新检验你。再次正确后的【间隔】就是 36 天了。</p><p data-pid=\"kFFfV0eX\">最后，我再讲讲一个反常识的事情：（理论上）减少每日新卡片对减轻每日复习量帮助不大（假设学习总量一样）</p><h2>拉长战线，减少每日新卡片，（理论上）无法减负，甚至增负？</h2><ul><li data-pid=\"U_L36wfp\">默认参数不变</li><li data-pid=\"MDbNyPYO\">将新卡片数量减少到 20 张/天</li></ul><figure data-size=\"small\"><img src=\"https://pic4.zhimg.com/v2-ff3f711f0f560f82213a8d8dd451938f_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1002\" data-rawheight=\"916\" class=\"origin_image zh-lightbox-thumb\" width=\"1002\" data-original=\"https://pic4.zhimg.com/v2-ff3f711f0f560f82213a8d8dd451938f_r.jpg\" data-original-token=\"v2-1edd82e9cdecef83d3ac2dd86c6032ed\"/></figure><p data-pid=\"Iks-H4EP\">模拟结果竟然会是！！！</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-e8943984d0857db9365cf70e4aea3a63_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1819\" data-rawheight=\"736\" class=\"origin_image zh-lightbox-thumb\" width=\"1819\" data-original=\"https://picx.zhimg.com/v2-e8943984d0857db9365cf70e4aea3a63_r.jpg\" data-original-token=\"v2-9da497955347dcb76c26f98785c68c36\"/></figure><p data-pid=\"2CtL5x0v\">这也太奇怪了吧？增负了？而且后面学完的 100 天中，曲线怎么还往上涨了？？？模拟器出 bug 了？</p><p data-pid=\"lAilCWZq\">大家找到原因了吗？我已经理解到了，毕竟理论与实际是有偏差的。这也是为什么模拟器给出的复习量会比我实际上的复习量多的原因。</p><p data-pid=\"2XYjNFHC\">这里我暂时不做解释，留给大家做讨论。</p><p data-pid=\"WQjjCgC3\">（更新：已经在新文章中解答：<a href=\"https://zhuanlan.zhihu.com/p/79015431\" class=\"internal\">【硬核】参数模拟(续)——从“诡异”的曲线上扬到“有毒”的记忆</a>）</p><blockquote data-pid=\"dawZaDHT\">提示：该问题涉及到的知识在本文和<a href=\"https://zhuanlan.zhihu.com/p/42921090\" class=\"internal\">Anki 算法与术语浅谈</a>中都覆盖到了，只要理解了就能解释清楚。</blockquote><p data-pid=\"Z3xYMsXx\">2020/8/4 更新：</p><p data-pid=\"Q6f52jrz\">模拟器作者修复这个 bug 了！</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-fbfb77e21eb0733ef25ed322d9027072_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"974\" data-rawheight=\"858\" class=\"origin_image zh-lightbox-thumb\" width=\"974\" data-original=\"https://pic1.zhimg.com/v2-fbfb77e21eb0733ef25ed322d9027072_r.jpg\" data-original-token=\"v2-fbfb77e21eb0733ef25ed322d9027072\"/></figure><p data-pid=\"IXyfIpE6\">现在拉长战线后的情况更贴合真实情况了：</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-1f22cc31ee7861acdae012729e550d63_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1886\" data-rawheight=\"680\" class=\"origin_image zh-lightbox-thumb\" width=\"1886\" data-original=\"https://pic4.zhimg.com/v2-1f22cc31ee7861acdae012729e550d63_r.jpg\" data-original-token=\"v2-1f22cc31ee7861acdae012729e550d63\"/></figure><p data-pid=\"xai-tX1S\">并且按照我原先的计划模拟的结果也得到了修正：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-a9255f1bd4685b289c1160d8b8734a62_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1884\" data-rawheight=\"674\" class=\"origin_image zh-lightbox-thumb\" width=\"1884\" data-original=\"https://pica.zhimg.com/v2-a9255f1bd4685b289c1160d8b8734a62_r.jpg\" data-original-token=\"v2-a9255f1bd4685b289c1160d8b8734a62\"/></figure><p></p>",
-  "column": {
-    "updated": 1599152271,
-    "description": "围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/ankigaokao",
-    "title": "AnkiX高考",
-    "image_url": "https://pic1.zhimg.com/v2-915dfc2907d61311962269fc24181b74_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "ankigaokao"
-  },
-  "comment_count": 66,
-  "image_url": "https://pica.zhimg.com/v2-8fd199975dad37526725da7ddfc4f381_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 57,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 57,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIjCgkxMDU1NTEzMjUSCDc4Mzk4NDAzGAciCklNQUdFX1RFWFQ=",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 301,
+      "down_vote_count": 0,
+      "like_count": 57,
+      "comment_count": 67,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 672,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-1edd82e9cdecef83d3ac2dd86c6032ed": 0,
+        "v2-1f22cc31ee7861acdae012729e550d63": 0,
+        "v2-41f2b4ab2547b0667eb5cc04b4a4f8dc": 1,
+        "v2-42c7dcc6204d5e3c1e07d507f48c6776": 0,
+        "v2-5d1b5de62f45aedb3920d5446a76692d": 0,
+        "v2-796c43eacf42d10688d34764275d641c": 1,
+        "v2-860f8df79fd97ce44783cd231278a058": 0,
+        "v2-8748939668b1e801c40259f689039e2a": 1,
+        "v2-8f80f5d5f25bb1ae3b1de1adf7c84001": 1,
+        "v2-8fd199975dad37526725da7ddfc4f381": 0,
+        "v2-91847aae13295353767c41662bc3d69c": 0,
+        "v2-9d848ca945faf8a206be74c478f039d2": 0,
+        "v2-9da497955347dcb76c26f98785c68c36": 0,
+        "v2-a9255f1bd4685b289c1160d8b8734a62": 0,
+        "v2-f634e3b4456e28674e4451fbfffdb29e": 1,
+        "v2-fbfb77e21eb0733ef25ed322d9027072": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-1edd82e9cdecef83d3ac2dd86c6032ed": false,
+        "v2-1f22cc31ee7861acdae012729e550d63": false,
+        "v2-41f2b4ab2547b0667eb5cc04b4a4f8dc": false,
+        "v2-42c7dcc6204d5e3c1e07d507f48c6776": false,
+        "v2-5d1b5de62f45aedb3920d5446a76692d": false,
+        "v2-796c43eacf42d10688d34764275d641c": false,
+        "v2-860f8df79fd97ce44783cd231278a058": false,
+        "v2-8748939668b1e801c40259f689039e2a": false,
+        "v2-8f80f5d5f25bb1ae3b1de1adf7c84001": false,
+        "v2-8fd199975dad37526725da7ddfc4f381": false,
+        "v2-91847aae13295353767c41662bc3d69c": false,
+        "v2-9d848ca945faf8a206be74c478f039d2": false,
+        "v2-9da497955347dcb76c26f98785c68c36": false,
+        "v2-a9255f1bd4685b289c1160d8b8734a62": false,
+        "v2-f634e3b4456e28674e4451fbfffdb29e": false,
+        "v2-fbfb77e21eb0733ef25ed322d9027072": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-1edd82e9cdecef83d3ac2dd86c6032ed": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-1f22cc31ee7861acdae012729e550d63": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-41f2b4ab2547b0667eb5cc04b4a4f8dc": {
+        "like_count": 1,
+        "is_liked": false
+      },
+      "v2-42c7dcc6204d5e3c1e07d507f48c6776": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-5d1b5de62f45aedb3920d5446a76692d": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-796c43eacf42d10688d34764275d641c": {
+        "like_count": 1,
+        "is_liked": false
+      },
+      "v2-860f8df79fd97ce44783cd231278a058": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-8748939668b1e801c40259f689039e2a": {
+        "like_count": 1,
+        "is_liked": false
+      },
+      "v2-8f80f5d5f25bb1ae3b1de1adf7c84001": {
+        "like_count": 1,
+        "is_liked": false
+      },
+      "v2-8fd199975dad37526725da7ddfc4f381": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-91847aae13295353767c41662bc3d69c": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-9d848ca945faf8a206be74c478f039d2": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-9da497955347dcb76c26f98785c68c36": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-a9255f1bd4685b289c1160d8b8734a62": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-f634e3b4456e28674e4451fbfffdb29e": {
+        "like_count": 1,
+        "is_liked": false
+      },
+      "v2-fbfb77e21eb0733ef25ed322d9027072": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=78398403&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · AnkiX高考",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/ankigaokao",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · AnkiX高考"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }

@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,9 +37,10 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,38 +84,58 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
-  "comment_count": 39,
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
+  "comment_count": 41,
   "content": "<p data-pid=\"2H4C3lGV\">。。。两个算法都不是根据艾宾浩斯遗忘曲线设计的。</p><h2>为什么不是艾宾浩斯？</h2><h3>Anki（SM-2）</h3><p data-pid=\"ZwcB8rfz\">先说 Anki 的算法，来源于 SuperMemo 2（官方说明：<a href=\"https://link.zhihu.com/?target=https%3A//faqs.ankiweb.net/what-spaced-repetition-algorithm.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">What spaced repetition algorithm does Anki use? - Frequently Asked Questions (ankiweb.net)</a>）</p><p data-pid=\"rmU4UThD\">关于 SM-2 算法，详情可以看这篇：</p><a href=\"https://zhuanlan.zhihu.com/p/97887756\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-9e2ee5b10cd764c7dd1be40b81aa6c6d_180x120.jpg\" data-image-width=\"1258\" data-image-height=\"451\" class=\"internal\">叶峻峣：04 SuperMemo 1.0: 日志 (1987)</a><p data-pid=\"Y3xXytHl\">为什么说 Anki 算法不是根据艾宾浩斯遗忘曲线设计的？SuperMemo 的作者自己是这样说的：</p><blockquote data-pid=\"2-qTaTkJ\">1885年，<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Hermann_Ebbinghaus\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">赫尔曼·艾宾浩斯</a>对记忆科学做出了重大贡献。他在自己身上做了实验，提出了<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Forgetting_curve\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">遗忘曲线</a>的第一个轮廓。他也知道<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Spacing_effect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔效应</a>。他从未研究过<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Spaced_repetition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复</a>。我不认为赫尔曼在我的<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Spaced_repetition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复</a>研究中给了我灵感，因为我根本不知道赫尔曼是谁，他完成了什么。我<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Birth_of_SuperMemo\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">设计了自己的测量方法</a>得出<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Spaced_repetition\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">间隔重复</a>。在一个无关的和被遗忘的练习中，我也产生了<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/why_spaced_repetition_research_kept_failing%253f%23forgetting_curve_1984\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我自己的遗忘曲线</a>，这可能影响了我的思考。赫尔曼的曲线要陡峭得多，实际上可能会阻碍进一步的研究(参见:<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Error_of_Ebbinghaus_forgetting_curve\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">艾宾浩斯遗忘曲线的错误</a>)。我们亚当·米基维奇大学的图书馆里有大量二战前的“古代”德国文学，但我不懂德语。我是在不了解的情况下做出的努力。后来我读了关于艾宾浩斯的文章，并在我的<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Master%2527s_Thesis\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">硕士论文</a>中提到了他的<a href=\"https://link.zhihu.com/?target=https%3A//supermemo.guru/wiki/Forgetting_curve\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">遗忘曲线</a>。<sup data-text=\"16 记忆研究摘要\" data-url=\"https://zhuanlan.zhihu.com/p/164968911\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup></blockquote><p data-pid=\"oZSujBKm\">所以 SM-2、Anki 的算法绝不是根据艾宾浩斯遗忘曲线设计。</p><h3>墨墨背单词</h3><p data-pid=\"cxmdcj7F\">虽然墨墨背单词 APP 中有艾宾浩斯遗忘曲线的统计图，但墨墨的算法并非是根据艾宾浩斯的遗忘曲线设计的。墨墨能跟踪每一位用户的遗忘曲线，然后优化算法。相关内容可以参考：</p><a href=\"https://www.zhihu.com/question/19798259/answer/2125871191\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-d9199f86641bb7438e6dacfeec65a083_180x120.jpg\" data-image-width=\"1440\" data-image-height=\"920\" class=\"internal\">用艾宾浩斯曲线记忆周期来背单词是否有理论依据？</a><h2>哪个更好？</h2><p data-pid=\"5yeyUW5K\">这里就是利益相关了，本人在墨墨做复习算法，并在墨墨的支持下发布了记忆相关的论文。论文中有将我们的算法与 SM-2 进行对比，在误差上要比 SM-2 低很多。具体内容还是等论文刊出吧。</p><p data-pid=\"O-QYCoel\">相关内容：</p><a href=\"https://www.zhihu.com/pin/1444038677932863488\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">等着论文刊出咯～～到时候一定先发链接到…</a><h2>更新</h2><p data-pid=\"Qj093KKP\">我的论文：</p><a href=\"https://link.zhihu.com/?target=https%3A//dl.acm.org/doi/10.1145/3534678.3539081\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-f4484d4906c139f4f2bf932ac0f6ff5a_120x160.jpg\" data-image-width=\"302\" data-image-height=\"392\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</a><p data-pid=\"TB53n6wM\">发表论文的经历：</p><a href=\"https://zhuanlan.zhihu.com/p/543325359\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-08134e67de67b70a126b02829d90edcc_180x120.jpg\" data-image-width=\"2251\" data-image-height=\"1592\" class=\"internal\">叶峻峣：我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1637139187,
   "excerpt": "。。。两个算法都不是根据艾宾浩斯遗忘曲线设计的。 为什么不是艾宾浩斯？Anki（SM-2）先说 Anki 的算法，来源于 SuperMemo 2（官方说明： What spaced repetition algorithm does Anki use? - Frequently Asked Questions (ankiweb.net) ）关于 SM-2 算法，详情可以看这篇： [文章: 04 1987 SuperMemo 1.0: 日志] 为什么说 Anki 算法不是根据艾宾浩斯遗忘曲线设计的？SuperMemo 的作者自己是这样说的： 1885年，赫尔曼·艾宾浩斯 …",
-  "id": 2228607391,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2228607391",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://www.zhihu.com/pin/1444038677932863488": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"等着论文刊出咯～～到时候一定先发链接到…\",\"card_open_url\":\"https://www.zhihu.com/pin/1444038677932863488?native=0\",\"desc\":\"410 浏览 · 133 鼓掌 \\u003ca class=\\\"tag type_a\\\"\\u003e想法\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 等着论文刊出咯～～到时候一定先发链接到知乎哈哈 翻译的长文也到最后检查阶段了，今晚就发！！\",\"image\":{\"image_url\":\"https://picx.zhimg.com/100/v2-4cb5e771949768771b2a90e3b11f9ebd_720w.jpg\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"PIN\",\"content_id\":\"1444038677932863488\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://www.zhihu.com/question/19798259/answer/2125871191": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"用艾宾浩斯曲线记忆周期来背单词是否有理论依据？\",\"card_open_url\":\"https://www.zhihu.com/question/19798259/answer/2125871191\",\"desc\":\"2387 赞同 · 447 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e墨墨背单词:\\u003c/a\\u003e [660亿]「你の曲线」用艾宾浩斯曲线记忆周期来背单词是否有理论依据？ 作者：Maimemo - 数据算法组 嘿，这里是你们的墨墨！ “用艾宾浩斯曲线记忆周期来背单词是否有理论依据？”，是长久以来一直困惑着大家的问题。 本次墨墨将和大家分享相关记忆的研究（有用户数据支持的哇）。 [图片] 遗忘曲线可谓墨墨记忆算法的基石，本期内容较为严肃（但不失风趣哈哈），大家做好心理准备哦~ 本期内容组织如下 『自虐狂人』艾宾浩斯和他的遗忘曲…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-d9199f86641bb7438e6dacfeec65a083.jpg?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"2125871191\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/543325359": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/543325359\",\"desc\":\"1801 赞同 · 85 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 最近我在时间线上刷到 @重剑无锋 所写的《我是如何从头开始写一篇顶级论文的 》一文，作者梳理了他论文的创作历程，对我也颇有启发。我自己本科期间发表了一篇国际顶会（ACM SIGKDD）论文和一篇 CCF A 中文核心期刊（中文信息学报）论文，这里也想记录这一路的机缘巧合和心路历程。KDD 论文地址： A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Confe…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-08134e67de67b70a126b02829d90edcc_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"543325359\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/97887756": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"04 1987 SuperMemo 1.0: 日志\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/97887756\",\"desc\":\"32 赞同 · 3 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 总目录： 0 目录《间隔重复的历史》 上一章： 03 1986：SuperMemo 的第一步 本文前半部分是 SuperMemo 作者的个人故事，有兴趣可以看。 后半部分是 SM-2 算法的介绍，Anki 的算法就是基于它的变体，推荐阅读。 1987：DOS 上的 SuperMemo 1.0SuperMemo 1.0: 日志 (1987)SuperMemo 的历史页面上写着：“ Wozniak 用 16 个晚上写了他的第一版 SuperMemo”。实际情况要复杂一些。让我用当天的笔记来详细描述一下。为这个想法做准备我不…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-9e2ee5b10cd764c7dd1be40b81aa6c6d_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"97887756\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://www.zhihu.com/pin/1444038677932863488": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"等着论文刊出咯～～到时候一定先发链接到…\",\"card_open_url\":\"https://www.zhihu.com/pin/1444038677932863488?native=0\",\"desc\":\"412 浏览 · 133 鼓掌 \\u003ca class=\\\"tag type_a\\\"\\u003e想法\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 等着论文刊出咯～～到时候一定先发链接到知乎哈哈 翻译的长文也到最后检查阶段了，今晚就发！！\",\"image\":{\"image_url\":\"https://picx.zhimg.com/100/v2-4cb5e771949768771b2a90e3b11f9ebd_720w.jpg\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"PIN\",\"content_id\":\"1444038677932863488\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://www.zhihu.com/question/19798259/answer/2125871191": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"用艾宾浩斯曲线记忆周期来背单词是否有理论依据？\",\"card_open_url\":\"https://www.zhihu.com/question/19798259/answer/2125871191\",\"desc\":\"2389 赞同 · 447 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e墨墨背单词:\\u003c/a\\u003e [660亿]「你の曲线」用艾宾浩斯曲线记忆周期来背单词是否有理论依据？ 作者：Maimemo - 数据算法组 嘿，这里是你们的墨墨！ “用艾宾浩斯曲线记忆周期来背单词是否有理论依据？”，是长久以来一直困惑着大家的问题。 本次墨墨将和大家分享相关记忆的研究（有用户数据支持的哇）。 [图片] 遗忘曲线可谓墨墨记忆算法的基石，本期内容较为严肃（但不失风趣哈哈），大家做好心理准备哦~ 本期内容组织如下 『自虐狂人』艾宾浩斯和他的遗忘曲…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-d9199f86641bb7438e6dacfeec65a083.jpg?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"2125871191\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/543325359": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/543325359\",\"desc\":\"2268 赞同 · 90 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 最近我在时间线上刷到 @重剑无锋 所写的《我是如何从头开始写一篇顶级论文的 》一文，作者梳理了他论文的创作历程，对我也颇有启发。我自己本科期间发表了一篇国际顶会（ACM SIGKDD）论文和一篇 CCF A 中文核心期刊（中文信息学报）论文，这里也想记录这一路的机缘巧合和心路历程。KDD 论文地址： A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Confe…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-08134e67de67b70a126b02829d90edcc_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"543325359\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/97887756": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"04 1987 SuperMemo 1.0: 日志\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/97887756\",\"desc\":\"32 赞同 · 3 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 总目录： 0 目录《间隔重复的历史》 上一章： 03 1986：SuperMemo 的第一步 本文前半部分是 SuperMemo 作者的个人故事，有兴趣可以看。 后半部分是 SM-2 算法的介绍，Anki 的算法就是基于它的变体，推荐阅读。 1987：DOS 上的 SuperMemo 1.0SuperMemo 1.0: 日志 (1987)SuperMemo 的历史页面上写着：“ Wozniak 用 16 个晚上写了他的第一版 SuperMemo”。实际情况要复杂一些。让我用当天的笔记来详细描述一下。为这个想法做准备我不…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-9e2ee5b10cd764c7dd1be40b81aa6c6d_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"97887756\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/7407515765?contentId=2228607391&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1548229723,
     "detail": "<p>二者都是根据艾宾浩斯遗忘曲线设计的，谁的算法更好呢？</p>",
-    "id": 310029483,
+    "id": "310029483",
     "question_type": "normal",
     "relationship": {},
     "title": "论复习算法，Anki和墨墨背单词哪个更好？",
     "type": "question",
     "updated_time": 1548229723,
-    "url": "https://api.zhihu.com/questions/310029483"
+    "url": "https://www.zhihu.com/api/v4/questions/310029483"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 49
+  "updated_time": 1663122448,
+  "url": "https://www.zhihu.com/api/v4/answers/2228607391",
+  "voteup_count": 63
 }

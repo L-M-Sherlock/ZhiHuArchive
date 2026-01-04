@@ -1,80 +1,509 @@
 {
-  "status": 0,
-  "updated": 1702348143,
+  "id": "656108063",
+  "title": "1A3：Anki 初级配置教程",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/656108063",
+  "image_url": "https://pica.zhimg.com/v2-582aeaf38c1148f701cd3f5bce31ea5e_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-582aeaf38c1148f701cd3f5bce31ea5e_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://picx.zhimg.com/v2-bc5d91d048138d66ac4bbb328a3e4df1_200x112.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"661\" data-rawheight=\"583\" data-watermark=\"original\" data-original-src=\"v2-bc5d91d048138d66ac4bbb328a3e4df1\" data-watermark-src=\"v2-92029f4a08cc6cdda49e2de43aeef2e8\" data-private-watermark-src=\"\" data-original=\"https://picx.zhimg.com/v2-bc5d91d048138d66ac4bbb328a3e4df1_r.png\" class=\"origin_image inline-img zh-lightbox-thumb\"/>返回目录：<a href=\"https://zhuanlan.zhihu.com/p/671671625\" class=\"internal\" target=\"_blank\">从 0 开始学外语：Refold 路线图（详细版）</a>正如在 <a href=\"https://link.zhihu.com/?target=https%3A//refold.la/roadmap/stage-0/c/active-study\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">阶段 0：主动非沉浸学习</a>[1]中所述：我们会运用间隔重复系统（简称 SRS）来主动学习目标语言词汇。虽然 SRS 软件五花八门，但我们还是倾向于推荐 Anki。这个软件不仅跨平台，而且功能齐全，在绝大…",
+  "created": 1694664614,
+  "updated": 1754532369,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "返回目录：从 0 开始学外语：Refold 路线图（详细版） 正如在阶段 0：主动非沉浸学习 …",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 2160,
+  "image_height": 1216,
+  "content": "<blockquote data-pid=\"7dsBjocR\">返回目录：<a href=\"https://zhuanlan.zhihu.com/p/671671625\" class=\"internal\" target=\"_blank\">从 0 开始学外语：Refold 路线图（详细版）</a></blockquote><p data-pid=\"QPFZhuKT\">正如在<a href=\"https://link.zhihu.com/?target=https%3A//refold.la/roadmap/stage-0/c/active-study\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">阶段 0：主动非沉浸学习</a><sup data-text=\"0C3：主动非沉浸学习\" data-url=\"https://zhuanlan.zhihu.com/p/654942774\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>中所述：我们会运用间隔重复系统（简称 SRS）来主动学习目标语言词汇。</p><p data-pid=\"TLsMMjeM\">虽然 SRS 软件五花八门，但我们还是倾向于推荐 Anki。这个软件不仅跨平台，而且功能齐全，在绝大多数平台上都是免费的。唯一的缺点可能是上手稍有难度。如果你对 Anki 的工作原理感到困惑，别担心：一两周后你就会运用自如。本文的主体部分将重点讲解 Anki 的基础知识。</p><p data-pid=\"_b76q7HZ\">为了帮助你尽快上手并开始使用，我们不会深入探究所有设置的确切功能，也不会解释我们所有建议背后的逻辑。对于 99% 的学习者来说，本页推荐的设置已经足够令人满意。</p><h2>安装</h2><p data-pid=\"9ZaN7Wx7\">Anki 的最新稳定版本可从 <a href=\"https://link.zhihu.com/?target=https%3A//apps.ankiweb.net/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anki 官网</a>下载。桌面版完全免费，兼容 Windows、Mac 和 Linux 系统。</p><p data-pid=\"lItnOk_q\">官方 iOS 应用为 <a href=\"https://link.zhihu.com/?target=https%3A//apps.apple.com/us/app/ankimobile-flashcards/id373493387\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">AnkiMobile</a>，可在 App Store 购买，价格为 24.99 美元（各国价格有所不同）。另有一款第三方安卓应用 <a href=\"https://link.zhihu.com/?target=https%3A//play.google.com/store/apps/details%3Fid%3Dcom.ichi2.anki%26hl%3Den_US\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">AnkiDroid</a>，可在 Google Play 免费获取。此外，Anki 还有一个官方的纯网页版：<a href=\"https://link.zhihu.com/?target=https%3A//ankiweb.net/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">AnkiWeb</a>。</p><p data-pid=\"OaJwK43t\">AnkiMobile、AnkiDroid 和 AnkiWeb 非常适合复习卡片，但在创建卡片方面，其界面功能有限。因此，目前我们将重点介绍如何在桌面版上添加新卡片。</p><p data-pid=\"rtGbeEuY\">本文的其余部分将侧重于桌面版 Anki 的设置。</p><h2>Anki 的组成要素</h2><h3>牌组</h3><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-bc5d91d048138d66ac4bbb328a3e4df1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"661\" data-rawheight=\"583\" data-original-token=\"v2-bc5d91d048138d66ac4bbb328a3e4df1\" class=\"origin_image zh-lightbox-thumb\" width=\"661\" data-original=\"https://picx.zhimg.com/v2-bc5d91d048138d66ac4bbb328a3e4df1_r.jpg\"/></figure><p data-pid=\"KZq2u95W\">当你打开 Anki 时，首先映入眼帘的便是你的牌组列表。一开始，你只会有一个牌组，名为「默认牌组」。</p><p data-pid=\"2hrPtzSt\">牌组本质上是就是一组抽认卡。在学习时，你一次学习一个牌组。</p><p data-pid=\"hdthBljy\">要新建牌组，底下有个「新建牌组」的按钮，点一下就行。牌组数量没上限，单个牌组里放多少张卡也没有限制。</p><p data-pid=\"Ftr1Ulf3\">一般来说，我们建议把你所有的卡片放在一到两个牌组里。将你的卡片分成许多牌组，会人为地把卡片复习变得太容易了，例如，如果你有一副专门用于「动物名称」的牌组，当复习这个牌组时，你的大脑会自动知道答案一定是动物名称。这个「提示」会让你更容易回忆起答案。由于你在现实生活中没有这类提示可以依靠，所以最好在没有提示的情况下进行练习。</p><h3>笔记和卡片</h3><p data-pid=\"Y59b4E2v\">在 Anki 里，最容易让人摸不着头脑的就是「笔记」和「卡片」的区别。如果你一开始觉得费解，不必纠结。只需了解这两样东西存在就行，随着时间推移，你自然会明白其中道理。</p><p data-pid=\"l3NV9HYR\">Anki 最基本的单位是「笔记」，这是一个非常抽象的概念。你不能像拿实物一样触摸或拿起一条笔记，这让它显得更加复杂。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-fab03ba6e18e06a84a731d21bff114af_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"866\" data-rawheight=\"891\" data-original-token=\"v2-fab03ba6e18e06a84a731d21bff114af\" class=\"origin_image zh-lightbox-thumb\" width=\"866\" data-original=\"https://pic2.zhimg.com/v2-fab03ba6e18e06a84a731d21bff114af_r.jpg\"/></figure><p data-pid=\"RHnskPGr\">简单来说，笔记就是一堆有关联的数据。比如，你可能会有以下五类信息：</p><ul><li data-pid=\"nvh57xwD\"> 你目标语言中某个单词的写法<br/> </li><li data-pid=\"hII4O0vZ\"> 使用这个单词的一条例句<br/> </li><li data-pid=\"X9w6eHpH\"> 这个单词在你的母语里的粗略翻译<br/> </li><li data-pid=\"c22cz5ry\"> 母语者说这个词的音频<br/> </li><li data-pid=\"OOCUHP9R\"> 你在谷歌图片上搜索该词时发现的图片<br/> </li></ul><p data-pid=\"6w1cQZUU\">所以，一条笔记就是这五类数据（无形地）聚在一起。</p><p data-pid=\"9saI3X6J\">这些数据会被转换为抽认卡（在 Anki 里就叫「卡片」），也就是你每天都要复习的那些卡片。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-71d986307eeead528ff9047f98433b94_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"633\" data-rawheight=\"488\" data-original-token=\"v2-71d986307eeead528ff9047f98433b94\" class=\"origin_image zh-lightbox-thumb\" width=\"633\" data-original=\"https://pic1.zhimg.com/v2-71d986307eeead528ff9047f98433b94_r.jpg\"/></figure><p data-pid=\"CKxzzus_\">总结一下：笔记是一组数据的集合，而这些数据会用来生成一张或多张卡片。</p><p data-pid=\"r0xRm3VT\">你也许会好奇，这些卡片是怎么生成的，这就引出了另一个抽象概念：笔记类型。</p><h3>笔记类型</h3><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-f656957d47ec4821a268449fda3f5a5f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"525\" data-rawheight=\"426\" data-original-token=\"v2-f656957d47ec4821a268449fda3f5a5f\" class=\"origin_image zh-lightbox-thumb\" width=\"525\" data-original=\"https://picx.zhimg.com/v2-f656957d47ec4821a268449fda3f5a5f_r.jpg\"/></figure><p data-pid=\"M4rT0T-m\">笔记类型比笔记更抽象，如果你现在感到困惑，这没关系。</p><p data-pid=\"jL1Hhv0L\">笔记类型是笔记的蓝图，它由以下部分组成：</p><ul><li data-pid=\"zuGyeymt\"> 一个名字<br/> </li><li data-pid=\"k4cfOivb\"> 一系列字段<br/> </li><li data-pid=\"RpZGTazO\"> 一组卡片类型<br/> </li></ul><p data-pid=\"J4MfV409\">重复上面的例子，笔记类型的名称可能是「词汇」，因为它是用来创建用于生成词汇卡的笔记。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-f90d21c67e8619cc21324a1b014f4e44_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"559\" data-rawheight=\"462\" data-original-token=\"v2-f90d21c67e8619cc21324a1b014f4e44\" class=\"origin_image zh-lightbox-thumb\" width=\"559\" data-original=\"https://pic3.zhimg.com/v2-f90d21c67e8619cc21324a1b014f4e44_r.jpg\"/></figure><p data-pid=\"rhuEJPu_\">字段列表可能包括：</p><ul><li data-pid=\"i5nHzdrF\"> 单词<br/> </li><li data-pid=\"WS_-sMsJ\"> 例句<br/> </li><li data-pid=\"v07BPGjz\"> 释义<br/> </li><li data-pid=\"RnK8G4wi\"> 音频<br/> </li><li data-pid=\"db-Tk_y8\"> 图片<br/> </li></ul><p data-pid=\"Q5DS3q9C\">这些字段就是预留的地方，用来在笔记里存放数据。</p><h3>卡片类型</h3><p data-pid=\"qyUCEH49\">卡片类型实际上是 Anki 用来生成卡片的视觉模板。在这里，你得明确卡片正反两面要展示哪些信息。虽然 Anki 允许你为同一种笔记类型设置多个卡片类型，但我们并不建议这样做。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-c5f28fd399efd60666b431f85175a681_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1022\" data-rawheight=\"666\" data-original-token=\"v2-c5f28fd399efd60666b431f85175a681\" class=\"origin_image zh-lightbox-thumb\" width=\"1022\" data-original=\"https://pic4.zhimg.com/v2-c5f28fd399efd60666b431f85175a681_r.jpg\"/></figure><h3>小结</h3><ul><li data-pid=\"ma051kVY\"> 笔记用于储存数据<br/> </li><li data-pid=\"MPqOY3cO\"> 卡片是你复习的对象<br/> </li><li data-pid=\"_Z2eU2i3\"> 笔记类型规定了笔记可以储存哪些信息<br/> </li><li data-pid=\"r_4LiH0v\"> 卡片类型则决定了卡片上展示什么内容<br/> </li></ul><p data-pid=\"T867DKSR\">如果你更改了某个笔记类型，所有相关联的卡片都会立即发生改变。同理，如果你调整了卡片类型，所有相关的卡片也会随之改动。</p><p data-pid=\"Ebf5LJjE\">Anki 内置了五种笔记类型。你可以对这些笔记类型进行修改，也可以从头开始创建新的。要修改或新增笔记类型，你需要在 Anki 的主界面上点击「工具 &gt; 管理笔记类型」。</p><h2>添加卡片</h2><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-b6323751ef9211972bd4af6686d3f054_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"744\" data-rawheight=\"617\" data-original-token=\"v2-b6323751ef9211972bd4af6686d3f054\" class=\"origin_image zh-lightbox-thumb\" width=\"744\" data-original=\"https://pic1.zhimg.com/v2-b6323751ef9211972bd4af6686d3f054_r.jpg\"/></figure><p data-pid=\"kQ6TX9ut\">Anki 本身并未预装任何学习资料。你需要自己创建卡片，或者导入别人预制的牌组。</p><p data-pid=\"GVMMVj7G\">要新建卡片，点击 Anki 主界面顶部的「添加」按钮，进入添加窗口。</p><p data-pid=\"ZvG0h6us\">在添加窗口的顶部，你可以选择想用的笔记类型和将卡片放入哪个牌组。然后填写相关字段，点击「添加」。</p><h3>预制牌组</h3><p data-pid=\"gQaYrqSq\">除了制作你自己的卡片之外，你还可以从 <a href=\"https://link.zhihu.com/?target=https%3A//ankiweb.net/shared/decks/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anki 网站</a>上下载其他人制作的牌组。</p><p data-pid=\"-jvDu2-o\">因为每张卡片都与一种笔记类型相关联，所以当你添加别人的牌组时，它通常会附带一种新的笔记类型，这个笔记类型也将被添加到你的集合中，你可以在自己手动添加新卡时使用它。</p><h2>浏览器</h2><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-87bbd99f10d39fc0453779ddfb466560_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"922\" data-rawheight=\"743\" data-original-token=\"v2-87bbd99f10d39fc0453779ddfb466560\" class=\"origin_image zh-lightbox-thumb\" width=\"922\" data-original=\"https://pic3.zhimg.com/v2-87bbd99f10d39fc0453779ddfb466560_r.jpg\"/></figure><p data-pid=\"oy-E-aQW\">Anki 浏览器是查看和编辑你所有卡片的地方。</p><p data-pid=\"sNvuUlWA\">要打开浏览器，只需点击 Anki 主界面上方的「浏览」按钮。</p><p data-pid=\"4wxaQQ9n\">在浏览器中寻找卡片时，你可以按牌组、笔记类型或标签进行筛选，你也可以使用搜索窗口。</p><p data-pid=\"8j2-RP_z\">想修改卡片字段的内容，直接在浏览器里选中就行。要删除卡片或者挪到别的牌组，用鼠标右键点击卡片，选择相应的选项。</p><h2>偏好设置</h2><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-48ac67e7c4fb8fd2f55bdf48f1ee64e0_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"630\" data-rawheight=\"667\" data-original-token=\"v2-48ac67e7c4fb8fd2f55bdf48f1ee64e0\" class=\"origin_image zh-lightbox-thumb\" width=\"630\" data-original=\"https://pic3.zhimg.com/v2-48ac67e7c4fb8fd2f55bdf48f1ee64e0_r.jpg\"/></figure><p data-pid=\"yLENDW7q\">偏好设置是影响整个 Anki 程序的全局设置，你可以通过 Anki 主界面上的「工具 &gt; 偏好设置…」来访问。</p><p data-pid=\"CG0otRiW\">我们建议改变偏好设置中的一个开关：在「复习」标签页中的「在回答按钮上显示下次复习时间」。当这个选项被打开的时候，在复习卡片的时候，每一个回答按钮的上方都会显示卡片的下一次复习的估计时间。这可能会使你怀疑自己的记忆力，并给卡片打上过于保守的分数，最好是相信算法，不要担心具体数字。</p><p data-pid=\"qR2-WUJ7\">如果你想同步 Anki 集合到你的 AnkiWeb 账户，可以在「网络」标签页里设置。这样你就能把信息同步到其他设备上。</p><h2>选项</h2><p data-pid=\"Lzr00cQo\">选项是你自定义 Anki 的算法如何工作的具体细节的地方，选项是在单个牌组层面上设置的。</p><p data-pid=\"nhMaNxNP\">在选项窗口的顶部，你可以看到哪个「选项组」正被应用于当前的牌组。一个选项组是一组选项。你可以为每个牌组创建一个选项组，或者让多个牌组共享一个选项组。</p><p data-pid=\"Zj8GOjYH\">如果你使用多个牌组，我们建议为每个牌组创建一个单独的选项组。你可以通过按右上方的「管理...」，选择「新增」来创建一个新的选项组。</p><h2><b>推荐选项设置</b></h2><p data-pid=\"5MITO_gJ\">Anki 的默认选项设置存在很大问题。将其调整为更适合语言学习的模式至关重要。</p><p data-pid=\"jpAbyXrk\">作为调整的一部分，我们建议使用 FSRS。FSRS 是「自由间隔重复调度器」（Free Spaced Repetition Scheduler）的缩写，它是一种基于机器学习的、先进且复杂的现代算法。如果你想深入了解 FSRS，可以<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">点击这里</a>阅读更多信息。</p><p data-pid=\"MYXlm-WQ\">在继续之前，请确保你已安装最新版本的 Anki。你可以从<a href=\"https://link.zhihu.com/?target=https%3A//apps.ankiweb.net/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">官网</a>下载。这一步很重要，因为 FSRS 只能在 Anki 23.10 及更高版本中使用。</p><p data-pid=\"8yb3rWqh\">确保你的 Anki 版本已是最新后，以下是我们推荐使用的选项设置：</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-f860006a1ceb11452c75151b5abb0515_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"795\" data-rawheight=\"563\" data-original-token=\"v2-f860006a1ceb11452c75151b5abb0515\" class=\"origin_image zh-lightbox-thumb\" width=\"795\" data-original=\"https://pic2.zhimg.com/v2-f860006a1ceb11452c75151b5abb0515_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-9c1cc5e89911eba4658e26533ffb67e2_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"799\" data-rawheight=\"450\" data-original-token=\"v2-9c1cc5e89911eba4658e26533ffb67e2\" class=\"origin_image zh-lightbox-thumb\" width=\"799\" data-original=\"https://pica.zhimg.com/v2-9c1cc5e89911eba4658e26533ffb67e2_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-706de2036058fb760ded0f843153439f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"798\" data-rawheight=\"635\" data-original-token=\"v2-706de2036058fb760ded0f843153439f\" class=\"origin_image zh-lightbox-thumb\" width=\"798\" data-original=\"https://pic2.zhimg.com/v2-706de2036058fb760ded0f843153439f_r.jpg\"/></figure><p data-pid=\"YfMmcuuO\">除了设置 FSRS，我们唯一建议你进行个性化调整的选项是「每日限制」下的「每日新增卡片数」。这个选项控制 Anki 每天向你展示的新卡片数量。我们将在后续文章中解释如何确定该值。另外，不要被「每日复习上限」设为 9999 吓到！实际上你永远不会有那么多复习任务。设置一个极大的数值是为了确保 Anki 的算法有足够的空间，可以在恰当的时间向你展示任何它需要展示的卡片。</p><p data-pid=\"7RVr_g2-\">调整完选项后，别忘了点击「保存」！</p><h3><b>修复旧设置</b></h3><p data-pid=\"NjXUh6xG\">如果你已经使用 Anki 一段时间，可能还在使用我们之前的「Low-key Anki」设置。更新 Anki 版本并启用 FSRS，你就基本能跟上最新的设置了。只需额外一步：在启用 FSRS 并设置好你的「期望掌握率」后，点击「优化」按钮。这会更新你的 FSRS 参数，第二天你就可以开始使用 FSRS 进行复习了。</p><p data-pid=\"JLXXRxHG\">如果你担心已安装的插件，可以在<a href=\"https://link.zhihu.com/?target=https%3A//github.com/open-spaced-repetition/fsrs4anki%3Ftab%3Dreadme-ov-file%23add-on-compatibility\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这里</a>检查它们与 FSRS 的兼容性。但总的来说，如果你安装了会影响卡片间隔或排程的插件，它就不应与 FSRS 一同使用。</p><h2>学习</h2><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-f5990eb87178fd7035d2f3fadd0b4a61_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"662\" data-rawheight=\"581\" data-original-token=\"v2-f5990eb87178fd7035d2f3fadd0b4a61\" class=\"origin_image zh-lightbox-thumb\" width=\"662\" data-original=\"https://picx.zhimg.com/v2-f5990eb87178fd7035d2f3fadd0b4a61_r.jpg\"/></figure><p data-pid=\"GKzqcy9g\">要学习一个牌组，在 Anki 主窗口中选中它，然后点击「现在学习」。</p><p data-pid=\"9MWwrUqq\">学习时，Anki 会先展示卡片的正面，并提示你点击「显示答案」来翻看背面。一旦卡片背面显示出来，系统会提示你对其进行评分。</p><p data-pid=\"79K6XB2L\">在 Anki 中为卡片评分时，系统会让你从最多四个选项中选择：「重来」（again）、「困难」（hard）、「良好」（good）和「简单」（easy）。</p><p data-pid=\"4EYAfwK3\">（对于复习卡，所有四个选项都会显示。对于新卡，只显示「重来」、「良好」和「简单」。对于遗忘后重新学习的卡片，只显示「重来」和「良好」。）</p><p data-pid=\"go_MXNWZ\">为了简化复习时的决策过程，我们建议只使用「重来」和「良好」按钮，分别代表「失败」和「通过」。FSRS 算法非常智能，即使你使用全部四个按钮，它也能够自行调整。</p><p data-pid=\"Ixk2veOC\"><b>但是，切勿将「困难」按钮当作「失败」按钮来使用。FSRS 算法的假设是：当你点击「困难」时，代表你虽然想起来了，但过程非常费力（即仍然算通过）。将「困难」当作「失败」来用，会导致复习间隔变得过高，高到不合理。如果你决定使用全部四个按钮，请务必小心。</b></p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-d924b80b09c7bad5cb04d7e21412ea03_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"483\" data-rawheight=\"85\" data-original-token=\"v2-d924b80b09c7bad5cb04d7e21412ea03\" class=\"origin_image zh-lightbox-thumb\" width=\"483\" data-original=\"https://picx.zhimg.com/v2-d924b80b09c7bad5cb04d7e21412ea03_r.jpg\"/></figure><h2>数据统计</h2><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-957691b5b216a3850fc42ad43cdb79da_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"795\" data-rawheight=\"545\" data-original-token=\"v2-957691b5b216a3850fc42ad43cdb79da\" class=\"origin_image zh-lightbox-thumb\" width=\"795\" data-original=\"https://pic3.zhimg.com/v2-957691b5b216a3850fc42ad43cdb79da_r.jpg\"/></figure><p data-pid=\"YS7Hi9zs\">要查看你学习的各种数据，只需在 Anki 的主界面点击「统计」即可。</p><p data-pid=\"IN52sxXW\">最值得一提的数据就是「保留率」，也就是你评为「良好」或「简单」的卡片在总数里占的比例。你可以在统计页面里的「回答按钮」部分找到这个数据。</p><p data-pid=\"PkNZN62C\">保持率在三类卡片中分别计算：学习中、欠熟练和已熟练。「学习中」对应的是你还在学习过程中的卡片。「欠熟练」则是那些你已经学会但仍然每 20 天至少复习一次的卡片。「已熟练」则是那些你 21 天或更久才复习一次的卡片。</p><p data-pid=\"9qlgspq8\">事实上，保留率只对「已熟练」的卡片有意义。对于「学习中」的卡片，你还没完全掌握，自然容易忘记。同理，「欠熟练」的卡片是你最近刚学的，还没有牢固地记在脑子里。</p><p data-pid=\"lIziqsk_\">在语言学习方面，已熟练的卡片的理想保留率在 80% 至 90% 之间。如果你的保留率没有达到这个范围，我们在后面的《阶段 1C：最佳实践》一节里，有具体的应对建议。</p><hr/><p data-pid=\"AUzQtpJ7\">上一篇：<a href=\"https://zhuanlan.zhihu.com/p/655681003\" class=\"internal\" target=\"_blank\">1A2：养成被动收听习惯</a></p><p data-pid=\"9rMWZ3Ki\">下一篇：<a href=\"https://zhuanlan.zhihu.com/p/656617074\" class=\"internal\" target=\"_blank\">1B1：发音规则</a></p><hr/><blockquote data-pid=\"qg2n1Z1_\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">LockXie</span>，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//refold.la/roadmap/stage-1/a/anki-setup\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Basic Anki Setup | Refold</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19783871",
+      "type": "topic",
+      "id": "19783871",
+      "name": "Anki（知识记忆工具）"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19585374",
+      "type": "topic",
+      "id": "19585374",
+      "name": "语言学习"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19558435",
+      "type": "topic",
+      "id": "19558435",
+      "name": "英语学习"
+    }
+  ],
+  "voteup_count": 141,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "你并不需要刻意记住语言，而是要去熟悉语言",
+    "is_following": false,
+    "url_token": "c_1537015147880669184",
+    "id": "c_1537015147880669184",
+    "articles_count": 82,
+    "accept_submission": false,
+    "title": "外语习得",
+    "url": "https://api.zhihu.com/columns/c_1537015147880669184",
+    "comment_permission": "all",
+    "created": 1659232967,
+    "updated": 1751811168,
+    "image_url": "https://picx.zhimg.com/v2-9e674c4fb024a1226e2d46e314d3ca5f_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 840,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 25,
+  "contributions": [
+    {
+      "id": 46530241,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "你并不需要刻意记住语言，而是要去熟悉语言",
+        "is_following": false,
+        "url_token": "c_1537015147880669184",
+        "id": "c_1537015147880669184",
+        "articles_count": 82,
+        "accept_submission": false,
+        "title": "外语习得",
+        "url": "https://api.zhihu.com/columns/c_1537015147880669184",
+        "comment_permission": "all",
+        "created": 1659232967,
+        "updated": 1751811168,
+        "image_url": "https://picx.zhimg.com/v2-9e674c4fb024a1226e2d46e314d3ca5f_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 840,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 656108063,
-  "voteup_count": 86,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 327,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "1A3：Anki 初级配置教程 - 来自知乎专栏「外语习得」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/656108063 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1694664614,
-  "url": "https://api.zhihu.com/articles/656108063",
-  "comment_permission": "all",
-  "title": "1A3：Anki 初级配置教程",
-  "image_width": 1216,
-  "content": "<blockquote data-pid=\"7dsBjocR\">返回目录：<a href=\"https://zhuanlan.zhihu.com/p/671671625\" class=\"internal\">从 0 开始学外语：Refold 路线图（详细版）</a></blockquote><p data-pid=\"viZBo-wZ\">正如在<a href=\"https://link.zhihu.com/?target=https%3A//refold.la/roadmap/stage-0/c/active-study\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">阶段 0：主动非沉浸学习</a><sup data-text=\"0C3：主动非沉浸学习\" data-url=\"https://zhuanlan.zhihu.com/p/654942774\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>中所述：我们会运用间隔重复系统（简称 SRS）来主动学习目标语言词汇。</p><p data-pid=\"IEoZDraD\">虽然 SRS 软件五花八门，但我们还是倾向于推荐 Anki。这个软件不仅跨平台，而且功能齐全，在绝大多数平台上都是免费的。唯一的弊端就是入门门槛稍高。如果你对 Anki 的使用方式感到一头雾水，没关系，耐心摸索一两周，你就能渐入佳境。本篇文章主要会聚焦于 Anki 的基础用法。为了让你能快速上手，我们不会过多地深究每个设置背后的逻辑。</p><p data-pid=\"oRd1nkic\">在文章的最后部分，我们还会给那些想深究 Anki 细节的资深用户提供一些额外资源。</p><h2>安装</h2><p data-pid=\"EJwPYc7h\">你可以从 <a href=\"https://link.zhihu.com/?target=https%3A//apps.ankiweb.net/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anki 的官网</a>下载到最新的稳定版。桌面版完全免费，适用于 Windows、Mac 和 Linux。</p><p data-pid=\"mJZG7glp\">如果你是苹果用户，App Store 里有官方出品的 <a href=\"https://link.zhihu.com/?target=https%3A//apps.apple.com/us/app/ankimobile-flashcards/id373493387\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">AnkiMobile</a>，售价 24.99 美元（每个国家的价格不同）。安卓用户也不用担心，Google Play 上有第三方的免费应用 <a href=\"https://link.zhihu.com/?target=https%3A//play.google.com/store/apps/details%3Fid%3Dcom.ichi2.anki%26hl%3Den_US\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">AnkiDroid</a>。此外，Anki 还有网页版，叫做 <a href=\"https://link.zhihu.com/?target=https%3A//ankiweb.net/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">AnkiWeb</a>。</p><p data-pid=\"szVozI-H\">虽然 AnkiMobile、AnkiDroid 和 AnkiWeb 在卡片复习方面做得很好，但创建新卡片的功能相对有限。所以，本文接下来将重点介绍如何在桌面版上添加新卡片。</p><p data-pid=\"M-2ENalP\">本文的其余部分将侧重于桌面版 Anki 的设置。</p><h2>Anki 的组成要素</h2><h3>牌组</h3><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-12e68af0ccb6649f1e4cb762462fde1e_b.jpg\" data-size=\"normal\" data-rawwidth=\"600\" data-rawheight=\"409\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://pic1.zhimg.com/v2-12e68af0ccb6649f1e4cb762462fde1e_r.jpg\" data-original-token=\"v2-12e68af0ccb6649f1e4cb762462fde1e\"/><figcaption>anki decks</figcaption></figure><p data-pid=\"yiDNRBC1\">当你打开 Anki 时，首先映入眼帘的便是你的牌组列表。一开始，你只会有一个牌组，名为「默认牌组」。</p><p data-pid=\"AzmzbBjy\">牌组本质上是就是一组抽认卡。在学习时，你一次学习一个牌组。</p><p data-pid=\"NGqT6-xB\">要新建牌组，底下有个「新建牌组」的按钮，点一下就行。牌组数量没上限，单个牌组里放多少张卡也没有限制。</p><p data-pid=\"bPThCV-D\">一般来说，我们建议把你所有的卡片放在一到两个牌组里。将你的卡片分成许多牌组，会人为地把卡片复习变得太容易了，例如，如果你有一副专门用于「动物名称」的牌组，当复习这个牌组时，你的大脑会自动知道答案一定是动物名称。这个「提示」会让你更容易回忆起答案。由于你在现实生活中没有这类提示可以依靠，所以最好在没有提示的情况下进行练习。</p><h3>笔记和卡片</h3><p data-pid=\"KkJ89jNE\">在 Anki 里，最容易让人摸不着头脑的就是「笔记」和「卡片」的区别。如果你一开始觉得费解，不必纠结。只需了解这两样东西存在就行，随着时间推移，你自然会明白其中道理。</p><p data-pid=\"rqoe_Tsq\">Anki 最基本的单位是「笔记」，这是一个非常抽象的概念。你不能像拿实物一样触摸或拿起一条笔记，这让它显得更加复杂。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-cea818ff27bbe463cc0134afde2ce42b_b.jpg\" data-size=\"normal\" data-rawwidth=\"600\" data-rawheight=\"595\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://pic2.zhimg.com/v2-cea818ff27bbe463cc0134afde2ce42b_r.jpg\" data-original-token=\"v2-cea818ff27bbe463cc0134afde2ce42b\"/><figcaption>anki note data entry</figcaption></figure><p data-pid=\"cRmmcs-t\">简单来说，笔记就是一堆有关联的数据。比如，你可能会有以下五类信息：</p><ul><li data-pid=\"vDPuAKLk\"> 你目标语言中某个单词的写法<br/> </li><li data-pid=\"Jk5GRcPL\"> 使用这个单词的一条例句<br/> </li><li data-pid=\"sFsD1x3N\"> 这个单词在你的母语里的粗略翻译<br/> </li><li data-pid=\"S3Gyx2q2\"> 母语者说这个词的音频<br/> </li><li data-pid=\"FDbWe232\"> 你在谷歌图片上搜索该词时发现的图片<br/> </li></ul><p data-pid=\"Lh0I1aAG\">所以，一条笔记就是这五类数据（无形地）聚在一起。</p><p data-pid=\"KBlF_wfS\">这些数据会被转换为抽认卡（在 Anki 里就叫「卡片」），也就是你每天都要复习的那些卡片。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-e21f1b369ae95edfa57789b743a19a82_b.jpg\" data-size=\"normal\" data-rawwidth=\"600\" data-rawheight=\"697\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://pic1.zhimg.com/v2-e21f1b369ae95edfa57789b743a19a82_r.jpg\" data-original-token=\"v2-e21f1b369ae95edfa57789b743a19a82\"/><figcaption>anki cards in browser</figcaption></figure><p data-pid=\"yYy2KSOa\">总结一下：笔记是一组数据的集合，而这些数据会用来生成一张或多张卡片。</p><p data-pid=\"G1yKUSLF\">你也许会好奇，这些卡片是怎么生成的，这就引出了另一个抽象概念：笔记类型。</p><h3>笔记类型</h3><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-a634418b9948ab98f8efbece36899190_b.jpg\" data-size=\"normal\" data-rawwidth=\"596\" data-rawheight=\"429\" class=\"origin_image zh-lightbox-thumb\" width=\"596\" data-original=\"https://pica.zhimg.com/v2-a634418b9948ab98f8efbece36899190_r.jpg\" data-original-token=\"v2-a634418b9948ab98f8efbece36899190\"/><figcaption>anki note types</figcaption></figure><p data-pid=\"mdmsx0qV\">笔记类型比笔记更抽象，如果你现在感到困惑，这没关系。</p><p data-pid=\"C6ITdy7y\">笔记类型是笔记的蓝图，它由以下部分组成：</p><ul><li data-pid=\"lRRlfD0o\"> 一个名字<br/> </li><li data-pid=\"2_CbBYiH\"> 一系列字段<br/> </li><li data-pid=\"0oftVK4c\"> 一组卡片类型<br/> </li></ul><p data-pid=\"dFnZ1y3O\">重复上面的例子，笔记类型的名称可能是「词汇」，因为它是用来创建用于生成词汇卡的笔记。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-5bfa0d14b6b2cd819706104f2b4bc54b_b.jpg\" data-size=\"normal\" data-rawwidth=\"600\" data-rawheight=\"555\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://pic2.zhimg.com/v2-5bfa0d14b6b2cd819706104f2b4bc54b_r.jpg\" data-original-token=\"v2-5bfa0d14b6b2cd819706104f2b4bc54b\"/><figcaption>anki vocabulary note type</figcaption></figure><p data-pid=\"8PZs-4P4\">字段列表可能包括：</p><ul><li data-pid=\"7hlBqSWT\"> 单词<br/> </li><li data-pid=\"AUTw69cm\"> 例句<br/> </li><li data-pid=\"DPtlm7y0\"> 释义<br/> </li><li data-pid=\"7DHeA20o\"> 音频<br/> </li><li data-pid=\"onM4laOd\"> 图片<br/> </li></ul><p data-pid=\"WB9r5-dg\">这些字段就是预留的地方，用来在笔记里存放数据。</p><h3>卡片类型</h3><p data-pid=\"S46olojG\">卡片类型实际上是 Anki 用来生成卡片的视觉模板。在这里，你得明确卡片正反两面要展示哪些信息。虽然 Anki 允许你为同一种笔记类型设置多个卡片类型，但我们并不建议这样做。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-5304144c875ac1a0a335c4804c54a995_b.jpg\" data-size=\"normal\" data-rawwidth=\"600\" data-rawheight=\"417\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://pic2.zhimg.com/v2-5304144c875ac1a0a335c4804c54a995_r.jpg\" data-original-token=\"v2-5304144c875ac1a0a335c4804c54a995\"/><figcaption>anki vocabulary card type</figcaption></figure><h3>小结</h3><ul><li data-pid=\"-O--9mA8\"> 笔记用于储存数据<br/> </li><li data-pid=\"xgIC6LS4\"> 卡片是你复习的对象<br/> </li><li data-pid=\"kiDvo3VP\"> 笔记类型规定了笔记可以储存哪些信息<br/> </li><li data-pid=\"gspktF25\"> 卡片类型则决定了卡片上展示什么内容<br/> </li></ul><p data-pid=\"Y8q8QhEi\">如果你更改了某个笔记类型，所有相关联的卡片都会立即发生改变。同理，如果你调整了卡片类型，所有相关的卡片也会随之改动。</p><p data-pid=\"JEU4WTKx\">Anki 内置了五种笔记类型。你可以对这些笔记类型进行修改，也可以从头开始创建新的。要修改或新增笔记类型，你需要在 Anki 的主界面上点击「工具 &gt; 管理笔记类型」。</p><h2>添加卡片</h2><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-cec66367d7304a2e79eab2188916af43_b.jpg\" data-size=\"normal\" data-rawwidth=\"600\" data-rawheight=\"481\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://picx.zhimg.com/v2-cec66367d7304a2e79eab2188916af43_r.jpg\" data-original-token=\"v2-cec66367d7304a2e79eab2188916af43\"/><figcaption>anki add note</figcaption></figure><p data-pid=\"-z92PZ68\">Anki 本身并未预装任何学习资料。你需要自己创建卡片，或者导入别人预制的牌组。</p><p data-pid=\"yD6kjxhh\">要新建卡片，点击 Anki 主界面顶部的「添加」按钮，进入添加窗口。</p><p data-pid=\"z3gBz93D\">在添加窗口的顶部，你可以选择想用的笔记类型和将卡片放入哪个牌组。然后填写相关字段，点击「添加」。</p><h3>预制牌组</h3><p data-pid=\"nQFYFtAB\">除了制作你自己的卡片之外，你还可以从 <a href=\"https://link.zhihu.com/?target=https%3A//ankiweb.net/shared/decks/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anki 网站</a>上下载其他人制作的牌组。</p><p data-pid=\"uP0tVcl6\">因为每张卡片都与一种笔记类型相关联，所以当你添加别人的牌组时，它通常会附带一种新的笔记类型，这个笔记类型也将被添加到你的集合中，你可以在自己手动添加新卡时使用它。</p><h2>浏览器</h2><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-1fa80c550abe74e2c721ca2218b184a5_b.jpg\" data-size=\"normal\" data-rawwidth=\"600\" data-rawheight=\"418\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://pic2.zhimg.com/v2-1fa80c550abe74e2c721ca2218b184a5_r.jpg\" data-original-token=\"v2-1fa80c550abe74e2c721ca2218b184a5\"/><figcaption>anki browser</figcaption></figure><p data-pid=\"6i_c_Q8K\">Anki 浏览器是查看和编辑你所有卡片的地方。</p><p data-pid=\"6ASBqTNc\">要打开浏览器，只需点击 Anki 主界面上方的「浏览」按钮。</p><p data-pid=\"y_Sbtnun\">在浏览器中寻找卡片时，你可以按牌组、笔记类型或标签进行筛选，你也可以使用搜索窗口。</p><p data-pid=\"EOiOkwd-\">想修改卡片字段的内容，直接在浏览器里选中就行。要删除卡片或者挪到别的牌组，用鼠标右键点击卡片，选择相应的选项。</p><h2>偏好设置</h2><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-525d13a62d00cb3cf5d2217385724ecb_b.jpg\" data-size=\"normal\" data-rawwidth=\"600\" data-rawheight=\"571\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://pic2.zhimg.com/v2-525d13a62d00cb3cf5d2217385724ecb_r.jpg\" data-original-token=\"v2-525d13a62d00cb3cf5d2217385724ecb\"/><figcaption>anki preferences</figcaption></figure><p data-pid=\"n7KYBcXF\">偏好设置是影响整个 Anki 程序的全局设置，你可以通过 Anki 主界面上的「工具 &gt; 偏好设置…」来访问。</p><p data-pid=\"7MX8aaDo\">我们建议改变偏好设置中的一个开关：在「复习」标签页中的「在回答按钮上显示下次复习时间」。当这个选项被打开的时候，在复习卡片的时候，每一个回答按钮的上方都会显示卡片的下一次复习的估计时间。这可能会使你怀疑自己的记忆力，并给卡片打上过于保守的分数，最好是相信算法，不要担心具体数字。</p><p data-pid=\"uxK6jTsa\">如果你想同步 Anki 集合到你的 AnkiWeb 账户，可以在「网络」标签页里设置。这样你就能把信息同步到其他设备上。</p><h2>选项</h2><p data-pid=\"cFsICUJ0\">选项是你自定义 Anki 的算法如何工作的具体细节的地方，选项是在单个牌组层面上设置的。</p><p data-pid=\"Sf44KHj7\">在选项窗口的顶部，你可以看到哪个「选项组」正被应用于当前的牌组。一个选项组是一组选项。你可以为每个牌组创建一个选项组，或者让多个牌组共享一个选项组。</p><p data-pid=\"oX3ari2q\">如果你使用多个牌组，我们建议为每个牌组创建一个单独的选项组。你可以通过按右上方的「管理...」，选择「新增」来创建一个新的选项组。</p><h2>推荐的选项设置</h2><p data-pid=\"TygoyMQd\">Anki 自带的默认选项设置有很多问题，为了适应语言学习，有必要进行精细调整。</p><blockquote data-pid=\"pMkAzmjx\">译注：用 FSRS 算法的可以跳过这节了。</blockquote><p data-pid=\"1hnyDRup\">下面是我们推荐使用的选项设置：</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-8287c69ea7861c950ce63adf042ad452_b.jpg\" data-size=\"normal\" data-rawwidth=\"573\" data-rawheight=\"602\" class=\"origin_image zh-lightbox-thumb\" width=\"573\" data-original=\"https://pica.zhimg.com/v2-8287c69ea7861c950ce63adf042ad452_r.jpg\" data-original-token=\"v2-8287c69ea7861c950ce63adf042ad452\"/><figcaption>anki deckoptions 1</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-cb3bc15d53fb890d93189d8a49ebe434_b.jpg\" data-size=\"normal\" data-rawwidth=\"600\" data-rawheight=\"590\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://pic1.zhimg.com/v2-cb3bc15d53fb890d93189d8a49ebe434_r.jpg\" data-original-token=\"v2-cb3bc15d53fb890d93189d8a49ebe434\"/><figcaption>anki deckoptions 2</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-aa679401851ec944eac79171e31b0482_b.jpg\" data-size=\"normal\" data-rawwidth=\"600\" data-rawheight=\"590\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://pica.zhimg.com/v2-aa679401851ec944eac79171e31b0482_r.jpg\" data-original-token=\"v2-aa679401851ec944eac79171e31b0482\"/><figcaption>anki deckoptions 3</figcaption></figure><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-abf0c7925f6a5ffcd6db1be54057f32c_b.jpg\" data-size=\"normal\" data-rawwidth=\"573\" data-rawheight=\"602\" class=\"origin_image zh-lightbox-thumb\" width=\"573\" data-original=\"https://pic1.zhimg.com/v2-abf0c7925f6a5ffcd6db1be54057f32c_r.jpg\" data-original-token=\"v2-abf0c7925f6a5ffcd6db1be54057f32c\"/><figcaption>anki deckoptions 4</figcaption></figure><p data-pid=\"dNZ8ss7N\">唯一需要个性化的选项就是「新卡片/天」这个设置，在「新卡片」标签页里。这个选项决定了 Anki 每天会给你展示多少新卡片。具体应设置为何值，我们会在后面的文章里详细解释。</p><h3>修正旧设置</h3><p data-pid=\"kMZxm1g0\">如果你用 Anki 已经有一段时间了，那你需要更新旧的卡片并卸载过时的插件。</p><p data-pid=\"Ikzm7PB0\">要更新旧的卡片，请使用 <a href=\"https://link.zhihu.com/?target=https%3A//ankiweb.net/shared/info/819023663\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Refold Ease</a> 插件。Refold Ease 的默认设置已经足够好了（虽然我们知道间隔修改器上有 1% 的差异）。</p><p data-pid=\"c_M3npzS\">若你曾安装过下面列出的任何插件，建议一并卸载：</p><ol><li data-pid=\"i9i3NyWz\"> No Penalties or Boosting<br/> </li><li data-pid=\"gkNHqgNh\"> ResetEZ<br/> </li></ol><h2>学习</h2><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-607b27a619cc88da4f84fd33f961eb56_b.jpg\" data-size=\"normal\" data-rawwidth=\"600\" data-rawheight=\"409\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://pica.zhimg.com/v2-607b27a619cc88da4f84fd33f961eb56_r.jpg\" data-original-token=\"v2-607b27a619cc88da4f84fd33f961eb56\"/><figcaption>anki studying</figcaption></figure><p data-pid=\"MCo3GrQQ\">要学习一个牌组，先在 Anki 的主界面里选中这个牌组，然后点「现在学习」。</p><p data-pid=\"_1mPkemV\">当你在学的时候，Anki 先给你看卡片的正面，然后提示你按「显示答案」看卡片的背面。背面一旦出现，系统就会让你给本次回忆打分。</p><p data-pid=\"5RPUNm1z\">在给复习打分时，Anki 会让你从四个选项里选一个：「重来」，「困难」，「良好」和「简单」。</p><p data-pid=\"Pk62Cb6j\"><b>我们强烈建议【只】用「重来」和「良好」按钮，而避免使用「困难」和「简单」按钮。</b></p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-56f219f06124fbcbe680ad70bc8c0ac3_b.jpg\" data-size=\"normal\" data-rawwidth=\"483\" data-rawheight=\"85\" class=\"origin_image zh-lightbox-thumb\" width=\"483\" data-original=\"https://pic2.zhimg.com/v2-56f219f06124fbcbe680ad70bc8c0ac3_r.jpg\" data-original-token=\"v2-56f219f06124fbcbe680ad70bc8c0ac3\"/><figcaption>anki buttons xd</figcaption></figure><p data-pid=\"h1vpM1tt\">这是因为「困难」和「简单」两个按钮对 Anki 算法的影响与直觉相悖，长期下来会引发问题。具体原因，可参见本文末尾的「按键精简版 Anki 」一节。</p><h2>数据统计</h2><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-7d5286bc36a178ab85df690983eb154f_b.jpg\" data-size=\"normal\" data-rawwidth=\"600\" data-rawheight=\"370\" class=\"origin_image zh-lightbox-thumb\" width=\"600\" data-original=\"https://pic4.zhimg.com/v2-7d5286bc36a178ab85df690983eb154f_r.jpg\" data-original-token=\"v2-7d5286bc36a178ab85df690983eb154f\"/><figcaption>anki stats</figcaption></figure><p data-pid=\"OFoL-AQD\">要查看你学习的各种数据，只需在 Anki 的主界面点击「统计」即可。</p><p data-pid=\"COxUfP10\">最值得一提的数据就是「保留率」，也就是你评为「良好」或「简单」的卡片在总数里占的比例。你可以在统计页面里的「回答按钮」部分找到这个数据。</p><p data-pid=\"7xb1dys7\">保持率在三类卡片中分别计算：学习中、欠熟练和已熟练。「学习中」对应的是你还在学习过程中的卡片。「欠熟练」则是那些你已经学会但仍然每 20 天至少复习一次的卡片。「已熟练」则是那些你 21 天或更久才复习一次的卡片。</p><p data-pid=\"-2mL2OJt\">事实上，保留率只对「已熟练」的卡片有意义。对于「学习中」的卡片，你还没完全掌握，自然容易忘记。同理，「欠熟练」的卡片是你最近刚学的，还没有牢固地记在脑子里。</p><p data-pid=\"nrLDXRqg\">在语言学习方面，已熟练的卡片的理想保留率在 80% 至 90% 之间。如果你的保留率没有达到这个范围，我们在后面的《阶段 1C：最佳实践》一节里，有具体的应对建议。</p><h2>新手别往下读了</h2><p data-pid=\"HcwWbHML\">文章接下来的部分会详细剖析 Anki 的算法。如果你刚接触 Anki，建议先跳过这部分，直接阅读<a href=\"https://link.zhihu.com/?target=https%3A//refold.la/roadmap/stage-1/b/phonetics\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">下一篇文章</a>。</p><h2>高级用法</h2><p data-pid=\"kNnLSo8S\">跟着上面的步骤，你能搞定 Anki 优化的 90%。不过，要想彻底玩转，你得先弄明白 Anki 的算法是怎么回事。如果你还不熟悉 Anki，先把基础搞定，一个月或两个月后再回头来看这部分。</p><h3>算法全解</h3><p data-pid=\"pkGvtDXD\">下面这个视频详尽解析了 Anki 的算法，以及各种设置选项的效果。</p><ul><li data-pid=\"r_GWisAZ\"><a href=\"https://link.zhihu.com/?target=https%3A//www.youtube.com/watch%3Fv%3Dlz60qTP2Gx0\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Anki Tutorial | Deck Options and Anki&#39;s Algorithm</a></li></ul><h2>按键精简版 Anki</h2><p data-pid=\"2_2O6sIV\">按键精简版 Anki 是在 Refold 社群中颇受欢迎的 Anki 算法改进。在语言学习的场景下，它能避开默认算法的多数缺陷，让你的复习效率大大提升。</p><p data-pid=\"UdiNZun2\">我们已经把按键精简版 Anki 融入到了上文推荐的设置选项和复习指南中。只要你按照推荐设置和复习指南去做，就能充分享受到按键精简版 Anki 带来的好处。</p><p data-pid=\"Qh37So9h\">如果你想了解按键精简版 Anki 背后的基本逻辑，请阅读<a href=\"https://link.zhihu.com/?target=https%3A//web.archive.org/web/20210203165239if_/https%3A//massimmersionapproach.com/table-of-contents/anki/low-key-anki/intro/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这一系列的文章</a>。</p><h2>按键精简版 Anki 浅析</h2><p data-pid=\"kf8CZ3zS\">按键精简版 Anki 包含两个部分：只用「重来」和「良好」的按钮，以及取消所有的简易度变化。正如上面链接的一系列文章所解释的那样，这最初是通过一个插件来实现的，这个插件可以阻止 Anki 改变卡片的简易度，而不论你怎么对卡片评分，但你要知道，其实不用任何附加组件，也能搞定这个按键精简版 Anki 。</p><p data-pid=\"NNWFWwq2\">在 Anki 中，一张卡片的最低简易度是 130%。一旦简易度达到 130%，即使这张卡片评为「重来」或「困难」，它也不会下降。因此，只要一开始就把卡片的初始简易度设为 130%，并假设用户从不点「简单」按钮，那么卡片的简易度将永远不会改变。由于简易度一开始就在底线上，所以点「重来」和「困难」按钮不会降低简易度，而「良好」按钮本就不会改变简易度。</p><p data-pid=\"kZaR8PLn\">这个低初始简易度可以通过把全局间隔乘数提高到 192% 来平衡。这样一来，卡片的间隔增长跟初始简易度为 250% 和全局间隔乘数为 100% 时是一样的。</p><p data-pid=\"moD_4rd3\">不幸的是，Anki 2.1.35 有一个 bug，导致所有简易度为 130% 的卡片都会被重置到 250% 的初始简易度。为了绕过这个 bug，我们把最低简易度改为了 131%，全局间隔乘数也调到了 191%。</p><p data-pid=\"2nvp_Qce\">这个无插件版本的按键精简版 Anki，就是上面推荐设置里已经用上的那个。</p><hr/><p data-pid=\"f3q0jJBK\">上一篇：<a href=\"https://zhuanlan.zhihu.com/p/655681003\" class=\"internal\">1A2：养成被动收听习惯</a></p><p data-pid=\"YA4HfP6n\">下一篇：<a href=\"https://zhuanlan.zhihu.com/p/656617074\" class=\"internal\">1B1：发音规则</a></p><hr/><blockquote data-pid=\"qg2n1Z1_\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">LockXie</span>，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//refold.la/roadmap/stage-1/a/anki-setup\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Basic Anki Setup | Refold</a></blockquote>",
-  "column": {
-    "updated": 1659232967,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/c_1537015147880669184",
-    "title": "外语习得",
-    "image_url": "https://pica.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1537015147880669184"
-  },
-  "comment_count": 23,
-  "image_url": "https://picx.zhimg.com/v2-582aeaf38c1148f701cd3f5bce31ea5e_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 46,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 46,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMzM5MzAyNzASCTY1NjEwODA2MxgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 141,
+      "down_vote_count": 2,
+      "like_count": 46,
+      "comment_count": 25,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 327,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-48ac67e7c4fb8fd2f55bdf48f1ee64e0": 0,
+        "v2-582aeaf38c1148f701cd3f5bce31ea5e": 0,
+        "v2-706de2036058fb760ded0f843153439f": 0,
+        "v2-71d986307eeead528ff9047f98433b94": 0,
+        "v2-87bbd99f10d39fc0453779ddfb466560": 0,
+        "v2-957691b5b216a3850fc42ad43cdb79da": 0,
+        "v2-9c1cc5e89911eba4658e26533ffb67e2": 0,
+        "v2-b6323751ef9211972bd4af6686d3f054": 0,
+        "v2-bc5d91d048138d66ac4bbb328a3e4df1": 0,
+        "v2-c5f28fd399efd60666b431f85175a681": 0,
+        "v2-d924b80b09c7bad5cb04d7e21412ea03": 0,
+        "v2-f5990eb87178fd7035d2f3fadd0b4a61": 0,
+        "v2-f656957d47ec4821a268449fda3f5a5f": 0,
+        "v2-f860006a1ceb11452c75151b5abb0515": 0,
+        "v2-f90d21c67e8619cc21324a1b014f4e44": 0,
+        "v2-fab03ba6e18e06a84a731d21bff114af": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-48ac67e7c4fb8fd2f55bdf48f1ee64e0": false,
+        "v2-582aeaf38c1148f701cd3f5bce31ea5e": false,
+        "v2-706de2036058fb760ded0f843153439f": false,
+        "v2-71d986307eeead528ff9047f98433b94": false,
+        "v2-87bbd99f10d39fc0453779ddfb466560": false,
+        "v2-957691b5b216a3850fc42ad43cdb79da": false,
+        "v2-9c1cc5e89911eba4658e26533ffb67e2": false,
+        "v2-b6323751ef9211972bd4af6686d3f054": false,
+        "v2-bc5d91d048138d66ac4bbb328a3e4df1": false,
+        "v2-c5f28fd399efd60666b431f85175a681": false,
+        "v2-d924b80b09c7bad5cb04d7e21412ea03": false,
+        "v2-f5990eb87178fd7035d2f3fadd0b4a61": false,
+        "v2-f656957d47ec4821a268449fda3f5a5f": false,
+        "v2-f860006a1ceb11452c75151b5abb0515": false,
+        "v2-f90d21c67e8619cc21324a1b014f4e44": false,
+        "v2-fab03ba6e18e06a84a731d21bff114af": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-48ac67e7c4fb8fd2f55bdf48f1ee64e0": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-582aeaf38c1148f701cd3f5bce31ea5e": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-706de2036058fb760ded0f843153439f": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-71d986307eeead528ff9047f98433b94": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-87bbd99f10d39fc0453779ddfb466560": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-957691b5b216a3850fc42ad43cdb79da": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-9c1cc5e89911eba4658e26533ffb67e2": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-b6323751ef9211972bd4af6686d3f054": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-bc5d91d048138d66ac4bbb328a3e4df1": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-c5f28fd399efd60666b431f85175a681": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-d924b80b09c7bad5cb04d7e21412ea03": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-f5990eb87178fd7035d2f3fadd0b4a61": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-f656957d47ec4821a268449fda3f5a5f": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-f860006a1ceb11452c75151b5abb0515": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-f90d21c67e8619cc21324a1b014f4e44": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-fab03ba6e18e06a84a731d21bff114af": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/30453365743?contentId=656108063&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 外语习得",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1537015147880669184",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 外语习得"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

@@ -1,7 +1,8 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
     "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
     "badge": [],
     "badge_v2": {
@@ -19,7 +20,7 @@
     "is_privacy": false,
     "name": "Jarrett Ye",
     "type": "people",
-    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "url": "https://www.zhihu.com/api/v4/people/3c9990a12cdbcd92e20b1387b160f0a3",
     "url_token": "JarrettYe",
     "user_type": "people"
   },
@@ -35,11 +36,22 @@
   "content_need_truncated": false,
   "created_time": 1756895651,
   "excerpt": "不太行，因为我们需要 ground truth。市场就是 ground truth。没有 ground truth，AI 可能会陷入错误的优化而无法被纠正。 让赛博 Gwern Branwen 来回答一下： 市场作为优化的基准真相经济系统（以及许多其他复杂系统）是一个 双层嵌套的优化问题。AI 计划经济的设想只看到了其中一层，却忽略了至关重要、无法被替代的另一层。这两层分别是： 内部优化层（AI 计划）：这一层快速、高效，能解决极其复杂的规划问题（如谷歌的数据…",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "1946642131440611922",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/1944108824375060346": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"演化：强化学习的最终保障\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/1944108824375060346\",\"desc\":\"6 赞同 · 0 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eJarrett Ye:\\u003c/a\\u003e 市场/演化可作为强化学习/优化的最终保障/基准真相：本文探讨科斯的企业理论、线性优化、深度强化学习、演化、多细胞生命、痛苦、互联网社区作为多层次优化问题之间的一些联系。 摘要为自由市场辩护的观点之一，是指出非市场机制无法解决计划与优化问题。然而，这一观点与科斯的企业悖论难以自洽。并且我注意到，随着计算机、算法和数据的进步，规模日益庞大的计划问题 的确正在被解决，这让前述观点更显窘迫。在 Cosma Shalizi …\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-81c3fd4239aa0043afcd0d3fc6230788_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"1944108824375060346\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/1944108824375060346": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"演化：强化学习的最终保障\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/1944108824375060346\",\"desc\":\"7 赞同 · 0 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eJarrett Ye:\\u003c/a\\u003e 市场/演化可作为强化学习/优化的最终保障/基准真相：本文探讨科斯的企业理论、线性优化、深度强化学习、演化、多细胞生命、痛苦、互联网社区作为多层次优化问题之间的一些联系。 摘要为自由市场辩护的观点之一，是指出非市场机制无法解决计划与优化问题。然而，这一观点与科斯的企业悖论难以自洽。并且我注意到，随着计算机、算法和数据的进步，规模日益庞大的计划问题 的确正在被解决，这让前述观点更显窘迫。在 Cosma Shalizi …\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-81c3fd4239aa0043afcd0d3fc6230788_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"1944108824375060346\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1946642131440611922&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1541260916,
@@ -50,11 +62,13 @@
     "title": "靠 AI 来实行计划经济可行吗？",
     "type": "question",
     "updated_time": 1542793220,
-    "url": "https://api.zhihu.com/questions/301176807"
+    "url": "https://www.zhihu.com/api/v4/questions/301176807"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1756895821,
+  "url": "https://www.zhihu.com/api/v4/answers/1946642131440611922",
   "voteup_count": 1
 }

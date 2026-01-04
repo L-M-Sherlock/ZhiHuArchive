@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,19 +37,21 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "supermemo.guru 长期翻译中",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,35 +84,55 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 6,
-  "content": "<p data-pid=\"AxMP9uqf\">本系列专门介绍 SuperMemo 的各种小技巧和绕坑方法：</p><a href=\"https://www.zhihu.com/collection/797904700\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">SuperMemo tips</a><p data-pid=\"iF02jrml\">撤销文本编辑 ctrl + z，这个应该属于国际惯例了。</p><p data-pid=\"S7WqEWHV\">复习撤销需要操作一下：</p><p data-pid=\"S84jtfjL\">假如你评分评错了，并且已经开始学下一张卡片了，那么请 alt + ⬅ 返回到上一张卡片。</p><p data-pid=\"SzQjqTAY\">然后，右键下面这个工具栏的空白处，在菜单中找到 Learning - undo repetition</p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-3e0f5fcbafc789f9f80f42f0c71d5b38_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1272\" data-rawheight=\"876\" data-original-token=\"v2-3e0f5fcbafc789f9f80f42f0c71d5b38\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-454c48442325aaa25a3e2a8d35120ab6_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1272\" data-original=\"https://picx.zhimg.com/v2-3e0f5fcbafc789f9f80f42f0c71d5b38_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1272&#39; height=&#39;876&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1272\" data-rawheight=\"876\" data-original-token=\"v2-3e0f5fcbafc789f9f80f42f0c71d5b38\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-454c48442325aaa25a3e2a8d35120ab6_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1272\" data-original=\"https://picx.zhimg.com/v2-3e0f5fcbafc789f9f80f42f0c71d5b38_r.jpg?source=2c26e567\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-3e0f5fcbafc789f9f80f42f0c71d5b38_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"n93TcLUP\">点击后会弹出确认框，问你要不要把上次的复习记录删掉，确定就行了。</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-d2a2285280f3989c5aaf7c6bb3cd3eea_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"999\" data-rawheight=\"194\" data-original-token=\"v2-d2a2285280f3989c5aaf7c6bb3cd3eea\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-cbe72d4ebf98cb922f5c1825e60d1761_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"999\" data-original=\"https://picx.zhimg.com/v2-d2a2285280f3989c5aaf7c6bb3cd3eea_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;999&#39; height=&#39;194&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"999\" data-rawheight=\"194\" data-original-token=\"v2-d2a2285280f3989c5aaf7c6bb3cd3eea\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-cbe72d4ebf98cb922f5c1825e60d1761_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"999\" data-original=\"https://picx.zhimg.com/v2-d2a2285280f3989c5aaf7c6bb3cd3eea_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-d2a2285280f3989c5aaf7c6bb3cd3eea_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"t71XXgxh\">然后 Learn 就行了，之前这张卡片会重新出现，你正常评分即可。</p><p data-pid=\"qjgRK7yz\">Contents 的撤销我也不会了，勤备份吧。</p>",
+  "content": "<p data-pid=\"AxMP9uqf\">本系列专门介绍 SuperMemo 的各种小技巧和绕坑方法：</p><a href=\"https://www.zhihu.com/collection/797904700\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\"internal\">SuperMemo tips</a><p data-pid=\"iF02jrml\">撤销文本编辑 ctrl + z，这个应该属于国际惯例了。</p><p data-pid=\"S7WqEWHV\">复习撤销需要操作一下：</p><p data-pid=\"S84jtfjL\">假如你评分评错了，并且已经开始学下一张卡片了，那么请 alt + ⬅ 返回到上一张卡片。</p><p data-pid=\"SzQjqTAY\">然后，右键下面这个工具栏的空白处，在菜单中找到 Learning - undo repetition</p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-3e0f5fcbafc789f9f80f42f0c71d5b38_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1272\" data-rawheight=\"876\" data-original-token=\"v2-3e0f5fcbafc789f9f80f42f0c71d5b38\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-454c48442325aaa25a3e2a8d35120ab6_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"1272\" data-original=\"https://picx.zhimg.com/v2-3e0f5fcbafc789f9f80f42f0c71d5b38_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1272&#39; height=&#39;876&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1272\" data-rawheight=\"876\" data-original-token=\"v2-3e0f5fcbafc789f9f80f42f0c71d5b38\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-454c48442325aaa25a3e2a8d35120ab6_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1272\" data-original=\"https://picx.zhimg.com/v2-3e0f5fcbafc789f9f80f42f0c71d5b38_r.jpg?source=2c26e567\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-3e0f5fcbafc789f9f80f42f0c71d5b38_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"n93TcLUP\">点击后会弹出确认框，问你要不要把上次的复习记录删掉，确定就行了。</p><figure data-size=\"normal\"><noscript><img src=\"https://pica.zhimg.com/50/v2-d2a2285280f3989c5aaf7c6bb3cd3eea_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"999\" data-rawheight=\"194\" data-original-token=\"v2-d2a2285280f3989c5aaf7c6bb3cd3eea\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-cbe72d4ebf98cb922f5c1825e60d1761_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"999\" data-original=\"https://pic1.zhimg.com/v2-d2a2285280f3989c5aaf7c6bb3cd3eea_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;999&#39; height=&#39;194&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"999\" data-rawheight=\"194\" data-original-token=\"v2-d2a2285280f3989c5aaf7c6bb3cd3eea\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-cbe72d4ebf98cb922f5c1825e60d1761_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"999\" data-original=\"https://pic1.zhimg.com/v2-d2a2285280f3989c5aaf7c6bb3cd3eea_r.jpg?source=2c26e567\" data-actualsrc=\"https://pica.zhimg.com/50/v2-d2a2285280f3989c5aaf7c6bb3cd3eea_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"t71XXgxh\">然后 Learn 就行了，之前这张卡片会重新出现，你正常评分即可。</p><p data-pid=\"qjgRK7yz\">Contents 的撤销我也不会了，勤备份吧。</p>",
   "content_need_truncated": false,
   "created_time": 1635393177,
   "excerpt": "本系列专门介绍 SuperMemo 的各种小技巧和绕坑方法： SuperMemo tips 撤销文本编辑 ctrl + z，这个应该属于国际惯例了。 复习撤销需要操作一下： 假如你评分评错了，并且已经开始学下一张卡片了，那么请 alt + ⬅ 返回到上一张卡片。 然后，右键下面这个工具栏的空白处，在菜单中找到 Learning - undo repetition [图片] 点击后会弹出确认框，问你要不要把上次的复习记录删掉，确定就行了。 [图片] 然后 Learn 就行了，之前这张卡片会重新出现…",
-  "id": 2193309484,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2193309484",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://www.zhihu.com/collection/797904700": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"SuperMemo tips\",\"card_open_url\":\"https://www.zhihu.com/collection/797904700\",\"desc\":\"374 关注 · 7552 浏览 \\u003ca class=\\\"tag type_a\\\"\\u003e收藏夹\\u003c/a\\u003e\",\"content\":\"收录 15 个内容\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-b2918ef3f9c19572ba524ac59316a917_r.jpg?source=2c26e567\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"COLLECTION\",\"content_id\":\"797904700\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://www.zhihu.com/collection/797904700": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"SuperMemo tips\",\"card_open_url\":\"https://www.zhihu.com/collection/797904700\",\"desc\":\"408 关注 · 8564 浏览 \\u003ca class=\\\"tag type_a\\\"\\u003e收藏夹\\u003c/a\\u003e\",\"content\":\"收录 15 个内容\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-b2918ef3f9c19572ba524ac59316a917_r.jpg?source=2c26e567\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"COLLECTION\",\"content_id\":\"797904700\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=2193309484&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1635392574,
     "detail": "<p>在对文本编辑、复习时都想进行撤销操作却不敢操作</p>",
-    "id": 495034723,
+    "id": "495034723",
     "question_type": "normal",
     "relationship": {},
     "title": "在supermemo中如何执行撤销操作呢？",
     "type": "question",
     "updated_time": 1635392835,
-    "url": "https://api.zhihu.com/questions/495034723"
+    "url": "https://www.zhihu.com/api/v4/questions/495034723"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 22
+  "updated_time": 1650206562,
+  "url": "https://www.zhihu.com/api/v4/answers/2193309484",
+  "voteup_count": 24
 }

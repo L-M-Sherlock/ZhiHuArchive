@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,6 +37,7 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,39 +84,59 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 13,
   "content": "<p data-pid=\"SFb2a-Mv\">存在哪些问题？批判的武器代替不了武器的批判。教育批判救不了韩国。下面这篇文章发表于 11 年前，那个时候韩国教育的问题已经显露出来，但这场内卷游戏不会有人主动停下来，因为不参加排位赛，就分配不到什么资源。韩国政府若要解决这个问题，要做的应该是大幅削减教育开支，别把纳税人的钱浪费在这个零和（甚至负和）的信号游戏上，把省出来的钱拿来给韩国年轻人发基本收入。韩国年轻人也别躺平了，发挥一下三四十年前的血性，出来抗争。</p><h2>教育军备竞赛正在让韩国破产</h2><p data-pid=\"SF2TfvwX\">「眼下，全球范围内正上演着一场教育军备竞赛——从中国到德国，从印度到韩国，各国都在争先恐后。」这是美国总统奥巴马在 2010 年底的一次演讲中提到的，当时美国国会正考虑削减教育预算。他进一步强调，哪个国家能培养出最优秀的下一代，哪个国家就将在 21 世纪引领全球经济。</p><p data-pid=\"FgLq00Nt\">就在这番话的前一年，奥巴马总统在华盛顿参加「教育创新」运动论坛时，他提到：「韩国经济在过去 40 年里能够飞速发展，得益于韩国父母对教育的执着追求。」</p><p data-pid=\"23-NHO9r\">的确，韩国的一些高学历精英对国家经济的腾飞功不可没。但在经济发展的这几十年里，韩国父母对学术「精英」和「攀比」的迷信，催生了一场内涵不同的「教育军备竞赛」。家长们的苛求，已成为韩国教育的一大难题。为了让孩子从名校毕业，将来能找到好工作，家长们不惜重金聘请私教或家教。有的家长甚至不惜超出自己的经济能力，只因周围人都在这么做让他们压力山大。教育的高昂成本，被视为导致韩国家庭规模缩小、生育率下降的直接原因。对教育的狂热，已演变成韩国社会的一种病态。</p><p data-pid=\"utPKjWfW\">教育军备竞赛，加上高昂的住房成本，在双重重压之下，韩国中产家庭的经济负担日益沉重。在住房和教育上的非理性开销，加之工资长放缓等其它不利的经济现象，韩国的中产阶级正逐渐萎缩，不少家庭濒临破产的边缘。</p><p data-pid=\"VGZzFIuF\">拥有高等教育学位的韩国年轻人越来越多，好工作却愈发难寻，竞争日益激烈。在韩国，学历的光环已不再是长期收入稳定的保证。</p><p data-pid=\"xjQon7TD\">麦肯锡全球研究所最近发布的《超越韩国模式：塑造新的增长点》报告指出，越来越多的迹象显示，韩国的高等教育体系并未达到学生、家长和雇主的预期。2012 年，韩国大学毕业生的就业率仅为 60%，远低于职业高中毕业生的 80%。更令人担忧的是，高昂的教育成本使得私立教育的终身收益受到质疑。私立大学毕业生的终身收入净现值，甚至不及高中文凭持有者。</p><p data-pid=\"u5sSDrAF\">教育创新刻不容缓。家长们应摒弃旧观念，不再认为只有名校才能铺就孩子的成功之路。教育部应考虑改革大学招生制度，让更多学子有机会踏入大学校门。同时，借鉴他国优秀的职业教育体系，为学生提供更多高质量的职业教育资源、教学和实习机会。韩国的企业也应与学校携手，共同打造与工作相关的课程，为学生的未来铺路。</p><p data-pid=\"ucyUDAG5\">韩国的年轻一代，他们是国家的未来，理应接受良好的教育，追逐并实现自己的梦想。他们不应成为无休止的精英竞争的牺牲品，也不应为了父母的面子和荣誉而牺牲自己。</p><p data-pid=\"a1OAFCd0\">年轻的学子们，不应因繁重的课外辅导而熬夜，导致在公交车上或课堂上打瞌睡。他们的面庞本应洋溢着梦想的光芒。现在，是时候遏制这场教育军备竞赛，拯救韩国中产阶级免于破产的命运了。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"UalOVTqR\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 DeepSeek-V2，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=http%3A//www.koreatimes.co.kr/www/nation/2017/09/357_134735.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Education arms race is bankrupting Korea - The Korea Times</a><br/>作者：Shin Hyun-gook<br/>发布于 2013 年 4 月 28 日<br/>本文作者是韩国大邱天主教大学的讲席教授，之前曾担任韩国海外信息服务处的外国新闻部门负责人。他的电子邮件地址是 <a href=\"mailto:shinhyungook@hotmail.com\">shinhyungook@hotmail.com</a>。</blockquote><hr/><h2>进一步阅读</h2><a href=\"https://zhuanlan.zhihu.com/p/677970610\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-1eff129d852d5a4a16d692fad18ea89d_180x120.jpg\" data-image-width=\"1352\" data-image-height=\"727\" class=\"internal\">Serika Onoe：做题家的困境与出路</a><a href=\"https://zhuanlan.zhihu.com/p/704078444\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-b137fc2b827cec7b007f73f5cf16464b_180x120.jpg\" data-image-width=\"1080\" data-image-height=\"824\" class=\"internal\">Thoughts Memo：你得到了教育，但这一切值得吗？——SSC 发表了一场毕业演讲</a><a href=\"https://zhuanlan.zhihu.com/p/705713335\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic4.zhimg.com/v2-70d3b87970ce1ea70e939bd279582953_180x120.jpg\" data-image-width=\"1800\" data-image-height=\"1204\" class=\"internal\">Thoughts Memo：反对学校教育的依据：引言</a><a href=\"https://zhuanlan.zhihu.com/p/709830942\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-0500f78fb34d8afff60381d497a81d64_180x120.jpg\" data-image-width=\"1400\" data-image-height=\"788\" class=\"internal\">Thoughts Memo：反对学校教育的依据：基础</a><a href=\"https://zhuanlan.zhihu.com/p/710365211\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-aa224124859d11e93f1798bbbc4cbf84_180x120.jpg\" data-image-width=\"1024\" data-image-height=\"512\" class=\"internal\">Thoughts Memo：反对学校教育的依据：拆分教育溢价以及思考智商</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1721804666,
   "excerpt": "存在哪些问题？批判的武器代替不了武器的批判。教育批判救不了韩国。下面这篇文章发表于 11 年前，那个时候韩国教育的问题已经显露出来，但这场内卷游戏不会有人主动停下来，因为不参加排位赛，就分配不到什么资源。韩国政府若要解决这个问题，要做的应该是大幅削减教育开支，别把纳税人的钱浪费在这个零和（甚至负和）的信号游戏上，把省出来的钱拿来给韩国年轻人发基本收入。韩国年轻人也别躺平了，发挥一下三四十年前的血性，…",
-  "id": 3572066632,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3572066632",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/677970610": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"做题家的困境与出路\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/677970610\",\"desc\":\"2323 赞同 · 154 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eSerika Onoe:\\u003c/a\\u003e 上周末吃了一个巨抽象的做题家的瓜，鉴于保护当事人隐私就不指名道姓了，有兴趣可以去翻点赞记录。本来我是不想掺和的，但我突然想到之前有个朋友生气时指责我，“你也就是装着谦虚，实际肯定还是看不起我们这些差学校毕业的人”，于是我准备动笔写一下我对做题家的看法，方便以后被质疑的时候直接发给他们看。 人生排位赛首先，排位是存在的，现实中不少资源确实是按照成绩、学历、资产这些指标分配的。 但是， 人生中排位赛很…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-1eff129d852d5a4a16d692fad18ea89d_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"677970610\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/704078444": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"你得到了教育，但这一切值得吗？——SSC 发表了一场毕业演讲\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/704078444\",\"desc\":\"315 赞同 · 28 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e [触发警告：本文有意引发对大学毕业后的就业前景的恐慌] [知识状态：旨在发表有说服力的演讲，可能有点夸大其词]女士们，先生们，我深感荣幸，能受邀在[消音]大学这所著名学府发表演讲。让我们一起为野猫、斯巴达人或雄鹰欢呼，具体要看贵校的吉祥物是什么了！ 请原谅我今天的发言可能不够精雕细琢。原定演讲嘉宾 Steven L. Carter 先生 ，因为他那些令人不齿、有悖常理的观点，被取消了演讲资格，主办方临时通知我来顶替。在这里…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-b137fc2b827cec7b007f73f5cf16464b_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"704078444\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/705713335": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"反对学校教育的依据：引言\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/705713335\",\"desc\":\"83 赞同 · 3 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 知识状态：不，认真的。也是字面意思。 他们判了我 20 年的无聊刑 因为我企图从内部改变体制 现在我来了，我来报答他们 我们先拿下曼哈顿，然后我们拿下柏林 — Leonard Cohen，First We Take Manhattan 这篇文章原本是我对 Bryan Caplan 优秀的新书 《反对学校教育的依据》 *的评论。我本来打算讨论我们思维方式的诸多有趣差异。但介绍部分有点跑题了，所以那篇有价值的帖子将不得不等一等了。译注：The Case Against Education，…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-70d3b87970ce1ea70e939bd279582953_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"705713335\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/709830942": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"反对学校教育的依据：基础\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/709830942\",\"desc\":\"46 赞同 · 0 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 介绍部分： 反对学校教育的依据：引言 [1]接下来，我将重点评析 Bryan 的著作，探讨其数据、推理和论证，并讨论相关问题。要解决的问题有很多，首先要从 Bryan 分析的基础谈起。我不打算写一篇洋洋洒洒的长文，而是摘录要点，分别探讨相关问题，分段发布。 IV 我们真的在教会孩子们吗？ 我们的孩子真的在学习吗 ？你觉得呢？ Bryan 手中的数据表明： 学得并不多。你呢？ 下面是一些关于成年人的数据： 大多数高中学过代数和几何的人…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-0500f78fb34d8afff60381d497a81d64_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"709830942\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/710365211": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"反对学校教育的依据：拆分教育溢价以及思考智商\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/710365211\",\"desc\":\"26 赞同 · 3 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 前文： 反对学校教育的依据：基础 [1]，反对学校教育的依据：引言 [2]VI 拆分教育溢价Bryan Caplan 对教育提出了几点质疑。他的主要论点聚焦于一个问题：教育溢价从何而来？没有人质疑受教育程度更高的人应该赚更多的钱。正如我们 在上一节 [1]指出的那样，对此有三类解释：人力资本理论认为学校传授有价值的知识技能，从而提升了个人创造价值的能力；信号理论则指出学校发出了价值的信号，借此个人获得了更好的机会和报酬；能力偏…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-aa224124859d11e93f1798bbbc4cbf84_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"710365211\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/677970610": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"做题家的困境与出路\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/677970610\",\"desc\":\"4260 赞同 · 217 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eSerika Onoe:\\u003c/a\\u003e 上周末吃了一个巨抽象的做题家的瓜，鉴于保护当事人隐私就不指名道姓了，有兴趣可以去翻点赞记录。本来我是不想掺和的，但我突然想到之前有个朋友生气时指责我，“你也就是装着谦虚，实际肯定还是看不起我们这些差学校毕业的人”，于是我准备动笔写一下我对做题家的看法，方便以后被质疑的时候直接发给他们看。 人生排位赛首先，排位是存在的，现实中不少资源确实是按照成绩、学历、资产这些指标分配的。 但是， 人生中排位赛很…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-1eff129d852d5a4a16d692fad18ea89d_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"677970610\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/704078444": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"你得到了教育，但这一切值得吗？——SSC 发表了一场毕业演讲\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/704078444\",\"desc\":\"331 赞同 · 28 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e [触发警告：本文有意引发对大学毕业后的就业前景的恐慌] [知识状态：旨在发表有说服力的演讲，可能有点夸大其词]女士们，先生们，我深感荣幸，能受邀在[消音]大学这所著名学府发表演讲。让我们一起为野猫、斯巴达人或雄鹰欢呼，具体要看贵校的吉祥物是什么了！ 请原谅我今天的发言可能不够精雕细琢。原定演讲嘉宾 Steven L. Carter 先生 ，因为他那些令人不齿、有悖常理的观点，被取消了演讲资格，主办方临时通知我来顶替。在这里…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-b137fc2b827cec7b007f73f5cf16464b_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"704078444\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/705713335": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"反对学校教育的依据：引言\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/705713335\",\"desc\":\"93 赞同 · 3 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 知识状态：不，认真的。也是字面意思。 他们判了我 20 年的无聊刑 因为我企图从内部改变体制 现在我来了，我来报答他们 我们先拿下曼哈顿，然后我们拿下柏林 — Leonard Cohen，First We Take Manhattan 这篇文章原本是我对 Bryan Caplan 优秀的新书 《反对学校教育的依据》 *的评论。我本来打算讨论我们思维方式的诸多有趣差异。但介绍部分有点跑题了，所以那篇有价值的帖子将不得不等一等了。译注：The Case Against Education，…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-70d3b87970ce1ea70e939bd279582953_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"705713335\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/709830942": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"反对学校教育的依据：基础\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/709830942\",\"desc\":\"48 赞同 · 0 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 介绍部分： 反对学校教育的依据：引言 [1]接下来，我将重点评析 Bryan 的著作，探讨其数据、推理和论证，并讨论相关问题。要解决的问题有很多，首先要从 Bryan 分析的基础谈起。我不打算写一篇洋洋洒洒的长文，而是摘录要点，分别探讨相关问题，分段发布。 IV 我们真的在教会孩子们吗？ 我们的孩子真的在学习吗 ？你觉得呢？ Bryan 手中的数据表明： 学得并不多。你呢？ 下面是一些关于成年人的数据： 大多数高中学过代数和几何的人…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-0500f78fb34d8afff60381d497a81d64_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"709830942\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/710365211": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"反对学校教育的依据：拆分教育溢价以及思考智商\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/710365211\",\"desc\":\"34 赞同 · 3 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 前文： 反对学校教育的依据：基础 [1]，反对学校教育的依据：引言 [2]VI 拆分教育溢价Bryan Caplan 对教育提出了几点质疑。他的主要论点聚焦于一个问题：教育溢价从何而来？没有人质疑受教育程度更高的人应该赚更多的钱。正如我们 在上一节 [1]指出的那样，对此有三类解释：人力资本理论认为学校传授有价值的知识技能，从而提升了个人创造价值的能力；信号理论则指出学校发出了价值的信号，借此个人获得了更好的机会和报酬；能力偏…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-aa224124859d11e93f1798bbbc4cbf84_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"710365211\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/2154354279?contentId=3572066632&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1721780116,
     "detail": "<p>韩国统计局最新数据显示，韩国有超过400万大学毕业生正处于无业但不求职的“躺平”状态。</p><p>据《韩国先驱报》7月21日报道，韩国统计局21日公布的数据显示，今年上半年韩国有405.8万名拥有大学学历的“非经济活动人口”，较2023年同期增加了7.2万人，创下1999年有相关统计数据以来的历史新高。“非经济活动人口”指年龄在15岁以上，既未就业也不寻找工作的人群。</p><p>这一数据的前高是在2021年，彼时受疫情影响，韩国受过高等教育的“非经济活动人口”首次超过了400万人。据《韩国时报》报道，2022年以来，韩国全体“非经济活动人口”数量在逐年减少，但其中受过高等教育的人数却呈现明显的上升态势，导致韩国大学毕业生在全体“非经济活动人口”中的比重也在今年上半年创下新高。韩国统计局的数据显示，“非经济活动人口”中有25.1%拥有大学学历，该数据首次突破25%大关。这意味着韩国每四个既没工作也不去找工作的“躺平者”当中，就有一个接受过高等教育。</p><p>韩国拥有大学学历而选择“躺平”的人群，主要集中在正面临严峻求职形势的年轻一代。今年上半年韩国平均每月有59.1万名29岁以下受过高等教育的毕业生处于“经济不活跃”状态，较去年同期增加7000人。有数据显示，在韩国20-34岁的已就业人群中，有32%（约220万）的人花费了一到两年的时间寻找工作，还有20%（133万）的人花费了至少两年时间才找到工作。</p><p>韩国《中央日报》23日发表社评，称“400万无所事事的毕业生”反映了韩国教育体系的重大缺陷，它培养了过剩的大学毕业生，却又无法提供一个足够吸纳他们的劳动力市场。正因如此，许多韩国毕业生陷入了反复申请工作和不断收到拒信的恶性循环中，致使他们完全放弃寻找工作，进入“躺平”状态。社评呼吁韩国进行全面的劳动与教育改革，并批评了尹锡悦政府的相关举措，认为其宣称的改革“没有一项得到有效实施”。</p><p>韩国大学生的一大普遍目标，是在大型企业获得一个永久职位。但是近年来韩国大型企业大幅减少了面向应届毕业生的公开招聘，倾向于临时招聘已有工作经验的求职者。这使韩国年轻的大学毕业生面临严峻的就业局势。</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//www.thepaper.cn/newsDetail_forward_28165319\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">韩国超400万大学毕业生“躺平”，大企业倾向有经验求职者_全球速报_澎湃新闻-The Paper</a><p></p>",
-    "id": 662434395,
+    "id": "662434395",
     "question_type": "normal",
     "relationship": {},
     "title": "韩国超 400 万大学毕业生「躺平」，大企业大幅减少了面向应届生的招聘，暴露出韩国当前存在哪些问题？",
     "type": "question",
     "updated_time": 1721780763,
-    "url": "https://api.zhihu.com/questions/662434395"
+    "url": "https://www.zhihu.com/api/v4/questions/662434395"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1721804817,
+  "url": "https://www.zhihu.com/api/v4/answers/3572066632",
   "voteup_count": 46
 }

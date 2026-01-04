@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-4355c018ed124b748dcefede70f34d8a_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-4355c018ed124b748dcefede70f34d8a.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -40,7 +41,7 @@
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -72,7 +73,7 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
     "gender": -1,
@@ -83,7 +84,7 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
@@ -99,11 +100,22 @@
   "content_need_truncated": false,
   "created_time": 1762010118,
   "excerpt": "完全没必要，简直是头痛医脚、本末倒置。 真正的问题在于学校教育本身引入了过度的学业压力、竞争和对玩耍时间的剥夺。这才是引起学生心理问题的主因。美国的学校花了大价钱来请心理治疗师来解决学生的心理问题，不过是在收拾自己制造的烂摊子，治标不治本。 真正的解决方案更简单也更省钱：停止折腾孩子，让他们多些玩耍，少些治疗。 以下内容摘自 @Thoughts Memo 汉化组的译文《多些玩耍，少些治疗 》学校制造焦虑与抑郁，然后…",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "1968093764259145285",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
     "https://www.zhihu.com/column/c_1570878483923955712": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"自由学习\",\"card_open_url\":\"https://zhuanlan.zhihu.com/c_1570878483923955712\",\"desc\":\"108 内容 · 0 关注 \\u003ca class=\\\"tag type_a\\\"\\u003e专栏\\u003c/a\\u003e\",\"content\":null,\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"COLUMN\",\"content_id\":\"c_1570878483923955712\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/44653530544?contentId=1968093764259145285&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "11 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1761300898,
@@ -114,11 +126,13 @@
     "title": "现在的变态中小学教育，教出大量有心理问题的学生，然后培养一批心理专业老师去治愈，有必要这么折腾？",
     "type": "question",
     "updated_time": 1765921504,
-    "url": "https://api.zhihu.com/questions/1965119078378214261"
+    "url": "https://www.zhihu.com/api/v4/questions/1965119078378214261"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 194
+  "updated_time": 1762010144,
+  "url": "https://www.zhihu.com/api/v4/answers/1968093764259145285",
+  "voteup_count": 196
 }

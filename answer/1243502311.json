@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,9 +14,10 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,32 +84,52 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 2,
   "content": "<p data-pid=\"GdoBVpnF\">为什么不点重来呢？描述清楚你的需求，或许有替代的解决方案。</p>",
   "content_need_truncated": false,
   "created_time": 1590330595,
   "excerpt": "为什么不点重来呢？描述清楚你的需求，或许有替代的解决方案。",
-  "id": 1243502311,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1243502311",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1243502311&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1590316608,
-    "detail": "<p>请问，有什么办法在我按过困难，再在牌组里学习两三遍，就像墨墨背单词一样。</p><p>不是滚一边就只能下次（过几天）再学习 </p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-23136f13dd7fbbd3f7dc853cc954391f_b.jpeg\" data-rawwidth=\"1080\" data-rawheight=\"2280\" data-size=\"normal\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-23136f13dd7fbbd3f7dc853cc954391f_r.jpg\"/></figure><p>不是完全忘记，就是模糊，但是过一遍，下次肯定忘记，但是多过几次就不会，可以形成长期记忆。</p><p>但是每次点重来，第2天是记得。不点，下次就忘。</p><p>我想要一个解决方法。</p>",
-    "id": 397027531,
+    "detail": "<p>请问，有什么办法在我按过困难，再在牌组里学习两三遍，就像墨墨背单词一样。</p><p>不是滚一边就只能下次（过几天）再学习 </p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-23136f13dd7fbbd3f7dc853cc954391f_1440w.jpeg\" data-rawwidth=\"1080\" data-rawheight=\"2280\" data-size=\"normal\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-23136f13dd7fbbd3f7dc853cc954391f_r.jpg\"/></figure><p>不是完全忘记，就是模糊，但是过一遍，下次肯定忘记，但是多过几次就不会，可以形成长期记忆。</p><p>但是每次点重来，第2天是记得。不点，下次就忘。</p><p>我想要一个解决方法。</p>",
+    "id": "397027531",
     "question_type": "normal",
     "relationship": {},
     "title": "anki点击后困难按钮怎么当天重复？",
     "type": "question",
     "updated_time": 1590335948,
-    "url": "https://api.zhihu.com/questions/397027531"
+    "url": "https://www.zhihu.com/api/v4/questions/397027531"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
-  "voteup_count": 3
+  "updated_time": 1590330595,
+  "url": "https://www.zhihu.com/api/v4/answers/1243502311",
+  "voteup_count": 4
 }

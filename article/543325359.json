@@ -1,80 +1,678 @@
 {
-  "status": 0,
-  "updated": 1665364896,
+  "id": "543325359",
+  "title": "我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/543325359",
+  "image_url": "https://picx.zhimg.com/v2-08134e67de67b70a126b02829d90edcc_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-08134e67de67b70a126b02829d90edcc_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://picx.zhimg.com/v2-e5d6c7c89b21326f0a8c6f78cb062f6f_200x112.png\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"937\" data-rawheight=\"578\" data-watermark=\"original\" data-original-src=\"v2-e5d6c7c89b21326f0a8c6f78cb062f6f\" data-watermark-src=\"v2-4c346d441868b536f7ce5e51d28494cb\" data-private-watermark-src=\"\" class=\"origin_image inline-img zh-lightbox-thumb\" data-original=\"https://picx.zhimg.com/v2-e5d6c7c89b21326f0a8c6f78cb062f6f_r.png\"/>最近我在时间线上刷到 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/99411314b7f9b04dd7b6cb66a60ac35e\" data-hash=\"99411314b7f9b04dd7b6cb66a60ac35e\" data-hovercard=\"p$b$99411314b7f9b04dd7b6cb66a60ac35e\">@重剑无锋</a> 所写的《<a href=\"https://zhuanlan.zhihu.com/p/538681254\" class=\"internal\" target=\"_blank\">我是如何从头开始写一篇顶级论文的</a>》一文，作者梳理了他论文的创作历程，对我也颇有启发。我自己本科期间发表了一篇国际顶会（ACM SIGKDD）论文和一篇 CCF A 中文核心期刊（中文信息学报）论文，这里也想记录这一路…",
+  "created": 1660370940,
+  "updated": 1734662227,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "1923758082363757092",
+      "medal_name": "知识分享官",
+      "avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-76ac522e2e055b4f4aa317fbecdcef61_l.png?source=172ae18b",
+      "description": "「知乎直答知识库」活动激励徽章",
+      "medal_avatar_frame": ""
+    }
   },
-  "can_tip": false,
-  "excerpt": "最近我在时间线上刷到 @重剑无锋 所写的《我是如何从头开始写一篇顶级论文的 》一文…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 2251,
+  "image_height": 1592,
+  "content": "<p data-pid=\"fHs9ti1s\">最近我在时间线上刷到 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/99411314b7f9b04dd7b6cb66a60ac35e\" data-hash=\"99411314b7f9b04dd7b6cb66a60ac35e\" data-hovercard=\"p$b$99411314b7f9b04dd7b6cb66a60ac35e\">@重剑无锋</a> 所写的《<a href=\"https://zhuanlan.zhihu.com/p/538681254\" class=\"internal\" target=\"_blank\">我是如何从头开始写一篇顶级论文的</a>》一文，作者梳理了他论文的创作历程，对我也颇有启发。我自己本科期间发表了一篇国际顶会（ACM SIGKDD）论文和一篇 CCF A 中文核心期刊（中文信息学报）论文，这里也想记录这一路的机缘巧合和心路历程。</p><p data-pid=\"3DjkSIgR\">KDD 论文地址：</p><a href=\"https://link.zhihu.com/?target=https%3A//www.maimemo.com/paper/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</a><p data-pid=\"T3KO0vLn\">我的研究方向是间隔重复<sup data-text=\"高效学习的间隔重复\" data-url=\"https://zhuanlan.zhihu.com/p/420105707\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>调度优化（说人话，就是通过调整复习安排，提高学生的记忆效率），细分下来就是对学生的记忆进行建模，然后根据记忆模型和优化目标设计算法，寻找最优记忆策略。这两篇论文写作都只花了不到 1 个月，但背后是我长达 4 年的探索与思考。和别的科研工作者相比，说我是个「异端」也不为过，毕竟在同行评议和非升即走盛行的当下，谁会冒着大概率发表不出论文的压力和风险，先从非学术内容开始寻找自己的研究方向呢？所以我的经历可能没有什么参考价值，但我也相信世界上存在与曾经的我处境类似的人，希望我的这篇回忆能够帮助到你。</p><h2><b>引发兴趣</b></h2><p data-pid=\"QOYzQfT1\">若要溯源这两篇论文的起源，我想从我对间隔重复这一领域产生兴趣说起。虽然在绝大多数人看来，科研是非常抽象且神秘的。但科研作为一项人类活动，它一定是跟具体的人、具体的生活、具体的兴趣连在一起。</p><p data-pid=\"MubOyKpz\">我第一次接触间隔重复大约在 2017 年，那时我从一个非常讨厌复习的高中生，逐步转变成一个想要提高复习效率的高中生。2017 年 4 月，我在知乎上搜索复习安排软件，鬼使神差地通过 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/f6e6eafd757577f7729919c8733f48fe\" data-hash=\"f6e6eafd757577f7729919c8733f48fe\" data-hovercard=\"p$b$f6e6eafd757577f7729919c8733f48fe\">@余时行</a> 的回答找到了 Anki，一款开源的间隔重复软件。一年多的 Anki 使用，辅助我提高了一百多分<sup data-text=\"你想知道如何高考逆袭吗？ 看我用 Anki 从本一线上涨 157 分！\" data-url=\"https://zhuanlan.zhihu.com/p/41568928\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，最终考进哈工深的计算机系，这让我对这一小众软件提高复习效率的原理产生了兴趣。</p><p data-pid=\"4heBVSJr\">然后，我就通过 Anki 了解到了间隔重复、间隔效应、测试效应等一系列认知心理学相关的知识。正好 Anki 是开源软件，我又正好刷到知乎上 Anki 算法相关的问题，于是就去阅读了 Anki 的源码，写了相关文章<sup data-text=\"Anki 算法与术语浅谈\" data-url=\"https://zhuanlan.zhihu.com/p/42921090\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。那个时候差不多是 2018 年 8 月。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-e5d6c7c89b21326f0a8c6f78cb062f6f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"937\" data-rawheight=\"578\" data-original-token=\"v2-e5d6c7c89b21326f0a8c6f78cb062f6f\" class=\"origin_image zh-lightbox-thumb\" width=\"937\" data-original=\"https://picx.zhimg.com/v2-e5d6c7c89b21326f0a8c6f78cb062f6f_r.jpg\"/></figure><h2><b>了解传统</b></h2><p data-pid=\"FlOwKGa_\">阅读源码，查阅手册，我才了解到 Anki 的复习算法是 SuperMemo 2 算法的变体，这不经让我对 SuperMemo 也好奇起来。不过那个时候的我还在忙于推广 Anki，卖着 Anki 笔记挣钱，以及做模仿 Anki 的产品设计，这些探索暂时搁置了下来。直到 2019 年年底，我在创业失败中深感自己的能力不足，想要静下心来做自己能独立完成的事情，于是开始“翻译”（DeepL 机翻永远滴神） SuperMemo 网站上的 History of Spaced Repetition<sup data-text=\"0 目录《间隔重复的历史》\" data-url=\"https://zhuanlan.zhihu.com/p/375379522\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>，了解起间隔重复的实践传统，而这离不开这一传统的塑造者，Wozniak 博士<sup data-text=\"彼得 · 沃兹尼亚克\" data-url=\"https://zhuanlan.zhihu.com/p/303204832\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>。</p><p data-pid=\"YkwlO_Fa\">SuperMemo 的创造者 Wozniak 是一个充满奇幻色彩的人。他富于激情，又固执傲人，History of Spaced Repetition 说是他的自传也不为过。巧合的是，他与我在学习上遇到的问题惊人的一致，对于一个追求极致效率的怪人来说，充满随机的遗忘和效率低下的复习是不可忍受的。Wozniak 以此为出发点，开始了他长达 30 年对记忆算法的追寻之路。而他的事业感染了我，让我觉得这是一项能从事终身的业行。</p><p data-pid=\"jlzUzum5\">Woz 的记忆理论并不复杂，在他提出的记忆双组分模型<sup data-text=\"05 1988：记忆的两个组成成分\" data-url=\"https://zhuanlan.zhihu.com/p/99505568\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>中，一条原子记忆在人脑中的状态可由两个变量来描述：</p><ol><li data-pid=\"m3y0HvhT\">记忆可提取性</li><li data-pid=\"WjVQr6f4\">记忆稳定性</li></ol><p data-pid=\"Eto--Ciu\">记忆可提取性其实就是在此刻我能够回忆起某条记忆的概率。为什么是概率呢？联想一下生活实际，遗忘并不是一个必然事件，今天我读到一本新书上的一个观点，我可能此刻还记得，但 10 天之后，我既不能保证我绝对记得，也不敢肯定我绝对会忘记。这是一个随机事件，那么就可以用概率来描述它了。</p><p data-pid=\"1wXDk3Ll\">但记忆可提取性并不能完全描述记忆，就像光知道一辆汽车的开了多远，是无法知道这辆汽车何时能够到达目的地。光知道一条记忆此刻的回忆概率，也不知道什么时候会完全遗忘。因此，Woz 引入了记忆稳定性的概念，用于衡量遗忘的速度。而记忆可提取性、记忆稳定性和时间的关系，就可以通过以下公式刻画：</p><figure data-size=\"small\"><img src=\"https://pic2.zhimg.com/v2-6fc5e100a5279abf00fae15a37170771_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"720\" data-rawheight=\"217\" data-original-token=\"v2-6fc5e100a5279abf00fae15a37170771\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic2.zhimg.com/v2-6fc5e100a5279abf00fae15a37170771_r.jpg\"/></figure><p data-pid=\"xJCoP4uv\">其中 R 是记忆可提取性，S 是记忆稳定性，t 是距离上次复习的时间，而这一公式正是遗忘曲线的数学模型。Woz 通过分析 SuperMemo 中收集到的数据，发现用指数函数来拟合记忆随着时间的衰减效果最佳。观察该公式，有一些简单的结论：</p><ul><li data-pid=\"fKIwUKqo\">时间越长回忆起来的概率越低；</li><li data-pid=\"gh1zdFdm\">复习后遗忘的速度是先快后慢；</li><li data-pid=\"8sLKyxOn\">记忆稳定性越高遗忘得就越慢。</li></ul><p data-pid=\"b3G7twff\">如此以来，记忆的遗忘情况就被刻画出来了。但它还无法对复习安排产生指导意义。为什么呢？因为这一模型遗漏了复习对记忆的影响。所以，在此基础上，Woz 又提出了记忆三变量模型：</p><figure data-size=\"small\"><img src=\"https://pic4.zhimg.com/v2-9b459dca22ba7b639d341391a39b7aa7_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"720\" data-rawheight=\"264\" data-original-token=\"v2-9b459dca22ba7b639d341391a39b7aa7\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic4.zhimg.com/v2-9b459dca22ba7b639d341391a39b7aa7_r.jpg\"/></figure><p data-pid=\"nYTMzZxx\">通过观察数据，Woz 发现，复习时回忆成功就会提高记忆稳定性，而遗忘则会降低稳定性。但这样的定性分析对指导复习规划是远远不够的。我们还想知道提高了多少，或者降低了多少，为了便于讨论，不妨将其称为稳定性增长（上式中的 C）。Woz 认为，稳定性增长只与当前的记忆状态有关，即给定记忆稳定性和记忆可提取性，稳定性增长就确定了（其实就是马尔可夫链）。但理想很丰满，现实很骨感，数据并不完美支持 Woz 的理论，于是他打了个补丁，引入了第三个变量——记忆难度。在固定了记忆难度后，稳定性增长与记忆状态之间的关系就变得明晰了起来。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-9b825ea5850c07c7370044050054cfd6_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"800\" data-original-token=\"v2-9b825ea5850c07c7370044050054cfd6\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic3.zhimg.com/v2-9b825ea5850c07c7370044050054cfd6_r.jpg\"/></figure><p data-pid=\"Wxa4Y3cM\">但在我看来，这只不过是转移了矛盾，因为在这之后还要找到记忆难度的变化规律。Woz 的后续研究也集中在难度的预测上，但恕我直言，玄学很多，数学很少。不过引入难度这一变量并没有错，本质上就是把原来的马尔可夫模型转化为了隐马尔可夫模型。（我第一次了解隐马尔可夫还是来自 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/1b4d149865efffee6a56911e43a59ad0\" data-hash=\"1b4d149865efffee6a56911e43a59ad0\" data-hovercard=\"p$b$1b4d149865efffee6a56911e43a59ad0\">@Nong Bloody</a> 所写的《<a href=\"https://www.zhihu.com/question/20962240/answer/33561657\" class=\"internal\" target=\"_blank\">如何用简单易懂的例子解释隐马尔可夫模型？ </a>》这篇知乎回答）</p><p data-pid=\"_Li1b5yK\">顺便补充一个我觉得很离谱的事儿，Woz 会在他的理论研究文章里讲他研究过程中的故事，比如人间蒸发一百天，在山中小屋中搞研究<sup data-text=\"10 1995：超媒体 SuperMemo\" data-url=\"https://zhuanlan.zhihu.com/p/447640544\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup>。太有意思了。我也在阅读他的文章过程中受到他激情的感染。</p><h2><b>进入业界</b></h2><p data-pid=\"T-BKhmxm\">但空有激情不能成事，光研究传统理论也很难琢磨出什么创新与改进。自闭于传统之中，在理论上自娱自乐，并不能对世界做出什么实质的改变。最尴尬的是，记忆充满了不确定性，没有大量数据根本无法验证理论与自己的想法。但机缘巧合之中，在 2020 年的暑假，我投递了字节跳动的数据挖掘实习，简历被拒，隔天就在知乎上收到了墨墨背单词数据算法负责人的实习邀约。其中缘由，竟是他也在研究 SuperMemo 算法，然后在知乎上搜索到了我的翻译。被字节拒绝的我一看墨墨背单词有百亿复习数据，立马前往墨墨所在的城市——清远——一个像我老家宁德一样的地方，在业界中继续我的探索。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-b1d4287b4eabd98d548f77dd0f96b3d1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1056\" data-rawheight=\"247\" data-original-token=\"v2-b1d4287b4eabd98d548f77dd0f96b3d1\" class=\"origin_image zh-lightbox-thumb\" width=\"1056\" data-original=\"https://pic2.zhimg.com/v2-b1d4287b4eabd98d548f77dd0f96b3d1_r.jpg\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-bdf392ccac68734db5d3651c6e16a92d_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"564\" data-rawheight=\"351\" data-original-token=\"v2-bdf392ccac68734db5d3651c6e16a92d\" class=\"origin_image zh-lightbox-thumb\" width=\"564\" data-original=\"https://pic2.zhimg.com/v2-bdf392ccac68734db5d3651c6e16a92d_r.jpg\"/></figure><p data-pid=\"IUJlK2cv\">首先我将墨墨的数据在 SuperMemo 的理论上做了诸多验证，发现大部分规律都是一致的，这给予我一丝安慰和极大的信心。至少，我没有白研究那么久理论，同时，记忆的规律并不随着记忆者、记忆材料的更迭而改变的。然后，为了更好的研究记忆，我也推动着墨墨数据收集系统的改变。研究是一件难以预料和安排的事，如果研究的问题提得不对，那我可能从收集数据上就错了。Woz 总是惦记着他的记忆稳定性、记忆可提取性和记忆难度，我觉得他过早地简化了模型。若要对记忆进行更深入的分析，应当从最原始的数据开始。为此，我认为要记录完整的记忆数据，比如每一位用户每次复习的内容、时间、回忆成功还是失败、完整的复习历史等等。后来我才知道，其实我要记录的是记忆的时序信息，而这正是支持我研究记忆的基础。</p><h2><b>独立思考</b></h2><p data-pid=\"KYmEAD72\">在深入研究记忆数据的过程中，我也逐渐发现了 Wozniak 的理论问题。在他的记忆三变量模型中，记忆稳定性和记忆可提取性都在墨墨的数据中找到了对应的模式。但记忆难度始终捉摸不透。另外他也缺少对高效复习的定义。这让我开始独立思考，尝试自己补上拼图中的空缺。</p><p data-pid=\"vr4eFat3\">我的第一个切入点是通过模拟记忆过程来寻找最高效的复习策略。为此我根据 Woz 的理论和墨墨的记忆数据，在 2021 年年初编写了间隔重复模拟器<sup data-text=\"L-M-Sherlock/space_repetition_simulators\" data-url=\"https://github.com/L-M-Sherlock/space_repetition_simulators\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"8\">[8]</sup>，然后模拟各种策略的记忆情况，验证策略的效果<sup data-text=\"Anki 制卡对复习记忆效率的影响分析\" data-url=\"https://zhuanlan.zhihu.com/p/346463057\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"9\">[9]</sup>。首先我对复习过程做了诸多约束，比如固定每天的记忆总量，固定模拟时间跨度等等。然后以模拟结束后的记忆总量来衡量策略的效果。其实这就是蒙特卡罗模拟，虽然我并没有去系统的学习，但并不妨碍我去使用它。</p><p data-pid=\"oTi37TKD\">在模拟验证过程中，我发现 Woz 的最大化记忆稳定性的策略并不是最高效的。这让我踏入了研究的空白区，我开始意识到记忆三变量模型也不足以支持我寻找高效记忆策略了，因为这个模型中并没有包含对记忆成本的约束。于是，在朦朦胧胧的直觉中，我自己定义了一个新的概念：复习压力。</p><p data-pid=\"960Zr4js\">我认为，高效的复习就是以最小的复习压力形成长期记忆。这里有一些直觉，比如随着每次复习成功，稳定性不断增长，复习压力会越来越小。那么复习压力肯定和复习次数有关。但两者之间的关系具体如何用数学语言描述，我那个时候的数学水平还不够，只好在草稿纸上不断地推演和尝试。在这个探索的过程中，我发现其实复习压力就是期望复习次数，而要计算着一期望，需要知道记忆的状态变化和复习策略。这一过程包括确定的模型和策略，也包括随机的遗忘。我想起我在知乎上读到过的一个数学工具正好能描述这一过程——随机过程。</p><p data-pid=\"Vt3Lat4R\">找到了数学工具的我欣喜若狂，立马找到了 Ross 的  <i>Introduction to Probability Models</i>（实际上我是先找到了 stochastic process，但是太难懂了，看了 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/e4a798732629bb320196a698662d7249\" data-hash=\"e4a798732629bb320196a698662d7249\" data-hovercard=\"p$b$e4a798732629bb320196a698662d7249\">@Mercurial</a> 这篇回答《<a href=\"https://www.zhihu.com/question/389395273/answer/1194198617\" class=\"internal\" target=\"_blank\">请问下 Ross 的随机过程那个版本比较好？</a>》后发现同个作者的另一本书更容易看懂），开始学习相关的知识。很快我就找到了一个和我脑海中复习压力计算非常相近的例题：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-fa62a0815abeb21ba0d9e62bfb58f86e_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"536\" data-rawheight=\"629\" data-original-token=\"v2-fa62a0815abeb21ba0d9e62bfb58f86e\" class=\"origin_image zh-lightbox-thumb\" width=\"536\" data-original=\"https://pic1.zhimg.com/v2-fa62a0815abeb21ba0d9e62bfb58f86e_r.jpg\"/></figure><p data-pid=\"Y0CyQs_6\">这道题是在说，一个矿工面对三个门，一个门走两个小时可以到达目的地，另外两个门分别走三小时和五小时回到原地，如果选门是等概率的，那么到达目的地所需时间的期望是多少。</p><p data-pid=\"JyVPdCfi\">可能你会奇怪，这个问题和复习压力有什么关系。我简单做一个类比，假设只有两个门，一个门叫做复习成功，一个门叫做复习失败，复习成功后记忆稳定性会增加，离形成长期记忆的目标就接近了一分，复习失败会导致记忆稳定性不增加（或下降），原地踏步或者离目标更远。每次选门都需要付出时间成本（复习需要时间），那么复习压力就是形成长期记忆所需要付出的总时间成本，也就是矿工达到目的地的期望时间。只不过记忆所面临的场景更加复杂，比如根据复习时间的不同，走进其中一个门的概率会发生变化，而且每次要走的门都可能是不一样的。但这两个问题的本质依然是一样的，很快我就操着这套数学工具把问题描述清楚了。</p><figure data-size=\"small\"><img src=\"https://pic1.zhimg.com/v2-33dfc722b128b22c6870111531e5309a_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"751\" data-rawheight=\"771\" data-original-token=\"v2-33dfc722b128b22c6870111531e5309a\" class=\"origin_image zh-lightbox-thumb\" width=\"751\" data-original=\"https://pic1.zhimg.com/v2-33dfc722b128b22c6870111531e5309a_r.jpg\"/></figure><p data-pid=\"Iskvd9Ox\">当一个模糊的现实问题被转化为清晰的数学问题，就已经成功了一半。但上述问题实际上是在给定复习策略的情况下计算复习压力期望，那么有没有什么问题是反过来，能求出期望复习压力最小的复习策略呢？我继续在随机过程中寻找工具，发现了马尔可夫决策问题。</p><figure data-size=\"small\"><img src=\"https://pic1.zhimg.com/v2-7f1c21615d21ce2c8a35fbf930eefdcc_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"639\" data-rawheight=\"827\" data-original-token=\"v2-7f1c21615d21ce2c8a35fbf930eefdcc\" class=\"origin_image zh-lightbox-thumb\" width=\"639\" data-original=\"https://pic1.zhimg.com/v2-7f1c21615d21ce2c8a35fbf930eefdcc_r.jpg\"/></figure><p data-pid=\"HvMF34Ix\">本质上，复习安排优化就是在已知的记忆模型的基础上进行决策优化，最小化复习压力。但是 Ross 这本书并没有很详细地介绍如何优化决策。我只好在知乎上搜索马尔可夫决策过程相关的文章进行学习（比如 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/e1500aeeaa8970b38e856824e1005d08\" data-hash=\"e1500aeeaa8970b38e856824e1005d08\" data-hovercard=\"p$b$e1500aeeaa8970b38e856824e1005d08\">@heaven</a> 的这篇：《<a href=\"https://zhuanlan.zhihu.com/p/159621634\" class=\"internal\" target=\"_blank\">2.1.马尔可夫决策过程（MDP）</a>》）。然后我搜索到了贝尔曼方程（ <a class=\"member_mention\" href=\"https://www.zhihu.com/people/1b72d70b702b3920638f0235d380ebd8\" data-hash=\"1b72d70b702b3920638f0235d380ebd8\" data-hovercard=\"p$b$1b72d70b702b3920638f0235d380ebd8\">@忆臻</a> 学长的这篇《<a href=\"https://zhuanlan.zhihu.com/p/35261164\" class=\"internal\" target=\"_blank\">马尔科夫决策过程之Bellman Equation（贝尔曼方程）</a>》），发现这东西不就是动态规划吗？只不过加了点随机进去，要计算期望。</p><p data-pid=\"ozqONsAv\">然后我又继续联想，发现如果我将记忆稳定性当作一系列离散的状态点，复习成本是他们之间的路径权重，回忆概率是这些路径走通的概率，那实际上这就是一个随机最短路问题。我很快就将我已有的动态规划知识和随机过程知识结合起来。然后我就写出了第一版迭代算法，可以用于计算每个记忆稳定性下最优的复习间隔对应的回忆概率。</p><figure data-size=\"small\"><img src=\"https://pica.zhimg.com/v2-7e8ebec8abc933ea9a52fecf64b27bf2_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"868\" data-rawheight=\"965\" data-original-token=\"v2-7e8ebec8abc933ea9a52fecf64b27bf2\" class=\"origin_image zh-lightbox-thumb\" width=\"868\" data-original=\"https://pica.zhimg.com/v2-7e8ebec8abc933ea9a52fecf64b27bf2_r.jpg\"/></figure><figure data-size=\"small\"><img src=\"https://pic4.zhimg.com/v2-06171196dac235c08257f32f3b1d16eb_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1280\" data-rawheight=\"1268\" data-original-token=\"v2-06171196dac235c08257f32f3b1d16eb\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic4.zhimg.com/v2-06171196dac235c08257f32f3b1d16eb_r.jpg\"/></figure><p data-pid=\"EMJs-BmS\">至此，我认为我已经解决了优化复习策略的问题。开始着手对整个记忆规划系统进行梳理。</p><h2><b>开始写作</b></h2><h3>第一篇论文</h3><p data-pid=\"EKV6aRkK\">本质上，优化间隔重复调度可以分为两个部分，一是记忆建模，二是策略优化，我的第一篇论文《基于 <b>LSTM</b> 的语言学习长期记忆预测模型》就是聚焦于前者。</p><p data-pid=\"43P3b2wb\">当时是 2021 年 9 月，我被抓回学校去做毕设，但我想在墨墨继续搞研究，于是和导师达成交易，我发表论文，他让我继续实习，于是我就花了大概一个月时间写第一篇论文。由于这是我第一次写学术论文，我就开始阅读相关文献。发现搞记忆建模的最近的一篇论文还是 Duolingo 在 2016 年发表的，我在知乎上总结了一篇笔记<sup data-text=\"从 Duolingo 机器学习算法说起，浅析记忆数据的特征工程\" data-url=\"https://zhuanlan.zhihu.com/p/345172257\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"10\">[10]</sup>。他们提出了一个记忆半衰期回归模型，其实就是用一些统计特征来预测记忆的半衰期。而记忆半衰期是什么东西呢？其实就是记忆稳定性。我轻车熟路地看完了他们的论文，发现可以改进的空间巨大。因为他们用的是统计特征，而记忆过程本质上是一个时序事件。那么用个时序特征+时序模型不就能水一篇论文了么。那最常用的时序模型，并且要和神经网络有关，那就非 LSTM 莫属了。</p><p data-pid=\"nBsGBkhM\">于是我就开始看 PyTorch 的文档，再抄抄别人在 GitHub 上写的 LSTM 调用代码，然后用 Pandas 和 Numpy 把墨墨的数据整理成可以输入 LSTM 的 Tensor，一周就把实验做完了。只是苦了我的 MacBook（还是用墨墨的实习工资买的），因为我一张显卡都没有。。。然后为了让我的论文和正统学术文献（Woz 的文章就像个民科写的）有个衔接，我把记忆稳定性都换成了记忆半衰期，记忆可提取性换成了回忆概率，模型也命名为了 LSTM-HLR，以表示我的工作是在 Duolingo 上的改进。</p><p data-pid=\"PMF_fxoe\">之后我又花了大概一周把论文初稿写完（中文版），论文的结构也是模仿 Duolingo 那篇论文。然后导师让我调研可以投稿的会议。搞笑的是，AI+教育交叉方向的会几乎都没有被 CCF 收录<sup data-text=\"AI+教育交叉方向学术会议调研/吐槽(2022)\" data-url=\"https://zhuanlan.zhihu.com/p/419815179\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"11\">[11]</sup>。最后导师让我投了《中文信息学报》，十月份投稿，其中 rebuttal 一次，修改格式一次，十一月份就录用了。然后我就兴冲冲地回墨墨上班去了，当然名义也是非常正当了，这叫校外毕设，233。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-041a5f9146bbfb1063ab8b16a06e689c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"478\" data-rawheight=\"545\" data-original-token=\"v2-041a5f9146bbfb1063ab8b16a06e689c\" class=\"origin_image zh-lightbox-thumb\" width=\"478\" data-original=\"https://pica.zhimg.com/v2-041a5f9146bbfb1063ab8b16a06e689c_r.jpg\"/></figure><h3>第二篇论文</h3><p data-pid=\"g04_zO10\">回墨墨后，我就把之前思考的复习策略给应用到真实业务上，进行了 AB 测试，效果喜人，多年来的研究终于有了回应，帮到了百万用户提高复习效率。我正打算继续优化算法，没想到导师又来找我了，大概是 2022 年 1 月左右。我以为他是询问我毕业论文写得咋样了，没想到他是搞偷袭，想要我再发一篇论文。说什么之前那个 CCF B 中文核心投中了很有优势，再发篇 CCF A 英文会议会更好之类的。其实我不是很想写了，但是考虑如果能发国际论文，可以让我的研究被更多人使用，也能帮助更多人，我就自我 push 了一下，开始了第二篇论文 <i>A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling</i> 的写作。</p><p data-pid=\"QpsrgXE8\">这篇论文的主要是写复习策略优化的，为此我又看了不少文献，发现怎么大家这么喜欢强化学习，我对强化学习是不怎么感冒的，因为奖励很难设置，在墨墨背单词上搞在线强化学习也是很难落地的。直到我翻到了一篇用标记点过程和最优控制来做的文章，感觉里面的数学很优美（但我看不懂随机偏微分方程）。我就想着怎么用更优美的数学语言把我之前想到的最小复习压力迭代算法包装起来。正好那个时候我又在知乎搜索随机最短路相关的文章，找到了 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/186282e45de0e1040b7882c9be8f5de8\" data-hash=\"186282e45de0e1040b7882c9be8f5de8\" data-hovercard=\"p$b$186282e45de0e1040b7882c9be8f5de8\">@王源</a> 大佬写的《强化学习与最优控制》笔记（例如这篇：<a href=\"https://zhuanlan.zhihu.com/p/260097696\" class=\"internal\" target=\"_blank\">【强化学习与最优控制】笔记（二）随机性问题的动态规划</a>）。简直如获至宝，原来最优控制理论已经有相关的数学工具来描述这个问题，我就把我之前的草稿写成 Bellman 方程的形式。</p><figure data-size=\"small\"><img src=\"https://pic1.zhimg.com/v2-cabe28118a2015a84f7c999af09bf226_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1111\" data-rawheight=\"900\" data-original-token=\"v2-cabe28118a2015a84f7c999af09bf226\" class=\"origin_image zh-lightbox-thumb\" width=\"1111\" data-original=\"https://pic1.zhimg.com/v2-cabe28118a2015a84f7c999af09bf226_r.jpg\"/></figure><p data-pid=\"gH9ZZ2GW\">但是我又遇到了一个问题，那就是记忆模型该用什么。我的 LSTM-HLR 模型虽然已经被录用了，但是并没有被刊出，在新的论文里还得再介绍一遍，感觉会出问题。于是我把 Woz 的三变量模型搬了过来，并尝试用机器学习的方式去计算模型参数。在这个过程中，为了更好地观察记忆数据的规律，我先考虑如何将记忆时序数据进行降维。Woz 的 SInc 矩阵启发了我，可以将每个记忆行为用稳定性、可提取性、难度以及复习后的稳定性来表示。如果我们再把难度用颜色表示，那么剩下的三个属性就可以投影到 3-D 空间中。为此我又在网友的推荐下学了 plotly 这个数据可视化的库，然后对墨墨的数据一通操作：</p><figure data-size=\"small\"><img src=\"https://picx.zhimg.com/v2-058809b1759cfbabb568d6011a6a71a1_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"661\" data-rawheight=\"657\" data-original-token=\"v2-058809b1759cfbabb568d6011a6a71a1\" class=\"origin_image zh-lightbox-thumb\" width=\"661\" data-original=\"https://picx.zhimg.com/v2-058809b1759cfbabb568d6011a6a71a1_r.jpg\"/></figure><p data-pid=\"P2QVQ9Pj\">可视化之后，我发现一个简单的线性回归模型就足够了，最多再对特征做一些非线性变换。这里我参考了 Woz 的稳定性增长函数的形式。</p><figure data-size=\"small\"><img src=\"https://picx.zhimg.com/v2-b3723079a73303dea3fe711a54e5e661_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1150\" data-rawheight=\"915\" data-original-token=\"v2-b3723079a73303dea3fe711a54e5e661\" class=\"origin_image zh-lightbox-thumb\" width=\"1150\" data-original=\"https://picx.zhimg.com/v2-b3723079a73303dea3fe711a54e5e661_r.jpg\"/></figure><p data-pid=\"gUsC9tt5\">然后这个人工时序模型就整出来了。接着就是拿去和 HLR 模型对比，发现效果确实好。这说明统计特征存在内在缺陷，其实这很好理解，忘记一次再记住一次，能和记住一次再忘记一次一样么？统计特征损失了时序信息，而时序信息在记忆状态的变化中又十分重要，所以效果好并不令我意外，意外的是之前居然没有人用时序信息来做记忆建模和预测。（其实是有的，但是年代太久远了，而且没有用到机器学习，他们参数怎么算的我都搞不懂）。后来发现原来记忆领域开源的数据集居然只有 Duolingo 一家的。为了能让论文更容易被别人复现，我和公司的负责人讨论了一下数据集开源的事儿，也算是为了这个领域能更进一步发展，最终决定公开数据集和实验代码（为此还私信咨询了一下 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/e3f5794fa10022aa07c05b0b9e6dc537\" data-hash=\"e3f5794fa10022aa07c05b0b9e6dc537\" data-hovercard=\"p$b$e3f5794fa10022aa07c05b0b9e6dc537\">@微调</a> 老师嘿嘿）：</p><blockquote data-pid=\"dc1DWqnU\">Ye, Junyao, 2022, &#34;Replication Data for: A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling&#34;, <a href=\"https://link.zhihu.com/?target=https%3A//doi.org/10.7910/DVN/VAGUL0\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">https://doi.org/10.7910/DVN/VAGUL0,</a> Harvard Dataverse, V1</blockquote><a href=\"https://link.zhihu.com/?target=https%3A//github.com/maimemo/SSP-MMC\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">maimemo/SSP-MMC: A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling (github.com)</a><p data-pid=\"ru5MHTO3\">回到这个时序模型，我继续看了一下《强化学习与最优控制》里面在已知状态转移方程的情况下，求解最优策略的方法，发现我之前写的迭代法就是 value iteration 方法，然后我就用伪代码包装了一下：</p><figure data-size=\"small\"><img src=\"https://picx.zhimg.com/v2-57b70197cc13a216529cc21241fc8915_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1044\" data-rawheight=\"1280\" data-original-token=\"v2-57b70197cc13a216529cc21241fc8915\" class=\"origin_image zh-lightbox-thumb\" width=\"1044\" data-original=\"https://picx.zhimg.com/v2-57b70197cc13a216529cc21241fc8915_r.jpg\"/></figure><p data-pid=\"I8K5L1W0\">还挺像样的，J 就是成本矩阵， π 是策略矩阵，f 是记忆状态转移方程，d 是难度，h 是记忆半衰期，p 是回忆概率，a 和 b 是复习成功 or 失败的成本。通过不断遍历每个记忆状态下的复习间隔，计算期望复习成本，寻找最小化期望成本的复习间隔，不断迭代，最终就能收敛得到最优成本矩阵和最优策略矩阵。</p><p data-pid=\"FLwy__oU\">这些内容写得差不多了之后，我就和导师同步了一下进度，我说我没用深度学习，是不是不好投，他说那你投 KDD 吧。然后我调研了一下 KDD，发现 KDD 还挺多企业在上面发论文的，而且有个专门的 applied data science track，我就开始按 KDD 的要求去改论文了。没想到 KDD 要双栏 9 页，我只好再加点酷炫的可视化图片进去，因为我听学长说没写满容易被认为不够 solid，笑死。</p><p data-pid=\"HlI_SOCh\">于是我就开始想有什么正当理由来加可视化图片，我就联想到之前一堆深度强化学习方法都是黑箱，可解释性不高，我可以以解释模型机制为由，去可视化一下模型的权重和最优策略的模式：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-ce69bc49d9d4ee66598fb6c10967bc00_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"1055\" data-original-token=\"v2-ce69bc49d9d4ee66598fb6c10967bc00\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic1.zhimg.com/v2-ce69bc49d9d4ee66598fb6c10967bc00_r.jpg\"/></figure><p data-pid=\"OmnFdXtE\">然后看图说话就完事了，这里说几个从记忆模型观察到的结论：</p><ol><li data-pid=\"Cnz4DAxt\">随着难度增长，半衰期的增长潜力在不断下降</li><li data-pid=\"z4SkYxDq\">随着回忆概率下降，半衰期的增长潜力会上升，这意味着「值得的困难」</li><li data-pid=\"AgrQzT01\">随着半衰期增长，半衰期的增长潜力会下降，也就是说记忆无法无限地巩固下去</li></ol><p data-pid=\"ZKJ2DitG\">还有从最优复习策略中观察到的现象：</p><ol><li data-pid=\"OdPnJy6h\">难度越高，期望复习成本也越高</li><li data-pid=\"Y_qKvFYm\">期望复习成本随着半衰期增长而下降</li><li data-pid=\"D8JHiq8h\">半衰期相同时，最优的复习间隔随着难度增长</li></ol><p data-pid=\"6LnFwvvM\">后面为了把时序模型和随机最短路问题用直观的方式展示出来，又拿 <a href=\"https://link.zhihu.com/?target=http%3A//draw.io\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">draw.io</span><span class=\"invisible\"></span></a> 画了一下流程图：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-0223a710ab8706cad81606a63c9fcdf1_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"863\" data-original-token=\"v2-0223a710ab8706cad81606a63c9fcdf1\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://picx.zhimg.com/v2-0223a710ab8706cad81606a63c9fcdf1_r.jpg\"/></figure><p data-pid=\"mobX5Tse\">顺带一提，这是我第一次用英文写学术论文，非常痛苦，为此看了不少知乎上的论文写作教程（比如 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/62583fea8f4681812a28380aaac759de\" data-hash=\"62583fea8f4681812a28380aaac759de\" data-hovercard=\"p$b$62583fea8f4681812a28380aaac759de\">@中科院张老师</a> 的《<a href=\"https://www.zhihu.com/question/49355121/answer/322451208\" class=\"internal\" target=\"_blank\">怎样写好英文论文的 Introduction 部分？</a>》、 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/345a2ef577ab9e3607007c854e23ad54\" data-hash=\"345a2ef577ab9e3607007c854e23ad54\" data-hovercard=\"p$b$345a2ef577ab9e3607007c854e23ad54\">@张明瑞</a> 的《<a href=\"https://zhuanlan.zhihu.com/p/368677897\" class=\"internal\" target=\"_blank\">DrustZ的论文小课堂 [相关工作Related Work]</a>》和 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/1db3a6f5331d79146752a3a79b64f4f0\" data-hash=\"1db3a6f5331d79146752a3a79b64f4f0\" data-hovercard=\"p$b$1db3a6f5331d79146752a3a79b64f4f0\">@多啦诶梦有点酷</a> 的《<a href=\"https://www.zhihu.com/question/310372138/answer/2248918997\" class=\"internal\" target=\"_blank\">有没有比 Grammarly 更先进的英语作文修改润色软件？</a>》）DeepL + Grammarly + QuillBot 救我于水火之中！</p><p data-pid=\"7Wms_eO0\">然后就是和导师一起改论文，最终在 2 月份过年的时候赶上了 ddl，交了稿。然后 5 月份收到了录用通知，这里的故事差不多就结束了。</p><h3>彩蛋</h3><p data-pid=\"27Ww2lQI\">但是故事还没完，四月底的时候导师又来找我了，说 KDD 挺难中的，让我再准备一篇 NIPS。。。结果才准备半个月，刚写完初稿，KDD 中了，我导师改口说咋们拓展成英文期刊论文吧。所以我这两个月又在写期刊论文，双栏 12 页写得我头皮发麻。不过还是写完了，并且把我之前的构思也加进来了，希望今年能投中吧。</p><h2>总结</h2><p data-pid=\"CY2V91wN\">回顾我的研究历程，充满了各种巧合和意外，我不敢说我在这一研究中作出了多么突出的贡献。没有 Anki 的帮助，Wozniak 的理论，墨墨背单词的数据，知乎用户产出的各类学习资料，这项研究都无法继续。</p><p data-pid=\"KJyOGNSI\">但有一点不可否认：我选择了自己的道路，在探索中自由学习，在激情的驱动下不断前行，并想方设法地摆脱学校的控制。</p><p data-pid=\"16tOO-VX\">我坚信对记忆的研究能推动教育技术的发展，让更低成本的学习工具到达每一位学习者手中。</p><p data-pid=\"-JopiMcp\">我通过自由学习找到了自己的人生道路，从一名小镇做题家转变为教育科技企业的算法工程师，成为记忆领域的科研工作者。我相信在未来，每一个学生都能挣脱腐朽的强制学校教育的束缚<sup data-text=\"为什么强制学校系统应该从这个世界上滚蛋\" data-url=\"https://zhuanlan.zhihu.com/p/544801748\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"12\">[12]</sup>，通过自由学习实现自我<sup data-text=\"自由学习\" data-url=\"https://zhuanlan.zhihu.com/p/272543239\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"13\">[13]</sup>，也过上世俗意义上的好日子。</p><h2>致谢</h2><p data-pid=\"ILfB8z4W\">写了这么长篇的文章，其实很想再推荐一些自己之前在知乎上的创作。但是在我这一路的科研探索过程中，受到了知乎上许多朋友主动或被动，直接或间接的帮助，这里我想把空间留给他们，以下按照我的关注顺序介绍：</p><p data-pid=\"jyqav_AA\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/f6e6eafd757577f7729919c8733f48fe\" data-hash=\"f6e6eafd757577f7729919c8733f48fe\" data-hovercard=\"p$b$f6e6eafd757577f7729919c8733f48fe\">@余时行</a>：国内 Anki 早起推广者，编写了很多很多 Anki 相关的教程，他是我的启蒙导师。</p><p data-pid=\"C2Qlp1Mg\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/4eedf55cf1de9f94173b352f9c5a8d2b\" data-hash=\"4eedf55cf1de9f94173b352f9c5a8d2b\" data-hovercard=\"p$b$4eedf55cf1de9f94173b352f9c5a8d2b\">@YJango</a>：学习/教育技术研究/推广者，在研究学习/教育技术的同时，让许多人改变了对学习的看法，他是我想要模仿的对象。</p><p data-pid=\"K85EtkW7\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/87fcdbce59e1833bd75fc5c6bdedddea\" data-hash=\"87fcdbce59e1833bd75fc5c6bdedddea\" data-hovercard=\"p$b$87fcdbce59e1833bd75fc5c6bdedddea\">@Mushroobby</a>：坚持不懈的理想主义者（创业遇上疫情失败了，但依然还在做着自己想做的事），他让我坚定自己的道路。</p><p data-pid=\"CSU_3b4S\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/e3f5794fa10022aa07c05b0b9e6dc537\" data-hash=\"e3f5794fa10022aa07c05b0b9e6dc537\" data-hovercard=\"p$b$e3f5794fa10022aa07c05b0b9e6dc537\">@微调</a>：最早还是看到躺平学的时候关注的，他对科研生活的介绍，以及人生态度，让我不再纠结于大厂和学历，选择了自己独特的职业之路。</p><p data-pid=\"brMBRg5u\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/ba841c469fe639da79da23eebd51f116\" data-hash=\"ba841c469fe639da79da23eebd51f116\" data-hovercard=\"p$b$ba841c469fe639da79da23eebd51f116\">@迟策</a>：迟先生对 CS 系内卷的观点让我放弃了刷 GPA 内卷的无效努力，把时间投入到自己真正热爱的事业上来。</p><p data-pid=\"B_gkqE8X\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/0cabf9a69e4e6a7775a57d48f1f68149\" data-hash=\"0cabf9a69e4e6a7775a57d48f1f68149\" data-hovercard=\"p$b$0cabf9a69e4e6a7775a57d48f1f68149\">@张戎</a>、<a class=\"member_mention\" href=\"https://www.zhihu.com/people/833f8ba154b6de4387edc287c336d387\" data-hash=\"833f8ba154b6de4387edc287c336d387\" data-hovercard=\"p$b$833f8ba154b6de4387edc287c336d387\">@石溪</a>和 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/77b195f4016956a60304aefb3961ca36\" data-hash=\"77b195f4016956a60304aefb3961ca36\" data-hovercard=\"p$b$77b195f4016956a60304aefb3961ca36\">@学弱猹</a>：机器学习和数学领域的优秀答主，我看了他们很多分享专业知识的文章，质量都很高。</p><p data-pid=\"jq6YbTeD\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/186282e45de0e1040b7882c9be8f5de8\" data-hash=\"186282e45de0e1040b7882c9be8f5de8\" data-hovercard=\"p$b$186282e45de0e1040b7882c9be8f5de8\">@王源</a>：控制论和运筹学的优秀答主，虽然我只看了《强化学习与最优控制》的笔记，但其他内容想必质量也是很高的。</p><p data-pid=\"ENSY67S9\">还有许许多多朋友，在方方面面帮助到了我，只是这里无法一一列出他们的姓名，当我心中的感激之情永在！</p><hr/><p data-pid=\"nBQRX0vl\">我是叶峻峣，希望在未来，还能继续与大家共勉！</p><p data-pid=\"VfbwLBu5\">2022 年 8 月 13 日</p><hr/><p data-pid=\"UkBidNyK\">更新：</p><p data-pid=\"YzzXEneE\">若想进一步了解我的工作，欢迎阅读下面这篇间隔重复记忆算法的入门读物。</p><a href=\"https://zhuanlan.zhihu.com/p/556020884\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-d5734ba2a8f7443e5dd8001cb46031fc_qhd.jpg\" data-image-width=\"1920\" data-image-height=\"1080\" class=\"internal\">叶峻峣：间隔重复记忆算法：e 天内，从入门到入土。</a><blockquote data-pid=\"7JpVeFj2\">文章备份：<a href=\"https://link.zhihu.com/?target=https%3A//l-m-sherlock.github.io/ZhiHuArchive/543325359.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我是如何在本科期间发表顶会论文的？（内含开源代码和数据集） - @Thoughts Memo</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19632766",
+      "type": "topic",
+      "id": "19632766",
+      "name": "学术论文"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19559450",
+      "type": "topic",
+      "id": "19559450",
+      "name": "机器学习"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    }
+  ],
+  "voteup_count": 2268,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "收录个人相关或不好分类的文章",
+    "is_following": true,
+    "url_token": "c_1280249768422608896",
+    "id": "c_1280249768422608896",
+    "articles_count": 73,
+    "accept_submission": true,
+    "title": "学委叶哥的随笔",
+    "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+    "comment_permission": "all",
+    "created": 1598015330,
+    "updated": 1751811281,
+    "image_url": "https://picx.zhimg.com/v2-c31ca0615bbbe77cc9d0ad05465dd223_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 251,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 90,
+  "contributions": [
+    {
+      "id": 42035905,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "收录个人相关或不好分类的文章",
+        "is_following": true,
+        "url_token": "c_1280249768422608896",
+        "id": "c_1280249768422608896",
+        "articles_count": 73,
+        "accept_submission": true,
+        "title": "学委叶哥的随笔",
+        "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+        "comment_permission": "all",
+        "created": 1598015330,
+        "updated": 1751811281,
+        "image_url": "https://picx.zhimg.com/v2-c31ca0615bbbe77cc9d0ad05465dd223_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 251,
+        "type": "column",
+        "column_type": "normal"
+      }
+    },
+    {
+      "id": 45205813,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "杂七杂八的科普回答和文字",
+        "is_following": false,
+        "url_token": "c_1300096449087062016",
+        "id": "c_1300096449087062016",
+        "articles_count": 73,
+        "accept_submission": true,
+        "title": "科普文章汇总",
+        "url": "https://api.zhihu.com/columns/c_1300096449087062016",
+        "comment_permission": "all",
+        "created": 1602747148,
+        "updated": 1763354173,
+        "image_url": "https://pic1.zhimg.com/v2-269b3616fb5259b3a287e441ae1d4d78_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-99b4577d42061dc5a4cfc498f22a2481.jpg?source=172ae18b",
+          "uid": "768452431364227072",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "zhu-wang-xiao-miao-o",
+          "id": "09733810a89d25118c12b0514939747f",
+          "description": "个人用来碎碎念的微信公众号：此生的诗意\n有时也会搬运知乎回答过去。\n欢迎关注！\n",
+          "name": "Felina",
+          "is_advertiser": false,
+          "headline": "星星还是要还给宇宙的",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/09733810a89d25118c12b0514939747f",
+          "avatar_url": "https://picx.zhimg.com/v2-99b4577d42061dc5a4cfc498f22a2481_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 28,
+        "type": "column",
+        "column_type": "normal"
+      }
+    },
+    {
+      "id": 52902139,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "欢迎大家关注“人工智能与算法学习”微信公众号！",
+        "is_following": false,
+        "url_token": "c_1332763253097734144",
+        "id": "c_1332763253097734144",
+        "articles_count": 318,
+        "accept_submission": true,
+        "title": "人工智能研究",
+        "url": "https://api.zhihu.com/columns/c_1332763253097734144",
+        "comment_permission": "all",
+        "created": 1610536071,
+        "updated": 1731657780,
+        "image_url": "https://pic1.zhimg.com/v2-69570d444951fa9b191d0ce5e7221902_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-dc35bdcc8633b925af7afd0bdcfb3c16.jpg?source=172ae18b",
+          "uid": "862973462606680064",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "liu-si-zhe-40",
+          "id": "83e99d6f1af4a8f5949e49519c9773aa",
+          "description": "欢迎大家微信搜索关注公众号：人工智能与算法学习、人工智能研究、AI行业洞察！",
+          "name": "刘思哲",
+          "is_advertiser": false,
+          "headline": "",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/83e99d6f1af4a8f5949e49519c9773aa",
+          "avatar_url": "https://picx.zhimg.com/v2-dc35bdcc8633b925af7afd0bdcfb3c16_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 1069,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 543325359,
-  "voteup_count": 1801,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 3379,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "我是如何在本科期间发表顶会论文的？（内含开源代码和数据集） - 来自知乎专栏「学委叶哥的随笔」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/543325359 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1660370940,
-  "url": "https://api.zhihu.com/articles/543325359",
-  "comment_permission": "all",
-  "title": "我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）",
-  "image_width": 1592,
-  "content": "<p data-pid=\"YDIGPOyd\">最近我在时间线上刷到 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/99411314b7f9b04dd7b6cb66a60ac35e\" data-hash=\"99411314b7f9b04dd7b6cb66a60ac35e\" data-hovercard=\"p$b$99411314b7f9b04dd7b6cb66a60ac35e\">@重剑无锋</a> 所写的《<a href=\"https://zhuanlan.zhihu.com/p/538681254\" class=\"internal\">我是如何从头开始写一篇顶级论文的</a>》一文，作者梳理了他论文的创作历程，对我也颇有启发。我自己本科期间发表了一篇国际顶会（ACM SIGKDD）论文和一篇 CCF A 中文核心期刊（中文信息学报）论文，这里也想记录这一路的机缘巧合和心路历程。</p><p data-pid=\"gyqupxhD\">KDD 论文地址：</p><a href=\"https://link.zhihu.com/?target=https%3A//www.maimemo.com/paper/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</a><p data-pid=\"D-pMjL4R\">我的研究方向是间隔重复<sup data-text=\"高效学习的间隔重复\" data-url=\"https://zhuanlan.zhihu.com/p/420105707\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>调度优化（说人话，就是通过调整复习安排，提高学生的记忆效率），细分下来就是对学生的记忆进行建模，然后根据记忆模型和优化目标设计算法，寻找最优记忆策略。这两篇论文写作都只花了不到 1 个月，但背后是我长达 4 年的探索与思考。和别的科研工作者相比，说我是个「异端」也不为过，毕竟在同行评议和非升即走盛行的当下，谁会冒着大概率发表不出论文的压力和风险，先从非学术内容开始寻找自己的研究方向呢？所以我的经历可能没有什么参考价值，但我也相信世界上存在与曾经的我处境类似的人，希望我的这篇回忆能够帮助到你。</p><h2><b>引发兴趣</b></h2><p data-pid=\"vRawKihE\">若要溯源这两篇论文的起源，我想从我对间隔重复这一领域产生兴趣说起。虽然在绝大多数人看来，科研是非常抽象且神秘的。但科研作为一项人类活动，它一定是跟具体的人、具体的生活、具体的兴趣连在一起。</p><p data-pid=\"rPGA0fWn\">我第一次接触间隔重复大约在 2017 年，那时我从一个非常讨厌复习的高中生，逐步转变成一个想要提高复习效率的高中生。2017 年 4 月，我在知乎上搜索复习安排软件，鬼使神差地通过 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/f6e6eafd757577f7729919c8733f48fe\" data-hash=\"f6e6eafd757577f7729919c8733f48fe\" data-hovercard=\"p$b$f6e6eafd757577f7729919c8733f48fe\">@余时行</a> 的回答找到了 Anki，一款开源的间隔重复软件。一年多的 Anki 使用，辅助我提高了一百多分<sup data-text=\"你想知道如何高考逆袭吗？ 看我用 Anki 从本一线上涨 157 分！\" data-url=\"https://zhuanlan.zhihu.com/p/41568928\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，最终考进哈工深的计算机系，这让我对这一小众软件提高复习效率的原理产生了兴趣。</p><p data-pid=\"lOJH9Zyj\">然后，我就通过 Anki 了解到了间隔重复、间隔效应、测试效应等一系列认知心理学相关的知识。正好 Anki 是开源软件，我又正好刷到知乎上 Anki 算法相关的问题，于是就去阅读了 Anki 的源码，写了相关文章<sup data-text=\"Anki 算法与术语浅谈\" data-url=\"https://zhuanlan.zhihu.com/p/42921090\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。那个时候差不多是 2018 年 8 月。</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-e5d6c7c89b21326f0a8c6f78cb062f6f_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"937\" data-rawheight=\"578\" class=\"origin_image zh-lightbox-thumb\" width=\"937\" data-original=\"https://picx.zhimg.com/v2-e5d6c7c89b21326f0a8c6f78cb062f6f_r.jpg\" data-original-token=\"v2-e5d6c7c89b21326f0a8c6f78cb062f6f\"/></figure><h2><b>了解传统</b></h2><p data-pid=\"vz1VmI6L\">阅读源码，查阅手册，我才了解到 Anki 的复习算法是 SuperMemo 2 算法的变体，这不经让我对 SuperMemo 也好奇起来。不过那个时候的我还在忙于推广 Anki，卖着 Anki 笔记挣钱，以及做模仿 Anki 的产品设计，这些探索暂时搁置了下来。直到 2019 年年底，我在创业失败中深感自己的能力不足，想要静下心来做自己能独立完成的事情，于是开始“翻译”（DeepL 机翻永远滴神） SuperMemo 网站上的 History of Spaced Repetition<sup data-text=\"0 目录《间隔重复的历史》\" data-url=\"https://zhuanlan.zhihu.com/p/375379522\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>，了解起间隔重复的实践传统，而这离不开这一传统的塑造者，Wozniak 博士<sup data-text=\"彼得 · 沃兹尼亚克\" data-url=\"https://zhuanlan.zhihu.com/p/303204832\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>。</p><p data-pid=\"kiQt89XW\">SuperMemo 的创造者 Wozniak 是一个充满奇幻色彩的人。他富于激情，又固执傲人，History of Spaced Repetition 说是他的自传也不为过。巧合的是，他与我在学习上遇到的问题惊人的一致，对于一个追求极致效率的怪人来说，充满随机的遗忘和效率低下的复习是不可忍受的。Wozniak 以此为出发点，开始了他长达 30 年对记忆算法的追寻之路。而他的事业感染了我，让我觉得这是一项能从事终身的业行。</p><p data-pid=\"HbdCMyaE\">Woz 的记忆理论并不复杂，在他提出的记忆双组分模型<sup data-text=\"05 1988：记忆的两个组成成分\" data-url=\"https://zhuanlan.zhihu.com/p/99505568\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>中，一条原子记忆在人脑中的状态可由两个变量来描述：</p><ol><li data-pid=\"vFITKSjX\">记忆可提取性</li><li data-pid=\"OLeANWMQ\">记忆稳定性</li></ol><p data-pid=\"JxcaM3B5\">记忆可提取性其实就是在此刻我能够回忆起某条记忆的概率。为什么是概率呢？联想一下生活实际，遗忘并不是一个必然事件，今天我读到一本新书上的一个观点，我可能此刻还记得，但 10 天之后，我既不能保证我绝对记得，也不敢肯定我绝对会忘记。这是一个随机事件，那么就可以用概率来描述它了。</p><p data-pid=\"P7nAyT7b\">但记忆可提取性并不能完全描述记忆，就像光知道一辆汽车的开了多远，是无法知道这辆汽车何时能够到达目的地。光知道一条记忆此刻的回忆概率，也不知道什么时候会完全遗忘。因此，Woz 引入了记忆稳定性的概念，用于衡量遗忘的速度。而记忆可提取性、记忆稳定性和时间的关系，就可以通过以下公式刻画：</p><figure data-size=\"small\"><img src=\"https://pic2.zhimg.com/v2-6fc5e100a5279abf00fae15a37170771_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"720\" data-rawheight=\"217\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic2.zhimg.com/v2-6fc5e100a5279abf00fae15a37170771_r.jpg\" data-original-token=\"v2-6fc5e100a5279abf00fae15a37170771\"/></figure><p data-pid=\"zooLxKOo\">其中 R 是记忆可提取性，S 是记忆稳定性，t 是距离上次复习的时间，而这一公式正是遗忘曲线的数学模型。Woz 通过分析 SuperMemo 中收集到的数据，发现用指数函数来拟合记忆随着时间的衰减效果最佳。观察该公式，有一些简单的结论：</p><ul><li data-pid=\"6gvR8voO\">时间越长回忆起来的概率越低；</li><li data-pid=\"JCw4aWcy\">复习后遗忘的速度是先快后慢；</li><li data-pid=\"YYTfo2at\">记忆稳定性越高遗忘得就越慢。</li></ul><p data-pid=\"CR5aUVB0\">如此以来，记忆的遗忘情况就被刻画出来了。但它还无法对复习安排产生指导意义。为什么呢？因为这一模型遗漏了复习对记忆的影响。所以，在此基础上，Woz 又提出了记忆三变量模型：</p><figure data-size=\"small\"><img src=\"https://pic4.zhimg.com/v2-9b459dca22ba7b639d341391a39b7aa7_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"720\" data-rawheight=\"264\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic4.zhimg.com/v2-9b459dca22ba7b639d341391a39b7aa7_r.jpg\" data-original-token=\"v2-9b459dca22ba7b639d341391a39b7aa7\"/></figure><p data-pid=\"9NKdm500\">通过观察数据，Woz 发现，复习时回忆成功就会提高记忆稳定性，而遗忘则会降低稳定性。但这样的定性分析对指导复习规划是远远不够的。我们还想知道提高了多少，或者降低了多少，为了便于讨论，不妨将其称为稳定性增长（上式中的 C）。Woz 认为，稳定性增长只与当前的记忆状态有关，即给定记忆稳定性和记忆可提取性，稳定性增长就确定了（其实就是马尔可夫链）。但理想很丰满，现实很骨感，数据并不完美支持 Woz 的理论，于是他打了个补丁，引入了第三个变量——记忆难度。在固定了记忆难度后，稳定性增长与记忆状态之间的关系就变得明晰了起来。</p><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-9b825ea5850c07c7370044050054cfd6_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"800\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic3.zhimg.com/v2-9b825ea5850c07c7370044050054cfd6_r.jpg\" data-original-token=\"v2-9b825ea5850c07c7370044050054cfd6\"/></figure><p data-pid=\"PPUGs_9M\">但在我看来，这只不过是转移了矛盾，因为在这之后还要找到记忆难度的变化规律。Woz 的后续研究也集中在难度的预测上，但恕我直言，玄学很多，数学很少。不过引入难度这一变量并没有错，本质上就是把原来的马尔可夫模型转化为了隐马尔可夫模型。（我第一次了解隐马尔可夫还是来自 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/1b4d149865efffee6a56911e43a59ad0\" data-hash=\"1b4d149865efffee6a56911e43a59ad0\" data-hovercard=\"p$b$1b4d149865efffee6a56911e43a59ad0\">@Nong Bloody</a> 所写的《<a href=\"https://www.zhihu.com/question/20962240/answer/33561657\" class=\"internal\">如何用简单易懂的例子解释隐马尔可夫模型？ </a>》这篇知乎回答）</p><p data-pid=\"cSG4Jsfb\">顺便补充一个我觉得很离谱的事儿，Woz 会在他的理论研究文章里讲他研究过程中的故事，比如人间蒸发一百天，在山中小屋中搞研究<sup data-text=\"10 1995：超媒体 SuperMemo\" data-url=\"https://zhuanlan.zhihu.com/p/447640544\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup>。太有意思了。我也在阅读他的文章过程中受到他激情的感染。</p><h2><b>进入业界</b></h2><p data-pid=\"X_NHy0Sj\">但空有激情不能成事，光研究传统理论也很难琢磨出什么创新与改进。自闭于传统之中，在理论上自娱自乐，并不能对世界做出什么实质的改变。最尴尬的是，记忆充满了不确定性，没有大量数据根本无法验证理论与自己的想法。但机缘巧合之中，在 2020 年的暑假，我投递了字节跳动的数据挖掘实习，简历被拒，隔天就在知乎上收到了墨墨背单词数据算法负责人的实习邀约。其中缘由，竟是他也在研究 SuperMemo 算法，然后在知乎上搜索到了我的翻译。被字节拒绝的我一看墨墨背单词有百亿复习数据，立马前往墨墨所在的城市——清远——一个像我老家宁德一样的地方，在业界中继续我的探索。</p><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-b1d4287b4eabd98d548f77dd0f96b3d1_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1056\" data-rawheight=\"247\" class=\"origin_image zh-lightbox-thumb\" width=\"1056\" data-original=\"https://pic2.zhimg.com/v2-b1d4287b4eabd98d548f77dd0f96b3d1_r.jpg\" data-original-token=\"v2-b1d4287b4eabd98d548f77dd0f96b3d1\"/></figure><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-bdf392ccac68734db5d3651c6e16a92d_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"564\" data-rawheight=\"351\" class=\"origin_image zh-lightbox-thumb\" width=\"564\" data-original=\"https://pic2.zhimg.com/v2-bdf392ccac68734db5d3651c6e16a92d_r.jpg\" data-original-token=\"v2-bdf392ccac68734db5d3651c6e16a92d\"/></figure><p data-pid=\"QY9JW1Gv\">首先我将墨墨的数据在 SuperMemo 的理论上做了诸多验证，发现大部分规律都是一致的，这给予我一丝安慰和极大的信心。至少，我没有白研究那么久理论，同时，记忆的规律并不随着记忆者、记忆材料的更迭而改变的。然后，为了更好的研究记忆，我也推动着墨墨数据收集系统的改变。研究是一件难以预料和安排的事，如果研究的问题提得不对，那我可能从收集数据上就错了。Woz 总是惦记着他的记忆稳定性、记忆可提取性和记忆难度，我觉得他过早地简化了模型。若要对记忆进行更深入的分析，应当从最原始的数据开始。为此，我认为要记录完整的记忆数据，比如每一位用户每次复习的内容、时间、回忆成功还是失败、完整的复习历史等等。后来我才知道，其实我要记录的是记忆的时序信息，而这正是支持我研究记忆的基础。</p><h2><b>独立思考</b></h2><p data-pid=\"hen_C4P3\">在深入研究记忆数据的过程中，我也逐渐发现了 Wozniak 的理论问题。在他的记忆三变量模型中，记忆稳定性和记忆可提取性都在墨墨的数据中找到了对应的模式。但记忆难度始终捉摸不透。另外他也缺少对高效复习的定义。这让我开始独立思考，尝试自己补上拼图中的空缺。</p><p data-pid=\"3fPe1bW5\">我的第一个切入点是通过模拟记忆过程来寻找最高效的复习策略。为此我根据 Woz 的理论和墨墨的记忆数据，在 2021 年年初编写了间隔重复模拟器<sup data-text=\"L-M-Sherlock/space_repetition_simulators\" data-url=\"https://github.com/L-M-Sherlock/space_repetition_simulators\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"8\">[8]</sup>，然后模拟各种策略的记忆情况，验证策略的效果<sup data-text=\"Anki 制卡对复习记忆效率的影响分析\" data-url=\"https://zhuanlan.zhihu.com/p/346463057\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"9\">[9]</sup>。首先我对复习过程做了诸多约束，比如固定每天的记忆总量，固定模拟时间跨度等等。然后以模拟结束后的记忆总量来衡量策略的效果。其实这就是蒙特卡罗模拟，虽然我并没有去系统的学习，但并不妨碍我去使用它。</p><p data-pid=\"5IjHVJ4L\">在模拟验证过程中，我发现 Woz 的最大化记忆稳定性的策略并不是最高效的。这让我踏入了研究的空白区，我开始意识到记忆三变量模型也不足以支持我寻找高效记忆策略了，因为这个模型中并没有包含对记忆成本的约束。于是，在朦朦胧胧的直觉中，我自己定义了一个新的概念：复习压力。</p><p data-pid=\"cxK7_nu8\">我认为，高效的复习就是以最小的复习压力形成长期记忆。这里有一些直觉，比如随着每次复习成功，稳定性不断增长，复习压力会越来越小。那么复习压力肯定和复习次数有关。但两者之间的关系具体如何用数学语言描述，我那个时候的数学水平还不够，只好在草稿纸上不断地推演和尝试。在这个探索的过程中，我发现其实复习压力就是期望复习次数，而要计算着一期望，需要知道记忆的状态变化和复习策略。这一过程包括确定的模型和策略，也包括随机的遗忘。我想起我在知乎上读到过的一个数学工具正好能描述这一过程——随机过程。</p><p data-pid=\"4zyZnndD\">找到了数学工具的我欣喜若狂，立马找到了 Ross 的  <i>Introduction to Probability Models</i>（实际上我是先找到了 stochastic process，但是太难懂了，看了 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/e4a798732629bb320196a698662d7249\" data-hash=\"e4a798732629bb320196a698662d7249\" data-hovercard=\"p$b$e4a798732629bb320196a698662d7249\">@Mercurial</a> 这篇回答《<a href=\"https://www.zhihu.com/question/389395273/answer/1194198617\" class=\"internal\">请问下 Ross 的随机过程那个版本比较好？</a>》后发现同个作者的另一本书更容易看懂），开始学习相关的知识。很快我就找到了一个和我脑海中复习压力计算非常相近的例题：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-fa62a0815abeb21ba0d9e62bfb58f86e_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"536\" data-rawheight=\"629\" class=\"origin_image zh-lightbox-thumb\" width=\"536\" data-original=\"https://pic1.zhimg.com/v2-fa62a0815abeb21ba0d9e62bfb58f86e_r.jpg\" data-original-token=\"v2-fa62a0815abeb21ba0d9e62bfb58f86e\"/></figure><p data-pid=\"8KTTP9kM\">这道题是在说，一个矿工面对三个门，一个门走两个小时可以到达目的地，另外两个门分别走三小时和五小时回到原地，如果选门是等概率的，那么到达目的地所需时间的期望是多少。</p><p data-pid=\"6Gj7Y_U1\">可能你会奇怪，这个问题和复习压力有什么关系。我简单做一个类比，假设只有两个门，一个门叫做复习成功，一个门叫做复习失败，复习成功后记忆稳定性会增加，离形成长期记忆的目标就接近了一分，复习失败会导致记忆稳定性不增加（或下降），原地踏步或者离目标更远。每次选门都需要付出时间成本（复习需要时间），那么复习压力就是形成长期记忆所需要付出的总时间成本，也就是矿工达到目的地的期望时间。只不过记忆所面临的场景更加复杂，比如根据复习时间的不同，走进其中一个门的概率会发生变化，而且每次要走的门都可能是不一样的。但这两个问题的本质依然是一样的，很快我就操着这套数学工具把问题描述清楚了。</p><figure data-size=\"small\"><img src=\"https://pic1.zhimg.com/v2-33dfc722b128b22c6870111531e5309a_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"751\" data-rawheight=\"771\" class=\"origin_image zh-lightbox-thumb\" width=\"751\" data-original=\"https://pic1.zhimg.com/v2-33dfc722b128b22c6870111531e5309a_r.jpg\" data-original-token=\"v2-33dfc722b128b22c6870111531e5309a\"/></figure><p data-pid=\"NeFZ6MkK\">当一个模糊的现实问题被转化为清晰的数学问题，就已经成功了一半。但上述问题实际上是在给定复习策略的情况下计算复习压力期望，那么有没有什么问题是反过来，能求出期望复习压力最小的复习策略呢？我继续在随机过程中寻找工具，发现了马尔可夫决策问题。</p><figure data-size=\"small\"><img src=\"https://pic1.zhimg.com/v2-7f1c21615d21ce2c8a35fbf930eefdcc_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"639\" data-rawheight=\"827\" class=\"origin_image zh-lightbox-thumb\" width=\"639\" data-original=\"https://pic1.zhimg.com/v2-7f1c21615d21ce2c8a35fbf930eefdcc_r.jpg\" data-original-token=\"v2-7f1c21615d21ce2c8a35fbf930eefdcc\"/></figure><p data-pid=\"PxduupSG\">本质上，复习安排优化就是在已知的记忆模型的基础上进行决策优化，最小化复习压力。但是 Ross 这本书并没有很详细地介绍如何优化决策。我只好在知乎上搜索马尔可夫决策过程相关的文章进行学习（比如 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/e1500aeeaa8970b38e856824e1005d08\" data-hash=\"e1500aeeaa8970b38e856824e1005d08\" data-hovercard=\"p$b$e1500aeeaa8970b38e856824e1005d08\">@heaven</a> 的这篇：《<a href=\"https://zhuanlan.zhihu.com/p/159621634\" class=\"internal\">2.1.马尔可夫决策过程（MDP）</a>》）。然后我搜索到了贝尔曼方程（ <a class=\"member_mention\" href=\"https://www.zhihu.com/people/1b72d70b702b3920638f0235d380ebd8\" data-hash=\"1b72d70b702b3920638f0235d380ebd8\" data-hovercard=\"p$b$1b72d70b702b3920638f0235d380ebd8\">@忆臻</a> 学长的这篇《<a href=\"https://zhuanlan.zhihu.com/p/35261164\" class=\"internal\">马尔科夫决策过程之Bellman Equation（贝尔曼方程）</a>》），发现这东西不就是动态规划吗？只不过加了点随机进去，要计算期望。</p><p data-pid=\"0O5gojI_\">然后我又继续联想，发现如果我将记忆稳定性当作一系列离散的状态点，复习成本是他们之间的路径权重，回忆概率是这些路径走通的概率，那实际上这就是一个随机最短路问题。我很快就将我已有的动态规划知识和随机过程知识结合起来。然后我就写出了第一版迭代算法，可以用于计算每个记忆稳定性下最优的复习间隔对应的回忆概率。</p><figure data-size=\"small\"><img src=\"https://pica.zhimg.com/v2-7e8ebec8abc933ea9a52fecf64b27bf2_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"868\" data-rawheight=\"965\" class=\"origin_image zh-lightbox-thumb\" width=\"868\" data-original=\"https://pica.zhimg.com/v2-7e8ebec8abc933ea9a52fecf64b27bf2_r.jpg\" data-original-token=\"v2-7e8ebec8abc933ea9a52fecf64b27bf2\"/></figure><figure data-size=\"small\"><img src=\"https://pic4.zhimg.com/v2-06171196dac235c08257f32f3b1d16eb_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1280\" data-rawheight=\"1268\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic4.zhimg.com/v2-06171196dac235c08257f32f3b1d16eb_r.jpg\" data-original-token=\"v2-06171196dac235c08257f32f3b1d16eb\"/></figure><p data-pid=\"LRHQIdZr\">至此，我认为我已经解决了优化复习策略的问题。开始着手对整个记忆规划系统进行梳理。</p><h2><b>开始写作</b></h2><h3>第一篇论文</h3><p data-pid=\"4uxK9IPn\">本质上，优化间隔重复调度可以分为两个部分，一是记忆建模，二是策略优化，我的第一篇论文《基于 <b>LSTM</b> 的语言学习长期记忆预测模型》就是聚焦于前者。</p><p data-pid=\"O40jJV0h\">当时是 2021 年 9 月，我被抓回学校去做毕设，但我想在墨墨继续搞研究，于是和导师达成交易，我发表论文，他让我继续实习，于是我就花了大概一个月时间写第一篇论文。由于这是我第一次写学术论文，我就开始阅读相关文献。发现搞记忆建模的最近的一篇论文还是 Duolingo 在 2016 年发表的，我在知乎上总结了一篇笔记<sup data-text=\"从 Duolingo 机器学习算法说起，浅析记忆数据的特征工程\" data-url=\"https://zhuanlan.zhihu.com/p/345172257\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"10\">[10]</sup>。他们提出了一个记忆半衰期回归模型，其实就是用一些统计特征来预测记忆的半衰期。而记忆半衰期是什么东西呢？其实就是记忆稳定性。我轻车熟路地看完了他们的论文，发现可以改进的空间巨大。因为他们用的是统计特征，而记忆过程本质上是一个时序事件。那么用个时序特征+时序模型不就能水一篇论文了么。那最常用的时序模型，并且要和神经网络有关，那就非 LSTM 莫属了。</p><p data-pid=\"re4_x_n_\">于是我就开始看 PyTorch 的文档，再抄抄别人在 GitHub 上写的 LSTM 调用代码，然后用 Pandas 和 Numpy 把墨墨的数据整理成可以输入 LSTM 的 Tensor，一周就把实验做完了。只是苦了我的 MacBook（还是用墨墨的实习工资买的），因为我一张显卡都没有。。。然后为了让我的论文和正统学术文献（Woz 的文章就像个民科写的）有个衔接，我把记忆稳定性都换成了记忆半衰期，记忆可提取性换成了回忆概率，模型也命名为了 LSTM-HLR，以表示我的工作是在 Duolingo 上的改进。</p><p data-pid=\"fxK-fV6W\">之后我又花了大概一周把论文初稿写完（中文版），论文的结构也是模仿 Duolingo 那篇论文。然后导师让我调研可以投稿的会议。搞笑的是，AI+教育交叉方向的会几乎都没有被 CCF 收录<sup data-text=\"AI+教育交叉方向学术会议调研/吐槽(2022)\" data-url=\"https://zhuanlan.zhihu.com/p/419815179\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"11\">[11]</sup>。最后导师让我投了《中文信息学报》，十月份投稿，其中 rebuttal 一次，修改格式一次，十一月份就录用了。然后我就兴冲冲地回墨墨上班去了，当然名义也是非常正当了，这叫校外毕设，233。</p><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-041a5f9146bbfb1063ab8b16a06e689c_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"478\" data-rawheight=\"545\" class=\"origin_image zh-lightbox-thumb\" width=\"478\" data-original=\"https://pica.zhimg.com/v2-041a5f9146bbfb1063ab8b16a06e689c_r.jpg\" data-original-token=\"v2-041a5f9146bbfb1063ab8b16a06e689c\"/></figure><h3>第二篇论文</h3><p data-pid=\"5yX0v7Vf\">回墨墨后，我就把之前思考的复习策略给应用到真实业务上，进行了 AB 测试，效果喜人，多年来的研究终于有了回应，帮到了百万用户提高复习效率。我正打算继续优化算法，没想到导师又来找我了，大概是 2022 年 1 月左右。我以为他是询问我毕业论文写得咋样了，没想到他是搞偷袭，想要我再发一篇论文。说什么之前那个 CCF B 中文核心投中了很有优势，再发篇 CCF A 英文会议会更好之类的。其实我不是很想写了，但是考虑如果能发国际论文，可以让我的研究被更多人使用，也能帮助更多人，我就自我 push 了一下，开始了第二篇论文 <i>A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling</i> 的写作。</p><p data-pid=\"PDwne_jm\">这篇论文的主要是写复习策略优化的，为此我又看了不少文献，发现怎么大家这么喜欢强化学习，我对强化学习是不怎么感冒的，因为奖励很难设置，在墨墨背单词上搞在线强化学习也是很难落地的。直到我翻到了一篇用标记点过程和最优控制来做的文章，感觉里面的数学很优美（但我看不懂随机偏微分方程）。我就想着怎么用更优美的数学语言把我之前想到的最小复习压力迭代算法包装起来。正好那个时候我又在知乎搜索随机最短路相关的文章，找到了 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/186282e45de0e1040b7882c9be8f5de8\" data-hash=\"186282e45de0e1040b7882c9be8f5de8\" data-hovercard=\"p$b$186282e45de0e1040b7882c9be8f5de8\">@王源</a> 大佬写的《强化学习与最优控制》笔记（例如这篇：<a href=\"https://zhuanlan.zhihu.com/p/260097696\" class=\"internal\">【强化学习与最优控制】笔记（二）随机性问题的动态规划</a>）。简直如获至宝，原来最优控制理论已经有相关的数学工具来描述这个问题，我就把我之前的草稿写成 Bellman 方程的形式。</p><figure data-size=\"small\"><img src=\"https://pic1.zhimg.com/v2-cabe28118a2015a84f7c999af09bf226_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1111\" data-rawheight=\"900\" class=\"origin_image zh-lightbox-thumb\" width=\"1111\" data-original=\"https://pic1.zhimg.com/v2-cabe28118a2015a84f7c999af09bf226_r.jpg\" data-original-token=\"v2-cabe28118a2015a84f7c999af09bf226\"/></figure><p data-pid=\"uMSwAGQJ\">但是我又遇到了一个问题，那就是记忆模型该用什么。我的 LSTM-HLR 模型虽然已经被录用了，但是并没有被刊出，在新的论文里还得再介绍一遍，感觉会出问题。于是我把 Woz 的三变量模型搬了过来，并尝试用机器学习的方式去计算模型参数。在这个过程中，为了更好地观察记忆数据的规律，我先考虑如何将记忆时序数据进行降维。Woz 的 SInc 矩阵启发了我，可以将每个记忆行为用稳定性、可提取性、难度以及复习后的稳定性来表示。如果我们再把难度用颜色表示，那么剩下的三个属性就可以投影到 3-D 空间中。为此我又在网友的推荐下学了 plotly 这个数据可视化的库，然后对墨墨的数据一通操作：</p><figure data-size=\"small\"><img src=\"https://picx.zhimg.com/v2-058809b1759cfbabb568d6011a6a71a1_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"661\" data-rawheight=\"657\" class=\"origin_image zh-lightbox-thumb\" width=\"661\" data-original=\"https://picx.zhimg.com/v2-058809b1759cfbabb568d6011a6a71a1_r.jpg\" data-original-token=\"v2-058809b1759cfbabb568d6011a6a71a1\"/></figure><p data-pid=\"vd1QIhqB\">可视化之后，我发现一个简单的线性回归模型就足够了，最多再对特征做一些非线性变换。这里我参考了 Woz 的稳定性增长函数的形式。</p><figure data-size=\"small\"><img src=\"https://picx.zhimg.com/v2-b3723079a73303dea3fe711a54e5e661_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1150\" data-rawheight=\"915\" class=\"origin_image zh-lightbox-thumb\" width=\"1150\" data-original=\"https://picx.zhimg.com/v2-b3723079a73303dea3fe711a54e5e661_r.jpg\" data-original-token=\"v2-b3723079a73303dea3fe711a54e5e661\"/></figure><p data-pid=\"LxxywpXg\">然后这个人工时序模型就整出来了。接着就是拿去和 HLR 模型对比，发现效果确实好。这说明统计特征存在内在缺陷，其实这很好理解，忘记一次再记住一次，能和记住一次再忘记一次一样么？统计特征损失了时序信息，而时序信息在记忆状态的变化中又十分重要，所以效果好并不令我意外，意外的是之前居然没有人用时序信息来做记忆建模和预测。（其实是有的，但是年代太久远了，而且没有用到机器学习，他们参数怎么算的我都搞不懂）。后来发现原来记忆领域开源的数据集居然只有 Duolingo 一家的。为了能让论文更容易被别人复现，我和公司的负责人讨论了一下数据集开源的事儿，也算是为了这个领域能更进一步发展，最终决定公开数据集和实验代码（为此还私信咨询了一下 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/e3f5794fa10022aa07c05b0b9e6dc537\" data-hash=\"e3f5794fa10022aa07c05b0b9e6dc537\" data-hovercard=\"p$b$e3f5794fa10022aa07c05b0b9e6dc537\">@微调</a> 老师嘿嘿）：</p><blockquote data-pid=\"LOvEkiW9\">Ye, Junyao, 2022, &#34;Replication Data for: A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling&#34;, <a href=\"https://link.zhihu.com/?target=https%3A//doi.org/10.7910/DVN/VAGUL0\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">https://doi.org/10.7910/DVN/VAGUL0,</a> Harvard Dataverse, V1</blockquote><a href=\"https://link.zhihu.com/?target=https%3A//github.com/maimemo/SSP-MMC\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">maimemo/SSP-MMC: A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling (github.com)</a><p data-pid=\"3au6mBTy\">回到这个时序模型，我继续看了一下《强化学习与最优控制》里面在已知状态转移方程的情况下，求解最优策略的方法，发现我之前写的迭代法就是 value iteration 方法，然后我就用伪代码包装了一下：</p><figure data-size=\"small\"><img src=\"https://picx.zhimg.com/v2-57b70197cc13a216529cc21241fc8915_b.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"1044\" data-rawheight=\"1280\" class=\"origin_image zh-lightbox-thumb\" width=\"1044\" data-original=\"https://picx.zhimg.com/v2-57b70197cc13a216529cc21241fc8915_r.jpg\" data-original-token=\"v2-57b70197cc13a216529cc21241fc8915\"/></figure><p data-pid=\"2huvcW9H\">还挺像样的，J 就是成本矩阵， π 是策略矩阵，f 是记忆状态转移方程，d 是难度，h 是记忆半衰期，p 是回忆概率，a 和 b 是复习成功 or 失败的成本。通过不断遍历每个记忆状态下的复习间隔，计算期望复习成本，寻找最小化期望成本的复习间隔，不断迭代，最终就能收敛得到最优成本矩阵和最优策略矩阵。</p><p data-pid=\"ADpJRbC5\">这些内容写得差不多了之后，我就和导师同步了一下进度，我说我没用深度学习，是不是不好投，他说那你投 KDD 吧。然后我调研了一下 KDD，发现 KDD 还挺多企业在上面发论文的，而且有个专门的 applied data science track，我就开始按 KDD 的要求去改论文了。没想到 KDD 要双栏 9 页，我只好再加点酷炫的可视化图片进去，因为我听学长说没写满容易被认为不够 solid，笑死。</p><p data-pid=\"nkqw99m9\">于是我就开始想有什么正当理由来加可视化图片，我就联想到之前一堆深度强化学习方法都是黑箱，可解释性不高，我可以以解释模型机制为由，去可视化一下模型的权重和最优策略的模式：</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-ce69bc49d9d4ee66598fb6c10967bc00_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"1055\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://pic1.zhimg.com/v2-ce69bc49d9d4ee66598fb6c10967bc00_r.jpg\" data-original-token=\"v2-ce69bc49d9d4ee66598fb6c10967bc00\"/></figure><p data-pid=\"8d9zn-0E\">然后看图说话就完事了，这里说几个从记忆模型观察到的结论：</p><ol><li data-pid=\"r99o9O6p\">随着难度增长，半衰期的增长潜力在不断下降</li><li data-pid=\"Y5HkqAff\">随着回忆概率下降，半衰期的增长潜力会上升，这意味着「值得的困难」</li><li data-pid=\"_2bU3hdE\">随着半衰期增长，半衰期的增长潜力会下降，也就是说记忆无法无限地巩固下去</li></ol><p data-pid=\"tbfXjfhW\">还有从最优复习策略中观察到的现象：</p><ol><li data-pid=\"aMNfhBeB\">难度越高，期望复习成本也越高</li><li data-pid=\"gf3IsWWX\">期望复习成本随着半衰期增长而下降</li><li data-pid=\"JKNrlCqp\">半衰期相同时，最优的复习间隔随着难度增长</li></ol><p data-pid=\"wfNfZ8RJ\">后面为了把时序模型和随机最短路问题用直观的方式展示出来，又拿 <a href=\"https://link.zhihu.com/?target=http%3A//draw.io\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">http://</span><span class=\"visible\">draw.io</span><span class=\"invisible\"></span></a> 画了一下流程图：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-0223a710ab8706cad81606a63c9fcdf1_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1280\" data-rawheight=\"863\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://picx.zhimg.com/v2-0223a710ab8706cad81606a63c9fcdf1_r.jpg\" data-original-token=\"v2-0223a710ab8706cad81606a63c9fcdf1\"/></figure><p data-pid=\"ZUyuCAgS\">顺带一提，这是我第一次用英文写学术论文，非常痛苦，为此看了不少知乎上的论文写作教程（比如 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/62583fea8f4681812a28380aaac759de\" data-hash=\"62583fea8f4681812a28380aaac759de\" data-hovercard=\"p$b$62583fea8f4681812a28380aaac759de\">@中科院张老师</a> 的《<a href=\"https://www.zhihu.com/question/49355121/answer/322451208\" class=\"internal\">怎样写好英文论文的 Introduction 部分？</a>》、 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/345a2ef577ab9e3607007c854e23ad54\" data-hash=\"345a2ef577ab9e3607007c854e23ad54\" data-hovercard=\"p$b$345a2ef577ab9e3607007c854e23ad54\">@张明瑞</a> 的《<a href=\"https://zhuanlan.zhihu.com/p/368677897\" class=\"internal\">DrustZ的论文小课堂 [相关工作Related Work]</a>》和 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/1db3a6f5331d79146752a3a79b64f4f0\" data-hash=\"1db3a6f5331d79146752a3a79b64f4f0\" data-hovercard=\"p$b$1db3a6f5331d79146752a3a79b64f4f0\">@多啦诶梦有点酷</a> 的《<a href=\"https://www.zhihu.com/question/310372138/answer/2248918997\" class=\"internal\">有没有比 Grammarly 更先进的英语作文修改润色软件？</a>》）DeepL + Grammarly + QuillBot 救我于水火之中！</p><p data-pid=\"mjOfh7SM\">然后就是和导师一起改论文，最终在 2 月份过年的时候赶上了 ddl，交了稿。然后 5 月份收到了录用通知，这里的故事差不多就结束了。</p><h3>彩蛋</h3><p data-pid=\"RLtFlxlS\">但是故事还没完，四月底的时候导师又来找我了，说 KDD 挺难中的，让我再准备一篇 NIPS。。。结果才准备半个月，刚写完初稿，KDD 中了，我导师改口说咋们拓展成英文期刊论文吧。所以我这两个月又在写期刊论文，双栏 12 页写得我头皮发麻。不过还是写完了，并且把我之前的构思也加进来了，希望今年能投中吧。</p><h2>总结</h2><p data-pid=\"u3BRA3Dk\">回顾我的研究历程，充满了各种巧合和意外，我不敢说我在这一研究中作出了多么突出的贡献。没有 Anki 的帮助，Wozniak 的理论，墨墨背单词的数据，知乎用户产出的各类学习资料，这项研究都无法继续。</p><p data-pid=\"9s04jv0j\">但有一点不可否认：我选择了自己的道路，在探索中自由学习，在激情的驱动下不断前行，并想方设法地摆脱学校的控制。</p><p data-pid=\"PZhSDOPI\">我坚信对记忆的研究能推动教育技术的发展，让更低成本的学习工具到达每一位学习者手中。</p><p data-pid=\"Auk2nu_O\">我通过自由学习找到了自己的人生道路，从一名小镇做题家转变为教育科技企业的算法工程师，成为记忆领域的科研工作者。我相信在未来，每一个学生都能挣脱腐朽的强制学校教育的束缚<sup data-text=\"为什么强制学校系统应该从这个世界上滚蛋\" data-url=\"https://zhuanlan.zhihu.com/p/544801748\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"12\">[12]</sup>，通过自由学习实现自我<sup data-text=\"自由学习\" data-url=\"https://zhuanlan.zhihu.com/p/272543239\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"13\">[13]</sup>，也过上世俗意义上的好日子。</p><h2>致谢</h2><p data-pid=\"SGyALU3h\">写了这么长篇的文章，其实很想再推荐一些自己之前在知乎上的创作。但是在我这一路的科研探索过程中，受到了知乎上许多朋友主动或被动，直接或间接的帮助，这里我想把空间留给他们，以下按照我的关注顺序介绍：</p><p data-pid=\"e6dujV_C\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/f6e6eafd757577f7729919c8733f48fe\" data-hash=\"f6e6eafd757577f7729919c8733f48fe\" data-hovercard=\"p$b$f6e6eafd757577f7729919c8733f48fe\">@余时行</a>：国内 Anki 早起推广者，编写了很多很多 Anki 相关的教程，他是我的启蒙导师。</p><p data-pid=\"VFm2jHR3\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/4eedf55cf1de9f94173b352f9c5a8d2b\" data-hash=\"4eedf55cf1de9f94173b352f9c5a8d2b\" data-hovercard=\"p$b$4eedf55cf1de9f94173b352f9c5a8d2b\">@YJango</a>：学习/教育技术研究/推广者，在研究学习/教育技术的同时，让许多人改变了对学习的看法，他是我想要模仿的对象。</p><p data-pid=\"Be7vAgRS\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/87fcdbce59e1833bd75fc5c6bdedddea\" data-hash=\"87fcdbce59e1833bd75fc5c6bdedddea\" data-hovercard=\"p$b$87fcdbce59e1833bd75fc5c6bdedddea\">@Mushroobby</a>：坚持不懈的理想主义者（创业遇上疫情失败了，但依然还在做着自己想做的事），他让我坚定自己的道路。</p><p data-pid=\"7TBAtzvb\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/e3f5794fa10022aa07c05b0b9e6dc537\" data-hash=\"e3f5794fa10022aa07c05b0b9e6dc537\" data-hovercard=\"p$b$e3f5794fa10022aa07c05b0b9e6dc537\">@微调</a>：最早还是看到躺平学的时候关注的，他对科研生活的介绍，以及人生态度，让我不再纠结于大厂和学历，选择了自己独特的职业之路。</p><p data-pid=\"nosawRAz\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/ba841c469fe639da79da23eebd51f116\" data-hash=\"ba841c469fe639da79da23eebd51f116\" data-hovercard=\"p$b$ba841c469fe639da79da23eebd51f116\">@迟策</a>：迟先生对 CS 系内卷的观点让我放弃了刷 GPA 内卷的无效努力，把时间投入到自己真正热爱的事业上来。</p><p data-pid=\"_u0plaeF\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/0cabf9a69e4e6a7775a57d48f1f68149\" data-hash=\"0cabf9a69e4e6a7775a57d48f1f68149\" data-hovercard=\"p$b$0cabf9a69e4e6a7775a57d48f1f68149\">@张戎</a>、<a class=\"member_mention\" href=\"https://www.zhihu.com/people/833f8ba154b6de4387edc287c336d387\" data-hash=\"833f8ba154b6de4387edc287c336d387\" data-hovercard=\"p$b$833f8ba154b6de4387edc287c336d387\">@石溪</a>和 <a class=\"member_mention\" href=\"https://www.zhihu.com/people/77b195f4016956a60304aefb3961ca36\" data-hash=\"77b195f4016956a60304aefb3961ca36\" data-hovercard=\"p$b$77b195f4016956a60304aefb3961ca36\">@学弱猹</a>：机器学习和数学领域的优秀答主，我看了他们很多分享专业知识的文章，质量都很高。</p><p data-pid=\"fpZOhNHl\"><a class=\"member_mention\" href=\"https://www.zhihu.com/people/186282e45de0e1040b7882c9be8f5de8\" data-hash=\"186282e45de0e1040b7882c9be8f5de8\" data-hovercard=\"p$b$186282e45de0e1040b7882c9be8f5de8\">@王源</a>：控制论和运筹学的优秀答主，虽然我只看了《强化学习与最优控制》的笔记，但其他内容想必质量也是很高的。</p><p data-pid=\"f5lby1B4\">还有许许多多朋友，在方方面面帮助到了我，只是这里无法一一列出他们的姓名，当我心中的感激之情永在！</p><hr/><p data-pid=\"FZZmrl8G\">我是叶峻峣，希望在未来，还能继续与大家共勉！</p><p data-pid=\"46xmNJNp\">2022 年 8 月 13 日</p><hr/><p data-pid=\"vtD7LmWO\">更新：</p><p data-pid=\"FuESXke3\">若想进一步了解我的工作，欢迎阅读下面这篇间隔重复记忆算法的入门读物。</p><a href=\"https://zhuanlan.zhihu.com/p/556020884\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pica.zhimg.com/v2-d5734ba2a8f7443e5dd8001cb46031fc_qhd.jpg\" data-image-width=\"1920\" data-image-height=\"1080\" class=\"internal\">叶峻峣：间隔重复记忆算法：e 天内，从入门到入土。</a><p></p>",
-  "column": {
-    "updated": 1706022041,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/c_1280249768422608896",
-    "title": "学委叶哥的随笔",
-    "image_url": "https://picx.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1280249768422608896"
-  },
-  "comment_count": 85,
-  "image_url": "https://pic1.zhimg.com/v2-08134e67de67b70a126b02829d90edcc_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 384,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-99b4577d42061dc5a4cfc498f22a2481.jpg?source=172ae18b",
+      "uid": "768452431364227072",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "zhu-wang-xiao-miao-o",
+      "id": "09733810a89d25118c12b0514939747f",
+      "description": "个人用来碎碎念的微信公众号：此生的诗意\n有时也会搬运知乎回答过去。\n欢迎关注！\n",
+      "name": "Felina",
+      "is_advertiser": false,
+      "headline": "星星还是要还给宇宙的",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/09733810a89d25118c12b0514939747f",
+      "avatar_url": "https://picx.zhimg.com/v2-99b4577d42061dc5a4cfc498f22a2481_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-dc35bdcc8633b925af7afd0bdcfb3c16.jpg?source=172ae18b",
+      "uid": "862973462606680064",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "liu-si-zhe-40",
+      "id": "83e99d6f1af4a8f5949e49519c9773aa",
+      "description": "欢迎大家微信搜索关注公众号：人工智能与算法学习、人工智能研究、AI行业洞察！",
+      "name": "刘思哲",
+      "is_advertiser": false,
+      "headline": "",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/83e99d6f1af4a8f5949e49519c9773aa",
+      "avatar_url": "https://picx.zhimg.com/v2-dc35bdcc8633b925af7afd0bdcfb3c16_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 384,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyMDg4NzE5MDgSCTU0MzMyNTM1ORgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {
+    "REACTION_CONTENT_SEGMENT_LIKE": "HIDE"
+  },
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 2268,
+      "down_vote_count": 15,
+      "like_count": 384,
+      "comment_count": 90,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 3379,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-0223a710ab8706cad81606a63c9fcdf1": 2,
+        "v2-041a5f9146bbfb1063ab8b16a06e689c": 0,
+        "v2-058809b1759cfbabb568d6011a6a71a1": 1,
+        "v2-06171196dac235c08257f32f3b1d16eb": 0,
+        "v2-08134e67de67b70a126b02829d90edcc": 0,
+        "v2-33dfc722b128b22c6870111531e5309a": 0,
+        "v2-57b70197cc13a216529cc21241fc8915": 1,
+        "v2-6fc5e100a5279abf00fae15a37170771": 0,
+        "v2-7e8ebec8abc933ea9a52fecf64b27bf2": 0,
+        "v2-7f1c21615d21ce2c8a35fbf930eefdcc": 0,
+        "v2-9b459dca22ba7b639d341391a39b7aa7": 1,
+        "v2-9b825ea5850c07c7370044050054cfd6": 0,
+        "v2-b1d4287b4eabd98d548f77dd0f96b3d1": 0,
+        "v2-b3723079a73303dea3fe711a54e5e661": 0,
+        "v2-bdf392ccac68734db5d3651c6e16a92d": 1,
+        "v2-cabe28118a2015a84f7c999af09bf226": 1,
+        "v2-ce69bc49d9d4ee66598fb6c10967bc00": 1,
+        "v2-e5d6c7c89b21326f0a8c6f78cb062f6f": 2,
+        "v2-fa62a0815abeb21ba0d9e62bfb58f86e": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-0223a710ab8706cad81606a63c9fcdf1": false,
+        "v2-041a5f9146bbfb1063ab8b16a06e689c": false,
+        "v2-058809b1759cfbabb568d6011a6a71a1": false,
+        "v2-06171196dac235c08257f32f3b1d16eb": false,
+        "v2-08134e67de67b70a126b02829d90edcc": false,
+        "v2-33dfc722b128b22c6870111531e5309a": false,
+        "v2-57b70197cc13a216529cc21241fc8915": false,
+        "v2-6fc5e100a5279abf00fae15a37170771": false,
+        "v2-7e8ebec8abc933ea9a52fecf64b27bf2": false,
+        "v2-7f1c21615d21ce2c8a35fbf930eefdcc": false,
+        "v2-9b459dca22ba7b639d341391a39b7aa7": false,
+        "v2-9b825ea5850c07c7370044050054cfd6": false,
+        "v2-b1d4287b4eabd98d548f77dd0f96b3d1": false,
+        "v2-b3723079a73303dea3fe711a54e5e661": false,
+        "v2-bdf392ccac68734db5d3651c6e16a92d": false,
+        "v2-cabe28118a2015a84f7c999af09bf226": false,
+        "v2-ce69bc49d9d4ee66598fb6c10967bc00": false,
+        "v2-e5d6c7c89b21326f0a8c6f78cb062f6f": false,
+        "v2-fa62a0815abeb21ba0d9e62bfb58f86e": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-0223a710ab8706cad81606a63c9fcdf1": {
+        "like_count": 2,
+        "is_liked": false
+      },
+      "v2-041a5f9146bbfb1063ab8b16a06e689c": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-058809b1759cfbabb568d6011a6a71a1": {
+        "like_count": 1,
+        "is_liked": false
+      },
+      "v2-06171196dac235c08257f32f3b1d16eb": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-08134e67de67b70a126b02829d90edcc": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-33dfc722b128b22c6870111531e5309a": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-57b70197cc13a216529cc21241fc8915": {
+        "like_count": 1,
+        "is_liked": false
+      },
+      "v2-6fc5e100a5279abf00fae15a37170771": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-7e8ebec8abc933ea9a52fecf64b27bf2": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-7f1c21615d21ce2c8a35fbf930eefdcc": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-9b459dca22ba7b639d341391a39b7aa7": {
+        "like_count": 1,
+        "is_liked": false
+      },
+      "v2-9b825ea5850c07c7370044050054cfd6": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-b1d4287b4eabd98d548f77dd0f96b3d1": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-b3723079a73303dea3fe711a54e5e661": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-bdf392ccac68734db5d3651c6e16a92d": {
+        "like_count": 1,
+        "is_liked": false
+      },
+      "v2-cabe28118a2015a84f7c999af09bf226": {
+        "like_count": 1,
+        "is_liked": false
+      },
+      "v2-ce69bc49d9d4ee66598fb6c10967bc00": {
+        "like_count": 1,
+        "is_liked": false
+      },
+      "v2-e5d6c7c89b21326f0a8c6f78cb062f6f": {
+        "like_count": 2,
+        "is_liked": false
+      },
+      "v2-fa62a0815abeb21ba0d9e62bfb58f86e": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "3 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/6380844720?contentId=543325359&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 学委叶哥的随笔",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1280249768422608896",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 学委叶哥的随笔"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pica.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
-          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,10 +37,11 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
           "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -71,7 +76,7 @@
       "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,7 +84,7 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
@@ -90,33 +95,69 @@
       "hit_share_guide_cluster": false
     }
   },
-  "comment_count": 31,
-  "content": "<p data-pid=\"8-KOzfsG\">并没有，而是远远被低估了。心理学研究学习方法的文献千千万，真正有用的却寥寥无几，大多都是贫瘠的土地；唯有两颗璀璨的明珠耀眼夺目，其一是 <a href=\"https://zhuanlan.zhihu.com/p/720099642\" class=\"internal\">Bloom 的「两个标准差」问题</a>，其二就是<a href=\"https://zhuanlan.zhihu.com/p/420105707\" class=\"internal\">间隔重复（spaced repetition）</a>（Anki 的核心原理）。前者表明一对一辅导具有很大的效果，而后者则指出了自学者也能有效果显著且终生受用的方法。</p><h2>科学证据</h2><p data-pid=\"1ufeCDET\">根据大量心理学研究分析，间隔重复的效应量为 d=0.42，这意味着原本排名在前 50% 的学生，在使用间隔重复后，可以将排名提升到前 33%，多超过 17% 的同学。而且这还是在实验室里最最最原始的间隔重复，连稍微智能化点的算法都没用上。如果使用能够从学习者复习历史数据中找到记忆规律的算法，复习效果还能至少再提升 20% 以上<sup data-text=\"KDD&#39;22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]\" data-url=\"https://zhuanlan.zhihu.com/p/577383961\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup><sup data-text=\"IEEE TKDE 2023 | 墨墨背单词：通过捕捉记忆动态，优化间隔重复调度\" data-url=\"https://zhuanlan.zhihu.com/p/656714407\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-809d6c8022ef9db2dbbe5474d47b6199_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"768\" data-rawheight=\"490\" data-original-token=\"v2-809d6c8022ef9db2dbbe5474d47b6199\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-24d098868d5abc926aa835f551f8ef85_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"768\" data-original=\"https://pic1.zhimg.com/v2-809d6c8022ef9db2dbbe5474d47b6199_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;768&#39; height=&#39;490&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"768\" data-rawheight=\"490\" data-original-token=\"v2-809d6c8022ef9db2dbbe5474d47b6199\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-24d098868d5abc926aa835f551f8ef85_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"768\" data-original=\"https://pic1.zhimg.com/v2-809d6c8022ef9db2dbbe5474d47b6199_r.jpg?source=2c26e567\" data-actualsrc=\"https://picx.zhimg.com/50/v2-809d6c8022ef9db2dbbe5474d47b6199_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"SwsHvTOT\">而根据一篇<b>深入研究了 700 多篇相关科学论文</b>的综述<sup data-text=\"科学的学习方法综述：哪些行之有效，哪些徒劳无功？\" data-url=\"https://zhuanlan.zhihu.com/p/710552897\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>，间隔重复正是包揽前两名（自我测试+间隔学习）的高效学习方法，适用于各个年龄段的学习者，从学龄前儿童到医学院四年级学生，甚至中年人都能从中受益。它可以用于学习各种事实性知识，包括外语词汇、拼写列表和记忆植物结构等，而且在长期记忆中也能保持良好效果。</p><p data-pid=\"IvvXR2lm\">可以说，间隔重复几乎可以算是得到实证研究支持的所有学习方法中，最为有效的一种。然而，<span class=\"nolink\">间隔重复</span>在学校教育体系中并未得到有意识的运用，顶多算是无心插柳，或凭借原始的经验直觉偶尔沾边。<sup data-text=\"教育和学习无关\" data-url=\"https://zhuanlan.zhihu.com/p/711526074\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>考虑到间隔重复以及采用该原理的学习软件（比如 Anki）目前的流行程度，我认为远远算不上「被神化」的地步。</p><h2>个人轶事</h2><p data-pid=\"hrNLDEoc\">前面这些是科学研究，这里我再补充一些个人案例。比如我自己，从 2017 年开始使用 Anki，到 2018 年高考，累计提高了 157 分<sup data-text=\"你想知道如何高考逆袭吗？ 看我用 Anki 从本一线上涨 157 分！\" data-url=\"https://zhuanlan.zhihu.com/p/41568928\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>，考进了哈工大深圳的计算机系，从普通一本水平提高到了中上流 985 水平。我的大学学弟，也是从高二开始用 Anki，从 495 提到了 666<sup data-text=\"从495到666，我的逆风翻盘之旅\" data-url=\"https://zhuanlan.zhihu.com/p/255112561\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>。还有我通过 Anki 认识的清华大佬，从全市前 1114 名提升到了 289 名<sup data-text=\"前2%考生中提升 800 名+？Anki 与我的提分之路\" data-url=\"https://zhuanlan.zhihu.com/p/165108643\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup>。这种个案很多，此处就不在赘述<sup data-text=\"Anki 高考经验\" data-url=\"https://www.zhihu.com/collection/814079168\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"8\">[8]</sup>。</p><p data-pid=\"TSS6jCYm\">除开考试，还有没有其他厉害的人在用 Anki 呢？还真有。比如知名量子物理学家、科学作家、编程研究者 <a href=\"https://link.zhihu.com/?target=https%3A//michaelnielsen.org/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Michael Nielsen</a>。他在《自然》等期刊发表过多篇高引论文，他编写的量子力学和<span class=\"nolink\">深度学习教材</span>也广受欢迎。这样一位巨擘，也是一名 Anki 的长期使用者。以下是他的一些 Anki 使用心得（已经翻译为中文）：</p><ul><li data-pid=\"Y1aOr_L4\"><a href=\"https://zhuanlan.zhihu.com/p/65131722\" class=\"internal\">量子物理学家是如何使用 Anki 的？</a></li><li data-pid=\"KrP9qaMj\"><a href=\"https://zhuanlan.zhihu.com/p/593630309\" class=\"internal\">用间隔重复系统来看穿数学概念</a></li><li data-pid=\"TWpWt4A4\"><a href=\"https://zhuanlan.zhihu.com/p/719771814\" class=\"internal\">量子物理学家如何使用记忆系统？</a></li></ul><p data-pid=\"PWRaxOFC\">Anki/Spaced Repetition 的社区里还有很多厉害的人，比如 <a href=\"https://link.zhihu.com/?target=https%3A//andymatuschak.org/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Andy Matuschak</a>（前 Apple iOS 系统工程师、前可汗学院早期教育研发主管，现独立研究员）、<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/me\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Gwern Branwen</a>（自由职业的作家及研究者，为多家知名媒体和公司写过稿件、提供咨询）、<a href=\"https://link.zhihu.com/?target=https%3A//sorenbjornstad.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Soren Bjornstad</a> 等等，我就不一一介绍了。</p><h2>为什么有人觉得 Anki 被神话了</h2><p data-pid=\"Ry4Utfv_\">我觉得这很像以下情形：</p><blockquote data-pid=\"gYN6rLQl\">如果有人在 Hacker News 上发布了个名叫「小提琴」的新工具，评论可能会是：「这玩意儿听着就跟猫打架似的。」「弹了一下胳膊就酸了。」「我在上面连个简单曲子都弹不出来，严肃的音乐家才不会用它呢。」等等。</blockquote><p data-pid=\"9tb2vfbj\">其实就是没用对，我很喜欢 <span class=\"nolink\">Michael Nielsen</span> 的一个比喻：</p><blockquote data-pid=\"ZIru3Kyh\">这有点像用镊子当锤子……把玫瑰敲进你的花园。</blockquote><p data-pid=\"_9xMRYsw\">《<a href=\"https://zhuanlan.zhihu.com/p/650479871\" class=\"internal\">如何普及记忆系统？</a>》对此还有更多的论述：</p><blockquote data-pid=\"FTXHXZu7\">当我与记忆系统的怀疑者交谈时，我发现他们的怀疑常常来自几个方面。这里我不打算一一反驳，仅列举几点。有些人的质疑基于对记忆或记忆系统的误解，比如说： 「我根本不需要记忆系统，网上什么都能查到」；「记忆对创造工作没啥用，反而可能碍事」；「应该让自己『自然』的记忆来判断哪些事重要、哪些事不重要」；「记忆和理解完全是两码事」（这是一个错误的二分法）；「死记硬背没啥好处，也没啥大不了的」（进步教育人士喜欢这么说）；或者就是那些对记忆有种敏感心态的人（这在一些自觉记忆力不行但又志向远大的人当中比较常见：他们得让自己相信记忆没那么重要，这样才能维持自尊）。从这些想法中，人们往往得出一个结论，就是记忆系统没什么大用处。<br/><br/>第二个问题是，人们对记忆系统的运用非常粗糙，这其中的问题可以归结为三个方面。首先，有些人对记忆系统根本一窍不通，却总爱发表意见。他们可能摸摸索索用上几分钟，坚持几星期，然后就下结论：「这玩意没用。」这就像拿起小提琴拉几下就说：「这玩意拉不出好音，垃圾。[4]」问题其实是他们自己不会用。其次，有人虽然用得多，但未必用得好。你可以一个人苦练舞蹈几千小时，也不见得能跳得好。我和一些酷爱记忆系统的人聊过天，看他们犯一些我眼里的低级错误 [5]。我觉得他们从系统中得到了些许好处（不然就不会继续用了），但用得更好的话，好处肯定会更多。许多用记忆系统时遇到的常见问题，都可以通过更巧妙的运用来解决：「我觉得好无聊」；「我开始混淆记忆和创造性工作」等等。最后，我们人类集体对记忆系统的运用还处在摸着石头过河的阶段，还没摸清怎么用，最合适的形式是什么。所以一部分挑战就是提高我们对这方面的整体了解，就像我们逐渐增强了人类对瑜伽、冥想、篮球等方面的共同理解一样。</blockquote><p data-pid=\"yd39UjBM\">那怎么办呢？把 Anki 用对，用好，你就不会觉得它被神话了，反而会觉得这东西怎么这么神，早几年遇到该有多好。</p><p data-pid=\"ZfGWO7tV\">那怎么才能用对用好？别折腾 Anki 本身，多去制卡，多去复习，在真正的实践中学习：</p><blockquote data-pid=\"xPgpcbs-\">正如 Alan Kay 所说：「音乐不在钢琴里」。提高钢琴水平靠的是练习和学习如何更好地演奏，而不是不断调整钢琴。使用记忆系统也是如此：你应该专注于提高制作卡片的能力，而不是过分纠结于系统本身。</blockquote><p data-pid=\"P48iAGPQ\">当然，前人的经验也是很有用的，可以参考，但不可盲信。最后就用我们汉化组精选的 Anki/Spaced Repetition 文章为本回答作结吧：</p><a href=\"https://zhuanlan.zhihu.com/p/434074509\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-3fc5e91c7a88c26207775c8301afbe1f_180x120.jpg\" data-image-width=\"1579\" data-image-height=\"328\" class=\"internal\">Thoughts Memo：如何写出好卡片：利用间隔重复创造理解</a><a href=\"https://zhuanlan.zhihu.com/p/691567753\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-1429241a0093f0217bbf34d6f6c197fa_180x120.jpg\" data-image-width=\"6000\" data-image-height=\"4000\" class=\"internal\">Thoughts Memo：设计明晰 Anki 卡片的规则</a><a href=\"https://zhuanlan.zhihu.com/p/718778050\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-1e942f2924449b92e71d852ab231c464_ipico.jpg\" data-image-width=\"2530\" data-image-height=\"3161\" class=\"internal\">Thoughts Memo：间隔重复的有效实践</a><a href=\"https://zhuanlan.zhihu.com/p/719174183\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-6a87136361ee779eeeeee7cf2474b4fd_180x120.jpg\" data-image-width=\"2114\" data-image-height=\"1468\" class=\"internal\">Thoughts Memo：如何应对记忆难点（Leech）</a><p data-pid=\"T1X4G0GD\">对于 Anki 新手，建议看官方手册：</p><a href=\"https://link.zhihu.com/?target=https%3A//open-spaced-repetition.github.io/anki-manual-zh-CN/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">介绍 - Anki 手册</a><p></p>",
+  "comment_count": 60,
+  "content": "<p data-pid=\"8-KOzfsG\">并没有，而是远远被低估了。心理学研究学习方法的文献千千万，真正有用的却寥寥无几，大多都是贫瘠的土地；唯有两颗璀璨的明珠耀眼夺目，其一是 <a href=\"https://zhuanlan.zhihu.com/p/720099642\" class=\"internal\" target=\"_blank\">Bloom 的「两个标准差」问题</a>，其二就是<a href=\"https://zhuanlan.zhihu.com/p/420105707\" class=\"internal\" target=\"_blank\">间隔重复（spaced repetition）</a>（Anki 的核心原理）。前者表明一对一辅导具有很大的效果，而后者则指出了自学者也能有效果显著且终生受用的方法。</p><h2>科学证据</h2><p data-pid=\"1ufeCDET\">根据大量心理学研究分析，间隔重复的效应量为 d=0.42，这意味着原本排名在前 50% 的学生，在使用间隔重复后，可以将排名提升到前 33%，多超过 17% 的同学。而且这还是在实验室里最最最原始的间隔重复，连稍微智能化点的算法都没用上。如果使用能够从学习者复习历史数据中找到记忆规律的算法，复习效果还能至少再提升 20% 以上<sup data-text=\"KDD&#39;22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]\" data-url=\"https://zhuanlan.zhihu.com/p/577383961\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup><sup data-text=\"IEEE TKDE 2023 | 墨墨背单词：通过捕捉记忆动态，优化间隔重复调度\" data-url=\"https://zhuanlan.zhihu.com/p/656714407\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。</p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-809d6c8022ef9db2dbbe5474d47b6199_720w.jpg?source=2c26e567\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"768\" data-rawheight=\"490\" data-original-token=\"v2-809d6c8022ef9db2dbbe5474d47b6199\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-24d098868d5abc926aa835f551f8ef85_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb\" width=\"768\" data-original=\"https://picx.zhimg.com/v2-809d6c8022ef9db2dbbe5474d47b6199_r.jpg?source=2c26e567\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;768&#39; height=&#39;490&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"768\" data-rawheight=\"490\" data-original-token=\"v2-809d6c8022ef9db2dbbe5474d47b6199\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-24d098868d5abc926aa835f551f8ef85_720w.jpg?source=2c26e567\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"768\" data-original=\"https://picx.zhimg.com/v2-809d6c8022ef9db2dbbe5474d47b6199_r.jpg?source=2c26e567\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-809d6c8022ef9db2dbbe5474d47b6199_720w.jpg?source=2c26e567\"/></figure><p data-pid=\"SwsHvTOT\">而根据一篇<b>深入研究了 700 多篇相关科学论文</b>的综述<sup data-text=\"科学的学习方法综述：哪些行之有效，哪些徒劳无功？\" data-url=\"https://zhuanlan.zhihu.com/p/710552897\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>，间隔重复正是包揽前两名（自我测试+间隔学习）的高效学习方法，适用于各个年龄段的学习者，从学龄前儿童到医学院四年级学生，甚至中年人都能从中受益。它可以用于学习各种事实性知识，包括外语词汇、拼写列表和记忆植物结构等，而且在长期记忆中也能保持良好效果。</p><p data-pid=\"IvvXR2lm\">可以说，间隔重复几乎可以算是得到实证研究支持的所有学习方法中，最为有效的一种。然而，<span class=\"nolink\">间隔重复</span>在学校教育体系中并未得到有意识的运用，顶多算是无心插柳，或凭借原始的经验直觉偶尔沾边。<sup data-text=\"教育和学习无关\" data-url=\"https://zhuanlan.zhihu.com/p/711526074\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>考虑到间隔重复以及采用该原理的学习软件（比如 Anki）目前的流行程度，我认为远远算不上「被神化」的地步。</p><h2>个人轶事</h2><p data-pid=\"hrNLDEoc\">前面这些是科学研究，这里我再补充一些个人案例。比如我自己，从 2017 年开始使用 Anki，到 2018 年高考，累计提高了 157 分<sup data-text=\"你想知道如何高考逆袭吗？ 看我用 Anki 从本一线上涨 157 分！\" data-url=\"https://zhuanlan.zhihu.com/p/41568928\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"5\">[5]</sup>，考进了哈工大深圳的计算机系，从普通一本水平提高到了中上流 985 水平。我的大学学弟，也是从高二开始用 Anki，从 495 提到了 666<sup data-text=\"从495到666，我的逆风翻盘之旅\" data-url=\"https://zhuanlan.zhihu.com/p/255112561\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"6\">[6]</sup>。还有我通过 Anki 认识的清华大佬，从全市前 1114 名提升到了 289 名<sup data-text=\"前2%考生中提升 800 名+？Anki 与我的提分之路\" data-url=\"https://zhuanlan.zhihu.com/p/165108643\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"7\">[7]</sup>。这种个案很多，此处就不在赘述<sup data-text=\"Anki 高考经验\" data-url=\"https://www.zhihu.com/collection/814079168\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"8\">[8]</sup>。</p><p data-pid=\"TSS6jCYm\">除开考试，还有没有其他厉害的人在用 Anki 呢？还真有。比如知名量子物理学家、科学作家、编程研究者 <a href=\"https://link.zhihu.com/?target=https%3A//michaelnielsen.org/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Michael Nielsen</a>。他在《自然》等期刊发表过多篇高引论文，他编写的量子力学和<span class=\"nolink\">深度学习教材</span>也广受欢迎。这样一位巨擘，也是一名 Anki 的长期使用者。以下是他的一些 Anki 使用心得（已经翻译为中文）：</p><ul><li data-pid=\"Y1aOr_L4\"><a href=\"https://zhuanlan.zhihu.com/p/65131722\" class=\"internal\" target=\"_blank\">量子物理学家是如何使用 Anki 的？</a></li><li data-pid=\"KrP9qaMj\"><a href=\"https://zhuanlan.zhihu.com/p/593630309\" class=\"internal\" target=\"_blank\">用间隔重复系统来看穿数学概念</a></li><li data-pid=\"TWpWt4A4\"><a href=\"https://zhuanlan.zhihu.com/p/719771814\" class=\"internal\" target=\"_blank\">量子物理学家如何使用记忆系统？</a></li></ul><p data-pid=\"PWRaxOFC\">Anki/Spaced Repetition 的社区里还有很多厉害的人，比如 <a href=\"https://link.zhihu.com/?target=https%3A//andymatuschak.org/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Andy Matuschak</a>（前 Apple iOS 系统工程师、前可汗学院早期教育研发主管，现独立研究员）、<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/me\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Gwern Branwen</a>（自由职业的作家及研究者，为多家知名媒体和公司写过稿件、提供咨询）、<a href=\"https://link.zhihu.com/?target=https%3A//sorenbjornstad.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Soren Bjornstad</a> 等等，我就不一一介绍了。</p><h2>为什么有人觉得 Anki 被神话了</h2><p data-pid=\"Ry4Utfv_\">我觉得这很像以下情形：</p><blockquote data-pid=\"gYN6rLQl\">如果有人在 Hacker News 上发布了个名叫「小提琴」的新工具，评论可能会是：「这玩意儿听着就跟猫打架似的。」「弹了一下胳膊就酸了。」「我在上面连个简单曲子都弹不出来，严肃的音乐家才不会用它呢。」等等。</blockquote><p data-pid=\"9tb2vfbj\">其实就是没用对，我很喜欢 <span class=\"nolink\">Michael Nielsen</span> 的一个比喻：</p><blockquote data-pid=\"ZIru3Kyh\">这有点像用镊子当锤子……把玫瑰敲进你的花园。</blockquote><p data-pid=\"_9xMRYsw\">《<a href=\"https://zhuanlan.zhihu.com/p/650479871\" class=\"internal\" target=\"_blank\">如何普及记忆系统？</a>》对此还有更多的论述：</p><blockquote data-pid=\"FTXHXZu7\">当我与记忆系统的怀疑者交谈时，我发现他们的怀疑常常来自几个方面。这里我不打算一一反驳，仅列举几点。有些人的质疑基于对记忆或记忆系统的误解，比如说： 「我根本不需要记忆系统，网上什么都能查到」；「记忆对创造工作没啥用，反而可能碍事」；「应该让自己『自然』的记忆来判断哪些事重要、哪些事不重要」；「记忆和理解完全是两码事」（这是一个错误的二分法）；「死记硬背没啥好处，也没啥大不了的」（进步教育人士喜欢这么说）；或者就是那些对记忆有种敏感心态的人（这在一些自觉记忆力不行但又志向远大的人当中比较常见：他们得让自己相信记忆没那么重要，这样才能维持自尊）。从这些想法中，人们往往得出一个结论，就是记忆系统没什么大用处。<br/><br/>第二个问题是，人们对记忆系统的运用非常粗糙，这其中的问题可以归结为三个方面。首先，有些人对记忆系统根本一窍不通，却总爱发表意见。他们可能摸摸索索用上几分钟，坚持几星期，然后就下结论：「这玩意没用。」这就像拿起小提琴拉几下就说：「这玩意拉不出好音，垃圾。[4]」问题其实是他们自己不会用。其次，有人虽然用得多，但未必用得好。你可以一个人苦练舞蹈几千小时，也不见得能跳得好。我和一些酷爱记忆系统的人聊过天，看他们犯一些我眼里的低级错误 [5]。我觉得他们从系统中得到了些许好处（不然就不会继续用了），但用得更好的话，好处肯定会更多。许多用记忆系统时遇到的常见问题，都可以通过更巧妙的运用来解决：「我觉得好无聊」；「我开始混淆记忆和创造性工作」等等。最后，我们人类集体对记忆系统的运用还处在摸着石头过河的阶段，还没摸清怎么用，最合适的形式是什么。所以一部分挑战就是提高我们对这方面的整体了解，就像我们逐渐增强了人类对瑜伽、冥想、篮球等方面的共同理解一样。</blockquote><p data-pid=\"yd39UjBM\">那怎么办呢？把 Anki 用对，用好，你就不会觉得它被神话了，反而会觉得这东西怎么这么神，早几年遇到该有多好。</p><p data-pid=\"ZfGWO7tV\">那怎么才能用对用好？别折腾 Anki 本身，多去制卡，多去复习，在真正的实践中学习：</p><blockquote data-pid=\"xPgpcbs-\">正如 Alan Kay 所说：「音乐不在钢琴里」。提高钢琴水平靠的是练习和学习如何更好地演奏，而不是不断调整钢琴。使用记忆系统也是如此：你应该专注于提高制作卡片的能力，而不是过分纠结于系统本身。</blockquote><p data-pid=\"P48iAGPQ\">当然，前人的经验也是很有用的，可以参考，但不可盲信。最后就用我们汉化组精选的 Anki/Spaced Repetition 文章为本回答作结吧：</p><a href=\"https://zhuanlan.zhihu.com/p/434074509\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-3fc5e91c7a88c26207775c8301afbe1f_180x120.jpg\" data-image-width=\"1579\" data-image-height=\"328\" class=\"internal\">Thoughts Memo：如何写出好卡片：利用间隔重复创造理解</a><a href=\"https://zhuanlan.zhihu.com/p/691567753\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-1429241a0093f0217bbf34d6f6c197fa_180x120.jpg\" data-image-width=\"6000\" data-image-height=\"4000\" class=\"internal\">Thoughts Memo：设计明晰 Anki 卡片的规则</a><a href=\"https://zhuanlan.zhihu.com/p/718778050\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic1.zhimg.com/v2-1e942f2924449b92e71d852ab231c464_ipico.jpg\" data-image-width=\"2530\" data-image-height=\"3161\" class=\"internal\">Thoughts Memo：间隔重复的有效实践</a><a href=\"https://zhuanlan.zhihu.com/p/719174183\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-6a87136361ee779eeeeee7cf2474b4fd_180x120.jpg\" data-image-width=\"2114\" data-image-height=\"1468\" class=\"internal\">Thoughts Memo：如何应对记忆难点（Leech）</a><p data-pid=\"T1X4G0GD\">对于 Anki 新手，建议看官方手册：</p><a href=\"https://link.zhihu.com/?target=https%3A//open-spaced-repetition.github.io/anki-manual-zh-CN/\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">介绍 - Anki 手册</a><p></p>",
   "content_need_truncated": false,
   "created_time": 1726794726,
   "excerpt": "并没有，而是远远被低估了。心理学研究学习方法的文献千千万，真正有用的却寥寥无几，大多都是贫瘠的土地；唯有两颗璀璨的明珠耀眼夺目，其一是 Bloom 的「两个标准差」问题 ，其二就是间隔重复（spaced repetition） （Anki 的核心原理）。前者表明一对一辅导具有很大的效果，而后者则指出了自学者也能有效果显著且终生受用的方法。科学证据根据大量心理学研究分析，间隔重复的效应量为 d=0.42，这意味着原本排名在前 50% 的学生…",
-  "id": 3630356580,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "3630356580",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/434074509": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"如何写出好卡片：利用间隔重复创造理解\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/434074509\",\"desc\":\"1059 赞同 · 134 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 译序： 考试里有学习的奥秘？！前苹果系统工程师手把手教学 注：正文中的[数字]表示的是注释，可以善用 Ctrl+F 进行页面内搜索。 本文有两万五千多字，可以在你做卡片时作为参考。小时候，我时常做这样的白日梦，只要像打游戏那样敲对作弊代码，电脑就「哔哔」两声，自动给我打开神奇的世界，让我拥有和游戏主角一样超凡的力量，摆脱这单调乏味的生活。 以上幻想多半是游戏玩太多的缘故，但那神奇的感觉正与我后来使用「间隔重复…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-3fc5e91c7a88c26207775c8301afbe1f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"434074509\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/691567753": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"设计明晰 Anki 卡片的规则\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/691567753\",\"desc\":\"179 赞同 · 7 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 在 Anki 中复习是很容易的：你只要回答问题，然后按一个按钮来反馈你对知识的记忆程度。不过，制作复习卡片本身就是复杂的学问，既是艺术，也是科学。学习过程中，卡片可能使你轻松地高效学习，也可能让你备受折磨而效果平平，达成何种结果正是取决于你的制卡水平。因此，卡片设计是间隔重复使用的最基本技能，值得花一些时间来学习如何做好它。 在接下来的几篇关于为间隔重复系统编写卡片的文章中，我将反复提及 SuperMemo 的 …\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-1429241a0093f0217bbf34d6f6c197fa_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"691567753\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/718778050": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"间隔重复的有效实践\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/718778050\",\"desc\":\"191 赞同 · 23 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 你不会因为钻研智商测试或者拉小提琴而变得更聪明，Dual n-back 训练也 大概 不会提升你的工作记忆。但你可以通过间隔重复 [1]记住你想记住的任何东西。间隔重复，无疑是我迄今为止使用过的最有效的认知技巧。曾经，我读过一本书后几乎什么都记不住。有时我会用 Kindle 标注重点，或者做些笔记，但从不复习它们。我曾天真地希望，即便我不能准确地 说出我记住的内容（毕竟谁的记忆里是有索引的呢？），但重要的信息也能不知不觉地…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-1e942f2924449b92e71d852ab231c464_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"718778050\"},\"za_data\":{\"attach_info\":\"\"}}",
-    "https://zhuanlan.zhihu.com/p/719174183": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"如何应对记忆难点（Leech）\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/719174183\",\"desc\":\"74 赞同 · 2 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 间隔重复的一个基本原则是 区分简单的卡片和困难的卡片 。我们可以降低对简单知识点的复习频率，同时增加对困难知识点的复习次数。这真的非常有效。遗憾的是，有些学习卡片不仅难，而且难到了 极点。如果不采取特殊措施，我们可能会反复忘记并重新学习这些卡片，导致它们占用大量学习时间却收效甚微。间隔重复学习社区将这类极难掌握的卡片形象地称为 leech，因为它们就像水蛭一样，不断吸走你宝贵的学习时间。Anki 会在检测到你…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-6a87136361ee779eeeeee7cf2474b4fd_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"719174183\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/434074509": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"如何写出好卡片：利用间隔重复创造理解\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/434074509\",\"desc\":\"1325 赞同 · 151 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 译序： 考试里有学习的奥秘？！前苹果系统工程师手把手教学 注：正文中的[数字]表示的是注释，可以善用 Ctrl+F 进行页面内搜索。 本文有两万五千多字，可以在你做卡片时作为参考。小时候，我时常做这样的白日梦，只要像打游戏那样敲对作弊代码，电脑就「哔哔」两声，自动给我打开神奇的世界，让我拥有和游戏主角一样超凡的力量，摆脱这单调乏味的生活。 以上幻想多半是游戏玩太多的缘故，但那神奇的感觉正与我后来使用「间隔重复…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-3fc5e91c7a88c26207775c8301afbe1f_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"434074509\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/691567753": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"设计明晰 Anki 卡片的规则\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/691567753\",\"desc\":\"233 赞同 · 12 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 在 Anki 中复习是很容易的：你只要回答问题，然后按一个按钮来反馈你对知识的记忆程度。不过，制作复习卡片本身就是复杂的学问，既是艺术，也是科学。学习过程中，卡片可能使你轻松地高效学习，也可能让你备受折磨而效果平平，达成何种结果正是取决于你的制卡水平。因此，卡片设计是间隔重复使用的最基本技能，值得花一些时间来学习如何做好它。 在接下来的几篇关于为间隔重复系统编写卡片的文章中，我将反复提及 SuperMemo 的 …\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-1429241a0093f0217bbf34d6f6c197fa_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"691567753\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/718778050": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"间隔重复的有效实践\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/718778050\",\"desc\":\"273 赞同 · 25 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 你不会因为钻研智商测试或者拉小提琴而变得更聪明，Dual n-back 训练也 大概 不会提升你的工作记忆。但你可以通过间隔重复 [1]记住你想记住的任何东西。间隔重复，无疑是我迄今为止使用过的最有效的认知技巧。曾经，我读过一本书后几乎什么都记不住。有时我会用 Kindle 标注重点，或者做些笔记，但从不复习它们。我曾天真地希望，即便我不能准确地 说出我记住的内容（毕竟谁的记忆里是有索引的呢？），但重要的信息也能不知不觉地…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-1e942f2924449b92e71d852ab231c464_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"718778050\"},\"za_data\":{\"attach_info\":\"\"}}",
+    "https://zhuanlan.zhihu.com/p/719174183": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"如何应对记忆难点（Leech）\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/719174183\",\"desc\":\"96 赞同 · 4 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 间隔重复的一个基本原则是 区分简单的卡片和困难的卡片 。我们可以降低对简单知识点的复习频率，同时增加对困难知识点的复习次数。这真的非常有效。遗憾的是，有些学习卡片不仅难，而且难到了 极点。如果不采取特殊措施，我们可能会反复忘记并重新学习这些卡片，导致它们占用大量学习时间却收效甚微。间隔重复学习社区将这类极难掌握的卡片形象地称为 leech，因为它们就像水蛭一样，不断吸走你宝贵的学习时间。Anki 会在检测到你…\",\"image\":{\"image_url\":\"https://pica.zhimg.com/v2-6a87136361ee779eeeeee7cf2474b4fd_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"719174183\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/1340246140?contentId=3630356580&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "12 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1490363099,
     "detail": "<p>在知乎和quora上搜索学习英语的，记忆单词的方法。无意间发现anki这么一个工具。简单粗略了解一家就是把单词卡片电子化，用记忆曲线的方法来routine记忆的软件。跟无印良品的10来块钱单词卡片本质没有什么区别。</p><p>anki在appstore上青一色好评（即使是136元的高价），用其他地区id登陆，看到不少觉得坑钱还有觉得垃圾的评论，界面丑陋麻烦等。而某乎上一致捧好，而找不到有任何贬低是否科学呢？</p><p>anki到底与扇贝，百词斩除了可以更多定制之外，是否有很大区别么？是否别人用单词卡太老旧，用下复杂一点的软件会显得层次更高，跟优越感的装逼心理作祟，还是真的能有上的提升呢？</p>",
-    "id": 57569577,
+    "id": "57569577",
     "question_type": "normal",
     "relationship": {},
     "title": "anki是否被神化了？",
     "type": "question",
     "updated_time": 1562893346,
-    "url": "https://api.zhihu.com/questions/57569577"
+    "url": "https://www.zhihu.com/api/v4/questions/57569577"
   },
   "relationship": {
     "upvoted_followees": []
   },
+  "segment_infos": [
+    {
+      "marks": [
+        {
+          "end_index": 89,
+          "seg_info": {
+            "comment_count": 0,
+            "is_like": false,
+            "is_span": false,
+            "like_count": 3,
+            "my_comment_count": 0,
+            "seg_ids": [
+              "1894995034132157953"
+            ]
+          },
+          "start_index": 39
+        }
+      ],
+      "pid": "IvvXR2lm",
+      "text": "可以说，间隔重复几乎可以算是得到实证研究支持的所有学习方法中，最为有效的一种。然而，间隔重复在学校教育体系中并未得到有意识的运用，顶多算是无心插柳，或凭借原始的经验直觉偶尔沾边。[4]考虑到间隔重复以及采用该原理的学习软件（比如 Anki）目前的流行程度，我认为远远算不上「被神化」的地步。"
+    }
+  ],
   "type": "answer",
-  "voteup_count": 511
+  "updated_time": 1726794726,
+  "url": "https://www.zhihu.com/api/v4/answers/3630356580",
+  "voteup_count": 1006
 }

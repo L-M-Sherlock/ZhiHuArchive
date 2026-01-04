@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://pic1.zhimg.com/v2-4355c018ed124b748dcefede70f34d8a_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-4355c018ed124b748dcefede70f34d8a.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -39,8 +40,8 @@
           "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
-          "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
           "type": "identity",
@@ -72,7 +73,7 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pica.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
     "gender": -1,
@@ -83,7 +84,7 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
@@ -99,9 +100,20 @@
   "content_need_truncated": false,
   "created_time": 1763049816,
   "excerpt": "其实早在 2008 年，硅谷知名创业孵化器 Y Combinator 的创始人保罗·格雷厄姆就曾预言，社会正在从依赖「文凭」的时代逐步转向直接「衡量」个人实际表现的时代。 大学文凭本质上只是能力的代理指标，可在一定程度上预测一个人在未来的表现。但是如果企业有能力直接衡量一个人的实际表现，那文凭就变得多余了。而颁发文凭的机构，也就是大学，自然也就更低效了。Palantir 显然更相信他们自己的选拔和培训体系要比大学四年高效得多…",
+  "extras": "",
   "force_login_when_click_read_more": false,
   "id": "1972454573269587246",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/46810890184?contentId=1972454573269587246&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
   "question": {
     "created": 1762638651,
     "detail": "<p><a href=\"https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/uqtjX5S6YuFrCA5XrRusEw\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">硅谷 AI 巨头 Palantir：招了 22 名高中生年薪 30 万美金？</a></p><p>美国公司是顶级数据分析公司Palantir，目前的大致市值在约4400 亿美元至4900亿美元 之间。</p>",
@@ -111,11 +123,35 @@
     "title": "怎么看待AI时代已有美国企业跨过高校，直接从中学捞人？未来会是全球招聘趋势吗？",
     "type": "question",
     "updated_time": 1762731336,
-    "url": "https://api.zhihu.com/questions/1970730023158776619"
+    "url": "https://www.zhihu.com/api/v4/questions/1970730023158776619"
   },
   "relationship": {
     "upvoted_followees": []
   },
+  "segment_infos": [
+    {
+      "marks": [
+        {
+          "end_index": 37,
+          "seg_info": {
+            "comment_count": 0,
+            "is_like": false,
+            "is_span": false,
+            "like_count": 4,
+            "my_comment_count": 0,
+            "seg_ids": [
+              "1972463806513939729"
+            ]
+          },
+          "start_index": 23
+        }
+      ],
+      "pid": "EO7i4pMH",
+      "text": "在真实的项目环境里，没有人可以靠文凭蒙混过关。实际表现才是唯一重要的东西。Palantir 把这一选拔过程提前到了 18 岁，可以少浪费四年时间。"
+    }
+  ],
   "type": "answer",
+  "updated_time": 1763049816,
+  "url": "https://www.zhihu.com/api/v4/answers/1972454573269587246",
   "voteup_count": 77
 }

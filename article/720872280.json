@@ -1,80 +1,467 @@
 {
-  "status": 0,
+  "id": "720872280",
+  "title": "苏格拉底式追问",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/720872280",
+  "image_url": "https://picx.zhimg.com/v2-190b75f4793d5b5b9ffc83cd74c6dc4b_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-190b75f4793d5b5b9ffc83cd74c6dc4b_720w.jpg?source=172ae18b",
+  "excerpt": "想象一下，当一名学生第一次在学校接触到细菌理论时。可能会发生这样的对话： <b>老师</b>：许多疾病，如普通感冒，都是通过细菌传播的。当一个被感染的人接触他人时，细菌就会传播。 <b>学生</b>：可前几周我得了感冒，明明从未接触过除家人以外的任何人，何况他们谁都没…",
+  "created": 1726738520,
   "updated": 1726738520,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://pica.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "想象一下，当一名学生第一次在学校接触到细菌理论时。可能会发生这样的对话：老师：…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 1920,
+  "image_height": 1080,
+  "content": "<p data-pid=\"qR80o7YR\">想象一下，当一名学生第一次在学校接触到细菌理论时。可能会发生这样的对话：</p><blockquote data-pid=\"s6qpONwF\"><b>老师</b>：许多疾病，如普通感冒，都是通过细菌传播的。当一个被感染的人接触他人时，细菌就会传播。<br/> <b>学生</b>：可前几周我得了感冒，明明从未接触过除家人以外的任何人，何况他们谁都没生病啊。<br/> <b>老师</b>：疾病传播不一定需要直接接触，有时细菌可以通过空气中的黏液飞沫传播。<br/> <b>学生</b>：我曾独自在森林里露营一个月，结果也感冒了，虽然那段时间根本没接触过任何人。<br/> <b>老师</b>：如果那是在春天，你可能是过敏了。过敏的症状和感冒很相似，但它并不是由细菌引起的。<br/> <b>学生</b>：可那是秋天啊。<br/> <b>老师</b>：那可能是某种罕见的过敏，或者其他原因导致的。<br/> <b>学生</b>：等等，如果细菌是通过接触在人与人之间传播的话，那政府为什么不专门规定有一周人们不许互相接触？这样细菌不就全死光了？从此我们就再也不用担心细菌了。<br/> <b>老师</b>：问得好。许多细菌在自然界有「储存库」，不感染人类时就躲在里面。即便政府真的采取你所说的措施，大多数细菌恐怕还是会从「储存库」里卷土重来。<br/> <b>学生</b>：我为什么从没见过什么细菌储存库呢？它们究竟藏在哪里啊？<br/> <b>老师</b>：它们可不是像水库那样的真「库」。当细菌寄居在蝙蝠、浣熊等动物体内时，我们就称宿主为「储存库」。</blockquote><p data-pid=\"IK0LIDmz\">现在让我们好好审视这一场对话。</p><p data-pid=\"DcqUXAp1\">首先，这种情况的发生其实是非常可喜的。这名学生对细菌理论的多个部分感到困惑。第一，他的亲身观察似乎与老师所说的「细菌只通过接触传播」这一说法相矛盾。第二，他产生了一种类似于「有效市场假说」的质疑：如果细菌理论真的提供了一种永久消除所有疾病的简单方法，为什么至今还没有人去实施这个易如反掌的方案呢？第三，他被一个模糊的术语搞糊涂了——他误以为「细菌储存库」是指某种具体的「仓库」。</p><p data-pid=\"bOwcIXQf\">这些困惑其实都是完全可以理解的。事实上，这恰恰表明他在认真思考——他正在努力理解细菌理论的真正含义，以及如何将它与自己已有的知识体系相融合。这与简单地<a href=\"https://link.zhihu.com/?target=https%3A//www.lesswrong.com/posts/NMoLJuDJEms7Ku9XS/guessing-the-teacher-s-password\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">填鸭</a><sup data-text=\"猜老师的密码\" data-url=\"https://hpmor.xyz/ai2zb_31/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>形成了鲜明对比。毫无疑问，这个孩子将来一定会成长为一名杰出的科学家。</p><p data-pid=\"Ntonv08l\">其次，从一个持批评意见的旁观者视角来看，这种情况可能会被解读为学生在挑战老师的权威。每当老师尝试解释细菌理论时，学生就会迅速「抓住」看似矛盾的地方不放。而当老师努力解释这些表面上的矛盾时，学生又会质疑她的解释。有时候，学生的行为甚至可能被视为在嘲弄老师。如果缺乏必要的基础知识，也不理解年幼的孩子对其的困惑，这种情况可能会被误解为：这个孩子是个傲慢自大的「万事通」，认为自己已经将生物学家们将了一军，证明了细菌理论根本不可能成立。或者，他可能会被认为是在妄自尊大，认为自己这个小学生竟然想出了一个前人从未想到过的——根除所有疾病的革命性方法。</p><p data-pid=\"F_9s7xvz\">而本文的核心观点是，我们绝对<b>不能，也不应该采取这种态度</b>。这样做是<b>极其有害的</b>。如果你粗暴地打压学生，说「我认为我比你更了解细菌理论」，让他感觉到挑战你的权威是件坏事——那么最好的结果可能是他再也不敢提出问题来解决自己的困惑了。最坏的情况是，他可能会完全停止感到困惑，或者不再认为努力理解新知，将其与自己原有的知识体系融合起来是一个值得追求的目标。</p><p data-pid=\"_VShBWZr\">理性思考的核心技能之一是「察觉自身的困惑」。然而，这一技能建立在一个更为根本的能力之上：<b>渴望理解事物背后的道理</b>。如果你失去了这种渴望 —— 也就是说，即使当你无法理解某事时，也不再对其感到疑问，不再将其视为一个需要解决的问题 —— 那么你将永远无法察觉到自己的困惑，也就无法成为一名优秀的科学家，或在任何需要独立思考的领域有所建树。更重要的是，如果你错误地将他人探索认知不一致的尝试解读为一种需要被压制的炫耀行为，那将会彻底扼杀这种能力。相反，你应该将这种探索视为一种类似苏格拉底式追问的方法 —— 只是更加直白和富有挑战性，以便更快地触及问题的核心。</p><p data-pid=\"SJK9L-_X\">然而，保持这种态度并非易事。大多数人在一两轮交流中还能保持友好和乐于助人的态度。但是，由于大多数人并不擅长解释复杂的概念，一两轮交流往往不足以达成真正的理解。我曾为了理解老师所讲，向其咨询了五到十轮。这一过程可能听起来像是：「你刚才说的显然是错的」...「不，你的解释仍然说不通，你还是错的」...「你一直在重复同样的话，而那是错的」...「不，那与我困惑的点无关」...「不，那也不相关，你还是在说一个明显错误的东西」...「哦！原来那个词的意思与我理解的完全不同，现在你的解释说得通了。」</p><p data-pid=\"v1RUnajJ\">然而，实际情况往往比想象的更加复杂。有时，你与老师的思维模式之间存在巨大的<a href=\"https://link.zhihu.com/?target=https%3A//www.lesswrong.com/posts/HLqWn5LASfhhArZ7w/expecting-short-inferential-distances\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">认知鸿沟</a><sup data-text=\"被低估的推断距离\" data-url=\"https://hpmor.xyz/ai2zb_9/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，要想弥合这一差距，势必要经历一段无比艰辛的旅程，这一旅程可能就像试图将一个虔诚的宗教信徒转变为坚定的唯物主义者（或反之）一样充满挑战。从一个截然不同的哲学立场出发，真正理解并欣赏共产主义、自由主义或其他任何主义，往往需要不断提出质疑：「这难道不是一种暴行吗？」「这样做难道不会不可避免地导致一个反乌托邦社会吗？」并仔细聆听对方的解释。在这个过程中，我们很容易将对方的回答简单地理解为试图抓住我们的把柄（有时确实如此），并认为他们并不想真正理解我们的观点。这种误解的诱惑实在是太大、<b>太</b>大了。</p><p data-pid=\"GbR2gMrT\">面对一位优秀的老师，你可以在表达疑问时加入一些谦逊的措辞，以避免引起对方的不快：「我知道我只是一个学生，远不够聪明到能真正质疑您，所以肯定是我理解有误。您刚才的观点让我感到困惑，我并非否定它的正确性，只是无法理解其中的道理。这完全是我的问题，不是您的错。您能否换个方式再解释一下？」而在面对一位<b>卓越的</b>老师时，这些客套话都是不必要的。你可以直接说：「什么？这说不通啊。」并期待老师会耐心地重新解释。</p><p data-pid=\"Pjj2MXaz\">真正的教育者通常能正确地对待学生的疑问，这一点我深有体会。然而，令我担忧的是互联网上那些自封的「反自学」人士。这类人会偶尔在我的博客留言，并在 Reddit 等平台上更为活跃。当有人提出「这很奇怪」或「如果 X 是真的，那不是意味着 Y 吗？」这样的疑问时，就会遭到猛烈抨击：「你真以为自己比所有人都聪明？你真认为网上随便一个人就能发现 X 理论的漏洞？」实际上，提出这些问题的人往往只是在运用苏格拉底式追问，试图察觉自己理解中的矛盾，并寻求他人的解答。</p><p data-pid=\"Hx9ium2k\">我发现，写这个博客最令人沮丧的一点是：如何表达我还需要学习的内容，而不被那些自以为是的「傲慢警察」盯上？这与面对特定教师的情况完全不同 —— 在博客中，我只是将自己的困惑抛向虚空，希望能得到回应。而且，我偶尔确实会自负地认为自己发现了一些比我更优秀的人在推理中的缺陷，这就让人难以区分我何时是在暗示这一点，何时只是单纯地提出疑问。为了应对这种情况，下次我打算尝试贴上这篇文章的链接，看看效果如何。</p><p data-pid=\"axFTbb2s\">我想我在处理这个问题上已经取得了不错的平衡，尽管代价是要不断添加那些烦人的免责声明，而这些声明对 95% 的读者来说都是多余的。从现在开始，也许我只需要贴上这篇文章的链接就足够了。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"RHmUagm8\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3.5-sonnet，校对 <span class=\"nolink\">seniorous</span>、<span class=\"nolink\">Jarrett Ye</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//slatestarcodex.com/2020/03/06/socratic-grilling/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Socratic Grilling | Slate Star Codex</a><br/>作者：Scott Alexander<br/>发布于：2020 年 3 月 6 日</blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/23666359",
+      "type": "topic",
+      "id": "23666359",
+      "name": "苏格拉底"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19933533",
+      "type": "topic",
+      "id": "19933533",
+      "name": "教育问题"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19629056",
+      "type": "topic",
+      "id": "19629056",
+      "name": "理性思考"
+    }
+  ],
+  "voteup_count": 255,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "一个关于科学、医学、哲学、政治和未来主义的博客。",
+    "is_following": false,
+    "url_token": "c_1787167034875977728",
+    "id": "c_1787167034875977728",
+    "articles_count": 39,
+    "accept_submission": true,
+    "title": "Slate Star Codex",
+    "url": "https://api.zhihu.com/columns/c_1787167034875977728",
+    "comment_permission": "all",
+    "created": 1718873825,
+    "updated": 1751811368,
+    "image_url": "https://pica.zhimg.com/v2-006ff274ebe7ff60d6909b66c308fda0_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 61,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 36,
+  "contributions": [
+    {
+      "id": 49711542,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "一个关于科学、医学、哲学、政治和未来主义的博客。",
+        "is_following": false,
+        "url_token": "c_1787167034875977728",
+        "id": "c_1787167034875977728",
+        "articles_count": 39,
+        "accept_submission": true,
+        "title": "Slate Star Codex",
+        "url": "https://api.zhihu.com/columns/c_1787167034875977728",
+        "comment_permission": "all",
+        "created": 1718873825,
+        "updated": 1751811368,
+        "image_url": "https://pica.zhimg.com/v2-006ff274ebe7ff60d6909b66c308fda0_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 61,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 720872280,
-  "voteup_count": 226,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 268,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "苏格拉底式追问 - 来自知乎专栏「Slate Star Codex」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/720872280 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1726738520,
-  "url": "https://api.zhihu.com/articles/720872280",
-  "comment_permission": "all",
-  "title": "苏格拉底式追问",
-  "image_width": 1080,
-  "content": "<p data-pid=\"qR80o7YR\">想象一下，当一名学生第一次在学校接触到细菌理论时。可能会发生这样的对话：</p><blockquote data-pid=\"s6qpONwF\"><b>老师</b>：许多疾病，如普通感冒，都是通过细菌传播的。当一个被感染的人接触他人时，细菌就会传播。<br/> <b>学生</b>：可前几周我得了感冒，明明从未接触过除家人以外的任何人，何况他们谁都没生病啊。<br/> <b>老师</b>：疾病传播不一定需要直接接触，有时细菌可以通过空气中的黏液飞沫传播。<br/> <b>学生</b>：我曾独自在森林里露营一个月，结果也感冒了，虽然那段时间根本没接触过任何人。<br/> <b>老师</b>：如果那是在春天，你可能是过敏了。过敏的症状和感冒很相似，但它并不是由细菌引起的。<br/> <b>学生</b>：可那是秋天啊。<br/> <b>老师</b>：那可能是某种罕见的过敏，或者其他原因导致的。<br/> <b>学生</b>：等等，如果细菌是通过接触在人与人之间传播的话，那政府为什么不专门规定有一周人们不许互相接触？这样细菌不就全死光了？从此我们就再也不用担心细菌了。<br/> <b>老师</b>：问得好。许多细菌在自然界有「储存库」，不感染人类时就躲在里面。即便政府真的采取你所说的措施，大多数细菌恐怕还是会从「储存库」里卷土重来。<br/> <b>学生</b>：我为什么从没见过什么细菌储存库呢？它们究竟藏在哪里啊？<br/> <b>老师</b>：它们可不是像水库那样的真「库」。当细菌寄居在蝙蝠、浣熊等动物体内时，我们就称宿主为「储存库」。</blockquote><p data-pid=\"IK0LIDmz\">现在让我们好好审视这一场对话。</p><p data-pid=\"DcqUXAp1\">首先，这种情况的发生其实是非常可喜的。这名学生对细菌理论的多个部分感到困惑。第一，他的亲身观察似乎与老师所说的「细菌只通过接触传播」这一说法相矛盾。第二，他产生了一种类似于「有效市场假说」的质疑：如果细菌理论真的提供了一种永久消除所有疾病的简单方法，为什么至今还没有人去实施这个易如反掌的方案呢？第三，他被一个模糊的术语搞糊涂了——他误以为「细菌储存库」是指某种具体的「仓库」。</p><p data-pid=\"bOwcIXQf\">这些困惑其实都是完全可以理解的。事实上，这恰恰表明他在认真思考——他正在努力理解细菌理论的真正含义，以及如何将它与自己已有的知识体系相融合。这与简单地<a href=\"https://link.zhihu.com/?target=https%3A//www.lesswrong.com/posts/NMoLJuDJEms7Ku9XS/guessing-the-teacher-s-password\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">填鸭</a><sup data-text=\"猜老师的密码\" data-url=\"https://hpmor.xyz/ai2zb_31/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>形成了鲜明对比。毫无疑问，这个孩子将来一定会成长为一名杰出的科学家。</p><p data-pid=\"Ntonv08l\">其次，从一个持批评意见的旁观者视角来看，这种情况可能会被解读为学生在挑战老师的权威。每当老师尝试解释细菌理论时，学生就会迅速「抓住」看似矛盾的地方不放。而当老师努力解释这些表面上的矛盾时，学生又会质疑她的解释。有时候，学生的行为甚至可能被视为在嘲弄老师。如果缺乏必要的基础知识，也不理解年幼的孩子对其的困惑，这种情况可能会被误解为：这个孩子是个傲慢自大的「万事通」，认为自己已经将生物学家们将了一军，证明了细菌理论根本不可能成立。或者，他可能会被认为是在妄自尊大，认为自己这个小学生竟然想出了一个前人从未想到过的——根除所有疾病的革命性方法。</p><p data-pid=\"F_9s7xvz\">而本文的核心观点是，我们绝对<b>不能，也不应该采取这种态度</b>。这样做是<b>极其有害的</b>。如果你粗暴地打压学生，说「我认为我比你更了解细菌理论」，让他感觉到挑战你的权威是件坏事——那么最好的结果可能是他再也不敢提出问题来解决自己的困惑了。最坏的情况是，他可能会完全停止感到困惑，或者不再认为努力理解新知，将其与自己原有的知识体系融合起来是一个值得追求的目标。</p><p data-pid=\"_VShBWZr\">理性思考的核心技能之一是「察觉自身的困惑」。然而，这一技能建立在一个更为根本的能力之上：<b>渴望理解事物背后的道理</b>。如果你失去了这种渴望 —— 也就是说，即使当你无法理解某事时，也不再对其感到疑问，不再将其视为一个需要解决的问题 —— 那么你将永远无法察觉到自己的困惑，也就无法成为一名优秀的科学家，或在任何需要独立思考的领域有所建树。更重要的是，如果你错误地将他人探索认知不一致的尝试解读为一种需要被压制的炫耀行为，那将会彻底扼杀这种能力。相反，你应该将这种探索视为一种类似苏格拉底式追问的方法 —— 只是更加直白和富有挑战性，以便更快地触及问题的核心。</p><p data-pid=\"SJK9L-_X\">然而，保持这种态度并非易事。大多数人在一两轮交流中还能保持友好和乐于助人的态度。但是，由于大多数人并不擅长解释复杂的概念，一两轮交流往往不足以达成真正的理解。我曾为了理解老师所讲，向其咨询了五到十轮。这一过程可能听起来像是：「你刚才说的显然是错的」...「不，你的解释仍然说不通，你还是错的」...「你一直在重复同样的话，而那是错的」...「不，那与我困惑的点无关」...「不，那也不相关，你还是在说一个明显错误的东西」...「哦！原来那个词的意思与我理解的完全不同，现在你的解释说得通了。」</p><p data-pid=\"v1RUnajJ\">然而，实际情况往往比想象的更加复杂。有时，你与老师的思维模式之间存在巨大的<a href=\"https://link.zhihu.com/?target=https%3A//www.lesswrong.com/posts/HLqWn5LASfhhArZ7w/expecting-short-inferential-distances\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">认知鸿沟</a><sup data-text=\"被低估的推断距离\" data-url=\"https://hpmor.xyz/ai2zb_9/\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，要想弥合这一差距，势必要经历一段无比艰辛的旅程，这一旅程可能就像试图将一个虔诚的宗教信徒转变为坚定的唯物主义者（或反之）一样充满挑战。从一个截然不同的哲学立场出发，真正理解并欣赏共产主义、自由主义或其他任何主义，往往需要不断提出质疑：「这难道不是一种暴行吗？」「这样做难道不会不可避免地导致一个反乌托邦社会吗？」并仔细聆听对方的解释。在这个过程中，我们很容易将对方的回答简单地理解为试图抓住我们的把柄（有时确实如此），并认为他们并不想真正理解我们的观点。这种误解的诱惑实在是太大、<b>太</b>大了。</p><p data-pid=\"GbR2gMrT\">面对一位优秀的老师，你可以在表达疑问时加入一些谦逊的措辞，以避免引起对方的不快：「我知道我只是一个学生，远不够聪明到能真正质疑您，所以肯定是我理解有误。您刚才的观点让我感到困惑，我并非否定它的正确性，只是无法理解其中的道理。这完全是我的问题，不是您的错。您能否换个方式再解释一下？」而在面对一位<b>卓越的</b>老师时，这些客套话都是不必要的。你可以直接说：「什么？这说不通啊。」并期待老师会耐心地重新解释。</p><p data-pid=\"Pjj2MXaz\">真正的教育者通常能正确地对待学生的疑问，这一点我深有体会。然而，令我担忧的是互联网上那些自封的「反自学」人士。这类人会偶尔在我的博客留言，并在 Reddit 等平台上更为活跃。当有人提出「这很奇怪」或「如果 X 是真的，那不是意味着 Y 吗？」这样的疑问时，就会遭到猛烈抨击：「你真以为自己比所有人都聪明？你真认为网上随便一个人就能发现 X 理论的漏洞？」实际上，提出这些问题的人往往只是在运用苏格拉底式追问，试图察觉自己理解中的矛盾，并寻求他人的解答。</p><p data-pid=\"Hx9ium2k\">我发现，写这个博客最令人沮丧的一点是：如何表达我还需要学习的内容，而不被那些自以为是的「傲慢警察」盯上？这与面对特定教师的情况完全不同 —— 在博客中，我只是将自己的困惑抛向虚空，希望能得到回应。而且，我偶尔确实会自负地认为自己发现了一些比我更优秀的人在推理中的缺陷，这就让人难以区分我何时是在暗示这一点，何时只是单纯地提出疑问。为了应对这种情况，下次我打算尝试贴上这篇文章的链接，看看效果如何。</p><p data-pid=\"axFTbb2s\">我想我在处理这个问题上已经取得了不错的平衡，尽管代价是要不断添加那些烦人的免责声明，而这些声明对 95% 的读者来说都是多余的。从现在开始，也许我只需要贴上这篇文章的链接就足够了。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"RHmUagm8\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3.5-sonnet，校对 <span class=\"nolink\">seniorous</span>、<span class=\"nolink\">Jarrett Ye</span><br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//slatestarcodex.com/2020/03/06/socratic-grilling/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Socratic Grilling | Slate Star Codex</a><br/>作者：Scott Alexander<br/>发布于：2020 年 3 月 6 日</blockquote>",
-  "column": {
-    "updated": 1458209676,
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "/columns/4c592f496dc33822b560b382907ff1d0",
-    "comment_permission": "all",
-    "title": "Thoughts Memo的文章",
-    "image_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "type": "column",
-    "id": "4c592f496dc33822b560b382907ff1d0"
-  },
-  "comment_count": 35,
-  "image_url": "https://picx.zhimg.com/v2-190b75f4793d5b5b9ffc83cd74c6dc4b_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 24,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 24,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkyNDgzMjQyNTISCTcyMDg3MjI4MBgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 255,
+      "down_vote_count": 1,
+      "like_count": 24,
+      "comment_count": 36,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 268,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-190b75f4793d5b5b9ffc83cd74c6dc4b": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-190b75f4793d5b5b9ffc83cd74c6dc4b": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-190b75f4793d5b5b9ffc83cd74c6dc4b": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/549157408?contentId=720872280&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · Slate Star Codex",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1787167034875977728",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · Slate Star Codex"
+      }
+    }
+  ],
+  "segment_infos": [
+    {
+      "pid": "F_9s7xvz",
+      "text": "而本文的核心观点是，我们绝对不能，也不应该采取这种态度。这样做是极其有害的。如果你粗暴地打压学生，说「我认为我比你更了解细菌理论」，让他感觉到挑战你的权威是件坏事——那么最好的结果可能是他再也不敢提出问题来解决自己的困惑了。最坏的情况是，他可能会完全停止感到困惑，或者不再认为努力理解新知，将其与自己原有的知识体系融合起来是一个值得追求的目标。",
+      "marks": [
+        {
+          "start_index": 10,
+          "end_index": 38,
+          "seg_info": {
+            "seg_ids": [
+              "1821016524200230912"
+            ],
+            "is_like": false,
+            "like_count": 4,
+            "comment_count": 0,
+            "my_comment_count": 0,
+            "is_span": false
+          }
+        }
+      ]
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
 }

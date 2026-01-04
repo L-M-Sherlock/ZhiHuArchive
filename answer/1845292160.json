@@ -1,8 +1,9 @@
 {
+  "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://picx.zhimg.com/v2-f958f2b875b0cf4d7ee853e4446ba2d1.jpg?source=2c26e567",
+    "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=2c26e567",
     "badge": [
       {
         "description": "信息技术行业 算法工程师",
@@ -13,10 +14,11 @@
     "badge_v2": {
       "detail_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "super_activity",
           "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
-          "night_icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
           "sources": [
             {
               "avatar_path": "",
@@ -35,9 +37,10 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
           "detail_type": "identity_people",
-          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
           "sources": [],
           "title": "已认证的个人",
@@ -48,6 +51,7 @@
       "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "merged_badges": [
         {
+          "badge_status": "passed",
           "description": "知势榜教育校园领域影响力榜答主",
           "detail_type": "best",
           "icon": "",
@@ -58,8 +62,9 @@
           "url": ""
         },
         {
+          "badge_status": "passed",
           "description": "信息技术行业 算法工程师",
-          "detail_type": "identity",
+          "detail_type": "identity_people",
           "icon": "",
           "night_icon": "",
           "sources": [],
@@ -68,10 +73,10 @@
           "url": "https://zhuanlan.zhihu.com/p/96956163"
         }
       ],
-      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
       "title": "知势榜教育校园领域影响力榜答主"
     },
-    "gender": 1,
+    "gender": -1,
     "headline": "在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。",
     "id": "4c592f496dc33822b560b382907ff1d0",
     "is_advertiser": false,
@@ -79,35 +84,55 @@
     "is_privacy": false,
     "name": "Thoughts Memo",
     "type": "people",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "url": "https://www.zhihu.com/api/v4/people/4c592f496dc33822b560b382907ff1d0",
     "url_token": "L.M.Sherlock",
     "user_type": "people"
   },
-  "biz_ext": {},
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
   "comment_count": 1,
   "content": "<p data-pid=\"cVatnYS4\">看来是翻译问题，简单解释一下</p><p data-pid=\"ev04qgLZ\">新建：制作后没有被复习过的卡片</p><p data-pid=\"6t2e7wny\">新的：间隔少于 21 天的卡片（不包括新建）</p><p data-pid=\"kSXo9S-R\">熟练：有 21 天或更大间隔的卡片</p><p data-pid=\"nFWsK2Ps\">更多有关 Anki 统计的内容，可以参考我以前写的文章：</p><a href=\"https://zhuanlan.zhihu.com/p/74724514\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://picx.zhimg.com/v2-69e04ba00041457e9d7468bf6bad3721_180x120.jpg\" data-image-width=\"1428\" data-image-height=\"528\" class=\"internal\">叶峻峣：Anki 统计数据怎么看？</a><p data-pid=\"XzNeQNNH\">不过里面内容有点旧了，找时间会更新一下。</p>",
   "content_need_truncated": false,
   "created_time": 1618907718,
   "excerpt": "看来是翻译问题，简单解释一下 新建：制作后没有被复习过的卡片 新的：间隔少于 21 天的卡片（不包括新建） 熟练：有 21 天或更大间隔的卡片 更多有关 Anki 统计的内容，可以参考我以前写的文章： [文章: Anki 统计数据怎么看？] 不过里面内容有点旧了，找时间会更新一下。",
-  "id": 1845292160,
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "1845292160",
+  "is_collapsed": false,
+  "is_contain_ai_content": false,
+  "is_copyable": true,
   "is_jump_native": false,
   "link_card_info": {
-    "https://zhuanlan.zhihu.com/p/74724514": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki 统计数据怎么看？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/74724514\",\"desc\":\"50 赞同 · 8 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 简单介绍一下桌面版 Anki 的统计 首先，打开首页上的统计（我的版本是 2.1.x，2.0.x 版的在右上角） 然后就能看到底部有几个选项 [图片] 牌组是你最近刚学的牌组，或者你是在那个牌组的首页打开统计 集合则是你全部牌组（包括你学过但是删掉的）的数据统计然后 1个月/1年/牌组使用期 则是统计取的时间区间 好了，让我们来看数据吧 等一下，先普及一下术语 成熟：成熟卡片是有 21 天或更大间隔的卡片。 年轻：年轻卡片的间隔少于 21 天…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-69e04ba00041457e9d7468bf6bad3721_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"74724514\"},\"za_data\":{\"attach_info\":\"\"}}"
+    "https://zhuanlan.zhihu.com/p/74724514": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"Anki 统计数据怎么看？\",\"card_open_url\":\"https://zhuanlan.zhihu.com/p/74724514\",\"desc\":\"51 赞同 · 5 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e文章\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003eThoughts Memo:\\u003c/a\\u003e 简单介绍一下桌面版 Anki 的统计 首先，打开首页上的统计（我的版本是 2.1.x，2.0.x 版的在右上角） 然后就能看到底部有几个选项 [图片] 牌组是你最近刚学的牌组，或者你是在那个牌组的首页打开统计 集合则是你全部牌组（包括你学过但是删掉的）的数据统计然后 1个月/1年/牌组使用期 则是统计取的时间区间 好了，让我们来看数据吧 等一下，先普及一下术语 成熟：成熟卡片是有 21 天或更大间隔的卡片。 年轻：年轻卡片的间隔少于 21 天…\",\"image\":{\"image_url\":\"https://picx.zhimg.com/v2-69e04ba00041457e9d7468bf6bad3721_r.jpg?source=172ae18b\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ARTICLE\",\"content_id\":\"74724514\"},\"za_data\":{\"attach_info\":\"\"}}"
+  },
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=1845292160&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
   },
   "question": {
     "created": 1618582075,
-    "detail": "<p>？</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-fb670195c93861ab1ec847f028cc880b_b.jpg\" data-rawwidth=\"2048\" data-rawheight=\"1536\" data-size=\"normal\" class=\"origin_image zh-lightbox-thumb\" width=\"2048\" data-original=\"https://pic4.zhimg.com/v2-fb670195c93861ab1ec847f028cc880b_r.jpg\"/></figure><p></p>",
-    "id": 455004429,
+    "detail": "<p>？</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-fb670195c93861ab1ec847f028cc880b_1440w.jpg\" data-rawwidth=\"2048\" data-rawheight=\"1536\" data-size=\"normal\" class=\"origin_image zh-lightbox-thumb\" width=\"2048\" data-original=\"https://pic4.zhimg.com/v2-fb670195c93861ab1ec847f028cc880b_r.jpg\"/></figure><p></p>",
+    "id": "455004429",
     "question_type": "normal",
     "relationship": {},
     "title": "请问anki统计表中的哪一项是代表未读的呢?",
     "type": "question",
     "updated_time": 1618582075,
-    "url": "https://api.zhihu.com/questions/455004429"
+    "url": "https://www.zhihu.com/api/v4/questions/455004429"
   },
   "relationship": {
     "upvoted_followees": []
   },
   "type": "answer",
+  "updated_time": 1618907718,
+  "url": "https://www.zhihu.com/api/v4/answers/1845292160",
   "voteup_count": 6
 }

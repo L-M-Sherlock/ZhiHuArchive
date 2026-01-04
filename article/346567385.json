@@ -1,80 +1,487 @@
 {
-  "status": 0,
+  "id": "346567385",
+  "title": "从国产 Anki 类软件说起，谈谈教育技术和内卷（暴论）",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/346567385",
+  "image_url": "https://pic1.zhimg.com/v2-55597a63f29e994d220a58f8576def96_720w.jpg?source=172ae18b",
+  "title_image": "https://pica.zhimg.com/v2-55597a63f29e994d220a58f8576def96_720w.jpg?source=172ae18b",
+  "excerpt": "写 Anki 话题也快有三年时间了，这期间也看到了许许多多国产的类 Anki 应用的诞生、发展。我也时不时会收到体验邀请，写一些建议，帮忙做一些推广。以下是我有印象的类 Anki 应用： markji滑记记乎记一记知记忆猩背记星记忆马克拾忆笔记无考小卡片记忆共享…",
+  "created": 1611434277,
   "updated": 1625049873,
   "author": {
-    "is_followed": false,
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
     "badge": [
       {
         "type": "identity",
+        "topics": [],
         "description": "信息技术行业 算法工程师"
       }
     ],
-    "name": "Thoughts Memo",
-    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-    "gender": 1,
-    "user_type": "people",
-    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-    "avatar_url": "https://picx.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-    "is_following": false,
-    "type": "people",
-    "id": "4c592f496dc33822b560b382907ff1d0"
+    "badge_v2": {
+      "title": "知势榜教育校园领域影响力榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育校园领域影响力榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
   },
-  "can_tip": false,
-  "excerpt": "写 Anki 话题也快有三年时间了，这期间也看到了许许多多国产的类 Anki 应用的诞生、…",
-  "tipjarors_count": 0,
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "",
+  "image_width": 1024,
+  "image_height": 768,
+  "content": "<p data-pid=\"hbAcTMGu\">写 Anki 话题也快有三年时间了，这期间也看到了许许多多国产的类 Anki 应用的诞生、发展。我也时不时会收到体验邀请，写一些建议，帮忙做一些推广。以下是我有印象的类 Anki 应用：</p><ul><li data-pid=\"6txDEAif\">markji</li><li data-pid=\"wnWebRVc\">滑记</li><li data-pid=\"-0SPf5RD\">记乎</li><li data-pid=\"TWikza6R\">记一</li><li data-pid=\"8PfwsQ4m\">记知</li><li data-pid=\"K6Eea_ZK\">记忆猩</li><li data-pid=\"hI1dsEkO\">背记星</li><li data-pid=\"VBZh1mps\">记忆马克</li><li data-pid=\"aipx5dk2\">拾忆笔记</li><li data-pid=\"Zvj-1qWu\">无考小卡片</li><li data-pid=\"rHfVeRbw\">记忆共享卡片</li></ul><p data-pid=\"O_rAeUyC\">这些软件都各有特色，收费方式也风格迥异。虽然不清楚它们的收入如何，但能够运营至今，至少也是正收益吧。</p><p data-pid=\"4zgyCp3l\">此外，我还认识了不少团队和独立开发者，都想在这个小众领域有所作为。希望在大家的努力下，像 Anki 这样的学习方式能够以更便利的方式融入更多普通人的学习中，成为教育的一项基础工具。</p><p data-pid=\"_OhieC7K\">生产力决定生产关系，我相信在教育技术的不断发展下，学生与教育之间的关系也会产生质变。</p><h2>内卷（暴论开始）</h2><p data-pid=\"qqhTIvgA\">可能有人会说，没用的，教育技术再发达，也改变不了内卷，只能让做题家们卷得更快罢了。</p><p data-pid=\"6zF_pBGr\">虽然经常能在知乎上看到别人谈论内卷，但是我之前却没有用过这个词。所以我先来说说我对内卷的定义，如果读者朋友们觉得不对，也就没必要继续往下看了（当然，最好能在评论区教我一下）。</p><p data-pid=\"i474meBb\">什么是内卷？内卷是一种竞争。但是不同于那些能够促进发展的良性竞争，内卷无法提高参与者的实际能力。这样说有点抽象，我们拿高中生参加高考为例。如果高考是良性竞争，那么每年相同排位的学生在大学的表现应该越来越好，能学会更多有意义的知识，能为社会创造更多价值。如果高考是内卷，那么每年相同排位的学生只是很会应试，在创造价值方面没有进步，甚至因为高中的学习压力导致对学习的厌恶，无法学习能够创造价值的知识。显然，在考纲的限制下，每一年的高考只能在限定的知识范围内考得很复杂，逼迫学生训练应试能力，但又无法提高学生的知识总量，只能走向内卷。</p><p data-pid=\"2w3Vtsy9\">这样看来，内卷真的很糟糕。内卷不能让学生创造更多价值，它们便分不到更多价值，还白白浪费精力，甚至丧失对学习的乐趣。</p><p data-pid=\"k-Y_rNDl\">可能会有人说，就算能创造更多价值，中国的好大学就那么多所，也没用。</p><p data-pid=\"UIxxxC7-\">我觉得不对，如果能创造更多价值，那么现在看来不好的大学的毕业生也能找到好工作，那么好大学的范围不就能扩大了？</p><p data-pid=\"a-Sen6Ag\">可能会有人问，教育技术怎么改变内卷？</p><p data-pid=\"0Z9EcZPE\">想想看现在决定一个学生能否上好大学的因素有哪些：教育资源、投入时间、天赋。偏远地区的学生与发达地区的学生差别最大的就在第一点上。教育技术的升级和普及，将会逐渐拉平这个差距。而投入时间，每个人的一天都是 24 小时，这很公平。至于天赋，这个按运分配，不是金钱能够左右的。</p><p data-pid=\"GBOfdBn9\">这么一来，有能力卷的人更多了（太快了！加速！）。特别是一个游戏没法氪金，想要更强只能肝。当所有人肝到极限，反弹就会出现。</p><p data-pid=\"fWYXiNVc\">有些人会换条赛道：我有平价优质的教育资源，何必来学这些无聊的东西。自己学些先进的知识，直接去创造价值不好吗？</p><p data-pid=\"Q-Pl7nuz\">有些人会团结起来：我们不要浪费那么多时间在这里，我们要 8 小时学习制！在其它的时间里我们只想学自己的！</p><p data-pid=\"0UHrhds7\">当这样的现象随着内卷加剧越来越多时，内卷就瓦解了。这是因为原有的教育机制已经约束了学生的学习能力的发展。</p><p data-pid=\"qSd9ybY9\">而这一切，都是建立在教育技术的发展之上。（其实我已经不知道自己在写什么了233）</p><h2>小结</h2><p data-pid=\"rM-Yukwy\">思路大概是这样，通过类比生产力来强调发展教育技术的重要性，并预言未来应试教育会完成它的历史使命而终结。（还缝合了奇奇怪怪的东西进去，魔怔了魔怔了）</p><p data-pid=\"K37-SIaZ\">漏洞很多，逻辑也不明晰，欢迎评论区讨论。（图一乐也行）</p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19566266",
+      "type": "topic",
+      "id": "19566266",
+      "name": "学习方法"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19668866",
+      "type": "topic",
+      "id": "19668866",
+      "name": "教育资源"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19783871",
+      "type": "topic",
+      "id": "19783871",
+      "name": "Anki（知识记忆工具）"
+    }
+  ],
+  "voteup_count": 59,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "收录个人相关或不好分类的文章",
+    "is_following": true,
+    "url_token": "c_1280249768422608896",
+    "id": "c_1280249768422608896",
+    "articles_count": 73,
+    "accept_submission": true,
+    "title": "学委叶哥的随笔",
+    "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+    "comment_permission": "all",
+    "created": 1598015330,
+    "updated": 1751811281,
+    "image_url": "https://pica.zhimg.com/v2-c31ca0615bbbe77cc9d0ad05465dd223_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 251,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 35,
+  "contributions": [
+    {
+      "id": 28697481,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "收录个人相关或不好分类的文章",
+        "is_following": true,
+        "url_token": "c_1280249768422608896",
+        "id": "c_1280249768422608896",
+        "articles_count": 73,
+        "accept_submission": true,
+        "title": "学委叶哥的随笔",
+        "url": "https://api.zhihu.com/columns/c_1280249768422608896",
+        "comment_permission": "all",
+        "created": 1598015330,
+        "updated": 1751811281,
+        "image_url": "https://pica.zhimg.com/v2-c31ca0615bbbe77cc9d0ad05465dd223_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 251,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
   "reason": "",
-  "excerpt_title": "",
-  "id": 346567385,
-  "voteup_count": 51,
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": true,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 88,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "从国产 Anki 类软件说起，谈谈教育技术和内卷（暴论） - 来自知乎专栏「学委叶哥的随笔」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/346567385 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
   "can_comment": {
     "status": true,
     "reason": ""
   },
-  "created": 1611434277,
-  "url": "https://api.zhihu.com/articles/346567385",
-  "comment_permission": "all",
-  "title": "从国产 Anki 类软件说起，谈谈教育技术和内卷（暴论）",
-  "image_width": 768,
-  "content": "<p data-pid=\"hbAcTMGu\">写 Anki 话题也快有三年时间了，这期间也看到了许许多多国产的类 Anki 应用的诞生、发展。我也时不时会收到体验邀请，写一些建议，帮忙做一些推广。以下是我有印象的类 Anki 应用：</p><ul><li data-pid=\"6txDEAif\">markji</li><li data-pid=\"wnWebRVc\">滑记</li><li data-pid=\"-0SPf5RD\">记乎</li><li data-pid=\"TWikza6R\">记一</li><li data-pid=\"8PfwsQ4m\">记知</li><li data-pid=\"K6Eea_ZK\">记忆猩</li><li data-pid=\"hI1dsEkO\">背记星</li><li data-pid=\"VBZh1mps\">记忆马克</li><li data-pid=\"aipx5dk2\">拾忆笔记</li><li data-pid=\"Zvj-1qWu\">无考小卡片</li><li data-pid=\"rHfVeRbw\">记忆共享卡片</li></ul><p data-pid=\"O_rAeUyC\">这些软件都各有特色，收费方式也风格迥异。虽然不清楚它们的收入如何，但能够运营至今，至少也是正收益吧。</p><p data-pid=\"4zgyCp3l\">此外，我还认识了不少团队和独立开发者，都想在这个小众领域有所作为。希望在大家的努力下，像 Anki 这样的学习方式能够以更便利的方式融入更多普通人的学习中，成为教育的一项基础工具。</p><p data-pid=\"_OhieC7K\">生产力决定生产关系，我相信在教育技术的不断发展下，学生与教育之间的关系也会产生质变。</p><h2>内卷（暴论开始）</h2><p data-pid=\"qqhTIvgA\">可能有人会说，没用的，教育技术再发达，也改变不了内卷，只能让做题家们卷得更快罢了。</p><p data-pid=\"6zF_pBGr\">虽然经常能在知乎上看到别人谈论内卷，但是我之前却没有用过这个词。所以我先来说说我对内卷的定义，如果读者朋友们觉得不对，也就没必要继续往下看了（当然，最好能在评论区教我一下）。</p><p data-pid=\"i474meBb\">什么是内卷？内卷是一种竞争。但是不同于那些能够促进发展的良性竞争，内卷无法提高参与者的实际能力。这样说有点抽象，我们拿高中生参加高考为例。如果高考是良性竞争，那么每年相同排位的学生在大学的表现应该越来越好，能学会更多有意义的知识，能为社会创造更多价值。如果高考是内卷，那么每年相同排位的学生只是很会应试，在创造价值方面没有进步，甚至因为高中的学习压力导致对学习的厌恶，无法学习能够创造价值的知识。显然，在考纲的限制下，每一年的高考只能在限定的知识范围内考得很复杂，逼迫学生训练应试能力，但又无法提高学生的知识总量，只能走向内卷。</p><p data-pid=\"2w3Vtsy9\">这样看来，内卷真的很糟糕。内卷不能让学生创造更多价值，它们便分不到更多价值，还白白浪费精力，甚至丧失对学习的乐趣。</p><p data-pid=\"k-Y_rNDl\">可能会有人说，就算能创造更多价值，中国的好大学就那么多所，也没用。</p><p data-pid=\"UIxxxC7-\">我觉得不对，如果能创造更多价值，那么现在看来不好的大学的毕业生也能找到好工作，那么好大学的范围不就能扩大了？</p><p data-pid=\"a-Sen6Ag\">可能会有人问，教育技术怎么改变内卷？</p><p data-pid=\"0Z9EcZPE\">想想看现在决定一个学生能否上好大学的因素有哪些：教育资源、投入时间、天赋。偏远地区的学生与发达地区的学生差别最大的就在第一点上。教育技术的升级和普及，将会逐渐拉平这个差距。而投入时间，每个人的一天都是 24 小时，这很公平。至于天赋，这个按运分配，不是金钱能够左右的。</p><p data-pid=\"GBOfdBn9\">这么一来，有能力卷的人更多了（太快了！加速！）。特别是一个游戏没法氪金，想要更强只能肝。当所有人肝到极限，反弹就会出现。</p><p data-pid=\"fWYXiNVc\">有些人会换条赛道：我有平价优质的教育资源，何必来学这些无聊的东西。自己学些先进的知识，直接去创造价值不好吗？</p><p data-pid=\"Q-Pl7nuz\">有些人会团结起来：我们不要浪费那么多时间在这里，我们要 8 小时学习制！在其它的时间里我们只想学自己的！</p><p data-pid=\"0UHrhds7\">当这样的现象随着内卷加剧越来越多时，内卷就瓦解了。这是因为原有的教育机制已经约束了学生的学习能力的发展。</p><p data-pid=\"qSd9ybY9\">而这一切，都是建立在教育技术的发展之上。（其实我已经不知道自己在写什么了233）</p><h2>小结</h2><p data-pid=\"rM-Yukwy\">思路大概是这样，通过类比生产力来强调发展教育技术的重要性，并预言未来应试教育会完成它的历史使命而终结。（还缝合了奇奇怪怪的东西进去，魔怔了魔怔了）</p><p data-pid=\"K37-SIaZ\">漏洞很多，逻辑也不明晰，欢迎评论区讨论。（图一乐也行）</p>",
-  "column": {
-    "updated": 1706022041,
-    "description": "",
-    "author": {
-      "is_followed": false,
-      "badge": [],
-      "name": "Thoughts Memo",
-      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
-      "gender": 1,
-      "user_type": "people",
-      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
-      "avatar_url": "https://pic1.zhimg.com/50/v2-f958f2b875b0cf4d7ee853e4446ba2d1_l.jpg?source=b1748391",
-      "is_following": false,
-      "type": "people",
-      "id": "4c592f496dc33822b560b382907ff1d0"
-    },
-    "url": "https://api.zhihu.com/columns/c_1280249768422608896",
-    "title": "学委叶哥的随笔",
-    "image_url": "https://pica.zhimg.com/v2-f111d7ee1c41944859e975a712c0883b_720w.jpg?source=d16d100b",
-    "type": "column",
-    "id": "c_1280249768422608896"
-  },
-  "comment_count": 35,
-  "image_url": "https://picx.zhimg.com/v2-55597a63f29e994d220a58f8576def96_720w.jpg?source=b1748391",
   "linkbox": {
     "url": "",
     "category": "",
     "pic": "",
     "title": ""
   },
-  "voting": 0,
-  "type": "article",
-  "suggest_edit": {
-    "status": false,
-    "url": "",
-    "reason": "",
-    "tip": "",
-    "title": ""
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 15,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 15,
+    "like_has_set": false
   },
-  "is_normal": true
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIkCgkxNjUxNDQ5MzQSCTM0NjU2NzM4NRgHIgpJTUFHRV9URVhU",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 59,
+      "down_vote_count": 1,
+      "like_count": 15,
+      "comment_count": 35,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 88,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-55597a63f29e994d220a58f8576def96": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-55597a63f29e994d220a58f8576def96": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-55597a63f29e994d220a58f8576def96": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=346567385&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 学委叶哥的随笔",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1280249768422608896",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 学委叶哥的随笔"
+      }
+    },
+    {
+      "elements": [
+        {
+          "type": "TEXT",
+          "content": "创作声明：内容包含虚构创作",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL07A"
+          },
+          "is_bold": true,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_down",
+          "selected_image_key": "zhicon_icon_16_arrow_up",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL07A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [
+        {
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": "创作声明：内容包含虚构创作",
+              "font_size": 13,
+              "font_color": {
+                "alpha": 1,
+                "group": "GBL07A"
+              },
+              "is_bold": true,
+              "max_line": 1
+            }
+          ]
+        },
+        {
+          "elements": [
+            {
+              "type": "TEXT",
+              "content": "内容中的情节存在虚构加工，仅供参考",
+              "font_size": 13,
+              "font_color": {
+                "alpha": 1,
+                "group": "GBL07A"
+              },
+              "is_bold": false,
+              "max_line": 1
+            }
+          ]
+        }
+      ],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.1,
+        "group": "GBL01A"
+      },
+      "za": {
+        "block_text": "DisclaimerLabel",
+        "type": "text",
+        "text": ""
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
 }
