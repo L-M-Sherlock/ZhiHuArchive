@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>如何单独修改anki翻转生成的卡片模版? - @Thoughts Memo | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="如何单独修改anki翻转生成的卡片模版? - @Thoughts Memo | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="背景前置知识，介绍了 Anki 卡片的生成原理： Anki 提示空白卡片，但打开编辑，所有内容都有，这个是什么原因呀？ 看完这个介绍就能明白，Anki 的卡片是通过笔记+模板的方式生成的。题主是想将一条笔记对应的两张卡片中的一张改为填空题，想要做到这点，必须要修改模板： [图片] [图片] [图片] 假设 front 是英文，back 是中文。 题主实际上就是想把这个模板中的 back -> front 改成可以输入答案的形式，那么参考我以前的一篇回答就行了： Anki的填空题…">
+<meta property="og:url" content="https://www.zhihu.com/question/457381514/answer/1867850894">
+<meta name="description" content="背景前置知识，介绍了 Anki 卡片的生成原理： Anki 提示空白卡片，但打开编辑，所有内容都有，这个是什么原因呀？ 看完这个介绍就能明白，Anki 的卡片是通过笔记+模板的方式生成的。题主是想将一条笔记对应的两张卡片中的一张改为填空题，想要做到这点，必须要修改模板： [图片] [图片] [图片] 假设 front 是英文，back 是中文。 题主实际上就是想把这个模板中的 back -> front 改成可以输入答案的形式，那么参考我以前的一篇回答就行了： Anki的填空题…">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="如何单独修改anki翻转生成的卡片模版? - @Thoughts Memo | ZhiHu Archive">
+<meta name="twitter:description" content="背景前置知识，介绍了 Anki 卡片的生成原理： Anki 提示空白卡片，但打开编辑，所有内容都有，这个是什么原因呀？ 看完这个介绍就能明白，Anki 的卡片是通过笔记+模板的方式生成的。题主是想将一条笔记对应的两张卡片中的一张改为填空题，想要做到这点，必须要修改模板： [图片] [图片] [图片] 假设 front 是英文，back 是中文。 题主实际上就是想把这个模板中的 back -> front 改成可以输入答案的形式，那么参考我以前的一篇回答就行了： Anki的填空题…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/457381514/answer/1867850894");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/457381514/answer/1867850894" target="_blank" rel="noopener noreferrer">如何单独修改anki翻转生成的卡片模版?</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。</p>
+</div>
+</div>
+<time datetime="2021-05-04T04:33:50">发表于 2021年05月04日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">14 👍 / 5 💬</p>
+</header>
+<article>
+<div style="margin: 0; padding: 0.5em 1em; border-left: 4px solid #999; font-size: 0.86em; background: #f9f9f9;">
+<h2>问题描述</h2>
+<p>如题</p><p>如何能够单独修改生成的卡片2模版</p><p>我的想法是通过翻转卡片生成中译英和英译中两种卡片,然后将所有中译英的卡片转换为填空题的模版,但是在转换后发现原英译中的卡片被删除了</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic1.zhimg.com/v2-4a818629363707303d3eeae8d4d4e35a_r.jpg" data-rawheight="782" data-rawwidth="1092" data-size="normal" src="https://pic1.zhimg.com/v2-4a818629363707303d3eeae8d4d4e35a_1440w.jpg" width="1092"/></figure><p>这种情况如何解决</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic4.zhimg.com/v2-d99fa80f1b01792d43cec8b760d07641_r.jpg" data-rawheight="530" data-rawwidth="1214" data-size="normal" src="https://pic4.zhimg.com/v2-d99fa80f1b01792d43cec8b760d07641_1440w.png" width="1214"/></figure><p></p>
+</div>
+<hr>
+<h2>背景</h2><p data-pid="OvFUGpnB">前置知识，介绍了 Anki 卡片的生成原理：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://picx.zhimg.com/v2-92248978e5dab5364c2c5cd146155aa5_120x160.jpg" data-image-height="656" data-image-width="398" href="./1845486966.html" rel="noopener noreferrer" target="_blank">Anki 提示空白卡片，但打开编辑，所有内容都有，这个是什么原因呀？</a><p data-pid="W21roM3k">看完这个介绍就能明白，Anki 的卡片是通过笔记+模板的方式生成的。题主是想将一条笔记对应的两张卡片中的一张改为填空题，想要做到这点，必须要修改模板：</p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-e4fa0bc86dd24f60f15c6df0a498c1ce_720w.jpg?source=2c26e567" data-original="https://pica.zhimg.com/v2-e4de0bc90cd3c532f27f871cbb333a00_r.jpg?source=2c26e567" data-original-token="v2-e4de0bc90cd3c532f27f871cbb333a00" data-rawheight="272" data-rawwidth="555" data-size="normal" src="https://picx.zhimg.com/50/v2-e4de0bc90cd3c532f27f871cbb333a00_720w.jpg?source=2c26e567" width="555"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-e4fa0bc86dd24f60f15c6df0a498c1ce_720w.jpg?source=2c26e567" data-original="https://pica.zhimg.com/v2-e4de0bc90cd3c532f27f871cbb333a00_r.jpg?source=2c26e567" data-original-token="v2-e4de0bc90cd3c532f27f871cbb333a00" data-rawheight="272" data-rawwidth="555" data-size="normal" src="https://picx.zhimg.com/50/v2-e4de0bc90cd3c532f27f871cbb333a00_720w.jpg?source=2c26e567" width="555"/></figure><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://pica.zhimg.com/50/v2-9d4039015e16e44961f05b4cef15eb56_720w.jpg?source=2c26e567" data-original="https://pica.zhimg.com/v2-f6f8d6e644b870de513c12b47dc140ff_r.jpg?source=2c26e567" data-original-token="v2-f6f8d6e644b870de513c12b47dc140ff" data-rawheight="392" data-rawwidth="522" data-size="normal" src="https://pic1.zhimg.com/50/v2-f6f8d6e644b870de513c12b47dc140ff_720w.jpg?source=2c26e567" width="522"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://pica.zhimg.com/50/v2-9d4039015e16e44961f05b4cef15eb56_720w.jpg?source=2c26e567" data-original="https://pica.zhimg.com/v2-f6f8d6e644b870de513c12b47dc140ff_r.jpg?source=2c26e567" data-original-token="v2-f6f8d6e644b870de513c12b47dc140ff" data-rawheight="392" data-rawwidth="522" data-size="normal" src="https://pic1.zhimg.com/50/v2-f6f8d6e644b870de513c12b47dc140ff_720w.jpg?source=2c26e567" width="522"/></figure><figure data-size="normal"><noscript><img class="content_image" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-d2ea2e3e67b5a4b25c256e1eb633f264_720w.jpg?source=2c26e567" data-original-token="v2-b290a1311c16d7ee7d2ec70bfe542492" data-rawheight="238" data-rawwidth="360" data-size="normal" src="https://picx.zhimg.com/50/v2-b290a1311c16d7ee7d2ec70bfe542492_720w.jpg?source=2c26e567" width="360"/></noscript><img class="content_image lazy" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-d2ea2e3e67b5a4b25c256e1eb633f264_720w.jpg?source=2c26e567" data-original-token="v2-b290a1311c16d7ee7d2ec70bfe542492" data-rawheight="238" data-rawwidth="360" data-size="normal" src="https://picx.zhimg.com/50/v2-b290a1311c16d7ee7d2ec70bfe542492_720w.jpg?source=2c26e567" width="360"/></figure><p data-pid="AQkrKJKt">假设 front 是英文，back 是中文。</p><p data-pid="O82YL0IZ">题主实际上就是想把这个模板中的 back -&gt; front 改成可以输入答案的形式，那么参考我以前的一篇回答就行了：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pica.zhimg.com/v2-443a5006b9a92e0543a34b0a7e682990_180x120.jpg" data-image-height="1050" data-image-width="1680" href="./1054955943.html" rel="noopener noreferrer" target="_blank">Anki的填空题怎么输入？</a><h2>教程</h2><p data-pid="pYfhKc65">当然，这个回答是针对填空题的，我这些讲一下问答题怎么操作：</p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://pica.zhimg.com/50/v2-8c4bf7bd4859ad2369b80d2f72779b03_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-176449737ab7338ee27397e664d16736_r.jpg?source=2c26e567" data-original-token="v2-176449737ab7338ee27397e664d16736" data-rawheight="702" data-rawwidth="1135" data-size="normal" src="https://picx.zhimg.com/50/v2-176449737ab7338ee27397e664d16736_720w.jpg?source=2c26e567" width="1135"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://pica.zhimg.com/50/v2-8c4bf7bd4859ad2369b80d2f72779b03_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-176449737ab7338ee27397e664d16736_r.jpg?source=2c26e567" data-original-token="v2-176449737ab7338ee27397e664d16736" data-rawheight="702" data-rawwidth="1135" data-size="normal" src="https://picx.zhimg.com/50/v2-176449737ab7338ee27397e664d16736_720w.jpg?source=2c26e567" width="1135"/></figure><p data-pid="7pyrRAYC">回到刚才的 basic and reversed card，切到 back -&gt; front 的正面模板，在 {{Back}} 下面添加 {{type:Front}} 即可。</p><h2>效果</h2><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://pica.zhimg.com/50/v2-35dfb80815ab02a1d7b51dfd5fbe88c8_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-8b7f3ddd127b75558ee5b69aca141aa5_r.jpg?source=2c26e567" data-original-token="v2-8b7f3ddd127b75558ee5b69aca141aa5" data-rawheight="519" data-rawwidth="661" data-size="normal" src="https://picx.zhimg.com/50/v2-8b7f3ddd127b75558ee5b69aca141aa5_720w.jpg?source=2c26e567" width="661"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://pica.zhimg.com/50/v2-35dfb80815ab02a1d7b51dfd5fbe88c8_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-8b7f3ddd127b75558ee5b69aca141aa5_r.jpg?source=2c26e567" data-original-token="v2-8b7f3ddd127b75558ee5b69aca141aa5" data-rawheight="519" data-rawwidth="661" data-size="normal" src="https://picx.zhimg.com/50/v2-8b7f3ddd127b75558ee5b69aca141aa5_720w.jpg?source=2c26e567" width="661"/></figure><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-7a1971fbde651c704f3aabf1764c3caa_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-b4c381f323c2790c419373ce0148d077_r.jpg?source=2c26e567" data-original-token="v2-b4c381f323c2790c419373ce0148d077" data-rawheight="521" data-rawwidth="659" data-size="normal" src="https://pic1.zhimg.com/50/v2-b4c381f323c2790c419373ce0148d077_720w.jpg?source=2c26e567" width="659"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-7a1971fbde651c704f3aabf1764c3caa_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-b4c381f323c2790c419373ce0148d077_r.jpg?source=2c26e567" data-original-token="v2-b4c381f323c2790c419373ce0148d077" data-rawheight="521" data-rawwidth="659" data-size="normal" src="https://pic1.zhimg.com/50/v2-b4c381f323c2790c419373ce0148d077_720w.jpg?source=2c26e567" width="659"/></figure><p data-pid="pvQPnLx7">成功！</p><p data-pid="-pHo4Fr8">更多 Anki 相关的教程，请见：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic3.zhimg.com/v2-acfa8f607f2d3c74ba5c660c3ab25df0_180x120.jpg" data-image-height="500" data-image-width="1161" href="./61564332.html" rel="noopener noreferrer" target="_blank">叶峻峣：Anki 教程(电子书)与 B 站 Ankidroid 教程(视频)快速通道</a><p></p>
+
+<hr>
+<p><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

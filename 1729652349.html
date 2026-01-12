@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>如何评价Anki插件Auto Ease Factor? - @Thoughts Memo | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="如何评价Anki插件Auto Ease Factor? - @Thoughts Memo | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="这个插件我去年暑假研究算法的时候试用过了（大概是2020年7月），简单的评价一下，就是没有跳出 sm-2 算法的框架。 它这个算法的特点就是将一个单词的历史保留率（累积回忆次数/累积复习次数）和间隔系数关联起来，也就是改变了间隔系数的收敛方式。本质上，还是一个简单的状态空间方法，具体可以参考我这篇文章： [文章: 从 Anki 算法说起，探索记忆的状态空间] sm-2 和 sm-3+ 的区别就在于： SM2 于后来修改的算法之间的关键区…">
+<meta property="og:url" content="https://www.zhihu.com/question/443304430/answer/1729652349">
+<meta name="description" content="这个插件我去年暑假研究算法的时候试用过了（大概是2020年7月），简单的评价一下，就是没有跳出 sm-2 算法的框架。 它这个算法的特点就是将一个单词的历史保留率（累积回忆次数/累积复习次数）和间隔系数关联起来，也就是改变了间隔系数的收敛方式。本质上，还是一个简单的状态空间方法，具体可以参考我这篇文章： [文章: 从 Anki 算法说起，探索记忆的状态空间] sm-2 和 sm-3+ 的区别就在于： SM2 于后来修改的算法之间的关键区…">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="如何评价Anki插件Auto Ease Factor? - @Thoughts Memo | ZhiHu Archive">
+<meta name="twitter:description" content="这个插件我去年暑假研究算法的时候试用过了（大概是2020年7月），简单的评价一下，就是没有跳出 sm-2 算法的框架。 它这个算法的特点就是将一个单词的历史保留率（累积回忆次数/累积复习次数）和间隔系数关联起来，也就是改变了间隔系数的收敛方式。本质上，还是一个简单的状态空间方法，具体可以参考我这篇文章： [文章: 从 Anki 算法说起，探索记忆的状态空间] sm-2 和 sm-3+ 的区别就在于： SM2 于后来修改的算法之间的关键区…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/443304430/answer/1729652349");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/443304430/answer/1729652349" target="_blank" rel="noopener noreferrer">如何评价Anki插件Auto Ease Factor?</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。</p>
+</div>
+</div>
+<time datetime="2021-02-14T08:15:56">发表于 2021年02月14日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">26 👍 / 7 💬</p>
+</header>
+<article>
+<div style="margin: 0; padding: 0.5em 1em; border-left: 4px solid #999; font-size: 0.86em; background: #f9f9f9;">
+<h2>问题描述</h2>
+<p>最近在寻找通过插件改善Anki算法的方案，看到这款插件的描述感觉很不错，在知乎上没有搜到相关的内容，不知是否有知友用过。希望如果有用过的知友能讲讲自己的体会，或具体使用方法，也希望有大神能分析分析这款插件适合哪些人用、不适合哪些人用（即保持默认参数更好）。</p><p>摘录插件页上的描述如下，完整请见</p><a class="external" data-draft-node="block" data-draft-type="link-card" href="https://ankiweb.net/shared/info/1672712021" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">https://</span><span class="visible">ankiweb.net/shared/info</span><span class="invisible">/1672712021</span><span class="ellipsis"></span></a><p class="ztext-empty-paragraph"><br/></p><hr/><p>Description</p><p># experimentalCardEaseFactor</p><p>Dynamically adjusts ease factor on cards automatically after each rep, constantly seeking the right ease adjustment to hit a target success rate.</p><p>See: </p><a class="wrap external" data-draft-node="block" data-draft-type="link-card" data-image="https://pica.zhimg.com/v2-205079b17d2659dc963e9000c403820c.jpg" data-image-height="300" data-image-width="300" href="https://eshapard.github.io/anki/thoughts-on-a-new-algorithm-for-anki.html" rel="nofollow noreferrer noopener" target="_blank">Thoughts On A New Algorithm For Anki</a><p> for the original rationale.</p><p>Important: **You must NOT/NOT use an interval modifier in your deck options**. Your interval modifier MUST be set to 100% (no change) for all decks. Otherwise this algorithm could be constantly chasing a moving target.</p><p>Warning: Does not seem to work with versions older than 2.1.21. </p><p>#### Differences from eshapard's version</p><p>Unlike eshapard's version, which requires four reviews before the algorithm kicks in, this version lets the algorithm adjust ease factors as early as possible, including using information from learning steps. Early data is less reliable, though, so we do two things: we limit how much the algorithm can change the ease factor at first, and we use a moving average to more heavily weight recent reps when calculating success rate.</p><p>If it took you a long time to learn a card originally, but now you've really got it down, your ease will rebound very quickly. The 'leash' setting ties your ease factor down at first, which limits the initial swings of the algorithm until you've had many more reviews and better quality data.</p><p>If you're used to ease factors very close to 250%, without a low leash, this algorithm can produce some alarmingly low (or high) ease factors. It will generally auto-adjust very quickly based on your performance though. </p><p>My anecdotal experience is that it front loads the work a bit, causing more reviews with short intervals in the beginning for hard cards, but backing off quickly after I know a card well.</p>
+</div>
+<hr>
+<p data-pid="WE_O7YSf">这个插件我去年暑假研究算法的时候试用过了（大概是2020年7月），简单的评价一下，就是没有跳出 sm-2 算法的框架。</p><p data-pid="krlSWQ9f">它这个算法的特点就是将一个单词的历史保留率（累积回忆次数/累积复习次数）和间隔系数关联起来，也就是改变了间隔系数的收敛方式。本质上，还是一个简单的状态空间方法，具体可以参考我这篇文章：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic4.zhimg.com/v2-079bd935fac29c15a61e06ea5c844a03_120x160.jpg" data-image-height="1920" data-image-width="1440" href="./344716900.html" rel="noopener noreferrer" target="_blank">叶峻峣：从 Anki 算法说起，探索记忆的状态空间</a><p data-pid="8aVufVJL">sm-2 和 sm-3+ 的区别就在于：</p><p data-pid="SDsvsdfg">SM2 于后来修改的算法之间的关键区别是<sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="1989: SuperMemo 适应用户记忆(中)" data-url="https://zhuanlan.zhihu.com/p/207094393">[1]</sup>：</p><ul><li data-pid="8oUmP3U8">SM2 根据您的一张卡片上的表现来安排该卡片下一次的时间</li><li data-pid="X6V0syNt">SM3+ 根据您的一张卡片上的表现来安排该卡片，以及类似卡片下一次的时间</li></ul><p data-pid="XGXA7cXb">所以该插件的算法也只能归为 SM2 的变体，在结构上和 SM2 相差不大。至于效果，由于只利用了一张卡片的历史数据，每张卡片独立收敛，所以收敛速度和 Anki 的原算法差别不大。总的来说，由于这个插件也只能在 PC 上使用，所以我个人不推荐折腾它。</p><p data-pid="cRC6Ib2W">当然，当时我为了研究怎么以插件的形式来更新 Anki 算法，还是研究了一下它的源码的。想要做类似工作的朋友，也可以参考一下它的源码。</p>
+<hr><section><h2>参考</h2>1. 1989: SuperMemo 适应用户记忆(中) <a href="./207094393.html" target="_blank" rel="noopener noreferrer">./207094393.html</a></section>
+<hr>
+<p><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>Anki 提示 Front template has a problem，怎么办呀？ - @Thoughts Memo | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Anki 提示 Front template has a problem，怎么办呀？ - @Thoughts Memo | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="这个是历史遗留问题了，修改一下模板即可。 打开模板，你可能会看到 {{=<% %>=}} 和 <%问题%> 我们只需要把 {{=<% %>=}} 改成 {{问题}}，并把 <%问题%> 删掉即可。对于有多个 {{=<% %>=}} 和 <%XX%>，请逐个替换为 {{XX}}。 你问为啥我知道？看 Anki 手册吧： Template Conflicts As of Anki 2.1.20 / AnkiMobile 2.0.56, this workaround is no longer required, as {{field}} text inside fields no longer causes problems. If…">
+<meta property="og:url" content="https://www.zhihu.com/question/384610916/answer/1413571089">
+<meta name="description" content="这个是历史遗留问题了，修改一下模板即可。 打开模板，你可能会看到 {{=<% %>=}} 和 <%问题%> 我们只需要把 {{=<% %>=}} 改成 {{问题}}，并把 <%问题%> 删掉即可。对于有多个 {{=<% %>=}} 和 <%XX%>，请逐个替换为 {{XX}}。 你问为啥我知道？看 Anki 手册吧： Template Conflicts As of Anki 2.1.20 / AnkiMobile 2.0.56, this workaround is no longer required, as {{field}} text inside fields no longer causes problems. If…">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="Anki 提示 Front template has a problem，怎么办呀？ - @Thoughts Memo | ZhiHu Archive">
+<meta name="twitter:description" content="这个是历史遗留问题了，修改一下模板即可。 打开模板，你可能会看到 {{=<% %>=}} 和 <%问题%> 我们只需要把 {{=<% %>=}} 改成 {{问题}}，并把 <%问题%> 删掉即可。对于有多个 {{=<% %>=}} 和 <%XX%>，请逐个替换为 {{XX}}。 你问为啥我知道？看 Anki 手册吧： Template Conflicts As of Anki 2.1.20 / AnkiMobile 2.0.56, this workaround is no longer required, as {{field}} text inside fields no longer causes problems. If…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/384610916/answer/1413571089");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/384610916/answer/1413571089" target="_blank" rel="noopener noreferrer">Anki 提示 Front template has a problem，怎么办呀？</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。</p>
+</div>
+</div>
+<time datetime="2020-08-16T16:46:53">发表于 2020年08月16日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">9 👍 / 0 💬</p>
+</header>
+<article>
+<div style="margin: 0; padding: 0.5em 1em; border-left: 4px solid #999; font-size: 0.86em; background: #f9f9f9;">
+<h2>问题描述</h2>
+<p></p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic4.zhimg.com/v2-12f9d4b41dbf913c6f2912d59b53e6c7_r.jpg" data-rawheight="1558" data-rawwidth="720" data-size="normal" src="https://pic4.zhimg.com/v2-12f9d4b41dbf913c6f2912d59b53e6c7_1440w.jpg" width="720"/></figure><p>更新了最新版的2.1.22版本之后，卡片上是 &lt;%问题%&gt;，</p><p>打开牌组</p><p>Front template has a problem:</p><p>Found '⁨{{=&lt;% %&gt;=}}⁩', but there is no field called '⁨=&lt;% %&gt;=⁩'</p><p>怎么办呀！！！！！</p>
+</div>
+<hr>
+<p data-pid="F-CNR1fJ">这个是历史遗留问题了，修改一下模板即可。</p><p data-pid="UdYp2L4Q">打开模板，你可能会看到</p><p data-pid="zOsfA1AY">{{=&lt;% %&gt;=}}</p><p data-pid="T2DvqeDn">和</p><p data-pid="fy7jT5NK">&lt;%问题%&gt;</p><p data-pid="vJaRVCID">我们只需要把 {{=&lt;% %&gt;=}} 改成 {{问题}}，并把 &lt;%问题%&gt; 删掉即可。对于有多个 {{=&lt;% %&gt;=}} 和 &lt;%XX%&gt;，请逐个替换为 {{XX}}。</p><p data-pid="cbhww8A3">你问为啥我知道？看 Anki 手册吧：</p><h3><a class="wrap external" href="https://docs.ankiweb.net/#/math?id=template-conflicts" rel="nofollow noreferrer noopener" target="_blank">Template Conflicts</a></h3><p data-pid="X3kdes91">As of Anki 2.1.20 / AnkiMobile 2.0.56, this workaround is no longer required, as <code>{{field}}</code> text inside fields no longer causes problems. If you need to support AnkiDroid or older Anki versions and want to keep using this syntax, please make sure you place the <code>{{=&lt;% %&gt;=}}</code> string at the very top of your front and back template, as recent Anki versions will not recognize it anywhere but the start.</p><p data-pid="pY0EoNx3">For older versions:</p><p data-pid="wt5Gd7Pi">It’s not uncommon for {{ and }} to pop up in LaTeX code when writing mathematical equations. To ensure that your LaTeX equations don’t conflict with Anki’s field replacements, it’s possible to change the separator to something else.</p><p data-pid="gEpNP-xt">For example, if you have a template:</p><div class="highlight"><pre><code class="language-cfm">{{latex field}}</code></pre></div><p data-pid="bDl66MAL">Changing it to the following will make it unlikely that the LaTeX will conflict:</p><div class="highlight"><pre><code class="language-text">{{=&lt;% %&gt;=}}
+&lt;%latex field%&gt;</code></pre></div><p></p>
+
+<hr>
+<p><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

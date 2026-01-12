@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>anki与墨墨背单词是不是一个原理? - @Thoughts Memo | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="anki与墨墨背单词是不是一个原理? - @Thoughts Memo | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="不太清楚墨墨背单词的算法，不过从体验上来讲，至少是有多次重复的。 至于 Anki 的原理，算法部分见这一章： [文章: Anki 算法与术语浅谈] 补充一下，两款软件都运用了间隔重复和测试效应： [文章: 【理论】Study smarter, NOT longer. 你需要间隔重复！] [文章: 【理论】测试效应——什么？考试有助于我的学习？] 更新：非常荣幸负责了墨墨的记忆算法业务，以下是墨墨记忆算法的原理介绍： [文章: KDD'22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]]">
+<meta property="og:url" content="https://www.zhihu.com/question/353752208/answer/881945657">
+<meta name="description" content="不太清楚墨墨背单词的算法，不过从体验上来讲，至少是有多次重复的。 至于 Anki 的原理，算法部分见这一章： [文章: Anki 算法与术语浅谈] 补充一下，两款软件都运用了间隔重复和测试效应： [文章: 【理论】Study smarter, NOT longer. 你需要间隔重复！] [文章: 【理论】测试效应——什么？考试有助于我的学习？] 更新：非常荣幸负责了墨墨的记忆算法业务，以下是墨墨记忆算法的原理介绍： [文章: KDD'22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]]">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="anki与墨墨背单词是不是一个原理? - @Thoughts Memo | ZhiHu Archive">
+<meta name="twitter:description" content="不太清楚墨墨背单词的算法，不过从体验上来讲，至少是有多次重复的。 至于 Anki 的原理，算法部分见这一章： [文章: Anki 算法与术语浅谈] 补充一下，两款软件都运用了间隔重复和测试效应： [文章: 【理论】Study smarter, NOT longer. 你需要间隔重复！] [文章: 【理论】测试效应——什么？考试有助于我的学习？] 更新：非常荣幸负责了墨墨的记忆算法业务，以下是墨墨记忆算法的原理介绍： [文章: KDD'22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]]">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/353752208/answer/881945657");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/353752208/answer/881945657" target="_blank" rel="noopener noreferrer">anki与墨墨背单词是不是一个原理?</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。</p>
+</div>
+</div>
+<time datetime="2019-11-04T13:22:35">发表于 2019年11月04日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">11 👍 / 8 💬</p>
+</header>
+<article>
+
+<p data-pid="DspC-8E7">不太清楚墨墨背单词的算法，不过从体验上来讲，至少是有多次重复的。</p><p data-pid="VBQwY19f">至于 Anki 的原理，算法部分见这一章：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic2.zhimg.com/v2-75cbe90ad0adb828b95624e2460d273f_180x120.jpg" data-image-height="671" data-image-width="1339" href="./42921090.html" rel="noopener noreferrer" target="_blank">叶峻峣：Anki 算法与术语浅谈</a><hr/><p data-pid="9HZIHUyg">补充一下，两款软件都运用了间隔重复和测试效应：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pica.zhimg.com/v2-c91f9db1763d0acbca18acb74e423728_180x120.jpg" data-image-height="679" data-image-width="1207" href="./57020308.html" rel="noopener noreferrer" target="_blank">叶峻峣：Study smarter, NOT longer. 你需要间隔重复！</a><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic2.zhimg.com/v2-c0bf765a9b03e60d38b8df6e2c5920c5_180x120.jpg" data-image-height="677" data-image-width="1211" href="./57113246.html" rel="noopener noreferrer" target="_blank">叶峻峣：测试效应——什么？考试有助于我的学习？</a><hr/><p data-pid="MlGWNIcV">更新：非常荣幸负责了墨墨的记忆算法业务，以下是墨墨记忆算法的原理介绍：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic2.zhimg.com/v2-337e676d732039a25471c1057c54bfa3_180x120.jpg" data-image-height="1480" data-image-width="2700" href="./577383961.html" rel="noopener noreferrer" target="_blank">叶峻峣：KDD'22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]</a><p></p>
+
+<hr>
+<p><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>
