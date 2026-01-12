@@ -157,6 +157,7 @@ article_template = """<!DOCTYPE html>
     <meta property="og:url" content="${"url"}">
     <meta property="og:image" content="${"image_url"}">
     <meta property="og:description" content="${"excerpt"}">
+    <meta name="description" content="${"excerpt"}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${"title"} | ZhiHu Archive">
     <meta name="twitter:description" content="${"excerpt"}">
