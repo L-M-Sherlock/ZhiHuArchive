@@ -1,4 +1,5 @@
 import json
+import shutil
 from pathlib import Path
 from datetime import datetime, timezone
 
@@ -227,7 +228,6 @@ html_content = (
         const moreButton = document.getElementById("search-more");
 
         const hasCJK = (text) => /[\\u3040-\\u30ff\\u3400-\\u9fff\\uf900-\\ufaff]/.test(text);
-        const SEGMENTIT_CDN = "https://cdn.jsdelivr.net/npm/segmentit@2.0.3/dist/umd/segmentit.js";
 
         const getBasePath = () => {{
             const url = new URL(window.location.href);
@@ -239,6 +239,7 @@ html_content = (
         }};
 
         const basePath = getBasePath();
+        const segmentitScript = `${{basePath}}segmentit.js`;
         let pagefind = null;
         let segmenter = null;
         let lastResults = [];
@@ -267,7 +268,7 @@ html_content = (
                     return;
                 }}
                 const script = document.createElement("script");
-                script.src = SEGMENTIT_CDN;
+                script.src = segmentitScript;
                 script.async = true;
                 script.onload = () => resolve(initSegmenter());
                 script.onerror = () => resolve(null);
@@ -520,6 +521,12 @@ html_content += """
 """
 
 # Write the HTML file
+Path("html").mkdir(exist_ok=True)
+asset_src = Path("assets") / "segmentit.js"
+asset_dst = Path("html") / "segmentit.js"
+if asset_src.exists():
+    shutil.copyfile(asset_src, asset_dst)
+
 with open("./html/index.html", "w", encoding="utf-8") as f:
     f.write(html_content)
 
