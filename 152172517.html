@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>SICP换零钱迭代方法实现，是如何写的？ - @Thoughts Memo | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SICP换零钱迭代方法实现，是如何写的？ - @Thoughts Memo | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="我自己搞腾了一个，线性迭代，可能看起来有点迷，毕竟才刚开始学，废话不多说，上代码： (define (change-count amount) (cc 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 (+ (/ amount 5) 1) 1 2 4)) ;初始值设定，中间的（+（/ w 5) 1)是因为我找规律的时候发现硬币总数每加5，换硬币的方法才改变一次 (define (even? u) (= (remainder u 2) 0)) ;这个是用来判断偶数的 (define (cc a b c d e f g h i j k l m n o p q x y) (cond ((= p q) …">
+<meta property="og:url" content="https://www.zhihu.com/question/22219036/answer/152172517">
+<meta name="description" content="我自己搞腾了一个，线性迭代，可能看起来有点迷，毕竟才刚开始学，废话不多说，上代码： (define (change-count amount) (cc 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 (+ (/ amount 5) 1) 1 2 4)) ;初始值设定，中间的（+（/ w 5) 1)是因为我找规律的时候发现硬币总数每加5，换硬币的方法才改变一次 (define (even? u) (= (remainder u 2) 0)) ;这个是用来判断偶数的 (define (cc a b c d e f g h i j k l m n o p q x y) (cond ((= p q) …">
+<meta data-pagefind-meta="title" content="SICP换零钱迭代方法实现，是如何写的？">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="SICP换零钱迭代方法实现，是如何写的？ - @Thoughts Memo | ZhiHu Archive">
+<meta name="twitter:description" content="我自己搞腾了一个，线性迭代，可能看起来有点迷，毕竟才刚开始学，废话不多说，上代码： (define (change-count amount) (cc 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 (+ (/ amount 5) 1) 1 2 4)) ;初始值设定，中间的（+（/ w 5) 1)是因为我找规律的时候发现硬币总数每加5，换硬币的方法才改变一次 (define (even? u) (= (remainder u 2) 0)) ;这个是用来判断偶数的 (define (cc a b c d e f g h i j k l m n o p q x y) (cond ((= p q) …">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/22219036/answer/152172517");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/22219036/answer/152172517" target="_blank" rel="noopener noreferrer">SICP换零钱迭代方法实现，是如何写的？</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2017-03-17T15:01:17">发表于 2017年03月17日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">11 👍 / 7 💬</p>
+</header>
+<article data-pagefind-body>
+<div style="margin: 0; padding: 0.5em 1em; border-left: 4px solid #999; font-size: 0.86em; background: #f9f9f9;">
+<h2>问题描述</h2>
+scheme小菜，最近看书，看到换零钱这个问题，<br/><br/><div class="highlight"><pre><code class="language-text">(define (count-change amount)
+   (cc amount 5))
+
+(define (cc amount kinds-of-coins)
+   (cond ((= amount 0) 1)
+ ((or (&lt; amount 0) (= kinds-of-coins 0)) 0)
+ (else (+ (cc amount
+  (- kinds-of-coins 1))
+  (cc (- amount
+ (first-denomination kinds-of-coins))
+  kinds-of-coins)))))
+
+(define (first-denomination kinds-of-coins)
+   (cond ((= kinds-of-coins 1) 1)
+ ((= kinds-of-coins 2) 5)
+ ((= kinds-of-coins 3) 10)
+ ((= kinds-of-coins 4) 25)
+ ((= kinds-of-coins 5) 50)))
+
+
+x 想了好久都没想出来这道题迭代怎么写，有能讲解一下的大神吗？查了一下资料，有的说是动态规划，有的说是背包</code></pre></div>
+</div>
+<hr>
+<p data-pid="ZLaTDR0_">我自己搞腾了一个，线性迭代，可能看起来有点迷，毕竟才刚开始学，废话不多说，上代码：</p><div class="highlight"><pre><code class="language-scheme"><span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">change-count</span> <span class="nv">amount</span><span class="p">)</span>
+  <span class="p">(</span><span class="nf">cc</span> <span class="mi">1</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">0</span> <span class="p">(</span><span class="nb">+ </span><span class="p">(</span><span class="nb">/ </span><span class="nv">amount</span> <span class="mi">5</span><span class="p">)</span> <span class="mi">1</span><span class="p">)</span> <span class="mi">1</span> <span class="mi">2</span> <span class="mi">4</span><span class="p">))</span>
+<span class="c1">;初始值设定，中间的（+（/ w 5) 1)是因为我找规律的时候发现硬币总数每加5，换硬币的方法才改变一次</span>
+<span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nb">even? </span><span class="nv">u</span><span class="p">)</span>
+  <span class="p">(</span><span class="nb">= </span><span class="p">(</span><span class="nb">remainder </span><span class="nv">u</span> <span class="mi">2</span><span class="p">)</span> <span class="mi">0</span><span class="p">))</span>
+<span class="c1">;这个是用来判断偶数的</span>
+<span class="p">(</span><span class="k">define </span><span class="p">(</span><span class="nf">cc</span> <span class="nv">a</span> <span class="nv">b</span> <span class="nv">c</span> <span class="nv">d</span> <span class="nv">e</span> <span class="nv">f</span> <span class="nv">g</span> <span class="nv">h</span> <span class="nv">i</span> <span class="nv">j</span> <span class="nv">k</span> <span class="nv">l</span> <span class="nv">m</span> <span class="nv">n</span> <span class="nv">o</span> <span class="nv">p</span> <span class="nv">q</span> <span class="nv">x</span> <span class="nv">y</span><span class="p">)</span>
+ <span class="p">(</span><span class="k">cond </span><span class="p">((</span><span class="nb">= </span><span class="nv">p</span> <span class="nv">q</span><span class="p">)</span> <span class="nv">a</span><span class="p">)</span>
+   <span class="p">((</span><span class="nb">even? </span><span class="nv">q</span><span class="p">)</span> <span class="p">(</span><span class="nf">cc</span> <span class="p">(</span><span class="nb">- </span><span class="p">(</span><span class="nb">+ </span><span class="nv">y</span> <span class="nv">e</span> <span class="nv">j</span><span class="p">)</span> <span class="nv">o</span><span class="p">)</span> <span class="nv">a</span> <span class="nv">b</span> <span class="nv">c</span> <span class="nv">d</span> <span class="nv">e</span> <span class="nv">f</span> <span class="nv">g</span> <span class="nv">h</span> <span class="nv">i</span> <span class="nv">j</span> <span class="nv">k</span> <span class="nv">l</span> <span class="nv">m</span> <span class="nv">n</span> <span class="nv">p</span> <span class="p">(</span><span class="nb">+ </span><span class="nv">q</span> <span class="mi">1</span><span class="p">)</span> <span class="nv">x</span> <span class="p">(</span><span class="nb">+ </span><span class="nv">y</span> <span class="nv">q</span> <span class="mi">3</span><span class="p">)))</span>
+   <span class="p">(</span><span class="k">else </span><span class="p">(</span><span class="nf">cc</span> <span class="p">(</span><span class="nb">- </span><span class="p">(</span><span class="nb">+ </span><span class="nv">x</span> <span class="nv">e</span> <span class="nv">j</span><span class="p">)</span> <span class="nv">o</span><span class="p">)</span> <span class="nv">a</span> <span class="nv">b</span> <span class="nv">c</span> <span class="nv">d</span> <span class="nv">e</span> <span class="nv">f</span> <span class="nv">g</span> <span class="nv">h</span> <span class="nv">i</span> <span class="nv">j</span> <span class="nv">k</span> <span class="nv">l</span> <span class="nv">m</span> <span class="nv">n</span> <span class="nv">p</span> <span class="p">(</span><span class="nb">+ </span><span class="nv">q</span> <span class="mi">1</span><span class="p">)</span> <span class="p">(</span><span class="nb">+ </span><span class="nv">x</span> <span class="nv">q</span> <span class="mi">3</span><span class="p">)</span> <span class="nv">y</span><span class="p">))))</span>
+<span class="c1">;这个是我找规律发现的。。。具体很难用口语表示。。。自己拿去用，上机调试。。。自己研究吧。。。</span></code></pre></div><p data-pid="5sszIHIw">更新：改了一点小错误</p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-342efd9fae980f047dac2261f8ca1ffb_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-e00431ff7b680c5e51a60696371a37cb_r.jpg?source=2c26e567" data-original-token="v2-93443526f39ee1294e7390220200a64d" data-rawheight="1034" data-rawwidth="1920" data-size="normal" src="https://pica.zhimg.com/50/v2-e00431ff7b680c5e51a60696371a37cb_720w.jpg?source=2c26e567" width="1920"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-342efd9fae980f047dac2261f8ca1ffb_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-e00431ff7b680c5e51a60696371a37cb_r.jpg?source=2c26e567" data-original-token="v2-93443526f39ee1294e7390220200a64d" data-rawheight="1034" data-rawwidth="1920" data-size="normal" src="https://pica.zhimg.com/50/v2-e00431ff7b680c5e51a60696371a37cb_720w.jpg?source=2c26e567" width="1920"/></figure><p></p>
+
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

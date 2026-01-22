@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>重试结果可能会提供额外的可提取性信号 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="重试结果可能会提供额外的可提取性信号 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/660604968">
+<meta property="og:image" content="">
+<meta property="og:description" content="在 间隔重复记忆系统 [1]中，建模和评估面临一个难题：我们试图估计一个随时间变化的连续值（回忆概率，或 记忆的双组分模型 中可提取性），但我们得到的却是稀疏的一比特二元样本：记住，或没记住。如果读者没记住，他们的可提取性可能是 10%，也可能是 90%。…">
+<meta name="description" content="在 间隔重复记忆系统 [1]中，建模和评估面临一个难题：我们试图估计一个随时间变化的连续值（回忆概率，或 记忆的双组分模型 中可提取性），但我们得到的却是稀疏的一比特二元样本：记住，或没记住。如果读者没记住，他们的可提取性可能是 10%，也可能是 90%。…">
+<meta data-pagefind-meta="title" content="重试结果可能会提供额外的可提取性信号">
+<meta data-pagefind-meta="image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="重试结果可能会提供额外的可提取性信号 | ZhiHu Archive">
+<meta name="twitter:description" content="在 间隔重复记忆系统 [1]中，建模和评估面临一个难题：我们试图估计一个随时间变化的连续值（回忆概率，或 记忆的双组分模型 中可提取性），但我们得到的却是稀疏的一比特二元样本：记住，或没记住。如果读者没记住，他们的可提取性可能是 10%，也可能是 90%。…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/660604968");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src=""/>
+<h1><a href="https://zhuanlan.zhihu.com/p/660604968" target="_blank" rel="noopener noreferrer">重试结果可能会提供额外的可提取性信号</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2023-10-11T04:13:45">发表于 2023年10月11日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">3 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="NW7iXyS_">在<a class="wrap external" href="https://notes.andymatuschak.org/z4eXdSMJFv2qVGXSUEKH4vdcHBrLHcFY1ZGfC" rel="nofollow noreferrer noopener" target="_blank">间隔重复记忆系统</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="间隔重复记忆系统（Spaced repetition memory system）" data-url="https://zhuanlan.zhihu.com/p/404257681">[1]</sup>中，建模和评估面临一个难题：我们试图估计一个随时间变化的连续值（回忆概率，或<a class="wrap external" href="https://notes.andymatuschak.org/z4dAUBxVn79XSWRxGZHnKRXCP5XHeX2P9sw3y" rel="nofollow noreferrer noopener" target="_blank">记忆的双组分模型</a>中可提取性），但我们得到的却是稀疏的一比特二元样本：记住，或没记住。如果读者没记住，他们的可提取性可能是 10%，也可能是 90%。</p><p data-pid="K_HrTafZ">但在典型的 <a class="wrap external" href="https://notes.andymatuschak.org/z2GB3wDnERaJr2337zGJdb5Gnr7tURrfmoxu" rel="nofollow noreferrer noopener" target="_blank">SRS 重试机制</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="SRS 重试机制" data-url="https://zhuanlan.zhihu.com/p/623551320">[2]</sup>中，假设读者在第一次尝试后不久的重试中仍未能记住。那么，你对第一次尝试时的可提取性的估计就应该降低。若失败次数增多，应进一步降低估计。</p><p data-pid="gVBZ9t4Y">我不确定如何在现实中构建一个包含这个因素的模型。在每次后续失败后，可提取性估计应该下降多少？我不确定如何在这里找到「人工标注（ground truth）」。</p><p data-pid="hv5Ct2mC">这种信号在学术文献中<b>有所</b>体现，其中常见的做法是要求受试者不断练习项目，直至成功。尝试次数有时会被当作一个变量来分析。在 <a class="wrap external" href="https://notes.andymatuschak.org/zKo9oLfGnps2DZxPMotN9EiTdwAi6dZrTqX" rel="nofollow noreferrer noopener" target="_blank">Ebbinghaus, H. (1913). Memory: A Contribution to Experimental Psychology (H. A. Ruger &amp; C. E. Bussenius, Trans.). (Original work published 1885)</a> 一书中，<a class="wrap external" href="https://notes.andymatuschak.org/z27aRzfKv9AhrdENveH1MhBGWj9HzTe5R1pZ" rel="nofollow noreferrer noopener" target="_blank">赫尔曼·艾宾浩斯</a>几乎将尝试次数作为唯一的信号（一种较为粗糙的可提取性信号）。</p><h2>参考文献</h2><p data-pid="KrT6BJn-">这个想法是在 <a class="wrap external" href="https://notes.andymatuschak.org/zZumxAcTBYSuU7Wc5iYAaCC8dfkLLQmMDM5" rel="nofollow noreferrer noopener" target="_blank">2022-02-22</a> 与 <a class="wrap external" href="https://notes.andymatuschak.org/z2NzKC1UDHBSjGkyVmDJL2CNqJDKxeiFZRSJ" rel="nofollow noreferrer noopener" target="_blank">Giacomo Randazzo</a> 的一次交谈中产生的。他抱怨自己不得不扔掉很多「遗忘」的样本，因为这些都是「重试」的尝试。起初，我觉得这是理所当然的，因为这些样本的 ISI 几乎为零，所以毫无意义。然而，后来我意识到了我在这篇笔记中所描述的问题。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid="Tx7-ZXG0"><a class="internal" href="./623551320.html" rel="noopener noreferrer" target="_blank">SRS 重试机制</a></li></ul><h2>声明</h2><p data-pid="a1kSLiu9">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="GyAv5TZe"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 Jarrett Ye<br/>原文：<a class="wrap external" href="https://notes.andymatuschak.org/zq2kRQRbZ5ykqy6TWtece3NscvMdjYRUZFr" rel="nofollow noreferrer noopener" target="_blank">Retry outcomes may give extra retrievability signal (andymatuschak.org)</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 间隔重复记忆系统（Spaced repetition memory system） <a href="./404257681.html" target="_blank" rel="noopener noreferrer">./404257681.html</a><br>2. SRS 重试机制 <a href="./623551320.html" target="_blank" rel="noopener noreferrer">./623551320.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：间隔重复 & 注意力管理</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

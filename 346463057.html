@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>Anki 制卡对复习记忆效率的影响分析 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Anki 制卡对复习记忆效率的影响分析 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/346463057">
+<meta property="og:image" content="https://picx.zhimg.com/v2-57bbe8c427bb90bbe81876c1451dc090_720w.jpg?source=172ae18b">
+<meta property="og:description" content="要简单地解释 Anki 中制卡与复习之间的关系，可以将制卡看作编码记忆的过程。编码越精细，后续的复习就会越轻松 [1]。当然，长期以来，我们并没有对这一影响做详尽的分析。本期我们将引入之前所提及的记忆模型，将制卡对复习的影响量化，让大家直观地感受到…">
+<meta name="description" content="要简单地解释 Anki 中制卡与复习之间的关系，可以将制卡看作编码记忆的过程。编码越精细，后续的复习就会越轻松 [1]。当然，长期以来，我们并没有对这一影响做详尽的分析。本期我们将引入之前所提及的记忆模型，将制卡对复习的影响量化，让大家直观地感受到…">
+<meta data-pagefind-meta="title" content="Anki 制卡对复习记忆效率的影响分析">
+<meta data-pagefind-meta="image" content="https://picx.zhimg.com/v2-57bbe8c427bb90bbe81876c1451dc090_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Anki 制卡对复习记忆效率的影响分析 | ZhiHu Archive">
+<meta name="twitter:description" content="要简单地解释 Anki 中制卡与复习之间的关系，可以将制卡看作编码记忆的过程。编码越精细，后续的复习就会越轻松 [1]。当然，长期以来，我们并没有对这一影响做详尽的分析。本期我们将引入之前所提及的记忆模型，将制卡对复习的影响量化，让大家直观地感受到…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/346463057");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://picx.zhimg.com/v2-57bbe8c427bb90bbe81876c1451dc090_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/346463057" target="_blank" rel="noopener noreferrer">Anki 制卡对复习记忆效率的影响分析</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2021-01-23T07:50:06">发表于 2021年01月23日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">44 👍 / 5 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="ovFeCAGG">要简单地解释 Anki 中制卡与复习之间的关系，可以将制卡看作编码记忆的过程。编码越精细，后续的复习就会越轻松<sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="记忆研究者反复发现对记忆的编码越精细，记忆也就会更持久。精细的编码本身就相当于你构造的联系的丰富程度。" data-url="https://zhuanlan.zhihu.com/p/65131722">[1]</sup>。当然，长期以来，我们并没有对这一影响做详尽的分析。本期我们将引入之前所提及的记忆模型，将制卡对复习的影响量化，让大家直观地感受到制卡的重要性。</p><p data-pid="E1K5iW43">为了让大家更清楚地看到制卡与复习效率的关系，我用 Python 编写了一个简单的复习模拟器，输出一些模拟结果的可视化图像供大家参考。</p><p data-pid="B_MfoPSI">模拟脚本地址：</p><a class="external" data-draft-node="block" data-draft-type="link-card" href="https://github.com/L-M-Sherlock/space_repetition_simulators" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">https://</span><span class="visible">github.com/L-M-Sherlock</span><span class="invisible">/space_repetition_simulators</span><span class="ellipsis"></span></a><h2>模拟条件</h2><ul><li data-pid="JzNHrXi3">间隔系数：2.5</li><li data-pid="cIupxEJR">保留率：0.9</li><li data-pid="4KBLlXK0">初始间隔：1</li><li data-pid="fNYRj6UK">新卡片总量：10000</li><li data-pid="69DUdpLN">每日新卡片上限：50</li><li data-pid="OLcipbpG">每日复习上限：不限</li><li data-pid="RRulyJ_N">模拟周期：300 天</li></ul><h2>基准情况</h2><p data-pid="l-e_o9MF">我们先以 Anki 算法的默认参数作为基准，假设一个人的制卡水平一般，那么他的复习过程会近似于 Anki 默认的复习规划。</p><p data-pid="pi42nfNB">每日的复习量模拟如下：</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic2.zhimg.com/v2-325583b6332e11569dc9bd5b1bcdcb55_r.jpg" data-original-token="v2-9a052aaebabf967448818bd1fc8e6c19" data-rawheight="480" data-rawwidth="640" data-size="normal" src="https://pic2.zhimg.com/v2-325583b6332e11569dc9bd5b1bcdcb55_1440w.jpg" width="640"/></figure><ul><li data-pid="Bw99ZWCl">总重复次数：88515</li><li data-pid="W0JCVFlh">平均每日重复次数：295</li></ul><h2>制卡水平</h2><p data-pid="l1QxOfrU">以上图为基准，我们就可以根据制卡水平来调整模拟参数，从而对比不同学习者的复习效率。</p><p data-pid="6cGtFEm1">什么？怎么判断制卡水平？这个看起来很难量化，但是只要我们从复习行为的角度来看，就能将制卡水平转换为记忆稳定性的初始值<sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="记忆稳定性是指一批记忆在一次复习后遗忘率达到 10% 所需的时间。" data-url="https://zhuanlan.zhihu.com/p/343115387">[2]</sup><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="值得注意的是，随着复习的早期进行，稳定性往往急剧增加，并且在几十年后接近极低的稳定性增长水平。这可以解释为这样一个事实，即记忆在个体的整体知识结构中找到了自己的位置，获得了高度的稳定性" data-url="https://zhuanlan.zhihu.com/p/268782211">[3]</sup>。</p><p data-pid="oveC8VXp">怎么理解呢？这里就需要看看 SuperMemo 的做法了。SuperMemo 会根据学习者的复习反馈，逐步调整间隔，保证每次复习都是发生在回忆概率为 90% 的时刻。那么只要我们看看第一个间隔的长度，就能知道记忆稳定性的初始值。而我们不断复习的目标，实际上就是不断提高记忆稳定性。记忆稳定性的初始值高，就相当于领先在起跑线上。</p><p data-pid="r1kErf52">好了，废话不多说，先看看我自己用 SuperMemo 这几个月来，SuperMemo 算法估计的第一个间隔长度吧：</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://picx.zhimg.com/v2-965ccc82ff6902a0024bdabce601c319_r.jpg" data-original-token="v2-4747cd51cff9d9854a6bcdb51af40175" data-rawheight="972" data-rawwidth="1512" data-size="normal" src="https://picx.zhimg.com/v2-965ccc82ff6902a0024bdabce601c319_1440w.jpg" width="1512"/></figure><p data-pid="1qXx1lpT">8.2 约等于 8，也就是说我复习的第一个间隔是 8 天。如果在 Anki 中，新卡片的毕业间隔是 1 天，即使是简单间隔也有 3 天<sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="毕业间隔：学习新卡片后连续选择【一般】的间隔；  简单间隔：学习新卡片后选择【简单】的间隔；" data-url="https://zhuanlan.zhihu.com/p/42921090">[4]</sup>。让我们看看如果记忆稳定的初值为 8，模拟的结果如何：</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic4.zhimg.com/v2-99bca30459e11587008258b2514c7101_r.jpg" data-original-token="v2-2c53304a6e77d7c00bb68f7375dab25b" data-rawheight="480" data-rawwidth="640" data-size="normal" src="https://pic4.zhimg.com/v2-99bca30459e11587008258b2514c7101_1440w.jpg" width="640"/></figure><ul><li data-pid="kosudJcl">总重复次数：62130</li><li data-pid="vb-Y6fvA">平均每日重复次数：207</li></ul><p data-pid="7daRVtfm">比基准情况整整少了 1/3，而基准情况其实已经比一些批量制卡要好上不少了。</p><p data-pid="w0kOfcS-">如果卡片做的差一点（大段文字直接糊上去、批量制卡等等），每天的保留率都达不到 90%，那么模拟的结果可能是：</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic1.zhimg.com/v2-991ab38986dc0c6fba0c2e94b8b866b2_r.jpg" data-original-token="v2-d712ce84a482ac3bbd1505313680581b" data-rawheight="480" data-rawwidth="640" data-size="normal" src="https://pic1.zhimg.com/v2-991ab38986dc0c6fba0c2e94b8b866b2_1440w.jpg" width="640"/></figure><ul><li data-pid="SYKfnxBA">总重复次数：120123</li><li data-pid="aOTLGmL5">平均每日重复次数：400</li></ul><p data-pid="hcjvbwax">比基准情况多了 1/3，更是比我的模拟结果多了整整一倍。由此可见，不同的制卡习惯所造成复习过程的差异可能会很大。</p><p data-pid="ixN4rb0Z">另外，本模拟没有考虑每次复习的回忆时间。从直觉上来说，下功夫做的卡片回忆起来更快，那么好好制卡的效率就更高了。</p><h2>进一步阅读</h2><p data-pid="tKu_O12C">本期重点论述了制卡对复习效率的重要影响，建议大家制卡时多下功夫。关于如何制卡，以前写过/翻译过很多相关文章，我整理了一个收藏夹，方便大家查阅：<a class="internal" href="https://www.zhihu.com/collection/614280525" rel="noopener noreferrer" target="_blank">制卡原则与知识表述</a>本期重点论述了制卡对复习效率的重要影响，建议大家制卡时多下功夫。关于如何制卡，以前写过/翻译过很多相关文章，我整理了一个收藏夹，方便大家查阅：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" href="https://www.zhihu.com/collection/614280525" rel="noopener noreferrer" target="_blank">制卡原则与知识表述</a><p></p>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 记忆研究者反复发现对记忆的编码越精细，记忆也就会更持久。精细的编码本身就相当于你构造的联系的丰富程度。 <a href="https://zhuanlan.zhihu.com/p/65131722" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/65131722</a><br>2. 记忆稳定性是指一批记忆在一次复习后遗忘率达到 10% 所需的时间。 <a href="./343115387.html" target="_blank" rel="noopener noreferrer">./343115387.html</a><br>3. 值得注意的是，随着复习的早期进行，稳定性往往急剧增加，并且在几十年后接近极低的稳定性增长水平。这可以解释为这样一个事实，即记忆在个体的整体知识结构中找到了自己的位置，获得了高度的稳定性 <a href="./268782211.html" target="_blank" rel="noopener noreferrer">./268782211.html</a><br>4. 毕业间隔：学习新卡片后连续选择【一般】的间隔；  简单间隔：学习新卡片后选择【简单】的间隔； <a href="./42921090.html" target="_blank" rel="noopener noreferrer">./42921090.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：学委叶哥的随笔</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

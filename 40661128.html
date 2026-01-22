@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>从写 AI 到量化思维：深夜写 AI 有感 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="从写 AI 到量化思维：深夜写 AI 有感 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/40661128">
+<meta property="og:image" content="https://pic1.zhimg.com/v2-22db972ac4e1abf986f191eaa9bf49e0_720w.jpg?source=172ae18b">
+<meta property="og:description" content="已收录于 「一周年」专栏整理 作为一名知乎专栏作家，大家都只认识了我学习有方法的一面。 其实，我从初中就开始给一款游戏 mod 更新，并主要负责其中的 AI 部分。 给大家看看我平时处理的代码： 我常常羡慕我的 AI，为什么？ 因为 AI 做的每一件事情都是为了…">
+<meta name="description" content="已收录于 「一周年」专栏整理 作为一名知乎专栏作家，大家都只认识了我学习有方法的一面。 其实，我从初中就开始给一款游戏 mod 更新，并主要负责其中的 AI 部分。 给大家看看我平时处理的代码： 我常常羡慕我的 AI，为什么？ 因为 AI 做的每一件事情都是为了…">
+<meta data-pagefind-meta="title" content="从写 AI 到量化思维：深夜写 AI 有感">
+<meta data-pagefind-meta="image" content="https://pic1.zhimg.com/v2-22db972ac4e1abf986f191eaa9bf49e0_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="从写 AI 到量化思维：深夜写 AI 有感 | ZhiHu Archive">
+<meta name="twitter:description" content="已收录于 「一周年」专栏整理 作为一名知乎专栏作家，大家都只认识了我学习有方法的一面。 其实，我从初中就开始给一款游戏 mod 更新，并主要负责其中的 AI 部分。 给大家看看我平时处理的代码： 我常常羡慕我的 AI，为什么？ 因为 AI 做的每一件事情都是为了…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/40661128");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://pic1.zhimg.com/v2-22db972ac4e1abf986f191eaa9bf49e0_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/40661128" target="_blank" rel="noopener noreferrer">从写 AI 到量化思维：深夜写 AI 有感</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2018-07-26T17:22:06">发表于 2018年07月26日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">13 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<blockquote data-pid="RaS11Mwd">已收录于<a class="internal" href="./57637220.html" rel="noopener noreferrer" target="_blank">「一周年」专栏整理</a></blockquote><p data-pid="SviRsnbx">作为一名知乎专栏作家，大家都只认识了我学习有方法的一面。</p><p data-pid="v45XfKHj">其实，我从初中就开始给一款游戏 mod 更新，并主要负责其中的 AI 部分。</p><p data-pid="nfgH0o2t">给大家看看我平时处理的代码：</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic4.zhimg.com/v2-26a0cfe9a7d66db3b228cfbe4d17960b_r.jpg" data-original-token="v2-733f8e7c2f09496dfed76989d501d321" data-rawheight="692" data-rawwidth="1084" data-size="normal" src="https://pic4.zhimg.com/v2-26a0cfe9a7d66db3b228cfbe4d17960b_1440w.jpg" width="1084"/></figure><p data-pid="8PV9puen">我常常羡慕我的 AI，为什么？</p><p data-pid="scM_CPWV">因为 AI 做的每一件事情都是为了得分，而且每件事情的得分都被我写好了。AI 只需用函数处理数据即可做出一个个决策。</p><p data-pid="ZWv7hNev">反观我们人类，几乎没有谁会告诉我们这件事情的得分，即使有，也往往不是即时的。</p><p data-pid="nBorTNOd">这就是我们常常遇到动力不足的根源，因为我们很难评估当前我们的所作所为有何效果。</p><p data-pid="4p1P7GQ5">我也曾是一个缺乏动力的人，直到我遇到了 Anki。</p><p data-pid="2btoeGfU">纳尼！这也能扯到 Anki？！</p><p data-pid="QizUeKw9">不好意思，深夜的我脑洞奇大无比！</p><p data-pid="f1FzBcHN">谈谈我自己对 Anki 的定位：</p><p data-pid="Vnkk1B0K">不断地在刷题和看书中遇到新知识和新套路，并且用自己的表达记录它们，并靠Anki来复习巩固。</p><p data-pid="ySTp5yKx">由于我们的方向是高考，一切高考考查的知识我们都要去攻克。</p><p data-pid="t1h7YWhS">当我们的 Anki 中积累的知识越多，我们的知识储备就越向高考要求靠近。</p><p data-pid="3jO_UZ2d">此时，Anki 的统计数据就是激励我们前进的动力！</p><figure data-size="normal"><img class="content_image" data-caption="" data-original-token="v2-dc3630f157250e2968fc59d8a3c2bf90" data-rawheight="157" data-rawwidth="393" data-size="normal" src="https://picx.zhimg.com/v2-178bc077b488d93426975530d1ff0e75_1440w.jpg" width="393"/></figure><figure data-size="small"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic3.zhimg.com/v2-9cee8ed58a63008966c0502d780a6b86_r.jpg" data-original-token="v2-f7245e00c10c975358a427b4683da611" data-rawheight="1280" data-rawwidth="720" data-size="small" src="https://pic3.zhimg.com/v2-9cee8ed58a63008966c0502d780a6b86_1440w.jpg" width="720"/></figure><p data-pid="MEs70Pwo">今天的数据，是我们自我反省的依据</p><figure data-size="small"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://picx.zhimg.com/v2-a32692a08c228f2c705d3126931cad15_r.jpg" data-original-token="v2-1843cfac969b626bea9cab13443336dc" data-rawheight="1280" data-rawwidth="720" data-size="small" src="https://picx.zhimg.com/v2-a32692a08c228f2c705d3126931cad15_1440w.jpg" width="720"/></figure><p data-pid="9opDc9bJ">预测的数据，是我们未来巩固的知识！</p><p class="ztext-empty-paragraph"><br/></p><p data-pid="7vGGa1G9">在遇到 Anki 前，我很难预估我的成绩，因为我根本不知道我对知识的掌握程度，考试时也不够自信。</p><p data-pid="akq1_5c4">因为 Anki，我知道今天我学了很多；维的重要性。数据是客观的，建立在客观数据上的预期是令人信服的，至少我自信了！</p><p data-pid="UHUN_fjt">因为Anki，我知道今天我学了很多；</p><p data-pid="KRVKnhK4">因为 Anki，我知道未来并做好准备！</p><hr/><p data-pid="x7k84Ivp">深夜无眠，本文不是劝你们来玩游戏或者写AI的！！！</p><p data-pid="GG77Z9Jv">用你们的统计数据来激励自己吧！！！</p><p data-pid="z4CHf1la">PS：如果你们觉得AI身处的游戏环境不能和现实比，那我想说的是，高考考察的范围是确定的，这和游戏可以出的兵种是固定对应。高考的得分则与游戏的得分对应。好了，扯不下去了。。。</p>
+
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：无</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

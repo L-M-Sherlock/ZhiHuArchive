@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>「跳过」：指数补偿的延迟机制和模糊收件箱 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="「跳过」：指数补偿的延迟机制和模糊收件箱 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/566834806">
+<meta property="og:image" content="https://pic1.zhimg.com/v2-18528038aafb4d02c0ec07f65f0947e8_720w.jpg?source=172ae18b">
+<meta property="og:description" content="如果你在谷歌学术上搜索间隔重复系统的研究，你会发现有排山倒海的论文都关注算法的优化。这些论文调整算法来减少遗忘，提高记忆巩固，完善复习安排。这些的确都是有价值的追求。调度的机制是指数级的，所以一旦卡片回答的准确性提升了哪怕几个百分点，系统…">
+<meta name="description" content="如果你在谷歌学术上搜索间隔重复系统的研究，你会发现有排山倒海的论文都关注算法的优化。这些论文调整算法来减少遗忘，提高记忆巩固，完善复习安排。这些的确都是有价值的追求。调度的机制是指数级的，所以一旦卡片回答的准确性提升了哪怕几个百分点，系统…">
+<meta data-pagefind-meta="title" content="「跳过」：指数补偿的延迟机制和模糊收件箱">
+<meta data-pagefind-meta="image" content="https://pic1.zhimg.com/v2-18528038aafb4d02c0ec07f65f0947e8_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="「跳过」：指数补偿的延迟机制和模糊收件箱 | ZhiHu Archive">
+<meta name="twitter:description" content="如果你在谷歌学术上搜索间隔重复系统的研究，你会发现有排山倒海的论文都关注算法的优化。这些论文调整算法来减少遗忘，提高记忆巩固，完善复习安排。这些的确都是有价值的追求。调度的机制是指数级的，所以一旦卡片回答的准确性提升了哪怕几个百分点，系统…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/566834806");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://pic1.zhimg.com/v2-18528038aafb4d02c0ec07f65f0947e8_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/566834806" target="_blank" rel="noopener noreferrer">「跳过」：指数补偿的延迟机制和模糊收件箱</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2022-09-21T11:59:03">发表于 2022年09月21日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">11 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="o2VvjDgO">如果你在谷歌学术上搜索间隔重复系统的研究，你会发现有排山倒海的论文都关注算法的优化。这些论文调整算法来减少遗忘，提高记忆巩固，完善复习安排。这些的确都是有价值的追求。调度的机制是指数级的，所以一旦卡片回答的准确性提升了哪怕几个百分点，系统能容纳的卡片数量都能大大增加。但是，这种对效率的极端关注忽略了最重要的一点：几乎没有人真正使用这些系统，所以它们的实际效率接近于零。<a class="wrap external" href="https://www.gwern.net/Spaced-repetition#if-youre-so-good-why-arent-you-rich" rel="nofollow noreferrer noopener" target="_blank">正如 Gwern 对这个问题的看法</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="高效学习的间隔重复" data-url="https://zhuanlan.zhihu.com/p/420105707">[1]</sup>：「如果你这么厉害，你为什么没钱？」</p><p data-pid="ghkzfsYL">令人高兴的是，记忆系统已经非常高效。在对这些系统进行了几年的实验后，我逐渐相信，优化的关键是<b>复习环节及其内容的情感联系</b>——反之，要坚决地减少引起叹气的元素。这些系统，如果任由它们的自然倾向发展，就会自然而然地腐化，产生仅是为复习而复习的学习材料，而这些材料感觉与你关心的任何事情脱节。</p><p data-pid="w7h5rFW9">一些技巧可以提前帮助你：不要为未来的某一天「囤积」材料；避免为回应「应该复习它」的感觉而写下一张卡片；写联系、后果、影响——而不仅仅是事实；避免与关心的主题不相干的「孤儿问题」；等等。但这还不够，复习环节需要不断梳理，以保持趣味性。如果你有一段时间没有添加新的东西，复习环节就会失去新鲜感。如果你经常忘记一个答案，就必须重构这个问题，否则就有可能在将来翻白眼。</p><p data-pid="g7njNrkB">对我来说，最重要的维护类型涉及我不断变化的兴趣。我可能会偶然发现一篇迷人的论文，并写下几十张卡片，以帮助我内化细节。现在快进 6 个月。在快乐的情况下，当这些问题再次出现时，我很兴奋，因为它们将我与这篇迷人的论文的观点重新联系起来，现在通过我中间的经历，这些观点显得更加丰富。很多时候，我只是对仍然记得这些细节而感到感激。但有时，我不再觉得这篇论文很有趣；复习这些问题将感觉像是个苦差事。</p><p data-pid="7eemk2go">如果这些复习环节要成为长期的习惯，重要的是不要把时间花在对你无关紧要的事情的卡片上。如果不进行删减，复习环节就不再感觉有价值，而开始感觉是一件苦差事。早在一张卡片复习起来感觉起来像个苦差事之前，这种不重要的问题就会使你对其相邻卡片的关注度下降。</p><p data-pid="RH3nt0ns">问题是，删东西很难。不是功能实现不了——应用有简单的删除按钮——而是有情感障碍。电子化记忆系统的大部分价值在于，用了这一系统后，你就不需要仅仅为了确定何时该做何事而做出无尽的微小决定。我认为记忆系统是一类更普遍的「<a class="wrap external" href="https://notes.andymatuschak.org/z2gqazXUkf9qyFjMQg4W3dw6yegnAJszvDywN" rel="nofollow noreferrer noopener" target="_blank">可编程的注意力</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="可编程注意力" data-url="https://zhuanlan.zhihu.com/p/514626691">[2]</sup>」系统的例子，删除卡片的决定相对沉重，虽然可能在名义上是可以撤销的（例如从垃圾桶中），但实际上你知道你不太可能恢复被删除的问题。删除这一决定难以逆转，然而你对卡片只是些许反感，这便产生了矛盾。所以大多数人（包括我自己）会倾向于尽量不删除材料，所以他们的复习环节的情感联系会被冲淡。</p><p data-pid="NUU7XFr7">我相信不仅记忆系统有这个问题，电子邮件收件箱、阅读列表、一大堆浏览器标签、待办事项列表等等。我一直在探索一种机制，来替代「删除」操作，使其更加模糊，破坏性更小。</p><p data-pid="DdEQvQyM">想象一下，这就是你在复习卡片时看到的情况：</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic4.zhimg.com/v2-99c8eb6be1862dd6c88214ee231d93cb_r.jpg" data-original-token="v2-99c8eb6be1862dd6c88214ee231d93cb" data-rawheight="368" data-rawwidth="560" data-size="normal" src="https://pic4.zhimg.com/v2-99c8eb6be1862dd6c88214ee231d93cb_1440w.jpg" width="560"/></figure><p data-pid="mm6bMQNs">注意左下角的按钮：「跳过」。我们也可以说「不是现在」「以后」「推迟」，或者干脆叫「算了」。按下按钮之后，我们直接进入下一张卡片。而当前这张卡片之后会重新出现，比如说几周之后。也许那时候我们更会感兴趣了，；如果我们在那时候回答，复习计划会照常推进。但如果又一次按下「跳过」，这张卡片就会被推迟几个月。如果那时候我们又一次跳过，卡片就会被推迟一年甚至更长时间。所以连续几次「跳过」之后，我们实际上就将卡片「存档」了，但我们不必做出删除卡片这一破坏性而突然的决定。我们实则每次只需回应自己的感受即可。如果你觉得一张卡片「算了」，那么根据这一机制，你就能让这一情感安全地释放出来。这就是「模糊删除」。</p><p data-pid="8UTjCGPt">我认为，这种机制可以有效地应用于任何类似收件箱的东西。我已经在阅读和写作清单方面做了实验，并想拓展它的应用范围。<a class="wrap external" href="https://notes.andymatuschak.org/z7yRMBXGc81KkUwLxefodzfnnfKXx63vXzP88" rel="nofollow noreferrer noopener" target="_blank">点这里</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="间隔重复可以降低对收件箱进行维护中破坏性操作风险" data-url="https://zhuanlan.zhihu.com/p/438631838">[3]</sup>跳转到关于「模糊收件箱」主题的更一般的工作笔记。</p><p data-pid="dE_7wBt7">这种机制不仅在复习环节中很重要，而且在助记媒介的阅读体验中也很重要。<a class="wrap external" href="https://quantum.country/" rel="nofollow noreferrer noopener" target="_blank">量子国度</a>假设了完成主义的目标：期望读者回答文章中的每一张卡片。这对某些文本来说当然是合适的，但在更非正式的文本中，读者的前置知识和兴趣水平更为参差不齐。完成主义的要求也让作者举步维艰：如果有些卡片是不少读者会感兴趣，但是作为必答卡片又不太合适的，作者便只能放弃这些卡片。</p><p data-pid="PzVTM-wT">然而，如果让读者挑选卡片并「送入他们的轨道」，来避免完成主义的倾向的话，我们会制造情感阻力，就像删除内容一样。这一决定过于沉重，也为时过早。很多人对于放弃不关注的问题会犹豫再三。而且很多时候，当他们正在阅读了解某一话题时，他们并不知道什么问题比较重要！因此，这一模糊机制在初次阅读时比较有用。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://picx.zhimg.com/v2-34f122dad95c56aec116187c27dfe147_r.jpg" data-original-token="v2-34f122dad95c56aec116187c27dfe147" data-rawheight="621" data-rawwidth="820" data-size="normal" src="https://picx.zhimg.com/v2-34f122dad95c56aec116187c27dfe147_1440w.jpg" width="820"/></figure><p data-pid="jDtLd1eQ">对这种机制的挑战是，你所不关心的材料所带来的厌恶感，与有挑战性的材料所带来的厌恶感有些相似。我们不想鼓励人们因材料有挑战性而跳过问题：<a class="wrap external" href="https://notes.andymatuschak.org/z49u8mtc9wZoY7siV7nz4V3PG2oMkNBn7AgUk" rel="nofollow noreferrer noopener" target="_blank">合意困难</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="合意困难" data-url="https://zhuanlan.zhihu.com/p/490699755">[4]</sup>对学习很重要！我不确定如何在界面中解决这一冲突：目前，这一点（和许多其他挑战一样）将不得不通过文化和工具周围的「经典文献」光环来传达。这一挑战比它看起来更基本。记忆系统实现其极高效率，依靠的是预测人们回答卡片变得困难的时机，并在此时安排卡片。这可能是推广该系统的主要障碍：复习环节关注你最难记住的材料，这既会引起些许不愉快，也让人觉得该系统没用！</p><p data-pid="zZEPJDR1">另一个细节上的挑战是，我不确定如何在界面上表示被跳过的问题的状态。如果一篇文章有 100 个问题，而你跳过了其中的一半，我们是否要用剩下的一半来讨论你对这篇文章的记忆？从图形上看，星芒的射线描绘了间隔。如果我在首次看到卡片时就跳过，代表它的射线会跳到 1 个月吗？这似乎传达了一种虚假的「进步」感......但也许这并不假，因为你并不打算复习那张卡片。另一方面，如果我们将射线保持在最小长度，那么当你复习文章的其余部分时，它会让你有一种不愉快的「掉队」感。</p><hr/><p data-pid="YKQ2kRHq">我想我第一次<a class="wrap external" href="https://wiki.c2.com/?NinetyTenRule" rel="nofollow noreferrer noopener" target="_blank">在 WikiWikiWeb 上</a>看到这句话的时候是 13 岁：</p><blockquote data-pid="c4n-xTS8"> 前 90% 的任务需要 90% 的时间，而最后的 10% 则需要另外 90% 的时间。</blockquote><p data-pid="txFEDQBz">为什么我曾经分享过对项目时间表的估计？你会认为我现在已经学会了。</p><p data-pid="6ocK8SC1">无论如何。</p><p data-pid="cY_oTUG0">我已经快要完成 Orbit 首次发布的 90% 内容了。问题简直五花八门。我更换了二进制序列化框架，我要修补平台字体渲染器，因为它的字体微调有问题。为了设计嵌入卡片的样式，我迭代了一轮又一轮，眼睛都瞪成斗鸡眼了。 </p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic2.zhimg.com/v2-b208806233b17252d9561b9b4cb72415_r.jpg" data-original-token="v2-b208806233b17252d9561b9b4cb72415" data-rawheight="970" data-rawwidth="538" data-size="normal" src="https://pic2.zhimg.com/v2-b208806233b17252d9561b9b4cb72415_1440w.jpg" width="538"/></figure><p data-pid="nd3jem5D">我们到了最后冲刺阶段。Zeno 一直在做最后冲刺。大的要来了。同时，我已经创建了 <a class="wrap external" href="https://twitter.com/withorbit" rel="nofollow noreferrer noopener" target="_blank">Twitter 上的 Orbit 账户</a>，它一直在发布一些不值得在 Patreon 上完整发布的视觉碎片；请随时关注。好东西最终会出现在这里。说到这个，这是我最近做的一个星芒射线的有趣小研究：</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pica.zhimg.com/v2-45f6db3ffde68124e2b46921b50e268a_r.jpg" data-original-token="v2-45f6db3ffde68124e2b46921b50e268a" data-rawheight="500" data-rawwidth="500" data-size="normal" data-thumbnail="https://pica.zhimg.com/v2-45f6db3ffde68124e2b46921b50e268a_b.jpg" src="https://pica.zhimg.com/v2-45f6db3ffde68124e2b46921b50e268a_1440w.gif" width="500"/></figure><p data-pid="Rn3OsP6g">本周我将组织小型私人会议讨论《量子国度》。这个场合促使我回到对量子国度读者的分析上。我要报告个有趣的发现：在<a class="wrap external" href="https://numinous.productions/ttft" rel="nofollow noreferrer noopener" target="_blank">我们如何才能开发出变革性的思想工具</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="5" data-text="我们如何才能开发出变革性的思想工具？" data-url="https://zhuanlan.zhihu.com/p/394795804">[5]</sup>中，Michael 和我<a class="wrap external" href="https://numinous.productions/ttft/#early-impact" rel="nofollow noreferrer noopener" target="_blank">展示了</a>这条曲线，是个令人愉快的指数。这条曲线说明，读者在复习六次后达到了约 54 天的实证保留。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://picx.zhimg.com/v2-c445cdfb8dd24f2c91d59653a28aa609_r.jpg" data-original-token="v2-c445cdfb8dd24f2c91d59653a28aa609" data-rawheight="625" data-rawwidth="820" data-size="normal" src="https://picx.zhimg.com/v2-c445cdfb8dd24f2c91d59653a28aa609_1440w.jpg" width="820"/></figure><p data-pid="Wbhf9EYF">在 2019 年的下半年，我们对平台进行了一些改进，累积压缩了该曲线两次重复以上。也就是说，现在的读者在复习四次后达到的实证保留率，明显高于去年复习六次后的读者的实证保留率。撇开我对关注效率的犹豫不决不谈，这里确实有很多垂手可得的成果。</p><p data-pid="tMfzVH--">像往常一样，感谢你为我的研究基金提供资金，现在蒸蒸日上。与此相关，如果你还没看过，你可能会喜欢 <a class="wrap external" href="https://twitter.com/andy_matuschak/status/1294696060380569601" rel="nofollow noreferrer noopener" target="_blank">Twitter 上的这个帖子</a>，它扩展了我在上一篇文章中提出的一些资助模式的想法。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="DgjSNQGN"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>原文：<a class="wrap external" href="https://www.patreon.com/posts/skip-exponential-40672377" rel="nofollow noreferrer noopener" target="_blank">“Skip”: exponential-backoff deferral mechanisms and fuzzy inboxes | Patreon 上的 Andy Matuschak</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 高效学习的间隔重复 <a href="./420105707.html" target="_blank" rel="noopener noreferrer">./420105707.html</a><br>2. 可编程注意力 <a href="./514626691.html" target="_blank" rel="noopener noreferrer">./514626691.html</a><br>3. 间隔重复可以降低对收件箱进行维护中破坏性操作风险 <a href="./438631838.html" target="_blank" rel="noopener noreferrer">./438631838.html</a><br>4. 合意困难 <a href="./490699755.html" target="_blank" rel="noopener noreferrer">./490699755.html</a><br>5. 我们如何才能开发出变革性的思想工具？ <a href="./394795804.html" target="_blank" rel="noopener noreferrer">./394795804.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：间隔重复 & 注意力管理</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>如何在 Ankidroid 上指定特定字段文字转语音(TTS)？ | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="如何在 Ankidroid 上指定特定字段文字转语音(TTS)？ | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/93874295">
+<meta property="og:image" content="https://picx.zhimg.com/v2-351e77b69c43947ba03cc87822701d0d_720w.jpg?source=172ae18b">
+<meta property="og:description" content="之前发过一个想法，里面的代码还可以用，这里补上详细的教程。 https://www. zhihu.com/pin/109063327 4971422720 阅读须知：本文仅针对已经在Ankidroid上使用TTS的读者，满足指定特定字段文字转语音而非整张卡片转语音的需求。 首先是安卓端的教程打开 Ankidroid 2.9 的用户手册 AnkiDr…">
+<meta name="description" content="之前发过一个想法，里面的代码还可以用，这里补上详细的教程。 https://www. zhihu.com/pin/109063327 4971422720 阅读须知：本文仅针对已经在Ankidroid上使用TTS的读者，满足指定特定字段文字转语音而非整张卡片转语音的需求。 首先是安卓端的教程打开 Ankidroid 2.9 的用户手册 AnkiDr…">
+<meta data-pagefind-meta="title" content="如何在 Ankidroid 上指定特定字段文字转语音(TTS)？">
+<meta data-pagefind-meta="image" content="https://picx.zhimg.com/v2-351e77b69c43947ba03cc87822701d0d_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="如何在 Ankidroid 上指定特定字段文字转语音(TTS)？ | ZhiHu Archive">
+<meta name="twitter:description" content="之前发过一个想法，里面的代码还可以用，这里补上详细的教程。 https://www. zhihu.com/pin/109063327 4971422720 阅读须知：本文仅针对已经在Ankidroid上使用TTS的读者，满足指定特定字段文字转语音而非整张卡片转语音的需求。 首先是安卓端的教程打开 Ankidroid 2.9 的用户手册 AnkiDr…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/93874295");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://picx.zhimg.com/v2-351e77b69c43947ba03cc87822701d0d_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/93874295" target="_blank" rel="noopener noreferrer">如何在 Ankidroid 上指定特定字段文字转语音(TTS)？</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2019-11-27T01:40:18">发表于 2019年11月27日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">50 👍 / 26 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="aPDsr92Z">之前发过一个想法，里面的代码还可以用，这里补上详细的教程。</p><p data-pid="Z5fasg80"><a class="internal" href="https://www.zhihu.com/pin/1090633274971422720" rel="noopener noreferrer" target="_blank"><span class="invisible">https://www.</span><span class="visible">zhihu.com/pin/109063327</span><span class="invisible">4971422720</span><span class="ellipsis"></span></a></p><p data-pid="g-s2N0RV">阅读须知：本文仅针对已经在Ankidroid上使用TTS的读者，满足指定特定字段文字转语音而非整张卡片转语音的需求。</p><hr/><h2>首先是安卓端的教程</h2><p data-pid="wVqdm1TQ">打开 Ankidroid 2.9 的用户手册</p><a class="wrap external" data-draft-node="block" data-draft-type="link-card" data-image="https://pic3.zhimg.com/v2-00fd4cdbbf76cfb81308c88244438ca2_120x160.jpg" data-image-height="320" data-image-width="240" href="https://docs.ankidroid.org/manual.html" rel="nofollow noreferrer noopener" target="_blank">AnkiDroid 2.9 User Manual</a><p data-pid="5ijfuIk-">Ctrl + F，搜索 TTS</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic2.zhimg.com/v2-6314ad6afad53538b26560d2823bf449_r.jpg" data-original-token="v2-6a409d896519a88783a148d06afe1a2b" data-rawheight="235" data-rawwidth="1227" data-size="normal" src="https://pic2.zhimg.com/v2-6314ad6afad53538b26560d2823bf449_1440w.jpg" width="1227"/></figure><p data-pid="06AZrlS4">找到对应的手册章节</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pica.zhimg.com/v2-4cdd97ac465dbacfe8fd7cef9b79a2ac_r.jpg" data-original-token="v2-c38da6e585d85f34f9e5ebab71f73265" data-rawheight="829" data-rawwidth="1497" data-size="normal" src="https://pica.zhimg.com/v2-4cdd97ac465dbacfe8fd7cef9b79a2ac_1440w.jpg" width="1497"/></figure><p data-pid="PDZ-o8xs">阅读手册，对照自己使用的模板，我用的是划词助手Antimoon模板</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://picx.zhimg.com/v2-fe62fb4173c255b3550a762d0031993d_r.jpg" data-original-token="v2-62dbc6373263c89697035243e6fa8b8f" data-rawheight="736" data-rawwidth="814" data-size="normal" src="https://picx.zhimg.com/v2-fe62fb4173c255b3550a762d0031993d_1440w.jpg" width="814"/></figure><p data-pid="tQkkgQTy">编写满足自己需求的代码，我想要在卡片正面播放我的英文例句，于是在正面将 {{例句}} 改写成</p><div class="highlight"><pre><code class="language-html">	<span class="p">&lt;</span><span class="nt">tts</span> <span class="na">service</span><span class="o">=</span><span class="s">"android"</span> <span class="na">voice</span><span class="o">=</span><span class="s">"en_US"</span><span class="p">&gt;</span>
+	{{例句}}
+	<span class="p">&lt;/</span><span class="nt">tts</span><span class="p">&gt;</span></code></pre></div><p data-pid="_y-jliCa">然后就可以了。</p><h2>然后是和电脑端兼容的教程</h2><p data-pid="Yul0j8h2">继续看文档，发现可以和 AwesomeTTS兼容</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic2.zhimg.com/v2-0ebe2a9ff61581fabe92653617e961e7_r.jpg" data-original-token="v2-370894001b0119d5c0cf29299139d274" data-rawheight="650" data-rawwidth="1522" data-size="normal" src="https://pic2.zhimg.com/v2-0ebe2a9ff61581fabe92653617e961e7_1440w.jpg" width="1522"/></figure><p data-pid="fnHa1vyV">我之前使用的是微软的TTS，所以仿照文档编写代码</p><div class="highlight"><pre><code class="language-html"><span class="p">&lt;</span><span class="nt">tts</span> <span class="na">service</span><span class="o">=</span><span class="s">"sapi5com"</span> <span class="na">quality</span><span class="o">=</span><span class="s">"39"</span> <span class="na">speed</span><span class="o">=</span><span class="s">"0"</span> <span class="na">voice</span><span class="o">=</span><span class="s">"Microsoft David Desktop"</span> <span class="na">volume</span><span class="o">=</span><span class="s">"100"</span> <span class="na">xml</span><span class="o">=</span><span class="s">"16"</span><span class="p">&gt;</span>
+	<span class="p">&lt;</span><span class="nt">tts</span> <span class="na">service</span><span class="o">=</span><span class="s">"android"</span> <span class="na">voice</span><span class="o">=</span><span class="s">"en_US"</span><span class="p">&gt;</span>
+	{{例句}}
+	<span class="p">&lt;/</span><span class="nt">tts</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">tts</span><span class="p">&gt;</span></code></pre></div><p data-pid="T1YY0qJ9">然后就实现了在电脑上使用 AwesomeTTS，在手机上使用 系统/Google 的TTS服务，并且可以针对特定字段。</p><p data-pid="XjGOHqYZ">注意：AwesomeTTS 官方版本已经停止更新，所以我建议使用这个版本：</p><a class="wrap external" data-draft-node="block" data-draft-type="link-card" href="https://ankiweb.net/shared/info/814349176" rel="nofollow noreferrer noopener" target="_blank">AwesomeTTS (Google Cloud Text-to-Speech) [unofficial]</a><p data-pid="GVVpukDg">插件安装代码：814349176</p><hr/><h2>拓展阅读</h2><p data-pid="RfIO0YNR">如果想要了解如何在安卓手机上使用 TTS，看这篇</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic3.zhimg.com/v2-abe4f1a057875e273aa9f9670b23466a_180x120.jpg" data-image-height="261" data-image-width="465" href="https://zhuanlan.zhihu.com/p/26006690" rel="noopener noreferrer" target="_blank">余时行：【工具篇】TTS 妈妈再也不用担心我的软件发音</a><p data-pid="0VdBoJw5">如果想要了解如何在电脑上使用 Anki 插件 AwesomeTTS 来对特定字段文字转语音，可以看这篇</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic4.zhimg.com/v2-c819598079ea0b3bb53b8386b7fa1c19_180x120.jpg" data-image-height="500" data-image-width="900" href="https://zhuanlan.zhihu.com/p/24868747" rel="noopener noreferrer" target="_blank">易小猫：AwesomeTTS高级技巧之&lt;tts&gt;标签一劳永逸</a><p></p>
+
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：无</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>[开源+墨墨背单词] 时序记忆行为数据集介绍 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="[开源+墨墨背单词] 时序记忆行为数据集介绍 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/629426664">
+<meta property="og:image" content="https://picx.zhimg.com/v2-7e2b6756b5e362c208d109038e513bac_720w.jpg?source=172ae18b">
+<meta property="og:description" content="引言身为一名算法工程师，我深知数据的重要性。数据之于模型，就如食材之于厨师。食材的新鲜度和质量决定了菜肴的味道上限，而厨师的烹饪技巧则决定了能否做出最美味的菜肴。同样，数据的质量决定了模型效果的上限，而研究者们不断发掘各种潜在的模型结构，…">
+<meta name="description" content="引言身为一名算法工程师，我深知数据的重要性。数据之于模型，就如食材之于厨师。食材的新鲜度和质量决定了菜肴的味道上限，而厨师的烹饪技巧则决定了能否做出最美味的菜肴。同样，数据的质量决定了模型效果的上限，而研究者们不断发掘各种潜在的模型结构，…">
+<meta data-pagefind-meta="title" content="[开源+墨墨背单词] 时序记忆行为数据集介绍">
+<meta data-pagefind-meta="image" content="https://picx.zhimg.com/v2-7e2b6756b5e362c208d109038e513bac_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="[开源+墨墨背单词] 时序记忆行为数据集介绍 | ZhiHu Archive">
+<meta name="twitter:description" content="引言身为一名算法工程师，我深知数据的重要性。数据之于模型，就如食材之于厨师。食材的新鲜度和质量决定了菜肴的味道上限，而厨师的烹饪技巧则决定了能否做出最美味的菜肴。同样，数据的质量决定了模型效果的上限，而研究者们不断发掘各种潜在的模型结构，…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/629426664");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://picx.zhimg.com/v2-7e2b6756b5e362c208d109038e513bac_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/629426664" target="_blank" rel="noopener noreferrer">[开源+墨墨背单词] 时序记忆行为数据集介绍</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2023-05-18T10:48:32">发表于 2023年05月18日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">99 👍 / 10 💬</p>
+</header>
+<article data-pagefind-body>
+<h2>引言</h2><p data-pid="vz70UPu7">身为一名算法工程师，我深知数据的重要性。数据之于模型，就如食材之于厨师。食材的新鲜度和质量决定了菜肴的味道上限，而厨师的烹饪技巧则决定了能否做出最美味的菜肴。同样，数据的质量决定了模型效果的上限，而研究者们不断发掘各种潜在的模型结构，以逼近这一上限。</p><p data-pid="dHE1gdR5">为了促进记忆领域研究的发展， <a class="member_mention" data-hash="3431283542f2aacaa4db5bc70e7d71ab" data-hovercard="p$b$3431283542f2aacaa4db5bc70e7d71ab" href="https://www.zhihu.com/people/3431283542f2aacaa4db5bc70e7d71ab" rel="noopener noreferrer" target="_blank">@墨墨背单词</a> 在 2022 年初开源了 2.2 亿条记忆行为的数据集：</p><a class="wrap external" data-draft-node="block" data-draft-type="link-card" data-image="https://pic1.zhimg.com/v2-a23eb44803d9127bc6e055f77b869816_l.jpg" data-image-height="1200" data-image-width="1200" href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VAGUL0" rel="nofollow noreferrer noopener" target="_blank">Replication Data for: A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling</a><p data-pid="_3gYAko8">目前该数据集的下载次数已经超过 700 次。为了让这份数据集发挥更大的价值，本文将简要介绍该数据集的基本信息和使用方法，帮助更多科研人员使用这一数据集。</p><h2>介绍</h2><h3>数据来源</h3><p data-pid="_MMABSbH">2021 年 12 月 1 日至 2021 年 12 月 31 日期间墨墨背单词 APP 的在线学习用户。</p><h3>收集方法</h3><ol><li data-pid="6SSA889G">一位学习者对一个单词的一次复习将产生一条记忆行为数据。其主要字段包括单词 id、学习者 id、时间戳、反馈。</li><li data-pid="39IVQUa5">当学习者完成当日的学习任务后，当日所有的记忆行为数据将以日志的形式上传至服务器。</li><li data-pid="E9n9riY-">在服务器上，日志同步系统将学习者的学习日志结构化，写入数据库。</li><li data-pid="Q7f8CRbO">按照学习者和单词进行分组，计算每次复习之间的间隔。并将每次的反馈和间隔按先后顺序拼接，得到反馈序列和间隔序列。</li></ol><h3>数据预处理</h3><ul><li data-pid="a-FjySzz">对学习者 id 进行了脱敏处理</li><li data-pid="KvJSt_Co">将单词 id 替换为单词拼写</li><li data-pid="kCMHsm4e">删除时间戳，保留复习间隔</li><li data-pid="7iIT6TjG">排除第一次反馈<code>认识</code>和<code>不确定</code>的数据</li><li data-pid="95MtzkJ3">排除反馈序列中包含<code>熟知</code>和<code>模糊</code>的数据</li><li data-pid="3rHP-Fon">排除未按算法规划时间复习的数据</li><li data-pid="S69DPE6e">排除单词拼写中包含特殊字符的数据</li></ul><h3>数据类型与结构</h3><p data-pid="J47q8YtU">本数据集包含三份文件：</p><ul><li data-pid="QhTPOKkV">opensource_dataset_raw.tsv</li><li data-pid="RCAmqxap">opensource_dataset_difficulty.tsv</li><li data-pid="mfjyzyLJ">opensource_dataset_forgetting_curve.tsv</li></ul><p data-pid="_FDcfRIS">其中 opensource_dataset_raw.tsv 是原始数据，其结构如下：</p><table data-draft-node="block" data-draft-type="table" data-row-style="normal" data-size="normal"><tbody><tr><th>英文列名</th><th>中文列名</th><th>数据类型</th><th>示例</th><th>注释</th></tr><tr><td>u</td><td>用户 id</td><td>string</td><td>62e55b</td><td></td></tr><tr><td>w</td><td>单词拼写</td><td>string</td><td>specimen</td><td></td></tr><tr><td>i</td><td>学习次数</td><td>int</td><td>6</td><td></td></tr><tr><td>t_history</td><td>间隔历史</td><td>string</td><td>0,1,3,9,18</td><td>首个间隔统一为0</td></tr><tr><td>r_history</td><td>反馈历史</td><td>string</td><td>0,1,1,1,1</td><td>首个反馈统一为0</td></tr><tr><td>delta_t</td><td>学习间隔</td><td>int</td><td>30</td><td>单位为（天）</td></tr><tr><td>r</td><td>学习反馈</td><td>int</td><td>1</td><td>0: 忘记；1: 记住</td></tr></tbody></table><p data-pid="WkqS_wLQ">opensource_dataset_difficulty.tsv 和 opensource_dataset_forgetting_curve.tsv 都可以从 opensource_dataset_raw.tsv 中得出。具体过程请见论文：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic2.zhimg.com/v2-337e676d732039a25471c1057c54bfa3_qhd.jpg" data-image-height="1480" data-image-width="2700" href="./577383961.html" rel="noopener noreferrer" target="_blank">叶峻峣：KDD'22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]</a><h3>应用价值</h3><p data-pid="4VzHxwP8">该数据集可用于研究人类记忆规律，提高学习者记忆效率。墨墨已经基于该数据集，发表了三篇学术论文：</p><a class="wrap external" data-draft-node="block" data-draft-type="link-card" data-image="https://pic3.zhimg.com/v2-ddca7fc1c27ce46b9d8218f14af5d45e_200x0.jpg" data-image-height="392" data-image-width="279" href="http://jcip.cipsc.org.cn/CN/Y2022/V36/I12/133" rel="nofollow noreferrer noopener" target="_blank">基于LSTM的语言学习长期记忆预测模型</a><a class="wrap external" data-draft-node="block" data-draft-type="link-card" href="https://www.maimemo.com/paper/" rel="nofollow noreferrer noopener" target="_blank">A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</a><a class="wrap external" data-draft-node="block" data-draft-type="link-card" href="https://ieeexplore.ieee.org/document/10059206" rel="nofollow noreferrer noopener" target="_blank">Optimizing Spaced Repetition Schedule by Capturing the Dynamics of Memory | IEEE Journals &amp; Magazine | IEEE Xplore</a><h3>注意事项</h3><p data-pid="UpwM6e73">本数据集采用 Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0) 协议进行授权。</p><p data-pid="stCzqnGU">使用本数据集时，请引用本出版物。BibTeX 记录如下：</p><div class="highlight"><pre><code class="language-text">@inproceedings{10.1145/3534678.3539081,
+author = {Ye, Junyao and Su, Jingyong and Cao, Yilong},
+title = {A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling},
+year = {2022},
+publisher = {ACM},
+doi = {10.1145/3534678.3539081},
+pages = {4381–4390},
+numpages = {10}
+}</code></pre></div><h2>进一步阅读</h2><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic1.zhimg.com/v2-508467d2d77b37d7642c84c0a995408a_qhd.jpg" data-image-height="815" data-image-width="1199" href="./561539418.html" rel="noopener noreferrer" target="_blank">叶峻峣：间隔重复记忆算法研究资源汇总</a><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pica.zhimg.com/v2-634d4ff8b5d7e4f75dbdb943716232fc_l.jpg" data-image-height="1000" data-image-width="1118" href="./626308184.html" rel="noopener noreferrer" target="_blank">叶峻峣：[本科毕设] 基于 LSTM 和间隔重复模型的复习算法研究</a><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pica.zhimg.com/v2-d5734ba2a8f7443e5dd8001cb46031fc_qhd.jpg" data-image-height="1080" data-image-width="1920" href="./556020884.html" rel="noopener noreferrer" target="_blank">叶峻峣：间隔重复记忆算法：e 天内，从入门到入土。</a><p data-pid="G4aWBod3">欢迎任何有关数据集的问题，请在评论区提问。</p>
+
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：学委叶哥的随笔</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

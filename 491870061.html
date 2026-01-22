@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>迁移学习 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="迁移学习 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/491870061">
+<meta property="og:image" content="https://picx.zhimg.com/v2-fe94d4935c38629e67c8d0a50e2210a8_720w.jpg?source=172ae18b">
+<meta property="og:description" content="另见 合意困难，来自 Bjork [1]关于一个活跃的兴趣领域，见： 提取练习和迁移学习 [2]。参考文献Reder, L., & Klatzky, R. L. (1994). Transfer: Training for performance. In D. Druckman & R. A. Bjork (Eds.), Learning, Remembering, Believing: Enhanci…">
+<meta name="description" content="另见 合意困难，来自 Bjork [1]关于一个活跃的兴趣领域，见： 提取练习和迁移学习 [2]。参考文献Reder, L., & Klatzky, R. L. (1994). Transfer: Training for performance. In D. Druckman & R. A. Bjork (Eds.), Learning, Remembering, Believing: Enhanci…">
+<meta data-pagefind-meta="title" content="迁移学习">
+<meta data-pagefind-meta="image" content="https://picx.zhimg.com/v2-fe94d4935c38629e67c8d0a50e2210a8_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="迁移学习 | ZhiHu Archive">
+<meta name="twitter:description" content="另见 合意困难，来自 Bjork [1]关于一个活跃的兴趣领域，见： 提取练习和迁移学习 [2]。参考文献Reder, L., & Klatzky, R. L. (1994). Transfer: Training for performance. In D. Druckman & R. A. Bjork (Eds.), Learning, Remembering, Believing: Enhanci…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/491870061");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://picx.zhimg.com/v2-fe94d4935c38629e67c8d0a50e2210a8_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/491870061" target="_blank" rel="noopener noreferrer">迁移学习</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2022-04-02T01:24:22">发表于 2022年04月02日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">10 👍 / 4 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="YTMbpcrL">另见<a class="wrap external" href="https://notes.andymatuschak.org/z49u8mtc9wZoY7siV7nz4V3PG2oMkNBn7AgUk" rel="nofollow noreferrer noopener" target="_blank">合意困难，来自 Bjork</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="Bjork ：「上帝啊，这个困难正合我意」——  合意困难" data-url="https://zhuanlan.zhihu.com/p/490699755">[1]</sup></p><p data-pid="hkPlm6s3">关于一个活跃的兴趣领域，见：<a class="wrap external" href="https://notes.andymatuschak.org/z2a8QGPfUmdLCVokLaegNzmaU6ehC58CUtYi" rel="nofollow noreferrer noopener" target="_blank">提取练习和迁移学习</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="提取练习和迁移学习" data-url="https://zhuanlan.zhihu.com/p/536670074">[2]</sup>。</p><hr/><h2>参考文献</h2><ul><li data-pid="HV7D89Ab">Reder, L., &amp; Klatzky, R. L. (1994). Transfer: Training for performance. In D. Druckman &amp; R. A. Bjork (Eds.), Learning, Remembering, Believing: Enhancing Human Performance (pp. 25–56). National Academies Press. <a class="external" href="https://doi.org/10.17226/2303" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">https://</span><span class="visible">doi.org/10.17226/2303</span><span class="invisible"></span></a></li></ul><h3>准备读：</h3><ul><li data-pid="wQ7ioJu-"> Barnett, S. M., &amp; Ceci, S. J. (2002). When and where do we apply what we learn? A taxonomy for far transfer. Psychological Bulletin, 128(4), 612–637. <a class="external" href="https://doi.org/10.1037/0033-2909.128.4.612" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">https://</span><span class="visible">doi.org/10.1037/0033-29</span><span class="invisible">09.128.4.612</span><span class="ellipsis"></span></a><br/> </li><li data-pid="D1wSSKun"> Gick, M. L., &amp; Holyoak, K. J. (1987). The Cognitive Basis of Knowledge Transfer. In Transfer of Learning (pp. 9–46). Elsevier. <a class="external" href="https://doi.org/10.1016/B978-0-12-188950-0.50008-4" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">https://</span><span class="visible">doi.org/10.1016/B978-0-</span><span class="invisible">12-188950-0.50008-4</span><span class="ellipsis"></span></a><br/> </li></ul><h2>链接至本文（已汉化）</h2><ul><li data-pid="uXIxPdK1"><a class="internal" href="./412876669.html" rel="noopener noreferrer" target="_blank">助记媒介可以通过简单的应用卡片帮助读者应用他们所学的知识</a></li><li data-pid="I5Xsq_Bi"><a class="internal" href="./490699755.html" rel="noopener noreferrer" target="_blank">Bjork：合意困难</a></li><li data-pid="3My9bOl_"><a class="internal" href="./536670074.html" rel="noopener noreferrer" target="_blank">提取练习和迁移学习</a></li><li data-pid="szZp5tkG"><a class="internal" href="./573838070.html" rel="noopener noreferrer" target="_blank">迁移恰当加工</a></li><li data-pid="ThAibAz5"><a class="internal" href="./677786105.html" rel="noopener noreferrer" target="_blank">人们经常难以回忆起文本的细节，原因在于他们起初就根本没有加工文本</a></li><li data-pid="-oYbtbYa"><a class="internal" href="./678612702.html" rel="noopener noreferrer" target="_blank">阅读理解问题可以发现文本基础的漏洞</a></li><li data-pid="SeFJ6SIJ"><a class="internal" href="./697335410.html" rel="noopener noreferrer" target="_blank">认知学徒制</a></li><li data-pid="1-dIqI26"><a class="internal" href="./1916570545358627430.html" rel="noopener noreferrer" target="_blank">认知负荷理论</a></li><li data-pid="w5woj8uT"><a class="internal" href="./1936721806074545452.html" rel="noopener noreferrer" target="_blank">Anderson, J. R., Reder, L. M., &amp; Simon, H. A. (1996)：《情境学习与教育》</a></li><li data-pid="PhHDP4vR"><a class="internal" href="./1938891290516390556.html" rel="noopener noreferrer" target="_blank">锚定教学法</a></li></ul><h2>声明</h2><p data-pid="EXe-X8pe">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="qeViQcKW"><a class="wrap external" href="https://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a>汉化组译制<br/>题图：あだしま by 2015chaosgroup<br/>原文：<a class="wrap external" href="https://notes.andymatuschak.org/z2hEyCHQpB6UV8z4mYvto7FJud4zWVqZqfxJZ" rel="nofollow noreferrer noopener" target="_blank">Transfer learning (andymatuschak.org)</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. Bjork ：「上帝啊，这个困难正合我意」——  合意困难 <a href="./490699755.html" target="_blank" rel="noopener noreferrer">./490699755.html</a><br>2. 提取练习和迁移学习 <a href="./536670074.html" target="_blank" rel="noopener noreferrer">./536670074.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：认知基石 & 教育培训</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

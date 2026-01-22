@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>墨墨背单词，为什么能让我们更好的记忆单词？ - @Jarrett Ye | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="墨墨背单词，为什么能让我们更好的记忆单词？ - @Jarrett Ye | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="利益相关：墨墨背单词记忆算法工程师 好久没答自己老本行的问题了，简单解答一下。 墨墨背单词的原理就是间隔重复，对同一个单词，在未来的几个月中安排多次复习，以巩固这个单词在学习者脑中的长期记忆。 当然，谁都可以给自己安排单词复习，似乎并没有使用软件的必要。但墨墨背单词的记忆算法可以预测学习者长期记忆中的每个单词当前的记忆状态，并根据优化算法来安排复习，可以用更少的时间记住更多的单词。而且，如果要背的…">
+<meta property="og:url" content="https://www.zhihu.com/question/651105728/answer/3479685534">
+<meta name="description" content="利益相关：墨墨背单词记忆算法工程师 好久没答自己老本行的问题了，简单解答一下。 墨墨背单词的原理就是间隔重复，对同一个单词，在未来的几个月中安排多次复习，以巩固这个单词在学习者脑中的长期记忆。 当然，谁都可以给自己安排单词复习，似乎并没有使用软件的必要。但墨墨背单词的记忆算法可以预测学习者长期记忆中的每个单词当前的记忆状态，并根据优化算法来安排复习，可以用更少的时间记住更多的单词。而且，如果要背的…">
+<meta data-pagefind-meta="title" content="墨墨背单词，为什么能让我们更好的记忆单词？">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="墨墨背单词，为什么能让我们更好的记忆单词？ - @Jarrett Ye | ZhiHu Archive">
+<meta name="twitter:description" content="利益相关：墨墨背单词记忆算法工程师 好久没答自己老本行的问题了，简单解答一下。 墨墨背单词的原理就是间隔重复，对同一个单词，在未来的几个月中安排多次复习，以巩固这个单词在学习者脑中的长期记忆。 当然，谁都可以给自己安排单词复习，似乎并没有使用软件的必要。但墨墨背单词的记忆算法可以预测学习者长期记忆中的每个单词当前的记忆状态，并根据优化算法来安排复习，可以用更少的时间记住更多的单词。而且，如果要背的…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/651105728/answer/3479685534");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/651105728/answer/3479685534" target="_blank" rel="noopener noreferrer">墨墨背单词，为什么能让我们更好的记忆单词？</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2024-04-26T10:41:55">发表于 2024年04月26日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">34 👍 / 3 💬</p>
+</header>
+<article data-pagefind-body>
+
+<p data-pid="s985nMud">利益相关：墨墨背单词记忆算法工程师</p><p data-pid="_lnGWUp7">好久没答自己老本行的问题了，简单解答一下。</p><p data-pid="S9iDYBoA">墨墨背单词的原理就是间隔重复，对同一个单词，在未来的几个月中安排多次复习，以巩固这个单词在学习者脑中的长期记忆。</p><p data-pid="PPRT22pB">当然，谁都可以给自己安排单词复习，似乎并没有使用软件的必要。但墨墨背单词的记忆算法可以预测学习者长期记忆中的每个单词当前的记忆状态，并根据优化算法来安排复习，可以用更少的时间记住更多的单词。而且，如果要背的单词有几千个，自己安排也会非常繁琐。既然有自动化的算法辅助，又何必在这上面浪费时间呢？</p><p data-pid="xLNXV8te">关于墨墨背单词的算法细节，可以参考我发表的这两篇论文：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic2.zhimg.com/v2-337e676d732039a25471c1057c54bfa3_180x120.jpg" data-image-height="1480" data-image-width="2700" href="./577383961.html" rel="noopener noreferrer" target="_blank">Thoughts Memo：KDD'22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]</a><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://picx.zhimg.com/v2-5285ed3ff6a616b988d261d5e1ec764f_180x120.jpg" data-image-height="1526" data-image-width="2752" href="./656714407.html" rel="noopener noreferrer" target="_blank">Thoughts Memo：IEEE TKDE 2023 | 墨墨背单词：通过捕捉记忆动态，优化间隔重复调度</a><p data-pid="wo1LCjTM">除此之外，还可以看看其他来源的文献：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic4.zhimg.com/v2-9268cd1d0435215e42750c7d34ecd7b5_180x120.jpg" data-image-height="1203" data-image-width="2183" href="./420105707.html" rel="noopener noreferrer" target="_blank">Thoughts Memo：(1/5) 高效学习的间隔重复——概述</a><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic1.zhimg.com/v2-2dbc2730b68fac71f549caab01eca920_180x120.jpg" data-image-height="1170" data-image-width="2076" href="./420309917.html" rel="noopener noreferrer" target="_blank">Thoughts Memo：(2/5) 高效学习的间隔重复——文献综述之测试效应</a><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic4.zhimg.com/v2-c411e5e812bd614048b34e5a1f48eb9f_180x120.jpg" data-image-height="1264" data-image-width="2240" href="./420924493.html" rel="noopener noreferrer" target="_blank">Thoughts Memo：(3/5) 高效学习的间隔重复——文献综述之间隔效应</a><p></p>
+
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

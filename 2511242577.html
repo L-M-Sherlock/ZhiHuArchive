@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>如何解决supermemo通过浏览器导入epub格式电子书时图片不显示的问题啊？ - @Thoughts Memo | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="如何解决supermemo通过浏览器导入epub格式电子书时图片不显示的问题啊？ - @Thoughts Memo | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="本系列专门介绍 SuperMemo 的各种小技巧和绕坑方法。 SuperMemo tips 这是因为从 epub 导入的内容，图片路径是相对于 epub 文件的路径，如下图所示： [图片] [图片] 所以解决方案也不难，把 images 文件夹移动到 sm18/systems/elements/ 这个路径下就行了 [图片] 效果展示（如果不行就重开一下 supermemo）： [图片] 当然这个方法有个问题，就是如果你有好几本 epub 要导入，那么图片名称和路径会冲突，然后导致相互覆盖。这种时候，我建议用 vscode 批量改一下…">
+<meta property="og:url" content="https://www.zhihu.com/question/535503876/answer/2511242577">
+<meta name="description" content="本系列专门介绍 SuperMemo 的各种小技巧和绕坑方法。 SuperMemo tips 这是因为从 epub 导入的内容，图片路径是相对于 epub 文件的路径，如下图所示： [图片] [图片] 所以解决方案也不难，把 images 文件夹移动到 sm18/systems/elements/ 这个路径下就行了 [图片] 效果展示（如果不行就重开一下 supermemo）： [图片] 当然这个方法有个问题，就是如果你有好几本 epub 要导入，那么图片名称和路径会冲突，然后导致相互覆盖。这种时候，我建议用 vscode 批量改一下…">
+<meta data-pagefind-meta="title" content="如何解决supermemo通过浏览器导入epub格式电子书时图片不显示的问题啊？">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="如何解决supermemo通过浏览器导入epub格式电子书时图片不显示的问题啊？ - @Thoughts Memo | ZhiHu Archive">
+<meta name="twitter:description" content="本系列专门介绍 SuperMemo 的各种小技巧和绕坑方法。 SuperMemo tips 这是因为从 epub 导入的内容，图片路径是相对于 epub 文件的路径，如下图所示： [图片] [图片] 所以解决方案也不难，把 images 文件夹移动到 sm18/systems/elements/ 这个路径下就行了 [图片] 效果展示（如果不行就重开一下 supermemo）： [图片] 当然这个方法有个问题，就是如果你有好几本 epub 要导入，那么图片名称和路径会冲突，然后导致相互覆盖。这种时候，我建议用 vscode 批量改一下…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/535503876/answer/2511242577");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/535503876/answer/2511242577" target="_blank" rel="noopener noreferrer">如何解决supermemo通过浏览器导入epub格式电子书时图片不显示的问题啊？</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。</p>
+</div>
+</div>
+<time datetime="2022-06-01T13:31:50">发表于 2022年06月01日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">23 👍 / 2 💬</p>
+</header>
+<article data-pagefind-body>
+<div style="margin: 0; padding: 0.5em 1em; border-left: 4px solid #999; font-size: 0.86em; background: #f9f9f9;">
+<h2>问题描述</h2>
+<p>我用360极速浏览器的ie内核导入的，导入epub格式书籍的时候，为什么书里的图片导入不进去</p>
+</div>
+<hr>
+<p data-pid="2gIyl2oG">本系列专门介绍 SuperMemo 的各种小技巧和绕坑方法。</p><a class="internal" data-draft-node="block" data-draft-type="link-card" href="https://www.zhihu.com/collection/797904700" rel="noopener noreferrer" target="_blank">SuperMemo tips</a><p data-pid="XHBf_3Om">这是因为从 epub 导入的内容，图片路径是相对于 epub 文件的路径，如下图所示：</p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-8b702a787a275127d1925f1cdb831dd0_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-717bfb982f96bca7d9b647fef72c7279_r.jpg?source=2c26e567" data-original-token="v2-717bfb982f96bca7d9b647fef72c7279" data-rawheight="394" data-rawwidth="2196" data-size="normal" src="https://picx.zhimg.com/50/v2-717bfb982f96bca7d9b647fef72c7279_720w.jpg?source=2c26e567" width="2196"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-8b702a787a275127d1925f1cdb831dd0_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-717bfb982f96bca7d9b647fef72c7279_r.jpg?source=2c26e567" data-original-token="v2-717bfb982f96bca7d9b647fef72c7279" data-rawheight="394" data-rawwidth="2196" data-size="normal" src="https://picx.zhimg.com/50/v2-717bfb982f96bca7d9b647fef72c7279_720w.jpg?source=2c26e567" width="2196"/></figure><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://pic1.zhimg.com/50/v2-178d7da55f218c99e2c1ae9ffb529abe_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-c343216f7de01b639f5385fd37ce2e8e_r.jpg?source=2c26e567" data-original-token="v2-c343216f7de01b639f5385fd37ce2e8e" data-rawheight="534" data-rawwidth="1244" data-size="normal" src="https://picx.zhimg.com/50/v2-c343216f7de01b639f5385fd37ce2e8e_720w.jpg?source=2c26e567" width="1244"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://pic1.zhimg.com/50/v2-178d7da55f218c99e2c1ae9ffb529abe_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-c343216f7de01b639f5385fd37ce2e8e_r.jpg?source=2c26e567" data-original-token="v2-c343216f7de01b639f5385fd37ce2e8e" data-rawheight="534" data-rawwidth="1244" data-size="normal" src="https://picx.zhimg.com/50/v2-c343216f7de01b639f5385fd37ce2e8e_720w.jpg?source=2c26e567" width="1244"/></figure><p data-pid="eE9JlsJY">所以解决方案也不难，把 images 文件夹移动到 <code>sm18/systems/elements/</code> 这个路径下就行了</p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-20c61595e89d872d8015802c6a7f3ad0_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-7b2f1d78ac59f168e0fc9ae0971e8af3_r.jpg?source=2c26e567" data-original-token="v2-7b2f1d78ac59f168e0fc9ae0971e8af3" data-rawheight="362" data-rawwidth="1108" data-size="normal" src="https://pic1.zhimg.com/50/v2-7b2f1d78ac59f168e0fc9ae0971e8af3_720w.jpg?source=2c26e567" width="1108"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-20c61595e89d872d8015802c6a7f3ad0_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-7b2f1d78ac59f168e0fc9ae0971e8af3_r.jpg?source=2c26e567" data-original-token="v2-7b2f1d78ac59f168e0fc9ae0971e8af3" data-rawheight="362" data-rawwidth="1108" data-size="normal" src="https://pic1.zhimg.com/50/v2-7b2f1d78ac59f168e0fc9ae0971e8af3_720w.jpg?source=2c26e567" width="1108"/></figure><p data-pid="bvds04Io">效果展示（如果不行就重开一下 supermemo）：</p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://pic1.zhimg.com/50/v2-8d92d6369ff3dfe999cbe622b6256257_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-300e9149b31a992adc9cefb2ba92ae01_r.jpg?source=2c26e567" data-original-token="v2-300e9149b31a992adc9cefb2ba92ae01" data-rawheight="920" data-rawwidth="1206" data-size="normal" src="https://picx.zhimg.com/50/v2-300e9149b31a992adc9cefb2ba92ae01_720w.jpg?source=2c26e567" width="1206"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://pic1.zhimg.com/50/v2-8d92d6369ff3dfe999cbe622b6256257_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-300e9149b31a992adc9cefb2ba92ae01_r.jpg?source=2c26e567" data-original-token="v2-300e9149b31a992adc9cefb2ba92ae01" data-rawheight="920" data-rawwidth="1206" data-size="normal" src="https://picx.zhimg.com/50/v2-300e9149b31a992adc9cefb2ba92ae01_720w.jpg?source=2c26e567" width="1206"/></figure><p data-pid="j_tvMo9Z">当然这个方法有个问题，就是如果你有好几本 epub 要导入，那么图片名称和路径会冲突，然后导致相互覆盖。这种时候，我建议用 vscode 批量改一下路径，然后把 images 文件夹的名称和路径改成一样的，比如都改成 xxx_images，也就是类似命名空间的思路。</p><p data-pid="nT59RVpM">更多和图片路径相关的内容，可以看这篇回答：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://picx.zhimg.com/v2-753e1e8b4790e03f234aea88d8b06e03_ipico.jpg" data-image-height="702" data-image-width="786" href="./2371762689.html" rel="noopener noreferrer" target="_blank">关于Supermemo18里的图片保存路径的几个疑惑？</a><p data-pid="9whmqOYL">更多 SuperMemo 教程请见：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic1.zhimg.com/v2-1a8d0bb90f07e4147c5e401dda14d280_180x120.jpg" data-image-height="1100" data-image-width="1780" href="./374403541.html" rel="noopener noreferrer" target="_blank">叶峻峣：渐进学习专栏导读</a><p></p>
+
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

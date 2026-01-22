@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>如何高效地记忆？ - @Thoughts Memo | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="如何高效地记忆？ - @Thoughts Memo | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="利益相关：墨墨记忆算法工程师。 我从最优控制的角度来讨论一下如何高效地记忆。当然，你也可以直接看我的论文： A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining 。首先，让我们来定义一下什么叫做「高效」：给定时间限制，记住最多内容；或给定记住多少内容，花费最少时间。问题来了，怎么才算记…">
+<meta property="og:url" content="https://www.zhihu.com/question/51699134/answer/2676691204">
+<meta name="description" content="利益相关：墨墨记忆算法工程师。 我从最优控制的角度来讨论一下如何高效地记忆。当然，你也可以直接看我的论文： A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining 。首先，让我们来定义一下什么叫做「高效」：给定时间限制，记住最多内容；或给定记住多少内容，花费最少时间。问题来了，怎么才算记…">
+<meta data-pagefind-meta="title" content="如何高效地记忆？">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="如何高效地记忆？ - @Thoughts Memo | ZhiHu Archive">
+<meta name="twitter:description" content="利益相关：墨墨记忆算法工程师。 我从最优控制的角度来讨论一下如何高效地记忆。当然，你也可以直接看我的论文： A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining 。首先，让我们来定义一下什么叫做「高效」：给定时间限制，记住最多内容；或给定记住多少内容，花费最少时间。问题来了，怎么才算记…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/51699134/answer/2676691204");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/51699134/answer/2676691204" target="_blank" rel="noopener noreferrer">如何高效地记忆？</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2022-09-16T13:07:28">发表于 2022年09月16日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">80 👍 / 14 💬</p>
+</header>
+<article data-pagefind-body>
+
+<p data-pid="VPZ02Lt1">利益相关：墨墨记忆算法工程师。</p><p data-pid="d623fmWp">我从最优控制的角度来讨论一下如何高效地记忆。当然，你也可以直接看我的论文：<a class="wrap external" href="https://www.maimemo.com/paper/" rel="nofollow noreferrer noopener" target="_blank">A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling | Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining</a>。</p><p data-pid="0k3rKukP">首先，让我们来定义一下什么叫做「高效」：给定时间限制，记住最多内容；或给定记住多少内容，花费最少时间。问题来了，怎么才算记住呢？我今天记一个手机号码，和记我自己名字，显然是不一样的：前者我明天很可能就会忘记，后者我明天很可能还记得。记忆之间存在不同的「寿命」。显然我们平常所说的记住肯定不是短期记住，而是长期记忆。</p><p data-pid="pF0-iBXT">那么，先让我们定义一下记忆的「寿命」。这里有一个很反直觉的事实：遗忘是随机的。哪怕再有把握记住的知识，如果不进行复习，十年后也很可能会忘记。想想你中考、高考时还能回答的问题，现在还记得多少？</p><p data-pid="Nx7gYHFI">所以，给记忆定义一个明确的「寿命」，在此之前一定记得，在此之后一定遗忘，是做不到的。我们需要引入概率。类比一下同位素衰变的例子：我们无法得知一个原子多久之后会衰变，但我们能知道 1 克某原子组成的物质多久后会衰变一半。记忆也是如此，我们可以用「记忆半衰期」来衡量记忆的「寿命」。具体的例子可以看下图的遗忘曲线，记忆半衰期越长，遗忘曲线就越平缓。</p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-00a0d1675b92373dbee3e1f20502b5dd_720w.jpg?source=2c26e567" data-original="https://pica.zhimg.com/v2-d520f178799d6aa4769a8da03bed258f_r.jpg?source=2c26e567" data-original-token="v2-d520f178799d6aa4769a8da03bed258f" data-rawheight="404" data-rawwidth="720" data-size="normal" src="https://picx.zhimg.com/50/v2-d520f178799d6aa4769a8da03bed258f_720w.jpg?source=2c26e567" width="720"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-00a0d1675b92373dbee3e1f20502b5dd_720w.jpg?source=2c26e567" data-original="https://pica.zhimg.com/v2-d520f178799d6aa4769a8da03bed258f_r.jpg?source=2c26e567" data-original-token="v2-d520f178799d6aa4769a8da03bed258f" data-rawheight="404" data-rawwidth="720" data-size="normal" src="https://picx.zhimg.com/50/v2-d520f178799d6aa4769a8da03bed258f_720w.jpg?source=2c26e567" width="720"/></figure><p data-pid="9cWqhQJZ">同时，这幅图中还表明了一点：复习会对记忆半衰期产生影响。不断复习，可以让记忆半衰期增长。并且，不同的复习周期对记忆半衰期的影响也是不同的。</p><p data-pid="R4mXEM7W">回到我们对「高效」的定义，有了记忆半衰期，我们就可以更有意义地定义「高效」：</p><p data-pid="tuC66lx4">在给定记忆成本约束内，尽可能让更多的知识达到目标半衰期，或以最小的记忆成本让一定量的知识达到目标半衰期。</p><p data-pid="dS5pjzN5">其中，记忆成本约束包括时间、精力、情感等等，为了简化问题，我们可以只考虑花在记忆上的时间。而目标半衰期则是我们对记忆的要求，越长的记忆半衰期意味着越牢固的长期记忆。但只要目标半衰期一致，我们就可以对比不同复习方法花费的时间，从而选出最高效的复习方法。</p><p data-pid="QuAxqtcb">为了进一步简化这个问题，我们考虑在只有一条知识需要记忆的情况：</p><p data-pid="o-Mb5Vmb">如何以最小的记忆成本让一条知识达到目标半衰期</p><p data-pid="gX7iaw0R">在间隔重复中，能够调整的就是每次复习之间的间隔。如何找到最优的复习间隔呢？由于目标半衰期的增长取决于复习时的记忆状态，并且复习的成功与失败也是概率事件，所以我们可以将间隔重复中的记忆半衰期变化用下图表示：</p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-c019d5510325167fb8591698b712f7d6_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-5fd6983ec10b745346ff247d444e5da6_r.jpg?source=2c26e567" data-original-token="v2-5fd6983ec10b745346ff247d444e5da6" data-rawheight="713" data-rawwidth="1280" data-size="normal" src="https://picx.zhimg.com/50/v2-5fd6983ec10b745346ff247d444e5da6_720w.jpg?source=2c26e567" width="1280"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-c019d5510325167fb8591698b712f7d6_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-5fd6983ec10b745346ff247d444e5da6_r.jpg?source=2c26e567" data-original-token="v2-5fd6983ec10b745346ff247d444e5da6" data-rawheight="713" data-rawwidth="1280" data-size="normal" src="https://picx.zhimg.com/50/v2-5fd6983ec10b745346ff247d444e5da6_720w.jpg?source=2c26e567" width="1280"/></figure><p data-pid="gDcXkEhs">圆圈是半衰期状态，方块是复习间隔，虚线箭头表示给定复习间隔后转移到的半衰期状态，线上的数值表示转移概率，实线箭头指向可选的复习间隔，线上的数值表示复习间隔对应的记忆成本。我们要找到一条从起点到终点最短的路径，以最小化记忆成本，实现高效记忆。该问题就是一个随机最短路径问题，可以用最优控制中的值迭代方法求解。让我们列出贝尔曼方程：</p><p data-pid="MFfYvmcL"><img alt="J(h_k,d_k) = \min\limits_{\Delta t_k \in \Delta T(h_k, d_k)} E[g(r_k) + J(f(h_k,d_k,\Delta t_k, r_k))]" eeimg="1" src="https://www.zhihu.com/equation?tex=J%28h_k%2Cd_k%29+%3D+%5Cmin%5Climits_%7B%5CDelta+t_k+%5Cin+%5CDelta+T%28h_k%2C+d_k%29%7D+E%5Bg%28r_k%29+%2B+J%28f%28h_k%2Cd_k%2C%5CDelta+t_k%2C+r_k%29%29%5D"/> </p><p data-pid="ojgm3oTS">这个方程表示，我们对于每一个记忆状态，都找一个能让期望复习成本最小化的复习间隔。有点类似动态规划，只不过加了期望。然后我们用随机动态规划编程，下面是伪代码：</p><figure data-size="normal"><noscript><img class="content_image" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-a9101e98e84a024e9d38448194b57400_720w.jpg?source=2c26e567" data-original-token="v2-70e2b951bd0927d8c45608570ac081c5" data-rawheight="415" data-rawwidth="344" data-size="normal" src="https://pic1.zhimg.com/50/v2-70e2b951bd0927d8c45608570ac081c5_720w.jpg?source=2c26e567" width="344"/></noscript><img class="content_image lazy" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-a9101e98e84a024e9d38448194b57400_720w.jpg?source=2c26e567" data-original-token="v2-70e2b951bd0927d8c45608570ac081c5" data-rawheight="415" data-rawwidth="344" data-size="normal" src="https://pic1.zhimg.com/50/v2-70e2b951bd0927d8c45608570ac081c5_720w.jpg?source=2c26e567" width="344"/></figure><p data-pid="nJ8JfHDH">更详细的介绍可以看我的研究经历和间隔重复算法教程：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" href="./543325359.html" rel="noopener noreferrer" target="_blank">叶峻峣：我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）</a><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pica.zhimg.com/v2-d5734ba2a8f7443e5dd8001cb46031fc_180x120.jpg" data-image-height="1080" data-image-width="1920" href="./556020884.html" rel="noopener noreferrer" target="_blank">叶峻峣：间隔重复记忆算法：e 天内，从入门到入土。</a><hr/><p data-pid="-6ByWnEL">是不是看到这里一头雾水，本来想知道怎么高效记忆，现在更糊涂了？没关系，上述建模和公式推导都可以由算法自动完成，如果你想要高效记忆单词，可以用 <a class="member_mention" data-hash="3431283542f2aacaa4db5bc70e7d71ab" data-hovercard="p$b$3431283542f2aacaa4db5bc70e7d71ab" href="https://www.zhihu.com/people/3431283542f2aacaa4db5bc70e7d71ab" rel="noopener noreferrer" target="_blank">@墨墨背单词</a> ，其部署了上述算法。如果你想要记忆别的知识，比如心理学、教育学、社会学等等，可以试试 <a class="member_mention" data-hash="caa0d06ec73905c2e1605d3c0f301bb7" data-hovercard="p$b$caa0d06ec73905c2e1605d3c0f301bb7" href="https://www.zhihu.com/people/caa0d06ec73905c2e1605d3c0f301bb7" rel="noopener noreferrer" target="_blank">@Markji APP</a>。当然，如果不想花钱，可以用 Anki（一款开源的间隔重复软件，除了 iOS，其他端都是免费的），教程我也写了很多，请见：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic3.zhimg.com/v2-acfa8f607f2d3c74ba5c660c3ab25df0_180x120.jpg" data-image-height="500" data-image-width="1161" href="./61564332.html" rel="noopener noreferrer" target="_blank">叶峻峣：【专栏导航】Anki 教程(电子书)与 B 站 Ankidroid 教程(视频)快速通道</a><p data-pid="W2ZyFTHP"></p>
+
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

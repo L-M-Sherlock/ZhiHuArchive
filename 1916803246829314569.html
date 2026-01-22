@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>Math Academy 是如何构建其知识图谱的？ | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Math Academy 是如何构建其知识图谱的？ | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/1916803246829314569">
+<meta property="og:image" content="https://picx.zhimg.com/v2-458d7c98225baf33eb199c16a75bb2f2_720w.jpg?source=172ae18b">
+<meta property="og:description" content="我们完全采用手工方式。 我经常收到这样的问题： 「你们如何构建知识图谱？你们如何在适当的粒度水平上规划主题，并设置连接关系（前置知识和包含关系）？」 答案其实很简单，但往往会让那些总是在寻找某种「秘密技巧」来避免困难和乏味工作的人感到失望。 …">
+<meta name="description" content="我们完全采用手工方式。 我经常收到这样的问题： 「你们如何构建知识图谱？你们如何在适当的粒度水平上规划主题，并设置连接关系（前置知识和包含关系）？」 答案其实很简单，但往往会让那些总是在寻找某种「秘密技巧」来避免困难和乏味工作的人感到失望。 …">
+<meta data-pagefind-meta="title" content="Math Academy 是如何构建其知识图谱的？">
+<meta data-pagefind-meta="image" content="https://picx.zhimg.com/v2-458d7c98225baf33eb199c16a75bb2f2_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Math Academy 是如何构建其知识图谱的？ | ZhiHu Archive">
+<meta name="twitter:description" content="我们完全采用手工方式。 我经常收到这样的问题： 「你们如何构建知识图谱？你们如何在适当的粒度水平上规划主题，并设置连接关系（前置知识和包含关系）？」 答案其实很简单，但往往会让那些总是在寻找某种「秘密技巧」来避免困难和乏味工作的人感到失望。 …">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/1916803246829314569");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://picx.zhimg.com/v2-458d7c98225baf33eb199c16a75bb2f2_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/1916803246829314569" target="_blank" rel="noopener noreferrer">Math Academy 是如何构建其知识图谱的？</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2025-06-13T10:10:04">发表于 2025年06月13日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">68 👍 / 6 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="qIGYWCA7">我们完全采用手工方式。</p><hr/><p data-pid="wXB5biF1">我经常收到这样的问题：</p><p data-pid="B2oia42M"><b>「你们如何构建知识图谱？你们如何在适当的粒度水平上规划主题，并设置连接关系（前置知识和包含关系）？」</b></p><p data-pid="uq4BHuNt">答案其实很简单，但往往会让那些总是在寻找某种「秘密技巧」来避免困难和乏味工作的人感到失望。</p><p data-pid="joapU5TE"><b>答案：我们完全采用手工方式。</b></p><p data-pid="5748HFL7">秘诀其实就是做大量的工作来积累数学和教学领域的专业知识，然后再做大量的工作将这些领域专业知识编码到我们的知识图谱结构中。</p><p data-pid="YlzKriyH">每当我们规划一门课程时，我们会参考众多其他教科书和在线资源，但最终还是要依靠基于我们自己教学/辅导经验和学科知识的最佳判断。</p><p data-pid="HhigMTG9">手工完成这项工作在开始时可能感觉既有挑战性又乏味，但根据我/我们的经验，随着经验的积累会变得越来越容易。</p><p data-pid="QQk3wSQv">你会逐渐获得一种「直觉」，知道什么是合适的知识块大小，以及在单个知识块内需要处理什么级别的细节。</p><p data-pid="sGyGeOye">我们也花了数年时间完善这些知识块，有时意识到某个知识块需要拆分，经过足够多的这种调整后，我们已经能够在第一次尝试时就做得很好。</p><p data-pid="j7box-YC">连接性方面呢？我们约 2500 个主题中的每一个都有 3-4 个知识点，每个知识点都链接到一个或多个（通常是几个）前置知识。每个前置知识都有一个包含权重，表示前置主题的多少部分平均被包含在解决后续主题问题中——换句话说，当更简单的主题作为组成技能出现在高级主题中时，这个更简单的主题应该获得多少「权重分值」。</p><p data-pid="z5PvYelc">是的，这涉及大量的连接关系，是的，我们也是手动设置的。Alex 设置所有前置关系，我设置所有包含权重。这曾经是并且仍然是相当大的工作量，但不是无法承受的工作量。正如 Jason 喜欢说的「正好在人力极限边缘」。</p><p data-pid="roDuojBq">顺便说一下，「人力极限边缘」不是指「你一天能完成的极限」或「你感到疲倦/厌烦的临界点」。</p><p data-pid="tayOsZOz">当我们第一次将包含关系编码到知识图谱中时（在已经建立了大量内容基础之后），我每天花大约 8 小时设置包含关系，持续了一个月。不开玩笑，我基本上全职做了一个月的领域专家数据录入工作：</p><div class="highlight"><pre><code class="language-text">当时有 1500 个主题
+
+x 每个主题 5 个前置关系
+
+x 估算每个关系的包含值需要 2 分钟
+
+= 15000 分钟
+
+= 250 小时
+
+~ 每天 8 小时，持续 30 天</code></pre></div><p data-pid="YaOxry0N">是的，那真的太痛苦了！ </p><p data-pid="ZHKWicb6">但你知道吗？在那个月结束时，任务选择模型开始运行得非常、非常好，因为它有如此准确和全面的数据作为基础。那不是一个愉快的月份，但绝对是 100% 值得的。</p><p data-pid="-cvBbE2T">就像「从山上捡金子」（Jason 的另一个比喻），有大量的金子散落各处，把它们装到马车里并在山上来回搬运很乏味，但它们极其珍贵，即使不是很有趣，你不去收集就是傻瓜。</p><p data-pid="9-BvARI8">换句话说……仅仅因为某件事枯燥乏味，并不意味着它的投资回报率低。有时投资回报率最高的事情恰恰极其枯燥，你只能咬牙坚持去做，因为这是在合理时间内到达目标的可靠路径。</p><p data-pid="pR2rfApL">好吧好吧，所以主题和连接关系是手工创建的……那问题和解答呢？</p><p data-pid="1wSyOaJP">是的，那些也是。手工制作。</p><p data-pid="WZ_0-zbS">我们还手动估算每种问题类型的用时，用来帮助校准每个任务应该给多少经验值。</p><p data-pid="jjiJvhE-">我们所有的内容、元数据和练习都是内部手工创建的，由数学专家团队历经多年精心制作。</p><p data-pid="LtFjcce7">自然的后续问题：为什么手动生成问题而不是用算法生成？</p><p data-pid="cJqeJ2Jl">嗯，除了简单的算术之外，数学问题中有如此多的维度和细微差别，算法生成问题需要为每种问题类型定制专门的算法，这比咬牙坚持手动编写足够大的题库要花费更长时间。一旦你创建了某种类型的一道题，克隆它并调整成同类型内新的、不同的题目是相当容易的。</p><p data-pid="fCF9mMxk">此外，在我们的情况下，每个知识点「足够大」的题库实际上不需要那么大：因为我们的学生学习效率超高，在高度细分的课程中进行最小有效剂量的练习，我们实际上不需要每种题型中有太多题目来确保学生不会反复看到相同的问题。每个知识点大约 20 道题就足够了。（一门典型课程包含大约 500-1,000 个知识点，需要大约 10,000-20,000 道题的题库。）</p><p data-pid="u-XVsMLZ">再次强调，这正好在人力极限的边缘。对于单个人来说创建这些内容绝对是太多了，但当你有一个强大的内容团队在强有力的领导（Alex）下努力高效工作时，这是可以实现的。</p><p data-pid="gJrYtr0n">在我人生的某个阶段，我曾被创建解决一大类问题的通用解决方案的想法所吸引，但我已经意识到真正的优势——至少对我来说，真正的满足感——通常来自：</p><ol><li data-pid="k37kEb_9"> 运用你的人类大脑/积累的经验来处理看似棘手问题的微观结构，<br/> <br/></li><li data-pid="xdms4QQo"> 找到一个你可以撬开的突破口，刚好足够宽让你凭借一些努力挤过去，以及<br/> <br/></li><li data-pid="jJsazLCc"> 在每个后续问题上一遍又一遍地重复这个过程，偶尔抬头看看，发现尽管开始时看起来多么棘手，你正在朝着目标方向取得实质性进展。<br/> </li></ol><p data-pid="BoeqXdFg">就像电影《火星救援》中的 Matt Damon：<a class="wrap external" href="https://youtu.be/0EhbvQSx6Dk" rel="nofollow noreferrer noopener" target="_blank">「你解决一个问题，然后解决下一个，再下一个。如果你解决了足够多的问题，你就能回家。」</a></p><h2>后续问题</h2><p data-pid="mdhANuNq"><b>Math Academy 上的练习和内容来自哪里？它们都是内部制作的还是从其他材料中提取的？</b></p><p data-pid="8kfBUwCc">我们所有的内容和练习都是内部制作的，由 Alex 领导的专家团队历经多年精心制作。我们会进行课程对比以确保内容的全面性，但 Math Academy 上的所有内容都是由专业人士精心制作的。</p><p data-pid="N6iaHQPb">为什么手动生成问题而不是用算法生成？除了简单的算术之外，数学问题中有如此多的维度和细微差别，算法生成问题需要为每种问题类型定制专门的算法，这比咬牙坚持手动编写足够大的题库要花费更长时间。此外，「足够大」的题库实际上不需要那么大：因为 Math Academy 的学生学习效率超高，在高度细分的课程中进行最小有效剂量的练习，我们实际上不需要每种题型中有太多题目来确保学生不会反复看到相同的问题。每个知识点大约 20 道题就足够了。（一门典型课程包含大约 500-1,000 个知识点，需要大约 10,000-20,000 道题的题库。）</p><p data-pid="DDsJqppm">此外，我们知识图谱中的所有信息——数万个前置知识链接、解题时间估算，以及包含关系（即，当更简单的主题作为组成技能出现在高级主题中时，这个更简单的主题应该获得多少「权重分值」），也都是由专业人士精心制作的。（Alex 构建前置知识图，他的团队设置题目用时，我构建包含关系图。）</p><p data-pid="SChM_NHS">如果这听起来像是荒谬的工作量，那么，嗯……确实如此，这让你了解为什么构建这样的系统如此困难。即使没有所有花哨的技术，所需的内容量也足以成为一家成熟出版公司的基础。对于软件也是如此：即使没有核心内容基础，所需的软件量也足以成为一家成熟科技公司的基础。甚至软件的单个组件——内容管理系统、学生界面、专家系统（即 AI 系统，负责做出所有关于学生需要学习什么的复杂幕后决策）——每个都可以单独成为一家成熟公司的基础。</p><p data-pid="20V632rv">Jason 经常开玩笑说，当他和 Sandy 开始创办 Math Academy 时，他们完全不知道自己要承担什么样的工作量。到达现在这个程度所投入的工作量绝对是疯狂的。</p><hr/><blockquote data-pid="hRWAiekI"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 gemini-2.5-pro-exp，校对 Jarrett Ye<br/>原文：<a class="wrap external" href="https://www.justinmath.com/how-math-academy-creates-its-knowledge-graph/" rel="nofollow noreferrer noopener" target="_blank">How Math Academy Creates its Knowledge Graph - Justin Skycak</a><br/>作者：<a class="wrap external" href="https://x.com/justinskycak" rel="nofollow noreferrer noopener" target="_blank">Justin Skycak (@justinskycak)</a><br/>发表于 2024 年 11 月 13 日</blockquote>
+
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：The Math Academy Way</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

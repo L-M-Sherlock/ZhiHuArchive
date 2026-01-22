@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>从 2022 年夏的助记媒介原型中学到的经验教训 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="从 2022 年夏的助记媒介原型中学到的经验教训 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/647393257">
+<meta property="og:image" content="https://pic1.zhimg.com/v2-159bb4df855a848d76ee6cd1805b6f6c_720w.jpg?source=172ae18b">
+<meta property="og:description" content="在过去的几周里，我为 我最近的助记媒介原型 进行了二十次在线观察，并阅读了一大堆异步测试者的日记。我想分享一些我学到的东西，以及我未来的方向。无论好坏（我们会看到两者都有），在这个迭代过程中，我在筛选测试者上遇到了麻烦。我怀疑很多人只是急切…">
+<meta name="description" content="在过去的几周里，我为 我最近的助记媒介原型 进行了二十次在线观察，并阅读了一大堆异步测试者的日记。我想分享一些我学到的东西，以及我未来的方向。无论好坏（我们会看到两者都有），在这个迭代过程中，我在筛选测试者上遇到了麻烦。我怀疑很多人只是急切…">
+<meta data-pagefind-meta="title" content="从 2022 年夏的助记媒介原型中学到的经验教训">
+<meta data-pagefind-meta="image" content="https://pic1.zhimg.com/v2-159bb4df855a848d76ee6cd1805b6f6c_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="从 2022 年夏的助记媒介原型中学到的经验教训 | ZhiHu Archive">
+<meta name="twitter:description" content="在过去的几周里，我为 我最近的助记媒介原型 进行了二十次在线观察，并阅读了一大堆异步测试者的日记。我想分享一些我学到的东西，以及我未来的方向。无论好坏（我们会看到两者都有），在这个迭代过程中，我在筛选测试者上遇到了麻烦。我怀疑很多人只是急切…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/647393257");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://pic1.zhimg.com/v2-159bb4df855a848d76ee6cd1805b6f6c_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/647393257" target="_blank" rel="noopener noreferrer">从 2022 年夏的助记媒介原型中学到的经验教训</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2023-08-02T01:41:32">发表于 2023年08月02日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">21 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="_LFA62X-">在过去的几周里，我为<a class="wrap external" href="https://www.patreon.com/posts/new-mnemonic-in-72614295" rel="nofollow noreferrer noopener" target="_blank">我最近的助记媒介原型</a>进行了二十次在线观察，并阅读了一大堆异步测试者的日记。我想分享一些我学到的东西，以及我未来的方向。</p><p data-pid="5rTNymkM">无论好坏（我们会看到两者都有），在这个迭代过程中，我在筛选测试者上遇到了麻烦。我怀疑很多人只是急切地想看看我在做什么，所以他们忽视了我对测试者要求的指示。我浪费了太多时间与那些没有充分理由仔细阅读测试材料的人交谈，或者那些从未听说过间隔重复系统（SRS）的人交谈。当然，这个系统最终需要向不熟悉 SRS 的人解释自己，但这次我并没有试图测试这个——这一点之后会展开讨论。</p><p data-pid="8m8_nDtv">大体来说，当测试者符合我预期的资格条件（测试者真诚地想要内化材料，并且他们之前对 SRS 有了解）时，这个系统起的作用和我希望的差不多。在其他情况下，它很少起作用。我们可以这么定义「起作用」：对读者产生了显著的净利益；读者对此表示了感激，并相应地在界面上做出了行动；读者表示他们想要复习他们保存的卡片；读者（通常）表达了他们希望在更广泛的文本拥有这种交互。</p><p data-pid="WsWmiwsn">尽管如此，「它起作用了吗？」这个问题模糊了大部分有趣的洞见。让我们深入研究一下。</p><h2>对于助记媒介可能的应用范围，我学到了什么？</h2><p data-pid="v02p4vUx">我试图回答的关键问题之一是：<a class="wrap external" href="https://numinous.productions/ttft/" rel="nofollow noreferrer noopener" target="_blank">助记媒介</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="我们如何才能开发出变革性的思想工具？" data-url="https://zhuanlan.zhihu.com/p/394795804">[1]</sup>的理念能覆盖到多广的范围？有没有可能，在未来的某一天，我们可以在每一篇知识性文本中使用这样的工具？为了充分发挥其潜力，这种媒介将会朝着什么方向发展？在<a class="wrap external" href="https://quantum.country/" rel="nofollow noreferrer noopener" target="_blank">《量子国度》</a>中，这种媒介的效果很好……但是我们能否就此断定，它只适用于技术入门读物？我用两本书测试了这个最新的原型：<a class="wrap external" href="https://openintro-ims.netlify.app/" rel="nofollow noreferrer noopener" target="_blank">Introduction to Modern Statistics</a>（IMS）——一本正式的技术教科书；以及 <a class="wrap external" href="https://basecamp.com/shapeup" rel="nofollow noreferrer noopener" target="_blank">Shape Up</a>——一本关于产品管理的非正式、非技术书籍。</p><p data-pid="Xs7Gzp0l">乍一看，<i>IMS</i> 与《量子国度》有许多相似之处。但《量子国度》的处理方式对这本书并不尽人意。《量子国度》是一本专注的入门读物，面向的是准备完全听从作者指导的读者。像 <i>IMS</i> 这样的大部头教材，读者并无须从头至尾、一字不漏地阅读。我所有的试读者都曾涉猎过统计学（尽管有些是很久以前）；许多人只想挑选一些关于新材料的卡片来阅读。还有一些人希望回顾全书，但并不想保存关于熟悉材料的卡片。这两种工作流在《量子国度》的设计中都无法实现。去年，当我试图将那种设计扩展到像 <i>IMS</i> 这样的文本时，我看到用户经常因系统的刻板命令式作风感到沮丧。然而，在我最近的测试中，我观察到非线性的阅读方式顺利进行，几乎没有遇到阻力。我现在越来越确信，助记媒介可以有效地应用于各类技术教科书上——不仅仅是线性的入门读物。因为 <i>IMS</i> 属于技术类教材，我还无法对助记媒介在非技术类教材中的表现下定论。</p><p data-pid="v3IxI99I"><i>Shape Up</i> 这书，虽然也是教程，但它的语气轻松，内容也不算太专业。如果这种媒介能在这书上运用得当，那媒介的适用范围就能大幅扩大了。但在这方面，结果却起伏不定。我的目标读者（对内容感兴趣，对间隔重复系统有所了解）虽然很欣赏这种媒介，但我感觉他们从中受益似乎没那些读 <i>IMS</i> 的人多。这种媒介在这种情况下，倒像是锦上添花，而非革命性的提升。</p><p data-pid="rlsd3mCD">重新审视这个问题，我们先把间隔重复暂且放到一旁，然后想一想：对于 <i>Shape Up</i> 这本书来说，理想的个人高效成长环境会是什么样的？这个问题的关键——就像许多读者指出的那样——是你能否真正改变你的产品创作习惯。这就意味着你可能需要大量的实践活动，需要有人一对一指导，或许还需要不断发展的反思/应用卡。你可能也会想要用到<a class="wrap external" href="https://andymatuschak.org/prompts/#prompting-salience" rel="nofollow noreferrer noopener" target="_blank">启明卡</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="如何写出好卡片：利用间隔重复创造理解" data-url="https://zhuanlan.zhihu.com/p/434074509">[2]</sup>，帮你把书中的理念和实际情况联系起来。当然，传统的提取练习也会有帮助。我就发现自己在还没来得及实践书中的方法之前，就已经把细节忘得差不多了。但显然，这并不是最关键的，你并不需要依赖电子工具来帮你消化前面的章节，以便理解后面的内容。</p><p data-pid="OML_8V2D">有趣的是，从某种意义上说，<i>Shape Up</i> 很像一本自助书。事实上，许多非正式、非技术的教学书都像自助书。在心理学、哲学或商业这些领域，大众热衷的书籍往往围绕着如何改变你的生活展开。所以，增强也应该围绕这个主题来做。作为一个习惯使用 SRS 的<b>读者</b>，我确实想在这类书籍上应用助记媒介。提取练习确实帮助我将这些书中的思想带入我的生活。但作为一个<b>研究者</b>，我的直觉是，这类型的书并不是助记媒介的下一个战略目标。如果我想将助记媒介扩展到技术性较弱的文本，我应该试着将它应用到如心理学或政治学这样的软科学书籍上。如果我想让非正式的文本也能享受到助记媒介的益处，我应该试着对技术话题的通俗解释类文章进行改编。如果我想增强像 <i>Shape Up</i> 这样的自助书，我应该集中研究其他的支持机制，比如<a class="wrap external" href="https://numinous.productions/timeful/" rel="nofollow noreferrer noopener" target="_blank">穿越时间的文本</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="穿越时间的文本" data-url="https://zhuanlan.zhihu.com/p/395283887">[3]</sup>——这类文本能帮助读者根据书中的理念重塑生活。</p><h2>边栏卡片对阅读体验的影响</h2><p data-pid="hCGN16fo">在最新的原型中，我们将作者的卡片搬到了侧边栏。这个改动彻底地颠覆了阅读体验。读者普遍表示，边栏卡片标出了特别重要的段落，暗示他们该关注何处。读者感觉到，这些卡片使他们放慢了阅读速度，变得更加专注。多数读者（尽管不是全部）都欢迎这种影响。</p><p data-pid="BBLAiWP5">我想分享一个多位读者都有过的具体经历。在首次阅读某段文字时，他们感觉似乎没什么要点。然后，他们注意到边栏中的卡片标记，有些摸不着头脑：等一下，难道这里真的有关键细节吗？于是，他们在卡片的指引下，仔细地重新读了一遍那段文字。每次重读时，读者都承认他们漏掉了卡片所强调的重点。他们感激能够得到这样的纠正机会。</p><p data-pid="60WVZfvZ">我们也从《量子国度》的读者那里听到了类似的反馈。嵌入的复习环节让人们重新阅读某些章节，或者更加用心去读。但在这个原型中，这种感觉更加强烈，出现的次数也更多，因为边栏卡片始终在那里，时刻影响着读者。</p><h3>作为总结的卡片</h3><p data-pid="4S8zNwLn">在 <i>Shape Up</i> 这本书中，如果读者的屏幕足够大，卡片的「正面」会一直出现在边栏中。但是，空间并非总是充裕。在小屏幕上，以及在 <i>IMS</i> 中，卡片是「折叠」的。也就是说，读者只能看到一个表示这里有卡片的标志。当他们将鼠标悬停在标志上时，卡片的文本就会显示出来。这种差异对阅读体验产生了很大的影响！</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic2.zhimg.com/v2-36e8e3dcc718c0387e9179066432c137_r.jpg" data-original-token="v2-36e8e3dcc718c0387e9179066432c137" data-rawheight="851" data-rawwidth="820" data-size="normal" src="https://pic2.zhimg.com/v2-36e8e3dcc718c0387e9179066432c137_1440w.jpg" width="820"/></figure><p data-pid="OZhpwmgp">当卡片文本始终可见时，许多读者会将卡片当作附近段落的轻量级总结，他们在阅读相关段落<b>之前</b>先阅读卡片。这些读者通常会根据卡片内容来决定<b>是否</b>阅读相关段落。而我最初的设想则正好相反：人们应该先阅读主文本，当遇到某些特别吸引他们的内容时，他们可以水平扫描到侧边栏，阅读并可能保存相关的卡片。</p><p data-pid="Sce-GgtO">我对这种总结优先的行为感到担忧。先读卡片的阅读方式往往会遗漏有意义的细节：完整的文本包含了一些叙事内容，为后面的部分提供必要的背景信息。更广泛地说，助记媒介的卡片<b>并非</b>总结。它们并不是孤立存在的。卡片中包含的信息需要通过提取练习来加强，但它们依赖于与之相关的叙事中的结构和细节。实际上，这种联系正是助记媒介试图解决一个核心问题的方式：除了死记硬背的材料外，学习其他人的间隔重复「牌组」通常效果不佳！这样的卡片往往感觉是孤立的，与真正的理解脱节。相比之下——至少在理想情况下——当你回忆助记媒介卡片上的信息时，你接触到的远不止其原文。复习会重新激活那些你找到这张卡片时更丰富的叙事背景。</p><p data-pid="krxGDQeJ">其中一些总结优先的读者其实并不真正关心提取练习的机制。他们真正想要的只是文本的段落和章节级别的总结。这似乎是一个值得探索的阅读功能，但如果我尝试解决这个设计问题，我不认为我的解决方案会同时兼顾间隔重复的卡片。总结和卡片是相关——但不同——的媒介。还有个相似的观察：有些读者在阅读某个段落时感到困惑，他们提到卡片通过提供另一种表述帮助他们理解了内容。这同样让我觉得是个很好的次生效应，但卡片并非最适合完成这个任务的工具。</p><h3>完美主义的卡片阅读</h3><p data-pid="Ou1E3JHZ">即使读者不将卡片作为总结，大部分用大屏幕的读者，在阅读 <i>Shape Up</i> 时，会读遍每一张卡片，这些卡片的「正面」始终展示在侧边栏中。我猜这部分原因是由于原型的新鲜感。人们感到好奇。但半个小时后，这种行为在我看来有些强迫性——仿佛他们感到有义务这样做，如果不看卡片，就好像没有「正确地阅读」。这种完美主义式的卡片阅读让我有些担忧。这就像阅读带有大量脚注的文本一样，可能会严重干扰阅读体验。你的视线在页面上飘忽不定，注意力在叙事中跳跃。也许卡片能有助于你的阅读，但这能弥补分心带来的影响吗？让你眼睛在卡片和文本间来回跳动的原因，真的是有益的指导吗？还是更多地是一种义务感，一种完美主义的驱使？</p><p data-pid="MjyfnScQ">当读者在阅读的同时与卡片互动时，出现了另一个惊人的效果：这种行为有时等同于隐式的、就地的提取练习！也就是说，当人们在侧边栏中阅读卡片文本，试图自己回答，然后移动鼠标到卡片上阅读作者的回答时，他们实际上在做的事情和他们在「真实」的复习环节中做的一样——他们只是没有给自己「打分」。实际上，相比「传统」的助记媒介嵌入式复习框，这种在阅读中复习方式可能更自然，前者可能让人感到阅读的节奏被打断。问题是，这些就地的复习可能效果不佳。复习得过早。你<b>刚刚</b>读了包含那个概念的句子，所以（通常）很容易给出回答——可能是来自短期记忆。<a class="wrap external" href="https://en.wikipedia.org/wiki/Spacing_effect" rel="nofollow noreferrer noopener" target="_blank">间隔效应</a>的研究表明，这种即时复习可能不会让记忆巩固太多。最好等待几分钟；或者，更可能需要等待几个小时。另外，至少在这个原型中，读者并没有告诉系统他们的记忆提取是否成功。这意味着我们无法适当地设置初始复习间隔。但也许这都无所谓。我认为在间隔重复记忆系统中，最重要的事情是营造正确的情绪体验。即使在调度算法十分朴素的情况下，这些系统的效率也足够了；问题在于人们不喜欢使用它们。如果这种就地的复习感觉比那些相对打扰人的复习框更自然，那么接受这里的效率下降也无妨。</p><p data-pid="jogbO7T9">如果卡片被「折叠」（在 <i>IMS</i> 中，以及在小屏幕的 <i>Shape Up</i> 上），我之前描述的那些行为就会发生显著变化。有少部分读者会把鼠标放在每个卡片的标记上，查看它的内容。但大部分读者只在某个段落让他们感到特别困扰或者特别有兴趣的时候，才与卡片互动。身为设计者，我对增加用户的交互负担感到担忧……但是在「折叠」模式下的阅读行为，给我一种更健康的感觉，至少更接近我原本的设计目标。</p><p data-pid="6ZRC3Bcf">对于这个问题我该怎么办呢？我的直觉是把「折叠」模式设定为默认选项，同时让用户可以自行修改。当我将这种媒介应用到更多的文本，进行更多用户观察时，我会在每次使用时随机更改这个设定，持续观察人们的反应。</p><h2>「保存卡片」是正确的原语吗？</h2><h3>全有或全无的卡片保存行为</h3><p data-pid="JTXbKMIE">在这种新设计中，保存卡片成了一种轻量级的行为，它表达了你对某段文字的浓厚兴趣。「我对这个细节十分关注，我想通过反复练习记住它，使其深深内化于我心中。」新设计流畅、即兴并富有情境感的操作流程，确实让人感觉舒适。但是，无论这个交互动作有多轻便，其表达的愿望都异常强烈：你承诺要<b>反复接受这个细节的测试</b>。当然，如果我们在复习界面中的筛选工具设计得恰当，你可以在后续逐步摒弃那些让你感到乏味的卡片。当然，使用 SRS 系统的「老手」知道，卡片的成本实际上微乎其微——可能第一年只需要三十秒，之后的时间甚至还能减半——因此你其实没有太大的负担。但在你决定保存浮动在边栏的卡片时，你的<b>感觉</b>常常并非如此。</p><p data-pid="lifmag-4">测试读者经常发现自己想要在关键段落做个标记，以此来强调，「这一点很重要！」。但他们的冲动往往与「保存卡片」这个念头并不一致。他们可能只是出于一种本能的情绪反应，想要找个方式来表达这种情绪，并不是真的打算为自己安排将来的复习计划。我的原型设计把他们的这种冲动限制在两个相去甚远的选项中：你要么保存（或创建）一张关于那段内容的间隔重复卡片，要么让文字完全保持原样。</p><p data-pid="RgS9MZWM">我发现，太多的冲动都在这两种选择间无所适从。我看到读者在阅读时常常犹豫，他们可能会选中一段话……然后他们就开始寻找高亮功能，或者希望能给这段文字加个「书签」，或者把它「安全地搬到」笔记系统里。读者会创建一张空卡片作为「占位符」，就为了标记他们觉得重要的部分。虽然这种做法不太好，但你又能责怪他们什么呢？他们别无选择！</p><p data-pid="fFYT3NjE">这不仅是我的原型存在的问题，同时也是数字阅读普遍存在的问题。这就好像你看书的时候，书却被一块玻璃隔着。网络阅读更是糟糕。即使你正在使用支持高亮和做笔记的浏览器插件，但总感觉就像是手上套着厚厚的手套在翻书。你无法<b>真正地</b>在页边的空白处涂鸦：因为你的笔记都藏在图标后面，或者是在一个无空间感的侧边栏里。无论你在 EPUB 还是网页上，你能做的就是在文本上做小小的黄色标记。想随意做标注？「天呐，如果页面重排怎么办？」安别慌，工程师，你需要想出解决办法。（<a class="wrap external" href="https://www.imore.com/what-smart-annotation-pages" rel="nofollow noreferrer noopener" target="_blank">苹果的 Pages 做得差不多了！</a>至于 PDF，可以看看 <a class="wrap external" href="https://www.liquidtext.net/" rel="nofollow noreferrer noopener" target="_blank">LiquidText</a>；至于网络阅读，学术系统 <a class="wrap external" href="https://dl.acm.org/doi/10.5555/1862280.1862289" rel="nofollow noreferrer noopener" target="_blank">iAnnotate</a> 和 <a class="wrap external" href="https://www.microsoft.com/en-us/research/publication/spaceink-making-space-for-in-context-annotations/" rel="nofollow noreferrer noopener" target="_blank">SpaceInk</a> 做了些尝试。）很少有数字阅读工具可以像实体书那样，给予你如同用笔、荧光笔、便签和纸张一样的表达空间。没错，超文本很好，搜索功能很方便，复制和粘贴也很实用。但是在电脑上，我仍然感觉像是隔着一块厚厚的玻璃在阅读。我要想插入自己的想法，还得填一堆表。然后，也许，才能显示一个黄色的矩形框。</p><p data-pid="bVL7UfFT">我猜这段牢骚恰好戳中了许多测试者的心声。我给他们展示了一个他们未曾意识到自己渴望的东西：一个能和网页书籍进行空间交互的工具，一种能在「页边空白处涂鸦」的方式。但结果却是又一种形式化的工具——这回甚至直接就是又一份需要填报的表格！靠。</p><h3>渐进主义</h3><p data-pid="TXxvCY6f">除了表达能力问题，优化这个原型的全有或全无交互方式还有另一个重要的理由：渐进主义。在一些情况下，读者对间隔重复的了解还不够，或者他们对高亮的认知价值有所误解。更多的时候，读者只是还没有准备好做出超过简单高亮的任何承诺。他们有点兴趣。但他们还不确定这个兴趣有多深。通常来说，只有在你读完一整部分内容后，你才能明确地评估什么是对你重要的。相比你真正想做的行动，保存作者提供的卡片可能有点过了。如果没有提供卡片，情况就更糟了：对大多数读者来说，写一张全新的卡片需要巨大的投入。</p><p data-pid="I-YCBkPs">高亮标注有时只是漫长过程的开端。有些读者习惯先草草地带着高亮笔过一遍；等对全篇有了大致了解后，他们会再细心翻阅那些重要的部分。另一些人则愿意先大概读一遍，然后让内容沉淀一下。如果他们发现在接下来的日子里这些内容一直盘旋在心头，他们就会借助这些高亮标注来深入研读文本。</p><p data-pid="MTewK1iR">如果 Orbit 能够促进这种渐进的方式呢？以下是我对其可能的运作方式的简单梳理。首先，你读第一遍文章，高亮标记一些让你印象深刻的部分，甚至可能做些简短的记录。过了一周，你可以看到你之前做的摘录和笔记，用类似 <a class="wrap external" href="https://www.liquidtext.net/" rel="nofollow noreferrer noopener" target="_blank">LiquidText</a> 的方法，让这些内容在原文的上下文中流畅展示。如果你对某些高亮标记重新激发了兴趣，就可以付出更多的努力，将它们转化为卡片，或者干脆多花点时间关注这段文本。<a class="wrap external" href="https://twitter.com/tayroga" rel="nofollow noreferrer noopener" target="_blank">Taylor Rogalski</a> 称这种方法为「反向 Orbit」：你起初与文章保持一定距离，然后再将重要的观点引入更紧密的轨道。</p><p data-pid="H6T9qno_">我对这种渐进的工作流程有天生的兴趣，但过去的一些尝试让我小心翼翼。例如，Readwise 就实现了类似的模式：先高亮文本，然后（回复定期发送的电子邮件）将最有趣的材料修订为卡片或更深入的笔记。我和很多 Readwise 用户交谈过，但我没有遇到谁真的充分利用其渐进细化的工具。在进一步推进这个想法之前，我需要对此有更深入的了解。就我个人来说，我发现一旦过去了几天，我常常会失去对文本的情感联系。零星几处的高亮往往不足以重新激发我对它的兴趣。有时，我会在一本纸质书上做些标记，打算稍后写一些卡片。但到了下个星期，当我看到桌上的那本书，我感觉好像是给自己布置了<b>作业</b>。相反，在阅读体验<b>中</b>，文本的叙述会产生强烈的情感联系。这通常足以激发我在阅读时就开始写卡片。到了第二天，写卡片就变得烦人了。我通常需要重新阅读文本一段时间，才能再度激发自己的兴趣。如果与相关段落的作者提供的卡片已经可用，这种情感的疏离可能就无关紧要了。我可能只需要点击一个按钮，就接受了作者的卡片。但我担心，这种情感问题还是广泛存在的难关。</p><p data-pid="dWtfB9Wa">另一个值得一提的研究成果出自 Piotr Wozniak，他是当代间隔重复的开创者之一。他的 SuperMemo 系统内置了一个叫做「<a class="wrap external" href="https://supermemo.guru/wiki/Minimum_definition_of_incremental_reading" rel="nofollow noreferrer noopener" target="_blank">渐进阅读</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="渐进阅读的最小定义" data-url="https://zhuanlan.zhihu.com/p/372072085">[4]</sup>」的功能，也试图满足类似的需求。这个设计虽然用户不多，但确实有一群极度热衷的支持者。不过对我来说，这不是一套合适的原语。在 SuperMemo 的渐进阅读工作流中，你主要的操作是精炼和摘录。你从将一篇完整的文章精炼为几个需要进一步关注的简短摘录开始。然后，在之后的阅读里，你只会看到这些摘录——每一个都是孤立的，脱离了上下文——你可能会将它们编辑成聚焦于你认为最重要的内容的摘录。然后，在下一次的阅读中，你可能会把这些摘要变成间隔重复卡片。这些卡片通常是挖空卡，很容易制作，但<a class="wrap external" href="https://notes.andymatuschak.org/zX7yi8v7qy3n1RfQDkFZFeyTCZPX3BVqy8sC" rel="nofollow noreferrer noopener" target="_blank">效果不是很好</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="5" data-text="在间隔重复记忆系统中，填空卡似乎比问答卡产生更少的理解" data-url="https://zhuanlan.zhihu.com/p/399548149">[5]</sup>。我喜欢渐进主义；我喜欢 Piotr 的劝告：一旦你感到无聊或注意力不集中，就立刻停止阅读。但我不喜欢的是，主要的原语都是去上下文化的。在 SuperMemo 的概念框架中，文本就像是充满词汇的信息篮子，等待着你去挖掘出宝贵的知识精华，然后「存下来」。但对我来说，文本有叙述，有散文，有结构，有声音。卡片是有用的，但它们不能替代原文那更丰富的内容。我不希望削减原文；我希望在它的基础上，叠加不同的视角。</p><h3>围绕想法行动，而不是围绕卡片行动？</h3><p data-pid="1B0l6CwS">我有种直觉，单纯依赖渐进主义的方式恐怕难以解决我在测试中发现的情绪问题，但如果我们能让核心行动更直接地与读者的表达意图匹配，或许能望见一线曙光。这就是我想试一试的方法。</p><p data-pid="JbYb6iOK">我最新的原型试图实现这样的工作流：读原文，遇到觉得重要的想法时，查看侧边栏中相关的卡片，阅读并评估它，如果它能符合你的期待，就保存下来。那如果我们将主要的工作流改为围绕<b>想法</b>，而非围绕<b>卡片</b>，会如何呢？可能的做法是：读原文，遇到觉得重要的想法时，选取一些相关的文本，然后点击「保存」。就这么简单！你选中的文本就会高亮，存入你的个人摘录库中。你可能还可以顺手记下一条与其相关的笔记。</p><p data-pid="jQJIOBh0">我刚刚说的，其实只是一个普通的标注工具而已。但助记媒介的独特之处在于：如果你保存的文本里面，恰好关联了作者提供的相关卡片，那么这些卡片也会被自动保存下来。这些卡片在你以后复习的时候就会像往常一样出现，可能会加上一些设计元素，用以把它们和你保存的文本（以及其上下文）联系在一起。这些卡片一旦保存，你就能在侧边栏看见（选择的时候也能稍微看到一些），所以你可以评估它们，要是觉得需要，还可以进行编辑或删除。但我其实希望你通常不必费心考虑这些卡片。你只需要暂时接受和你的高亮部分相关的作者卡片；我们会让你以后想要丢弃它们的时候尽可能轻松。如果没有作者卡片，你会发现侧边栏一片空白。你可以选择立即写一张卡片，不过你也可能稍后再通过一种另行设计的呈现流程，将文本提炼成卡片。（至于 Readwise 用户在后面这个步骤中遇到的问题该如何解决，我现在还没头绪。）</p><p data-pid="G_yxCQc0">我没有完全解决这个问题。读者们希望能有一个风险较低的方式，来表达他们觉得文章中哪些地方重要，而不必决定是否「保存卡片」，或者承诺自己将来要复习。但我认为这个流程启示了一个重要现象：读者往往只是想表达他们对某个<b>想法</b>的热衷。强迫他们去处理「和他们感兴趣的想法<b>有关</b>的卡片」，就加重了他们的负担，让他们偏离方向。如果我们能在阅读体验中消除这种干扰，我想大家就不会有太大压力去挑选和决定卡片了。那些认真阅读的人可能会欢迎在以后的复习中出现与他们的高亮内容相关的高质量卡片——尤其是那些能明显与读者选择的文本联系起来的卡片；如果这些卡片给人的感觉像是<b>暂时的提议</b>，而不是<b>责任</b>；如果<b>拒绝</b>这些提议感觉轻松、不带罪恶感、而且可以撤销。在这里，我们有足够的空间调整选择添加或取消添加的感觉。</p><p data-pid="A7HQ6Y9o">以想法为中心的交互模式仍旧能带来之前所提及的许多间接好处。那些未被保存但是关联着卡片的文本可能会有浅浅的高亮，或者在文本边缘还会有一些小图标——总归会有一些方法能让你大致了解文本的额外层次，让你不经意间就领悟到「这里有重要的东西！」。如果你想更深入地研究文本，你或许可以开启一个功能，像这个原型那样在侧边栏显示未保存的卡片。</p><p data-pid="2DY21c14">说到这里，有趣的是，当你<b>不是</b>在认真阅读，或者你对文本不太上心的时候，以想法为中心的设计就大有裨益了。有人可能会合理地提出，我不应该在这种情况下浪费精力。这样做并没有充分利用这种媒介的优点——即帮助认真的读者去理解难以理解的材料。事实上，当你非常认真地阅读的时候，你可能会希望默认保存<b>每一张</b>作者卡片；任何高亮显示的交互都会显得麻烦。但我现在的感觉是，这条界限并不那么明确；人们对文本的态度会根据实际情况反复变化。</p><p data-pid="ByuW9S4E">这只是粗略的想法，很多难题还没解决。最棘手的是：如何处理那些涉及整个段落，而非具体短语的高阶总结或提炼卡片？这种卡片往往最有价值。一个简单的解决方案是，只要你标出了这些卡片涵盖的长篇段落中的<b>任何</b>短语，就包含这些卡片。但我对这个办法并不满意。</p><p data-pid="7wcr2n_b">更实际一点，我并不想再推出一个新的注释和摘录工具，尤其是考虑到用户自然会期待后续的图书管理和整合工作流。只有当我找到了避免这种情况的方法，我可能才会走这条路。</p><h3>文中复习</h3><p data-pid="7Iwxcfaj">这种以想法为中心的设计思路，让我重新对一个已经琢磨了好久的问题产生了兴趣：我们能不能让复习过程<b>直接在文中</b>进行？目前，你阅读一篇助记文本，保存了卡片，之后这些卡片就一张接一张地出现，与它们的来源完全没有联系了。你可以点击一个链接回到原文的位置，但这就意味着你需要离开复习，切换到另一个界面和工作流。这种复习与文本的分离削弱了卡片与原始叙述的情感联系。同时，这种分离也增加了满足好奇和修正错误的困难。比如，如果你记得答案但是<b>不太</b>理解它的含义，你应该能够顺畅且即刻查看原始上下文，且不打断你的复习节奏。同理，如果你突然想看一看你记得在原文附近的插图，也应该可以轻松做到。</p><p data-pid="R7XbaNoS">在过去的四 (!!) 年里，我曾数次试图实现这样的设计，但都未能成功。以下是我在此过程中发现的几条笔记：</p><ul><li data-pid="1VIxb1pM"> 你不想为提取练习提供过强的线索。所以，也许只有当答案揭示时，才展示其上下文。<br/> <br/></li><li data-pid="IyoVMu1P"> 过多的附加文本往往令人应接不暇，让人分心，无法专心回答问题。因此，这些文本可能需要逐渐模糊，但在你触摸或挥动时又会变得清晰。<br/> <br/></li><li data-pid="sHhDqYRc"> 通常，人们在手机等移动设备上进行复习，这就需要在显示答案的屏幕空间和显示上下文之间进行权衡。那么，或许上下文可以模糊地「隐藏」在答案的「后方」，而在你触摸屏幕时，它就能「浮出水面」。<br/> <br/></li><li data-pid="IWe36hrm"> 还有一个大胆的想法，就是在文本的上下文中展示每张卡片，而像填空卡一样挖掉它们。这样，复习就会变成一连串的源文本窗口，每个窗口都会有一部分被遮盖。但是，这种方法提示性过强，而且填空卡似乎并不如问答卡有效。<br/> <br/></li><li data-pid="TRxfZ7Dc"> 最后，一个更广泛的问题：当你对一个主题的理解越来越深入时，你对卡片的理解往往已经超越了任何来源，而变成了它们之间的联系以及你自己的观点。如果我们仍然固执地将卡片明显地固定在某个源文本中，这可能实际上会阻碍这个过程。<br/> </li></ul><p data-pid="5W4eiarV">我直觉上感觉这里一定有个好办法，能从根本上改变复习的感受。我想这也有助于模糊重显高亮和重显卡片之间的界限，因为这两种交互都紧紧依附在原文的语境中。这种界限的模糊，反过来又可能让文中「保存」这个动作变得更加自然。找到这样的解决办法，或许能开启一种新的「渐进阅读」方式，让你像在 SuperMemo 中那样，既能提炼出关键的观点和联系，又能保留原文的丰富语境。</p><h2>「新手引导」</h2><p data-pid="UExxQjk9">事与愿违，我实验的一半读者要么对间隔重复一窍不通，要么就是没看出这个方法在除语言学习以外的地方，对他们这些脑力劳动者有何益处。一开始这让我颇感不快——我原本并没打算对这种对间隔重复一知半解的读者进行测试——但是我稍后会解释，这反倒成了个有教育意义的经验。我为了不白费这些实验，花了五到十分钟的时间向这些对间隔重复一无所知的测试者推广其在理解概念性知识上的优势。我做得还算不错：在那些真正需要这些知识的、对间隔重复一窍不通的测试者中，几乎所有人都开始认真对待这个方法。但这些对话明显地体现出我在「新手引导」设计方面所面临的重重困难。</p><p data-pid="YhtXnNr-">在《量子国度》中，我们把大约两千字的媒介长篇介绍巧妙地融入到了第一章中。我们并没有一口气全说完，而是一段段、一点点地嵌入到了首章的结构之中，与具体的界面元素并列，一起向读者传递上下文信息。然后，我们利用后续的邮件跟进和复习总结，慢慢地、逐步地增加解释的深度。这看起来确实起了作用，但我摸不着头脑，不知道怎么把《量子国度》的这种手法迁移到一个通用系统中，让每一篇文章都能像嵌入这样的层次。默认情况下，<a class="wrap external" href="https://www.patreon.com/posts/galaxy-brain-uis-41516298" rel="nofollow noreferrer noopener" target="_blank">用户速通界面文本</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="6" data-text="通俗易懂还是凝练难解；让人高速略过的用户界面" data-url="https://zhuanlan.zhihu.com/p/648828549">[6]</sup>。《量子国度》的读者能够有耐心读完我们的长篇介绍，是因为这些介绍是用书中作者的笔调写出来的，这种笔调在讨论媒介之前就已经获得了读者的信任，而且这些解释在风格上和结构上都被当作主文本的一部分来呈现。</p><p data-pid="55qOi406">有些测试者已经读过《量子国度》。他们立即理解了我目前的原型。看来，新手引导至少是有「迁移效应」的。还有一部分测试者可能没接触过助记媒介，但他们读<b>过</b> <a class="wrap external" href="http://augmentingcognition.com/ltm.html" rel="nofollow noreferrer noopener" target="_blank">Michael Nielsen 的《增强长期记忆》</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="7" data-text="量子物理学家是如何使用 Anki 的？" data-url="https://zhuanlan.zhihu.com/p/65131722">[7]</sup>或 <a class="wrap external" href="https://ncase.me/remember/" rel="nofollow noreferrer noopener" target="_blank">Nicky Case 的《如何永远记住任何事情》</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="8" data-text="如何永远般记住任何东西？" data-url="https://zhuanlan.zhihu.com/p/448055369">[8]</sup>或 <a class="wrap external" href="https://www.gwern.net/Spaced-repetition" rel="nofollow noreferrer noopener" target="_blank">Gwern 的《高效学习的间隔重复》</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="9" data-text="高效学习的间隔重复" data-url="https://zhuanlan.zhihu.com/p/420105707">[9]</sup>。这些测试者也立刻领会了助记媒介可能带来的好处。这进一步证明了长篇介绍文章能做到这一点。然而，这些文章都比《量子国度》中关于媒介的部分长得多。因此，我们在实践中并没有取得太大的进展。</p><p data-pid="_KGIlaiE">最后一批测试者在学习语言或者一些需要死记硬背的科目（例如解剖学、药理学）时，已经积累了大量间隔重复的经验。这些测试者对助记媒介的反应各不相同。一种常见的反应是：间隔重复记忆法对学语言真的很管用，但我从没想过怎么把它用在其他地方——哇，这真是太棒了！然而，另一个常见的反应是：间隔重复学习虽然有用，但却很繁琐；它只是用来死记硬背大量信息；我真不觉得这能帮我理解我感兴趣的事情（小声嘀咕：我不认同你的解释）。对这类用户，以及那些有过在学校里不好经历的人，我猜可能还需要做一些<b>反</b>引导工作。</p><p data-pid="wwXSSk4l">我渴望摆脱「复习」这个词，甚至是「重复」这个词。相比「记忆」一篇文章的观点，人们（正确地）对「内化」它们更感兴趣。在理想状态下，这个系统是关于沉淀思考，是一种强大（但相当轻松！）的方式，帮助你与自己认为重要的理念深度交融。这不是关于「学习」、「复习」或者「练习」。我提出这些替换词，不是为了浮夸地重新包装：我希望改变系统的内在机制和给人的感觉，以更好地反映我想要强调的词语。</p><p data-pid="2kdnkoJT">撇开用词不谈，如何让系统向初次接触 SRS 的读者解释自己呢？目前，我还没有头绪——我更倾向于把这个问题放一放。近期，我想将主要精力放在通过精心挑选的文本进行演示，这意味着我可以至少在一定程度上借鉴《量子国度》的方式。我打算撰写一段扼要而深入的介绍，让作者能够「用他们自己的口吻」在文本中表达（如有必要进行修改）。我会在那里以及用户界面中，加上链接，指向「Orbit 网站上」的一篇更深入、论文式的详细解释。</p><p data-pid="n043wnvw">长期来看，「正确」的引导方式会很大程度上取决于上下文。如果我在探索的是作者亲自参与的助记文章，那就应由作者亲自来介绍这种形式，我会在旁边协助他们。如果我正在准备的文本是要在课程或项目中使用的，那么引导这种形式的工作应由课程负责人完成，我同样会提供帮助。如果我尝试的是在任意文章上添加可分享的用户生成「层」，我就需要依赖于社区来编写并流传一些像 Nicky、Michael 和 Gwern 那样经典的介绍，或者参考他们的作品。也许在某个时候，人们会制作出一些经典的 YouTube 介绍视频——也许会在我开始尝试助记视频的时候吧？</p><h2>下一步计划</h2><p data-pid="jWcFwoYL">除了上述的概念性讨论之外，我还有一些日常设计问题需要解决。比如，人们期待他们保存的卡片能在章节结束时的卡片列表中以某种方式呈现。当用户在 <i>IMS</i> 中费尽心思挑选出重要的卡片时，他们却发现内联复习中依旧包含每一章节的所有卡片，这让他们感到困惑。至于「跳过」按钮的功能，几乎没有人能够理解。诸如此类的问题还有很多，不过我觉得这些问题都是可以解决的，我希望在下一轮的测试之前把这些问题处理清楚。</p><p data-pid="C7f_Iulf">接下来，我想探索 <i>IMS</i> 和 <i>Shape Up</i> 之间的一些中间地带：对技术话题的不那么正式的「解释」，以及对非技术主题的深度探讨。我也希望找到一个更为真实的场景来测试系统，让读者真的感到他们<b>需要</b>学习这些材料，也许是作为一个由他们自己驱动的项目或者课程的一部分。</p><p data-pid="aos1AQBL">同时，我将开始着手构思一些设计概念，以解决我在上述讨论中描述的更多的概念性问题和挑战。我们拭目以待。</p><hr/><p data-pid="YHTq4vTa">我要感谢 <a class="wrap external" href="https://twitter.com/tayroga" rel="nofollow noreferrer noopener" target="_blank">Taylor Rogalski</a> 对以卡片为中心与以想法为中心的交互设计讨论的有益建议。我也要感谢 <a class="wrap external" href="https://twitter.com/HammadTime" rel="nofollow noreferrer noopener" target="_blank">Hammad Bashir</a>，他在实施这个最新设计中与我同行。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="vcLcgN0f"><a class="wrap external" href="https://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 Jarrett Ye<br/>原型：<a class="wrap external" href="https://www.patreon.com/posts/lessons-from-73309142" rel="nofollow noreferrer noopener" target="_blank">Lessons from summer 2022’s mnemonic medium prototype</a><br/>作者：<span class="nolink">Andy Matuschak</span></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 我们如何才能开发出变革性的思想工具？ <a href="./394795804.html" target="_blank" rel="noopener noreferrer">./394795804.html</a><br>2. 如何写出好卡片：利用间隔重复创造理解 <a href="./434074509.html" target="_blank" rel="noopener noreferrer">./434074509.html</a><br>3. 穿越时间的文本 <a href="./395283887.html" target="_blank" rel="noopener noreferrer">./395283887.html</a><br>4. 渐进阅读的最小定义 <a href="./372072085.html" target="_blank" rel="noopener noreferrer">./372072085.html</a><br>5. 在间隔重复记忆系统中，填空卡似乎比问答卡产生更少的理解 <a href="./399548149.html" target="_blank" rel="noopener noreferrer">./399548149.html</a><br>6. 通俗易懂还是凝练难解；让人高速略过的用户界面 <a href="./648828549.html" target="_blank" rel="noopener noreferrer">./648828549.html</a><br>7. 量子物理学家是如何使用 Anki 的？ <a href="https://zhuanlan.zhihu.com/p/65131722" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/65131722</a><br>8. 如何永远般记住任何东西？ <a href="https://zhuanlan.zhihu.com/p/448055369" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/448055369</a><br>9. 高效学习的间隔重复 <a href="./420105707.html" target="_blank" rel="noopener noreferrer">./420105707.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：助记媒介 & 思想工具</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

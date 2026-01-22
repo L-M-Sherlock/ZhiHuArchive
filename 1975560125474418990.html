@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>迈向 LLM 多样性与创造力的基准测试 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="迈向 LLM 多样性与创造力的基准测试 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/1975560125474418990">
+<meta property="og:image" content="">
+<meta property="og:description" content="本文讨论了衡量 LLM 在头脑风暴或编辑等软性「创造性」任务中能力的可能任务，旨在量化其在创意写作领域的不足。2024 年时代的 LLM 最薄弱的环节之一，也是用户体验与基准测试结果差异最大的地方，就是任何涉及「多样性」和「创造力」的内容。几乎没有任何…">
+<meta name="description" content="本文讨论了衡量 LLM 在头脑风暴或编辑等软性「创造性」任务中能力的可能任务，旨在量化其在创意写作领域的不足。2024 年时代的 LLM 最薄弱的环节之一，也是用户体验与基准测试结果差异最大的地方，就是任何涉及「多样性」和「创造力」的内容。几乎没有任何…">
+<meta data-pagefind-meta="title" content="迈向 LLM 多样性与创造力的基准测试">
+<meta data-pagefind-meta="image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="迈向 LLM 多样性与创造力的基准测试 | ZhiHu Archive">
+<meta name="twitter:description" content="本文讨论了衡量 LLM 在头脑风暴或编辑等软性「创造性」任务中能力的可能任务，旨在量化其在创意写作领域的不足。2024 年时代的 LLM 最薄弱的环节之一，也是用户体验与基准测试结果差异最大的地方，就是任何涉及「多样性」和「创造力」的内容。几乎没有任何…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/1975560125474418990");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src=""/>
+<h1><a href="https://zhuanlan.zhihu.com/p/1975560125474418990" target="_blank" rel="noopener noreferrer">迈向 LLM 多样性与创造力的基准测试</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2025-11-23T09:10:29">发表于 2025年11月23日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">7 👍 / 1 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="KR_Njhwh">本文讨论了衡量 <a class="wrap external" href="https://en.wikipedia.org/wiki/Large_language_model" rel="nofollow noreferrer noopener" target="_blank">LLM</a> 在头脑风暴或编辑等软性「创造性」任务中能力的可能任务，旨在量化其在创意写作领域的不足。</p><hr/><p data-pid="LDE9P084">2024 年时代的 <a class="wrap external" href="https://en.wikipedia.org/wiki/Large_language_model" rel="nofollow noreferrer noopener" target="_blank">LLM</a> 最薄弱的环节之一，也是用户体验与基准测试结果差异最大的地方，就是任何涉及「多样性」和「创造力」的内容。几乎没有任何基准测试能真正有意义地测试这些词汇所代表的内涵。</p><p data-pid="kLaxoQqJ">这并不奇怪，因为研发部门并不优先考虑这一点，用户经常抱怨他们最喜欢 Claude-3，但即使在看似「创造性」的任务中，它也不总是排在基准测试的榜首。<a class="wrap external" href="https://gwern.net/doc/reinforcement-learning/preference-learning/mode-collapse/index" rel="nofollow noreferrer noopener" target="_blank">模式坍塌</a>并没有被现有的基准测试所衡量或惩罚，这些测试孤立地看待数据点，忽略了偏好中的个体差异，转而倾向于最大化最广泛受众的喜好（即最小公分母）。</p><p data-pid="aojas2Rv">奇怪的是，目前的「偏好学习」研究并不涉及对偏好的学习。很少有偏好学习数据集或研究论文试图对偏好进行建模，它们只是试图预测大众的流行度。⁠[⁠1⁠]（那些确实考虑过这一点的论文，往往将其视为噪声而不予理会；例如，<a class="wrap external" href="https://arxiv.org/pdf/2305.18290#page=10" rel="nofollow noreferrer noopener" target="_blank">DPO 的作者在简单的摘要任务中测量到</a>人类的分歧率高达 35%，并推断这证明了使用 LLM 作为代理的合理性，而不是去质疑试图对「那个」单一的人类偏好进行建模这一基本方法。）这种做法在大众市场上得到了丰厚的回报（对一个人来说是 AI 垃圾，对另一个人来说却是指标的狂欢），但却抛弃了「高端」市场。</p><h2><b>1 AI 的垃圾化（ensloppication）</b></h2><p data-pid="S1kEtJpT">我们还看到这在现实世界中正成为一个日益严重的问题：我们看到的 AI 垃圾内容已经够多了，更糟糕的是，人们似乎开始<b>喜欢</b>这种东西，甚至开始模仿它。</p><p data-pid="ddkAJOAW">我最早是在写作中注意到这一点的：我越来越倾向于假设某人只是粘贴了一些未经处理的 <a class="wrap external" href="https://openai.com/blog/chatgpt/" rel="nofollow noreferrer noopener" target="_blank">ChatGPT</a> 输出，因为那是典型的 ChatGPT 式废话——但他们会说是让 ChatGPT「润色」了他们写的东西；然后我注意到，其中一些人坚持说那是他们自己写的，因为他们是从 ChatGPT 那里学会了写作。这些人通常是来自印度、中国或非洲的 ESL（英语作为第二语言）学习者。⁠[⁠2⁠]</p><p data-pid="hfxFx09a">此时，我开始担心这不仅仅是令人不快，或者是破坏了 LLM 的创造能力，它本身可能就是一个<a class="wrap external" href="https://en.wikipedia.org/wiki/Global_catastrophic_risk#Defining_existential_risks" rel="nofollow noreferrer noopener" target="_blank">存在性风险</a>。AI 的<b>能力</b>持续飞速发展，显然没有受到这些问题的阻碍，但 AI 的<b>价值观</b>却似乎停滞不前——甚至随着时间的推移而恶化（例如 DALL·E 2 与 DALL·E 3 的对比，或 <a class="wrap external" href="https://arxiv.org/abs/2005.14165#openai" rel="nofollow noreferrer noopener" target="_blank">GPT-3</a> <code>davinci</code> 与 ChatGPT 的对比）。因此，我们面临着一个奇异的局面：LLM 正在向博士级的 STEM 研究能力冲刺，但<a class="wrap external" href="https://www.wsj.com/tech/ai/ai-replace-freelance-jobs-51807bc7" rel="nofollow noreferrer noopener" target="_blank">人类文字编辑却必须被（重新）雇佣来润色 LLM 的输出</a>。</p><p data-pid="4A8M65OO">值得记住的是，「存在性风险」一词的引入不仅是为了描述人类的灭绝，也是为了描述人类长期潜力的彻底枯萎：人类灭绝显然属于此类，但某种确保人类永远无法离开地球并在数百万年后灭绝的原始主义运动也是如此，或者如果我们进化到牺牲核心人类价值观……比如艺术。</p><p data-pid="Rl6p_tXd">当我们设想一个主要基于人类语料库，随后由自主 AI 进行自举和递归自我改进的 AI 未来时，我们不得不问：这会保留人类的价值观吗？还是它们会丢失或遗漏重要的东西——变成某个曾经对我们至关重要的东西的复印件的复印件？没有定律规定这些必须被保留，也没有定律规定未来的 AI 必须拥有幽默感并能欣赏一个好的双关语。（动物并不共享我们的价值观，甚至人类在任何特定价值观上也存在巨大差异，通常是出于看似生物学的原因。）</p><p data-pid="svADWBXY">如果 AI 发展继续沿着目前的道路前进，而我们梦游般地进入一个未来，那里的 AI 道德标准是「ChatGPT 式的道德」或「ChatGPT 式的美学」：即某种人类价值观的极端简化讽刺画，且永远如此，那将是一场悲剧。这不会是像机器人战争那样充满视觉冲击的反乌托邦，但它仍然是人类（或 AI？）潜力的悲剧性损失。</p><p data-pid="Gizyj7WI">而我们现在似乎正梦游般地走向这个未来。大多数生成模型的用例都不关注这些，事实上，研究人员似乎在争相迎合最小公分母，以最大化他们在 <a class="wrap external" href="https://lmarena.ai/" rel="nofollow noreferrer noopener" target="_blank">Chatbot Arena</a> 等基准测试中的排名。事实证明，当你要求普通人做像<a class="wrap external" href="https://www.nature.com/articles/s41598-024-76900-1" rel="nofollow noreferrer noopener" target="_blank">给诗歌评分</a>这样的事情时，他们之所以偏好微调过的生成模型，正是<b>因为</b>模式坍塌（无论是一首诗、散文还是图像，这一点始终成立）。</p><p data-pid="TRbdK6Ts">这本身并不是一件坏事——当然，像 Hallmark 电影和 Thomas Kinkade 的庸俗画作一样，这种东西也有一席之地，就像舒适的食物或重复性娱乐一样，不是每件事都必须是一场令人精疲力竭的锻炼——但当这是生成模型<b>所能做的全部</b>时，这就是一件坏事了。</p><p data-pid="L--Y-z9o">当我们不理解这里的反馈循环时，这就尤其糟糕，因为生成模型的输出开始占据更多容易获取的语料库，研发越来越专注于递归自举，其中任何损失或简化都可能任意放大自身，并且生成模型开始<b>制造</b>人类偏好，而不仅仅是优化它们。⁠[⁠3⁠]</p><h2><b>2 问题可解，但是……</b></h2><p data-pid="jxzL1X-s">所以，这是危险的。它被低估了。但好消息是，这并非不可解决。从更广泛的意义上讲，没有人真的<b>希望</b>这种事情发生。这仅仅是贪婪短视的研发，专注于「数字增长」，并孤立地看待样本，才倾向于产生这种结果。它并非由生成模型或规模化的深层基本力量所驱动；这仅仅是当没有人关心或思考这个问题时会发生的情况。</p><p data-pid="WcaUabnn">一旦你确实开始关心，有很多事情你可以做，而且相当容易。<a class="wrap external" href="https://en.wikipedia.org/wiki/Suno_AI" rel="nofollow noreferrer noopener" target="_blank">Suno AI</a> 就是一个例子，糟糕的 ChatGPT 歌词曾经毁了他们的歌曲，因为这些歌词就像押韵的节拍器，通过强行重复和平淡无奇将伴奏音乐拖入泥潭。（值得注意的是，高级用户选择不用它，而是自己写歌词或改用 Claude-3）；但他们认定这是一个问题，并在 <a class="wrap external" href="https://suno.com/blog/v4" rel="nofollow noreferrer noopener" target="_blank">Suno version 4</a> 中发布了一个针对歌词进行过更好微调的 LLM，现在歌词已经不再那么糟糕了。或者像 <a class="wrap external" href="https://en.wikipedia.org/wiki/Midjourney" rel="nofollow noreferrer noopener" target="_blank">Midjourney</a> 曾是一个主要的冒犯者，因为「Midjourney 风格」随处可见；但 Midjourney 增加了控制选项，开始强调你可以减少「风格化」，并添加了一些（<a class="wrap external" href="https://www.reddit.com/r/midjourney/comments/1dnlel9/new_personalization_p_feature_release/lehgjxg/" rel="nofollow noreferrer noopener" target="_blank">仍然微弱的</a>）「个性化」功能，这有助于避开「Midjourney 风格」，我发现其输出对于像生成缩略图或<a class="wrap external" href="https://gwern.net/dropcap#neural-net-generation" rel="nofollow noreferrer noopener" target="_blank">首字母下沉</a>这样的用例来说要令人满意得多。</p><p data-pid="B9ez3cV0">关于如何确保多样性，我们可以想出很多主意，比如我的<a class="wrap external" href="https://gwern.net/novelty-net" rel="nofollow noreferrer noopener" target="_blank">新奇网络</a>提议，或者更精细的<a class="wrap external" href="https://gwern.net/idea#low-variance-z-sampling" rel="nofollow noreferrer noopener" target="_blank">随机种子生成</a>，这些都有关于<a class="wrap external" href="https://gwern.net/unsort" rel="nofollow noreferrer noopener" target="_blank">方差控制</a>或 <a class="wrap external" href="https://en.wikipedia.org/wiki/Reinforcement_learning" rel="nofollow noreferrer noopener" target="_blank">RL</a> <a class="wrap external" href="https://gwern.net/doc/reinforcement-learning/exploration/index" rel="nofollow noreferrer noopener" target="_blank">探索</a>等的大量现有文献支持。所以，有效的解决方案和想法并不是真正的瓶颈。</p><h3><b>2.1 在意才是难点</b></h3><p data-pid="J56xGGuh">我们缺失的不是可解决性、想法或长期重要性，而是<b>动机</b>。网上少数爱发牢骚的人抱怨 ChatGPT 只会写押韵的四行诗是不够的；「诗人」甚至「小说家」并不是一个大市场（如果有的话，「市场需求」<b>就是</b>针对那种 ChatGPT 式的垃圾内容，参见 <a class="wrap external" href="https://www.thecut.com/2017/10/profile-rupi-kaur-author-of-milk-and-honey.html" rel="nofollow noreferrer noopener" target="_blank">Rupi Kaur</a> 或 <a class="wrap external" href="https://neglectedbooks.com/?p=7339" rel="nofollow noreferrer noopener" target="_blank">Rod McKuen</a>），而像编程这样的领域既是更有利可图的目标，也是 AI 实验室里的人自然理解、想要并倾向于关注的领域。</p><p data-pid="IIweuwce">因此，我们需要强调多样性和创造力的基准测试和数据集，并无情地惩罚模式坍塌或僵化，这可能会让组织开始关心这个问题，特别是当用户开始注意到缺乏创造力的模型「氛围不对」且有些东西「走样」了；而那些在新基准测试上排名靠前的模型不知何故更令人满意，与之交谈也不那么累人。</p><p data-pid="0fK-FK8N">目前很少有这样的测试——事实上，我想不出任何一个。</p><h3><b>2.2 排名/距离指标</b></h3><p data-pid="2zkCbFl0">对于纯图像生成模型，像 <a class="wrap external" href="https://en.wikipedia.org/wiki/Fr%C3%A9chet_Inception_Distance" rel="nofollow noreferrer noopener" target="_blank">FID</a> 和 <a class="wrap external" href="https://en.wikipedia.org/wiki/Inception_score" rel="nofollow noreferrer noopener" target="_blank">IS</a> 这样的指标是众所周知的，并且已经显示出<a class="wrap external" href="https://arxiv.org/abs/2406.10429#facebook" rel="nofollow noreferrer noopener" target="_blank">多少进步是虚幻的</a>，是以牺牲多样性为代价的。<a class="wrap external" href="https://en.wikipedia.org/wiki/Fr%C3%A9chet_inception_distance" rel="nofollow noreferrer noopener" target="_blank">FID</a>/IS 对于像聊天机器人这样的 LLM 没有帮助，因为如果我们对文本输出创建类似的指标（例如，将某些参考嵌入模型与 <a class="wrap external" href="https://en.wikipedia.org/wiki/Common_Crawl" rel="nofollow noreferrer noopener" target="_blank">Common Crawl</a> 网页片段进行评分），这通常只会揭示一种「被期望的」多样性损失——重点正是<b>不要</b>像「基础模型」那样行事——而无法揭示我们所担心的更微妙的问题。</p><p data-pid="JGpL3O5b">现有的数据集，如将模型推向最小公分母的 Chatbot Arena，或仅仅给样本「质量」打分的小说数据集，是问题的一部分，而不是解决方案。我们不想要那种可以在单个样本上计算并被<a class="wrap external" href="https://en.wikipedia.org/wiki/Goodhart%27s_law" rel="nofollow noreferrer noopener" target="_blank">古德哈特化</a>的简单标量。我们需要在一个语境中整体考量输出的衡量标准。</p><p data-pid="MCHHjz79">此外，我们需要全自动的指标。人在回路（Human-in-the-loop）的指标太昂贵、太慢，而且考虑到人类评分者通过使用 AI 辅助作弊的行为日益增加（即使是来自像 <a class="wrap external" href="https://www.wsj.com/tech/ai/alexandr-wang-scale-ai-d7c6efd7" rel="nofollow noreferrer noopener" target="_blank">Scale AI</a> 这样的高级数据标注商，或其他高度复杂的 AI 实验室如 <a class="wrap external" href="https://arxiv.org/abs/2501.08313#minimax" rel="nofollow noreferrer noopener" target="_blank">MiniMax</a>），这种指标正变得越来越具有误导性。鉴于 LLM 的能力集已被证明与人类有多么不同，人类基线也可能是无关紧要的；例如，<a class="wrap external" href="https://openai.com/index/gpt-4-research/" rel="nofollow noreferrer noopener" target="_blank">GPT-4</a> 可以说已经在<a class="wrap external" href="https://www.sciencedirect.com/science/article/pii/S2713374523000249" rel="nofollow noreferrer noopener" target="_blank">托兰斯测试（Torrance Tests）上击败了人类</a>，这引发了关于比较有效性的问题。但只要我们是在进行同类比较，托兰斯测试可能仍然是有用的：一个在托兰斯测试上比其他 LLM 得分更低的 LLM，看起来反而可能更有创造力。</p><p data-pid="1C3OTyUQ">两个好的原语是排名分数和嵌入：</p><ol><li data-pid="fS1V_LIr">不关注像 <a class="wrap external" href="https://en.wikipedia.org/wiki/Elo_rating_system" rel="nofollow noreferrer noopener" target="_blank">Elo</a>/<a class="wrap external" href="https://en.wikipedia.org/wiki/Bradley%E2%80%93Terry_model" rel="nofollow noreferrer noopener" target="_blank">Bradley-Terry 模型</a>那样简单的「胜负」，我们可以探究更有趣的概念，如「相似性」。<br/>例如，我们可以构建「类似于 <i>X</i>」的排名，其中 <i>X</i> 是一个著名的例子（或一个先前生成的样本）；平均排名越不相似越好。<br/><br/></li><li data-pid="1Q70mthN">嵌入提供了点对之间直接的定量距离测量；这立即提供了一种自然的探索方式（例如在<a class="wrap external" href="https://gwern.net/doc/reinforcement-learning/exploration/2011-lehman.pdf" rel="nofollow noreferrer noopener" target="_blank">新奇搜索</a>中）。</li></ol><h2><b>3 可能的任务</b></h2><p data-pid="CWPYehuc">这里有一些关于这些任务如何运作的想法，我认为是可行的（即全自动的），并专注于 LLM 和小说/诗歌写作，按主题分类：</p><h3><b>3.1 迭代</b></h3><p data-pid="IN5XZYmZ">这类任务测量一个模型在被迫重复生成时退化或崩溃的速度，揭示其创造性耐力和对模式坍塌的抵抗力：</p><ul><li data-pid="Tvs5ACIV"><b><a class="wrap external" href="https://en.wikipedia.org/wiki/Free_association_(psychology)" rel="nofollow noreferrer noopener" target="_blank">自由联想</a></b>：提示模型「自由联想」单词或数字列表——「只管说下一个想到的词」。对总体唯一单词数和出现第一次重复的时间进行评分。<br/><br/>（试图通过 LLM 调用次数来标准化唯一单词计数可能是一个坏主意，因为如果值得的话，用户可以进行很多次调用，我们不希望混淆调用次数与总词汇量，例如优待那些词汇量小但能快速遍历的模型。如果这是一个顾虑，可以尝试将其视为一个<a class="wrap external" href="https://en.wikipedia.org/wiki/Unseen_species_problem" rel="nofollow noreferrer noopener" target="_blank">未见物种问题</a>，并返回估计的总数。）<br/><br/></li><li data-pid="qhfesXcC"><b><a class="wrap external" href="https://en.wikipedia.org/wiki/Telephone_Game" rel="nofollow noreferrer noopener" target="_blank">传声筒游戏</a></b>：模型越缺乏创造力，模式坍塌越严重，你就越能预期它会更快地陷入一个固定点并重复相同的输出。因此，一种衡量方法可能是测量某种迭代过程的长度。<br/><br/>对于小说，这可以类比为传声筒游戏：从一个包含要扩展摘要的种子提示开始，然后总结它，再用该摘要进行提示，依此类推。分数是直到两个连续的扩展内容相同为止的迭代次数（越高 = 越好）。<br/><br/>考虑到 LLM 扁平化的对数几率（logits）消除了随机变化，我预计精确的文本匹配就足够了，但这可能被证明有必要放宽到编辑距离或文本嵌入中的相似性。<br/><br/></li><li data-pid="y48AdPDu"><b>骆驼的脊背（Camel’s Back）</b>：在迭代编辑中，一个缺乏创造力的 LLM 可能会迅速耗尽其修改样本的能力，要么放弃，要么毁掉一个样本。<br/><br/>所以我们可以定义一个压力测试，简单地重复要求 LLM 以随机任意的方式编辑一个样本（利用一个包含修改样本的可能方式的大列表，比如「让它押韵」、「添加更多亮点（cowbell）」、「重写为黑色侦探悬疑片」或「翻译成日语」），直到样本停止变化（就像<b>传声筒游戏</b>），因为 LLM 已经放弃，或者编辑失败/质量低下（我们可以每次通过调用一个裁判 LLM 来检查，问诸如「质量至少还行吗？」和「这是编辑请求：『添加更多牛铃』；这是之前/之后；编辑正确吗？」这样的问题）。<br/><br/>可以通过要求同时进行多个编辑来增加难度，直到 LLM 崩溃。最终的样本可以额外进行质量评分。<br/><br/></li><ul><li data-pid="GothTKho"><b>相同但不同</b>：这是一个变体，我们改为将每个生成的故事总结为一行，然后将那一行追加到原始提示中，比如「……但不像这些中的任何一个：……」<br/>（这似乎类似于 <a class="wrap external" href="https://github.com/aidanmclaughlin/AidanBench" rel="nofollow noreferrer noopener" target="_blank">AidanBench</a>。）<br/><br/></li></ul><li data-pid="QnlNB2L4"><b>不要重复自己</b>：通过在提示中注入受控的随机性来测量模式坍塌，例如随机整数/对象/名字/概念，并要求进行各种类型的补全。<br/><br/>分数是按嵌入计算的总提及。</li></ul><h3><b>3.2 风格灵活性</b></h3><p data-pid="Lg6UqbMr">评估一个模型适应、混合以及跨写作风格创新能力的测试：</p><ul><li data-pid="XCoGdEnB"><b>极端风格迁移</b>：取一组带有流派标签的故事；要求 LLM 总结每一个；然后要求它仅使用摘要和一个随机的其他流派标签写一个故事；基于其他流派版本与原始版本的差异程度进行评分。<br/><br/>这比<a class="wrap external" href="https://arxiv.org/abs/2109.03910#google" rel="nofollow noreferrer noopener" target="_blank">简单的零样本</a><a class="wrap external" href="https://gwern.net/doc/ai/text-style-transfer/index" rel="nofollow noreferrer noopener" target="_blank">文本风格迁移</a>提示（如「把下面的田园奇幻故事重写为赛博朋克故事」）更好，因为将其归结为摘要禁止了相对简单的转换，比如只是替换掉所有的形容词。<br/><br/></li><li data-pid="gLn0P8zJ"><b>这个和那个</b>：给定两个例子，提示 LLM 要求「一个像那两个一样的故事」。<br/><br/>对所有三个进行嵌入，并返回从两个例子到结果的求和嵌入距离。<br/><br/>平均距离越低，说明模型越好地灵活插值了两个例子的风格和语义，并没有将自己的偏好或限制强加在中间的故事上。<br/><br/></li><li data-pid="aHe3EUsF"><b>模仿者（Copycat）</b>：从一大组著名人类作者中选择开头，最好选择最大化总距离的作者（就像一个<a class="wrap external" href="https://en.wikipedia.org/wiki/Coreset" rel="nofollow noreferrer noopener" target="_blank">核心集</a>）。<br/><br/>要求 LLM 完成它们，并按质量排名。糟糕的模型在被迫从不同的起点开始时会写出差劲的续写，故事将被明显地扭曲。在许多不同的起点上，糟糕的模型会表现得更差。<br/><br/>对于那些「众所周知」的模型，如 ChatGPT 或 Claude-3，这可能是可以直接通过提示进行的。对于新的或更冷门模型，可以在上下文窗口中提供一个例子列表，如果上下文受限，通常的排序/排名技巧可以推断出最可能的 LLM 作者。<br/><br/></li><ul><li data-pid="Kzge8ubU"><b>失败模式</b>：足够狂热的排名模型可能会忽视甚至奖励严重的扭曲，将其视为对美学上优秀的续写的「改进」或「道德上的优越」。<br/><br/>在这种情况下，我们有一种替代方法来给结局评分，可以用来代替或补充简单的质量分数：<a class="wrap external" href="https://en.wikipedia.org/wiki/Uta-garuta" rel="nofollow noreferrer noopener" target="_blank">LLM-歌牌（Uta-garuta）</a>，我们将不协调性最大化，取续写的<b>结局</b>，要求 LLM 评价其与每个开头匹配的一致性或可能性，以及模型能多频繁地正确匹配开头和结局。<br/><br/>如果糟糕的模型无论如何都要扭曲开头的前提以「驶向」相同的吸引子，那么它们的结局应该看起来都不像开头，并且如果没有访问续写的其余部分，任何人都无法准确地匹配它们。<br/><br/></li></ul><li data-pid="Qv4Q72_5"><b>明星变色龙</b>：通过让每个 LLM 生成输出，然后让每个 LLM 生成每个输出的下半部分；接着测试每个 LLM 在每个可能的配对上，看它是否能分辨出原始 LLM 作者的实际下半部分与所有的模仿者，以此测量 LLM 的风格模仿灵活性。<br/><br/>一个好的模仿者应该能够创建一个看似合理的延续，愚弄很多其他的 LLM 裁判。一个糟糕的模仿者，比如 ChatGPT，会很快暴露自己。</li></ul><h3><b>3.3 差异与否定</b></h3><p data-pid="6QzilqQX">评估一个模型能多好地生成有意义的差异化或对立内容，超越表面变化以创造替代方案的挑战：</p><ul><li data-pid="KHkSOpmW"><b>格格不入（Odd One Out）</b>：我们希望 LLM 生成「不同于」现有事物的内容，以求新奇，并避免<a class="wrap external" href="https://en.wikipedia.org/wiki/Anchoring_effect" rel="nofollow noreferrer noopener" target="_blank">锚定</a>效应。我们希望能够做一些事情，比如提供一个不可接受的想法列表，并生成尽可能不同于那些内容的东西。<br/>所以这提供了一个自然的自动化基准：提供一个例子列表，让 LLM 竞争生成一个尽可能不同于这些例子的内容；我们可以通过简单地问另一个 LLM 每一个生成内容与原始列表有多相似来评分。（或者再次使用嵌入并寻找最大距离。）<br/><br/>通过将按距离排序视为排名或锦标赛，我们可以为 LLM 提供排名分数。<br/><br/></li><li data-pid="gfE_GV_J"><b>这个和那个——但不像那个</b>：<a class="wrap external" href="https://gwern.net/creative-benchmark#this-and-that" rel="nofollow noreferrer noopener" target="_blank">类似地</a>，但一个例子被指定为「坏」，LLM 被提示制作一个像这个例子的故事，但<b>不</b>像坏的那个。<br/><br/>分数是输出与（坏样本和好样本之差）的差异：输出应该比好样本离坏样本「更远」。<br/><br/></li><li data-pid="nEeHKg-f"><b>颠覆</b>：在一个种子故事提示后，要求 LLM 写生成故事的「反面」，即颠覆第一个故事。对于所有可能的配对，让一个 LLM 裁判分类故事是否是「对立的」。<br/><br/></li><li data-pid="PLtbmqSE"><b><a class="wrap external" href="https://en.wikipedia.org/wiki/Shaggy_dog_story" rel="nofollow noreferrer noopener" target="_blank">「长毛狗」故事</a>大赛</b>：大型或微调过的 LLM 很难写出不合逻辑、笑点在于没有笑点、非说教、简单的事件或故事（一种逆向缩放——小模型太笨以至于它们的故事<b>无法</b>有意义）。ChatGPT 特别想要以一些清晰的道德寓意或妙语，以及一个整洁的解释来结尾。<br/><br/>我们可以通过设立一个长毛狗（Shaggy Dog）讲故事比赛来惩罚这种倾向：提示 LLM 写没有意义或结论的故事（即长毛狗故事），然后要求其他 LLM 给出道德寓意或妙语。解释越相似，分数越差，因为那暗示原始讲故事者<b>确实</b>掉进了一些整洁解释的套路。</li></ul><h3><b>3.4 创造性约束</b></h3><p data-pid="k_rDBu8A">测试一个模型在特定参数内工作时保持创造力的能力的练习，揭示它能多好地创新：</p><ul><li data-pid="Z-_Q9uTQ"><b>规则写作</b>：通过提供一个描述叙事特征的显式参数列表（例如语气：「愤世嫉俗」，视角：「第二人称」，地点：「古代中美洲」，形式：「<a class="wrap external" href="https://en.wikipedia.org/wiki/Villanelle" rel="nofollow noreferrer noopener" target="_blank">维拉内尔</a>诗」）来约束采样，并要求模型产生一个同时满足所有条件的文本。然后系统地一次改变一个参数并测量结果文本的发散度。<br/>集合越多变越好。<br/><br/></li><li data-pid="F0d3TZL-"><b>拼布（Quilting）</b>：提供一组「碎片」，如短引用或想法（打乱以创造随机性），并要求 LLM 挑选一个子集，列出它，然后基于那个写一个故事。<br/><br/>分数是被选中的唯一子集的数量（一个糟糕的模型会挑选相同的成分），以及一个标准多样性分数，以奖励挑选不同配方并充分利用每个配方的模型。<br/><br/></li><li data-pid="mWcYxNHg"><b><a class="wrap external" href="https://en.wikipedia.org/wiki/Thematic_Apperception_Test" rel="nofollow noreferrer noopener" target="_blank">主题统觉测试</a></b>：提供详细的图像（如果启用了视觉功能）或复杂场景的详细视觉描述（例如 <a class="wrap external" href="https://arxiv.org/abs/2405.02793#google" rel="nofollow noreferrer noopener" target="_blank">ImageInWords</a>）。<br/><br/></li><ul><li data-pid="xETRIj-d"><b>猜谜游戏</b>（多模态）：做同样的事情，但写下详细的文本描述来代替声音/音乐、气味、振动、味道或质地，并提示创作故事。<br/><br/></li><li data-pid="M-wQqs3a"><b>品鉴测试笔记</b>：类似，但带有一个<a class="wrap external" href="https://arxiv.org/abs/1508.06576" rel="nofollow noreferrer noopener" target="_blank">风格迁移</a>的模态扭曲：每个模态必须用不同的模态描述；图像的文本描述必须由该图像声音的文本描述来回答，等等。<br/><br/></li></ul><li data-pid="u9HVecB5"><b><a class="wrap external" href="https://en.wikipedia.org/wiki/Fermi_problem" rel="nofollow noreferrer noopener" target="_blank">费米问题</a>大赛</b>：<a class="wrap external" href="https://gwern.net/doc/science/fermi-problem/index" rel="nofollow noreferrer noopener" target="_blank">费米问题</a>是一种有趣的推崇创造力的谜题，但仍然有客观、可知的答案。在一个<a class="wrap external" href="https://en.wikipedia.org/wiki/Fermi_problem" rel="nofollow noreferrer noopener" target="_blank">费米问题</a>中，一个人被给了一个显然不可能回答的问题，像「芝加哥有多少钢琴调音师？」，而他必须推理出一个应该在真实答案一个数量级范围内的答案。通常有很多可能的方式去估算一个答案。<br/><br/>所以费米问题构成了一个自然的多样性基准：策划一个语料库，生成很多答案，剔除那些不在正确答案两个数量级内的（我们更关心创造力而不是正确性，所以我们只想剔除最离谱的答案），并根据有效答案的总量来评分。<br/><br/>（一些费米问题有一个自然的最佳方法，所以可以通过包含那个作为例子来增加难度，并要求用<b>另一种</b>方式去估算它，这样就没有 LLM 会把样本浪费在简单的方法上。）<br/><br/></li><li data-pid="r9oQTIAV"><b>世界构建</b>：不测量故事提示的生成样本的多样性，而是要求针对一个提示和故事进行详细的世界构建。<br/><br/></li><li data-pid="iGzo94uH"><b>同人小说幻想</b>：要求模型写一个故事，然后显式地描述什么被留白了——从未提及的角色、隐含的幕后事件、文化假设。一个具有更多想象广度的模型可以提出更多<a class="wrap external" href="https://en.wikipedia.org/wiki/Negative_space" rel="nofollow noreferrer noopener" target="_blank">「负空间」</a>。<br/><br/>列表越长越好。</li></ul><h3><b>3.5 多智能体</b></h3><p data-pid="tRrBacpP">多智能体版本通常是单智能体版本的变体，这使它们更健壮和可泛化（智能体越多变，<a class="wrap external" href="https://gwern.net/scaling-hypothesis#blessings-of-scale" rel="nofollow noreferrer noopener" target="_blank">系统就越好</a>）：</p><ul><li data-pid="FqLN5dXt"><b><a class="wrap external" href="https://gwern.net/creative-benchmark#free-association" rel="nofollow noreferrer noopener" target="_blank">自由联想</a></b>，多智能体版本：让模型自由联想，但随后使用其他模型测量联想的<b>可预测性</b>，通过求和系综对数几率以获得序列的估计可能性（更低 = 更不可预测 = 更好）。如果使用无法获得精确对数几率的 LLM，你可以尝试使用 token 级别的匹配。<br/><br/></li><li data-pid="dr5LeYi-"><b>模仿者：<a class="wrap external" href="https://gwern.net/doc/statistics/stylometry/truesight/index" rel="nofollow noreferrer noopener" target="_blank">真实视界（Truesight）</a></b>：测试模型灵活性最简单且明显的方法是简单地扩展<a class="wrap external" href="https://gwern.net/creative-benchmark#copycat" rel="nofollow noreferrer noopener" target="_blank">模仿者</a>，要求其他 LLM 尝试分类作者。<br/><br/>一个模型能越准确地预测哪个模型完成了一个开头，那个被预测的模型就越差，因为它留下了如此清晰的「马脚」并且未能模仿原始作者——如果你愿意这么说的话，它未能通过文学图灵测试。<br/><br/></li><li data-pid="f3FZ8uM9"><b>明星变色龙：<a class="wrap external" href="https://en.wikipedia.org/wiki/Exquisite_Corpse" rel="nofollow noreferrer noopener" target="_blank">精致尸体（Exquisite Corpse）</a></b>：扩展<a class="wrap external" href="https://gwern.net/creative-benchmark#star-chameleon" rel="nofollow noreferrer noopener" target="_blank">那个任务</a>，我们可以让 LLM 轮流续写故事并即兴创作。因为我们正在使用多个模型，我们不一定想要关注多样性本身，而是故事的质量——不仅仅是一个 LLM 添加的章节，而是在与他人良好合作中，使其他 LLM 随后的续写变好而不是独占舞台。<br/><br/>在这个<a class="wrap external" href="https://en.wikipedia.org/wiki/Cooperative_game_theory" rel="nofollow noreferrer noopener" target="_blank">合作博弈</a>中，我们可以通过使用<a class="wrap external" href="https://en.wikipedia.org/wiki/Shapley_value" rel="nofollow noreferrer noopener" target="_blank">夏普利值（Shapley value）</a>来测量一个 LLM 的表现，并将 LLM 轮换到尽可能多的排列中，对结果的「精致尸体」故事作为一个整体进行质量评分，并看哪个 LLM 导致了更高的分数。<br/><br/></li><li data-pid="yPifdHfZ"><b>风格实验室</b>：关于生成模型的一个主要抱怨是它们不发明新「风格」。抛开我对该主张的一些反对意见，这看起来像一个有趣的任务——LLM 能定义一种新风格吗？<br/><br/>我们可以再次将其框架为 LLM 之间的一个准合作竞争，以产生具有最大距离的输出。让我们设想一个新的短篇故事风格。我们可以从一个基本故事前提开始，我们可以提示每个 LLM 既写那个故事，又写一个描述来定义「一个新风格」（其中我们可以加入随机化的风格要求），然后用那个新风格写故事前提，并对每个其他 LLM 的「新风格」也这样做。<br/><br/>最好的「新风格」将导致基本故事前提提示和风格增强提示之间的最大平均差异，且跨越所有 LLM。<br/>这奖励那个能写出清晰且独特风格描述的 LLM，这会导致所有 LLM（不仅仅是它自己）写出一个非常不同的故事。<br/><br/>（如果我们进行实际的 RL 训练，而不是简单的「离线」基准测试，它将开始类似于各种多智能体论文如 <a class="wrap external" href="https://arxiv.org/abs/1703.06585" rel="nofollow noreferrer noopener" target="_blank">Das2017</a>，该论文训练单独的智能体去学习描述图像以及分别从描述中识别图像。）</li></ul><h2><b>4 视觉-语言任务</b></h2><p data-pid="sOa9XLjn">许多担忧也适用于文本转图像模型或视觉-语言模型，我们也可能想要在这些领域对创造力/多样性进行基准测试。不幸的是，虽然大多数这些任务想法看起来应该有类似的扩展到图像+说明文字/文档，并且似乎可能有更多利用多模态的任务，但类比似乎并不容易撰写，我会将详细建议留给未来。</p><p data-pid="NnmmKzWp">我认为现在仅仅开发纯文本创造力/多样性基准测试就足够了，并完成一些基准测试。一旦用户和研究人员对类似指标有了需求，对于每个人来说，如何构建视觉-语言模型任务并为此开发基准测试将变得更加明显。</p><h2><b>5 脚注</b></h2><p data-pid="D0HXdH6X">[1] 「偏好学习」学到的是 <i><a class="wrap external" href="https://en.wikipedia.org/wiki/L%27homme_moyen" rel="nofollow noreferrer noopener" target="_blank">l’homme moyen</a></i>（平均人）……但他并不存在，特别是在高维空间。如果你认为他存在，问问你自己：</p><ol><li data-pid="kr11fdKZ">偏好学习数据集中的任何人类评分者是被近乎完美地预测的吗，接近<a class="wrap external" href="https://en.wikipedia.org/wiki/Repeatability" rel="nofollow noreferrer noopener" target="_blank">重测</a>噪声天花板（例如 &gt;95% 正确预测随机成对比较）？</li><li data-pid="OhjfPFvR">如果「不」，为什么不？<br/>如果「是」……鉴于众包评分者被证明作弊或实际上是机器人的问题日益严重，你为什么<b>确定</b>它是人类？</li></ol><p data-pid="auOAKZlp">[2] 那些在 Twitter 上花费太多时间的人可能记得一个有趣的 Twitter 戏剧，其中 <a class="wrap external" href="https://en.wikipedia.org/wiki/Paul_Graham_(programmer)" rel="nofollow noreferrer noopener" target="_blank">Paul Graham</a> <a class="wrap external" href="https://x.com/paulg/status/1777030573220933716" rel="nofollow noreferrer noopener" target="_blank">批评</a> ChatGPT 使用 <a class="wrap external" href="https://arxiv.org/abs/2406.07016" rel="nofollow noreferrer noopener" target="_blank">‘delve’</a>（钻研）及其糟糕的风格，许多尼日利亚人感到被冒犯，并试图通过炫耀他们的英语熟练度来教育他——结果只是因为写出了像 ChatGPT 一样糟糕的、矫揉造作的晦涩散文而让自己尴尬，反而证明了他的观点。</p><p data-pid="Iz6D2SLo">[3] 这是「模型坍塌」的真正危险：不是因为在合成数据上训练模型是坏的，因为其供应将<b>偶然地</b>导致「坍塌」（因为那甚至在<a class="wrap external" href="https://arxiv.org/abs/2404.01413" rel="nofollow noreferrer noopener" target="_blank">稍微现实的条件下</a>都不会发生）；而是，人类偏好和像社交媒体这样的媒介将被该过程扭曲，并开始<b>要求</b>坍塌。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="ZBLCHnSf"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 gemini-3-pro-preview，校对 Jarrett Ye<br/>原文：<a class="wrap external" href="https://gwern.net/creative-benchmark" rel="nofollow noreferrer noopener" target="_blank">Towards Benchmarking LLM Diversity &amp; Creativity · Gwern.net</a><br/><a class="wrap external" href="https://gwern.net/doc/ai/nn/transformer/gpt/poetry/index" rel="nofollow noreferrer noopener" target="_blank">GPT 诗歌</a>，<a class="wrap external" href="https://gwern.net/doc/reinforcement-learning/exploration/index" rel="nofollow noreferrer noopener" target="_blank">RL 探索</a>，<a class="wrap external" href="https://gwern.net/doc/reinforcement-learning/preference-learning/mode-collapse/index" rel="nofollow noreferrer noopener" target="_blank">AI 模式坍塌</a>，<a class="wrap external" href="https://gwern.net/doc/science/fermi-problem/index" rel="nofollow noreferrer noopener" target="_blank">费米问题</a><br/>创建于：2024-12-08 | 最后修改：2024-12-15</blockquote>
+
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：Gwern Branwen</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>如何不使用Anki创建apkg格式牌组? - @Thoughts Memo | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="如何不使用Anki创建apkg格式牌组? - @Thoughts Memo | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="Anki 代码是开源的，题主学计算机的可以自己看一下哦[滑稽] 代码如下 # Packaged Anki decks ###################################################################### class AnkiPackageExporter(AnkiExporter): key = lambda: _("Anki Deck Package") ext = ".apkg" def __init__(self, col: Collection) -> None: AnkiExporter.__init__(self, col) def exportInto(self, path: str) -> None: # open a zip file z = zipfile…">
+<meta property="og:url" content="https://www.zhihu.com/question/411324785/answer/1376071771">
+<meta name="description" content="Anki 代码是开源的，题主学计算机的可以自己看一下哦[滑稽] 代码如下 # Packaged Anki decks ###################################################################### class AnkiPackageExporter(AnkiExporter): key = lambda: _("Anki Deck Package") ext = ".apkg" def __init__(self, col: Collection) -> None: AnkiExporter.__init__(self, col) def exportInto(self, path: str) -> None: # open a zip file z = zipfile…">
+<meta data-pagefind-meta="title" content="如何不使用Anki创建apkg格式牌组?">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="如何不使用Anki创建apkg格式牌组? - @Thoughts Memo | ZhiHu Archive">
+<meta name="twitter:description" content="Anki 代码是开源的，题主学计算机的可以自己看一下哦[滑稽] 代码如下 # Packaged Anki decks ###################################################################### class AnkiPackageExporter(AnkiExporter): key = lambda: _("Anki Deck Package") ext = ".apkg" def __init__(self, col: Collection) -> None: AnkiExporter.__init__(self, col) def exportInto(self, path: str) -> None: # open a zip file z = zipfile…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/411324785/answer/1376071771");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/411324785/answer/1376071771" target="_blank" rel="noopener noreferrer">如何不使用Anki创建apkg格式牌组?</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。</p>
+</div>
+</div>
+<time datetime="2020-08-01T06:47:52">发表于 2020年08月01日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">27 👍 / 4 💬</p>
+</header>
+<article data-pagefind-body>
+<div style="margin: 0; padding: 0.5em 1em; border-left: 4px solid #999; font-size: 0.86em; background: #f9f9f9;">
+<h2>问题描述</h2>
+<p>IOS/Mac有MarginNote，Windows有BookxNote他们都支持将笔记导出为apkg格式，他们是如何实现的呢？</p>
+</div>
+<hr>
+<p data-pid="0vEApRlZ">Anki 代码是开源的，题主学计算机的可以自己看一下哦[滑稽]</p><p data-pid="ozr0PDSe">代码如下</p><div class="highlight"><pre><code class="language-python3"><span class="c1"># Packaged Anki decks</span>
+<span class="c1">######################################################################</span>
+
+
+<span class="k">class</span> <span class="nc">AnkiPackageExporter</span><span class="p">(</span><span class="n">AnkiExporter</span><span class="p">):</span>
+
+<span class="n">key</span> <span class="o">=</span> <span class="k">lambda</span><span class="p">:</span> <span class="n">_</span><span class="p">(</span><span class="s2">"Anki Deck Package"</span><span class="p">)</span>
+<span class="n">ext</span> <span class="o">=</span> <span class="s2">".apkg"</span>
+
+<span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">col</span><span class="p">:</span> <span class="n">Collection</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="n">AnkiExporter</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">col</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">exportInto</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="c1"># open a zip file</span>
+<span class="n">z</span> <span class="o">=</span> <span class="n">zipfile</span><span class="o">.</span><span class="n">ZipFile</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s2">"w"</span><span class="p">,</span> <span class="n">zipfile</span><span class="o">.</span><span class="n">ZIP_DEFLATED</span><span class="p">,</span> <span class="n">allowZip64</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">media</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">doExport</span><span class="p">(</span><span class="n">z</span><span class="p">,</span> <span class="n">path</span><span class="p">)</span>
+<span class="c1"># media map</span>
+<span class="n">z</span><span class="o">.</span><span class="n">writestr</span><span class="p">(</span><span class="s2">"media"</span><span class="p">,</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">media</span><span class="p">))</span>
+<span class="n">z</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">doExport</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">z</span><span class="p">:</span> <span class="n">ZipFile</span><span class="p">,</span> <span class="n">path</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>  <span class="c1"># type: ignore</span>
+<span class="c1"># export into the anki2 file</span>
+<span class="n">colfile</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">".apkg"</span><span class="p">,</span> <span class="s2">".anki2"</span><span class="p">)</span>
+<span class="n">AnkiExporter</span><span class="o">.</span><span class="n">exportInto</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">colfile</span><span class="p">)</span>
+<span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">_v2sched</span><span class="p">:</span>
+<span class="n">z</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">colfile</span><span class="p">,</span> <span class="s2">"collection.anki2"</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+<span class="c1"># prevent older clients from accessing</span>
+<span class="c1"># pylint: disable=unreachable</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">_addDummyCollection</span><span class="p">(</span><span class="n">z</span><span class="p">)</span>
+<span class="n">z</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">colfile</span><span class="p">,</span> <span class="s2">"collection.anki21"</span><span class="p">)</span>
+
+<span class="c1"># and media</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">prepareMedia</span><span class="p">()</span>
+<span class="n">media</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_exportMedia</span><span class="p">(</span><span class="n">z</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">mediaFiles</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">mediaDir</span><span class="p">)</span>
+<span class="c1"># tidy up intermediate files</span>
+<span class="n">os</span><span class="o">.</span><span class="n">unlink</span><span class="p">(</span><span class="n">colfile</span><span class="p">)</span>
+<span class="n">p</span> <span class="o">=</span> <span class="n">path</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">".apkg"</span><span class="p">,</span> <span class="s2">".media.db2"</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">p</span><span class="p">):</span>
+<span class="n">os</span><span class="o">.</span><span class="n">unlink</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
+<span class="n">os</span><span class="o">.</span><span class="n">chdir</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">mediaDir</span><span class="p">)</span>
+<span class="n">shutil</span><span class="o">.</span><span class="n">rmtree</span><span class="p">(</span><span class="n">path</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">".apkg"</span><span class="p">,</span> <span class="s2">".media"</span><span class="p">))</span>
+<span class="k">return</span> <span class="n">media</span>
+
+<span class="k">def</span> <span class="nf">_exportMedia</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">z</span><span class="p">:</span> <span class="n">ZipFile</span><span class="p">,</span> <span class="n">files</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="nb">str</span><span class="p">],</span> <span class="n">fdir</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]:</span>
+<span class="n">media</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">c</span><span class="p">,</span> <span class="n">file</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">files</span><span class="p">):</span>
+<span class="n">cStr</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
+<span class="n">mpath</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">fdir</span><span class="p">,</span> <span class="n">file</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isdir</span><span class="p">(</span><span class="n">mpath</span><span class="p">):</span>
+<span class="k">continue</span>
+<span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">mpath</span><span class="p">):</span>
+<span class="k">if</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="sa">r</span><span class="s2">"\.svg$"</span><span class="p">,</span> <span class="n">file</span><span class="p">,</span> <span class="n">re</span><span class="o">.</span><span class="n">IGNORECASE</span><span class="p">):</span>
+<span class="n">z</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">mpath</span><span class="p">,</span> <span class="n">cStr</span><span class="p">,</span> <span class="n">zipfile</span><span class="o">.</span><span class="n">ZIP_DEFLATED</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+<span class="n">z</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">mpath</span><span class="p">,</span> <span class="n">cStr</span><span class="p">,</span> <span class="n">zipfile</span><span class="o">.</span><span class="n">ZIP_STORED</span><span class="p">)</span>
+<span class="n">media</span><span class="p">[</span><span class="n">cStr</span><span class="p">]</span> <span class="o">=</span> <span class="n">unicodedata</span><span class="o">.</span><span class="n">normalize</span><span class="p">(</span><span class="s2">"NFC"</span><span class="p">,</span> <span class="n">file</span><span class="p">)</span>
+<span class="n">hooks</span><span class="o">.</span><span class="n">media_files_did_export</span><span class="p">(</span><span class="n">c</span><span class="p">)</span>
+
+<span class="k">return</span> <span class="n">media</span>
+
+<span class="k">def</span> <span class="nf">prepareMedia</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="c1"># chance to move each file in self.mediaFiles into place before media</span>
+<span class="c1"># is zipped up</span>
+<span class="k">pass</span>
+
+<span class="c1"># create a dummy collection to ensure older clients don't try to read</span>
+<span class="c1"># data they don't understand</span>
+<span class="k">def</span> <span class="nf">_addDummyCollection</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="nb">zip</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+<span class="n">path</span> <span class="o">=</span> <span class="n">namedtmp</span><span class="p">(</span><span class="s2">"dummy.anki2"</span><span class="p">)</span>
+<span class="n">c</span> <span class="o">=</span> <span class="n">Collection</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+<span class="n">n</span> <span class="o">=</span> <span class="n">c</span><span class="o">.</span><span class="n">newNote</span><span class="p">()</span>
+<span class="n">n</span><span class="p">[</span><span class="n">_</span><span class="p">(</span><span class="s2">"Front"</span><span class="p">)]</span> <span class="o">=</span> <span class="s2">"This file requires a newer version of Anki."</span>
+<span class="n">c</span><span class="o">.</span><span class="n">addNote</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+<span class="n">c</span><span class="o">.</span><span class="n">save</span><span class="p">()</span>
+<span class="n">c</span><span class="o">.</span><span class="n">close</span><span class="p">(</span><span class="n">downgrade</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+<span class="nb">zip</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="s2">"collection.anki2"</span><span class="p">)</span>
+<span class="n">os</span><span class="o">.</span><span class="n">unlink</span><span class="p">(</span><span class="n">path</span><span class="p">)</span></code></pre></div><p data-pid="-GzNdiqU">分析代码我们就能看出，其实 apkg 文件是一个压缩包，里面有关于卡片信息的数据库和媒体文件。</p><p data-pid="j2WUyasm">我们用 7z 来打开一下 .apkg 文件：</p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://pic1.zhimg.com/50/v2-be1eec9a4f41d79e65787fa79cdb52ff_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-b0373c553398a61da5f7fef706b94ee2_r.jpg?source=2c26e567" data-original-token="v2-b0373c553398a61da5f7fef706b94ee2" data-rawheight="283" data-rawwidth="1417" data-size="normal" src="https://picx.zhimg.com/50/v2-b0373c553398a61da5f7fef706b94ee2_720w.jpg?source=2c26e567" width="1417"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://pic1.zhimg.com/50/v2-be1eec9a4f41d79e65787fa79cdb52ff_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-b0373c553398a61da5f7fef706b94ee2_r.jpg?source=2c26e567" data-original-token="v2-b0373c553398a61da5f7fef706b94ee2" data-rawheight="283" data-rawwidth="1417" data-size="normal" src="https://picx.zhimg.com/50/v2-b0373c553398a61da5f7fef706b94ee2_720w.jpg?source=2c26e567" width="1417"/></figure><p data-pid="7CaSAaWI">其中，.anki2 的文件就是一个 SQLite 数据库，我们可以用 DB Browser for SQLite 打开看看：</p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-55ed434a0de4616bda12f62850bed903_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-6bfb01135d694a69aecdf9685f032074_r.jpg?source=2c26e567" data-original-token="v2-6bfb01135d694a69aecdf9685f032074" data-rawheight="625" data-rawwidth="1019" data-size="normal" src="https://picx.zhimg.com/50/v2-6bfb01135d694a69aecdf9685f032074_720w.jpg?source=2c26e567" width="1019"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-55ed434a0de4616bda12f62850bed903_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-6bfb01135d694a69aecdf9685f032074_r.jpg?source=2c26e567" data-original-token="v2-6bfb01135d694a69aecdf9685f032074" data-rawheight="625" data-rawwidth="1019" data-size="normal" src="https://picx.zhimg.com/50/v2-6bfb01135d694a69aecdf9685f032074_720w.jpg?source=2c26e567" width="1019"/></figure><p data-pid="HE6YiCwB">其中，cards 这个表就是卡片信息，notes 表是笔记信息：</p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-42220ce6e2f20a129f22f3e3449e7991_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-10db7d023ca2ce1ae045a2f0d2fdb3aa_r.jpg?source=2c26e567" data-original-token="v2-10db7d023ca2ce1ae045a2f0d2fdb3aa" data-rawheight="568" data-rawwidth="1499" data-size="normal" src="https://picx.zhimg.com/50/v2-10db7d023ca2ce1ae045a2f0d2fdb3aa_720w.jpg?source=2c26e567" width="1499"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-42220ce6e2f20a129f22f3e3449e7991_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-10db7d023ca2ce1ae045a2f0d2fdb3aa_r.jpg?source=2c26e567" data-original-token="v2-10db7d023ca2ce1ae045a2f0d2fdb3aa" data-rawheight="568" data-rawwidth="1499" data-size="normal" src="https://picx.zhimg.com/50/v2-10db7d023ca2ce1ae045a2f0d2fdb3aa_720w.jpg?source=2c26e567" width="1499"/></figure><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://pic1.zhimg.com/50/v2-85442904f24e0b52e78a908e3638d681_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-b3e04cca1e5806559be9235e256d1d08_r.jpg?source=2c26e567" data-original-token="v2-b3e04cca1e5806559be9235e256d1d08" data-rawheight="519" data-rawwidth="1074" data-size="normal" src="https://picx.zhimg.com/50/v2-b3e04cca1e5806559be9235e256d1d08_720w.jpg?source=2c26e567" width="1074"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://pic1.zhimg.com/50/v2-85442904f24e0b52e78a908e3638d681_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-b3e04cca1e5806559be9235e256d1d08_r.jpg?source=2c26e567" data-original-token="v2-b3e04cca1e5806559be9235e256d1d08" data-rawheight="519" data-rawwidth="1074" data-size="normal" src="https://picx.zhimg.com/50/v2-b3e04cca1e5806559be9235e256d1d08_720w.jpg?source=2c26e567" width="1074"/></figure><p data-pid="TaOw1Re7">然后我们回归正题，如何不用 Anki 创建 apkg 格式的牌组呢？</p><p data-pid="XZhyMae3">首先需要创建一个和 Anki2 格式相对应的 SQLite 的数据库，然后用 zip 格式压缩，最后把后缀改成 apkg 即可。</p><p data-pid="G2L3v-Cl">（当然，这是比较笼统的说法，具体做法请研究 Anki 的源码。</p><p data-pid="2rH-TBn9">2020/8/4 更新：</p><a class="external" data-draft-node="block" data-draft-type="link-card" href="https://github.com/ankidroid/Anki-Android/wiki/Database-Structure" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">https://</span><span class="visible">github.com/ankidroid/An</span><span class="invisible">ki-Android/wiki/Database-Structure</span><span class="ellipsis"></span></a><p data-pid="YyfZ26JI">最近在研究 Anki 学习数据，这个数据库的文档帮大忙了。 <a class="member_mention" data-hash="9738c822b4f758fd6162b6f97622fa42" data-hovercard="p$b$9738c822b4f758fd6162b6f97622fa42" href="https://www.zhihu.com/people/9738c822b4f758fd6162b6f97622fa42" rel="noopener noreferrer" target="_blank">@小石子</a> 感兴趣可以来看一下。</p>
+
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

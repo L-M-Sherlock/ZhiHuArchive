@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>anki中筛选过滤器如何有效使用"使用第二个过滤器"? - @Thoughts Memo | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="anki中筛选过滤器如何有效使用"使用第二个过滤器"? - @Thoughts Memo | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="就是取个并集的关系。Filter1: 条件1 + Filter2:条件2，得到的结果就是把各自满足条件的卡片一起放到筛选牌组中。 可能你会问，直接用 OR 不就能实现并集了么？ 确实是这样的。但是一个筛选器 + OR，只能控制卡片的总数： [图片] 但两个筛选器，就能分别控制两组卡片的比例了： [图片] 还能分别控制卡片的出现顺序，可玩性就很高。（不要乱玩） 搭配以下两篇文章食用更佳： [文章: [实用]蓝色牌组:啊哈哈哈,高阶魔法] [文章: 如何正确利用 「Anki」强大的卡片查找功能？]">
+<meta property="og:url" content="https://www.zhihu.com/question/490852938/answer/2167509509">
+<meta name="description" content="就是取个并集的关系。Filter1: 条件1 + Filter2:条件2，得到的结果就是把各自满足条件的卡片一起放到筛选牌组中。 可能你会问，直接用 OR 不就能实现并集了么？ 确实是这样的。但是一个筛选器 + OR，只能控制卡片的总数： [图片] 但两个筛选器，就能分别控制两组卡片的比例了： [图片] 还能分别控制卡片的出现顺序，可玩性就很高。（不要乱玩） 搭配以下两篇文章食用更佳： [文章: [实用]蓝色牌组:啊哈哈哈,高阶魔法] [文章: 如何正确利用 「Anki」强大的卡片查找功能？]">
+<meta data-pagefind-meta="title" content="anki中筛选过滤器如何有效使用"使用第二个过滤器"?">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="anki中筛选过滤器如何有效使用"使用第二个过滤器"? - @Thoughts Memo | ZhiHu Archive">
+<meta name="twitter:description" content="就是取个并集的关系。Filter1: 条件1 + Filter2:条件2，得到的结果就是把各自满足条件的卡片一起放到筛选牌组中。 可能你会问，直接用 OR 不就能实现并集了么？ 确实是这样的。但是一个筛选器 + OR，只能控制卡片的总数： [图片] 但两个筛选器，就能分别控制两组卡片的比例了： [图片] 还能分别控制卡片的出现顺序，可玩性就很高。（不要乱玩） 搭配以下两篇文章食用更佳： [文章: [实用]蓝色牌组:啊哈哈哈,高阶魔法] [文章: 如何正确利用 「Anki」强大的卡片查找功能？]">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/490852938/answer/2167509509");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/490852938/answer/2167509509" target="_blank" rel="noopener noreferrer">anki中筛选过滤器如何有效使用"使用第二个过滤器"?</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。</p>
+</div>
+</div>
+<time datetime="2021-10-12T13:14:20">发表于 2021年10月12日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">11 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<div style="margin: 0; padding: 0.5em 1em; border-left: 4px solid #999; font-size: 0.86em; background: #f9f9f9;">
+<h2>问题描述</h2>
+<p>ank 这几个 过滤器是怎么合作的 ?</p>
+</div>
+<hr>
+<p data-pid="xWRdxxbv">就是取个并集的关系。Filter1: 条件1 + Filter2:条件2，得到的结果就是把各自满足条件的卡片一起放到筛选牌组中。</p><p data-pid="x_CWMuS9">可能你会问，直接用 OR 不就能实现并集了么？</p><p data-pid="ZGhAEz9V">确实是这样的。但是一个筛选器 + OR，只能控制卡片的总数：</p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://pica.zhimg.com/50/v2-7122154e26bca673ac8690a5b7a3e4a7_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-450c4fa403adfc61760ed41eb4e053a5_r.jpg?source=2c26e567" data-original-token="v2-450c4fa403adfc61760ed41eb4e053a5" data-rawheight="312" data-rawwidth="749" data-size="normal" src="https://picx.zhimg.com/50/v2-450c4fa403adfc61760ed41eb4e053a5_720w.jpg?source=2c26e567" width="749"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://pica.zhimg.com/50/v2-7122154e26bca673ac8690a5b7a3e4a7_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-450c4fa403adfc61760ed41eb4e053a5_r.jpg?source=2c26e567" data-original-token="v2-450c4fa403adfc61760ed41eb4e053a5" data-rawheight="312" data-rawwidth="749" data-size="normal" src="https://picx.zhimg.com/50/v2-450c4fa403adfc61760ed41eb4e053a5_720w.jpg?source=2c26e567" width="749"/></figure><p data-pid="_nRdVAXM">但两个筛选器，就能分别控制两组卡片的比例了：</p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://pica.zhimg.com/50/v2-a224cc50c3a349bfc40654af3b16fdf4_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-e8b79793b8319868c7784009ea391513_r.jpg?source=2c26e567" data-original-token="v2-e8b79793b8319868c7784009ea391513" data-rawheight="400" data-rawwidth="734" data-size="normal" src="https://pic1.zhimg.com/50/v2-e8b79793b8319868c7784009ea391513_720w.jpg?source=2c26e567" width="734"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://pica.zhimg.com/50/v2-a224cc50c3a349bfc40654af3b16fdf4_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-e8b79793b8319868c7784009ea391513_r.jpg?source=2c26e567" data-original-token="v2-e8b79793b8319868c7784009ea391513" data-rawheight="400" data-rawwidth="734" data-size="normal" src="https://pic1.zhimg.com/50/v2-e8b79793b8319868c7784009ea391513_720w.jpg?source=2c26e567" width="734"/></figure><p data-pid="BZxMhZ7L">还能分别控制卡片的出现顺序，可玩性就很高。（不要乱玩）</p><p data-pid="ZrjWKJtX">搭配以下两篇文章食用更佳：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic4.zhimg.com/v2-d28d0ab92b4b5442f13e9f3393c0a19d_ipico.jpg" data-image-height="594" data-image-width="667" href="https://zhuanlan.zhihu.com/p/94067520" rel="noopener noreferrer" target="_blank">弥乱：[实用]蓝色牌组:啊哈哈哈,高阶魔法</a><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic1.zhimg.com/v2-8bef13b40f868e627e1c5074ce345480_ipico.jpg" data-image-height="1076" data-image-width="1097" href="./48318470.html" rel="noopener noreferrer" target="_blank">叶峻峣：如何正确利用 「Anki」强大的卡片查找功能？</a><p data-pid="6Ga1PxBq">关于筛选牌组的应用实例，请见：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://picx.zhimg.com/v2-e4cf725e026d6bc412dbc5beb0f4d7d7_180x120.jpg" data-image-height="1178" data-image-width="1514" href="./1945096976.html" rel="noopener noreferrer" target="_blank">Anki牌组参数该怎样设置，不会产生太多的刷卡压力？</a><p data-pid="CKYvwzts">参考文献：</p><a class="wrap external" data-draft-node="block" data-draft-type="link-card" href="https://docs.ankiweb.net/filtered-decks.html" rel="nofollow noreferrer noopener" target="_blank">Filtered Decks - Anki Manual</a><p></p>
+
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>用间隔重复系统来看穿数学概念 - Michael Nielsen | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="用间隔重复系统来看穿数学概念 - Michael Nielsen | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/694032460">
+<meta property="og:image" content="">
+<meta property="og:description" content="用间隔重复系统来看穿数学概念 [1] Michael Nielsen 探索了一种深化数学理解的方法。这种方法能让人对数学的各个组成部分了如指掌，几乎能直观地 看出 数学结果。他用编写 间隔重复记忆系统 [2]的卡片来实现这一方法。尽管他在文章最后提到，实际上并不必须依赖 …">
+<meta name="description" content="用间隔重复系统来看穿数学概念 [1] Michael Nielsen 探索了一种深化数学理解的方法。这种方法能让人对数学的各个组成部分了如指掌，几乎能直观地 看出 数学结果。他用编写 间隔重复记忆系统 [2]的卡片来实现这一方法。尽管他在文章最后提到，实际上并不必须依赖 …">
+<meta data-pagefind-meta="title" content="用间隔重复系统来看穿数学概念 - Michael Nielsen">
+<meta data-pagefind-meta="image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="用间隔重复系统来看穿数学概念 - Michael Nielsen | ZhiHu Archive">
+<meta name="twitter:description" content="用间隔重复系统来看穿数学概念 [1] Michael Nielsen 探索了一种深化数学理解的方法。这种方法能让人对数学的各个组成部分了如指掌，几乎能直观地 看出 数学结果。他用编写 间隔重复记忆系统 [2]的卡片来实现这一方法。尽管他在文章最后提到，实际上并不必须依赖 …">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/694032460");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src=""/>
+<h1><a href="https://zhuanlan.zhihu.com/p/694032460" target="_blank" rel="noopener noreferrer">用间隔重复系统来看穿数学概念 - Michael Nielsen</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2024-04-23T03:13:48">发表于 2024年04月23日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">46 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="QeUHJ80b"><a class="wrap external" href="https://cognitivemedium.com/srs-mathematics" rel="nofollow noreferrer noopener" target="_blank">用间隔重复系统来看穿数学概念</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="用间隔重复系统来看穿数学概念" data-url="https://zhuanlan.zhihu.com/p/593630309">[1]</sup></p><p data-pid="BykVSYFu"><a class="wrap external" href="https://notes.andymatuschak.org/z4JuirVwUcoGL4wZ8dM6Los" rel="nofollow noreferrer noopener" target="_blank">Michael Nielsen</a> 探索了一种深化数学理解的方法。这种方法能让人对数学的各个组成部分了如指掌，几乎能直观地<b>看出</b>数学结果。他用编写<a class="wrap external" href="https://notes.andymatuschak.org/z2D1qPwddPktBjpNuwYFVva" rel="nofollow noreferrer noopener" target="_blank">间隔重复记忆系统</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="间隔重复记忆系统（Spaced repetition memory system）" data-url="https://zhuanlan.zhihu.com/p/404257681">[2]</sup>的卡片来实现这一方法。尽管他在文章最后提到，实际上并不必须依赖 SRS 的形式，这种形式只是帮助将复杂思想细化为更精细的原子。（对我来说，写笔记也有类似的效果，只是粒度更粗一些：<a class="wrap external" href="https://notes.andymatuschak.org/zNUaiGAXp21eorsER1Jm9yU" rel="nofollow noreferrer noopener" target="_blank">常青笔记应该是原子化的</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="常青笔记应该是原子化的" data-url="https://zhuanlan.zhihu.com/p/420726986">[3]</sup>。）当然，将这些内容作为间隔重复系统的卡片写下来的好处在于，人们将更容易记住这些结果。</p><p data-pid="jEVI5JaU">他建议分两个大致的阶段进行：首先，通过不断的反复探索来理解证明。你会反复地阅读，编写代表证明中的各个要点的卡片。你会尽量使这些卡片简洁而有针对性，并寻找「思考『相同』数学概念的多种不同方式」——找到各部分之间的联系，提出变体，用多种方式进行解释等。</p><p data-pid="6WYKpkBp">Michael 希望以<a class="wrap external" href="https://notes.andymatuschak.org/zJGFwgcC4YLRt6K2vVDFEvR" rel="nofollow noreferrer noopener" target="_blank">强制提问</a>结束这个阶段：也就是说，将整个证明浓缩成一个简单的卡片，直击其核心。</p><p data-pid="VSjwtppC"><a class="wrap external" href="https://notes.andymatuschak.org/zAPNwLWboaoymgEAPyUwjnT" rel="nofollow noreferrer noopener" target="_blank">学习别人的间隔重复记忆卡片通常是无效的</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="学习别人的间隔重复记忆卡片通常是无效的" data-url="https://zhuanlan.zhihu.com/p/397271029">[4]</sup>，Michael 认为这一点在这种情况下尤其如此：对他来说，价值主要不在于记忆，而在于拆解和深入理解的过程。实际上，他理解得越深，其他人就越难理解他的思路；他的许多卡片背面是空白或者难以解释的，因为那些是他无法用言语表达的思考。</p><p data-pid="Sq3Da0jZ">Michael 有一些通过<a class="wrap external" href="https://notes.andymatuschak.org/zXxUPAFZBthh97wAKBEj7Tq" rel="nofollow noreferrer noopener" target="_blank">人类认知中的「组块」</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="5" data-text="人类认知中的「组块」" data-url="https://zhuanlan.zhihu.com/p/419172087">[5]</sup>理解的笔记：<a class="wrap external" href="https://notes.andymatuschak.org/z8VFVdTR19snWjFMxnyNabBCbmeoWrQ287TdT" rel="nofollow noreferrer noopener" target="_blank">学习越来越复杂的概念可能相当于形成更大的有效组块</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="6" data-text="学习越来越复杂的概念可能相当于形成更大的有效组块" data-url="https://zhuanlan.zhihu.com/p/402333898">[6]</sup></p><p data-pid="ZapfjrlP">Michael 的第二阶段是「突破界限」：他会改变证明的假设，看看当条件被削弱时会发生什么，寻找替代的证明方法，以各种方式「戳戳看，看看会发生什么」。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid="d1tKT5qf">暂无</li></ul><h2>声明</h2><p data-pid="a1kSLiu9">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="ga9V2o9D"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class="nolink">unnamed_2964</span>、GPT-4，校对 Jarrett Ye<br/>原文：<a class="wrap external" href="https://notes.andymatuschak.org/zT8XEeFLdnpYheco8XxSicY" rel="nofollow noreferrer noopener" target="_blank">Using spaced repetition systems to see through a piece of mathematics - Michael Nielsen (andymatuschak.org)</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 用间隔重复系统来看穿数学概念 <a href="./593630309.html" target="_blank" rel="noopener noreferrer">./593630309.html</a><br>2. 间隔重复记忆系统（Spaced repetition memory system） <a href="./404257681.html" target="_blank" rel="noopener noreferrer">./404257681.html</a><br>3. 常青笔记应该是原子化的 <a href="./420726986.html" target="_blank" rel="noopener noreferrer">./420726986.html</a><br>4. 学习别人的间隔重复记忆卡片通常是无效的 <a href="./397271029.html" target="_blank" rel="noopener noreferrer">./397271029.html</a><br>5. 人类认知中的「组块」 <a href="./419172087.html" target="_blank" rel="noopener noreferrer">./419172087.html</a><br>6. 学习越来越复杂的概念可能相当于形成更大的有效组块 <a href="./402333898.html" target="_blank" rel="noopener noreferrer">./402333898.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：间隔重复 & 注意力管理</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

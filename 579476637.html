@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>记忆的双组分模型 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="记忆的双组分模型 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/579476637">
+<meta property="og:image" content="">
+<meta property="og:description" content="模型概述长期记忆的双组分模型断言，两个相互独立的变量足以描述人类大脑中 原子记忆 的状态。 稳定性 [1]（S）决定了在未被干扰和未被提取的情况下，记忆可以保持多长时间 可提取性 [2]（R）决定了在给定时刻，记忆可以被提取的概率 生物学功能我们相信，该模…">
+<meta name="description" content="模型概述长期记忆的双组分模型断言，两个相互独立的变量足以描述人类大脑中 原子记忆 的状态。 稳定性 [1]（S）决定了在未被干扰和未被提取的情况下，记忆可以保持多长时间 可提取性 [2]（R）决定了在给定时刻，记忆可以被提取的概率 生物学功能我们相信，该模…">
+<meta data-pagefind-meta="title" content="记忆的双组分模型">
+<meta data-pagefind-meta="image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="记忆的双组分模型 | ZhiHu Archive">
+<meta name="twitter:description" content="模型概述长期记忆的双组分模型断言，两个相互独立的变量足以描述人类大脑中 原子记忆 的状态。 稳定性 [1]（S）决定了在未被干扰和未被提取的情况下，记忆可以保持多长时间 可提取性 [2]（R）决定了在给定时刻，记忆可以被提取的概率 生物学功能我们相信，该模…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/579476637");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src=""/>
+<h1><a href="https://zhuanlan.zhihu.com/p/579476637" target="_blank" rel="noopener noreferrer">记忆的双组分模型</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2022-11-01T12:03:29">发表于 2022年11月01日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">8 👍 / 2 💬</p>
+</header>
+<article data-pagefind-body>
+<h2>模型概述</h2><p data-pid="8yL38Qbk">长期记忆的双组分模型断言，两个相互独立的变量足以描述人类大脑中<a class="wrap external" href="https://supermemo.guru/wiki/Atomic_memory" rel="nofollow noreferrer noopener" target="_blank">原子记忆</a>的状态。</p><ul><li data-pid="caU5g2Np"><a class="wrap external" href="https://supermemo.guru/wiki/Stability" rel="nofollow noreferrer noopener" target="_blank">稳定性</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="记忆稳定性" data-url="https://zhuanlan.zhihu.com/p/559298549">[1]</sup>（S）决定了在未被干扰和未被提取的情况下，记忆可以保持多长时间<br/> </li><li data-pid="arHlacY8"><a class="wrap external" href="https://supermemo.guru/wiki/Retrievability" rel="nofollow noreferrer noopener" target="_blank">可提取性</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="记忆可提取性" data-url="https://zhuanlan.zhihu.com/p/559819340">[2]</sup>（R）决定了在给定时刻，记忆可以被提取的概率<br/> </li></ul><h2>生物学功能</h2><p data-pid="FlEEILg8">我们相信，该模型体现出为了阻止新皮质网络中灾难性<a class="wrap external" href="https://supermemo.guru/wiki/Interference" rel="nofollow noreferrer noopener" target="_blank">干扰</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="干扰" data-url="https://zhuanlan.zhihu.com/p/269974053">[3]</sup>的进化。记忆<a class="wrap external" href="https://supermemo.guru/wiki/Stability" rel="nofollow noreferrer noopener" target="_blank">稳定性</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="记忆稳定性" data-url="https://zhuanlan.zhihu.com/p/559298549">[1]</sup>将降低突触权重的变动，并阻止很有用的记忆被<a class="wrap external" href="https://supermemo.guru/wiki/Forgetting" rel="nofollow noreferrer noopener" target="_blank">遗忘</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="遗忘" data-url="https://zhuanlan.zhihu.com/p/558542113">[4]</sup>。另一方面，<a class="wrap external" href="https://supermemo.guru/wiki/Spacing_effect" rel="nofollow noreferrer noopener" target="_blank">间隔效应</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="5" data-text="间隔效应" data-url="https://zhuanlan.zhihu.com/p/424603970">[5]</sup>保护记忆免于在频繁接触中达到过高的<a class="wrap external" href="https://supermemo.guru/wiki/Stability" rel="nofollow noreferrer noopener" target="_blank">稳定性</a>（参见：<a class="wrap external" href="https://supermemo.guru/wiki/Structural_and_molecular_mechanisms_of_the_spacing_effect" rel="nofollow noreferrer noopener" target="_blank">间隔效应的结构与分子机理</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="6" data-text="间隔效应的结构与分子机理" data-url="https://zhuanlan.zhihu.com/p/288609114">[6]</sup>）。</p><p data-pid="Xt55bAYM"><b>记忆的双组分模型消除了可塑性-稳定性的两难问题</b></p><h2>起源</h2><p data-pid="E9CtRdNH">在记忆研究文献中，「记忆强度」这一定义不明确的术语通常代表稳定性（S）或可提取性（R）。这导致了大量混淆，并延缓了记忆研究的进展。在 <a class="wrap external" href="https://supermemo.guru/wiki/Optimization_of_learning" rel="nofollow noreferrer noopener" target="_blank">1990</a> 和 <a class="wrap external" href="https://supermemo.guru/wiki/ANE1995" rel="nofollow noreferrer noopener" target="_blank">1995</a> 这两篇论文中，我们已经从理论上证明了这两个变量——<a class="wrap external" href="https://supermemo.guru/wiki/Stability" rel="nofollow noreferrer noopener" target="_blank">S</a> 和 <a class="wrap external" href="https://supermemo.guru/wiki/Retrievability" rel="nofollow noreferrer noopener" target="_blank">R</a>——足以描述记忆的状态。</p><p data-pid="yBGk12xi"><a class="wrap external" href="https://supermemo.guru/wiki/Robert_Bjork" rel="nofollow noreferrer noopener" target="_blank">Bjork</a> 的独立研究 <i>New Theory of Disuse</i>（1992）使用了类似的术语「储存强度」和「提取强度」。另见：<a class="wrap external" href="https://supermemo.guru/wiki/Jost%E2%80%98s_Law" rel="nofollow noreferrer noopener" target="_blank">约斯特定律</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="7" data-text="约斯特定律" data-url="https://zhuanlan.zhihu.com/p/401155017">[7]</sup>。</p><p data-pid="5ojMiLiA">要了解模型的发展历史，请参阅：<a class="wrap external" href="https://supermemo.guru/wiki/Two_components_of_memory" rel="nofollow noreferrer noopener" target="_blank">记忆的两个组成成分</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="8" data-text="05 1988：记忆的两个组成成分" data-url="https://zhuanlan.zhihu.com/p/99505568">[8]</sup></p><h2>意义</h2><p data-pid="8voufq6T">该模型可用于<a class="wrap external" href="https://supermemo.guru/wiki/Modelling_molecular_and_structural_long-term_memory" rel="nofollow noreferrer noopener" target="_blank">长期记忆的分子与结构性质分析</a>。</p><p data-pid="vIGPStrZ"><a class="wrap external" href="https://supermemo.guru/wiki/SuperMemo" rel="nofollow noreferrer noopener" target="_blank">SuperMemo</a> 的 <a class="wrap external" href="https://supermemo.guru/wiki/Algorithm_SM-17" rel="nofollow noreferrer noopener" target="_blank">SM-17 算法</a>的实现和实践结果证明了双组分模型的正确性。该模型和算法使人们可以定量研究记忆。例如：<a class="wrap external" href="https://supermemo.guru/wiki/How_much_knowledge_can_human_brain_hold" rel="nofollow noreferrer noopener" target="_blank">人脑能容纳多少知识</a>？</p><p data-pid="hnc8boLf">该模型提供了支持<a class="wrap external" href="https://supermemo.guru/wiki/Grandmother_cell" rel="nofollow noreferrer noopener" target="_blank">祖母细胞</a>理论的证据。参见： <a class="wrap external" href="https://supermemo.guru/wiki/The_truth_about_grandmother_cells" rel="nofollow noreferrer noopener" target="_blank">祖母细胞的真相</a></p><blockquote data-pid="f-KYNj4Q">本<a class="wrap external" href="https://supermemo.guru/wiki/Glossary" rel="nofollow noreferrer noopener" target="_blank">术语表</a>条目用于解释《<a class="wrap external" href="https://supermemo.guru/wiki/Problem_of_Schooling" rel="nofollow noreferrer noopener" target="_blank">间隔重复的历史</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="9" data-text="0 目录《间隔重复的历史》" data-url="https://zhuanlan.zhihu.com/p/375379522">[9]</sup>》（2017）作者：<a class="wrap external" href="https://supermemo.guru/wiki/Piotr_Wozniak" rel="nofollow noreferrer noopener" target="_blank">彼得·沃兹尼亚克</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="10" data-text="彼得·沃兹尼亚克" data-url="https://zhuanlan.zhihu.com/p/303204832">[10]</sup></blockquote><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-original="https://picx.zhimg.com/v2-2a62b38d8572f8877242e2d9e49d63df_r.jpg" data-original-token="v2-2a62b38d8572f8877242e2d9e49d63df" data-rawheight="302" data-rawwidth="500" data-size="normal" src="https://picx.zhimg.com/v2-2a62b38d8572f8877242e2d9e49d63df_1440w.jpg" width="500"/><figcaption>SuperMemo: Changes in two variables of long-term memory: retrievability and stability</figcaption></figure><blockquote data-pid="qxj87g_D"> 图：示例<a class="wrap external" href="https://supermemo.guru/wiki/Piece_of_knowledge" rel="nofollow noreferrer noopener" target="_blank">知识片段</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="11" data-text="条目" data-url="https://zhuanlan.zhihu.com/p/571700330">[11]</sup>的记忆状态随时间的变化。横轴表示跨越整个<a class="wrap external" href="https://supermemo.guru/wiki/Repetition_history" rel="nofollow noreferrer noopener" target="_blank">重复历史</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="12" data-text="重复历史" data-url="https://zhuanlan.zhihu.com/p/574628398">[12]</sup>的时间。顶部面板展示了<a class="wrap external" href="https://supermemo.guru/wiki/Retrievability" rel="nofollow noreferrer noopener" target="_blank">可提取性</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="13" data-text="记忆可提取性" data-url="https://zhuanlan.zhihu.com/p/559819340">[13]</sup>（为了便于分析，进行十次方变换，R^10）。灰色的可提取性网格标记了 R=99%, R=98% 等标签。中部面板用深蓝色展示了<a class="wrap external" href="https://supermemo.guru/wiki/Optimum_interval" rel="nofollow noreferrer noopener" target="_blank">最优间隔</a>。复习日期由蓝色垂线和浅蓝色标签标记。<a class="wrap external" href="https://supermemo.guru/wiki/Optimum_interval" rel="nofollow noreferrer noopener" target="_blank">最优间隔</a>的末端对应的 <a class="wrap external" href="https://supermemo.guru/wiki/Retrievability" rel="nofollow noreferrer noopener" target="_blank">R</a> 为 90% 左右，由红色垂线标记（仅当实际复习<a class="wrap external" href="https://supermemo.guru/wiki/Interval" rel="nofollow noreferrer noopener" target="_blank">间隔</a>大等于<a class="wrap external" href="https://supermemo.guru/wiki/Optimum_interval" rel="nofollow noreferrer noopener" target="_blank">最优间隔</a>时）。底部面板可视化了<a class="wrap external" href="https://supermemo.guru/wiki/Stability" rel="nofollow noreferrer noopener" target="_blank">稳定性</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="记忆稳定性" data-url="https://zhuanlan.zhihu.com/p/559298549">[1]</sup>（为了便于分析，以 <code>ln(S)/ln(days)</code> 的形式展示）。该图表指出 ，<a class="wrap external" href="https://supermemo.guru/wiki/Retrievability" rel="nofollow noreferrer noopener" target="_blank">可提取性</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="记忆可提取性" data-url="https://zhuanlan.zhihu.com/p/559819340">[2]</sup>在最初几次<a class="wrap external" href="https://supermemo.guru/wiki/Stability" rel="nofollow noreferrer noopener" target="_blank">稳定性</a>很低时的<a class="wrap external" href="https://supermemo.guru/wiki/Repetition" rel="nofollow noreferrer noopener" target="_blank">复习</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="14" data-text="重复" data-url="https://zhuanlan.zhihu.com/p/572444486">[14]</sup>中下降得很快（指数型）。然而在第 7 次复习后，经过十年时间，可提取性从 100% 只下降到了 94%。所有的数值都来自实际的复习历史和<a class="wrap external" href="https://supermemo.guru/wiki/Three_component_model_of_memory" rel="nofollow noreferrer noopener" target="_blank">记忆的三变量模型</a>。</blockquote><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="075vryKF"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <a class="member_mention" data-hash="4c592f496dc33822b560b382907ff1d0" data-hovercard="p$b$4c592f496dc33822b560b382907ff1d0" href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" rel="noopener noreferrer" target="_blank">@叶峻峣</a> <br/>原文：<a class="wrap external" href="https://supermemo.guru/wiki/Two_component_model_of_memory" rel="nofollow noreferrer noopener" target="_blank">Two component model of memory - supermemo.guru</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 记忆稳定性 <a href="./559298549.html" target="_blank" rel="noopener noreferrer">./559298549.html</a><br>2. 记忆可提取性 <a href="./559819340.html" target="_blank" rel="noopener noreferrer">./559819340.html</a><br>3. 干扰 <a href="./269974053.html" target="_blank" rel="noopener noreferrer">./269974053.html</a><br>4. 遗忘 <a href="./558542113.html" target="_blank" rel="noopener noreferrer">./558542113.html</a><br>5. 间隔效应 <a href="./424603970.html" target="_blank" rel="noopener noreferrer">./424603970.html</a><br>6. 间隔效应的结构与分子机理 <a href="./288609114.html" target="_blank" rel="noopener noreferrer">./288609114.html</a><br>7. 约斯特定律 <a href="./401155017.html" target="_blank" rel="noopener noreferrer">./401155017.html</a><br>8. 05 1988：记忆的两个组成成分 <a href="./99505568.html" target="_blank" rel="noopener noreferrer">./99505568.html</a><br>9. 0 目录《间隔重复的历史》 <a href="./375379522.html" target="_blank" rel="noopener noreferrer">./375379522.html</a><br>10. 彼得·沃兹尼亚克 <a href="./303204832.html" target="_blank" rel="noopener noreferrer">./303204832.html</a><br>11. 条目 <a href="./571700330.html" target="_blank" rel="noopener noreferrer">./571700330.html</a><br>12. 重复历史 <a href="./574628398.html" target="_blank" rel="noopener noreferrer">./574628398.html</a><br>13. 记忆可提取性 <a href="./559819340.html" target="_blank" rel="noopener noreferrer">./559819340.html</a><br>14. 重复 <a href="./572444486.html" target="_blank" rel="noopener noreferrer">./572444486.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：认知基石 & 教育培训</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

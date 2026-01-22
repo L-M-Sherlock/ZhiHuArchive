@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>砸烂旧学校，创建新学校（2.1）：教育型学校——架构 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="砸烂旧学校，创建新学校（2.1）：教育型学校——架构 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/742838190">
+<meta property="og:image" content="https://picx.zhimg.com/v2-afd799022403bd89f878280a267ef3bd_720w.jpg?source=172ae18b">
+<meta property="og:description" content="当我们思考学校教育时，我们究竟在追求什么？我们真正的教育目标是什么？ 我认为，现行的学校系统实际上是为了培养工厂工人而设计的——换句话说，其目的是培养一批能在工厂中高效工作的成年人。从这个视角出发，许多曾经令我费解的教育方面的问题变得显而…">
+<meta name="description" content="当我们思考学校教育时，我们究竟在追求什么？我们真正的教育目标是什么？ 我认为，现行的学校系统实际上是为了培养工厂工人而设计的——换句话说，其目的是培养一批能在工厂中高效工作的成年人。从这个视角出发，许多曾经令我费解的教育方面的问题变得显而…">
+<meta data-pagefind-meta="title" content="砸烂旧学校，创建新学校（2.1）：教育型学校——架构">
+<meta data-pagefind-meta="image" content="https://picx.zhimg.com/v2-afd799022403bd89f878280a267ef3bd_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="砸烂旧学校，创建新学校（2.1）：教育型学校——架构 | ZhiHu Archive">
+<meta name="twitter:description" content="当我们思考学校教育时，我们究竟在追求什么？我们真正的教育目标是什么？ 我认为，现行的学校系统实际上是为了培养工厂工人而设计的——换句话说，其目的是培养一批能在工厂中高效工作的成年人。从这个视角出发，许多曾经令我费解的教育方面的问题变得显而…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/742838190");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://picx.zhimg.com/v2-afd799022403bd89f878280a267ef3bd_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/742838190" target="_blank" rel="noopener noreferrer">砸烂旧学校，创建新学校（2.1）：教育型学校——架构</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2024-09-28T09:35:01">发表于 2024年09月28日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">36 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="QRHpymlj">当我们思考学校教育时，我们究竟在追求什么？我们真正的教育目标是什么？</p><p data-pid="qthz-MPF">我认为，现行的学校系统实际上是为了培养工厂工人而设计的——换句话说，其目的是培养一批能在工厂中高效工作的成年人。从这个视角出发，许多曾经令我费解的教育方面的问题变得显而易见。</p><p data-pid="RRtMQVLu">当今的学校教育模式大致是这样的：学生们被要求在固定的时间到达指定地点，反复完成布置的任务。他们有规定的午餐时间。如果需要上洗手间或就医，还得请示获准。</p><p data-pid="b50VmTyV">学生的时间不属于自己——它完全归学校所有，由学校全权支配。</p><p data-pid="yR3DRx99">这在工厂中是有道理的：工人们需要准时到岗，在规定时间内完成流水线工作。如果需要暂时离开工位，必须与他人协调以确保生产不受影响。</p><p data-pid="v70GONRH">工厂工人的时间同样不属于自己——它完全归工厂所有，由工厂全权支配。</p><p data-pid="8AL3sFq2">诚然，工厂工人因工作时间获得报酬，而学生并非如此，但这个比喻却很贴切。</p><p data-pid="HXY6k6YG">因此，在设计课程之前，我们必须重新构想学校的整体架构。毕竟，我们的目标不是培养一批工厂工人。美国已经与时俱进，<b>工厂</b>也同样如此。</p><p data-pid="7KNqEg0w">我们的目标是培养新一代能够独立思考、适时主动作为、为经济、社区和世界做出贡献的成年人。我们希望他们能够应对挑战和不确定性，独立思考，并以健康、积极的方式管理自己的生活和人际关系。</p><p data-pid="ioPQ0Utn">而这一切的根本，不在于课程设置，而在于学校的基本架构。</p><h2><b>1 现有的结构</b></h2><h3><b>1.1 作息安排</b></h3><p data-pid="wvKXixHd">在美国公立学校，学生的一天大致是这样的：</p><ol><li data-pid="FsGIeZy7">他们在固定时间到校，与所有人一同到达</li><li data-pid="Jedf4M5G">每天遵循固定的课程表，每个上学日的时长相同——约八小时</li><li data-pid="wqLJ56Pt">他们去上当天的第一节课，坐在课桌前「学习」；通常会进行点名</li><li data-pid="Mm_UAPZO">每节课重复步骤 3 ，直到午餐时间</li><li data-pid="A_JAAR2A">在规定的时间去食堂就餐</li><li data-pid="mjM4Hqqj">重复步骤 3 和 4，直到所有课程结束</li><li data-pid="6IgnBHoC">可以选择参加课外活动（这些活动也可能在上午上课前进行）</li><li data-pid="LJOWk53N">与其他同学一起在固定时间放学回家</li></ol><p data-pid="RedgIieG">正如前文所述，如果一个人的日程安排中无法自主支配时间，连吃饭和上厕所的时间都不能自己做主，善意地解释，这或许是一名工厂工人的作息安排。</p><p data-pid="lvMOiEMS">然而，<b>不那么善意地</b>解释，这是一名囚犯的作息安排。</p><h3><b>1.2 分组方式</b></h3><p data-pid="ma2grnwg">学校通常按照年龄和年级对学生进行分组，让他们作为一个班级共同升学。虽然留级和跳级的情况确实存在，但并不常见。</p><p data-pid="-hSbCMky">在同一年级内，学生会被进一步分类，依据是…… 老实说，分类标准是几个因素的综合：学习潜力、家长参与度，以及/或者行政激励。</p><p data-pid="XWLReGIS">到了高中阶段，学生可能会被安排到<b>普通班</b>、<b>荣誉班</b>或<b>大学预修班</b>（AP 班）。一个学生在不同科目可能会有各种这些课程的组合，但根据我的经验，这些课程之间往往有很强的相关性；选修一门 AP 课程的学生往往会选修多门 AP 课程，如此类推。</p><p data-pid="pWo6kQWF"><b>理论上</b>，这种分类应该是基于对学生学习潜力的某种评估。 比如，学生的成绩是否优秀？他们是否已经做好准备接受该科目更具挑战性的内容，以及更多的家庭作业和更高的标准？诸如此类。</p><p data-pid="iUKH3Hbs"><b>实际上</b>，我听说过不少关于其他因素影响分组的故事，姑且称之为<b>非学术因素</b>吧。</p><p data-pid="JG55aQV_">首先，如果家长希望孩子上更高级的课程，他们通常能够如愿以偿，不管孩子是否愿意或是否有能力在这样的课程中取得好成绩。家长之所以热衷于让孩子进入高级班，是因为这样可以获得更高的 GPA（平均学分绩点，满分通常为 4 分，但荣誉课程和大学先修课程的分数往往会有所膨胀）。更高的 GPA 意味着更好的大学录取机会，进而意味着更好的就业前景，这种思维模式形成了一个恶性循环。</p><p data-pid="AkEo4wml">其次，学校管理层可能会不顾学生实际需求，一味追求增加荣誉课程和 AP 课程的学生人数。这种做法类似于那些为了短期内提高公司股价而获得奖金的企业高管。学校管理者因短期内 AP 课程学生数量增加而获得奖励，因此他们遵循这种激励机制，不惜一切代价把尽可能多的学生塞进这些课程。</p><h3>1.3 组织方式</h3><p data-pid="6hlpmBQ1">美国的学校通常以教室为基本单位进行组织，每位教师都负责管理自己的教室。学生们每天需要在不同的教室之间来回穿梭，以上不同的课程。</p><p data-pid="LlrmUzQd">除了教室，学校还配备了其他设施，如图书馆、计算机实验室、体育馆、食堂等。然而，学生在校时间的大部分仍是在教室里度过的。他们坐在课桌前，与 20 到 30 名同学一起听课。在短暂的课间时间里，学生们会在走廊中快速移动，赶往下一节课的教室。</p><h2>2 新架构</h2><p data-pid="C01LRFso">在考虑<a class="wrap external" href="https://sproutsschools.com/chesterton-fence-dont-destroy-what-you-dont-understand/" rel="nofollow noreferrer noopener" target="_blank">颠覆一个既有体系</a>之前，我们有必要先问问自己：这个体系的存在意义是什么？它究竟发挥着什么作用？</p><p data-pid="WXx7HQla">当我们思考如何重新设计学校教育体系时，必须认识到现有的制度通常都有其存在的理由。如果忽视这些理由，我们就难以设计出更好的新系统。</p><h3><b>2.1 作息安排</b></h3><h3><b>2.1.1 现行作息安排的目的</b></h3><p data-pid="la7nXcG_">学校普遍采用统一的上课时间，这是有其原因的。</p><p data-pid="6_dHyP0x">首先，这有利于安排公立学校学生乘坐校车。校车作为往返学校的公共交通工具，需要有固定的时间表来安排和履行其职责。</p><p data-pid="5f7KvHso">其次，在一所学校里，众多学生需要按照固定的时间表参加一系列课程，因此所有学生必须同时到校上课。这大大简化了教师的教学安排。</p><p data-pid="RHNTxcwH">这种模式也明显带有工厂的特征，就像所有工人都需要在轮班开始时准时到岗一样。</p><p data-pid="Km57NVWn">那么，我们不禁要问：这种结构是否值得保留？</p><p data-pid="UBI35iY4"><b>不值得。</b></p><p data-pid="XmeoX8fW">或者至少我是这么认为的。</p><p data-pid="R0GZmnxn">在我看来，严格的时间安排更多地反映了「教师向一班学生授课」这种传统学习模式，而非其他因素。在互联网和在线学习出现之前，这可能是将教育从「少数」教师扩展到「大量」学生的唯一方式。</p><p data-pid="qifswBym">在传统学习模式中，所有学生必须同时同地接受相同的教学内容，因此严格的时间安排是合理的。然而，随着互联网将视频传播的边际成本降至近乎为零，我们已经不必局限于这种单一模式。</p><h3><b>2.1.2 新作息安排</b></h3><p data-pid="lM_k4C7i">在当今时代，「教师对必须到场的学生进行讲授」这种模式已显过时。课程可以录制下来，而且网上已经有大量免费或低价的各学科各层次的优质讲座资源。要求学生在固定时间到场已不再必要，这种做法也给有多个孩子的父母或习惯晚起的青少年带来不便。</p><p data-pid="7WygQI_j">相反，借鉴现代工作场所的做法，采用「核心时间」制可以在确保群体同步的同时，为每个人提供最大程度的灵活性。</p><p data-pid="ohTumzcq">在这种模式下，我们可以设定一段时间，比如上午 10 点到下午 2 点，要求所有学生必须在校。学校会在这个时间段之前开放，之后也会继续开放，但核心理念是在这段时间之外，学生可以根据自己的需要自由来去。</p><p data-pid="ngbSTBsY">在先前关于「学校即社会服务」的讨论中，还提到自助餐厅将全天候开放，因此也不会有固定的午餐时间。</p><p data-pid="sboOATrx">关于校车安排，我设想它们会从清晨开始运行，上午 10 点前接送学生到校，下午 2 点后（或核心教学时间结束后）将学生送回家。这样的安排有望缓解校车造成的交通问题，同时也能减轻学校周边常见的交通拥堵。</p><p data-pid="5XsRWBH8">在课程安排方面，我设想只有少数课程会在特定时间和地点进行。大多数情况下，教师们会在各自的教室里随时待命，为不同水平的学生提供各学科的辅导，学生则可以全天自由活动。</p><p data-pid="lk7ncTB3">我们在讨论课程细节时会更深入地探讨这个话题。</p><h3><b>2.2 分组方式</b></h3><h3><b>2.2.1 年龄和年级</b></h3><h3><b>2.2.1.1 现行分组方式的目的</b></h3><p data-pid="HwXratgL">据我所知，美国当前按年龄将学生分组的政策「并没有任何科学依据」证明这确实是一个好方法。这种做法源于很久以前人们认为这样似乎不错，而我们就一直沿用至今。</p><p data-pid="jg1xsWr9">如果要我推测，我会说按年龄对学生分组是一种便于管理的制度。学生的出生日期决定了他们何时入学以及就读哪个年级：简单且便于大规模实施。</p><p data-pid="FKtfHWjJ">然而，<b>便于管理</b>绝不等同于<b>最有利于学生</b>。</p><h3><b>2.2.1.2 新的分组方式</b></h3><p data-pid="BhY7GfdF">我们的目标是建立一个真正能让学生有效学习的小学教育体系。</p><p data-pid="2-FQ-OHL">这意味着，我们必须衡量学生是否真正在学习，这虽然可能与年龄相关，但并不完全由年龄决定。</p><p data-pid="HHA_0Yg6">实际上，年级的概念（如一年级、二年级等）对学校管理者而言比对学生更有意义。学生要么掌握了学习内容，要么没有；他们所处的年级最多只能对此提供一个模糊的参考。</p><p data-pid="WKPz3rl9">因此，完全取消年级划分是合理的。</p><p data-pid="Ks0e0rPZ">这个想法可能看起来很激进，但仔细思考一下 —— 除了年龄之外，知道一个学生在读十年级真能告诉你什么呢？它能反映出学生的成熟程度吗？能说明他们是否理解基础代数吗？能体现他们的阅读水平如何吗？</p><p data-pid="JWV59DfY">理论上应该可以，但现实中却并非如此。</p><h3><b>2.2.2 分类</b></h3><h3><b>2.2.2.1 现行分类方式的目的</b></h3><p data-pid="ITn8bomb">在我看来，我们目前对学生的分类方式 —— 高中阶段的普通课程、荣誉课程和大学先修课程（AP），以及贯穿 K-12 教育阶段的各种「资优生」项目 —— 是在试图解决一个特别棘手的难题。</p><p data-pid="hnqpNt7D">一方面，学生的能力水平确实存在差异。无论造成这种差异的原因是什么，可能是智商、家庭环境、父母支持、儿童营养状况等，一些学生在学术方面明显比其他人更有天赋和／或更有兴趣。</p><p data-pid="nIBwrpkA">另一方面，将学生从「天才」到「蠢材」进行官方排名的做法违背了平等原则，这与政府项目的初衷相悖。这种做法会在情感层面上引起强烈反感，尤其是来自家长：「你说我的孩子是蠢材是什么意思？！他只是缺乏动力/在其他方面有天赋/不擅长考试/极具创造力/...！」</p><p data-pid="JGVTUM0n">尽管存在明确的分类需求，但整个系统也必须保持一定程度的模糊性，这是有充分理由的。人们不喜欢被简单地归结为一串数字。被分到各个组别的学生及其家长需要能够为自己构建一个合理的解释，说明为什么被归入该组别是可以接受的。这就是为什么我们将最低级别的组别称为「标准」 ——达到标准水平是完全可以的。假设我们不用「标准」、「荣誉」和「高级」，而是将现有的组别称为「愚钝」、「标准」和「高级」，你可以想象被归入「愚钝」组的人，尤其是他们的父母会有多么强烈的反应。</p><p data-pid="W5JzzBAB">在重新设计分类系统时，我们无法回避这种矛盾。</p><h3><b>2.2.2.2 新的分类方式</b></h3><p data-pid="bcbSzBPX">虽然为每个学生配备一位个性化的AI导师可能是理想的选择——随着 AI 技术的进步，这在不久的将来可能会成为现实——但从技术和社会层面来看，我们还没有完全做好准备。</p><p data-pid="mBIQX38F">在缺乏能够通过适应每个人的个性来满足所有人需求的解决方案的情况下，我们能在大规模实施中做到的最好办法就是将学生分成不同的组别，然后针对这些组别进行教育管理。</p><p data-pid="om-rnnce">那么，我们应该如何对学生进行分类呢？</p><p data-pid="IxgjbLYl"><b>根据个性</b></p><p data-pid="Q6m1wrMm">在《哈利·波特》的魔法世界中，分院帽根据学生的性格特质或类似因素，将他们分配到不同的学院（即不同的社群）。正如《哈利·波特与理性之道》<sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="《哈利波特与理性之道》" data-url="https://hpmor.xyz/category/hpmor_cn/">[1]</sup>（<a class="wrap external" href="https://hpmor.com/chapter/9" rel="nofollow noreferrer noopener" target="_blank">HPMOR</a>）这部同人小说中所揭示的：</p><blockquote data-pid="AtTxRCwU">聪明的孩子进拉文克劳，狡诈的孩子进斯莱特林，向往英雄主义的孩子进格兰芬多，而真正埋头苦干的孩子则进入赫奇帕奇。</blockquote><p data-pid="3oNAOplE">如果有读过或看过《哈利·波特》的人还没有意识到这一点，那么我不得不指出：<b>这绝对是一个糟糕至极的主意。</b></p><p data-pid="wZIoknMM">诚然，这种设定为小说增添了不少戏剧性和吸引力，但在现实中，根据性格将 11 岁的孩子分类，充其量不过是一种荒唐可笑的做法。毕竟，人是会成长的，性格会随之改变，心智也会日益成熟。</p><p data-pid="SZCDHu9o">此外，经常与性格迥异的人相处可能会带来诸多益处，即便仅仅是为了增添生活的多样性，这也是很有价值的。</p><p data-pid="LGfGuhse"><b>根据测试成绩</b></p><p data-pid="NicCQqvH">遗憾的是，我们无法将分类工作外包给神奇的会说话的头饰。我们必须使用我们实际<i>拥有</i>的工具。</p><p data-pid="q-bSAIEE">这在许多圈子里颇具争议，但我认为唯一合乎逻辑的学生分类方式是通过考试成绩。虽然有许多细节需要解决，但我们已经有了相当不错的测试，如<a class="wrap external" href="https://en.wikipedia.org/wiki/Intelligence_quotient" rel="nofollow noreferrer noopener" target="_blank">智商</a>、<a class="wrap external" href="https://en.wikipedia.org/wiki/G_factor_(psychometrics)" rel="nofollow noreferrer noopener" target="_blank">一般因素</a>等。如果这些测试存在问题，可以进行改进，但基本上我们需要某种原始认知能力的测试。</p><p data-pid="48AuG9aF">首先，我必须强调一点：我们绝不会因为学生的考试成绩而限制他们的任何机会。每个学生都可以自由选择学习任何他们感兴趣的科目。然而，对于那些成绩存在显著差异的学生，我们的教学预期应该有所调整。</p><p data-pid="CC1r88Fj">我设想这个系统可以这样运作：</p><p data-pid="LhlGkwQ3">在确保每个学生都掌握了基本的读写和计算能力之后，他们会参加一个标准化测试或一系列测试，以确定他们在正态分布中的位置。每个标准差代表一个群组；例如，成绩在平均水平到高于平均水平一个标准差之间的学生为一组，高于平均水平一到两个标准差之间的学生为另一组，以此类推。</p><p data-pid="yTlCaSIW">我再次强调，<b>每个学生都可以自由选择学习任何他们想学的内容</b>。你所属的群组——即通过测试被划分的类别——不会对你<b>施加任何限制</b>。它不会减少你的学习机会。这个分类系统的目的仅仅是为了让教育者能够更准确地了解学生的基础水平，从而制定适当的教学预期。</p><p data-pid="qPVHlGdI">随后，我们可以根据不同的预期水平来组织课程，学生可以自主选择是否参加为认知能力高于或低于自己的学生设计的课程。他们需要理解，<i>课程</i>的进度不会因为个别学生感到无聊或吃力而放慢或加快。</p><p data-pid="_xirheg8">考虑到这个话题的复杂性，我非常欢迎大家就此提出建议和看法。</p><h3><b>2.3 组织方式</b></h3><h3><b>2.3.1 现行组织</b>方式<b>的目的</b></h3><p data-pid="tZL2ltiL">教师作为员工，可能需要依赖各种教学工具（如电脑、海报、演示设备等）来完成教学任务。因此，为他们提供固定的工作空间是合理的。这不仅使他们能够熟悉可用的教学设备，还能让他们根据个人喜好定制自己的教学环境。</p><p data-pid="9B4Odx74">现行的做法是让学生成群结队地在不同教室间转换，或者简单地规定所有学生要么「在上课」，要么「正在转换教室」。从学校管理的责任角度来看，这种做法似乎有其道理。因为这样可以让学校管理层更容易掌握所有学生的位置（尤其是在紧急情况下）。无论何时，每个学生要么应该在某个特定地点，要么应该在前往某个特定地点的路上。</p><p data-pid="OaVWmMq5">然而，我个人并不认同这种做法，我相信我们可以找到更好的解决方案。</p><h3><b>2.3.2 新的组织</b>方式</h3><p data-pid="FVsXQKUv">让教师全天留在自己的教室里是合理的——我认为这一点不需要改变。</p><p data-pid="t7-uan21">另一方面，在我们的重新设计中，学生的课程安排很可能会更接近大学生的课表模式。因此，我们的学校需要围绕如何实现这种灵活性来进行组织调整。</p><p data-pid="A687esfA">学校应该设有一些多功能公共区域（例如广场或学生活动中心），供学生随时自由使用。同时，学生还可以随时前往食堂就餐，或使用体育馆、计算机教室等学校设施。这些区域都有成人持续监管，或者至少有高年级学生值守，需要时可以及时联系成人。</p><p data-pid="Rz9Tk9UP">学生通常可以自由地在走廊里穿梭于不同教室之间。由于课程安排不会严格遵循统一的时间表，这种方式可以避免目前常见的两极化现象——即走廊大部分时间冷清空旷，而在下课时间又会出现短暂的拥挤期。</p><p data-pid="Z2TBEX5E">当然，不同年龄段的学生需要不同程度的监管。但总的来说，当孩子们年龄达到 12-13 岁左右时，我们应该默认认为他们即使没有成人的持续监管也能够妥善照顾自己，特别是考虑到他们已经身处学校这个相对安全的环境中。</p><h2><b>3 结论</b></h2><p data-pid="5cAwEqdW">现代美国公立学校的现有架构并非最优，尤其是当我们希望培养学生的独立性、自立能力、主动性、领导力和成熟度时。这种架构的形成有其原因，其中一些在我们的新架构中仍然适用，但许多已经不再合适。在下一篇文章中，我们将更深入地探讨课程设置——学生应该学习哪些内容？毕业所需的核心知识是什么？应该如何评估学生的学习成果？等等。</p><hr/><p data-pid="EnhmFj_0">上一篇：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic3.zhimg.com/v2-42e0f2c30cf11485e3c86a7f93e18dc4_qhd.jpg" data-image-height="3293" data-image-width="4864" href="./738408059.html" rel="noopener noreferrer" target="_blank">Thoughts Memo：砸烂旧学校，创建新学校（1）：社会服务型学校——筛子模型</a><p data-pid="W7W8bQXD">下一篇：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic1.zhimg.com/v2-dc2f42986faa73193de2cebfbf6ce6ca_qhd.jpg" data-image-height="2592" data-image-width="3872" href="./742654901.html" rel="noopener noreferrer" target="_blank">Thoughts Memo：砸烂旧学校，创建新学校（2.2）：教育型学校——课程设置（总论）</a><hr/><blockquote data-pid="LYBsrC1Q"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 claude-3.5-sonnet，校对 <span class="nolink">Jarrett Ye</span><br/>原文：<a class="wrap external" href="https://www.lesswrong.com/s/raEgRsRo8xWdZoBzh/p/kZpAPv96Daha8PMw8" rel="nofollow noreferrer noopener" target="_blank">Let's Design A School, Part 2.1 School as Education - Structure — LessWrong</a><br/>作者：<a class="wrap external" href="https://www.lesswrong.com/users/sable?from=post_header" rel="nofollow noreferrer noopener" target="_blank">Sable</a><br/>发布日期：2024 年 5 月 3 日</blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 《哈利波特与理性之道》 <a href="https://hpmor.xyz/category/hpmor_cn/" target="_blank" rel="noopener noreferrer">https://hpmor.xyz/category/hpmor_cn/</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：美国教育批判</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

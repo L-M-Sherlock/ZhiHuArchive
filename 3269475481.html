@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>在一条直线上给定n个点的取值区间，如何让相邻点之间的最小间隔最大化？ - @Thoughts Memo | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="在一条直线上给定n个点的取值区间，如何让相邻点之间的最小间隔最大化？ - @Thoughts Memo | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="我是提问者，这里写写问题的实际背景，以及我找到的一些解法。 问题背景这其实是间隔重复算法下的一个子问题：如何安排相互有关联的卡片，让它们的复习日期尽可能错开，但又不能偏离最佳日期太多？ 每张卡片的复习日期，是由上一次复习日期和上一次安排复习间隔决定的。比如我在 10 月 1 日复习了一张卡片，间隔是 20 天，那么下一次复习日期就是 10 月 21 日。如果我们容许 +-10% 的偏差，那么这张卡片的复习日期可以是 10 月 1…">
+<meta property="og:url" content="https://www.zhihu.com/question/628164365/answer/3269475481">
+<meta name="description" content="我是提问者，这里写写问题的实际背景，以及我找到的一些解法。 问题背景这其实是间隔重复算法下的一个子问题：如何安排相互有关联的卡片，让它们的复习日期尽可能错开，但又不能偏离最佳日期太多？ 每张卡片的复习日期，是由上一次复习日期和上一次安排复习间隔决定的。比如我在 10 月 1 日复习了一张卡片，间隔是 20 天，那么下一次复习日期就是 10 月 21 日。如果我们容许 +-10% 的偏差，那么这张卡片的复习日期可以是 10 月 1…">
+<meta data-pagefind-meta="title" content="在一条直线上给定n个点的取值区间，如何让相邻点之间的最小间隔最大化？">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="在一条直线上给定n个点的取值区间，如何让相邻点之间的最小间隔最大化？ - @Thoughts Memo | ZhiHu Archive">
+<meta name="twitter:description" content="我是提问者，这里写写问题的实际背景，以及我找到的一些解法。 问题背景这其实是间隔重复算法下的一个子问题：如何安排相互有关联的卡片，让它们的复习日期尽可能错开，但又不能偏离最佳日期太多？ 每张卡片的复习日期，是由上一次复习日期和上一次安排复习间隔决定的。比如我在 10 月 1 日复习了一张卡片，间隔是 20 天，那么下一次复习日期就是 10 月 21 日。如果我们容许 +-10% 的偏差，那么这张卡片的复习日期可以是 10 月 1…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/628164365/answer/3269475481");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/628164365/answer/3269475481" target="_blank" rel="noopener noreferrer">在一条直线上给定n个点的取值区间，如何让相邻点之间的最小间隔最大化？</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2023-10-29T16:41:59">发表于 2023年10月29日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">33 👍 / 8 💬</p>
+</header>
+<article data-pagefind-body>
+<div style="margin: 0; padding: 0.5em 1em; border-left: 4px solid #999; font-size: 0.86em; background: #f9f9f9;">
+<h2>问题描述</h2>
+<p>n 个点的取值区间可能相互重叠，且点的取值为整数。相邻点是指取点后在直线上相邻的点，而非从相邻区间中取出的点。</p><p>case 1：有 3 个点，取值区间是[1, 3], [2, 6], [0, 9]。最优的取点方法是 1, 5, 9，相邻点之间的最小间隔是 4。</p><p>case 2: [1, 10], [2, 7], [5, 6]。最优的取点方式是 10, 2, 6，最小间隔是 4。</p><p>附加题：在满足最小间隔最大化的条件下，让相邻点之间的间隔尽可能大，即平均间隔最大。并在平均间隔最大的同时，间隔的方差最小。</p><p>例如：存在几个点的取值区间非常窄，且相互靠近。比如 [0, 0], [1, 1], [2, 5], [4, 7]，此时最小间隔只可能是 1，输出可能是 0, 1, 2, 4。但实际上更好的输出是 0, 1, 4, 7。<br/><br/>可以使用近似算法。</p>
+</div>
+<hr>
+<p data-pid="KUP6qOUt">我是提问者，这里写写问题的实际背景，以及我找到的一些解法。</p><h2>问题背景</h2><p data-pid="puR0DiIw">这其实是间隔重复算法下的一个子问题：如何安排相互有关联的卡片，让它们的复习日期尽可能错开，但又不能偏离最佳日期太多？</p><p data-pid="6YDYjozq">每张卡片的复习日期，是由上一次复习日期和上一次安排复习间隔决定的。比如我在 10 月 1 日复习了一张卡片，间隔是 20 天，那么下一次复习日期就是 10 月 21 日。如果我们容许 +-10% 的偏差，那么这张卡片的复习日期可以是 10 月 19 日到 10 月 23 日间的任何一天。</p><p data-pid="yirCY9wl">如果有 4 张卡片相互关联（比如一首诗的 4 句话分别填空、一个单词的 4 种词形变化），那么安排这 4 张卡片的复习日期，应当尽可能错开，避免互相提醒/干扰。</p><p data-pid="vlDtrWPv">于是就有了本题。</p><p data-pid="RVbjjOlO">再补充一下输入的取值范围。n &lt; 100，所有区间的端点的值域为 [0, 36500]（没有谁复习能安排到一百年后吧）</p><h2>解法</h2><p data-pid="Uiif5ga4">目前我还没有找到多项式时间内到达最优解的算法。二分查找最小间隔+贪心取点可以在 <img alt="O(n\log(m))" eeimg="1" src="https://www.zhihu.com/equation?tex=O%28n%5Clog%28m%29%29"/> 的时间复杂度上找到局部最优解。</p><p data-pid="IzFgg-gP">有一个博客提出了几个可以找到全局最优解的方法，但是复杂度都很高：</p><p data-pid="44BWLGEH">解法一：将原问题转换成一个 mixed-integer non-linear programming 问题。</p><p data-pid="Yy4TVb-c">解法二：将解法一中的绝对值去掉，将非线性问题转化为线性问题。</p><p data-pid="k-vHy5a5">具体可以看这个博客：</p><a class="wrap external" data-draft-node="block" data-draft-type="link-card" href="http://yetanothermathprogrammingconsultant.blogspot.com/2021/06/arranging-points-on-line.html" rel="nofollow noreferrer noopener" target="_blank">Yet Another Math Programming Consultant: Arranging points on a line</a><h2>为什么有附加题</h2><p data-pid="OhBO74vr">考虑一种特殊情况：存在几个点的取值区间非常窄，且相互靠近。比如 [0,0], [1,1], [2, 5], [4, 7]，此时最小间隔只可能是 1，输出可能是 0, 1, 2, 4。但实际上更好的输出是 0, 1, 4, 7。</p><hr/><p data-pid="HSSyNO7N">感谢 <a class="member_mention" data-hash="ad6db455b536c9fed791c1df3d012e08" data-hovercard="p$b$ad6db455b536c9fed791c1df3d012e08" href="https://www.zhihu.com/people/ad6db455b536c9fed791c1df3d012e08" rel="noopener noreferrer" target="_blank">@Mass Point</a> 和 <a class="member_mention" data-hash="3a23ec68d26a1c11737e8f2b712f73f5" data-hovercard="p$b$3a23ec68d26a1c11737e8f2b712f73f5" href="https://www.zhihu.com/people/3a23ec68d26a1c11737e8f2b712f73f5" rel="noopener noreferrer" target="_blank">@Yixiao Huang</a> 的专业分析，以及 <a class="member_mention" data-hash="bf3d1b583f786bcd8989d4452f619dc6" data-hovercard="p$b$bf3d1b583f786bcd8989d4452f619dc6" href="https://www.zhihu.com/people/bf3d1b583f786bcd8989d4452f619dc6" rel="noopener noreferrer" target="_blank">@AVALON</a> 提供的贪心失败的样例。</p>
+
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

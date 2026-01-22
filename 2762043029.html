@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>有什么多义词消歧义的方法? - @Thoughts Memo | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="有什么多义词消歧义的方法? - @Thoughts Memo | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="Python 有一个词义消歧的库，用到了 WordNet： alvations/pywsd: Python Implementations of Word Sense Disambiguation (WSD) Technologies. (github.com) 这个库的原理很简单，就是将多义词的上下文和该多义词在 WordNet 中的释义（英英释义）计算相似度，然后给出相似度最高的释义项。这个相似度有不同的算法，最简单的就是将上下文的单词作为集合 A，释义项中的单词作为集合 B，然后用 A B 交集的元素数量作为相似度。 不过这…">
+<meta property="og:url" content="https://www.zhihu.com/question/333909480/answer/2762043029">
+<meta name="description" content="Python 有一个词义消歧的库，用到了 WordNet： alvations/pywsd: Python Implementations of Word Sense Disambiguation (WSD) Technologies. (github.com) 这个库的原理很简单，就是将多义词的上下文和该多义词在 WordNet 中的释义（英英释义）计算相似度，然后给出相似度最高的释义项。这个相似度有不同的算法，最简单的就是将上下文的单词作为集合 A，释义项中的单词作为集合 B，然后用 A B 交集的元素数量作为相似度。 不过这…">
+<meta data-pagefind-meta="title" content="有什么多义词消歧义的方法?">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="有什么多义词消歧义的方法? - @Thoughts Memo | ZhiHu Archive">
+<meta name="twitter:description" content="Python 有一个词义消歧的库，用到了 WordNet： alvations/pywsd: Python Implementations of Word Sense Disambiguation (WSD) Technologies. (github.com) 这个库的原理很简单，就是将多义词的上下文和该多义词在 WordNet 中的释义（英英释义）计算相似度，然后给出相似度最高的释义项。这个相似度有不同的算法，最简单的就是将上下文的单词作为集合 A，释义项中的单词作为集合 B，然后用 A B 交集的元素数量作为相似度。 不过这…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/333909480/answer/2762043029");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/333909480/answer/2762043029" target="_blank" rel="noopener noreferrer">有什么多义词消歧义的方法?</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2022-11-17T00:55:54">发表于 2022年11月17日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">46 👍 / 2 💬</p>
+</header>
+<article data-pagefind-body>
+<div style="margin: 0; padding: 0.5em 1em; border-left: 4px solid #999; font-size: 0.86em; background: #f9f9f9;">
+<h2>问题描述</h2>
+<p>最近要做多义词消歧，最好利用到wordnet或hownet。有没有什么推荐的论文呢</p>
+</div>
+<hr>
+<p data-pid="RjKlkbCZ">Python 有一个词义消歧的库，用到了 WordNet：</p><a class="wrap external" data-draft-node="block" data-draft-type="link-card" href="https://github.com/alvations/pywsd" rel="nofollow noreferrer noopener" target="_blank">alvations/pywsd: Python Implementations of Word Sense Disambiguation (WSD) Technologies. (github.com)</a><p data-pid="nUMmAwUX">这个库的原理很简单，就是将多义词的上下文和该多义词在 WordNet 中的释义（英英释义）计算相似度，然后给出相似度最高的释义项。这个相似度有不同的算法，最简单的就是将上下文的单词作为集合 A，释义项中的单词作为集合 B，然后用 A B 交集的元素数量作为相似度。</p><p data-pid="FhqlbMyG">不过这个方法有点原始，并不能很精确地给出一些生僻释义。另外 WordNet 里的释义项和单词的应用语境在绝大多数情况下并不匹配。若要计算相似度，应当是在该释义下的相关例句与多义词的上下文之间进行。</p><p data-pid="kJFRPpge">当然，好处也是有的，那就是上述算法不需要训练模型，只需要有 WordNet 这样的语料就行了。</p><hr/><p data-pid="obvP5Bi4">若要更进一步，那么可以考虑一下词向量了。词向量就是用一个向量表示一个单词。那么每个单词之间就可以计算余弦相似度。代入多义词消歧义的场景中，我们关心的是计算特定上下文中的多义词，与该单词在词典中的多个释义项中哪一项最相似。用词向量的角度来考虑，就是如何计算特定上下文中的单词对应的词向量，和词典中每个释义项对应的词向量。</p><p data-pid="KaTd6xxC">其实还挺简单的，调 BERT 就可以了：</p><a class="wrap external" data-draft-node="block" data-draft-type="link-card" href="https://mccormickml.com/2019/05/14/BERT-word-embeddings-tutorial/" rel="nofollow noreferrer noopener" target="_blank">BERT Word Embeddings Tutorial · Chris McCormick (mccormickml.com)</a><p data-pid="dk36k0J3">给 BERT 输入一个句子，它会输出整个句子中每个单词的词向量，该词向量是上下文相关的，可以代表单词的语境含义。</p><p data-pid="PNEZAaIa">至于释义项的词向量，则可以用相关例句来作为上下文输入 BERT 得到。如果有多条例句，把每条例句中对应的多义词的上下文词向量取平均即可。</p><p data-pid="xnn9bCKv">效果展示：</p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://pica.zhimg.com/50/v2-ce49995076dbed08264ad2174ad0e66e_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-a686e48b7afd049f4c142b84c49a9174_r.jpg?source=2c26e567" data-original-token="v2-a686e48b7afd049f4c142b84c49a9174" data-rawheight="168" data-rawwidth="448" data-size="normal" src="https://pic1.zhimg.com/50/v2-a686e48b7afd049f4c142b84c49a9174_720w.jpg?source=2c26e567" width="448"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://pica.zhimg.com/50/v2-ce49995076dbed08264ad2174ad0e66e_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-a686e48b7afd049f4c142b84c49a9174_r.jpg?source=2c26e567" data-original-token="v2-a686e48b7afd049f4c142b84c49a9174" data-rawheight="168" data-rawwidth="448" data-size="normal" src="https://pic1.zhimg.com/50/v2-a686e48b7afd049f4c142b84c49a9174_720w.jpg?source=2c26e567" width="448"/></figure><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://pic1.zhimg.com/50/v2-b721eb090e6b027e6673d69656d238a4_720w.jpg?source=2c26e567" data-original="https://pic1.zhimg.com/v2-6a424a94bcc59929050941682ccdae89_r.jpg?source=2c26e567" data-original-token="v2-6a424a94bcc59929050941682ccdae89" data-rawheight="168" data-rawwidth="448" data-size="normal" src="https://picx.zhimg.com/50/v2-6a424a94bcc59929050941682ccdae89_720w.jpg?source=2c26e567" width="448"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://pic1.zhimg.com/50/v2-b721eb090e6b027e6673d69656d238a4_720w.jpg?source=2c26e567" data-original="https://pic1.zhimg.com/v2-6a424a94bcc59929050941682ccdae89_r.jpg?source=2c26e567" data-original-token="v2-6a424a94bcc59929050941682ccdae89" data-rawheight="168" data-rawwidth="448" data-size="normal" src="https://picx.zhimg.com/50/v2-6a424a94bcc59929050941682ccdae89_720w.jpg?source=2c26e567" width="448"/></figure><p data-pid="DK11mW7v">差不多就是一个更准确的查词工具。</p><p data-pid="uzP7N79H">另外这个效果也只是用了 BERT 的预训练模型，并没有 fine-tune，所以应该还有提升空间。</p><hr/><p data-pid="LnOiCUlc">另外，GPL-3 也会词义消歧任务：</p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://pic1.zhimg.com/50/v2-21dfe6d62f8ff615bf0a0a6c5bfd01d6_720w.jpg?source=2c26e567" data-original="https://pic1.zhimg.com/v2-a297e6e0bded9e22f1b77b4b21669f0f_r.jpg?source=2c26e567" data-original-token="v2-a297e6e0bded9e22f1b77b4b21669f0f" data-rawheight="360" data-rawwidth="1544" data-size="normal" src="https://picx.zhimg.com/50/v2-a297e6e0bded9e22f1b77b4b21669f0f_720w.jpg?source=2c26e567" width="1544"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://pic1.zhimg.com/50/v2-21dfe6d62f8ff615bf0a0a6c5bfd01d6_720w.jpg?source=2c26e567" data-original="https://pic1.zhimg.com/v2-a297e6e0bded9e22f1b77b4b21669f0f_r.jpg?source=2c26e567" data-original-token="v2-a297e6e0bded9e22f1b77b4b21669f0f" data-rawheight="360" data-rawwidth="1544" data-size="normal" src="https://picx.zhimg.com/50/v2-a297e6e0bded9e22f1b77b4b21669f0f_720w.jpg?source=2c26e567" width="1544"/></figure><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-234e8435d399488bbc483c74886983cf_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-0fa211e12210fd2dda3814f26f5ad739_r.jpg?source=2c26e567" data-original-token="v2-0fa211e12210fd2dda3814f26f5ad739" data-rawheight="390" data-rawwidth="1834" data-size="normal" src="https://pic1.zhimg.com/50/v2-0fa211e12210fd2dda3814f26f5ad739_720w.jpg?source=2c26e567" width="1834"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-234e8435d399488bbc483c74886983cf_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-0fa211e12210fd2dda3814f26f5ad739_r.jpg?source=2c26e567" data-original-token="v2-0fa211e12210fd2dda3814f26f5ad739" data-rawheight="390" data-rawwidth="1834" data-size="normal" src="https://pic1.zhimg.com/50/v2-0fa211e12210fd2dda3814f26f5ad739_720w.jpg?source=2c26e567" width="1834"/></figure><p data-pid="hILLKVaD">另外我在 Hugging Face 上也找到了一个做类似任务的模型：</p><a class="external" data-draft-node="block" data-draft-type="link-card" data-image="https://pica.zhimg.com/v2-b6d2484bbe15ba0dac08e70a59b83884_ipico.jpg" data-image-height="200" data-image-width="200" href="https://huggingface.co/jpwahle/t5-word-sense-disambiguation" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">https://</span><span class="visible">huggingface.co/jpwahle/</span><span class="invisible">t5-word-sense-disambiguation</span><span class="ellipsis"></span></a><p data-pid="d-pOUXCg">希望以上内容对你有所帮助。</p>
+
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

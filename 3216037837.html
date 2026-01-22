@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>未来Rust会是AI应用开发的优势语言吗？ - @Thoughts Memo | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="未来Rust会是AI应用开发的优势语言吗？ - @Thoughts Memo | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="知乎惯例，先问是不是，再问为什么。 。。。Rust 的 AI 库可以把你逼疯。给你表演一下： PyTorch： def stability_after_failure( self, state: Tensor, new_d: Tensor, r: Tensor ) -> Tensor: new_s = ( self.w[11] * torch.pow(new_d, -self.w[12]) * (torch.pow(state[:, 0] + 1, self.w[13]) - 1) * torch.exp((1 - r) * self.w[14]) ) return new_sCandle（hugging face 的 Rust 深度学习框架）： fn stability_after_fail…">
+<meta property="og:url" content="https://www.zhihu.com/question/622373990/answer/3216037837">
+<meta name="description" content="知乎惯例，先问是不是，再问为什么。 。。。Rust 的 AI 库可以把你逼疯。给你表演一下： PyTorch： def stability_after_failure( self, state: Tensor, new_d: Tensor, r: Tensor ) -> Tensor: new_s = ( self.w[11] * torch.pow(new_d, -self.w[12]) * (torch.pow(state[:, 0] + 1, self.w[13]) - 1) * torch.exp((1 - r) * self.w[14]) ) return new_sCandle（hugging face 的 Rust 深度学习框架）： fn stability_after_fail…">
+<meta data-pagefind-meta="title" content="未来Rust会是AI应用开发的优势语言吗？">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="未来Rust会是AI应用开发的优势语言吗？ - @Thoughts Memo | ZhiHu Archive">
+<meta name="twitter:description" content="知乎惯例，先问是不是，再问为什么。 。。。Rust 的 AI 库可以把你逼疯。给你表演一下： PyTorch： def stability_after_failure( self, state: Tensor, new_d: Tensor, r: Tensor ) -> Tensor: new_s = ( self.w[11] * torch.pow(new_d, -self.w[12]) * (torch.pow(state[:, 0] + 1, self.w[13]) - 1) * torch.exp((1 - r) * self.w[14]) ) return new_sCandle（hugging face 的 Rust 深度学习框架）： fn stability_after_fail…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/622373990/answer/3216037837");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/622373990/answer/3216037837" target="_blank" rel="noopener noreferrer">未来Rust会是AI应用开发的优势语言吗？</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2023-09-18T04:07:09">发表于 2023年09月18日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">163 👍 / 43 💬</p>
+</header>
+<article data-pagefind-body>
+<div style="margin: 0; padding: 0.5em 1em; border-left: 4px solid #999; font-size: 0.86em; background: #f9f9f9;">
+<h2>问题描述</h2>
+<p>未来Rust是AI应用开发的优势语言(Rust is the first language for AI application development)，问题改的友善点吧。再来补充一下: 说的是ai应用开发，没说要训练。另外没想到关注的人还挺多的，让子弹飞会，一两年后或许是不一样的世界。好了，大家尽情飞砖 </p>
+</div>
+<hr>
+<p data-pid="PRzPJcih">知乎惯例，先问是不是，再问为什么。</p><p data-pid="C8FO9QVD">。。。Rust 的 AI 库可以把你逼疯。给你表演一下：</p><p data-pid="9wqjAp9M">PyTorch：</p><div class="highlight"><pre><code class="language-python"><span class="k">def</span> <span class="nf">stability_after_failure</span><span class="p">(</span>
+<span class="bp">self</span><span class="p">,</span> <span class="n">state</span><span class="p">:</span> <span class="n">Tensor</span><span class="p">,</span> <span class="n">new_d</span><span class="p">:</span> <span class="n">Tensor</span><span class="p">,</span> <span class="n">r</span><span class="p">:</span> <span class="n">Tensor</span>
+<span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tensor</span><span class="p">:</span>
+<span class="n">new_s</span> <span class="o">=</span> <span class="p">(</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">w</span><span class="p">[</span><span class="mi">11</span><span class="p">]</span>
+<span class="o">*</span> <span class="n">torch</span><span class="o">.</span><span class="n">pow</span><span class="p">(</span><span class="n">new_d</span><span class="p">,</span> <span class="o">-</span><span class="bp">self</span><span class="o">.</span><span class="n">w</span><span class="p">[</span><span class="mi">12</span><span class="p">])</span>
+<span class="o">*</span> <span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">pow</span><span class="p">(</span><span class="n">state</span><span class="p">[:,</span> <span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">w</span><span class="p">[</span><span class="mi">13</span><span class="p">])</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+<span class="o">*</span> <span class="n">torch</span><span class="o">.</span><span class="n">exp</span><span class="p">((</span><span class="mi">1</span> <span class="o">-</span> <span class="n">r</span><span class="p">)</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">w</span><span class="p">[</span><span class="mi">14</span><span class="p">])</span>
+<span class="p">)</span>
+<span class="k">return</span> <span class="n">new_s</span></code></pre></div><p data-pid="Kh7yaEsL">Candle（hugging face 的 Rust 深度学习框架）：</p><div class="highlight"><pre><code class="language-rust"><span class="k">fn</span> <span class="nf">stability_after_failure</span><span class="p">(</span><span class="w">
+</span><span class="w"></span><span class="o">&amp;</span><span class="bp">self</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">state</span>: <span class="kp">&amp;</span><span class="nc">Tensor</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">new_d</span>: <span class="kp">&amp;</span><span class="nc">Tensor</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">r</span>: <span class="kp">&amp;</span><span class="nc">Tensor</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nc">candle_core</span>::<span class="nb">Result</span><span class="o">&lt;</span><span class="n">Tensor</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">new_s</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="mi">11</span><span class="p">)</span><span class="o">?</span><span class="w">
+</span><span class="w"></span><span class="o">*</span><span class="w"> </span><span class="n">new_d</span><span class="p">.</span><span class="n">powf</span><span class="p">(</span><span class="o">-</span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span><span class="o">?</span><span class="p">.</span><span class="n">to_scalar</span>::<span class="o">&lt;</span><span class="kt">f64</span><span class="o">&gt;</span><span class="p">()</span><span class="o">?</span><span class="p">)</span><span class="o">?</span><span class="w">
+</span><span class="w"></span><span class="o">*</span><span class="w"> </span><span class="n">state</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">affine</span><span class="p">(</span><span class="mf">1.0</span><span class="p">,</span><span class="w"> </span><span class="mf">1.0</span><span class="p">)</span><span class="o">?</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">powf</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="mi">13</span><span class="p">)</span><span class="o">?</span><span class="p">.</span><span class="n">to_scalar</span>::<span class="o">&lt;</span><span class="kt">f64</span><span class="o">&gt;</span><span class="p">()</span><span class="o">?</span><span class="p">)</span><span class="o">?</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">affine</span><span class="p">(</span><span class="mf">1.0</span><span class="p">,</span><span class="w"> </span><span class="o">-</span><span class="mf">1.0</span><span class="p">)</span><span class="o">?</span><span class="w">
+</span><span class="w"></span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="n">r</span><span class="p">.</span><span class="n">affine</span><span class="p">(</span><span class="o">-</span><span class="mf">1.0</span><span class="p">,</span><span class="w"> </span><span class="o">-</span><span class="mf">1.0</span><span class="p">)</span><span class="o">?</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="mi">14</span><span class="p">)</span><span class="o">?</span><span class="p">)</span><span class="o">?</span><span class="p">.</span><span class="n">exp</span><span class="p">()</span><span class="o">?</span><span class="p">;</span><span class="w">
+</span><span class="w"></span><span class="n">new_s</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span></code></pre></div><p data-pid="h6QKyvpS">Burn（FSRS 正在用的 Rust 深度学习框架）：</p><div class="highlight"><pre><code class="language-rust"><span class="k">fn</span> <span class="nf">stability_after_failure</span><span class="p">(</span><span class="w">
+</span><span class="w"></span><span class="o">&amp;</span><span class="bp">self</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">last_s</span>: <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">new_d</span>: <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">r</span>: <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">().</span><span class="n">slice</span><span class="p">([</span><span class="mi">11</span><span class="p">..</span><span class="mi">12</span><span class="p">])</span><span class="w">
+</span><span class="w"></span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="o">-</span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">().</span><span class="n">slice</span><span class="p">([</span><span class="mi">12</span><span class="p">..</span><span class="mi">13</span><span class="p">])</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">new_d</span><span class="p">.</span><span class="n">log</span><span class="p">()).</span><span class="n">exp</span><span class="p">()</span><span class="w">
+</span><span class="w"></span><span class="o">*</span><span class="w"> </span><span class="p">((</span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">().</span><span class="n">slice</span><span class="p">([</span><span class="mi">13</span><span class="p">..</span><span class="mi">14</span><span class="p">])</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="n">last_s</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">).</span><span class="n">log</span><span class="p">()).</span><span class="n">exp</span><span class="p">()</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w">
+</span><span class="w"></span><span class="o">*</span><span class="w"> </span><span class="p">((</span><span class="o">-</span><span class="n">r</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">().</span><span class="n">slice</span><span class="p">([</span><span class="mi">14</span><span class="p">..</span><span class="mi">15</span><span class="p">])).</span><span class="n">exp</span><span class="p">()</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span></code></pre></div><p data-pid="FLaEywd1">PyTorch 我几分钟就能敲出来的网络结构，Rust 我要敲一个小时。而且 Rust 这边的深度学习库缺很多函数操作。甚至连 tensorA.pow(tensorB) 都没有，必须用 (tensorA.log() * tensorB).exp() 这样的 workaround。1 - tensor 也是不存在的，必须 tensor.affine(-1.0, 1.0)。tensor 类型转换甚至都是几周前才实现的功能。</p><p data-pid="Ziw6vrxU">还有一些很神必的差异。比如 burn 的 dataloader 里面有 shuffle，但这个 shuffle 只在构建的时候执行一次，之后每个 epoch 的顺序都是一样的。这钟问题如果不把日志打出来，或者去看底层代码，根本察觉不到。</p><p data-pid="A6yiffEu">虽然最后还是用 burn 把我的一个 PyTorch 项目重写成功了，但重写花的时间是开发的 20 倍以上（这里还包括修 bug 修到上游去的时间、各种框架选型踩坑的时间），更不用说如果我一开始就用 Rust 写，估计心智负担直接爆炸了。我是没感觉出 Rust 在 AI 开发效率上有什么优势。</p><p data-pid="st1iIuIt">不过要说其他方面的优势，其实还是有的。比如编译出来的应用体积很小，就几 MB。如果是依赖 libtorch 的话，体积就要上百 MB 了。</p><p data-pid="mkEb5han">如果你想找一些 Rust 的深度学习应用来参考，可以看看 open spaced repetition 组织的这个项目：</p><a class="wrap external" data-draft-node="block" data-draft-type="link-card" href="https://github.com/open-spaced-repetition/fsrs-rs" rel="nofollow noreferrer noopener" target="_blank">open-spaced-repetition/fsrs-rs: FSRS for Rust, including Optimizer and Scheduler (github.com)</a><p></p>
+
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>Y Combinator | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Y Combinator | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/694282984">
+<meta property="og:image" content="">
+<meta property="og:description" content="Y Combinator 是一家创业孵化器，它不仅提供资金支持，还为参与者打造了一个有助于他们快速成长的结构化环境。这里的活动多着眼于传授一整套精炼的实践和价值观：比如，通过与成功的前创始人吃饭交流，几乎像讲故事一样传递文化知识；一系列权威的书籍和演…">
+<meta name="description" content="Y Combinator 是一家创业孵化器，它不仅提供资金支持，还为参与者打造了一个有助于他们快速成长的结构化环境。这里的活动多着眼于传授一整套精炼的实践和价值观：比如，通过与成功的前创始人吃饭交流，几乎像讲故事一样传递文化知识；一系列权威的书籍和演…">
+<meta data-pagefind-meta="title" content="Y Combinator">
+<meta data-pagefind-meta="image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Y Combinator | ZhiHu Archive">
+<meta name="twitter:description" content="Y Combinator 是一家创业孵化器，它不仅提供资金支持，还为参与者打造了一个有助于他们快速成长的结构化环境。这里的活动多着眼于传授一整套精炼的实践和价值观：比如，通过与成功的前创始人吃饭交流，几乎像讲故事一样传递文化知识；一系列权威的书籍和演…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/694282984");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src=""/>
+<h1><a href="https://zhuanlan.zhihu.com/p/694282984" target="_blank" rel="noopener noreferrer">Y Combinator</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2024-04-24T06:52:38">发表于 2024年04月24日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">15 👍 / 1 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="ybAKYK-L">Y Combinator 是一家创业孵化器，它不仅提供资金支持，还为参与者打造了一个有助于他们快速成长的结构化环境。这里的活动多着眼于传授一整套精炼的实践和价值观：比如，通过与成功的前创始人吃饭交流，几乎像讲故事一样传递文化知识；一系列权威的书籍和演讲也起到同样的作用；紧凑的演示日（Demo Day）安排要求创始人按特定方式行动；而办公时间则提供面对面的指导，强调相同的原则。</p><p data-pid="D6N9dH2u">Y Combinator 是一个<a class="wrap external" href="https://notes.andymatuschak.org/z492hGrHvRvJiEY9UfB4Mby" rel="nofollow noreferrer noopener" target="_blank">赋能环境</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="赋能环境" data-url="https://zhuanlan.zhihu.com/p/458337989">[1]</sup>：创业者们经常感叹，他们突然能做更多事情——而这不仅仅是因为资金的支持。虽然从某种程度上说，它像是一所学校，但关键的区别在于，创业者的所有活动都围绕着他们热衷的创业项目展开，而不是仅仅学习一些抽象的技能，这些技能未来可能用来实现某些有深度的目标（<a class="wrap external" href="https://notes.andymatuschak.org/z3PJFWDZ7gar2ttawQTmBek" rel="nofollow noreferrer noopener" target="_blank">赋能环境中的活动直接服务于有内在意义的目的</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="赋能环境中的活动直接服务于有内在意义的目的" data-url="https://zhuanlan.zhihu.com/p/482949294">[2]</sup>）。</p><p data-pid="Ekx9Qsem">Y Combinator 同时也是一种<a class="wrap external" href="https://notes.andymatuschak.org/z92TGMiBsnraf5KXxSTNkBJ" rel="nofollow noreferrer noopener" target="_blank">情景体验</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="情景体验（Enacted experience）" data-url="https://zhuanlan.zhihu.com/p/463926133">[3]</sup>。创业者们通过参与晚餐、达成里程碑、听取讲座和参加办公时间，逐渐内化了一套特定的实践和价值观。在演示日等活动中，他们经常会体验到一系列特定的情绪。这些体验并不显得是外界「强加」的；很多时候，创业者们感觉这些都是自己引发的，尽管在 Y Combinator 这样的环境之外，他们可能根本接触不到这些体验（<a class="wrap external" href="https://notes.andymatuschak.org/zKubRcJXKjiCDPsPgJWckkP" rel="nofollow noreferrer noopener" target="_blank">情景体验可以引导人们积极参与到赋能环境中</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="情景体验可以引导人们积极参与到赋能环境中" data-url="https://zhuanlan.zhihu.com/p/654019484">[4]</sup>）。这些活动并不被定义为「练习」，而是被看作是<b>行动</b>（<a class="wrap external" href="https://notes.andymatuschak.org/z7d63BYfJrd81VFE25jkcDd" rel="nofollow noreferrer noopener" target="_blank">赋能环境的重点是创造成长和行动的机会，而不是技能培养</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="5" data-text="赋能环境的重点是创造成长和行动的机会，而不是技能培养" data-url="https://zhuanlan.zhihu.com/p/591395654">[5]</sup>）。</p><p data-pid="CVVdAW0W">Y Combinator 还开设了「创业学校」，这是一个简化版的远程学习项目。我认为，它虽然没有提供完全一致的情景体验，但如果能做到，其影响力将非常巨大（ <a class="wrap external" href="https://notes.andymatuschak.org/z6oXuXLZ7Wq1eBqskyfph2wz9gjohQUKSBFzx" rel="nofollow noreferrer noopener" target="_blank">情景体验作为一种大众媒介具有难以置信的潜力</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="6" data-text="情景体验成为大众媒体时蕴藏极大潜力" data-url="https://zhuanlan.zhihu.com/p/473212636">[6]</sup>）。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid="kaY3t0z-"><a class="internal" href="./698476935.html" rel="noopener noreferrer" target="_blank">§赋能环境、游戏和《启蒙琼林》</a></li><li data-pid="cHMiuakb"><a class="internal" href="./458337989.html" rel="noopener noreferrer" target="_blank">赋能环境</a></li><li data-pid="xWKhiCN0"><a class="internal" href="./463926133.html" rel="noopener noreferrer" target="_blank">情景体验（Enacted experience）</a></li><li data-pid="s9yukKCj"><a class="internal" href="./591395654.html" rel="noopener noreferrer" target="_blank">赋能环境的重点是创造成长和行动的机会，而不是技能培养</a></li><li data-pid="BNPgmrpn"><a class="internal" href="./694626102.html" rel="noopener noreferrer" target="_blank">设计新的赋能环境，可以看作是在打造一所超级大学（University++）</a></li></ul><h2>声明</h2><p data-pid="a1kSLiu9">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="ga9V2o9D"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 Jarrett Ye<br/>原文：<a class="wrap external" href="https://notes.andymatuschak.org/z9MxCsvv8DcHndqRECbxrRi" rel="nofollow noreferrer noopener" target="_blank">Y Combinator (andymatuschak.org)</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 赋能环境 <a href="./458337989.html" target="_blank" rel="noopener noreferrer">./458337989.html</a><br>2. 赋能环境中的活动直接服务于有内在意义的目的 <a href="./482949294.html" target="_blank" rel="noopener noreferrer">./482949294.html</a><br>3. 情景体验（Enacted experience） <a href="./463926133.html" target="_blank" rel="noopener noreferrer">./463926133.html</a><br>4. 情景体验可以引导人们积极参与到赋能环境中 <a href="./654019484.html" target="_blank" rel="noopener noreferrer">./654019484.html</a><br>5. 赋能环境的重点是创造成长和行动的机会，而不是技能培养 <a href="./591395654.html" target="_blank" rel="noopener noreferrer">./591395654.html</a><br>6. 情景体验成为大众媒体时蕴藏极大潜力 <a href="./473212636.html" target="_blank" rel="noopener noreferrer">./473212636.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：助记媒介 & 思想工具</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>通过间隔证明复习来理解证明中的关键点 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="通过间隔证明复习来理解证明中的关键点 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/563891085">
+<meta property="og:image" content="">
+<meta property="og:description" content="我认为数学有一个核心难点就是「 组合爆炸 」，换句话说就是可能性的问题。比如说一份证明中，有一处不等式符号是 ≤ 而不是 < 或者其他符号（比如说反过来的 ≤），那么当你阅读这份证明时，你必须准备好去解释「为什么这么用」。对于证明中的每个环节，你…">
+<meta name="description" content="我认为数学有一个核心难点就是「 组合爆炸 」，换句话说就是可能性的问题。比如说一份证明中，有一处不等式符号是 ≤ 而不是 < 或者其他符号（比如说反过来的 ≤），那么当你阅读这份证明时，你必须准备好去解释「为什么这么用」。对于证明中的每个环节，你…">
+<meta data-pagefind-meta="title" content="通过间隔证明复习来理解证明中的关键点">
+<meta data-pagefind-meta="image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="通过间隔证明复习来理解证明中的关键点 | ZhiHu Archive">
+<meta name="twitter:description" content="我认为数学有一个核心难点就是「 组合爆炸 」，换句话说就是可能性的问题。比如说一份证明中，有一处不等式符号是 ≤ 而不是 < 或者其他符号（比如说反过来的 ≤），那么当你阅读这份证明时，你必须准备好去解释「为什么这么用」。对于证明中的每个环节，你…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/563891085");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src=""/>
+<h1><a href="https://zhuanlan.zhihu.com/p/563891085" target="_blank" rel="noopener noreferrer">通过间隔证明复习来理解证明中的关键点</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2022-09-13T06:00:06">发表于 2022年09月13日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">10 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="a1HSBfhR">我认为数学有一个核心难点就是「<a class="wrap external" href="https://wiki.issarice.com/wiki/Combinatorial_explosion_in_math" rel="nofollow noreferrer noopener" target="_blank">组合爆炸</a>」，换句话说就是可能性的问题。比如说一份证明中，有一处不等式符号是 ≤ 而不是 &lt; 或者其他符号（比如说反过来的 ≤），那么当你阅读这份证明时，你必须准备好去解释「为什么这么用」。对于证明中的每个环节，你必须有能力解释，为什么作者是如此操作，而非采用其他办法。最终你<a class="wrap external" href="https://wiki.issarice.com/wiki/Spaced_proof_review_is_not_about_memorizing_proofs" rel="nofollow noreferrer noopener" target="_blank">不仅仅记住了表面上短短几行的证明</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="间隔复习证明不在于记住证明" data-url="https://zhuanlan.zhihu.com/p/544715364">[1]</sup>—— 而是在解答一类更大的问题：「为什么作者选择这个办法，而不是其他那些行不通的办法」，这样一来，你写自己的证明时便有了思路。随着证明一点点淡忘，你的想法是「等一下，所以这里我应该做<b>这件事</b>还是<b>那件事</b>？」所以你测试这两条路，之后你会恍然大悟，「原来书上写成了那个样子是这个原因」。</p><p data-pid="yScaAgqF">有一次我想证明 Löb 定理，但我连证明开头使用的技巧都忘记了。（也许这样也挺好，因为我不仅仅是依赖于记忆技巧！）最终我想起来了，Löb 定理和圣诞老人命题有关，所以我写下了「如果这句话是真的，那么圣诞老人存在」。于是我回忆起了我需要一些类似 <img alt="T \vdash L \leftrightarrow (L \to \varphi)" eeimg="1" src="https://www.zhihu.com/equation?tex=T+%5Cvdash+L+%5Cleftrightarrow+%28L+%5Cto+%5Cvarphi%29"/> 的命题，继而回忆起，它并不仅仅是一句光秃秃的命题， 而且在某个地方有一个可证明谓词，基于此我又回忆起，我们应该将 <img alt="\mathrm{Bew}(x) \to \varphi" eeimg="1" src="https://www.zhihu.com/equation?tex=%5Cmathrm%7BBew%7D%28x%29+%5Cto+%5Cvarphi"/> 对角化。因此 <img alt="T \vdash L \leftrightarrow (\Box L \to \varphi)" eeimg="1" src="https://www.zhihu.com/equation?tex=T+%5Cvdash+L+%5Cleftrightarrow+%28%5CBox+L+%5Cto+%5Cvarphi%29"/> 。在这之前，对于为什么我应该将那个特殊的公式对角化（或者那个公式是哪里冒出来的），我是感到疑惑的。</p><h3>参见</h3><ul><li data-pid="wj9cIcrM"><a class="wrap external" href="https://wiki.issarice.com/wiki/Spaced_proof_review_as_a_way_to_invent_novel_proofs" rel="nofollow noreferrer noopener" target="_blank">通过间隔证明复习来发明新的证明方法</a></li></ul><h3>外部链接</h3><ul><li data-pid="8Xnm-MgO"><a class="wrap external" href="https://wiki.issarice.comhttps//mathoverflow.net/a/3957" rel="nofollow noreferrer noopener" target="_blank">https://mathoverflow.net/a/3957</a></li></ul><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="nm8lLsZa"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>原文：<a class="wrap external" href="https://wiki.issarice.com/wiki/Spaced_proof_review_as_a_way_to_understand_key_insights_in_a_proof" rel="nofollow noreferrer noopener" target="_blank">Spaced proof review as a way to understand key insights in a proof</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 间隔复习证明不在于记住证明 <a href="./544715364.html" target="_blank" rel="noopener noreferrer">./544715364.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：间隔重复 & 注意力管理</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

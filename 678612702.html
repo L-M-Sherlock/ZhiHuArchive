@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>阅读理解问题可以发现文本基础的漏洞 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="阅读理解问题可以发现文本基础的漏洞 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/678612702">
+<meta property="og:image" content="">
+<meta property="og:description" content="我有些尴尬地发现（ 2023-09-11 ），当我要求 大语言模型 生成阅读理解问题，以此来帮我评估我针对 《线性代数》- Hefferon 某一章节所构建的文本基础（参见 构建-整合模型 ）时，有几个问题揭示出了文本中我完全未曾理解的部分。尽管我已经努力仔细阅读。 阅读理…">
+<meta name="description" content="我有些尴尬地发现（ 2023-09-11 ），当我要求 大语言模型 生成阅读理解问题，以此来帮我评估我针对 《线性代数》- Hefferon 某一章节所构建的文本基础（参见 构建-整合模型 ）时，有几个问题揭示出了文本中我完全未曾理解的部分。尽管我已经努力仔细阅读。 阅读理…">
+<meta data-pagefind-meta="title" content="阅读理解问题可以发现文本基础的漏洞">
+<meta data-pagefind-meta="image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="阅读理解问题可以发现文本基础的漏洞 | ZhiHu Archive">
+<meta name="twitter:description" content="我有些尴尬地发现（ 2023-09-11 ），当我要求 大语言模型 生成阅读理解问题，以此来帮我评估我针对 《线性代数》- Hefferon 某一章节所构建的文本基础（参见 构建-整合模型 ）时，有几个问题揭示出了文本中我完全未曾理解的部分。尽管我已经努力仔细阅读。 阅读理…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/678612702");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src=""/>
+<h1><a href="https://zhuanlan.zhihu.com/p/678612702" target="_blank" rel="noopener noreferrer">阅读理解问题可以发现文本基础的漏洞</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2024-01-19T01:32:09">发表于 2024年01月19日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">11 👍 / 5 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="IwzkIHQr">我有些尴尬地发现（<a class="wrap external" href="https://notes.andymatuschak.org/z2ZU99Tadhs5MdtF8rTsSuw" rel="nofollow noreferrer noopener" target="_blank">2023-09-11</a>），当我要求<a class="wrap external" href="https://notes.andymatuschak.org/zBe9vHWwqLoyaeA7eJfLnBA" rel="nofollow noreferrer noopener" target="_blank">大语言模型</a>生成阅读理解问题，以此来帮我评估我针对<a class="wrap external" href="https://notes.andymatuschak.org/z4e951xY6fkjGgoHGwHHchi" rel="nofollow noreferrer noopener" target="_blank">《线性代数》- Hefferon</a> 某一章节所构建的文本基础（参见<a class="wrap external" href="https://notes.andymatuschak.org/zHTLU2rAxAo8i1xBGVQPPcr" rel="nofollow noreferrer noopener" target="_blank">构建-整合模型</a>）时，有几个问题揭示出了文本中我完全未曾理解的部分。尽管我已经努力仔细阅读。</p><p data-pid="w4lzz9rt"><a class="wrap external" href="https://notes.andymatuschak.org/zVKwVczp4nEAKPWqfS1BqMi" rel="nofollow noreferrer noopener" target="_blank">阅读理解问题令人不快</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="阅读理解问题令人不快" data-url="https://zhuanlan.zhihu.com/p/678195187">[1]</sup>，这些也不例外。关于这次我注意到的问题，我在这里加了一些笔记：</p><blockquote data-pid="SUYmpfFD">不幸的是，当遇到与我未能充分理解的内容相关的问题时，这种感觉<b>尤为</b>明显。这些问题对我来说似乎毫无意义。我能感觉到它们在要求我给出某种特定的答案，但我无法确定具体需要回答什么（因为我之前并未真正理解过需要的信息）。因此，这些问题就像让我盲目地追寻一样，我不得不翻来覆去地检查章节，试图找到与问题中词汇相匹配的段落。然后我才意识到，我原来根本没有真正理解过那部分内容，虽然我可能最终弄清楚了问题的意图……但这是一种不优雅的达成方式。</blockquote><p data-pid="1vppysNZ">有趣的是，这里的机制是间接的：当阅读理解问题暴露出我理解上的失败时，我通常并不完全明白这个问题到底在问什么。但这种困惑引导我重新阅读，寻找可能有帮助的信息，这个过程最终帮助我弥补了理解上的空缺。</p><p data-pid="Kt3LXL1m">我假设阅读理解问题同样能揭示出我在情境模型（参见<a class="wrap external" href="https://notes.andymatuschak.org/zHTLU2rAxAo8i1xBGVQPPcr" rel="nofollow noreferrer noopener" target="_blank">构建-整合模型</a>）中的漏洞，尽管我对此没有太多直接体验。对我而言，通过需要推理（即<a class="wrap external" href="https://notes.andymatuschak.org/z7ffiDfqTR9pPcEEUUbCL7C" rel="nofollow noreferrer noopener" target="_blank">迁移学习</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="迁移学习" data-url="https://zhuanlan.zhihu.com/p/491870061">[2]</sup>）的复杂任务来发现这些漏洞更为常见。当我无法完成这些任务，而我的文本基础又看起来很扎实时，要确定情境模型的具体崩溃点似乎颇有难度。</p><p data-pid="SjIuMbXz">另见，在<a class="wrap external" href="https://notes.andymatuschak.org/zKPv6qkSErdRGqyryvgS2wS" rel="nofollow noreferrer noopener" target="_blank">助记媒介</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="助记媒介（Mnemonic medium）" data-url="https://zhuanlan.zhihu.com/p/459483765">[3]</sup>的背景下：<a class="wrap external" href="https://notes.andymatuschak.org/z58xEZ2ojjRjm1sMcih4bfQ" rel="nofollow noreferrer noopener" target="_blank">助记媒介中穿插的卡片有时会不太愉快地揭示出阅读理解上的疏漏</a>。</p><h2><br/>链接至本文（已汉化）</h2><ul><li data-pid="D7n-QY34"><a class="internal" href="./679063443.html" rel="noopener noreferrer" target="_blank">阅读理解</a></li></ul><h2>声明</h2><p data-pid="a1kSLiu9">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="7Sa7nG10"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 Jarrett Ye<br/>原文：<a class="wrap external" href="https://notes.andymatuschak.org/zLZUS7KTrG4ABm3tRLGxMMj" rel="nofollow noreferrer noopener" target="_blank">Reading comprehension questions can uncover textbase holes (andymatuschak.org)</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 阅读理解问题令人不快 <a href="./678195187.html" target="_blank" rel="noopener noreferrer">./678195187.html</a><br>2. 迁移学习 <a href="./491870061.html" target="_blank" rel="noopener noreferrer">./491870061.html</a><br>3. 助记媒介（Mnemonic medium） <a href="./459483765.html" target="_blank" rel="noopener noreferrer">./459483765.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：助记媒介 & 思想工具</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

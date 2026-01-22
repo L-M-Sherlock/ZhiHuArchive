@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>什么是证据筛选？ | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="什么是证据筛选？ | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/15300705897">
+<meta property="og:image" content="https://pic1.zhimg.com/v2-db1516149e617d9ff143a15423233b22_720w.jpg?source=172ae18b">
+<meta property="og:description" content="我曾讨论过这样一个困境：一位能言善道的说客，受雇向你兜售一个盒子；盒中可能有钻石，也可能是空的。这位说客指出，盒子上印有蓝色印章，而根据已知事实，装有钻石的盒子比空盒子更可能带有蓝色印章。从贝叶斯理论的角度来看，此刻你会如何反应？你是否一…">
+<meta name="description" content="我曾讨论过这样一个困境：一位能言善道的说客，受雇向你兜售一个盒子；盒中可能有钻石，也可能是空的。这位说客指出，盒子上印有蓝色印章，而根据已知事实，装有钻石的盒子比空盒子更可能带有蓝色印章。从贝叶斯理论的角度来看，此刻你会如何反应？你是否一…">
+<meta data-pagefind-meta="title" content="什么是证据筛选？">
+<meta data-pagefind-meta="image" content="https://pic1.zhimg.com/v2-db1516149e617d9ff143a15423233b22_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="什么是证据筛选？ | ZhiHu Archive">
+<meta name="twitter:description" content="我曾讨论过这样一个困境：一位能言善道的说客，受雇向你兜售一个盒子；盒中可能有钻石，也可能是空的。这位说客指出，盒子上印有蓝色印章，而根据已知事实，装有钻石的盒子比空盒子更可能带有蓝色印章。从贝叶斯理论的角度来看，此刻你会如何反应？你是否一…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/15300705897");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://pic1.zhimg.com/v2-db1516149e617d9ff143a15423233b22_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/15300705897" target="_blank" rel="noopener noreferrer">什么是证据筛选？</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2024-12-29T09:48:44">发表于 2024年12月29日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">38 👍 / 1 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="iJcqwOwK">我曾讨论过这样一个困境：一位能言善道的说客，受雇向你兜售一个盒子；盒中可能有钻石，也可能是空的。这位说客指出，盒子上印有蓝色印章，而根据已知事实，装有钻石的盒子比空盒子更可能带有蓝色印章。从贝叶斯理论的角度来看，此刻你会如何反应？你是否一定要如说客所愿，无奈地以此调整自己的概率判断？</p><p data-pid="m9JqE6Rr">若能亲自检查盒子，自然可以自行评估所有线索。但如果你无法亲自检查呢？倘若你唯一能得到的证据只有来自说客的只言片语——受法律约束只能陈述真相，却又不将一切和盘托出——你又当作何反应？这位说客提出的每一条论据都确实构成了有效证据——你怎能无动于衷，不去调整自己相应的概率判断？在特定比例的 Everett 分支或 Tagmark 世界的平行宇宙中，带蓝色印章的 <b>B</b> 盒内确实存在钻石——这一事实难道就不成立了吗？根据 Jaynes 的观点，贝叶斯主义者必须始终根据所有已知证据作出判断，否则就会自相矛盾。但这样一来，只要有足够多的线索可供选择性报告，这位说客就能诱导你相信他们希望你相信的任何事。这听起来似乎不太对劲。</p><p data-pid="pxbNeppZ">一个更简单的例子：一枚有偏差的硬币，要么偏向正面（正面概率 2/3，反面概率 1/3），要么偏向反面（正面概率 1/3，反面概率 2/3）。这两种情况的先验概率相等。每观察到一次正面，就有 <a class="wrap external" href="https://www.readthesequences.com/How-Much-Evidence-Does-It-Take" rel="nofollow noreferrer noopener" target="_blank">1 比特</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="支持一个信念需要多少证据？" data-url="https://hpmor.xyz/ai2zb_23/">[1]</sup>的证据支持硬币偏向正面；每观察到一次反面，就有 1 比特的证据支持硬币偏向反面。假设我抛了这枚硬币十次，然后告诉你：「第 4 次、第 6 次和第 9 次都是正面。」现在，你认为这枚硬币偏向正面的后验概率是多少？</p><p data-pid="79Pv4zeK">答案是，这个概率几乎可以是任何值，完全取决于我话语背后的因果动机——也就是说，我在报告时筛选抛掷结果的方式。</p><ul><li data-pid="DcuZPvnN"> 我或许是在按这样一种规则行事：只报告第 4、6、9 次抛掷结果，无论其他抛掷的结果如何。假设你知道了我所采用的报告规则，就能得出后验概率比为 8:1，即硬币偏向正面的可能性是偏向反面的 8 倍。<br/> <br/></li><li data-pid="yFgJD8G4"> 我可能是在报告所有正面朝上的结果，且只报告正面。在这种情况下，你能就此推断出其他 7 次均为反面朝上，后验概率因此变成 1:16，即硬币偏向正面的可能性仅为偏向反面的 1/16。<br/> <br/></li><li data-pid="24fbY1Zg"> 我也可能事先决定，只有当硬币偏向正面的概率超过 98% 时，才报告第 4、6、9 次的结果。诸如此类。<br/> </li></ul><p data-pid="_pJSsasm">再来看看 Monty Hall 问题：</p><blockquote data-pid="Ku7E-gSk">你参加一个游戏节目，面前有三扇门，分别通向三个房间。已知其中一个房间里有 10 万美元大奖，而另外两个房间则是空的。主持人请你选一扇门，你选了 1 号门。接着主持人打开了 2 号门，展示里面空无一物。现在你是否要改选 3 号门，还是坚持最初的 1 号门呢？</blockquote><p data-pid="9dNOY-xX">答案取决于主持人的行为规则。如果主持人每次都会打开一扇门，而且总是选择一扇通向空房间的门，那么你应该换到 3 号门。如果无论门后是什么，主持人都会打开 2 号门，那么 1 号门和 3 号门各有 50% 的机会藏有奖金。如果主持人只在你最初选中了有奖金的门时才会打开另一扇门，那么你绝对应该坚持 1 号门不变。</p><p data-pid="95_z5Z4D">在做判断时，你不应该仅仅考虑 「2 号门为空」这一事实，还得考虑「主持人<b>选择</b>打开 2 号门」这一行为。许多人之所以对经典的 Monty Hall 问题感到困惑，是因为他们在更新自己的概率判断时，只考虑到了 「2 号门为空」；单看这一条，1 号门和 3 号门确实各有 50% 的机会藏有奖金。这就是为什么，贝叶斯学派强调，我们必须根据所有已知信息来进行条件概率推理，否则就可能陷入自相矛盾。</p><p data-pid="Es_A4KXl">当有人说出「第四次抛掷结果为正面」时，我们要考虑的并非「第四次抛掷结果为正面」这一事实本身。如果我们想从所有可能性的平行宇宙中找出自己所身处的宇宙，使用的筛选条件并非「硬币的第四次抛掷结果为正面」，而是「有一位遵循特定发言规则的发言人，<b>说出</b>了『第四次抛掷结果为正面』这句话」。说出的话语本身不等同于事实；不要被词语的字面意思所误导。</p><p data-pid="jj6G8A3T">大多数法律程序都基于这样一种理论：<a class="wrap external" href="https://www.readthesequences.com/The-Scales-Of-Justice-The-Notebook-Of-Rationality" rel="nofollow noreferrer noopener" target="_blank">每一个案件有且仅有双方对立</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="正义之为天平，理性之为笔记" data-url="https://zhuanlan.zhihu.com/p/2855161945">[2]</sup>，以及找两个各有偏见的人比找一个完全中立的人更容易。对于任意一项证据，控辩双方<b>总有一方</b>会有动机提出，如此法庭便能看到案件的全貌，这就是该理论的核心。在前文「两盒一钻」的困境中，如果能有两位能言善辩的说客各站一方，虽不如一位好奇的探索者那么理想，但效果也算是接近了。然而，这仅适用于只存在两个盒子的情况。现实中的问题往往涉及多方利益，矛盾错综复杂，答案也非昭然若揭，不是靠着<a class="wrap external" href="https://www.readthesequences.com/A-Fable-Of-Science-And-Politics" rel="nofollow noreferrer noopener" target="_blank">对立双方彼此争吵叫嚣</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="一个有关科学和政治的寓言" data-url="https://hpmor.xyz/ai2zb_12/">[3]</sup>就能轻易解决的。</p><p data-pid="kj60k2iL">务必小心，千万不要滥用「证据筛选」这一概念，将其变成一个万能论据，用来排除所有不合己意的证据，比如说：「这个论点经过筛选，所以我可以置之不理。」如果某个反论令你感到不快，这恰恰说明你对该问题很熟悉，而且关心到足以站边。你可能已经了解过自己这一方最有力的论据。你不能从某一反论中凭空推断出有自己尚未发现的<a class="wrap external" href="https://www.readthesequences.com/One-Argument-Against-An-Army" rel="nofollow noreferrer noopener" target="_blank">新的</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="以一当千的论证谬误" data-url="https://zhuanlan.zhihu.com/p/12852320444">[4]</sup>有利证据存在*。因此，你只能面对这些令人不适的事实本身——<b>B</b> 盒上的蓝色印章依然是不可忽视的证据。</p><blockquote data-pid="IJ3nLtGV">*译注：就是说你不能用「反方肯定筛选掉了对我有利的新证据」这种想法，来自我安慰或逃避反方的论证。</blockquote><p data-pid="mXrhFNe6">但是，如果你是首次听到某个论点，而且只听过一方的说法，那么你确实应该保持警惕！从某种意义上说，没有人会<b>真正</b>信服自然选择理论，除非他们先花五分钟时间听听神创论者的观点；<b>之后</b>他们就知道自然选择理论有多坚实了。</p><hr/><p data-pid="9T9owq7Q">上一篇：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic2.zhimg.com/v2-1efa9d935aef83dce2e8e809a4a0e989_qhd.jpg" data-image-height="4000" data-image-width="6000" href="./13265385885.html" rel="noopener noreferrer" target="_blank">Thoughts Memo：结论从何而来</a><p data-pid="_oGMfCbc">下一篇：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic2.zhimg.com/v2-49a182753963b1fad90ba797b5032b39_qhd.jpg" data-image-height="1375" data-image-width="2000" href="./15807962622.html" rel="noopener noreferrer" target="_blank">Thoughts Memo：合理化</a><hr/><blockquote data-pid="8mCaEl4c"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者潜艇，校对 <span class="nolink">Jarrett Ye</span><br/>原文：<a class="wrap external" href="https://www.readthesequences.com/What-Evidence-Filtered-Evidence" rel="nofollow noreferrer noopener" target="_blank">What Evidence Filtered Evidence? (readthesequences.com)</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 支持一个信念需要多少证据？ <a href="https://hpmor.xyz/ai2zb_23/" target="_blank" rel="noopener noreferrer">https://hpmor.xyz/ai2zb_23/</a><br>2. 正义之为天平，理性之为笔记 <a href="./2855161945.html" target="_blank" rel="noopener noreferrer">./2855161945.html</a><br>3. 一个有关科学和政治的寓言 <a href="https://hpmor.xyz/ai2zb_12/" target="_blank" rel="noopener noreferrer">https://hpmor.xyz/ai2zb_12/</a><br>4. 以一当千的论证谬误 <a href="./12852320444.html" target="_blank" rel="noopener noreferrer">./12852320444.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：理性 & 克服偏见</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

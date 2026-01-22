@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>提取练习和迁移学习 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="提取练习和迁移学习 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/536670074">
+<meta property="og:image" content="">
+<meta property="og:description" content="最简单的 测试效应 [1]实例发生在学生对着他们之后会被测试的（即相同的）卡片进行测试的时候。所以：假设你记住了关于一个主题的一千张卡片，我们真正关心的不仅仅是你回答这些具体问题的能力，毕竟你早就见过它们了，而更重要的是这种练习使你对该主题的可…">
+<meta name="description" content="最简单的 测试效应 [1]实例发生在学生对着他们之后会被测试的（即相同的）卡片进行测试的时候。所以：假设你记住了关于一个主题的一千张卡片，我们真正关心的不仅仅是你回答这些具体问题的能力，毕竟你早就见过它们了，而更重要的是这种练习使你对该主题的可…">
+<meta data-pagefind-meta="title" content="提取练习和迁移学习">
+<meta data-pagefind-meta="image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="提取练习和迁移学习 | ZhiHu Archive">
+<meta name="twitter:description" content="最简单的 测试效应 [1]实例发生在学生对着他们之后会被测试的（即相同的）卡片进行测试的时候。所以：假设你记住了关于一个主题的一千张卡片，我们真正关心的不仅仅是你回答这些具体问题的能力，毕竟你早就见过它们了，而更重要的是这种练习使你对该主题的可…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/536670074");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src=""/>
+<h1><a href="https://zhuanlan.zhihu.com/p/536670074" target="_blank" rel="noopener noreferrer">提取练习和迁移学习</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2022-07-02T04:47:41">发表于 2022年07月02日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">15 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="pTOi0zuq">最简单的<a class="wrap external" href="https://notes.andymatuschak.org/z45mhbpabsigFceeSiRyDXZdvcRqvE2A1xMsn" rel="nofollow noreferrer noopener" target="_blank">测试效应</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="测试效应" data-url="https://zhuanlan.zhihu.com/p/423449068">[1]</sup>实例发生在学生对着他们之后会被测试的（即相同的）卡片进行测试的时候。所以：假设你记住了关于一个主题的一千张卡片，我们真正关心的不仅仅是你回答这些具体问题的能力，毕竟你早就见过它们了，而更重要的是这种练习使你对该主题的可用理解产生了怎样的影响。你实际上能用它做什么？如果我问你一个涉及你所练习的知识的开放式问题，你能不能调动这些知识——即<a class="wrap external" href="https://notes.andymatuschak.org/z2hEyCHQpB6UV8z4mYvto7FJud4zWVqZqfxJZ" rel="nofollow noreferrer noopener" target="_blank">迁移学习</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="迁移学习" data-url="https://zhuanlan.zhihu.com/p/491870061">[2]</sup>。</p><ul><li data-pid="c1h_Wpez"><a class="wrap external" href="https://notes.andymatuschak.org/z6MSrv4m23Z41Gwic6ts3i7Hiy63hdNKH8MbZ" rel="nofollow noreferrer noopener" target="_blank">助记媒介可以包含卡片来支持近迁移</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="助记媒介可以包含卡片来支持近迁移" data-url="https://zhuanlan.zhihu.com/p/482358178">[3]</sup><br/> <br/></li><li data-pid="ih6HJj4e"><a class="wrap external" href="https://notes.andymatuschak.org/z7RgD27WGTZmhHEvEeYcZXAZQwPT8QZ6Ee8xQ" rel="nofollow noreferrer noopener" target="_blank">助记媒介如何帮助读者产生更复杂的理解？</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="助记媒介如何帮助读者建立更复杂的理解？" data-url="https://zhuanlan.zhihu.com/p/464129684">[4]</sup><br/> </li></ul><h3>实验证据</h3><ul><li data-pid="66-hfq1H"><a class="wrap external" href="https://notes.andymatuschak.org/Pan%2C_S._C.%2C_%26_Rickard%2C_T._C._(2018)._Transfer_of_test-enhanced_learning" rel="nofollow noreferrer noopener" target="_blank">Meta-analytic review and synthesis. Psychological Bulletin, 144(7), 710–756</a><br/> <br/></li><ul><li data-pid="yR0KlffW"> 这个关于提取练习的迁移效应的元分析发现，相对于非练习干预，总体平均迁移效应为 d=0.4，特别是受练习期间的反应一致性、初始准确性和精细提取调节。<br/> <br/></li></ul><li data-pid="uaPDxnLo"><a class="wrap external" href="https://notes.andymatuschak.org/zKhfH8c9tyT3e8sZzDSKZ3yMmLFjybUT1CA" rel="nofollow noreferrer noopener" target="_blank">Butler, A. (2010). Repeated Testing Produces Superior Transfer of Learning Relative to Repeated Studying. Journal of Experimental Psychology. Learning, Memory, and Cognition, 36, 1118–1133.</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="5" data-text="相较于重复学习，重复测试的迁移学习效果更好" data-url="https://zhuanlan.zhihu.com/p/604132912">[5]</sup><br/> <br/></li><ul><li data-pid="hr6idxYx"> 用改编的维基百科段落进行的小型实验表明，相对于重新学习，提取练习可以提高学习者面对迁移类问题的表现，其幅度与逐字问题相近。<br/> <br/></li></ul><li data-pid="ME-J5SGp"><a class="wrap external" href="https://notes.andymatuschak.org/Agarwal%2C_P._K.%2C_Nunes%2C_L._D.%2C_%26_Blunt%2C_J._R._(2021)._Retrieval_Practice_Consistently_Benefits_Student_Learning" rel="nofollow noreferrer noopener" target="_blank">A Systematic Review of Applied Research in Schools and Classrooms. Educational Psychology Review.</a><br/> <br/></li><ul><li data-pid="DaxTnHA7"> 在这个关于<a class="wrap external" href="https://notes.andymatuschak.org/zFGWCfLsZMkwKPYG2F3k9mnpwWM9D6cEJXS" rel="nofollow noreferrer noopener" target="_blank">提取练习</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="6" data-text="提取练习" data-url="https://zhuanlan.zhihu.com/p/1928747840647168044">[6]</sup>的更广泛的系统性的综述中，作者指出：「与逐字或重复问题的实验相比，改写问题的实验的效应通常较小。」这个效应看起来很小，也许是 d~0.1-0.2。<br/> <br/></li></ul><li data-pid="xWCBjQmf"><a class="wrap external" href="https://notes.andymatuschak.org/z2hbCUF8Lyt1eoAfR5cN74GNYKdUcJBdaK97" rel="nofollow noreferrer noopener" target="_blank">Samani, J., &amp; Pan, S. (2021). Interleaved Practice Enhances Memory and Problem-Solving Ability in Undergraduate Physics. Npj Science of Learning, 6.</a><br/> <br/></li><ul><li data-pid="8NQvjs6o"><a class="wrap external" href="https://notes.andymatuschak.org/zVBSmoZbMp7kpzoPEsEwbp2ZpH3W6wtfyAJ" rel="nofollow noreferrer noopener" target="_blank">交错练习</a>，在这个例子中会涉及到<a class="wrap external" href="https://notes.andymatuschak.org/zFGWCfLsZMkwKPYG2F3k9mnpwWM9D6cEJXS" rel="nofollow noreferrer noopener" target="_blank">提取练习</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="7" data-text="提取练习" data-url="https://zhuanlan.zhihu.com/p/1928747840647168044">[7]</sup>和<a class="wrap external" href="https://notes.andymatuschak.org/z5oCe7JTrkYfmb6SHE4n5HxisE7PdwS6nmXEw" rel="nofollow noreferrer noopener" target="_blank">间隔效应</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="8" data-text="间隔效应" data-url="https://zhuanlan.zhihu.com/p/424603970">[8]</sup>，在随后的迁移测试中产生了明显的提高。<br/> <br/></li></ul><li data-pid="4T56ooUd"><a class="wrap external" href="https://notes.andymatuschak.org/z78CeJK6CpQWhzruLZZ8cVxeQ2WaHgzHNmHsq" rel="nofollow noreferrer noopener" target="_blank">Karpicke, J. D., &amp; Blunt, J. R. (2011). Retrieval Practice Produces More Learning than Elaborative Studying with Concept Mapping. Science, 331(6018), 772–775.</a><br/> <br/></li><ul><li data-pid="E79_eRdi"> 研究主要是为了评估<a class="wrap external" href="https://notes.andymatuschak.org/z88WWcjQ3JXgNMd2eq9yeStASEfqJwE4dp5" rel="nofollow noreferrer noopener" target="_blank">概念图</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="9" data-text="绘制概念图" data-url="https://zhuanlan.zhihu.com/p/1930200421491803500">[9]</sup>与<a class="wrap external" href="https://notes.andymatuschak.org/zFGWCfLsZMkwKPYG2F3k9mnpwWM9D6cEJXS" rel="nofollow noreferrer noopener" target="_blank">提取练习</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="7" data-text="提取练习" data-url="https://zhuanlan.zhihu.com/p/1928747840647168044">[7]</sup>，评估时涉及需要迁移才能回答的推理问题，在这些问题上，提取练习条件下的学生比所有其他条件（重复学习、概念图）表现更好，就绝对数值而言，也相当不错。<br/> <br/></li></ul><li data-pid="hPpybqDm"><a class="wrap external" href="https://notes.andymatuschak.org/Agarwal%2C_P._(2019)._Retrieval_Practice_%26_Bloom%E2%80%99s_Taxonomy" rel="nofollow noreferrer noopener" target="_blank">Do Students Need Fact Knowledge Before Higher Order Learning? Journal of Educational Psychology, 111, 189–209</a><br/> <br/></li><ul><li data-pid="JQqDgb02"> 在某些条件下，学生进行事实问题的练习，并被要求回答高阶测试问题。这些学生的表现与那些完全不进行提取练习的学生几乎没有区别。<br/> </li></ul></ul><h3>准备阅读</h3><ul><li data-pid="4E0Dmijd"> Agarwal, P. K., Bain, P. M., &amp; Chamberlain, R. W. (2012). The value of applied research: Retrieval practice improves classroom learning and recommendations from a teacher, a principal, and a scientist. <i>Educa- tional Psychology Review, 24,</i>437– 448. <a class="external" href="http://dx.doi.org/10.1007/s10648-012-9210-2" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">http://</span><span class="visible">dx.doi.org/10.1007/s106</span><span class="invisible">48-012-9210-2</span><span class="ellipsis"></span></a><br/> <br/></li><li data-pid="qNDNqGOP"> Johnson, C. I., &amp; Mayer, R. E. (2009). A testing effect with multimedia learning. Journal of Educational Psychology, 101(3), 621–629. <a class="external" href="https://doi.org/10.1037/a0015183" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">https://</span><span class="visible">doi.org/10.1037/a001518</span><span class="invisible">3</span><span class="ellipsis"></span></a><br/> <br/></li><li data-pid="SCjtz9nt"> McDaniel, M. A., Howard, D. C., &amp; Einstein, G. O. (2009). The Read-Recite-Review Study Strategy: Effective and Portable. Psychological Science, 20(4), 516–522. <a class="external" href="https://doi.org/10.1111/j.1467-9280.2009.02325.x" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">https://</span><span class="visible">doi.org/10.1111/j.1467-</span><span class="invisible">9280.2009.02325.x</span><span class="ellipsis"></span></a><br/> <br/></li><li data-pid="30rqPDne"> McDaniel, M. A., Thomas, R. C., Agarwal, P. K., McDermott, K. B., &amp; Roediger, H. L. (2013). Quizzing in middle-school science: Successful transfer performance on classroom exams. <i>Applied Cognitive Psychol- ogy, 27,</i>360–372. <a class="external" href="http://dx.doi.org/10.1002/acp.2914" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">http://</span><span class="visible">dx.doi.org/10.1002/acp.</span><span class="invisible">2914</span><span class="ellipsis"></span></a><br/> <br/></li><li data-pid="jCT7-l2P"> Agarwal, P. K. (2019). Retrieval practice and Bloom’s taxonomy: do students need fact knowledge before higher order learning? Journal of Educational Psychology, 111, 2 189–209.<br/> <br/></li><li data-pid="IwRdGcNI"> Butler, A. C., Black-Maier, A. C., Raley, N. D., &amp; Marsh, E. J. (2017). Retrieving and applying knowledge to different examples promotes transfer of learning. <i>Journal of Experimental Psychology: Applied, 23,</i>433–446. <a class="external" href="http://dx.doi.org/10.1037/xap0000142" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">http://</span><span class="visible">dx.doi.org/10.1037/xap0</span><span class="invisible">000142</span><span class="ellipsis"></span></a><br/> <br/></li><li data-pid="63HRatnR"> Carpenter, S. K. (2012). Testing enhances the transfer of learning. <i>Current Directions in Psychological Science, 21,</i>279–283. <a class="external" href="http://dx.doi.org/10.1177/0963721412452728" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">http://</span><span class="visible">dx.doi.org/10.1177/0963</span><span class="invisible">721412452728</span><span class="ellipsis"></span></a><br/> <br/></li><li data-pid="VWAXERLf"> Rohrer, D., Taylor, K., &amp; Sholar, B. (2010). Tests enhance the transfer of learning. <i>Journal of Experimental Psychology: Learning, Memory, and Cognition, 36,</i>233–239. <a class="external" href="http://dx.doi.org/10.1037/a0017678" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">http://</span><span class="visible">dx.doi.org/10.1037/a001</span><span class="invisible">7678</span><span class="ellipsis"></span></a><br/> <br/></li><li data-pid="G8I9LeVH"> van Eersel, G. G., Verkoeijen, P. P., Povilenaite, M., &amp; Rikers, R. (2016). The testing effect and far transfer: The role of exposure to key information. Frontiers in Psychology, 7, 1977. <a class="external" href="http://dx.doi.org/10.3389/fpsyg.2016.01977" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">http://</span><span class="visible">dx.doi.org/10.3389/fpsy</span><span class="invisible">g.2016.01977</span><span class="ellipsis"></span></a><br/> <br/></li><li data-pid="vnXGME-Q"> Balch, W. R. (1998). Practice versus review exams and final exam performance. Teaching of Psychology, 25, 181–185. <a class="external" href="http://dx.doi.org/10.1207/s15328023top2503_3" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">http://</span><span class="visible">dx.doi.org/10.1207/s153</span><span class="invisible">28023top2503_3</span><span class="ellipsis"></span></a><br/> <br/></li><li data-pid="_R5qOSo4"> Bjork, E. L., Little, J. L., &amp; Storm, B. C. (2014). Multiple-choice testing as a desirable difficulty in the classroom. Journal of Applied Research in Memory &amp; Cognition, 3, 165–170. <a class="external" href="http://dx.doi.org/10.1016/j.jarmac.2014.03.002" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">http://</span><span class="visible">dx.doi.org/10.1016/j.ja</span><span class="invisible">rmac.2014.03.002</span><span class="ellipsis"></span></a><br/> <br/></li><li data-pid="wQ44SguJ"> McConnell, M. M., St-Onge, C., &amp; Young, M. E. (2015). The benefits of testing for learning on later performance. Advances in Health Sciences Education, 20, 305–320. <a class="external" href="http://dx.doi.org/10.1007/s10459-014-9529-1" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">http://</span><span class="visible">dx.doi.org/10.1007/s104</span><span class="invisible">59-014-9529-1</span><span class="ellipsis"></span></a><br/> <br/></li><li data-pid="rXJNZ0df"> McDaniel, M. A., Anderson, J. L., Derbish, M. H., &amp; Morrisette, N. (2007). Testing the testing effect in the classroom. European Journal of Cognitive Psychology, 19, 494 –513. <a class="external" href="http://dx.doi.org/10.1080/09541440701326154" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">http://</span><span class="visible">dx.doi.org/10.1080/0954</span><span class="invisible">1440701326154</span><span class="ellipsis"></span></a><br/> <br/></li><li data-pid="GxcvJGTA"> McDaniel, M. A., Wildman, K. M., &amp; Anderson, J. L. (2012). Using quizzes to enhance summative-assessment performance in a web-based class: An experimental study. Journal of Applied Research in Memory &amp; Cognition, 1, 18–26. <a class="external" href="http://dx.doi.org/10.1016/j.jarmac.2011.10.001" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">http://</span><span class="visible">dx.doi.org/10.1016/j.ja</span><span class="invisible">rmac.2011.10.001</span><span class="ellipsis"></span></a></li></ul><h2>链接至本文（已汉化）</h2><ul><li data-pid="m1l7UoFc"><a class="internal" href="./423449068.html" rel="noopener noreferrer" target="_blank">测试效应</a></li><li data-pid="jmmct85s"><a class="internal" href="./491870061.html" rel="noopener noreferrer" target="_blank">迁移学习</a></li><li data-pid="m5gKehoQ"><a class="internal" href="./482358178.html" rel="noopener noreferrer" target="_blank">助记媒介可以包含卡片来支持近迁移</a></li><li data-pid="dSaahhst"><a class="internal" href="./464129684.html" rel="noopener noreferrer" target="_blank">助记媒介如何帮助读者建立更复杂的理解？</a></li><li data-pid="iJFWUznf"><a class="internal" href="./604132912.html" rel="noopener noreferrer" target="_blank">相较于重复学习，重复测试的迁移学习效果更好</a></li><li data-pid="GYizkSrN"><a class="internal" href="./1915475356250514194.html" rel="noopener noreferrer" target="_blank">解题示例效应</a></li></ul><h2>声明</h2><p data-pid="a1kSLiu9">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。 </p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="0GAPBly4"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>原文：<a class="wrap external" href="https://notes.andymatuschak.org/z2a8QGPfUmdLCVokLaegNzmaU6ehC58CUtYi" rel="nofollow noreferrer noopener" target="_blank">Retrieval practice and transfer learning (andymatuschak.org)</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 测试效应 <a href="./423449068.html" target="_blank" rel="noopener noreferrer">./423449068.html</a><br>2. 迁移学习 <a href="./491870061.html" target="_blank" rel="noopener noreferrer">./491870061.html</a><br>3. 助记媒介可以包含卡片来支持近迁移 <a href="./482358178.html" target="_blank" rel="noopener noreferrer">./482358178.html</a><br>4. 助记媒介如何帮助读者建立更复杂的理解？ <a href="./464129684.html" target="_blank" rel="noopener noreferrer">./464129684.html</a><br>5. 相较于重复学习，重复测试的迁移学习效果更好 <a href="./604132912.html" target="_blank" rel="noopener noreferrer">./604132912.html</a><br>6. 提取练习 <a href="./1928747840647168044.html" target="_blank" rel="noopener noreferrer">./1928747840647168044.html</a><br>7. 提取练习 <a href="./1928747840647168044.html" target="_blank" rel="noopener noreferrer">./1928747840647168044.html</a><br>8. 间隔效应 <a href="./424603970.html" target="_blank" rel="noopener noreferrer">./424603970.html</a><br>9. 绘制概念图 <a href="./1930200421491803500.html" target="_blank" rel="noopener noreferrer">./1930200421491803500.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：认知基石 & 教育培训</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

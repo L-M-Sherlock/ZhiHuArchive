@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>从 Anki 算法说起，探索记忆的状态空间 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="从 Anki 算法说起，探索记忆的状态空间 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/344716900">
+<meta property="og:image" content="https://picx.zhimg.com/v2-079bd935fac29c15a61e06ea5c844a03_r.jpg?source=172ae18b">
+<meta property="og:description" content="上期说到，Anki 算法是 sm-2 算法的变体，也是纯状态空间算法的代表 [1]。今天我们就从 Anki 的算法说起，看看状态空间方法是怎样构建记忆模型的。Anki 的状态空间方法状态想要确定状态空间，我们得先知道，什么是状态。 状态是一种如果重现则可以由观察者…">
+<meta name="description" content="上期说到，Anki 算法是 sm-2 算法的变体，也是纯状态空间算法的代表 [1]。今天我们就从 Anki 的算法说起，看看状态空间方法是怎样构建记忆模型的。Anki 的状态空间方法状态想要确定状态空间，我们得先知道，什么是状态。 状态是一种如果重现则可以由观察者…">
+<meta data-pagefind-meta="title" content="从 Anki 算法说起，探索记忆的状态空间">
+<meta data-pagefind-meta="image" content="https://picx.zhimg.com/v2-079bd935fac29c15a61e06ea5c844a03_r.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="从 Anki 算法说起，探索记忆的状态空间 | ZhiHu Archive">
+<meta name="twitter:description" content="上期说到，Anki 算法是 sm-2 算法的变体，也是纯状态空间算法的代表 [1]。今天我们就从 Anki 的算法说起，看看状态空间方法是怎样构建记忆模型的。Anki 的状态空间方法状态想要确定状态空间，我们得先知道，什么是状态。 状态是一种如果重现则可以由观察者…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/344716900");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://picx.zhimg.com/v2-079bd935fac29c15a61e06ea5c844a03_r.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/344716900" target="_blank" rel="noopener noreferrer">从 Anki 算法说起，探索记忆的状态空间</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2021-01-16T04:10:13">发表于 2021年01月16日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">55 👍 / 32 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="y3TlNlxL">上期说到，Anki 算法是 sm-2 算法的变体，也是纯状态空间算法的代表<sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="复习算法发展的两大方向" data-url="https://zhuanlan.zhihu.com/p/343419228">[1]</sup>。今天我们就从 Anki 的算法说起，看看状态空间方法是怎样构建记忆模型的。</p><h2>Anki 的状态空间方法</h2><h2>状态</h2><p data-pid="LKL-r381">想要确定状态空间，我们得先知道，什么是状态。</p><blockquote data-pid="8JOZyG9S"> 状态是一种如果重现则可以由观察者再次识别的情形<sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="《系统化思维导论》[美] Gerald M. Weinberg 6.2 状态空间" data-url="">[2]</sup>。 <br/> </blockquote><p data-pid="557XaXW_">也就是说，划分状态能将多个发生时间点不同的相似情形归类，对同样的状态做同样的处理。</p><p data-pid="fQ0hkQrX">让我们看看 Anki 是怎么确定状态的：</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://picx.zhimg.com/v2-fef17125ac1c8b1e6307e36d86172503_r.jpg" data-original-token="v2-e994c4e2faba4e675d46caa507f4b8b6" data-rawheight="1044" data-rawwidth="1427" data-size="normal" src="https://picx.zhimg.com/v2-fef17125ac1c8b1e6307e36d86172503_1440w.jpg" width="1427"/></figure><p data-pid="ecLZwUWB">这是 Anki 数据库中的 card 表，记录了每张卡片的元信息。其中，根据 Anki 的源码，以及数据库的相关文档可知<sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="Database Structure" data-url="https://github.com/ankidroid/Anki-Android/wiki/Database-Structure">[3]</sup>，参与复习算法的数据主要来自 ivl、factor、due。另外学习者的反馈也是 Anki 算法的重要输入，这里记作 grade。</p><p data-pid="yUsJcSiA">属性解释</p><p data-pid="619sPgUl">ivl：算法安排的间隔</p><p data-pid="gHEm2qxl">due：实际复习的日期</p><p data-pid="2AvDjd8d">factor：间隔系数</p><p data-pid="yOc1AJtH">为了方便理解，我们对这三个属性进行一个简单的变换处理，将 ivl 定义为记忆稳定性 S（参见：<a class="internal" href="./343115387.html" rel="noopener noreferrer" target="_blank">记忆难题</a>），due 定义为实际间隔 t，factor 定义为难度 D。</p><h2>状态转移</h2><p data-pid="8EkAV3LY">也就是说，Anki 对记忆的状态定义就是 <img alt="(D,S,t)" eeimg="1" src="https://www.zhihu.com/equation?tex=%28D%2CS%2Ct%29"/> 。根据 Anki 的算法，我们便可以列出状态转移表：</p><table data-draft-node="block" data-draft-type="table" data-row-style="normal" data-size="normal"><tbody><tr><th>grade</th><th>D</th><th>S</th><th>t</th></tr><tr><td>没有复习的一天</td><td>不变</td><td>不变</td><td>+1</td></tr><tr><td>重来</td><td>-20%</td><td>=1</td><td>=0</td></tr><tr><td>困难</td><td>-15%</td><td>= S * 1.2</td><td>=0</td></tr><tr><td>一般</td><td>不变</td><td>= [S + (t - S)/2] * D</td><td>=0</td></tr><tr><td>简单</td><td>+15%</td><td>= t * D</td><td>=0</td></tr></tbody></table><p data-pid="BJcLvzmB">grade 是我们复习时的反馈，根据不同的反馈情况，记忆的状态会有不同的改变。虽然 Anki 的公式是基于经验的，但是在不少情况下它是符合我们对记忆的直觉的。</p><p data-pid="_vAEra23">比如：</p><ul><li data-pid="u8sOPfjt">卡片越难（D 越小），记忆稳定性提升的就越少，显而易见</li><li data-pid="L9QzcsuT">复习间隔越长（t 越大），记忆稳定性提升的就越多，也就是间隔效应</li><li data-pid="KSnLI8l6">遗忘要增加卡片难度（D 变小），并使记忆稳定性归 1</li><li data-pid="UG3mL8jP">太简单的卡片要降低卡片难度（D 变大）</li></ul><p data-pid="KqRU_3AI">至于遗忘曲线中提到的遗忘速率先快后慢，在这里并没有体现。这也是 Anki 的一个问题所在。之后会引入一个更好的状态定义方法，可以解决这个问题。</p><h2>状态空间</h2><p data-pid="7Bs0ZNYT">从这张表中我们会发现，Anki 算法涉及了三个状态值和一个输入值。我们来考察一下这个状态空间有多大：</p><p data-pid="BLvx-mxk">D 在 Anki 算法中有着上下界，大致为 [120%, 690%]，由于 D 的加减都是 5 的倍数，所以可以将 (690 - 120) / 5  = 114 作为定义域的基数（也就是可能取值的个数）</p><p data-pid="w0cQ4xRO">S、t 的取值只有 1 作为下界，并以天作为最小单位，如果我们将研究范围缩小到一年以内，那么它们的基数都为 365。</p><p data-pid="h81mMKGa">grade 的取值也是只有 4 种，进一步缩小我们的研究范围，只看做出复习反馈的结果（不做出反馈我们也无法研究），那么状态空间的大小就可以用以上四个属性的笛卡尔积空间大小来表示：114 * 365 * 365 * 4 = 60750600。</p><p data-pid="_iIm3lCr">当然，这个只是状态空间的上界，考虑到实际的数据分布，有很多状态值的组合是不会被观察到的。</p><p data-pid="ilfTxvIc">但是这个状态空间还是太大了，而且有些属性无法反映出记忆的本质属性。比如 t，作为实际复习间隔，只能反映出学习者隔了多久进行复习，想要反映出回忆概率，还需要与记忆稳定性相结合才能给出答案（ <img alt="R = e^{-\frac{t}{S}}" eeimg="1" src="https://www.zhihu.com/equation?tex=R+%3D+e%5E%7B-%5Cfrac%7Bt%7D%7BS%7D%7D"/> ）。</p><p data-pid="hzmDlCtl">为此，不妨将 t 替换成 <img alt="e^{-\frac{t}{S}}" eeimg="1" src="https://www.zhihu.com/equation?tex=e%5E%7B-%5Cfrac%7Bt%7D%7BS%7D%7D"/> ，这样得到了一个 [0,1] 区间上的标准值。根据定义，我们可以称其为记忆可提取性，与记忆群体的保留率相对应，通过统计同一记忆状态下的不同反馈比例可以得出真实的保留率。（例如重来记作遗忘，其余记作记得，就能算出保留率）</p><p data-pid="unGOfmhS">这也是 SuperMemo 算法所基于的记忆模型，又称 DSR 模型（Difficulty, Stability, Retrievability)<sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="记忆的两个组成成分|浓缩通俗版" data-url="https://zhuanlan.zhihu.com/p/179076885">[4]</sup>。以后我们会进一步分析此模型，本期不会过多涉及。</p><p data-pid="BnilPfCz">有了状态空间，我们就能将记忆状态映射到坐标系空间中，将每次反馈的状态点连成行为线。通过研究记忆的行为，我们就能探寻更多关于记忆的规律。</p><h2>算法适应性</h2><p data-pid="YVH1HHwA">说完了 Anki 的状态空间方法概要，我们来看看这种方法有哪些优点和局限。</p><h3>优点</h3><p data-pid="RcrLfEE4">Anki 算法的优点其实很简单，那就是它够简单。一个状态转移表 + 状态向量，就能把算法描述完整。并且在经验上，Anki 的状态转移方法是符合直觉的。</p><h3>缺点</h3><p data-pid="oDrzCAN_">Anki 的缺点就是状态转移十分死板，庞大的状态空间被不合理的利用浪费掉了。比如：</p><ol><li data-pid="te96gUYT">Anki 对提前复习和自动延迟复习的支持不佳，大部分情况下，t 和 S 是相等的，对于 t 与 S 不相等的状态优化能力不足</li><li data-pid="u0Qh77UW">稳定性增长只与 D 和 t 有关，忽略了 S 本身的影响</li><li data-pid="hIWvYnrR">稳定性增长与 D 和 t 的关系被设定为线性，实际上根据数据统计结果来看，应当是非线性的，需要另外的函数进行拟合</li><li data-pid="6c0pOo0p">D 的变化被限制在 20% 以内，使得离初始值较远的状态空间需要很多反馈才有可能达到</li></ol><p data-pid="A3LHmFeG">为了改进这些不足，SuperMemo 做了长达 30 年的优化，主要也是围绕状态转移方法，在此基础上用数据拟合的方法来改进状态转移方法。</p><h2>总结</h2><p data-pid="e_YSnxb2">总得来说，状态空间方法就是通过归纳，将相似的记忆情形归纳起来，然后用状态转移来描述记忆随着时间和复习的变化。</p><p data-pid="D8p9IQv5">通过忽略无关的区别，缩小状态空间，观察到记忆状态的变化规律，得到状态转移方程，构建记忆算法。这就是这类算法的设计思路。</p><h2>彩蛋</h2><p data-pid="_cBeH5CK">不知道大家有没有发现一个神奇的地方，那就是这些状态不包含卡片本身的内容。也就是说，状态空间方法仅仅通过反馈来估计记忆状态，而不涉及材料本身的内容。</p><p data-pid="eFQXEDzv">这个特点也是一把双刃剑，对于 Anki 这种主要依靠用户自己制卡的软件，算法本身不可能得知别人记忆这些卡片的情况，所以状态空间方法就能发挥出其不依赖卡片内容的优势。</p><p data-pid="hTBlyKDO">但是，如果是背单词之类的大量相同内容的话，平台可以很方便地收集大量用户对相同单词的记忆情况，便可以基于单词本身做算法优化（墨墨收集了四百多亿数据了，很强<sup data-draft-node="inline" data-draft-type="reference" data-numero="5" data-text="基于BMMS收集的记忆行为数据" data-url="https://www.maimemo.com/">[5]</sup>），从而击败无法利用这些数据的状态空间方法。（当然，即使如此也有很多问题待解决）</p><p data-pid="IBbV8cJ1">当然，结合这两种方法，或许会得到更高效的算法？毕竟状态空间那么大，如果能用海量数据来填充状态空间，得到更优的状态转移方程也不是什么难事了。（当然，还是很难的，这涉及系统本身的各种性质，整理后再分享给大家）</p><p data-pid="1lokaNW6">算法之路慢慢，其修远兮。这里是学委叶哥，大家下期再会！</p><p class="ztext-empty-paragraph"><br/></p><p data-pid="B9RrQA0t">叶峻峣</p><p data-pid="XSiR9n1u">2021 年 1 月 16 日</p>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 复习算法发展的两大方向 <a href="./343419228.html" target="_blank" rel="noopener noreferrer">./343419228.html</a><br>3. Database Structure <a href="https://github.com/ankidroid/Anki-Android/wiki/Database-Structure" target="_blank" rel="noopener noreferrer">https://github.com/ankidroid/Anki-Android/wiki/Database-Structure</a><br>4. 记忆的两个组成成分|浓缩通俗版 <a href="./179076885.html" target="_blank" rel="noopener noreferrer">./179076885.html</a><br>5. 基于BMMS收集的记忆行为数据 <a href="https://www.maimemo.com/" target="_blank" rel="noopener noreferrer">https://www.maimemo.com/</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：学委叶哥的随笔</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

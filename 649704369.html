@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>叶峻峣, 苏敬勇, 曹译珑. 优化间隔重复调度的一种随机最短路径算法[C]//第 28 届 ACM SIGKDD 知识发现与数据挖掘学术会议论文集, 2022: 4381-4390 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="叶峻峣, 苏敬勇, 曹译珑. 优化间隔重复调度的一种随机最短路径算法[C]//第 28 届 ACM SIGKDD 知识发现与数据挖掘学术会议论文集, 2022: 4381-4390 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/649704369">
+<meta property="og:image" content="">
+<meta property="og:description" content="有关 优化间隔重复系统的调度算法 。来自 Jarrett Ye（校对：正是在下），一位赞助者。我觉得这篇论文里最吸引我的是他们用「半衰期」来描述 间隔重复记忆系统 [1]卡片的状态。但问题是，你没法直接量出一张卡片的半衰期。你只能做一次观察，因为每次练习都会…">
+<meta name="description" content="有关 优化间隔重复系统的调度算法 。来自 Jarrett Ye（校对：正是在下），一位赞助者。我觉得这篇论文里最吸引我的是他们用「半衰期」来描述 间隔重复记忆系统 [1]卡片的状态。但问题是，你没法直接量出一张卡片的半衰期。你只能做一次观察，因为每次练习都会…">
+<meta data-pagefind-meta="title" content="叶峻峣, 苏敬勇, 曹译珑. 优化间隔重复调度的一种随机最短路径算法[C]//第 28 届 ACM SIGKDD 知识发现与数据挖掘学术会议论文集, 2022: 4381-4390">
+<meta data-pagefind-meta="image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="叶峻峣, 苏敬勇, 曹译珑. 优化间隔重复调度的一种随机最短路径算法[C]//第 28 届 ACM SIGKDD 知识发现与数据挖掘学术会议论文集, 2022: 4381-4390 | ZhiHu Archive">
+<meta name="twitter:description" content="有关 优化间隔重复系统的调度算法 。来自 Jarrett Ye（校对：正是在下），一位赞助者。我觉得这篇论文里最吸引我的是他们用「半衰期」来描述 间隔重复记忆系统 [1]卡片的状态。但问题是，你没法直接量出一张卡片的半衰期。你只能做一次观察，因为每次练习都会…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/649704369");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src=""/>
+<h1><a href="https://zhuanlan.zhihu.com/p/649704369" target="_blank" rel="noopener noreferrer">叶峻峣, 苏敬勇, 曹译珑. 优化间隔重复调度的一种随机最短路径算法[C]//第 28 届 ACM SIGKDD 知识发现与数据挖掘学术会议论文集, 2022: 4381-4390</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2023-08-13T02:10:17">发表于 2023年08月13日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">18 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="-0TlZXaD">有关<a class="wrap external" href="https://notes.andymatuschak.org/zYK41LaWjuWkRmv3ZGnNmoF" rel="nofollow noreferrer noopener" target="_blank">优化间隔重复系统的调度算法</a>。来自 Jarrett Ye（校对：正是在下），一位赞助者。</p><p data-pid="sO1b_-zW">我觉得这篇论文里最吸引我的是他们用「半衰期」来描述<a class="wrap external" href="https://notes.andymatuschak.org/z2D1qPwddPktBjpNuwYFVva" rel="nofollow noreferrer noopener" target="_blank">间隔重复记忆系统</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="间隔重复记忆系统（Spaced repetition memory system）" data-url="https://zhuanlan.zhihu.com/p/404257681">[1]</sup>卡片的状态。但问题是，你没法直接量出一张卡片的半衰期。你只能做一次观察，因为每次练习都会改变接下来的半衰期。同一个项目的半衰期序列当然是相互关联的，但这仍然相当棘手。</p><p data-pid="yxKEIgo4">他们的方法是根据用户群体的初次回忆率将项目分为不同「难度组」。然后，他们可以使用汇总的用户组为后续事件拟合半衰期参数。可以想象，就像<a class="wrap external" href="https://notes.andymatuschak.org/zFkZXm2t1D4FAGGrBUUHNz4" rel="nofollow noreferrer noopener" target="_blank">项目反应理论</a>那样，为每位用户再加一个「能力」/「熟悉度」参数。</p><p data-pid="70YrzRss">然后，作者引入了一个马尔可夫时序模型，用于描述给定反应的半衰期和难度的转移方程组。这个方法已经被做成了 Anki 插件：<a class="wrap external" href="https://github.com/open-spaced-repetition/fsrs4anki" rel="nofollow noreferrer noopener" target="_blank">GitHub - open-spaced-repetition/fsrs4anki: A modern Anki custom scheduling based on free spaced repetition scheduler algorithm</a></p><h2><br/>链接至本文（已汉化）</h2><ul><li data-pid="JlrbeXr8">暂无</li></ul><h2>声明</h2><p data-pid="a1kSLiu9">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="uMupMv4o"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class="nolink">GPT</span>-4、校对 <span class="nolink">Jarrett</span>Ye<br/>原文：<a class="wrap external" href="https://notes.andymatuschak.org/zGrLCQ873eCpFvTsZoMRCbE" rel="nofollow noreferrer noopener" target="_blank">Ye, J., Su, J., &amp; Cao, Y. (2022). A Stochastic Shortest Path Algorithm for Optimizing Spaced Repetition Scheduling. Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, 4381–4390 (andymatuschak.org)</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 间隔重复记忆系统（Spaced repetition memory system） <a href="./404257681.html" target="_blank" rel="noopener noreferrer">./404257681.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：间隔重复 & 注意力管理</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

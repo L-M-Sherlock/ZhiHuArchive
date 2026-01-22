@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>我的间隔重复系统方法的不同之处 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="我的间隔重复系统方法的不同之处 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/408715726">
+<meta property="og:image" content="https://pic1.zhimg.com/v2-3950af9148877a18305977b3269f050c_720w.jpg?source=172ae18b">
+<meta property="og:description" content="间隔重复记忆系统 已经有许多实现。为什么还要再投入更多的精力呢？我在这里做的一些笔记，收集了我用来实现系统的方法中的一些主要差别，有助于我更好面对更高阶的挑战。 间隔重复记忆系统可用于加深概念理解 [1]（但现有系统和之前的研究几乎完全集中在概念…">
+<meta name="description" content="间隔重复记忆系统 已经有许多实现。为什么还要再投入更多的精力呢？我在这里做的一些笔记，收集了我用来实现系统的方法中的一些主要差别，有助于我更好面对更高阶的挑战。 间隔重复记忆系统可用于加深概念理解 [1]（但现有系统和之前的研究几乎完全集中在概念…">
+<meta data-pagefind-meta="title" content="我的间隔重复系统方法的不同之处">
+<meta data-pagefind-meta="image" content="https://pic1.zhimg.com/v2-3950af9148877a18305977b3269f050c_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="我的间隔重复系统方法的不同之处 | ZhiHu Archive">
+<meta name="twitter:description" content="间隔重复记忆系统 已经有许多实现。为什么还要再投入更多的精力呢？我在这里做的一些笔记，收集了我用来实现系统的方法中的一些主要差别，有助于我更好面对更高阶的挑战。 间隔重复记忆系统可用于加深概念理解 [1]（但现有系统和之前的研究几乎完全集中在概念…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/408715726");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://pic1.zhimg.com/v2-3950af9148877a18305977b3269f050c_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/408715726" target="_blank" rel="noopener noreferrer">我的间隔重复系统方法的不同之处</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2021-09-09T09:54:59">发表于 2021年09月09日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">18 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="ciyJ9-Lb"><a class="wrap external" href="https://notes.andymatuschak.org/z4eXdSMJFv2qVGXSUEKH4vdcHBrLHcFY1ZGfC" rel="nofollow noreferrer noopener" target="_blank">间隔重复记忆系统</a>已经有许多实现。为什么还要再投入更多的精力呢？我在这里做的一些笔记，收集了我用来实现系统的方法中的一些主要差别，有助于我更好面对更高阶的挑战。</p><ul><li data-pid="Lk1bKYYh"><a class="wrap external" href="https://notes.andymatuschak.org/z6UZP7P4sRNgRKSvNj7tMV5uW6dDhwwbdZCy9" rel="nofollow noreferrer noopener" target="_blank">间隔重复记忆系统可用于加深概念理解</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="间隔重复记忆系统可用于加深概念理解" data-url="https://zhuanlan.zhihu.com/p/398045447">[1]</sup>（但现有系统和之前的研究几乎完全集中在概念定义，或简单的陈述性事实上）</li><li data-pid="Cn9FnF64"><a class="wrap external" href="https://notes.andymatuschak.org/z3ntJ7w9C3uapYp1m3gy2EK6PN788guzEoUNN" rel="nofollow noreferrer noopener" target="_blank">写好间隔重复记忆卡片很难</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="写好间隔重复记忆卡片很难" data-url="https://zhuanlan.zhihu.com/p/397245681">[2]</sup>；这大大阻碍了大众有效而广泛地采用间隔重复系统。间隔重复系统的设计者大多忽略了这一点，但这就像是一家出版公司忽视了句子的重要性一样。</li><li data-pid="lgPjEdjB"><a class="wrap external" href="https://notes.andymatuschak.org/z1YhDPWyvzzkC79LFcF4DSTanKpEGpic8bAe" rel="nofollow noreferrer noopener" target="_blank">单独的间隔重复记忆卡片是一种糟糕的交流媒介</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="单独的间隔重复记忆卡片是一种糟糕的交流媒介" data-url="https://zhuanlan.zhihu.com/p/396775375">[3]</sup>，但这些问题可以通过在更丰富的上下文中嵌入卡片来解决（<a class="wrap external" href="https://notes.andymatuschak.org/z5YjgWTaYfhWLrEbysgmDfFRcZ1yxgLeBeZac" rel="nofollow noreferrer noopener" target="_blank">助记媒介对通常原子化的间隔重复记忆卡片赋予结构</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="助记媒介赋予通常原子化的间隔重复记忆卡片以结构" data-url="https://zhuanlan.zhihu.com/p/397646854">[4]</sup>）</li><li data-pid="V1TGUzuk">我想推动间隔重复系统来加深人们生活中最有意义事情的印象，一反<a class="wrap external" href="https://notes.andymatuschak.org/z7i9vs1MyadFaSkGBSwLVsfsQ5UEdN5aS2v9J" rel="nofollow noreferrer noopener" target="_blank">间隔重复系统的主流文化圈热衷无意义的目标</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="5" data-text="间隔重复系统的主流文化圈热衷无意义的目标" data-url="https://zhuanlan.zhihu.com/p/449283714">[5]</sup>的主流想法。</li><li data-pid="9-3spZxU">我认为间隔重复属于更广泛的一类系统：<a class="wrap external" href="https://notes.andymatuschak.org/z2gqazXUkf9qyFjMQg4W3dw6yegnAJszvDywN" rel="nofollow noreferrer noopener" target="_blank">可使用间隔重复系统对注意力进行编程</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="6" data-text="可使用间隔重复系统对注意力编程" data-url="https://zhuanlan.zhihu.com/p/414293765">[6]</sup></li><ul><li data-pid="-qSz2cdV">另请参阅<a class="wrap external" href="https://notes.andymatuschak.org/zrs5GnK6DEm1NcajMfqJ1n93PZwSHCEP9Drt" rel="nofollow noreferrer noopener" target="_blank">间隔重复记忆系统的特殊应用</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="7" data-text="间隔重复记忆系统的特殊应用" data-url="https://zhuanlan.zhihu.com/p/413535553">[7]</sup></li></ul></ul><h2>链接至本文（已汉化）</h2><ul><li data-pid="5VtFzANy"><a class="internal" href="./404257681.html" rel="noopener noreferrer" target="_blank">间隔重复记忆系统</a></li></ul><h2>声明</h2><p data-pid="5ZkUG22w">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><hr/><p data-pid="JXrTWkOs">欢迎加入 Thought Memo 汉化组，目前已经迁移至 paratranz 平台，翻译知识、记忆、学习相关的文章：</p><a class="wrap external" data-draft-node="block" data-draft-type="link-card" href="https://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a><blockquote data-pid="0vnV2MlF">感谢 <a class="wrap external" href="https://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组的各位成员提供翻译支持！<br/>原文：<a class="wrap external" href="https://notes.andymatuschak.org/z241Vpk8PMkfkGwMQ6U2PRjpweWhD8yAsVCR" rel="nofollow noreferrer noopener" target="_blank">Differences in my approach to spaced repetition systems</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 间隔重复记忆系统可用于加深概念理解 <a href="./398045447.html" target="_blank" rel="noopener noreferrer">./398045447.html</a><br>2. 写好间隔重复记忆卡片很难 <a href="./397245681.html" target="_blank" rel="noopener noreferrer">./397245681.html</a><br>3. 单独的间隔重复记忆卡片是一种糟糕的交流媒介 <a href="./396775375.html" target="_blank" rel="noopener noreferrer">./396775375.html</a><br>4. 助记媒介赋予通常原子化的间隔重复记忆卡片以结构 <a href="./397646854.html" target="_blank" rel="noopener noreferrer">./397646854.html</a><br>5. 间隔重复系统的主流文化圈热衷无意义的目标 <a href="./449283714.html" target="_blank" rel="noopener noreferrer">./449283714.html</a><br>6. 可使用间隔重复系统对注意力编程 <a href="./414293765.html" target="_blank" rel="noopener noreferrer">./414293765.html</a><br>7. 间隔重复记忆系统的特殊应用 <a href="./413535553.html" target="_blank" rel="noopener noreferrer">./413535553.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：间隔重复 & 注意力管理</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>在 SuperMemo 中如何按目录顺序阅读一本书？ - @Thoughts Memo | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="在 SuperMemo 中如何按目录顺序阅读一本书？ - @Thoughts Memo | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="本系列专门介绍 SuperMemo 的各种小技巧和绕坑方法： SuperMemo tips 由于 SuperMemo 中所有复习卡片的出现顺序是由优先级和随机因子决定的，所有这里仅介绍使用等待队列的实现方法。 注：导入材料看这篇文章：渐进阅读材料导入与预处理 更新：如何在supermemo中阅读一本书? 第一步 将想要阅读的内容加入等待队列注意！别对你不想加入等待队列的内容做以下操作，不然这些卡片就都变成新卡片了Alt + C 唤出知识树，然后右键你想要阅…">
+<meta property="og:url" content="https://www.zhihu.com/question/487800944/answer/2129080913">
+<meta name="description" content="本系列专门介绍 SuperMemo 的各种小技巧和绕坑方法： SuperMemo tips 由于 SuperMemo 中所有复习卡片的出现顺序是由优先级和随机因子决定的，所有这里仅介绍使用等待队列的实现方法。 注：导入材料看这篇文章：渐进阅读材料导入与预处理 更新：如何在supermemo中阅读一本书? 第一步 将想要阅读的内容加入等待队列注意！别对你不想加入等待队列的内容做以下操作，不然这些卡片就都变成新卡片了Alt + C 唤出知识树，然后右键你想要阅…">
+<meta data-pagefind-meta="title" content="在 SuperMemo 中如何按目录顺序阅读一本书？">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="在 SuperMemo 中如何按目录顺序阅读一本书？ - @Thoughts Memo | ZhiHu Archive">
+<meta name="twitter:description" content="本系列专门介绍 SuperMemo 的各种小技巧和绕坑方法： SuperMemo tips 由于 SuperMemo 中所有复习卡片的出现顺序是由优先级和随机因子决定的，所有这里仅介绍使用等待队列的实现方法。 注：导入材料看这篇文章：渐进阅读材料导入与预处理 更新：如何在supermemo中阅读一本书? 第一步 将想要阅读的内容加入等待队列注意！别对你不想加入等待队列的内容做以下操作，不然这些卡片就都变成新卡片了Alt + C 唤出知识树，然后右键你想要阅…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/487800944/answer/2129080913");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/487800944/answer/2129080913" target="_blank" rel="noopener noreferrer">在 SuperMemo 中如何按目录顺序阅读一本书？</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>supermemo.guru 长期翻译中</p>
+</div>
+</div>
+<time datetime="2021-09-19T07:40:03">发表于 2021年09月19日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">103 👍 / 23 💬</p>
+</header>
+<article data-pagefind-body>
+<div style="margin: 0; padding: 0.5em 1em; border-left: 4px solid #999; font-size: 0.86em; background: #f9f9f9;">
+<h2>问题描述</h2>
+<p>就是按照知识树中的顺序阅读一本书之类的</p><figure data-size="normal"><img class="content_image" data-caption="" data-rawheight="577" data-rawwidth="304" data-size="normal" src="https://pic2.zhimg.com/v2-aa4f9ee57f9aecb443d4297675442073_1440w.jpg" width="304"/></figure><p></p>
+</div>
+<hr>
+<p data-pid="HuI_F7c9">本系列专门介绍 SuperMemo 的各种小技巧和绕坑方法：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" href="https://www.zhihu.com/collection/797904700" rel="noopener noreferrer" target="_blank">SuperMemo tips</a><p data-pid="zmnVgL6E">由于 SuperMemo 中所有复习卡片的出现顺序是由优先级和随机因子决定的，所有这里仅介绍使用等待队列的实现方法。</p><blockquote data-pid="jDFIBDdL">注：导入材料看这篇文章：<a class="internal" href="./321701995.html" rel="noopener noreferrer" target="_blank">渐进阅读材料导入与预处理</a><br/>更新：<a class="internal" href="./2262381968.html" rel="noopener noreferrer" target="_blank">如何在supermemo中阅读一本书?</a></blockquote><h2>第一步 将想要阅读的内容加入等待队列</h2><blockquote data-pid="YlFetgHO">注意！别对你不想加入等待队列的内容做以下操作，不然这些卡片就都变成新卡片了</blockquote><p data-pid="IKXnsW2J">Alt + C 唤出知识树，然后右键你想要阅读的内容的根结点：</p><p class="ztext-empty-paragraph"><br/></p><figure data-size="normal"><noscript><img class="content_image" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-d2d7acc6fbcfbd6ec996818fd3779f13_720w.jpg?source=2c26e567" data-original-token="v2-512bba50248f2ce236b8945093887c6b" data-rawheight="583" data-rawwidth="389" data-size="normal" src="https://pica.zhimg.com/50/v2-512bba50248f2ce236b8945093887c6b_720w.jpg?source=2c26e567" width="389"/></noscript><img class="content_image lazy" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-d2d7acc6fbcfbd6ec996818fd3779f13_720w.jpg?source=2c26e567" data-original-token="v2-512bba50248f2ce236b8945093887c6b" data-rawheight="583" data-rawwidth="389" data-size="normal" src="https://pica.zhimg.com/50/v2-512bba50248f2ce236b8945093887c6b_720w.jpg?source=2c26e567" width="389"/></figure><p class="ztext-empty-paragraph"><br/></p><p data-pid="-F-Lwf_v">点击 Process branch，然后点击菜单中的 Learning -&gt; Forget，就可以将这些内容加入等待队列了</p><p class="ztext-empty-paragraph"><br/></p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-ac3e825fd0bd4abbf3f977434cbaa435_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-f64e51bfaa81f74863a10c23798c7266_r.jpg?source=2c26e567" data-original-token="v2-f64e51bfaa81f74863a10c23798c7266" data-rawheight="676" data-rawwidth="543" data-size="normal" src="https://pic1.zhimg.com/50/v2-f64e51bfaa81f74863a10c23798c7266_720w.jpg?source=2c26e567" width="543"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-ac3e825fd0bd4abbf3f977434cbaa435_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-f64e51bfaa81f74863a10c23798c7266_r.jpg?source=2c26e567" data-original-token="v2-f64e51bfaa81f74863a10c23798c7266" data-rawheight="676" data-rawwidth="543" data-size="normal" src="https://pic1.zhimg.com/50/v2-f64e51bfaa81f74863a10c23798c7266_720w.jpg?source=2c26e567" width="543"/></figure><p class="ztext-empty-paragraph"><br/></p><h2>第二步 将这些卡片按知识树顺序排序</h2><p data-pid="haDJFINC">等待队列的卡片是有默认顺序的，通常是添加顺序，这里我们可以改成知识树上的顺序</p><p data-pid="MeQ6OY15">首先，先打开等待队列，View-&gt;Other-&gt;Pending</p><p class="ztext-empty-paragraph"><br/></p><figure data-size="small"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic1.zhimg.com/v2-b0e4949ffb0da55bbd7b3492a9f6a90c_r.jpg?source=2c26e567" data-original-token="v2-b0e4949ffb0da55bbd7b3492a9f6a90c" data-rawheight="1186" data-rawwidth="698" data-size="small" src="https://pic1.zhimg.com/50/v2-b0e4949ffb0da55bbd7b3492a9f6a90c_720w.jpg?source=2c26e567" width="698"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-original="https://pic1.zhimg.com/v2-b0e4949ffb0da55bbd7b3492a9f6a90c_r.jpg?source=2c26e567" data-original-token="v2-b0e4949ffb0da55bbd7b3492a9f6a90c" data-rawheight="1186" data-rawwidth="698" data-size="small" src="https://pic1.zhimg.com/50/v2-b0e4949ffb0da55bbd7b3492a9f6a90c_720w.jpg?source=2c26e567" width="698"/></figure><p class="ztext-empty-paragraph"><br/></p><p data-pid="cO67SJcU">然后，任意处右键-&gt;Sort-&gt;By tree，就可以对 pending 队列里的卡片按照知识树顺序排序</p><p class="ztext-empty-paragraph"><br/></p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://picx.zhimg.com/v2-b0e93a12cda823c691ce5fd7e165beb5_r.jpg?source=2c26e567" data-original-token="v2-b0e93a12cda823c691ce5fd7e165beb5" data-rawheight="1348" data-rawwidth="1500" data-size="normal" src="https://pica.zhimg.com/50/v2-b0e93a12cda823c691ce5fd7e165beb5_720w.jpg?source=2c26e567" width="1500"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-original="https://picx.zhimg.com/v2-b0e93a12cda823c691ce5fd7e165beb5_r.jpg?source=2c26e567" data-original-token="v2-b0e93a12cda823c691ce5fd7e165beb5" data-rawheight="1348" data-rawwidth="1500" data-size="normal" src="https://pica.zhimg.com/50/v2-b0e93a12cda823c691ce5fd7e165beb5_720w.jpg?source=2c26e567" width="1500"/></figure><p class="ztext-empty-paragraph"><br/></p><p data-pid="bjSyHhB1">最后右键-&gt;Tools-&gt;Save pending，就能保存排序结果。</p><p class="ztext-empty-paragraph"><br/></p><figure data-size="small"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://picx.zhimg.com/v2-fc73cad7d974f9bc319d6a85dde0191f_r.jpg?source=2c26e567" data-original-token="v2-fc73cad7d974f9bc319d6a85dde0191f" data-rawheight="898" data-rawwidth="844" data-size="small" src="https://picx.zhimg.com/50/v2-fc73cad7d974f9bc319d6a85dde0191f_720w.jpg?source=2c26e567" width="844"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-original="https://picx.zhimg.com/v2-fc73cad7d974f9bc319d6a85dde0191f_r.jpg?source=2c26e567" data-original-token="v2-fc73cad7d974f9bc319d6a85dde0191f" data-rawheight="898" data-rawwidth="844" data-size="small" src="https://picx.zhimg.com/50/v2-fc73cad7d974f9bc319d6a85dde0191f_720w.jpg?source=2c26e567" width="844"/></figure><h2>第三步 按顺序阅读</h2><p data-pid="6gcnCww1">学习等待队列的卡片需要将 stages 切换到 New material，操作如图所示</p><p class="ztext-empty-paragraph"><br/></p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic1.zhimg.com/v2-f3de62e7a35ff94c6d0a37fda6fe0997_r.jpg?source=2c26e567" data-original-token="v2-f3de62e7a35ff94c6d0a37fda6fe0997" data-rawheight="432" data-rawwidth="1130" data-size="normal" src="https://pic1.zhimg.com/50/v2-f3de62e7a35ff94c6d0a37fda6fe0997_720w.jpg?source=2c26e567" width="1130"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-original="https://pic1.zhimg.com/v2-f3de62e7a35ff94c6d0a37fda6fe0997_r.jpg?source=2c26e567" data-original-token="v2-f3de62e7a35ff94c6d0a37fda6fe0997" data-rawheight="432" data-rawwidth="1130" data-size="normal" src="https://pic1.zhimg.com/50/v2-f3de62e7a35ff94c6d0a37fda6fe0997_720w.jpg?source=2c26e567" width="1130"/></figure><p class="ztext-empty-paragraph"><br/></p><p data-pid="p1YPGLZT">然后就可以按目录顺序阅读了！</p><p data-pid="0Pc0dAEQ">如果不满意顺序，可以自己调整一下知识树，然后重复上述步骤即可。</p><blockquote data-pid="ZdFrdOZl">注意！想要复习 SuperMemo 给你的安排，请切回 Outstanding material</blockquote><p data-pid="ErRnO850">更多 SuperMemo 教程，请见：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic1.zhimg.com/v2-1a8d0bb90f07e4147c5e401dda14d280_180x120.jpg" data-image-height="1100" data-image-width="1780" href="./374403541.html" rel="noopener noreferrer" target="_blank">叶峻峣：渐进学习专栏导读</a><a class="wrap external" data-draft-node="block" data-draft-type="link-card" data-image="https://pic1.zhimg.com/v2-3053be574a87e8e1e15128ac7eeda8c8_ipico.jpg" data-image-height="300" data-image-width="300" href="https://www.yuque.com/supermemo/wiki" rel="nofollow noreferrer noopener" target="_blank">帮助文档 · 语雀</a><p></p>
+
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

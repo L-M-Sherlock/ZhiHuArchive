@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>SuperMemo 算法原理是怎么样的，代码如何实现的？ - @Thoughts Memo | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SuperMemo 算法原理是怎么样的，代码如何实现的？ - @Thoughts Memo | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="SM-2 [文章: 04 1987 SuperMemo 1.0: 日志] SM-5 [文章: 06 1989: SuperMemo 适应用户记忆(上)] [文章: 06 1989: SuperMemo 适应用户记忆(中)] [文章: 06 1989: SuperMemo 适应用户记忆(下)] 记忆双变量模型 [文章: 05 1988：记忆的两个组成成分] 其中只有 SM-2 有代码，Anki 的算法是基于 SM-2 的变体，详情请见： [文章: Anki 算法与术语浅谈]">
+<meta property="og:url" content="https://www.zhihu.com/question/26722887/answer/1847718575">
+<meta name="description" content="SM-2 [文章: 04 1987 SuperMemo 1.0: 日志] SM-5 [文章: 06 1989: SuperMemo 适应用户记忆(上)] [文章: 06 1989: SuperMemo 适应用户记忆(中)] [文章: 06 1989: SuperMemo 适应用户记忆(下)] 记忆双变量模型 [文章: 05 1988：记忆的两个组成成分] 其中只有 SM-2 有代码，Anki 的算法是基于 SM-2 的变体，详情请见： [文章: Anki 算法与术语浅谈]">
+<meta data-pagefind-meta="title" content="SuperMemo 算法原理是怎么样的，代码如何实现的？">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="SuperMemo 算法原理是怎么样的，代码如何实现的？ - @Thoughts Memo | ZhiHu Archive">
+<meta name="twitter:description" content="SM-2 [文章: 04 1987 SuperMemo 1.0: 日志] SM-5 [文章: 06 1989: SuperMemo 适应用户记忆(上)] [文章: 06 1989: SuperMemo 适应用户记忆(中)] [文章: 06 1989: SuperMemo 适应用户记忆(下)] 记忆双变量模型 [文章: 05 1988：记忆的两个组成成分] 其中只有 SM-2 有代码，Anki 的算法是基于 SM-2 的变体，详情请见： [文章: Anki 算法与术语浅谈]">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/26722887/answer/1847718575");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/26722887/answer/1847718575" target="_blank" rel="noopener noreferrer">SuperMemo 算法原理是怎么样的，代码如何实现的？</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2021-04-21T14:34:33">发表于 2021年04月21日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">23 👍 / 6 💬</p>
+</header>
+<article data-pagefind-body>
+<div style="margin: 0; padding: 0.5em 1em; border-left: 4px solid #999; font-size: 0.86em; background: #f9f9f9;">
+<h2>问题描述</h2>
+<p>SuperMemo 算法原理，Piotr Wozniak 博士好像曾经开放过一下这个算法的，不知道哪里能找到？有这方面的行家吗？</p><p>如果可以，解析一下这个算法就最好了</p>
+</div>
+<hr>
+<h2>SM-2</h2><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://picx.zhimg.com/v2-9e2ee5b10cd764c7dd1be40b81aa6c6d_180x120.jpg" data-image-height="451" data-image-width="1258" href="./97887756.html" rel="noopener noreferrer" target="_blank">叶峻峣：04 SuperMemo 1.0: 日志 (1987)</a><h2>SM-5</h2><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic3.zhimg.com/v2-d2e80640a96db18c69ed9a36c5228448_180x120.jpg" data-image-height="456" data-image-width="899" href="./205600711.html" rel="noopener noreferrer" target="_blank">叶峻峣：06 1989: SuperMemo 适应用户记忆(上)</a><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic2.zhimg.com/v2-0913a764622f1742797e4e7f0f693aed_180x120.jpg" data-image-height="477" data-image-width="953" href="./207094393.html" rel="noopener noreferrer" target="_blank">叶峻峣：06 1989: SuperMemo 适应用户记忆(中)</a><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://picx.zhimg.com/v2-a76183f943e37f785644a1ecce4458d5_180x120.jpg" data-image-height="904" data-image-width="1199" href="./213170503.html" rel="noopener noreferrer" target="_blank">叶峻峣：06 1989: SuperMemo 适应用户记忆(下)</a><h2>记忆双变量模型</h2><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic3.zhimg.com/v2-810e0b24320f5cb2b6a3b357c474e014_180x120.jpg" data-image-height="753" data-image-width="1402" href="./99505568.html" rel="noopener noreferrer" target="_blank">叶峻峣：05 1988：记忆的两个组成成分</a><p data-pid="kDNCPhKL">其中只有 SM-2 有代码，Anki 的算法是基于 SM-2 的变体，详情请见：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic2.zhimg.com/v2-75cbe90ad0adb828b95624e2460d273f_180x120.jpg" data-image-height="671" data-image-width="1339" href="./42921090.html" rel="noopener noreferrer" target="_blank">叶峻峣：Anki 算法与术语浅谈</a><p></p>
+
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

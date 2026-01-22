@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>在Anki2.1中实验性卡片调度系统(记忆算法)的改变 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="在Anki2.1中实验性卡片调度系统(记忆算法)的改变 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/46530394">
+<meta property="og:image" content="https://pic1.zhimg.com/v2-4762322b79a146cd947d4e3fa13b7e59_720w.jpg?source=172ae18b">
+<meta property="og:description" content="已收录于 「一周年」专栏整理 Experiment scheduling changes in Anki 2.1 在Anki2.1中实验性卡片调度系统(记忆算法)的改变 Filtered decks: 筛选牌组 Filtered decks no longer reset (re)learning cards when they are built or emptied, and reviews and l…">
+<meta name="description" content="已收录于 「一周年」专栏整理 Experiment scheduling changes in Anki 2.1 在Anki2.1中实验性卡片调度系统(记忆算法)的改变 Filtered decks: 筛选牌组 Filtered decks no longer reset (re)learning cards when they are built or emptied, and reviews and l…">
+<meta data-pagefind-meta="title" content="在Anki2.1中实验性卡片调度系统(记忆算法)的改变">
+<meta data-pagefind-meta="image" content="https://pic1.zhimg.com/v2-4762322b79a146cd947d4e3fa13b7e59_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="在Anki2.1中实验性卡片调度系统(记忆算法)的改变 | ZhiHu Archive">
+<meta name="twitter:description" content="已收录于 「一周年」专栏整理 Experiment scheduling changes in Anki 2.1 在Anki2.1中实验性卡片调度系统(记忆算法)的改变 Filtered decks: 筛选牌组 Filtered decks no longer reset (re)learning cards when they are built or emptied, and reviews and l…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/46530394");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://pic1.zhimg.com/v2-4762322b79a146cd947d4e3fa13b7e59_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/46530394" target="_blank" rel="noopener noreferrer">在Anki2.1中实验性卡片调度系统(记忆算法)的改变</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2018-10-11T12:36:54">发表于 2018年10月11日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">26 👍 / 20 💬</p>
+</header>
+<article data-pagefind-body>
+<blockquote data-pid="Vjv4pnwN">已收录于<a class="internal" href="./57637220.html" rel="noopener noreferrer" target="_blank">「一周年」专栏整理</a></blockquote><p data-pid="hjepYOpu">Experiment scheduling changes in Anki 2.1</p><p data-pid="wFBiTQmo">在Anki2.1中实验性卡片调度系统(记忆算法)的改变</p><p class="ztext-empty-paragraph"><br/></p><p data-pid="BgKOt2cw">Filtered decks:</p><p data-pid="VT6TI7ik">筛选牌组</p><p class="ztext-empty-paragraph"><br/></p><p data-pid="tecW8DI6">Filtered decks no longer reset (re)learning cards when they are built or emptied, and reviews and learning cards will show up in the correct queue instead of the new queue.</p><p data-pid="8-WhYXuo">筛选牌组在构建或清空时不再重置学习卡(重新学习卡)，复习和学习卡将显示在正确的队列中，而不是新队列中。</p><p class="ztext-empty-paragraph"><br/></p><p data-pid="ojd_9Ivh">Filtered decks support a second search term, so you can include 100 cards to review and 20 new cards for example.</p><p data-pid="sr7YHiCh">筛选牌组支持第二个搜索词，所以你可以筛选100张卡片复习，还有20张新卡片。</p><p class="ztext-empty-paragraph"><br/></p><p data-pid="_rvf8r5S">Scheduling of cards that aren't yet due has been improved, and will show 4 buttons instead of 3.</p><p data-pid="O4tkTdxk">未到期的卡片的调度已经改进，将显示4个按钮而不是3个。</p><p class="ztext-empty-paragraph"><br/></p><p data-pid="o4cN927L">Filtered decks no longer support custom steps, and there is now a simple "preview mode" instead of the old option to disable scheduling changes. The new card order does not get forgotten when previewing.</p><p data-pid="24FhlaVj">筛选不再支持自定义步骤，现在有了一个简单的“预览模式”，取代了旧的选项，以禁用调度更改。新卡片顺序在预览时不会忘记。</p><p class="ztext-empty-paragraph"><br/></p><p data-pid="OfztbS-o">Cards can be buried or suspended while remaining in the filtered deck.</p><p data-pid="ThjQHdnf">卡片可以被搁置或暂停，而保留在筛选牌组。</p><p class="ztext-empty-paragraph"><br/></p><p data-pid="Tl_CMgpi">Other scheduling changes:</p><p data-pid="pOVl6yGj">其他安排的变化:</p><p class="ztext-empty-paragraph"><br/></p><p data-pid="ESCQIhHx">When a deck has children, reviews are taken from all children decks at once, instead of showing each deck's review cards one by one.</p><p data-pid="W02SB9vW">当一个牌组有子排序牌组时，所有子牌组上的复习卡片将被一次取出，而不是一个一个地显示每个子牌组的卡片。</p><p class="ztext-empty-paragraph"><br/></p><p data-pid="6yInxbyy">Learning cards have 4 buttons instead of 3 - Hard repeats the current step.</p><p data-pid="SdoMufke">学习卡有4个按钮，而不是3个按钮——选择「困难」按钮将重复当前的步骤。</p><p class="ztext-empty-paragraph"><br/></p><p data-pid="XPge46X3">"Next day starts at" is now relative to the current timezone.</p><p data-pid="8FgR0pZF">“Next day start at”现在是相对于当前时区而言的。</p><p class="ztext-empty-paragraph"><br/></p><p data-pid="FivtWkVx">Lapsed reviews have their review interval updated on the last relearning step, instead of the first step.</p><p data-pid="xqmZigN2">失误的复习卡片在最后一个重新学习的步骤上更新它们的复习间隔，而不是第一个步骤。</p><p class="ztext-empty-paragraph"><br/></p><p data-pid="6cl2-iyv">Anki now distinguishes between manually and automatically buried cards, and you can unbury one set without the other.</p><p data-pid="5S_gM4cb">Anki现在可以区分手工搁置和自动搁置，你可以保持其中一组搁置的同时解除另一组搁置。</p><p class="ztext-empty-paragraph"><br/></p><p data-pid="8lUwkYwq">Option in the preferences screen to show day learning cards before reviews.</p><p data-pid="7UeZdUAI">在设置界面新增“在复习卡片前展示学习卡片”选项</p><p class="ztext-empty-paragraph"><br/></p><p data-pid="SEKyFgDv">The learn count is now the number of cards instead of the number of steps required to complete.</p><p data-pid="K__bDNbj">学习计数现在是卡片的数量而不是需要完成的步骤的数量。</p><p class="ztext-empty-paragraph"><br/></p><p data-pid="0yxZ4OxZ">目前只有桌面端和iOS端提供新的卡片调度系统(记忆算法)</p><p></p>
+
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：AnkiX高考</h2>
+<p>围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！</p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

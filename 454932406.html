@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>自由间隔重复调度算法——FSRS | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="自由间隔重复调度算法——FSRS | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/454932406">
+<meta property="og:image" content="https://picx.zhimg.com/v2-f9540a80c326b9131ca33befc9c8d679_720w.jpg?source=172ae18b">
+<meta property="og:description" content="上周和太记作者 @林一二 、钓鱼插件作者 @凹夫几 讨论了一下开源间隔重复的未来，于是抽空写了一个间隔重复算法： open-spaced-repetition/free-spaced-repetition-scheduler 这里简单介绍一下。 名称中的「自由」是什么意思？本算法支持自由复习，可以提前，…">
+<meta name="description" content="上周和太记作者 @林一二 、钓鱼插件作者 @凹夫几 讨论了一下开源间隔重复的未来，于是抽空写了一个间隔重复算法： open-spaced-repetition/free-spaced-repetition-scheduler 这里简单介绍一下。 名称中的「自由」是什么意思？本算法支持自由复习，可以提前，…">
+<meta data-pagefind-meta="title" content="自由间隔重复调度算法——FSRS">
+<meta data-pagefind-meta="image" content="https://picx.zhimg.com/v2-f9540a80c326b9131ca33befc9c8d679_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="自由间隔重复调度算法——FSRS | ZhiHu Archive">
+<meta name="twitter:description" content="上周和太记作者 @林一二 、钓鱼插件作者 @凹夫几 讨论了一下开源间隔重复的未来，于是抽空写了一个间隔重复算法： open-spaced-repetition/free-spaced-repetition-scheduler 这里简单介绍一下。 名称中的「自由」是什么意思？本算法支持自由复习，可以提前，…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/454932406");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://picx.zhimg.com/v2-f9540a80c326b9131ca33befc9c8d679_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/454932406" target="_blank" rel="noopener noreferrer">自由间隔重复调度算法——FSRS</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2022-01-08T14:58:16">发表于 2022年01月08日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">105 👍 / 51 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="M-uXwU5b">上周和太记作者 <a class="member_mention" data-hash="16c82891a98d1e3e49d07a9c75aae4dc" data-hovercard="p$b$16c82891a98d1e3e49d07a9c75aae4dc" href="https://www.zhihu.com/people/16c82891a98d1e3e49d07a9c75aae4dc" rel="noopener noreferrer" target="_blank">@林一二</a> 、钓鱼插件作者 <a class="member_mention" data-hash="7c856f3f6b55bcbd409bfa51ee891d59" data-hovercard="p$b$7c856f3f6b55bcbd409bfa51ee891d59" href="https://www.zhihu.com/people/7c856f3f6b55bcbd409bfa51ee891d59" rel="noopener noreferrer" target="_blank">@凹夫几</a> 讨论了一下开源间隔重复的未来，于是抽空写了一个间隔重复算法：<a class="wrap external" href="https://github.com/open-spaced-repetition/free-spaced-repetition-scheduler" rel="nofollow noreferrer noopener" target="_blank">open-spaced-repetition/free-spaced-repetition-scheduler</a></p><p data-pid="G_elqze7">这里简单介绍一下。</p><h2>名称中的「自由」是什么意思？</h2><p data-pid="KV3SfRgf">本算法支持自由复习，可以提前，也可以推迟，算法会根据记忆模型进行适应。</p><p data-pid="ouhTTIEn">同时，间隔重复是实现自由学习<sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="自由学习" data-url="https://zhuanlan.zhihu.com/p/272543239">[1]</sup>的基础技术之一。而且算法可以在本地运行，无需担心泄露自己的学习数据。</p><h2>算法的原理是什么？</h2><p data-pid="El8iIYTK">本算法基于 SuperMemo 作者 <a class="wrap external" href="https://supermemo.guru/wiki/Piotr_Wozniak" rel="nofollow noreferrer noopener" target="_blank">Piotr Wozniak</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="彼得 · 沃兹尼亚克" data-url="https://zhuanlan.zhihu.com/p/303204832">[2]</sup> 提出的 <a class="wrap external" href="https://supermemo.guru/wiki/Two_components_of_memory" rel="nofollow noreferrer noopener" target="_blank">DSR 模型</a>开发。</p><p data-pid="d-J8ri7o">该模型考虑了影响记忆的三个变量：难度（difficulty），稳定性（stability）和可提取性（retrievability）。</p><p data-pid="bNsUyXVI">稳定性指的是记忆的存储强度，越高，记忆遗忘得越慢。可提取性指的是记忆的检索强度，越低，记忆遗忘的概率越高。</p><p data-pid="gseDjw2c">在本模型中，考虑了以下记忆规律：</p><ul><li data-pid="V-GQCBt0">记忆材料越难，记忆稳定性增长越慢</li><li data-pid="5sZke3dz">记忆稳定性越高，记忆稳定性增长越慢（又称为<a class="wrap external" href="https://supermemo.guru/wiki/Stabilization_decay" rel="nofollow noreferrer noopener" target="_blank">记忆稳定化衰减</a>）</li><li data-pid="AraM_mZo">记忆可提取性越低，记忆稳定性增长越快（又称为<a class="wrap external" href="https://supermemo.guru/wiki/Stabilization_curve" rel="nofollow noreferrer noopener" target="_blank">记忆稳定化曲线</a>）</li></ul><h2>能简单描述一下算法吗？</h2><ul><li data-pid="FC8L5K-p">难度范围 <img alt="D\in [1,10]" eeimg="1" src="https://www.zhihu.com/equation?tex=D%5Cin+%5B1%2C10%5D"/> </li><li data-pid="MtxM1cYl">初始难度 <img alt="D_0 = 5" eeimg="1" src="https://www.zhihu.com/equation?tex=D_0+%3D+5"/> </li><li data-pid="_AV6zPyc">初始稳定性 <img alt="S_0 = 2" eeimg="1" src="https://www.zhihu.com/equation?tex=S_0+%3D+2"/> </li><li data-pid="AFiox366">指数遗忘曲线模型 <img alt="R = \exp(\ln 0.9 \cdot \cfrac{I}{S})" eeimg="1" src="https://www.zhihu.com/equation?tex=R+%3D+%5Cexp%28%5Cln+0.9+%5Ccdot+%5Ccfrac%7BI%7D%7BS%7D%29"/> </li><li data-pid="rtW82iP7">复习成功后稳定性更新公式 <img alt="S^\prime=S\cdot (1 + a \times D ^ {-b} \times S^{-c} \times (\exp(1 - R)-1))" eeimg="1" src="https://www.zhihu.com/equation?tex=S%5E%5Cprime%3DS%5Ccdot+%281+%2B+a+%5Ctimes+D+%5E+%7B-b%7D+%5Ctimes+S%5E%7B-c%7D+%5Ctimes+%28%5Cexp%281+-+R%29-1%29%29"/> </li><ul><li data-pid="RV6POH1R">稳定性增长系数 a = 60</li><li data-pid="cE15LG5b">难度衰减系数 b = 0.7</li><li data-pid="spnITtW-">稳定性衰减系数 c = 0.2</li></ul><li data-pid="GRSsgebq">复习失败后的稳定性 <img alt="S_{L} = S_0^{-f\cdot L}" eeimg="1" src="https://www.zhihu.com/equation?tex=S_%7BL%7D+%3D+S_0%5E%7B-f%5Ccdot+L%7D"/> </li><ul><li data-pid="MOm1Pc-6">遗忘次数 <img alt="L &gt;= 0" eeimg="1" src="https://www.zhihu.com/equation?tex=L+%3E%3D+0"/> </li><li data-pid="73y7a_7V">遗忘衰减系数 f = 0.3</li></ul><li data-pid="fGh3xVw3">复习后难度更新公式 <img alt="D^\prime = D - d\cdot(Grade - 1) - e\cdot(1-R)" eeimg="1" src="https://www.zhihu.com/equation?tex=D%5E%5Cprime+%3D+D+-+d%5Ccdot%28Grade+-+1%29+-+e%5Ccdot%281-R%29"/> </li><ul><li data-pid="MTpreYOR">评分范围 <img alt="Grade\in \{0,1,2\}" eeimg="1" src="https://www.zhihu.com/equation?tex=Grade%5Cin+%5C%7B0%2C1%2C2%5C%7D"/> </li><ul><li data-pid="AU3FFlFc">0 表示遗忘（复习失败）</li><li data-pid="RgP9ycHU">1 表示记住（复习成功）</li><li data-pid="zSqh_DW6">2 表示容易（复习成功）</li></ul><li data-pid="YtRdClmN">评分影响系数 d = 1</li><li data-pid="Gvxfw_dO">可提取性影响系数 e = 1</li></ul><li data-pid="zosLM_OR">初始稳定性自适应 <img alt="S_0 = \cfrac{\ln 0.9}{\cfrac{\sum\limits_i^n \ln R_i \times I_i\times cnt_i}{\sum\limits_i^n I_i^2\times   cnt_i}}" eeimg="1" src="https://www.zhihu.com/equation?tex=S_0+%3D+%5Ccfrac%7B%5Cln+0.9%7D%7B%5Ccfrac%7B%5Csum%5Climits_i%5En+%5Cln+R_i+%5Ctimes+I_i%5Ctimes+cnt_i%7D%7B%5Csum%5Climits_i%5En+I_i%5E2%5Ctimes+++cnt_i%7D%7D"/> </li><ul><li data-pid="lXOeqj2u">即对第一次复习到遗忘曲线进行线性回归，计算实际的稳定性</li></ul><li data-pid="vWfOzuUj">初始难度自适应 <img alt="D_0^{\prime} = \cfrac{\ln R_t}{\ln R_c}^{\frac{1}{-b}} \times D_0" eeimg="1" src="https://www.zhihu.com/equation?tex=D_0%5E%7B%5Cprime%7D+%3D+%5Ccfrac%7B%5Cln+R_t%7D%7B%5Cln+R_c%7D%5E%7B%5Cfrac%7B1%7D%7B-b%7D%7D+%5Ctimes+D_0"/> </li><ul><li data-pid="EtA8a5K7">目标保留率 <img alt="R_t" eeimg="1" src="https://www.zhihu.com/equation?tex=R_t"/> </li><li data-pid="kU2laz2c">目前保留率 <img alt="R_c" eeimg="1" src="https://www.zhihu.com/equation?tex=R_c"/> </li><li data-pid="6ye8IARJ">如果 <img alt="R_c &lt; R_t" eeimg="1" src="https://www.zhihu.com/equation?tex=R_c+%3C+R_t"/> ，就提高初始难度，这样新卡片的复习间隔增长速度就会下降，反之亦然</li></ul></ul><h2>有现成的算法库吗？</h2><p data-pid="zds0i4Kp">钓鱼插件实现了该算法的 JavaScript 版本：<a class="wrap external" href="https://github.com/oflg/fishing/blob/master/action-fishing.js" rel="nofollow noreferrer noopener" target="_blank">fishing/action-fishing.js</a>，本项目中的 simulator.py 中实现了 Python 版本。</p><p data-pid="Ppim2qLR">该算法尚未稳定，还有待收集数据验证。很多参数是人工设置的，尚未实现自适应，所以目前没有提供算法库。</p><h2>我可以使用该算法吗？</h2><p data-pid="gTvVFkbs">可以，但请在项目中指向本仓库。</p><hr/><p data-pid="XalS1LV2">字虽不多，但求有意。最近还得忙下一篇论文的算法，就不一一展开介绍了，感兴趣的朋友直接 fork 一份代码自己玩吧～</p>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 自由学习 <a href="./272543239.html" target="_blank" rel="noopener noreferrer">./272543239.html</a><br>2. 彼得 · 沃兹尼亚克 <a href="./303204832.html" target="_blank" rel="noopener noreferrer">./303204832.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：学委叶哥的随笔</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>有哪些「对遗忘速度进行自适应」的研究（比如 SuperMemo 算法）是值得关注的？ - @Thoughts Memo | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="有哪些「对遗忘速度进行自适应」的研究（比如 SuperMemo 算法）是值得关注的？ - @Thoughts Memo | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="两年后的更新有啊，我自己的就是（哈哈哈）： [文章: 我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）] 除了我自己的研究以外，我还整理了几十篇相关文献和几个开源的数据集，方便大家进入这个研究领域： [文章: 间隔重复记忆算法研究资源汇总] 原回答duolingo，supermemo，quizlet 都有研究，只不过目前 duolingo 有学术论文，supermemo 作者不喜欢同行评议，只在自己的网站上发文，quizlet 我没太关注，可能没有发…">
+<meta property="og:url" content="https://www.zhihu.com/question/426340750/answer/1536059196">
+<meta name="description" content="两年后的更新有啊，我自己的就是（哈哈哈）： [文章: 我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）] 除了我自己的研究以外，我还整理了几十篇相关文献和几个开源的数据集，方便大家进入这个研究领域： [文章: 间隔重复记忆算法研究资源汇总] 原回答duolingo，supermemo，quizlet 都有研究，只不过目前 duolingo 有学术论文，supermemo 作者不喜欢同行评议，只在自己的网站上发文，quizlet 我没太关注，可能没有发…">
+<meta data-pagefind-meta="title" content="有哪些「对遗忘速度进行自适应」的研究（比如 SuperMemo 算法）是值得关注的？">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="有哪些「对遗忘速度进行自适应」的研究（比如 SuperMemo 算法）是值得关注的？ - @Thoughts Memo | ZhiHu Archive">
+<meta name="twitter:description" content="两年后的更新有啊，我自己的就是（哈哈哈）： [文章: 我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）] 除了我自己的研究以外，我还整理了几十篇相关文献和几个开源的数据集，方便大家进入这个研究领域： [文章: 间隔重复记忆算法研究资源汇总] 原回答duolingo，supermemo，quizlet 都有研究，只不过目前 duolingo 有学术论文，supermemo 作者不喜欢同行评议，只在自己的网站上发文，quizlet 我没太关注，可能没有发…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/426340750/answer/1536059196");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/426340750/answer/1536059196" target="_blank" rel="noopener noreferrer">有哪些「对遗忘速度进行自适应」的研究（比如 SuperMemo 算法）是值得关注的？</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>在Anki制作2.9万张卡片，复习33万次。Anki高考践行者、推广者。</p>
+</div>
+</div>
+<time datetime="2020-10-21T13:39:27">发表于 2020年10月21日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">17 👍 / 2 💬</p>
+</header>
+<article data-pagefind-body>
+
+<h2>两年后的更新</h2><p data-pid="duHTgBp5">有啊，我自己的就是（哈哈哈）：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic1.zhimg.com/v2-08134e67de67b70a126b02829d90edcc_180x120.jpg" data-image-height="1592" data-image-width="2251" href="./543325359.html" rel="noopener noreferrer" target="_blank">叶峻峣：我是如何在本科期间发表顶会论文的？（内含开源代码和数据集）</a><p data-pid="TdPxOCwA">除了我自己的研究以外，我还整理了几十篇相关文献和几个开源的数据集，方便大家进入这个研究领域：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic1.zhimg.com/v2-508467d2d77b37d7642c84c0a995408a_180x120.jpg" data-image-height="815" data-image-width="1199" href="./561539418.html" rel="noopener noreferrer" target="_blank">叶峻峣：间隔重复记忆算法研究资源汇总</a><hr/><h2>原回答</h2><p data-pid="Tpswdg_d">duolingo，supermemo，quizlet 都有研究，只不过目前 duolingo 有学术论文，supermemo 作者不喜欢同行评议，只在自己的网站上发文，quizlet 我没太关注，可能没有发论文，但是也在做算法。剩下的还有许多继续研究艾宾浩斯的记忆实验的论文，可以参考。</p><p data-pid="Cwk5WZi6">另外，研究是否值得关注，务必考虑他们的实验数据量和实验设计方法。特别是记忆这种时间序列预测的研究，长期数据的稀疏性很高，需要一定的处理技巧。</p><p data-pid="nPPGBG_n">另外，我也在研究相关内容，平时会翻译一下文章，可以关注一下，23333</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic1.zhimg.com/v2-27e7ae6074e0924d0e2f31d97d784b16.jpg" data-image-height="277" data-image-width="277" href="https://www.zhihu.com/column/supermemo-guru-cn" rel="noopener noreferrer" target="_blank">SuperMemo Guru翻译计划</a><p></p>
+
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

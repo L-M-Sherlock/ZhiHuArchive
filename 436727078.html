@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>语义距离 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="语义距离 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/436727078">
+<meta property="og:image" content="https://pic1.zhimg.com/v2-218246bcb9d01566f16d8e0e89b9ef7c_720w.jpg?source=172ae18b">
+<meta property="og:description" content="语义距离 是一种度量，它基于 语义网络 [1]中分割一对节点的边数所定义。在 这个网站 ， 语义距离 不严格地用来指代 知识之间的差距 ，即分割两个现实描述 模型 [2]（或两个知识集合）的知识数量。例如，一个学生对万有引力的理解很差，老师试图提升他/她对行星运动的…">
+<meta name="description" content="语义距离 是一种度量，它基于 语义网络 [1]中分割一对节点的边数所定义。在 这个网站 ， 语义距离 不严格地用来指代 知识之间的差距 ，即分割两个现实描述 模型 [2]（或两个知识集合）的知识数量。例如，一个学生对万有引力的理解很差，老师试图提升他/她对行星运动的…">
+<meta data-pagefind-meta="title" content="语义距离">
+<meta data-pagefind-meta="image" content="https://pic1.zhimg.com/v2-218246bcb9d01566f16d8e0e89b9ef7c_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="语义距离 | ZhiHu Archive">
+<meta name="twitter:description" content="语义距离 是一种度量，它基于 语义网络 [1]中分割一对节点的边数所定义。在 这个网站 ， 语义距离 不严格地用来指代 知识之间的差距 ，即分割两个现实描述 模型 [2]（或两个知识集合）的知识数量。例如，一个学生对万有引力的理解很差，老师试图提升他/她对行星运动的…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/436727078");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://pic1.zhimg.com/v2-218246bcb9d01566f16d8e0e89b9ef7c_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/436727078" target="_blank" rel="noopener noreferrer">语义距离</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2021-11-23T07:42:48">发表于 2021年11月23日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">37 👍 / 1 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="wei3Mk1N"><b>语义距离</b>是一种度量，它基于<b><a class="wrap external" href="https://supermemo.guru/wiki/Semantic_network" rel="nofollow noreferrer noopener" target="_blank">语义网络</a></b><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="概念网络" data-url="https://zhuanlan.zhihu.com/p/266541480">[1]</sup>中分割一对节点的边数所定义。在<a class="wrap external" href="https://supermemo.guru/wiki/SuperMemo_Guru" rel="nofollow noreferrer noopener" target="_blank">这个网站</a>，<b>语义距离</b>不严格地用来指代<b>知识之间的差距</b>，即分割两个现实描述<a class="wrap external" href="https://supermemo.guru/wiki/Model" rel="nofollow noreferrer noopener" target="_blank">模型</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="模型" data-url="https://zhuanlan.zhihu.com/p/560324024">[2]</sup>（或两个知识集合）的知识数量。例如，一个学生对万有引力的理解很差，老师试图提升他/她对行星运动的理解，此时学生头脑中的太阳系模型和老师头脑中的模型之间的语义距离就很大。渐进学习的目的是将学习过程划分为小的增量，每次学习中，知识的一小部分都将现有知识的语义网络向前推进了一小步。渐进的方式使学习变得简单而有趣，它最终能覆盖的语义距离几乎没有限制。在<a class="wrap external" href="https://supermemo.guru/wiki/Passive_schooling" rel="nofollow noreferrer noopener" target="_blank">被动的学校教育</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="被动的学校教育" data-url="https://zhuanlan.zhihu.com/p/359037513">[3]</sup>过程中，<b>语义距离</b>往往过大，这导致了<a class="wrap external" href="https://supermemo.guru/wiki/Decoding_failure_penalty" rel="nofollow noreferrer noopener" target="_blank">解码失败惩罚</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="解码失败惩罚" data-url="https://zhuanlan.zhihu.com/p/359921139">[4]</sup>，构成了<a class="wrap external" href="https://supermemo.guru/wiki/School_drive" rel="nofollow noreferrer noopener" target="_blank">学校惩罚</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="5" data-text="学校外驱力" data-url="https://zhuanlan.zhihu.com/p/539022457">[5]</sup>的一个重要组成部分，破坏了<a class="wrap external" href="https://supermemo.guru/wiki/Pleasure_of_learning" rel="nofollow noreferrer noopener" target="_blank">学习的乐趣</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="6" data-text="学习的乐趣" data-url="https://www.zhihu.com/answer/1578551193">[6]</sup>。而在<a class="wrap external" href="https://supermemo.guru/wiki/Free_learning" rel="nofollow noreferrer noopener" target="_blank">自由学习</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="7" data-text="自由学习" data-url="https://zhuanlan.zhihu.com/p/272543239">[7]</sup>中，在<a class="wrap external" href="https://supermemo.guru/wiki/Learn_drive" rel="nofollow noreferrer noopener" target="_blank">学习内驱力</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="8" data-text="学习内驱力" data-url="https://zhuanlan.zhihu.com/p/52990549">[8]</sup>的导向下，渐进方法是自然的。自由渐进学习总是<a class="wrap external" href="https://supermemo.guru/wiki/Semantic_learning" rel="nofollow noreferrer noopener" target="_blank">语义学习</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="9" data-text="语义学习" data-url="https://zhuanlan.zhihu.com/p/266922623">[9]</sup>，并以短<b>语义距离</b>推进为基础，这有助于优化在知识空间中的学习轨迹。这种导向性、渐进性的方法。使其更容易在语义网络中找到最短的路径（也就是以最小成本学习，并获得高<a class="wrap external" href="https://supermemo.guru/wiki/Coherence" rel="nofollow noreferrer noopener" target="_blank">连贯性</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="10" data-text="一致性与连贯性(Consistency vs Coherence)" data-url="https://zhuanlan.zhihu.com/p/264327134">[10]</sup>和高<a class="wrap external" href="https://supermemo.guru/wiki/Applicability" rel="nofollow noreferrer noopener" target="_blank">适用性</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="11" data-text="适用性" data-url="https://zhuanlan.zhihu.com/p/517317208">[11]</sup>的收益）。</p><p data-pid="NnACSTF8">在<a class="wrap external" href="https://supermemo.guru/wiki/Incremental_reading" rel="nofollow noreferrer noopener" target="_blank">渐进阅读</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="12" data-text="渐进阅读" data-url="https://www.yuque.com/supermemo/wiki/incremental_reading">[12]</sup>中，对<b>语义距离</b>的一个粗略衡量是<a class="wrap external" href="https://supermemo.guru/wiki/Item" rel="nofollow noreferrer noopener" target="_blank">条目</a>数量。条目数量也可以用来量化学习目标，这也可以用从起点到完成学习任务所需要穿越的<b>语义距离</b>来看待。例如，<a class="wrap external" href="https://supermemo.guru/wiki/Advanced_English" rel="nofollow noreferrer noopener" target="_blank">高级英语</a>有多达 40,000 多个条目，并这可以看作是衡量初学者和经常写作的英语母语者之间的<b>语义距离</b>。很明显，这样的距离不可能在一节英语课上完成（见：<a class="wrap external" href="https://supermemo.guru/wiki/13_years_of_school_in_a_month" rel="nofollow noreferrer noopener" target="_blank">在一个月内的 13 年学校</a>）。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="MxiJsAKi"><a class="wrap external" href="https://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>原文：<a class="wrap external" href="https://supermemo.guru/wiki/Semantic_distance" rel="nofollow noreferrer noopener" target="_blank">Semantic distance - supermemo.guru</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 概念网络 <a href="./266541480.html" target="_blank" rel="noopener noreferrer">./266541480.html</a><br>2. 模型 <a href="./560324024.html" target="_blank" rel="noopener noreferrer">./560324024.html</a><br>3. 被动的学校教育 <a href="./359037513.html" target="_blank" rel="noopener noreferrer">./359037513.html</a><br>4. 解码失败惩罚 <a href="./359921139.html" target="_blank" rel="noopener noreferrer">./359921139.html</a><br>5. 学校外驱力 <a href="./539022457.html" target="_blank" rel="noopener noreferrer">./539022457.html</a><br>6. 学习的乐趣 <a href="./1578551193.html" target="_blank" rel="noopener noreferrer">./1578551193.html</a><br>7. 自由学习 <a href="./272543239.html" target="_blank" rel="noopener noreferrer">./272543239.html</a><br>8. 学习内驱力 <a href="./52990549.html" target="_blank" rel="noopener noreferrer">./52990549.html</a><br>9. 语义学习 <a href="./266922623.html" target="_blank" rel="noopener noreferrer">./266922623.html</a><br>10. 一致性与连贯性(Consistency vs Coherence) <a href="./264327134.html" target="_blank" rel="noopener noreferrer">./264327134.html</a><br>11. 适用性 <a href="./517317208.html" target="_blank" rel="noopener noreferrer">./517317208.html</a><br>12. 渐进阅读 <a href="https://www.yuque.com/supermemo/wiki/incremental_reading" target="_blank" rel="noopener noreferrer">https://www.yuque.com/supermemo/wiki/incremental_reading</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：认知基石 & 教育培训</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

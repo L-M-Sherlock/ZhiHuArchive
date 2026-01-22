@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>对于卡片生成任务，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="对于卡片生成任务，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/656354899">
+<meta property="og:image" content="">
+<meta property="og:description" content="对于 使用机器学习从解释性文本中生成优质的间隔重复卡片 [1]的问题，大多数人似乎是将语言模型对准一段文字或一个被高亮的短语，然后告诉它「就这些内容写一些卡片吧！」这很少会有可接受的结果，除非文本内容本身某种意义上可以完全决定卡片应该是关于什么…">
+<meta name="description" content="对于 使用机器学习从解释性文本中生成优质的间隔重复卡片 [1]的问题，大多数人似乎是将语言模型对准一段文字或一个被高亮的短语，然后告诉它「就这些内容写一些卡片吧！」这很少会有可接受的结果，除非文本内容本身某种意义上可以完全决定卡片应该是关于什么…">
+<meta data-pagefind-meta="title" content="对于卡片生成任务，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题">
+<meta data-pagefind-meta="image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="对于卡片生成任务，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题 | ZhiHu Archive">
+<meta name="twitter:description" content="对于 使用机器学习从解释性文本中生成优质的间隔重复卡片 [1]的问题，大多数人似乎是将语言模型对准一段文字或一个被高亮的短语，然后告诉它「就这些内容写一些卡片吧！」这很少会有可接受的结果，除非文本内容本身某种意义上可以完全决定卡片应该是关于什么…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/656354899");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src=""/>
+<h1><a href="https://zhuanlan.zhihu.com/p/656354899" target="_blank" rel="noopener noreferrer">对于卡片生成任务，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2023-09-15T03:26:47">发表于 2023年09月15日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">6 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="O70J2Vrl">对于<a class="wrap external" href="https://notes.andymatuschak.org/z2DY7qsP5iHsiA5hxUHheV8hu7Xe96vdGyYX" rel="nofollow noreferrer noopener" target="_blank">使用机器学习从解释性文本中生成优质的间隔重复卡片</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="使用机器学习从解释性文本中生成优质的间隔重复卡片" data-url="https://zhuanlan.zhihu.com/p/716570823">[1]</sup>的问题，大多数人似乎是将语言模型对准一段文字或一个被高亮的短语，然后告诉它「就这些内容写一些卡片吧！」这很少会有可接受的结果，除非文本内容本身某种意义上可以完全决定卡片应该是关于什么的（比如「碳的原子序数是 6。」）</p><p data-pid="Z2eOs6if">直觉告诉我，对语言模型而言，<b>选择什么内容来制卡</b>要比<b>编写强化某个具体细节的卡片</b>要难得多。见<a class="wrap external" href="https://notes.andymatuschak.org/zQ4E1DXZoZTTitsik89ZcvXMu8dQMkJzRUS" rel="nofollow noreferrer noopener" target="_blank">将卡片生成任务定义为强化目标的过滤问题</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="将卡片生成任务定义为强化目标的过滤问题" data-url="https://zhuanlan.zhihu.com/p/639267420">[2]</sup>。</p><p data-pid="umLQAHvx">原因之一在于，模型<b>无法知道</b>—— 至少在没有大量其他外部信息的情况下 —— 你对什么感兴趣、你已经知道什么、什么对你阅读这个材料的目标来说很重要。在人类作者为一般读者写卡片，这已经是一个问题了（见<a class="wrap external" href="https://notes.andymatuschak.org/z3XqmAYKcD411jZgBik9oyXgcrarXycADWVeh" rel="nofollow noreferrer noopener" target="_blank">助记媒介应该让读者对他们收集的卡片进行控制</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="助记媒介应该允许读者对他们收集的卡片进行控制" data-url="https://zhuanlan.zhihu.com/p/481230325">[3]</sup>），但至少在那种情况下，作者心中有整本书的结构，也知道为了整体，学习哪些东西是最重要的。</p><p data-pid="NHmxXPpW">另一个导致「选」比「制」更困难的原因是，我们可以给模型有效写卡的具体建议。如果我们给它一个《如何写出好卡片》中的原则，并要求以此为准验证输出的每一张卡片，它的表现要比简单地 「写一个关于 xxx（特定细节）的卡片」要好得多。相比之下，我们还没有一套关于目标选择的原则。我们只是告诉它例如「写出关于最重要的细节的卡片」。实际上，我们需要编码一些知识理论（给它）。这方面可能已经有一些进展，但我怀疑，用户的输入总是必不可少的，哪怕只为了优化模型选择。（小部分相关内容见：<a class="wrap external" href="https://notes.andymatuschak.org/zmrbnm683nVZi9ut63vsr8BwYKEtATA6e4B3" rel="nofollow noreferrer noopener" target="_blank">对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式" data-url="https://zhuanlan.zhihu.com/p/656355546">[4]</sup>）</p><p data-pid="xZJQ3jQp">我觉得这种困难基本可以接受。阅读时，要是看到最重要或最有趣的部分，我们也会用荧光笔画线，这很自然（<a class="wrap external" href="https://notes.andymatuschak.org/z2vBgMKvhXq9yM4wMR3uuQVsqJRarfbfbEoWr" rel="nofollow noreferrer noopener" target="_blank">间隔重复系统中选择去记忆某项内容的行为有如轻松的手势</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="5" data-text="间隔重复系统中选择去记忆某项内容的行为有如轻松的手势" data-url="https://zhuanlan.zhihu.com/p/470710559">[5]</sup>）。这基本上就完成了「选」。回过头来，<b>根据</b>这些高亮部分写卡片，是相当费力和耗时的（<a class="wrap external" href="https://notes.andymatuschak.org/z3ntJ7w9C3uapYp1m3gy2EK6PN788guzEoUNN" rel="nofollow noreferrer noopener" target="_blank">写好间隔重复记忆卡片很难</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="6" data-text="写好间隔重复记忆卡片很难" data-url="https://zhuanlan.zhihu.com/p/397245681">[6]</sup>）；如果模型可以帮助解决这个问题，那就太好了。虽然光有高亮部分也一定不够：<a class="wrap external" href="https://notes.andymatuschak.org/zomoPzCNzSi5GqtfTeVWgm7RjmiArjS8vvM5" rel="nofollow noreferrer noopener" target="_blank">对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示，来确定从何种角度制卡</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="7" data-text="对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示，来确定从何种角度制卡" data-url="https://zhuanlan.zhihu.com/p/644435780">[7]</sup>。</p><hr/><p data-pid="YUNsouiz">过去的几年里，一些想法引导我产生如此思考。<a class="wrap external" href="https://notes.andymatuschak.org/zn9igQGgecLncBSpKbgv5123mC5YEAP3hnfP" rel="nofollow noreferrer noopener" target="_blank">Ozzie Kirkby</a> 和我注意到（<a class="wrap external" href="https://notes.andymatuschak.org/zWLsqjDeYgCEERgoVeE8BjFbPrWSPsR5WhY" rel="nofollow noreferrer noopener" target="_blank">2021-06-10</a>），模型从个人笔记生成的卡片更为优秀，这些笔记已经从较长的段落中提炼出了你关心的内容。同样，<a class="wrap external" href="https://notes.andymatuschak.org/z4A7LCXBAkAUH2uZ21JnNrBhJHCjkobFMyn" rel="nofollow noreferrer noopener" target="_blank">GPT-3 能够将填空卡转换为问答卡</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="8" data-text="GPT-3 能够将填空卡转换为问答卡" data-url="https://zhuanlan.zhihu.com/p/630862056">[8]</sup>，也是一个卡片生成任务，其中强化目标已经被非常准确地指定了。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid="_jaorvxI"><a class="internal" href="./644435780.html" rel="noopener noreferrer" target="_blank">对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示，来确定从何种角度制卡</a></li><li data-pid="Jf61oU5S"><a class="internal" href="./639267420.html" rel="noopener noreferrer" target="_blank">将卡片生成任务定义为强化目标的过滤问题</a></li><li data-pid="jxl9QLms"><a class="internal" href="./656760808.html" rel="noopener noreferrer" target="_blank">GPT-4 在指导下，通常能够从解释性文本中为陈述性知识生成可用的间隔重复卡片</a></li><li data-pid="RyjVfstB"><a class="internal" href="./716570823.html" rel="noopener noreferrer" target="_blank">叶峻峣：使用机器学习从解释性文本中生成优质的间隔重复卡片</a></li></ul><h2>声明</h2><p data-pid="a1kSLiu9">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="p3OzuhSp"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class="nolink">Jarrett</span>Ye，校对 Shom、<span class="nolink">偶然奇怪~ ☆</span><br/>原文：<a class="wrap external" href="https://notes.andymatuschak.org/z62s1nNLEfhGbDmpb8Z7dZiYyi3kaSziuLVXd" rel="nofollow noreferrer noopener" target="_blank">In prompt generation, choosing reinforcement targets and writing prompts for those targets are two separate problems (andymatuschak.org)</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 使用机器学习从解释性文本中生成优质的间隔重复卡片 <a href="./716570823.html" target="_blank" rel="noopener noreferrer">./716570823.html</a><br>2. 将卡片生成任务定义为强化目标的过滤问题 <a href="./639267420.html" target="_blank" rel="noopener noreferrer">./639267420.html</a><br>3. 助记媒介应该允许读者对他们收集的卡片进行控制 <a href="./481230325.html" target="_blank" rel="noopener noreferrer">./481230325.html</a><br>4. 对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式 <a href="./656355546.html" target="_blank" rel="noopener noreferrer">./656355546.html</a><br>5. 间隔重复系统中选择去记忆某项内容的行为有如轻松的手势 <a href="./470710559.html" target="_blank" rel="noopener noreferrer">./470710559.html</a><br>6. 写好间隔重复记忆卡片很难 <a href="./397245681.html" target="_blank" rel="noopener noreferrer">./397245681.html</a><br>7. 对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示，来确定从何种角度制卡 <a href="./644435780.html" target="_blank" rel="noopener noreferrer">./644435780.html</a><br>8. GPT-3 能够将填空卡转换为问答卡 <a href="./630862056.html" target="_blank" rel="noopener noreferrer">./630862056.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：间隔重复 & 注意力管理</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

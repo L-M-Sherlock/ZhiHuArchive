@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>Rust是否可以用来做App开发（ios，安卓端）和深度学习呢？ - @Jarrett Ye | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rust是否可以用来做App开发（ios，安卓端）和深度学习呢？ - @Jarrett Ye | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="可以，这是我基于 Rust 的一个深度学习框架 Burn 开发的一个记忆预测算法： open-spaced-repetition/fsrs-rs: FSRS for Rust, including Optimizer and Scheduler (github.com) 其算法项目已经超过 1.5k star： [图片] 下面这个项目是 AnkiDroid 应用和 Anki 桌面端 Rust 代码的 JNI bridge： GitHub - ankidroid/Anki-Android-Backend: JNI bridge between AnkiDroid and Anki Desktop's rust code 通过 JNI，AnkiDroid 就可以调用 Rust …">
+<meta property="og:url" content="https://www.zhihu.com/question/520960106/answer/3326670081">
+<meta name="description" content="可以，这是我基于 Rust 的一个深度学习框架 Burn 开发的一个记忆预测算法： open-spaced-repetition/fsrs-rs: FSRS for Rust, including Optimizer and Scheduler (github.com) 其算法项目已经超过 1.5k star： [图片] 下面这个项目是 AnkiDroid 应用和 Anki 桌面端 Rust 代码的 JNI bridge： GitHub - ankidroid/Anki-Android-Backend: JNI bridge between AnkiDroid and Anki Desktop's rust code 通过 JNI，AnkiDroid 就可以调用 Rust …">
+<meta data-pagefind-meta="title" content="Rust是否可以用来做App开发（ios，安卓端）和深度学习呢？">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="Rust是否可以用来做App开发（ios，安卓端）和深度学习呢？ - @Jarrett Ye | ZhiHu Archive">
+<meta name="twitter:description" content="可以，这是我基于 Rust 的一个深度学习框架 Burn 开发的一个记忆预测算法： open-spaced-repetition/fsrs-rs: FSRS for Rust, including Optimizer and Scheduler (github.com) 其算法项目已经超过 1.5k star： [图片] 下面这个项目是 AnkiDroid 应用和 Anki 桌面端 Rust 代码的 JNI bridge： GitHub - ankidroid/Anki-Android-Backend: JNI bridge between AnkiDroid and Anki Desktop's rust code 通过 JNI，AnkiDroid 就可以调用 Rust …">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/520960106/answer/3326670081");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/520960106/answer/3326670081" target="_blank" rel="noopener noreferrer">Rust是否可以用来做App开发（ios，安卓端）和深度学习呢？</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2023-12-15T06:33:26">发表于 2023年12月15日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">24 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+
+<p data-pid="a9ZMijVq">可以，这是我基于 Rust 的一个深度学习框架 Burn 开发的一个记忆预测算法：</p><a class="wrap external" data-draft-node="block" data-draft-type="link-card" href="https://github.com/open-spaced-repetition/fsrs-rs" rel="nofollow noreferrer noopener" target="_blank">open-spaced-repetition/fsrs-rs: FSRS for Rust, including Optimizer and Scheduler (github.com)</a><p data-pid="Y9w4Mo6p">其算法项目已经超过 1.5k star：</p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-f3123a2cc28c5662a4cb352b461eff0c_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-eac8d112af0578209ba4cd5a95e4778c_r.jpg?source=2c26e567" data-original-token="v2-eac8d112af0578209ba4cd5a95e4778c" data-rawheight="1060" data-rawwidth="1594" data-size="normal" src="https://pica.zhimg.com/50/v2-eac8d112af0578209ba4cd5a95e4778c_720w.jpg?source=2c26e567" width="1594"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-f3123a2cc28c5662a4cb352b461eff0c_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-eac8d112af0578209ba4cd5a95e4778c_r.jpg?source=2c26e567" data-original-token="v2-eac8d112af0578209ba4cd5a95e4778c" data-rawheight="1060" data-rawwidth="1594" data-size="normal" src="https://pica.zhimg.com/50/v2-eac8d112af0578209ba4cd5a95e4778c_720w.jpg?source=2c26e567" width="1594"/></figure><p data-pid="LNSU4nc5">下面这个项目是 AnkiDroid 应用和 Anki 桌面端 Rust 代码的 JNI bridge：</p><a class="wrap external" data-draft-node="block" data-draft-type="link-card" data-image="https://picx.zhimg.com/v2-2bd42e32773abe50ede300acb46a0ded_180x120.jpg" data-image-height="600" data-image-width="1200" href="https://github.com/ankidroid/Anki-Android-Backend" rel="nofollow noreferrer noopener" target="_blank">GitHub - ankidroid/Anki-Android-Backend: JNI bridge between AnkiDroid and Anki Desktop's rust code</a><p data-pid="2FRnNg-P">通过 JNI，AnkiDroid 就可以调用 Rust 层的代码，并运行深度学习模型了。</p><p data-pid="bzikhZbf">另外，AnkiMobile 是 iOS 端的 Anki，也通过 Rust 层运行 FSRS，不过它是闭源软件，所有这里就没有参考代码了。</p><p data-pid="VLjd0Kek">目前这个项目还在维护中，欢迎参与开源社区！</p><hr/><p data-pid="vuWByRmS">相关回答：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic4.zhimg.com/v2-d13632ee8b2382afeaeff61ea471a691_180x120.jpg" data-image-height="499" data-image-width="880" href="./3174376277.html" rel="noopener noreferrer" target="_blank">Github上有哪些Rust写的知名项目？</a><a class="internal" data-draft-node="block" data-draft-type="link-card" href="./3171853749.html" rel="noopener noreferrer" target="_blank">哪些 Rust 库让你相见恨晚？</a><a class="internal" data-draft-node="block" data-draft-type="link-card" href="./3216037837.html" rel="noopener noreferrer" target="_blank">未来Rust会是AI应用开发的优势语言吗？</a><p></p>
+
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

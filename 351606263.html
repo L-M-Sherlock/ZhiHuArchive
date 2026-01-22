@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>SuperMemo 自动备份 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SuperMemo 自动备份 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/351606263">
+<meta property="og:image" content="https://pic1.zhimg.com/v2-257eb3389fa79037c9d13b937e93999f_720w.jpg?source=172ae18b">
+<meta property="og:description" content="更新2021 年 10 月 28 日：推翻重写，不再使用 BitShelter，改用 Kopia 来备份。不再需要单独划分磁盘，并且设置非常好理解。 警告千万不要用百度网盘自动备份或者坚果云同步之类的在线同步备份软件，很可能会搞错 SuperMemo 的文件版本，导致卡片丢失或者…">
+<meta name="description" content="更新2021 年 10 月 28 日：推翻重写，不再使用 BitShelter，改用 Kopia 来备份。不再需要单独划分磁盘，并且设置非常好理解。 警告千万不要用百度网盘自动备份或者坚果云同步之类的在线同步备份软件，很可能会搞错 SuperMemo 的文件版本，导致卡片丢失或者…">
+<meta data-pagefind-meta="title" content="SuperMemo 自动备份">
+<meta data-pagefind-meta="image" content="https://pic1.zhimg.com/v2-257eb3389fa79037c9d13b937e93999f_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SuperMemo 自动备份 | ZhiHu Archive">
+<meta name="twitter:description" content="更新2021 年 10 月 28 日：推翻重写，不再使用 BitShelter，改用 Kopia 来备份。不再需要单独划分磁盘，并且设置非常好理解。 警告千万不要用百度网盘自动备份或者坚果云同步之类的在线同步备份软件，很可能会搞错 SuperMemo 的文件版本，导致卡片丢失或者…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/351606263");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://pic1.zhimg.com/v2-257eb3389fa79037c9d13b937e93999f_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/351606263" target="_blank" rel="noopener noreferrer">SuperMemo 自动备份</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2021-02-20T02:27:53">发表于 2021年02月20日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">161 👍 / 90 💬</p>
+</header>
+<article data-pagefind-body>
+<h2>更新</h2><p data-pid="mEoDqKi0">2021 年 10 月 28 日：推翻重写，不再使用 BitShelter，改用 Kopia 来备份。不再需要单独划分磁盘，并且设置非常好理解。</p><h2>警告</h2><p data-pid="g7iCA2Xj">千万不要用百度网盘自动备份或者坚果云同步之类的在线同步备份软件，很可能会搞错 SuperMemo 的文件版本，导致卡片丢失或者数据损坏。</p><h2><b>引入</b></h2><p data-pid="95gBGDm6">SuperMemo 只有手动备份功能，使用者难免会忘记及时备份，当自己误删后想要回滚，才发现上次备份已经是几个月前，这期间的工作全部木大。为了预防这种情况出现，我建议日常使用 SuperMemo 的朋友掌握一下自动备份的方法，以防不测。</p><h2><b>效果预览</b></h2><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://picx.zhimg.com/v2-b36b2bc5e89cd944c7bcd2ef701a174d_r.jpg" data-original-token="v2-b36b2bc5e89cd944c7bcd2ef701a174d" data-rawheight="548" data-rawwidth="1046" data-size="normal" src="https://picx.zhimg.com/v2-b36b2bc5e89cd944c7bcd2ef701a174d_1440w.jpg" width="1046"/></figure><h2><b>准备工作</b></h2><p data-pid="amX-dFmG">下载 Kopia 并安装</p><p data-pid="35HYnCtt"><a class="external" href="https://ghproxy.com/https://github.com/kopia/kopia/releases/download/v0.9.4/KopiaUI-Setup-0.9.4.exe" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">https://</span><span class="visible">ghproxy.com/https://git</span><span class="invisible">hub.com/kopia/kopia/releases/download/v0.9.4/KopiaUI-Setup-0.9.4.exe</span><span class="ellipsis"></span></a></p><p data-pid="RHVivc58">打开 Kopia 并点击 Filesystem，我们这次就做本地备份。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pica.zhimg.com/v2-2d1677aa654bbefa15f6119faba30f3a_r.jpg" data-original-token="v2-2d1677aa654bbefa15f6119faba30f3a" data-rawheight="619" data-rawwidth="842" data-size="normal" src="https://pica.zhimg.com/v2-2d1677aa654bbefa15f6119faba30f3a_1440w.jpg" width="842"/></figure><p data-pid="WGKCBqod">随手找一个<b>空文件夹（最好新建一个）</b>来当备份目录：</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic2.zhimg.com/v2-692a350bd6850d5b01dfcbc08936242b_r.jpg" data-original-token="v2-692a350bd6850d5b01dfcbc08936242b" data-rawheight="317" data-rawwidth="533" data-size="normal" src="https://pic2.zhimg.com/v2-692a350bd6850d5b01dfcbc08936242b_1440w.jpg" width="533"/></figure><p data-pid="TUVSSWXd">设置一下备份加密密码</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://picx.zhimg.com/v2-71a50f5841cb1f58712fd1fff854dba3_r.jpg" data-original-token="v2-71a50f5841cb1f58712fd1fff854dba3" data-rawheight="429" data-rawwidth="839" data-size="normal" src="https://picx.zhimg.com/v2-71a50f5841cb1f58712fd1fff854dba3_1440w.jpg" width="839"/></figure><p data-pid="AjkoIo2m">好了，接下来就可以开始设置备份计划了</p><h2>备份设置</h2><p data-pid="WpsWtZ7H">点 New Snapshot，开始设置</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic3.zhimg.com/v2-33b34ca8b74364d97919d843690cc668_r.jpg" data-original-token="v2-33b34ca8b74364d97919d843690cc668" data-rawheight="295" data-rawwidth="833" data-size="normal" src="https://pic3.zhimg.com/v2-33b34ca8b74364d97919d843690cc668_1440w.jpg" width="833"/></figure><p data-pid="hnFz-z42">输入你的 sm18 路径，点一下 estimate 看看对不对。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic1.zhimg.com/v2-a79481a0dde96e02032308b46d3f54cc_r.jpg" data-original-token="v2-a79481a0dde96e02032308b46d3f54cc" data-rawheight="611" data-rawwidth="822" data-size="normal" src="https://pic1.zhimg.com/v2-a79481a0dde96e02032308b46d3f54cc_1440w.jpg" width="822"/></figure><p data-pid="GVQqymYi">然后点 snapshot now 就可以手动备份了。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic1.zhimg.com/v2-cb9df5ab04136416255db28b7bf82ec0_r.jpg" data-original-token="v2-cb9df5ab04136416255db28b7bf82ec0" data-rawheight="600" data-rawwidth="821" data-size="normal" src="https://pic1.zhimg.com/v2-cb9df5ab04136416255db28b7bf82ec0_1440w.jpg" width="821"/></figure><p data-pid="rPAmSyum">接下来我们改一下自动备份的设置，先到 Policies 点一下 edit</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pica.zhimg.com/v2-e31ccb355d33c1c111d2a130871dbc5e_r.jpg" data-original-token="v2-e31ccb355d33c1c111d2a130871dbc5e" data-rawheight="350" data-rawwidth="843" data-size="normal" src="https://pica.zhimg.com/v2-e31ccb355d33c1c111d2a130871dbc5e_1440w.jpg" width="843"/></figure><p data-pid="M6WE3S9T">retention 这里我设置为 4 3 2 1，意思就是保持最新的 4 份，最近 3 小时的 3 份，最近两天的 2 份，最近一周的 1 份。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic1.zhimg.com/v2-7721f10395116a77fecbdec658a7e52e_r.jpg" data-original-token="v2-7721f10395116a77fecbdec658a7e52e" data-rawheight="437" data-rawwidth="803" data-size="normal" src="https://pic1.zhimg.com/v2-7721f10395116a77fecbdec658a7e52e_1440w.jpg" width="803"/></figure><p data-pid="jpmW7FMb">Scheduling 这边的 interval 设置为 300，就是 5 分钟备份一次。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://picx.zhimg.com/v2-a84104d0bbfe5031fb4a6a2833d8077d_r.jpg" data-original-token="v2-a84104d0bbfe5031fb4a6a2833d8077d" data-rawheight="457" data-rawwidth="820" data-size="normal" src="https://picx.zhimg.com/v2-a84104d0bbfe5031fb4a6a2833d8077d_1440w.jpg" width="820"/></figure><p data-pid="LaTAMiO1">最后点击 Save Policy 完成设置。</p><h2><b>恭喜</b></h2><p data-pid="ekK816sz">我们已经完成了每 5 分钟备份一次的设置。Kopia 会保留最新的 4 份备份，也就是 5 分钟前、10 分钟前、15 分钟前、20分钟前。还有最近 3 小时，1 小时前、2 小时前、3 小时前。还有 1 天前、2 天前和一周前。有这么多兜底，妈妈再也不怕我 SuperMemo 崩溃啦！</p><p data-pid="3SNSUODk">如何恢复备份？先点击路径</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic1.zhimg.com/v2-062493b48d1f3c4624c826898bd71df6_r.jpg" data-original-token="v2-062493b48d1f3c4624c826898bd71df6" data-rawheight="349" data-rawwidth="588" data-size="normal" src="https://pic1.zhimg.com/v2-062493b48d1f3c4624c826898bd71df6_1440w.jpg" width="588"/></figure><p data-pid="hlhk8yjM">再选择一份备份</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://picx.zhimg.com/v2-38979ee3db8b4895ca652ec74e8f1391_r.jpg" data-original-token="v2-38979ee3db8b4895ca652ec74e8f1391" data-rawheight="1012" data-rawwidth="1372" data-size="normal" src="https://picx.zhimg.com/v2-38979ee3db8b4895ca652ec74e8f1391_1440w.jpg" width="1372"/></figure><p data-pid="Xvd4fYa4">然后点 restore</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic2.zhimg.com/v2-9e338b109d11d2228ce1bbaf67d3605b_r.jpg" data-original-token="v2-9e338b109d11d2228ce1bbaf67d3605b" data-rawheight="228" data-rawwidth="429" data-size="normal" src="https://pic2.zhimg.com/v2-9e338b109d11d2228ce1bbaf67d3605b_1440w.jpg" width="429"/></figure><p data-pid="9A7zM4Bz">填一下要恢复到哪个路径（建议先把你现在的 sm18 文件夹里面的东西都删掉），然后勾选一下 overwrite 覆盖，再 begin restore 即可。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic1.zhimg.com/v2-2dbfd3cf1d2fd5f7474d0cd368d44340_r.jpg" data-original-token="v2-2dbfd3cf1d2fd5f7474d0cd368d44340" data-rawheight="521" data-rawwidth="520" data-size="normal" src="https://pic1.zhimg.com/v2-2dbfd3cf1d2fd5f7474d0cd368d44340_1440w.jpg" width="520"/></figure><h2>补充说明</h2><p data-pid="b90143XY">SuperMemo 正在运行时，Kopia 可能会备份失败，所以如果你要进行高危操作，最好先关闭 SuperMemo，然后点击 Snapshot Now 手动备份。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic3.zhimg.com/v2-754845629238a9b1d776e6a91e611c6c_r.jpg" data-original-token="v2-754845629238a9b1d776e6a91e611c6c" data-rawheight="416" data-rawwidth="1984" data-size="normal" src="https://pic3.zhimg.com/v2-754845629238a9b1d776e6a91e611c6c_1440w.jpg" width="1984"/></figure><p data-pid="OwAhP4fG">另外最好将 Kopia 设置为开机自动启动。可以参考：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic1.zhimg.com/v2-9961132443806a940198d5e71bef2748_qhd.jpg" data-image-height="1080" data-image-width="1920" href="https://zhuanlan.zhihu.com/p/265076894" rel="noopener noreferrer" target="_blank">愿君学习狂热：如何设置让软件开机自启动？三步搞定！</a><h2>拓展阅读</h2><p data-pid="dacqsWVN">默认设置下 kopia 无法在 supermemo 运行时进行备份，需要开启影子备份，感谢 <a class="member_mention" data-hash="31cf1b829bffdcf9f8bed9bafa37d2ff" data-hovercard="p$b$31cf1b829bffdcf9f8bed9bafa37d2ff" href="https://www.zhihu.com/people/31cf1b829bffdcf9f8bed9bafa37d2ff" rel="noopener noreferrer" target="_blank">@荆慢慢2.2</a> 提供的教程：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" href="https://zhuanlan.zhihu.com/p/524574542" rel="noopener noreferrer" target="_blank">荆慢慢2.2：KOPIA 开启影子备份以及 SUPERMEMO 18 的数据修护方法</a><p></p>
+
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：SuperMemo—渐进学习最前沿！</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

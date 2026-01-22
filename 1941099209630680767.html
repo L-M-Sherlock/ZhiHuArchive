@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>增强学术：一份原型提案 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="增强学术：一份原型提案 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/1941099209630680767">
+<meta property="og:image" content="https://picx.zhimg.com/v2-357f49423b3b52d90179451d456c0b9d_720w.jpg?source=172ae18b">
+<meta property="og:description" content="敬畏之源 数千年前，我们的祖先还没有书面语言。从生物学上说，我们与那些古人几乎别无二致，但我们头脑中上演的思绪，对他们而言却如同天外来客，无法理喻。在一个拥有纸笔的世界里长大，已经彻底改变了我们。我们能追踪一条远超工作记忆负荷的思维链条；我…">
+<meta name="description" content="敬畏之源 数千年前，我们的祖先还没有书面语言。从生物学上说，我们与那些古人几乎别无二致，但我们头脑中上演的思绪，对他们而言却如同天外来客，无法理喻。在一个拥有纸笔的世界里长大，已经彻底改变了我们。我们能追踪一条远超工作记忆负荷的思维链条；我…">
+<meta data-pagefind-meta="title" content="增强学术：一份原型提案">
+<meta data-pagefind-meta="image" content="https://picx.zhimg.com/v2-357f49423b3b52d90179451d456c0b9d_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="增强学术：一份原型提案 | ZhiHu Archive">
+<meta name="twitter:description" content="敬畏之源 数千年前，我们的祖先还没有书面语言。从生物学上说，我们与那些古人几乎别无二致，但我们头脑中上演的思绪，对他们而言却如同天外来客，无法理喻。在一个拥有纸笔的世界里长大，已经彻底改变了我们。我们能追踪一条远超工作记忆负荷的思维链条；我…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/1941099209630680767");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://picx.zhimg.com/v2-357f49423b3b52d90179451d456c0b9d_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/1941099209630680767" target="_blank" rel="noopener noreferrer">增强学术：一份原型提案</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2025-08-21T03:03:22">发表于 2025年08月21日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">10 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<h2><b>敬畏之源</b></h2><p data-pid="EXdzJq_s">数千年前，我们的祖先还没有书面语言。从生物学上说，我们与那些古人几乎别无二致，但我们头脑中上演的思绪，对他们而言却如同天外来客，无法理喻。在一个拥有纸笔的世界里长大，已经彻底改变了我们。我们能追踪一条远超工作记忆负荷的思维链条；我们能进行抽象和分析性的思考；我们能站在素未谋面之人的思想成果之上，并为后世记录下自己的思想。自然选择并未赋予我们这些能力，是其他人给予了我们。我们继承了一种惊人的力量：我们塑造工具，工具反过来又塑造我们——这是一种超越自身心智局限的力量。</p><p data-pid="4j6hwh3a">书面语言是整个文明的杰作。但作为一名设计师，最令我心潮澎湃的是，小团体——甚至个人，都能够发明出足以改变思维方式的工具。我想到十八世纪普莱费尔的统计图表，或是十九世纪门捷列夫的元素周期表。这类工具与其说是被发明，不如说是被发现：它们的力量在于将深邃的领域洞见（如周期律）提炼为一种外部形态，供我们思考和交流。</p><p data-pid="ux3DfkR1">到了二十世纪，计算机催生了一类全新的形态——能够自主运行并做出响应的<b>动态媒介</b>。当现代建筑师绘制场地规划时，他的媒介仿佛活了过来，主动地支撑着他的创造性思维。他能实时看到自己的每个抉择如何影响日照、材料应力以及建造成本。当现代音乐制作人混音时，频谱可视化工具能让他迅速定位并修复浑浊的音轨；自动化曲线则能让他连贯地表达和操控声音。在气候建模、基因组学以及其他定量研究领域，我们也能看到类似的故事。这些新媒介分担了部分认知负荷，使我们能够以接近思考的速度去探索和完善创意。在如此众多的艺术与科学领域，动态媒介再一次创造出了如同天外来客般的全新心智。</p><h2><b>学术媒介之不足</b></h2><p data-pid="2Crjdboj">与此同时，学术研究的基本媒介却几乎未曾改变。我指的是阅读、写作、勾画、演示——这些我们赖以思考和进行思考的交流媒介。这些媒介固然是人类文明的惊人成就，然而，它们却又存在着根本性的不足。我们常常在阅读时无法吸收关键思想，却对此浑然不觉；我们转眼就忘了上周还觉得引人入胜的细节；我们发现自己的工作记忆时刻处于过载状态；我们在页边空白处写下笔记，却又难以把握全局，难以理清连接不同文本与我们自身想法的那条主线；我们被浏览器里那堆积如山、未经整理的标签页和引文所淹没，不知所措。</p><p data-pid="pLBzSpTJ">名义上，我们用计算机来完成所有这些任务，但我们并未真正地「使用」它。我们多数时候只是在屏幕上跟「纸张的快照」打交道。动态媒介的奇迹，大多被局限在简单的信息检索上：搜索、数据库、快速存取。在其他领域，我们拥有能与我们共舞的动态媒介，为我们艰难的创造性工作提供主动的支持。而在学术界，纸张却依旧静躺在那里，纹丝不动，我们将全部的认知负荷一肩扛起。正如 Echoing Engelbart 所言：我们的铅笔上至今仍捆着砖块。</p><p data-pid="m2RQbgMM">我们学术界的 AutoCAD 在哪里？我们学术界的 Logic Pro 在哪里？</p><p data-pid="j_dZUMQ2">你可能会说：也许学术媒介有其特殊性。也许阅读、写作或演示这些活动中，存在某种内在特质，使其无法诞生我们在其他领域所见的那种变革性的思维工具。但事实上，现代科学已经揭示了大量关于人类认知、意义建构和洞察力的规律。我们理应能将这些强大的理念融入新的媒介之中。</p><p data-pid="yrbzMWcw">例如，认知心理学家已对记忆形成的动态过程了如指掌。我们几乎掌握了一种配方，可以用来可靠且高效地记住任何事情——麻烦在于，书籍这种媒介天生就不会执行这套配方。我与合作者 Michael Nielsen 一同发明了一种新型书籍，它融入了这一洞见，使得阅读行为本身就能自然地执行这套记忆配方。我们用这种全新的「助记媒介」出版了一本<a class="wrap external" href="https://quantum.country/" rel="nofollow noreferrer noopener" target="_blank">量子计算教材</a>，并<a class="wrap external" href="https://andymatuschak.org/hmwl/#practice-and-memory" rel="nofollow noreferrer noopener" target="_blank">证明</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="我们如何学习？" data-url="https://zhuanlan.zhihu.com/p/700878710#h_700878710_6">[1]</sup>了，只需付出少量额外时间，我们的读者在读完很久之后，依然能可靠地记住书中数百个详尽的知识点。与之相比，在没有辅助的情况下，大多数读者会忘记许多关键细节。所以，显而易见，彻底增强阅读是完全可能的。我近期的一些其他实验，也已在<a class="wrap external" href="https://matthewsiu.com/Latticework" rel="nofollow noreferrer noopener" target="_blank">意义建构</a>、<a class="wrap external" href="https://notes.andymatuschak.org/" rel="nofollow noreferrer noopener" target="_blank">写作</a>、<a class="wrap external" href="https://gist.github.com/andymatuschak/d2003d7add3f2b466b2780103dc6e158" rel="nofollow noreferrer noopener" target="_blank">注意力</a>等学术核心实践上，展现出了充满希望的方向。</p><p data-pid="Voi-rtLd">当今的软件产业规模巨大。为何它没有更严肃地对待这个问题呢？我们可以为建筑师和音乐家的市场是否比学术市场更大而争论不休，但我更倾向于另一种解释：新一代强大的思想工具，既需要富有想象力的设计洞见，也需要深厚的领域洞见。我最初是在 iPad 项目早期在苹果公司学习设计的。我亲眼看着那些对音乐和电影怀有长久激情的设计师，将创造性的想法倾注到 Logic Pro 和 Final Cut Pro 中，这些工具最终改变了它们各自的行业。而与此同时，我帮助苹果公司为阅读界面做出的最具创新性的贡献，不过是那个当你翻页时会跟随你手指的 3D「页面卷曲」特效。我认为，苹果设计师们对阅读界面的想象力仅限于这类花哨的点缀，绝非偶然。我的同事里，没有一个进行严肃阅读。这并非苹果独有的现象，而是我与整个行业软件设计师打交道得出的普遍经验。学术，根本就不是他们文化的一部分。与此同时，认知心理学和计算机支持协同工作领域的学者们拥有领域洞见，但在他们的文化中，大胆的设计工作却极为罕见。</p><h2><b>我们眼下的项目</b></h2><p data-pid="aGWegEJ8">因此，我提出一项名为<b>增强学术</b>（augmented scholarship）的计划。我们将发明一系列工具和媒介，以期变革学者们通过交流媒介——阅读、写作、勾画、演示——所从事的智力工作。如果说纸和笔让我们在史前人类面前如同天外来客，那么我想要创造一种思想的界面，它之于纸张，正如纸张之于没有纸张的远古时代。我想要让未来的学者，其能力之强，令我们这一代人不可估量。</p><p data-pid="EbtKbZgi">我的主要方法，是重复那些在众多已被动态媒介变革的领域中行之有效、却极少在学术界被尝试的路径：将关于人类认知与学术工作本质的深刻洞见，与娴熟且富有想象力的设计工作相结合。在我们引领学术界追赶上一次媒介革命的同时，我们也将投身于下一次浪潮。现代的语言和视觉模型为我们创造情境感知的学术工作空间，提供了令人目眩神迷的机会。这种空间不仅能感知用户当下正在阅读的内容，更能感知其与用户正在探索的一切事物之间的关联。需要说明的是，我对自动化创造过程不感兴趣，我始终将学者置于创造的中心。但正如笔可以成为手与心智的延伸，我相信，人工智能也可以成为意义建构与探索发现的支持性延伸。</p><p data-pid="mrOqgdgw">过去几年，我一直在为这个「增强学术」的愿景构建原型，多数时候是独自一人或两人一组，且资源极为有限。如今，我的工作已渐有积累，前沿模型的能力也日益强大，是时候发起一次更大规模的尝试了。我希望在一个工作室的环境中，集结一支由才华横溢的设计师和技术专家组成的团队，进行为期一年的高强度发明与实验。我们将以我过去几年的基础原型为起点，共同开发新的想法。由于这个项目的成败取决于我们领域洞见与设计洞见的丰富程度，我们将在年初举办一场合作式工作坊，邀请一些全球最富启发性的创造者——那些在通常情况下永远无法招募为全职员工的人。我们将嵌入[该研究所]之中，创造一个活的实验室：我们的原型将服务于[该研究所]的学者们，而我们对他们使用情况的观察，也将反过来滋养我们的创造过程。我们将持续发布我们的设计成果，并在年末交付一套增强学术新方法的开源演示，其有效性将由内部及外部的使用观察所验证。</p><hr/><blockquote data-pid="rpaISNcl"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 geimini-2.5-pro、校对 Jarrett Ye<br/>原文：<a class="wrap external" href="https://www.patreon.com/posts/135440922" rel="nofollow noreferrer noopener" target="_blank">Augmenting scholarship: a proto-proposal | Patreon</a><br/>发布于 2025 年 8 月 1 日</blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 我们如何学习？ <a href="https://zhuanlan.zhihu.com/p/700878710#h_700878710_6" target="_blank" rel="noopener noreferrer">https://zhuanlan.zhihu.com/p/700878710#h_700878710_6</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：助记媒介 & 思想工具</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

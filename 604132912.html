@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>相较于重复学习，重复测试的迁移学习效果更好 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="相较于重复学习，重复测试的迁移学习效果更好 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/604132912">
+<meta property="og:image" content="">
+<meta property="og:description" content="论文调查了 提取练习和迁移学习 [1]。其包含了几项迁移程度逐步提高的实验。受试者是 WUSTL 的心理学本科生。他们阅读 Wikipedia 上的通识短文。实验 1b 和 2 要求受试者在同一主题内下做出推论。实验 3 要求受试者依所读的内容对不同的主题做推论。这些实验…">
+<meta name="description" content="论文调查了 提取练习和迁移学习 [1]。其包含了几项迁移程度逐步提高的实验。受试者是 WUSTL 的心理学本科生。他们阅读 Wikipedia 上的通识短文。实验 1b 和 2 要求受试者在同一主题内下做出推论。实验 3 要求受试者依所读的内容对不同的主题做推论。这些实验…">
+<meta data-pagefind-meta="title" content="相较于重复学习，重复测试的迁移学习效果更好">
+<meta data-pagefind-meta="image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="相较于重复学习，重复测试的迁移学习效果更好 | ZhiHu Archive">
+<meta name="twitter:description" content="论文调查了 提取练习和迁移学习 [1]。其包含了几项迁移程度逐步提高的实验。受试者是 WUSTL 的心理学本科生。他们阅读 Wikipedia 上的通识短文。实验 1b 和 2 要求受试者在同一主题内下做出推论。实验 3 要求受试者依所读的内容对不同的主题做推论。这些实验…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/604132912");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src=""/>
+<h1><a href="https://zhuanlan.zhihu.com/p/604132912" target="_blank" rel="noopener noreferrer">相较于重复学习，重复测试的迁移学习效果更好</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2023-02-07T03:30:49">发表于 2023年02月07日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">23 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="xRX9Jrdt">论文调查了<a class="wrap external" href="https://notes.andymatuschak.org/z2a8QGPfUmdLCVokLaegNzmaU6ehC58CUtYi" rel="nofollow noreferrer noopener" target="_blank">提取练习和迁移学习</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="提取练习和迁移学习" data-url="https://zhuanlan.zhihu.com/p/536670074">[1]</sup>。其包含了几项迁移程度逐步提高的实验。</p><p data-pid="pRt7Lxsd">受试者是 WUSTL 的心理学本科生。他们阅读 Wikipedia 上的通识短文。实验 1b 和 2 要求受试者在同一主题内下做出推论。实验 3 要求受试者依所读的内容对不同的主题做推论。这些实验结果表明在概念性和事实性问题上，相比重复学习，提取练习的迁移效果更好，这与逐字复述型问题条件下的实验结果相似。</p><p data-pid="FNaK8l-Z">实验 1a 和 1b 也通过改变问题文本探索了「<a class="wrap external" href="https://notes.andymatuschak.org/zPQ4PsyZABQxajikxzp73TUBFG9ShJPG3hd" rel="nofollow noreferrer noopener" target="_blank">间隔重复记忆系统用不同的问题文本会有更好的表现吗？</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="间隔重复记忆系统用不同的问题文本会有更好的表现吗？" data-url="https://zhuanlan.zhihu.com/p/552951806">[2]</sup>」这一问题，但发现结果没有差异。</p><p data-pid="WCw6S8qv">这项研究的一个关键限制是：学生们被「明确告知在期末测试中与他们先前学习的知识有关」，因此他们不需要去辨认信息对远迁移任务的适用性，他们只需重新回想与之有关的信息。（感谢 Martin Bernstorff <a class="wrap external" href="https://twitter.com/m_bernstorff/status/1461074246277423109" rel="nofollow noreferrer noopener" target="_blank">指出这一点</a>）。</p><hr/><p data-pid="31yBBI6-">问：高阶实验设置？<br/>答：心理学本科生阅读短文，重复学习或重复测试，再于一周后考试。</p><p data-pid="73FmEYHP">问：主要发现是？<br/>答：在近迁移和远迁移中，相对于重复学习，提取练习可以提高学习者面对迁移类问题的表现，其幅度与逐字复述型问题相近。 </p><p data-pid="-kHRgskQ">问：关于「<a class="wrap external" href="https://notes.andymatuschak.org/Would_spaced_repetition_memory_systems_perform_better_with_varied_question_texts%3F" rel="nofollow noreferrer noopener" target="_blank">间隔重复记忆系统用不同的问题文本会有更好的表现吗？</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="间隔重复记忆系统用不同的问题文本会有更好的表现吗？" data-url="https://zhuanlan.zhihu.com/p/552951806">[2]</sup>」这一问题的发现？<br/>答：结果：无差异。</p><p data-pid="Bcfs5KDA">问：关键限制对<a class="wrap external" href="https://notes.andymatuschak.org/Retrieval_practice_and_transfer_learning" rel="nofollow noreferrer noopener" target="_blank">提取练习和迁移学习</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="提取练习和迁移学习" data-url="https://zhuanlan.zhihu.com/p/536670074">[1]</sup>的影响？<br/>答：学生们被明确告知在期末测试中与他们先前学习的知识有关联，所以他们不需要去辨认它的适用性。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid="qebXA5dw"><a class="internal" href="./423449068.html" rel="noopener noreferrer" target="_blank">测试效应</a></li><li data-pid="cK_powPq"><a class="internal" href="./536670074.html" rel="noopener noreferrer" target="_blank">提取练习和迁移学习</a></li><li data-pid="g6FD0bjn"><a class="internal" href="./398045447.html" rel="noopener noreferrer" target="_blank">间隔重复记忆系统可用于发展概念性理解</a></li><li data-pid="K1ZOZ75a"><a class="internal" href="./552951806.html" rel="noopener noreferrer" target="_blank">间隔重复记忆系统用不同的问题文本会有更好的表现吗？</a></li></ul><h2>声明</h2><p data-pid="a1kSLiu9">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="OemQMWAU"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 JarrettYe<br/>原文：<a class="wrap external" href="https://notes.andymatuschak.org/zKhfH8c9tyT3e8sZzDSKZ3yMmLFjybUT1CA" rel="nofollow noreferrer noopener" target="_blank">Butler, A. (2010). Repeated Testing Produces Superior Transfer of Learning Relative to Repeated Studying. Journal of Experimental Psychology. Learning, Memory, and Cognition, 36, 1118–1133. (andymatuschak.org)</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 提取练习和迁移学习 <a href="./536670074.html" target="_blank" rel="noopener noreferrer">./536670074.html</a><br>2. 间隔重复记忆系统用不同的问题文本会有更好的表现吗？ <a href="./552951806.html" target="_blank" rel="noopener noreferrer">./552951806.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：间隔重复 & 注意力管理</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

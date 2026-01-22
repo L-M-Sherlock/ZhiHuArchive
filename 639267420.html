@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>将卡片生成任务定义为强化目标的过滤问题 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="将卡片生成任务定义为强化目标的过滤问题 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/639267420">
+<meta property="og:image" content="">
+<meta property="og:description" content="当我开始专注 使用机器学习模型从解释文本中生成高质量的间隔重复卡片 [1]，我认为这个问题主要在于如何让系统产生我想要的输出。但在体验过一些模型后，我注意到模型通常有能力产生足够接近我想要结果，但前提是我愿意生成并评估足够多的样本。这一过程的问…">
+<meta name="description" content="当我开始专注 使用机器学习模型从解释文本中生成高质量的间隔重复卡片 [1]，我认为这个问题主要在于如何让系统产生我想要的输出。但在体验过一些模型后，我注意到模型通常有能力产生足够接近我想要结果，但前提是我愿意生成并评估足够多的样本。这一过程的问…">
+<meta data-pagefind-meta="title" content="将卡片生成任务定义为强化目标的过滤问题">
+<meta data-pagefind-meta="image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="将卡片生成任务定义为强化目标的过滤问题 | ZhiHu Archive">
+<meta name="twitter:description" content="当我开始专注 使用机器学习模型从解释文本中生成高质量的间隔重复卡片 [1]，我认为这个问题主要在于如何让系统产生我想要的输出。但在体验过一些模型后，我注意到模型通常有能力产生足够接近我想要结果，但前提是我愿意生成并评估足够多的样本。这一过程的问…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/639267420");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src=""/>
+<h1><a href="https://zhuanlan.zhihu.com/p/639267420" target="_blank" rel="noopener noreferrer">将卡片生成任务定义为强化目标的过滤问题</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2023-06-25T10:51:06">发表于 2023年06月25日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">7 👍 / 1 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="XBInZKE7">当我开始专注<a class="wrap external" href="https://notes.andymatuschak.org/z2DY7qsP5iHsiA5hxUHheV8hu7Xe96vdGyYX" rel="nofollow noreferrer noopener" target="_blank">使用机器学习模型从解释文本中生成高质量的间隔重复卡片</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="使用机器学习从解释性文本中生成优质的间隔重复卡片" data-url="https://zhuanlan.zhihu.com/p/716570823">[1]</sup>，我认为这个问题主要在于如何让系统产生我想要的输出。但在体验过一些模型后，我注意到模型通常有能力产生足够接近我想要结果，但前提是我愿意生成并评估足够多的样本。这一过程的问题在于生成满意答案需要生成的样本数量过于庞大……但不是一个博尔赫斯数*。显然，任何足够复杂的模型都包含所有的句子；这不是在说我想要的卡片就在集合中，而是在说我可能会丢弃掉近乎所有的样本。</p><blockquote data-pid="AGCUKRAb">*译注：博尔赫斯数是一个虚构的数学概念，源于阿根廷作家豪尔赫·路易斯·博尔赫斯的作品《百科全书》。其中博尔赫斯数是一个极其巨大的数字，其大小超出人类理解和表达的范围。它被用来描述一个无限的、包含了所有可能的排列组合的图书馆或书库，其中每本书都是一本独特的书，包含了所有可能的组合。</blockquote><p data-pid="p0XUpLel">生成卡片的问题，跟让模型生成可接受的输出的问题完全不一样（<a class="wrap external" href="https://notes.andymatuschak.org/zPZqDQquq8TAxRVqCQTkxkq" rel="nofollow noreferrer noopener" target="_blank">卡片生成任务中，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="卡片生成任务中，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题" data-url="https://zhuanlan.zhihu.com/p/656354899">[2]</sup>）。或许可以开发一些过滤器，筛选模型的输出，以找出我们需要的问题。此外，我们也可以开发一个界面来适应这个筛选问题。</p><h2>对候选卡片进行自动排序/筛选</h2><p data-pid="tEpn8oZl">什么是「不合理」的问题？我发现这些问题并不是胡言乱语，而是非常规矩的问题，也都能说得通。但这些问题中读不出对文章的有趣理解。这种「有趣」有主观因素——有些人对人物时间事件等具体细节感兴趣，有人对关键定义感兴趣，而有人对大局影响感兴趣（<a class="wrap external" href="https://notes.andymatuschak.org/zRQJZytpQme5JHS83MSboQ4" rel="nofollow noreferrer noopener" target="_blank">对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示，来确定从何种角度制卡</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示，来确定从何种角度制卡" data-url="https://zhuanlan.zhihu.com/p/644435780">[3]</sup>；<a class="wrap external" href="https://notes.andymatuschak.org/zGkLPdiEs7Qohkesq7TNiBe" rel="nofollow noreferrer noopener" target="_blank">对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式" data-url="https://zhuanlan.zhihu.com/p/656355546">[4]</sup>）。但我想知道的是这种有趣是否能客观评价。</p><p data-pid="MTDvEy8U">比如，假设我们围绕一篇关于跑步者的文章生成问题，文章里有句话是「他绑紧了他的鞋带」，而如果有个问题是「他跑步前绑紧了什么？」，那么这个问题可以在客观上认为是低质量的，其中一个因素是当代故事里的其他跑步者都会这么干（也就是说，这条信息是低熵的）。另一个更为微妙的因素是，这个细节对这个故事<b>并不重要</b>。跑步者的鞋子是无关紧要的；文章之后也没有提起。我觉得量化第一个因素是可行的，但我不确定如何量化第二个因素。有个笨想法：如果你移除文章的某处细节，文章的自编码向量会移动多少？我们能在这里使用模型的熵吗？</p><h3>参考文献</h3><p data-pid="FilrkBCi">我在 <a class="wrap external" href="https://notes.andymatuschak.org/zYhPmghQMv93jZsGwPfLcZx7E4npiQc87xX" rel="nofollow noreferrer noopener" target="_blank">2021 年 9 月 6日</a>与 <a class="wrap external" href="https://notes.andymatuschak.org/zJ55L18u5sagXqnMWh5szwfZ388oGQbyfW3" rel="nofollow noreferrer noopener" target="_blank">Yuval Milo</a> 的电话会谈里意识到了这点。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid="ETBAy36q"><a class="internal" href="./656354899.html" rel="noopener noreferrer" target="_blank">卡片生成任务中，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题</a></li><li data-pid="jhPB4YU8"><a class="internal" href="./716570823.html" rel="noopener noreferrer" target="_blank">叶峻峣：使用机器学习从解释性文本中生成优质的间隔重复卡片</a></li></ul><h2>声明</h2><p data-pid="a1kSLiu9">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="ySPjL02P"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 Shom、校对 <span class="nolink">Jarrett</span>Ye<br/>原文：<a class="wrap external" href="https://notes.andymatuschak.org/zQ4E1DXZoZTTitsik89ZcvXMu8dQMkJzRUS" rel="nofollow noreferrer noopener" target="_blank">Framing prompt generation as a filtering problem on reinforcement targets</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 使用机器学习从解释性文本中生成优质的间隔重复卡片 <a href="./716570823.html" target="_blank" rel="noopener noreferrer">./716570823.html</a><br>2. 卡片生成任务中，选择要强化的目标概念，和为这些目标概念编写卡片，是两个独立的问题 <a href="./656354899.html" target="_blank" rel="noopener noreferrer">./656354899.html</a><br>3. 对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示，来确定从何种角度制卡 <a href="./644435780.html" target="_blank" rel="noopener noreferrer">./644435780.html</a><br>4. 对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式 <a href="./656355546.html" target="_blank" rel="noopener noreferrer">./656355546.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：间隔重复 & 注意力管理</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

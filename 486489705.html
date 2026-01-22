@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>自主评分的间隔重复记忆系统可避免假阴性 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="自主评分的间隔重复记忆系统可避免假阴性 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/486489705">
+<meta property="og:image" content="https://pic1.zhimg.com/v2-90573a7e1654e66d87ccffc319fd45d2_720w.jpg?source=172ae18b">
+<meta property="og:description" content="在 间隔重复记忆系统 [1]的复习环节中，如果我因为记错了一个函数的名字而在 SQL 表达式中打错了字，那就不好了，我可能应该再复习一遍。但是，如果我因为手指打滑而打错了字，我仍然自认为是「正确的」。在机器评分的系统中，假阴性是非常令人恼火的。当然…">
+<meta name="description" content="在 间隔重复记忆系统 [1]的复习环节中，如果我因为记错了一个函数的名字而在 SQL 表达式中打错了字，那就不好了，我可能应该再复习一遍。但是，如果我因为手指打滑而打错了字，我仍然自认为是「正确的」。在机器评分的系统中，假阴性是非常令人恼火的。当然…">
+<meta data-pagefind-meta="title" content="自主评分的间隔重复记忆系统可避免假阴性">
+<meta data-pagefind-meta="image" content="https://pic1.zhimg.com/v2-90573a7e1654e66d87ccffc319fd45d2_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="自主评分的间隔重复记忆系统可避免假阴性 | ZhiHu Archive">
+<meta name="twitter:description" content="在 间隔重复记忆系统 [1]的复习环节中，如果我因为记错了一个函数的名字而在 SQL 表达式中打错了字，那就不好了，我可能应该再复习一遍。但是，如果我因为手指打滑而打错了字，我仍然自认为是「正确的」。在机器评分的系统中，假阴性是非常令人恼火的。当然…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/486489705");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://pic1.zhimg.com/v2-90573a7e1654e66d87ccffc319fd45d2_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/486489705" target="_blank" rel="noopener noreferrer">自主评分的间隔重复记忆系统可避免假阴性</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2022-03-24T01:11:25">发表于 2022年03月24日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">12 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="7YI-8Up2">在<a class="wrap external" href="https://notes.andymatuschak.org/z4eXdSMJFv2qVGXSUEKH4vdcHBrLHcFY1ZGfC" rel="nofollow noreferrer noopener" target="_blank">间隔重复记忆系统</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="间隔重复记忆系统" data-url="http://zhuanlan.zhihu.com/p/404257681">[1]</sup>的复习环节中，如果我因为记错了一个函数的名字而在 SQL 表达式中打错了字，那就不好了，我可能应该再复习一遍。但是，如果我因为手指打滑而打错了字，我仍然自认为是「正确的」。在机器评分的系统中，假阴性是非常令人恼火的。当然，假阴性也是低效的，因为卡片会更快地重新出现。但激怒用户才是更严重的问题。</p><p data-pid="XNyximY9">机器分级系统引入了各种机制来避免这个问题——例如，允许用户输入与答案之间有一定的较小的编辑距离，或者为的拼写变体准备字典。这些措施必然是相当片面的。（译注：编辑距离是针对二个字符串的差异程度的量化量测，量测方式是看至少需要多少次的处理才能将一个字符串变成另一个字符串。）</p><p data-pid="kyRl_rZO">更多内容请参见《为非常好奇的人提供的量子计算》中的<a class="wrap external" href="https://quantum.country/qcvc#how-to-use-or-not-use-the-questions" rel="nofollow noreferrer noopener" target="_blank">如何使用（或不使用！）问题</a>一节；例如：</p><blockquote data-pid="XAf1V0B_">你可能已经注意到这些问题是自我评估的。如果你有时即使是在你不正确的时候，但也想评为「正确」，尽可大胆去做！你认为这对你的学习会有什么影响？你喜欢这种略带背德的感觉吗？我必须承认，我喜欢。如果是的话，不要感到尴尬：这应该是，首先是乐趣。或者试着在你正确的时候给自己评分为「错误」，或者干脆跳过这些问题。这些行为对你的学习有什么影响？关键是要弄清楚如何与这些问题尽力较量，从而尽可能快地学习。这意味着要对你的学习方式进行有趣的试验，找到适合你的方法。</blockquote><hr/><h2>参考文献</h2><p data-pid="zgR0P3-K">Matuschak, A., &amp; Nielsen, M. (2019, March). Quantum computing for the very curious. Quantum Country. <a class="external" href="https://quantum.country/qcvc" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">https://</span><span class="visible">quantum.country/qcvc</span><span class="invisible"></span></a></p><h2>链接至本文</h2><ul><li data-pid="pFxCRSGN">暂无</li></ul><h2>声明</h2><p data-pid="EXe-X8pe">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="AEexX0wS"><a class="wrap external" href="https://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>原文：<a class="wrap external" href="https://notes.andymatuschak.org/z7NmYGQd6wLQr3zQcDEPMizghkD9thEhhfg2E" rel="nofollow noreferrer noopener" target="_blank">Self-graded spaced repetition memory systems avoid false negatives (andymatuschak.org)</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 间隔重复记忆系统 <a href="./404257681.html" target="_blank" rel="noopener noreferrer">./404257681.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：间隔重复 & 注意力管理</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

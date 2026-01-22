@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>对于卡片生成任务，如果提供了充足的上下文，大型语言模型（LLM）可能会表现得更好 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="对于卡片生成任务，如果提供了充足的上下文，大型语言模型（LLM）可能会表现得更好 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/645670312">
+<meta property="og:image" content="">
+<meta property="og:description" content="许多人试图创建系统， 使用机器学习从解释性文本中为简单的陈述性知识生成优质的间隔重复卡片 [1]，这些系统往往会对高亮内容进行处理。你选择一段文字，然后让模型根据所选的内容生成卡片。但是，除非所选的内容是一个孤立的、明确的陈述，否则模型通常需要…">
+<meta name="description" content="许多人试图创建系统， 使用机器学习从解释性文本中为简单的陈述性知识生成优质的间隔重复卡片 [1]，这些系统往往会对高亮内容进行处理。你选择一段文字，然后让模型根据所选的内容生成卡片。但是，除非所选的内容是一个孤立的、明确的陈述，否则模型通常需要…">
+<meta data-pagefind-meta="title" content="对于卡片生成任务，如果提供了充足的上下文，大型语言模型（LLM）可能会表现得更好">
+<meta data-pagefind-meta="image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="对于卡片生成任务，如果提供了充足的上下文，大型语言模型（LLM）可能会表现得更好 | ZhiHu Archive">
+<meta name="twitter:description" content="许多人试图创建系统， 使用机器学习从解释性文本中为简单的陈述性知识生成优质的间隔重复卡片 [1]，这些系统往往会对高亮内容进行处理。你选择一段文字，然后让模型根据所选的内容生成卡片。但是，除非所选的内容是一个孤立的、明确的陈述，否则模型通常需要…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/645670312");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src=""/>
+<h1><a href="https://zhuanlan.zhihu.com/p/645670312" target="_blank" rel="noopener noreferrer">对于卡片生成任务，如果提供了充足的上下文，大型语言模型（LLM）可能会表现得更好</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2023-07-24T15:46:11">发表于 2023年07月24日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">6 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="hg3y7MF7">许多人试图创建系统，<a class="wrap external" href="https://notes.andymatuschak.org/z2DY7qsP5iHsiA5hxUHheV8hu7Xe96vdGyYX" rel="nofollow noreferrer noopener" target="_blank">使用机器学习从解释性文本中为简单的陈述性知识生成优质的间隔重复卡片</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="使用机器学习从解释性文本中生成优质的间隔重复卡片" data-url="https://zhuanlan.zhihu.com/p/716570823">[1]</sup>，这些系统往往会对高亮内容进行处理。你选择一段文字，然后让模型根据所选的内容生成卡片。但是，除非所选的内容是一个孤立的、明确的陈述，否则模型通常需要更多的上下文来理解如何生成优质卡片。比如，你如果从教科书中选择了一句话，模型就需要对教科书的层次、已经介绍过的内容，以及观点的框架等方面有所了解。为此，我发现在目标文本周围提供几千个上下文相关的词元往往会有所帮助。</p><p data-pid="AsH9iVAd">从某种角度来看，这样的上下文信息就像是在告诉模型，什么样的卡片才符合用户的需求；这也和另一种观点相吻合<a class="wrap external" href="https://notes.andymatuschak.org/zomoPzCNzSi5GqtfTeVWgm7RjmiArjS8vvM5" rel="nofollow noreferrer noopener" target="_blank">对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示来确定需要强化何种角度</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示来确定强化的视角" data-url="https://zhuanlan.zhihu.com/p/644435780">[2]</sup>。</p><h2>实例</h2><p data-pid="H-euSXPh">&lt;context&gt;设想一个质量为 <img alt="m" eeimg="1" src="https://www.zhihu.com/equation?tex=m"/> 的粒子，被限定在 <img alt="x" eeimg="1" src="https://www.zhihu.com/equation?tex=x"/> 轴上运动，同时受到某个特定的力 <img alt="F(x, t)" eeimg="1" src="https://www.zhihu.com/equation?tex=F%28x%2C+t%29"/> 作用（参见图 1.1）。经典力学的主要任务，就是求出粒子在任何特定时间的位置： <img alt="x(t)" eeimg="1" src="https://www.zhihu.com/equation?tex=x%28t%29"/> 。一旦我们得知了这个，我们就能算出速度（ <img alt="v=d x / d t" eeimg="1" src="https://www.zhihu.com/equation?tex=v%3Dd+x+%2F+d+t"/> ）、动量（ <img alt="p=m v" eeimg="1" src="https://www.zhihu.com/equation?tex=p%3Dm+v"/> ）、动能（ <img alt="T=(1 / 2) m v^2" eeimg="1" src="https://www.zhihu.com/equation?tex=T%3D%281+%2F+2%29+m+v%5E2"/> ）或者其它我们感兴趣的动力学变量。我们如何求出 <img alt="x(t)" eeimg="1" src="https://www.zhihu.com/equation?tex=x%28t%29"/> 呢？我们应用牛顿第二定律： <img alt="F=m a" eeimg="1" src="https://www.zhihu.com/equation?tex=F%3Dm+a"/> 。（对于保守系统——也就是我们只会考虑的那种，幸运的是，它们也是在微观层面上唯一存在的类型，力可以表达为势能函数的导数，也就是 <img alt="{ }^1 F=-\partial V / \partial x" eeimg="1" src="https://www.zhihu.com/equation?tex=%7B+%7D%5E1+F%3D-%5Cpartial+V+%2F+%5Cpartial+x"/> ，于是牛顿定律就变成了 <img alt="m d^2 x / d t^2=-\partial V / \partial x" eeimg="1" src="https://www.zhihu.com/equation?tex=m+d%5E2+x+%2F+d+t%5E2%3D-%5Cpartial+V+%2F+%5Cpartial+x"/> 。）这个结论，再配合适当的初始条件（通常是在 <img alt="t=0" eeimg="1" src="https://www.zhihu.com/equation?tex=t%3D0"/> 时的位置和速度），就能确定 <img alt="x(t)" eeimg="1" src="https://www.zhihu.com/equation?tex=x%28t%29"/> </p><p data-pid="i4aRxU64">而量子力学处理同一问题的方式截然不同。在这种情况下，我们要找的是粒子的波函数， <img alt="\Psi(x, t)" eeimg="1" src="https://www.zhihu.com/equation?tex=%5CPsi%28x%2C+t%29"/> ，我们通过求解薛定谔方程得到它：</p><p data-pid="4DSOQS33"><img alt=" i \hbar \frac{\partial \Psi}{\partial t}=-\frac{\hbar^2}{2 m} \frac{\partial^2 \Psi}{\partial x^2}+V \Psi " eeimg="1" src="https://www.zhihu.com/equation?tex=+i+%5Chbar+%5Cfrac%7B%5Cpartial+%5CPsi%7D%7B%5Cpartial+t%7D%3D-%5Cfrac%7B%5Chbar%5E2%7D%7B2+m%7D+%5Cfrac%7B%5Cpartial%5E2+%5CPsi%7D%7B%5Cpartial+x%5E2%7D%2BV+%5CPsi+"/> </p><p data-pid="l1MgQYn7">其中， <img alt="i" eeimg="1" src="https://www.zhihu.com/equation?tex=i"/> 是 -1 的平方根， <img alt="\hbar" eeimg="1" src="https://www.zhihu.com/equation?tex=%5Chbar"/> 是普朗克常数，或者更确切地说，是他的原始常数（ <img alt="h" eeimg="1" src="https://www.zhihu.com/equation?tex=h"/> ）除以 <img alt="2 \pi" eeimg="1" src="https://www.zhihu.com/equation?tex=2+%5Cpi"/> ：</p><p data-pid="_gK-AVpK"><img alt=" \hbar=\frac{h}{2 \pi}=1.054573 \times 10^{-34} \mathrm{~J} \mathrm{~s} " eeimg="1" src="https://www.zhihu.com/equation?tex=+%5Chbar%3D%5Cfrac%7Bh%7D%7B2+%5Cpi%7D%3D1.054573+%5Ctimes+10%5E%7B-34%7D+%5Cmathrm%7B~J%7D+%5Cmathrm%7B~s%7D+"/> </p><p data-pid="TtpC4RKW">薛定谔方程在逻辑上与牛顿第二定律的作用相似：给定适当的初始条件（通常是 <img alt="\Psi(x, 0)" eeimg="1" src="https://www.zhihu.com/equation?tex=%5CPsi%28x%2C+0%29"/> ），薛定谔方程就能确定未来所有时间的 <img alt="\Psi(x, t)" eeimg="1" src="https://www.zhihu.com/equation?tex=%5CPsi%28x%2C+t%29"/> ，就像在经典力学中，牛顿定律决定了未来所有时间的 <img alt="x(t)" eeimg="1" src="https://www.zhihu.com/equation?tex=x%28t%29"/> 。 <img alt="^2" eeimg="1" src="https://www.zhihu.com/equation?tex=%5E2"/> &lt;/context&gt;</p><p data-pid="8L-9boIG">&lt;target&gt;薛定谔方程在逻辑上与牛顿第二定律的作用相似&lt;/target&gt;</p><p data-pid="kTPOO7FF">&lt;hint&gt;怎样&lt;/hint&gt;</p><p data-pid="FiwO2UWH">有&lt;context&gt;：「<b>问题</b>：薛定谔方程在力学中作用，和牛顿第二定律有何相似之处？<b>答案</b>：只要有合适的初始条件，两者都可以确定系统在任何时间点的状态。」</p><p data-pid="guDOhVtE">没有：「薛定谔方程如何与牛顿第二定律相似呢？<b>答案</b>：薛定谔方程描述了量子状态随环境的演变，就如同牛顿第二定律描述了物体受力后的加速度变化。」</p><p data-pid="YMOLaW2J">前者更贴近原文的语境。</p><h2><br/>链接至本文（已汉化）</h2><ul><li data-pid="2c7QS6xy"><a class="internal" href="./656760808.html" rel="noopener noreferrer" target="_blank">GPT-4 在指导下，通常能够从解释性文本中为陈述性知识生成可用的间隔重复卡片</a></li><li data-pid="k0BwCBN_"><a class="internal" href="./716570823.html" rel="noopener noreferrer" target="_blank">叶峻峣：使用机器学习从解释性文本中生成优质的间隔重复卡片</a></li></ul><h2>声明</h2><p data-pid="a1kSLiu9">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="Uy-oUh0g"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4、校对 <span class="nolink">Jarrett</span>Ye<br/>原文：<a class="wrap external" href="https://notes.andymatuschak.org/z5LQFLXHFLrb4nYAtLrB3JBzNyJng8fYHVJYN" rel="nofollow noreferrer noopener" target="_blank">In prompt generation, LLMs may perform better with ample context (andymatuschak.org)</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 使用机器学习从解释性文本中生成优质的间隔重复卡片 <a href="./716570823.html" target="_blank" rel="noopener noreferrer">./716570823.html</a><br>2. 对于卡片生成任务，大型语言模型（LLM）经常需要额外的提示来确定强化的视角 <a href="./644435780.html" target="_blank" rel="noopener noreferrer">./644435780.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：间隔重复 & 注意力管理</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

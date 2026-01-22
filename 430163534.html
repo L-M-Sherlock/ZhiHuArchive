@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>常青笔记实现顺畅而渐进的写作（「渐进写作」） | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="常青笔记实现顺畅而渐进的写作（「渐进写作」） | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/430163534">
+<meta property="og:image" content="https://pic1.zhimg.com/v2-065ec86c1a9b8ddc8a7d72a5ac2fd34f_720w.jpg?source=172ae18b">
+<meta property="og:description" content="常青笔记是原子性的（ 常青笔记应该是原子化的 [1]），并含有大量链接（ 常青笔记之间应该建立大量链接 [2]），因此中止或者继续写作常青笔记都非常轻松。这有助于 闭合开环 [3]。这些笔记麻雀虽小五脏俱全，如同定期检查点。每篇笔记只需要几分钟的时间即可写就…">
+<meta name="description" content="常青笔记是原子性的（ 常青笔记应该是原子化的 [1]），并含有大量链接（ 常青笔记之间应该建立大量链接 [2]），因此中止或者继续写作常青笔记都非常轻松。这有助于 闭合开环 [3]。这些笔记麻雀虽小五脏俱全，如同定期检查点。每篇笔记只需要几分钟的时间即可写就…">
+<meta data-pagefind-meta="title" content="常青笔记实现顺畅而渐进的写作（「渐进写作」）">
+<meta data-pagefind-meta="image" content="https://pic1.zhimg.com/v2-065ec86c1a9b8ddc8a7d72a5ac2fd34f_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="常青笔记实现顺畅而渐进的写作（「渐进写作」） | ZhiHu Archive">
+<meta name="twitter:description" content="常青笔记是原子性的（ 常青笔记应该是原子化的 [1]），并含有大量链接（ 常青笔记之间应该建立大量链接 [2]），因此中止或者继续写作常青笔记都非常轻松。这有助于 闭合开环 [3]。这些笔记麻雀虽小五脏俱全，如同定期检查点。每篇笔记只需要几分钟的时间即可写就…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/430163534");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://pic1.zhimg.com/v2-065ec86c1a9b8ddc8a7d72a5ac2fd34f_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/430163534" target="_blank" rel="noopener noreferrer">常青笔记实现顺畅而渐进的写作（「渐进写作」）</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pic1.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2021-11-06T06:44:16">发表于 2021年11月06日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">19 👍 / 1 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="FkQOph6K">常青笔记是原子性的（<a class="wrap external" href="https://notes.andymatuschak.org/z4Rrmh17vMBbauEGnFPTZSK3UmdsGExLRfZz1" rel="nofollow noreferrer noopener" target="_blank">常青笔记应该是原子化的</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="常青笔记应该是原子化的" data-url="https://zhuanlan.zhihu.com/p/420726986">[1]</sup>），并含有大量链接（<a class="wrap external" href="https://notes.andymatuschak.org/z2HUE4ABbQjUNjrNemvkTCsLa1LPDRuwh1tXC" rel="nofollow noreferrer noopener" target="_blank">常青笔记之间应该建立大量链接</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="常青笔记之间应该建立大量链接" data-url="https://zhuanlan.zhihu.com/p/426450021">[2]</sup>），因此中止或者继续写作常青笔记都非常轻松。这有助于<a class="wrap external" href="https://notes.andymatuschak.org/z8d4eJNaKrVDGTFpqRnQUPRkexB7K6XbcffAV" rel="nofollow noreferrer noopener" target="_blank">闭合开环</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="闭合开环" data-url="https://zhuanlan.zhihu.com/p/441969379">[3]</sup>。</p><p data-pid="9hZhVre3">这些笔记麻雀虽小五脏俱全，如同定期检查点。每篇笔记只需要几分钟的时间即可写就，但是因为这些笔记是<a class="wrap external" href="https://notes.andymatuschak.org/z4SDCZQeRo4xFEQ8H4qrSqd68ucpgE6LU155C" rel="nofollow noreferrer noopener" target="_blank">常青笔记</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="常青笔记 (Evergreen notes)" data-url="https://zhuanlan.zhihu.com/p/416319260">[4]</sup>，每篇笔记都是可依赖的坚实砖石——笔记完备地表达了自身描述的概念（<a class="wrap external" href="https://notes.andymatuschak.org/z6bci25mVUBNFdVWSrQNKr6u7AZ1jFzfTVbMF" rel="nofollow noreferrer noopener" target="_blank">常青笔记应面向概念</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="5" data-text="常青笔记应面向概念" data-url="https://zhuanlan.zhihu.com/p/421580357">[5]</sup>）。当然，我们日后还会对笔记内容逐渐迭代完善，但每次迭代时，笔记仍将是一个基本完整、自成一体的单元。</p><p data-pid="sHB1p6mk">相比之下，当我们处理一份正在编写的长篇手稿时，我们要同时应付许多想法，这些想法完成度各不相同。这份文本在各个部分的完备程度都千差万别。同时文本很长，很容易迷失自己的位置，或者在继续工作时忘记其他相关点的位置。每天开始工作和结束工作都像是繁重的任务，都大量依赖工作记忆。</p><hr/><h2>参考文献</h2><p data-pid="7DEHo92u">Ahrens, S. (2017). <i>How to Take Smart Notes: One Simple Technique to Boost Writing, Learning and Thinking – for Students, Academics and Nonfiction Book Writers</i>.</p><blockquote data-pid="-f71SrQ_">因为每个任务的结果得到记录，它们之间可能存在的联系因而变得清晰可见，我们便可以很容易地随时接着上次停下的地方继续工作，而不必一直把它记在心里。<br/><br/>如此这般，我们不再需要记住还有什么事情没完成，也可以从上次停止的位置继续完成这项任务。这也正是通过写作思考的优势之一，即把所有事情置于思绪之外。<br/><br/>只有当工作记忆中没有任何其他东西萦绕不去而占用宝贵的精神资源，我们才能体验到艾伦所说的「心灵若水」——在这种状态下，我们可以专注于眼前的工作，而不会被其他想法分散注意力。</blockquote><p data-pid="q5zghUu0">Wozniak, P. (2018, June 9). Incremental writing. Retrieved December 30, 2019, from <a class="external" href="https://supermemo.guru/wiki/Incremental_writing" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">https://</span><span class="visible">supermemo.guru/wiki/Inc</span><span class="invisible">remental_writing</span><span class="ellipsis"></span></a><sup data-draft-node="inline" data-draft-type="reference" data-numero="6" data-text="渐进写作" data-url="https://www.yuque.com/supermemo/wiki/incremental_writing">[6]</sup></p><p data-pid="Fen6K2UP"><a class="wrap external" href="https://twitter.com/andy_matuschak/status/1271997374756315142" rel="nofollow noreferrer noopener" target="_blank">hak/status/1271997374756315142</a></p><h2>链接至本文（已汉化）</h2><ul><li data-pid="J8P_TEIP"><a class="internal" href="./501187896.html" rel="noopener noreferrer" target="_blank">§收件箱与注意力管理</a></li><li data-pid="Esib_SyK"><a class="internal" href="./426450021.html" rel="noopener noreferrer" target="_blank">常青笔记之间应该建立大量链接</a></li><li data-pid="R4A27fRk"><a class="internal" href="./422262632.html" rel="noopener noreferrer" target="_blank">笔记标题建议使用完整的句子，避免模糊主张</a></li><li data-pid="6-3AVqTl"><a class="internal" href="./440755692.html" rel="noopener noreferrer" target="_blank">可执行的写作策略</a></li><li data-pid="S4FoQgsn"><a class="internal" href="./446019403.html" rel="noopener noreferrer" target="_blank">默认不考虑读者，只为自己写笔记</a></li><li data-pid="Sl_qfTNz"><a class="internal" href="https://zhuanlan.zhihu.com/p/448897897?" rel="noopener noreferrer" target="_blank">常青笔记有助于积累洞见</a></li><li data-pid="U2IQrXFn"><a class="internal" href="./609604620.html" rel="noopener noreferrer" target="_blank">卡片笔记写作法 - Ahrens</a></li></ul><h2>声明</h2><p data-pid="b3R0bA4p">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="vSYsWg1r"><a class="wrap external" href="https://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>原文：<a class="wrap external" href="https://notes.andymatuschak.org/z6C5H4eYH2A4omfNLuUcDiKibQ1hZG2RGNZ97" rel="nofollow noreferrer noopener" target="_blank">Evergreen notes permit smooth incremental progress in writing (“incremental writing”) (andymatuschak.org)</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 常青笔记应该是原子化的 <a href="./420726986.html" target="_blank" rel="noopener noreferrer">./420726986.html</a><br>2. 常青笔记之间应该建立大量链接 <a href="./426450021.html" target="_blank" rel="noopener noreferrer">./426450021.html</a><br>3. 闭合开环 <a href="./441969379.html" target="_blank" rel="noopener noreferrer">./441969379.html</a><br>4. 常青笔记 (Evergreen notes) <a href="./416319260.html" target="_blank" rel="noopener noreferrer">./416319260.html</a><br>5. 常青笔记应面向概念 <a href="./421580357.html" target="_blank" rel="noopener noreferrer">./421580357.html</a><br>6. 渐进写作 <a href="https://www.yuque.com/supermemo/wiki/incremental_writing" target="_blank" rel="noopener noreferrer">https://www.yuque.com/supermemo/wiki/incremental_writing</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：常青笔记 & 知识工作</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

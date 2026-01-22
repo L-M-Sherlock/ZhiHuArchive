@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>缓存思想 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="缓存思想 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/1927818329978013693">
+<meta property="og:image" content="https://pic1.zhimg.com/v2-7e4978f22b8144448e26462c3f6563d7_720w.jpg?source=172ae18b">
+<meta property="og:description" content="关于人脑，最大的谜团之一莫过于：当大多数神经元每秒仅放电 10 到 20 次（最高不过 200Hz）时，这该死的玩意儿 究竟 是如何运作的？在神经科学领域，有一条「百步法则」，即任何假定的认知操作都必须在 至多 100 个连续步骤内完成——你可以随心所欲地进行并…">
+<meta name="description" content="关于人脑，最大的谜团之一莫过于：当大多数神经元每秒仅放电 10 到 20 次（最高不过 200Hz）时，这该死的玩意儿 究竟 是如何运作的？在神经科学领域，有一条「百步法则」，即任何假定的认知操作都必须在 至多 100 个连续步骤内完成——你可以随心所欲地进行并…">
+<meta data-pagefind-meta="title" content="缓存思想">
+<meta data-pagefind-meta="image" content="https://pic1.zhimg.com/v2-7e4978f22b8144448e26462c3f6563d7_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="缓存思想 | ZhiHu Archive">
+<meta name="twitter:description" content="关于人脑，最大的谜团之一莫过于：当大多数神经元每秒仅放电 10 到 20 次（最高不过 200Hz）时，这该死的玩意儿 究竟 是如何运作的？在神经科学领域，有一条「百步法则」，即任何假定的认知操作都必须在 至多 100 个连续步骤内完成——你可以随心所欲地进行并…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/1927818329978013693");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://pic1.zhimg.com/v2-7e4978f22b8144448e26462c3f6563d7_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/1927818329978013693" target="_blank" rel="noopener noreferrer">缓存思想</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2025-07-14T01:31:49">发表于 2025年07月14日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">320 👍 / 47 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="oqCiINAW">关于人脑，最大的谜团之一莫过于：当大多数神经元每秒仅放电 10 到 20 次（最高不过 200Hz）时，这该死的玩意儿<b>究竟</b>是如何运作的？在神经科学领域，有一条「百步法则」，即任何假定的认知操作都必须在<b>至多</b> 100 个连续步骤内完成——你可以随心所欲地进行并行处理，但你设想的、前后相继的神经脉冲不能超过 100 个（最好更少）。</p><p data-pid="DxAlxERZ">你能想象用一堆 100Hz 的 CPU 来编程吗，无论你有多少个？你恐怕需要上千亿个处理器才能实时完成<b>任何</b>事情。</p><p data-pid="NtzHeRuE">如果你真的需要为一千亿个 100Hz 的处理器编写实时程序，那么有一个技巧你肯定会尽可能地重度使用，那就是「缓存」。所谓缓存，就是存储先前操作的结果，在下次需要时直接查找调用，而不是从头开始重新计算。这是一种非常<b>符合神经运作模式</b>的机制——识别、联想、补全模式。</p><p data-pid="KP038qwK">可以大胆猜测，人类认知的绝<b>大多数</b>过程，其实就是缓存查找。</p><p data-pid="kipy7iJ7">这个念头确实时常在我脑海中闪过。</p><p data-pid="ae8H5iV9">曾经有一个极具启发性的故事，我本以为自己收藏了，却再也找不到了：故事讲的是一个男人，他那位自诩无所不知的邻居曾随口提及，拆除自家烟囱的最佳方法是先敲掉壁炉，等上面的砖块掉落一层后，再敲掉那些砖块，如此反复，直到整个烟囱消失。多年后，当这个男人想要拆除自家烟囱时，这个缓存思想像个幽灵一样潜伏着，伺机而动……</p><p data-pid="6AjhWsm5">正如这位男士事后所言——你可以猜到，事情的结局并不美妙——他的邻居在这些事情上并非特别懂行，算不上可靠的信息来源。如果他当初<b>质疑</b>过这个想法，他或许就能意识到这是个馊主意。有些缓存的「命中」，我们最好还是重新计算一番。但大脑会自动补全模式——如果你没有有意识地察觉到这个模式需要修正，那么你得到的就只是一个被补全了的模式。</p><p data-pid="25DNCmLP">我猜想，如果这个主意是那个男人自己想出来的——如果他<b>本人</b>灵光一闪想到了这个拆烟囱的妙招——他或许会更批判地审视它。但是，如果<b>别人</b>已经把一个想法琢磨透了，你就可以通过缓存他们的<b>结论</b>来节省算力——对吧？</p><p data-pid="rys_ivGd">尤其是在现代文明中，没有人能思考得足够快，以至于所有思想都源于自身。如果我还是个婴儿时就被遗弃在森林里，由狼群或沉默的机器人抚养长大，我恐怕都很难被辨认为人类。没有人能思考得足够快，以至于能在一生之内，从零开始，将一个狩猎采集部落的全部智慧融会贯通。至于一个拥有文字记载的文明所积累的智慧，那就更别提了。</p><p data-pid="WGv-F6b8">然而，与此相伴的另一面是，我时常看到一些自诩追求批判性思维的人，却在重复着那些并非出自批判性思考者之手的缓存思想。</p><p data-pid="u-R1ndNB">一个很好的例子是，有些怀疑论者会承认：「嗯，你无法用事实证据来证明或证伪一个宗教。」<a class="wrap external" href="https://www.readthesequences.com/Religions-Claim-To-Be-Non-Disprovable" rel="nofollow noreferrer noopener" target="_blank">正如我在别处指出的</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="宗教声称自己不可证伪" data-url="https://hpmor.xyz/ai2zb_16/">[1]</sup>，从概率论的角度来看，这根本就是错误的。而且，相对于宗教在现实中的心理作用而言，它也同样是错误的——几个世纪前，说这种话可是会被送上火刑柱的。一位女儿身患癌症的母亲会祈祷：「上帝啊，求求您治好我的女儿吧，」而不是：「亲爱的上帝，我知道宗教是不允许有任何可被证伪的结果的，这意味着您根本不可能治好我的女儿，所以……嗯，基本上，我祈祷只是为了让自己感觉好受些，而不是去做些能真正帮到我女儿的事情。」</p><p data-pid="kvRKxM2Y">但是人们读到「你无法用事实证据来证明或证伪一个宗教」这句话，然后，当他们下一次看到某个反驳某种宗教的证据时，他们的大脑便自动补全了这个模式。甚至一些无神论者也会毫不犹豫地重复这种荒谬之言。如果这个想法是他们自己想出来的，而不是道听途说来的，他们或许会更加审慎。</p><p data-pid="klBe673w">死亡。补全这个模式：「死亡赋予生命意义。」</p><p data-pid="rqTkv1JH">这真令人沮丧，当你和那些善良正派的人们——那些一千年也绝不会<b>自发地</b>想到要毁灭人类的人——谈论起关乎人类存亡的风险时，却听到他们说：「嗯，也许人类这个物种不配生存下去。」他们一千年也绝不会开枪射杀自己的孩子（孩子也是人类的一份子），但他们的大脑却补全了这个模式。</p><p data-pid="FEx6R4lV">在你的脑海中，有哪些模式正在被补全，而那些模式并非你主动选择的结果？</p><p data-pid="F1MAM05F">理性。补全这个模式：「爱是非理性的。」</p><p data-pid="nNnJusbV">如果这个想法是你个人突然想到的，一个全新的思想，你会如何批判地审视它？我知道<b>我</b>会<a class="wrap external" href="https://www.readthesequences.com/Feeling-Rational" rel="nofollow noreferrer noopener" target="_blank">怎么说</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="感受理性" data-url="https://hpmor.xyz/ai2zb_2/">[2]</sup>，但<b>你</b>呢？要用全新的眼光看待事物可能很难。试着别让你的大脑以那种标准的、毫无新意的、早已熟知的方式去补全模式。或许标准答案就是最佳答案，但除非你能阻止大脑自动填充答案，否则你根本无法真正<b>思考</b>这个答案。</p><p data-pid="dFxML_ob">既然你读了这篇文章，下次当你听到有人毫不犹豫地复述某个你认为愚蠢或错误的「梗」时，你便会想到：「缓存思想。」我的这个信念此刻已植入你的脑海，等待着补全某个模式。但它本身是正确的吗？别让你的大脑补全模式！去<b>思考</b>！</p><hr/><p data-pid="ENv7BISR">上一篇：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" href="./1925574522058301705.html" rel="noopener noreferrer" target="_blank">我们会相信自己看到的一切吗？</a><p data-pid="NOmxw7AE">下一篇：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" href="./1929866074574288391.html" rel="noopener noreferrer" target="_blank">「跳出思维定式」的思维定式</a><hr/><blockquote data-pid="eErXtx1B"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class="nolink">gemini-2.5-pro-exp</span>，校对 Jarrett Ye<br/>原文：<a class="wrap external" href="https://www.readthesequences.com/Cached-Thoughts" rel="nofollow noreferrer noopener" target="_blank">Cached Thoughts</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 宗教声称自己不可证伪 <a href="https://hpmor.xyz/ai2zb_16/" target="_blank" rel="noopener noreferrer">https://hpmor.xyz/ai2zb_16/</a><br>2. 感受理性 <a href="https://hpmor.xyz/ai2zb_2/" target="_blank" rel="noopener noreferrer">https://hpmor.xyz/ai2zb_2/</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：理性 & 克服偏见</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

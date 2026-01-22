@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>Github上有哪些Rust写的知名项目？ - @Thoughts Memo | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Github上有哪些Rust写的知名项目？ - @Thoughts Memo | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="Anki（一款开源的间隔重复软件）大概算半个吧： [图片] 语言成分极其复杂（Rust 和 Python 加起来占了四分之三以上）： [图片] 以前的主体是 PyQt，现在已经将大部分底层代码用 Rust 重写了。 拜它所赐，我本来一个臭写 Python 的，现在天天被 Rust 精神注入。 不过还好有 GPT-4，可以帮我写 Rust 代码，而且效果还不错： [图片] [图片] [图片] 一个晚上就写完了从 Anki 的 sqlite 数据库构建 FSRS 数据集的代码： [图片] use chrono::prelude::*; use chrono_tz::Tz; use r…">
+<meta property="og:url" content="https://www.zhihu.com/question/512163948/answer/3174376277">
+<meta name="description" content="Anki（一款开源的间隔重复软件）大概算半个吧： [图片] 语言成分极其复杂（Rust 和 Python 加起来占了四分之三以上）： [图片] 以前的主体是 PyQt，现在已经将大部分底层代码用 Rust 重写了。 拜它所赐，我本来一个臭写 Python 的，现在天天被 Rust 精神注入。 不过还好有 GPT-4，可以帮我写 Rust 代码，而且效果还不错： [图片] [图片] [图片] 一个晚上就写完了从 Anki 的 sqlite 数据库构建 FSRS 数据集的代码： [图片] use chrono::prelude::*; use chrono_tz::Tz; use r…">
+<meta data-pagefind-meta="title" content="Github上有哪些Rust写的知名项目？">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="Github上有哪些Rust写的知名项目？ - @Thoughts Memo | ZhiHu Archive">
+<meta name="twitter:description" content="Anki（一款开源的间隔重复软件）大概算半个吧： [图片] 语言成分极其复杂（Rust 和 Python 加起来占了四分之三以上）： [图片] 以前的主体是 PyQt，现在已经将大部分底层代码用 Rust 重写了。 拜它所赐，我本来一个臭写 Python 的，现在天天被 Rust 精神注入。 不过还好有 GPT-4，可以帮我写 Rust 代码，而且效果还不错： [图片] [图片] [图片] 一个晚上就写完了从 Anki 的 sqlite 数据库构建 FSRS 数据集的代码： [图片] use chrono::prelude::*; use chrono_tz::Tz; use r…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/512163948/answer/3174376277");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/512163948/answer/3174376277" target="_blank" rel="noopener noreferrer">Github上有哪些Rust写的知名项目？</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2023-08-20T09:21:44">发表于 2023年08月20日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">196 👍 / 23 💬</p>
+</header>
+<article data-pagefind-body>
+
+<p data-pid="hnIBpPBv">Anki（一款开源的间隔重复软件）大概算半个吧：</p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://pic1.zhimg.com/50/v2-48dd2b4504013f93fd5f6395a26386ce_720w.jpg?source=2c26e567" data-original="https://pic1.zhimg.com/v2-d13632ee8b2382afeaeff61ea471a691_r.jpg?source=2c26e567" data-original-token="v2-d13632ee8b2382afeaeff61ea471a691" data-rawheight="499" data-rawwidth="880" data-size="normal" src="https://picx.zhimg.com/50/v2-d13632ee8b2382afeaeff61ea471a691_720w.jpg?source=2c26e567" width="880"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://pic1.zhimg.com/50/v2-48dd2b4504013f93fd5f6395a26386ce_720w.jpg?source=2c26e567" data-original="https://pic1.zhimg.com/v2-d13632ee8b2382afeaeff61ea471a691_r.jpg?source=2c26e567" data-original-token="v2-d13632ee8b2382afeaeff61ea471a691" data-rawheight="499" data-rawwidth="880" data-size="normal" src="https://picx.zhimg.com/50/v2-d13632ee8b2382afeaeff61ea471a691_720w.jpg?source=2c26e567" width="880"/></figure><p data-pid="7iiBhNet">语言成分极其复杂（Rust 和 Python 加起来占了四分之三以上）：</p><figure data-size="normal"><noscript><img class="content_image" data-caption="" data-default-watermark-src="https://pica.zhimg.com/50/v2-5875e1afa43daf199c497988719b649f_720w.jpg?source=2c26e567" data-original-token="v2-72700e657aab48dba58d6c7d159b16a5" data-rawheight="377" data-rawwidth="337" data-size="normal" src="https://picx.zhimg.com/50/v2-72700e657aab48dba58d6c7d159b16a5_720w.jpg?source=2c26e567" width="337"/></noscript><img class="content_image lazy" data-caption="" data-default-watermark-src="https://pica.zhimg.com/50/v2-5875e1afa43daf199c497988719b649f_720w.jpg?source=2c26e567" data-original-token="v2-72700e657aab48dba58d6c7d159b16a5" data-rawheight="377" data-rawwidth="337" data-size="normal" src="https://picx.zhimg.com/50/v2-72700e657aab48dba58d6c7d159b16a5_720w.jpg?source=2c26e567" width="337"/></figure><p data-pid="1mkRwrya">以前的主体是 PyQt，现在已经将大部分底层代码用 Rust 重写了。</p><p data-pid="hw0FOYp3">拜它所赐，我本来一个臭写 Python 的，现在天天被 Rust 精神注入。</p><p data-pid="FeLBBU29">不过还好有 GPT-4，可以帮我写 Rust 代码，而且效果还不错：</p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://pica.zhimg.com/50/v2-68976a0438f157750911c44d08518c42_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-fd2a09f165e1592f0706e9f41e4792c2_r.jpg?source=2c26e567" data-original-token="v2-fd2a09f165e1592f0706e9f41e4792c2" data-rawheight="613" data-rawwidth="922" data-size="normal" src="https://picx.zhimg.com/50/v2-fd2a09f165e1592f0706e9f41e4792c2_720w.jpg?source=2c26e567" width="922"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://pica.zhimg.com/50/v2-68976a0438f157750911c44d08518c42_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-fd2a09f165e1592f0706e9f41e4792c2_r.jpg?source=2c26e567" data-original-token="v2-fd2a09f165e1592f0706e9f41e4792c2" data-rawheight="613" data-rawwidth="922" data-size="normal" src="https://picx.zhimg.com/50/v2-fd2a09f165e1592f0706e9f41e4792c2_720w.jpg?source=2c26e567" width="922"/></figure><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://pic1.zhimg.com/50/v2-10893eb2cf3047432cedeac976d424e0_720w.jpg?source=2c26e567" data-original="https://pic1.zhimg.com/v2-e1c6d8710415475bf8678c8227138798_r.jpg?source=2c26e567" data-original-token="v2-e1c6d8710415475bf8678c8227138798" data-rawheight="539" data-rawwidth="751" data-size="normal" src="https://pica.zhimg.com/50/v2-e1c6d8710415475bf8678c8227138798_720w.jpg?source=2c26e567" width="751"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://pic1.zhimg.com/50/v2-10893eb2cf3047432cedeac976d424e0_720w.jpg?source=2c26e567" data-original="https://pic1.zhimg.com/v2-e1c6d8710415475bf8678c8227138798_r.jpg?source=2c26e567" data-original-token="v2-e1c6d8710415475bf8678c8227138798" data-rawheight="539" data-rawwidth="751" data-size="normal" src="https://pica.zhimg.com/50/v2-e1c6d8710415475bf8678c8227138798_720w.jpg?source=2c26e567" width="751"/></figure><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-d06455b42fcfc149a2a3de54ffdd3fc0_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-c237965a0b95a0c3474d268e6d24809b_r.jpg?source=2c26e567" data-original-token="v2-c237965a0b95a0c3474d268e6d24809b" data-rawheight="498" data-rawwidth="751" data-size="normal" src="https://picx.zhimg.com/50/v2-c237965a0b95a0c3474d268e6d24809b_720w.jpg?source=2c26e567" width="751"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://picx.zhimg.com/50/v2-d06455b42fcfc149a2a3de54ffdd3fc0_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-c237965a0b95a0c3474d268e6d24809b_r.jpg?source=2c26e567" data-original-token="v2-c237965a0b95a0c3474d268e6d24809b" data-rawheight="498" data-rawwidth="751" data-size="normal" src="https://picx.zhimg.com/50/v2-c237965a0b95a0c3474d268e6d24809b_720w.jpg?source=2c26e567" width="751"/></figure><p data-pid="NxQWs3Dy">一个晚上就写完了从 Anki 的 sqlite 数据库构建 FSRS 数据集的代码：</p><figure data-size="normal"><noscript><img class="origin_image zh-lightbox-thumb" data-caption="" data-default-watermark-src="https://pic1.zhimg.com/50/v2-05685a65cac0f999bd4be68f918b4c57_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-f58256354e174c24245a859d4dfdcbc0_r.jpg?source=2c26e567" data-original-token="v2-f58256354e174c24245a859d4dfdcbc0" data-rawheight="404" data-rawwidth="1301" data-size="normal" src="https://picx.zhimg.com/50/v2-f58256354e174c24245a859d4dfdcbc0_720w.jpg?source=2c26e567" width="1301"/></noscript><img class="origin_image zh-lightbox-thumb lazy" data-caption="" data-default-watermark-src="https://pic1.zhimg.com/50/v2-05685a65cac0f999bd4be68f918b4c57_720w.jpg?source=2c26e567" data-original="https://picx.zhimg.com/v2-f58256354e174c24245a859d4dfdcbc0_r.jpg?source=2c26e567" data-original-token="v2-f58256354e174c24245a859d4dfdcbc0" data-rawheight="404" data-rawwidth="1301" data-size="normal" src="https://picx.zhimg.com/50/v2-f58256354e174c24245a859d4dfdcbc0_720w.jpg?source=2c26e567" width="1301"/></figure><div class="highlight"><pre><code class="language-rust"><span class="k">use</span><span class="w"> </span><span class="n">chrono</span>::<span class="n">prelude</span>::<span class="o">*</span><span class="p">;</span><span class="w">
+</span><span class="w"></span><span class="k">use</span><span class="w"> </span><span class="n">chrono_tz</span>::<span class="n">Tz</span><span class="p">;</span><span class="w">
+</span><span class="w"></span><span class="k">use</span><span class="w"> </span><span class="n">rusqlite</span>::<span class="p">{</span><span class="n">Connection</span><span class="p">,</span><span class="w"> </span><span class="nb">Result</span><span class="p">,</span><span class="w"> </span><span class="n">Row</span><span class="p">};</span><span class="w">
+</span><span class="w"></span><span class="k">use</span><span class="w"> </span><span class="n">std</span>::<span class="n">collections</span>::<span class="n">HashMap</span><span class="p">;</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">use</span><span class="w"> </span><span class="k">crate</span>::<span class="n">dataset</span>::<span class="n">FSRSItem</span><span class="p">;</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="cp">#[derive(Debug)]</span><span class="w">
+</span><span class="w"></span><span class="k">struct</span> <span class="nc">RevlogEntry</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="n">id</span>: <span class="kt">i64</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">cid</span>: <span class="kt">i64</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">usn</span>: <span class="kt">i64</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">button_chosen</span>: <span class="kt">i32</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">interval</span>: <span class="kt">i64</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">last_interval</span>: <span class="kt">i64</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">ease_factor</span>: <span class="kt">i64</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">taken_millis</span>: <span class="kt">i64</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">review_kind</span>: <span class="kt">i64</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">delta_t</span>: <span class="kt">i32</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">i</span>: <span class="kt">usize</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">r_history</span>: <span class="nb">Vec</span><span class="o">&lt;</span><span class="kt">i32</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">t_history</span>: <span class="nb">Vec</span><span class="o">&lt;</span><span class="kt">i32</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">fn</span> <span class="nf">row_to_revlog_entry</span><span class="p">(</span><span class="n">row</span>: <span class="kp">&amp;</span><span class="nc">Row</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nb">Result</span><span class="o">&lt;</span><span class="n">RevlogEntry</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="nb">Ok</span><span class="p">(</span><span class="n">RevlogEntry</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="n">id</span>: <span class="nc">row</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">?</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">cid</span>: <span class="nc">row</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span><span class="o">?</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">usn</span>: <span class="nc">row</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span><span class="o">?</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">button_chosen</span>: <span class="nc">row</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span><span class="o">?</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">interval</span>: <span class="nc">row</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span><span class="o">?</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">last_interval</span>: <span class="nc">row</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span><span class="o">?</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">ease_factor</span>: <span class="nc">row</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span><span class="o">?</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">taken_millis</span>: <span class="nc">row</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="mi">7</span><span class="p">).</span><span class="n">unwrap_or_default</span><span class="p">(),</span><span class="w">
+</span><span class="w"></span><span class="n">review_kind</span>: <span class="nc">row</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="mi">8</span><span class="p">).</span><span class="n">unwrap_or_default</span><span class="p">(),</span><span class="w">
+</span><span class="w"></span><span class="n">delta_t</span>: <span class="mi">0</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">i</span>: <span class="mi">0</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">r_history</span>: <span class="nc">vec</span><span class="o">!</span><span class="p">[],</span><span class="w">
+</span><span class="w"></span><span class="n">t_history</span>: <span class="nc">vec</span><span class="o">!</span><span class="p">[],</span><span class="w">
+</span><span class="w"></span><span class="p">})</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">fn</span> <span class="nf">read_collection</span><span class="p">()</span><span class="w"> </span>-&gt; <span class="nb">Vec</span><span class="o">&lt;</span><span class="n">RevlogEntry</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">db</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Connection</span>::<span class="n">open</span><span class="p">(</span><span class="s">"tests/data/collection.anki21"</span><span class="p">).</span><span class="n">unwrap</span><span class="p">();</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">filter_out_suspended_cards</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">false</span><span class="p">;</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">filter_out_flags</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">vec</span><span class="o">!</span><span class="p">[];</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">flags_str</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="o">!</span><span class="n">filter_out_flags</span><span class="p">.</span><span class="n">is_empty</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="n">format</span><span class="o">!</span><span class="p">(</span><span class="w">
+</span><span class="w"></span><span class="s">"AND flags NOT IN ({})"</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">filter_out_flags</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">iter</span><span class="p">()</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">map</span><span class="p">(</span><span class="o">|</span><span class="n">x</span>: <span class="kp">&amp;</span><span class="kt">i32</span><span class="o">|</span><span class="w"> </span><span class="n">x</span><span class="p">.</span><span class="n">to_string</span><span class="p">())</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">collect</span>::<span class="o">&lt;</span><span class="nb">Vec</span><span class="o">&lt;</span><span class="nb">String</span><span class="o">&gt;&gt;</span><span class="p">()</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="s">", "</span><span class="p">)</span><span class="w">
+</span><span class="w"></span><span class="p">)</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="s">""</span><span class="p">.</span><span class="n">to_string</span><span class="p">()</span><span class="w">
+</span><span class="w"></span><span class="p">};</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">suspended_cards_str</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">filter_out_suspended_cards</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="s">"AND queue != -1"</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="s">""</span><span class="w">
+</span><span class="w"></span><span class="p">};</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">current_timestamp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Utc</span>::<span class="n">now</span><span class="p">().</span><span class="n">timestamp</span><span class="p">()</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">1000</span><span class="p">;</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">query</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">format</span><span class="o">!</span><span class="p">(</span><span class="w">
+</span><span class="w"></span><span class="err">"</span><span class="n">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> 
+</span><span class="w"> </span><span class="n">FROM</span><span class="w"> </span><span class="n">revlog</span><span class="w"> 
+</span><span class="w"> </span><span class="n">WHERE</span><span class="w"> </span><span class="p">(</span><span class="k">type</span> <span class="o">!=</span><span class="w"> </span><span class="mi">4</span><span class="w"> </span><span class="n">OR</span><span class="w"> </span><span class="n">ivl</span><span class="w"> </span><span class="o">&lt;=</span><span class="w"> </span><span class="mi">0</span><span class="p">)</span><span class="w">
+</span><span class="w"> </span><span class="n">AND</span><span class="w"> </span><span class="n">id</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="p">{}</span><span class="w">
+</span><span class="w"> </span><span class="n">AND</span><span class="w"> </span><span class="n">cid</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="p">{}</span><span class="w">
+</span><span class="w"> </span><span class="n">AND</span><span class="w"> </span><span class="n">cid</span><span class="w"> </span><span class="n">IN</span><span class="w"> </span><span class="p">(</span><span class="w">
+</span><span class="w"> </span><span class="n">SELECT</span><span class="w"> </span><span class="n">id</span><span class="w">
+</span><span class="w"> </span><span class="n">FROM</span><span class="w"> </span><span class="n">cards</span><span class="w">
+</span><span class="w"> </span><span class="n">WHERE</span><span class="w"> </span><span class="n">queue</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="mi">0</span><span class="w">
+</span><span class="w"> </span><span class="p">{}</span><span class="w">
+</span><span class="w"> </span><span class="p">{}</span><span class="w">
+</span><span class="w"> </span><span class="p">)</span><span class="err">"</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">current_timestamp</span><span class="p">,</span><span class="w"> </span><span class="n">current_timestamp</span><span class="p">,</span><span class="w"> </span><span class="n">suspended_cards_str</span><span class="p">,</span><span class="w"> </span><span class="n">flags_str</span><span class="w">
+</span><span class="w"></span><span class="p">);</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">revlogs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">db</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">prepare_cached</span><span class="p">(</span><span class="o">&amp;</span><span class="n">query</span><span class="p">)</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">unwrap</span><span class="p">()</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">query_and_then</span><span class="p">([],</span><span class="w"> </span><span class="n">row_to_revlog_entry</span><span class="p">)</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">unwrap</span><span class="p">()</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">collect</span>::<span class="o">&lt;</span><span class="nb">Result</span><span class="o">&lt;</span><span class="nb">Vec</span><span class="o">&lt;</span><span class="n">RevlogEntry</span><span class="o">&gt;&gt;&gt;</span><span class="p">()</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">unwrap</span><span class="p">();</span><span class="w">
+</span><span class="w"></span><span class="n">revlogs</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">fn</span> <span class="nf">group_by_cid</span><span class="p">(</span><span class="n">revlogs</span>: <span class="nb">Vec</span><span class="o">&lt;</span><span class="n">RevlogEntry</span><span class="o">&gt;</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nb">Vec</span><span class="o">&lt;</span><span class="nb">Vec</span><span class="o">&lt;</span><span class="n">RevlogEntry</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">grouped</span>: <span class="nc">HashMap</span><span class="o">&lt;</span><span class="kt">i64</span><span class="p">,</span><span class="w"> </span><span class="nb">Vec</span><span class="o">&lt;</span><span class="n">RevlogEntry</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">HashMap</span>::<span class="n">new</span><span class="p">();</span><span class="w">
+</span><span class="w"></span><span class="k">for</span><span class="w"> </span><span class="n">revlog</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">revlogs</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="n">grouped</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">entry</span><span class="p">(</span><span class="n">revlog</span><span class="p">.</span><span class="n">cid</span><span class="p">)</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">or_insert_with</span><span class="p">(</span><span class="nb">Vec</span>::<span class="n">new</span><span class="p">)</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">push</span><span class="p">(</span><span class="n">revlog</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="n">grouped</span><span class="p">.</span><span class="n">into_iter</span><span class="p">().</span><span class="n">map</span><span class="p">(</span><span class="o">|</span><span class="p">(</span><span class="n">_</span><span class="p">,</span><span class="w"> </span><span class="n">v</span><span class="p">)</span><span class="o">|</span><span class="w"> </span><span class="n">v</span><span class="p">).</span><span class="n">collect</span><span class="p">()</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">fn</span> <span class="nf">convert_to_date</span><span class="p">(</span><span class="n">timestamp</span>: <span class="kt">i64</span><span class="p">,</span><span class="w"> </span><span class="n">next_day_starts_at</span>: <span class="kt">i64</span><span class="p">,</span><span class="w"> </span><span class="n">timezone</span>: <span class="nc">Tz</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nc">chrono</span>::<span class="n">NaiveDate</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">timestamp_seconds</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">timestamp</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">next_day_starts_at</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">3600</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">1000</span><span class="p">;</span><span class="w"> </span><span class="c1">// 剪去指定小时数
+</span><span class="c1"></span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">datetime</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Utc</span><span class="p">.</span><span class="n">timestamp_millis_opt</span><span class="p">(</span><span class="n">timestamp_seconds</span><span class="p">).</span><span class="n">unwrap</span><span class="p">().</span><span class="n">with_timezone</span><span class="p">(</span><span class="o">&amp;</span><span class="n">timezone</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="n">datetime</span><span class="p">.</span><span class="n">date_naive</span><span class="p">()</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">fn</span> <span class="nf">extract_time_series_feature</span><span class="p">(</span><span class="k">mut</span><span class="w"> </span><span class="n">entries</span>: <span class="nb">Vec</span><span class="o">&lt;</span><span class="n">RevlogEntry</span><span class="o">&gt;</span><span class="p">,</span><span class="w"> </span><span class="n">next_day_starts_at</span>: <span class="kt">i64</span><span class="p">,</span><span class="w"> </span><span class="n">timezone</span>: <span class="nc">Tz</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nb">Vec</span><span class="o">&lt;</span><span class="n">RevlogEntry</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="c1">// 寻找最后一组连续 review_kind = 0 的第一个 RevlogEntry 的索引
+</span><span class="c1"></span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">index_to_keep</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">0</span><span class="p">;</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">entries</span><span class="p">.</span><span class="n">len</span><span class="p">();</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">while</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="n">i</span><span class="w"> </span><span class="o">-=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w">
+</span><span class="w"></span><span class="k">if</span><span class="w"> </span><span class="n">entries</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">review_kind</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="n">index_to_keep</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="p">;</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="n">index_to_keep</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="k">break</span><span class="p">;</span><span class="w"> </span><span class="c1">// 找到了连续的 review_kind = 0 的组，退出循环
+</span><span class="c1"></span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="c1">// 删除此 RevlogEntry 之前的所有条目
+</span><span class="c1"></span><span class="w"></span><span class="n">entries</span><span class="p">.</span><span class="n">drain</span><span class="p">(..</span><span class="n">index_to_keep</span><span class="p">);</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="c1">// 去掉 review_kind = 4 的 RevlogEntry
+</span><span class="c1"></span><span class="w"></span><span class="n">entries</span><span class="p">.</span><span class="n">retain</span><span class="p">(</span><span class="o">|</span><span class="n">entry</span><span class="o">|</span><span class="w"> </span><span class="n">entry</span><span class="p">.</span><span class="n">review_kind</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="mi">4</span><span class="p">);</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="c1">// 去掉 review_kind = 3 且 ease_factor = 0 的 RevlogEntry
+</span><span class="c1"></span><span class="w"></span><span class="n">entries</span><span class="p">.</span><span class="n">retain</span><span class="p">(</span><span class="o">|</span><span class="n">entry</span><span class="o">|</span><span class="w"> </span><span class="n">entry</span><span class="p">.</span><span class="n">review_kind</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">entry</span><span class="p">.</span><span class="n">ease_factor</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="c1">// 将所有 review_kind + 1
+</span><span class="c1"></span><span class="w"></span><span class="k">for</span><span class="w"> </span><span class="n">entry</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="o">&amp;</span><span class="k">mut</span><span class="w"> </span><span class="n">entries</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="n">entry</span><span class="p">.</span><span class="n">review_kind</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="c1">// 转换时间戳并保留每个日期的第一个 RevlogEntry
+</span><span class="c1"></span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">unique_dates</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">std</span>::<span class="n">collections</span>::<span class="n">HashSet</span>::<span class="n">new</span><span class="p">();</span><span class="w">
+</span><span class="w"></span><span class="n">entries</span><span class="p">.</span><span class="n">retain</span><span class="p">(</span><span class="o">|</span><span class="n">entry</span><span class="o">|</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">date</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">convert_to_date</span><span class="p">(</span><span class="n">entry</span><span class="p">.</span><span class="n">id</span><span class="p">,</span><span class="w"> </span><span class="n">next_day_starts_at</span><span class="p">,</span><span class="w"> </span><span class="n">timezone</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="n">unique_dates</span><span class="p">.</span><span class="n">insert</span><span class="p">(</span><span class="n">date</span><span class="p">)</span><span class="w">
+</span><span class="w"></span><span class="p">});</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="c1">// 计算其余 RevlogEntry 的 delta_t
+</span><span class="c1"></span><span class="w"></span><span class="k">for</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="mi">1</span><span class="p">..</span><span class="n">entries</span><span class="p">.</span><span class="n">len</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">date_current</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">convert_to_date</span><span class="p">(</span><span class="n">entries</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">id</span><span class="p">,</span><span class="w"> </span><span class="n">next_day_starts_at</span><span class="p">,</span><span class="w"> </span><span class="n">timezone</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">date_previous</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">convert_to_date</span><span class="p">(</span><span class="n">entries</span><span class="p">[</span><span class="n">i</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">].</span><span class="n">id</span><span class="p">,</span><span class="w"> </span><span class="n">next_day_starts_at</span><span class="p">,</span><span class="w"> </span><span class="n">timezone</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="n">entries</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">delta_t</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">date_current</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="n">date_previous</span><span class="p">).</span><span class="n">num_days</span><span class="p">()</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="kt">i32</span><span class="p">;</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="c1">// 计算 i, r_history, t_history
+</span><span class="c1"></span><span class="w"></span><span class="k">for</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="mi">0</span><span class="p">..</span><span class="n">entries</span><span class="p">.</span><span class="n">len</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="n">entries</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="c1">// 位置从 1 开始
+</span><span class="c1"></span><span class="w"></span><span class="c1">// 除了第一个条目，其余条目将前面的 button_chosen 和 delta_t 加入 r_history 和 t_history
+</span><span class="c1"></span><span class="w"></span><span class="k">if</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="n">entries</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">r_history</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">entries</span><span class="p">[</span><span class="mi">0</span><span class="p">..</span><span class="n">i</span><span class="p">].</span><span class="n">iter</span><span class="p">().</span><span class="n">map</span><span class="p">(</span><span class="o">|</span><span class="n">e</span><span class="o">|</span><span class="w"> </span><span class="n">e</span><span class="p">.</span><span class="n">button_chosen</span><span class="p">).</span><span class="n">collect</span><span class="p">();</span><span class="w">
+</span><span class="w"></span><span class="n">entries</span><span class="p">[</span><span class="n">i</span><span class="p">].</span><span class="n">t_history</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">entries</span><span class="p">[</span><span class="mi">0</span><span class="p">..</span><span class="n">i</span><span class="p">].</span><span class="n">iter</span><span class="p">().</span><span class="n">map</span><span class="p">(</span><span class="o">|</span><span class="n">e</span><span class="o">|</span><span class="w"> </span><span class="n">e</span><span class="p">.</span><span class="n">delta_t</span><span class="p">).</span><span class="n">collect</span><span class="p">();</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="c1">// 找到 review_kind = 0 且前一个 RevlogEntry 的 review_kind 是 1 或 2 的 RevlogEntry，然后删除其及其之后的所有 RevlogEntry
+</span><span class="c1"></span><span class="w"></span><span class="k">if</span><span class="w"> </span><span class="kd">let</span><span class="w"> </span><span class="nb">Some</span><span class="p">(</span><span class="n">index_to_remove</span><span class="p">)</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">entries</span><span class="p">.</span><span class="n">windows</span><span class="p">(</span><span class="mi">2</span><span class="p">).</span><span class="n">enumerate</span><span class="p">().</span><span class="n">find_map</span><span class="p">(</span><span class="o">|</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="w"> </span><span class="n">window</span><span class="p">)</span><span class="o">|</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">window</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">review_kind</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="o">||</span><span class="w"> </span><span class="n">window</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="n">review_kind</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">2</span><span class="p">)</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span><span class="n">window</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="n">review_kind</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="nb">Some</span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="c1">// 返回第一个符合条件的 RevlogEntry 的索引
+</span><span class="c1"></span><span class="w"></span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="nb">None</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w"></span><span class="p">})</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="n">entries</span><span class="p">.</span><span class="n">truncate</span><span class="p">(</span><span class="n">index_to_remove</span><span class="p">);</span><span class="w"> </span><span class="c1">// 截取从 0 到 index_to_remove 的部分，删除其后的所有条目
+</span><span class="c1"></span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="n">entries</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">fn</span> <span class="nf">convert_to_fsrs_items</span><span class="p">(</span><span class="n">revlogs</span>: <span class="nb">Vec</span><span class="o">&lt;</span><span class="nb">Vec</span><span class="o">&lt;</span><span class="n">RevlogEntry</span><span class="o">&gt;&gt;</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nb">Vec</span><span class="o">&lt;</span><span class="n">FSRSItem</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="n">revlogs</span><span class="p">.</span><span class="n">into_iter</span><span class="p">().</span><span class="n">flat_map</span><span class="p">(</span><span class="o">|</span><span class="n">group</span><span class="o">|</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="n">group</span><span class="p">.</span><span class="n">into_iter</span><span class="p">()</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">filter</span><span class="p">(</span><span class="o">|</span><span class="n">entry</span><span class="o">|</span><span class="w"> </span><span class="n">entry</span><span class="p">.</span><span class="n">i</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="c1">// 过滤掉 i = 1 的 RevlogEntry
+</span><span class="c1"></span><span class="w"></span><span class="p">.</span><span class="n">map</span><span class="p">(</span><span class="o">|</span><span class="n">entry</span><span class="o">|</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="n">FSRSItem</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="n">t_history</span>: <span class="nc">entry</span><span class="p">.</span><span class="n">t_history</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">r_history</span>: <span class="nc">entry</span><span class="p">.</span><span class="n">r_history</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">delta_t</span>: <span class="nc">entry</span><span class="p">.</span><span class="n">delta_t</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="kt">f32</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">label</span>: <span class="nc">match</span><span class="w"> </span><span class="n">entry</span><span class="p">.</span><span class="n">button_chosen</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="mi">1</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="mf">0.0</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="mi">2</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="mi">4</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="mf">1.0</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">_</span><span class="w"> </span><span class="o">=&gt;</span><span class="w"> </span><span class="n">panic</span><span class="o">!</span><span class="p">(</span><span class="s">"Unexpected value for button_chosen"</span><span class="p">),</span><span class="w">
+</span><span class="w"></span><span class="p">},</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w"></span><span class="p">})</span><span class="w">
+</span><span class="w"></span><span class="p">}).</span><span class="n">collect</span><span class="p">()</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">fn</span> <span class="nf">remove_non_learning_first</span><span class="p">(</span><span class="n">revlogs_per_card</span>: <span class="nb">Vec</span><span class="o">&lt;</span><span class="nb">Vec</span><span class="o">&lt;</span><span class="n">RevlogEntry</span><span class="o">&gt;&gt;</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nb">Vec</span><span class="o">&lt;</span><span class="nb">Vec</span><span class="o">&lt;</span><span class="n">RevlogEntry</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">revlogs_per_card</span><span class="p">;</span><span class="w">
+</span><span class="w"></span><span class="n">result</span><span class="p">.</span><span class="n">retain</span><span class="p">(</span><span class="o">|</span><span class="n">entries</span><span class="o">|</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="k">if</span><span class="w"> </span><span class="kd">let</span><span class="w"> </span><span class="nb">Some</span><span class="p">(</span><span class="n">first_entry</span><span class="p">)</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">entries</span><span class="p">.</span><span class="n">first</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="n">first_entry</span><span class="p">.</span><span class="n">review_kind</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">1</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="kc">false</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w"></span><span class="p">});</span><span class="w">
+</span><span class="w"></span><span class="n">result</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">pub</span><span class="w"> </span><span class="k">fn</span> <span class="nf">anki_to_fsrs</span><span class="p">()</span><span class="w"> </span>-&gt; <span class="nb">Vec</span><span class="o">&lt;</span><span class="n">FSRSItem</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">revlogs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">read_collection</span><span class="p">();</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">revlogs_per_card</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">group_by_cid</span><span class="p">(</span><span class="n">revlogs</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">extracted_revlogs_per_card</span>: <span class="nb">Vec</span><span class="o">&lt;</span><span class="nb">Vec</span><span class="o">&lt;</span><span class="n">RevlogEntry</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">revlogs_per_card</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">into_iter</span><span class="p">()</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">map</span><span class="p">(</span><span class="o">|</span><span class="n">entries</span><span class="o">|</span><span class="w"> </span><span class="n">extract_time_series_feature</span><span class="p">(</span><span class="n">entries</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span><span class="w"> </span><span class="n">Tz</span>::<span class="n">Asia__Shanghai</span><span class="p">))</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">collect</span><span class="p">();</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">filtered_revlogs_per_card</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">remove_non_learning_first</span><span class="p">(</span><span class="n">extracted_revlogs_per_card</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">fsrs_items</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">convert_to_fsrs_items</span><span class="p">(</span><span class="n">filtered_revlogs_per_card</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="n">fsrs_items</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="cp">#[test]</span><span class="w">
+</span><span class="w"></span><span class="k">fn</span> <span class="nf">test</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">revlogs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">read_collection</span><span class="p">();</span><span class="w">
+</span><span class="w"></span><span class="n">dbg</span><span class="o">!</span><span class="p">(</span><span class="n">revlogs</span><span class="p">.</span><span class="n">len</span><span class="p">());</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">revlogs_per_card</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">group_by_cid</span><span class="p">(</span><span class="n">revlogs</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="n">dbg</span><span class="o">!</span><span class="p">(</span><span class="n">revlogs_per_card</span><span class="p">.</span><span class="n">len</span><span class="p">());</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">extracted_revlogs_per_card</span>: <span class="nb">Vec</span><span class="o">&lt;</span><span class="nb">Vec</span><span class="o">&lt;</span><span class="n">RevlogEntry</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">revlogs_per_card</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">into_iter</span><span class="p">()</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">map</span><span class="p">(</span><span class="o">|</span><span class="n">entries</span><span class="o">|</span><span class="w"> </span><span class="n">extract_time_series_feature</span><span class="p">(</span><span class="n">entries</span><span class="p">,</span><span class="w"> </span><span class="mi">4</span><span class="p">,</span><span class="w"> </span><span class="n">Tz</span>::<span class="n">Asia__Shanghai</span><span class="p">))</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">collect</span><span class="p">();</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="n">dbg</span><span class="o">!</span><span class="p">(</span><span class="o">&amp;</span><span class="n">extracted_revlogs_per_card</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span><span class="w">
+</span><span class="w"></span><span class="n">extracted_revlogs_per_card</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">remove_non_learning_first</span><span class="p">(</span><span class="n">extracted_revlogs_per_card</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="n">dbg</span><span class="o">!</span><span class="p">(</span><span class="n">extracted_revlogs_per_card</span><span class="p">.</span><span class="n">iter</span><span class="p">().</span><span class="n">map</span><span class="p">(</span><span class="o">|</span><span class="n">x</span><span class="o">|</span><span class="w"> </span><span class="n">x</span><span class="p">.</span><span class="n">len</span><span class="p">()).</span><span class="n">sum</span>::<span class="o">&lt;</span><span class="kt">usize</span><span class="o">&gt;</span><span class="p">());</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">fsrs_items</span>: <span class="nb">Vec</span><span class="o">&lt;</span><span class="n">FSRSItem</span><span class="o">&gt;</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">convert_to_fsrs_items</span><span class="p">(</span><span class="n">extracted_revlogs_per_card</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="n">dbg</span><span class="o">!</span><span class="p">(</span><span class="n">fsrs_items</span><span class="p">.</span><span class="n">len</span><span class="p">());</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span></code></pre></div><p data-pid="jat3kS9p">目前项目已经完成了从 Anki 的数据库读取复习记录，转换为数据集样本，训练 FSRS 模型的整个流程。编译出来也只有十几 MB，未来有望整合入 Anki 的 Rust 后端，实现同时在 PC、iOS 和 Android 三端上跑机器学习训练。</p><p data-pid="nBbEfvkq">也欢迎 Rust 大佬来本项目贡献代码，推进间隔重复领域的发展：</p><a class="wrap external" data-draft-node="block" data-draft-type="link-card" href="https://github.com/open-spaced-repetition/fsrs-optimizer-burn" rel="nofollow noreferrer noopener" target="_blank">open-spaced-repetition/fsrs-optimizer-burn: Rust-based Optimizer for FSRS (github.com)</a><p data-pid="fye122R3">更多有关 FSRS 的介绍，请见：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic2.zhimg.com/v2-337e676d732039a25471c1057c54bfa3_180x120.jpg" data-image-height="1480" data-image-width="2700" href="./577383961.html" rel="noopener noreferrer" target="_blank">叶峻峣：KDD'22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]</a><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic1.zhimg.com/v2-9c14ae073ac7ff2f3d208d31b0ed10b2_180x120.jpg" data-image-height="1304" data-image-width="2638" href="./649655080.html" rel="noopener noreferrer" target="_blank">叶峻峣：解释 FSRS（上篇）：算法描述与运作原理</a><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic4.zhimg.com/v2-e9f56ba072166b28b7c371e246a79fc5_180x120.jpg" data-image-height="1304" data-image-width="2638" href="./649701172.html" rel="noopener noreferrer" target="_blank">叶峻峣：解释 FSRS（下篇）：准确度</a><p></p>
+
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

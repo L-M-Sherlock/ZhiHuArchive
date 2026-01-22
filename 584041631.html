@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>最优间隔 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="最优间隔 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/584041631">
+<meta property="og:image" content="">
+<meta property="og:description" content="在 SuperMemo 中， 最优间隔 是分散 复习 [1]单个 知识片段 [2]的理想时间间隔。最优间隔可能会最大化记忆效果（即 稳定化 ）。在实际应用中，设置知识的 保留率 也许是最优的量度标准。在大多数情况下， 最优间隔 即暗示了一个遗忘指数为 10% 的 间隔 。在较新的 SuperMe…">
+<meta name="description" content="在 SuperMemo 中， 最优间隔 是分散 复习 [1]单个 知识片段 [2]的理想时间间隔。最优间隔可能会最大化记忆效果（即 稳定化 ）。在实际应用中，设置知识的 保留率 也许是最优的量度标准。在大多数情况下， 最优间隔 即暗示了一个遗忘指数为 10% 的 间隔 。在较新的 SuperMe…">
+<meta data-pagefind-meta="title" content="最优间隔">
+<meta data-pagefind-meta="image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="最优间隔 | ZhiHu Archive">
+<meta name="twitter:description" content="在 SuperMemo 中， 最优间隔 是分散 复习 [1]单个 知识片段 [2]的理想时间间隔。最优间隔可能会最大化记忆效果（即 稳定化 ）。在实际应用中，设置知识的 保留率 也许是最优的量度标准。在大多数情况下， 最优间隔 即暗示了一个遗忘指数为 10% 的 间隔 。在较新的 SuperMe…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/584041631");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src=""/>
+<h1><a href="https://zhuanlan.zhihu.com/p/584041631" target="_blank" rel="noopener noreferrer">最优间隔</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2022-11-16T11:01:59">发表于 2022年11月16日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">8 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="eA8D8_u0">在 <a class="wrap external" href="https://supermemo.guru/wiki/SuperMemo" rel="nofollow noreferrer noopener" target="_blank">SuperMemo</a> 中，<b>最优间隔</b>是分散<a class="wrap external" href="https://supermemo.guru/wiki/Review" rel="nofollow noreferrer noopener" target="_blank">复习</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="重复" data-url="https://zhuanlan.zhihu.com/p/572444486">[1]</sup>单个<a class="wrap external" href="https://supermemo.guru/wiki/Item" rel="nofollow noreferrer noopener" target="_blank">知识片段</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="条目" data-url="https://zhuanlan.zhihu.com/p/571700330">[2]</sup>的理想时间间隔。最优间隔可能会最大化记忆效果（即<a class="wrap external" href="https://supermemo.guru/wiki/Stabilization" rel="nofollow noreferrer noopener" target="_blank">稳定化</a>）。在实际应用中，设置知识的<a class="wrap external" href="https://supermemo.guru/wiki/Retention" rel="nofollow noreferrer noopener" target="_blank">保留率</a>也许是最优的量度标准。在大多数情况下，<b>最优间隔</b>即暗示了一个遗忘指数为 10% 的<a class="wrap external" href="https://supermemo.guru/wiki/Interval" rel="nofollow noreferrer noopener" target="_blank">间隔</a>。在较新的 <a class="wrap external" href="https://supermemo.guru/wiki/SuperMemo" rel="nofollow noreferrer noopener" target="_blank">SuperMemos</a> 中，当<a class="wrap external" href="https://supermemo.guru/wiki/Stability" rel="nofollow noreferrer noopener" target="_blank">稳定性</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="记忆稳定性" data-url="https://zhuanlan.zhihu.com/p/559298549">[3]</sup>被用于代指<a class="wrap external" href="https://supermemo.guru/wiki/Interval" rel="nofollow noreferrer noopener" target="_blank">间隔</a>时，其也等同于<a class="wrap external" href="https://supermemo.guru/wiki/Retrievability" rel="nofollow noreferrer noopener" target="_blank">可提取性</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="记忆可提取性" data-url="https://zhuanlan.zhihu.com/p/559819340">[4]</sup>为 0.9 时的<b>最优间隔</b>。在 <a class="wrap external" href="https://supermemo.guru/wiki/SuperMemo_for_Windows" rel="nofollow noreferrer noopener" target="_blank">SuperMemo 17</a>（和后续版本）中，很容易就能找到<b>第一个最优间隔</b>，因为它和<a class="wrap external" href="https://supermemo.guru/wiki/First_forgetting_curve" rel="nofollow noreferrer noopener" target="_blank">第一条遗忘曲线</a>的<a class="wrap external" href="https://supermemo.guru/wiki/Recall" rel="nofollow noreferrer noopener" target="_blank">保留率</a>水平下降到 90% 时相一致。SuperMemo 中的间隔受限于<a class="wrap external" href="https://supermemo.guru/wiki/Interval_dispersion" rel="nofollow noreferrer noopener" target="_blank">随机分散间隔</a>。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-original="https://pic4.zhimg.com/v2-77db913648cf926f1705c5542f0c6465_r.jpg" data-original-token="v2-77db913648cf926f1705c5542f0c6465" data-rawheight="334" data-rawwidth="500" data-size="normal" src="https://pic4.zhimg.com/v2-77db913648cf926f1705c5542f0c6465_1440w.jpg" width="500"/><figcaption>Forgetting curve collected with SuperMemo 17</figcaption></figure><p data-pid="smx2HgPr">图：<a class="wrap external" href="https://supermemo.guru/wiki/First_forgetting_curve" rel="nofollow noreferrer noopener" target="_blank">第一条遗忘曲线</a>，数据来自新学知识，用 <a class="wrap external" href="https://supermemo.guru/wiki/SuperMemo" rel="nofollow noreferrer noopener" target="_blank">SuperMemo</a> 收集。由于学习过程中新引入的学习材料是异质的，因此使用了幂函数近似。项目未按照<a class="wrap external" href="https://supermemo.guru/wiki/Memory_complexity" rel="nofollow noreferrer noopener" target="_blank">记忆复杂性</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="5" data-text="记忆复杂性" data-url="https://zhuanlan.zhihu.com/p/304800091">[5]</sup>区分，结果图线为衰减常数不同的指数型遗忘的叠加。在半对数图上，幂函数回归曲线是对数的（黄色），而且看起来几乎是直线。曲线显示，在所提出的案例中，回忆率在四年内仅仅下降到 58%，可以归功于所记忆的知识在现实生活中经历了多次使用。在<a class="wrap external" href="https://supermemo.guru/wiki/Retrievability" rel="nofollow noreferrer noopener" target="_blank">可提取性</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="记忆可提取性" data-url="https://zhuanlan.zhihu.com/p/559819340">[4]</sup>为 90% 的情况下，复习的第一个<span class="nolink">最优间隔</span>是 3.96 天。<a class="wrap external" href="https://supermemo.guru/wiki/Forgetting_curve" rel="nofollow noreferrer noopener" target="_blank">遗忘曲线</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="6" data-text="遗忘曲线" data-url="https://zhuanlan.zhihu.com/p/274352214">[6]</sup>可以用公式 R=0.9906*power(interval,-0.07) 来描述，其中 0.9906 是一天后的回忆率，而 -0.07 是衰减常数。在这种情况下，由该公式可得出 4 天后回忆率为 90% 。本图线使用了 80,399 次重复来绘制。如果材料中<a class="wrap external" href="https://supermemo.guru/wiki/Memory_complexity" rel="nofollow noreferrer noopener" target="_blank">困难</a>知识较高比例（尤其是<a class="wrap external" href="https://supermemo.guru/wiki/20_rules" rel="nofollow noreferrer noopener" target="_blank">表述不清的知识</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="7" data-text="20 条知识表述规则（20 周年版）" data-url="https://zhuanlan.zhihu.com/p/269997143">[7]</sup>），或者是学生初次接触，助记能力较差，回忆率会较大幅度地下降。间隔 15-20 处曲线较不规则，这是因为重复样本数量不够（在对数表上后来的间隔类别包含了更大的间隔范围）</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="-gH18Sts"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 HuangSir-create-life<br/>原文：<a class="wrap external" href="https://supermemo.guru/wiki/Optimum_interval" rel="nofollow noreferrer noopener" target="_blank">Optimum interval - supermemo.guru</a><br/>本<a class="wrap external" href="https://supermemo.guru/wiki/Glossary" rel="nofollow noreferrer noopener" target="_blank">术语表</a>条目用于解释《<a class="wrap external" href="https://supermemo.guru/wiki/Problem_of_Schooling" rel="nofollow noreferrer noopener" target="_blank">间隔重复的历史</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="8" data-text="0 目录《间隔重复的历史》" data-url="https://zhuanlan.zhihu.com/p/375379522">[8]</sup>》（2017）作者：<a class="wrap external" href="https://supermemo.guru/wiki/Piotr_Wozniak" rel="nofollow noreferrer noopener" target="_blank">彼得·沃兹尼亚克</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="9" data-text="彼得·沃兹尼亚克" data-url="https://zhuanlan.zhihu.com/p/303204832">[9]</sup></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 重复 <a href="./572444486.html" target="_blank" rel="noopener noreferrer">./572444486.html</a><br>2. 条目 <a href="./571700330.html" target="_blank" rel="noopener noreferrer">./571700330.html</a><br>3. 记忆稳定性 <a href="./559298549.html" target="_blank" rel="noopener noreferrer">./559298549.html</a><br>4. 记忆可提取性 <a href="./559819340.html" target="_blank" rel="noopener noreferrer">./559819340.html</a><br>5. 记忆复杂性 <a href="./304800091.html" target="_blank" rel="noopener noreferrer">./304800091.html</a><br>6. 遗忘曲线 <a href="./274352214.html" target="_blank" rel="noopener noreferrer">./274352214.html</a><br>7. 20 条知识表述规则（20 周年版） <a href="./269997143.html" target="_blank" rel="noopener noreferrer">./269997143.html</a><br>8. 0 目录《间隔重复的历史》 <a href="./375379522.html" target="_blank" rel="noopener noreferrer">./375379522.html</a><br>9. 彼得·沃兹尼亚克 <a href="./303204832.html" target="_blank" rel="noopener noreferrer">./303204832.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：间隔重复 & 注意力管理</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

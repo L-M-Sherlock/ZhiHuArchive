@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>Anki 复习数据清洗与分析(附源码和数据) | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Anki 复习数据清洗与分析(附源码和数据) | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/337200754">
+<meta property="og:image" content="https://picx.zhimg.com/v2-40bf24813aeb0aa156a266aca1eb842d_r.jpg?source=172ae18b">
+<meta property="og:description" content="最近开始测试一些间隔重复算法，需要收集一些复习数据，如果大家感兴趣，可以按照本文的教程分析你的复习数据。 获取原始数据数据库查看工具Anki 的数据库用的是 SQLite，推荐使用 DB Browser for SQLite 来查看和导出复习数据，支持 Win 和 Mac。 下载地址…">
+<meta name="description" content="最近开始测试一些间隔重复算法，需要收集一些复习数据，如果大家感兴趣，可以按照本文的教程分析你的复习数据。 获取原始数据数据库查看工具Anki 的数据库用的是 SQLite，推荐使用 DB Browser for SQLite 来查看和导出复习数据，支持 Win 和 Mac。 下载地址…">
+<meta data-pagefind-meta="title" content="Anki 复习数据清洗与分析(附源码和数据)">
+<meta data-pagefind-meta="image" content="https://picx.zhimg.com/v2-40bf24813aeb0aa156a266aca1eb842d_r.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Anki 复习数据清洗与分析(附源码和数据) | ZhiHu Archive">
+<meta name="twitter:description" content="最近开始测试一些间隔重复算法，需要收集一些复习数据，如果大家感兴趣，可以按照本文的教程分析你的复习数据。 获取原始数据数据库查看工具Anki 的数据库用的是 SQLite，推荐使用 DB Browser for SQLite 来查看和导出复习数据，支持 Win 和 Mac。 下载地址…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/337200754");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://picx.zhimg.com/v2-40bf24813aeb0aa156a266aca1eb842d_r.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/337200754" target="_blank" rel="noopener noreferrer">Anki 复习数据清洗与分析(附源码和数据)</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2020-12-15T14:10:03">发表于 2020年12月15日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">48 👍 / 31 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="bY9aHAiR">最近开始测试一些间隔重复算法，需要收集一些复习数据，如果大家感兴趣，可以按照本文的教程分析你的复习数据。</p><h2>获取原始数据</h2><h3>数据库查看工具</h3><p data-pid="Gl-bpjQ3">Anki 的数据库用的是 SQLite，推荐使用 DB Browser for SQLite 来查看和导出复习数据，支持 Win 和 Mac。</p><p data-pid="8PUIgzzv">下载地址：</p><a class="wrap external" data-draft-node="block" data-draft-type="link-card" href="http://www.sqlitebrowser.org/dl/" rel="nofollow noreferrer noopener" target="_blank">Downloads - DB Browser for SQLite</a><h3>打开 Anki 数据库</h3><p data-pid="4WuGX1Rm">下载并安装好上面这个工具之后，按照以下步骤即可打开 Anki 数据库（记得先把 Anki 关了）：</p><ol><li data-pid="znOqhU2m">打开 DB Browser，文件 &gt; 打开数据库</li></ol><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic2.zhimg.com/v2-47141dfd16a70f8167a71458911ce305_r.jpg" data-original-token="v2-21372ab80176304a734795cbb17194db" data-rawheight="235" data-rawwidth="626" data-size="normal" src="https://pic2.zhimg.com/v2-47141dfd16a70f8167a71458911ce305_1440w.jpg" width="626"/></figure><ol><li data-pid="WaFvG4x8">找到你 Anki 本地数据库的位置，通常这个位置是 <code>C:\Users\你电脑的用户名\AppData\Roaming\Anki2\你 Anki 本地配置的名称\</code> </li></ol><p data-pid="czJ9RTLB">记得把右下角这个改成所有文件，因为 Anki 的数据库后缀不是 db 也不是 sqlite。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pica.zhimg.com/v2-5efc00c8818bcbdd8cef43835c4d74b8_r.jpg" data-original-token="v2-687e864609a511f85f42cb41a02729cc" data-rawheight="468" data-rawwidth="740" data-size="normal" src="https://pica.zhimg.com/v2-5efc00c8818bcbdd8cef43835c4d74b8_1440w.jpg" width="740"/></figure><p data-pid="bIlEEOgc">改好后如果你找到的位置是对的，那么就能看到 <code>collection.anki2</code> 的文件了</p><p data-pid="oiVQlyEF">2. 提取数据</p><p data-pid="5j2pqgGn">打开后转到执行 SQL，输入以下 SQL 语句：</p><div class="highlight"><pre><code class="language-sql"><span class="k">SELECT</span> <span class="n">id</span><span class="p">,</span> <span class="n">cid</span><span class="p">,</span> <span class="n">ease</span><span class="p">,</span> <span class="n">lastIvl</span><span class="p">,</span> <span class="k">type</span>
+<span class="k">FROM</span> <span class="n">revlog</span>
+<span class="k">WHERE</span> <span class="k">type</span> <span class="o">!=</span> <span class="mi">2</span>
+<span class="p">;</span></code></pre></div><p data-pid="TrfsnBfg">然后点</p><figure data-size="normal"><img class="content_image" data-caption="" data-original-token="v2-384a5042a84a2c18fdad8ad257f4c1c0" data-rawheight="76" data-rawwidth="259" data-size="normal" src="https://pic4.zhimg.com/v2-d7ac423ef8c5db79e516eff96f0ec10f_1440w.jpg" width="259"/></figure><p data-pid="rzSM__od">就能得到以下结果</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic3.zhimg.com/v2-fc747a7ae56a272c845f9054d801e5ba_r.jpg" data-original-token="v2-fc80277aacb9b2bee34e42d17e15a9c8" data-rawheight="699" data-rawwidth="590" data-size="normal" src="https://pic3.zhimg.com/v2-fc747a7ae56a272c845f9054d801e5ba_1440w.jpg" width="590"/></figure><p data-pid="dVDYb6rX">再点击</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic2.zhimg.com/v2-9443ee112755973af29f7e26f9482fb1_r.jpg" data-original-token="v2-48702b0798d4adffd4ebb1bea6edf970" data-rawheight="169" data-rawwidth="441" data-size="normal" src="https://pic2.zhimg.com/v2-9443ee112755973af29f7e26f9482fb1_1440w.jpg" width="441"/></figure><p data-pid="SDP_Qmws">就能将数据导出成 csv 格式，用 excel 打开就能看到这样的数据：</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic2.zhimg.com/v2-d8f2f2a856b19e7001312618101cf007_r.jpg" data-original-token="v2-83a70176d54a950b7a80f1fd73a09d4e" data-rawheight="539" data-rawwidth="557" data-size="normal" src="https://pic2.zhimg.com/v2-d8f2f2a856b19e7001312618101cf007_1440w.jpg" width="557"/></figure><p data-pid="5qZfyRtJ">里面没有关于卡片内容的敏感数据，大家可以安心分享。</p><p data-pid="X-WHPd6W">欢迎将你的 .csv 文件发送到我的邮箱地址：jarrett.ye@outlook.com，</p><p data-pid="SIqWWuNq">或者在专栏读者群(869469893)分享，也可以发送你的网盘分享链接。</p><p data-pid="KqyCwoeO">PS: 当然，也可以导出带学习数据的 apkg 文件发送给我，如果你有调整复习参数，请详细说明。</p><p data-pid="khJlx7tD">作为回报，我会将以下分析数据反馈给你。（如果你有想要分析的其它指标，也可以跟我提，如果基于目前的数据可以分析，我也会反馈给你）</p><h2>Anki 数据分析</h2><h3>不同反馈对应的记录数量</h3><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pica.zhimg.com/v2-624b389de77179d3b302576f52bf7eee_r.jpg" data-original-token="v2-ecdf56b42244f134e8d89eb964ae051a" data-rawheight="360" data-rawwidth="1086" data-size="normal" src="https://pica.zhimg.com/v2-624b389de77179d3b302576f52bf7eee_1440w.jpg" width="1086"/></figure><h3>总体遗忘/保留情况</h3><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pica.zhimg.com/v2-2d4cfc6bc4cbe384a9bd2210fba09322_r.jpg" data-original-token="v2-729d2d29a5b5a5c0fbb218201f600cb5" data-rawheight="413" data-rawwidth="729" data-size="normal" src="https://pica.zhimg.com/v2-2d4cfc6bc4cbe384a9bd2210fba09322_1440w.jpg" width="729"/></figure><h3>不同间隔下的复习记录数量</h3><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pica.zhimg.com/v2-7b653027cde82cfe13d0b47255c00e74_r.jpg" data-original-token="v2-c1b1bf00261db5d6680b9ab326b186ee" data-rawheight="395" data-rawwidth="735" data-size="normal" src="https://pica.zhimg.com/v2-7b653027cde82cfe13d0b47255c00e74_1440w.jpg" width="735"/></figure><h3>不同间隔区间对应的保留率</h3><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic3.zhimg.com/v2-1f3013fe4b60bd1c2e182bd67e4db0f2_r.jpg" data-original-token="v2-fcbdb4916ae6aba7b5756a1721a5729b" data-rawheight="566" data-rawwidth="1092" data-size="normal" src="https://pic3.zhimg.com/v2-1f3013fe4b60bd1c2e182bd67e4db0f2_1440w.jpg" width="1092"/></figure><h3>不同复习次数对应的保留率</h3><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic3.zhimg.com/v2-5c4e8b0428c91a332fb3af31f39351b6_r.jpg" data-original-token="v2-e9952b2dd2c86f143b9b7cd45e31093c" data-rawheight="454" data-rawwidth="727" data-size="normal" src="https://pic3.zhimg.com/v2-5c4e8b0428c91a332fb3af31f39351b6_1440w.jpg" width="727"/></figure><h3>不同累计遗忘次数对应的记录数量</h3><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic3.zhimg.com/v2-62048b3b6fbf33595ce8b8357111df0c_r.jpg" data-original-token="v2-4c4d523f9fb1deffdd06ce9fd9426557" data-rawheight="435" data-rawwidth="726" data-size="normal" src="https://pic3.zhimg.com/v2-62048b3b6fbf33595ce8b8357111df0c_1440w.jpg" width="726"/></figure><p data-pid="LQ2FJOLB">还有一些其它的指标，如果你有任何建议或者意见，欢迎留言。</p><p data-pid="bsUWo0hH">另外，以上代码和我自己的复习数据都开源在我的 GitHub 仓库：</p><a class="wrap external" data-draft-node="block" data-draft-type="link-card" href="https://github.com/L-M-Sherlock/anki_revlog_analysis" rel="nofollow noreferrer noopener" target="_blank">L-M-Sherlock / anki_revlog_analysis</a><p data-pid="_PaRZnSZ">如果想要自己分析可以直接下载源码运行。</p><p data-pid="vPvBW-7X">感谢大家的支持！</p><p class="ztext-empty-paragraph"><br/></p><p data-pid="6WRS1b13">2020 年 12 月 15 日</p><p data-pid="qSvBY-6S">叶峻峣</p>
+
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：学委叶哥的随笔</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>SRS 重试机制 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="SRS 重试机制 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/623551320">
+<meta property="og:image" content="">
+<meta property="og:description" content="在 间隔重复记忆系统 [1]中，通常有各种各样的「重试」机制。通常情况下，这些机制的工作方式是，如果你答不上来一个问题，几分钟后，或在复习结束时，它将再次呈现。换句话说，这张卡片被暂时分配一个很短的间隔，在成功记住之后，它就会得到新的「遗忘后」…">
+<meta name="description" content="在 间隔重复记忆系统 [1]中，通常有各种各样的「重试」机制。通常情况下，这些机制的工作方式是，如果你答不上来一个问题，几分钟后，或在复习结束时，它将再次呈现。换句话说，这张卡片被暂时分配一个很短的间隔，在成功记住之后，它就会得到新的「遗忘后」…">
+<meta data-pagefind-meta="title" content="SRS 重试机制">
+<meta data-pagefind-meta="image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SRS 重试机制 | ZhiHu Archive">
+<meta name="twitter:description" content="在 间隔重复记忆系统 [1]中，通常有各种各样的「重试」机制。通常情况下，这些机制的工作方式是，如果你答不上来一个问题，几分钟后，或在复习结束时，它将再次呈现。换句话说，这张卡片被暂时分配一个很短的间隔，在成功记住之后，它就会得到新的「遗忘后」…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/623551320");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src=""/>
+<h1><a href="https://zhuanlan.zhihu.com/p/623551320" target="_blank" rel="noopener noreferrer">SRS 重试机制</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2023-04-21T01:50:44">发表于 2023年04月21日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">8 👍 / 1 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="JVw4rSrj">在<a class="wrap external" href="https://notes.andymatuschak.org/z4eXdSMJFv2qVGXSUEKH4vdcHBrLHcFY1ZGfC" rel="nofollow noreferrer noopener" target="_blank">间隔重复记忆系统</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="间隔重复记忆系统（Spaced repetition memory system）" data-url="https://zhuanlan.zhihu.com/p/404257681">[1]</sup>中，通常有各种各样的「重试」机制。通常情况下，这些机制的工作方式是，如果你答不上来一个问题，几分钟后，或在复习结束时，它将再次呈现。换句话说，这张卡片被暂时分配一个很短的间隔，在成功记住之后，它就会得到新的「遗忘后」间隔，通常会更长。</p><h2>在助记媒介中</h2><p data-pid="SsiZqrJY">从 2019 年底开始，《<a class="wrap external" href="https://notes.andymatuschak.org/z2fBHADWa93EZTuNzuww7V3Vi587ZyZ4FHTHm" rel="nofollow noreferrer noopener" target="_blank">量子国度</a>》实现了以下行为；<a class="wrap external" href="https://notes.andymatuschak.org/z72ioKyd4X48WndtAsfkhnKwsD8o5PaaT384o" rel="nofollow noreferrer noopener" target="_blank">Orbit</a> 一直都在实施这一行为。如果你在阅读文章时忘记了问题的答案，该问题会在文章的下一个复习区重新出现（除非是最后一个复习区，在这种情况下，一旦你回答了当前复习区的所有问题，它就会重新出现）。如果你在复习阶段忘记了问题的答案，它将在复习阶段结束时重新出现。</p><p data-pid="rEJ_hMty">到目前为止的研究结果：<a class="wrap external" href="https://notes.andymatuschak.org/z26sYZAf3H5ohZTM2eaAosMRNwLkXiRKDsAJ" rel="nofollow noreferrer noopener" target="_blank">重试干预使量子国度的早期准确率大幅提高</a>。</p><p data-pid="_xQkJS8K">这个功能大致受到 Anki 的「学习」队列启发。如果我忘记了一张卡片的答案，然后提前结束复习（即在再次复习该卡片之前），我觉得对它的记忆会变得不那么可靠。提取练习文献中可能存在实证数据。我还没有查阅相关文献，也没有在我的背景阅读中偶然发现它。</p><p data-pid="1AfgPnkK">有趣的是，<a class="wrap external" href="https://notes.andymatuschak.org/z5oCe7JTrkYfmb6SHE4n5HxisE7PdwS6nmXEw" rel="nofollow noreferrer noopener" target="_blank">间隔效应</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="间隔效应" data-url="https://zhuanlan.zhihu.com/p/424603970">[2]</sup>表明，这种快速重试可能不如在下一个复习会话中重新呈现卡片那样有效。但我的直觉（以及我们越来越多的证据）表明，重试干预确实有帮助。在我读过的有关间隔效应的文献中，没有一篇根据最初的反应成功率来区分表现（尽管我认为应该已经有这样的研究了）。</p><p data-pid="O3WelXJl">关于<a class="wrap external" href="https://notes.andymatuschak.org/z4rRX3qwSSJRsEkdXKwH2shamgHNeRthrMLiF" rel="nofollow noreferrer noopener" target="_blank">助记媒介</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="助记媒介（Mnemonic medium）" data-url="https://zhuanlan.zhihu.com/p/459483765">[3]</sup>中这种机制的笔记：</p><ul><li data-pid="XKBiS7hI"><a class="wrap external" href="https://notes.andymatuschak.org/zq2kRQRbZ5ykqy6TWtece3NscvMdjYRUZFr" rel="nofollow noreferrer noopener" target="_blank">重试结果可能会提供额外的可提取性信号</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="重试结果可能会提供额外的可提取性信号" data-url="https://zhuanlan.zhihu.com/p/660604968">[4]</sup></li></ul><h2>链接至本文（已汉化）</h2><ul><li data-pid="liNmkclK"><a class="internal" href="./404257681.html" rel="noopener noreferrer" target="_blank">间隔重复记忆系统（Spaced repetition memory system）</a></li><li data-pid="qdUxnAmk"><a class="internal" href="./459483765.html" rel="noopener noreferrer" target="_blank">助记媒介（Mnemonic medium）</a></li><li data-pid="Xz4lY_9E"><a class="internal" href="./537644290.html" rel="noopener noreferrer" target="_blank">如果学生学习材料有困难，间隔重复记忆系统可以怎样干预？</a></li><li data-pid="xccPKrta"><a class="internal" href="./660604968.html" rel="noopener noreferrer" target="_blank">重试结果可能会提供额外的可提取性信号</a></li></ul><h2>声明</h2><p data-pid="a1kSLiu9">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="tdIO9cMW"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4、校对 Jarrett Ye<br/>原文：<a class="wrap external" href="https://notes.andymatuschak.org/z2GB3wDnERaJr2337zGJdb5Gnr7tURrfmoxu" rel="nofollow noreferrer noopener" target="_blank">SRS retry mechanism (andymatuschak.org)</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 间隔重复记忆系统（Spaced repetition memory system） <a href="./404257681.html" target="_blank" rel="noopener noreferrer">./404257681.html</a><br>2. 间隔效应 <a href="./424603970.html" target="_blank" rel="noopener noreferrer">./424603970.html</a><br>3. 助记媒介（Mnemonic medium） <a href="./459483765.html" target="_blank" rel="noopener noreferrer">./459483765.html</a><br>4. 重试结果可能会提供额外的可提取性信号 <a href="./660604968.html" target="_blank" rel="noopener noreferrer">./660604968.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：间隔重复 & 注意力管理</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

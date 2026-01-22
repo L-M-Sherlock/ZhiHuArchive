@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>解释 FSRS（上篇）：算法描述与运作原理 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="解释 FSRS（上篇）：算法描述与运作原理 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/649655080">
+<meta property="og:image" content="https://pic1.zhimg.com/v2-9c14ae073ac7ff2f3d208d31b0ed10b2_720w.jpg?source=172ae18b">
+<meta property="og:description" content="如果你正在使用 Anki 但还没听说过 FSRS ，那我来简单地给你介绍一下：它是一个新的调度算法，比 Anki 的默认算法更加灵活、准确。最近，FSRS 的新版本已经发布，它比之前更加精确，因此我决定写两篇关于 FSRS 的文章。注：我并不是 FSRS 的开发者。我只是一…">
+<meta name="description" content="如果你正在使用 Anki 但还没听说过 FSRS ，那我来简单地给你介绍一下：它是一个新的调度算法，比 Anki 的默认算法更加灵活、准确。最近，FSRS 的新版本已经发布，它比之前更加精确，因此我决定写两篇关于 FSRS 的文章。注：我并不是 FSRS 的开发者。我只是一…">
+<meta data-pagefind-meta="title" content="解释 FSRS（上篇）：算法描述与运作原理">
+<meta data-pagefind-meta="image" content="https://pic1.zhimg.com/v2-9c14ae073ac7ff2f3d208d31b0ed10b2_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="解释 FSRS（上篇）：算法描述与运作原理 | ZhiHu Archive">
+<meta name="twitter:description" content="如果你正在使用 Anki 但还没听说过 FSRS ，那我来简单地给你介绍一下：它是一个新的调度算法，比 Anki 的默认算法更加灵活、准确。最近，FSRS 的新版本已经发布，它比之前更加精确，因此我决定写两篇关于 FSRS 的文章。注：我并不是 FSRS 的开发者。我只是一…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/649655080");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://pic1.zhimg.com/v2-9c14ae073ac7ff2f3d208d31b0ed10b2_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/649655080" target="_blank" rel="noopener noreferrer">解释 FSRS（上篇）：算法描述与运作原理</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pica.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2023-08-12T12:14:57">发表于 2023年08月12日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">105 👍 / 42 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="NRc916OM">如果你正在使用 Anki 但还没听说过 <a class="wrap external" href="https://github.com/open-spaced-repetition/fsrs4anki" rel="nofollow noreferrer noopener" target="_blank">FSRS</a>，那我来简单地给你介绍一下：它是一个新的调度算法，比 Anki 的默认算法更加灵活、准确。最近，FSRS 的新版本已经发布，它比之前更加精确，因此我决定写两篇关于 FSRS 的文章。</p><blockquote data-pid="3cyEH253">注：我并不是 FSRS 的开发者。我只是一个在 GitHub 上经常提交错误报告和功能请求的普通人。但我对 FSRS 非常了解，特别是 v4 版本的很多改动，都是我一手提议的。（校对：这人提了几十个 issue，累死我了）</blockquote><h2><b>等级 1：小白版</b></h2><p data-pid="w413PeJV">FSRS 采用了一个叫做 DSR 的记忆模型，全称是「难度（<b>D</b>ifficulty）、稳定性（<b>S</b>tability）和回忆概率（Probability of <b>R</b>ecall）」。如果你是 Piotr Wozniak<sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="彼得 · 沃兹尼亚克" data-url="https://zhuanlan.zhihu.com/p/303204832">[1]</sup> 的话，可能会说成是「保留率（<b>R</b>etention）」或「可提取性（<b>R</b>etrievability）」。不过在他的术语中，「保留率」和「可提取性」又不是一回事……唉，要给这些概念起个好名字真不容易。</p><p data-pid="X18kpvaN"><b>R</b> 代表着用户根据某卡片的复习历史，在某一天回忆起这张卡片的概率。这个概率取决于自上次复习过去了多少天，以及 <b>S</b>。重要的是，任何<b>诚实</b>的间隔重复算法都得能预测 R，无论用什么方式（即使它不使用记忆稳定性）。否则，它不可能确定哪些间隔是最优的。 </p><p data-pid="p9LUqLLB"><b>S</b> 代表记忆稳定性，定义为 <b>R</b> 从 100% 降到 90% 所需的天数。越高越好。比如，S=365 意味着整整一年后，回忆某张卡片的概率才会降到 90%。估计 <b>S</b> 是最难的部分，这正是 FSRS 的核心所在。</p><p data-pid="E38hUD33"><b>D</b> 代表难度。不同于其他两个变量，难度没有明确的定义，而是基于一堆与人类记忆理解不太相关的启发式方法来计算的。简单说，如果你按下「简单」，难度就下降；如果你按「困难」或「重来」，难度就上升。</p><p data-pid="cRPoxFBa">这个模型最初是由 SuperMemo 的缔造者 Piotr Wozniak 提出的。一年前，<a class="wrap external" href="https://www.reddit.com/u/LMSherlock/" rel="nofollow noreferrer noopener" target="_blank">u/LMSherlock</a>（校对：正是在下）发表了一篇论文<sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="KDD'22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]" data-url="https://zhuanlan.zhihu.com/p/577383961">[2]</sup>，也用到了这个模型。</p><h2><b>等级 2：完整描述，但不涉及数学</b></h2><p data-pid="VERC6Afw">对于任何给定的卡片，FSRS 都会进行以下操作：</p><p data-pid="JCYIG5tC">如果这是首次复习：</p><ol><li data-pid="L_zK-0BW">根据评分——「重来」、「困难」、「良好」和「简单」，设置初始的记忆稳定性 S。这些初始值是经过特定方法优化后得到的，并作为参数传递给调度器。<br/><br/></li><li data-pid="ZZ84Lsgf">计算初始难度 D。这个难度完全基于评分。<br/><br/></li><li data-pid="VC5NZOvO">根据 S 和期望的回忆概率 R（由用户设置）来安排下一次复习。</li></ol><p data-pid="ez77PhWJ">若不是第一次复习该卡片：</p><ol><li data-pid="kb7wJqs2">计算复习时的理论（预测）回忆概率 R。它基于两个变量：从上次复习到现在过去的天数 Δt，以及复习时的记忆稳定性 S。<br/><br/></li><li data-pid="uSaRhvWe">计算难度 D，但与第一次复习时的公式不同。D 基于两个变量：其先前的值和此次的评分。<br/><br/></li><li data-pid="s8mkMxub">根据 D、S 和 R 来获取复习<b>后</b>的<b>新</b>稳定性估计。每次成功的复习后（用户按下「困难」、「良好」或「简单」），稳定性都会提高或至少保持不变，但在失败后（用户按下「重来」）会降低。新的稳定性估值取决于四个变量：D、S、R 和评分。如果用户按「重来」，公式会有所不同。<br/><br/></li><li data-pid="cETDaDls">根据 S 的新估值和期望的回忆概率 R（由用户设置）来安排下一次的复习。</li></ol><h2><b>等级 3：完整描述，包括数学</b></h2><p data-pid="C9sOkF43"><a class="wrap external" href="https://github.com/open-spaced-repetition/fsrs4anki/wiki/The-Algorithm" rel="nofollow noreferrer noopener" target="_blank">阅读这个 wiki 即可 ¯_(ツ)_/¯</a></p><h2><b>FSRS v4 的强项</b></h2><ol><li data-pid="elbgV-Xr">得益于通用记忆公式与机器学习的结合，FSRS 能够适应任何用户的记忆和复习习惯，例如只使用「重来」和「良好」。所以你不需要改变自己的复习习惯。<br/><br/></li><li data-pid="yOBLO9o7">FSRS 让你能够自己设置期望的回忆概率 R，这使得你可以在复习压力和长期记忆保留之间权衡。<br/><br/></li><li data-pid="bgHGhNKi">FSRS 允许你提前或推迟复习，同时最小化对长期学习的影响。当你积压了大量的复习时，可以选择推迟；考试前，可以选择提前复习。但<b>过于</b>频繁的推迟/提前仍然可能造成伤害。如果你选择某天不学习，如周日，FSRS 也允许你有「休息日」。所有这些都得益于 FSRS 能够准确预测 S 和 R，即使复习太晚或太早。<br/><br/></li><li data-pid="gxlrAiOV">FSRS 能帮助你准确估算目前大脑中掌握的知识量。这是任何其他插件都做不到的，因为它依赖于准确预测所有卡片的 R。<br/><br/></li><li data-pid="Mhkzq_ko">从标准的 Anki 调度器转到 FSRS 并不需要花上数月或数周——只需轻触按钮，卡片就可以被助手插件重新安排。不过，重新安排后的初始复习量通常较大。顺便说一下，助手插件同时支持 v3 和 v4 版本。<br/><br/></li><li data-pid="qu0xZ0NI">如果你一直在为「学习步伐」、「毕业间隔」、「简单奖励」等参数的最佳值而烦恼，那么现在不需要再折腾了。优化器会为你找到最佳参数，再也不用手动调整了。</li></ol><h2><b>FSRS v4 的弱项</b></h2><ol><li data-pid="kMcmA-xC">对于最简单的卡片（D=1）和最困难的卡片（D=10），理论上预测的 R 与实测的 R 存在较大偏差。这表明我们计算 D 的公式有待改进。尽管我们注意到了公式中的其他一些问题，但修正尝试都未能取得成功。<br/><br/></li><li data-pid="myvc3hB9">FSRS 要求很多复习数据（至少一千条，最好更多）才能准确优化其参数。如果你是新用户，还没有做过几千次的复习，优化器只会给你默认参数，这些参数可能适合也可能不适合你。<br/><br/></li><li data-pid="pyG_0W1L">FSRS 的用户友好度不高。目前，它有三个模块：优化器（在 Google Colab 中为你找到最佳参数的部分）、调度器（你粘贴到 Anki 的代码）和助手插件，而目前还无法将它们合并成一个模块。除非 Anki 的开发者决定直接将 FSRS 整合到 Anki 中，否则这种情况不太可能改变。我敢赌 100 块，就算太阳成为红巨星并吞噬地球，也比这来得快。<br/><br/></li><li data-pid="EB28iqys">虽然我说你不再需要手动调整任何参数，但如果你目前的学习步伐超过有超过 1 天的话，唯一需要更改的是<b>将你的学习（和重新学习）步伐设置改为不超过 1 天</b>。否则，你可能会遇到「困难」的间隔比「良好」或「简单」的间隔长的情况，这会导致助手插件和调度器出现奇怪的行为。不幸的是，Anki 的数据库有些古怪，所以处于「学习」（和「重新学习」）阶段的卡片与处于「复习」阶段的卡片的处理方式不同，FSRS 调度器只能影响处于「复习」阶段的卡片。这也意味着「休息日」功能并不如名字所述，它只是让你选择的日子不再有「复习」卡片，但你仍然需要处理「学习」和「重新学习」的卡片。</li></ol><hr/><p data-pid="8miVETmr">在<a class="wrap external" href="https://www.reddit.com/r/Anki/comments/15mab6e/fsrs_explained_part_2_accuracy/" rel="nofollow noreferrer noopener" target="_blank">下篇</a>，我将解释如何评估间隔重复算法的准确性。剧透一下：尽管这个 Reddit 版块上的人都在说需要随机对照试验，但实际上并不需要。真正需要的是大量的复习数据。</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic4.zhimg.com/v2-e9f56ba072166b28b7c371e246a79fc5_qhd.jpg" data-image-height="1304" data-image-width="2638" href="./649701172.html" rel="noopener noreferrer" target="_blank">叶峻峣：解释 FSRS（下篇）：准确度</a><p data-pid="CtMmUAbm">PS：如果你目前正在使用 FSRS v3，我建议你切换到 v4 版本。如何安装，请在<a class="wrap external" href="https://github.com/open-spaced-repetition/fsrs4anki#2-advanced-usage" rel="nofollow noreferrer noopener" target="_blank">此处</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="FSRS4Anki 使用指北" data-url="https://zhuanlan.zhihu.com/p/636564830">[3]</sup>查阅。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="RXOLia9e"><a class="member_mention" data-hash="3c9990a12cdbcd92e20b1387b160f0a3" data-hovercard="p$b$3c9990a12cdbcd92e20b1387b160f0a3" href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" rel="noopener noreferrer" target="_blank">@Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4，校对 Jarrett Ye<br/>原文：<a class="wrap external" href="https://www.reddit.com/r/Anki/comments/15mab3r/fsrs_explained_part_1_what_it_is_and_how_it_works/" rel="nofollow noreferrer noopener" target="_blank">FSRS explained, part 1: What it is and how it works : Anki (reddit.com)</a><br/>作者：<a class="wrap external" href="https://www.reddit.com/user/ClarityInMadness/" rel="nofollow noreferrer noopener" target="_blank">ClarityInMadness</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 彼得 · 沃兹尼亚克 <a href="./303204832.html" target="_blank" rel="noopener noreferrer">./303204832.html</a><br>2. KDD'22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育] <a href="./577383961.html" target="_blank" rel="noopener noreferrer">./577383961.html</a><br>3. FSRS4Anki 使用指北 <a href="./636564830.html" target="_blank" rel="noopener noreferrer">./636564830.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：AnkiX高考</h2>
+<p>围绕「Anki」和高考备考，面向广大高中生，交流作者们对「Anki」和高考的认识与见解，分享同学们整理的高中知识牌组，带每个考生高效学习！</p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

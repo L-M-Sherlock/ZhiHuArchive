@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>第四章 核心技术：知识图谱 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="第四章 核心技术：知识图谱 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/18159574293">
+<meta property="og:image" content="https://picx.zhimg.com/v2-b009b7042eb02ffc037c80a53d8a39ca_720w.jpg?source=172ae18b">
+<meta property="og:description" content="⠀⠀⠀ 摘要 ：为了设计课程安排，以及方便基于算法做出决策，Math Academy 构建了一张知识图谱，涵盖了数千个主题，覆盖了四年级到大学本科的数学知识。通过这张图谱，Math Academy 能让每个学生都达到各自的「知识边界」，填补基础知识的不足，通过…">
+<meta name="description" content="⠀⠀⠀ 摘要 ：为了设计课程安排，以及方便基于算法做出决策，Math Academy 构建了一张知识图谱，涵盖了数千个主题，覆盖了四年级到大学本科的数学知识。通过这张图谱，Math Academy 能让每个学生都达到各自的「知识边界」，填补基础知识的不足，通过…">
+<meta data-pagefind-meta="title" content="第四章 核心技术：知识图谱">
+<meta data-pagefind-meta="image" content="https://picx.zhimg.com/v2-b009b7042eb02ffc037c80a53d8a39ca_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="第四章 核心技术：知识图谱 | ZhiHu Archive">
+<meta name="twitter:description" content="⠀⠀⠀ 摘要 ：为了设计课程安排，以及方便基于算法做出决策，Math Academy 构建了一张知识图谱，涵盖了数千个主题，覆盖了四年级到大学本科的数学知识。通过这张图谱，Math Academy 能让每个学生都达到各自的「知识边界」，填补基础知识的不足，通过…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/18159574293");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://picx.zhimg.com/v2-b009b7042eb02ffc037c80a53d8a39ca_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/18159574293" target="_blank" rel="noopener noreferrer">第四章 核心技术：知识图谱</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2025-01-14T03:42:37">发表于 2025年01月14日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">84 👍 / 28 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="w0cvDyNR">⠀⠀⠀<b>摘要</b>：为了设计课程安排，以及方便基于算法做出决策，Math Academy 构建了一张知识图谱，涵盖了数千个主题，覆盖了四年级到大学本科的数学知识。通过这张图谱，Math Academy 能让每个学生都达到各自的「知识边界」，填补基础知识的不足，通过精熟学习来拓展学生的知识储备，在必要时则提供间隔复习和补救性复习，并利用知识间的「包含」关系来大幅提升学习速度。</p><h2>理解知识图谱</h2><h3>| 关联主题和前置知识</h3><p data-pid="ogaX2vHe">要理解 Math Academy 如何运用特定的认知学习策略，我们有必要先对<b><a class="wrap external" href="https://en.wikipedia.org/wiki/Knowledge_graph" rel="nofollow noreferrer noopener" target="_blank">知识图谱</a></b>有一个整体认识，这种知识组织方式使得基于算法的决策成为可能。</p><p data-pid="BM0j7Ggg">读者可能不熟悉「图」这个词在这里的含义。通常，「图」指的是展示两个变量之间关系的图表，比如柱状图或折线图。但在我们的语境下，「图」是指由多个对象及其之间的连接箭头构成的图形。这个术语在数学的<a class="wrap external" href="https://en.wikipedia.org/wiki/Graph_theory" rel="nofollow noreferrer noopener" target="_blank">图论</a>中很常见。</p><p data-pid="ma7vRM8z">我们的知识图谱包含数千个相互关联的<b>主题</b>。主题之间的每个连接都表示它们之间的某种关系，比如一个主题是另一个主题的<b>前置知识</b>。（关系的种类有很多，但目前我们先关注前置知识这种关系。）</p><p data-pid="hYgL7y21">比如下面是一个简单的知识图谱示例，其底部是「使用数学模型将分数和整数相加」这个主题，该主题是上面三个主题的前置知识。当学生掌握了底部的这个主题后，就可以学习它所指向的任何主题。换句话说，箭头指向代表着学生可以遵循的「学习路径」。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic1.zhimg.com/v2-1dc4a713018cae3bc1629c85ed57e066_r.jpg" data-original-token="v2-1dc4a713018cae3bc1629c85ed57e066" data-rawheight="468" data-rawwidth="1280" data-size="normal" src="https://pic1.zhimg.com/v2-1dc4a713018cae3bc1629c85ed57e066_1440w.jpg" width="1280"/></figure><p data-pid="urIQ5N8R">然而，如果有多个箭头指向某个上层主题，就意味着学生在学习该主题前需要掌握多个前置知识。</p><p data-pid="ZKXBGPMz">以「将分母不同的分数相加」这个主题为例，它被放到当前图谱的顶部。指向它的两个箭头表明，在学习这个主题前需要掌握两个前置知识：</p><ol><li data-pid="jNyqtK56">使用数学模型将分母不同的分数相加</li><li data-pid="PQt4H6z4">将分母和整数相加</li></ol><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic4.zhimg.com/v2-1cef66404ade07399a9af95c4b25c031_r.jpg" data-original-token="v2-1cef66404ade07399a9af95c4b25c031" data-rawheight="607" data-rawwidth="1280" data-size="normal" src="https://pic4.zhimg.com/v2-1cef66404ade07399a9af95c4b25c031_1440w.jpg" width="1280"/></figure><h3>| 放眼全局</h3><p data-pid="_9D83-ra">从更大的范围来看，我们发现知识图谱能够编码大量复杂的信息，这些信息用其他方式往往难以描述和理解。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://picx.zhimg.com/v2-1e46103d31aac332aecd9074f8b635b1_r.jpg" data-original-token="v2-1e46103d31aac332aecd9074f8b635b1" data-rawheight="1280" data-rawwidth="1280" data-size="normal" src="https://picx.zhimg.com/v2-1e46103d31aac332aecd9074f8b635b1_1440w.jpg" width="1280"/></figure><p data-pid="15Rb9LMZ">从更宏观的角度看，下面是一门课程的完整知识图谱，包含大概 300 个主题。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pica.zhimg.com/v2-070d3d7110499aebde9fa27d5b791912_r.jpg" data-original-token="v2-070d3d7110499aebde9fa27d5b791912" data-rawheight="582" data-rawwidth="1216" data-size="normal" src="https://pica.zhimg.com/v2-070d3d7110499aebde9fa27d5b791912_1440w.jpg" width="1216"/></figure><p data-pid="OFHpvXsK">放眼知识图谱全局，Math Academy 的整个体系包含数千个主题，从小学四年级到大学级别的数学。这些主题都在知识图谱中互相连接。在这个视角下，一堂课只是我们知识图谱的一角。（在下面的图谱可视化中，不同颜色表示不同课程。）</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic4.zhimg.com/v2-a7bc297b5ab5d579561c99113fe2ed55_r.jpg" data-original-token="v2-a7bc297b5ab5d579561c99113fe2ed55" data-rawheight="665" data-rawwidth="1280" data-size="normal" src="https://pic4.zhimg.com/v2-a7bc297b5ab5d579561c99113fe2ed55_1440w.jpg" width="1280"/></figure><p data-pid="YBcYWCDW">上面的知识图谱包含下列课程：四年级数学，五年级数学，代数预备，代数 I，集合，代数 II，微积分预备，微积分 I，微积分 II，线性代数，多元微积分，*微分方程，*概率统计，*离散数学，*抽象代数（截至 2023 年 10 月，以上列表涵盖了我们系统中的大部分内容——未列出的课程和列表中课程有较多重合，星号表示课程还在开发中。）</p><h3>| 课程图谱</h3><p data-pid="yMIw97Nr">在学校和大学网站上，经常能看到课程以<b>课程图谱</b>的形式呈现。这些图可以被视作一种经过高度压缩的知识图谱，图中每个实体都代表了数百个主题。Math Academy 的课程图谱如下所示：</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pica.zhimg.com/v2-ecac428998b83ca09a7ac1062d8813e8_r.jpg" data-original-token="v2-ecac428998b83ca09a7ac1062d8813e8" data-rawheight="628" data-rawwidth="457" data-size="normal" src="https://pica.zhimg.com/v2-ecac428998b83ca09a7ac1062d8813e8_1440w.jpg" width="457"/></figure><p data-pid="0gaUJQ1m">然而，需要注意的是，每门课程实际上只是知识图谱中的一组主题。知识图谱才是最根本的知识源头；而课程图谱只是对知识图谱的高级结构进行总结和呈现，使人们能够更好地理解。</p><h2>使用知识图谱</h2><h3>| 层层递进的精熟学习</h3><p data-pid="kU1L9oOx">有了知识图谱，我们就能实现<b>精熟学习</b>。在这种学习模式中，学生必须先熟练掌握<b>前置知识</b>，才能学习更高级的主题。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://picx.zhimg.com/v2-ca8cf7743f09b8ddfa957edec4cfe867_r.jpg" data-original-token="v2-ca8cf7743f09b8ddfa957edec4cfe867" data-rawheight="1280" data-rawwidth="1280" data-size="normal" src="https://picx.zhimg.com/v2-ca8cf7743f09b8ddfa957edec4cfe867_1440w.jpg" width="1280"/></figure><p data-pid="LnrF2h9P">每个主题都包含一个<b>课程</b>，课程又被细分为一系列关键知识，即<b>知识点</b>。每个知识点都包含一个<b>详细示例</b>，并配有与示例相似的<b>习题。</b></p><p data-pid="6YGkAAEm">这些知识点环环相扣，为学生构建了循序渐进的<b>认知脚手架</b>：第一个知识点是课程中最基础的概念或技能，后续知识点则逐步引入更高级的知识。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://picx.zhimg.com/v2-12d26e718811212f7c9f0e82ed557fd7_r.jpg" data-original-token="v2-12d26e718811212f7c9f0e82ed557fd7" data-rawheight="1280" data-rawwidth="1280" data-size="normal" src="https://picx.zhimg.com/v2-12d26e718811212f7c9f0e82ed557fd7_1440w.jpg" width="1280"/></figure><p data-pid="vp8yTwbb">为了证明自己已经掌握这个主题，学生必须答对足够多的习题，覆盖课程中的各个知识点。完成之后，更高级的主题就对学生开放学习了。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pica.zhimg.com/v2-3c35c1166d935c58835345a6dacd6a9e_r.jpg" data-original-token="v2-3c35c1166d935c58835345a6dacd6a9e" data-rawheight="506" data-rawwidth="1632" data-size="normal" src="https://pica.zhimg.com/v2-3c35c1166d935c58835345a6dacd6a9e_1440w.jpg" width="1632"/></figure><h3>| 额外链接</h3><h3>&gt; 关键前置知识助力精准补习</h3><p data-pid="5kjayJuF">每个知识点都与一个或多个<b>关键前置知识</b>相连，它们是该知识点最直接地运用到的前置知识。在一次课程里，如果学生在同一个知识点上做错两次，我们便会自动提供复习回顾，以巩固这个知识点的关键前置知识。这样学生就能加强他们最需要额外练习的地方，做好准备，以便下一次能成功通过。</p><p data-pid="XlJkI87A">举个例子，假设学生在重新学习「以有理数为底的指数」这门课程时，</p><ul><li data-pid="qN4J9Rtw">成功通关了第一部分：使用指数表达乘积，比如将 4x4x4 写成 4³</li><li data-pid="lzC8qR1a">但是在第二部分遇到了困难：计算指数表达式，比如计算 (-4)³ = (-4)x(-4)x(-4) </li></ul><p data-pid="7JBEmXEg">这说明学生理解了指数这个概念，但是他们不太会用乘法计算指数的结果。</p><p data-pid="mZ_Qz_SA">尽管乘法在该知识点的前置知识序列中相隔较远，我们仍将「计算指数表达式」这一部分与「负数相乘」这个关键前置知识建立了联系，从而能够自动触发一次针对「负数相乘」的专项复习。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic4.zhimg.com/v2-00a0ecb15bb2167c0eac2e93333fff81_r.jpg" data-original-token="v2-00a0ecb15bb2167c0eac2e93333fff81" data-rawheight="1280" data-rawwidth="1280" data-size="normal" src="https://pic4.zhimg.com/v2-00a0ecb15bb2167c0eac2e93333fff81_1440w.jpg" width="1280"/></figure><h3>&gt; 包含关系助力超高速学习</h3><p data-pid="2ia-WVS2">我们的知识图谱也记录了主题之间的<b>包含</b>关系。高级数学问题会潜在地训练或「包含」很多较为基础的技能。Math Academy 运用精密的算法来利用这些包含关系，使学生既能将大部分的时间投入新知识的学习，同时又能持续巩固已掌握的内容。如此就能极大地提升学习速度。</p><p data-pid="H0O_wg9X">这种方式是如何运作的呢？核心理念在于：当学生需要复习先前学过的内容时，我们会提供一套最精简的学习任务，确保涵盖所有需要复习的内容。这样学生就能以最高效的方式完成所需的复习。</p><p data-pid="HZwzRtvW">比如说，看下面这道乘法题，我们将两位数 39 乘以一位数 6：</p><figure data-size="normal"><img class="content_image" data-caption="" data-original-token="v2-d5f70e19b05189b9f70c86a4fec1752e" data-rawheight="256" data-rawwidth="222" data-size="normal" src="https://pic3.zhimg.com/v2-d5f70e19b05189b9f70c86a4fec1752e_1440w.jpg" width="222"/></figure><p data-pid="4D6pOaIp">为了完成上面的乘法，我们必须做一位数的乘法，并将一个一位数加到一个两位数上：</p><ul><li data-pid="UtkjmQ4J">首先，我们计算 6x9=54。5 进位，4 写到底下。</li><li data-pid="ckGWDkkF">然后，我们计算 6x3=18 和 18+5=23。我们把 23 写到底下。</li></ul><p data-pid="fTKt4iPQ">换句话说，「计算两位数乘以一位数」这个知识点，<b>包含</b>了两个技能：「一位数乘法」，以及「一位数和两位数相加」。</p><p data-pid="uQhoM3BP">我们可以用下图所示的<b>包含关系图</b>来可视化这一过程。包含关系图和前置知识图类似，只是图中的箭头表示一个较简单的主题被更高级的主题所包含。（被包含的主题往往是前置知识，但前置知识不一定都被包含。）</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pica.zhimg.com/v2-d14aa5c1dfd58389fe1252d0a341247e_r.jpg" data-original-token="v2-d14aa5c1dfd58389fe1252d0a341247e" data-rawheight="1280" data-rawwidth="1280" data-size="normal" src="https://pica.zhimg.com/v2-d14aa5c1dfd58389fe1252d0a341247e_1440w.jpg" width="1280"/></figure><p data-pid="ixynjciY">现在，假设学生需要复习上面三个主题。根据以下包含关系，他们其实只需要复习「将两位数乘以一位数」。学生在完成这项复习时，其实也隐含地复习了该知识点所包含的主题，因为学生也会在复习过程中练习到这些技能。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic3.zhimg.com/v2-cf8f86a9d9a20bfbf055d57b54645d52_r.jpg" data-original-token="v2-cf8f86a9d9a20bfbf055d57b54645d52" data-rawheight="660" data-rawwidth="1632" data-size="normal" src="https://pic3.zhimg.com/v2-cf8f86a9d9a20bfbf055d57b54645d52_1440w.jpg" width="1632"/></figure><h3>| 诊断性测试</h3><p data-pid="MdkbxMBH">学生加入 Math Academy 的时候，他们会完成一次适应性诊断测试，利用知识图谱快速辨别他们的<b>知识边界</b>。知识边界是学生已知和未知知识之间的分界线，也指明了他们需要学习的主题。基于诊断结果，系统为学生提供的每一节新课都精准对应其知识边界上的内容。</p><p data-pid="iD8imKx0">我们的诊断性测试不仅考察学生对当前课程内容的掌握程度，还会评估他们对较低年级<b>基础知识</b>的掌握情况（即课程的前置知识）。一个常见的现象是，新来的学生对一门课很感兴趣，但是缺乏一些基础知识——而我们的知识图谱能让我们识别并补充学生遗漏的基础知识，同时让他们开始学习那些不依赖这些基础知识的课程内容。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic2.zhimg.com/v2-28646f2168e33c280e913afa4d7b44c9_r.jpg" data-original-token="v2-28646f2168e33c280e913afa4d7b44c9" data-rawheight="1280" data-rawwidth="1280" data-size="normal" src="https://pic2.zhimg.com/v2-28646f2168e33c280e913afa4d7b44c9_1440w.jpg" width="1280"/></figure><hr/><p data-pid="govaXDaW">上一章：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" href="./17839729470.html" rel="noopener noreferrer" target="_blank">Thoughts Memo：第三章 核心科学：大脑的工作机制</a><p data-pid="ztHUzb09">下一章：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" href="./21305809972.html" rel="noopener noreferrer" target="_blank">Thoughts Memo：第五章 问责与激励</a><hr/><blockquote data-pid="1OysUv_X"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 Shom，校对 Jarrett Ye、Ravioli-T<br/>原文：<a class="wrap external" href="https://docs.google.com/document/d/1LLZK_34Oer9LwuqAv-pqxfXlR8n7V8zJ_MO323R7egI" rel="nofollow noreferrer noopener" target="_blank">The Math Academy Way: Using the Power of Science to Supercharge Student Learning</a></blockquote>
+
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：The Math Academy Way</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

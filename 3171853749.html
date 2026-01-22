@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>哪些 Rust 库让你相见恨晚？ - @Thoughts Memo | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="哪些 Rust 库让你相见恨晚？ - @Thoughts Memo | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="burn-rs ，一个深度学习框架，未来 FSRS 能不能在手机端跑，就看它了。对我这个算法工程师来说，这个库比较能解决的痛点包括： 不依赖 torch/tensorflow，编译出来体积很小，可以在客户端进行参数训练，纯本地化能自己写 forward，而不是几个网络层搭积木，比较自由，比如下面就是我重写的 FSRS：#[derive(Module, Debug)] pub struct Model<B: Backend> { pub w: Param<Tensor<B, 1>>, } impl<B: Backend<FloatElem = f32>> Mode…">
+<meta property="og:url" content="https://www.zhihu.com/question/604594191/answer/3171853749">
+<meta name="description" content="burn-rs ，一个深度学习框架，未来 FSRS 能不能在手机端跑，就看它了。对我这个算法工程师来说，这个库比较能解决的痛点包括： 不依赖 torch/tensorflow，编译出来体积很小，可以在客户端进行参数训练，纯本地化能自己写 forward，而不是几个网络层搭积木，比较自由，比如下面就是我重写的 FSRS：#[derive(Module, Debug)] pub struct Model<B: Backend> { pub w: Param<Tensor<B, 1>>, } impl<B: Backend<FloatElem = f32>> Mode…">
+<meta data-pagefind-meta="title" content="哪些 Rust 库让你相见恨晚？">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="哪些 Rust 库让你相见恨晚？ - @Thoughts Memo | ZhiHu Archive">
+<meta name="twitter:description" content="burn-rs ，一个深度学习框架，未来 FSRS 能不能在手机端跑，就看它了。对我这个算法工程师来说，这个库比较能解决的痛点包括： 不依赖 torch/tensorflow，编译出来体积很小，可以在客户端进行参数训练，纯本地化能自己写 forward，而不是几个网络层搭积木，比较自由，比如下面就是我重写的 FSRS：#[derive(Module, Debug)] pub struct Model<B: Backend> { pub w: Param<Tensor<B, 1>>, } impl<B: Backend<FloatElem = f32>> Mode…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/604594191/answer/3171853749");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/604594191/answer/3171853749" target="_blank" rel="noopener noreferrer">哪些 Rust 库让你相见恨晚？</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-d571786b77078321f5f6ef92f4967877_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2023-08-18T11:13:24">发表于 2023年08月18日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">121 👍 / 17 💬</p>
+</header>
+<article data-pagefind-body>
+<div style="margin: 0; padding: 0.5em 1em; border-left: 4px solid #999; font-size: 0.86em; background: #f9f9f9;">
+<h2>问题描述</h2>
+<p>相似问题：<a class="internal" href="https://www.zhihu.com/question/24590883" rel="noopener noreferrer" target="_blank">哪些 Python 库让你相见恨晚？</a></p>
+</div>
+<hr>
+<p data-pid="8YLYs8mb"><a class="wrap external" href="https://github.com/burn-rs/burn" rel="nofollow noreferrer noopener" target="_blank">burn-rs</a>，一个深度学习框架，未来 FSRS 能不能在手机端跑，就看它了。</p><p data-pid="Ks4a0PBb">对我这个算法工程师来说，这个库比较能解决的痛点包括：</p><ol><li data-pid="xmKxOpQV">不依赖 torch/tensorflow，编译出来体积很小，可以在客户端进行参数训练，纯本地化</li><li data-pid="MkoFXH1d">能自己写 forward，而不是几个网络层搭积木，比较自由，比如下面就是我重写的 FSRS：</li></ol><div class="highlight"><pre><code class="language-rust"><span class="cp">#[derive(Module, Debug)]</span><span class="w">
+</span><span class="w"></span><span class="k">pub</span><span class="w"> </span><span class="k">struct</span> <span class="nc">Model</span><span class="o">&lt;</span><span class="n">B</span>: <span class="nc">Backend</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="k">pub</span><span class="w"> </span><span class="n">w</span>: <span class="nc">Param</span><span class="o">&lt;</span><span class="n">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">impl</span><span class="o">&lt;</span><span class="n">B</span>: <span class="nc">Backend</span><span class="o">&lt;</span><span class="n">FloatElem</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kt">f32</span><span class="o">&gt;&gt;</span><span class="w"> </span><span class="n">Model</span><span class="o">&lt;</span><span class="n">B</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="k">pub</span><span class="w"> </span><span class="k">fn</span> <span class="nf">new</span><span class="p">()</span><span class="w"> </span>-&gt; <span class="nc">Self</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="n">Self</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="n">w</span>: <span class="nc">Param</span>::<span class="n">from</span><span class="p">(</span><span class="n">Tensor</span>::<span class="n">from_floats</span><span class="p">([</span><span class="w">
+</span><span class="w"></span><span class="mf">0.4</span><span class="p">,</span><span class="w"> </span><span class="mf">0.6</span><span class="p">,</span><span class="w"> </span><span class="mf">2.4</span><span class="p">,</span><span class="w"> </span><span class="mf">5.8</span><span class="p">,</span><span class="w"> </span><span class="c1">// initial stability
+</span><span class="c1"></span><span class="w"></span><span class="mf">4.93</span><span class="p">,</span><span class="w"> </span><span class="mf">0.94</span><span class="p">,</span><span class="w"> </span><span class="mf">0.86</span><span class="p">,</span><span class="w"> </span><span class="mf">0.01</span><span class="p">,</span><span class="w"> </span><span class="c1">// difficulty
+</span><span class="c1"></span><span class="w"></span><span class="mf">1.49</span><span class="p">,</span><span class="w"> </span><span class="mf">0.14</span><span class="p">,</span><span class="w"> </span><span class="mf">0.94</span><span class="p">,</span><span class="w"> </span><span class="c1">// success
+</span><span class="c1"></span><span class="w"></span><span class="mf">2.18</span><span class="p">,</span><span class="w"> </span><span class="mf">0.05</span><span class="p">,</span><span class="w"> </span><span class="mf">0.34</span><span class="p">,</span><span class="w"> </span><span class="mf">1.26</span><span class="p">,</span><span class="w"> </span><span class="c1">// failure
+</span><span class="c1"></span><span class="w"></span><span class="mf">0.29</span><span class="p">,</span><span class="w"> </span><span class="mf">2.61</span><span class="p">,</span><span class="w"> </span><span class="c1">// hard penalty, easy bonus
+</span><span class="c1"></span><span class="w"></span><span class="p">])),</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">fn</span> <span class="nf">w</span><span class="p">(</span><span class="o">&amp;</span><span class="bp">self</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">.</span><span class="n">val</span><span class="p">()</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">pub</span><span class="w"> </span><span class="k">fn</span> <span class="nf">power_forgetting_curve</span><span class="p">(</span><span class="o">&amp;</span><span class="bp">self</span><span class="p">,</span><span class="w"> </span><span class="n">t</span>: <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="p">,</span><span class="w"> </span><span class="n">s</span>: <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">retrievability</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">(</span><span class="n">t</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="p">(</span><span class="n">s</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">9</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">).</span><span class="n">powf</span><span class="p">(</span><span class="o">-</span><span class="mf">1.0</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="n">retrievability</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">fn</span> <span class="nf">stability_after_success</span><span class="p">(</span><span class="w">
+</span><span class="w"></span><span class="o">&amp;</span><span class="bp">self</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">last_s</span>: <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">new_d</span>: <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">r</span>: <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">rating</span>: <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">batch_size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">rating</span><span class="p">.</span><span class="n">dims</span><span class="p">()[</span><span class="mi">0</span><span class="p">];</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">hard_penalty</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Tensor</span>::<span class="n">ones</span><span class="p">([</span><span class="n">batch_size</span><span class="p">])</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">mask_where</span><span class="p">(</span><span class="n">rating</span><span class="p">.</span><span class="n">clone</span><span class="p">().</span><span class="n">equal_elem</span><span class="p">(</span><span class="mi">2</span><span class="p">),</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">().</span><span class="n">slice</span><span class="p">([</span><span class="mi">15</span><span class="p">..</span><span class="mi">16</span><span class="p">]));</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">easy_bonus</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Tensor</span>::<span class="n">ones</span><span class="p">([</span><span class="n">batch_size</span><span class="p">])</span><span class="w">
+</span><span class="w"></span><span class="p">.</span><span class="n">mask_where</span><span class="p">(</span><span class="n">rating</span><span class="p">.</span><span class="n">clone</span><span class="p">().</span><span class="n">equal_elem</span><span class="p">(</span><span class="mi">4</span><span class="p">),</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">().</span><span class="n">slice</span><span class="p">([</span><span class="mi">16</span><span class="p">..</span><span class="mi">17</span><span class="p">]));</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">new_s</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">last_s</span><span class="p">.</span><span class="n">clone</span><span class="p">()</span><span class="w">
+</span><span class="w"></span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">().</span><span class="n">slice</span><span class="p">([</span><span class="mi">8</span><span class="p">..</span><span class="mi">9</span><span class="p">]).</span><span class="n">exp</span><span class="p">()</span><span class="w">
+</span><span class="w"></span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="o">-</span><span class="n">new_d</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">11</span><span class="p">)</span><span class="w">
+</span><span class="w"></span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="o">-</span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">().</span><span class="n">slice</span><span class="p">([</span><span class="mi">9</span><span class="p">..</span><span class="mi">10</span><span class="p">])</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">last_s</span><span class="p">.</span><span class="n">log</span><span class="p">()).</span><span class="n">exp</span><span class="p">()</span><span class="w">
+</span><span class="w"></span><span class="o">*</span><span class="w"> </span><span class="p">(((</span><span class="o">-</span><span class="n">r</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">().</span><span class="n">slice</span><span class="p">([</span><span class="mi">10</span><span class="p">..</span><span class="mi">11</span><span class="p">])).</span><span class="n">exp</span><span class="p">()</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w">
+</span><span class="w"></span><span class="o">*</span><span class="w"> </span><span class="n">hard_penalty</span><span class="w">
+</span><span class="w"></span><span class="o">*</span><span class="w"> </span><span class="n">easy_bonus</span><span class="w">
+</span><span class="w"></span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="n">new_s</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">fn</span> <span class="nf">stability_after_failure</span><span class="p">(</span><span class="w">
+</span><span class="w"></span><span class="o">&amp;</span><span class="bp">self</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">last_s</span>: <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">new_d</span>: <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">r</span>: <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="p">)</span><span class="w"> </span>-&gt; <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">new_s</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">().</span><span class="n">slice</span><span class="p">([</span><span class="mi">11</span><span class="p">..</span><span class="mi">12</span><span class="p">])</span><span class="w">
+</span><span class="w"></span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="o">-</span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">().</span><span class="n">slice</span><span class="p">([</span><span class="mi">12</span><span class="p">..</span><span class="mi">13</span><span class="p">])</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="n">new_d</span><span class="p">.</span><span class="n">log</span><span class="p">()).</span><span class="n">exp</span><span class="p">()</span><span class="w">
+</span><span class="w"></span><span class="o">*</span><span class="w"> </span><span class="p">((</span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">().</span><span class="n">slice</span><span class="p">([</span><span class="mi">13</span><span class="p">..</span><span class="mi">14</span><span class="p">])</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="n">last_s</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">).</span><span class="n">log</span><span class="p">()).</span><span class="n">exp</span><span class="p">()</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w">
+</span><span class="w"></span><span class="o">*</span><span class="w"> </span><span class="p">((</span><span class="o">-</span><span class="n">r</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">)</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">().</span><span class="n">slice</span><span class="p">([</span><span class="mi">14</span><span class="p">..</span><span class="mi">15</span><span class="p">])).</span><span class="n">exp</span><span class="p">();</span><span class="w">
+</span><span class="w"></span><span class="n">new_s</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">fn</span> <span class="nf">step</span><span class="p">(</span><span class="w">
+</span><span class="w"></span><span class="o">&amp;</span><span class="bp">self</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">i</span>: <span class="kt">usize</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">delta_t</span>: <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">rating</span>: <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">stability</span>: <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">difficulty</span>: <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="p">)</span><span class="w"> </span>-&gt; <span class="p">(</span><span class="n">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="p">,</span><span class="w"> </span><span class="n">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="k">if</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">new_s</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">().</span><span class="n">select</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="w"> </span><span class="n">rating</span><span class="p">.</span><span class="n">clone</span><span class="p">().</span><span class="n">int</span><span class="p">()</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">1</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">new_d</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">().</span><span class="n">slice</span><span class="p">([</span><span class="mi">4</span><span class="p">..</span><span class="mi">5</span><span class="p">])</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">().</span><span class="n">slice</span><span class="p">([</span><span class="mi">5</span><span class="p">..</span><span class="mi">6</span><span class="p">])</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="n">rating</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">3</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="p">(</span><span class="n">new_s</span><span class="p">.</span><span class="n">clamp</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span><span class="w"> </span><span class="mf">36500.0</span><span class="p">),</span><span class="w"> </span><span class="n">new_d</span><span class="p">.</span><span class="n">clamp</span><span class="p">(</span><span class="mf">1.0</span><span class="p">,</span><span class="w"> </span><span class="mf">10.0</span><span class="p">))</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">r</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">power_forgetting_curve</span><span class="p">(</span><span class="n">delta_t</span><span class="p">,</span><span class="w"> </span><span class="n">stability</span><span class="p">.</span><span class="n">clone</span><span class="p">());</span><span class="w">
+</span><span class="w"></span><span class="c1">// dbg!(&amp;r);
+</span><span class="c1"></span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">new_d</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">difficulty</span><span class="p">.</span><span class="n">clone</span><span class="p">()</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">w</span><span class="p">().</span><span class="n">slice</span><span class="p">([</span><span class="mi">6</span><span class="p">..</span><span class="mi">7</span><span class="p">])</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="p">(</span><span class="n">rating</span><span class="p">.</span><span class="n">clone</span><span class="p">()</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="mi">3</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">new_d</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">new_d</span><span class="p">.</span><span class="n">clamp</span><span class="p">(</span><span class="mf">1.0</span><span class="p">,</span><span class="w"> </span><span class="mf">10.0</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="c1">// dbg!(&amp;new_d);
+</span><span class="c1"></span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">s_recall</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">stability_after_success</span><span class="p">(</span><span class="w">
+</span><span class="w"></span><span class="n">stability</span><span class="p">.</span><span class="n">clone</span><span class="p">(),</span><span class="w">
+</span><span class="w"></span><span class="n">new_d</span><span class="p">.</span><span class="n">clone</span><span class="p">(),</span><span class="w">
+</span><span class="w"></span><span class="n">r</span><span class="p">.</span><span class="n">clone</span><span class="p">(),</span><span class="w">
+</span><span class="w"></span><span class="n">rating</span><span class="p">.</span><span class="n">clone</span><span class="p">(),</span><span class="w">
+</span><span class="w"></span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">s_forget</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">stability_after_failure</span><span class="p">(</span><span class="n">stability</span><span class="p">,</span><span class="w"> </span><span class="n">new_d</span><span class="p">.</span><span class="n">clone</span><span class="p">(),</span><span class="w"> </span><span class="n">r</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">new_s</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">s_recall</span><span class="p">.</span><span class="n">mask_where</span><span class="p">(</span><span class="n">rating</span><span class="p">.</span><span class="n">equal_elem</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span><span class="w"> </span><span class="n">s_forget</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="p">(</span><span class="n">new_s</span><span class="p">.</span><span class="n">clamp</span><span class="p">(</span><span class="mf">0.1</span><span class="p">,</span><span class="w"> </span><span class="mf">36500.0</span><span class="p">),</span><span class="w"> </span><span class="n">new_d</span><span class="p">)</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w">
+</span><span class="w"></span><span class="k">pub</span><span class="w"> </span><span class="k">fn</span> <span class="nf">forward</span><span class="p">(</span><span class="w">
+</span><span class="w"></span><span class="o">&amp;</span><span class="bp">self</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">delta_ts</span>: <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="n">ratings</span>: <span class="nc">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">2</span><span class="p">,</span><span class="w"> </span><span class="n">Float</span><span class="o">&gt;</span><span class="p">,</span><span class="w">
+</span><span class="w"></span><span class="p">)</span><span class="w"> </span>-&gt; <span class="p">(</span><span class="n">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="p">,</span><span class="w"> </span><span class="n">Tensor</span><span class="o">&lt;</span><span class="n">B</span><span class="p">,</span><span class="w"> </span><span class="mi">1</span><span class="o">&gt;</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="p">[</span><span class="n">seq_len</span><span class="p">,</span><span class="w"> </span><span class="n">batch_size</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">delta_ts</span><span class="p">.</span><span class="n">dims</span><span class="p">();</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">stability</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Tensor</span>::<span class="n">zeros</span><span class="p">([</span><span class="n">batch_size</span><span class="p">]);</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">difficulty</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Tensor</span>::<span class="n">zeros</span><span class="p">([</span><span class="n">batch_size</span><span class="p">]);</span><span class="w">
+</span><span class="w"></span><span class="k">for</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="mi">0</span><span class="p">..</span><span class="n">seq_len</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">delta_t</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">delta_ts</span><span class="p">.</span><span class="n">clone</span><span class="p">().</span><span class="n">slice</span><span class="p">([</span><span class="n">i</span><span class="p">..</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">]).</span><span class="n">squeeze</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="kd">let</span><span class="w"> </span><span class="n">rating</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">ratings</span><span class="p">.</span><span class="n">clone</span><span class="p">().</span><span class="n">slice</span><span class="p">([</span><span class="n">i</span><span class="p">..</span><span class="n">i</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span><span class="p">]).</span><span class="n">squeeze</span><span class="p">(</span><span class="mi">0</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="c1">// dbg!(&amp;delta_t);
+</span><span class="c1"></span><span class="w"></span><span class="c1">// dbg!(&amp;rating);
+</span><span class="c1"></span><span class="w"></span><span class="p">(</span><span class="n">stability</span><span class="p">,</span><span class="w"> </span><span class="n">difficulty</span><span class="p">)</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="bp">self</span><span class="p">.</span><span class="n">step</span><span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="w"> </span><span class="n">delta_t</span><span class="p">,</span><span class="w"> </span><span class="n">rating</span><span class="p">,</span><span class="w"> </span><span class="n">stability</span><span class="p">,</span><span class="w"> </span><span class="n">difficulty</span><span class="p">);</span><span class="w">
+</span><span class="w"></span><span class="c1">// dbg!(&amp;stability);
+</span><span class="c1"></span><span class="w"></span><span class="c1">// dbg!(&amp;difficulty);
+</span><span class="c1"></span><span class="w"></span><span class="c1">// dbg!()
+</span><span class="c1"></span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w"></span><span class="p">(</span><span class="n">stability</span><span class="p">,</span><span class="w"> </span><span class="n">difficulty</span><span class="p">)</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span><span class="w"></span><span class="p">}</span><span class="w">
+</span></code></pre></div><p data-pid="yxkvtADg">不过这个库还是有几个问题：</p><ol><li data-pid="7ZC5phNK">训练过程有点过度封装了，想要自己写个迭代的 loop 很难</li><li data-pid="pwwgbOgW">不支持训练过程中修改参数，我想做个参数剪裁，目前还没找到方法</li></ol><p data-pid="U1fml772">反正边写边踩坑，边给社区提 issue，希望今年能把这个项目写完吧。</p><a class="wrap external" data-draft-node="block" data-draft-type="link-card" href="https://github.com/open-spaced-repetition/fsrs-optimizer-burn" rel="nofollow noreferrer noopener" target="_blank">open-spaced-repetition/fsrs-optimizer-burn: Rust-based Optimizer for FSRS (github.com)</a><p data-pid="fbxTf3tH">也欢迎 Rust 大佬前来助阵！</p><p data-pid="fye122R3">更多有关 FSRS 的介绍，请见：</p><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic2.zhimg.com/v2-337e676d732039a25471c1057c54bfa3_180x120.jpg" data-image-height="1480" data-image-width="2700" href="./577383961.html" rel="noopener noreferrer" target="_blank">叶峻峣：KDD'22 | 墨墨背单词：基于时序模型与最优控制的记忆算法 [AI+教育]</a><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic1.zhimg.com/v2-9c14ae073ac7ff2f3d208d31b0ed10b2_180x120.jpg" data-image-height="1304" data-image-width="2638" href="./649655080.html" rel="noopener noreferrer" target="_blank">叶峻峣：解释 FSRS（上篇）：算法描述与运作原理</a><a class="internal" data-draft-node="block" data-draft-type="link-card" data-image="https://pic4.zhimg.com/v2-e9f56ba072166b28b7c371e246a79fc5_180x120.jpg" data-image-height="1304" data-image-width="2638" href="./649701172.html" rel="noopener noreferrer" target="_blank">叶峻峣：解释 FSRS（下篇）：准确度</a><p></p>
+
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

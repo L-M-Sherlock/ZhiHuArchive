@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>对于卡片生成任务，如果提供了编写卡片的原则，大型语言模型（LLM）的表现可能会有所提升 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="对于卡片生成任务，如果提供了编写卡片的原则，大型语言模型（LLM）的表现可能会有所提升 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://zhuanlan.zhihu.com/p/644435843">
+<meta property="og:image" content="">
+<meta property="og:description" content="间隔重复记忆系统 [1]社区已经发现了许多 高质量间隔重复记忆卡片的重要属性 [2]。当我将这些属性提供给 GPT-4 时，它似乎在生成间隔重复卡片方面做得更好。与这些提示相关的思维链式提示词也可能有所帮助（例如「解释这些卡片是如何满足每个原则的......」）…">
+<meta name="description" content="间隔重复记忆系统 [1]社区已经发现了许多 高质量间隔重复记忆卡片的重要属性 [2]。当我将这些属性提供给 GPT-4 时，它似乎在生成间隔重复卡片方面做得更好。与这些提示相关的思维链式提示词也可能有所帮助（例如「解释这些卡片是如何满足每个原则的......」）…">
+<meta data-pagefind-meta="title" content="对于卡片生成任务，如果提供了编写卡片的原则，大型语言模型（LLM）的表现可能会有所提升">
+<meta data-pagefind-meta="image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="对于卡片生成任务，如果提供了编写卡片的原则，大型语言模型（LLM）的表现可能会有所提升 | ZhiHu Archive">
+<meta name="twitter:description" content="间隔重复记忆系统 [1]社区已经发现了许多 高质量间隔重复记忆卡片的重要属性 [2]。当我将这些属性提供给 GPT-4 时，它似乎在生成间隔重复卡片方面做得更好。与这些提示相关的思维链式提示词也可能有所帮助（例如「解释这些卡片是如何满足每个原则的......」）…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/644435843");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src=""/>
+<h1><a href="https://zhuanlan.zhihu.com/p/644435843" target="_blank" rel="noopener noreferrer">对于卡片生成任务，如果提供了编写卡片的原则，大型语言模型（LLM）的表现可能会有所提升</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2023-07-20T03:58:38">发表于 2023年07月20日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">6 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="07O6Utf4"><a class="wrap external" href="https://notes.andymatuschak.org/z4eXdSMJFv2qVGXSUEKH4vdcHBrLHcFY1ZGfC" rel="nofollow noreferrer noopener" target="_blank">间隔重复记忆系统</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="间隔重复记忆系统（Spaced repetition memory system）" data-url="https://zhuanlan.zhihu.com/p/404257681">[1]</sup>社区已经发现了许多<a class="wrap external" href="https://notes.andymatuschak.org/z42J1vxsMjhkdbrqVfoqjiEesSzfaEqurBtoJ" rel="nofollow noreferrer noopener" target="_blank">高质量间隔重复记忆卡片的重要属性</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="高质量的间隔重复记忆卡片最重要的属性是什么？" data-url="https://zhuanlan.zhihu.com/p/398094270">[2]</sup>。当我将这些属性提供给 GPT-4 时，它似乎在生成间隔重复卡片方面做得更好。与这些提示相关的思维链式提示词也可能有所帮助（例如「解释这些卡片是如何满足每个原则的......」）。</p><p data-pid="v1CF4-Qm">目前还不清楚这些效果的强度或可靠性如何。在我的非正式实验中，有时这些因素似乎很重要，有时则没什么影响。如果有<a class="wrap external" href="https://notes.andymatuschak.org/z6ZUDZaQrh43M64sHsZL48QZVKcFKQsTi4kTY" rel="nofollow noreferrer noopener" target="_blank">一份由专家编写的卡片的数据集</a>进行评估，那将对卡片生成系统的发展大有裨益。</p><p data-pid="8ibw4HfS">参见示例 <a class="wrap external" href="https://notes.andymatuschak.org/z5yuB8kkYToFBYYpoYQkehPEKWKb66JWw4X1d" rel="nofollow noreferrer noopener" target="_blank">20230614114329</a>。</p><h3>参考文献</h3><p data-pid="UwDPX6oz">最初是在 Twitter 上有人向我提出这个建议（抱歉，我找不到那条信息了！），然后在 2023 年 5 月，<a class="wrap external" href="https://notes.andymatuschak.org/zJ55L18u5sagXqnMWh5szwfZ388oGQbyfW3" rel="nofollow noreferrer noopener" target="_blank">Yuval Milo</a> 通过一个具体的提示词再次提醒了我。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid="D4w0Kofz"><a class="internal" href="./656355546.html" rel="noopener noreferrer" target="_blank">对于卡片生成任务，大型语言模型（LLM）缺乏为复杂概念材料编写卡片的模式</a></li><li data-pid="UuUD47EH"><a class="internal" href="./656760808.html" rel="noopener noreferrer" target="_blank">GPT-4 在指导下，通常能够从解释性文本中为陈述性知识生成可用的间隔重复卡片</a></li><li data-pid="zCA2F5qG"><a class="internal" href="./716570823.html" rel="noopener noreferrer" target="_blank">叶峻峣：使用机器学习从解释性文本中生成优质的间隔重复卡片</a></li></ul><h2>声明</h2><p data-pid="a1kSLiu9">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class="ztext-empty-paragraph"><br/></p><blockquote data-pid="Uy-oUh0g"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-4、校对 <span class="nolink">Jarrett</span>Ye<br/>原文：<a class="wrap external" href="https://notes.andymatuschak.org/zrqgkr9n3eCMNsAPDsRozt3HLd8nRT5nVASc" rel="nofollow noreferrer noopener" target="_blank">In prompt generation, LLMs may perform better when given prompt-writing principles (andymatuschak.org)</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 间隔重复记忆系统（Spaced repetition memory system） <a href="./404257681.html" target="_blank" rel="noopener noreferrer">./404257681.html</a><br>2. 高质量的间隔重复记忆卡片最重要的属性是什么？ <a href="./398094270.html" target="_blank" rel="noopener noreferrer">./398094270.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：间隔重复 & 注意力管理</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>
