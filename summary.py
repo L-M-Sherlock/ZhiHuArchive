@@ -216,7 +216,7 @@ html_content = (
     <div id="search">
         <label class="search-label" for="search-input">站内搜索</label>
         <input id="search-input" class="search-input" type="search" placeholder="搜索文章和回答..." autocapitalize="none" enterkeyhint="search">
-        <div class="search-helper">提示：已启用<strong>中文分词</strong>，也支持手动分词（例如：习得性 无助）。</div>
+        <div class="search-helper">提示：已启用<strong>中文分词</strong>（首次中文搜索会加载词库），也支持手动分词（例如：习得性 无助）。</div>
         <div id="search-meta" class="search-meta"></div>
         <ol id="search-results" class="search-results"></ol>
         <button id="search-more" class="search-more" type="button" style="display: none;">加载更多结果</button>
@@ -242,10 +242,18 @@ html_content = (
         const segmentitScript = `${{basePath}}segmentit.js`;
         let pagefind = null;
         let segmenter = null;
+        let segmenterPromise = null;
         let lastResults = [];
+        let lastRawResults = [];
         let lastQuery = "";
         let lastRendered = 0;
+        let lastSearchToken = 0;
+        const dataCache = new Map();
         const pageSize = 10;
+        const maxScan = 80;
+
+        const shouldSegment = (term) =>
+            hasCJK(term) && !/\\s/.test(term) && term.trim().length > 1;
 
         const initSegmenter = () => {{
             const lib = window.segmentit || window.Segmentit;
@@ -275,6 +283,22 @@ html_content = (
                 document.head.appendChild(script);
             }});
 
+        const ensureSegmenter = (term) => {{
+            if (!shouldSegment(term)) {{
+                return null;
+            }}
+            if (segmenter) {{
+                return Promise.resolve(segmenter);
+            }}
+            if (!segmenterPromise) {{
+                segmenterPromise = loadSegmenter().then((loaded) => {{
+                    segmenter = loaded;
+                    return loaded;
+                }});
+            }}
+            return segmenterPromise;
+        }};
+
         const segmentText = (text) => {{
             if (!segmenter) {{
                 return [];
@@ -296,7 +320,7 @@ html_content = (
             }}
             const hasSpace = /\\s/.test(trimmed);
             let tokens = [];
-            if (hasCJK(trimmed) && !hasSpace) {{
+            if (shouldSegment(trimmed) && segmenter) {{
                 tokens = segmentText(trimmed);
             }}
             const longTokens = tokens.filter((token) => token.length > 1);
@@ -319,11 +343,26 @@ html_content = (
             lastRendered = 0;
         }};
 
+        const getData = async (wrapper) => {{
+            if (wrapper.data) {{
+                return wrapper.data;
+            }}
+            const cacheKey = wrapper.result.url || wrapper.result.id;
+            if (cacheKey && dataCache.has(cacheKey)) {{
+                wrapper.data = dataCache.get(cacheKey);
+                return wrapper.data;
+            }}
+            const data = await wrapper.result.data();
+            wrapper.data = data;
+            if (cacheKey) {{
+                dataCache.set(cacheKey, data);
+            }}
+            return data;
+        }};
+
         const renderBatch = async () => {{
             const slice = lastResults.slice(lastRendered, lastRendered + pageSize);
-            const data = await Promise.all(
-                slice.map(async (item) => item.data || (item.data = await item.result.data()))
-            );
+            const data = await Promise.all(slice.map((item) => getData(item)));
             data.forEach((item) => {{
                 const li = document.createElement("li");
                 li.className = "search-result";
@@ -361,32 +400,34 @@ html_content = (
         const filterResults = async (results, raw, tokens) => {{
             const shouldFilter = hasCJK(raw) && raw.length >= 2;
             if (!shouldFilter) {{
-                return {{ results: results.map((result) => ({{ result }})), filtered: false, truncated: false }};
+                return {{ results, filtered: false, truncated: false, strict: false }};
             }}
-            const maxScan = 400;
             const filtered = [];
             let scanned = 0;
-            for (const result of results) {{
+            for (const wrapper of results) {{
                 if (scanned >= maxScan) {{
                     break;
                 }}
-                const data = await result.data();
+                const data = await getData(wrapper);
                 scanned += 1;
                 const content = `${{data.title || ""}} ${{data.excerpt || ""}} ${{data.content || ""}}`;
                 if (matchesStrict(content, raw, tokens)) {{
-                    filtered.push({{ result, data }});
+                    filtered.push({{ result: wrapper.result, data }});
                 }}
             }}
             if (!filtered.length) {{
-                return {{ results: results.map((result) => ({{ result }})), filtered: false, truncated: scanned < results.length }};
+                return {{ results, filtered: false, truncated: scanned < results.length, strict: true }};
             }}
-            return {{ results: filtered, filtered: true, truncated: scanned < results.length }};
+            return {{ results: filtered, filtered: true, truncated: scanned < results.length, strict: true }};
         }};
 
         const searchAndRender = async (term) => {{
             if (!pagefind) {{
                 return;
             }}
+            const token = ++lastSearchToken;
+            const hadSegmenter = !!segmenter;
+            const segmentPromise = ensureSegmenter(term);
             const {{ primary, phrase, raw, tokens }} = normalizeQuery(term);
             if (!primary) {{
                 clearResults();
@@ -418,8 +459,8 @@ html_content = (
                 }}
             }}
 
-            const filtered = await filterResults(result.results, raw, tokens);
-            lastResults = filtered.results;
+            lastRawResults = result.results.map((item) => ({{ result: item }}));
+            lastResults = lastRawResults;
             lastRendered = 0;
             resultsEl.innerHTML = "";
 
@@ -430,10 +471,48 @@ html_content = (
             }}
 
             const usedHint = usedQuery && usedQuery !== raw ? "（已自动优化匹配）" : "";
-            const filterHint = filtered.filtered ? "（已按中文分词筛选）" : "";
-            const truncateHint = filtered.truncated ? "（已限制筛选范围）" : "";
-            metaEl.textContent = `找到 ${{lastResults.length}} 个与“${{term}}”相关的结果${{usedHint}}${{filterHint}}${{truncateHint}}`;
+            metaEl.textContent = `找到 ${{lastResults.length}} 个与“${{term}}”相关的结果${{usedHint}}`;
             await renderBatch();
+
+            const shouldFilter = hasCJK(raw) && raw.length >= 2;
+            if (shouldFilter) {{
+                metaEl.textContent += "（正在精确匹配…）";
+                setTimeout(async () => {{
+                    if (token !== lastSearchToken) {{
+                        return;
+                    }}
+                    const filtered = await filterResults(lastRawResults, raw, tokens);
+                    if (token !== lastSearchToken) {{
+                        return;
+                    }}
+                    if (filtered.filtered) {{
+                        lastResults = filtered.results;
+                        lastRendered = 0;
+                        resultsEl.innerHTML = "";
+                        const filterHint = "（已按中文分词筛选）";
+                        const truncateHint = filtered.truncated ? "（已限制精确筛选范围）" : "";
+                        metaEl.textContent = `找到 ${{lastResults.length}} 个与“${{term}}”相关的结果${{usedHint}}${{filterHint}}${{truncateHint}}`;
+                        await renderBatch();
+                    }} else if (filtered.strict) {{
+                        const truncateHint = filtered.truncated ? "（已限制精确筛选范围）" : "";
+                        metaEl.textContent = `找到 ${{lastResults.length}} 个与“${{term}}”相关的结果${{usedHint}}（未找到更精确结果，显示相关结果）${{truncateHint}}`;
+                    }}
+                }}, 0);
+            }}
+
+            if (segmentPromise && !hadSegmenter) {{
+                segmentPromise.then((loaded) => {{
+                    if (!loaded) {{
+                        return;
+                    }}
+                    if (token !== lastSearchToken) {{
+                        return;
+                    }}
+                    if (input.value.trim() === term.trim()) {{
+                        searchAndRender(term);
+                    }}
+                }});
+            }}
         }};
 
         const debounce = (fn, delay = 250) => {{
@@ -445,7 +524,6 @@ html_content = (
         }};
 
         const init = async () => {{
-            segmenter = await loadSegmenter();
             pagefind = await import(`${{basePath}}pagefind/pagefind.js`);
             await pagefind.options({{
                 baseUrl: basePath,

@@ -140,7 +140,7 @@ def extract_reference(html: str) -> str:
             f'{index}. {ref["text"]} <a href="{ref["url"]}" target="_blank" rel="noopener noreferrer">{ref["url"]}</a>'
             for index, ref in sorted(references.items(), key=lambda item: int(item[0]))
         ]
-        return f'<hr><section><h2>参考</h2>{"<br>".join(reference_list)}</section>'
+        return f'<hr><section data-pagefind-ignore><h2>参考</h2>{"<br>".join(reference_list)}</section>'
 
     return ""
 
@@ -232,7 +232,7 @@ article_template = """<!DOCTYPE html>
     </style>
 </head>
 <body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
-    <p><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
+    <p data-pagefind-ignore><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
     <hr>
     <header>
         <img class="origin_image" src="${"image_url"}"/>
@@ -253,12 +253,12 @@ article_template = """<!DOCTYPE html>
         ${"content"}
         ${"reference"}
         <hr>
-        <div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;">
+        <div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
             <h2>专栏：${"column_title"}</h2>
             <p>${"column_description"}</p>
         </div>
         <hr>
-        <p><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
+        <p data-pagefind-ignore><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
     </article>
     <footer>
         <p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
@@ -434,7 +434,7 @@ answer_template = """<!DOCTYPE html>
     </style>
 </head>
 <body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
-    <p><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
+    <p data-pagefind-ignore><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
     <hr>
     <header>
         <h1><a href="${"url"}" target="_blank" rel="noopener noreferrer">${"title"}</a></h1>
@@ -455,7 +455,7 @@ answer_template = """<!DOCTYPE html>
         ${"content"}
         ${"reference"}
         <hr>
-        <p><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
+        <p data-pagefind-ignore><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
     </article>
     <footer>
         <p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
