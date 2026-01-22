@@ -216,7 +216,7 @@ html_content = (
     <div id="search">
         <label class="search-label" for="search-input">站内搜索</label>
         <input id="search-input" class="search-input" type="search" placeholder="搜索文章和回答..." autocapitalize="none" enterkeyhint="search">
-        <div class="search-helper">提示：已启用<strong>中文分词</strong>（首次中文搜索会加载词库），也支持手动分词（例如：习得性 无助）。</div>
+        <div class="search-helper">提示：已启用<strong>中文分词</strong>（首次中文搜索会加载词库），也支持手动分词（例如：习得性 无助）。结果会先快速展示，再逐步精确筛选。</div>
         <div id="search-meta" class="search-meta"></div>
         <ol id="search-results" class="search-results"></ol>
         <button id="search-more" class="search-more" type="button" style="display: none;">加载更多结果</button>
@@ -249,11 +249,12 @@ html_content = (
         let lastRendered = 0;
         let lastSearchToken = 0;
         const dataCache = new Map();
-        const pageSize = 10;
-        const maxScan = 80;
+        const pageSize = 8;
+        const maxScan = 30;
+        const minCjkLength = 2;
 
         const shouldSegment = (term) =>
-            hasCJK(term) && !/\\s/.test(term) && term.trim().length > 1;
+            hasCJK(term) && !/\\s/.test(term) && term.trim().length >= minCjkLength;
 
         const initSegmenter = () => {{
             const lib = window.segmentit || window.Segmentit;
@@ -398,7 +399,7 @@ html_content = (
         }};
 
         const filterResults = async (results, raw, tokens) => {{
-            const shouldFilter = hasCJK(raw) && raw.length >= 2;
+            const shouldFilter = hasCJK(raw) && raw.length >= minCjkLength;
             if (!shouldFilter) {{
                 return {{ results, filtered: false, truncated: false, strict: false }};
             }}
@@ -427,8 +428,32 @@ html_content = (
             }}
             const token = ++lastSearchToken;
             const hadSegmenter = !!segmenter;
-            const segmentPromise = ensureSegmenter(term);
-            const {{ primary, phrase, raw, tokens }} = normalizeQuery(term);
+            const trimmed = term.trim();
+            if (!trimmed) {{
+                clearResults();
+                return;
+            }}
+            if (shouldSegment(trimmed) && !segmenter) {{
+                metaEl.textContent = "正在加载中文分词库…";
+                const pending = ensureSegmenter(trimmed);
+                if (pending) {{
+                    pending.then((loaded) => {{
+                        if (!loaded) {{
+                            metaEl.textContent = "中文分词库加载失败，使用普通搜索。";
+                        }}
+                        if (token !== lastSearchToken) {{
+                            return;
+                        }}
+                        if (input.value.trim() === trimmed) {{
+                            searchAndRender(trimmed);
+                        }}
+                    }});
+                }}
+                return;
+            }}
+
+            const segmentPromise = ensureSegmenter(trimmed);
+            const {{ primary, phrase, raw, tokens }} = normalizeQuery(trimmed);
             if (!primary) {{
                 clearResults();
                 return;
@@ -474,7 +499,7 @@ html_content = (
             metaEl.textContent = `找到 ${{lastResults.length}} 个与“${{term}}”相关的结果${{usedHint}}`;
             await renderBatch();
 
-            const shouldFilter = hasCJK(raw) && raw.length >= 2;
+            const shouldFilter = hasCJK(raw) && raw.length >= minCjkLength;
             if (shouldFilter) {{
                 metaEl.textContent += "（正在精确匹配…）";
                 setTimeout(async () => {{
@@ -515,7 +540,7 @@ html_content = (
             }}
         }};
 
-        const debounce = (fn, delay = 250) => {{
+        const debounce = (fn, delay = 500) => {{
             let timer;
             return (...args) => {{
                 clearTimeout(timer);
