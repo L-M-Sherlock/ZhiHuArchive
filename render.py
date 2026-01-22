@@ -158,6 +158,8 @@ article_template = """<!DOCTYPE html>
     <meta property="og:image" content="${"image_url"}">
     <meta property="og:description" content="${"excerpt"}">
     <meta name="description" content="${"excerpt"}">
+    <meta data-pagefind-meta="title" content="${"title"}">
+    <meta data-pagefind-meta="image" content="${"image_url"}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${"title"} | ZhiHu Archive">
     <meta name="twitter:description" content="${"excerpt"}">
@@ -362,6 +364,7 @@ answer_template = """<!DOCTYPE html>
     <meta property="og:description" itemprop="description" content="${"excerpt"}">
     <meta property="og:url" content="${"url"}">
     <meta name="description" content="${"excerpt"}">
+    <meta data-pagefind-meta="title" content="${"title"}">
     <link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
     <meta property="twitter:card" content="summary">
     <meta name="twitter:title" content="${"title"} - @${"author"} | ZhiHu Archive">

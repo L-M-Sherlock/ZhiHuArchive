@@ -52,13 +52,84 @@ html_content = (
     <meta property="twitter:card" content="summary">
     <meta name="twitter:title" property="og:title" itemprop="name" content="Thoughts Memo 和 Jarrett Ye 的知乎备份">
     <meta name="twitter:description" property="og:description" itemprop="description" content="Thoughts Memo 和 Jarrett Ye 的知乎文章和回答备份目录">
-    <link rel="stylesheet" href="./pagefind/pagefind-ui.css">
     <style>
         body { max-width: 800px; margin: 0 auto; padding: 20px; }
         .item { margin: 10px 0; }
         .votes { color: #666; font-size: 0.9em; }
         .created_time { color: #999; font-size: 0.9em; }
         #search { margin: 24px 0 20px; }
+        .search-label {
+            display: block;
+            font-size: 0.95em;
+            color: #4b5563;
+            margin-bottom: 6px;
+        }
+        .search-input {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #e5e7eb;
+            border-radius: 10px;
+            font-size: 16px;
+            outline: none;
+            box-sizing: border-box;
+        }
+        .search-input:focus {
+            border-color: #2563eb;
+            box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+        }
+        .search-helper {
+            margin-top: 6px;
+            font-size: 0.85em;
+            color: #6b7280;
+        }
+        .search-helper strong {
+            color: #374151;
+        }
+        .search-meta {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #374151;
+        }
+        .search-results {
+            list-style: none;
+            padding: 0;
+            margin: 12px 0 0;
+        }
+        .search-result {
+            display: flex;
+            gap: 12px;
+            padding: 12px 0;
+            border-bottom: 1px solid #f3f4f6;
+        }
+        .search-result-thumb img {
+            width: 64px;
+            height: 64px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .search-result-title {
+            margin: 0 0 6px;
+            font-size: 1em;
+        }
+        .search-result-excerpt {
+            margin: 0;
+            color: #4b5563;
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+        .search-more {
+            margin-top: 12px;
+            padding: 8px 14px;
+            border: 1px solid #e5e7eb;
+            border-radius: 999px;
+            background: #fff;
+            cursor: pointer;
+            font-size: 0.9em;
+        }
+        .search-more:hover {
+            border-color: #cbd5f5;
+            background: #f8fafc;
+        }
         a {
             color: #2563eb;
             text-decoration: none;
@@ -141,23 +212,254 @@ html_content = (
     <p>RSS: <a href="./feed.xml" target="_blank" rel="noopener noreferrer">Atom Feed</a></p>
     <p>NotebookLM 精选笔记：<a href="https://notebooklm.google.com/notebook/dbe190a1-1122-462d-ab4f-40400d9f1d2a" target="_blank" rel="noopener noreferrer">汉化组文章合集</a></p>
 
-    <div id="search"></div>
-    <script src="./pagefind/pagefind-ui.js"></script>
-    <script>
-        window.addEventListener("DOMContentLoaded", function () {{
+    <div id="search">
+        <label class="search-label" for="search-input">站内搜索</label>
+        <input id="search-input" class="search-input" type="search" placeholder="搜索文章和回答..." autocapitalize="none" enterkeyhint="search">
+        <div class="search-helper">提示：已启用<strong>中文分词</strong>，也支持手动分词（例如：习得性 无助）。</div>
+        <div id="search-meta" class="search-meta"></div>
+        <ol id="search-results" class="search-results"></ol>
+        <button id="search-more" class="search-more" type="button" style="display: none;">加载更多结果</button>
+    </div>
+    <script type="module">
+        const input = document.getElementById("search-input");
+        const metaEl = document.getElementById("search-meta");
+        const resultsEl = document.getElementById("search-results");
+        const moreButton = document.getElementById("search-more");
+
+        const hasCJK = (text) => /[\\u3040-\\u30ff\\u3400-\\u9fff\\uf900-\\ufaff]/.test(text);
+        const SEGMENTIT_CDN = "https://cdn.jsdelivr.net/npm/segmentit@2.0.3/dist/umd/segmentit.js";
+
+        const getBasePath = () => {{
             const url = new URL(window.location.href);
             let basePath = url.pathname;
             if (!basePath.endsWith("/")) {{
                 basePath = basePath.substring(0, basePath.lastIndexOf("/") + 1);
             }}
-            new PagefindUI({{
-                element: "#search",
-                showSubResults: true,
-                bundlePath: basePath + "pagefind/",
-                baseUrl: basePath,
-                translations: {{ placeholder: "搜索文章和回答..." }}
+            return basePath;
+        }};
+
+        const basePath = getBasePath();
+        let pagefind = null;
+        let segmenter = null;
+        let lastResults = [];
+        let lastQuery = "";
+        let lastRendered = 0;
+        const pageSize = 10;
+
+        const initSegmenter = () => {{
+            const lib = window.segmentit || window.Segmentit;
+            if (!lib) {{
+                return null;
+            }}
+            const Segment = lib.Segment || lib.default?.Segment;
+            const useDefault = lib.useDefault || lib.default?.useDefault;
+            if (!Segment || !useDefault) {{
+                return null;
+            }}
+            return useDefault(new Segment());
+        }};
+
+        const loadSegmenter = () =>
+            new Promise((resolve) => {{
+                const existing = initSegmenter();
+                if (existing) {{
+                    resolve(existing);
+                    return;
+                }}
+                const script = document.createElement("script");
+                script.src = SEGMENTIT_CDN;
+                script.async = true;
+                script.onload = () => resolve(initSegmenter());
+                script.onerror = () => resolve(null);
+                document.head.appendChild(script);
             }});
-        }});
+
+        const segmentText = (text) => {{
+            if (!segmenter) {{
+                return [];
+            }}
+            try {{
+                return segmenter
+                    .doSegment(text)
+                    .map((token) => token.w || token.word || "")
+                    .filter((token) => token && token.trim());
+            }} catch (error) {{
+                return [];
+            }}
+        }};
+
+        const normalizeQuery = (term) => {{
+            const trimmed = term.trim();
+            if (!trimmed) {{
+                return {{ primary: "", phrase: "", raw: "", tokens: [] }};
+            }}
+            const hasSpace = /\\s/.test(trimmed);
+            let tokens = [];
+            if (hasCJK(trimmed) && !hasSpace) {{
+                tokens = segmentText(trimmed);
+            }}
+            const longTokens = tokens.filter((token) => token.length > 1);
+            const queryTokens = longTokens.length ? longTokens : tokens;
+            const tokenQuery = queryTokens.length
+                ? queryTokens.map((token) => (token.length > 1 ? `\\"${{token}}\\"` : token)).join(" ")
+                : "";
+            if (hasCJK(trimmed) && !hasSpace) {{
+                const spaced = trimmed.split("").join(" ");
+                return {{ primary: tokenQuery || trimmed, phrase: `\\"${{spaced}}\\"`, raw: trimmed, tokens: queryTokens }};
+            }}
+            return {{ primary: tokenQuery || trimmed, phrase: "", raw: trimmed, tokens: queryTokens }};
+        }};
+
+        const clearResults = () => {{
+            resultsEl.innerHTML = "";
+            metaEl.textContent = "";
+            moreButton.style.display = "none";
+            lastResults = [];
+            lastRendered = 0;
+        }};
+
+        const renderBatch = async () => {{
+            const slice = lastResults.slice(lastRendered, lastRendered + pageSize);
+            const data = await Promise.all(
+                slice.map(async (item) => item.data || (item.data = await item.result.data()))
+            );
+            data.forEach((item) => {{
+                const li = document.createElement("li");
+                li.className = "search-result";
+                const title = item.meta?.title || item.meta?.page_title || item.title || item.url || "未命名";
+                const thumb = item.meta && item.meta.image
+                    ? `<div class=\\"search-result-thumb\\"><img src=\\"${{item.meta.image}}\\" alt=\\"${{title}}\\"></div>`
+                    : "";
+                li.innerHTML = `${{thumb}}<div class=\\"search-result-body\\">
+                    <p class=\\"search-result-title\\"><a href=\\"${{item.url}}\\">${{title}}</a></p>
+                    <p class=\\"search-result-excerpt\\">${{item.excerpt}}</p>
+                </div>`;
+                resultsEl.appendChild(li);
+            }});
+            lastRendered += slice.length;
+            if (lastRendered >= lastResults.length) {{
+                moreButton.style.display = "none";
+            }} else {{
+                moreButton.style.display = "inline-flex";
+            }}
+        }};
+
+        const matchesStrict = (content, raw, tokens) => {{
+            if (!content) {{
+                return false;
+            }}
+            if (raw && content.includes(raw)) {{
+                return true;
+            }}
+            if (tokens && tokens.length) {{
+                return tokens.every((token) => token && content.includes(token));
+            }}
+            return false;
+        }};
+
+        const filterResults = async (results, raw, tokens) => {{
+            const shouldFilter = hasCJK(raw) && raw.length >= 2;
+            if (!shouldFilter) {{
+                return {{ results: results.map((result) => ({{ result }})), filtered: false, truncated: false }};
+            }}
+            const maxScan = 400;
+            const filtered = [];
+            let scanned = 0;
+            for (const result of results) {{
+                if (scanned >= maxScan) {{
+                    break;
+                }}
+                const data = await result.data();
+                scanned += 1;
+                const content = `${{data.title || ""}} ${{data.excerpt || ""}} ${{data.content || ""}}`;
+                if (matchesStrict(content, raw, tokens)) {{
+                    filtered.push({{ result, data }});
+                }}
+            }}
+            if (!filtered.length) {{
+                return {{ results: results.map((result) => ({{ result }})), filtered: false, truncated: scanned < results.length }};
+            }}
+            return {{ results: filtered, filtered: true, truncated: scanned < results.length }};
+        }};
+
+        const searchAndRender = async (term) => {{
+            if (!pagefind) {{
+                return;
+            }}
+            const {{ primary, phrase, raw, tokens }} = normalizeQuery(term);
+            if (!primary) {{
+                clearResults();
+                return;
+            }}
+
+            const candidates = [];
+            if (primary) {{
+                candidates.push(primary);
+            }}
+            if (phrase) {{
+                candidates.push(phrase);
+            }}
+            if (raw && raw !== primary && raw !== phrase) {{
+                candidates.push(raw);
+            }}
+
+            let result = await pagefind.search(primary);
+            let usedQuery = primary;
+
+            for (const candidate of candidates) {{
+                const candidateResult = await pagefind.search(candidate);
+                if (!candidateResult.results.length) {{
+                    continue;
+                }}
+                if (!result.results.length || candidateResult.results.length < result.results.length) {{
+                    result = candidateResult;
+                    usedQuery = candidate;
+                }}
+            }}
+
+            const filtered = await filterResults(result.results, raw, tokens);
+            lastResults = filtered.results;
+            lastRendered = 0;
+            resultsEl.innerHTML = "";
+
+            if (!lastResults.length) {{
+                metaEl.textContent = `没有找到与“${{term}}”相关的结果`;
+                moreButton.style.display = "none";
+                return;
+            }}
+
+            const usedHint = usedQuery && usedQuery !== raw ? "（已自动优化匹配）" : "";
+            const filterHint = filtered.filtered ? "（已按中文分词筛选）" : "";
+            const truncateHint = filtered.truncated ? "（已限制筛选范围）" : "";
+            metaEl.textContent = `找到 ${{lastResults.length}} 个与“${{term}}”相关的结果${{usedHint}}${{filterHint}}${{truncateHint}}`;
+            await renderBatch();
+        }};
+
+        const debounce = (fn, delay = 250) => {{
+            let timer;
+            return (...args) => {{
+                clearTimeout(timer);
+                timer = setTimeout(() => fn(...args), delay);
+            }};
+        }};
+
+        const init = async () => {{
+            segmenter = await loadSegmenter();
+            pagefind = await import(`${{basePath}}pagefind/pagefind.js`);
+            await pagefind.options({{
+                baseUrl: basePath,
+                bundlePath: `${{basePath}}pagefind/`,
+            }});
+            await pagefind.init();
+
+            input.addEventListener("input", debounce((event) => {{
+                lastQuery = event.target.value;
+                searchAndRender(lastQuery);
+            }}));
+            moreButton.addEventListener("click", renderBatch);
+        }};
+
+        init();
     </script>
 
     <div class="tabs">
