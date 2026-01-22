@@ -372,7 +372,7 @@ html_content = (
                     ? `<div class=\\"search-result-thumb\\"><img src=\\"${{item.meta.image}}\\" alt=\\"${{title}}\\"></div>`
                     : "";
                 li.innerHTML = `${{thumb}}<div class=\\"search-result-body\\">
-                    <p class=\\"search-result-title\\"><a href=\\"${{item.url}}\\">${{title}}</a></p>
+                    <p class=\\"search-result-title\\"><a href=\\"${{item.url}}\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">${{title}}</a></p>
                     <p class=\\"search-result-excerpt\\">${{item.excerpt}}</p>
                 </div>`;
                 resultsEl.appendChild(li);
