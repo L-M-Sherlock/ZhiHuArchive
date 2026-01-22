@@ -1,7 +1,10 @@
 import json
+import re
 import shutil
 from pathlib import Path
 from datetime import datetime, timezone
+
+from bs4 import BeautifulSoup
 
 BASE_URL = "https://l-m-sherlock.github.io/ZhiHuArchive"
 
@@ -34,6 +37,360 @@ for file in Path("answer").glob("*.json"):
 # Sort by voteup_count
 articles.sort(key=lambda x: x["voteup_count"], reverse=True)
 answers.sort(key=lambda x: x["voteup_count"], reverse=True)
+
+
+def html_to_text(value: str) -> str:
+    if not value:
+        return ""
+    text = BeautifulSoup(value, "html.parser").get_text(" ", strip=True)
+    return re.sub(r"\s+", " ", text)
+
+
+def build_search_index(articles: list, answers: list) -> list:
+    docs = []
+    for article in articles:
+        docs.append(
+            {
+                "id": f"article-{article['file_stem']}",
+                "url": f"./{article['file_stem']}.html",
+                "title": article.get("title", ""),
+                "excerpt": html_to_text(article.get("excerpt", "")),
+                "content": html_to_text(article.get("content", "")),
+                "image": article.get("image_url", ""),
+                "created": article.get("created", 0),
+                "type": "article",
+            }
+        )
+    for answer in answers:
+        question = answer.get("question", {})
+        question_title = question.get("title", "Untitled")
+        question_detail = html_to_text(question.get("detail", ""))
+        content_text = html_to_text(answer.get("content", ""))
+        docs.append(
+            {
+                "id": f"answer-{answer['file_stem']}",
+                "url": f"./{answer['file_stem']}.html",
+                "title": question_title,
+                "excerpt": html_to_text(answer.get("excerpt", "")),
+                "content": f"{question_detail} {content_text}".strip(),
+                "image": "",
+                "created": answer.get("created_time", 0),
+                "type": "answer",
+            }
+        )
+    return docs
+
+
+search_script = """<script type="module">
+    const input = document.getElementById("search-input");
+    const metaEl = document.getElementById("search-meta");
+    const resultsEl = document.getElementById("search-results");
+    const moreButton = document.getElementById("search-more");
+
+    const hasCJK = (text) => /[\\u3040-\\u30ff\\u3400-\\u9fff\\uf900-\\ufaff]/.test(text);
+
+    const getBasePath = () => {
+        const url = new URL(window.location.href);
+        let basePath = url.pathname;
+        if (!basePath.endsWith("/")) {
+            basePath = basePath.substring(0, basePath.lastIndexOf("/") + 1);
+        }
+        return basePath;
+    };
+
+    const basePath = getBasePath();
+    const indexUrl = basePath + "search-index.json";
+    const segmentitScript = basePath + "segmentit.js";
+
+    let segmenter = null;
+    let segmenterPromise = null;
+    let indexData = null;
+    let indexPromise = null;
+    let lastResults = [];
+    let lastRendered = 0;
+    let lastSearchToken = 0;
+    const pageSize = 10;
+    const maxResults = 200;
+    const minCjkLength = 2;
+
+    const shouldSegment = (term) =>
+        hasCJK(term) && !/\\s/.test(term) && term.trim().length >= minCjkLength;
+
+    const initSegmenter = () => {
+        const lib = window.segmentit || window.Segmentit;
+        if (!lib) {
+            return null;
+        }
+        const Segment = lib.Segment || (lib.default && lib.default.Segment);
+        const useDefault = lib.useDefault || (lib.default && lib.default.useDefault);
+        if (!Segment || !useDefault) {
+            return null;
+        }
+        return useDefault(new Segment());
+    };
+
+    const loadSegmenter = () =>
+        new Promise((resolve) => {
+            const existing = initSegmenter();
+            if (existing) {
+                resolve(existing);
+                return;
+            }
+            const script = document.createElement("script");
+            script.src = segmentitScript;
+            script.async = true;
+            script.onload = () => resolve(initSegmenter());
+            script.onerror = () => resolve(null);
+            document.head.appendChild(script);
+        });
+
+    const ensureSegmenter = (term) => {
+        if (!shouldSegment(term)) {
+            return null;
+        }
+        if (segmenter) {
+            return Promise.resolve(segmenter);
+        }
+        if (!segmenterPromise) {
+            segmenterPromise = loadSegmenter().then((loaded) => {
+                segmenter = loaded;
+                return loaded;
+            });
+        }
+        return segmenterPromise;
+    };
+
+    const segmentText = (text) => {
+        if (!segmenter) {
+            return [];
+        }
+        try {
+            return segmenter
+                .doSegment(text)
+                .map((token) => token.w || token.word || "")
+                .filter((token) => token && token.trim());
+        } catch (error) {
+            return [];
+        }
+    };
+
+    const ensureIndex = () => {
+        if (indexData) {
+            return Promise.resolve(indexData);
+        }
+        if (!indexPromise) {
+            indexPromise = fetch(indexUrl)
+                .then((response) => response.json())
+                .then((data) => {
+                    indexData = data.map((doc) => {
+                        const title = doc.title || "";
+                        const excerpt = doc.excerpt || "";
+                        const content = doc.content || "";
+                        return {
+                            ...doc,
+                            titleLower: title.toLowerCase(),
+                            searchText: (title + " " + excerpt + " " + content).toLowerCase(),
+                        };
+                    });
+                    return indexData;
+                });
+        }
+        return indexPromise;
+    };
+
+    const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\\]\\\\]/g, "\\$&");
+    const escapeHtml = (value) =>
+        value
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#39;");
+
+    const buildQuery = (term) => {
+        const trimmed = term.trim();
+        const lower = trimmed.toLowerCase();
+        const phrases = [];
+        const phraseRegex = /"([^"]+)"/g;
+        let remaining = trimmed;
+        let match;
+        while ((match = phraseRegex.exec(trimmed)) !== null) {
+            if (match[1]) {
+                phrases.push(match[1]);
+            }
+        }
+        if (phrases.length) {
+            remaining = trimmed.replace(phraseRegex, " ").trim();
+        }
+        let tokens = remaining ? remaining.split(/\\s+/).filter(Boolean) : [];
+        if (!tokens.length && shouldSegment(trimmed) && segmenter) {
+            tokens = segmentText(trimmed);
+        }
+        if (!tokens.length && trimmed) {
+            tokens = [trimmed];
+        }
+        const tokensLower = tokens.map((token) => token.toLowerCase());
+        const phrasesLower = phrases.map((phrase) => phrase.toLowerCase());
+        const highlightTerms = [...phrasesLower, ...tokensLower]
+            .filter((value) => value && value.length >= minCjkLength)
+            .slice(0, 8);
+        return { raw: trimmed, lower, tokens: tokensLower, phrases: phrasesLower, highlights: highlightTerms };
+    };
+
+    const matchesDoc = (doc, query) => {
+        const text = doc.searchText || "";
+        if (query.phrases.length && query.phrases.some((phrase) => !text.includes(phrase))) {
+            return false;
+        }
+        if (query.tokens.length && query.tokens.some((token) => !text.includes(token))) {
+            return false;
+        }
+        return true;
+    };
+
+    const scoreDoc = (doc, query) => {
+        let score = 0;
+        const title = doc.titleLower || "";
+        if (query.raw && title.includes(query.lower)) {
+            score += 100;
+        }
+        query.phrases.forEach((phrase) => {
+            if (title.includes(phrase)) {
+                score += 60;
+            } else if (doc.searchText.includes(phrase)) {
+                score += 20;
+            }
+        });
+        query.tokens.forEach((token) => {
+            if (!token) {
+                return;
+            }
+            if (title.includes(token)) {
+                score += 20;
+            } else if (doc.searchText.includes(token)) {
+                score += 4;
+            }
+        });
+        return score;
+    };
+
+    const highlightText = (text, terms) => {
+        if (!terms.length) {
+            return escapeHtml(text);
+        }
+        let output = escapeHtml(text);
+        terms.forEach((term) => {
+            if (!term) {
+                return;
+            }
+            const regex = new RegExp(escapeRegExp(term), "gi");
+            output = output.replace(regex, "<mark>$&</mark>");
+        });
+        return output;
+    };
+
+    const clearResults = () => {
+        resultsEl.innerHTML = "";
+        metaEl.textContent = "";
+        moreButton.style.display = "none";
+        lastResults = [];
+        lastRendered = 0;
+    };
+
+    const renderBatch = () => {
+        const slice = lastResults.slice(lastRendered, lastRendered + pageSize);
+        slice.forEach((item) => {
+            const doc = item.doc;
+            const li = document.createElement("li");
+            li.className = "search-result";
+            const title = doc.title || doc.url || "未命名";
+            const thumb = doc.image
+                ? `<div class="search-result-thumb"><img src="${doc.image}" alt="${title}"></div>`
+                : "";
+            const snippetSource = doc.excerpt || doc.content || "";
+            const snippet = snippetSource.length > 220 ? snippetSource.slice(0, 220) + "..." : snippetSource;
+            const highlightedSnippet = highlightText(snippet, item.highlights);
+            li.innerHTML = `${thumb}<div class="search-result-body">
+                <p class="search-result-title"><a href="${doc.url}" target="_blank" rel="noopener noreferrer">${title}</a></p>
+                <p class="search-result-excerpt">${highlightedSnippet}</p>
+            </div>`;
+            resultsEl.appendChild(li);
+        });
+        lastRendered += slice.length;
+        if (lastRendered >= lastResults.length) {
+            moreButton.style.display = "none";
+        } else {
+            moreButton.style.display = "inline-flex";
+        }
+    };
+
+    const searchAndRender = async (term) => {
+        const token = ++lastSearchToken;
+        const trimmed = term.trim();
+        if (!trimmed) {
+            clearResults();
+            return;
+        }
+        metaEl.textContent = "正在加载索引…";
+        const docs = await ensureIndex();
+        if (token !== lastSearchToken) {
+            return;
+        }
+        const segmentPromise = ensureSegmenter(trimmed);
+        const query = buildQuery(trimmed);
+
+        const matches = [];
+        for (const doc of docs) {
+            if (matchesDoc(doc, query)) {
+                matches.push({ doc, score: scoreDoc(doc, query), highlights: query.highlights });
+            }
+        }
+        matches.sort((a, b) => (b.score - a.score) || (b.doc.created - a.doc.created));
+        lastResults = matches.slice(0, maxResults);
+        lastRendered = 0;
+        resultsEl.innerHTML = "";
+
+        if (!lastResults.length) {
+            metaEl.textContent = `没有找到与“${trimmed}”相关的结果`;
+            moreButton.style.display = "none";
+        } else {
+            metaEl.textContent = `找到 ${lastResults.length} 个与“${trimmed}”相关的结果`;
+            renderBatch();
+        }
+
+        if (segmentPromise && !segmenter) {
+            segmentPromise.then((loaded) => {
+                if (!loaded) {
+                    return;
+                }
+                if (token !== lastSearchToken) {
+                    return;
+                }
+                if (input.value.trim() === trimmed) {
+                    searchAndRender(trimmed);
+                }
+            });
+        }
+    };
+
+    const debounce = (fn, delay = 300) => {
+        let timer;
+        return (...args) => {
+            clearTimeout(timer);
+            timer = setTimeout(() => fn(...args), delay);
+        };
+    };
+
+    const init = () => {
+        input.addEventListener("input", debounce((event) => {
+            searchAndRender(event.target.value);
+        }));
+        moreButton.addEventListener("click", renderBatch);
+    };
+
+    init();
+</script>
+"""
 
 # Generate HTML content with tabs
 html_content = (
@@ -216,355 +573,12 @@ html_content = (
     <div id="search">
         <label class="search-label" for="search-input">站内搜索</label>
         <input id="search-input" class="search-input" type="search" placeholder="搜索文章和回答..." autocapitalize="none" enterkeyhint="search">
-        <div class="search-helper">提示：已启用<strong>中文分词</strong>（首次中文搜索会加载词库），也支持手动分词（例如：习得性 无助）。结果会先快速展示，再逐步精确筛选。</div>
+        <div class="search-helper">提示：首次搜索会加载索引，中文搜索会加载分词库；也支持手动分词（例如：习得性 无助）。</div>
         <div id="search-meta" class="search-meta"></div>
         <ol id="search-results" class="search-results"></ol>
         <button id="search-more" class="search-more" type="button" style="display: none;">加载更多结果</button>
     </div>
-    <script type="module">
-        const input = document.getElementById("search-input");
-        const metaEl = document.getElementById("search-meta");
-        const resultsEl = document.getElementById("search-results");
-        const moreButton = document.getElementById("search-more");
-
-        const hasCJK = (text) => /[\\u3040-\\u30ff\\u3400-\\u9fff\\uf900-\\ufaff]/.test(text);
-
-        const getBasePath = () => {{
-            const url = new URL(window.location.href);
-            let basePath = url.pathname;
-            if (!basePath.endsWith("/")) {{
-                basePath = basePath.substring(0, basePath.lastIndexOf("/") + 1);
-            }}
-            return basePath;
-        }};
-
-        const basePath = getBasePath();
-        const segmentitScript = `${{basePath}}segmentit.js`;
-        let pagefind = null;
-        let segmenter = null;
-        let segmenterPromise = null;
-        let lastResults = [];
-        let lastRawResults = [];
-        let lastQuery = "";
-        let lastRendered = 0;
-        let lastSearchToken = 0;
-        const dataCache = new Map();
-        const pageSize = 8;
-        const maxScan = 30;
-        const minCjkLength = 2;
-
-        const shouldSegment = (term) =>
-            hasCJK(term) && !/\\s/.test(term) && term.trim().length >= minCjkLength;
-
-        const initSegmenter = () => {{
-            const lib = window.segmentit || window.Segmentit;
-            if (!lib) {{
-                return null;
-            }}
-            const Segment = lib.Segment || lib.default?.Segment;
-            const useDefault = lib.useDefault || lib.default?.useDefault;
-            if (!Segment || !useDefault) {{
-                return null;
-            }}
-            return useDefault(new Segment());
-        }};
-
-        const loadSegmenter = () =>
-            new Promise((resolve) => {{
-                const existing = initSegmenter();
-                if (existing) {{
-                    resolve(existing);
-                    return;
-                }}
-                const script = document.createElement("script");
-                script.src = segmentitScript;
-                script.async = true;
-                script.onload = () => resolve(initSegmenter());
-                script.onerror = () => resolve(null);
-                document.head.appendChild(script);
-            }});
-
-        const ensureSegmenter = (term) => {{
-            if (!shouldSegment(term)) {{
-                return null;
-            }}
-            if (segmenter) {{
-                return Promise.resolve(segmenter);
-            }}
-            if (!segmenterPromise) {{
-                segmenterPromise = loadSegmenter().then((loaded) => {{
-                    segmenter = loaded;
-                    return loaded;
-                }});
-            }}
-            return segmenterPromise;
-        }};
-
-        const segmentText = (text) => {{
-            if (!segmenter) {{
-                return [];
-            }}
-            try {{
-                return segmenter
-                    .doSegment(text)
-                    .map((token) => token.w || token.word || "")
-                    .filter((token) => token && token.trim());
-            }} catch (error) {{
-                return [];
-            }}
-        }};
-
-        const normalizeQuery = (term) => {{
-            const trimmed = term.trim();
-            if (!trimmed) {{
-                return {{ primary: "", phrase: "", raw: "", tokens: [] }};
-            }}
-            const hasSpace = /\\s/.test(trimmed);
-            let tokens = [];
-            if (shouldSegment(trimmed) && segmenter) {{
-                tokens = segmentText(trimmed);
-            }}
-            const longTokens = tokens.filter((token) => token.length > 1);
-            const queryTokens = longTokens.length ? longTokens : tokens;
-            const tokenQuery = queryTokens.length
-                ? queryTokens.map((token) => (token.length > 1 ? `\\"${{token}}\\"` : token)).join(" ")
-                : "";
-            if (hasCJK(trimmed) && !hasSpace) {{
-                const spaced = trimmed.split("").join(" ");
-                return {{ primary: tokenQuery || trimmed, phrase: `\\"${{spaced}}\\"`, raw: trimmed, tokens: queryTokens }};
-            }}
-            return {{ primary: tokenQuery || trimmed, phrase: "", raw: trimmed, tokens: queryTokens }};
-        }};
-
-        const clearResults = () => {{
-            resultsEl.innerHTML = "";
-            metaEl.textContent = "";
-            moreButton.style.display = "none";
-            lastResults = [];
-            lastRendered = 0;
-        }};
-
-        const getData = async (wrapper) => {{
-            if (wrapper.data) {{
-                return wrapper.data;
-            }}
-            const cacheKey = wrapper.result.url || wrapper.result.id;
-            if (cacheKey && dataCache.has(cacheKey)) {{
-                wrapper.data = dataCache.get(cacheKey);
-                return wrapper.data;
-            }}
-            const data = await wrapper.result.data();
-            wrapper.data = data;
-            if (cacheKey) {{
-                dataCache.set(cacheKey, data);
-            }}
-            return data;
-        }};
-
-        const renderBatch = async () => {{
-            const slice = lastResults.slice(lastRendered, lastRendered + pageSize);
-            const data = await Promise.all(slice.map((item) => getData(item)));
-            data.forEach((item) => {{
-                const li = document.createElement("li");
-                li.className = "search-result";
-                const title = item.meta?.title || item.meta?.page_title || item.title || item.url || "未命名";
-                const thumb = item.meta && item.meta.image
-                    ? `<div class=\\"search-result-thumb\\"><img src=\\"${{item.meta.image}}\\" alt=\\"${{title}}\\"></div>`
-                    : "";
-                li.innerHTML = `${{thumb}}<div class=\\"search-result-body\\">
-                    <p class=\\"search-result-title\\"><a href=\\"${{item.url}}\\" target=\\"_blank\\" rel=\\"noopener noreferrer\\">${{title}}</a></p>
-                    <p class=\\"search-result-excerpt\\">${{item.excerpt}}</p>
-                </div>`;
-                resultsEl.appendChild(li);
-            }});
-            lastRendered += slice.length;
-            if (lastRendered >= lastResults.length) {{
-                moreButton.style.display = "none";
-            }} else {{
-                moreButton.style.display = "inline-flex";
-            }}
-        }};
-
-        const matchesStrict = (content, raw, tokens) => {{
-            if (!content) {{
-                return false;
-            }}
-            if (raw && content.includes(raw)) {{
-                return true;
-            }}
-            if (tokens && tokens.length) {{
-                return tokens.every((token) => token && content.includes(token));
-            }}
-            return false;
-        }};
-
-        const filterResults = async (results, raw, tokens) => {{
-            const shouldFilter = hasCJK(raw) && raw.length >= minCjkLength;
-            if (!shouldFilter) {{
-                return {{ results, filtered: false, truncated: false, strict: false }};
-            }}
-            const filtered = [];
-            let scanned = 0;
-            for (const wrapper of results) {{
-                if (scanned >= maxScan) {{
-                    break;
-                }}
-                const data = await getData(wrapper);
-                scanned += 1;
-                const content = `${{data.title || ""}} ${{data.excerpt || ""}} ${{data.content || ""}}`;
-                if (matchesStrict(content, raw, tokens)) {{
-                    filtered.push({{ result: wrapper.result, data }});
-                }}
-            }}
-            if (!filtered.length) {{
-                return {{ results, filtered: false, truncated: scanned < results.length, strict: true }};
-            }}
-            return {{ results: filtered, filtered: true, truncated: scanned < results.length, strict: true }};
-        }};
-
-        const searchAndRender = async (term) => {{
-            if (!pagefind) {{
-                return;
-            }}
-            const token = ++lastSearchToken;
-            const hadSegmenter = !!segmenter;
-            const trimmed = term.trim();
-            if (!trimmed) {{
-                clearResults();
-                return;
-            }}
-            if (shouldSegment(trimmed) && !segmenter) {{
-                metaEl.textContent = "正在加载中文分词库…";
-                const pending = ensureSegmenter(trimmed);
-                if (pending) {{
-                    pending.then((loaded) => {{
-                        if (!loaded) {{
-                            metaEl.textContent = "中文分词库加载失败，使用普通搜索。";
-                        }}
-                        if (token !== lastSearchToken) {{
-                            return;
-                        }}
-                        if (input.value.trim() === trimmed) {{
-                            searchAndRender(trimmed);
-                        }}
-                    }});
-                }}
-                return;
-            }}
-
-            const segmentPromise = ensureSegmenter(trimmed);
-            const {{ primary, phrase, raw, tokens }} = normalizeQuery(trimmed);
-            if (!primary) {{
-                clearResults();
-                return;
-            }}
-
-            const candidates = [];
-            if (primary) {{
-                candidates.push(primary);
-            }}
-            if (phrase) {{
-                candidates.push(phrase);
-            }}
-            if (raw && raw !== primary && raw !== phrase) {{
-                candidates.push(raw);
-            }}
-
-            let result = await pagefind.search(primary);
-            let usedQuery = primary;
-
-            for (const candidate of candidates) {{
-                const candidateResult = await pagefind.search(candidate);
-                if (!candidateResult.results.length) {{
-                    continue;
-                }}
-                if (!result.results.length || candidateResult.results.length < result.results.length) {{
-                    result = candidateResult;
-                    usedQuery = candidate;
-                }}
-            }}
-
-            lastRawResults = result.results.map((item) => ({{ result: item }}));
-            lastResults = lastRawResults;
-            lastRendered = 0;
-            resultsEl.innerHTML = "";
-
-            if (!lastResults.length) {{
-                metaEl.textContent = `没有找到与“${{term}}”相关的结果`;
-                moreButton.style.display = "none";
-                return;
-            }}
-
-            const usedHint = usedQuery && usedQuery !== raw ? "（已自动优化匹配）" : "";
-            metaEl.textContent = `找到 ${{lastResults.length}} 个与“${{term}}”相关的结果${{usedHint}}`;
-            await renderBatch();
-
-            const shouldFilter = hasCJK(raw) && raw.length >= minCjkLength;
-            if (shouldFilter) {{
-                metaEl.textContent += "（正在精确匹配…）";
-                setTimeout(async () => {{
-                    if (token !== lastSearchToken) {{
-                        return;
-                    }}
-                    const filtered = await filterResults(lastRawResults, raw, tokens);
-                    if (token !== lastSearchToken) {{
-                        return;
-                    }}
-                    if (filtered.filtered) {{
-                        lastResults = filtered.results;
-                        lastRendered = 0;
-                        resultsEl.innerHTML = "";
-                        const filterHint = "（已按中文分词筛选）";
-                        const truncateHint = filtered.truncated ? "（已限制精确筛选范围）" : "";
-                        metaEl.textContent = `找到 ${{lastResults.length}} 个与“${{term}}”相关的结果${{usedHint}}${{filterHint}}${{truncateHint}}`;
-                        await renderBatch();
-                    }} else if (filtered.strict) {{
-                        const truncateHint = filtered.truncated ? "（已限制精确筛选范围）" : "";
-                        metaEl.textContent = `找到 ${{lastResults.length}} 个与“${{term}}”相关的结果${{usedHint}}（未找到更精确结果，显示相关结果）${{truncateHint}}`;
-                    }}
-                }}, 0);
-            }}
-
-            if (segmentPromise && !hadSegmenter) {{
-                segmentPromise.then((loaded) => {{
-                    if (!loaded) {{
-                        return;
-                    }}
-                    if (token !== lastSearchToken) {{
-                        return;
-                    }}
-                    if (input.value.trim() === term.trim()) {{
-                        searchAndRender(term);
-                    }}
-                }});
-            }}
-        }};
-
-        const debounce = (fn, delay = 500) => {{
-            let timer;
-            return (...args) => {{
-                clearTimeout(timer);
-                timer = setTimeout(() => fn(...args), delay);
-            }};
-        }};
-
-        const init = async () => {{
-            pagefind = await import(`${{basePath}}pagefind/pagefind.js`);
-            await pagefind.options({{
-                baseUrl: basePath,
-                bundlePath: `${{basePath}}pagefind/`,
-            }});
-            await pagefind.init();
-
-            input.addEventListener("input", debounce((event) => {{
-                lastQuery = event.target.value;
-                searchAndRender(lastQuery);
-            }}));
-            moreButton.addEventListener("click", renderBatch);
-        }};
-
-        init();
-    </script>
+    {search_script}
 
     <div class="tabs">
         <button class="tab-button active" onclick="openTab(event, 'articles-tab')">文章 ({len(articles)})</button>
@@ -632,6 +646,10 @@ if asset_src.exists():
 
 with open("./html/index.html", "w", encoding="utf-8") as f:
     f.write(html_content)
+
+search_docs = build_search_index(articles, answers)
+with open("./html/search-index.json", "w", encoding="utf-8") as f:
+    json.dump(search_docs, f, ensure_ascii=False)
 
 
 def generate_sitemap(articles, answers):
