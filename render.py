@@ -247,7 +247,7 @@ article_template = """<!DOCTYPE html>
         <time datetime="${"created_time"}">发表于 ${"created_time_formatted"}</time>
         <p rel="stats"style="color: #999; font-size: 0.9em;">${"voteup_count"} 👍 / ${"comment_count"} 💬</p>
     </header>
-    <article>
+    <article data-pagefind-body>
         ${"content"}
         ${"reference"}
         <hr>
@@ -447,7 +447,7 @@ answer_template = """<!DOCTYPE html>
         <time datetime="${"created_time"}">发表于 ${"created_time_formatted"}</time>
         <p rel="stats"style="color: #999; font-size: 0.9em;">${"voteup_count"} 👍 / ${"comment_count"} 💬</p>
     </header>
-    <article>
+    <article data-pagefind-body>
         ${"question"}
         ${"content"}
         ${"reference"}
