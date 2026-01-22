@@ -18,6 +18,11 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
           
       - name: Install dependencies
         run: |
@@ -28,6 +33,10 @@ jobs:
         run: |
           python render.py
           python summary.py
+
+      - name: Build search index (Pagefind)
+        run: |
+          npx --yes pagefind@latest --site ./html
           
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

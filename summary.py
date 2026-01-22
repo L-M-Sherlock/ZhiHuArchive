@@ -52,11 +52,13 @@ html_content = (
     <meta property="twitter:card" content="summary">
     <meta name="twitter:title" property="og:title" itemprop="name" content="Thoughts Memo 和 Jarrett Ye 的知乎备份">
     <meta name="twitter:description" property="og:description" itemprop="description" content="Thoughts Memo 和 Jarrett Ye 的知乎文章和回答备份目录">
+    <link rel="stylesheet" href="./pagefind/pagefind-ui.css">
     <style>
         body { max-width: 800px; margin: 0 auto; padding: 20px; }
         .item { margin: 10px 0; }
         .votes { color: #666; font-size: 0.9em; }
         .created_time { color: #999; font-size: 0.9em; }
+        #search { margin: 24px 0 20px; }
         a {
             color: #2563eb;
             text-decoration: none;
@@ -138,6 +140,25 @@ html_content = (
     </p>
     <p>RSS: <a href="./feed.xml" target="_blank" rel="noopener noreferrer">Atom Feed</a></p>
     <p>NotebookLM 精选笔记：<a href="https://notebooklm.google.com/notebook/dbe190a1-1122-462d-ab4f-40400d9f1d2a" target="_blank" rel="noopener noreferrer">汉化组文章合集</a></p>
+
+    <div id="search"></div>
+    <script src="./pagefind/pagefind-ui.js"></script>
+    <script>
+        window.addEventListener("DOMContentLoaded", function () {{
+            const url = new URL(window.location.href);
+            let basePath = url.pathname;
+            if (!basePath.endsWith("/")) {{
+                basePath = basePath.substring(0, basePath.lastIndexOf("/") + 1);
+            }}
+            new PagefindUI({{
+                element: "#search",
+                showSubResults: true,
+                bundlePath: basePath + "pagefind/",
+                baseUrl: basePath,
+                translations: {{ placeholder: "搜索文章和回答..." }}
+            }});
+        }});
+    </script>
 
     <div class="tabs">
         <button class="tab-button active" onclick="openTab(event, 'articles-tab')">文章 ({len(articles)})</button>
