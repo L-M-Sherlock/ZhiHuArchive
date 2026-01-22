@@ -129,7 +129,7 @@ html_content = (
         }
     </script>
 </head>
-<body>
+<body data-pagefind-ignore="all">
 """
     + f"""
     <h1>Thoughts Memo 和 Jarrett Ye 的知乎备份</h1>
