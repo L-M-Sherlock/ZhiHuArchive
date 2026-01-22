@@ -232,7 +232,7 @@ article_template = """<!DOCTYPE html>
     </style>
 </head>
 <body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
-    <p data-pagefind-ignore><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
+    <p data-pagefind-ignore><a href="./">← 返回目录</a></p>
     <hr>
     <header>
         <img class="origin_image" src="${"image_url"}"/>
@@ -258,7 +258,7 @@ article_template = """<!DOCTYPE html>
             <p>${"column_description"}</p>
         </div>
         <hr>
-        <p data-pagefind-ignore><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
+        <p data-pagefind-ignore><a href="./">← 返回目录</a></p>
     </article>
     <footer>
         <p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
@@ -434,7 +434,7 @@ answer_template = """<!DOCTYPE html>
     </style>
 </head>
 <body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
-    <p data-pagefind-ignore><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
+    <p data-pagefind-ignore><a href="./">← 返回目录</a></p>
     <hr>
     <header>
         <h1><a href="${"url"}" target="_blank" rel="noopener noreferrer">${"title"}</a></h1>
@@ -455,7 +455,7 @@ answer_template = """<!DOCTYPE html>
         ${"content"}
         ${"reference"}
         <hr>
-        <p data-pagefind-ignore><a href="./" target="_blank" rel="noopener noreferrer">← 返回目录</a></p>
+        <p data-pagefind-ignore><a href="./">← 返回目录</a></p>
     </article>
     <footer>
         <p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
