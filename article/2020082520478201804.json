@@ -1,0 +1,344 @@
+{
+  "id": "2020082520478201804",
+  "title": "记忆模型的数学形式化",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/2020082520478201804",
+  "image_url": "",
+  "title_image": "",
+  "excerpt": "序言我们在此引入一种针对间隔重复记忆模型的数学形式化定义。记忆模型用于估计你有多大概率能够回忆起 Anki 牌组中每张卡片的答案。这种形式化不仅适用于诸如 SM-2 和 FSRS 等传统模型，也适用于未来基于内容感知（content-aware）的记忆模型。它将作为我…",
+  "created": 1774405501,
+  "updated": 1774405501,
+  "author": {
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+    "uid": "1521893281407864832",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "JarrettYe",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+    "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+    "name": "Jarrett Ye",
+    "is_advertiser": false,
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "gender": 1,
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
+    "badge": [],
+    "badge_v2": {
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "merged_badges": [],
+      "detail_badges": [],
+      "icon": "",
+      "night_icon": ""
+    },
+    "exposed_medal": {
+      "medal_id": "1463836052717301760",
+      "medal_name": "知「势」之星",
+      "avatar_url": "https://picx.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_r.png?source=172ae18b",
+      "mini_avatar_url": "https://pic1.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_l.png?source=172ae18b",
+      "description": "「知势榜」上榜答主即可获得",
+      "medal_avatar_frame": ""
+    }
+  },
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 0,
+  "image_height": 0,
+  "content": "<h2>序言</h2><p data-pid=\"p6e22MKV\">我们在此引入一种针对间隔重复记忆模型的数学形式化定义。记忆模型用于估计你有多大概率能够回忆起 Anki 牌组中每张卡片的答案。这种形式化不仅适用于诸如 SM-2 和 FSRS 等传统模型，也适用于未来基于内容感知（content-aware）的记忆模型。它将作为我们后续发布关于如何评估记忆模型的系列文章的理论基础，那些文章将探讨如何回答诸如「FSRS 到底好不好？」以及「FSRS 究竟比 SM-2 好多少？」等问题。</p><p data-pid=\"3F3zaJ5q\">在《<a href=\"https://link.zhihu.com/?target=https%3A//www.giacomoran.com/blog/content-aware-sr/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">基于内容感知的间隔重复</a><sup data-text=\"感知内容的间隔重复\" data-url=\"https://zhuanlan.zhihu.com/p/1941069300833190267\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>》一文中，我（Giacomo）对间隔重复系统的两个核心组件进行了区分：<b>记忆模型</b>负责预测学生在任何给定时刻记住某张卡片的概率；而<b>复习调度器</b>则在综合考虑记忆模型预测的基础上，为你应当在何时实际去复习每张卡片提供建议。</p><p data-pid=\"DGXNrrSw\">我们认为，将这两个关注点剥离开来，有助于对它们各自进行更清晰的推理。目前我们的研究重心放在了记忆模型上，因为调度器的性能上限从根本上是由记忆模型的质量所决定的。</p><p data-pid=\"pIbzzNpV\">一般来说，我们可以将间隔重复系统视为在<b>提取提示（Retrieval Prompts）</b>上运行的系统，学生需要根据这些提示试图回忆起对应的<b>答案（Answers）</b>。大多数系统都采用了抽认卡（flashcard）的比喻，其中每一个（提取提示，答案）对都由一张电子抽认卡来表示。为了简便起见，在下文中我们将统一使用<b>卡片（card）</b>一词来指代这种（提取提示，答案）对。</p><h2>引言</h2><p data-pid=\"N4Gwv6Xe\">对于学生牌组中的任何一张<b>卡片</b>，<b>记忆模型</b>都要回答这样一个核心问题：考虑到我们对学生所知的一切（包括其历史复习记录），该学生在当下这一刻正确回忆起<b>答案</b>的概率有多大？</p><p data-pid=\"yCOlhCvA\">我们将这种概率称为一张卡片的<b>可提取性（retrievability）</b>：即学生在某个特定时间点成功回忆起答案的概率。其严格的数学形式化目标如下：</p><p data-pid=\"Mg33kPZS\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=%5Ctext%7Bretrievability%7D+%3D+%5Cmathbb%7BP%7D%28G+%3D+1+%5Cmid+%5Ctext%7Bstudent%2C+card%2C+history%2C+time%7D%29\" alt=\"\\text{retrievability} = \\mathbb{P}(G = 1 \\mid \\text{student, card, history, time})\"/></p><p data-pid=\"wcigzNko\">其中 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=G+%5Cin+%5C%7B0%2C+1%5C%7D\" alt=\"G \\in \\{0, 1\\}\"/> 表示实际的回忆结果（1 代表回忆成功，0 代表遗忘），其服从伯努利分布：<img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=G+%5Cmid+s%2C+c%2C+h%2C+t+%5Csim+%5Ctext%7BBernoulli%7D%28%5Ctext%7Bretrievability%7D%29\" alt=\"G \\mid s, c, h, t \\sim \\text{Bernoulli}(\\text{retrievability})\"/>。在这种形式化定义下，记忆模型会为每一个（学生、卡片、历史记录、时间）元组输出一个介于 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5B0%2C+1%5D\" alt=\"[0, 1]\"/> 之间的单一概率值 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=p\" alt=\"p\"/>。</p><p data-pid=\"6glwNeFy\">你当然可以把它简单地看作是一个二元分类问题——学生到底能记住还是记不住？——但这会白白丢掉大量有价值的信号。一个分类器只能输出一条僵硬的决策边界：比如当时间流逝到某个临界点 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cdelta%5E%2A\" alt=\"\\delta^*\"/> 时，预测结果直接从「能记住」瞬间翻转为「记不住」，而下游的调度器只能拿到这么一个干瘪的结论。如果一个调度器想要在卡片的可提取性恰好下降到 90%（或其他任何特定阈值）时安排复习，它是绝对无法从一个二元分类标签中提取出这种信息的。只有经过良好校准的概率估计，才能让调度器在 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=t+%3E+%5Ctext%7Bnow%7D\" alt=\"t &gt; \\text{now}\"/> 的未来时间轴上进行扫描，并在遗忘曲线的任意一点上读取出精确的可提取性，从而实现更加精细、智能的调度策略。</p><p data-pid=\"YsCOq2p0\">Anki 提供了四个评分按钮——重来（Again）、困难（Hard）、良好（Good）、简单（Easy）——它们捕获了关于回忆信心程度的更详细信息。在我们的这种形式化中，我们对其进行了二值化处理：对应于 Again（完全遗忘），<img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=G+%3D+0\" alt=\"G = 0\"/>；而对应于任何形式的成功回忆（Hard、Good 或 Easy），<img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=G+%3D+1\" alt=\"G = 1\"/>。那些细粒度的具体评分会被保留在观察项 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=o\" alt=\"o\"/> 中，这样，依赖这些细粒度评分的模型依然可以使用它们，而不会将它们与绝对的「是否成功回忆」的二元结果混为一谈。</p><h2>形式化定义</h2><p data-pid=\"UFFdY18Z\">让我们先来定义一下涉及到的各个数学空间：</p><ul><li data-pid=\"w1nx5z9L\"><img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cmathcal%7BS%7D\" alt=\"\\mathcal{S}\"/>：学生集合</li><li data-pid=\"xEDTU3gq\"><img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cmathcal%7BC%7D\" alt=\"\\mathcal{C}\"/>：卡片集合</li><li data-pid=\"qUbnDA3v\"><img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cmathcal%7BG%7D+%3D+%5C%7B0%2C+1%5C%7D\" alt=\"\\mathcal{G} = \\{0, 1\\}\"/>：评分空间（1 代表成功回忆）</li><li data-pid=\"kCvv0yFj\"><img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cmathcal%7BT%7D+%3D+%5Cmathbb%7BR%7D%5E%2B\" alt=\"\\mathcal{T} = \\mathbb{R}^+\"/>：时间，以某个固定时间起点（如 UNIX 纪元）算起的秒数表示</li><li data-pid=\"UlbrtLns\"><img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cmathcal%7BH%7D\" alt=\"\\mathcal{H}\"/>：历史记录空间，它是一个包含了单次复习观察记录 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%28c%2C+t%2C+g%2C+o%29\" alt=\"(c, t, g, o)\"/> 的有序序列。其中 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=c+%5Cin+%5Cmathcal%7BC%7D\" alt=\"c \\in \\mathcal{C}\"/> 是被复习的卡片，<img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=t+%5Cin+%5Cmathcal%7BT%7D\" alt=\"t \\in \\mathcal{T}\"/> 是 UNIX 时间戳，<img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=g+%5Cin+%5Cmathcal%7BG%7D\" alt=\"g \\in \\mathcal{G}\"/> 是评分结果，而 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=o\" alt=\"o\"/> 负责捕获任何额外的元数据（例如 Anki 的具体难度按钮：Again/Hard/Good/Easy 等）。</li></ul><p data-pid=\"nFsX_-Yv\">一个<b>记忆模型</b>就是一个如下定义的函数：</p><p data-pid=\"j3UOF9Sv\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=m%3A+%5Cmathcal%7BS%7D+%5Ctimes+%5Cmathcal%7BH%7D+%5Ctimes+%5Cmathcal%7BC%7D+%5Cto+%28%5Cmathbb%7BR%7D%5E%2B+%5Cto+%5B0%2C+1%5D%29\" alt=\"m: \\mathcal{S} \\times \\mathcal{H} \\times \\mathcal{C} \\to (\\mathbb{R}^+ \\to [0, 1])\"/></p><p data-pid=\"Mf67-HMA\">该模型接收一个学生、一段复习历史和一张特定卡片作为输入，并返回一条<b>遗忘曲线</b>：这是一个将「自最近一次复习以来所流逝的时间 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cdelta+%5Cgeq+0\" alt=\"\\delta \\geq 0\"/>」映射为「可提取性估计值」的函数。这个输出仅当 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cdelta+%5Cgeq+0\" alt=\"\\delta \\geq 0\"/> 时才有意义；复习发生的绝对时间已经被编码在历史记录 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=h\" alt=\"h\"/> 中了。</p><p data-pid=\"WeDjH5ty\">通过柯里化（currying），这在数学上等价于一个扁平的函数 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=m%3A+%5Cmathcal%7BS%7D+%5Ctimes+%5Cmathcal%7BH%7D+%5Ctimes+%5Cmathcal%7BC%7D+%5Ctimes+%5Cmathbb%7BR%7D%5E%2B+%5Cto+%5B0%2C+1%5D\" alt=\"m: \\mathcal{S} \\times \\mathcal{H} \\times \\mathcal{C} \\times \\mathbb{R}^+ \\to [0, 1]\"/>。我们之所以使用高阶函数的形式，是为了明确地强调：该模型真正生成的是一条遗忘曲线——「流逝的时间」是对这条曲线发起的一次查询（query），而不是一个与学生、历史记录、卡片处于同等地位的输入变量。</p><p data-pid=\"GVimpsRx\">我们之所以使用「流逝的时间」而不是「绝对时间戳」作为遗忘曲线的参数，是因为：遗忘曲线描述的本质，正是记忆是如何从一个参考点（即最后一次复习的那一刻）开始逐渐衰减的，因此「流逝的时间」才是它最自然的横坐标轴。如果使用绝对时间戳，就会把「复习是在何时发生的」与「距离那次复习已经过去了多久」这两件完全不同的事情混为一谈。使用 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cdelta\" alt=\"\\delta\"/> 可以完美地将这两个关注点隔离开来，同时也让跨不同学生和卡片去推理遗忘曲线变得更加容易，因为无论那次复习发生在什么时候，<img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cdelta+%3D+0\" alt=\"\\delta = 0\"/> 永远只代表一个含义：「刚刚复习过」。</p><p data-pid=\"z1u5BRRD\">在绝大多数实际应用中，我们是在一个特定流逝时间 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cdelta\" alt=\"\\delta\"/> 下对模型进行查询，从而获得一个标量的可提取性估计值：</p><p data-pid=\"NEs9Gi6H\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=%5Ctext%7Bretrievability%7D%28%5Cdelta%29+%3D+m%28s%2C+h%2C+c%29%28%5Cdelta%29+%3D+%5Cmathbb%7BP%7D%28G+%3D+1+%5Cmid+s%2C+h%2C+c%2C+%5Cdelta%29\" alt=\"\\text{retrievability}(\\delta) = m(s, h, c)(\\delta) = \\mathbb{P}(G = 1 \\mid s, h, c, \\delta)\"/></p><h2>传统模型 vs. 基于内容感知的模型</h2><p data-pid=\"UIDYYQPv\">这套形式化框架与传统模型有两处根本性的不同。</p><p data-pid=\"3jbnGPiF\"><b>第一</b>，它打破了<b>局部独立性（local independence）</b>的假设。大多数现有的记忆模型——无论是 DASH 及其变体，还是 Duolingo 的 HLR，抑或是 FSRS——在预测卡片 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=c\" alt=\"c\"/> 的可提取性时，都局限地只使用卡片 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=c\" alt=\"c\"/> 本身过往的复习历史：<img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=h_c+%3D+%5C%7B%28t%2C+g%2C+o%29+%3A+%5Ctext%7B%E5%8D%A1%E7%89%87+%7D+c+%5Ctext%7B+%E7%9A%84%E5%A4%8D%E4%B9%A0%E8%AE%B0%E5%BD%95%7D%5C%7D\" alt=\"h_c = \\{(t, g, o) : \\text{卡片 } c \\text{ 的复习记录}\\}\"/>。这确实让建模变得容易处理得多，而且也是一个相当合理的初步近似——毕竟，你对某个特定医学知识点记得有多牢，确实主要取决于你复习这个特定知识点的频率。但其代价是：学生在所有其他卡片上留下的完整的学习历史，被彻底无视了。</p><p data-pid=\"mbjt_xmW\">在我们的框架中，历史记录 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=h+%5Cin+%5Cmathcal%7BH%7D\" alt=\"h \\in \\mathcal{H}\"/> 包含了对所有卡片的复习记录。这一点极其重要，因为复习相关的材料，可能会对给定卡片的可提取性产生强化或干扰的交叉效应。同时，这也为新卡片提供了出色的初始估计：一个能够读取卡片具体内容、并且知晓学生在相关知识点上过往学习历史的模型，完全可以在学生第一次复习那张新卡片之前，就给出一个有根据的预测，而不是像传统模型那样只能生硬地套用一个通用的先验参数。</p><p data-pid=\"-pFq_fUp\"><b>第二</b>，卡片是由其具体内容来表示的，而不是依赖某个分类标识符（ID）。传统系统会为每张卡片分配一个毫无意义的不透明内部 ID；而在这里，<img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cmathcal%7BC%7D\" alt=\"\\mathcal{C}\"/> 代表的是真实的卡片内容空间。这带来了一个显著的实际好处：对卡片身份进行管理变得毫无必要了，而且对卡片的编辑修改也得到了最自然的处理——如果一张卡片的内容被大幅修改，模型就会直接把它当作一张全新的卡片来看待。传统系统必须繁琐地去追踪卡片的每一次修改，并依赖各种经验法则去判断这种修改是否大到需要重置复习调度状态；而在我们这里，这个问题压根就不存在。</p><h2>稳定性、难度及衍生变量</h2><p data-pid=\"h4jVFv9P\">将模型的输出定义为一条遗忘曲线，而不是某个孤立时间点上的概率，为我们解锁了一系列有用的衍生概念。其中，<b>稳定性（Stability）</b>可以被定义为：</p><p data-pid=\"QbccxzDI\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=%5Ctau+%3D+%5Cmin%5C%7B%5Cdelta+%5Cgeq+0+%3A+m%28s%2C+h%2C+c%29%28%5Cdelta%29+%5Cleq+0.9%5C%7D\" alt=\"\\tau = \\min\\{\\delta \\geq 0 : m(s, h, c)(\\delta) \\leq 0.9\\}\"/></p><p data-pid=\"LStX9hGE\">也就是说，稳定性就是当可提取性首次跌落至 90% 时所流逝的时间。这完美地兼容并推广了 FSRS 和 SuperMemo 中使用的稳定性概念，而且它的唯一前提要求仅仅是遗忘曲线最终会跌穿 0.9。</p><p data-pid=\"QEbTHY2Q\">在 FSRS 和 SuperMemo 等传统模型中，稳定性与<b>难度（difficulty）</b> <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=d\" alt=\"d\"/> 一起，被显式地设定为核心的隐状态（latent state）变量——难度是一个控制变量，它决定了每一次成功复习后稳定性能够增长多少，它是从复习历史中推导出来并被不断更新的。在我们的形式化框架中，这两个变量都不需要被硬性地显式追踪：模型直接接收完整的历史记录 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=h\" alt=\"h\"/> 和卡片内容 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=c\" alt=\"c\"/> 作为输入，它完全可以在内部隐式地还原出它们所蕴含的任何信息。稳定性只不过是从遗忘曲线上直接读取出来的一个衍生计算量；而关于难度，我们并没有做硬性规定——模型既可以将其作为一个显式的隐状态来维护，也可以直接从 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=h\" alt=\"h\"/> 和 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=c\" alt=\"c\"/> 中隐式地推导出来。这就使得我们的形式化框架，能够包容地对不同模型在内部表示记忆动态的方式保持不可知（agnostic）——无论它是将其表示为显式的状态变量、神经网络的隐藏状态，还是基于时间窗口的统计计数。</p><h2>二阶不确定性</h2><p data-pid=\"rx405KIQ\">可提取性（Retrievability）本质上本身就已经是一种不确定性的度量了：如果它的值是 0.5，意味着模型对于学生到底能不能回想起这张卡片完全没有把握；而如果是 0.9，则意味着模型相当自信他们能想起来。这属于一阶不确定性——是对事件最终结果的不确定性。而所谓的二阶不确定性，则是指对这个概率本身的不确定性：模型对自己给出的 0.9 这个概率估计值，究竟有多大的自信？</p><p data-pid=\"tnFvwRUz\">一个自然的问题就来了：模型能不能不仅仅只输出一个可提取性的点估计值，而是输出一个关于可提取性的概率分布——以此来同时表达出一个期望均值，以及对这个均值的置信度？在严格的数学层面上，这意味着函数 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=m\" alt=\"m\"/> 的陪域（codomain），将从在 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5B0%2C+1%5D\" alt=\"[0, 1]\"/> 范围内取值的遗忘曲线，升级为在 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cmathcal%7BM%7D%28%5B0%2C+1%5D%29\" alt=\"\\mathcal{M}([0, 1])\"/> 内取值的遗忘曲线，其中 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cmathcal%7BM%7D%28%5B0%2C+1%5D%29\" alt=\"\\mathcal{M}([0, 1])\"/> 代表在 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5B0%2C+1%5D\" alt=\"[0, 1]\"/> 区间上的概率测度集合：</p><p data-pid=\"IAwvAOui\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=m%3A+%5Cmathcal%7BS%7D+%5Ctimes+%5Cmathcal%7BH%7D+%5Ctimes+%5Cmathcal%7BC%7D+%5Cto+%5Cbigl%28%5Cmathbb%7BR%7D%5E%2B+%5Cto+%5Cmathcal%7BM%7D%28%5B0%2C+1%5D%29%5Cbigr%29\" alt=\"m: \\mathcal{S} \\times \\mathcal{H} \\times \\mathcal{C} \\to \\bigl(\\mathbb{R}^+ \\to \\mathcal{M}([0, 1])\\bigr)\"/></p><p data-pid=\"iRVD3vni\">那么，可提取性就变成了这个预测分布的期望均值：</p><p data-pid=\"VaO6jY3D\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=%5Ctext%7Bretrievability%7D%28%5Cdelta%29+%3D+%5Cmathbb%7BE%7D_%7Bp+%5C%2C%5Csim%5C%2C+m%28s%2C%5C%2C+h%2C%5C%2C+c%29%28%5Cdelta%29%7D%5Bp%5D\" alt=\"\\text{retrievability}(\\delta) = \\mathbb{E}_{p \\,\\sim\\, m(s,\\, h,\\, c)(\\delta)}[p]\"/></p><p data-pid=\"Y4hySI8-\">Beta 分布 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Ctext%7BBeta%7D%28%5Calpha%2C+%5Cbeta%29\" alt=\"\\text{Beta}(\\alpha, \\beta)\"/> 就是一个经典的例子，它的期望均值是 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cfrac%7B%5Calpha%7D%7B%5Calpha+%2B+%5Cbeta%7D\" alt=\"\\frac{\\alpha}{\\alpha + \\beta}\"/>，而它的集中度（concentration） <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Ckappa+%3D+%5Calpha+%2B+%5Cbeta\" alt=\"\\kappa = \\alpha + \\beta\"/> 恰好编码了对这个均值的置信程度，当然，这种思想完全适用于任何一种概率分布形式。</p><p data-pid=\"B_vXkznS\">这对于复习调度系统来说，将具有巨大的实际价值。试想一个学生为了应对即将到来的考试，专门标记了一组重点卡片。卡片 A 具有很高的均值可提取性，但同时有着巨大的不确定性——也就是说模型对自己的高分估计其实很虚，没底气。而卡片 B 完全是一张与考试无关的普通卡片，它的均值可提取性极低，而且不确定性极小——模型自信地认为它马上就要被彻底遗忘了。如果是一个只能看到「点估计值」的瞎子调度器，它一定会优先安排复习卡片 B，因为它的预期可提取性更低。但如果是一个能洞察「二阶不确定性」的智能调度器，它反而会优先安排复习卡片 A：因为极高的不确定性意味着它真实的可提取性极有可能会远低于均值的估算，而「考试重点」这个标签又极大地拉高了犯错的代价。死板的点估计值，根本无法支持这种对风险高度敏感的智能推理。</p><p data-pid=\"PTzRCHGv\">然而，在实际操作中，想要以一种对模型不可知（model-agnostic）的通用方式，直接从历史复习数据中去估计这种二阶不确定性，存在着一个不可逾越的根本障碍。因为对于任何一个给定的（学生，历史记录，卡片）三元组，在任何时候都永远只有一个单一的二元结果可以被观察到。更要命的是，历史记录 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=h\" alt=\"h\"/> 在每一次复习之后都会发生改变——对某张卡片的每一次复习，都会在 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=h\" alt=\"h\"/> 中追加一条观察记录，从而永久性地改变了输入给模型的基础数据。人不可能两次踏入同一条河流。这与通过无数次反复抛掷同一枚硬币来估计其正面概率偏差完全不同，在这里，你的每一次抛掷，都是在面对一枚你永远不可能再抛掷第二次的、全新的硬币。</p><p data-pid=\"3S6MH_Az\">这就意味着，任何分布形态输出结果的方差，不仅在实际操作中难以估计——而且在数学结构上，它根本就是无法被现有数据所识别的。「总方差定律（law of total variance）」精确地证明了这一点。假设 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=p\" alt=\"p\"/> 代表（随机的）可提取性，而观察到的二元结果 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=G+%5Cmid+p+%5Csim+%5Ctext%7BBernoulli%7D%28p%29\" alt=\"G \\mid p \\sim \\text{Bernoulli}(p)\"/>：</p><p data-pid=\"LyaHiVI-\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=%5Ctext%7BVar%7D%28G%29+%3D+E%5B%5Ctext%7BVar%7D%28G+%5Cmid+p%29%5D+%2B+%5Ctext%7BVar%7D%28E%5BG+%5Cmid+p%5D%29+%3D+E%5Bp%281-p%29%5D+%2B+%5Ctext%7BVar%7D%28p%29\" alt=\"\\text{Var}(G) = E[\\text{Var}(G \\mid p)] + \\text{Var}(E[G \\mid p]) = E[p(1-p)] + \\text{Var}(p)\"/></p><p data-pid=\"CmoH5nHl\">将第一项展开：</p><p data-pid=\"JWIb1sRs\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=%3D+E%5Bp%5D+-+E%5Bp%5E2%5D+%2B+%5Ctext%7BVar%7D%28p%29+%3D+%5Cmu+-+%5Cbigl%28%5Ctext%7BVar%7D%28p%29+%2B+%5Cmu%5E2%5Cbigr%29+%2B+%5Ctext%7BVar%7D%28p%29+%3D+%5Cmu%281+-+%5Cmu%29\" alt=\"= E[p] - E[p^2] + \\text{Var}(p) = \\mu - \\bigl(\\text{Var}(p) + \\mu^2\\bigr) + \\text{Var}(p) = \\mu(1 - \\mu)\"/></p><p data-pid=\"rM3l7mGi\">你可以清晰地看到，<img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Ctext%7BVar%7D%28p%29\" alt=\"\\text{Var}(p)\"/> 被完完全全地彻底抵消了！二元观察结果的边际方差永远被死死钉在 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cmu%281-%5Cmu%29\" alt=\"\\mu(1-\\mu)\"/> 上，这与 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=p\" alt=\"p\"/> 的分布到底有多么宽泛或集中毫无关系。这个无情的结论适用于 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=p+%5Cin+%5B0%2C+1%5D\" alt=\"p \\in [0, 1]\"/> 上的任何概率分布，绝不仅仅是 Beta 分布——在这个推导过程中根本没有使用任何仅限于 Beta 分布的特性，唯一用到的就是 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=Y+%5Cmid+p\" alt=\"Y \\mid p\"/> 服从伯努利分布。这就是说，二元观察数据中根本就不包含任何关于 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Ctext%7BVar%7D%28p%29\" alt=\"\\text{Var}(p)\"/> 的有效信息。如果一个模型试图输出一个带有显式集中度参数的分布形式，它可以随意地去改变这个参数而丝毫不会影响它的似然值（likelihood）；这个参数的变动完全是被初始化过程和优化器的动态算法在瞎驱使，根本不是由真实数据里的信号驱动的。而且这不仅仅是似然估计方法本身的缺陷：<a href=\"https://link.zhihu.com/?target=https%3A//proceedings.mlr.press/v202/bengs23a/bengs23a.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Bengs et al. (2023)</a> 在一篇严谨的论文中证明了，在只有二元结果的条件下，绝对没有任何一种所谓的「适当评分规则（proper scoring rule）」能够去真正激励出忠实可靠的二阶不确定性量化，这彻底堵死了试图通过寻找替代性训练目标来修补这个漏洞的最后希望。</p><p data-pid=\"jIPgFUNL\">即使我们从「单一的点估计」跨越到了「完整的遗忘曲线」，也依然无法破解这个魔咒。因为那条遗忘曲线是针对某一个特定的（学生，历史记录，卡片）三元组而生成的；只要你在这个特定时间点上观察到了一个复习结果，历史记录就不可逆转地改变了，而那条原本你可以在其他流逝时间点上去继续查询的曲线，也就不复存在了——「河流悖论」在这里依然像铁律一样有效。</p><p data-pid=\"wFviUN9y\">破解这个死局的唯一出路，就是绝对不能再把 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=p\" alt=\"p\"/> 当作每一个独立实例都可以随意捏造的自由参数。如果可提取性是作为一个共享参数的确定性函数被计算出来的——比如 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=p+%3D+f%28s%2C+h%2C+c%2C+%5Cdelta%3B+w%29\" alt=\"p = f(s, h, c, \\delta; w)\"/>，其中 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=w\" alt=\"w\"/> 是一个跨越所有学生和所有卡片通过海量数据学习出来的坚固的底层参数——那么，在一个全新查询点上对于 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=p\" alt=\"p\"/> 的不确定性，就纯粹是由我们对于这个底层参数 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=w\" alt=\"w\"/> 的不确定性引发的，而 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=w\" alt=\"w\"/> 是可以被海量的完整数据集精确识别出来的。此时那个令人绝望的「抵消」效应就不再生效了，因为我们不再允许 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=p\" alt=\"p\"/> 在虚无中自由变化；我们改变的只能是 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=w\" alt=\"w\"/>，而 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=w\" alt=\"w\"/> 会真实地出现在每一条观察记录的似然方程中。在任何查询点上分布关于 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=p\" alt=\"p\"/> 的「集中度」，不再是一个可以通过死记硬背拟合出来的垃圾参数——它是从 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=w\" alt=\"w\"/> 相对于该查询点的后验几何结构中自然地「涌现」出来的。如果一个查询点周围簇拥着海量相似的训练数据，它就会产生紧凑（确信）的不确定性；而如果它是一个孤僻、史无前例的异类，它就会产生宽泛（虚无）的不确定性。</p><p data-pid=\"pX9ldQir\">这确实是一条通往二阶不确定性的合理且极具威力的道路，但它必须要付出沉重的代价：你必须彻底绑定并死守一种具体的参数化网络结构——比如那个 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=f\" alt=\"f\"/> 到底长什么样，「相似」在输入空间里到底该怎么定义，<img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=w\" alt=\"w\"/> 到底该如何共享。这些全部都是「依赖于具体模型（model-specific）」的选择。无论是贝叶斯逻辑回归、高斯过程，还是加了蒙特卡洛 Dropout（MC dropout）的神经网络，当它们面对完全相同的输入时，它们都会在不确定性表面上勾勒出截然不同的起伏轮廓。这是由它们各自固有的归纳偏置（inductive biases）强行驱动的，根本不是由我们这里探讨的一般性形式化框架所能决定的。</p><p data-pid=\"b8GHvKVd\">正因如此，在我们这套极具普适性的形式化框架中，我们依然克制地将可提取性保留为一个绝对的点估计值。二阶不确定性绝非不可实现，但它严重依赖于具体的模型架构。不同的模型家族完全可以根据自身结构假设的合理性，在各自的领地里去大显神通。</p><h2>总结</h2><p data-pid=\"WaAnwYPr\">一个记忆模型，本质上就是一个接收（学生，完整的复习历史记录，卡片）作为输入，并在未来的时间流逝维度上输出一条遗忘曲线的数学函数。当你在某一个特定的流逝时间点上对它进行查询时，它会返回一个精确的可提取性（retrievability）——即成功回忆起这张卡片的概率。</p><p data-pid=\"_yp2aJJ-\">相较于传统的形式化框架，我们迈出的关键一步在于：我们将输入条件从单张卡片的历史，扩展到了跨越该学生所有卡片的完整复习历史，并且摒弃了死板的 ID，将卡片内容直接表示为项目空间中的向量嵌入（embeddings）。这彻底打破了僵化的「局部独立性假设」，从而让奇妙的「知识迁移」和「跨卡片遗忘模式」成为可能。</p><p data-pid=\"aPrs-fGr\">在这套极具普适性的通用框架下，稳定性（Stability）从一个必须被硬性规定的一等模型状态（first class model state），退位成了一个可以自然推导出的衍生计算量。而难度（Difficulty）则被彻底从框架级别的核心概念中剔除了，具体的模型既可以保留它，也可以将它无情抛弃。至于二阶不确定性（即关于可提取性本身的概率分布），虽然它是一个自然的进阶扩展，但如果没有依赖于具体模型的结构性假设，它在数学上根本无法从二元的复习数据中被识别出来——因此，我们将它克制地阻挡在了通用形式化框架的门外。</p><p data-pid=\"z8wo9FRK\">有了这套严密且强大的理论框架作为武装，在接下来的文章中，我们将利用它来制定一套科学严谨的记忆模型横向评测体系：我们将探讨到底该使用哪些严苛的指标，以及为什么非它们不可。</p><hr/><blockquote data-pid=\"GpCR8HDx\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">gemini-3.1-pro-preview</span>，校对 <span class=\"nolink\">Jarrett</span> Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//community.ankihub.net/t/formalizing-memory-models/592361\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Formalizing Memory Models - Blog - AnkiHub Community</a><br/>作者：<a href=\"https://link.zhihu.com/?target=https%3A//giacomoran.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Giacomo Randazzo</a> 和 <a href=\"https://link.zhihu.com/?target=https%3A//amcampbell.xyz/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Aidan Campbell</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
+  "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19575624",
+      "type": "topic",
+      "id": "19575624",
+      "name": "数学建模"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19563807",
+      "type": "topic",
+      "id": "19563807",
+      "name": "记忆"
+    }
+  ],
+  "voteup_count": 14,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "间隔重复使记忆成为一种选择",
+    "is_following": true,
+    "url_token": "c_1525782291741208576",
+    "id": "c_1525782291741208576",
+    "articles_count": 185,
+    "accept_submission": true,
+    "title": "间隔重复 & 注意力管理",
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "comment_permission": "all",
+    "created": 1656554846,
+    "updated": 1751877449,
+    "image_url": "https://pic1.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 262,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 3,
+  "contributions": [
+    {
+      "id": 53704154,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "间隔重复使记忆成为一种选择",
+        "is_following": true,
+        "url_token": "c_1525782291741208576",
+        "id": "c_1525782291741208576",
+        "articles_count": 185,
+        "accept_submission": true,
+        "title": "间隔重复 & 注意力管理",
+        "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+        "comment_permission": "all",
+        "created": 1656554846,
+        "updated": 1751877449,
+        "image_url": "https://pic1.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 262,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 16,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "记忆模型的数学形式化 - 来自知乎专栏「间隔重复 &amp; 注意力管理」，作者: Jarrett Ye https://zhuanlan.zhihu.com/p/2020082520478201804 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 0,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 0,
+    "like_has_set": false
+  },
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyNzE5NzM0NjgSEzIwMjAwODI1MjA0NzgyMDE4MDQYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 14,
+      "down_vote_count": 0,
+      "like_count": 0,
+      "comment_count": 3,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 16,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {}
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/68570384642?contentId=2020082520478201804&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 间隔重复 & 注意力管理",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525782291741208576",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 间隔重复 & 注意力管理"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
+}

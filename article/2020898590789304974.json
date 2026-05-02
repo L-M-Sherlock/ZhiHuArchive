@@ -1,0 +1,373 @@
+{
+  "id": "2020898590789304974",
+  "title": "大模型都证明了只会写代码死路一条",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/2020898590789304974",
+  "image_url": "",
+  "title_image": "",
+  "excerpt": "<img src=\"https://pic2.zhimg.com/v2-115e7f34cf9c5078335cfcc8ad729a8b_200x112.jpg\" data-rawwidth=\"950\" data-rawheight=\"622\" data-size=\"normal\" data-caption=\"\" data-watermark=\"original\" data-original-src=\"v2-115e7f34cf9c5078335cfcc8ad729a8b\" data-watermark-src=\"v2-115e7f34cf9c5078335cfcc8ad729a8b\" data-private-watermark-src=\"\" class=\"origin_image inline-img zh-lightbox-thumb\" data-original=\"https://pic2.zhimg.com/v2-115e7f34cf9c5078335cfcc8ad729a8b_r.jpg\"/>今天考了考大模型一道编程题，其实这道题我 2025 年 2 月就试过了，当时的一众推理模型全军覆没。现在 2026 年了，我一时兴起，又想测一遍现在的 agent 模型，没想到编码特化的 codex 实现的效果非常搞笑，发出来给大家乐呵乐呵。 测试工具：copilot-cli（…",
+  "created": 1774619789,
+  "updated": 1774620183,
+  "author": {
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+    "uid": "1521893281407864832",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "JarrettYe",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+    "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+    "name": "Jarrett Ye",
+    "is_advertiser": false,
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "gender": 1,
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
+    "badge": [],
+    "badge_v2": {
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "merged_badges": [],
+      "detail_badges": [],
+      "icon": "",
+      "night_icon": ""
+    },
+    "exposed_medal": {
+      "medal_id": "1463836052717301760",
+      "medal_name": "知「势」之星",
+      "avatar_url": "https://picx.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_l.png?source=172ae18b",
+      "description": "「知势榜」上榜答主即可获得",
+      "medal_avatar_frame": ""
+    }
+  },
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 0,
+  "image_height": 0,
+  "content": "<p data-pid=\"lkQxJ6AC\">今天考了考大模型一道编程题，其实这道题我 2025 年 2 月就试过了，当时的一众推理模型全军覆没。现在 2026 年了，我一时兴起，又想测一遍现在的 agent 模型，没想到编码特化的 codex 实现的效果非常搞笑，发出来给大家乐呵乐呵。</p><p data-pid=\"KNk6bcNM\">测试工具：copilot-cli（用这个是因为同时支持 Claude 和 Codex，并且送了我不少额度）</p><p data-pid=\"chDX4jmR\">提示词：</p><div class=\"highlight\"><pre><code class=\"language-text\">Create me a 3d cone rolling on a ground. You can use html, css, js.</code></pre></div><p data-pid=\"4oD4XY0f\">（出处：<a href=\"https://www.zhihu.com/question/11758906952/answer/97126345893\" data-icon-name=\"zhicon_icon_24_paper_plain_text\" class=\"internal\">你都有哪些压箱底的测试题，是目前的推理模型做不出来的？</a>）</p><p data-pid=\"vO8Xgk2j\">参赛选手：GPT-5.2-Codex (xhigh)、GPT-5.3-Codex (xhigh)、GPT-5.4 (xhigh)、Claude Opus 4.6 (high)</p><h2>GPT-5.2-Codex (xhigh)</h2><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-115e7f34cf9c5078335cfcc8ad729a8b_1440w.gif\" data-rawwidth=\"950\" data-rawheight=\"622\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-115e7f34cf9c5078335cfcc8ad729a8b\" data-thumbnail=\"https://pic2.zhimg.com/v2-115e7f34cf9c5078335cfcc8ad729a8b_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"950\" data-original=\"https://pic2.zhimg.com/v2-115e7f34cf9c5078335cfcc8ad729a8b_r.jpg\"/></figure><h2>GPT-5.3-Codex (xhigh)</h2><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-7587f457a57a6df395378a0edc2b136b_1440w.gif\" data-rawwidth=\"1100\" data-rawheight=\"689\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-7587f457a57a6df395378a0edc2b136b\" data-thumbnail=\"https://picx.zhimg.com/v2-7587f457a57a6df395378a0edc2b136b_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1100\" data-original=\"https://picx.zhimg.com/v2-7587f457a57a6df395378a0edc2b136b_r.jpg\"/></figure><h2>GPT-5.4 (xhigh)</h2><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-6be5d218b1149d6be5359974cf1db170_1440w.gif\" data-rawwidth=\"591\" data-rawheight=\"430\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-6be5d218b1149d6be5359974cf1db170\" data-thumbnail=\"https://pic3.zhimg.com/v2-6be5d218b1149d6be5359974cf1db170_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"591\" data-original=\"https://pic3.zhimg.com/v2-6be5d218b1149d6be5359974cf1db170_r.jpg\"/></figure><h2>Claude Opus 4.6 (high)</h2><figure data-size=\"normal\"><img src=\"https://pica.zhimg.com/v2-2e7384fe5ea0975f16d1ffa77e2d6db6_1440w.gif\" data-rawwidth=\"900\" data-rawheight=\"634\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-2e7384fe5ea0975f16d1ffa77e2d6db6\" data-thumbnail=\"https://pica.zhimg.com/v2-2e7384fe5ea0975f16d1ffa77e2d6db6_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"900\" data-original=\"https://pica.zhimg.com/v2-2e7384fe5ea0975f16d1ffa77e2d6db6_r.jpg\"/></figure><h2>结语</h2><p data-pid=\"DnsXTXAo\">好吧标题只是抖个机灵，实际上应该还是模型能力提升了，和是不是编码特化关系不大。毕竟去年一众推理模型也写不对。国内的模型我没测，大家感兴趣可以自测一下。感觉现在模型能力真是日新月异啊。</p>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
+  "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/25402720",
+      "type": "topic",
+      "id": "25402720",
+      "name": "大模型"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19554298",
+      "type": "topic",
+      "id": "19554298",
+      "name": "编程"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19550606",
+      "type": "topic",
+      "id": "19550606",
+      "name": "动画"
+    }
+  ],
+  "voteup_count": 79,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "暂时没有专栏分类的文章",
+    "is_following": true,
+    "url_token": "c_1853848933266227200",
+    "id": "c_1853848933266227200",
+    "articles_count": 108,
+    "accept_submission": true,
+    "title": "杂项",
+    "url": "https://api.zhihu.com/columns/c_1853848933266227200",
+    "comment_permission": "all",
+    "created": 1734772028,
+    "updated": 1734772042,
+    "image_url": "https://pic1.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 54,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 3,
+  "contributions": [
+    {
+      "id": 53719362,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "暂时没有专栏分类的文章",
+        "is_following": true,
+        "url_token": "c_1853848933266227200",
+        "id": "c_1853848933266227200",
+        "articles_count": 108,
+        "accept_submission": true,
+        "title": "杂项",
+        "url": "https://api.zhihu.com/columns/c_1853848933266227200",
+        "comment_permission": "all",
+        "created": 1734772028,
+        "updated": 1734772042,
+        "image_url": "https://pic1.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 54,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 37,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "大模型都证明了只会写代码死路一条 - 来自知乎专栏「杂项」，作者: Jarrett Ye https://zhuanlan.zhihu.com/p/2020898590789304974 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 3,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 3,
+    "like_has_set": false
+  },
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyNzIxMTY4NjQSEzIwMjA4OTg1OTA3ODkzMDQ5NzQYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 79,
+      "down_vote_count": 7,
+      "like_count": 3,
+      "comment_count": 3,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 37,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-115e7f34cf9c5078335cfcc8ad729a8b": 0,
+        "v2-2e7384fe5ea0975f16d1ffa77e2d6db6": 0,
+        "v2-6be5d218b1149d6be5359974cf1db170": 0,
+        "v2-7587f457a57a6df395378a0edc2b136b": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-115e7f34cf9c5078335cfcc8ad729a8b": false,
+        "v2-2e7384fe5ea0975f16d1ffa77e2d6db6": false,
+        "v2-6be5d218b1149d6be5359974cf1db170": false,
+        "v2-7587f457a57a6df395378a0edc2b136b": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-115e7f34cf9c5078335cfcc8ad729a8b": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-2e7384fe5ea0975f16d1ffa77e2d6db6": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-6be5d218b1149d6be5359974cf1db170": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-7587f457a57a6df395378a0edc2b136b": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/0?contentId=2020898590789304974&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 杂项",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1853848933266227200",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 杂项"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
+}
