@@ -1,6 +1,8 @@
 import json
+import re
 from pathlib import Path
 from datetime import datetime
+from html import escape
 from tqdm import tqdm
 from feedgen.feed import FeedGenerator
 import zoneinfo
@@ -107,9 +109,92 @@ def process_content(content: str) -> str:
 
 
 def strip_html_tags(value: str) -> str:
+    return clean_text(value)
+
+
+def clean_text(value: str) -> str:
     if not value:
         return ""
-    return BeautifulSoup(value, "html.parser").get_text(" ", strip=True)
+    text = BeautifulSoup(str(value), "html.parser").get_text(" ", strip=True)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def truncate_text(value: str, max_length: int = 160) -> str:
+    if len(value) <= max_length:
+        return value
+    return value[: max_length - 3].rstrip(" ,.;，。；、") + "..."
+
+
+def build_meta_description(primary: str, *fallbacks: str) -> str:
+    parts = []
+    for value in (primary, *fallbacks):
+        text = clean_text(value)
+        if text and text not in parts:
+            parts.append(text)
+
+    description = parts[0] if parts else ""
+    if len(description) < 80:
+        for text in parts[1:]:
+            if text not in description:
+                description = f"{description} {text}".strip()
+            if len(description) >= 80:
+                break
+
+    if not description:
+        description = "知乎账号 @Thoughts Memo 和 @Jarrett Ye 的文章和回答存档"
+    return truncate_text(description)
+
+
+def html_attr(value: str) -> str:
+    return escape(str(value or ""), quote=True)
+
+
+def schema_datetime(timestamp: int) -> str:
+    return datetime.fromtimestamp(
+        timestamp,
+        zoneinfo.ZoneInfo("Asia/Shanghai"),
+    ).isoformat()
+
+
+def article_schema(
+    *,
+    title: str,
+    description: str,
+    archive_url_value: str,
+    author_name: str,
+    author_url_value: str,
+    published_timestamp: int,
+    modified_timestamp: int,
+    image_url: str = "",
+) -> dict:
+    author = {"@type": "Person", "name": author_name}
+    if author_url_value:
+        author["url"] = author_url_value
+
+    schema = {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": title,
+        "description": description,
+        "author": author,
+        "datePublished": schema_datetime(published_timestamp),
+        "dateModified": schema_datetime(modified_timestamp),
+        "mainEntityOfPage": {"@type": "WebPage", "@id": archive_url_value},
+        "url": archive_url_value,
+        "isPartOf": {
+            "@type": "WebSite",
+            "name": "ZhiHu Archive for Thoughts Memo",
+            "url": f"{BASE_URL}/",
+        },
+    }
+    if image_url:
+        schema["image"] = [image_url]
+    return schema
+
+
+def json_ld_script(schema: dict) -> str:
+    content = json.dumps(schema, ensure_ascii=False, separators=(",", ":"))
+    return f'<script type="application/ld+json">{content}</script>'
 
 
 def normalize_author_url(url: str) -> str:
@@ -165,18 +250,19 @@ article_template = """<!DOCTYPE html>
     <meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
     <meta property="og:url" content="${"archive_url"}">
     <meta property="og:image" content="${"image_url"}">
-    <meta property="og:description" content="${"excerpt"}">
-    <meta name="description" content="${"excerpt"}">
+    <meta property="og:description" content="${"meta_description"}">
+    <meta name="description" content="${"meta_description"}">
     <meta data-pagefind-meta="title" content="${"title"}">
     <meta data-pagefind-meta="image" content="${"image_url"}">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${"title"} | ZhiHu Archive">
-    <meta name="twitter:description" content="${"excerpt"}">
+    <meta name="twitter:description" content="${"meta_description"}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
     <link rel="canonical" href="${"archive_url"}">
     <link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
     <link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+    ${"json_ld"}
     <script>
         const redirect = ${"redirect"};
         if (redirect) {
@@ -310,25 +396,53 @@ rss_article_template = """<main>
 
 def fill_article_template(data: dict, is_rss: bool = False) -> str:
     template = rss_article_template if is_rss else article_template
+    archive_url_value = archive_url(file.stem)
+    source_url_value = source_url(data, file.stem)
+    author_url_value = normalize_author_url(data["author"].get("url", ""))
+    title = clean_text(data["title"])
+    author_name = clean_text(data["author"]["name"])
+    meta_description = build_meta_description(
+        data.get("excerpt", ""),
+        data.get("content", ""),
+    )
+    json_ld = json_ld_script(
+        article_schema(
+            title=title,
+            description=meta_description,
+            archive_url_value=archive_url_value,
+            author_name=author_name,
+            author_url_value=author_url_value,
+            published_timestamp=data["created"],
+            modified_timestamp=data.get("updated") or data["created"],
+            image_url=data.get("image_url", ""),
+        )
+    )
     return (
-        template.replace('${"title"}', data["title"])
-        .replace('${"archive_url"}', archive_url(file.stem))
-        .replace('${"source_url"}', source_url(data, file.stem))
-        .replace('${"excerpt"}', strip_html_tags(data.get("excerpt", "")))
+        template.replace('${"title"}', html_attr(title))
+        .replace('${"archive_url"}', html_attr(archive_url_value))
+        .replace('${"source_url"}', html_attr(source_url_value))
+        .replace('${"meta_description"}', html_attr(meta_description))
+        .replace('${"json_ld"}', json_ld)
         .replace('${"redirect"}', "false")
-        .replace('${"image_url"}', data["image_url"])
-        .replace('${"avatar_url"}', data["author"]["avatar_url"])
-        .replace('${"author_url"}', normalize_author_url(data["author"].get("url", "")))
-        .replace('${"author"}', data["author"]["name"])
-        .replace('${"headline"}', data["author"]["headline"])
-        .replace('${"created_time"}', created_time_str)
-        .replace('${"created_time_formatted"}', created_time_formatted)
+        .replace('${"image_url"}', html_attr(data["image_url"]))
+        .replace('${"avatar_url"}', html_attr(data["author"]["avatar_url"]))
+        .replace('${"author_url"}', html_attr(author_url_value))
+        .replace('${"author"}', html_attr(author_name))
+        .replace('${"headline"}', html_attr(clean_text(data["author"]["headline"])))
+        .replace('${"created_time"}', html_attr(created_time_str))
+        .replace('${"created_time_formatted"}', html_attr(created_time_formatted))
         .replace('${"voteup_count"}', str(data["voteup_count"]))
         .replace('${"comment_count"}', str(data["comment_count"]))
         .replace('${"content"}', data["content"])
         .replace('${"reference"}', extract_reference(data["content"]))
-        .replace('${"column_title"}', data.get("column", {}).get("title", "无"))
-        .replace('${"column_description"}', data.get("column", {}).get("description", ""))
+        .replace(
+            '${"column_title"}',
+            html_attr(data.get("column", {}).get("title", "无")),
+        )
+        .replace(
+            '${"column_description"}',
+            html_attr(data.get("column", {}).get("description", "")),
+        )
         .replace("    ", "")
     )
 
@@ -372,18 +486,19 @@ answer_template = """<!DOCTYPE html>
     <meta property="og:type" content="website">
     <meta property="og:title" content="${"title"} - @${"author"} | ZhiHu Archive">
     <meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
-    <meta property="og:description" itemprop="description" content="${"excerpt"}">
+    <meta property="og:description" itemprop="description" content="${"meta_description"}">
     <meta property="og:url" content="${"archive_url"}">
-    <meta name="description" content="${"excerpt"}">
+    <meta name="description" content="${"meta_description"}">
     <meta data-pagefind-meta="title" content="${"title"}">
     <link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
     <meta property="twitter:card" content="summary">
     <meta name="twitter:title" content="${"title"} - @${"author"} | ZhiHu Archive">
-    <meta name="twitter:description" content="${"excerpt"}">
+    <meta name="twitter:description" content="${"meta_description"}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
     <link rel="canonical" href="${"archive_url"}">
     <link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+    ${"json_ld"}
     <script>
         const redirect = ${"redirect"};
         if (redirect) {
@@ -523,18 +638,41 @@ def fill_answer_template(data: dict, is_rss: bool = False) -> str:
             '${"question"}',
             process_content(question_detail),
         )
+    archive_url_value = archive_url(file.stem)
+    source_url_value = source_url(data, file.stem)
+    author_url_value = normalize_author_url(data["author"].get("url", ""))
+    title = clean_text(data["question"]["title"])
+    author_name = clean_text(data["author"]["name"])
+    meta_description = build_meta_description(
+        data.get("excerpt", ""),
+        data["question"].get("title", ""),
+        question_detail,
+        data.get("content", ""),
+    )
+    json_ld = json_ld_script(
+        article_schema(
+            title=title,
+            description=meta_description,
+            archive_url_value=archive_url_value,
+            author_name=author_name,
+            author_url_value=author_url_value,
+            published_timestamp=data["created_time"],
+            modified_timestamp=data.get("updated_time") or data["created_time"],
+        )
+    )
     return (
-        template.replace('${"title"}', data["question"]["title"])
-        .replace('${"archive_url"}', archive_url(file.stem))
-        .replace('${"source_url"}', source_url(data, file.stem))
-        .replace('${"excerpt"}', strip_html_tags(data.get("excerpt", "")))
+        template.replace('${"title"}', html_attr(title))
+        .replace('${"archive_url"}', html_attr(archive_url_value))
+        .replace('${"source_url"}', html_attr(source_url_value))
+        .replace('${"meta_description"}', html_attr(meta_description))
+        .replace('${"json_ld"}', json_ld)
         .replace('${"redirect"}', "false")
-        .replace('${"avatar_url"}', data["author"]["avatar_url"])
-        .replace('${"author_url"}', normalize_author_url(data["author"].get("url", "")))
-        .replace('${"author"}', data["author"]["name"])
-        .replace('${"headline"}', data["author"]["headline"])
-        .replace('${"created_time"}', created_time_str)
-        .replace('${"created_time_formatted"}', created_time_formatted)
+        .replace('${"avatar_url"}', html_attr(data["author"]["avatar_url"]))
+        .replace('${"author_url"}', html_attr(author_url_value))
+        .replace('${"author"}', html_attr(author_name))
+        .replace('${"headline"}', html_attr(clean_text(data["author"]["headline"])))
+        .replace('${"created_time"}', html_attr(created_time_str))
+        .replace('${"created_time_formatted"}', html_attr(created_time_formatted))
         .replace('${"voteup_count"}', str(data["voteup_count"]))
         .replace('${"comment_count"}', str(data["comment_count"]))
         .replace('${"question"}', question_block)
