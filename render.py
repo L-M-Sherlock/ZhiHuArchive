@@ -7,18 +7,30 @@ import zoneinfo
 from bs4 import BeautifulSoup
 
 
+BASE_URL = "https://l-m-sherlock.github.io/ZhiHuArchive"
+
 article_ids = [file.stem for file in Path("./article").glob("*.json")]
 answer_ids = [file.stem for file in Path("./answer").glob("*.json")]
 
 fg = FeedGenerator()
-fg.id("https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml")
+fg.id(f"{BASE_URL}/feed.xml")
 fg.title("Thoughts Memo")
-fg.link(href="https://l-m-sherlock.github.io/ZhiHuArchive/", rel="self")
+fg.link(href=f"{BASE_URL}/", rel="self")
 fg.description("知乎账号 @Thoughts Memo 和 @Jarrett Ye 的文章和回答的存档")
 fg.language("zh-Hans")
 fg.generator("feedgen", uri="https://github.com/lkiesow/python-feedgen")
-fg.icon("https://l-m-sherlock.github.io/ZhiHuArchive/favicon.ico")
-fg.logo("https://l-m-sherlock.github.io/ZhiHuArchive/favicon.ico")
+fg.icon(f"{BASE_URL}/favicon.ico")
+fg.logo(f"{BASE_URL}/favicon.ico")
+
+
+def archive_url(stem: str) -> str:
+    return f"{BASE_URL}/{stem}.html"
+
+
+def source_url(data: dict, stem: str) -> str:
+    if "question" in data:
+        return f"https://www.zhihu.com/question/{data['question']['id']}/answer/{stem}"
+    return f"https://zhuanlan.zhihu.com/p/{stem}"
 
 
 def add_item(data, full_html):
@@ -29,15 +41,12 @@ def add_item(data, full_html):
     title = data["question"]["title"] if "question" in data else data["title"]
     fe = fg.add_entry()
     fe.title(title)
-    fe.link(
-        href=f"https://l-m-sherlock.github.io/ZhiHuArchive/{file.stem}.html",
-        rel="alternate",
-    )
-    fe.link(href=f"https://zhuanlan.zhihu.com/p/{data['id']}", rel="related")
+    fe.link(href=archive_url(file.stem), rel="alternate")
+    fe.link(href=source_url(data, file.stem), rel="related")
     fe.content(full_html, type="html")
     fe.summary(strip_html_tags(data.get("excerpt", "")))
     fe.published(created_timestamp)
-    fe.guid(f"https://l-m-sherlock.github.io/ZhiHuArchive/{file.stem}.html")
+    fe.guid(archive_url(file.stem))
 
 
 def replace_url(url: str) -> str:
@@ -154,7 +163,7 @@ article_template = """<!DOCTYPE html>
     <meta property="og:type" content="website">
     <meta property="og:title" content="${"title"} | ZhiHu Archive">
     <meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
-    <meta property="og:url" content="${"url"}">
+    <meta property="og:url" content="${"archive_url"}">
     <meta property="og:image" content="${"image_url"}">
     <meta property="og:description" content="${"excerpt"}">
     <meta name="description" content="${"excerpt"}">
@@ -165,12 +174,13 @@ article_template = """<!DOCTYPE html>
     <meta name="twitter:description" content="${"excerpt"}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+    <link rel="canonical" href="${"archive_url"}">
     <link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
     <link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
     <script>
         const redirect = ${"redirect"};
         if (redirect) {
-            window.location.replace("${"url"}");
+            window.location.replace("${"source_url"}");
         }
     </script>
     <style>
@@ -236,7 +246,7 @@ article_template = """<!DOCTYPE html>
     <hr>
     <header>
         <img class="origin_image" src="${"image_url"}"/>
-        <h1><a href="${"url"}" target="_blank" rel="noopener noreferrer">${"title"}</a></h1>
+        <h1><a href="${"source_url"}" target="_blank" rel="noopener noreferrer">${"title"}</a></h1>
         <div class="author">
             <img class="avatar" id="avatar" src="${"avatar_url"}" />
             <div>
@@ -302,7 +312,8 @@ def fill_article_template(data: dict, is_rss: bool = False) -> str:
     template = rss_article_template if is_rss else article_template
     return (
         template.replace('${"title"}', data["title"])
-        .replace('${"url"}', f"https://zhuanlan.zhihu.com/p/{file.stem}")
+        .replace('${"archive_url"}', archive_url(file.stem))
+        .replace('${"source_url"}', source_url(data, file.stem))
         .replace('${"excerpt"}', strip_html_tags(data.get("excerpt", "")))
         .replace('${"redirect"}', "false")
         .replace('${"image_url"}', data["image_url"])
@@ -362,7 +373,7 @@ answer_template = """<!DOCTYPE html>
     <meta property="og:title" content="${"title"} - @${"author"} | ZhiHu Archive">
     <meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
     <meta property="og:description" itemprop="description" content="${"excerpt"}">
-    <meta property="og:url" content="${"url"}">
+    <meta property="og:url" content="${"archive_url"}">
     <meta name="description" content="${"excerpt"}">
     <meta data-pagefind-meta="title" content="${"title"}">
     <link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
@@ -371,11 +382,12 @@ answer_template = """<!DOCTYPE html>
     <meta name="twitter:description" content="${"excerpt"}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+    <link rel="canonical" href="${"archive_url"}">
     <link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
     <script>
         const redirect = ${"redirect"};
         if (redirect) {
-            window.location.replace("${"url"}");
+            window.location.replace("${"source_url"}");
         }
     </script>
     <style>
@@ -437,7 +449,7 @@ answer_template = """<!DOCTYPE html>
     <p data-pagefind-ignore><a href="./">← 返回目录</a></p>
     <hr>
     <header>
-        <h1><a href="${"url"}" target="_blank" rel="noopener noreferrer">${"title"}</a></h1>
+        <h1><a href="${"source_url"}" target="_blank" rel="noopener noreferrer">${"title"}</a></h1>
         <div class="author">
             <img class="avatar" id="avatar" src="${"avatar_url"}" />
             <div>
@@ -513,10 +525,8 @@ def fill_answer_template(data: dict, is_rss: bool = False) -> str:
         )
     return (
         template.replace('${"title"}', data["question"]["title"])
-        .replace(
-            '${"url"}',
-            f"https://www.zhihu.com/question/{data['question']['id']}/answer/{file.stem}",
-        )
+        .replace('${"archive_url"}', archive_url(file.stem))
+        .replace('${"source_url"}', source_url(data, file.stem))
         .replace('${"excerpt"}', strip_html_tags(data.get("excerpt", "")))
         .replace('${"redirect"}', "false")
         .replace('${"avatar_url"}', data["author"]["avatar_url"])

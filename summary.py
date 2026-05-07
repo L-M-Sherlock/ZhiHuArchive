@@ -652,6 +652,16 @@ with open("./html/search-index.json", "w", encoding="utf-8") as f:
     json.dump(search_docs, f, ensure_ascii=False)
 
 
+def html_lastmod(path: Path, fallback_timestamp=None) -> str:
+    if path.exists():
+        timestamp = path.stat().st_mtime
+    elif fallback_timestamp is not None:
+        timestamp = fallback_timestamp
+    else:
+        timestamp = datetime.now(timezone.utc).timestamp()
+    return datetime.fromtimestamp(timestamp, timezone.utc).strftime("%Y-%m-%d")
+
+
 def generate_sitemap(articles, answers):
     """Generate sitemap.xml file"""
     sitemap_content = '<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -660,27 +670,33 @@ def generate_sitemap(articles, answers):
     # Add index page
     sitemap_content += f"""  <url>
     <loc>{BASE_URL}/</loc>
-    <lastmod>{datetime.now(timezone.utc).strftime('%Y-%m-%d')}</lastmod>
+    <lastmod>{html_lastmod(Path("html") / "index.html")}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>\n"""
 
     # Add articles
     for article in articles:
-        created_time = datetime.fromtimestamp(article["created"], timezone.utc)
+        lastmod = html_lastmod(
+            Path("html") / f"{article['file_stem']}.html",
+            article["created"],
+        )
         sitemap_content += f"""  <url>
     <loc>{BASE_URL}/{article['file_stem']}.html</loc>
-    <lastmod>{created_time.strftime('%Y-%m-%d')}</lastmod>
+    <lastmod>{lastmod}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>\n"""
 
     # Add answers
     for answer in answers:
-        created_time = datetime.fromtimestamp(answer["created_time"], timezone.utc)
+        lastmod = html_lastmod(
+            Path("html") / f"{answer['file_stem']}.html",
+            answer["created_time"],
+        )
         sitemap_content += f"""  <url>
     <loc>{BASE_URL}/{answer['file_stem']}.html</loc>
-    <lastmod>{created_time.strftime('%Y-%m-%d')}</lastmod>
+    <lastmod>{lastmod}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>\n"""
