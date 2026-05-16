@@ -11,32 +11,34 @@ import os
 load_dotenv()
 _CENSORSHIP_PATH = Path("censorship.json")
 _USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+AUTHOR_COOKIE_KEYS = {
+    "Thoughts Memo": "COOKIE_B",
+    "Jarrett Ye": "COOKIE_A",
+}
 
 
-def _fetch_with_cookie_fallback(url: str) -> dict:
-    cookies = [
-        ("COOKIE_A", os.getenv("COOKIE_A")),
-        ("COOKIE_B", os.getenv("COOKIE_B")),
-    ]
-    last_error = None
-    for name, cookie in cookies:
-        if not cookie:
-            continue
-        headers = {"User-Agent": _USER_AGENT, "Cookie": cookie}
-        response = requests.get(url, headers=headers).json()
-        error = response.get("error")
-        if not error:
-            return response
-        if error.get("code") == 10003:
-            print(f"{name} 无效（code 10003），尝试备用 Cookie ...")
-            last_error = error
-            continue
-        return response
-    raise Exception(last_error or {"message": "No valid cookie available"})
+def cookie_key_for_author(data: dict) -> str:
+    author_name = (data.get("author") or {}).get("name")
+    cookie_key = AUTHOR_COOKIE_KEYS.get(author_name)
+    if not cookie_key:
+        raise RuntimeError(f"Cannot determine cookie for author: {author_name}")
+    return cookie_key
 
 
-def answer_censored_check(url: str) -> bool:
-    response = _fetch_with_cookie_fallback(url)
+def _fetch_with_cookie(url: str, cookie_key: str) -> dict:
+    cookie = os.getenv(cookie_key)
+    if not cookie:
+        raise RuntimeError(f"{cookie_key} is missing in .env")
+    headers = {"User-Agent": _USER_AGENT, "Cookie": cookie}
+    response = requests.get(url, headers=headers, timeout=30).json()
+    error = response.get("error")
+    if error and error.get("code") == 10003:
+        raise RuntimeError(f"{cookie_key} is invalid: {error}")
+    return response
+
+
+def answer_censored_check(url: str, cookie_key: str) -> bool:
+    response = _fetch_with_cookie(url, cookie_key)
     if response.get("error"):
         print(url)
         if response["error"]["code"] == 4041:
@@ -45,8 +47,8 @@ def answer_censored_check(url: str) -> bool:
     return False
 
 
-def article_censored_check(url: str):
-    response = _fetch_with_cookie_fallback(url)
+def article_censored_check(url: str, cookie_key: str):
+    response = _fetch_with_cookie(url, cookie_key)
     if response.get("error"):
         raise Exception(response["error"])
     reaction_instruction = response.get("reaction_instruction") or {}
@@ -78,8 +80,11 @@ answer_files = list(
     )
 )
 for file in tqdm(answer_files):
+    data = load_json_ordered(file)
+    cookie_key = cookie_key_for_author(data)
     censorship[f"/answer/{file.stem}"] = answer_censored_check(
-        f"https://www.zhihu.com/api/v4/answers/{file.stem}"
+        f"https://www.zhihu.com/api/v4/answers/{file.stem}",
+        cookie_key,
     )
     save_censorship(censorship)
     time.sleep(random.random() * 2 + 1)
@@ -89,8 +94,11 @@ article_files = list(
     filter(lambda f: f"/p/{f.stem}" not in censorship, Path("article").glob("*.json"))
 )
 for file in tqdm(article_files):
+    data = load_json_ordered(file)
+    cookie_key = cookie_key_for_author(data)
     censorship[f"/p/{file.stem}"] = article_censored_check(
-        f"https://www.zhihu.com/api/v4/articles/{file.stem}"
+        f"https://www.zhihu.com/api/v4/articles/{file.stem}",
+        cookie_key,
     )
     save_censorship(censorship)
     time.sleep(random.random() * 2 + 1)
