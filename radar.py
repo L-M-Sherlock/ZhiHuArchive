@@ -12,53 +12,111 @@ import os
 load_dotenv()
 _CENSORSHIP_PATH = Path("censorship.json")
 _USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
-AUTHOR_COOKIE_KEYS = {
+OWNER_COOKIE_KEYS = {
+    "Thoughts Memo": "COOKIE_A",
+    "Jarrett Ye": "COOKIE_B",
+}
+VISIBILITY_VIEWER_COOKIE_KEYS = {
     "Thoughts Memo": "COOKIE_B",
     "Jarrett Ye": "COOKIE_A",
 }
+AUTH_ERROR_CODES = {100, 10003}
+NOT_FOUND_CODE = 4041
 
 
-def cookie_key_for_author(data: dict) -> str:
+def author_name_for_content(data: dict) -> str:
     author_name = (data.get("author") or {}).get("name")
-    cookie_key = AUTHOR_COOKIE_KEYS.get(author_name)
-    if not cookie_key:
+    if not author_name:
         raise RuntimeError(f"Cannot determine cookie for author: {author_name}")
+    return author_name
+
+
+def cookie_key_for_author(author_name: str) -> str:
+    cookie_key = OWNER_COOKIE_KEYS.get(author_name)
+    if not cookie_key:
+        raise RuntimeError(f"Cannot determine owner cookie for author: {author_name}")
     return cookie_key
 
 
-def _fetch_with_cookie(url: str, cookie_key: str) -> dict:
+def viewer_cookie_key_for_author(author_name: str) -> str:
+    cookie_key = VISIBILITY_VIEWER_COOKIE_KEYS.get(author_name)
+    if not cookie_key:
+        raise RuntimeError(f"Cannot determine viewer cookie for author: {author_name}")
+    return cookie_key
+
+
+def get_cookie(cookie_key: str) -> str:
     cookie = os.getenv(cookie_key)
     if not cookie:
         raise RuntimeError(f"{cookie_key} is missing in .env")
+    return cookie
+
+
+def _fetch_with_cookie(url: str, cookie_key: str) -> dict:
+    cookie = get_cookie(cookie_key)
     headers = {"User-Agent": _USER_AGENT, "Cookie": cookie}
     response = requests.get(url, headers=headers, timeout=30).json()
     error = response.get("error")
-    if error and error.get("code") == 10003:
+    if error and error.get("code") in AUTH_ERROR_CODES:
         raise RuntimeError(f"{cookie_key} is invalid: {error}")
     return response
 
 
-def answer_censored_check(url: str, cookie_key: str) -> bool:
-    response = _fetch_with_cookie(url, cookie_key)
-    if response.get("error"):
-        print(url)
-        if response["error"]["code"] == 4041:
-            return True
-        raise Exception(response["error"])
-    return False
+def response_not_found(response: dict) -> bool:
+    error = response.get("error")
+    return bool(error and error.get("code") == NOT_FOUND_CODE)
 
 
-def article_censored_check(url: str, cookie_key: str) -> bool:
-    response = _fetch_with_cookie(url, cookie_key)
-    if response.get("error"):
-        print(url)
-        if response["error"]["code"] == 4041:
-            return True
-        raise Exception(response["error"])
+def raise_for_unexpected_error(response: dict) -> None:
+    error = response.get("error")
+    if error and error.get("code") != NOT_FOUND_CODE:
+        raise Exception(error)
+
+
+def article_reaction_hidden(response: dict) -> bool:
     reaction_instruction = response.get("reaction_instruction") or {}
-    if reaction_instruction.get("REACTION_GOLDEN_SENTENCE_SHARE"):
+    return bool(reaction_instruction.get("REACTION_GOLDEN_SENTENCE_SHARE"))
+
+
+def ensure_distinct_cookies(owner_cookie_key: str, viewer_cookie_key: str) -> None:
+    if get_cookie(owner_cookie_key) == get_cookie(viewer_cookie_key):
+        raise RuntimeError(
+            f"{owner_cookie_key} and {viewer_cookie_key} are identical; "
+            "visibility checks require a non-author viewer cookie."
+        )
+
+
+def content_censored_check(
+    url: str,
+    owner_cookie_key: str,
+    viewer_cookie_key: str,
+    *,
+    check_article_reaction: bool = False,
+) -> bool:
+    ensure_distinct_cookies(owner_cookie_key, viewer_cookie_key)
+
+    owner_response = _fetch_with_cookie(url, owner_cookie_key)
+    if response_not_found(owner_response):
+        raise RuntimeError(
+            f"Owner cookie {owner_cookie_key} cannot see {url}; "
+            "refusing to classify censorship from a viewer-only result."
+        )
+    raise_for_unexpected_error(owner_response)
+
+    viewer_response = _fetch_with_cookie(url, viewer_cookie_key)
+    if response_not_found(viewer_response):
+        print(url)
+        return True
+    raise_for_unexpected_error(viewer_response)
+    if check_article_reaction and article_reaction_hidden(viewer_response):
+        print(url)
         return True
     return False
+
+
+def cookie_keys_for_content(data: dict) -> tuple[str, str]:
+    author_name = author_name_for_content(data)
+    return cookie_key_for_author(author_name), viewer_cookie_key_for_author(author_name)
 
 
 def load_json_ordered(file_path):
@@ -97,19 +155,22 @@ def article_files_to_check(censorship: OrderedDict, refresh_all: bool) -> list[P
 
 def check_answer(file: Path, censorship: OrderedDict) -> None:
     data = load_json_ordered(file)
-    cookie_key = cookie_key_for_author(data)
-    censorship[f"/answer/{file.stem}"] = answer_censored_check(
+    owner_cookie_key, viewer_cookie_key = cookie_keys_for_content(data)
+    censorship[f"/answer/{file.stem}"] = content_censored_check(
         f"https://www.zhihu.com/api/v4/answers/{file.stem}",
-        cookie_key,
+        owner_cookie_key,
+        viewer_cookie_key,
     )
 
 
 def check_article(file: Path, censorship: OrderedDict) -> None:
     data = load_json_ordered(file)
-    cookie_key = cookie_key_for_author(data)
-    censorship[f"/p/{file.stem}"] = article_censored_check(
+    owner_cookie_key, viewer_cookie_key = cookie_keys_for_content(data)
+    censorship[f"/p/{file.stem}"] = content_censored_check(
         f"https://www.zhihu.com/api/v4/articles/{file.stem}",
-        cookie_key,
+        owner_cookie_key,
+        viewer_cookie_key,
+        check_article_reaction=True,
     )
 
 
