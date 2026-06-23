@@ -563,8 +563,8 @@ html_content = (
     + f"""
     <h1>Thoughts Memo 和 Jarrett Ye 的知乎备份</h1>
     <p>
-        <a class="badge-link" href="https://github.com/l-m-sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.shields.io/github/stars/l-m-sherlock/ZhiHuArchive?style=social" alt="GitHub stars">
+        <a class="badge-link" href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">
+            <img src="https://img.shields.io/github/stars/L-M-Sherlock/ZhiHuArchive?style=social" alt="GitHub stars">
         </a>
     </p>
     <p>RSS: <a href="./feed.xml" target="_blank" rel="noopener noreferrer">Atom Feed</a></p>
