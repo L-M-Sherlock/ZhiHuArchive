@@ -1,0 +1,446 @@
+{
+  "id": "2050179140419072823",
+  "title": "事物空间的聚类结构",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/2050179140419072823",
+  "image_url": "https://pic1.zhimg.com/v2-e41918909bab7453220ba638aa7e2fa8_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-e41918909bab7453220ba638aa7e2fa8_720w.jpg?source=172ae18b",
+  "excerpt": "「构型空间」（configuration space）的概念，是一种将对事物的 <b>描述</b>转化为事物<b>位置</b>的方法。 \\color{blue}{蓝色} 似乎比 \\color{red}{红色} 「更接近」 \\color{teal}{蓝绿色} ，但到底近多少？光盯着颜色看是很难回答这个问题的。但如果你知道 RGB 中的（比…",
+  "created": 1781581553,
+  "updated": 1781687183,
+  "author": {
+    "is_followed": false,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-c8dfe8a8e10713e1b094c7bba877d200.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": false,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-c8dfe8a8e10713e1b094c7bba877d200_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
+    "badge": [
+      {
+        "type": "identity",
+        "topics": [],
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "badge_v2": {
+      "title": "知势榜影响力榜教育校园领域答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜影响力榜教育校园领域答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜影响力榜教育校园领域答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
+  },
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 1500,
+  "image_height": 1000,
+  "content": "<p data-pid=\"g9kb-YEB\">「构型空间」（configuration space）的概念，是一种将对事物的<b>描述</b>转化为事物<b>位置</b>的方法。 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Ccolor%7Bblue%7D%7B%E8%93%9D%E8%89%B2%7D\" alt=\"\\color{blue}{蓝色}\"/> 似乎比 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Ccolor%7Bred%7D%7B%E7%BA%A2%E8%89%B2%7D\" alt=\"\\color{red}{红色}\"/> 「更接近」 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Ccolor%7Bteal%7D%7B%E8%93%9D%E7%BB%BF%E8%89%B2%7D\" alt=\"\\color{teal}{蓝绿色}\"/> ，但到底近多少？光盯着颜色看是很难回答这个问题的。但如果你知道 RGB 中的（比例）颜色坐标是 0:0:5、0:3:2 和 5:0:0，就会很有帮助。如果把它们画在三维图表上，就会更加直观。</p><p data-pid=\"9dwALKuf\">同样地，你可以把知更鸟就看作是一只知更鸟——棕色的尾巴、红色的胸部、标准的知更鸟形状、空载时的最大飞行速度、它物种典型的 DNA 以及个体的等位基因。或者，你也可以把知更鸟看作构型空间中的一个点，这个空间的各个维度描述了我们所知道的、或者可能知道的关于知更鸟的一切。</p><p data-pid=\"2RE0eFtR\">一只知更鸟比病毒大，但比航空母舰小——这可以说是「体积」维度。同样，知更鸟比氢原子重，但比星系轻；这可以说是「质量」维度。不同的知更鸟在「体积」和「质量」之间会有很强的相关性，所以在这两个维度上，代表知更鸟的点会连成一条相当线性的带状区域——但由于这种相关性并非完全精确，我们确实需要将它们设为两个独立的维度。</p><p data-pid=\"EqCTG67A\">这就是把知更鸟看作空间中的点的好处：如果你只是把知更鸟想象成可爱的拍打着翅膀的小生物，你就无法轻易看出这种线性的排列趋势。</p><p data-pid=\"UUfCll1w\">知更鸟的 DNA 是一个高度多维的变量，但你仍然可以将其视为知更鸟在事物空间（thingspace）中位置的一部分——这是由数百万个四进制坐标组成的，每个 DNA 碱基对应一个坐标——或者可以用比这更复杂的视图来理解。知更鸟的形状和颜色（表面反射率），你同样可以认为它们是知更鸟在事物空间中位置的一部分，即便它们并非<b>单一</b>维度。</p><p data-pid=\"TwddaooX\">就像坐标点 0:0:5 包含的信息与实际的 HTML <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Ccolor%7Bblue%7D%7B%E8%93%9D%E8%89%B2%7D\" alt=\"\\color{blue}{蓝色}\"/> 完全一样，当我们把知更鸟看作空间中的点时，我们实际上并不应该丢失任何信息。无论我们是在脑海中描绘一只在天平上与 0.07 千克砝码平衡的知更鸟，还是想象一个质量坐标为 +70 的知更鸟点，我们对知更鸟质量的信念是完全一致的。</p><p data-pid=\"tPrFbCCw\">我们甚至可以想象一个包含更多维度的构型空间，事物的每一个独特特征都对应一个或多个维度，这样事物在这个空间中点的位置就对应了真实事物本身所包含的<b>全部</b>信息。这种表示甚至是相当冗余的——维度将同时包括质量、体积和密度。</p><p data-pid=\"MQ5lQ6vf\">如果你觉得这太异想天开，量子物理学家们使用的就是<b>无限维</b>的构型空间，该空间中的单个点就描述了宇宙中每个粒子的位置。所以，相比之下，我们在对「事物空间」的想象上其实已经相当保守了——事物空间中的一个点只描述了一个事物，而不是整个宇宙。</p><p data-pid=\"Kv0AOFHU\">如果我们不确定知更鸟的确切质量和体积，那么我们可以在事物空间中想象出一小团云，也就是一个<b>不确定性体积</b>（volume of uncertainty），知更鸟就可能身处其中。这团云的密度就代表着我们对知更鸟具有该特定质量和体积的信念浓度。如果你对知更鸟的密度比对其质量和体积更有把握，那么你的概率云在密度维度上就会高度集中，并且在质量/体积子空间中集中在一条斜线周围。（事实上，因为 <b>V D = M</b> 这一关系，这里的「云」实际上是一个曲面。）</p><p data-pid=\"YRJ_fAlE\">「辐射状范畴」（Radial categories）是认知心理学家用来描述词汇那非亚里士多德式边界的术语。处于核心位置的「母亲」怀上了孩子，生下了孩子，并抚养了孩子。那么，一个从未见过自己孩子的卵子捐献者算母亲吗？她是「基因学母亲」。如果是一个被植入外来胚胎并将其生下来的女人呢？她是「代孕母亲」。那么抚养了一个在基因上与自己无关的孩子的女人呢？哦，她是「养母」。亚里士多德式的三段论会这样推导：「人类有十根手指，Fred 只有九根手指，所以 Fred 不是人类。」但我们实际的思维方式是：「人类有十根手指，Fred 是人类，所以 Fred 是一个『九指人类』。」</p><p data-pid=\"N2q2DCxw\">正如前面所描述的那样，我们可以从内涵（intension）的角度来思考类别的辐射性——那些通常存在，但也可以缺失的属性。如果我们思考「母亲」一词的内涵，它可能就像是事物空间中散布的一团辉光，这团辉光的强度与该事物空间的体积符合「母亲」类别的程度相匹配。这种辉光集中在同时具备遗传、分娩和抚养属性的核心区域；代表卵子捐献者的空间体积也会发光，但亮度会暗一些。</p><p data-pid=\"36ahRHvT\">或者，我们也可以从外延（extension）的角度来思考类别的辐射性。假设我们将世界上所有的鸟类都映射到事物空间中，并使用一种尽可能与人类感知相似度相吻合的距离度量方法：一只知更鸟与另一只知更鸟更相似，比起它们中的任何一只与鸽子更相似；但是知更鸟和鸽子彼此之间，比它们中任何一只与企鹅更相似，依此类推。</p><p data-pid=\"I7dOgFdZ\">那么，「鸟」的所有属性的中心将会密集地分布着许多相邻的紧密聚类，包括知更鸟、麻雀、金丝雀、鸽子以及许多其他物种。鹰、隼和其他大型猛禽将占据附近的另一个聚类。企鹅会在更远的一个聚类中，鸡和鸵鸟也是如此。</p><p data-pid=\"2m8edWBh\">最后呈现的结果，确实可能像一个天文星团：许多星系围绕着中心旋转，此外还有一些游离在外的离群星系。</p><p data-pid=\"3_oWYnQY\">或者，我们可以同时考虑认知类别「鸟」的内涵，以及它在现实世界中鸟类的外延：中心聚类的知更鸟和麻雀散发着高度典型「鸟性」的明亮光芒；属于卫星聚类的鸵鸟和企鹅则散发着非典型「鸟性」的黯淡光芒；而在几百万秒差距之外的亚伯拉罕·林肯则完全不发光。</p><p data-pid=\"_RNstszF\">我更喜欢最后一种可视化方式——发光的点——因为在我看来，认知内涵的结构，本就是遵循外延聚类结构而产生的。首先存在的是现实世界中的结构，也就是鸟类在事物空间上的经验分布；然后，通过观察这种分布，我们形成了一个类别，其内涵的辉光大致覆盖了这个现实结构。</p><p data-pid=\"qlZgoLZF\">这也为我们提供了另一个视角，说明为什么词汇并不是亚里士多德式的类：因为现实宇宙在经验上的聚类结构并没有那么棱角分明。一个自然聚类——即一组彼此高度相似的事物——可能并没有一套共同的必要和充分属性；<b>没有</b>哪一套特征是所有群组成员都有、且所有非成员都没有的。</p><p data-pid=\"DM20M1qP\">但即使一个类别无可挽回地模糊且凹凸不平，也没有必要惊慌。如果有人说鸟类是「有羽毛的飞行物」，我不会反对。<b>但企鹅不会飞！</b>——好吧，没关系。常规法则总有例外；这并不是世界末日。无论在何种情况下，都不应期望定义能与事物空间的经验结构完全匹配，因为地图本身就比领土更小、更不复杂。「有羽毛的飞行物」这个定义的重点，是将听众引向鸟类聚类，而不是对存在的每一只鸟进行细致到分子级别的全面描述。</p><p data-pid=\"AuyE8Oee\">当你围绕着在事物空间中<b>在经验层面上</b>聚集的一组外延点画一个边界时，你可能会发现，对于你所能发明的每一个简单的内涵规则，都至少存在一个例外。</p><p data-pid=\"lseAPkNp\">但如果一个定义在实践中运作得足够好，足以指向预期的经验聚类，那么对它提出异议，大可以被称作「吹毛求疵」。</p><hr/><p data-pid=\"tyO4E-i4\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/2049178769492125521\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"典型性与不对称相似性\" data-draft-cover=\"https://picx.zhimg.com/v2-148165a36b7a592715cdc7017dde5c62.png?source=7e7ef6e2&amp;needBackground=1\" class=\"internal\">典型性与不对称相似性</a><p data-pid=\"CGJqYtgD\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/2050519448814195814\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"伪装的查询\" data-draft-cover=\"https://picx.zhimg.com/v2-943aba2bfa707c783995709d67737df7.webp?source=7e7ef6e2&amp;needBackground=1\" class=\"internal\">伪装的查询</a><hr/><blockquote data-pid=\"yd0pJwt_\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 gemini-3.1-pro，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/The-Cluster-Structure-Of-Thingspace\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Cluster Structure of Thingspace</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
+  "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19571307",
+      "type": "topic",
+      "id": "19571307",
+      "name": "空间"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19552114",
+      "type": "topic",
+      "id": "19552114",
+      "name": "定义"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19574847",
+      "type": "topic",
+      "id": "19574847",
+      "name": "概念"
+    }
+  ],
+  "voteup_count": 28,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "理性是一种「利用手头一切资源来尽己所能」的理念。",
+    "is_following": true,
+    "url_token": "c_1826322587032117248",
+    "id": "c_1826322587032117248",
+    "articles_count": 149,
+    "accept_submission": true,
+    "title": "理性 & 克服偏见",
+    "url": "https://api.zhihu.com/columns/c_1826322587032117248",
+    "comment_permission": "all",
+    "created": 1728209236,
+    "updated": 1751811441,
+    "image_url": "https://picx.zhimg.com/v2-c9036d409f5e65c53cfea750a0176c61_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 406,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 0,
+  "contributions": [
+    {
+      "id": 54149502,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "理性是一种「利用手头一切资源来尽己所能」的理念。",
+        "is_following": true,
+        "url_token": "c_1826322587032117248",
+        "id": "c_1826322587032117248",
+        "articles_count": 149,
+        "accept_submission": true,
+        "title": "理性 & 克服偏见",
+        "url": "https://api.zhihu.com/columns/c_1826322587032117248",
+        "comment_permission": "all",
+        "created": 1728209236,
+        "updated": 1751811441,
+        "image_url": "https://picx.zhimg.com/v2-c9036d409f5e65c53cfea750a0176c61_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 406,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "can_open_tipjar": true,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 33,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "事物空间的聚类结构 - 来自知乎专栏「理性 &amp; 克服偏见」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/2050179140419072823 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 1,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 1,
+    "like_has_set": false
+  },
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyNzcwMjcxNzESEzIwNTAxNzkxNDA0MTkwNzI4MjMYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 28,
+      "down_vote_count": 0,
+      "like_count": 1,
+      "comment_count": 0,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 33,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-e41918909bab7453220ba638aa7e2fa8": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": true,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-e41918909bab7453220ba638aa7e2fa8": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-e41918909bab7453220ba638aa7e2fa8": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/82971191947?contentId=2050179140419072823&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 理性 & 克服偏见",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1826322587032117248",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 理性 & 克服偏见"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
+}

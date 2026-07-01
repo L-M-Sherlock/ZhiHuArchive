@@ -1,0 +1,500 @@
+{
+  "id": "2051369757249736864",
+  "title": "一个算法的内部感受",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/2051369757249736864",
+  "image_url": "https://picx.zhimg.com/v2-5f3ec061653be1692b1284082d67d6d3_720w.jpg?source=172ae18b",
+  "title_image": "https://pica.zhimg.com/v2-5f3ec061653be1692b1284082d67d6d3_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://pic1.zhimg.com/v2-9a37f719e216483ba877f5f7cf570f56_200x112.jpg\" data-caption=\"网络 1 \" data-size=\"normal\" data-rawwidth=\"562\" data-rawheight=\"453\" data-watermark=\"original\" data-original-src=\"v2-9a37f719e216483ba877f5f7cf570f56\" data-watermark-src=\"v2-95317420478769b25d4d5f6472913294\" data-private-watermark-src=\"\" class=\"origin_image inline-img zh-lightbox-thumb\" data-original=\"https://pic1.zhimg.com/v2-9a37f719e216483ba877f5f7cf570f56_r.jpg\"/>「如果一棵树在森林里倒下，而周围没有一个人听到，它会发出声音吗？」我记得曾经看到过一场关于这个话题的真实争论——一场完全天真、跟贝克莱主观唯心主义（Berkeleian subjectivism）沾不上半点边的争论。对话仅仅是这样： 「它当然会发出声音，就像任何…",
+  "created": 1781864934,
+  "updated": 1781964958,
+  "author": {
+    "is_followed": false,
+    "avatar_url_template": "https://picx.zhimg.com/v2-c8dfe8a8e10713e1b094c7bba877d200.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": false,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-c8dfe8a8e10713e1b094c7bba877d200_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
+    "badge": [
+      {
+        "type": "identity",
+        "topics": [],
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "badge_v2": {
+      "title": "知势榜影响力榜教育校园领域答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜影响力榜教育校园领域答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜影响力榜教育校园领域答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pica.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
+  },
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 614,
+  "image_height": 284,
+  "content": "<p data-pid=\"xpAH3xpY\">「如果一棵树在森林里倒下，而周围没有一个人听到，它会发出声音吗？」我记得曾经看到过一场关于这个话题的真实争论——一场完全天真、跟贝克莱主观唯心主义（Berkeleian subjectivism）沾不上半点边的争论。对话仅仅是这样：</p><blockquote data-pid=\"chtT7wBC\">「它当然会发出声音，就像任何其他倒下的树一样！」<br/>「但要是都没人听到，怎么能叫有声音呢？」</blockquote><p data-pid=\"eMGM7ukZ\">标准的理性主义观点会认为，第一个人的意思是把「声音」等同于空气中的声波振动；而第二个人是把「声音」等同于大脑中的听觉体验。如果你问「有声波振动吗？」或者问「有听觉体验吗？」，答案立刻就显而易见了。所以这场争论的实质，其实是在争论「声音」这个词的定义。</p><p data-pid=\"8sZA67VJ\">我认为这个标准分析在本质上是正确的。所以让我们先接受它作为一个前提，然后问问：为什么人们会卷入这样的争论？其潜在的心理机制是什么？</p><p data-pid=\"IJVIxoaH\">启发式与偏见项目（heuristics and biases program）的一个核心理念是：人类犯的错误，往往比正确的答案更能揭示认知的运作机制。为了「一棵倒在荒无人烟的森林里的树究竟有没有发出声音」而争得面红耳赤，传统上被认为是个错误。</p><p data-pid=\"EQexybfN\">那么，究竟是怎样的心智架构，才会对应于这种错误呢？</p><p data-pid=\"fpID5_Qz\">在<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/DisguisedQueries\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">伪装的查询</a><sup data-text=\"伪装的查询\" data-url=\"https://zhuanlan.zhihu.com/p/2050519448814195814\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>一文中，我介绍了一项关于「蓝蛋（bleggs）」和「红方（rubes）」的分类任务。高级分拣员 Susan 解释说，你的工作是对传送带上下来的物体进行分类：把蓝色的蛋形物体（蓝蛋）放进一个箱子里，把红色的立方体（红方）放进另一个箱子里。原来，这是因为蓝蛋含有小块的钒矿石，而红方含有少量的钯，这两种物质在工业上都有用处。</p><p data-pid=\"nT94DcjG\">然而，大约有 2% 的蓝色蛋形物体反而含有钯。那么，如果你发现了一个含有钯的蓝色蛋形物体，你应该把它叫做「红方」吗？毕竟你要把它扔进红方箱子里——为什么不干脆叫它「红方」呢？</p><p data-pid=\"CUyQYlim\">但是，当你关掉灯时，几乎所有的蓝蛋都会在黑暗中发出微弱的光。</p><p data-pid=\"G8o6ZlUt\">而且，含有钯的蓝色蛋形物体，其在黑暗中发光的概率和任何其他普通的蓝色蛋形物体是一样的。</p><p data-pid=\"FvGLczSc\">所以，如果你发现了一个含有钯的蓝色蛋形物体，然后你问：「它是一个蓝蛋吗？」，答案取决于你要拿这个答案来做什么。如果你问的是「这个物体该放进哪个箱子？」，那么你做出的选择就好像这个物体是个红方一样。但如果你问的是「如果我关掉灯，它会发光吗？」，你的预测就好像这个物体是个蓝蛋一样。在第一种情况下，「它是一个蓝蛋吗？」这个问题代表了被伪装的查询：「它该放进哪个箱子？」而在另一种情况下，它代表的则是另一个被伪装的查询：「它会在黑暗中发光吗？」</p><p data-pid=\"QHufb_mM\">现在，假设你面前有一个物体，它是蓝色的、蛋形的，并且含有钯；而且你已经观察到它长有绒毛、有弹性、不透明，且在黑暗中发光。</p><p data-pid=\"LqWcMlEG\">这已经回答了<b>每一个</b>查询，你已经观察了每一个被引入的可观察特征。再也没有留下任何东西，可以供那个伪装的查询去<b>代表</b>了。</p><p data-pid=\"7ZYP6mDz\">那么，为什么还会有人忍不住想要继续争论这个物体<b>到底</b>是不是一个蓝蛋呢？</p><p data-pid=\"gD3F5ru8\">下面这两张来自<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/NeuralCategories\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">神经类别</a><sup data-text=\"神经类别\" data-url=\"https://zhuanlan.zhihu.com/p/2050999897550223000\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>一文的图表，展示了两种可能被用来回答关于蓝蛋和红方问题的神经网络。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-9a37f719e216483ba877f5f7cf570f56_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"562\" data-rawheight=\"453\" data-original-token=\"v2-9a37f719e216483ba877f5f7cf570f56\" class=\"origin_image zh-lightbox-thumb\" width=\"562\" data-original=\"https://pic1.zhimg.com/v2-9a37f719e216483ba877f5f7cf570f56_r.jpg\"/><figcaption>网络 1 </figcaption></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"sAVY0-c0\">网络 1 有很多缺点——比如可能会产生震荡或混沌行为，或者需要 <i>O</i>(N²) 的连接数——但是，网络 1 的结构确实有一个比网络 2 强得多的优势：网络中的每一个单元（节点）都对应着一个可以被测试的查询。如果你观察了每一个可观察特征，并把每一个值都固定（clamp）下来，网络中就不会再有任何剩余的、未确定的单元了。</p><figure data-size=\"normal\"><img src=\"https://pic1.zhimg.com/v2-0e371eb8340b9e228a09e8c9e1538f2e_1440w.jpg\" data-size=\"normal\" data-rawwidth=\"562\" data-rawheight=\"453\" data-original-token=\"v2-0e371eb8340b9e228a09e8c9e1538f2e\" class=\"origin_image zh-lightbox-thumb\" width=\"562\" data-original=\"https://pic1.zhimg.com/v2-0e371eb8340b9e228a09e8c9e1538f2e_r.jpg\"/><figcaption>网络 2 </figcaption></figure><p data-pid=\"bWdJr8sh\">然而，网络 2 更有可能是一种大致接近人类大脑工作方式的模型：它运算快、成本低、可扩展性强——并且在中心有一个额外悬挂着的游离单元，即使我们在观察了周围每一个节点（特征）之后，它的激活状态仍然可以存在变化。</p><p data-pid=\"F7hPsDuz\">也就是说，即使你已经知道了这个物体是蓝色还是红色、是蛋形还是立方体、是多毛还是光滑、是明亮还是黯淡、是含有钒还是钯，你依然<b>感觉</b>好像留下了一个未解之谜：「但它到底是不是一个蓝蛋呢？」</p><p data-pid=\"Qf6U7Q83\">通常情况下，在我们的日常经验中，空气的声波振动和大脑的听觉体验是相伴而生的。但是，一棵倒在荒无人烟森林里的树，解开了这种常见的关联捆绑。于是，即使你明明知道这棵倒下的树产生了声波振动但没有产生听觉体验，你依然<b>感觉</b>好像留下了一个问题：「它到底发出声音了吗？」</p><p data-pid=\"dXcOfpJh\">我们知道冥王星在哪里，以及它的运行轨道；我们知道冥王星的形状，也知道它的质量——但它是一颗行星吗？</p><p data-pid=\"t2qWtBND\">请记住：当你看网络 2 时，就像我把它展现在这里一样，你是在从<b>外部</b>看待这个算法。人们在思考时绝不会想，「中心单元该触发还是不触发？」这就好比你绝对不会想，「我视觉皮层里的第 12,234,320,242 号神经元该触发还是不触发？」一样。</p><p data-pid=\"RQCR1M_g\">你需要刻意地努力，才能从外部视角去想象你的大脑——而且，即便如此，你依然看不到你实际的大脑；你想象出来的，只是你<b>认为</b>大脑里存在的东西。哪怕你是基于科学原理去想象的，不管怎样，你也无法通过内省（introspection）直接触及神经网络的结构。这就是为什么古希腊人没能发明计算神经科学的原因。</p><p data-pid=\"w4dY-Lu6\">当你看网络 2 时，你是在从<b>外部</b>看它；但是，如果你自己<b>就是</b>一个正在运行那个算法的大脑，那种神经网络结构从<b>内部</b>感觉起来的方式就是：即使你已经知道了这个物体的每一个特征，你依然会发现自己在想：「但它到底是不是一个蓝蛋？」</p><p data-pid=\"dzHBnw2k\">这是一道难以跨越的巨大鸿沟，我曾亲眼目睹它让无数人停滞不前。因为我们不会本能地把我们的直觉看作是「直觉」，我们只会把它们当成「现实世界」本身。当你看着一个绿色的杯子时，你不会认为自己看到的是在视觉皮层中重构出来的一幅画面——尽管这<b>确实</b>就是你正在看的——你只是看到一个绿色的杯子而已。你会想：「瞧，这个杯子是绿色的」，而不是想：「我的视觉皮层里呈现的关于这个杯子的画面是绿色的。」</p><p data-pid=\"HPHi5umC\">同样的道理，当人们在争论倒下的树是否发出了声音，或者冥王星是否是一颗行星时，他们并不认为自己是在争论：自己的神经网络中某个用来分类的中心节点是否应该被激活。在他们看来，事情就是非黑即白的：树要么发出了声音，要么没有。</p><p data-pid=\"6OydglpJ\">我们知道冥王星在哪里，知道它的轨道；我们知道冥王星的形状和质量——但它是一颗行星吗？没错，有人确实会说这是一场关于定义的争论——但即使是这种说法，也是从网络 2 的视角出发的，因为你依然是在争论中心单元究竟该如何进行逻辑接线。如果你是一个按照网络 1 的架构构建出来的心智，你就不会说「这取决于你如何定义『行星』」，你只会说，「既然我们已经知道了冥王星的轨道、形状和质量，那就没有任何问题可问了。」或者更准确地说，如果你是一个按照网络 1 构建的心智，这就会是你内心的<b>感觉</b>——你就是会<b>感觉</b>没有留下任何问题。</p><p data-pid=\"YkQJzwJn\">在你能够开始质疑自己的直觉之前，你必须首先意识到，你心灵之眼正在注视着的，本身就是一种直觉——也就是某种从内部被体验到的认知算法——而不是对「事物真实本来面貌」（the Way Things Really Are）的直接感知。</p><p data-pid=\"VDU4kQKM\">我认为，人们之所以<a href=\"https://link.zhihu.com/?target=https%3A//www.greaterwrong.com/lw/n1/allais_malaise/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">死守着他们的直觉不放</a>，与其说是他们坚信自己的认知算法绝对可靠，不如说是因为他们无法将自己的直觉，看作是<b>他们的认知算法从内部碰巧呈现出来的样子</b>。</p><p data-pid=\"d81A92rJ\">正因如此，你试图向他们解释人类原生的认知算法是如何走入歧途的任何话语，最终都会被拿去与他们对「事物真实本来面貌」的直接感知相对比——然后作为明显荒谬的谬论被抛弃。</p><hr/><p data-pid=\"eN_n8-hM\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/2050999897550223000\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"神经类别\" data-draft-cover=\"https://pica.zhimg.com/v2-9a37f719e216483ba877f5f7cf570f56.jpg?source=7e7ef6e2&amp;needBackground=1\" class=\"internal\">神经类别</a><p data-pid=\"nEXGdTNM\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/2051788159038576630\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"争论定义\" data-draft-cover=\"https://picx.zhimg.com/v2-21d5613945c1eacbeb903cb9b7619d4d.jpg?source=7e7ef6e2&amp;needBackground=1\" class=\"internal\">争论定义</a><hr/><blockquote data-pid=\"yd0pJwt_\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 gemini-3.1-pro，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/How-An-Algorithm-Feels-From-Inside\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">How An Algorithm Feels From Inside</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
+  "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19553510",
+      "type": "topic",
+      "id": "19553510",
+      "name": "算法"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19555984",
+      "type": "topic",
+      "id": "19555984",
+      "name": "感受"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19551409",
+      "type": "topic",
+      "id": "19551409",
+      "name": "思考"
+    }
+  ],
+  "voteup_count": 36,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "理性是一种「利用手头一切资源来尽己所能」的理念。",
+    "is_following": true,
+    "url_token": "c_1826322587032117248",
+    "id": "c_1826322587032117248",
+    "articles_count": 149,
+    "accept_submission": true,
+    "title": "理性 & 克服偏见",
+    "url": "https://api.zhihu.com/columns/c_1826322587032117248",
+    "comment_permission": "all",
+    "created": 1728209236,
+    "updated": 1751811441,
+    "image_url": "https://pic1.zhimg.com/v2-c9036d409f5e65c53cfea750a0176c61_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 406,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 1,
+  "contributions": [
+    {
+      "id": 54167943,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "理性是一种「利用手头一切资源来尽己所能」的理念。",
+        "is_following": true,
+        "url_token": "c_1826322587032117248",
+        "id": "c_1826322587032117248",
+        "articles_count": 149,
+        "accept_submission": true,
+        "title": "理性 & 克服偏见",
+        "url": "https://api.zhihu.com/columns/c_1826322587032117248",
+        "comment_permission": "all",
+        "created": 1728209236,
+        "updated": 1751811441,
+        "image_url": "https://pic1.zhimg.com/v2-c9036d409f5e65c53cfea750a0176c61_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 406,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "can_open_tipjar": true,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 44,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "一个算法的内部感受 - 来自知乎专栏「理性 &amp; 克服偏见」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/2051369757249736864 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 1,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "Anki 高考践行者，教育英特纳雄耐尔一定会实现！\n我的个人主页：https://l-m-sherlock.github.io/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 1,
+    "like_has_set": false
+  },
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyNzcyNjc0NzQSEzIwNTEzNjk3NTcyNDk3MzY4NjQYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 36,
+      "down_vote_count": 0,
+      "like_count": 1,
+      "comment_count": 1,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 44,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-0e371eb8340b9e228a09e8c9e1538f2e": 0,
+        "v2-5f3ec061653be1692b1284082d67d6d3": 0,
+        "v2-9a37f719e216483ba877f5f7cf570f56": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": true,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-0e371eb8340b9e228a09e8c9e1538f2e": false,
+        "v2-5f3ec061653be1692b1284082d67d6d3": false,
+        "v2-9a37f719e216483ba877f5f7cf570f56": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-0e371eb8340b9e228a09e8c9e1538f2e": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-5f3ec061653be1692b1284082d67d6d3": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-9a37f719e216483ba877f5f7cf570f56": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/83454517205?contentId=2051369757249736864&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 理性 & 克服偏见",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1826322587032117248",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 理性 & 克服偏见"
+      }
+    }
+  ],
+  "segment_infos": [
+    {
+      "pid": "nT94DcjG",
+      "text": "然而，大约有 2% 的蓝色蛋形物体反而含有钯。那么，如果你发现了一个含有钯的蓝色蛋形物体，你应该把它叫做「红方」吗？毕竟你要把它扔进红方箱子里——为什么不干脆叫它「红方」呢？",
+      "marks": [
+        {
+          "start_index": 73,
+          "end_index": 87,
+          "seg_info": {
+            "seg_ids": [
+              "2051536288344544168"
+            ],
+            "is_like": false,
+            "like_count": 0,
+            "comment_count": 1,
+            "my_comment_count": 0,
+            "is_span": false
+          }
+        }
+      ]
+    },
+    {
+      "pid": "LqWcMlEG",
+      "text": "这已经回答了每一个查询，你已经观察了每一个被引入的可观察特征。再也没有留下任何东西，可以供那个伪装的查询去代表了。",
+      "marks": [
+        {
+          "start_index": 0,
+          "end_index": 56,
+          "seg_info": {
+            "seg_ids": [
+              "2051373975347925749"
+            ],
+            "is_like": false,
+            "like_count": 0,
+            "comment_count": 1,
+            "my_comment_count": 0,
+            "is_span": false
+          }
+        }
+      ]
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
+}
