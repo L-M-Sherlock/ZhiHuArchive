@@ -46,8 +46,28 @@ def load_download_paths(download_dir: Path) -> List[str]:
     return all_paths
 
 
+def load_existing_paths(paths_file: Path) -> tuple[List[str], List[str]]:
+    if not paths_file.exists():
+        print(f"{paths_file} does not exist, skipping existing paths")
+        return [], []
+
+    with open(paths_file, "r", encoding="utf-8") as f:
+        paths = json.load(f)
+
+    answer_paths = [path for path in paths if path.startswith("/answer/")]
+    article_paths = [path for path in paths if path.startswith("/p/")]
+    print("existing_answer_path", len(answer_paths))
+    print("existing_article_path", len(article_paths))
+    return answer_paths, article_paths
+
+
 def load_legacy_paths(index_file):
-    df = pd.read_csv(index_file, header=None, names=["title", "link", "type"])
+    index_path = Path(index_file)
+    if not index_path.exists():
+        print(f"{index_path} does not exist, falling back to paths.json")
+        return load_existing_paths(Path("paths.json"))
+
+    df = pd.read_csv(index_path, header=None, names=["title", "link", "type"])
     answer_paths = (
         df[df["type"] == "answer"]["link"]
         .str.replace(r"https://www.zhihu.com/question/[0-9]+", "", regex=True)
