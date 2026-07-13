@@ -232,7 +232,7 @@ search_script = """<script type="module">
         const tokensLower = tokens.map((token) => token.toLowerCase());
         const phrasesLower = phrases.map((phrase) => phrase.toLowerCase());
         const highlightTerms = [...phrasesLower, ...tokensLower]
-            .filter((value) => value && value.length >= minCjkLength)
+            .filter((value) => value.length > 0)
             .slice(0, 8);
         return { raw: trimmed, lower, tokens: tokensLower, phrases: phrasesLower, highlights: highlightTerms };
     };
@@ -278,15 +278,80 @@ search_script = """<script type="module">
         if (!terms.length) {
             return escapeHtml(text);
         }
-        let output = escapeHtml(text);
-        terms.forEach((term) => {
-            if (!term) {
-                return;
-            }
-            const regex = new RegExp(escapeRegExp(term), "gi");
-            output = output.replace(regex, "<mark>$&</mark>");
+        const pattern = [...terms]
+            .filter(Boolean)
+            .sort((a, b) => b.length - a.length)
+            .map(escapeRegExp)
+            .join("|");
+        if (!pattern) {
+            return escapeHtml(text);
+        }
+
+        const regex = new RegExp(pattern, "gi");
+        let output = "";
+        let lastIndex = 0;
+        text.replace(regex, (match, offset) => {
+            output += escapeHtml(text.slice(lastIndex, offset));
+            output += `<mark>${escapeHtml(match)}</mark>`;
+            lastIndex = offset + match.length;
+            return match;
         });
-        return output;
+        return output + escapeHtml(text.slice(lastIndex));
+    };
+
+    const getSnippetBounds = (sourceLength, matchIndex, matchLength, maxLength) => {
+        const visibleMatchLength = Math.min(matchLength, maxLength);
+        const contextBefore = Math.floor((maxLength - visibleMatchLength) / 2);
+        const latestStart = Math.max(0, sourceLength - maxLength);
+        const start = Math.min(Math.max(0, matchIndex - contextBefore), latestStart);
+        return { start, end: Math.min(sourceLength, start + maxLength) };
+    };
+
+    const findBestSnippetMatch = (source, terms, maxLength) => {
+        const lowerSource = source.toLowerCase();
+        let bestMatch = null;
+
+        terms.forEach((term) => {
+            let matchIndex = lowerSource.indexOf(term);
+            while (matchIndex !== -1) {
+                const { start, end } = getSnippetBounds(source.length, matchIndex, term.length, maxLength);
+                const snippetWindow = lowerSource.slice(start, end);
+                const matchedTermCount = terms.filter((candidate) => snippetWindow.includes(candidate)).length;
+
+                if (!bestMatch || matchedTermCount > bestMatch.matchedTermCount) {
+                    bestMatch = { source, start, end, matchedTermCount };
+                }
+                matchIndex = lowerSource.indexOf(term, matchIndex + term.length);
+            }
+        });
+
+        return bestMatch;
+    };
+
+    const truncateSnippet = (text, maxLength) =>
+        text.length > maxLength ? text.slice(0, maxLength) + "..." : text;
+
+    const buildSnippet = (doc, query, maxLength = 220) => {
+        const queryTerms = [...query.phrases, ...query.tokens];
+        const nonEmptyTerms = queryTerms.filter((term) => term.length > 0);
+        const terms = [...new Set(nonEmptyTerms)];
+        const sources = [doc.content || "", doc.excerpt || ""].filter((source) => source.length > 0);
+        let bestMatch = null;
+
+        sources.forEach((source) => {
+            const candidate = findBestSnippetMatch(source, terms, maxLength);
+            if (candidate && (!bestMatch || candidate.matchedTermCount > bestMatch.matchedTermCount)) {
+                bestMatch = candidate;
+            }
+        });
+
+        if (!bestMatch) {
+            return truncateSnippet(doc.excerpt || doc.content || "", maxLength);
+        }
+
+        const prefix = bestMatch.start > 0 ? "..." : "";
+        const suffix = bestMatch.end < bestMatch.source.length ? "..." : "";
+        return prefix + bestMatch.source.slice(bestMatch.start, bestMatch.end) + suffix;
     };
 
     const clearResults = () => {
@@ -304,14 +369,14 @@ search_script = """<script type="module">
             const li = document.createElement("li");
             li.className = "search-result";
             const title = doc.title || doc.url || "未命名";
+            const highlightedTitle = highlightText(title, item.highlights);
             const thumb = doc.image
-                ? `<div class="search-result-thumb"><img src="${doc.image}" alt="${title}"></div>`
+                ? `<div class="search-result-thumb"><img src="${doc.image}" alt="${escapeHtml(title)}"></div>`
                 : "";
-            const snippetSource = doc.excerpt || doc.content || "";
-            const snippet = snippetSource.length > 220 ? snippetSource.slice(0, 220) + "..." : snippetSource;
+            const snippet = buildSnippet(doc, item.query);
             const highlightedSnippet = highlightText(snippet, item.highlights);
             li.innerHTML = `${thumb}<div class="search-result-body">
-                <p class="search-result-title"><a href="${doc.url}" target="_blank" rel="noopener noreferrer">${title}</a></p>
+                <p class="search-result-title"><a href="${doc.url}" target="_blank" rel="noopener noreferrer">${highlightedTitle}</a></p>
                 <p class="search-result-excerpt">${highlightedSnippet}</p>
             </div>`;
             resultsEl.appendChild(li);
@@ -342,7 +407,7 @@ search_script = """<script type="module">
         const matches = [];
         for (const doc of docs) {
             if (matchesDoc(doc, query)) {
-                matches.push({ doc, score: scoreDoc(doc, query), highlights: query.highlights });
+                matches.push({ doc, score: scoreDoc(doc, query), highlights: query.highlights, query });
             }
         }
         matches.sort((a, b) => (b.score - a.score) || (b.doc.created - a.doc.created));
