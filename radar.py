@@ -22,6 +22,7 @@ VISIBILITY_VIEWER_COOKIE_KEYS = {
 }
 AUTH_ERROR_CODES = {100, 10003}
 NOT_FOUND_CODE = 4041
+ANSWER_INCLUDE = "is_collapsed,collapse_reason,collapsed_by"
 
 
 def author_name_for_content(data: dict) -> str:
@@ -78,6 +79,10 @@ def article_reaction_hidden(response: dict) -> bool:
     return bool(reaction_instruction.get("REACTION_GOLDEN_SENTENCE_SHARE"))
 
 
+def answer_collapsed(response: dict) -> bool:
+    return response.get("is_collapsed") is True
+
+
 def ensure_distinct_cookies(owner_cookie_key: str, viewer_cookie_key: str) -> None:
     if get_cookie(owner_cookie_key) == get_cookie(viewer_cookie_key):
         raise RuntimeError(
@@ -91,6 +96,7 @@ def content_censored_check(
     owner_cookie_key: str,
     viewer_cookie_key: str,
     *,
+    check_answer_collapse: bool = False,
     check_article_reaction: bool = False,
 ) -> bool:
     ensure_distinct_cookies(owner_cookie_key, viewer_cookie_key)
@@ -102,12 +108,18 @@ def content_censored_check(
             "refusing to classify censorship from a viewer-only result."
         )
     raise_for_unexpected_error(owner_response)
+    if check_answer_collapse and answer_collapsed(owner_response):
+        print(url)
+        return True
 
     viewer_response = _fetch_with_cookie(url, viewer_cookie_key)
     if response_not_found(viewer_response):
         print(url)
         return True
     raise_for_unexpected_error(viewer_response)
+    if check_answer_collapse and answer_collapsed(viewer_response):
+        print(url)
+        return True
     if check_article_reaction and article_reaction_hidden(viewer_response):
         print(url)
         return True
@@ -157,9 +169,10 @@ def check_answer(file: Path, censorship: OrderedDict) -> None:
     data = load_json_ordered(file)
     owner_cookie_key, viewer_cookie_key = cookie_keys_for_content(data)
     censorship[f"/answer/{file.stem}"] = content_censored_check(
-        f"https://www.zhihu.com/api/v4/answers/{file.stem}",
+        f"https://www.zhihu.com/api/v4/answers/{file.stem}?include={ANSWER_INCLUDE}",
         owner_cookie_key,
         viewer_cookie_key,
+        check_answer_collapse=True,
     )
 
 
