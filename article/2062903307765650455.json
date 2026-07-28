@@ -1,0 +1,458 @@
+{
+  "id": "2062903307765650455",
+  "title": "插曲：贝叶斯定理的直观解释",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/2062903307765650455",
+  "image_url": "https://picx.zhimg.com/v2-7bc49a48fece592c9e9cdae884e4cb69_720w.jpg?source=172ae18b",
+  "title_image": "https://pica.zhimg.com/v2-7bc49a48fece592c9e9cdae884e4cb69_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://pic4.zhimg.com/v2-1a36869715790327e062148e6f8239df_200x112.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1100\" data-rawheight=\"212\" data-watermark=\"original\" data-original-src=\"v2-1a36869715790327e062148e6f8239df\" data-watermark-src=\"v2-f9829cbdf7d30a039f38f4ebb1c613c4\" data-private-watermark-src=\"\" data-original=\"https://pic4.zhimg.com/v2-1a36869715790327e062148e6f8239df_r.jpg\" class=\"origin_image inline-img zh-lightbox-thumb\"/>[<b>编者按</b>：本文是<a href=\"https://link.zhihu.com/?target=http%3A//yudkowsky.net/rational/bayes\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">原版</a>文章的删节版，原版含有许多交互元素。]你的朋友和同事都在谈论一种叫「贝叶斯定理」或「贝叶斯法则」的东西，又或者一种叫贝叶斯推理的方法。听他们的口气，还真是兴奋得不得了，于是你上网一搜，找到一个介绍贝叶斯定理的网页，然后……",
+  "created": 1784615228,
+  "updated": 1784994952,
+  "author": {
+    "is_followed": false,
+    "avatar_url_template": "https://picx.zhimg.com/v2-c8dfe8a8e10713e1b094c7bba877d200.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": false,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://picx.zhimg.com/v2-c8dfe8a8e10713e1b094c7bba877d200_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
+    "badge": [
+      {
+        "type": "identity",
+        "topics": [],
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "badge_v2": {
+      "title": "知势榜影响力榜教育校园领域上榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜影响力榜教育校园领域上榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜影响力榜教育校园领域上榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://pic1.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
+  },
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 498,
+  "image_height": 289,
+  "content": "<blockquote data-pid=\"voW1HRXP\">[<b>编者按</b>：本文是<a href=\"https://link.zhihu.com/?target=http%3A//yudkowsky.net/rational/bayes\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">原版</a>文章的删节版，原版含有许多交互元素。]</blockquote><p data-pid=\"OtczeJEJ\">你的朋友和同事都在谈论一种叫「贝叶斯定理」或「贝叶斯法则」的东西，又或者一种叫贝叶斯推理的方法。听他们的口气，还真是兴奋得不得了，于是你上网一搜，找到一个介绍贝叶斯定理的网页，然后……</p><p data-pid=\"eJQfcNhS\">映入眼帘的就是这个方程。仅此而已。只有一个方程。你找到的网页给出了定义，却没说它究竟是什么、有什么用，也没说你的朋友为什么会对它感兴趣。它看起来不过是个莫名其妙的统计学玩意儿。</p><p data-pid=\"Wf-Mrsqz\">为什么一个数学概念会让学习它的人产生这种奇特的热情？那场正在席卷各门科学、甚至声称连实验方法本身都只是其特例的所谓贝叶斯革命，究竟是什么？贝叶斯的信徒掌握了什么秘密？他们看见了怎样的光？</p><p data-pid=\"12xBodLy\">很快你就会知道。很快你就会成为我们的一员。</p><p data-pid=\"iM0tlZ03\">网上虽然已经有一些贝叶斯定理的讲解，但根据我向别人介绍贝叶斯推理的经验，这些讲解都太抽象了。贝叶斯推理非常<b>反直觉</b>。人们不会本能地运用贝叶斯推理；即使有人指导，也觉得它很难学；指导一结束，又会迅速忘掉贝叶斯方法。无论是初学者，还是在某一领域受过高度训练的专业人士，都是如此。显然，贝叶斯推理就像量子力学或 Wason Selection Test 一样，是人类凭借与生俱来的心智能力本来就很难掌握的东西。</p><p data-pid=\"gkF5nXVw\">至少他们是这么说的。在这里，你将看到一种对贝叶斯推理作出<b>直观</b>解释的尝试——一篇温和细致到近乎折磨人的导论，从自然频数到空间可视化，调动人类理解数字的各种方式。它要传达的不是操弄数字的抽象规则，而是这些数字究竟意味着什么，以及规则为何必须如此（绝不可能是别的样子）。读完以后，你连做梦都会梦见贝叶斯问题。</p><p data-pid=\"wEGSNAD5\">那么，开始吧。</p><hr/><p data-pid=\"zkUlPvJC\">下面是一道文字题，讲的是医生经常遇到的一种情况：</p><blockquote data-pid=\"h-QMg-1l\"> 参加常规筛查的四十岁女性中，有 1% 患乳腺癌。乳腺癌患者中，有 80% 的乳腺 X 线检查会呈阳性。没有乳腺癌的女性中，也有 9.6% 的乳腺 X 线检查会呈阳性。这个年龄段的一名女性在常规筛查中得到阳性结果。她实际上患有乳腺癌的概率是多少？</blockquote><p data-pid=\"N-h7uPmj\">你觉得答案是什么？如果以前没有遇到过这类问题，请先花一点时间想出自己的答案，再继续往下读。</p><hr/><p data-pid=\"gByIHzoj\">接着，假如我告诉你，大多数医生都会给出同一个错误答案——通常只有约 15% 的医生答对。（「真的？15%？这是确切的数据，还是某次互联网调查催生的都市传说？」是确切的数据。参见 Casscells、Schoenberger 和 Graboys 1978；[1]Eddy 1982；[2]Gigerenzer 和 Hoffrage 1995；[3] 以及其他许多研究。这个结果出人意料，却很容易复现，因此已经得到大量重复验证。）</p><p data-pid=\"KDTQ8fuJ\">对于上面那道文字题，大多数医生估计答案在 70% 到 80% 之间，错得离谱。</p><p data-pid=\"ZqFWeYDY\">下面换一种问法，医生的表现会稍好一些：</p><blockquote data-pid=\"53aWeLjM\"> 参加常规筛查的 1,000 名四十岁女性中，有 10 名患乳腺癌。每 1,000 名乳腺癌患者中，有 800 名的乳腺 X 线检查会呈阳性。每 1,000 名没有乳腺癌的女性中，也有 96 名的检查会呈阳性。如果这个年龄段的 1,000 名女性接受常规筛查，那么检查呈阳性的女性中，实际上患乳腺癌的约占多大比例？</blockquote><p data-pid=\"cQ1qrElq\">最后再看医生表现最好的版本：有 46%——将近一半——的人得出了正确答案：</p><blockquote data-pid=\"TqD5eA3L\"> 参加常规筛查的 10,000 名四十岁女性中，有 100 名患乳腺癌。每 100 名乳腺癌患者中，有 80 名的乳腺 X 线检查会呈阳性。9,900 名没有乳腺癌的女性中，也有 950 名的检查会呈阳性。如果这个年龄段的 10,000 名女性接受常规筛查，那么检查呈阳性的女性中，实际上患乳腺癌的约占多大比例？</blockquote><hr/><p data-pid=\"16AkJHcc\">正确答案是 7.8%，计算过程如下：10,000 名女性中，有 100 名患乳腺癌；这 100 人中，有 80 人的乳腺 X 线检查呈阳性。同一批 10,000 名女性中，另有 9,900 人没有乳腺癌；这 9,900 人中，也有 950 人的检查呈阳性。因此，检查呈阳性的女性共有 950 + 80，也就是 1,030 人。这 1,030 人中，有 80 人患癌。换算成比例，就是 80⁄1,030，即 0.07767，也就是 7.8%。</p><p data-pid=\"wnH3fU5g\">换个角度说，在接受乳腺 X 线筛查前，可以把这 10,000 名女性分成两组：</p><ul><li data-pid=\"S0Kj-CAO\">第 1 组：100 名<b>患有</b>乳腺癌的女性。</li><li data-pid=\"rIGz_Pqr\">第 2 组：9,900 名<b>没有</b>乳腺癌的女性。</li></ul><p data-pid=\"I00MN8Q5\">两组相加共 10,000 名患者，说明计算中一个人也没漏掉。做完乳腺 X 线检查后，又可以把她们分成四组：</p><ul><li data-pid=\"N15oLmeL\"><i>A</i> 组：80 名<b>患有</b>乳腺癌且乳腺 X 线检­查为<b>阳性</b>的女性。</li><li data-pid=\"sw94E0Ja\"><i>B</i> 组：20 名<b>患有</b>乳腺癌且乳腺 X 线检­查为<b>阴性</b>的女性。</li><li data-pid=\"hQazJVKd\"><i>C</i> 组：950 名<b>没有</b>乳腺癌且乳腺 X 线检­查为<b>阳性</b>的女性。</li><li data-pid=\"V4OH-3XC\"><i>D</i> 组：8,950 名<b>没有</b>乳腺癌且乳腺 X 线检­查为<b>阴性</b>的女性。</li></ul><p data-pid=\"gWXWhafE\">患乳腺癌的 <i>A</i>、<i>B</i> 两组之和对应第 1 组；没有乳腺癌的 <i>C</i>、<i>D</i> 两组之和对应第 2 组。给 10,000 名患者做乳腺 X 线检查，结果呈阳性的 1,030 人中，会有八十人患癌。这才是正确答案；一名检查呈阳性的患者若问自己有多大可能患乳腺癌，医生就应该这样回答。若有十三名患者问这个问题，其中大约会有一人确实患癌。</p><hr/><p data-pid=\"eh9AvaVW\">最常见的错误，是忽略女性原本的乳腺癌患病比例，也忽略没有乳腺癌却得到假阳性结果的女性比例，只盯着乳腺癌患者中检查呈阳性的比例。例如，这些研究里的绝大多数医生似乎都认为，既然约 80% 的乳腺癌患者检查呈阳性，那么检查呈阳性的女性患乳腺癌的概率也一定在 80% 左右。</p><p data-pid=\"smmxmSY3\">要算出最终答案，始终需要<b>三项信息缺一不可</b>——女性的乳腺癌患病比例、没有乳腺癌却得到假阳性结果的比例，以及乳腺癌患者得到（正确）阳性结果的比例。</p><p data-pid=\"PSxmFZS5\">患者原本的乳腺癌患病比例称为<b>先验概率</b>。乳腺癌患者得到阳性检查结果的概率，以及非乳腺癌患者得到阳性检查结果的概率，称为两个<b>条件概率</b>。这些初始信息统称为<b>先验信息</b>。最终答案——已知患者的乳腺 X 线检查呈阳性后，对她患乳腺癌概率的估计——称为<b>修正概率</b>或<b>后验概率</b>。我们刚刚看到，后验概率在一定程度上取决于先验概率。</p><p data-pid=\"IBPgx8jg\">要理解最终答案为何始终取决于女性原本的乳腺癌患病比例，不妨设想另一个宇宙，那里每一百万名女性中只有一名患乳腺癌。即使那个世界的乳腺 X 线检查能检出 10 个病例中的 8 个，同时每 10 名没有乳腺癌的女性中只有 1 人得到假阳性，那么每检出一个真正的癌症病例，仍会出现十万个假阳性。女性原本的患癌概率实在太低，因此阳性检查结果虽然确实会<b>提高</b>估计概率，却不会把它提高到百分之百，甚至也达不到「值得留意的可能性」；这个概率只会从 1:1,000,000 升到 1:100,000。</p><p data-pid=\"8O9h5hBK\">这说明，乳腺 X 线检查结果并不会<b>取代</b>你原本掌握的患者患癌概率信息；它只会把估计概率朝检查结果指向的方向<b>推动</b>。阳性结果把原有概率往上推，阴性结果则把它往下推。例如，在最初的问题中，女性患癌的比例为 1%，患癌女性中有 80% 检查呈阳性，未患癌女性中有 9.6% 检查呈阳性；一个阳性结果便把原来的 1% <b>推高</b>到 7.8%。</p><p data-pid=\"SyCIPyjn\">大多数初次遇到这类题目的人，都会在脑中进行这样的操作：用患癌女性检查呈阳性的 80% 概率，<b>替换</b>女性原本 1% 的患癌概率。这个做法看似合理，却根本行不通。「检查呈阳性的女性患乳腺癌的概率」和「乳腺癌患者检查呈阳性的概率」完全不是一回事；两者的差别就像苹果和奶酪。</p><hr/><p data-pid=\"Qz_i4LUK\"><b>问：贝叶斯推理者为什么要过马路？</b></p><p data-pid=\"YYTkcIwM\">答：你还需要更多信息才能回答。</p><hr/><p data-pid=\"_ci8wZBK\">假设一个桶里装着许多塑料小蛋。有些涂成红色，有些涂成蓝色。桶里 40% 的蛋装有珍珠，其余 60% 是空的。装有珍珠的蛋中，30% 涂成蓝色；空蛋中，10% 涂成蓝色。一个蓝色蛋中装有珍珠的概率是多少？这个例子的算术很简单，也许心算就能完成，我建议你试一试。</p><p data-pid=\"ROb_Swi6\">可以把题目更简洁地写成： </p><p data-pid=\"scLHVkVP\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=+%5Cbegin%7Baligned%7D+P%28%5Ctext%7B%E7%8F%8D%E7%8F%A0%7D%29+%26%3D+40%5C%25+%5C%5C+P%28%5Ctext%7B%E8%93%9D%E8%89%B2%7D+%5Cmid+%5Ctext%7B%E7%8F%8D%E7%8F%A0%7D%29+%26%3D+30%5C%25+%5C%5C+P%28%5Ctext%7B%E8%93%9D%E8%89%B2%7D+%5Cmid+%5Cneg%5Ctext%7B%E7%8F%8D%E7%8F%A0%7D%29+%26%3D+10%5C%25+%5C%5C+P%28%5Ctext%7B%E7%8F%8D%E7%8F%A0%7D+%5Cmid+%5Ctext%7B%E8%93%9D%E8%89%B2%7D%29+%26%3D+%5Ctext%7B%3F%7D+%5Cend%7Baligned%7D+\" alt=\" \\begin{aligned} P(\\text{珍珠}) &amp;= 40\\% \\\\ P(\\text{蓝色} \\mid \\text{珍珠}) &amp;= 30\\% \\\\ P(\\text{蓝色} \\mid \\neg\\text{珍珠}) &amp;= 10\\% \\\\ P(\\text{珍珠} \\mid \\text{蓝色}) &amp;= \\text{?} \\end{aligned} \"/></p><p data-pid=\"OmC4qE-l\">符号「¬」是「非」的简写，所以 ¬珍珠 读作「非珍珠」。</p><p data-pid=\"XuKBNOah\">记法 <i>P</i>(蓝色|珍珠) 是「给定有珍珠时为蓝色的概率」的简写，也就是「已知一个蛋装有珍珠时，它被涂成蓝色的概率」。右边的项是你<b>已经知道的信息</b>或<b>前提</b>，左边的项则是<b>蕴涵</b>或<b>结论</b>。若 <i>P</i>(蓝色|珍珠) = 30%，而我们<b>已经知道</b>某个蛋里有珍珠，那么便可<b>得出结论</b>：这个蛋有 30% 的概率是蓝色。因此，我们最终要求的事实——「蓝色蛋中有珍珠的概率」，或者「已知蛋是蓝色时，它里面有珍珠的概率」——写作 <i>P</i>(珍珠|蓝色)。</p><p data-pid=\"Eg3igSIs\">40% 的蛋装有珍珠，60% 是空的。装有珍珠的蛋中，30% 涂成蓝色，所以全部蛋中有 12% 既装有珍珠又是蓝色。空蛋中，10% 涂成蓝色，所以全部蛋中有 6% 既是空的又是蓝色。蓝色蛋合计占 18%，其中装有珍珠的蓝色蛋占全部蛋的 12%，因此一个蓝色蛋中有珍珠的概率是 12/18，即 2/3，约为 67%。</p><p data-pid=\"G0otjlqv\">和前面一样，只要考察极端情况，就能看出三项信息都不可或缺。假如一个（很大的）桶中，每一千个蛋只有一个装着珍珠，那么得知某个蛋是蓝色，只会把它有珍珠的概率从 0.1% 提高到 0.3%（而不是从 40% 提高到 67%）。同样，假如 1,000 个蛋中有 999 个装着珍珠，那么得知某个蛋是蓝色，会把它有珍珠的概率从 99.9% 提高到 99.966%；它<b>没有</b>珍珠的概率则从 1/1,000 降到约 1/3,000。</p><p data-pid=\"4UC93_rP\">面对珍珠蛋问题，大多数不熟悉贝叶斯推理的人大概会回答：蓝色蛋中有珍珠的概率是 30%，或许是 20%（30% 的真阳性概率减去 10% 的假阳性概率）。这种心算操作当时看似有理，却与题目所问的内容毫不相干。这就像一个实验：你问二年级学生，「十八个人上了一辆公共汽车，后来又上来七个人，那么司机多大年纪？」许多二年级学生会回答：「二十五岁。」他们知道题目在暗示自己执行某种计算，却还没有真正把计算同现实联系起来。同理，要算出乳腺 X 线检查呈阳性的女性患乳腺癌的概率，绝不能用乳腺癌患者检查呈阳性的概率来<b>替换</b>她原本的患癌概率。也不能拿真阳性概率减去假阳性概率。这些运算与问题的关系，就像把公交车上的人数相加来计算司机年龄一样荒唐。</p><hr/><p data-pid=\"E8_CZVuv\">Gigerenzer 和 Hoffrage 在 1995 年的一项研究表明，文字题的某些表述更容易引出正确的贝叶斯推理。[4] 最不奏效的表述采用概率。稍好一些的表述以频数代替概率；题目本身没有变，只是不再说 1% 的女性患乳腺癌，而是说每 100 名女性中有 1 名患乳腺癌，每 100 名乳腺癌患者中有 80 名检查呈阳性，依此类推。为什么用这种表述时，更多受试者展现出了贝叶斯推理？大概是因为「每 100 名女性中有 1 名」会促使你具体想象 <i>X</i> 名患癌女性，接着想象其中 <i>X</i> 名既患癌、检查又呈阳性的女性，等等。</p><p data-pid=\"u7TypJJA\">迄今发现最有效的呈现方式，是所谓的<b>自然频数</b>——也就是：每 100 个蛋中有 40 个装着珍珠；40 个珍珠蛋中，有 12 个涂成蓝色；60 个空蛋中，有 6 个涂成蓝色。所谓<b>自然频数</b>呈现，就是在给出条件概率时，把先验概率的信息一并纳入。假如你只是通过自然实验来认识这些蛋的条件概率，那么敲开一百个蛋时，你会敲开约 40 个珍珠蛋，其中 12 个是蓝色；同时还会敲开 60 个空蛋，其中约 6 个是蓝色。在摸清条件概率的过程中，你见到「蓝色且有珍珠」的例子，大约会是「蓝色但没有珍珠」的两倍。</p><p data-pid=\"HK1mQ0NH\">遗憾的是，自然频数虽然朝正确方向迈进了一步，但恐怕还不够。用自然频数来出题时，运用贝叶斯推理的人会增加到约一半。进步确实很大，可当问题关乎真实的医生和患者时，仍然远远不够。</p><hr/><p data-pid=\"Noa81rI8\"><b>问：怎样才能找到一个问题的先验信息？</b></p><p data-pid=\"m18QMirN\">答：许多常用的先验信息都列在 <i>Handbook of Chemistry and Physics</i> 中。</p><p data-pid=\"4Mles4yi\"><b>问：先验信息【最初】又是从哪里来的？</b></p><p data-pid=\"E0nl-ME-\">答：永远不要问这个问题。</p><p data-pid=\"vATJSxVg\"><b>问：好吧。那么科学家从哪里获得先验信息？</b></p><p data-pid=\"646eSByU\">答：科学问题的先验信息由 AAAS 每年投票决定。近年来，投票越来越剑拔弩张、争议不断，四处充斥着怨恨和派系对立，甚至还发生了几起不加掩饰的暗杀。这也许是贝叶斯委员会内斗的障眼法，也可能只是争论者闲得发慌。没人真正说得清楚。</p><p data-pid=\"e8wHQh25\"><b>问：明白了。那其他人从哪里获得先验信息？</b></p><p data-pid=\"L7enCqki\">答：他们从 Kazaa 下载先验信息。</p><p data-pid=\"6ZBS2WR-\"><b>问：要是 Kazaa 上没有我想要的先验信息呢？</b></p><p data-pid=\"F5o0YyKT\">答：旧金山唐人街的一条后巷里，有一家狭小杂乱的古董店。<b>别问那只青铜老鼠</b>。</p><p data-pid=\"He-JRskx\">说正经的，先验信息和最终答案一样，也有真假之分——它们反映现实，也可以拿来与现实对照检验。例如，假如你认为一个样本的 10,000 名女性中有 920 名患乳腺癌，而实际数字却是 10,000 名中只有 100 名，那么你的先验信息就是错的。就我们这个问题而言，先验信息可能来自三项研究：一项查阅乳腺癌患者的病例史，看其中多少人的乳腺 X 线检查呈阳性；一项研究没有乳腺癌的女性，看其中多少人的检查呈阳性；还有一项流行病学研究，调查某个特定人群中乳腺癌的患病率。</p><hr/><p data-pid=\"0gutG7_P\">概率 <i>P</i>(<i>A</i>,<i>B</i>) 与 <i>P</i>(<i>B</i>,<i>A</i>) 相同，但 <i>P</i>(<i>A</i>|<i>B</i>) 和 <i>P</i>(<i>B</i>|<i>A</i>) 不是一回事，而 <i>P</i>(<i>A</i>,<i>B</i>) 与 <i>P</i>(<i>A</i>|<i>B</i>) 更是截然不同。把其中部分或全部量混为一谈，是很常见的错误。</p><p data-pid=\"wH5ivmyA\">为了弄清它们之间的关系，我们来玩一场「追踪自由度」的游戏。例如，<i>P</i>(癌症) 和 <i>P</i>(¬癌症) 这两个量合起来只有一个自由度，因为一般定律 <i>P</i>(<i>A</i>) + <i>P</i>(¬<i>A</i>) = 1。若已知 <i>P</i>(¬癌症) = 0.99，就能求出 <i>P</i>(癌症) = 1 − <i>P</i>(¬癌症) = 0.01。</p><p data-pid=\"PpIM5c0J\"><i>P</i>(阳性|癌症) 和 <i>P</i>(¬阳性|癌症) 之间也只有一个自由度：乳腺癌患者的检查要么呈阳性，要么不呈阳性。相比之下，<i>P</i>(阳性|癌症) 和 <i>P</i>(阳性|¬癌症) 有两个自由度。一项乳腺 X 线检查可以让 80% 的癌症患者和 9.6% 的健康患者得到阳性结果；也可以让 70% 的癌症患者和 2% 的健康患者得到阳性结果；甚至还可以有某种健康检查，让 30% 的癌症患者和 92% 的健康患者得到「阳性」结果。用数学语言说，乳腺 X 线检查对癌症患者和健康患者的输出彼此独立；一个量无法通过任何方式从另一个量推导出来，因此它们共有两个自由度。</p><p data-pid=\"MCamfD8r\">那么 <i>P</i>(阳性, 癌症)、<i>P</i>(阳性|癌症) 和 <i>P</i>(癌症) 呢？这里有三个量，它们有多少个自由度？在这种情况下，必须满足的方程是：</p><p data-pid=\"elQClhi5\"><i>P</i>(阳性, 癌症) = <i>P</i>(阳性|癌症) × <i>P</i>(癌症).</p><p data-pid=\"MdH69PV6\">这个等式占去了一个自由度。如果知道癌症患者的比例，以及癌症患者检查呈阳性的概率，我们就可以把两者相乘，推导出既患乳腺癌、检查又呈阳性的患者比例。</p><p data-pid=\"G5UKjiJa\">同样，如果知道患乳腺癌且检查呈阳性的患者人数，以及乳腺癌患者的总人数，就可以用除法估算乳腺癌患者检查呈阳性的概率：<i>P</i>(阳性|癌症) = <i>P</i>(阳性, 癌症)/<i>P</i>(癌症)。事实上，这类医疗诊断检查正是这样校准的：对 8,520 名乳腺癌患者开展研究，发现其中 6,816 名（或大约这么多人）既患乳腺癌，检查又呈阳性；再用 6,816 除以 8,520，就会得出 80% 的乳腺癌患者检查呈阳性。（顺便一提，假如你一不小心反过来用 8,520 除以 6,816，计算就会开始冒出怪事，比如坚持声称：患乳腺癌且检查呈阳性的女性中，有 125% 患乳腺癌。以我的经验，这是贝叶斯运算中很常见的错误。）最后，若已知 <i>P</i>(阳性, 癌症) 和 <i>P</i>(阳性|癌症)，就能反推出原本有多少名癌症患者。三个量共享两个自由度；只要知道其中任意两个，就能求出第三个。</p><p data-pid=\"DdlHQJSc\">那么 <i>P</i>(阳性)、<i>P</i>(阳性, 癌症) 和 <i>P</i>(阳性, ¬癌症) 呢？同样，三个变量之间只有两个自由度。占去多余那个自由度的方程是：</p><p data-pid=\"noW8dr-y\"><i>P</i>(阳性) = <i>P</i>(阳性, 癌症) + <i>P</i>(阳性, ¬癌症) .</p><p data-pid=\"rU5-iwN9\"><i>P</i>(阳性) 本来就是这样算出来的：先求出患乳腺癌且检查呈阳性的女性人数，再求出没有乳腺癌但检查呈阳性的女性人数，然后相加，得到所有检查呈阳性的女性人数。专门出门做一项研究，只调查检查呈阳性的女性人数——就这一个数字，别的什么也不问——会很奇怪，不过理论上确实可以。假如接着再做一项研究，查明其中有多少女性既检查呈阳性又患乳腺癌，你也就知道了检查呈阳性但没有乳腺癌的女性人数——检查呈阳性的女性不是患癌，就是没有患癌。一般来说，<i>P</i>(<i>A</i>,<i>B</i>) + <i>P</i>(<i>A</i>,¬<i>B</i>) = <i>P</i>(<i>A</i>)。对称地，<i>P</i>(<i>A</i>,<i>B</i>) + <i>P</i>(¬<i>A</i>,<i>B</i>) = <i>P</i>(<i>B</i>)。</p><p data-pid=\"2R2w9G8i\">那么 <i>P</i>(阳性, 癌症)、<i>P</i>(阳性, ¬癌症)、<i>P</i>(¬阳性, 癌症) 和 <i>P</i>(¬阳性, ¬癌症) 呢？乍看之下，你也许会觉得这四个量只有两个自由度——比如，用 <i>P</i>(阳性) × <i>P</i>(¬癌症) 就能算出 <i>P</i>(阳性, ¬癌症)，于是仅凭 <i>P</i>(阳性) 和 <i>P</i>(癌症) 两个量便能得到其余所有量。可事实并非如此！只有当两个概率<b>统计独立</b>——也就是说，女性是否患乳腺癌丝毫不影响其乳腺 X 线检查是否呈阳性——等式 <i>P</i>(阳性, ¬癌症) = <i>P</i>(阳性) × <i>P</i>(¬癌症) 才成立。这相当于要求两个条件概率彼此相等，而这一要求会消去一个自由度。还记得这四个量分别对应 <i>A</i>、<i>B</i>、<i>C</i>、<i>D</i> 四组的话，你只要看看这四组，就会发现理论上每组都可以放进任意人数。你可以先放入 80 名患乳腺癌且检查呈阳性的女性，再放入 500 名患乳腺癌但检查呈阴性的女性，接着放入 3 名没有乳腺癌且检查呈阴性的女性，如此等等。这样看来，四个量似乎有四个自由度。它们本来也确实会有四个自由度，只是当我们把它们写成<b>概率</b>时，必须将其归一化为完整群体的<b>比例</b>，于是又多了一项约束：<i>P</i>(阳性, 癌症) + <i>P</i>(阳性, ¬癌症) + <i>P</i>(¬阳性, 癌症) + <i>P</i>(¬阳性, ¬癌症) = 1。这个方程占去一个自由度，所以四个量最终剩下三个自由度。只要指定 <i>A</i>、<i>B</i>、<i>D</i> 三组女性所占的<b>比例</b>，就能推导出 <i>C</i> 组的比例。</p><p data-pid=\"BFbq5Hoo\">给定 <i>A</i>、<i>B</i>、<i>C</i>、<i>D</i> 四组后，其余一切都很容易计算： </p><p data-pid=\"cBf1a7Vd\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=+%5Cbegin%7Baligned%7D+P%28%5Ctext%7B%E7%99%8C%E7%97%87%7D%29+%26%3D+%5Cfrac%7BA+%2B+B%7D%7BA+%2B+B+%2B+C+%2B+D%7D+%5C%5C+P%28%5Cneg%5Ctext%7B%E9%98%B3%E6%80%A7%7D+%5Cmid+%5Ctext%7B%E7%99%8C%E7%97%87%7D%29+%26%3D+%5Cfrac%7BB%7D%7BA+%2B+B%7D+%2C+%5Cend%7Baligned%7D+\" alt=\" \\begin{aligned} P(\\text{癌症}) &amp;= \\frac{A + B}{A + B + C + D} \\\\ P(\\neg\\text{阳性} \\mid \\text{癌症}) &amp;= \\frac{B}{A + B} , \\end{aligned} \"/></p><p data-pid=\"UjgdsnZO\"> 诸如此类。由于 { <i>A</i>, <i>B</i>, <i>C</i>, <i>D</i>} 含有三个自由度，所以与癌症患病率和检查结果有关的整套概率也只有三个自由度。请记住，我们解题时总要用到<b>三项</b>信息——先验概率和两个条件概率——它们之间恰好就是三个自由度。事实上，对于贝叶斯问题，只要任意三个量彼此具有三个自由度，按逻辑说就足以完整确定整道题。</p><hr/><p data-pid=\"T-eVAd7o\"><b>检查给出真阳性的概率</b>除以<b>检查给出假阳性的概率</b>，所得结果称为这项检查的<b>似然比</b>。阳性结果的似然比概括了它会把先验概率推动多远。那么，一项医疗检查的似然比是否包含了有关该检查实用性的全部信息？</p><p data-pid=\"e24ARcPy\">不，并没有！似然比包含了有关医疗检查<b>阳性</b>结果之<b>含义</b>的全部信息，却没有说明<b>阴性</b>结果意味着什么，也没有说明这项检查多常能派上用场。例如，一项乳腺 X 线检查对乳腺癌患者的检出率为 80%，对健康患者的假阳性率为 9.6%；它与另一项检出率为 8%、假阳性率为 0.96% 的检查具有相同的似然比。两者的似然比虽然相同，第一项检查却在各方面都更有用——它更常检出疾病，而且阴性结果也是更有力的健康证据。</p><hr/><p data-pid=\"IO0oBgh7\">假设你连续进行<b>两项</b>乳腺癌检查——比如一项标准乳腺 X 线检查，再加上另一项与它<b>相互独立</b>的检查。我不知道是否真有哪项检查与乳腺 X 线检查相互独立，所以为了出题，我要虚构一种检查，叫 Tams-Braylor Division Test，用来查看是否有某些细胞比其他细胞分裂得更快。假设 Tams-Braylor 会对 90% 的乳腺癌患者给出真阳性，对 5% 的非癌症患者给出假阳性。再假设乳腺癌的先验患病率是 1%。如果一名患者的乳腺 X 线检查<b>和</b> Tams-Braylor 结果都呈阳性，那么她患乳腺癌的修正概率是多少？</p><p data-pid=\"Llw4iO34\">一种解法，是把我们已经算出的乳腺 X 线检查阳性后的修正概率 7.8%，当作新的先验概率代入 Tams-Braylor 检查。这样算出的结果是 60%。</p><p data-pid=\"T5C-l2Ud\">假设某个人群中乳腺癌的先验患病率为 1%。再假设身为医生的我们掌握了三项彼此独立的乳腺癌检查。第一项是检查 <i>A</i>，也就是乳腺 X 线检查，似然比为 80%/9.6% = 8.33。第二项检查 <i>B</i> 的似然比是 18.0（例如来自 90% 与 5%）；第三项检查 <i>C</i> 的似然比是 3.5（可以来自 70% 与 20%，也可以来自 35% 与 10%；没有区别）。假设一名患者的三项检查全都呈阳性。她患乳腺癌的概率是多少？</p><p data-pid=\"-QHQp2z5\">下面有个有趣的技巧，可以简化记录。某个人群的乳腺癌先验患病率若为 1%，就意味着每 100 名女性中有 1 名患乳腺癌，而每 100 名女性中有 99 名没有乳腺癌。因此，把 1% 的<b>概率</b>改写成<b>几率比</b>，就是 1:99。</p><p data-pid=\"JcZDRomy\">三项检查 <i>A</i>、<i>B</i>、<i>C</i> 的似然比分别是：</p><p data-pid=\"Grp78tJF\">8.33 : 1 = 25 : 3 </p><p data-pid=\"caThBXp-\">18.0 : 1 = 18 : 1 </p><p data-pid=\"BrZ8fEqT\">3.5 : 1  = 7 : 2</p><p data-pid=\"Z4nd90Rx\">三项检查全部呈阳性的乳腺癌女性，相对于三项检查全部呈阳性的非乳腺癌女性，其<b>几率</b>等于：</p><p data-pid=\"N-ASAqEe\">1 × 25 × 18 × 7 : 99 × 3 × 1 × 2 = 3,150 : 594 .</p><p data-pid=\"TTV4UobP\">要从几率换回概率，只需写成：</p><p data-pid=\"XnBbVyS0\">3,150/(3,150 + 594) = 84% .</p><p data-pid=\"FQJTrcXI\">不管几率比写成什么形式，这个办法始终有效；换句话说，8.33:1 与 25:3 或 75:9 完全相同。先做哪项检查，或者先计算哪个结果，都无关紧要。证明留作读者练习。</p><hr/><p data-pid=\"d35EDdKo\">E. T. Jaynes 在 <i>Probability Theory With Applications in Science and Engi­neer­ing</i> 中建议，可信度和证据都应该用分贝来衡量。[5]</p><p data-pid=\"m8lo3sjS\">分贝？</p><p data-pid=\"YhNomHhs\">分贝用来衡量强度的指数级差异。例如，假如汽车喇叭声携带的能量（每平方米每秒）是闹钟声的 10,000 倍，那么汽车喇叭就会高出 40 分贝。鸟鸣携带的能量可能只有闹钟的 1,000 分之一，因此会低 30 分贝。要算出分贝数，只需取以 10 为底的对数，再乘以 10：</p><p data-pid=\"vK3KWtup\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=%5Ctext%7Bdecibels%7D+%3D+10%E2%80%89%5Clog_%7B10%7D%7B%5Ctext%7Bintensity%7D%7D\" alt=\"\\text{decibels} = 10 \\log_{10}{\\text{intensity}}\"/></p><p data-pid=\"nrsouesg\">或者</p><p data-pid=\"eas5rZ79\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=+%5Ctext%7Bintensity%7D+%3D+10%5E%7B%5Ctext%7Bdecibels%7D%2F10%7D+\" alt=\" \\text{intensity} = 10^{\\text{decibels}/10} \"/></p><p data-pid=\"ZB_TNsoB\">假设一开始，女性患乳腺癌的先验概率为 1%，对应的几率比是 1:99。接着进行三项检查，似然比分别为 25:3、18:1 和 7:2。你可以把这些数相乘……也<b>可以</b>只把它们的对数相加：</p><p data-pid=\"i3o9VNNA\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=+%5Cbegin%7Baligned%7D+10+%5Clog_%7B10%7D%281%2F99%29+%26%5Capprox+-20+%5C%5C+10+%5Clog_%7B10%7D%2825%2F3%29+%26%5Capprox+9+%5C%5C+10+%5Clog_%7B10%7D%2818%2F1%29+%26%5Capprox+13+%5C%5C+10+%5Clog_%7B10%7D%287%2F2%29+%26%5Capprox+5+.+%5Cend%7Baligned%7D+\" alt=\" \\begin{aligned} 10 \\log_{10}(1/99) &amp;\\approx -20 \\\\ 10 \\log_{10}(25/3) &amp;\\approx 9 \\\\ 10 \\log_{10}(18/1) &amp;\\approx 13 \\\\ 10 \\log_{10}(7/2) &amp;\\approx 5 . \\end{aligned} \"/></p><p data-pid=\"a6HsWN5f\">起初，女性患乳腺癌的可能性相当低——可信度水平为 −20 分贝。随后三项检查结果到来，分别提供 9、13、5 分贝的证据，总共把可信度提高了 27 分贝，也就是将 −20 分贝的先验可信度变成 7 分贝的后验可信度。于是几率从 1:99 变为 5:1，概率从 1% 升到约 83%。</p><hr/><blockquote data-pid=\"N4qZQDf9\">你是一名小装置维修工。小装置出现故障时，有 30% 是因为软管堵塞。如果软管堵了，戳动装置有 45% 的概率会冒出火花；如果软管没堵，戳动时冒火花的概率就只有 5%。一位顾客带来一个出了故障的小装置。你戳了戳，发现它冒出了火花。那么，一个会冒火花的小装置，其软管堵塞的概率是多少？</blockquote><p data-pid=\"ME9XX4AI\">为了解出这道题，你依次进行了哪些算术运算？</p><p data-pid=\"Umf_c83o\">(45% × 30%)/(45% × 30% + 5% × 70%)</p><p data-pid=\"BOV1XJm5\">or</p><p data-pid=\"nbodEa1Y\">同样，要计算乳腺 X 线检查呈阳性的女性患乳腺癌的概率，我们进行了如下运算：</p><p data-pid=\"xODfHYui\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=+%5Cfrac%7BP%28%5Ctext%7B%E9%98%B3%E6%80%A7%7D+%5Cmid+%5Ctext%7B%E7%99%8C%E7%97%87%7D%29+%5Ctimes+P%28%5Ctext%7B%E7%99%8C%E7%97%87%7D%29%7D%7B+++%5Cleft%28+++%5Cbegin%7Baligned%7D+++++%26+P%28%5Ctext%7B%E9%98%B3%E6%80%A7%7D+%5Cmid+%5Ctext%7B%E7%99%8C%E7%97%87%7D%29+%5Ctimes+P%28%5Ctext%7B%E7%99%8C%E7%97%87%7D%29+%5C%5C+++++%2B+%5C%3B%26+P%28%5Ctext%7B%E9%98%B3%E6%80%A7%7D+%5Cmid+%5Cneg%5Ctext%7B%E7%99%8C%E7%97%87%7D%29+%5Ctimes+P%28%5Cneg%5Ctext%7B%E7%99%8C%E7%97%87%7D%29+++%5Cend%7Baligned%7D+++%5Cright%29+%7D+\" alt=\" \\frac{P(\\text{阳性} \\mid \\text{癌症}) \\times P(\\text{癌症})}{   \\left(   \\begin{aligned}     &amp; P(\\text{阳性} \\mid \\text{癌症}) \\times P(\\text{癌症}) \\\\     + \\;&amp; P(\\text{阳性} \\mid \\neg\\text{癌症}) \\times P(\\neg\\text{癌症})   \\end{aligned}   \\right) } \"/></p><p data-pid=\"xtv2IrKf\"><b>也就是</b></p><p data-pid=\"0s1XX6Jy\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=+%5Cfrac%7BP%28%5Ctext%7B%E9%98%B3%E6%80%A7%7D%2C+%5Ctext%7B%E7%99%8C%E7%97%87%7D%29%7D%7BP%28%5Ctext%7B%E9%98%B3%E6%80%A7%7D%2C+%5Ctext%7B%E7%99%8C%E7%97%87%7D%29+%2B+P%28%5Ctext%7B%E9%98%B3%E6%80%A7%7D%2C+%5Cneg%5Ctext%7B%E7%99%8C%E7%97%87%7D%29%7D+\" alt=\" \\frac{P(\\text{阳性}, \\text{癌症})}{P(\\text{阳性}, \\text{癌症}) + P(\\text{阳性}, \\neg\\text{癌症})} \"/></p><p data-pid=\"AmdMrHJw\"><b>也就是</b> </p><p data-pid=\"GO3xJ5gy\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=+%5Cfrac%7BP%28%5Ctext%7B%E9%98%B3%E6%80%A7%7D%2C+%5Ctext%7B%E7%99%8C%E7%97%87%7D%29%7D%7BP%28%5Ctext%7B%E9%98%B3%E6%80%A7%7D%29%7D+\" alt=\" \\frac{P(\\text{阳性}, \\text{癌症})}{P(\\text{阳性})} \"/></p><p data-pid=\"QTYAXtUY\"><b>也就是</b></p><p data-pid=\"cfMVHuon\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=+P%28%5Ctext%7B%E7%99%8C%E7%97%87%7D%5Cmid%5Ctext%7B%E9%98%B3%E6%80%A7%7D%29+\" alt=\" P(\\text{癌症}\\mid\\text{阳性}) \"/></p><p data-pid=\"fsmk5idQ\">这一计算最一般的形式，就是<b>贝叶斯定理</b>或<b>贝叶斯法则</b>。</p><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-1a36869715790327e062148e6f8239df_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1100\" data-rawheight=\"212\" data-original-token=\"v2-1a36869715790327e062148e6f8239df\" class=\"origin_image zh-lightbox-thumb\" width=\"1100\" data-original=\"https://pic4.zhimg.com/v2-1a36869715790327e062148e6f8239df_r.jpg\"/></figure><p data-pid=\"TOCOAsxi\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=+P%28A+%5Cmid+X%29+%3D+%5Cfrac%7BP%28X+%5Cmid+A%29+%5Ctimes+P%28A%29%7D%7BP%28X+%5Cmid+A%29+%5Ctimes+P%28A%29+%2B+P%28X+%5Cmid+%5Cneg+A%29+%5Ctimes+P%28%5Cneg+A%29%7D+\" alt=\" P(A \\mid X) = \\frac{P(X \\mid A) \\times P(A)}{P(X \\mid A) \\times P(A) + P(X \\mid \\neg A) \\times P(\\neg A)} \"/></p><p data-pid=\"OBXiivsf\">假如有某个我们想研究的现象 <i>A</i>，还有一项关于 <i>A</i> 的证据，也就是观测 <i>X</i>——例如在前面的例子中，<i>A</i> 是乳腺癌，<i>X</i> 是乳腺 X 线检查呈阳性——贝叶斯定理就会告诉我们，在获得<b>新证据</b> <i>X</i> 后，应当如何<b>更新</b> <i>A</i> 的概率。</p><p data-pid=\"8vO17p5i\">读到这里，贝叶斯定理在你看来或许已经显而易见，甚至近乎同义反复，而不再是什么激动人心的新事物。若是如此，这篇导论的目的就<b>彻底达到了</b>。</p><hr/><p data-pid=\"v4P6KCP_\">贝叶斯定理说明了什么才算「证据」，以及证据的分量有多大。我们用<b>贝叶斯方法</b>作为标尺来评判统计模型，因为在统计学中，贝叶斯方法就是所能达到的最佳水平——它界定了我们最多能从一项证据中提取多少信息，就像热力学界定了温差最多可以转化成多少功。这就是为什么你会听到认知科学家谈论<b>贝叶斯推理者</b>。在认知科学中，<b>贝叶斯推理者</b>是我们用来指称<b>理性心智</b>的一个含义精确的技术代称。</p><p data-pid=\"O1BkiAAo\">观察贝叶斯定理，还能学到许多有关人类推理的一般经验法则。</p><p data-pid=\"hqkD0RRZ\">例如，在许多关于贝叶斯定理的讨论中，你可能会听认知心理学家说，人们<b>没有充分考虑先验频率</b>。意思是说，当证据 <i>X</i> 表明状况 <i>A</i> 可能成立时，人们往往只看 <i>X</i> 与 <i>A</i> 似乎有多吻合，就据此判断 <i>A</i> 成立的可能性，而忽略 <i>A</i> 的先验频率。比如，在乳腺 X 线检查的例子中，如果你认为那名女性患乳腺癌的概率是 70%–80%，这样的推理就对题目给出的先验频率毫不敏感；它根本没理会原本患乳腺癌的女性究竟占 1% 还是 10%。「多留意先验频率！」是我们为了部分弥补与生俱来的缺陷而必须牢记的诸多提醒之一。</p><p data-pid=\"cnZLrgNh\">另一个相关错误，是在判断 <i>X</i> 能为 <i>A</i> 提供多强的证据时，过度关注 <i>P</i>(<i>X</i>|<i>A</i>)，却没有充分考虑 <i>P</i>(<i>X</i>|¬<i>A</i>)。结果 <i>X</i> 在多大程度上是支持 <i>A</i> 的<b>证据</b>，不仅取决于「如果 <i>A</i> 为真，我们会预期看到 <i>X</i>」这一说法有多有力，还取决于「如果 <i>A</i> 不为真，我们<b>不会</b>预期看到 <i>X</i>」这一说法有多有力。例如，下雨会强烈意味着草地是湿的——<i>P</i>(湿草地|下雨) ≈ 1——但看到草地湿了，并不一定表示刚下过雨；也许洒水器开过，或者你看到的是清晨的露水。由于 <i>P</i>(湿草地|¬下雨) 明显大于零，<i>P</i>(下雨|湿草地) 便明显小于一。反过来，假如不下雨时草地<b>从来不会</b>湿，那么看见草地湿了就会<b>必然</b>说明下过雨，即 <i>P</i>(下雨|湿草地) ≈ 1；即便 <i>P</i>(湿草地|下雨) = 50%——也就是每次下雨只有 50% 的时候草会变湿——结论仍然如此。证据总是来自两个条件概率之间的<b>差距</b>。形成<b>强</b>证据的关键，不是 <i>A</i> 导致 <i>X</i> 的概率非常高，而是<b>非 A</b>导致 <i>X</i> 的概率非常<b>低</b>。</p><p data-pid=\"CGpp9-DI\"><b>科学界的贝叶斯革命</b>之所以兴起，不仅因为越来越多认知科学家突然发现心理现象具有贝叶斯结构，不仅因为各个领域的科学家开始以贝叶斯方法为标尺来评判自己的统计方法，还因为这样一个观念：<b>科学本身就是贝叶斯定理的特例；实验证据就是贝叶斯证据</b>。贝叶斯革命的拥护者认为，当实验所得的证据「证实」或「否证」某种理论时，这种证实与否证都受贝叶斯法则支配。例如，你不能只看自己的理论是否预测了这一现象，还要看其他可能的解释是否也能预测它。</p><p data-pid=\"mNAjpLPd\">此前，最流行的科学哲学大概是卡尔·波普尔的<b>证伪主义</b>——贝叶斯革命如今正将这套旧哲学赶下王座。卡尔·波普尔认为理论可以被确定地证伪，却永远无法被确定地证实；这个观点其实也是贝叶斯法则的一个特例。若 <i>P</i>(<i>X</i>|<i>A</i>) ≈ 1——也就是理论作出了确定的预测——那么观察到 ¬<i>X</i> 就会极有力地证伪 <i>A</i>。反过来，若 <i>P</i>(<i>X</i>|<i>A</i>) ≈ 1，而我们观察到 <i>X</i>，却不能由此确定地证实该理论；因为可能存在另一个条件 <i>B</i>，也满足 <i>P</i>(<i>X</i>|<i>B</i>) ≈ 1，此时观察到 <i>X</i> 并不会让证据更偏向 <i>A</i> 而非 <i>B</i>。若想让观察到 <i>X</i> 确定地证实 A，我们需要知道的不是 <i>P</i>(<i>X</i>|<i>A</i>) ≈ 1，而是 <i>P</i>(<i>X</i>|¬<i>A</i>) ≈ 0。但我们不可能知道这一点，因为我们无法穷尽所有可能的替代解释。例如，爱因斯坦的广义相对论推翻了牛顿那套得到极充分证实的引力理论，而人们最终发现，牛顿的全部预测不过是爱因斯坦预测的一个特例。</p><p data-pid=\"RjoCxIV7\">你甚至可以把波普尔的哲学写成数学形式。<i>X</i> 的似然比，即 <i>P</i>(<i>X</i>|<i>A</i>)/<i>P</i>(<i>X</i>|¬<i>A</i>)，决定了观察到 <i>X</i> 会把 <i>A</i> 的概率推动多大幅度；似然比正是衡量 <i>X</i> 这项证据有多强的指标。在理论 <i>A</i> 中，只要你愿意，当然可以用概率 1 预测 <i>X</i>；但你无法控制似然比的分母 <i>P</i>(<i>X</i>|¬<i>A</i>)——总会有其他理论同样预测 <i>X</i>。我们眼下虽然会采用符合现有证据的最简单理论，但总有一天，你可能遇到一项由替代理论预测、而你的理论没有预测的证据。这就是推翻牛顿引力理论的隐蔽陷阱。因此，成功预测所能提供的证据总有上限；对于<b>证实性</b>证据而言，似然比也不可能无限升高。</p><p data-pid=\"JG4yXrxl\">另一方面，如果遇到一项证据 <i>Y</i>，而你的理论明确<b>没有</b>预测它，这就是反对该理论的<b>极其</b>有力的证据。若 <i>P</i>(<i>Y</i>|<i>A</i>) 是无穷小，似然比也会是无穷小。例如，若 <i>P</i>(<i>Y</i>|<i>A</i>) 为 0.0001%，而 <i>P</i>(<i>Y</i>|¬<i>A</i>) 为 1%，那么似然比 <i>P</i>(<i>Y</i>|<i>A</i>)/<i>P</i>(<i>Y</i>|¬<i>A</i>) 就是 1:10,000。这可是 −40 分贝的证据！或者把似然比倒过来看：如果 <i>P</i>(<i>Y</i>|<i>A</i>)<b>非常小</b>，那么 <i>P</i>(<i>Y</i>|¬<i>A</i>)/<i>P</i>(<i>Y</i>|<i>A</i>) 就会非常大，意味着观察到 <i>Y</i> 会极大地支持 ¬<i>A</i> 而非 <i>A</i>。证伪远比证实有力。这正是前述结论的体现：形成<b>极强</b>证据的关键，并不是 <i>A</i> 导致 <i>X</i> 的概率非常高，而是<b>非 A</b>导致 <i>X</i> 的概率非常<b>低</b>。这条精确的贝叶斯法则，正是波普尔证伪主义具有启发价值的根基。</p><p data-pid=\"-zkXZgHh\">同样，波普尔所说「一种观念必须可以被证伪」，也可以理解为贝叶斯概率守恒法则的体现：如果结果 <i>X</i> 是支持某理论的正面证据，那么结果 ¬<i>X</i> 就会在一定程度上否证该理论。若你试图把 <i>X</i> 和 ¬<i>X</i> 都解释成对理论的「证实」，贝叶斯法则会告诉你：这不可能！要提高一种理论的概率，就<b>必须</b>让它接受那些有可能降低其概率的检验；这不仅是识别科学这一社会过程中的潜在作弊者的一条规则，更是贝叶斯概率论的必然推论。另一方面，波普尔认为<b>只有</b>证伪而<b>根本没有</b>证实，事实证明并不正确。贝叶斯定理表明，证伪比证实提供的证据<b>强得多</b>，但证伪本质上仍是概率性的；它并不像波普尔所主张的那样，遵循一套与证实截然不同的规则。</p><p data-pid=\"Gm18461H\">由此我们发现：认知科学中的许多现象、科学家采用的统计方法，以及科学方法本身，原来全都是贝叶斯定理的特例。贝叶斯革命正由此而来。</p><hr/><p data-pid=\"QpWqwNfU\">既然已经正式介绍了贝叶斯定理，现在就可以具体讨论它的各个组成部分。</p><p data-pid=\"jDRWBbXw\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=+P%28A+%5Cmid+X%29+%3D+%5Cfrac%7BP%28X+%5Cmid+A%29+%5Ctimes+P%28A%29%7D%7BP%28X+%5Cmid+A%29+%5Ctimes+P%28A%29+%2B+P%28X+%5Cmid+%5Cneg+A%29+%5Ctimes+P%28%5Cneg+A%29%7D+\" alt=\" P(A \\mid X) = \\frac{P(X \\mid A) \\times P(A)}{P(X \\mid A) \\times P(A) + P(X \\mid \\neg A) \\times P(\\neg A)} \"/></p><p data-pid=\"kV8yARP3\">先从 <i>P</i>(<i>A</i>|<i>X</i>) 开始。要是你分不清贝叶斯定理中的 <i>A</i> 和 <i>X</i> 各是什么，就先看方程左边的 <i>P</i>(<i>A</i>|<i>X</i>)；这是最容易理解的部分。在 <i>P</i>(<i>A</i>|<i>X</i>) 中，<i>A</i> 是我们想了解的对象。<i>X</i> 是我们观察它的方式；也就是用来推断 <i>A</i> 的证据。记住，面对任何表达式 <i>P</i>(<i>Q</i>|<i>P</i>)，我们想知道的都是给定 <i>P</i> 时 <i>Q</i> 的概率，也就是 <i>P</i> 蕴涵 <i>Q</i> 的程度——更合理的记法本该是 <i>P</i>(<i>Q</i> ← <i>P</i>)，可惜如今再改已经太迟了。</p><p data-pid=\"RW5tWPVS\"><i>P</i>(<i>Q</i>|<i>P</i>) 与 <i>P</i>(<i>Q</i>,<i>P</i>) 关系密切，却并不相同。用概率或比例表示时，<i>P</i>(<i>Q</i>,<i>P</i>) 指所有事物中，同时具有属性 <i>Q</i> 和属性 <i>P</i> 的事物所占的比例；例如，在全体女性中，「既患乳腺癌、乳腺 X 线检查又呈阳性的女性」所占的比例。假如共有 10,000 名女性，其中 80 人既患乳腺癌、检查又呈阳性，那么 <i>P</i>(<i>Q</i>,<i>P</i>) 就是 80⁄10,000 = 0.8%。可以说，绝对数量 80 被相对于全体女性归一化成了一个概率。再举一个更清楚的例子：假设总样本有 89,031 名女性，其中 641 人既患乳腺癌、检查又呈阳性。六百四十一是绝对数量。若从整个样本中随机选一名女性，选中一名既患乳腺癌、检查又呈阳性的女性的概率就是 <i>P</i>(<i>Q</i>,<i>P</i>)，在本例中为 0.72%。</p><p data-pid=\"QwVnxjET\">而 <i>P</i>(<i>Q</i>|<i>P</i>) 指的是，在<b>所有具有 P 的事物</b>中，同时具有属性 <i>Q</i> 和属性 <i>P</i> 的事物所占的比例；例如，在<b>所有乳腺 X 线检查呈阳性的女性</b>中，既患乳腺癌、检查又呈阳性的女性所占的比例。假如有 641 名女性既患乳腺癌、检查又呈阳性，7,915 名女性的检查呈阳性，女性总数则为 89,031，那么 <i>P</i>(<i>Q</i>,<i>P</i>) 是从 89,031 人中随机抽取时，抽中那 641 人之一的概率；<i>P</i>(<i>Q</i>|<i>P</i>) 则是从较小的 7,915 人中随机抽取时，抽中那 641 人之一的概率。</p><p data-pid=\"wI0n7Fme\">从某种意义上说，<i>P</i>(<i>Q</i>|<i>P</i>) 真正表示的是 <i>P</i>(<i>Q</i>,<i>P</i>|<i>P</i>)，只不过每次都写出多余的 <i>P</i> 未免累赘。你已经<b>知道</b>对象具有属性 <i>P</i>，所以现在要<b>研究</b>的是属性 <i>Q</i>——尽管实际考察的是群体 <i>P</i> 之中群体 (<i>Q</i>,<i>P</i>) 的大小，而不是群体 <i>P</i> 之中群体 <i>Q</i> 的大小（后者毫无意义）。这就是把右侧属性视为<b>给定条件</b>的含义：你知道自己只在具有属性 <i>P</i> 的对象中讨论问题。当注意力收窄到这个较小的群体时，许多其他概率也随之改变。若把 <i>P</i> 视为<b>给定条件</b>，那么 <i>P</i>(<i>Q</i>,<i>P</i>) 就等于 <i>P</i>(<i>Q</i>)——至少<b>相对于群体 P</b>是这样。<b>原来的</b> <i>P</i>(<i>Q</i>)，即「整个样本中具有属性 <i>Q</i> 的对象」的频率，会更新为「由具有属性 <i>P</i> 的对象构成的子样本中，具有属性 <i>Q</i> 的对象」的新频率。若 <i>P</i> 已经给定，若 <i>P</i> 就是我们的整个世界，那么寻找 (<i>Q</i>,<i>P</i>) 和只寻找 <i>Q</i> 没有区别。</p><p data-pid=\"nNxhdHrx\">如果把注意力限定在所有涂成蓝色的蛋上，「一个蛋装有珍珠的概率」立刻就会变成另一个数；这个比例在蓝色蛋群体中，与在全部蛋中并不一样。<b>给定条件</b>，也就是限定我们注意范围的属性，总在 <i>P</i>(<i>Q</i>|<i>P</i>) 的<b>右</b>侧；<i>P</i> 成了我们的整个世界，成了眼前的一切，而在这一「给定」条件下，<i>P</i> 的概率始终为 1——这就是将 <i>P</i> 视为给定条件的含义。因此，<i>P</i>(<i>Q</i>|<i>P</i>) 的意思是：「如果 <i>P</i> 的概率为 1，<i>Q</i> 的概率是多少？」或者：「如果我们只考察 <i>P</i> 为真的事物或事件，<i>Q</i> 的概率是多少？」给定条件另一侧的陈述 <i>Q</i> 并不确定——它的概率可以是 10%、90%，也可以是其他任何数。所以使用贝叶斯定理时，当你把左侧写成 <i>P</i>(<i>A</i>|<i>X</i>)——即看到 <i>X</i> 后如何<b>更新</b> <i>A</i> 的概率；在已知 <i>X</i> 的条件下，<i>A</i> 的新概率；<b>X 蕴涵 A</b>的程度——就可以看出，<i>X</i> 始终是<b>观测</b>或<b>证据</b>，<i>A</i> 则是被研究的属性，是你想了解的对象。</p><hr/><p data-pid=\"WvSEOraM\">贝叶斯定理的右侧，可以通过以下步骤从左侧推导出来：</p><p data-pid=\"dfz_bdpH\"><img eeimg=\"2\" src=\"https://www.zhihu.com/equation?tex=+%5Cbegin%7Baligned%7D+P%28A+%5Cmid+X%29+%26%3D+P%28A+%5Cmid+X%29+%5C%5C+P%28A+%5Cmid+X%29+%26%3D+%5Cfrac%7BP%28X%2C+A%29%7D%7BP%28X%29%7D+%5C%5C+P%28A+%5Cmid+X%29+%26%3D+%5Cfrac%7BP%28X%2C+A%29%7D%7BP%28X%2C+A%29+%2B+P%28X%2C+%5Cneg+A%29%7D+%5C%5C+P%28A+%5Cmid+X%29+%26%3D+%5Cfrac%7BP%28X+%5Cmid+A%29+%5Ctimes+P%28A%29%7D%7BP%28X+%5Cmid+A%29+%5Ctimes+P%28A%29+%2B+P%28X+%5Cmid+%5Cneg+A%29+%5Ctimes+P%28%5Cneg+A%29%7D+%5Cend%7Baligned%7D+\" alt=\" \\begin{aligned} P(A \\mid X) &amp;= P(A \\mid X) \\\\ P(A \\mid X) &amp;= \\frac{P(X, A)}{P(X)} \\\\ P(A \\mid X) &amp;= \\frac{P(X, A)}{P(X, A) + P(X, \\neg A)} \\\\ P(A \\mid X) &amp;= \\frac{P(X \\mid A) \\times P(A)}{P(X \\mid A) \\times P(A) + P(X \\mid \\neg A) \\times P(\\neg A)} \\end{aligned} \"/></p><p data-pid=\"hHgnZjFO\">推导完成后，方程右侧的所有蕴涵都是 <i>P</i>(<i>X</i>|<i>A</i>) 或 <i>P</i>(<i>X</i>|¬<i>A</i>) 的形式，左侧则是 <i>P</i>(<i>A</i>|<i>X</i>)。之所以形成这种对称，是因为最基本的<b>因果关系</b>通常是由事实指向观测的蕴涵，例如由乳腺癌指向乳腺 X 线检查呈阳性；最基本的<b>推理步骤</b>通常是由观测指向事实的蕴涵，例如由检查呈阳性指向乳腺癌。贝叶斯定理的左侧，是从观察到乳腺 X 线检查呈阳性，推断乳腺癌概率升高这一结论的基本<b>推断</b>步骤。蕴涵从右向左书写，所以方程左侧写作 <i>P</i>(癌症|阳性)。贝叶斯定理的右侧描述的则是基本<b>因果</b>步骤——例如，从乳腺癌到检查呈阳性——所以右侧的蕴涵写成 <i>P</i>(阳性|癌症) 或 <i>P</i>(阳性|¬癌症)。</p><p data-pid=\"9p9z_YaP\">这就是贝叶斯定理。左端是理性推断，右端是物理因果；方程的一边是心智，另一边是现实。还记得科学方法原来也只是贝叶斯定理的一个特例吗？说得诗意一些，贝叶斯定理将推理同物理宇宙联结在了一起。</p><p data-pid=\"niEYicy9\">好了，讲完了。</p><p data-pid=\"vjeRAgsm\">贝叶斯牧师说：</p><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-4bc4d3fa0a08c7a4b0e869b206cdb3ad_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"304\" data-rawheight=\"332\" data-original-token=\"v2-4bc4d3fa0a08c7a4b0e869b206cdb3ad\" class=\"content_image\" width=\"304\"/></figure><p data-pid=\"UTDlwYBR\">现在，你已经正式入门贝叶斯阴谋集团。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ygL3Dbac\">[1] Ward Casscells, Arno Schoenberger, and Thomas Graboys, “Interpretation by Physicians of Clinical Laboratory Results,” <i>New England Journal of Medicine</i> 299 (1978): 999–1001.</p><p data-pid=\"0nGt2j8a\">[2] David M. Eddy, “Probabilistic Reasoning in Clinical Medicine: Problems and Opportunities,” in <i>Judgement Under Uncertainty: Heuristics and Biases</i>, ed. Daniel Kahneman, Paul Slovic, and Amos Tversky (Cambridge University Press, 1982).</p><p data-pid=\"QX-FDXQo\">[3] Gerd Gigerenzer and Ulrich Hoffrage, “How to Improve Bayesian Reasoning without Instruction: Frequency Formats,” <i>Psychological Review</i> 102 (1995): 684–704.</p><p data-pid=\"aznvVO5k\">[4] Ibid.</p><p data-pid=\"svIR9Ags\">[5] Edwin T. Jaynes, “Probability Theory, with Applications in Science and Engineering,” Unpublished manuscript (1974).</p><hr/><p data-pid=\"36pU_QDE\">总目录：</p><a href=\"https://zhuanlan.zhihu.com/p/2056344770390373406\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"《理性：从人工智能到僵尸》导读与目录\" data-draft-cover=\"https://pic1.zhimg.com/v2-3fef08abf83e7421c313574aac5dde16.png?source=7e7ef6e2&amp;needBackground=1\" class=\"internal\">《理性：从人工智能到僵尸》导读与目录</a><p data-pid=\"6AKWAGvZ\">卷：</p><a href=\"https://zhuanlan.zhihu.com/p/2063193105831141740\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"第三卷：灵魂中的机械\" data-draft-cover=\"https://pic1.zhimg.com/v2-548f402324930409c819a0c230ad0125.jpg?source=7e7ef6e2&amp;needBackground=1\" class=\"internal\">第三卷：灵魂中的机械</a><p data-pid=\"sEZ7lHub\">上一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/2062240524812260000\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"词语可能出错的 37 种方式\" data-draft-cover=\"https://picx.zhimg.com/v2-ffa585c44a3d653ab1dc2c011ae176af.webp?source=7e7ef6e2&amp;needBackground=1\" class=\"internal\">词语可能出错的 37 种方式</a><p data-pid=\"GYJy5QQ6\">下一篇：</p><a href=\"https://zhuanlan.zhihu.com/p/2064365098970436713\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"第四卷：纯粹的现实\" data-draft-cover=\"https://pic1.zhimg.com/v2-28e9661e962caec2608202b8f2662d4d.jpg?source=7e7ef6e2&amp;needBackground=1\" class=\"internal\">第四卷：纯粹的现实</a><hr/><blockquote data-pid=\"TpBLfitd\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">gpt-5.6-sol-xhigh</span>，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//www.readthesequences.com/An-Intuitive-Explanation-Of-Bayess-Theorem\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">An Intuitive Explanation of Bayes’s Theorem</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
+  "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/20259408",
+      "type": "topic",
+      "id": "20259408",
+      "name": "贝叶斯定理"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19670916",
+      "type": "topic",
+      "id": "19670916",
+      "name": "概率论"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19604183",
+      "type": "topic",
+      "id": "19604183",
+      "name": "推理"
+    }
+  ],
+  "voteup_count": 32,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "理性是一种「利用手头一切资源来尽己所能」的理念。",
+    "is_following": true,
+    "url_token": "c_1826322587032117248",
+    "id": "c_1826322587032117248",
+    "articles_count": 167,
+    "accept_submission": true,
+    "title": "理性 & 克服偏见",
+    "url": "https://api.zhihu.com/columns/c_1826322587032117248",
+    "comment_permission": "all",
+    "created": 1728209236,
+    "updated": 1751811441,
+    "image_url": "https://picx.zhimg.com/v2-c9036d409f5e65c53cfea750a0176c61_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 420,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 0,
+  "contributions": [
+    {
+      "id": 54341666,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "理性是一种「利用手头一切资源来尽己所能」的理念。",
+        "is_following": true,
+        "url_token": "c_1826322587032117248",
+        "id": "c_1826322587032117248",
+        "articles_count": 167,
+        "accept_submission": true,
+        "title": "理性 & 克服偏见",
+        "url": "https://api.zhihu.com/columns/c_1826322587032117248",
+        "comment_permission": "all",
+        "created": 1728209236,
+        "updated": 1751811441,
+        "image_url": "https://picx.zhimg.com/v2-c9036d409f5e65c53cfea750a0176c61_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 420,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "can_open_tipjar": true,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 35,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "插曲：贝叶斯定理的直观解释 - 来自知乎专栏「理性 &amp; 克服偏见」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/2062903307765650455 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 1,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 1,
+    "like_has_set": false
+  },
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyNzk0ODg4MDISEzIwNjI5MDMzMDc3NjU2NTA0NTUYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 32,
+      "down_vote_count": 0,
+      "like_count": 1,
+      "comment_count": 0,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 35,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-1a36869715790327e062148e6f8239df": 0,
+        "v2-4bc4d3fa0a08c7a4b0e869b206cdb3ad": 0,
+        "v2-7bc49a48fece592c9e9cdae884e4cb69": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": true,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-1a36869715790327e062148e6f8239df": false,
+        "v2-4bc4d3fa0a08c7a4b0e869b206cdb3ad": false,
+        "v2-7bc49a48fece592c9e9cdae884e4cb69": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-1a36869715790327e062148e6f8239df": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-4bc4d3fa0a08c7a4b0e869b206cdb3ad": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-7bc49a48fece592c9e9cdae884e4cb69": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/88870758683?contentId=2062903307765650455&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 理性 & 克服偏见",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1826322587032117248",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 理性 & 克服偏见"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
+}

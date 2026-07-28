@@ -1,0 +1,355 @@
+{
+  "id": "2064048381673084062",
+  "title": "提升生产力与执行速度的一些理由",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/2064048381673084062",
+  "image_url": "https://picx.zhimg.com/v2-31d7ce45a3f6193ca04f69f42f382cd7_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-31d7ce45a3f6193ca04f69f42f382cd7_720w.jpg?source=172ae18b",
+  "excerpt": "我和亲密朋友经常讨论一个话题：我们的生产力瓶颈在哪里，又该怎样加快执行速度。这与我在更广泛社交圈里看到的情形大不相同；在那里，人们常说 <a href=\"https://link.zhihu.com/?target=https%3A//twitter.com/danluu/status/1440106603093495810\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">执行速度并不重要</a>。谈到这个问题时，我还常看到网络上的讨论更进一步，给它赋予道德褒贬，声称试图加快执行、…",
+  "created": 1784888024,
+  "updated": 1784888025,
+  "author": {
+    "is_followed": true,
+    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+    "uid": "1521893281407864832",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "JarrettYe",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+    "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+    "name": "Jarrett Ye",
+    "is_advertiser": false,
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "gender": 1,
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
+    "badge": [],
+    "badge_v2": {
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "merged_badges": [],
+      "detail_badges": [],
+      "icon": "",
+      "night_icon": ""
+    },
+    "exposed_medal": {
+      "medal_id": "1463836052717301760",
+      "medal_name": "知「势」之星",
+      "avatar_url": "https://pic1.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_r.png?source=172ae18b",
+      "mini_avatar_url": "https://picx.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_l.png?source=172ae18b",
+      "description": "「知势榜」上榜答主即可获得",
+      "medal_avatar_frame": ""
+    }
+  },
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 678,
+  "image_height": 452,
+  "content": "<p data-pid=\"Ce_be4-7\">我和亲密朋友经常讨论一个话题：我们的生产力瓶颈在哪里，又该怎样加快执行速度。这与我在更广泛社交圈里看到的情形大不相同；在那里，人们常说<a href=\"https://link.zhihu.com/?target=https%3A//twitter.com/danluu/status/1440106603093495810\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">执行速度并不重要</a>。谈到这个问题时，我还常看到网络上的讨论更进一步，给它赋予道德褒贬，声称试图加快执行、提高生产力或努力工作，其实都是坏事（更多例子见附录）。</p><p data-pid=\"NOjO0Wlj\">据我观察，人们认为生产力不重要（甚至有害）的主要理由，不外乎以下三类：</p><ul><li data-pid=\"7Wo57pOq\">做正确的事比做得快更重要</li><li data-pid=\"ZG2Xa9QP\">做 X 的速度无关紧要，因为你并不会花多少时间做 X</li><li data-pid=\"lxRvzEZ7\">思考生产力是有害的，你应该「享受生活」</li></ul><p data-pid=\"2B2jDlBB\">我当然同意，做正确的事很重要；但加快执行并不会妨碍你做正确的事。恰恰相反，两者会相互形成乘数效应。越善于选对问题，强大的执行能力就越能发挥作用，反过来也一样。</p><p data-pid=\"GiUYSYm4\">选对问题带来的收益确实可能超过改善战术执行的收益，因为前者的收益没有上限；不过，改善战术执行要容易得多，而且也有助于选对问题：执行得越快，就越能迅速开展实验，从而更容易找到正确的问题。</p><p data-pid=\"cOiXYprI\">一个具体例子是我参与的项目，它要量化整个机器集群的健康状况。项目发现了多项严重问题：相当一部分主机正在损坏数据，或存在会让尾延迟增加 &gt; 2 个数量级的性能问题，或两种问题兼有。情况被认为严重到了需要另建一个团队专门处理的程度。</p><p data-pid=\"vrK_yd5L\">现在回头看，我最初几次量化问题的尝试注定失败，根本不可能真正奏效（至少不可能在合理时间内奏效）。我花了几周，一个接一个地试遍那些行不通的思路；而之所以能在「仅仅」几周后找到真正可行的思路，关键就在于我能迅速尝试并淘汰失败的想法。我曾在上一篇文章的一部分里提到，这个过程中的一个小环节花了多长时间，结果有好几个人在网上评论说，这个速度快得根本不可能。</p><p data-pid=\"SCiaxUcZ\">我觉得这有点好笑，因为我天生并不是写程序很快的人。<a href=\"https://link.zhihu.com/?target=https%3A//danluu.com/learning-to-program/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">学习编程对我来说确实非常艰难</a>，而且很长一段时间里，我都写得相当慢（至今在没有练习过的方面依然如此）。我的「独门怪招」不过是刻意练习，把自己常做的事情做得更快，而大多数人并没有这样做。我觉得，这种情形有点像人们还没有真正训练起来时的体育运动。很长一段时间里，许多运动员根本不认真训练；后来即使开始训练，按今天的标准看，方法也往往受错误观念误导。例如，读一读 70 年代关于棒球的评论，你会看到有人说棒球运动员不该进行重量训练，因为那会让人「肌肉过度发达，反而动作笨拙」（当时许多人认为，举重会让肌肉「太多」，导致速度变慢、爆发力下降、灵活性变差）。可如今，运动员会借助使肌肉更加发达的运动表现增强药物取得巨大优势；这反过来说明，仅靠重量训练，运动员不可能练到肌肉过度发达、反而妨碍运动的程度。与前述观点相似的说法是：运动员不该操心爆发力/力量，只该提升技术；但事实上，爆发力会提高技术的回报，反过来也一样。</p><p data-pid=\"0S66lIQC\">回到编程：如果你刻意练习和训练，而几乎没人这样做，那么哪怕你像我一样没有多少编程天赋、连入门都无比艰难，和大多数人相比，你依然能相当快地完成事情。当然，外面总会有天赋更高的人，花在自我提升上的时间更少，执行速度却比你更快。但幸运的是，<a href=\"https://link.zhihu.com/?target=https%3A//danluu.com/p95-skill/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">真正认真尝试提升自己的人相对很少</a><sup data-text=\"达到前 5% 的水平其实并不怎么样\" data-url=\"https://zhuanlan.zhihu.com/p/22816938382\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，所以我也能做得还不错。</p><p data-pid=\"DNvJ7VcK\">总之，尽管我的工作速度快到被一些网络评论者视为不可能，我还是撞了几周的南墙，才找到可行的办法。假如我按人们眼中的「正常」速度做事，我猜光是找出一个可行方案就会耗时太久，或许花上一两个季度后，我便会放弃这个问题。看似还有几分道理的死胡同如此之多，恐怕也正是这个问题虽然多年来都至关重要，却始终悬而未决的原因之一。当然，比我更会想点子的人也许不走弯路就能解决它；但正如前面所说，在「执行速度」方面找到唾手可得的改进机会并不难，在「想出更好的点子」方面却没那么容易。不过，只要能够快速尝试和淘汰想法，我就可以在有限程度上模拟一个比自己更会想点子的人（我也会努力改善构思能力，但那些更容易获得的高 ROI 收益，同样值得争取）。快速试验还能让我更快地学会如何提出好想法，因为这项能力的一个关键，就是从实际成败的反馈中培养直觉。</p><p data-pid=\"Vl5afk0Q\">下一个主要反对意见是：人们花在某项特定任务上的时间有限，所以完成该任务的速度并不重要。从整体上看，我不同意这个说法。它或许适用于某一种具体任务，但正确的应对方式应该是逐一改进各类任务，而不是彻底否定改进这件事。还有一种次级反对意见，大意是：「可我每周要浪费 20 小时参加毫无成效的会议，剩下的时间怎么用还有什么关系？」我认为这错了两次。第一，如果你因此只剩 20 小时可能有产出的时间，那么这段时间里的任何生产力倍增，依然会作用于你的总体生产力。第二，那些已经无可挽回的会议通常可以退出，尚有挽救余地的会议则可以变得更有成效[1]。</p><p data-pid=\"EjJVAECI\">更普遍地说，人们常说自己没花多少时间做 X，也没有受制于 X，因此优化 X 不会有帮助；可这与我的经验并不相符，因为对于许多常被轻视的 X，我都有大量时间受制于 X。部分原因在于，把 X 做得更快，实际上可能会增加花在 X 上的时间：当 X 的回报提高后，时间更值得投向 X，由此形成某种正反馈循环。另一部分原因，可以从 Fabian Giesen 的这段评论中看出：</p><blockquote data-pid=\"FKzlLr3R\">人们普遍接受、甚至已经近乎老生常谈的一点是：在真正对程序进行性能分析之前，你根本不知道程序把时间花在了哪里；但由此推导出的结论——在实际测量之前，你同样不知道<b>自己</b>把时间花在了哪里——却远没有得到同样广泛的认可。</blockquote><p data-pid=\"P5bdzu7x\">我曾比较过人们实际如何花费时间，以及他们自以为如何花费时间，两者往往相差得离谱。我认为，这背后有一个根本原因：除非亲自测量，否则人们对时间去向的估计往往会严重失真。Fabian Giesen 的另一段话很好地概括了这一点；它说的碰巧是还原魔方，却也适用于其他认知任务：</p><blockquote data-pid=\"CgnldHzU\">转述一位知名魔方玩家的话：「还原魔方时，你从不觉得自己的停顿有多糟，因为大脑正忙着，而且你知道自己在想什么；可一旦有了录像，需要改进的地方往往立刻就显而易见。」这基本就是通常针对程序所说的「别靠猜，要做性能分析」，只是把它用在了另一种情境中：你全程都很专注，也一直很忙。可编程圈的默认假设似乎是，只要你确实在工作，没有分心或偷懒，就绝不可能浪费大量时间</blockquote><p data-pid=\"4OCzKo9J\">和大多数在网上讨论这个话题的人不同，我确实查过自己的时间去了哪里；其中很大一部分，恰好花在了那些被当作「不值得浪费时间改进」的典型事项上，因为人们认定自己根本没花多少时间做它们。</p><p data-pid=\"pQBkA690\">这类事项中，我最常见到的「不该优化」典型就是打字速度（谈到这里，人们通常会说，打字速度无关紧要，因为思考比打字占用更多时间）。但当我实际查看自己的时间去向时，很大一部分时间确实用在了打字上。</p><p data-pid=\"mUoZdLDj\">举个具体例子：我在目前的工作中写过许多颇有影响力的文档。别人问起其中某份文档写了多久时，往往会惊讶于它竟然只用了一天。与机器健康状况的例子一样，执行速度能帮助我判断哪些文档会产生影响。回顾我写过的文档，我会说大概有 15% 真正产生了重大影响（促成新团队成立、改变现有团队的方向、显著影响公司的利润，等等）。一方面，我并不总能预先知道什么想法会引起别人的共鸣；另一方面，我也经常提出成功概率很低的想法，因为它们听起来实在太蠢，让人没法认真对待（例如，为了应对一次容量危机，我曾提议关闭每个机架的 10%，从而增加有效配置容量；这个主意听起来大概已经蠢到了极点）。如果我写文档慢得多，提出这类真正希望渺茫的想法就不划算了。按目前的情况，如果我认为一个想法有 5% 的成功概率，那么从期望值看，我需要花 ~20 天写文档，才会有一份得到采纳。</p><p data-pid=\"Jf0B59ft\">我的写作时间大约有一半用在打字上。假如我的打字速度是有些人所说的中位数 40 WPM，而不是某个随手找来的测试测出的 110 WPM，那么总耗时会变为原来的 0.5 + 0.5 * 110/40 = 1.875 倍；这样，我需要写上将近 40 天，才会有一份希望渺茫的文档得到采纳，这项尝试也会变得更加冒险。如果我连写作流程中与打字无关的部分也没有优化，我想自己的总耗时可能会变为现在的 10 倍[2]，相当于每写出一份影响重大、希望渺茫的文档，需要投入 ~200 天。时间长到这种程度，我大概根本不会再写这类文档[3]。</p><p data-pid=\"OJlRx4Ni\">Fabian Giesen 还指出，执行速度产生这种非线性影响，其实很常见：</p><blockquote data-pid=\"yPPdfSwF\">当你跨过某些阈值时，就会发生「相变」（具体情况在一定程度上取决于问题），整个工作方式都会随之改变。……理论上，许多事情无论速度多慢我都能做，实际上却并非如此：随着迭代时间增加，起初它会变得令人沮丧，让我无法坚持太久；最终，一轮迭代会耗时太久，以至于相关内容真的会从我的短期记忆中消失，迫使我记笔记或用其他方式把事情组织起来，否则就根本做不下去。<br/>当然，如果我能在交互式 UI 中拖动滑块做实验，并在不到一秒内看到结果，那么这时便完全是「不加筛选」的状态：想试什么，直接动手就是。<br/>一旦每轮迭代耗时来到几秒左右（比如静态编译语言的一次编译—链接周期），你就不会再什么都直接上手试；你还会先琢磨这次运行究竟能不能告诉自己什么，因为它已经慢到让你不愿白白浪费一次运行。<br/>一旦每轮迭代要花几分钟乃至数小时，你就需要做大量规划，以免浪费运行机会；等待期间还会去做别的事情，所以又要切换上下文、记笔记、做记录。在这个层级上，错误的代价更大（因为一次白跑会浪费更多时间），也更加常见（因为你的注意力被分散得太厉害）。<br/>如果规模继续扩大，你可能还得占用大量资源，并持续一段不可忽视的时间，于是需要为此申请批准和预算，而这些又各自需要开会，等等。</blockquote><p data-pid=\"7L-sSAUU\">在我的工作中，<a href=\"https://link.zhihu.com/?target=https%3A//danluu.com/metrics-analytics/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这个指标分析项目</a>就是一个具体例子，说明某件事如何从一类项目变成另一类项目。当时有许多关于如何解决问题的提案。所有人都认同问题很重要，没有任何异议；但那些提案无一例外，都需要安排一支团队，跨越多个路线图周期来完成。启动如此昂贵的项目，需要争取组织内部的大力支持，而门槛高到许多重要问题都得不到解决——这个问题也包括在内。可事实证明，只要范围界定得当、执行尚可，一个程序员一天内就能做出这个项目的 MVP，启动它根本不需要组织层面的支持。你不必让多位总监和一名 VP 一致认定，它属于整个组织最重要的问题之一；只要有一个人觉得它值得解决就够了。</p><p data-pid=\"sYRQFp7d\">再回到那些据称「没花多少时间做 X，所以做 X 的速度不重要」的事情。另一个常见例子是编码，但「编码速度不重要」同样不符合我的个人经验。以前面提到的机器健康状况项目为例：找出可行的办法后，我整整花了一个月，基本只做这一件事，也就是编码、测试和调试。那个月里，我想自己大约开了 6 小时的会；除此以外，再扣除吃饭等时间，我就是上班后写一整天代码，然后回家。比较不同人的编码速度要困难得多，因为很少有人会完成完全相同或高度相似、又并非微不足道的任务，所以我不会试图拿自己和别人比较。但如果比较我着手提升生产力之前与现在的状态，那么若没有通过审视自身执行速度而找到的种种提速办法，这个项目很可能根本无法完成。</p><p data-pid=\"EChx2zWt\">基于<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Amdahl%2527s_law\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">阿姆达尔定律</a>的论点，用来寻找固定基准测试中的提速机会或许说得通，例如 SPECint 的某个子任务；可在一个系统中，如果把某项任务做得更好会提高完成它的回报，还可能增加投入其中的时间，那么仅仅因为你花了很多时间做某件事，就声称不该再去改进它，显然毫无道理。我会把时间用在 ROI 高的事情上；但这些事通常之所以有高 ROI，恰恰是因为我曾花时间提高执行速度，从而降低了 ROI 中的「I」——也就是投入。</p><p data-pid=\"hRopSWJw\">我看到的最后一个主要反对意见，是从道德上贬低思考生产力、提升执行速度这件事本身。这类评论往往又会从道德上褒扬各种休闲活动，例如陪伴朋友和家人。我认为，这套论点本末倒置。如果一个人觉得陪伴亲友很重要，那么一个简单的做法就是提高工作时的生产力，从而减少工作时间。</p><p data-pid=\"wqrRAt_v\">就我个人而言，我会刻意避免长时间工作，也猜想自己的工时不会超过公司员工的中位数；而我认为，这家公司总体上的工作与生活平衡相当不错。我从生产力提升中得到的许多收益，都用在了休闲而不是工作上。不仅如此，刻意提高执行速度还<a href=\"https://link.zhihu.com/?target=https%3A//twitter.com/danluu/status/1444034823329177602\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">让我能够相对迅速地晋升</a>[4]。这意味着，我赚到的钱比没有晋升时更多，也能更自由地把时间花在自己重视的事情上。</p><p data-pid=\"7FhvRmXn\">还有些人并非认为「休闲更重要，所以不该思考生产力」，而是主张人根本不该思考生产力，因为这样做不自然，人应该过自然的生活。归根结底，这是个人偏好的问题；但对我来说，我实在太看重工作以外的生活，所以不能不刻意设法提高自己在工作中的生产力。</p><p data-pid=\"JaqK1RXr\">与<a href=\"https://link.zhihu.com/?target=https%3A//danluu.com/why-benchmark/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这篇讨论为何要衡量的文章</a>一样，本文虽然谈的是提高生产力的实用理由，但真正促使我提升个人生产力的首要动机并非出于实用考量。最主要的原因是，我享受自己不断精进的过程——无论对象是某款书呆子气的桌游、一项我毫无天赋而且永远不会给我带来任何实际价值的运动，还是工作。次要原因才是：既然寿命有限，我想把时间分配给自己重视的事情；提高生产力，让我能够多做一些这样的事。不过，我直到大约 20 岁才产生这个想法；而在那之前，我早已花了很多年，努力提升自己在大多数长期投入的事情上的水平。</p><p data-pid=\"Itj9u6gK\">人们努力提高生产力，还有一个常见理由：对许多人而言，精通某件事和/或总体上擅长做某件事，似乎能带来满足感。这种感受没有引起我的个人共鸣，但我问过别人为什么努力提升技能，发现它似乎是一种常见动机。</p><p data-pid=\"3ly7WE2d\">Holden Karnofsky 谈论这个相关观点已有一段时间：如果你有朝一日想以某种方式改变世界，那么即使身处那些看不出把工作做得更好有何用处的岗位，努力提升技能依然有益。等你转向更符合自身目标的事情时，已经培养起来的技能，会让你拥有更大的杠杆去影响世界。</p><h2><b>附录：思考该改进什么的一种方式</b></h2><p data-pid=\"Euwby07Z\">下面是 Gary Bernhardt 提出的一个思考框架，我很喜欢（这里没有使用引用块，因为除了这一句，整个小节都是他的话）。</p><p data-pid=\"zkiSqIc_\">人们谈论效率时，往往执着于单一的分析粒度。例如：「思考才是最重要的，所以不用操心打字速度。」如果退一步看，对此的回应是：「效率存在于这条连续谱上的每一个点，从逐年制定的战略，一直到逐毫秒发生的击键。」我认为，可以稳妥地假设，较大尺度上的收益会产生最大的影响。但随着分析粒度不断变细，ROI 究竟会从哪里开始下降，并不明显。下面是一些从粗到细的例子：</p><ol><li data-pid=\"3bBF-pTy\">你最初提出的宏观观点是：编程不只有思考，还包括思考加上编辑代码等战术活动。编辑得越快，留给思考的时间就越多。<br/><br/></li><li data-pid=\"Lbxhq3ND\">可编辑代码的代价并不只有打字耗费的时间！编程高度依赖短期记忆。每次停下来编辑都会造成干扰，让你可能忘掉脑中正同时处理的细节。编辑越慢，实际上越会削弱短期记忆，效率也就越低。<br/><br/></li><li data-pid=\"dEPz8bgY\">可编辑代码也不只是按键！它既包括按键，也包括这些按键调用的编辑器命令。即使 WPM 与以前完全相同，效率更高的编辑器也能大幅提高实际的代码编辑速度。<br/><br/></li><li data-pid=\"4jwHdo8I\">可每条编辑器命令也不是孤立存在的！同一种编辑往往有许多实现方式。Vim 初学者也许会键入「hhhhxxxxxxxx」，但「bdw」效率更高。高级 Vim 用户也许会使用「bdw」，却没有意识到，尽管击键次数相同，它还是比「diw」慢。（在 QWERTY 键盘布局中，前者完全使用左手，后者则按左—右—左手交替。打字速度达到 140 WPM 时，你每秒大约击键 14 次，因此每根手指只有 70 ms 来移动到位并按下按键。双手交替可以给下一根手指留下更多时间，使它能在前一根手指还在按键时就开始移动到位。）</li></ol><p data-pid=\"DTxIVa0E\">我们必须选择，要把这件事思考到多细。我认为，思考第 1—3 点显然有 ROI，而且应该让这些思考同时指导工具选择和练习。我不认为第 4 点值得投入太多心思。我们似乎会自然而然地在那里找到一个「足够好」的位置。不过，这也恰好让它成为一根不错的界桩，可以用来框定前面几点。</p><h2><b>附录：更多例子</b></h2><ul><li data-pid=\"x_l97M_X\"><a href=\"https://link.zhihu.com/?target=https%3A//twitter.com/b0rk/status/1367172498954059791\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">执行速度并不重要</a>，来自 Julia Evans；我认为，自大约 2015 年以来，她一直是读者最多的编程博主</li><li data-pid=\"bvInJy5M\"><a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D10529064\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Ben Kuhn 在一篇文章中指出，更合理地分配时间让他的生产力提高了 50%；评论区却几乎一边倒地否定这篇文章，说他工作过度</a>。尽管 Ben 已在多条评论和文章本身中澄清，记录下来的时间并不全是工作时间，评论者却忙着占据道德高地，根本没有真正回应文章内容</li><li data-pid=\"CWIHNy9o\"><a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D28879240\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">关于 Jamie Brandon 的《速度至关重要》一文的评论</a></li><ul><li data-pid=\"hzejMa0s\"><a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D28880190\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">快速工作毫无意义，因为你会被迫承担更多工作</a></li><li data-pid=\"tzr1eh5o\"><a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D28881360\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">如果你做的是正确的事，速度就不重要；而且即便速度这种东西确实存在，它也无法衡量，因此讨论它毫无意义</a></li><li data-pid=\"g9GT-ZU0\"><a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D28879823\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">思考生产力有害健康，人应该放松</a></li><li data-pid=\"Swh7vwqw\"><a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D28881320\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「好、快、便宜」只能三选 2，所以努力提速反而会适得其反</a></li><li data-pid=\"QZAXprqm\"><a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D28880653\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">大幅提速根本不可能</a></li><li data-pid=\"ttYD9G2T\"><a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D28880173\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「作者把编码错当成了打字」</a></li><li data-pid=\"9TuJB4pI\">等等。</li><li data-pid=\"ScVz6z1e\">和 Ben 的文章一样，这些评论几乎全都已经在帖子本身中得到回应。我不打算再逐次指出这种情况，因为这里提到的文章基本都是如此。</li></ul><li data-pid=\"bVb0xRu5\"><a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D22255996\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Michael Malis 的文章《如何提升职业程序员的生产力》下排名 #3 的评论</a>：「去他的吧，整个工作环境看起来就是为了降低生产力而设计的……我为什么还要费这个劲……」</li><ul><li data-pid=\"gIf7pFWb\">#4 条评论：「如果我不想提高生产力呢？慢慢来就好了。」</li><ul><li data-pid=\"gUwiX9p2\">发泄完最初的不满后，这条评论接下来的内容恰恰证明，评论者完全没抓住重点，因为余下部分解释的正是这名评论者如何高效工作。显然，只要不把这种做法称为「高效工作的方式」，评论者便觉得毫无问题；因为一旦有人想提高生产力，还把相关技巧分享给其他可能有兴趣的人，大家仿佛就理应从道德上感到愤怒</li><li data-pid=\"r727qEfF\">回复中有人指出，生产力更高的人能把更多时间用在休闲上；这条评论遭到一致抨击，理由是「工作会不断膨胀，直至占满完成它可用的全部时间」——仿佛一个人如何使用时间是某种不可改变的自然法则，而不是任何人可以控制的事情</li></ul><li data-pid=\"qHzjMki1\">另一条评论：「好吧。我们究竟在优化什么？生产力？还是这些事情中的某个最终目标：取得更多成就、攀登职场阶梯、赚更多钱，等等？」</li></ul><li data-pid=\"myRjvYba\"><a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D13752887\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">关于 antirez 所谈生产力的评论</a></li><ul><li data-pid=\"qhjOWvWR\"><a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D13753443\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这篇文章谈的是 10 倍程序员所处的世界，而不是大多数人生活的普通世界</a></li><li data-pid=\"8xOigiBD\"><a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D13753611\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">提高生产力毫无意义，因为你的环境决定了生产力</a></li><li data-pid=\"DHAWWgV-\"><a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D13753465\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">高效的程序员很自私、不指导别人，等等，而且会危害团队，因为他们提高生产力总是以忽视更重要的事情为代价；所以，任何高效的程序员实际上都会降低团队生产力</a></li><ul><li data-pid=\"iEtN7hKV\">如果你通读这篇文章的所有评论，就会发现这是一个常见主题</li></ul></ul><li data-pid=\"kWgDO9gr\"><a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D20737304\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">关于 Alexy Guezy 对生产力之思考的评论</a></li><ul><li data-pid=\"FgLNwtyf\"><a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D20737854\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「认真问一句：还有什么事情比阅读别人对生产力的思考更没有生产力吗？它把拖延与了解某个想必比你更高效的人有哪些有效方法结合在了一起（也就是：内疚）。」</a></li><li data-pid=\"KSwv0u6a\"><a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D20737854\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">一篇题为《反对生产力》的反生产力文章</a></li></ul><li data-pid=\"MNhiAq73\"><a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D9715810\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">打字速度并不重要，因为你只有 0.5% 到 1% 的时间花在打字上</a></li><ul><li data-pid=\"mmjqYlYl\">虽然人们谈的是 8 小时工作日，但我认为，每天真正工作 4 小时的人通常已经会被视为生产力极高。其中 0.5% 到 1% 的占比，按 4 小时折算，相当于每天 1.2 分钟到 2.4 分钟；对于打字速度为 100 wpm 的人来说，也就是总共 240 个词，<a href=\"https://link.zhihu.com/?target=https%3A//thorstenball.com/blog/2020/09/01/typing-can-be-the-bottleneck/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">分散在 slack、JIRA、电子邮件、实际代码、提交消息、设计文档、设计文档评论、文档资料等等之中</a>；我想我不认识任何打字量如此之少的职业程序员</li></ul><li data-pid=\"Ju9L5SDN\"><a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D38797640\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「我觉得，快肌型的编程肌肉与技术债务之间存在关联……不过我们都年轻过；我记得自己曾认为，唯一阻碍我的就是 4.77MHz」</a>，这是对一篇比较不同机器构建时间的博客文章的评论（那篇文章中根本没有类似「阻碍开发者的唯一因素就是构建时间」的观点）</li></ul><p data-pid=\"J_CY1g_o\">等等。</p><p data-pid=\"S4SJmcLz\">一些人利用自身生产力来「资助」自己珍视的事情，正面例子包括 Andy Kelley（Zig）、Jamie Brandon（各种项目）、Andy Matuschak（mnemonic medium 及各种项目）、Saul Pwanson（VisiData）、Andy Chu（Oil Shell）。我举的都是编程领域的例子，但其他领域也能找到很多，例如 Nick Adnitt（<a href=\"https://link.zhihu.com/?target=https%3A//darksidecanoes.wordpress.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Darkside Canoes</a>）；当然，还有许多人退休后去追求完全不像工作的兴趣。</p><h2><b>附录：避免高效工作的另一个理由</b></h2><p data-pid=\"xld0q0kv\">在我更广泛的社交圈里，一种观点在大型科技公司的从业者中日渐流行：人应该避免干活，并且<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/r/antiwork/comments/pvjc6f/they_dont_give_a_fuck_about_you/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">尽可能浪费时间</a>。这通常被称为「反工作」，似乎是「太拼」沦为贬义词之后的自然延伸。人们给出的理由往往是：工作主要让雇主的高层管理者和/或股东发财，而他们一般都比你富有。</p><p data-pid=\"7zZ9TEUg\">我能理解这个论点，也<a href=\"https://link.zhihu.com/?target=https%3A//twitter.com/danluu/status/802971209176477696\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">认同高层管理者和股东攫取了工作所创造的大部分价值</a>。可是，无论我多么同情用故意降低生产力来「给当权者点颜色看看」的想法，我都更看重把时间花在自己想做的事情上；所以我宁愿尽快完成工作，以便去做那些比工作更让我享受的事。此外，我过去一直很高效，这给了我不错的择业空间；因此，与那些投身「反工作」运动的科技行业熟人相比，我现在的工作要合心意得多。</p><p data-pid=\"MGmGQ_1T\">你对环境的掌控越少，投身「反工作」就越合理。相对而言，大型科技公司的程序员对自身环境拥有很大控制权；正因如此，尽管我同情这项事业，却并不「反工作」。</p><p data-pid=\"NqSTFEbz\">尽管谈的是另一个话题，<a href=\"https://link.zhihu.com/?target=https%3A//twitter.com/PracheeAC/status/1448789430488092672\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Prachee Avasthi 有一条相关评论：在获得终身教职前回避有争议的工作，也回避推动必要的变革，会让人养成一些在获得终身教职后很难打破的习惯</a>。如果一个人想永远「反工作」，那并没有问题；但如果他打算在某个时候真正推动某件事，那么在大型科技公司任职期间养成「反工作」习惯，只会固化那些适得其反的做法。</p><p data-pid=\"BCqQvuPF\">感谢 Fabian Giesen、Gary Bernhardt、Ben Kuhn、David Turner、Marek Majkowski、Anja Boskovic、Aaron Levin、Lifan Zeng、Justin Blank、Heath Borders、Tao L.、Nehal Patel、@chozu@fedi.absturztau.be、Alex Allain 和 Jamie Brandon 提供评论/更正/讨论</p><hr/><ol><li data-pid=\"NIK5B6F3\">我观察过会议效率，发现有些人非常善于让会议始终切中议题、发挥作用。例如，在与我共同开过会的人当中，Bonnie Eisenman 尤其擅长确保会议富有成效。刚开始目前这份工作时，我曾向她请教，为何她如此善于保持会议效率；此后，我一直在采用她的建议（我远不如她擅长这件事，但即便如此，这方面的进步仍给我带来了重大收益）。<br/><br/></li><li data-pid=\"PzcWNY5Q\">对写作而言，10 倍听起来或许是大得难以置信的提速幅度；但在一个私人 slack 中讨论写作速度时，一位知名新闻通讯作者提到，他们撰写一份 5k 词新闻通讯的净速度略低于每分钟 2 个词（WPM）。而我的净速度（包括编辑等耗费的时间）是每份文档超过 20 WPM。<br/><br/>以测得的 110 WPM 打字速度来看，我花在打字上的时间似乎应该只占很小一部分；但实际大约占了一半。我的写作速度远低于打字测试速度，似乎大约只有后者的一半。再看实际时间去了哪里，就会发现约有一半用于打字，另一半用于思考，两者处于一种半串行状态，因而让我的打字出现长时间停顿。<br/><br/>如果要问这里最大的收益可能来自哪里，答案应该是同时思考和打字；而我会通过更多练习打字，而不是更少练习，来设法做到这一点。但即使我做不到，而且打字速度高于平均水平，依然有一半时间花在打字上！<br/>我的净速度远低于落笔时的实际写作速度，是因为我会进行多轮修改和重写。重写时，有些时间会用来阅读；但我读得比写得快得多，因此阅读只占很小一部分。原则上，我可以采取一种减少重写的写法；不过，我已经尝试过许多看起来可能实现这一目标的方法，却还没有找到适合自己的办法（暂时没有？）。<br/><br/>这里的例子虽然说的是工作，但同样适用于我的个人博客，我在那里的执行速度也差不多。如果写作速度比现在慢十倍，我想自己的博客就不会剩下多少内容了。我猜自己也许会写出几篇文章，或者只留下几份草稿，还没走到发表这一步就停笔了。<br/><br/>我享受写作，也以各种方式从中获得了许多价值；但我同样非常珍视生活中的其他事情。因此，如果我的净写作速度只有 2 WPM，我认为写作不会在自己的生活中占有一席之地。<br/><br/></li><li data-pid=\"bJkgmauJ\">另一种策略是缩短文档。有些文档风格很适合这样做；但我经常写另一类文档：有些问题若不写成长文就很难令人信服地讲清楚，而我会借助自己的写作速度来讨论它们。<br/><br/>我的文档会写成这样，其中一个原因是，我经常处理横跨技术栈多个层级的问题。这意味着，我不仅要展示技术栈多个层级的数据，还必须为不深入熟悉其中某一层级的人提供足够背景，说明某一层级的问题为什么会向技术栈的上层或下层传导。这样做不可或缺，因为很少有读者会深入熟悉理解整个问题所需的每一个层级。<br/>在大多数情况下，过去都有人尝试过推动解决问题，或为相关工作争取资金，却没能获得支持，因为他们没有构建出一套论证，把技术栈某一层级的问题与其他层级的重要问题联系起来。我当然可以避开横跨技术栈多个层级的问题；但由于技术和组织方面的原因，这类问题中存在许多唾手可得的改进机会。因此，我认为不能只因为写一份解释问题的文档需要一天，就把这些问题置之不理（不过，如果要花十天，这样做也许就说得通了，至少在人们可能怀疑解决方案的情况下如此）。<br/><br/></li><li data-pid=\"7WPSs3Cv\">当然，晋升非常不公平，生产力更高也不能保证晋升。如果只看哪些因素与职级相关，<a href=\"https://link.zhihu.com/?target=https%3A//twitter.com/altluu/status/1448012821854257155\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我甚至不确定生产力与职级的相关性是否强于身高与职级的相关性</a>；但在我可以控制的因素中，生产力是最容易改变的因素之一。</li></ol><hr/><blockquote data-pid=\"TpBLfitd\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">gpt-5.6-sol-xhigh</span>，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//danluu.com/productivity-velocity/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Some reasons to work on productivity and velocity</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
+  "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19565621",
+      "type": "topic",
+      "id": "19565621",
+      "name": "生产力"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19636753",
+      "type": "topic",
+      "id": "19636753",
+      "name": "执行"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19556677",
+      "type": "topic",
+      "id": "19556677",
+      "name": "效率"
+    }
+  ],
+  "voteup_count": 27,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "好睡眠，好学习，好生活",
+    "is_following": false,
+    "url_token": "c_1525846593119449088",
+    "id": "c_1525846593119449088",
+    "articles_count": 123,
+    "accept_submission": true,
+    "title": "睡眠研究 & 生活建议",
+    "url": "https://api.zhihu.com/columns/c_1525846593119449088",
+    "comment_permission": "all",
+    "created": 1656570176,
+    "updated": 1751877207,
+    "image_url": "https://pic1.zhimg.com/v2-080a085ec59b78d9d731960f7b0fdb50_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 471,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 2,
+  "contributions": [
+    {
+      "id": 54362764,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "好睡眠，好学习，好生活",
+        "is_following": false,
+        "url_token": "c_1525846593119449088",
+        "id": "c_1525846593119449088",
+        "articles_count": 123,
+        "accept_submission": true,
+        "title": "睡眠研究 & 生活建议",
+        "url": "https://api.zhihu.com/columns/c_1525846593119449088",
+        "comment_permission": "all",
+        "created": 1656570176,
+        "updated": 1751877207,
+        "image_url": "https://pic1.zhimg.com/v2-080a085ec59b78d9d731960f7b0fdb50_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 471,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 43,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "提升生产力与执行速度的一些理由 - 来自知乎专栏「睡眠研究 &amp; 生活建议」，作者: Jarrett Ye https://zhuanlan.zhihu.com/p/2064048381673084062 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 2,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 2,
+    "like_has_set": false
+  },
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyNzk3NTU4NzgSEzIwNjQwNDgzODE2NzMwODQwNjIYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 27,
+      "down_vote_count": 0,
+      "like_count": 2,
+      "comment_count": 2,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 43,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-31d7ce45a3f6193ca04f69f42f382cd7": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-31d7ce45a3f6193ca04f69f42f382cd7": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-31d7ce45a3f6193ca04f69f42f382cd7": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/88682153922?contentId=2064048381673084062&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 睡眠研究 & 生活建议",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525846593119449088",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 睡眠研究 & 生活建议"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
+}

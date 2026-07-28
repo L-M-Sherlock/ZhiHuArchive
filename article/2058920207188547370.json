@@ -1,0 +1,367 @@
+{
+  "id": "2058920207188547370",
+  "title": "关于看透与解构：黑客心态",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/2058920207188547370",
+  "image_url": "https://pica.zhimg.com/v2-c942f8e1f268acaf59a73fad79e13914_720w.jpg?source=172ae18b",
+  "title_image": "https://pic1.zhimg.com/v2-c942f8e1f268acaf59a73fad79e13914_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://picx.zhimg.com/v2-0a27d5edc93305474e2bf8d213e4478f_200x112.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1700\" data-rawheight=\"1424\" data-watermark=\"original\" data-original-src=\"v2-0a27d5edc93305474e2bf8d213e4478f\" data-watermark-src=\"v2-bfe8fe06fde8c66c7dda06e8a2681267\" data-private-watermark-src=\"\" class=\"origin_image inline-img zh-lightbox-thumb\" data-original=\"https://picx.zhimg.com/v2-0a27d5edc93305474e2bf8d213e4478f_r.jpg\"/>我将安全/黑客心态定义为极致的还原论：忽略系统表层的抽象和限制，仅仅将其视为一堆底层零件的来源，并将其操纵组装成一个截然不同的、具有不同（通常也是非预期）功能的系统。 摘要为了在此做个类比并延伸一下 <a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/turing-complete%23dullien-2017\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Dullien 在 2017 年的观点</a>，我认为，<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/turing-complete\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">那些出…</a>",
+  "created": 1783671534,
+  "updated": 1783696016,
+  "author": {
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+    "uid": "1521893281407864832",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "JarrettYe",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+    "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+    "name": "Jarrett Ye",
+    "is_advertiser": false,
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "gender": 1,
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
+    "badge": [],
+    "badge_v2": {
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "merged_badges": [],
+      "detail_badges": [],
+      "icon": "",
+      "night_icon": ""
+    },
+    "exposed_medal": {
+      "medal_id": "1463836052717301760",
+      "medal_name": "知「势」之星",
+      "avatar_url": "https://pic1.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_r.png?source=172ae18b",
+      "mini_avatar_url": "https://pica.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_l.png?source=172ae18b",
+      "description": "「知势榜」上榜答主即可获得",
+      "medal_avatar_frame": ""
+    }
+  },
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 1136,
+  "image_height": 824,
+  "content": "<p data-pid=\"GUnJJeZY\">我将安全/黑客心态定义为极致的还原论：忽略系统表层的抽象和限制，仅仅将其视为一堆底层零件的来源，并将其操纵组装成一个截然不同的、具有不同（通常也是非预期）功能的系统。</p><h2>摘要</h2><blockquote data-pid=\"T2ac55z9\">为了在此做个类比并延伸一下 <a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/turing-complete%23dullien-2017\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Dullien 在 2017 年的观点</a>，我认为，<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/turing-complete\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">那些出人意料的图灵完备系统和「怪异机器」</a>与抢劫题材电影、千王骗局或舞台魔术都有着共通之处：它们都共享着一种特定的思维范式，我们或许可以称之为<b>安全心态（security mindset）</b>或<b>黑客心态（hacker mindset）</b>。<br/>它们（包括黑客技术、<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Speedrunning\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">游戏速通</a>、<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Social_engineering_%253C%21--MATH_PH_1--\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">社会工程学</a>等）的共同点在于，它们证明了那种被大肆吹捧的「黑客心态」，从根本上讲就是一种走向极致的还原论，在这种心态下，人们能够<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/philosophy/epistemology/2012-sistery-tryingtoseethrough.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「看透」</a>表层的抽象，直指可以被任意操纵的底层现实。 就像《黑客帝国》里的尼奥（Neo）一样——拿它来比喻黑客技术实在烂俗至极，但这烂俗恰恰是因为它深入人心——一个人通过看透物体的表面幻象而获得开悟，从而看清了构成整个母体（Matrix）的那一行行永无止境的绿色代码，反之亦然。（底层全都是相互映射的表象地图！）<br/>在所有这些情况中，基本原则都是黑客在问自己：「现在我面前有一个系统 <i>W</i>，它伪装成是由几个 <a href=\"https://link.zhihu.com/?target=https%3A//github.com/kdeldycke/awesome-falsehood\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">X</a> 组成的；然而，它<b>实际上</b>是由许多 <i>Y</i> 组成的，这些 <i>Y</i> 在底层构成了一个完全不同的系统 <i>Z</i>；现在，我要把那些作为障眼法的 <i>X</i> 抛诸脑后，去弄清楚底层的 <i>Z</i> 究竟是怎么运作的，这样我就可以利用 <i>Y</i>，随心所欲地改变外在的 <i>W</i> 了。」</blockquote><p data-pid=\"tAKdtt4N\">抽象至关重要，但就像许多有生命的东西一样，它也是危险的，因为<a href=\"https://link.zhihu.com/?target=https%3A//www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「抽象泄露法则」告诉我们，抽象机制总会有漏洞</a>。 （「年轻人，你确实很聪明，但这说到底就是还原论！」） 在某种意义上，这与数学家的思维恰恰相反：数学家总是试图「看透」一个复杂系统中那些非本质的偶然复杂性（accidental complexity），从而提炼出一个更简单、更抽象、也更接近真理的版本以便于理解和推导——但对于黑客来说，系统所有的复杂性都是必不可少的，他们反而试图去<b>解构（unsee）</b>那个简化的抽象系统，向下深挖到那个最复杂、最不抽象（但也最真实）的底层实现。[1]（数学家可能会试图将一个程序层层向上转化成更抽象的数学表达，最终优雅地证明它在逻辑上是绝对正确的；而黑客则更喜欢把程序向下编译成最底层的机器码，通过<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/forking-path\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">暴力破解遍历所有的执行路径</a>，找出一个漏洞来简单粗暴地证明它是错的。）</p><h2>确认偏误</h2><blockquote data-pid=\"1zA9_ADl\"><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Milton_Levine\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Milton Levine 叔叔的玩具公司</a>自 1956 年起就开始向孩子们售卖<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Formicarium\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">蚂蚁工坊（ant farms）</a>。我记得很多年前曾和一个朋友拆开过一盒。盒子里其实并没有真正的活体蚂蚁。取而代之的是一张卡片，你只需填好自己的收件地址，公司随后就会把蚂蚁邮寄给你。<br/> 我的朋友对居然可以通过邮寄收到活蚂蚁感到十分惊讶。我回答说：「真正有趣的是，这些人会按照你留的任何地址，把一管活体蚂蚁寄给<b>任何</b>你想寄的人。」<br/> ——<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Bruce_Schneier\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">布鲁斯·施奈尔 (Bruce Schneier)</a>，<a href=\"https://link.zhihu.com/?target=https%3A//www.schneier.com/blog/archives/2008/03/the_security_mi_1.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《安全心态》</a> (2008)；亦可参考 <a href=\"https://link.zhihu.com/?target=https%3A//www.tbray.org/ongoing/When/202x/2022/06/02/Dangerous-Gift\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">关于 DNS 投毒</a>，以及<a href=\"https://link.zhihu.com/?target=https%3A//x.com/_JeanLannes/status/1687649736356982784\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">恶搞摩门教徒/耶和华见证人</a></blockquote><figure data-size=\"normal\"><img src=\"https://picx.zhimg.com/v2-0a27d5edc93305474e2bf8d213e4478f_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1700\" data-rawheight=\"1424\" data-original-token=\"v2-0a27d5edc93305474e2bf8d213e4478f\" class=\"origin_image zh-lightbox-thumb\" width=\"1700\" data-original=\"https://picx.zhimg.com/v2-0a27d5edc93305474e2bf8d213e4478f_r.jpg\"/></figure><p data-pid=\"x5IAgACd\">普通用户只要求在他们日常的使用场景中，所有的 Y 都能正确地转换成 <i>Z</i>；他们却忘了去追问：是不是所有且<b>只有</b>正确的 Y 才会转换成正确的 Z？是不是只有正确的 Z 才能被反向构造回 Y？ 哪怕只出现了一个看似微不足道的「异常」，都可能说明我们日常的心智模型不仅仅是有一点点瑕疵，而是存在<b>根本性</b>的错误。这就像牛顿的万有引力定律并不是只差了一点点，并不是简单打个补丁、加个修补因子就能解释<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Two-body_problem_in_general_relativity%23Anomalous_precession_of_Mercury\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">水星的异常进动</a>一样；这也像美国宇航局（NASA）管理层对 O 型密封圈的心智模型，<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Space_Shuttle_Challenger_disaster\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">并不是仅仅</a>稍微增加一点橡胶垫圈的厚度就能解决的[2]。</p><h2>原子</h2><blockquote data-pid=\"pqkUqWqj\">每一滴鲜血中都蕴含着伟大的天赋；最原始的细胞在所有动物体内似乎都是别无二致的，只是在生长过程中，因为环境的变迁，它时而开启长成这类细胞的开关，时而开启长成那类细胞的开关，从而在久远之后显现出不同的结果：或生角，或长翼，或生鳞，或长毛；同样的，在数字层面上，一个微小的原子，似乎既随时准备好去构成人类的眼睛或大脑，也随时准备好去构成老虎的利爪……真正洞察生活本质的人都明白，哪怕表面上看起来并非如此，每一个错误都有补救的方法，每一堵墙同时也都是一扇门。<br/> ——<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Ralph_Waldo_Emerson\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">拉尔夫·沃尔多·爱默生 (Ralph Waldo Emerson)</a>，《自然心智史》，1893 [3]</blockquote><p data-pid=\"4zxkeN1U\">这一切的核心就是「原子与虚空」[4]：</p><ul><li data-pid=\"cCG1L6NK\">在<b>黑客攻击</b>中，计算机伪装成是由诸如「缓冲区（buffers）」、「列表」和「对象」等充满丰富语义意义的组件构成的；但实际上，它完全是由没有任何意义的比特位（bits）组成的，这些比特位只是非常碰巧地能被我们解释为「网络浏览器」或「密码」之类的东西。如果你把一些比特位挪个位置，以特定的顺序重写另一些比特位，然后换一种方式去读取这一长串的 0 和 1，恭喜你，你现在已经成功绕过了密码验证。<br/><br/></li><li data-pid=\"23vyT2Av\">在<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/speed_running\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">游戏速通</a>（尤其是 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Tool-assisted_speedrun\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">TAS，工具辅助速通</a>）中，电子游戏假装自己是由「墙壁」、「速度限制」和「必须按特定顺序通关的关卡」构成的；但同样，它在底层依然只是由比特位和内存地址构成的。只要以特定的方式去干扰这些底层数据，比如故意让内存超载<a href=\"https://link.zhihu.com/?target=https%3A//threadreaderapp.com/thread/1148361355130527748.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">从而引发</a><a href=\"https://link.zhihu.com/?target=https%3A//www.halopedia.org/Overload_Glitch_%253C%21--MATH_PH_2--\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">内存分配</a>错误，你就能获得无限的「速度」，或者将自己切换进<a href=\"https://zhuanlan.zhihu.com/p/2058920207188547370/edit\" class=\"internal\" target=\"_blank\">真实物理引擎中另一个并行的坐标系</a>，从而在所谓的地图上实现超远距离的位移，直接抄近路抵达游戏的「结局」[5]。<br/><br/></li><li data-pid=\"8mcqaRhP\">在<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/stealth_games\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">潜行类游戏</a>中，玩家学会了去<b>解构</b>关卡表象，将其看作是随着时间推移不断移动的各种「盲区」模式的组合——包括守卫巡逻路线的盲区、或者是光线/声音感知范围的盲区——并学会了如何将整个关卡如同庖丁解牛般拆解开来，直到自己可以如入无人之境，为所欲为。<br/><br/></li><li data-pid=\"sSMWMPmS\">在<b>破门入室</b>（比如去酒店房间行窃）时，普通人看到的是「门」、「锁」和「墙壁」；但本质上，它们不过是以特定结构排列的原子罢了，而且挪动其中一部分原子通常比挪动另一部分要容易得多。所以，你完全不必非要走那扇「门」，你可以直接在<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Drywall\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">石膏板墙</a>[6]（甚至天花板）上挖个洞，同样能进入那个空间。在洛斯阿拉莫斯国家实验室时，理查德·费曼就曾使用过各种策略，其中一招就是<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/cs/cryptography/1985-feynman-surelyyourejokingmrfeynman-ch18-safecrackermeetsafecracker.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">直接从抽屉底部伸手进去掏走机密文件</a>，完全无视了那些上锁的抽屉门。<br/><br/> </li><ul><li data-pid=\"LwDDvS4q\">有一篇对电影<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Die_Hard\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《虎胆龙威》</a>的深度解析文章<a href=\"https://link.zhihu.com/?target=https%3A//bldgblog.com/2010/01/nakatomi-space/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《中富空间》</a>，非常精彩地指出了这部电影以及以色列国防军在<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Battle_of_Nablus\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">纳布卢斯之战</a>中所使用的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/mouse-holing\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「老鼠洞」穿墙战术</a>，是如何将整栋建筑物看作是一台可以被任意解构和操纵的复杂机器，从而以匪夷所思的路线穿梭其中来打击敌人的。<br/><br/></li><li data-pid=\"_OeRVz-J\">这个例子让我想起了 Carr 和 Adey 对「密室杀人案」推理小说的<a href=\"https://link.zhihu.com/?target=https%3A//bodiesfromthelibrary.com/2017/10/23/seven-types-of-locked-room-mystery-part-15/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">分类剖析</a>，他们罗列了所有破解密室的可能手法，而这些手法——就像魔术师的戏法一样——无一不是在打破人们对「密室」这个概念的固有假设。<br/><br/>例如：房间是不是从一开始就一直锁着？锁上的时间点对不对？谋杀是真的在密室里进行的吗？有没有可能是所有人都进入房间之前谋杀就已经完成了？这到底是一场谋杀还是精心伪装的自杀？那个看似坚不可摧、房门紧锁的安全屋，上面是不是还有个天花板漏洞？等等。[7] 这些经典的诡计启发了<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Umineko_When_They_Cry\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《海猫鸣泣之时》</a>中的诸多悬案谜题（<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/review/umineko\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">书评见此</a>），尽管在这部作品中，许多密室最终被证明只是因为有人<a href=\"https://link.zhihu.com/?target=https%3A//07th-expansion.fandom.com/wiki/Willard%25E2%2580%2599s_Truths\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">串供或撒谎</a><span class=\"nolink\">罢了。</span><br/> <br/></li><li data-pid=\"HMyfWlIn\">在<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/lockpicking\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">开锁</a>领域，去费心复刻一把钥匙或者逆向分析它的齿痕，往往是最高难度、最吃力不讨好的做法。相反，你可以简单粗暴地用一把<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Lock_bumping\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">撞匙</a>来暴力震开锁芯里弹子的位置，或者干脆一脚把门踹开；或者，<a href=\"https://zhuanlan.zhihu.com/p/2058920207188547370/edit\" class=\"internal\" target=\"_blank\">就像破解门锁的其他手段一样</a>，去拨弄门闩，或者从门缝里伸个工具进去从内部开门，甚至直接用电钻把锁芯钻毁。（你怎么知道别人还没这么干过？难道你只凭主观臆断这还是昨天那把原封不动的锁？）如果这些都行不通，你还可以拿一台便携式的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/hydraulic_ram\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">液压破拆工具</a>当扩张器，直接把门周围的门框连同墙体一起给粉碎掉。<br/><br/> 锁具和保险箱还存在许多其他有趣的弱点；我特别喜欢 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Matt_Blaze\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Matt Blaze</a> 发现的那个<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Master_keying\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">万能母钥匙</a>漏洞（<a href=\"https://link.zhihu.com/?target=https%3A//www.mattblaze.org/papers/mk.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Blaze 2003</a>/<a href=\"https://link.zhihu.com/?target=https%3A//www.mattblaze.org/papers/safelocks.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Blaze 2004a</a>/<a href=\"https://link.zhihu.com/?target=https%3A//www.mattblaze.org/papers/humancambridgepreproc.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Blaze 2004b</a>）。这个漏洞利用了一个原理：一把支持万能钥匙的锁，实际上是可以被「万能钥匙齿痕」与「普通钥匙齿痕」的任何组合给打开的（即逻辑上的「母钥匙 OR 子钥匙」，而不是严格互斥的「母钥匙 XOR 子钥匙」）；因此，破解它就像是在猜密码，可以一个字母一个字母（一个弹子一个弹子）地试错去猜。（这些论文把锁匠行业惹毛了，<a href=\"https://link.zhihu.com/?target=https%3A//x.com/mattblaze/status/1553254965870841856\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">他们对 Blaze 群起而攻之，甚至进行骚扰，直到他被迫退出这个研究领域</a>。）<br/><br/></li></ul><li data-pid=\"uhXQf5J5\">在<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Magic_%28illusion%29\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">舞台魔术</a>（尤其是近景魔术/扑克/硬币/扒窃技巧）中，观众深信自己是连续不断地看着一个完整的物体从 A 点移动到 B 点；但在现实中，观众只是偶尔瞥见了许多个（很可能是狸猫换太子的复制品）物体的表面而已，这些物体可能只在你不注意的时候才移动，或者是朝反方向移动的，或者干脆从头到尾就没动过。通过黑入人类大脑的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/object_permanence\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">客体永久性</a>认知错觉以及有限的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Misdirection_%28magic%29\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">注意力</a><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Change_blindness\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">资源分配</a>，舞台魔术师在观众眼前展现了种种「不可能」的奇迹（<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/psychology/cognitive-bias/illusion-of-depth/2008-macknik.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Macknik 等人 2008 年论文的表 1</a> 就列举了大量可以被魔术师利用的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/folk_physics\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">朴素物理学</a>直觉假设）。舞台魔术之所以能成功，正是利用了我们在潜意识里的傲慢：我们本能地以为，没有哪个骗子会煞费苦心地去如此精准地拿捏我们的认知捷径和思维盲区。[8] [9]<br/><br/></li><li data-pid=\"t6zU1oBD\">在挖掘<b>怪异机器</b> (weird machines) 时，你面对的是像 SSL 或 x86 机器码这样的「协议/指令集」，它们表面上看起来是在做一些循规蹈矩的事情，比如「校验加密签名」或「把寄存器 A 里的数字加到寄存器 B 里」；但实际上，它们仅仅是覆盖在极其复杂的底层硬件现实之上的一层表皮。在底层，是错综复杂的处理器状态，是诸如推测执行（speculative execution）这样会提前读取内存其他部分然后迅速擦除的优化机制；黑客可以将这些底层的微架构特性拼接在一起，从而在根本不需要运行「代码」的情况下，执行操作并窃取机密（再次参考 Mcilroy 等人 2019 年的研究）。<br/><br/>同样地，在寻找那些隐藏的图灵完备系统时，人们会说：「这个系统表面上看起来就像是一堆多米诺骨牌之类的玩具，但实际上，每块骨牌都是一个有着奇特输入/输出逻辑的计算元件；现在，我要把成千上万块这样的骨牌连接起来，拼凑成一台图灵机；这样一来，我就能在康威生命游戏里玩俄罗斯方块了，或者用真正的心肌细胞来搭建布尔逻辑门，甚至在《万智牌》游戏里运行任意复杂的计算机程序了。」<br/><br/>又或者在研究侧信道（side channels）攻击时，你剥开了比特位的表象说：「这些比特位只是对系统中电流和热量实际流动的粗略近似罢了；现在，我要直接去测量这个物理系统的电压和热量辐射……」等等。<br/><br/></li><li data-pid=\"vfa66DcH\"><b>在社会工程学/渗透测试中</b>，普通人看到的是社会规范，是「权限」、「权威」、「管理人员」以及「禁止入内」的条条框框；但在现实中，挡在那里的不过是一张覆了膜的塑料工牌、一个拿在手里的文件夹，或者只是必须念对的几句「咒语」。那些保安不过是用来执行「看到塑料工牌，就放行」这条死板规则的非计算机化肉鸡而已。只要你在衬衫上挂一块蓝色的塑料牌子，在特定的时间用特定的语气说出特定的几句话，你就能在保安的眼皮子底下大摇大摆地走进去。[10]</li></ul><figure data-size=\"normal\"><img src=\"https://pic4.zhimg.com/v2-fefda40ac37f806067bc18f4faddaba7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"510\" data-rawheight=\"353\" data-original-token=\"v2-fefda40ac37f806067bc18f4faddaba7\" class=\"origin_image zh-lightbox-thumb\" width=\"510\" data-original=\"https://pic4.zhimg.com/v2-fefda40ac37f806067bc18f4faddaba7_r.jpg\"/></figure><ul><li data-pid=\"9YQnNaxt\">许多金融或经济层面的策略也带有这种「解构」的色彩；<a href=\"https://link.zhihu.com/?target=https%3A//www.alicemaz.com/writing/minecraft.html\" data-draft-title=\"Alice Maz 对 Minecraft 经济系统漏洞的挖掘\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Alice Maz 对 Minecraft 经济系统漏洞的挖掘</a>就强烈地让我想起了「看透表象」这一特质；那些基于对合同犄角旮旯的抠字眼，或是把平时没人当回事的抽象条款（比如期货交易里的「实物交割」）较真执行到底的精妙金融交易操作，同样如此。<br/><br/></li><li data-pid=\"w-FNKXSL\">既然说到这了，顺便问一句，为什么<b>双关语</b>（puns）对<a href=\"https://link.zhihu.com/?target=http%3A//www.catb.org/jargon/html/H/hacker-humor.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">黑客有着如此致命的吸引力</a>？（想想看双关语在<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/G%25C3%25B6del%252C_Escher%252C_Bach\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《哥德尔、艾舍尔、巴赫》</a>、在黑客<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Jargon_File\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">行话词典 (Jargon File)</a>、在文字冒险游戏中是多么的无处不在吧……）<br/><br/>原因很简单，因为计算机不过是建立在比特位上的双关语，而语言不过是建立在字母上的双关语！   双关语迫使一个人从抽象的「语义」高层，跌落到单词切分或字母字符那最原始的「句法」底层，然后再跳回高层以达成某种语义上的反转——这在字面意义上就是在对人类语言进行黑客攻击（hacking）。</li></ul><p data-pid=\"B2fobrZ4\">诸如此类，不胜枚举。 这类事情可能会让人觉得不可思议（「这怎么可能‽」）、令人震惊（「可是——可是——可是你这是<b>作弊</b>！」那些并非为了<b>赢</b>而玩游戏的<a href=\"https://link.zhihu.com/?target=https%3A//www.sirlin.net/articles/playing-to-win\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「菜鸟」</a>总是会这么说），或者让人觉得滑稽可笑（这契合了幽默理论中的「<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Theories_of_humor%23Incongruity_theory\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">预期被打破</a>随后<a href=\"https://link.zhihu.com/?target=https%3A//people.idsia.ch/~juergen/creativity.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">恍然大悟</a>」的观点）；这是因为我们对抽象系统 <i>W</i> 和我们的语言表达规则实在太熟悉、太依赖了，以至于我们很快就作茧自缚，深陷在这些抽象构筑的幻梦中，忘记了「地图不等于疆域」的道理；而不可避免的是，这层抽象地图做了粗暴的简化，并且根本没有去记录从 A 点到 B 点之间那些我们不希望存在的隐秘小径。</p><p data-pid=\"f2kt5SI8\">事实上，除非在工程上小心翼翼地加以剔除，否则这些「后门」<b>必然</b>存在，因为我们所依赖的高级属性在系统的底层世界中根本就没有对应的实体。 如果我们用一串串数字比特流来解释「权限许可」，那么在不断向下探究的过程中，我们终究会触及到一个层级，在那里比特位不再包含任何关于「权限」的含义；这就好比，如果我们用原子来解释「颜色」或「气味」，我们最终只能去描述那些本身既没有颜色也没有气味的基本微粒；在某个临界点上，这些上层建筑的属性必须<b>解体（disintegrate）</b>成冷酷无情的基本事实，比如电流在电路里仅仅是朝这个方向流了，而不是朝那个方向。[11]</p><h2><b>知识的诅咒</b></h2><blockquote data-pid=\"0zz-5bhw\">「问题在于，」爱丽丝说，「你是否<b>能</b>让词语代表那么多不同的意思。」<br/>「问题在于，」矮胖子说，「究竟是谁说了算——仅此而已。」<br/>——刘易斯·卡罗尔 (Lewis Carroll)，<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Through_the_Looking-Glass\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《爱丽丝镜中奇遇记》</a> (1872)。[12]</blockquote><p data-pid=\"m82ldQuQ\">诡异的是，你受的教育程度越高，你对那张人类绘制的「地图」了解得越透彻，这种束缚效应就可能越糟糕，因为你需要去<b>解构</b>的东西就越多（例如，在<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/story-of-your-life\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">虚构作品</a>的鉴赏中）。 一个人必须始终保持对所谓<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/language\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「词语」</a>和<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Max_Stirner%23Philosophy\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「幽灵」</a>（那些在思想上统治人类的虚妄概念）的某种轻蔑。</p><p data-pid=\"pJoj2jkB\">傻瓜能直接大摇大摆地走进去，只是因为他太无知了，根本不知道那事儿「不可能」。 这就是为什么那些毫无理论支撑的优化过程——比如动物（例如，<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/fuzz-testing\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">猫在键盘上乱踩引发的</a><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/fuzz_testing\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">模糊测试</a>），或者 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Satisfiability_modulo_theories\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SMT 约束求解器</a>，又或者是<a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/1803.03453\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">演化人工智能</a>——在一开始看起来是如此的愚蠢，但从长远来看，它们却能如此擅长让我们大跌眼镜，常常能找到那些「极其不讲理」的输入或者<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/tank%23alternative-examples\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">利用奖励机制的漏洞</a>（这就好比机器学习中的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/bias-variance_tradeoff\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">偏差-方差权衡</a>）：既然无法理解人类思维构建的那层「地图」，它们自然不能像我们那样利用捷径获益，但同样，它们也绝不会陷入对地图的迷信；为了得到它们想要的东西，它们被迫去直接探索那个未经任何修饰的粗糙疆域，从而发现了前所未见的新事物。</p><h2><b>学会看破与解构</b></h2><blockquote data-pid=\"ayWxKrRz\">我甚至都已经看不到代码了。我满眼看到的只有金发女郎、黑发女郎、红发女郎。<br/>——塞弗 (Cypher)，《黑客帝国》<br/><br/>哇哦。<br/>——尼奥 (Neo)</blockquote><p data-pid=\"kznDgmtd\">为了从我们的语义错觉中挣脱出来，可能需要下定极大的决心去反向透视（unsee）它们，并运用各种技巧来对事物进行<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Defamiliarization\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「陌生化」</a>处理。</p><p data-pid=\"y1_CBFPL\">例如，如果你不费九牛二虎之力，通常是很难在自己刚写完的文章中找出错别字的，因为你脑子里已经预设了它<b>应该</b>写的是什么；因此，文字编辑给出的建议通常是「大声朗读出来」、「打印在纸上读」、「等一个星期再读」、<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Semantic_satiation\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">反复默念直到失去语义感</a>（语义饱和），甚至是「倒着读」（这远比听起来要容易）。 做这些事情，就是为了强迫你去阅读你<b>实际上</b>写下的白纸黑字，而不是你<b>以为</b>你写下的东西。 在学习素描时也会用到类似的技巧：人脸的结构对我们来说太熟悉了（容易画成简笔画概念），所以你可以把它放在镜子里翻转过来，然后再尝试去临摹它。</p><p data-pid=\"14iGUu8n\">好消息是，「一旦被看破，就再也回不去了」。一旦一个人受到了启蒙，成功地看破并解构了某个系统，他似乎就很难再重新跌回最初的幻觉之中。 哪怕只是具备了一丁点这种「解构表象」的能力，也能像疫苗一样，保护你免受那些有害错觉的蒙蔽。</p><h2><b>外部链接</b></h2><ul><li data-pid=\"pxhp0eZr\"><a href=\"https://link.zhihu.com/?target=https%3A//www.lesswrong.com/posts/8gqrbnW758qjHFTrH/security-mindset-and-ordinary-paranoia\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《安全心态与日常的偏执》</a>；<a href=\"https://link.zhihu.com/?target=https%3A//www.lesswrong.com/posts/cpdsMuAHSWhWnKdog/security-mindset-and-the-logistic-success-curve\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《安全心态与逻辑斯谛成功曲线》</a></li><li data-pid=\"WN5lNgbt\"><a href=\"https://link.zhihu.com/?target=https%3A//desystemize.substack.com/p/desystemize-7\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《为什么那么多《地下城寻宝》的玩家都会错过这么明显的一个漏洞？》</a></li><li data-pid=\"E_S0qxVU\"><a href=\"https://link.zhihu.com/?target=https%3A//archiveofourown.org/works/3673335\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《星际之门物理学 101》</a></li><li data-pid=\"br8mRoUM\"><a href=\"https://link.zhihu.com/?target=https%3A//textslashplain.com/2017/01/14/the-line-of-death/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《死亡之线》</a></li><li data-pid=\"M6pmCiUF\"><a href=\"https://link.zhihu.com/?target=https%3A//www.schneier.com/tag/movie-plot-threat-contests/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《电影式的情节威胁》</a></li><li data-pid=\"vfoo5BHr\"><a href=\"https://link.zhihu.com/?target=https%3A//www.daemonology.net/blog/2008-03-21-security-is-mathematics.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《安全即数学》</a>，Colin Percival 著；<a href=\"https://link.zhihu.com/?target=https%3A//kwarc.info/teaching/TDM/Borges.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《论科学的精确性》</a>，豪尔赫·路易斯·博尔赫斯 著</li><li data-pid=\"6w9Mufqx\"><a href=\"https://link.zhihu.com/?target=https%3A//calpaterson.com/fraud.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《不存在检测欺诈的通用方法》</a>，Cal Peterson 著</li><li data-pid=\"Fg9DDvzV\"><a href=\"https://link.zhihu.com/?target=https%3A//www.amazon.com/Red-Teaming-Competition-Challenging-Everything/dp/1101905972\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《红队：你的企业如何通过挑战一切来战胜竞争对手》</a>，Hoffman 著</li><li data-pid=\"P1vq9nec\"><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Baba_Is_You\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Baba Is You</a>：<a href=\"https://link.zhihu.com/?target=https%3A//www.lesswrong.com/posts/gvCwotnq2cBTYqEsS/no-really-there-are-no-rules\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《不，真的，这里没有规则！》</a></li><li data-pid=\"zAju_Nr6\"><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/The_City_%2526_the_City\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《城与城》(The City &amp; the City)</a></li><li data-pid=\"lfjhnhU1\"><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/IDN_homograph_attack\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">同形异义字攻击</a></li><li data-pid=\"afGymWYu\"><a href=\"https://link.zhihu.com/?target=https%3A//www.youtube.com/watch%3Fv%3DdGU5_UUalPA\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《和班尼特福迪一起攻克难关：开发者对 1 分 24 秒速通视频的反应》</a></li><li data-pid=\"cnQPonUO\"><a href=\"https://link.zhihu.com/?target=https%3A//grantland.com/features/diplomacy-the-board-game-of-the-alpha-nerds/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《属于阿尔法极客的棋盘游戏：在 风险 之前，在 龙与地下城 之前，在 万智牌 之前，这个世界还有 外交》</a> (<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Diplomacy_%28game%29\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">维基百科</a>；「我依然不知道到底该相信谁，如果真的有人能信的话。我只知道我感到自己愚蠢透顶、压力山大、受尽屈辱并且满心悲伤。」)</li><li data-pid=\"MgCiZiC3\"><b>论坛讨论</b>：Reddit：<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/r/slatestarcodex/comments/c0nqg7/people_seem_to_think_thieves_should_lockpick_or/er6huvz/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">1</a>，<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/r/DepthHub/comments/c0uutk/ugwern_talks_about_the_hacker_mindset_in/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">2</a>，<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/r/slatestarcodex/comments/1g1lmmn/gwern_hacker_mindset_nontechnical_examples/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">3</a>；<a href=\"https://link.zhihu.com/?target=https%3A//x.com/sonyaellenmann/status/1139752544761081858\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Twitter</a></li></ul><h2>脚注</h2><p data-pid=\"tqJsFdf4\">[1] 所谓的「跳出框框思考」有时指的就是这个，但往往并非如此。这是一种特有的还原论模式，许多「跳出框框思考」的案例其实是运用了其他模式，比如在外面再套一层抽象，或者干脆彻底抛弃有问题的系统。</p><p data-pid=\"exgTnI8m\">[2]    摘自<a href=\"https://link.zhihu.com/?target=https%3A//www.nasa.gov/history/rogersrep/v2appf.htm\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">理查德·费曼</a>的调查报告附件：</p><blockquote data-pid=\"I7piO49S\">管理层接受那些在以往飞行中已经出现过侵蚀和烧穿（blow-by）现象的密封圈继续服役，这是一种非常清晰的现象。挑战者号的发射就是一个绝佳的反面教材。他们反复提及过往的飞行记录；这些飞行的被接受以及表面上的「成功」，被当成了安全的证据。但侵蚀和烧穿根本不是设计预期内的情况。它们是系统出了问题的明确警告。设备没有按预期运行，这意味着存在巨大的危险：它可能会在下一次以一种我们完全未曾预料且未彻底理解的方式，出现更严重的偏差。这种危险在以前没有引发灾难，绝不意味着下一次也不会，除非你已经彻底摸透了它的机理。这就像在玩俄罗斯轮盘赌，第一枪有惊无险，对你扣下第二枪时的命运毫无安慰可言。当时他们既不了解侵蚀和烧穿的根源，也不清楚其后果。而且这种现象并非在所有的飞行任务和所有接头处均匀发生；有时严重，有时轻微。那么，为什么不能在未来的某一天，当所有决定这一现象的条件都恰好凑齐时，出现更严重的烧穿并最终导致一场大灾难呢？<br/>尽管每次发射的烧穿情况都不尽相同，但官员们却表现得仿佛自己成竹在胸，他们用看似严密的逻辑互相说服，而这些逻辑往往仅仅建立在以往发射的「成功」之上……</blockquote><p data-pid=\"9YlRpWsu\">[3] <a href=\"https://link.zhihu.com/?target=https%3A//quod.lib.umich.edu/e/emerson/4957107.0012.001/1%3A15.1%3Frgn%3Ddiv2%3Bview%3Dfulltext\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">第 441-442 页</a>，《爱默生全集：自然心智史及其他文章》，第 12 卷</p><p data-pid=\"kgGP6Ykr\">[4]「习惯上人们认为，甜就是甜，苦就是苦，热就是热，冷就是冷，颜色就是颜色；但在本质上，这世间只有原子和虚空。」顺便提一句，<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Democritus\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">德谟克利特</a>关于原子论的另一句名言其实是个双关语：「因为『悲剧』[<i>τρ<b>α</b>γωδία</i>]和『喜剧』[<i>τρ<b>υ</b>γωδία</i>]的拼写，不也是由几乎完全相同的字母拼凑而成的吗。」这出自亚里士多德在<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/On_Generation_and_Corruption\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《论生成与毁灭》</a>第一卷中的引用/转述；关于这不仅仅是对字母书写的泛泛而谈，而确实是在玩文字游戏的考证，详见 <a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/philosophy/ontology/1969-west.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">West 1969</a>。</p><p data-pid=\"bju99Isc\">[5] <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/A_fictional_example_from_Ender%25E2%2580%2599s_Game\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《安德的游戏》</a> 中有一个非常值得玩味的虚构例子：如果在战斗学校里，「胜利」的规则被硬编码定义为「四名士兵把守住敌方大门的角落，并有己方人员穿过大门」，那么为什么不直接无视所有战斗，径直冲向大门呢？——这简直有当年 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Eurisko\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Eurisko 寻找游戏规则漏洞</a>的影子。</p><p data-pid=\"3FiSpInG\">[6]    摘自 Geoff Manaugh 2016 年著作<a href=\"https://link.zhihu.com/?target=https%3A//burglarsguide.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《小偷的城市指南》</a>第 356 页：</p><blockquote data-pid=\"8v4HE-UK\">游戏设计师 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Andy_Schatz\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Schatz</a> 强烈呼吁<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Monaco%3A_What%25E2%2580%2599s_Yours_Is_Mine\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">玩家们</a>在行动时要<b>对抗</b>建筑原本的逻辑，而不是顺着它的引导走，以此来发掘场景中潜藏的犯罪可行性——这番见解不仅仅在游戏世界里受用。无视建筑师精心规划好的既定动线，甚至从内部直接对空间结构进行暴力重塑，正是窃贼们最基本、也是最拿手的「滥用建筑环境」的方式……在珠宝大盗 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Bill_Mason_%28jewel_thief%29\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Bill Mason</a> 的<a href=\"https://link.zhihu.com/?target=https%3A//www.amazon.com/Confessions-Master-Jewel-Thief-Mason/dp/0375760717\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">回忆录</a>中，最令人拍案叫绝的时刻之一，就是当他顿悟到：建筑是死物，完全可以被强迫去执行他想要的意志；读到这里，简直就像是在看着《星球大战》里的某个角色第一次觉醒并学会使用原力一样。<br/>……他解释说，他盯上的猎物被锁在一个守卫极其森严的房间里，他根本不可能从大门溜进去。但紧接着，他忽然意识到了一个极其明显却一直被忽略的事实：他之前一直都在顺着酒店希望他思考的方式在思考——顺着建筑师期望他表现出的行为模式在行动——他一直在苦苦寻找门和走廊；但他明明可以直接在他想要的地方，硬生生开辟出一条全新的路线啊！这种突如其来的顿悟让他欣喜若狂。「一想到我可以在我最需要的地方，亲手『切』出一扇属于自己的门，我就兴奋得不能自已，」他写道。于是，Mason 简单粗暴地闯入了紧挨着主办公室的那间酒店套房。在那里，他一把拉开衣橱门，推开所有衣架，然后掏出一把切石膏板的小刀，硬生生地从一间房的墙壁上挖了个洞，直接切穿到了另一间房里。没花多大功夫，他就切通了这扇直达经理办公室的「专属大门」；在里面洗劫一空后，他又顺着原路，从他自己造的这扇「门」大摇大摆地离开了。这简直就是一场纯粹而完美的外科建筑手术。<br/>在后来的记述中，Mason 毫不留情地嘲讽了那些认为人们只能乖乖走门的刻板观念，狠狠地取笑了那些居然指望窃贼会老老实实遵守建筑限制的天真想法。「<b>真要是有人打算来抢劫这地方，</b>」他用全斜体字写道，字里行间长满了讽刺的倒刺，「<b>他们肯定会像体面人一样，从专门为此准备的大门走进来。也许这就是为什么人们会在一扇旁边紧挨着玻璃窗的实心橡木门上，丧心病狂地装上 4 把重型大锁的原因吧。</b>」普通人似乎脑子里少了一根筋，他们觉得要想突破阻碍，就必须去苦练开锁技巧，或者对着那扇实心大门死命猛踹；却死活想不到，其实只需要去五金店花 10 块钱（按 2016 年物价）买把石膏板刀，就能在这个世界上凭空切出全新的走廊。这些人不过是建筑学的奴隶，是活在别人为他们设计的空间牢笼里的囚徒。<br/>这种思维视角的反转，甚至闪耀着一种令人不安的才华：仿佛这么多年来，一直在「误用」建筑环境的，其实是那些<b>不偷东西的守法公民</b>；仿佛是这些守法公民不敢去质疑这个世界最基础的空间假设，被建筑学长久以来所强制设定的行为规范吓破了胆，以至于思维陷入了僵化……因为门通常是你面前这堵墙上最坚固、防御最森严的部分，所以，它们本质上就是一个转移注意力的陷阱。相比之下，墙本身往往脆弱得就像面巾纸，里面除了两块石膏板和几根 2×4 的承重木条外，连半把锁、半根铁链的影子都见不到。就像天上的云朵一样，公寓的墙壁里大部分其实都是空气；而在窃贼的眼里，它们根本就不存在。随便在墙上挖个洞，几秒钟后，你就已经站在隔壁房间里了。</blockquote><p data-pid=\"V2lxcUED\">[7] 尤其是在办公大楼里，「天花板」往往只是一种<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Dropped_ceiling\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">视觉上的遮挡</a>而非物理隔断；而在像数据中心这样的建筑里，<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Raised_floor\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">地板也是如此</a>。</p><p data-pid=\"bkFEWtxj\"><br/>[8] <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Penn_%2526_Teller\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Penn &amp; Teller</a> 组合中的舞台魔术师 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Teller_%28magician%29\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Teller</a> 在接受采访时曾非常透彻地阐述过这一点：真正让舞台魔术大放异彩的，其实是背后极其<b>笨重、艰辛的死功夫（hard work）</b>。</p><p data-pid=\"YtXeg44L\">所谓的「魔术」，就是去付出任何一个正常人都不屑于去付出的巨大努力。（因此，所有魔术的成功，都仰赖于魔术师扮演了一个毫无理智可言的「疯子」。）</p><p data-pid=\"2NowGHei\">摘自 Teller 在 2012 年的文章 <a href=\"https://link.zhihu.com/?target=https%3A//www.smithsonianmag.com/arts-culture/teller-reveals-his-secrets-100744801/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《Teller 揭秘：魔术师双人组 Penn &amp; Teller 中那个较矮、较安静的一半，向你讲述魔术师是如何操纵人类心智的》</a>：</p><blockquote data-pid=\"-2T60Nib\">如果我教你几个魔术师用来扭曲你感知的基本原则，我想你就会明白我的意思了……诀窍就是：让魔术背后的秘密，显得比这个戏法本身所能带来的价值麻烦得多。如果一个戏法背后所耗费的时间、金钱和练习，远远超过了你（或任何一个正常旁观者）认为值得投入的极限，那你就会被它狠狠地骗过。我和我的搭档 Penn 曾经在脱口秀主持人<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/David_Letterman\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">大卫·莱特曼</a>的办公桌上，从一顶大礼帽里变出了 500 只活生生的马达加斯加发声蟑螂。为了准备这个节目，我们花了整整好几个星期。我们专门高薪聘请了一位昆虫学家，由他负责提供行动迟缓、且在镜头前表现「友好」的蟑螂（你家厨房炉子底下的那种普通蟑螂可不会乖乖待在原地让你拍特写），他还得手把手地教我们如何徒手抓起这些虫子，而不至于像青春期小女孩那样吓得尖叫。接着，我们用泡沫板（这是少数几种表面光滑到连蟑螂都爬不上的材料之一）做了一个绝密的夹层，并设计了一套极其狡猾、复杂的流程，才得以将这个夹层神不知鬼不觉地塞进礼帽里。为了这么个几秒钟的戏法费这么大劲，值得吗？对你来说，大概不值。但对魔术师来说，绝对值。</blockquote><p data-pid=\"nXTi3IRe\">或者可以看看他在 <a href=\"https://link.zhihu.com/?target=http%3A//www.magicalthinkingbook.com/2015/07/teller-of-penn-teller-on-explaining-magic-tricks/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">2015 年接受 Huttson 采访</a>时的原话：</p><blockquote data-pid=\"li3ohn4b\"><b>Matt</b>：那你为什么不干脆把你们所有的戏法都揭秘了呢？ <b>Teller</b>：因为那些简短的揭秘——也就是你在剧院或电视节目里为了时长必须做出的那种精简版解释——通常是非常枯燥且毫无乐趣可言的。制造一个能成功骗过所有人的魔术，其最大的秘密就在于：你是用你能想到的最笨拙、最难看的手段去完成它的。这个过程极其繁琐复杂，毫无浪漫色彩可言，甚至透着一种令人发指的愚蠢。 因为魔术界压根就没有什么惊天动地的大秘密。这世上根本不存在一个装满了所有魔法奥秘的大保险箱。<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Jim_Steinmeyer\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Jim Steinmeyer</a> 曾说过，他觉得大部分公众都笃信存在那么一个装满了魔术终极奥义的巨大保险箱。他说，魔术师面临的最大挑战，恰恰是要想尽一切办法掩盖那个保险箱其实空空如也的残酷真相。因为每一个魔术的「秘密」，说白了，都仅仅是对你日常生活中早已司空见惯的某个常识做了微小的物理变动而已。 就拿「用一根隐形线悬浮物体」为例。每个人在试图把线穿过针眼的时候，肯定都经历过那种死活看不清线头在哪的抓狂瞬间。让你找不到线的原因其实只有两个：光线和背景。如果一个魔术师要在舞台上用一根线，比如说，悬浮起一个球，那他必须煞费苦心地布置灯光和背景来将这根线完美隐形。这里面没有任何晦涩难懂的惊天秘密。你小时候在奶奶的针线盒里瞎鼓捣的时候，就已经学会这个原理了。 所以，每一个魔术的「秘密」其实都大摇大摆地隐藏在日常世界的光天化日之下。它既不是什么新鲜事，而且枯燥乏味到了极点。</blockquote><p data-pid=\"O1d3FnIe\">[9] <a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/psychology/cognitive-bias/2006-polidoro-houdinisimpossibledemonstration.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">胡迪尼当年戏耍阿瑟·柯南·道尔爵士的经典魔术</a>，就是这些策略的完美体现。</p><p data-pid=\"O8BJtejy\">没有任何一个<b>讲理的正常人</b>会料到，胡迪尼竟然会仅仅为了一个让粉笔自己写字的戏法，就不惜血本地翻新了整间屋子；或者专门去学一套晦涩的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/steganographic\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">隐写术 (steganographic)</a> 暗号，以便能在柯南·道尔眼皮子底下神不知鬼不觉地把写在纸条上的句子传达给助手；又或者让助手在墙后用磁铁精确操纵悬挂在半空的小石板后面隐藏的金属块，并且在走位时把这一切极其<b>精准</b>地隐藏在观众的视觉盲区里，从而制造出粉笔正悬浮在半空中自行书写的完美错觉。没有哪个正常人会为了忽悠你而下如此丧心病狂的血本。因此，正常人被胡迪尼的戏法骗得团团转也就不足为奇了。</p><p data-pid=\"3otyvtBA\">柯南·道尔作为一个再正常不过的体面人，根本没有预料到这背后有这么多丧心病狂的门道；因此，他坚决不相信胡迪尼所说的「这仅仅是个戏法」。但柯南·道尔其实应该牢记大哲学家休谟 (Hume) 的那句名言：到底哪种情况更有可能发生——是你真的见证了超自然现象，还是说，在<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/littlewood\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这个广阔世界的某个角落里</a>，真的存在一个像胡迪尼这样狡黠如狐、谨慎到变态、且有着重度强迫症的人？显然是后者！</p><p data-pid=\"S-psL-qw\"><a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/psychedelic/lsd/2020-olson-2.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Olson 和 Raz 在 2020 年的论文</a>中给出了更多详实的例子，并展示了如何将这种源自魔术的欺骗艺术有效地应用于心理学实验设计中。</p><p data-pid=\"FTbqzIrO\">[10] 说到「社会工程学」，为什么当年 Facebook 仅仅通过提供极其肤浅的社交网络功能，就能成功地从一小撮大学生的圈子里席卷全球，这让许多人感到大惑不解？也许它的成功本身就在暗示我们：人类社交互动底层的逻辑，远比我们愿意相信的要简单、要更容易被抽象化，而根本没有我们自以为的那么丰富和微妙。</p><p data-pid=\"Pl4dXLjt\">[11] <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Werner_Heisenberg\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">海森堡</a>（摘自 <a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/philosophy/ontology/1962-hanson.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Hanson 1962 的论文</a>中的引用）：</p><blockquote data-pid=\"vHePvi2U\">解释……物质的性质是不可能的，除非我们将这些性质追溯到那些自身已经不再具备这些性质的实体的行为上。如果原子真的能够解释可见物质的颜色和气味是如何产生的，那么它们自身就绝不能拥有颜色和气味这样的属性……因此，原子理论始终否认原子具备任何此类可被感知的属性。</blockquote><p data-pid=\"OYWlmkJL\">侯世达 (Douglas Hofstadter) 将其精辟地总结为：<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/philosophy/ontology/1981-hofstadter.pdf%23page%3D21\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「绿色（这种属性）解体了。」</a></p><p data-pid=\"kx691FWo\">[12] 「第 48 条，给外行看的最好的编程启蒙书是《爱丽丝梦游仙境》；但那是因为它本身就是给外行看的、关于任何事物的最好的书。」——<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/cs/algorithm/1982-perlis.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《编程警句》</a>，Perlis 1982。</p><hr/><blockquote data-pid=\"G2cki0nk\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 gemini-3.1-pro，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/unseeing\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">On Seeing Through and Unseeing: The Hacker Mindset · Gwern.net</a><br/>首次发布于 2012-12-09；最后更新于 2021-05-04；状态：已完成；置信度：极高；重要性：6/10。</blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
+  "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/30491336",
+      "type": "topic",
+      "id": "30491336",
+      "name": "黑客思维"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/25653389",
+      "type": "topic",
+      "id": "25653389",
+      "name": "解构"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/25651800",
+      "type": "topic",
+      "id": "25651800",
+      "name": "看破"
+    }
+  ],
+  "voteup_count": 40,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "<p>一个以其对各种复杂主题进行深入、数据驱动且常带有实验性质的长篇分析而著称的在线知识库。</p>",
+    "is_following": false,
+    "url_token": "c_1852018338747789312",
+    "id": "c_1852018338747789312",
+    "articles_count": 43,
+    "accept_submission": true,
+    "title": "Gwern Branwen",
+    "url": "https://api.zhihu.com/columns/c_1852018338747789312",
+    "comment_permission": "all",
+    "created": 1734335580,
+    "updated": 1748398995,
+    "image_url": "https://pic1.zhimg.com/v2-4b910985349d5659b0bf280706fc6fa6_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 93,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 1,
+  "contributions": [
+    {
+      "id": 54283019,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "<p>一个以其对各种复杂主题进行深入、数据驱动且常带有实验性质的长篇分析而著称的在线知识库。</p>",
+        "is_following": false,
+        "url_token": "c_1852018338747789312",
+        "id": "c_1852018338747789312",
+        "articles_count": 43,
+        "accept_submission": true,
+        "title": "Gwern Branwen",
+        "url": "https://api.zhihu.com/columns/c_1852018338747789312",
+        "comment_permission": "all",
+        "created": 1734335580,
+        "updated": 1748398995,
+        "image_url": "https://pic1.zhimg.com/v2-4b910985349d5659b0bf280706fc6fa6_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 93,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 65,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "关于看透与解构：黑客心态 - 来自知乎专栏「Gwern Branwen」，作者: Jarrett Ye https://zhuanlan.zhihu.com/p/2058920207188547370 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 5,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 5,
+    "like_has_set": false
+  },
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyNzg3MzUxMzESEzIwNTg5MjAyMDcxODg1NDczNzAYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 40,
+      "down_vote_count": 0,
+      "like_count": 5,
+      "comment_count": 1,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 65,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-0a27d5edc93305474e2bf8d213e4478f": 0,
+        "v2-c942f8e1f268acaf59a73fad79e13914": 0,
+        "v2-fefda40ac37f806067bc18f4faddaba7": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-0a27d5edc93305474e2bf8d213e4478f": false,
+        "v2-c942f8e1f268acaf59a73fad79e13914": false,
+        "v2-fefda40ac37f806067bc18f4faddaba7": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-0a27d5edc93305474e2bf8d213e4478f": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-c942f8e1f268acaf59a73fad79e13914": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-fefda40ac37f806067bc18f4faddaba7": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/86568485179?contentId=2058920207188547370&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · Gwern Branwen",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1852018338747789312",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · Gwern Branwen"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
+}
