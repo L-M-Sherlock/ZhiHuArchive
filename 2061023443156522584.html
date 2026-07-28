@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>条件独立与朴素贝叶斯 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="条件独立与朴素贝叶斯 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://l-m-sherlock.github.io/ZhiHuArchive/2061023443156522584.html">
+<meta property="og:image" content="https://pic1.zhimg.com/v2-9be3b38dd1ff5b3408bb2a5454a39578_720w.jpg?source=172ae18b">
+<meta property="og:description" content="此前我谈到过 X 与 Y 之间的 互信息 ，记作 I(X;Y)，它等于联合概率分布的熵 H(X,Y) 与边缘分布的熵 H(X) + H(Y) 之差。我举过一个例子：变量 X 有 8 个状态，从 X_1 到 X_8；在尚未遇到任何证据之前，它们的概率相等。变量 Y 则有 Y_1 到 Y_4 共 4 个状态，…">
+<meta name="description" content="此前我谈到过 X 与 Y 之间的 互信息 ，记作 I(X;Y)，它等于联合概率分布的熵 H(X,Y) 与边缘分布的熵 H(X) + H(Y) 之差。我举过一个例子：变量 X 有 8 个状态，从 X_1 到 X_8；在尚未遇到任何证据之前，它们的概率相等。变量 Y 则有 Y_1 到 Y_4 共 4 个状态，…">
+<meta data-pagefind-meta="title" content="条件独立与朴素贝叶斯">
+<meta data-pagefind-meta="image" content="https://pic1.zhimg.com/v2-9be3b38dd1ff5b3408bb2a5454a39578_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="条件独立与朴素贝叶斯 | ZhiHu Archive">
+<meta name="twitter:description" content="此前我谈到过 X 与 Y 之间的 互信息 ，记作 I(X;Y)，它等于联合概率分布的熵 H(X,Y) 与边缘分布的熵 H(X) + H(Y) 之差。我举过一个例子：变量 X 有 8 个状态，从 X_1 到 X_8；在尚未遇到任何证据之前，它们的概率相等。变量 Y 则有 Y_1 到 Y_4 共 4 个状态，…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="canonical" href="https://l-m-sherlock.github.io/ZhiHuArchive/2061023443156522584.html">
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"条件独立与朴素贝叶斯","description":"此前我谈到过 X 与 Y 之间的 互信息 ，记作 I(X;Y)，它等于联合概率分布的熵 H(X,Y) 与边缘分布的熵 H(X) + H(Y) 之差。我举过一个例子：变量 X 有 8 个状态，从 X_1 到 X_8；在尚未遇到任何证据之前，它们的概率相等。变量 Y 则有 Y_1 到 Y_4 共 4 个状态，…","author":{"@type":"Person","name":"Thoughts Memo","url":"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0"},"datePublished":"2026-07-16T10:08:17+08:00","dateModified":"2026-07-22T10:30:36+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://l-m-sherlock.github.io/ZhiHuArchive/2061023443156522584.html"},"url":"https://l-m-sherlock.github.io/ZhiHuArchive/2061023443156522584.html","isPartOf":{"@type":"WebSite","name":"ZhiHu Archive for Thoughts Memo","url":"https://l-m-sherlock.github.io/ZhiHuArchive/"},"image":["https://pic1.zhimg.com/v2-9be3b38dd1ff5b3408bb2a5454a39578_720w.jpg?source=172ae18b"]}</script>
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/2061023443156522584");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://pic1.zhimg.com/v2-9be3b38dd1ff5b3408bb2a5454a39578_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/2061023443156522584" target="_blank" rel="noopener noreferrer">条件独立与朴素贝叶斯</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pic1.zhimg.com/v2-c8dfe8a8e10713e1b094c7bba877d200_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2026-07-16T02:08:17">发表于 2026年07月16日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">17 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="vRKjLKJo">此前我谈到过 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 与 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 之间的<a class="wrap external" href="https://www.readthesequences.com/MutualInformationAndDensityInThingspace" rel="nofollow noreferrer noopener" target="_blank">互信息</a>，记作 <img alt="I(X;Y)" eeimg="1" src="https://www.zhihu.com/equation?tex=I%28X%3BY%29"/>，它等于联合概率分布的熵 <img alt="H(X,Y)" eeimg="1" src="https://www.zhihu.com/equation?tex=H%28X%2CY%29"/> 与边缘分布的熵 <img alt="H(X) + H(Y)" eeimg="1" src="https://www.zhihu.com/equation?tex=H%28X%29+%2B+H%28Y%29"/> 之差。</p><p data-pid="6JGa-7d9">我举过一个例子：变量 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 有 8 个状态，从 <img alt="X_1" eeimg="1" src="https://www.zhihu.com/equation?tex=X_1"/> 到 <img alt="X_8" eeimg="1" src="https://www.zhihu.com/equation?tex=X_8"/>；在尚未遇到任何证据之前，它们的概率相等。变量 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 则有 <img alt="Y_1" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_1"/> 到 <img alt="Y_4" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_4"/> 共 4 个状态，同样在尚未遇到任何证据之前概率相等。于是我们计算边缘熵 <img alt="H(X)" eeimg="1" src="https://www.zhihu.com/equation?tex=H%28X%29"/> 与 <img alt="H(Y)" eeimg="1" src="https://www.zhihu.com/equation?tex=H%28Y%29"/>，会发现 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 的熵为 3 比特，<img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 的熵为 2 比特。</p><p data-pid="m4uy4sUD">然而，我们还知道 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 与 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 要么同为偶数，要么同为奇数；关于它们之间的关系，我们只知道这一点。因此在联合分布 <img alt="(X,Y)" eeimg="1" src="https://www.zhihu.com/equation?tex=%28X%2CY%29"/> 中只有 16 种可能状态，且都等概率，所以联合熵为 4 比特。与 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 与 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 独立时的 5 比特相比，这里少了 1 比特的熵——这 1 比特的熵缺口就是互信息：也就是 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 告诉我们关于 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 的信息（或反之亦然），使得在已知其中一个之后，我们对另一个就不再那么不确定。</p><p data-pid="jpimYmec">不过，假设还存在第三个变量 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/>。变量 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 有两个状态：「偶数」和「奇数」，与 <img alt="(X,Y)" eeimg="1" src="https://www.zhihu.com/equation?tex=%28X%2CY%29"/> 的奇偶性完全相关。事实上，我们就假设 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 只是这个问题：「<img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 与 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 是偶数还是奇数？」</p><p data-pid="TyzBO_7s">如果我们对 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 与 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 还没有任何证据，那么在已知信息下，<img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 自身必然有 1 比特的熵。<img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 与 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 之间有 1 比特的互信息，<img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 与 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 之间也有 1 比特的互信息。而且，如前所述，<img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 与 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 之间也有 1 比特的互信息。那么，整个系统 <img alt="(X,Y,Z)" eeimg="1" src="https://www.zhihu.com/equation?tex=%28X%2CY%2CZ%29"/> 的熵有多少？你也许会天真地以为：</p><p data-pid="LJ8QxmV7"><img alt="H(X,Y,Z) = H(X) + H(Y) + H(Z) - I(X;Z) - I(Z;Y) - I(X;Y)" eeimg="2" src="https://www.zhihu.com/equation?tex=H%28X%2CY%2CZ%29+%3D+H%28X%29+%2B+H%28Y%29+%2B+H%28Z%29+-+I%28X%3BZ%29+-+I%28Z%3BY%29+-+I%28X%3BY%29"/></p><p data-pid="R051ALpB">但事实并非如此。</p><p data-pid="WOoBbEN5">联合系统 <img alt="(X,Y,Z)" eeimg="1" src="https://www.zhihu.com/equation?tex=%28X%2CY%2CZ%29"/> 只有 16 种可能状态——因为 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 只是这个问题「<img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 与 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 是偶数还是奇数？」——所以 <img alt="H(X,Y,Z) = 4" eeimg="1" src="https://www.zhihu.com/equation?tex=H%28X%2CY%2CZ%29+%3D+4"/> 比特。但如果你按刚才给出的公式去算，就会得到：</p><p data-pid="nSw3UPIW">(3 + 2 + 1 − 1 − 1 − 1) 比特 = 3 比特 = <a class="wrap external" href="https://www.youtube.com/watch?v=tRVUOGUmxJI" rel="nofollow noreferrer noopener" target="_blank">错了！</a></p><p data-pid="tR-m625i">为什么？因为如果你已经有了 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 与 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 之间的互信息，以及 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 与 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 之间的互信息，它们可能已经包含了我们将要计算的 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 与 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 之间互信息的一部分。在这个例子里，知道 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 为偶数会告诉我们 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 为偶数；知道 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 为偶数又会告诉我们 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 为偶数；但这和 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 会告诉我们关于 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 的信息是同一回事。我们对知识进行了<a class="wrap external" href="https://www.readthesequences.com/FakeCausality" rel="nofollow noreferrer noopener" target="_blank">重复计数</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="虚假的因果" data-url="https://hpmor.xyz/ai2zb_33/">[1]</sup>，于是算出了过小的熵。</p><p data-pid="U3cTG85_">正确的公式（我相信）是：</p><p data-pid="LGdcT145"><img alt="H(X,Y,Z) = H(X) + H(Y) + H(Z) - I(X;Z) - I(Z;Y) - I(X;Y|Z)" eeimg="2" src="https://www.zhihu.com/equation?tex=H%28X%2CY%2CZ%29+%3D+H%28X%29+%2B+H%28Y%29+%2B+H%28Z%29+-+I%28X%3BZ%29+-+I%28Z%3BY%29+-+I%28X%3BY%7CZ%29"/></p><p data-pid="47PuhBPL">这里最后一项 <img alt="I(X;Y|Z)" eeimg="1" src="https://www.zhihu.com/equation?tex=I%28X%3BY%7CZ%29"/> 的意思是：「在我们已知 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 的前提下，<img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 还能告诉我们的关于 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 的信息。」在这个例子里，一旦我们已经知道 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/>，<img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 就不会再告诉我们任何关于 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 的信息，因此这一项为 0——而方程就给出了正确答案。怎么样，妙吧？</p><p data-pid="8qcLgVKT">「不，」你<a class="wrap external" href="https://www.readthesequences.com/ATechnicalExplanationOfTechnicalExplanation" rel="nofollow noreferrer noopener" target="_blank">正确地</a>回答道，「因为你并没有告诉我如何计算 <img alt="I(X;Y|Z)" eeimg="1" src="https://www.zhihu.com/equation?tex=I%28X%3BY%7CZ%29"/>，只是给了我一个口头论证，说它理应为 0。」</p><p data-pid="ZheQiQRS">我们计算 <img alt="I(X;Y|Z)" eeimg="1" src="https://www.zhihu.com/equation?tex=I%28X%3BY%7CZ%29"/> 的方法正如你所料。我们知道 <img alt="I(X;Y) = H(X) + H(Y) - H(X,Y)" eeimg="1" src="https://www.zhihu.com/equation?tex=I%28X%3BY%29+%3D+H%28X%29+%2B+H%28Y%29+-+H%28X%2CY%29"/>，因此：</p><p data-pid="uW2Gf2ZN"><img alt="I(X;Y|Z) = H(X|Z) + H(Y|Z) - H(X,Y|Z)" eeimg="2" src="https://www.zhihu.com/equation?tex=I%28X%3BY%7CZ%29+%3D+H%28X%7CZ%29+%2B+H%28Y%7CZ%29+-+H%28X%2CY%7CZ%29"/></p><p data-pid="6uWUMZ8i">现在，我想，你会想知道如何计算条件熵？嗯，熵的<b>原始</b>公式是：</p><p data-pid="_AlM6clu"><img alt="H(S) = \sum_{i} -P(S_i) \times \log_2(P(S_i))" eeimg="2" src="https://www.zhihu.com/equation?tex=H%28S%29+%3D+%5Csum_%7Bi%7D+-P%28S_i%29+%5Ctimes+%5Clog_2%28P%28S_i%29%29"/></p><p data-pid="PZbe9mFD">如果我们随后学到一个新事实 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/>，那么我们对 <img alt="S" eeimg="1" src="https://www.zhihu.com/equation?tex=S"/> 的剩余不确定性将是：</p><p data-pid="U_o1rosR"><img alt="H(S|Z) = \sum_{i} -P(S_i|Z) \log_2(P(S_i|Z))" eeimg="2" src="https://www.zhihu.com/equation?tex=H%28S%7CZ%29+%3D+%5Csum_%7Bi%7D+-P%28S_i%7CZ%29+%5Clog_2%28P%28S_i%7CZ%29%29"/></p><p data-pid="3uagWPcG">因此，如果我们将要学到一个新事实 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/>，但还不知道会是哪一个 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/>，那么平均而言，我们预计在那之后对 <img alt="S" eeimg="1" src="https://www.zhihu.com/equation?tex=S"/> 会有如下程度的不确定性：</p><p data-pid="D__RZ62f"><img alt="H(S|Z) = \sum_{j} \left( P(Z_j) \sum_{i} -P(S_i|Z_j) \log_2(P(S_i|Z_j)) \right)" eeimg="2" src="https://www.zhihu.com/equation?tex=H%28S%7CZ%29+%3D+%5Csum_%7Bj%7D+%5Cleft%28+P%28Z_j%29+%5Csum_%7Bi%7D+-P%28S_i%7CZ_j%29+%5Clog_2%28P%28S_i%7CZ_j%29%29+%5Cright%29"/></p><p data-pid="2zIxRLH2">这就是计算条件熵的方法；进而，我们就可以得到条件互信息。</p><p data-pid="Pc3n7xyG">这里还有<b>各种各样</b>的辅助定理，比如：</p><p data-pid="xoPWHwyC"><img alt="H(X|Y) = H(X,Y) - H(Y)" eeimg="2" src="https://www.zhihu.com/equation?tex=H%28X%7CY%29+%3D+H%28X%2CY%29+-+H%28Y%29"/></p><p data-pid="-BeelthP">以及</p><p data-pid="Ru4-SaiP">如果 <img alt="I(X;Z) = 0" eeimg="1" src="https://www.zhihu.com/equation?tex=I%28X%3BZ%29+%3D+0"/> 且 <img alt="I(Y;X|Z) = 0" eeimg="1" src="https://www.zhihu.com/equation?tex=I%28Y%3BX%7CZ%29+%3D+0"/>，那么 <img alt="I(X;Y) = 0" eeimg="1" src="https://www.zhihu.com/equation?tex=I%28X%3BY%29+%3D+0"/>，</p><p data-pid="BCx5iirM">但我不打算深入这些内容。</p><p data-pid="l4lntMNP">「但是，」你问道，「<b>这</b>跟词语的本性以及它们隐藏的贝叶斯结构有什么关系？」</p><p data-pid="VU99LGw_">对你能提出这个问题我高兴得<b>难以言表</b>，因为我本来就打算不管你喜不喜欢都要讲给你听。不过在此之前，还有几条预备知识。</p><p data-pid="TJW4Mi6P">你会记得——是的，你<b>一定</b>会记得——互信息与贝叶斯证据（Bayesian evidence）之间存在一种对偶关系。互信息为正，当且仅当至少有一些联合事件 <img alt="P(x,y)" eeimg="1" src="https://www.zhihu.com/equation?tex=P%28x%2Cy%29"/> 的概率不等于两个事件各自概率的乘积 <img alt="P(x)P(y)" eeimg="1" src="https://www.zhihu.com/equation?tex=P%28x%29P%28y%29"/>。而这又恰好等价于 <img alt="x" eeimg="1" src="https://www.zhihu.com/equation?tex=x"/> 与 <img alt="y" eeimg="1" src="https://www.zhihu.com/equation?tex=y"/> 之间存在贝叶斯证据这一条件：</p><p data-pid="3YNcivw9"><img alt="\begin{align*} I(X;Y) &amp;&gt; 0 \implies \\ P(x,y) &amp;\neq P(x)P(y) \\ \frac{P(x,y)}{P(y)} &amp;\neq P(x) \\ P(x|y) &amp;\neq P(x) \end{align*}" eeimg="2" src="https://www.zhihu.com/equation?tex=%5Cbegin%7Balign%2A%7D+I%28X%3BY%29+%26%3E+0+%5Cimplies+%5C%5C+P%28x%2Cy%29+%26%5Cneq+P%28x%29P%28y%29+%5C%5C+%5Cfrac%7BP%28x%2Cy%29%7D%7BP%28y%29%7D+%26%5Cneq+P%28x%29+%5C%5C+P%28x%7Cy%29+%26%5Cneq+P%28x%29+%5Cend%7Balign%2A%7D"/></p><p data-pid="UyGxxrZx">如果你是对 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 取条件，那么只需相应地调整整个推导：</p><p data-pid="EOMR1lha"><img alt="\begin{align*} I(X;Y|Z) &amp;&gt; 0 \Rightarrow \\ P(x,y|z) &amp;\neq P(x|z)P(y|z) \\ \frac{P(x,y|z)}{P(y|z)} &amp;\neq P(x|z) \\ \frac{(P(x,y,z)/P(z))}{(P(y,z)/P(z))} &amp;\neq P(x|z) \\ \frac{P(x,y,z)}{P(y,z)} &amp;\neq P(x|z) \\ P(x|y,z) &amp;\neq P(x|z). \end{align*}" eeimg="2" src="https://www.zhihu.com/equation?tex=%5Cbegin%7Balign%2A%7D+I%28X%3BY%7CZ%29+%26%3E+0+%5CRightarrow+%5C%5C+P%28x%2Cy%7Cz%29+%26%5Cneq+P%28x%7Cz%29P%28y%7Cz%29+%5C%5C+%5Cfrac%7BP%28x%2Cy%7Cz%29%7D%7BP%28y%7Cz%29%7D+%26%5Cneq+P%28x%7Cz%29+%5C%5C+%5Cfrac%7B%28P%28x%2Cy%2Cz%29%2FP%28z%29%29%7D%7B%28P%28y%2Cz%29%2FP%28z%29%29%7D+%26%5Cneq+P%28x%7Cz%29+%5C%5C+%5Cfrac%7BP%28x%2Cy%2Cz%29%7D%7BP%28y%2Cz%29%7D+%26%5Cneq+P%28x%7Cz%29+%5C%5C+P%28x%7Cy%2Cz%29+%26%5Cneq+P%28x%7Cz%29.+%5Cend%7Balign%2A%7D"/></p><p data-pid="qPJnuVac">最后一行读作：「即便已知 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/>，学到 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 仍会改变我们对 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 的信念。」</p><p data-pid="CqW7-_R_">反过来，就像我们最初那个 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 为「偶数」或「奇数」的例子一样，<img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 会把 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 与 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> <a class="wrap external" href="https://www.readthesequences.com/ArgumentScreensOffAuthority" rel="nofollow noreferrer noopener" target="_blank">屏蔽开</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="论证对权威的屏蔽效应" data-url="https://zhuanlan.zhihu.com/p/5712542671">[2]</sup>——也就是说，如果我们知道 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 是「偶数」，那么再得知 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 处于状态 <img alt="Y_4" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_4"/>，并不会再告诉我们<b>任何更多</b>关于 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 究竟是 <img alt="X_2" eeimg="1" src="https://www.zhihu.com/equation?tex=X_2"/>、<img alt="X_4" eeimg="1" src="https://www.zhihu.com/equation?tex=X_4"/>、<img alt="X_6" eeimg="1" src="https://www.zhihu.com/equation?tex=X_6"/> 还是 <img alt="X_8" eeimg="1" src="https://www.zhihu.com/equation?tex=X_8"/> 的信息；或者，如果我们知道 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 是「奇数」，那么再得知 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 是 <img alt="X_5" eeimg="1" src="https://www.zhihu.com/equation?tex=X_5"/>，也不会再告诉我们<b>任何更多</b>关于 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 是 <img alt="Y_1" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_1"/> 还是 <img alt="Y_3" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_3"/> 的信息。一旦得知 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> ， <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 与 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 便<b>条件独立</b>（conditionally independent）了。</p><p data-pid="k0j5gcmU">条件独立是概率论中极其重要的概念——就举一个例子：如果没有条件独立，宇宙将毫无结构可言。</p><p data-pid="LYla-_VG">不过在这里，我只打算谈一种特定的条件独立：当某个中心变量把围绕它的其他变量彼此屏蔽开来——就像一个中央躯体伸出触手那样。</p><p data-pid="Nqnnx6p6">假设有五个变量 <img alt="U" eeimg="1" src="https://www.zhihu.com/equation?tex=U"/>、<img alt="V" eeimg="1" src="https://www.zhihu.com/equation?tex=V"/>、<img alt="W" eeimg="1" src="https://www.zhihu.com/equation?tex=W"/>、<img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 和 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/>，并且这些变量的任意一对之间，都存在相互印证的关系。比如你选取 <img alt="U" eeimg="1" src="https://www.zhihu.com/equation?tex=U"/> 与 <img alt="W" eeimg="1" src="https://www.zhihu.com/equation?tex=W"/>，那么已知 <img alt="U = U_1" eeimg="1" src="https://www.zhihu.com/equation?tex=U+%3D+U_1"/>，会告诉你一些关于 <img alt="W = W_1" eeimg="1" src="https://www.zhihu.com/equation?tex=W+%3D+W_1"/> 概率的新信息。</p><p data-pid="U1zudvQD">这岂不是一团理不清的推断乱麻？证据满天飞？未必。</p><p data-pid="O5DTwNSQ">也许 <img alt="U" eeimg="1" src="https://www.zhihu.com/equation?tex=U"/> 表示「会说某种语言」，<img alt="V" eeimg="1" src="https://www.zhihu.com/equation?tex=V"/> 表示「两条手臂与十根手指」，<img alt="W" eeimg="1" src="https://www.zhihu.com/equation?tex=W"/> 表示「穿衣服」，<img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 表示「会被铁杉毒死」，<img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 表示「红色的血」。现在，如果你遇到一个「现实中的某个东西」——它可能是苹果，也可能是石头——而你得知这个东西会说中文，你就很可能大幅提高对它穿着衣服的概率估计；而如果你得知这个东西不会被铁杉毒死，你就会略微降低对它拥有红色血液的概率估计。</p><p data-pid="xfMuTHgY">当然，这些规则里有的强、有的弱。比如 Fred 因为一次火山事故少了一根手指；Baby Barney 还不会说话；还有 Irving 这个 IRCBot，它能输出句子，却没有血。所以如果我们得知某个东西「没穿衣服」，这并不能屏蔽掉「会说话」对「血的颜色」所能告诉我们的一切：如果某个东西不穿衣服却<b>会</b>说话，那也许它就是 Nude Nellie。</p><p data-pid="BuIjTcMH">这就使得这个例子比「五个整数变量要么全为奇数、要么全为偶数，但除此之外互不相关」那种情况更有意思。在那种情况下，只需知道任意一个变量，就足以屏蔽掉第二个变量对第三个变量所能告诉我们的一切。</p><p data-pid="8bz4qObr">但在这里，依赖关系并不会因为我们仅仅知道一个变量就立刻消失，Nude Nellie 的例子就说明了这一点。那么，这会变成一种无法处理的推断麻烦吗？</p><p data-pid="EWCq2z0X">别怕！因为也许存在某个<b>第六个</b>变量 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/>：如果我们知道它，它就真的<b>会</b>把任意一对变量彼此屏蔽开来。可能存在这样一个变量 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/>——即便我们不得不去<b>构造</b> <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 而不是直接观察它——使得：</p><p data-pid="kL84apCR"><img alt="P(U|V,W,X,Y,Z) = P(U|Z)" eeimg="2" src="https://www.zhihu.com/equation?tex=P%28U%7CV%2CW%2CX%2CY%2CZ%29+%3D+P%28U%7CZ%29"/></p><p data-pid="QYKxDWzY"><img alt="P(V|U,W,X,Y,Z) = P(V|Z)" eeimg="2" src="https://www.zhihu.com/equation?tex=P%28V%7CU%2CW%2CX%2CY%2CZ%29+%3D+P%28V%7CZ%29"/></p><p data-pid="bwLsfv4J"><img alt="P(W|U,V,X,Y,Z) = P(W|Z)" eeimg="2" src="https://www.zhihu.com/equation?tex=P%28W%7CU%2CV%2CX%2CY%2CZ%29+%3D+P%28W%7CZ%29"/></p><p data-pid="UCcm0Kg8"><img alt="\vdots" eeimg="2" src="https://www.zhihu.com/equation?tex=%5Cvdots"/></p><p data-pid="27mFaTk_">也许，<b>在已知</b>某个东西是「人类」这一前提下，它会说话、会穿衣服、拥有标准数量手指，这几件事的概率就彼此独立。Fred 可能少了一根手指——但他并不比别人更可能是个裸体主义者；Nude Nellie 从不穿衣服，但知道这一点并不会降低她会说话的概率；而 Baby Barney 虽然还不会说话，但也并没有缺胳膊少腿。</p><p data-pid="SE9fV_So">这就叫作「朴素贝叶斯（Naive Bayes）」方法，因为它通常并不完全为真，但<b>假装</b>它为真就能把你的计算简单得出奇。我们不会单独追踪「在给定手指数量时，穿衣与否对说话能力的影响」。我们只用所有已经观察到的信息，去追踪这个小东西是人类（或者是别的什么，比如黑猩猩或机器人）的概率；然后用我们对这个中心类别的信念，去预测我们尚未观察到的任何东西，比如它会不会被铁杉毒死。</p><p data-pid="5ifw1j-G">对 <img alt="U" eeimg="1" src="https://www.zhihu.com/equation?tex=U"/>、<img alt="V" eeimg="1" src="https://www.zhihu.com/equation?tex=V"/>、<img alt="W" eeimg="1" src="https://www.zhihu.com/equation?tex=W"/>、<img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 和 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 的任何观测，都只是作为中心类别变量 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 的证据；随后我们用 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 的后验分布，去对 <img alt="U" eeimg="1" src="https://www.zhihu.com/equation?tex=U"/>、<img alt="V" eeimg="1" src="https://www.zhihu.com/equation?tex=V"/>、<img alt="W" eeimg="1" src="https://www.zhihu.com/equation?tex=W"/>、<img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 与 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 中那些尚未观测到的变量取值做出一切必要的预测。</p><p data-pid="Rpb8OS03">听起来耳熟吗？应该的：</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-original="https://pic1.zhimg.com/v2-0e371eb8340b9e228a09e8c9e1538f2e_r.jpg" data-original-token="v2-0e371eb8340b9e228a09e8c9e1538f2e" data-rawheight="453" data-rawwidth="562" data-size="normal" src="https://pic1.zhimg.com/v2-0e371eb8340b9e228a09e8c9e1538f2e_1440w.jpg" width="562"/><figcaption>网络 2</figcaption></figure><p data-pid="UMCBZHhV">事实上，如果你使用合适类型的神经网络单元，这个「神经网络」最终会与朴素贝叶斯在数学上<b>完全、严格</b>等价。中心单元只需要一个 logistic 阈值——一种 S 曲线响应——而输入的权重只需要匹配似然比对数（logarithms of the likelihood ratios）等诸如此类的量。实际上，这大概也是 logistic 响应在神经网络中常常如此好用的原因之一——它让算法在设计者不注意的时候，悄悄塞进了一点贝叶斯推理。</p><p data-pid="V0yd0wYU">仅仅因为有人给你呈现了一个他们称之为「神经网络」的算法，上面贴满了「scruffy」「emergent」之类的流行词，并且还自豪地声明他们完全不知道学出来的网络是怎么工作的——你也别因此就以为他们的小 AI 算法真的「超越逻辑的疆界」。对于这种临时拼凑的范式来说，如果它能奏效，就会被发现具有某种<a class="wrap external" href="https://www.readthesequences.com/SearchingForBayesStructure" rel="nofollow noreferrer noopener" target="_blank">贝叶斯结构</a>；它甚至可能与某类所谓「贝叶斯」算法完全等价。</p><p data-pid="UrBhUWMC">即便表面上<b>看起来</b>不像贝叶斯也无妨。</p><p data-pid="tfJ6NHxz">然后你就<b>知道</b>那些贝叶斯主义者会开始解释：这个算法究竟如何工作，它反映了哪些底层假设，它利用了哪些<a class="wrap external" href="https://www.readthesequences.com/MutualInformationAndDensityInThingspace" rel="nofollow noreferrer noopener" target="_blank">环境规律</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="互信息与事物空间中的密度" data-url="https://zhuanlan.zhihu.com/p/2059600041661272639">[3]</sup>，它在何处有效、又在何处失灵；他们甚至会给已训练的网络权重赋予可理解的含义。</p><p data-pid="gs8Wfj0S">真令人失望，不是吗？</p><hr/><p data-pid="XfEHam2f">总目录：</p><a class="internal" data-draft-cover="" data-draft-node="block" data-draft-title="《理性：从人工智能到僵尸》导读与目录" data-draft-type="link-card" href="./2056344770390373406.html" rel="noopener noreferrer" target="_blank">《理性：从人工智能到僵尸》导读与目录</a><p data-pid="hIyflEXq">卷：</p><a class="internal" data-draft-cover="" data-draft-node="block" data-draft-title="第三卷：灵魂中的机械" data-draft-type="link-card" href="./2063193105831141740.html" rel="noopener noreferrer" target="_blank">第三卷：灵魂中的机械</a><p data-pid="qgErM5XZ">章节：</p><a class="internal" data-draft-cover="" data-draft-node="block" data-draft-title="人类词语指南" data-draft-type="link-card" href="./2062469281753862293.html" rel="noopener noreferrer" target="_blank">人类词语指南</a><p data-pid="i2LRj7lg">上一篇：</p><a class="internal" data-draft-cover="https://pic1.zhimg.com/v2-57b49f0c37d61df56bd5a2237f92cfbb.jpg?source=7e7ef6e2&amp;needBackground=1" data-draft-node="block" data-draft-title="超指数级的概念空间与简单的词语" data-draft-type="link-card" href="./2060303864029615597.html" rel="noopener noreferrer" target="_blank">超指数级的概念空间与简单的词语</a><p data-pid="nDgc9fiw">下一篇：</p><a class="internal" data-draft-cover="" data-draft-node="block" data-draft-title="作为心智画笔抓手的词语" data-draft-type="link-card" href="./2061380437788865753.html" rel="noopener noreferrer" target="_blank">作为心智画笔抓手的词语</a><hr/><blockquote data-pid="35uSwLr8"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class="nolink">SAIWA</span>，校对 Jarrett Ye<br/>原文：<a class="wrap external" href="https://www.readthesequences.com/Conditional-Independence-And-Naive-Bayes" rel="nofollow noreferrer noopener" target="_blank">Conditional Independence And Naive Bayes</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 虚假的因果 <a href="https://hpmor.xyz/ai2zb_33/" target="_blank" rel="noopener noreferrer">https://hpmor.xyz/ai2zb_33/</a><br>2. 论证对权威的屏蔽效应 <a href="./5712542671.html" target="_blank" rel="noopener noreferrer">./5712542671.html</a><br>3. 互信息与事物空间中的密度 <a href="./2059600041661272639.html" target="_blank" rel="noopener noreferrer">./2059600041661272639.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：理性 &amp; 克服偏见</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

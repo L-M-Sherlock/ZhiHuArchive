@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>熵与简短的编码 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="熵与简短的编码 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://l-m-sherlock.github.io/ZhiHuArchive/2057779518157370998.html">
+<meta property="og:image" content="https://pic1.zhimg.com/v2-78c6b9788cf9d6999f87b0dcb2d35252_720w.jpg?source=172ae18b">
+<meta property="og:description" content="（如果你对贝叶斯推断还不熟悉，现在正是阅读 《贝叶斯定理的直观解释》 的好时机。）假设你有一个系统 X ，它处于以下 8 种可能状态中任意一种的概率都是均等的： {X_1, X_2, X_3, X4, X_5, X_6, X_7, X_8}。在物理学、数学乃至生物学中，存在着一个极其普遍…">
+<meta name="description" content="（如果你对贝叶斯推断还不熟悉，现在正是阅读 《贝叶斯定理的直观解释》 的好时机。）假设你有一个系统 X ，它处于以下 8 种可能状态中任意一种的概率都是均等的： {X_1, X_2, X_3, X4, X_5, X_6, X_7, X_8}。在物理学、数学乃至生物学中，存在着一个极其普遍…">
+<meta data-pagefind-meta="title" content="熵与简短的编码">
+<meta data-pagefind-meta="image" content="https://pic1.zhimg.com/v2-78c6b9788cf9d6999f87b0dcb2d35252_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="熵与简短的编码 | ZhiHu Archive">
+<meta name="twitter:description" content="（如果你对贝叶斯推断还不熟悉，现在正是阅读 《贝叶斯定理的直观解释》 的好时机。）假设你有一个系统 X ，它处于以下 8 种可能状态中任意一种的概率都是均等的： {X_1, X_2, X_3, X4, X_5, X_6, X_7, X_8}。在物理学、数学乃至生物学中，存在着一个极其普遍…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="canonical" href="https://l-m-sherlock.github.io/ZhiHuArchive/2057779518157370998.html">
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"熵与简短的编码","description":"（如果你对贝叶斯推断还不熟悉，现在正是阅读 《贝叶斯定理的直观解释》 的好时机。）假设你有一个系统 X ，它处于以下 8 种可能状态中任意一种的概率都是均等的： {X_1, X_2, X_3, X4, X_5, X_6, X_7, X_8}。在物理学、数学乃至生物学中，存在着一个极其普遍…","author":{"@type":"Person","name":"Thoughts Memo","url":"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0"},"datePublished":"2026-07-09T14:26:26+08:00","dateModified":"2026-07-22T10:30:29+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://l-m-sherlock.github.io/ZhiHuArchive/2057779518157370998.html"},"url":"https://l-m-sherlock.github.io/ZhiHuArchive/2057779518157370998.html","isPartOf":{"@type":"WebSite","name":"ZhiHu Archive for Thoughts Memo","url":"https://l-m-sherlock.github.io/ZhiHuArchive/"},"image":["https://pic1.zhimg.com/v2-78c6b9788cf9d6999f87b0dcb2d35252_720w.jpg?source=172ae18b"]}</script>
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/2057779518157370998");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://pic1.zhimg.com/v2-78c6b9788cf9d6999f87b0dcb2d35252_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/2057779518157370998" target="_blank" rel="noopener noreferrer">熵与简短的编码</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-c8dfe8a8e10713e1b094c7bba877d200_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2026-07-09T06:26:26">发表于 2026年07月09日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">26 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+<p data-pid="vHcJ4z76">（如果你对贝叶斯推断还不熟悉，现在正是阅读<a class="wrap external" href="https://www.readthesequences.com/AnIntuitiveExplanationOfBayessTheorem" rel="nofollow noreferrer noopener" target="_blank">《贝叶斯定理的直观解释》</a>的好时机。）</p><p data-pid="0eMWnvhl">假设你有一个系统 <b>X</b>，它处于以下 8 种可能状态中任意一种的概率都是均等的：</p><p data-pid="oNjpMDaJ"><img alt="{X_1, X_2, X_3, X4, X_5, X_6, X_7, X_8}" eeimg="1" src="https://www.zhihu.com/equation?tex=%7BX_1%2C+X_2%2C+X_3%2C+X4%2C+X_5%2C+X_6%2C+X_7%2C+X_8%7D"/>。</p><p data-pid="OG3R2rs3">在物理学、数学乃至生物学中，存在着一个极其普遍的物理量，被称为<b>熵（entropy）</b>；在这个例子中，<b>X</b> 的熵是 3 比特。这意味着，平均而言，我们必须提出 3 个是非题才能找出 <b>X</b> 的确切状态。例如，有人可以使用这套编码规则来告诉我们 <b>X</b> 的值：</p><p data-pid="5w-uLg0-">| <img alt="X_1 : 001" eeimg="1" src="https://www.zhihu.com/equation?tex=X_1%E2%80%84%3A%E2%80%84001"/> | <img alt="X_2 : 010" eeimg="1" src="https://www.zhihu.com/equation?tex=X_2%E2%80%84%3A%E2%80%84010"/> | <img alt="X_3 : 011" eeimg="1" src="https://www.zhihu.com/equation?tex=X_3%E2%80%84%3A%E2%80%84011"/> | <img alt="X_4 : 100" eeimg="1" src="https://www.zhihu.com/equation?tex=X_4%E2%80%84%3A%E2%80%84100"/> | </p><p data-pid="cBEJUZDo">| <img alt="X_5 : 101" eeimg="1" src="https://www.zhihu.com/equation?tex=X_5%E2%80%84%3A%E2%80%84101"/> | <img alt="X_6 : 110" eeimg="1" src="https://www.zhihu.com/equation?tex=X_6%E2%80%84%3A%E2%80%84110"/> | <img alt="X_7 : 111" eeimg="1" src="https://www.zhihu.com/equation?tex=X_7%E2%80%84%3A%E2%80%84111"/> | <img alt="X_8 : 000" eeimg="1" src="https://www.zhihu.com/equation?tex=X_8%E2%80%84%3A%E2%80%84000"/> |</p><p data-pid="hMkGteKc">所以，如果我问「第一个符号是 1 吗？」听到回答「是」，接着问「第二个符号是 1 吗？」听到回答「不是」，然后问「第三个符号是 1 吗？」听到回答「不是」，我就知道 <b>X</b> 处于状态 4（即 100）。</p><p data-pid="vevsMudO">现在，假设另一个系统 <b>Y</b> 有四种可能的状态，其概率分布如下：</p><p data-pid="MfNpSmAx">| <img alt="Y_1 : \frac{1}{2}" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_1%E2%80%84%3A%E2%80%84%5Cfrac%7B1%7D%7B2%7D"/> (50%)   | <img alt="Y_2 : \frac{1}{4}" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_2%E2%80%84%3A%E2%80%84%5Cfrac%7B1%7D%7B4%7D"/> (25%)| </p><p data-pid="LDa21D7C">| <img alt="Y_3 : \frac{1}{8}" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_3%E2%80%84%3A%E2%80%84%5Cfrac%7B1%7D%7B8%7D"/> (12.5%) | <img alt="Y_4 : \frac{1}{8}" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_4%E2%80%84%3A%E2%80%84%5Cfrac%7B1%7D%7B8%7D"/> (12.5%) |</p><p data-pid="q6pR2iI6">那么 <b>Y</b> 的熵将是 1.75 比特，意味着我们可以通过提出 1.75 个是非题来找出它的值。</p><p data-pid="-i44OOPb">谈论提出「一又四分之三个问题」到底是什么意思呢？想象一下，如果我们用下面这套编码来指定 <b>Y</b> 的状态：</p><p data-pid="R3TahkVl">| <img alt="Y_1 : 1" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_1%E2%80%84%3A%E2%80%841"/> | <img alt="Y_2 : 01" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_2%E2%80%84%3A%E2%80%8401"/> | <img alt="Y_3 : 001" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_3%E2%80%84%3A%E2%80%84001"/> | <img alt="Y_4 : 000" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_4%E2%80%84%3A%E2%80%84000"/> |</p><p data-pid="cdMnjNls">首先你问：「第一个符号是 1 吗？」如果答案是「是」，你就大功告成了：<b>Y</b> 处于状态 1。这种情况在 50% 的时间里会发生，所以在 50% 的时间里，只需要 1 个是非题就能查明 <b>Y</b> 的状态。</p><p data-pid="dcYcWQHe">假设答案反而是「不是」。那你接着问：「第二个符号是 1 吗？」如果答案是「是」，你也大功告成了：<b>Y</b> 处于状态 2。系统 <b>Y</b> 处于状态 2 的概率是 1/4，并且每次只要 <b>Y</b> 处于状态 2，我们都是用了两个是非题来得出这个结论的，所以在 25% 的时间里，需要 2 个问题来查明 <b>Y</b> 的状态。</p><p data-pid="wpW6QtzM">如果连续两次的答案都是「不是」，你就会问：「第三个符号是 1 吗？」如果「是」，你就完事了，<b>Y</b> 处于状态 3；如果「不是」，你也完事了，<b>Y</b> 处于状态 4。在 <b>Y</b> 处于状态 3 的那 1⁄8 的时间里，需要问三个问题；在 <b>Y</b> 处于状态 4 的那 1⁄8 的时间里，同样需要问三个问题。</p><p data-pid="Eeg5e35m">(1⁄2 × 1) + (1⁄4 × 2) + (1⁄8 × 3) + (1⁄8 × 3)</p><p data-pid="cntV1Kv6">= 0.5 + 0.5 + 0.375 + 0.375</p><p data-pid="m1NP9egs">= 1.75。</p><p data-pid="0tSaxKBG">计算一个系统 <b>S</b> 的熵 <b>H(S)</b> 的通用公式是：对所有可能的状态 <b>Si</b>，求 <img alt="-P(S_i)\log_2(P(S_i))" eeimg="1" src="https://www.zhihu.com/equation?tex=-P%28S_i%29%5Clog_2%28P%28S_i%29%29"/> 的总和。</p><p data-pid="KXr521iv">例如，1/8 以 2 为底的对数是 −3。所以 −(1⁄8 × −3) = 0.375 就是状态 <b>S4</b> 对总熵的贡献：也就是说，在 1⁄8 的时间里，我们必须问 3 个问题。</p><p data-pid="xnj-lLqY">你不可能总是为一个系统设计出一套绝对完美的编码，但如果你必须在一条消息中告诉某人任意多份 <b>S</b> 的状态组合，你可以设计出无限逼近完美状态的编码。（在谷歌上搜索「算术编码 / arithmetic coding」可以找到一种简单的方法。）</p><p data-pid="XBOp9WPQ">现在，你可能会问：「为什么不用『10』来代表 <img alt="Y_4" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_4"/>，而不是用『000』？那样难道不会让我们传递消息的速度更快吗？」</p><p data-pid="-Vsq6gzB">但如果你用『10』来代表 <img alt="Y_4" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_4"/>，那么当有人对「第一个符号是 1 吗？」这个问题回答「是」的时候，你就无法判断系统状态究竟是 <img alt="Y_1" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_1"/>（编码为 1）还是 <img alt="Y_4" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_4"/>（编码为 10）。事实上，如果你这样修改编码，整个系统就乱套了——因为如果你听到「1001」，你根本搞不清楚它的意思是「<img alt="Y_4" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_4"/>，接着是 <img alt="Y_2" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_2"/>」，还是「<img alt="Y_1" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_1"/>，接着是 <img alt="Y_3" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_3"/>」。</p><p data-pid="l8YXUcdQ">这里的寓意是：<b>简短的词语（短代码）是一种总数守恒的稀缺资源</b>。</p><p data-pid="pnlGmvel">创建一套优秀编码——即一套能尽可能紧凑地传递消息的编码——的关键在于，把简短的代码留给那些你需要频繁表达的事物，而把较长的代码分配给那些你不常表达的事物。</p><p data-pid="oGyXncZa">当你把这门艺术发挥到极致时，你用来描述某事物的消息长度，将完全或几乎完全对应于该事物出现的概率。这就是将<a class="wrap external" href="https://www.readthesequences.com/OccamsRazor" rel="nofollow noreferrer noopener" target="_blank">奥卡姆剃刀</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="奥卡姆剃刀" data-url="https://hpmor.xyz/ai2zb_25/">[1]</sup>形式化为「最小描述长度」（Minimum Description Length）或「最小消息长度」（Minimum Message Length）的原理。</p><p data-pid="k2WxEn8L">因此，即使是我们给词语贴上的<b>标签</b>（读音/拼写），也绝对不是随心所欲的。我们给概念分配的发音，同样有优劣、智愚之分。即便抛开<a class="wrap external" href="https://www.readthesequences.com/TheArgumentFromCommonUsage" rel="nofollow noreferrer noopener" target="_blank">普遍用法</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="诉诸普遍用法的论点" data-url="https://zhuanlan.zhihu.com/p/2052688537791750991">[2]</sup>的社会契约不谈，这一点也同样成立！</p><p data-pid="hcoJvI1W">我之所以说这些，是因为「你可以随心所欲地去 <b>X</b>」这种想法，是学习如何明智地去 <b>X</b> 的巨大绊脚石。「这是一个自由的国家；我<a class="wrap external" href="http://www.overcomingbias.com/2006/12/you_are_never_e.html" rel="nofollow noreferrer noopener" target="_blank">有权利保留自己的观点</a>」，这种态度阻碍了寻找真理的艺术；「我可以随心所欲地定义一个词」，这种态度阻碍了<a class="wrap external" href="https://www.readthesequences.com/WhereToDrawTheBoundary" rel="nofollow noreferrer noopener" target="_blank">顺着现实大自然的关节进行切分</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="在哪里划定边界？" data-url="https://zhuanlan.zhihu.com/p/2057532415229301412">[3]</sup>的艺术；甚至连听起来颇为合理的「我们附加在词语上的标签是随意的」，这种说法也会阻碍人们去认识语言在信息压缩上的精妙。顺便说一句，声调和韵律也是如此——托尔金（J.R.R. Tolkien）曾敏锐地察觉到「cellar door（地窖门）」这个短语发音时有多么悦耳；正是需要这种对语言的敏锐觉察力，才能像托尔金那样去运用语言。</p><p data-pid="k-lsjUwh">词语的长度，在语言的认知科学中也扮演着不可忽视的角色：</p><p data-pid="NmBjh40q">想想「躺椅（recliner）」、「椅子（chair）」和「家具（furniture）」这三个词。「躺椅」是比「椅子」更具体的类别；而「家具」是比「椅子」更宽泛的类别。但是，绝大多数椅子都有一个共同的用途——你用大致相同的肢体动作坐进它们里，你坐进去的目的也大同小异（吃饭、看书、打字或休息时让双脚免受体重的压迫）。躺椅并没有偏离这个核心用途。另一方面，「家具」则包含了床和桌子这些用途截然不同的东西，它们所唤起的肢体功能也与椅子大相径庭。</p><p data-pid="mmnLnUyH">在认知心理学的术语中，「椅子」是一个<b>基本层次类别（basic-level category）</b>。</p><p data-pid="hdeLkqzM">人们倾向于在基本分类层次上进行交流，推测也是在这个层次上进行思考——他们倾向于把认知的边界画在「椅子」周围，而不是在更具体的「躺椅」，或是更宽泛的「家具」周围。人们更有可能说「你可以坐在那把椅子上」，而不是说「你可以坐进那个躺椅」或「你可以坐在那件家具上」。</p><p data-pid="AdeyO49J">绝非巧合的是，「椅子（chair）」这个词的音节数量少于「躺椅（recliner）」或「家具（furniture）」。通常来说，基本层次的类别往往拥有简短的名称；而名字简短的名词，也往往指代着基本层次的类别。当然这不是一条绝对完美的法则，但这是一个明确的趋势。频繁的使用催生了简短的词语；简短的词语也伴随着频繁的使用。</p><p data-pid="YZMSooxC">或者正如侯世达（Douglas Hofstadter）所说，英语用短小精悍的 the 来表达 the 的意思，而用长达 28 个字母的 antidisestablishmentarianism 来表达 antidisestablishmentarianism（反对废除国教主义），而不是反过来，这是有原因的。</p><hr/><p data-pid="_j05P5-w">总目录：</p><a class="internal" data-draft-cover="" data-draft-node="block" data-draft-title="《理性：从人工智能到僵尸》导读与目录" data-draft-type="link-card" href="./2056344770390373406.html" rel="noopener noreferrer" target="_blank">《理性：从人工智能到僵尸》导读与目录</a><p data-pid="WtjSYg-X">卷：</p><a class="internal" data-draft-cover="" data-draft-node="block" data-draft-title="第三卷：灵魂中的机械" data-draft-type="link-card" href="./2063193105831141740.html" rel="noopener noreferrer" target="_blank">第三卷：灵魂中的机械</a><p data-pid="KxTD4bSk">章节：</p><a class="internal" data-draft-cover="" data-draft-node="block" data-draft-title="人类词语指南" data-draft-type="link-card" href="./2062469281753862293.html" rel="noopener noreferrer" target="_blank">人类词语指南</a><p data-pid="mNxwH_Cw">上一篇：</p><a class="internal" data-draft-cover="https://picx.zhimg.com/v2-c4883c4058fbc54c0875f5f3200ec33c.jpg?source=7e7ef6e2&amp;needBackground=1" data-draft-node="block" data-draft-title="在哪里划定边界？" data-draft-type="link-card" href="./2057532415229301412.html" rel="noopener noreferrer" target="_blank">在哪里划定边界？</a><p data-pid="UdsCQUr_">下一篇：</p><a class="internal" data-draft-cover="" data-draft-node="block" data-draft-title="互信息与事物空间中的密度" data-draft-type="link-card" href="./2059600041661272639.html" rel="noopener noreferrer" target="_blank">互信息与事物空间中的密度</a><hr/><blockquote data-pid="yd0pJwt_"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 gemini-3.1-pro，校对 Jarrett Ye<br/>原文：<a class="wrap external" href="https://www.readthesequences.com/Entropy-And-Short-Codes" rel="nofollow noreferrer noopener" target="_blank">Entropy, and Short Codes</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 奥卡姆剃刀 <a href="https://hpmor.xyz/ai2zb_25/" target="_blank" rel="noopener noreferrer">https://hpmor.xyz/ai2zb_25/</a><br>2. 诉诸普遍用法的论点 <a href="./2052688537791750991.html" target="_blank" rel="noopener noreferrer">./2052688537791750991.html</a><br>3. 在哪里划定边界？ <a href="./2057532415229301412.html" target="_blank" rel="noopener noreferrer">./2057532415229301412.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：理性 &amp; 克服偏见</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>
