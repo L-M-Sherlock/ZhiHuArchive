@@ -1,0 +1,446 @@
+{
+  "id": "2076357286067552264",
+  "title": "间隔重复的适用性",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/2076357286067552264",
+  "image_url": "https://pic1.zhimg.com/v2-ac84e9f0ac122f364a5fd3a2b9fe4b3e_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-ac84e9f0ac122f364a5fd3a2b9fe4b3e_720w.jpg?source=172ae18b",
+  "excerpt": "间隔重复有一个天然的适用领域：那些能被系统地组织为键和值都很简短、且无歧义的「键值对映射」的信息。抽认卡界最入门的例子当属 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/NATO_phonetic_alphabet\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">北约音标字母</a>：A → alpha，B → bravo，等等。同样地，元素周期表也可以被看作定义了一系列映射的集合：元素名称 ↔ 符号…",
+  "created": 1787898565,
+  "updated": 1787898565,
+  "author": {
+    "is_followed": false,
+    "avatar_url_template": "https://picx.zhimg.com/v2-f1d7dc57926a68b812111df4bb3cef51.jpg?source=172ae18b",
+    "uid": "592323397158703104",
+    "user_type": "people",
+    "is_following": false,
+    "url_token": "L.M.Sherlock",
+    "id": "4c592f496dc33822b560b382907ff1d0",
+    "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+    "name": "Thoughts Memo",
+    "is_advertiser": false,
+    "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+    "gender": -1,
+    "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+    "avatar_url": "https://pic1.zhimg.com/v2-f1d7dc57926a68b812111df4bb3cef51_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
+    "badge": [
+      {
+        "type": "identity",
+        "topics": [],
+        "description": "信息技术行业 算法工程师"
+      }
+    ],
+    "badge_v2": {
+      "title": "知势榜教育领域影响力榜上榜答主",
+      "merged_badges": [
+        {
+          "type": "best",
+          "detail_type": "best",
+          "title": "社区成就",
+          "description": "知势榜教育领域影响力榜上榜答主",
+          "url": "",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "认证",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "",
+          "night_icon": "",
+          "badge_status": "passed"
+        }
+      ],
+      "detail_badges": [
+        {
+          "type": "reward",
+          "detail_type": "super_activity",
+          "title": "社区成就",
+          "description": "知势榜教育领域影响力榜上榜答主",
+          "url": "",
+          "sources": [
+            {
+              "id": "27",
+              "token": "",
+              "type": "content_potential_category",
+              "url": "",
+              "name": "知势榜8月",
+              "avatar_path": "",
+              "avatar_url": "",
+              "description": "",
+              "priority": 27
+            }
+          ],
+          "icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+          "badge_status": "passed"
+        },
+        {
+          "type": "identity",
+          "detail_type": "identity_people",
+          "title": "已认证的个人",
+          "description": "信息技术行业 算法工程师",
+          "url": "https://zhuanlan.zhihu.com/p/96956163",
+          "sources": [],
+          "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+          "badge_status": "passed"
+        }
+      ],
+      "icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c",
+      "night_icon": "https://picx.zhimg.com/v2-27bfcba90e66db79ce8768ab807e017e_l.png?source=32738c0c"
+    },
+    "exposed_medal": {
+      "medal_id": "0",
+      "medal_name": "",
+      "avatar_url": "",
+      "mini_avatar_url": "",
+      "description": "",
+      "medal_avatar_frame": null
+    }
+  },
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 1120,
+  "image_height": 560,
+  "content": "<p data-pid=\"JOV2lgvF\">间隔重复有一个天然的适用领域：那些能被系统地组织为键和值都很简短、且无歧义的「键值对映射」的信息。抽认卡界最入门的例子当属<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/NATO_phonetic_alphabet\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">北约音标字母</a>：A → alpha，B → bravo，等等。同样地，元素周期表也可以被看作定义了一系列映射的集合：元素名称 ↔ 符号，元素名称 ↔ 原子序数，等等。你只需要反复去刷这些卡片，死记硬背下这些事实即可，完全不需要什么前期理解或构建概念模型的步骤。</p><p data-pid=\"7Fyavxda\">把间隔重复应用在这种类型的信息上极其简单。这就是为什么大多数使用间隔重复的人要么是外语学习者，要么是医学生。在生物学中，你需要具备的主要直觉就是想象「三维形状在布朗运动中到处碰撞」，这种直觉人类的大脑天生就具备，而在这之后，你所面临的主要就只剩下一堆必须去死记硬背的事实了。语言学习也是同理：你本来就已经拥有了一个<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Language_center\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">语言中枢</a>，你只需要通过反复练习去掌握词汇和语法即可。</p><p data-pid=\"E9aRoRMf\">然而，你离这个领域越远，应用间隔重复就越困难。</p><p data-pid=\"X-_-1t4J\">像数学这样高度概念化的知识，是很难被编码成抽认卡的。你不得不花大量的时间仅仅去理解这些信息，在头脑中建立起一个概念模型，然后你才开始编写抽认卡来巩固那个模型，这就好比给某个复杂的物体做断层扫描切片一样。而且，要想从这种高度抽象的知识中，构思出适合做成抽认卡的问题（简短、无歧义等）是非常困难的。通常，你会遇到一些看似简单的事实或孤立的断言，但却没有好办法能直接把它编码成一张抽认卡，因此你不得不采取「旁敲侧击」的方式，通过提出一些预设或需要用到该知识点的问题来进行编码（例如提问「为什么 X 是真的」），并期望在反复练习这些问题时，你的大脑能顺带记住真正的目标知识。</p><p data-pid=\"1uqkxWnm\">一般而言，<b>关系型</b>事实更容易被编码，因为像「属性(对象, 值)」这样的二元谓词很容易就能转换成一个问题。例如在 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Prolog\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Prolog</a> 语言中，「咖啡因被<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/CYP1A2\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">细胞色素1A2</a>代谢」可以表示为「代谢(咖啡因, CYP1A2)」，这就能自然地转换成问题：「问：代谢咖啡因的细胞色素是什么？答：1A2」。但是，对于像「所有的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Unitary_matrix\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">酉矩阵</a>都是<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Invertible_matrix\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">可逆的</a>」这样孤立的断言，你该如何编码呢？你可以把它编成一个「是非题」，但这毫无意义，因为按理说这种问题往往更倾向于肯定回答。「什么是酉矩阵的一个属性？」和「哪种类型的矩阵是可逆的？」这两个问题也都毫无用处，因为它们有成百上千个同等有效的可能答案，这就导致它们模棱两可。你必须发挥创造力，想尽各种技巧和策略来对这类知识进行迂回编码。</p><p data-pid=\"26GfUVn3\">顺便提一句：我认为，这也正是为什么用 AI 来生成抽认卡通常是个误区。在高度系统化的领域，你压根就不需要 AI，因为除了把 CSV 文件导入 Anki 之外，根本就没有什么需要 AI 代劳的事。而在那些高度概念化和抽象的领域中，你并不是在记忆一套客观可知的事实，你是在试图巩固一个私人的、内部的心智模型，这个模型是你通过阅读、思考和解决问题才建立起来的。你可以塞给 AI 各种关于如何编写优秀抽认卡的<b>通用</b>法则，但 AI 无法透视你的大脑，它不知道哪些事实<b>对你而言</b>才是关键的，不知道你已经掌握了什么，不知道哪些细小的知识点只需几张抽认卡轻巧带过即可，也不知道哪些内容需要进一步巩固，从而需要更多的抽认卡来覆盖。</p><p data-pid=\"2BocPBYm\">这种情况能得到改善吗？抑或这仅仅是间隔重复固有的局限性？我不得而知。但认为在此能取得一些有限的突破，似乎也是合理的。我认为并没有很多人把间隔重复应用在这些更为「概念化」的领域上，而且（根据<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/1%2525_rule\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">社区里大多数人都是潜水者</a>的法则）这些人中能详细撰文分享其经验的人更是少之又少。虽然已经有<a href=\"https://link.zhihu.com/?target=https%3A//www.supermemo.com/en/blog/twenty-rules-of-formulating-knowledge\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">许多</a><sup data-text=\"20 条知识表述规则（20 周年版）\" data-url=\"https://zhuanlan.zhihu.com/p/269997143\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup><a href=\"https://link.zhihu.com/?target=https%3A//andymatuschak.org/prompts/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">人</a><sup data-text=\"如何写出好卡片：利用间隔重复创造理解\" data-url=\"https://zhuanlan.zhihu.com/p/434074509\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup><a href=\"https://link.zhihu.com/?target=https%3A//borretti.me/article/effective-spaced-repetition\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">曾经</a><sup data-text=\"间隔重复的有效实践\" data-url=\"https://zhuanlan.zhihu.com/p/718778050\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>撰文探讨过如何普遍地编写好的抽认卡，但我真正想读到的，是那种更接近案例研究的文章：某人静下心来拿着一段文本（最好是一本教科书），详细描述他们是如何将这段文本转化成抽认卡的完整过程，就像迈克尔·尼尔森（Michael Nielsen）的<a href=\"https://link.zhihu.com/?target=https%3A//cognitivemedium.com/srs-mathematics\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这篇文章</a><sup data-text=\"用间隔重复系统来看穿数学概念\" data-url=\"https://zhuanlan.zhihu.com/p/593630309\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup>所做的那样。通过积累类似案例研究的语料库，我们或许能够推导出一套通用法则，这套法则不是教你如何编写高效的抽认卡，而是教你如何将复杂的概念化知识编码成问答的形式。</p><hr/><blockquote data-pid=\"RfwGzTQa\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制 <br/>感谢主要译者 <span class=\"nolink\">gemini-3.1-pro</span>，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//borretti.me/article/the-applicability-of-spaced-repetition\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">The Applicability of Spaced Repetition</a><br/>2026 年 5 月 17 日</blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
+  "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/21338969",
+      "type": "topic",
+      "id": "21338969",
+      "name": "间隔重复"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19566266",
+      "type": "topic",
+      "id": "19566266",
+      "name": "学习方法"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/21535352",
+      "type": "topic",
+      "id": "21535352",
+      "name": "抽认卡"
+    }
+  ],
+  "voteup_count": 37,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "间隔重复使记忆成为一种选择",
+    "is_following": true,
+    "url_token": "c_1525782291741208576",
+    "id": "c_1525782291741208576",
+    "articles_count": 186,
+    "accept_submission": true,
+    "title": "间隔重复 & 注意力管理",
+    "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+    "comment_permission": "all",
+    "created": 1656554846,
+    "updated": 1751877449,
+    "image_url": "https://pic1.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 275,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 10,
+  "contributions": [
+    {
+      "id": 54557865,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "间隔重复使记忆成为一种选择",
+        "is_following": true,
+        "url_token": "c_1525782291741208576",
+        "id": "c_1525782291741208576",
+        "articles_count": 186,
+        "accept_submission": true,
+        "title": "间隔重复 & 注意力管理",
+        "url": "https://api.zhihu.com/columns/c_1525782291741208576",
+        "comment_permission": "all",
+        "created": 1656554846,
+        "updated": 1751877449,
+        "image_url": "https://pic1.zhimg.com/v2-5502ae7e1e498ae4ef9aa3edbca986e3_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 275,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "can_open_tipjar": true,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 44,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "间隔重复的适用性 - 来自知乎专栏「间隔重复 &amp; 注意力管理」，作者: Thoughts Memo https://zhuanlan.zhihu.com/p/2076357286067552264 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 0,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 0,
+    "like_has_set": false
+  },
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyODIzMTk0MDMSEzIwNzYzNTcyODYwNjc1NTIyNjQYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 37,
+      "down_vote_count": 0,
+      "like_count": 0,
+      "comment_count": 10,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 44,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-ac84e9f0ac122f364a5fd3a2b9fe4b3e": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": true,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-ac84e9f0ac122f364a5fd3a2b9fe4b3e": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-ac84e9f0ac122f364a5fd3a2b9fe4b3e": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/93874423651?contentId=2076357286067552264&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 间隔重复 & 注意力管理",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1525782291741208576",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 间隔重复 & 注意力管理"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
+}

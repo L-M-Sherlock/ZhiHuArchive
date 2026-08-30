@@ -1,0 +1,355 @@
+{
+  "id": "2068006501562815518",
+  "title": "为什么硬件开发如此艰难",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/2068006501562815518",
+  "image_url": "https://picx.zhimg.com/v2-51977cc649b07ae327359c23ad53e4d8_720w.jpg?source=172ae18b",
+  "title_image": "https://pic1.zhimg.com/v2-51977cc649b07ae327359c23ad53e4d8_720w.jpg?source=172ae18b",
+  "excerpt": "在 CPU 设计领域，大多数成功的团队都有着相当深厚的渊源，并且极度依赖经验丰富的工程师。当我们观察 CPU 初创公司时，那些成功退出的团队，其核心班底往往已经在一起共事了数十年之久。例如，被苹果收购的 PA Semi 算是一个相当成功的退出案例，但这个团…",
+  "created": 1785847828,
+  "updated": 1785857139,
+  "author": {
+    "is_followed": true,
+    "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+    "uid": "1521893281407864832",
+    "user_type": "people",
+    "is_following": true,
+    "url_token": "JarrettYe",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+    "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+    "name": "Jarrett Ye",
+    "is_advertiser": false,
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "gender": 1,
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
+    "badge": [],
+    "badge_v2": {
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "merged_badges": [],
+      "detail_badges": [],
+      "icon": "",
+      "night_icon": ""
+    },
+    "exposed_medal": {
+      "medal_id": "1463836052717301760",
+      "medal_name": "知「势」之星",
+      "avatar_url": "https://pic1.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_r.png?source=172ae18b",
+      "mini_avatar_url": "https://pic1.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_l.png?source=172ae18b",
+      "description": "「知势榜」上榜答主即可获得",
+      "medal_avatar_frame": ""
+    }
+  },
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 547,
+  "image_height": 365,
+  "content": "<p data-pid=\"QMjuoTM4\">在 CPU 设计领域，大多数成功的团队都有着相当深厚的渊源，并且极度依赖经验丰富的工程师。当我们观察 CPU 初创公司时，那些成功退出的团队，其核心班底往往已经在一起共事了数十年之久。例如，被苹果收购的 PA Semi 算是一个相当成功的退出案例，但这个团队是从哪儿来的呢？他们是 SiByte 团队，在 SiByte 被博通（Broadcom）收购后集体离开；而 SiByte 本身就是由许多来自 DEC、并且已经在一起共事超过十年的员工组成的。我以前所在的公司也是如此：一位前 IBM 院士（他也是非常早期的戴尔员工，后来还做过高管，那是戴尔还在做有趣设计工作的年代）召集了<a href=\"https://link.zhihu.com/?target=http%3A//conservancy.umn.edu/handle/120173\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">他在 IBM 共事过的最优秀的人才</a>，从公司剥离出来，创立了一家芯片初创公司。市面上也有相当多筹集了数千万甚至上亿美元的 CPU 初创公司，他们极度依赖缺乏经验的劳动力——刚毕业的博士和只有几年经验的硬件工程师。据我所知，每一个这样的初创公司全都以失败告终[1]。</p><p data-pid=\"pRPQ7oeG\">这与软件初创公司形成了鲜明的对比，在软件界，我们经常看到由刚走出校门（甚至辍学）的人创立的成功企业。为什么微处理器就非得与众不同呢？由一个年轻的新团队成功打造出高性能微处理器，这简直是闻所未闻的，尽管这并没能阻止投资人继续为这类尝试砸钱。</p><p data-pid=\"UjYOK5x-\">在软件行业，人们对经验的不屑一顾是司空见惯的，比如扎克伯格（Zuckerberg）的言论：「我要强调年轻和懂技术的重要性，年轻人就是更聪明。」即使人们没有明确地贬低经验，他们往往也不怎么看重它。直到写这篇文章时，乔尔·斯波尔斯基（Joel Spolsky）的<a href=\"https://link.zhihu.com/?target=http%3A//www.joelonsoftware.com/articles/GuerrillaInterviewing3.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《聪明并能把事情做成》</a>可能仍是关于软件招聘最具影响力的文章。请注意，它并没有说「聪明、有经验，并能把事情做成」。仅仅「聪明并能把事情做成」似乎就足够了，完全不需要经验。如果你更倾向于保罗·格雷厄姆（Paul Graham）的阵营而不是乔尔·斯波尔斯基的阵营，你的招聘方式会有很多不同，但保罗的建议同样表明<a href=\"https://link.zhihu.com/?target=http%3A//www.paulgraham.com/founders.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">经验并未列入他最重要的标准之一</a>，<a href=\"https://link.zhihu.com/?target=https%3A//twitter.com/danluu/status/1356462960172883969\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">除非是作为嘲讽的理由</a>。</p><p data-pid=\"OiPVe_bN\">假设你想雇一个水管工或木匠，你会怎么选？是选「聪明并能把事情做成」的，还是选「经验丰富且高效」的？在其他条件相同的情况下（Ceteris paribus），我肯定会选「经验丰富且高效」的，如果遇到紧急情况就更是如此。</p><p data-pid=\"ZngMO7YI\">物理实体层面的工作，不是那种你光靠聪明就能从第一性原理推导出来的。想想二战后的韩国吧。<a href=\"https://link.zhihu.com/?target=http%3A//www.nationmaster.com/graph/eco_gdp_per_cap_in_195-economy-gdp-per-capita-1950\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">它当时的人均 GDP 低于加纳、肯尼亚，仅勉强高过刚果</a>。由于种种原因，新政权不必去处理历史遗留的制度包袱；而且他们一心想让韩国成为第一世界国家。</p><p data-pid=\"gX6E8_De\"><a href=\"https://link.zhihu.com/?target=http%3A//delong.typepad.com/aeh/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我听说</a>的故事是，韩国政府是从补贴混凝土起步的。在生产了多年混凝土之后，他们想要向产业链上游攀升，开始从事更复杂的制造业。他们最终瞄准了造船业，因为航运是他们渴望建立的出口经济中至关重要的一环。</p><p data-pid=\"pBO31lBJ\">他们抽调了一批在其他制造业中掌握了管理和运营等技能的最顶尖的商业人才。这些人深知自己没有亲自造船的专业技术，于是他们选择了外包。他们决定与苏格兰公司合作，因为苏格兰有着悠久的造船历史。听起来很合理，对吧？</p><p data-pid=\"eF9gnsQI\">但这却行不通。出于历史和地理原因，苏格兰的造船厂并不是全尺寸的；他们是先分别建造两半船体，然后再将它们组装在一起。这对苏格兰人来说很管用，因为他们从 19 世纪起就一直在进行这种规模化生产，并在 20 世纪初就拥有了<a href=\"https://link.zhihu.com/?target=http%3A//www.educationscotland.gov.uk/scotlandshistory/makingindustrialurban/shipbuilding/index.asp\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">举世闻名的专业技术</a>。但是，当毫无实践经验的韩国人试图利用苏格兰的设计图纸和详尽的分步指导来造船时，结果却是造出来的两半船体怎么也拼不严实，一经组装就沉没了。</p><p data-pid=\"gkL5aYe1\">韩国人最终通过聘请外国公司到当地造船，手把手教他们怎么做，才勉强启动了造船业。为了让那些我们今天看来最基础的制造业平稳运转，他们花了数十年的时间。即便有人可能认为，所有必需的知识都写在书本里、在大学课堂里教授，而且只要花点小钱就能从专家那里获得。如今，他们的制造业已经达到了世界级水平，例如，根据《消费者报告》，现代和起亚生产的汽车是相当可靠的。不过，从生产不可靠的廉价代步车到你能放心购买的可靠汽车，他们花了十多年的时间，就像几十年前丰田所经历的那样。如果说在通往高质量的道路上，除了聘请一大批曾经有过相关经验的人之外还有什么捷径的话，那么至今还没有人发现。</p><p data-pid=\"oLg3AnYY\">今天，任何程序员都可以上杰弗里·辛顿（Geoffrey Hinton）的<a href=\"https://link.zhihu.com/?target=https%3A//www.coursera.org/course/neuralnets\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">神经网络和深度学习课程</a>，然后就可以开始应用最前沿的机器学习技术了。在软件领域，你可以实时修复小漏洞。如果运行你的回归测试套件需要花上一整天，你甚至会觉得自己很幸运，因为这意味着你身处少数几个认真对待测试的环境之一。如果架构存在根本性的缺陷，你可以翻出 Feathers 的《<a href=\"https://link.zhihu.com/?target=http%3A//www.amazon.com/gp/product/B005OYHF0A/ref%3Das_li_tf_tl%3Fie%3DUTF8%26camp%3D1789%26creative%3D9325%26creativeASIN%3DB005OYHF0A%26linkCode%3Das2%26tag%3Dabroaview-20\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">修改代码的艺术（Working Effectively with Legacy Code）</a>》，然后反复地进行修补。</p><p data-pid=\"LwgdFhdc\">这并不是说软件就不难，而是有很多有价值的问题并不需要十年艰苦积攒的经验就能着手解决。但是，如果你想造一艘船，而你“仅仅”拥有十年木工、铣削、金属加工等方面的经验，那么，祝你好运。你太需要好运了。对于一艘巨轮来说，“小小的”修复可能需要耗费几天甚至几周的时间；而一个根本性的缺陷则意味着你的船会沉没，你半年的心血和几千万美元将付诸东流。等你接触到复杂程度堪比现代高性能微处理器的东西时，在生产阶段发现的一个小漏洞，其代价就是三个月的时间和数百万美元。而架构上的一个根本性缺陷，将耗费你五年的时间并烧掉数亿美元[2]。</p><p data-pid=\"jKE26QEO\">在物理层面犯错是极其昂贵的。没有「撤销」键，编辑也绝非敲击几下键盘那么简单；任何更改都要消耗真实的物理资源。你需要足够的智慧和经验来完全避开那些常见的错误——尤其是那些无法挽回的错误。</p><p data-pid=\"ikll2p-R\"><b>感谢 Sophia Wisdom 提供的评论、指正和讨论。</b></p><h3><b>CPU 内部原理系列</b></h3><ul><li data-pid=\"vauTe2ss\"><a href=\"https://link.zhihu.com/?target=https%3A//danluu.com/cpu-bugs/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">CPU 漏洞</a></li><li data-pid=\"kFPlFjx3\"><a href=\"https://link.zhihu.com/?target=https%3A//danluu.com/new-cpu-features/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">80 年代以来的 CPU 新特性</a></li><li data-pid=\"1dkduPbr\"><a href=\"https://link.zhihu.com/?target=https%3A//danluu.com/branch-prediction/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">分支预测简史</a></li><li data-pid=\"Xx3c_Bgf\"><a href=\"https://link.zhihu.com/?target=https%3A//danluu.com/integer-overflow/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">实际代码中分支和整数溢出检查的成本</a></li><li data-pid=\"38HCxNji\"><a href=\"https://link.zhihu.com/?target=https%3A//danluu.com/hardware-unforgiving/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">为什么 CPU 开发如此艰难</a></li><li data-pid=\"7XmYVRpR\"><a href=\"https://link.zhihu.com/?target=https%3A//danluu.com/why-hardware-development-is-hard/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Verilog 糟透了，第 1 部分</a></li><li data-pid=\"ic7ft6_t\"><a href=\"https://link.zhihu.com/?target=https%3A//danluu.com/pl-troll/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Verilog 糟透了，第 2 部分</a></li></ul><h3><b>2021 年的补充评论</b></h3><p data-pid=\"Lbrc472C\">回过头来看，我认为我在本文中对软件过于乐观了。如果我们讨论的是产品与市场的契合度（product-market fit）和商业成功，我不认为文章中的态度有错，那些几乎或完全没有经验的人确实经常能打造出爆款产品。但现在，既然我已经在行业里摸爬滚打了好一阵子，并且与无数来自各类初创公司和大型企业的人探讨过基础设施（infra）问题，我认为：创建高质量的软件基础设施所需要的经验，绝不亚于制造高质量的物理实体产品。那些认定并非如此、并雇佣了一群来自顶尖高校的聪明人来构建基础设施的公司，最终往往得到的是低质量、不可靠、昂贵且难以运维的基建。事实证明，如果你的产品与市场契合度非常高，你甚至不需要你的基础设施正常运转。你的公司不仅能存活下来，甚至还能<a href=\"https://link.zhihu.com/?target=https%3A//danluu.com/programmer-moneyball/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">蓬勃发展，哪怕你的基础设施只有 2 个 9 的正常运行时间，且成本比竞争对手高出一个数量级</a>，或者<a href=\"https://link.zhihu.com/?target=https%3A//danluu.com/nothing-works/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">就算你的产品架构注定了它根本不可能正常工作</a>。你赚的钱固然会比原本可能赚到的少，但起决定性作用的核心因素（高阶位）全都在产品端。相比之下，如果你看看那些聘用了毫无经验的工程师、最终未能造出可用产品的芯片公司，好吧，即使你磨破嘴皮，你也无法真的卖出一个根本无法工作的产品。如果你运气爆棚，比如刚好在最合适的时机创办了一家深度学习芯片公司，你也许能忽悠一家大公司收购你那无法工作的产品。但是，对于微处理器来说，想要获得这样一条退路要难如登天。</p><hr/><p data-pid=\"63_x5t4k\">[1] 将<a href=\"https://link.zhihu.com/?target=https%3A//danluu.com/glenn-henry-interview/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">我的老东家</a>与同年成立的另一家 x86 初创公司进行对比是很有教育意义的。两家公司几乎同时起步。双方都拥有由聪明人组成的优秀团队。我们的竞争对手那边甚至还有赫赫有名的软件专家和商业大佬坐镇。但值得注意的是，负责他们硬件实施的并非一支曾在行业内摸爬滚打数十年且曾经共事过的核心老兵团队。我们在 1500 万美元融资的基础上，大约花了两年的时间才弄出一块可以工作的 x86 芯片。我们的目标是生产一款低成本芯片，而且我们完美达成了。而他们呢，烧了超过 2.5 亿美元的融资，花了整整五年。他们最初的目标是制造一款高性能、低功耗的处理器，但因为性能严重不达标，最后被迫转入低成本市场。最终，他们拿出的产品性能比我们的差，芯片面积比我们大 50%（因此生产成本也高出 50% 以上），而使用的团队规模却是我们的四倍。他们最终破产了，因为以 4 倍于我们的烧钱率和更弱的性能，他们根本无法生存。当然，这是在烧光了 9.69 亿美元（包括从专利诉讼中获得的 2.3 亿美元）的资金之后的事情了。</p><p data-pid=\"Kong1GoI\">[2] 经验至上的一个有趣的副作用是，年龄歧视在我所涉足的领域中根本不存在。在 30 岁这个年纪，对于从事微处理器设计的人来说，我年轻得有些诡异。我老东家的那些核心成员都在 60 岁上下。他们一路上虽然也招募了一些年轻血液，但 30 岁？那简直年轻得像个异类。新公司的同事们要年轻得多：我周围都是些来自 <a href=\"https://link.zhihu.com/?target=http%3A//en.wikipedia.org/wiki/Cray%23Cray_Research_Inc._and_Cray_Computer_Corporation%3A_1972_to_1996\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Cray 和 SGI</a> 的前超级计算机专家，他们也都快 50 岁了；还有几个来自 <a href=\"https://link.zhihu.com/?target=http%3A//en.wikipedia.org/wiki/Synplicity\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Synplify</a> 和 <a href=\"https://link.zhihu.com/?target=http%3A//www.deshawresearch.com/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">DESRES</a> 的“年轻人”，在 40 岁这个年纪，他们显得异常年轻。当然，并非所有做硬件的人都这么老。在公司的另一个部门，有一群在 FPGA 领域成长起来的伙计，那个领域对错误要宽容得多。在那个团队里，我想我遇到了一个只比我大几岁的人。不开玩笑地说，如果你在一些愿意花十年时间培养新人的大公司里，你会看到更年轻的人在复杂的项目上做 RTL 设计。但是，在行动迅速的初创公司和小型硬件团队中，招募一个没有十年经验的人进入设计岗位是极其罕见的。</p><p data-pid=\"j-eOZnQM\">还有一群人甚至比做 FPGA 的还要年轻，甚至比我更年轻，他们在搞 Arduino 和微控制器，捣鼓一些发烧友电子产品和消费电子产品。我真的很好奇，这些人中到底有多少人最终会决定投身于大规模系统设计。一方面，随着领域的成熟和解决方案变得日益复杂，这似乎是不可避免的趋势。另一方面也是我很好奇的：硬件领域的复兴，是否会激发人们对超级计算机、微处理器以及仓库级（云计算）计算机的兴趣呢？</p><hr/><blockquote data-pid=\"TpBLfitd\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class=\"nolink\">gemini-3</span>.1-pro，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//danluu.com/hardware-unforgiving/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Why hardware development is hard</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
+  "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19937481",
+      "type": "topic",
+      "id": "19937481",
+      "name": "硬件开发"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19584932",
+      "type": "topic",
+      "id": "19584932",
+      "name": "困难"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19553309",
+      "type": "topic",
+      "id": "19553309",
+      "name": "中央处理器 (CPU)"
+    }
+  ],
+  "voteup_count": 59,
+  "voting": 1,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": false,
+    "intro": "暂时没有专栏分类的文章",
+    "is_following": true,
+    "url_token": "c_1853848933266227200",
+    "id": "c_1853848933266227200",
+    "articles_count": 115,
+    "accept_submission": true,
+    "title": "杂项",
+    "url": "https://api.zhihu.com/columns/c_1853848933266227200",
+    "comment_permission": "all",
+    "created": 1734772028,
+    "updated": 1734772042,
+    "image_url": "https://picx.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 64,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 7,
+  "contributions": [
+    {
+      "id": 54424529,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "暂时没有专栏分类的文章",
+        "is_following": true,
+        "url_token": "c_1853848933266227200",
+        "id": "c_1853848933266227200",
+        "articles_count": 115,
+        "accept_submission": true,
+        "title": "杂项",
+        "url": "https://api.zhihu.com/columns/c_1853848933266227200",
+        "comment_permission": "all",
+        "created": 1734772028,
+        "updated": 1734772042,
+        "image_url": "https://picx.zhimg.com/v2-c5be1695771c4f9b442b5bde56e5e8e0_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 64,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 81,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "为什么硬件开发如此艰难 - 来自知乎专栏「杂项」，作者: Jarrett Ye https://zhuanlan.zhihu.com/p/2068006501562815518 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 3,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 3,
+    "like_has_set": false
+  },
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyODA1NjA5NTMSEzIwNjgwMDY1MDE1NjI4MTU1MTgYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": false
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 59,
+      "down_vote_count": 0,
+      "like_count": 3,
+      "comment_count": 7,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 81,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-51977cc649b07ae327359c23ad53e4d8": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": false,
+      "vote": "UP",
+      "liked": false,
+      "img_liked": {
+        "v2-51977cc649b07ae327359c23ad53e4d8": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": "vote"
+    },
+    "image_reactions": {
+      "v2-51977cc649b07ae327359c23ad53e4d8": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/91140201204?contentId=2068006501562815518&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · 杂项",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1853848933266227200",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · 杂项"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "unvote"
+}
