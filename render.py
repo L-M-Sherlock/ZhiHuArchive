@@ -191,7 +191,7 @@ def apply_archival_restoration(content: str, restoration: dict | None) -> str:
 def archival_restoration_notice(restoration: dict | None) -> str:
     if not restoration:
         return ""
-    label = html_attr(restoration.get("label", "删改后恢复"))
+    label = html_attr(restoration.get("label", "edited"))
     notice = html_attr(restoration.get("notice", ""))
     return (
         '<aside class="archive-restoration-notice" data-pagefind-ignore>'
