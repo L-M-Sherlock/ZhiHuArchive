@@ -170,6 +170,15 @@ def apply_archival_restoration(content: str, restoration: dict | None) -> str:
         if anchor is None:
             raise ValueError(f"Restoration anchor not found: {after_text}")
 
+        if operation.get("remove_following_empty_paragraphs"):
+            sibling = anchor.find_next_sibling()
+            while sibling and sibling.name == "p" and not clean_text(
+                sibling.get_text(" ", strip=True)
+            ):
+                next_sibling = sibling.find_next_sibling()
+                sibling.decompose()
+                sibling = next_sibling
+
         fragment = BeautifulSoup(operation["html"], "html.parser")
         insertion_point = anchor
         for node in list(fragment.contents):
