@@ -12,6 +12,9 @@ BASE_URL = "https://l-m-sherlock.github.io/ZhiHuArchive"
 with open("censorship.json", "r", encoding="utf-8") as f:
     censorship_data = json.load(f)
 
+with open("restorations.json", "r", encoding="utf-8") as f:
+    restorations_data = json.load(f)
+
 # Collect all articles
 articles = []
 for file in Path("article").glob("*.json"):
@@ -587,6 +590,11 @@ html_content = (
             border-bottom-color: rgba(202, 138, 4, 0.6);
             color: #1f2937;
         }
+        .restored {
+            background-color: #fed7aa;
+            border-bottom-color: rgba(234, 88, 12, 0.65);
+            color: #7c2d12;
+        }
 
         /* Tab styles */
         .tabs { margin-bottom: 20px; }
@@ -659,11 +667,20 @@ html_content = (
 for article in articles:
     article_path = f"/p/{article['file_stem']}"
     is_censored = censorship_data.get(article_path, False)
-    censored_class = "censored" if is_censored else ""
+    restoration = restorations_data.get(article_path)
+    link_classes = " ".join(
+        name
+        for name, enabled in (
+            ("censored", is_censored),
+            ("restored", restoration is not None),
+        )
+        if enabled
+    )
     censored_text = " (censored)" if is_censored else ""
+    restored_text = f" ({restoration['label']})" if restoration else ""
     html_content += f"""
         <div class="item">
-            <a href="./{article['file_stem']}.html" class="{censored_class}" target="_blank" rel="noopener noreferrer">{article['title']}{censored_text}</a>
+            <a href="./{article['file_stem']}.html" class="{link_classes}" target="_blank" rel="noopener noreferrer">{article['title']}{censored_text}{restored_text}</a>
             <span class="votes">({article['voteup_count']} 赞同)</span>
             <span class="created_time">({datetime.fromtimestamp(article['created']).strftime('%Y-%m-%d')})</span>
         </div>
@@ -685,12 +702,21 @@ for answer in answers:
     )
     answer_path = f"/answer/{answer['file_stem']}"
     is_censored = censorship_data.get(answer_path, False)
-    censored_class = "censored" if is_censored else ""
+    restoration = restorations_data.get(answer_path)
+    link_classes = " ".join(
+        name
+        for name, enabled in (
+            ("censored", is_censored),
+            ("restored", restoration is not None),
+        )
+        if enabled
+    )
     censored_text = " (censored)" if is_censored else ""
+    restored_text = f" ({restoration['label']})" if restoration else ""
 
     html_content += f"""
         <div class="item">
-            <a href="./{answer['file_stem']}.html" class="{censored_class}" target="_blank" rel="noopener noreferrer">{question_title}{censored_text}</a>
+            <a href="./{answer['file_stem']}.html" class="{link_classes}" target="_blank" rel="noopener noreferrer">{question_title}{censored_text}{restored_text}</a>
             <span class="votes">({answer['voteup_count']} 赞同)</span>
             <span class="created_time">({datetime.fromtimestamp(answer['created_time']).strftime('%Y-%m-%d')})</span>
         </div>

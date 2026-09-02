@@ -11,6 +11,9 @@ from bs4 import BeautifulSoup
 
 BASE_URL = "https://l-m-sherlock.github.io/ZhiHuArchive"
 
+with open("restorations.json", "r", encoding="utf-8") as f:
+    restorations_data = json.load(f)
+
 article_ids = [file.stem for file in Path("./article").glob("*.json")]
 answer_ids = [file.stem for file in Path("./answer").glob("*.json")]
 
@@ -147,6 +150,44 @@ def build_meta_description(primary: str, *fallbacks: str) -> str:
 
 def html_attr(value: str) -> str:
     return escape(str(value or ""), quote=True)
+
+
+def apply_archival_restoration(content: str, restoration: dict | None) -> str:
+    if not restoration:
+        return content
+
+    soup = BeautifulSoup(content, "html.parser")
+    for operation in restoration.get("operations", []):
+        after_text = clean_text(operation.get("after_text", ""))
+        anchor = next(
+            (
+                element
+                for element in soup.find_all("p")
+                if clean_text(element.get_text(" ", strip=True)) == after_text
+            ),
+            None,
+        )
+        if anchor is None:
+            raise ValueError(f"Restoration anchor not found: {after_text}")
+
+        fragment = BeautifulSoup(operation["html"], "html.parser")
+        insertion_point = anchor
+        for node in list(fragment.contents):
+            insertion_point.insert_after(node)
+            insertion_point = node
+
+    return str(soup)
+
+
+def archival_restoration_notice(restoration: dict | None) -> str:
+    if not restoration:
+        return ""
+    label = html_attr(restoration.get("label", "删改后恢复"))
+    notice = html_attr(restoration.get("notice", ""))
+    return (
+        '<aside class="archive-restoration-notice" data-pagefind-ignore>'
+        f"<strong>{label}</strong><p>{notice}</p></aside>"
+    )
 
 
 def schema_datetime(timestamp: int) -> str:
@@ -325,6 +366,21 @@ article_template = """<!DOCTYPE html>
             display: block;
             text-align: center;
         }
+        .archive-restoration-notice {
+            margin: 1.25em 0;
+            padding: 0.75em 1em;
+            border-left: 4px solid #ea580c;
+            background: #fff7ed;
+            color: #7c2d12;
+        }
+        .archive-restoration-notice p {
+            margin: 0.35em 0 0;
+        }
+        .archive-restored-content {
+            padding-left: 0.85em;
+            border-left: 4px solid #f97316;
+            background: #fff7ed;
+        }
     </style>
 </head>
 <body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
@@ -346,6 +402,7 @@ article_template = """<!DOCTYPE html>
         <p rel="stats"style="color: #999; font-size: 0.9em;">${"voteup_count"} 👍 / ${"comment_count"} 💬</p>
     </header>
     <article data-pagefind-body>
+        ${"archive_notice"}
         ${"content"}
         ${"reference"}
         <hr>
@@ -385,6 +442,7 @@ rss_article_template = """<main>
     <img class="origin_image" src="${"image_url"}"/>
 </header>
 <article>
+    ${"archive_notice"}
     ${"content"}
     ${"reference"}
 </article>
@@ -394,7 +452,11 @@ rss_article_template = """<main>
 </main>"""
 
 
-def fill_article_template(data: dict, is_rss: bool = False) -> str:
+def fill_article_template(
+    data: dict,
+    restoration: dict | None = None,
+    is_rss: bool = False,
+) -> str:
     template = rss_article_template if is_rss else article_template
     archive_url_value = archive_url(file.stem)
     source_url_value = source_url(data, file.stem)
@@ -433,6 +495,7 @@ def fill_article_template(data: dict, is_rss: bool = False) -> str:
         .replace('${"created_time_formatted"}', html_attr(created_time_formatted))
         .replace('${"voteup_count"}', str(data["voteup_count"]))
         .replace('${"comment_count"}', str(data["comment_count"]))
+        .replace('${"archive_notice"}', archival_restoration_notice(restoration))
         .replace('${"content"}', data["content"])
         .replace('${"reference"}', extract_reference(data["content"]))
         .replace(
@@ -458,16 +521,19 @@ for file in tqdm(list(Path("article").glob("*.json"))):
     created_time_str = created_time.isoformat()
     created_time_formatted = created_time.strftime("%Y年%m月%d日")
 
-    data["content"] = process_content(data["content"])
+    restoration = restorations_data.get(f"/p/{file.stem}")
+    data["content"] = process_content(
+        apply_archival_restoration(data["content"], restoration)
+    )
 
     # Prepare the HTML content
-    html_content = fill_article_template(data)
+    html_content = fill_article_template(data, restoration=restoration)
     # Write the rendered HTML to file
     output_file = Path("html") / f"{file.stem}.html"
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(html_content)
 
-    rss_content = fill_article_template(data, is_rss=True)
+    rss_content = fill_article_template(data, restoration=restoration, is_rss=True)
 
     add_item(data, rss_content)
 
@@ -558,6 +624,21 @@ answer_template = """<!DOCTYPE html>
             display: block;
             text-align: center;
         }
+        .archive-restoration-notice {
+            margin: 1.25em 0;
+            padding: 0.75em 1em;
+            border-left: 4px solid #ea580c;
+            background: #fff7ed;
+            color: #7c2d12;
+        }
+        .archive-restoration-notice p {
+            margin: 0.35em 0 0;
+        }
+        .archive-restored-content {
+            padding-left: 0.85em;
+            border-left: 4px solid #f97316;
+            background: #fff7ed;
+        }
     </style>
 </head>
 <body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
@@ -579,6 +660,7 @@ answer_template = """<!DOCTYPE html>
     </header>
     <article data-pagefind-body>
         ${"question"}
+        ${"archive_notice"}
         ${"content"}
         ${"reference"}
         <hr>
@@ -611,6 +693,7 @@ answer_template = """<!DOCTYPE html>
 rss_answer_template = """<main>
 <article>
     ${"question"}
+    ${"archive_notice"}
     ${"content"}
     ${"reference"}
 </article>
@@ -629,7 +712,11 @@ rss_answer_template = """<main>
 </main>"""
 
 
-def fill_answer_template(data: dict, is_rss: bool = False) -> str:
+def fill_answer_template(
+    data: dict,
+    restoration: dict | None = None,
+    is_rss: bool = False,
+) -> str:
     template = rss_answer_template if is_rss else answer_template
     question_detail = data["question"].get("detail", "")
     question_block = ""
@@ -676,6 +763,7 @@ def fill_answer_template(data: dict, is_rss: bool = False) -> str:
         .replace('${"voteup_count"}', str(data["voteup_count"]))
         .replace('${"comment_count"}', str(data["comment_count"]))
         .replace('${"question"}', question_block)
+        .replace('${"archive_notice"}', archival_restoration_notice(restoration))
         .replace('${"content"}', data["content"])
         .replace('${"reference"}', extract_reference(data["content"]))
         .replace("    ", "")
@@ -695,16 +783,19 @@ for file in tqdm(list(Path("answer").glob("*.json"))):
     created_time_str = created_time.isoformat()
     created_time_formatted = created_time.strftime("%Y年%m月%d日")
 
-    data["content"] = process_content(data["content"])
+    restoration = restorations_data.get(f"/answer/{file.stem}")
+    data["content"] = process_content(
+        apply_archival_restoration(data["content"], restoration)
+    )
 
     # Prepare the HTML content
-    html_content = fill_answer_template(data)
+    html_content = fill_answer_template(data, restoration=restoration)
     # Write the rendered HTML to file
     output_file = Path("html") / f"{file.stem}.html"
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(html_content)
 
-    rss_content = fill_answer_template(data, is_rss=True)
+    rss_content = fill_answer_template(data, restoration=restoration, is_rss=True)
 
     add_item(data, rss_content)
 
