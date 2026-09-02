@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>一个算法的内部感受 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="一个算法的内部感受 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://l-m-sherlock.github.io/ZhiHuArchive/2051369757249736864.html">
+<meta property="og:image" content="https://picx.zhimg.com/v2-5f3ec061653be1692b1284082d67d6d3_720w.jpg?source=172ae18b">
+<meta property="og:description" content="「如果一棵树在森林里倒下，而周围没有一个人听到，它会发出声音吗？」我记得曾经看到过一场关于这个话题的真实争论——一场完全天真、跟贝克莱主观唯心主义（Berkeleian subjectivism）沾不上半点边的争论。对话仅仅是这样： 「它当然会发出声音，就像任何…">
+<meta name="description" content="「如果一棵树在森林里倒下，而周围没有一个人听到，它会发出声音吗？」我记得曾经看到过一场关于这个话题的真实争论——一场完全天真、跟贝克莱主观唯心主义（Berkeleian subjectivism）沾不上半点边的争论。对话仅仅是这样： 「它当然会发出声音，就像任何…">
+<meta data-pagefind-meta="title" content="一个算法的内部感受">
+<meta data-pagefind-meta="image" content="https://picx.zhimg.com/v2-5f3ec061653be1692b1284082d67d6d3_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="一个算法的内部感受 | ZhiHu Archive">
+<meta name="twitter:description" content="「如果一棵树在森林里倒下，而周围没有一个人听到，它会发出声音吗？」我记得曾经看到过一场关于这个话题的真实争论——一场完全天真、跟贝克莱主观唯心主义（Berkeleian subjectivism）沾不上半点边的争论。对话仅仅是这样： 「它当然会发出声音，就像任何…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="canonical" href="https://l-m-sherlock.github.io/ZhiHuArchive/2051369757249736864.html">
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"一个算法的内部感受","description":"「如果一棵树在森林里倒下，而周围没有一个人听到，它会发出声音吗？」我记得曾经看到过一场关于这个话题的真实争论——一场完全天真、跟贝克莱主观唯心主义（Berkeleian subjectivism）沾不上半点边的争论。对话仅仅是这样： 「它当然会发出声音，就像任何…","author":{"@type":"Person","name":"Thoughts Memo","url":"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0"},"datePublished":"2026-06-19T18:28:54+08:00","dateModified":"2026-06-20T22:15:58+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://l-m-sherlock.github.io/ZhiHuArchive/2051369757249736864.html"},"url":"https://l-m-sherlock.github.io/ZhiHuArchive/2051369757249736864.html","isPartOf":{"@type":"WebSite","name":"ZhiHu Archive for Thoughts Memo","url":"https://l-m-sherlock.github.io/ZhiHuArchive/"},"image":["https://picx.zhimg.com/v2-5f3ec061653be1692b1284082d67d6d3_720w.jpg?source=172ae18b"]}</script>
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/2051369757249736864");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+.archive-restoration-notice {
+margin: 1.25em 0;
+padding: 0.75em 1em;
+border-left: 4px solid #ea580c;
+background: #fff7ed;
+color: #7c2d12;
+}
+.archive-restoration-notice p {
+margin: 0.35em 0 0;
+}
+.archive-restored-content {
+padding-left: 0.85em;
+border-left: 4px solid #f97316;
+background: #fff7ed;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://picx.zhimg.com/v2-5f3ec061653be1692b1284082d67d6d3_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/2051369757249736864" target="_blank" rel="noopener noreferrer">一个算法的内部感受</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-c8dfe8a8e10713e1b094c7bba877d200_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2026-06-19T10:28:54">发表于 2026年06月19日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">36 👍 / 1 💬</p>
+</header>
+<article data-pagefind-body>
+
+<p data-pid="xpAH3xpY">「如果一棵树在森林里倒下，而周围没有一个人听到，它会发出声音吗？」我记得曾经看到过一场关于这个话题的真实争论——一场完全天真、跟贝克莱主观唯心主义（Berkeleian subjectivism）沾不上半点边的争论。对话仅仅是这样：</p><blockquote data-pid="chtT7wBC">「它当然会发出声音，就像任何其他倒下的树一样！」<br/>「但要是都没人听到，怎么能叫有声音呢？」</blockquote><p data-pid="eMGM7ukZ">标准的理性主义观点会认为，第一个人的意思是把「声音」等同于空气中的声波振动；而第二个人是把「声音」等同于大脑中的听觉体验。如果你问「有声波振动吗？」或者问「有听觉体验吗？」，答案立刻就显而易见了。所以这场争论的实质，其实是在争论「声音」这个词的定义。</p><p data-pid="8sZA67VJ">我认为这个标准分析在本质上是正确的。所以让我们先接受它作为一个前提，然后问问：为什么人们会卷入这样的争论？其潜在的心理机制是什么？</p><p data-pid="IJVIxoaH">启发式与偏见项目（heuristics and biases program）的一个核心理念是：人类犯的错误，往往比正确的答案更能揭示认知的运作机制。为了「一棵倒在荒无人烟的森林里的树究竟有没有发出声音」而争得面红耳赤，传统上被认为是个错误。</p><p data-pid="EQexybfN">那么，究竟是怎样的心智架构，才会对应于这种错误呢？</p><p data-pid="fpID5_Qz">在<a class="wrap external" href="https://www.readthesequences.com/DisguisedQueries" rel="nofollow noreferrer noopener" target="_blank">伪装的查询</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="伪装的查询" data-url="https://zhuanlan.zhihu.com/p/2050519448814195814">[1]</sup>一文中，我介绍了一项关于「蓝蛋（bleggs）」和「红方（rubes）」的分类任务。高级分拣员 Susan 解释说，你的工作是对传送带上下来的物体进行分类：把蓝色的蛋形物体（蓝蛋）放进一个箱子里，把红色的立方体（红方）放进另一个箱子里。原来，这是因为蓝蛋含有小块的钒矿石，而红方含有少量的钯，这两种物质在工业上都有用处。</p><p data-pid="nT94DcjG">然而，大约有 2% 的蓝色蛋形物体反而含有钯。那么，如果你发现了一个含有钯的蓝色蛋形物体，你应该把它叫做「红方」吗？毕竟你要把它扔进红方箱子里——为什么不干脆叫它「红方」呢？</p><p data-pid="CUyQYlim">但是，当你关掉灯时，几乎所有的蓝蛋都会在黑暗中发出微弱的光。</p><p data-pid="G8o6ZlUt">而且，含有钯的蓝色蛋形物体，其在黑暗中发光的概率和任何其他普通的蓝色蛋形物体是一样的。</p><p data-pid="FvGLczSc">所以，如果你发现了一个含有钯的蓝色蛋形物体，然后你问：「它是一个蓝蛋吗？」，答案取决于你要拿这个答案来做什么。如果你问的是「这个物体该放进哪个箱子？」，那么你做出的选择就好像这个物体是个红方一样。但如果你问的是「如果我关掉灯，它会发光吗？」，你的预测就好像这个物体是个蓝蛋一样。在第一种情况下，「它是一个蓝蛋吗？」这个问题代表了被伪装的查询：「它该放进哪个箱子？」而在另一种情况下，它代表的则是另一个被伪装的查询：「它会在黑暗中发光吗？」</p><p data-pid="QHufb_mM">现在，假设你面前有一个物体，它是蓝色的、蛋形的，并且含有钯；而且你已经观察到它长有绒毛、有弹性、不透明，且在黑暗中发光。</p><p data-pid="LqWcMlEG">这已经回答了<b>每一个</b>查询，你已经观察了每一个被引入的可观察特征。再也没有留下任何东西，可以供那个伪装的查询去<b>代表</b>了。</p><p data-pid="7ZYP6mDz">那么，为什么还会有人忍不住想要继续争论这个物体<b>到底</b>是不是一个蓝蛋呢？</p><p data-pid="gD3F5ru8">下面这两张来自<a class="wrap external" href="https://www.readthesequences.com/NeuralCategories" rel="nofollow noreferrer noopener" target="_blank">神经类别</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="神经类别" data-url="https://zhuanlan.zhihu.com/p/2050999897550223000">[2]</sup>一文的图表，展示了两种可能被用来回答关于蓝蛋和红方问题的神经网络。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-original="https://pic1.zhimg.com/v2-9a37f719e216483ba877f5f7cf570f56_r.jpg" data-original-token="v2-9a37f719e216483ba877f5f7cf570f56" data-rawheight="453" data-rawwidth="562" data-size="normal" src="https://pic1.zhimg.com/v2-9a37f719e216483ba877f5f7cf570f56_1440w.jpg" width="562"/><figcaption>网络 1 </figcaption></figure><p class="ztext-empty-paragraph"><br/></p><p data-pid="sAVY0-c0">网络 1 有很多缺点——比如可能会产生震荡或混沌行为，或者需要 <i>O</i>(N²) 的连接数——但是，网络 1 的结构确实有一个比网络 2 强得多的优势：网络中的每一个单元（节点）都对应着一个可以被测试的查询。如果你观察了每一个可观察特征，并把每一个值都固定（clamp）下来，网络中就不会再有任何剩余的、未确定的单元了。</p><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-original="https://pic1.zhimg.com/v2-0e371eb8340b9e228a09e8c9e1538f2e_r.jpg" data-original-token="v2-0e371eb8340b9e228a09e8c9e1538f2e" data-rawheight="453" data-rawwidth="562" data-size="normal" src="https://pic1.zhimg.com/v2-0e371eb8340b9e228a09e8c9e1538f2e_1440w.jpg" width="562"/><figcaption>网络 2 </figcaption></figure><p data-pid="bWdJr8sh">然而，网络 2 更有可能是一种大致接近人类大脑工作方式的模型：它运算快、成本低、可扩展性强——并且在中心有一个额外悬挂着的游离单元，即使我们在观察了周围每一个节点（特征）之后，它的激活状态仍然可以存在变化。</p><p data-pid="F7hPsDuz">也就是说，即使你已经知道了这个物体是蓝色还是红色、是蛋形还是立方体、是多毛还是光滑、是明亮还是黯淡、是含有钒还是钯，你依然<b>感觉</b>好像留下了一个未解之谜：「但它到底是不是一个蓝蛋呢？」</p><p data-pid="Qf6U7Q83">通常情况下，在我们的日常经验中，空气的声波振动和大脑的听觉体验是相伴而生的。但是，一棵倒在荒无人烟森林里的树，解开了这种常见的关联捆绑。于是，即使你明明知道这棵倒下的树产生了声波振动但没有产生听觉体验，你依然<b>感觉</b>好像留下了一个问题：「它到底发出声音了吗？」</p><p data-pid="dXcOfpJh">我们知道冥王星在哪里，以及它的运行轨道；我们知道冥王星的形状，也知道它的质量——但它是一颗行星吗？</p><p data-pid="t2qWtBND">请记住：当你看网络 2 时，就像我把它展现在这里一样，你是在从<b>外部</b>看待这个算法。人们在思考时绝不会想，「中心单元该触发还是不触发？」这就好比你绝对不会想，「我视觉皮层里的第 12,234,320,242 号神经元该触发还是不触发？」一样。</p><p data-pid="RQCR1M_g">你需要刻意地努力，才能从外部视角去想象你的大脑——而且，即便如此，你依然看不到你实际的大脑；你想象出来的，只是你<b>认为</b>大脑里存在的东西。哪怕你是基于科学原理去想象的，不管怎样，你也无法通过内省（introspection）直接触及神经网络的结构。这就是为什么古希腊人没能发明计算神经科学的原因。</p><p data-pid="w4dY-Lu6">当你看网络 2 时，你是在从<b>外部</b>看它；但是，如果你自己<b>就是</b>一个正在运行那个算法的大脑，那种神经网络结构从<b>内部</b>感觉起来的方式就是：即使你已经知道了这个物体的每一个特征，你依然会发现自己在想：「但它到底是不是一个蓝蛋？」</p><p data-pid="dzHBnw2k">这是一道难以跨越的巨大鸿沟，我曾亲眼目睹它让无数人停滞不前。因为我们不会本能地把我们的直觉看作是「直觉」，我们只会把它们当成「现实世界」本身。当你看着一个绿色的杯子时，你不会认为自己看到的是在视觉皮层中重构出来的一幅画面——尽管这<b>确实</b>就是你正在看的——你只是看到一个绿色的杯子而已。你会想：「瞧，这个杯子是绿色的」，而不是想：「我的视觉皮层里呈现的关于这个杯子的画面是绿色的。」</p><p data-pid="HPHi5umC">同样的道理，当人们在争论倒下的树是否发出了声音，或者冥王星是否是一颗行星时，他们并不认为自己是在争论：自己的神经网络中某个用来分类的中心节点是否应该被激活。在他们看来，事情就是非黑即白的：树要么发出了声音，要么没有。</p><p data-pid="6OydglpJ">我们知道冥王星在哪里，知道它的轨道；我们知道冥王星的形状和质量——但它是一颗行星吗？没错，有人确实会说这是一场关于定义的争论——但即使是这种说法，也是从网络 2 的视角出发的，因为你依然是在争论中心单元究竟该如何进行逻辑接线。如果你是一个按照网络 1 的架构构建出来的心智，你就不会说「这取决于你如何定义『行星』」，你只会说，「既然我们已经知道了冥王星的轨道、形状和质量，那就没有任何问题可问了。」或者更准确地说，如果你是一个按照网络 1 构建的心智，这就会是你内心的<b>感觉</b>——你就是会<b>感觉</b>没有留下任何问题。</p><p data-pid="YkQJzwJn">在你能够开始质疑自己的直觉之前，你必须首先意识到，你心灵之眼正在注视着的，本身就是一种直觉——也就是某种从内部被体验到的认知算法——而不是对「事物真实本来面貌」（the Way Things Really Are）的直接感知。</p><p data-pid="VDU4kQKM">我认为，人们之所以<a class="wrap external" href="https://www.greaterwrong.com/lw/n1/allais_malaise/" rel="nofollow noreferrer noopener" target="_blank">死守着他们的直觉不放</a>，与其说是他们坚信自己的认知算法绝对可靠，不如说是因为他们无法将自己的直觉，看作是<b>他们的认知算法从内部碰巧呈现出来的样子</b>。</p><p data-pid="d81A92rJ">正因如此，你试图向他们解释人类原生的认知算法是如何走入歧途的任何话语，最终都会被拿去与他们对「事物真实本来面貌」的直接感知相对比——然后作为明显荒谬的谬论被抛弃。</p><hr/><p data-pid="eN_n8-hM">上一篇：</p><a class="internal" data-draft-cover="https://pica.zhimg.com/v2-9a37f719e216483ba877f5f7cf570f56.jpg?source=7e7ef6e2&amp;needBackground=1" data-draft-node="block" data-draft-title="神经类别" data-draft-type="link-card" href="./2050999897550223000.html" rel="noopener noreferrer" target="_blank">神经类别</a><p data-pid="nEXGdTNM">下一篇：</p><a class="internal" data-draft-cover="https://picx.zhimg.com/v2-21d5613945c1eacbeb903cb9b7619d4d.jpg?source=7e7ef6e2&amp;needBackground=1" data-draft-node="block" data-draft-title="争论定义" data-draft-type="link-card" href="./2051788159038576630.html" rel="noopener noreferrer" target="_blank">争论定义</a><hr/><blockquote data-pid="yd0pJwt_"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 gemini-3.1-pro，校对 Jarrett Ye<br/>原文：<a class="wrap external" href="https://www.readthesequences.com/How-An-Algorithm-Feels-From-Inside" rel="nofollow noreferrer noopener" target="_blank">How An Algorithm Feels From Inside</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 伪装的查询 <a href="./2050519448814195814.html" target="_blank" rel="noopener noreferrer">./2050519448814195814.html</a><br>2. 神经类别 <a href="./2050999897550223000.html" target="_blank" rel="noopener noreferrer">./2050999897550223000.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：理性 &amp; 克服偏见</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

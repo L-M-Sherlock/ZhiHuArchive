@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>互信息与事物空间中的密度 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="互信息与事物空间中的密度 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://l-m-sherlock.github.io/ZhiHuArchive/2059600041661272639.html">
+<meta property="og:image" content="https://picx.zhimg.com/v2-3c9b77495449d8edb5204982901b96be_720w.jpg?source=172ae18b">
+<meta property="og:description" content="假设你有一个系统 X，它可以处于 8 种状态中的任何一种，且这些状态（相对于你当前的知识状态而言）出现的概率是相等的；还有另一个系统 Y，它可以处于 4 种状态中的任何一种，且概率同样相等。正如上一篇文章所定义的，X 的熵是 3 比特；我们需要提出 3 个…">
+<meta name="description" content="假设你有一个系统 X，它可以处于 8 种状态中的任何一种，且这些状态（相对于你当前的知识状态而言）出现的概率是相等的；还有另一个系统 Y，它可以处于 4 种状态中的任何一种，且概率同样相等。正如上一篇文章所定义的，X 的熵是 3 比特；我们需要提出 3 个…">
+<meta data-pagefind-meta="title" content="互信息与事物空间中的密度">
+<meta data-pagefind-meta="image" content="https://picx.zhimg.com/v2-3c9b77495449d8edb5204982901b96be_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="互信息与事物空间中的密度 | ZhiHu Archive">
+<meta name="twitter:description" content="假设你有一个系统 X，它可以处于 8 种状态中的任何一种，且这些状态（相对于你当前的知识状态而言）出现的概率是相等的；还有另一个系统 Y，它可以处于 4 种状态中的任何一种，且概率同样相等。正如上一篇文章所定义的，X 的熵是 3 比特；我们需要提出 3 个…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="canonical" href="https://l-m-sherlock.github.io/ZhiHuArchive/2059600041661272639.html">
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"互信息与事物空间中的密度","description":"假设你有一个系统 X，它可以处于 8 种状态中的任何一种，且这些状态（相对于你当前的知识状态而言）出现的概率是相等的；还有另一个系统 Y，它可以处于 4 种状态中的任何一种，且概率同样相等。正如上一篇文章所定义的，X 的熵是 3 比特；我们需要提出 3 个…","author":{"@type":"Person","name":"Thoughts Memo","url":"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0"},"datePublished":"2026-07-12T11:35:26+08:00","dateModified":"2026-07-22T10:30:31+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://l-m-sherlock.github.io/ZhiHuArchive/2059600041661272639.html"},"url":"https://l-m-sherlock.github.io/ZhiHuArchive/2059600041661272639.html","isPartOf":{"@type":"WebSite","name":"ZhiHu Archive for Thoughts Memo","url":"https://l-m-sherlock.github.io/ZhiHuArchive/"},"image":["https://picx.zhimg.com/v2-3c9b77495449d8edb5204982901b96be_720w.jpg?source=172ae18b"]}</script>
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/2059600041661272639");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+.archive-restoration-notice {
+margin: 1.25em 0;
+padding: 0.75em 1em;
+border-left: 4px solid #ea580c;
+background: #fff7ed;
+color: #7c2d12;
+}
+.archive-restoration-notice p {
+margin: 0.35em 0 0;
+}
+.archive-restored-content {
+padding-left: 0.85em;
+border-left: 4px solid #f97316;
+background: #fff7ed;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://picx.zhimg.com/v2-3c9b77495449d8edb5204982901b96be_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/2059600041661272639" target="_blank" rel="noopener noreferrer">互信息与事物空间中的密度</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pic1.zhimg.com/v2-c8dfe8a8e10713e1b094c7bba877d200_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2026-07-12T03:35:26">发表于 2026年07月12日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">20 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+
+<p data-pid="HSQUcBwr">假设你有一个系统 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/>，它可以处于 <img alt="8" eeimg="1" src="https://www.zhihu.com/equation?tex=8"/> 种状态中的任何一种，且这些状态（相对于你当前的知识状态而言）出现的概率是相等的；还有另一个系统 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/>，它可以处于 <img alt="4" eeimg="1" src="https://www.zhihu.com/equation?tex=4"/> 种状态中的任何一种，且概率同样相等。正如上一篇文章所定义的，<img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 的熵是 <img alt="3" eeimg="1" src="https://www.zhihu.com/equation?tex=3"/> 比特；我们需要提出 <img alt="3" eeimg="1" src="https://www.zhihu.com/equation?tex=3"/> 个是非题才能找出 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 的确切状态。<img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 的熵则是 <img alt="2" eeimg="1" src="https://www.zhihu.com/equation?tex=2"/> 比特；我们必须提出 <img alt="2" eeimg="1" src="https://www.zhihu.com/equation?tex=2"/> 个是非题才能找出 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 的确切状态。这似乎显而易见，因为 <img alt="2^3 = 8" eeimg="1" src="https://www.zhihu.com/equation?tex=2%5E3+%3D+8"/> 且 <img alt="2^2 = 4" eeimg="1" src="https://www.zhihu.com/equation?tex=2%5E2+%3D+4"/>，所以 <img alt="3" eeimg="1" src="https://www.zhihu.com/equation?tex=3"/> 个问题足以区分 <img alt="8" eeimg="1" src="https://www.zhihu.com/equation?tex=8"/> 种可能性，<img alt="2" eeimg="1" src="https://www.zhihu.com/equation?tex=2"/> 个问题足以区分 <img alt="4" eeimg="1" src="https://www.zhihu.com/equation?tex=4"/> 种可能性。但请记住，如果这些可能性的概率并非全部相等，我们本可以使用更聪明的编码方案，比如平均只用 <img alt="1.75" eeimg="1" src="https://www.zhihu.com/equation?tex=1.75"/> 个问题就能发现 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 的状态。不过在这个例子中，<img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 的<b>概率质量</b>均匀地分布在它的所有可能状态上，<img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 也是如此，所以我们无法使用任何聪明的编码技巧。</p><p data-pid="rCzNMmU_">那么，组合系统 <img alt="(X, Y)" eeimg="1" src="https://www.zhihu.com/equation?tex=%28X%2C+Y%29"/> 的熵是多少呢？</p><p data-pid="D-28JIkf">你可能忍不住会回答：「既然找出 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 需要 <img alt="3" eeimg="1" src="https://www.zhihu.com/equation?tex=3"/> 个问题，然后找出 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 需要 <img alt="2" eeimg="1" src="https://www.zhihu.com/equation?tex=2"/> 个问题，那么找出 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 和 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 的状态总共就需要 <img alt="5" eeimg="1" src="https://www.zhihu.com/equation?tex=5"/> 个问题。」</p><p data-pid="OFOLwo56">但是，如果这两个变量是相互关联（纠缠）的，以至于得知 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 的状态就能让我们推断出一些关于 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 状态的信息呢？</p><p data-pid="3_pO2N6L">具体来说，假设 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 和 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 要么同时为奇数，要么同时为偶数。</p><p data-pid="EVqbX4Sw">现在，如果我们接收到一条 <img alt="3" eeimg="1" src="https://www.zhihu.com/equation?tex=3"/> 比特的信息（即问了 <img alt="3" eeimg="1" src="https://www.zhihu.com/equation?tex=3"/> 个问题）并得知 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 处于状态 <img alt="X_5" eeimg="1" src="https://www.zhihu.com/equation?tex=X_5"/>（奇数），我们就立刻知道 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 必然处于状态 <img alt="Y_1" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_1"/> 或 <img alt="Y_3" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_3"/>，而绝对不可能是 <img alt="Y_2" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_2"/> 或 <img alt="Y_4" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_4"/>。因此，只需额外追加一个问题：「<img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 是处于状态 <img alt="Y_3" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_3"/> 吗？」，如果回答是「不」，我们便掌握了 <img alt="(X, Y)" eeimg="1" src="https://www.zhihu.com/equation?tex=%28X%2C+Y%29"/> 的完整状态：<img alt="X = X_5" eeimg="1" src="https://www.zhihu.com/equation?tex=X+%3D+X_5"/>，<img alt="Y = Y_1" eeimg="1" src="https://www.zhihu.com/equation?tex=Y+%3D+Y_1"/>。我们总共只用了 <img alt="4" eeimg="1" src="https://www.zhihu.com/equation?tex=4"/> 个问题就查明了真相。</p><p data-pid="iw47t_GU">反过来看，如果我们用两个问题得知 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 处于状态 <img alt="Y_4" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_4"/>（偶数），我们也只需额外再问两个问题，就能得知 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 究竟是处于 <img alt="X_2" eeimg="1" src="https://www.zhihu.com/equation?tex=X_2"/>、<img alt="X_4" eeimg="1" src="https://www.zhihu.com/equation?tex=X_4"/>、<img alt="X_6" eeimg="1" src="https://www.zhihu.com/equation?tex=X_6"/> 还是 <img alt="X_8" eeimg="1" src="https://www.zhihu.com/equation?tex=X_8"/>。同样，只需 <img alt="4" eeimg="1" src="https://www.zhihu.com/equation?tex=4"/> 个问题就能弄清楚这个联合系统的状态。</p><p data-pid="W3ydCg1d">两个变量的<b>互信息</b>（mutual information）定义为：独立系统的熵之和与联合系统的熵之间的差值，即：</p><p data-pid="ZHqFk_vB"><img alt="I(X; Y) = H(X) + H(Y) - H(X, Y)" eeimg="2" src="https://www.zhihu.com/equation?tex=I%28X%3B+Y%29+%3D+H%28X%29+%2B+H%28Y%29+-+H%28X%2C+Y%29"/></p><p data-pid="a7dkW-_J">在这个例子中，两个系统之间存在 <img alt="1" eeimg="1" src="https://www.zhihu.com/equation?tex=1"/> 比特的互信息：得知 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 能告诉我们关于 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 的 <img alt="1" eeimg="1" src="https://www.zhihu.com/equation?tex=1"/> 比特信息（将可能性空间从 <img alt="4" eeimg="1" src="https://www.zhihu.com/equation?tex=4"/> 种缩减为 <img alt="2" eeimg="1" src="https://www.zhihu.com/equation?tex=2"/> 种，即可能性体积减半），而得知 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 也能告诉我们关于 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 的 <img alt="1" eeimg="1" src="https://www.zhihu.com/equation?tex=1"/> 比特信息（将可能性空间从 <img alt="8" eeimg="1" src="https://www.zhihu.com/equation?tex=8"/> 种缩减为 <img alt="4" eeimg="1" src="https://www.zhihu.com/equation?tex=4"/> 种）。</p><p data-pid="B-ircHEX">当概率质量分布不均匀时情况又如何呢？例如，在上一篇文章中，我们讨论了 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 的四种状态概率分别为 <img alt="1/2" eeimg="1" src="https://www.zhihu.com/equation?tex=1%2F2"/>、<img alt="1/4" eeimg="1" src="https://www.zhihu.com/equation?tex=1%2F4"/>、<img alt="1/8" eeimg="1" src="https://www.zhihu.com/equation?tex=1%2F8"/>、<img alt="1/8" eeimg="1" src="https://www.zhihu.com/equation?tex=1%2F8"/> 的情况。让我们将其视为独立考虑时，我们在 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 上的概率分布——如果只观察 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 而不看其他任何东西，这就是我们预期的结果。再假设变量 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 有两个状态，<img alt="Z_1" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_1"/> 和 <img alt="Z_2" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_2"/>，概率分别为 <img alt="3/8" eeimg="1" src="https://www.zhihu.com/equation?tex=3%2F8"/> 和 <img alt="5/8" eeimg="1" src="https://www.zhihu.com/equation?tex=5%2F8"/>。</p><p data-pid="jjbasF_v">那么，当且仅当 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 和 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 的联合分布如下表所示时，<img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 和 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 之间的互信息为零：</p><p data-pid="AHtf2Gks">| <img alt="Z_1 Y_1: 3/16" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_1+Y_1%3A+3%2F16"/> | <img alt="Z_1 Y_2: 3/32" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_1+Y_2%3A+3%2F32"/> | <img alt="Z_1 Y_3: 3/64" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_1+Y_3%3A+3%2F64"/> | <img alt="Z_1 Y_4: 3/64" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_1+Y_4%3A+3%2F64"/>   | </p><p data-pid="i0kFmDgH">| <img alt="Z_2 Y_1: 5/16" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_2+Y_1%3A+5%2F16"/> | <img alt="Z_2 Y_2: 5/32" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_2+Y_2%3A+5%2F32"/> | <img alt="Z_2 Y_3: 5/64" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_2+Y_3%3A+5%2F64"/> | <img alt="Z_2 Y_4: 5/64" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_2+Y_4%3A+5%2F64"/> . |</p><p data-pid="zS9wYOLZ">这个分布完全遵循以下法则：</p><p data-pid="R1fA5wmL"><img alt="P(Y, Z) = P(Y)P(Z)" eeimg="2" src="https://www.zhihu.com/equation?tex=P%28Y%2C+Z%29+%3D+P%28Y%29P%28Z%29"/></p><p data-pid="pDo96jVP">例如，<img alt="P(Z_1 Y_2) = P(Z_1)P(Y_2) = 3/8 \times 1/4 = 3/32" eeimg="1" src="https://www.zhihu.com/equation?tex=P%28Z_1+Y_2%29+%3D+P%28Z_1%29P%28Y_2%29+%3D+3%2F8+%5Ctimes+1%2F4+%3D+3%2F32"/>。</p><p data-pid="yIH249kw">请注意，我们只需查看联合分布，就能还原出 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 和 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 各自的边缘概率（独立概率）：</p><p data-pid="MXKqqbzz"><img alt="P(Y_1) = \text{所有能让 } Y_1 \text{ 发生的不同情况的总概率}" eeimg="2" src="https://www.zhihu.com/equation?tex=P%28Y_1%29+%3D+%5Ctext%7B%E6%89%80%E6%9C%89%E8%83%BD%E8%AE%A9+%7D+Y_1+%5Ctext%7B+%E5%8F%91%E7%94%9F%E7%9A%84%E4%B8%8D%E5%90%8C%E6%83%85%E5%86%B5%E7%9A%84%E6%80%BB%E6%A6%82%E7%8E%87%7D"/></p><p data-pid="BY2I375_"><img alt="P(Y_1) = P(Z_1 Y_1) + P(Z_2 Y_1)" eeimg="2" src="https://www.zhihu.com/equation?tex=P%28Y_1%29+%3D+P%28Z_1+Y_1%29+%2B+P%28Z_2+Y_1%29"/></p><p data-pid="NRECmKiI"><img alt="P(Y_1) = 3/16 + 5/16" eeimg="2" src="https://www.zhihu.com/equation?tex=P%28Y_1%29+%3D+3%2F16+%2B+5%2F16"/></p><p data-pid="d-j4HlLn"><img alt="P(Y_1) = 1/2" eeimg="2" src="https://www.zhihu.com/equation?tex=P%28Y_1%29+%3D+1%2F2"/></p><p data-pid="5oVwzi6X">因此，只需审视联合分布，我们就能确定边缘变量 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 和 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 是否相互独立；也就是说，联合分布是否能被分解（因子化）为边缘分布的乘积；对于所有的 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 和 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/>，是否都满足 <img alt="P(Y, Z) = P(Y)P(Z)" eeimg="1" src="https://www.zhihu.com/equation?tex=P%28Y%2C+Z%29+%3D+P%28Y%29P%28Z%29"/>。</p><p data-pid="z7IT-bBk">最后一点至关重要，因为根据<a class="wrap external" href="https://www.readthesequences.com/AnIntuitiveExplanationOfBayessTheorem" rel="nofollow noreferrer noopener" target="_blank">贝叶斯定理</a>：</p><p data-pid="mvewkAAP"><img alt="P(Z_j Y_i) = P(Y_i)P(Z_j)" eeimg="2" src="https://www.zhihu.com/equation?tex=P%28Z_j+Y_i%29+%3D+P%28Y_i%29P%28Z_j%29"/></p><p data-pid="8c3ojQ6J"><img alt="P(Z_j Y_i) / P(Z_j) = P(Y_i)" eeimg="2" src="https://www.zhihu.com/equation?tex=P%28Z_j+Y_i%29+%2F+P%28Z_j%29+%3D+P%28Y_i%29"/></p><p data-pid="x2-ZmOEy"><img alt="P(Y_i | Z_j) = P(Y_i)" eeimg="2" src="https://www.zhihu.com/equation?tex=P%28Y_i+%7C+Z_j%29+%3D+P%28Y_i%29"/></p><p data-pid="E0q3qb5c">用大白话来说就是：「在你得知了 <img alt="Z_j" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_j"/> 之后，你对 <img alt="Y_i" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_i"/> 的信念（概率预期）依然和以前完全一样。」</p><p data-pid="lHdJj-GC">所以，当分布可分解时——即当 <img alt="P(Y, Z) = P(Y)P(Z)" eeimg="1" src="https://www.zhihu.com/equation?tex=P%28Y%2C+Z%29+%3D+P%28Y%29P%28Z%29"/> 时——这等同于在说：「得知关于 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 的信息永远不会告诉我们任何关于 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 的信息，反之亦然。」</p><p data-pid="dMJ1JSDm">由此你可能会顺理成章地怀疑：<img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 和 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 之间不存在任何互信息。正是如此。没有互信息的地方，就不存在贝叶斯证据，反之亦然。</p><p data-pid="i27HD2x_">假设在上述 <img alt="(Y, Z)" eeimg="1" src="https://www.zhihu.com/equation?tex=%28Y%2C+Z%29"/> 分布中，我们将 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 和 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 的每种可能组合视为一个单独的事件——这样分布 <img alt="(Y, Z)" eeimg="1" src="https://www.zhihu.com/equation?tex=%28Y%2C+Z%29"/> 总共就有 <img alt="8" eeimg="1" src="https://www.zhihu.com/equation?tex=8"/> 种可能性，且概率如上表所示——然后，我们用计算任何分布熵的标准方法，来计算分布 <img alt="(Y, Z)" eeimg="1" src="https://www.zhihu.com/equation?tex=%28Y%2C+Z%29"/> 的熵：</p><p data-pid="3cVpvFZ5"><img alt=" P(Z_1 Y_1)\log_2(P(Z_1 Y_1)) + P(Z_1 Y_2)\log_2(P(Z_1 Y_2)) + P(Z_1 Y_3)\log_2(P(Z_1 Y_3)) + \dots + P(Z_2 Y_4)\log_2(P(Z_2 Y_4)) " eeimg="2" src="https://www.zhihu.com/equation?tex=+P%28Z_1+Y_1%29%5Clog_2%28P%28Z_1+Y_1%29%29+%2B+P%28Z_1+Y_2%29%5Clog_2%28P%28Z_1+Y_2%29%29+%2B+P%28Z_1+Y_3%29%5Clog_2%28P%28Z_1+Y_3%29%29+%2B+%5Cdots+%2B+P%28Z_2+Y_4%29%5Clog_2%28P%28Z_2+Y_4%29%29+"/></p><p data-pid="CtBCotyD"><img alt=" = (3/16)\log_2(3/16) + (3/32)\log_2(3/32) + (3/64)\log_2(3/64) + \dots + (5/64)\log_2(5/64) " eeimg="2" src="https://www.zhihu.com/equation?tex=+%3D+%283%2F16%29%5Clog_2%283%2F16%29+%2B+%283%2F32%29%5Clog_2%283%2F32%29+%2B+%283%2F64%29%5Clog_2%283%2F64%29+%2B+%5Cdots+%2B+%285%2F64%29%5Clog_2%285%2F64%29+"/></p><p data-pid="E9Hz8T8g">你最终计算出的总和，将与你分别计算 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 的熵和 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 的熵然后相加所得的结果完全相同。这两个变量之间没有互信息，因此我们对这个联合系统的不确定性，丝毫没有少于我们把两个系统分开考虑时的不确定性。（我在这里省略了计算过程，但欢迎你自己动手算算；我也省略了这是一条普遍真理的数学证明，但欢迎你谷歌搜索「香农熵」和「互信息」。）</p><p data-pid="MwIj0-D8">那如果联合分布不可分解呢？例如：</p><p data-pid="0ghcvU-V">| <img alt="Z_1 Y_1: 12/64" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_1+Y_1%3A+12%2F64"/> | <img alt="Z_1 Y_2: 8/64" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_1+Y_2%3A+8%2F64"/> | <img alt="Z_1 Y_3: 1/64" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_1+Y_3%3A+1%2F64"/> | <img alt="Z_1 Y_4: 3/64" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_1+Y_4%3A+3%2F64"/>   | </p><p data-pid="MLUv2Vi4">| <img alt="Z_2 Y_1: 20/64" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_2+Y_1%3A+20%2F64"/> | <img alt="Z_2 Y_2: 8/64" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_2+Y_2%3A+8%2F64"/> | <img alt="Z_2 Y_3: 7/64" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_2+Y_3%3A+7%2F64"/> | <img alt="Z_2 Y_4: 5/64" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_2+Y_4%3A+5%2F64"/> . |</p><p data-pid="uyvcC-Qc">如果你把联合概率相加求边缘概率，你会发现 <img alt="P(Y_1) = 1/2" eeimg="1" src="https://www.zhihu.com/equation?tex=P%28Y_1%29+%3D+1%2F2"/>，<img alt="P(Z_1) = 3/8" eeimg="1" src="https://www.zhihu.com/equation?tex=P%28Z_1%29+%3D+3%2F8"/>，依此类推——边缘概率和之前完全一样。</p><p data-pid="tFo9wDVQ">但是，联合概率并不总是等于边缘概率的乘积。例如，概率 <img alt="P(Z_1 Y_2)" eeimg="1" src="https://www.zhihu.com/equation?tex=P%28Z_1+Y_2%29"/> 等于 <img alt="8/64" eeimg="1" src="https://www.zhihu.com/equation?tex=8%2F64"/>，而 <img alt="P(Z_1)P(Y_2)" eeimg="1" src="https://www.zhihu.com/equation?tex=P%28Z_1%29P%28Y_2%29"/> 算出来应该是 <img alt="3/8 \times 1/4 = 6/64" eeimg="1" src="https://www.zhihu.com/equation?tex=3%2F8+%5Ctimes+1%2F4+%3D+6%2F64"/>。也就是说，<img alt="Z_1" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_1"/> 和 <img alt="Y_2" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_2"/> 结伴出现的概率，<b>大于</b>你根据它们各自单独出现的概率所做出的预期。</p><p data-pid="K4JXBX5U">这反过来意味着：</p><p data-pid="_RKIRaP4"><img alt="P(Z_1 Y_2) &gt; P(Z_1)P(Y_2)" eeimg="2" src="https://www.zhihu.com/equation?tex=P%28Z_1+Y_2%29+%3E+P%28Z_1%29P%28Y_2%29"/></p><p data-pid="5yrkrjyf"><img alt="P(Z_1 Y_2) / P(Y_2) &gt; P(Z_1)" eeimg="2" src="https://www.zhihu.com/equation?tex=P%28Z_1+Y_2%29+%2F+P%28Y_2%29+%3E+P%28Z_1%29"/></p><p data-pid="dQqD_e6Z"><img alt="P(Z_1 | Y_2) &gt; P(Z_1)" eeimg="2" src="https://www.zhihu.com/equation?tex=P%28Z_1+%7C+Y_2%29+%3E+P%28Z_1%29"/></p><p data-pid="A36f5tPf">由于 <img alt="P(Z_1 Y_2)" eeimg="1" src="https://www.zhihu.com/equation?tex=P%28Z_1+Y_2%29"/> 的概率「异常地高」——也就是高于边缘概率默认指示的值——由此可知，观察到 <img alt="Y_2" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_2"/> 就构成了能够增加 <img alt="Z_1" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_1"/> 发生概率的证据。根据对称性推导，观察到 <img alt="Z_1" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_1"/> 也必定会增加对 <img alt="Y_2" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_2"/> 的预期。</p><p data-pid="eGm4a40c">既然至少存在某些 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 的值能为我们提供关于 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 的信息（反之亦然），那么这两个变量之间就必定存在互信息；因此你会发现——我对此充满信心，尽管我没去实际验算——计算 <img alt="(Y, Z)" eeimg="1" src="https://www.zhihu.com/equation?tex=%28Y%2C+Z%29"/> 的熵所得到的总不确定性，将小于 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 和 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 各自独立熵的总和。也就是说，<img alt="H(Y, Z) = H(Y) + H(Z) - I(Y; Z)" eeimg="1" src="https://www.zhihu.com/equation?tex=H%28Y%2C+Z%29+%3D+H%28Y%29+%2B+H%28Z%29+-+I%28Y%3B+Z%29"/>，其中所有变量必然都是正数。</p><p data-pid="ROFDPBwB">（在这里我稍微偏个题：互信息表达式的对称性表明，平均而言，<img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 告诉我们关于 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 的信息量，<b>必然</b>等于 <img alt="Z" eeimg="1" src="https://www.zhihu.com/equation?tex=Z"/> 告诉我们关于 <img alt="Y" eeimg="1" src="https://www.zhihu.com/equation?tex=Y"/> 的信息量。至于这该如何与你在逻辑学课上学到的「如果所有的乌鸦都是黑色的，允许你推导 <img alt="\text{乌鸦}(x) \Rightarrow \text{黑色}(x)" eeimg="1" src="https://www.zhihu.com/equation?tex=%5Ctext%7B%E4%B9%8C%E9%B8%A6%7D%28x%29+%5CRightarrow+%5Ctext%7B%E9%BB%91%E8%89%B2%7D%28x%29"/> ，并不意味着允许你反向推导 <img alt="\text{黑色}(x) \Rightarrow \text{乌鸦}(x)" eeimg="1" src="https://www.zhihu.com/equation?tex=%5Ctext%7B%E9%BB%91%E8%89%B2%7D%28x%29+%5CRightarrow+%5Ctext%7B%E4%B9%8C%E9%B8%A6%7D%28x%29"/>」相调和，我把这个问题留给读者作为练习。贝叶斯那对称的概率流转，与形式逻辑那生硬断裂的跳跃相比，看起来是多么截然不同啊——尽管后者其实只是前者的一种退化形式。）</p><p data-pid="wmYfi8fd">「但是，」你肯定想问，「所有这些数学推导跟如何正确使用词汇有什么关系呢？」</p><p data-pid="Na_PyTG0">在<a class="wrap external" href="https://www.readthesequences.com/EmptyLabels" rel="nofollow noreferrer noopener" target="_blank">《空标签》</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="空标签" data-url="https://zhuanlan.zhihu.com/p/2053166730122360454">[1]</sup>以及随后的<a class="wrap external" href="https://www.readthesequences.com/ReplaceTheSymbolWithTheSubstance" rel="nofollow noreferrer noopener" target="_blank">《用实质代替符号》</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="用实质代替符号" data-url="https://zhuanlan.zhihu.com/p/2054864033602393512">[2]</sup>这两篇文章中，我们见识了用定义去替换词语的技巧——那里给出的例子是：</p><blockquote data-pid="kqkTPbsY"> 所有 [必死的、<img alt="\neg" eeimg="1" src="https://www.zhihu.com/equation?tex=%5Cneg"/>羽毛的、两足的] 都是必死的。<br/> 苏格拉底是一个 [必死的、<img alt="\neg" eeimg="1" src="https://www.zhihu.com/equation?tex=%5Cneg"/>羽毛的、两足的]。<br/> 因此，苏格拉底是必死的。</blockquote><p data-pid="-SjEx0aT">那么问题来了，既然如此，你为什么还要给「人类」专门发明一个词呢？为什么不干脆每次都说「苏格拉底是一个必死的无毛两足动物」？</p><p data-pid="rV0j_B2r">因为对于你经常遇到的事物，使用简短的词汇是很有帮助的。如果你用于描述单一属性的编码本身已经足够高效了，那么专门为了一个属性组合去发明一个特殊词汇（比如用「人类」代表「必死的无毛两足动物」），其实毫无优势可言——<b>除非</b>，在现实世界中，那些同时具备「必死」<b>且</b>「无毛」<b>且</b>「两足」属性的事物被发现的频率，远远高出了基于边缘概率的预估。</p><p data-pid="gSZW266n">在高效的编码系统中，词汇的长度与其出现的概率相对应——所以，描述 <img alt="Z_1 Y_2" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_1+Y_2"/> 的代码长度，理应刚好等于描述 <img alt="Z_1" eeimg="1" src="https://www.zhihu.com/equation?tex=Z_1"/> 的代码长度加上描述 <img alt="Y_2" eeimg="1" src="https://www.zhihu.com/equation?tex=Y_2"/> 的代码长度，除非 <img alt="P(Z_1 Y_2) &gt; P(Z_1)P(Y_2)" eeimg="1" src="https://www.zhihu.com/equation?tex=P%28Z_1+Y_2%29+%3E+P%28Z_1%29P%28Y_2%29"/>；只有在这种互信息大于零的情况下，代表这个组合的单词编码，才可以比其各组成部分的编码总和更短。</p><p data-pid="cOW8HyZg">这也就完全对应了这样一种情况：当我们看到了事物的部分属性时，我们能够借此推断出它的其他属性。那么，那些「无毛且两足的」事物碰巧也是「必死的」概率，必定要高于默认情况。</p><p data-pid="gOnGb_i5">当然，「人类」这个词实际上涵盖了成千上万种属性——当你看到一个具备人类外形、会说话、穿着衣服的实体时，你能推断出大量关于它的生化、解剖学和认知事实。如果我们想用对人类已知的一切描述来取代「人类」这个词，我们将不得不耗费无尽的时间来交谈。但这一切之所以成立，<b>仅仅</b>是因为一个无毛的、会说话的两足动物，不仅极大概率会被毒芹毒死，长有宽指甲，而且极大概率还容易过度自信。</p><p data-pid="gcKtJO7B">只有在我们可以通过某些属性去推断其他属性的情况下，为一件事物专门创造一个词语（而不是罗列它的一堆属性），才是一种更紧凑的高效编码。（或许一些极其原始的词汇是个例外，比如「红色」，我们用它来传递关于我们感官体验的一种完全未压缩的描述。但只要你遇到了一只虫子，甚至哪怕是一块石头，你所面对的都已经是不那么简单的属性集合了，其层级远在原始感官之上。）</p><p data-pid="GNn0aX2r">因此，为绿眼睛且黑头发的人专门发明一个词「<a class="wrap external" href="https://www.readthesequences.com/SneakingInConnotations" rel="nofollow noreferrer noopener" target="_blank">wiggin</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="夹带内涵" data-url="https://zhuanlan.zhihu.com/p/2055957959021171732">[3]</sup>」（而不是每次都啰嗦地说是「绿眼睛黑头发的人」），只有在满足以下条件时才是有用的：</p><ol><li data-pid="zaJpsCv5">绿眼睛的人拥有黑头发的概率高于平均水平（反之亦然），这意味着我们可以从黑头发概率性地推断出绿眼睛，反之亦然；<b>或者</b><br/><br/></li><li data-pid="o0nhCTYr">Wiggins（也就是这群人）还共享着其他能够以高于默认概率被推断出来的属性。在这种情况下，我们一开始必须分别观察确认绿眼睛和黑头发的存在；但是，在独立观察到这两个属性之后，我们就能概率性地推断出他们身上的其他属性（比如吃汉堡时爱挤番茄酱的怪癖）。</li></ol><p data-pid="JFkGnpww">我们甚至可以把「定义一个词」的行为，视作包含着这层意思的承诺。当你告诉别人：「我把『wiggin』这个词定义为绿眼睛黑头发的人」时，通过格莱斯语用推涵（Gricean implication），你其实是在断言：「wiggin」这个词在某种程度上能帮你做出有效推断 / 缩短你的信息长度。</p><p data-pid="7oPyePWb">如果绿眼睛和黑头发共同出现的概率并不比默认概率高，而且也没有任何其他属性会以高于默认概率的频率与它们相伴出现，那么「wiggin」这个词就是一个彻头彻尾的谎言：因为这个词声称某类人值得被作为一个特定的群体单独拎出来区分，但事实并非如此。</p><p data-pid="hcnTDshS">在这种情况下，「wiggin」这个词不仅无助于我们更紧凑地描述现实——它并非由试图发送最短信息的理性存在所定义——而且在奥卡姆剃刀的「最简单解释」中毫无立足之地。同理，「wiggin」这个词在进行任何贝叶斯推断时，也无法为你提供半点帮助。即使你不把创造这个词的行为称为谎言，那它至少也是一个错误。</p><p data-pid="GLTlhwPG">而「顺着现实大自然的关节进行切分」的真正方法，正是围绕着在<a class="wrap external" href="https://www.readthesequences.com/TheClusterStructureOfThingspace" rel="nofollow noreferrer noopener" target="_blank">事物空间</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="事物空间" data-url="https://zhuanlan.zhihu.com/p/2050179140419072823">[4]</sup>中存在着<b>异常高概率密度</b>的聚集区，来划定你的分类边界。</p><hr/><p data-pid="_cgs3tWP">总目录：</p><a class="internal" data-draft-cover="" data-draft-node="block" data-draft-title="《理性：从人工智能到僵尸》导读与目录" data-draft-type="link-card" href="./2056344770390373406.html" rel="noopener noreferrer" target="_blank">《理性：从人工智能到僵尸》导读与目录</a><p data-pid="XpPgzuIC">卷：</p><a class="internal" data-draft-cover="" data-draft-node="block" data-draft-title="第三卷：灵魂中的机械" data-draft-type="link-card" href="./2063193105831141740.html" rel="noopener noreferrer" target="_blank">第三卷：灵魂中的机械</a><p data-pid="-WXSINk7">章节：</p><a class="internal" data-draft-cover="" data-draft-node="block" data-draft-title="人类词语指南" data-draft-type="link-card" href="./2062469281753862293.html" rel="noopener noreferrer" target="_blank">人类词语指南</a><p data-pid="jUg0nTPy">上一篇：</p><a class="internal" data-draft-cover="https://picx.zhimg.com/v2-78c6b9788cf9d6999f87b0dcb2d35252.webp?source=7e7ef6e2&amp;needBackground=1" data-draft-node="block" data-draft-title="熵与简短的编码" data-draft-type="link-card" href="./2057779518157370998.html" rel="noopener noreferrer" target="_blank">熵与简短的编码</a><p data-pid="tWO6_p0r">下一篇：</p><a class="internal" data-draft-cover="" data-draft-node="block" data-draft-title="超指数级的概念空间与简单的词语" data-draft-type="link-card" href="./2060303864029615597.html" rel="noopener noreferrer" target="_blank">超指数级的概念空间与简单的词语</a><hr/><blockquote data-pid="yd0pJwt_"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 gemini-3.1-pro，校对 Jarrett Ye<br/>原文：<a class="wrap external" href="https://www.readthesequences.com/Mutual-Information-And-Density-In-Thingspace" rel="nofollow noreferrer noopener" target="_blank">Mutual Information, and Density in Thingspace</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 空标签 <a href="./2053166730122360454.html" target="_blank" rel="noopener noreferrer">./2053166730122360454.html</a><br>2. 用实质代替符号 <a href="./2054864033602393512.html" target="_blank" rel="noopener noreferrer">./2054864033602393512.html</a><br>3. 夹带内涵 <a href="./2055957959021171732.html" target="_blank" rel="noopener noreferrer">./2055957959021171732.html</a><br>4. 事物空间 <a href="./2050179140419072823.html" target="_blank" rel="noopener noreferrer">./2050179140419072823.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：理性 &amp; 克服偏见</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

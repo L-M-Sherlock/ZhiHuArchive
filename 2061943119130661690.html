@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>变量问题谬误 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="变量问题谬误 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://l-m-sherlock.github.io/ZhiHuArchive/2061943119130661690.html">
+<meta property="og:image" content="https://picx.zhimg.com/v2-c14e5c7c8d7338a1e70a5e53d9491a54_720w.jpg?source=172ae18b">
+<meta property="og:description" content="Albert：「每次我听一棵树倒下，它都会发出声音，所以我猜其他倒下的树也会发出声音。我不相信当我不看的时候世界运转的法则就会改变。」 Barry：「等一下。如果没有人听到它，它怎么能是声音呢？」在撰写 Albert 和 Barry 争论「在荒无人烟的森林里倒下的…">
+<meta name="description" content="Albert：「每次我听一棵树倒下，它都会发出声音，所以我猜其他倒下的树也会发出声音。我不相信当我不看的时候世界运转的法则就会改变。」 Barry：「等一下。如果没有人听到它，它怎么能是声音呢？」在撰写 Albert 和 Barry 争论「在荒无人烟的森林里倒下的…">
+<meta data-pagefind-meta="title" content="变量问题谬误">
+<meta data-pagefind-meta="image" content="https://picx.zhimg.com/v2-c14e5c7c8d7338a1e70a5e53d9491a54_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="变量问题谬误 | ZhiHu Archive">
+<meta name="twitter:description" content="Albert：「每次我听一棵树倒下，它都会发出声音，所以我猜其他倒下的树也会发出声音。我不相信当我不看的时候世界运转的法则就会改变。」 Barry：「等一下。如果没有人听到它，它怎么能是声音呢？」在撰写 Albert 和 Barry 争论「在荒无人烟的森林里倒下的…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="canonical" href="https://l-m-sherlock.github.io/ZhiHuArchive/2061943119130661690.html">
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"变量问题谬误","description":"Albert：「每次我听一棵树倒下，它都会发出声音，所以我猜其他倒下的树也会发出声音。我不相信当我不看的时候世界运转的法则就会改变。」 Barry：「等一下。如果没有人听到它，它怎么能是声音呢？」在撰写 Albert 和 Barry 争论「在荒无人烟的森林里倒下的…","author":{"@type":"Person","name":"Thoughts Memo","url":"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0"},"datePublished":"2026-07-18T22:47:06+08:00","dateModified":"2026-07-22T10:30:40+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://l-m-sherlock.github.io/ZhiHuArchive/2061943119130661690.html"},"url":"https://l-m-sherlock.github.io/ZhiHuArchive/2061943119130661690.html","isPartOf":{"@type":"WebSite","name":"ZhiHu Archive for Thoughts Memo","url":"https://l-m-sherlock.github.io/ZhiHuArchive/"},"image":["https://picx.zhimg.com/v2-c14e5c7c8d7338a1e70a5e53d9491a54_720w.jpg?source=172ae18b"]}</script>
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/2061943119130661690");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+.archive-restoration-notice {
+margin: 1.25em 0;
+padding: 0.75em 1em;
+border-left: 4px solid #ea580c;
+background: #fff7ed;
+color: #7c2d12;
+}
+.archive-restoration-notice p {
+margin: 0.35em 0 0;
+}
+.archive-restored-content {
+padding-left: 0.85em;
+border-left: 4px solid #f97316;
+background: #fff7ed;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://picx.zhimg.com/v2-c14e5c7c8d7338a1e70a5e53d9491a54_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/2061943119130661690" target="_blank" rel="noopener noreferrer">变量问题谬误</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-c8dfe8a8e10713e1b094c7bba877d200_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2026-07-18T14:47:06">发表于 2026年07月18日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">14 👍 / 0 💬</p>
+</header>
+<article data-pagefind-body>
+
+<blockquote data-pid="4EPYzW0C">Albert：「每次我听一棵树倒下，它都会发出声音，所以我猜其他倒下的树也会发出声音。我不相信当我不看的时候世界运转的法则就会改变。」<br/> Barry：「等一下。如果没有人听到它，它怎么能是声音呢？」</blockquote><p data-pid="KiLIFwB0">在撰写 Albert 和 Barry 争论「在荒无人烟的森林里倒下的树是否发出声音」的<a class="wrap external" href="https://www.readthesequences.com/DisputingDefinitions" rel="nofollow noreferrer noopener" target="_blank">那段对话</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="争论定义" data-url="https://zhuanlan.zhihu.com/p/2051788159038576630">[1]</sup>时，我有时会发现自己无法再对这两个角色产生共情。我会开始失去直觉层面的理解，不明白为什么会有人<b>真的</b>那样去争辩，尽管我亲眼见过这种事发生很多次。</p><p data-pid="CgqdPpo1">在这些时刻，我会在心里对自己重复：「要么倒下的树发出了声音，要么就没有！」以此来找回那种设身处地的义愤感。</p><p data-pid="3MBTtyvd">然而，如果你把 <img alt="P" eeimg="1" src="https://www.zhihu.com/equation?tex=P"/> 替换成任意一句随意的英语句子，（<img alt="P \lor \neg P" eeimg="1" src="https://www.zhihu.com/equation?tex=P+%5Clor+%5Cneg+P"/>）这套启发式并不总是可靠的。「这句话是假的」就无法被一致地判定为真或假。当然，还有那个古老的经典问题：「你停止打你老婆了吗？」</p><p data-pid="WNBGnatK">现在，如果你是一位数学家，并且恰好相信经典逻辑（而非直觉主义逻辑），你确实有办法继续坚持（<img alt="P \lor \neg P" eeimg="1" src="https://www.zhihu.com/equation?tex=P+%5Clor+%5Cneg+P"/>）是一条定理：比如，你可以说「这句话是假的」根本不配被称为一个句子（命题）。</p><p data-pid="jYEMxhC2">但这种解决方案是非常微妙的，这也足以证明在处理这些问题时我们需要保持微妙的警惕。你不能在任何场合都简单粗暴地硬套那句：「要么是，要么不是！」</p><p data-pid="GF0uRhtc">那么，倒下的树到底有没有发出声音，还是没有，还是说……？</p><p data-pid="AuYdeAe5">毫无疑问，<img alt="2 + 2 = X" eeimg="1" src="https://www.zhihu.com/equation?tex=2+%2B+2+%3D+X"/>，要么成立，要么不成立，对吧？嗯，也许吧，前提是这确实是同一个 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/>、同一个 <img alt="2" eeimg="1" src="https://www.zhihu.com/equation?tex=2"/>，以及同一个 <img alt="+" eeimg="1" src="https://www.zhihu.com/equation?tex=%2B"/> 和 <img alt="=" eeimg="1" src="https://www.zhihu.com/equation?tex=%3D"/>。如果 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 在某些语境下求值为 <img alt="5" eeimg="1" src="https://www.zhihu.com/equation?tex=5"/>，在另一些语境下求值为 <img alt="4" eeimg="1" src="https://www.zhihu.com/equation?tex=4"/>，那你那种非黑即白的义愤感可能就放错地方了。</p><p data-pid="E8TtbTRz">要想理直气壮地宣称（<img alt="P \lor \neg P" eeimg="1" src="https://www.zhihu.com/equation?tex=P+%5Clor+%5Cneg+P"/>）必须是一条绝对真理，符号 <img alt="P" eeimg="1" src="https://www.zhihu.com/equation?tex=P"/> 必须在两难推理的两端都代表<b>完全、绝对</b>相同的事物。「要么树倒下发出了声音，要么没有！」——但如果 <code>Albert::声音</code> 并不等同于 <code>Barry::声音</code>，那么这棵树发出了 <code>Albert::声音</code> 却没发出 <code>Barry::声音</code>，这其中根本没有任何自相矛盾的地方。</p><p data-pid="rtMp4cK0">（「::」这个表达方式是我在写 C++ 代码时为了避免命名空间冲突而学到的一招。如果你有两个不同的软件包都定义了一个 <code>Sound</code> 类，你可以写 <code>Package1::Sound</code> 来明确指定你指的是哪一个 <code>Sound</code>。我想这个表达方式并不广为人知；这挺可惜的，因为我经常希望在写作时能用上它。）</p><p data-pid="HhKAc2Jr">这种变量差异可能是极其微妙的：Albert 和 Barry 可能会小心翼翼地确认这是同一片森林里的同一棵树，并且是同一次倒下的事件，仅仅是为了确保他们针对的是完全相同的客观事件存在实质性的分歧。然后，他们却忘了检查他们是否把这个客观事件与完全相同的心理概念匹配在了一起。</p><p data-pid="sLsz3ARH">想一想你最常去的那家杂货店：它在街道的左边还是右边？但很显然，街道本身并没有什么「绝对的左边」，只有<b>你的</b>左边，这取决于你正沿着街道从哪个方向走来。我们使用的许多词汇，实际上是由上下文提供的隐藏变量的函数。</p><p data-pid="H4kkHSiu">在编写旨在解析自然语言的人工智能程序时，处理这类问题简直是个巨大的麻烦，需要付出巨大的努力——这种现象在语言学上被称为「指示语（deixis）」。</p><p data-pid="KkPKRau1">「Martin 告诉 Bob 那栋建筑在他的左边。」但是「左边」是一个功能词，它的计算结果依赖于一个从周围语境中悄悄抓取的、与说话者（或听话者）相关的变量。这里到底指的是谁的「左边」，Bob 的还是 Martin 的？</p><p data-pid="uptGPST_">在包含隐变量的谬误中，这些变量通常并没有被清晰地标示出来——这不像「嘿，你认为 <img alt="Z + 2" eeimg="1" src="https://www.zhihu.com/equation?tex=Z+%2B+2"/> 等于 <img alt="6" eeimg="1" src="https://www.zhihu.com/equation?tex=6"/> 吗？」这么一目了然。</p><p data-pid="UeKhqjXJ">如果一次<a class="wrap external" href="https://www.readthesequences.com/TabooYourWords" rel="nofollow noreferrer noopener" target="_blank">命名空间冲突</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="设置你的敏感词" data-url="https://zhuanlan.zhihu.com/p/2054686580703498406">[2]</sup>引入了两个不同的概念，但它们因为叫着相同的名字而看起来像「同一个概念」——或者一次<a class="wrap external" href="https://www.readthesequences.com/FallaciesOfCompression" rel="nofollow noreferrer noopener" target="_blank">认知地图的压缩</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="压缩的谬误" data-url="https://zhuanlan.zhihu.com/p/2055264755414218095">[3]</sup>引入了两个不同的事件，但它们因为没有被分在单独的心智文件夹里而看起来像同一个事件——或者同一个函数在不同的语境下被求值——那么，现实本身似乎就变得千变万化、捉摸不定了。至少<a class="wrap external" href="https://www.readthesequences.com/HowAnAlgorithmFeelsFromInside" rel="nofollow noreferrer noopener" target="_blank">从内部感受算法的运作方式</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="一个算法的内部感受" data-url="https://zhuanlan.zhihu.com/p/2051369757249736864">[4]</sup>时，是这种感觉。因为你心灵之眼看到的是认知地图，而不是直接看到疆域本身。</p><p data-pid="gnvMnUTB">如果你面对的是一个带有隐藏变量的问题，该变量在不同的语境下会计算出不同的结果，这就会让你<b>感觉好像</b>现实本身是不稳定的——你心灵之眼看到的东西，会随着它观察角度的变化而四处游移。</p><p data-pid="PhgqXlNi">这经常会让那些发现了一个句子有不止一种解释的本科生（以及后现代主义教授们）感到困惑；他们往往以为自己发现了一块不稳定的现实碎片。</p><p data-pid="hHKSkQiC">「哦，我的天！『太阳绕着地球转』这对狩猎采集时代的 Hunga 来说是真的，但对天文学家 Amara 来说，『太阳绕着地球转』就是假的！世界上根本没有绝对的真理！」对这种一知半解的荒谬言论的解构，就留给读者作为课后练习了。</p><p data-pid="qCtj_m5h">然而，即便是最初的我，也发现自己写下了这样的话：「如果 <img alt="X" eeimg="1" src="https://www.zhihu.com/equation?tex=X"/> 在某些场合是 <img alt="5" eeimg="1" src="https://www.zhihu.com/equation?tex=5"/>，在另一个场合是 <img alt="4" eeimg="1" src="https://www.zhihu.com/equation?tex=4"/>，那么『<img alt="2 + 2 = X" eeimg="1" src="https://www.zhihu.com/equation?tex=2+%2B+2+%3D+X"/>』这句话可能就没有固定的真值。」但这并不意味着存在<b>某一句</b>拥有<b>可变</b>真值的陈述。「<img alt="2 + 2 = X" eeimg="1" src="https://www.zhihu.com/equation?tex=2+%2B+2+%3D+X"/>」本身就<b>没有</b>真值可言。它根本就不是一个<b>命题（proposition）</b>，还不是，至少按照数学家对命题性的定义来说它不是，就像「<img alt="2 + 2 =" eeimg="1" src="https://www.zhihu.com/equation?tex=2+%2B+2+%3D"/>」算不上一个命题，或者「Fred jumped over the」算不上一个完整的语法句子一样。</p><p data-pid="1hZ37Rul">但这恰恰是这种谬误总是能悄悄溜进来的原因，即使你自认为你懂得这背后的原理，因为，嗯，这就是该算法从内部感受起来的样子。</p><hr/><p data-pid="FKT6Aclv">总目录：</p><a class="internal" data-draft-cover="" data-draft-node="block" data-draft-title="《理性：从人工智能到僵尸》导读与目录" data-draft-type="link-card" href="./2056344770390373406.html" rel="noopener noreferrer" target="_blank">《理性：从人工智能到僵尸》导读与目录</a><p data-pid="dLtwODgo">卷：</p><a class="internal" data-draft-cover="" data-draft-node="block" data-draft-title="第三卷：灵魂中的机械" data-draft-type="link-card" href="./2063193105831141740.html" rel="noopener noreferrer" target="_blank">第三卷：灵魂中的机械</a><p data-pid="Hk96oQeC">章节：</p><a class="internal" data-draft-cover="" data-draft-node="block" data-draft-title="人类词语指南" data-draft-type="link-card" href="./2062469281753862293.html" rel="noopener noreferrer" target="_blank">人类词语指南</a><p data-pid="a--K_ekH">上一篇：</p><a class="internal" data-draft-cover="https://picx.zhimg.com/v2-7e4eda30671b4f8c6afe93e3841fa056.jpg?source=7e7ef6e2&amp;needBackground=1" data-draft-node="block" data-draft-title="作为心智画笔抓手的词语" data-draft-type="link-card" href="./2061380437788865753.html" rel="noopener noreferrer" target="_blank">作为心智画笔抓手的词语</a><p data-pid="M9GIyjC0">下一篇：</p><a class="internal" data-draft-cover="https://picx.zhimg.com/v2-ffa585c44a3d653ab1dc2c011ae176af.webp?source=7e7ef6e2&amp;needBackground=1" data-draft-node="block" data-draft-title="词语可能出错的 37 种方式" data-draft-type="link-card" href="./2062240524812260000.html" rel="noopener noreferrer" target="_blank">词语可能出错的 37 种方式</a><hr/><blockquote data-pid="TpBLfitd"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 <span class="nolink">gemini-3.1-pro</span>，校对 Jarrett Ye<br/>原文：<a class="wrap external" href="https://www.readthesequences.com/Variable-Question-Fallacies" rel="nofollow noreferrer noopener" target="_blank">Variable Question Fallacies</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 争论定义 <a href="./2051788159038576630.html" target="_blank" rel="noopener noreferrer">./2051788159038576630.html</a><br>2. 设置你的敏感词 <a href="./2054686580703498406.html" target="_blank" rel="noopener noreferrer">./2054686580703498406.html</a><br>3. 压缩的谬误 <a href="./2055264755414218095.html" target="_blank" rel="noopener noreferrer">./2055264755414218095.html</a><br>4. 一个算法的内部感受 <a href="./2051369757249736864.html" target="_blank" rel="noopener noreferrer">./2051369757249736864.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：理性 &amp; 克服偏见</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>
