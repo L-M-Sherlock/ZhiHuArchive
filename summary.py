@@ -743,35 +743,31 @@ with open("./html/search-index.json", "w", encoding="utf-8") as f:
     json.dump(search_docs, f, ensure_ascii=False)
 
 
-def html_lastmod(path: Path, fallback_timestamp=None) -> str:
-    if path.exists():
-        timestamp = path.stat().st_mtime
-    elif fallback_timestamp is not None:
-        timestamp = fallback_timestamp
-    else:
-        timestamp = datetime.now(timezone.utc).timestamp()
+def sitemap_date(timestamp: int | float) -> str:
     return datetime.fromtimestamp(timestamp, timezone.utc).strftime("%Y-%m-%d")
 
 
 def generate_sitemap(articles, answers):
     """Generate sitemap.xml file"""
+    content_timestamps = [
+        article.get("updated") or article["created"] for article in articles
+    ] + [answer.get("updated_time") or answer["created_time"] for answer in answers]
+    index_lastmod = sitemap_date(max(content_timestamps))
+
     sitemap_content = '<?xml version="1.0" encoding="UTF-8"?>\n'
     sitemap_content += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
 
     # Add index page
     sitemap_content += f"""  <url>
     <loc>{BASE_URL}/</loc>
-    <lastmod>{html_lastmod(Path("html") / "index.html")}</lastmod>
+    <lastmod>{index_lastmod}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>\n"""
 
     # Add articles
     for article in articles:
-        lastmod = html_lastmod(
-            Path("html") / f"{article['file_stem']}.html",
-            article["created"],
-        )
+        lastmod = sitemap_date(article.get("updated") or article["created"])
         sitemap_content += f"""  <url>
     <loc>{BASE_URL}/{article['file_stem']}.html</loc>
     <lastmod>{lastmod}</lastmod>
@@ -781,9 +777,8 @@ def generate_sitemap(articles, answers):
 
     # Add answers
     for answer in answers:
-        lastmod = html_lastmod(
-            Path("html") / f"{answer['file_stem']}.html",
-            answer["created_time"],
+        lastmod = sitemap_date(
+            answer.get("updated_time") or answer["created_time"]
         )
         sitemap_content += f"""  <url>
     <loc>{BASE_URL}/{answer['file_stem']}.html</loc>
