@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>大模型都证明了只会写代码死路一条 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="大模型都证明了只会写代码死路一条 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://l-m-sherlock.github.io/ZhiHuArchive/2020898590789304974.html">
+<meta property="og:image" content="">
+<meta property="og:description" content="今天考了考大模型一道编程题，其实这道题我 2025 年 2 月就试过了，当时的一众推理模型全军覆没。现在 2026 年了，我一时兴起，又想测一遍现在的 agent 模型，没想到编码特化的 codex 实现的效果非常搞笑，发出来给大家乐呵乐呵。 测试工具：copilot-cli（…">
+<meta name="description" content="今天考了考大模型一道编程题，其实这道题我 2025 年 2 月就试过了，当时的一众推理模型全军覆没。现在 2026 年了，我一时兴起，又想测一遍现在的 agent 模型，没想到编码特化的 codex 实现的效果非常搞笑，发出来给大家乐呵乐呵。 测试工具：copilot-cli（…">
+<meta data-pagefind-meta="title" content="大模型都证明了只会写代码死路一条">
+<meta data-pagefind-meta="image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="大模型都证明了只会写代码死路一条 | ZhiHu Archive">
+<meta name="twitter:description" content="今天考了考大模型一道编程题，其实这道题我 2025 年 2 月就试过了，当时的一众推理模型全军覆没。现在 2026 年了，我一时兴起，又想测一遍现在的 agent 模型，没想到编码特化的 codex 实现的效果非常搞笑，发出来给大家乐呵乐呵。 测试工具：copilot-cli（…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="canonical" href="https://l-m-sherlock.github.io/ZhiHuArchive/2020898590789304974.html">
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"大模型都证明了只会写代码死路一条","description":"今天考了考大模型一道编程题，其实这道题我 2025 年 2 月就试过了，当时的一众推理模型全军覆没。现在 2026 年了，我一时兴起，又想测一遍现在的 agent 模型，没想到编码特化的 codex 实现的效果非常搞笑，发出来给大家乐呵乐呵。 测试工具：copilot-cli（…","author":{"@type":"Person","name":"Jarrett Ye","url":"https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3"},"datePublished":"2026-03-27T21:56:29+08:00","dateModified":"2026-03-27T22:03:03+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://l-m-sherlock.github.io/ZhiHuArchive/2020898590789304974.html"},"url":"https://l-m-sherlock.github.io/ZhiHuArchive/2020898590789304974.html","isPartOf":{"@type":"WebSite","name":"ZhiHu Archive for Thoughts Memo","url":"https://l-m-sherlock.github.io/ZhiHuArchive/"}}</script>
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/2020898590789304974");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+.archive-restoration-notice {
+margin: 1.25em 0;
+padding: 0.75em 1em;
+border-left: 4px solid #ea580c;
+background: #fff7ed;
+color: #7c2d12;
+}
+.archive-restoration-notice p {
+margin: 0.35em 0 0;
+}
+.archive-restored-content {
+padding-left: 0.85em;
+border-left: 4px solid #f97316;
+background: #fff7ed;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src=""/>
+<h1><a href="https://zhuanlan.zhihu.com/p/2020898590789304974" target="_blank" rel="noopener noreferrer">大模型都证明了只会写代码死路一条</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2026-03-27T13:56:29">发表于 2026年03月27日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">79 👍 / 3 💬</p>
+</header>
+<article data-pagefind-body>
+
+<p data-pid="lkQxJ6AC">今天考了考大模型一道编程题，其实这道题我 2025 年 2 月就试过了，当时的一众推理模型全军覆没。现在 2026 年了，我一时兴起，又想测一遍现在的 agent 模型，没想到编码特化的 codex 实现的效果非常搞笑，发出来给大家乐呵乐呵。</p><p data-pid="KNk6bcNM">测试工具：copilot-cli（用这个是因为同时支持 Claude 和 Codex，并且送了我不少额度）</p><p data-pid="chDX4jmR">提示词：</p><div class="highlight"><pre><code class="language-text">Create me a 3d cone rolling on a ground. You can use html, css, js.</code></pre></div><p data-pid="4oD4XY0f">（出处：<a class="internal" data-icon-name="zhicon_icon_24_paper_plain_text" href="./97126345893.html" rel="noopener noreferrer" target="_blank">你都有哪些压箱底的测试题，是目前的推理模型做不出来的？</a>）</p><p data-pid="vO8Xgk2j">参赛选手：GPT-5.2-Codex (xhigh)、GPT-5.3-Codex (xhigh)、GPT-5.4 (xhigh)、Claude Opus 4.6 (high)</p><h2>GPT-5.2-Codex (xhigh)</h2><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic2.zhimg.com/v2-115e7f34cf9c5078335cfcc8ad729a8b_r.jpg" data-original-token="v2-115e7f34cf9c5078335cfcc8ad729a8b" data-rawheight="622" data-rawwidth="950" data-size="normal" data-thumbnail="https://pic2.zhimg.com/v2-115e7f34cf9c5078335cfcc8ad729a8b_b.jpg" src="https://pic2.zhimg.com/v2-115e7f34cf9c5078335cfcc8ad729a8b_1440w.gif" width="950"/></figure><h2>GPT-5.3-Codex (xhigh)</h2><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://picx.zhimg.com/v2-7587f457a57a6df395378a0edc2b136b_r.jpg" data-original-token="v2-7587f457a57a6df395378a0edc2b136b" data-rawheight="689" data-rawwidth="1100" data-size="normal" data-thumbnail="https://picx.zhimg.com/v2-7587f457a57a6df395378a0edc2b136b_b.jpg" src="https://picx.zhimg.com/v2-7587f457a57a6df395378a0edc2b136b_1440w.gif" width="1100"/></figure><h2>GPT-5.4 (xhigh)</h2><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pic3.zhimg.com/v2-6be5d218b1149d6be5359974cf1db170_r.jpg" data-original-token="v2-6be5d218b1149d6be5359974cf1db170" data-rawheight="430" data-rawwidth="591" data-size="normal" data-thumbnail="https://pic3.zhimg.com/v2-6be5d218b1149d6be5359974cf1db170_b.jpg" src="https://pic3.zhimg.com/v2-6be5d218b1149d6be5359974cf1db170_1440w.gif" width="591"/></figure><h2>Claude Opus 4.6 (high)</h2><figure data-size="normal"><img class="origin_image zh-lightbox-thumb" data-caption="" data-original="https://pica.zhimg.com/v2-2e7384fe5ea0975f16d1ffa77e2d6db6_r.jpg" data-original-token="v2-2e7384fe5ea0975f16d1ffa77e2d6db6" data-rawheight="634" data-rawwidth="900" data-size="normal" data-thumbnail="https://pica.zhimg.com/v2-2e7384fe5ea0975f16d1ffa77e2d6db6_b.jpg" src="https://pica.zhimg.com/v2-2e7384fe5ea0975f16d1ffa77e2d6db6_1440w.gif" width="900"/></figure><h2>结语</h2><p data-pid="DnsXTXAo">好吧标题只是抖个机灵，实际上应该还是模型能力提升了，和是不是编码特化关系不大。毕竟去年一众推理模型也写不对。国内的模型我没测，大家感兴趣可以自测一下。感觉现在模型能力真是日新月异啊。</p>
+
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：杂项</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

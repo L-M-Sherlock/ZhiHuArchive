@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>局部最优 &amp; 贪心选择 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="局部最优 &amp; 贪心选择 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://l-m-sherlock.github.io/ZhiHuArchive/2062846778148394750.html">
+<meta property="og:image" content="https://picx.zhimg.com/v2-5ec81ad1801572e883535a37b5a67d55_720w.jpg?source=172ae18b">
+<meta property="og:description" content="关于局部最优/贪心性/风险厌恶/创造性破坏（例如波特假说或股权溢价之谜）的一些有趣链接；相关现象有时会在灾难中显现出来。 Thoughts Memo 汉化组译制 感谢主要译者 GPT-5.6-sol，校对 Jarrett Ye 首次发表于 2021-03-24。状态：已完成；置信度说明：log…">
+<meta name="description" content="关于局部最优/贪心性/风险厌恶/创造性破坏（例如波特假说或股权溢价之谜）的一些有趣链接；相关现象有时会在灾难中显现出来。 Thoughts Memo 汉化组译制 感谢主要译者 GPT-5.6-sol，校对 Jarrett Ye 首次发表于 2021-03-24。状态：已完成；置信度说明：log…">
+<meta data-pagefind-meta="title" content="局部最优 &amp; 贪心选择">
+<meta data-pagefind-meta="image" content="https://picx.zhimg.com/v2-5ec81ad1801572e883535a37b5a67d55_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="局部最优 &amp; 贪心选择 | ZhiHu Archive">
+<meta name="twitter:description" content="关于局部最优/贪心性/风险厌恶/创造性破坏（例如波特假说或股权溢价之谜）的一些有趣链接；相关现象有时会在灾难中显现出来。 Thoughts Memo 汉化组译制 感谢主要译者 GPT-5.6-sol，校对 Jarrett Ye 首次发表于 2021-03-24。状态：已完成；置信度说明：log…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="canonical" href="https://l-m-sherlock.github.io/ZhiHuArchive/2062846778148394750.html">
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"局部最优 & 贪心选择","description":"关于局部最优/贪心性/风险厌恶/创造性破坏（例如波特假说或股权溢价之谜）的一些有趣链接；相关现象有时会在灾难中显现出来。 Thoughts Memo 汉化组译制 感谢主要译者 GPT-5.6-sol，校对 Jarrett Ye 首次发表于 2021-03-24。状态：已完成；置信度说明：log…","author":{"@type":"Person","name":"Jarrett Ye","url":"https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3"},"datePublished":"2026-07-23T10:41:31+08:00","dateModified":"2026-07-23T10:42:08+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://l-m-sherlock.github.io/ZhiHuArchive/2062846778148394750.html"},"url":"https://l-m-sherlock.github.io/ZhiHuArchive/2062846778148394750.html","isPartOf":{"@type":"WebSite","name":"ZhiHu Archive for Thoughts Memo","url":"https://l-m-sherlock.github.io/ZhiHuArchive/"},"image":["https://picx.zhimg.com/v2-5ec81ad1801572e883535a37b5a67d55_720w.jpg?source=172ae18b"]}</script>
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/2062846778148394750");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+.archive-restoration-notice {
+margin: 1.25em 0;
+padding: 0.75em 1em;
+border-left: 4px solid #ea580c;
+background: #fff7ed;
+color: #7c2d12;
+}
+.archive-restoration-notice p {
+margin: 0.35em 0 0;
+}
+.archive-restored-content {
+padding-left: 0.85em;
+border-left: 4px solid #f97316;
+background: #fff7ed;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://picx.zhimg.com/v2-5ec81ad1801572e883535a37b5a67d55_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/2062846778148394750" target="_blank" rel="noopener noreferrer">局部最优 &amp; 贪心选择</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2026-07-23T02:41:31">发表于 2026年07月23日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">13 👍 / 1 💬</p>
+</header>
+<article data-pagefind-body>
+
+<p data-pid="VU4R2iis">关于局部最优/贪心性/风险厌恶/创造性破坏（例如波特假说或股权溢价之谜）的一些有趣链接；相关现象有时会在灾难中显现出来。</p><blockquote data-pid="YAIX6biO"><a class="wrap external" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 GPT-5.6-sol，校对 Jarrett Ye<br/>首次发表于 2021-03-24。状态：已完成；置信度说明：log；重要性：5/10。<br/>原文：<a class="wrap external" href="https://gwern.net/note/local-optima" rel="nofollow noreferrer noopener" target="_blank">Local Optima &amp; Greedy Choices · Gwern.net</a></blockquote><ul><li data-pid="iAVCxSW5"><a class="wrap external" href="https://gwern.net/doc/economics/automation/index" rel="nofollow noreferrer noopener" target="_blank">《自动化犹如殖民浪潮》</a></li><li data-pid="kXflpA0g"><a class="wrap external" href="https://www.oreilly.com/content/piracy-is-progressive-taxation-and-other-thoughts-on-the-evolution-of-online-distribution/" rel="nofollow noreferrer noopener" target="_blank">《默默无闻对作者和艺术创作者的威胁远甚于盗版》</a>，Timothy O'Reilly 2002</li><li data-pid="bIgNvXbK"><a class="wrap external" href="https://www.amazon.com/Luck-Factor-Scientific-Wiseman-Paperback/dp/B00IGYST8M/" rel="nofollow noreferrer noopener" target="_blank">《幸运因素》</a>，Wiseman 2004</li><li data-pid="550w8iAT"><a class="wrap external" href="https://gwern.net/doc/psychology/okcupid/themathematicsofbeauty.html" rel="nofollow noreferrer noopener" target="_blank">《OKCupid：美貌的数学》</a>，Rudder 2011</li><li data-pid="PwKB5rGW"><b>战争/灾难/崩溃</b>：</li><ul><li data-pid="Z7YpP-yF"><a class="wrap external" href="https://gwern.net/doc/economics/1995-bendavid.pdf" rel="nofollow noreferrer noopener" target="_blank">《大战、大崩盘与稳态增长：关于一个旧有典型事实的一些新证据》</a>，Ben-David &amp; Papell 1995；<a class="wrap external" href="https://gwern.net/doc/economics/2002-skidmore.pdf" rel="nofollow noreferrer noopener" target="_blank">《自然灾害会促进长期增长吗？》</a>，Skidmore &amp; Toya 2002</li><li data-pid="exX8iieg"><a class="wrap external" href="https://gwern.net/doc/economics/2018-deryugina.pdf" rel="nofollow noreferrer noopener" target="_blank">《卡特里娜飓风对受灾者的经济影响：来自个人纳税申报表的证据》</a>，Deryugina et al 2014</li><li data-pid="lcPeH_cc"><a class="wrap external" href="https://gwern.net/doc/economics/2018-aiyar.pdf" rel="nofollow noreferrer noopener" target="_blank">《因 Sardar Sarovar 大坝项目被迫搬迁并重新安置的人，如今是否比没有搬迁的昔日邻居过得更好？》</a>，Aiyar &amp; Kaushal 2018</li><li data-pid="a5B7YMA7"><a class="wrap external" href="https://eprints.lse.ac.uk/63832/1/dp1372.pdf" rel="nofollow noreferrer noopener" target="_blank">《被迫尝试的益处：来自伦敦地铁网络的有力证据》</a>，Larcom et al 2017</li><li data-pid="xM8jpkmV"><a class="wrap external" href="https://gwern.net/doc/economics/2016-michaels.pdf" rel="nofollow noreferrer noopener" target="_blank">《重置城市网络：117--2012 AD》</a>，Michaels &amp; Rauch 2016；<a class="wrap external" href="https://gwern.net/doc/economics/perpetuities/2021-heldring.pdf" rel="nofollow noreferrer noopener" target="_blank">《修士、绅士与实业家：英国修道院解散的长期影响》</a>，Heldring et al 2021（参见有关<a class="wrap external" href="https://gwern.net/doc/economics/perpetuities/index" rel="nofollow noreferrer noopener" target="_blank">永久存续安排</a>/<i><a class="wrap external" href="https://gwern.net/narrowing-circle#ancestors" rel="nofollow noreferrer noopener" target="_blank">waqfs</a></i> 会把错误固化下来的批评）</li><li data-pid="yFDz6gcN"><a class="wrap external" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3819317" rel="nofollow noreferrer noopener" target="_blank">《Lehman 的「柠檬」：职业中断会影响顶尖的 5% 人群吗？》</a>，Fedyk &amp; Hodson 2021</li><li data-pid="vlJUZx9H"><a class="wrap external" href="https://gwern.net/doc/economics/2021-arellanobover.pdf" rel="nofollow noreferrer noopener" target="_blank">《流离失所、多样性与流动性：日裔美国人拘禁的职业影响》</a>，Arellano-Bover 2021</li><li data-pid="9HXl8RK6"><a class="wrap external" href="https://gwern.net/doc/economics/automation/2024-barros.pdf" rel="nofollow noreferrer noopener" target="_blank">《自然灾害与金融科技的采用》</a>，Barros et al 2024</li><li data-pid="51cVr-5O">火灾（<a class="wrap external" href="https://academic.oup.com/past/article/265/1/97/7625037" rel="nofollow noreferrer noopener" target="_blank">背景</a>）：</li><ul><li data-pid="tP7SGWTA"><a class="wrap external" href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.248.7497&amp;rep=rep1&amp;type=pdf" rel="nofollow noreferrer noopener" target="_blank">《夷平旧金山：将 1906 年灾难作为城市再开发的自然实验》</a>，Siodla 2012；<a class="wrap external" href="https://gwern.net/doc/economics/georgism/2021-pennington.pdf" rel="nofollow noreferrer noopener" target="_blank">《新建住房会导致人口迁离吗？——旧金山住房建设的供给与需求效应》</a>，Pennington 2021</li><li data-pid="0zJ2t4aW"><a class="wrap external" href="https://gwern.net/doc/economics/2017-hornbeck.pdf" rel="nofollow noreferrer noopener" target="_blank">《创造性破坏：城市增长的障碍与 1872 年波士顿大火》</a>，Hornbeck &amp; Keniston 2017（可与<a class="wrap external" href="https://www.amazon.com/Limits-Power-Process-Christine-1986-04-30/dp/B01F9GNNFI/" rel="nofollow noreferrer noopener" target="_blank">《权力的限度：大火与美国城市增长进程》</a>（Rosen 1986）相比较）</li><li data-pid="CO8XE88R"><a class="wrap external" href="https://eprints.lse.ac.uk/88694/1/dp1542.pdf" rel="nofollow noreferrer noopener" target="_blank">《十亿英镑的损失：伦敦大轰炸与集聚经济学》</a>，Dericks &amp; Koster 2018（与 <a class="wrap external" href="https://gwern.net/doc/economics/2020-lin-2.pdf" rel="nofollow noreferrer noopener" target="_blank">Lin 2020</a> 形成对照）</li><li data-pid="sHJZbnS1"><a class="wrap external" href="https://gwern.net/doc/economics/georgism/2022-liao.pdf" rel="nofollow noreferrer noopener" target="_blank">《野火对加利福尼亚市政当局的财政影响》</a>，Liao &amp; Kousky 2022</li></ul></ul><li data-pid="OIyJy-sr"><b>决策</b>：</li><ul><li data-pid="38--aO2w"><a class="wrap external" href="https://docs.iza.org/dp11308.pdf" rel="nofollow noreferrer noopener" target="_blank">《做出重大决定：迁居对美国陆军人员婚姻的影响》</a>，Carter &amp; Wozniak 2018</li><li data-pid="eEkL_s24"><a class="wrap external" href="http://www.econweb.umd.edu/~pope/westpointtiming.pdf" rel="nofollow noreferrer noopener" target="_blank">《时机决定一切：来自大学专业选择的证据》</a>，Patterson et al 2019</li><li data-pid="CcPCk1aA"><a class="wrap external" href="https://gwern.net/doc/psychology/cognitive-bias/2020-levitt.pdf" rel="nofollow noreferrer noopener" target="_blank">《正面还是反面：抛硬币对重大人生决定及后续幸福感的影响》</a>，Levitt 2020</li><li data-pid="05mWsygu"><a class="wrap external" href="https://doughanley.com/files/papers/thompson_hanley_wikipedia.pdf" rel="nofollow noreferrer noopener" target="_blank">《科学由 Wikipedia 塑造：来自随机对照试验的证据》</a>，Thompson et al 2017；<a class="wrap external" href="https://www.marit.hinnosaar.net/wikipediamatters.pdf" rel="nofollow noreferrer noopener" target="_blank">《Wikipedia 很重要》</a>，Hinnosaar et al 2019</li><li data-pid="1VjkEuG2"><a class="wrap external" href="https://gwern.net/doc/economics/2022-nakamura.pdf" rel="nofollow noreferrer noopener" target="_blank">《搬迁的馈赠：流动性冲击的代际后果》</a>，Nakamura et al 2022</li></ul><li data-pid="rp6TC6DQ"><a class="wrap external" href="https://en.wikipedia.org/wiki/creative_destruction" rel="nofollow noreferrer noopener" target="_blank">创造性破坏</a>；「<a class="wrap external" href="https://en.wikipedia.org/wiki/Porter_hypothesis" rel="nofollow noreferrer noopener" target="_blank">波特假说</a>」；<a class="wrap external" href="https://en.wikipedia.org/wiki/equity_premium_puzzle" rel="nofollow noreferrer noopener" target="_blank">股权溢价之谜</a></li><li data-pid="qBjZVeHF"><a class="wrap external" href="https://www.law.nyu.edu/sites/default/files/upload_documents/Property%20Monopoly.pdf" rel="nofollow noreferrer noopener" target="_blank">《财产是垄断的别称：以频谱、公司与土地的部分共同所有权促进高效议价》</a>，Posner &amp; Weyl 2016</li><li data-pid="lNbIkA87"><a class="wrap external" href="https://www.biorxiv.org/content/10.1101/492058.full" rel="nofollow noreferrer noopener" target="_blank">《现实环境中的探索》</a>，Schulz et al 2018（这篇论文颇有意思，但并未明确证实存在次优探索；它使用了一个极其庞大的数据集，其中收录了个人通过 <a class="wrap external" href="https://en.wikipedia.org/wiki/Deliveroo" rel="nofollow noreferrer noopener" target="_blank">Deliveroo</a> 下达的餐厅订单）</li><li data-pid="HoTjJqQJ"><a class="wrap external" href="https://arxiv.org/abs/1609.03526" rel="nofollow noreferrer noopener" target="_blank">《人类流动中存在守恒量的证据》</a>，Alessandretti et al 2016（人们只会造访少数实体地点；尽管他们确实会不断探索新地点 &amp; 变换活动地点，但似乎也存在一个类似<a class="wrap external" href="https://en.wikipedia.org/wiki/Dunbar%E2%80%99s_number" rel="nofollow noreferrer noopener" target="_blank">邓巴数</a>的对应量，这提示，人类轻松规划/记住经常涉及超过 ~25 个地点的活动的能力可能存在局限）</li><li data-pid="47GHVtGo">一个颇有意思的虚构例子或许是《小马宝莉》中的一集<a class="wrap external" href="https://mlp.fandom.com/wiki/Applejack%27s_%22Day%22_Off" rel="nofollow noreferrer noopener" target="_blank">《Applejack 的「休息日」》</a>。</li><li data-pid="RdQFFH2Q"><a class="wrap external" href="https://www.npr.org/sections/alltechconsidered/2017/06/08/531796329/eager-to-burst-his-own-bubble-a-techie-made-apps-to-randomize-his-life" rel="nofollow noreferrer noopener" target="_blank">《急于戳破自己的泡沫，一名科技从业者开发应用，让自己的生活随机起来》</a></li><li data-pid="MS4Yoxnk"><a class="wrap external" href="https://gwern.net/doc/psychology/neuroscience/2021-camerer.pdf" rel="nofollow noreferrer noopener" target="_blank">《神经自动驾驶与习惯的情境敏感性》</a>，Camerer &amp; Li 2021</li><li data-pid="etO9lq7P"><b>另见</b>：<a class="wrap external" href="https://gwern.net/backstop" rel="nofollow noreferrer noopener" target="_blank">《进化是强化学习的后盾》</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="演化：强化学习的最终保障" data-url="https://zhuanlan.zhihu.com/p/1944108824375060346">[1]</sup>，<a class="wrap external" href="https://gwern.net/sunk-cost" rel="nofollow noreferrer noopener" target="_blank">《沉没成本》</a>，<a class="wrap external" href="https://gwern.net/socks" rel="nofollow noreferrer noopener" target="_blank">《论袜子多少才算够》</a></li></ul>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 演化：强化学习的最终保障 <a href="./1944108824375060346.html" target="_blank" rel="noopener noreferrer">./1944108824375060346.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：Gwern Branwen</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>

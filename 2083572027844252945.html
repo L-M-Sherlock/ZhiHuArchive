@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>在一条直线上给定n个点的取值区间，如何让相邻点之间的最小间隔最大化？ - @Jarrett Ye | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="在一条直线上给定n个点的取值区间，如何让相邻点之间的最小间隔最大化？ - @Jarrett Ye | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:description" itemprop="description" content="快过去三年了，突然想起这个问题，就想考考 GPT-6，结果它从一篇 1981 年的论文中挖出了一个复杂度为 [公式] 的答案。感谢之前回答问题的网友们（ @AVALON 、 @Yixiao Huang 、 @Mass Point 、 @Serika Onoe 、 @wywzxxz ），感兴趣的话可以看看 GPT-...">
+<meta property="og:url" content="https://l-m-sherlock.github.io/ZhiHuArchive/2083572027844252945.html">
+<meta name="description" content="快过去三年了，突然想起这个问题，就想考考 GPT-6，结果它从一篇 1981 年的论文中挖出了一个复杂度为 [公式] 的答案。感谢之前回答问题的网友们（ @AVALON 、 @Yixiao Huang 、 @Mass Point 、 @Serika Onoe 、 @wywzxxz ），感兴趣的话可以看看 GPT-...">
+<meta data-pagefind-meta="title" content="在一条直线上给定n个点的取值区间，如何让相邻点之间的最小间隔最大化？">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<meta property="twitter:card" content="summary">
+<meta name="twitter:title" content="在一条直线上给定n个点的取值区间，如何让相邻点之间的最小间隔最大化？ - @Jarrett Ye | ZhiHu Archive">
+<meta name="twitter:description" content="快过去三年了，突然想起这个问题，就想考考 GPT-6，结果它从一篇 1981 年的论文中挖出了一个复杂度为 [公式] 的答案。感谢之前回答问题的网友们（ @AVALON 、 @Yixiao Huang 、 @Mass Point 、 @Serika Onoe 、 @wywzxxz ），感兴趣的话可以看看 GPT-...">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="canonical" href="https://l-m-sherlock.github.io/ZhiHuArchive/2083572027844252945.html">
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"在一条直线上给定n个点的取值区间，如何让相邻点之间的最小间隔最大化？","description":"快过去三年了，突然想起这个问题，就想考考 GPT-6，结果它从一篇 1981 年的论文中挖出了一个复杂度为 [公式] 的答案。感谢之前回答问题的网友们（ @AVALON 、 @Yixiao Huang 、 @Mass Point 、 @Serika Onoe 、 @wywzxxz ），感兴趣的话可以看看 GPT-...","author":{"@type":"Person","name":"Jarrett Ye","url":"https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3"},"datePublished":"2026-09-16T15:04:42+08:00","dateModified":"2026-09-16T17:33:18+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://l-m-sherlock.github.io/ZhiHuArchive/2083572027844252945.html"},"url":"https://l-m-sherlock.github.io/ZhiHuArchive/2083572027844252945.html","isPartOf":{"@type":"WebSite","name":"ZhiHu Archive for Thoughts Memo","url":"https://l-m-sherlock.github.io/ZhiHuArchive/"}}</script>
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://www.zhihu.com/question/628164365/answer/2083572027844252945");
+}
+</script>
+<style>
+img {
+vertical-align: middle;
+}
+figure img {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+   display: block;
+   border-bottom: none;
+   padding: 0;
+   background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+.archive-restoration-notice {
+margin: 1.25em 0;
+padding: 0.75em 1em;
+border-left: 4px solid #ea580c;
+background: #fff7ed;
+color: #7c2d12;
+}
+.archive-restoration-notice p {
+margin: 0.35em 0 0;
+}
+.archive-restored-content {
+padding-left: 0.85em;
+border-left: 4px solid #f97316;
+background: #fff7ed;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<h1><a href="https://www.zhihu.com/question/628164365/answer/2083572027844252945" target="_blank" rel="noopener noreferrer">在一条直线上给定n个点的取值区间，如何让相邻点之间的最小间隔最大化？</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2026-09-16T07:04:42">发表于 2026年09月16日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">28 👍 / 11 💬</p>
+</header>
+<article data-pagefind-body>
+<div style="margin: 0; padding: 0.5em 1em; border-left: 4px solid #999; font-size: 0.86em; background: #f9f9f9;">
+<h2>问题描述</h2>
+<p>n 个点的取值区间可能相互重叠，且点的取值为整数。相邻点是指取点后在直线上相邻的点，而非从相邻区间中取出的点。</p><p>case 1：有 3 个点，取值区间是[1, 3], [2, 6], [0, 9]。最优的取点方法是 1, 5, 9，相邻点之间的最小间隔是 4。</p><p>case 2: [1, 10], [2, 7], [5, 6]。最优的取点方式是 10, 2, 6，最小间隔是 4。</p><p>附加题：在满足最小间隔最大化的条件下，让相邻点之间的间隔尽可能大，即平均间隔最大。并在平均间隔最大的同时，间隔的方差最小。</p><p>例如：存在几个点的取值区间非常窄，且相互靠近。比如 [0, 0], [1, 1], [2, 5], [4, 7]，此时最小间隔只可能是 1，输出可能是 0, 1, 2, 4。但实际上更好的输出是 0, 1, 4, 7。<br/><br/>可以使用近似算法。</p>
+</div>
+<hr>
+
+<p data-pid="ZBregoM5">快过去三年了，突然想起这个问题，就想考考 GPT-6，结果它从一篇 1981 年的论文中挖出了一个复杂度为 <img alt="O(n\log n\log W)" eeimg="1" src="https://www.zhihu.com/equation?tex=O%28n%5Clog+n%5Clog+W%29"/> 的答案。感谢之前回答问题的网友们（ <a class="member_mention" data-hash="bf3d1b583f786bcd8989d4452f619dc6" data-hovercard="p$b$bf3d1b583f786bcd8989d4452f619dc6" href="https://www.zhihu.com/people/bf3d1b583f786bcd8989d4452f619dc6" rel="noopener noreferrer" target="_blank">@AVALON</a> 、 <a class="member_mention" data-hash="3a23ec68d26a1c11737e8f2b712f73f5" data-hovercard="p$b$3a23ec68d26a1c11737e8f2b712f73f5" href="https://www.zhihu.com/people/3a23ec68d26a1c11737e8f2b712f73f5" rel="noopener noreferrer" target="_blank">@Yixiao Huang</a> 、 <a class="member_mention" data-hash="ad6db455b536c9fed791c1df3d012e08" data-hovercard="p$b$ad6db455b536c9fed791c1df3d012e08" href="https://www.zhihu.com/people/ad6db455b536c9fed791c1df3d012e08" rel="noopener noreferrer" target="_blank">@Mass Point</a> 、 <a class="member_mention" data-hash="af12cc775b301f57eab3f6b3611aca90" data-hovercard="p$b$af12cc775b301f57eab3f6b3611aca90" href="https://www.zhihu.com/people/af12cc775b301f57eab3f6b3611aca90" rel="noopener noreferrer" target="_blank">@Serika Onoe</a> 、 <a class="member_mention" data-hash="fb414e3506d5b6a7c552eaa7969204de" data-hovercard="p$b$fb414e3506d5b6a7c552eaa7969204de" href="https://www.zhihu.com/people/fb414e3506d5b6a7c552eaa7969204de" rel="noopener noreferrer" target="_blank">@wywzxxz</a> ），感兴趣的话可以看看 GPT-6 的回答。</p><hr/><p data-pid="eFI5mBv3">这个问题可以精确求解。即使区间互相重叠、互相包含，主问题仍有 <b><img alt="O(n\log n\log(W+2))" eeimg="1" src="https://www.zhihu.com/equation?tex=O%28n%5Clog+n%5Clog%28W%2B2%29%29"/></b> 的算法，其中 <img alt="W" eeimg="1" src="https://www.zhihu.com/equation?tex=W"/> 是所有区间覆盖的总跨度。</p><p data-pid="mp2OnGVY">解题路线是：<b>二分最小间隔，把每次判定转成等长任务调度；求出最优最小间隔后，再处理平均值和方差。</b> 下面先把这条路线讲清楚，再分别给出主问题和完整附加题的 Python 实现。</p><p data-pid="ivhj1gJ1">设第 <img alt="i" eeimg="1" src="https://www.zhihu.com/equation?tex=i"/> 个区间为 <img alt="I_i=[L_i,R_i]" eeimg="1" src="https://www.zhihu.com/equation?tex=I_i%3D%5BL_i%2CR_i%5D"/>，从中选出整数 <img alt="x_i" eeimg="1" src="https://www.zhihu.com/equation?tex=x_i"/>。将取出的点排序：</p><p data-pid="cCYZ-ZmD"><img alt=" y_1\le y_2\le\cdots\le y_n, \qquad d_k=y_{k+1}-y_k. " eeimg="2" src="https://www.zhihu.com/equation?tex=+y_1%5Cle+y_2%5Cle%5Ccdots%5Cle+y_n%2C+%5Cqquad+d_k%3Dy_%7Bk%2B1%7D-y_k.+"/></p><p data-pid="9n4IQjCx">要最大化的是 <img alt="\min_k d_k" eeimg="1" src="https://www.zhihu.com/equation?tex=%5Cmin_k+d_k"/>。区间与点的对应关系不能丢，但点在直线上的顺序可以改变。</p><p data-pid="IZKcGiHs">以下假设 <img alt="n\ge2" eeimg="1" src="https://www.zhihu.com/equation?tex=n%5Cge2"/>、区间非空且端点为整数。实数端点可以先向内取整：左端点取上整，右端点取下整；取整后出现空区间则无解。</p><p data-pid="WVsUjPcW"><b>先把“求最大值”变成“判断能否做到”。</b> 固定一个候选间隔 <img alt="g&gt;0" eeimg="1" src="https://www.zhihu.com/equation?tex=g%3E0"/>，问是否存在</p><p data-pid="31fCtTUb"><img alt=" x_i\in[L_i,R_i]\cap\mathbb Z, \qquad |x_i-x_j|\ge g\quad(i\ne j). " eeimg="2" src="https://www.zhihu.com/equation?tex=+x_i%5Cin%5BL_i%2CR_i%5D%5Ccap%5Cmathbb+Z%2C+%5Cqquad+%7Cx_i-x_j%7C%5Cge+g%5Cquad%28i%5Cne+j%29.+"/></p><p data-pid="WX5A0kkv">这与相邻点间隔至少为 <img alt="g" eeimg="1" src="https://www.zhihu.com/equation?tex=g"/> 等价，并且具有单调性：间隔 5 能做到，间隔 4 就能做到。</p><p data-pid="HT2nno2i">令</p><p data-pid="WT16auWp"><img alt=" W=\max_iR_i-\min_iL_i. " eeimg="2" src="https://www.zhihu.com/equation?tex=+W%3D%5Cmax_iR_i-%5Cmin_iL_i.+"/></p><p data-pid="I2TzPFli">因为 <img alt="n" eeimg="1" src="https://www.zhihu.com/equation?tex=n"/> 个点有 <img alt="n-1" eeimg="1" src="https://www.zhihu.com/equation?tex=n-1"/> 个相邻间隔，所以</p><p data-pid="zffru_Vz"><img alt=" (n-1)g\le y_n-y_1\le W. " eeimg="2" src="https://www.zhihu.com/equation?tex=+%28n-1%29g%5Cle+y_n-y_1%5Cle+W.+"/></p><p data-pid="R__5QSk7">答案必在 <img alt="0" eeimg="1" src="https://www.zhihu.com/equation?tex=0"/> 到 <img alt="\lfloor W/(n-1)\rfloor" eeimg="1" src="https://www.zhihu.com/equation?tex=%5Clfloor+W%2F%28n-1%29%5Crfloor"/> 之间。只要能精确判断一个 <img alt="g" eeimg="1" src="https://www.zhihu.com/equation?tex=g"/> 是否可行，二分就能找到最大值，判定次数为 <img alt="O(\log(W+2))" eeimg="1" src="https://www.zhihu.com/equation?tex=O%28%5Clog%28W%2B2%29%29"/>。<img alt="g=0" eeimg="1" src="https://www.zhihu.com/equation?tex=g%3D0"/> 时任取区间内的整数即可，因此只需讨论正间隔。</p><p data-pid="AoxK4jWX"><b>这个判定器来自等长任务调度。</b> 给每个点 <img alt="x_i" eeimg="1" src="https://www.zhihu.com/equation?tex=x_i"/> 向右接一根长度为 <img alt="g" eeimg="1" src="https://www.zhihu.com/equation?tex=g"/> 的线段 <img alt="[x_i,x_i+g)" eeimg="1" src="https://www.zhihu.com/equation?tex=%5Bx_i%2Cx_i%2Bg%29"/>。点之间至少相隔 <img alt="g" eeimg="1" src="https://www.zhihu.com/equation?tex=g"/>，恰好等价于这些半开线段互不重叠。</p><p data-pid="x8O5kQw8">于是，每个区间都可以变成一个虚拟任务：</p><table data-draft-node="block" data-draft-type="table" data-row-style="normal" data-size="normal"><tbody><tr><th>任务属性</th><th>取值</th></tr><tr><td>最早开始时间</td><td>L_i</td></tr><tr><td>处理时长</td><td>g</td></tr><tr><td>最晚完成时间</td><td>R_i+g</td></tr></tbody></table><p data-pid="RuVGlpo4">任务开始时间就是要选的点。截止时间必须加上 <img alt="g" eeimg="1" src="https://www.zhihu.com/equation?tex=g"/>，因为原来的 <img alt="R_i" eeimg="1" src="https://www.zhihu.com/equation?tex=R_i"/> 限制的是开始时间。这个转换是双向的：可行取点对应可行调度，可行调度的开始时间也满足原区间和间隔约束。</p><p data-pid="QgGdGtiH">Garey、Johnson、Simons 和 Tarjan 在 1981 年给出了这个调度问题的 <img alt="O(n\log n)" eeimg="1" src="https://www.zhihu.com/equation?tex=O%28n%5Clog+n%29"/> 精确算法。将时间除以 <img alt="g" eeimg="1" src="https://www.zhihu.com/equation?tex=g"/>，就是原论文中处理时长为 1、释放时间和截止时间可以非整数的情形。<a class="wrap external" data-draft-type="text-link" href="https://doi.org/10.1137/0210018" rel="nofollow noreferrer noopener" target="_blank">原论文</a></p><p data-pid="n8ri0QL1"><b>算法处理包含关系的办法，是先找出“不能开始任何任务”的时间段，再安排任务。</b> 普通的就绪任务贪心会抢占尚未释放的紧迫任务所需的空间，禁区正是用来阻止这种抢占。</p><p data-pid="tff_szlF">先说明禁区如何产生。按释放时间 <img alt="r" eeimg="1" src="https://www.zhihu.com/equation?tex=r"/> 从大到小处理，对一个截止时间 <img alt="D" eeimg="1" src="https://www.zhihu.com/equation?tex=D"/>，考察所有释放时间不早于 <img alt="r" eeimg="1" src="https://www.zhihu.com/equation?tex=r"/>、完成截止时间不晚于 <img alt="D" eeimg="1" src="https://www.zhihu.com/equation?tex=D"/> 的任务。暂时只保留这个集合的共同边界和已经发现的禁区，将它们视为相同长度的块，从 <img alt="D" eeimg="1" src="https://www.zhihu.com/equation?tex=D"/> 向前尽量紧排。设最前面的块最晚能在 <img alt="c" eeimg="1" src="https://www.zhihu.com/equation?tex=c"/> 开始：</p><ul><li data-pid="_Wgvnk9e">若 <img alt="c&lt;r" eeimg="1" src="https://www.zhihu.com/equation?tex=c%3Cr"/>，这批任务已经放不下，原问题不可行。</li><li data-pid="4R6PLWnw">若 <img alt="r\le c&lt;r+g" eeimg="1" src="https://www.zhihu.com/equation?tex=r%5Cle+c%3Cr%2Bg"/>，则 <img alt="(c-g,r)" eeimg="1" src="https://www.zhihu.com/equation?tex=%28c-g%2Cr%29"/> 是新的禁止开始区间。</li></ul><p data-pid="cxpmv5pb">第二条可以直接解释：其他任务若在这个区间开始，会占用时间直到 <img alt="c" eeimg="1" src="https://www.zhihu.com/equation?tex=c"/> 之后；而这批任务在它开始之前还没释放，只能被迫整体延后，超过刚才算出的容量限制。对整数日期，禁区对应 <img alt="[c-g+1,r-1]" eeimg="1" src="https://www.zhihu.com/equation?tex=%5Bc-g%2B1%2Cr-1%5D"/>。</p><p data-pid="Qe3f05Yy">用题目的 case 2 演示整个过程。记</p><p data-pid="kMjIOc7I"><img alt=" A=[1,10],\quad B=[2,7],\quad C=[5,6], " eeimg="2" src="https://www.zhihu.com/equation?tex=+A%3D%5B1%2C10%5D%2C%5Cquad+B%3D%5B2%2C7%5D%2C%5Cquad+C%3D%5B5%2C6%5D%2C+"/></p><p data-pid="j6VQ2q7h">检查 <img alt="g=4" eeimg="1" src="https://www.zhihu.com/equation?tex=g%3D4"/> 时，三个任务都是长度 4：</p><table data-draft-node="block" data-draft-type="table" data-row-style="normal" data-size="normal"><tbody><tr><th>任务</th><th>最早开始</th><th>最晚开始</th><th>最晚完成</th></tr><tr><td>A</td><td>1</td><td>10</td><td>14</td></tr><tr><td>B</td><td>2</td><td>7</td><td>11</td></tr><tr><td>C</td><td>5</td><td>6</td><td>10</td></tr></tbody></table><p data-pid="14thxCkz">从右向左分析释放时间，先处理 C。C 最早在 5 开始，最晚在 6 开始，因此临界时间为 <img alt="c=6" eeimg="1" src="https://www.zhihu.com/equation?tex=c%3D6"/>，得到禁区 <img alt="(2,5)" eeimg="1" src="https://www.zhihu.com/equation?tex=%282%2C5%29"/>：其他任务在 3 或 4 开始，就会运行到 7 或 8，挤掉 C。</p><p data-pid="gzSZdwtu">再处理 B、C 的共同约束：它们都不能早于 2 开始，都必须在 11 前完成。从 11 倒排两个长度块，后一个可放在 <img alt="[7,11)" eeimg="1" src="https://www.zhihu.com/equation?tex=%5B7%2C11%29"/>，前一个原本应在 <img alt="[3,7)" eeimg="1" src="https://www.zhihu.com/equation?tex=%5B3%2C7%29"/>。但 3 已落入禁区，只能把前一个块移到 <img alt="[2,6)" eeimg="1" src="https://www.zhihu.com/equation?tex=%5B2%2C6%29"/>。因此这批任务中至少一个必须不晚于 2 开始，产生新禁区 <img alt="(-2,2)" eeimg="1" src="https://www.zhihu.com/equation?tex=%28-2%2C2%29"/>。</p><p data-pid="_36AgE9n">这里的倒排只是计算容量上界，尚未给 B、C 分配具体位置。它的关键结论是：<b>A 不能在 1 开始，否则就会挡住 B、C。</b> 继续处理 A 不会增加新的有效禁区，最终的整数禁区为 <img alt="[-1,1]" eeimg="1" src="https://www.zhihu.com/equation?tex=%5B-1%2C1%5D"/> 和 <img alt="[3,4]" eeimg="1" src="https://www.zhihu.com/equation?tex=%5B3%2C4%5D"/>。</p><p data-pid="phuGiYFC">现在从左向右安排：</p><ol><li data-pid="IBiCHmkC">最早开始时间 1 被禁止，跳到 2。A、B 都已就绪，B 的截止时间更早，先安排 B。</li><li data-pid="hbGxV2h0">到 6，C 已就绪且比 A 更紧迫，安排 C。</li><li data-pid="NuV2t7uC">到 10，安排 A。</li></ol><p data-pid="6m0z0YLB">得到 <img alt="B=2,C=6,A=10" eeimg="1" src="https://www.zhihu.com/equation?tex=B%3D2%2CC%3D6%2CA%3D10"/>，按输入顺序返回就是 <img alt="(10,2,6)" eeimg="1" src="https://www.zhihu.com/equation?tex=%2810%2C2%2C6%29"/>。最窄的区间 C 并没有排在最前面，宽区间 A 则被留到最后。</p><p data-pid="gAqis5k9">原论文证明，按释放时间从右向左构造禁区之后，遵守禁区的最早截止时间调度是精确的可行性判定器。未知顺序由调度产生，区间的包含关系没有破坏“每个任务只有一个连续窗口、所有任务长度相同”的结构。一般嵌套区间的多项式可解性也在区间分散问题的后续论文中被明确讨论。<a class="wrap external" data-draft-type="text-link" href="https://www.researchgate.net/publication/348316249_Dispersion_for_Intervals_A_Geometric_Approach" rel="nofollow noreferrer noopener" target="_blank">Biedl 等，2021，§3.1</a></p><p data-pid="rOHqwGRh"><b>要达到 <img alt="O(n\log n)" eeimg="1" src="https://www.zhihu.com/equation?tex=O%28n%5Clog+n%29"/>，还需要避免逐个更新全部截止日期。</b> 论文的 Algorithm B 将判定组织成三类信息的批量维护；这份 Python 实现使用下面的数据结构：</p><table data-draft-node="block" data-draft-type="table" data-row-style="normal" data-size="normal"><tbody><tr><th>需要维护的信息</th><th>批量处理方式</th></tr><tr><td>各截止日期之前必须完成多少任务</td><td>树状数组维护计数，通过前缀和查询负载</td></tr><tr><td>哪些截止日期仍可能形成最紧约束</td><td>永久删除已经被支配的截止日期</td></tr><tr><td>跳过禁区产生的伪偏移</td><td>按模 g 的余数分组，用带权并查集合并</td></tr></tbody></table><p data-pid="ZWNzruHf">每个截止日期最多被删除一次，已经合并的成员不会再拆开，整个过程只有 <img alt="O(n)" eeimg="1" src="https://www.zhihu.com/equation?tex=O%28n%29"/> 次建组、删除和合并。每次维护或查询花费 <img alt="O(\log n)" eeimg="1" src="https://www.zhihu.com/equation?tex=O%28%5Clog+n%29"/>，加上排序和最终的堆调度，单次判定就是 <img alt="O(n\log n)" eeimg="1" src="https://www.zhihu.com/equation?tex=O%28n%5Clog+n%29"/>。这也是代码中多个循环仍不会产生二次复杂度的原因。</p><p data-pid="lBRbM6Dw">整数条件也不会造成额外困难。对任意实数可行调度，沿其已有顺序 <img alt="\pi" eeimg="1" src="https://www.zhihu.com/equation?tex=%5Cpi"/> 尽量向左安排：</p><p data-pid="9asoBnuq"><img alt=" t_{\pi(1)}=L_{\pi(1)},\qquad t_{\pi(k)}=\max\!\left(L_{\pi(k)},t_{\pi(k-1)}+g\right). " eeimg="2" src="https://www.zhihu.com/equation?tex=+t_%7B%5Cpi%281%29%7D%3DL_%7B%5Cpi%281%29%7D%2C%5Cqquad+t_%7B%5Cpi%28k%29%7D%3D%5Cmax%5C%21%5Cleft%28L_%7B%5Cpi%28k%29%7D%2Ct_%7B%5Cpi%28k-1%29%7D%2Bg%5Cright%29.+"/></p><p data-pid="Ei0hRtMM">得到的时间都是整数，而且归纳可知，它们不会晚于原调度的对应时间，因此仍满足右端点限制。这证明固定整数 <img alt="g" eeimg="1" src="https://www.zhihu.com/equation?tex=g"/> 时，实数可行性与整数可行性一致。</p><p data-pid="rFqD8H5Q">于是主问题的总复杂度为</p><p data-pid="NFtkagXa"><img alt=" \boxed{O(n\log n\log(W+2))}, " eeimg="2" src="https://www.zhihu.com/equation?tex=+%5Cboxed%7BO%28n%5Clog+n%5Clog%28W%2B2%29%29%7D%2C+"/></p><p data-pid="eI2wkteE">额外空间为 <img alt="O(n)" eeimg="1" src="https://www.zhihu.com/equation?tex=O%28n%29"/>。若端点使用至多 <img alt="b" eeimg="1" src="https://www.zhihu.com/equation?tex=b"/> 个二进制位表示，则 <img alt="\log(W+2)=O(b)" eeimg="1" src="https://www.zhihu.com/equation?tex=%5Clog%28W%2B2%29%3DO%28b%29"/>，所以这个算法对输入长度是多项式时间；计入大整数运算的位成本也不改变这一结论。</p><p data-pid="uJM9GrJZ">下面给出主问题的完整实现，只依赖 Python 标准库。函数返回 <code>(最优最小间隔, 按原输入区间顺序排列的取点结果)</code>。代码中的普通贪心是快速尝试；失败后仍会进行精确检查。只有左右端点同时有序的特例，才能依据交换论证直接判定贪心失败意味着不可行。</p><div class="highlight"><pre><code class="language-python"><span class="kn">from</span> <span class="nn">bisect</span> <span class="kn">import</span> <span class="n">bisect_left</span><span class="p">,</span> <span class="n">bisect_right</span>
+<span class="kn">from</span> <span class="nn">heapq</span> <span class="kn">import</span> <span class="n">heappop</span><span class="p">,</span> <span class="n">heappush</span>
+
+
+<span class="k">class</span> <span class="nc">Fenwick</span><span class="p">:</span>
+<span class="s2">"""树状数组：前缀和、单点更新、按排名查找。"""</span>
+
+<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">size</span><span class="p">,</span> <span class="n">full</span><span class="o">=</span><span class="bp">False</span><span class="p">):</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">size</span> <span class="o">=</span> <span class="n">size</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">tree</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="p">([</span><span class="n">i</span> <span class="o">&amp;</span> <span class="o">-</span><span class="n">i</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">size</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)]</span> <span class="k">if</span> <span class="n">full</span> <span class="k">else</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="n">size</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">top_bit</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="p">(</span><span class="n">size</span><span class="o">.</span><span class="n">bit_length</span><span class="p">()</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="k">if</span> <span class="n">size</span> <span class="k">else</span> <span class="mi">0</span>
+
+<span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">index</span><span class="p">,</span> <span class="n">delta</span><span class="p">):</span>
+<span class="n">index</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="n">index</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">size</span><span class="p">:</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">tree</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">+=</span> <span class="n">delta</span>
+<span class="n">index</span> <span class="o">+=</span> <span class="n">index</span> <span class="o">&amp;</span> <span class="o">-</span><span class="n">index</span>
+
+<span class="k">def</span> <span class="nf">prefix_sum</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">end</span><span class="p">):</span>
+<span class="n">total</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">while</span> <span class="n">end</span><span class="p">:</span>
+<span class="n">total</span> <span class="o">+=</span> <span class="bp">self</span><span class="o">.</span><span class="n">tree</span><span class="p">[</span><span class="n">end</span><span class="p">]</span>
+<span class="n">end</span> <span class="o">-=</span> <span class="n">end</span> <span class="o">&amp;</span> <span class="o">-</span><span class="n">end</span>
+<span class="k">return</span> <span class="n">total</span>
+
+<span class="k">def</span> <span class="nf">select</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">rank</span><span class="p">):</span>
+<span class="n">index</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">bit</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">top_bit</span>
+<span class="k">while</span> <span class="n">bit</span><span class="p">:</span>
+<span class="n">candidate</span> <span class="o">=</span> <span class="n">index</span> <span class="o">+</span> <span class="n">bit</span>
+<span class="k">if</span> <span class="n">candidate</span> <span class="o">&lt;=</span> <span class="bp">self</span><span class="o">.</span><span class="n">size</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">tree</span><span class="p">[</span><span class="n">candidate</span><span class="p">]</span> <span class="o">&lt;</span> <span class="n">rank</span><span class="p">:</span>
+<span class="n">rank</span> <span class="o">-=</span> <span class="bp">self</span><span class="o">.</span><span class="n">tree</span><span class="p">[</span><span class="n">candidate</span><span class="p">]</span>
+<span class="n">index</span> <span class="o">=</span> <span class="n">candidate</span>
+<span class="n">bit</span> <span class="o">&gt;&gt;=</span> <span class="mi">1</span>
+<span class="k">return</span> <span class="n">index</span>
+
+
+<span class="k">class</span> <span class="nc">Offsets</span><span class="p">:</span>
+<span class="s2">"""按模 gap 的余数分组，用带权并查集维护伪偏移。"""</span>
+
+<span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">deadlines</span><span class="p">,</span> <span class="n">gap</span><span class="p">):</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">gap</span> <span class="o">=</span> <span class="n">gap</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">phases</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">phase</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">deadline</span> <span class="o">%</span> <span class="n">gap</span> <span class="k">for</span> <span class="n">deadline</span> <span class="ow">in</span> <span class="n">deadlines</span><span class="p">):</span>
+<span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">phases</span> <span class="ow">or</span> <span class="n">phase</span> <span class="o">!=</span> <span class="bp">self</span><span class="o">.</span><span class="n">phases</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">phases</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">phase</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">present</span> <span class="o">=</span> <span class="n">Fenwick</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">phases</span><span class="p">))</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">roots</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">phases</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">parents</span> <span class="o">=</span> <span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">deadlines</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">sizes</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">deadlines</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">weights</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">deadlines</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">offset</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">index</span><span class="p">):</span>
+<span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+<span class="k">return</span> <span class="mi">0</span>
+<span class="n">value</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">weights</span><span class="p">[</span><span class="n">index</span><span class="p">]</span>
+<span class="k">while</span> <span class="bp">self</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">!=</span> <span class="n">index</span><span class="p">:</span>
+<span class="n">index</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="n">index</span><span class="p">]</span>
+<span class="n">value</span> <span class="o">+=</span> <span class="bp">self</span><span class="o">.</span><span class="n">weights</span><span class="p">[</span><span class="n">index</span><span class="p">]</span>
+<span class="k">return</span> <span class="n">value</span>
+
+<span class="k">def</span> <span class="nf">_union</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">first</span><span class="p">,</span> <span class="n">second</span><span class="p">):</span>
+<span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">sizes</span><span class="p">[</span><span class="n">first</span><span class="p">]</span> <span class="o">&lt;</span> <span class="bp">self</span><span class="o">.</span><span class="n">sizes</span><span class="p">[</span><span class="n">second</span><span class="p">]:</span>
+<span class="n">first</span><span class="p">,</span> <span class="n">second</span> <span class="o">=</span> <span class="n">second</span><span class="p">,</span> <span class="n">first</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="n">second</span><span class="p">]</span> <span class="o">=</span> <span class="n">first</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">weights</span><span class="p">[</span><span class="n">second</span><span class="p">]</span> <span class="o">-=</span> <span class="bp">self</span><span class="o">.</span><span class="n">weights</span><span class="p">[</span><span class="n">first</span><span class="p">]</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">sizes</span><span class="p">[</span><span class="n">first</span><span class="p">]</span> <span class="o">+=</span> <span class="bp">self</span><span class="o">.</span><span class="n">sizes</span><span class="p">[</span><span class="n">second</span><span class="p">]</span>
+<span class="k">return</span> <span class="n">first</span>
+
+<span class="k">def</span> <span class="nf">activate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">index</span><span class="p">,</span> <span class="n">deadline</span><span class="p">):</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">parents</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">=</span> <span class="n">index</span>
+<span class="n">phase</span> <span class="o">=</span> <span class="n">bisect_left</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">phases</span><span class="p">,</span> <span class="n">deadline</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">gap</span><span class="p">)</span>
+<span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">roots</span><span class="p">[</span><span class="n">phase</span><span class="p">]</span> <span class="o">&lt;</span> <span class="mi">0</span><span class="p">:</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">roots</span><span class="p">[</span><span class="n">phase</span><span class="p">]</span> <span class="o">=</span> <span class="n">index</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">present</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">phase</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">roots</span><span class="p">[</span><span class="n">phase</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_union</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">roots</span><span class="p">[</span><span class="n">phase</span><span class="p">],</span> <span class="n">index</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">forbid</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">):</span>
+<span class="n">left</span> <span class="o">=</span> <span class="n">start</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">gap</span>
+<span class="n">right</span> <span class="o">=</span> <span class="n">end</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">gap</span>
+<span class="n">target</span> <span class="o">=</span> <span class="n">bisect_left</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">phases</span><span class="p">,</span> <span class="n">left</span><span class="p">)</span>
+<span class="k">assert</span> <span class="bp">self</span><span class="o">.</span><span class="n">phases</span><span class="p">[</span><span class="n">target</span><span class="p">]</span> <span class="o">==</span> <span class="n">left</span> <span class="ow">and</span> <span class="bp">self</span><span class="o">.</span><span class="n">roots</span><span class="p">[</span><span class="n">target</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">0</span>
+<span class="k">if</span> <span class="n">left</span> <span class="o">&lt;</span> <span class="n">right</span><span class="p">:</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">_merge_phases</span><span class="p">(</span>
+<span class="n">target</span><span class="p">,</span> <span class="n">bisect_right</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">phases</span><span class="p">,</span> <span class="n">left</span><span class="p">),</span> <span class="n">bisect_left</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">phases</span><span class="p">,</span> <span class="n">right</span><span class="p">)</span>
+<span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">_merge_phases</span><span class="p">(</span>
+<span class="n">target</span><span class="p">,</span> <span class="n">bisect_right</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">phases</span><span class="p">,</span> <span class="n">left</span><span class="p">),</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">phases</span><span class="p">)</span>
+<span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">_merge_phases</span><span class="p">(</span><span class="n">target</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="n">bisect_left</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">phases</span><span class="p">,</span> <span class="n">right</span><span class="p">))</span>
+
+<span class="k">def</span> <span class="nf">_merge_phases</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">target</span><span class="p">,</span> <span class="n">start</span><span class="p">,</span> <span class="n">end</span><span class="p">):</span>
+<span class="n">rank</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">present</span><span class="o">.</span><span class="n">prefix_sum</span><span class="p">(</span><span class="n">start</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="n">phase</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">present</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">rank</span><span class="p">)</span>
+<span class="k">while</span> <span class="n">phase</span> <span class="o">&lt;</span> <span class="n">end</span><span class="p">:</span>
+<span class="n">root</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">roots</span><span class="p">[</span><span class="n">phase</span><span class="p">]</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">weights</span><span class="p">[</span><span class="n">root</span><span class="p">]</span> <span class="o">+=</span> <span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">phases</span><span class="p">[</span><span class="n">phase</span><span class="p">]</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">phases</span><span class="p">[</span><span class="n">target</span><span class="p">])</span> <span class="o">%</span> <span class="bp">self</span><span class="o">.</span><span class="n">gap</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">roots</span><span class="p">[</span><span class="n">target</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_union</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">roots</span><span class="p">[</span><span class="n">target</span><span class="p">],</span> <span class="n">root</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">roots</span><span class="p">[</span><span class="n">phase</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">present</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">phase</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">phase</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">present</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">rank</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">_dispatch</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">min_gap</span><span class="p">,</span> <span class="n">release_order</span><span class="p">,</span> <span class="n">starts</span><span class="p">,</span> <span class="n">ends</span><span class="p">):</span>
+<span class="n">ready</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">pending</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">date</span> <span class="o">=</span> <span class="n">points</span><span class="p">[</span><span class="n">release_order</span><span class="p">[</span><span class="mi">0</span><span class="p">]][</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">arrangement</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">*</span> <span class="nb">len</span><span class="p">(</span><span class="n">points</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">points</span><span class="p">:</span>
+<span class="k">if</span> <span class="ow">not</span> <span class="n">ready</span><span class="p">:</span>
+<span class="n">date</span> <span class="o">=</span> <span class="nb">max</span><span class="p">(</span><span class="n">date</span><span class="p">,</span> <span class="n">points</span><span class="p">[</span><span class="n">release_order</span><span class="p">[</span><span class="n">pending</span><span class="p">]][</span><span class="mi">0</span><span class="p">])</span>
+<span class="n">region</span> <span class="o">=</span> <span class="n">bisect_right</span><span class="p">(</span><span class="n">starts</span><span class="p">,</span> <span class="n">date</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
+<span class="k">if</span> <span class="n">region</span> <span class="o">&gt;=</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">date</span> <span class="o">&lt;=</span> <span class="n">ends</span><span class="p">[</span><span class="n">region</span><span class="p">]:</span>
+<span class="n">date</span> <span class="o">=</span> <span class="n">ends</span><span class="p">[</span><span class="n">region</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="n">pending</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">points</span><span class="p">)</span> <span class="ow">and</span> <span class="n">points</span><span class="p">[</span><span class="n">release_order</span><span class="p">[</span><span class="n">pending</span><span class="p">]][</span><span class="mi">0</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">date</span><span class="p">:</span>
+<span class="n">i</span> <span class="o">=</span> <span class="n">release_order</span><span class="p">[</span><span class="n">pending</span><span class="p">]</span>
+<span class="n">left</span><span class="p">,</span> <span class="n">right</span> <span class="o">=</span> <span class="n">points</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+<span class="n">heappush</span><span class="p">(</span><span class="n">ready</span><span class="p">,</span> <span class="p">(</span><span class="n">right</span><span class="p">,</span> <span class="n">left</span><span class="p">,</span> <span class="n">i</span><span class="p">))</span>
+<span class="n">pending</span> <span class="o">+=</span> <span class="mi">1</span>
+<span class="n">right</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">i</span> <span class="o">=</span> <span class="n">heappop</span><span class="p">(</span><span class="n">ready</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">date</span> <span class="o">&gt;</span> <span class="n">right</span><span class="p">:</span>
+<span class="k">return</span> <span class="bp">None</span>
+<span class="n">arrangement</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">date</span>
+<span class="n">date</span> <span class="o">+=</span> <span class="n">min_gap</span>
+<span class="k">return</span> <span class="n">arrangement</span>
+
+
+<span class="k">def</span> <span class="nf">_forbidden</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">min_gap</span><span class="p">,</span> <span class="n">release_order</span><span class="p">):</span>
+<span class="s2">"""构造禁用区间；候选间隔不可行时返回 None。"""</span>
+<span class="n">deadlines</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="k">for</span> <span class="n">right</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">right</span> <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">right</span> <span class="ow">in</span> <span class="n">points</span><span class="p">):</span>
+<span class="n">deadline</span> <span class="o">=</span> <span class="n">right</span> <span class="o">+</span> <span class="n">min_gap</span>
+<span class="k">if</span> <span class="ow">not</span> <span class="n">deadlines</span> <span class="ow">or</span> <span class="n">deadline</span> <span class="o">!=</span> <span class="n">deadlines</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]:</span>
+<span class="n">deadlines</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">deadline</span><span class="p">)</span>
+<span class="n">count</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">deadlines</span><span class="p">)</span>
+<span class="n">loads</span> <span class="o">=</span> <span class="n">Fenwick</span><span class="p">(</span><span class="n">count</span><span class="p">)</span>
+<span class="n">relevant</span> <span class="o">=</span> <span class="n">Fenwick</span><span class="p">(</span><span class="n">count</span><span class="p">,</span> <span class="n">full</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">predecessor</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">count</span> <span class="o">-</span> <span class="mi">1</span><span class="p">))</span>
+<span class="n">offsets</span> <span class="o">=</span> <span class="n">Offsets</span><span class="p">(</span><span class="n">deadlines</span><span class="p">,</span> <span class="n">min_gap</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">critical</span><span class="p">(</span><span class="n">index</span><span class="p">):</span>
+<span class="k">return</span> <span class="p">(</span>
+<span class="n">deadlines</span><span class="p">[</span><span class="n">index</span><span class="p">]</span>
+<span class="o">-</span> <span class="n">min_gap</span> <span class="o">*</span> <span class="n">loads</span><span class="o">.</span><span class="n">prefix_sum</span><span class="p">(</span><span class="n">index</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+<span class="o">-</span> <span class="n">offsets</span><span class="o">.</span><span class="n">offset</span><span class="p">(</span><span class="n">index</span><span class="p">)</span>
+<span class="p">)</span>
+
+<span class="n">forbidden_starts</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">forbidden_ends</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">first_active</span> <span class="o">=</span> <span class="n">count</span>
+<span class="n">next_offset</span> <span class="o">=</span> <span class="n">count</span> <span class="o">-</span> <span class="mi">1</span>
+<span class="n">pending</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">points</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
+<span class="k">while</span> <span class="n">pending</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+<span class="n">release</span> <span class="o">=</span> <span class="n">points</span><span class="p">[</span><span class="n">release_order</span><span class="p">[</span><span class="n">pending</span><span class="p">]][</span><span class="mi">0</span><span class="p">]</span>
+<span class="k">while</span> <span class="n">pending</span> <span class="o">&gt;=</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">points</span><span class="p">[</span><span class="n">release_order</span><span class="p">[</span><span class="n">pending</span><span class="p">]][</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="n">release</span><span class="p">:</span>
+<span class="n">_</span><span class="p">,</span> <span class="n">right</span> <span class="o">=</span> <span class="n">points</span><span class="p">[</span><span class="n">release_order</span><span class="p">[</span><span class="n">pending</span><span class="p">]]</span>
+<span class="n">index</span> <span class="o">=</span> <span class="n">bisect_left</span><span class="p">(</span><span class="n">deadlines</span><span class="p">,</span> <span class="n">right</span> <span class="o">+</span> <span class="n">min_gap</span><span class="p">)</span>
+<span class="n">loads</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">index</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">successor</span> <span class="o">=</span> <span class="n">relevant</span><span class="o">.</span><span class="n">select</span><span class="p">(</span><span class="n">relevant</span><span class="o">.</span><span class="n">prefix_sum</span><span class="p">(</span><span class="n">index</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">successor_time</span> <span class="o">=</span> <span class="n">critical</span><span class="p">(</span><span class="n">successor</span><span class="p">)</span>
+<span class="k">while</span> <span class="p">(</span>
+<span class="n">predecessor</span><span class="p">[</span><span class="n">successor</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="mi">0</span>
+<span class="ow">and</span> <span class="n">critical</span><span class="p">(</span><span class="n">predecessor</span><span class="p">[</span><span class="n">successor</span><span class="p">])</span> <span class="o">&gt;</span> <span class="n">successor_time</span>
+<span class="p">):</span>
+<span class="n">removed</span> <span class="o">=</span> <span class="n">predecessor</span><span class="p">[</span><span class="n">successor</span><span class="p">]</span>
+<span class="n">relevant</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">removed</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">predecessor</span><span class="p">[</span><span class="n">successor</span><span class="p">]</span> <span class="o">=</span> <span class="n">predecessor</span><span class="p">[</span><span class="n">removed</span><span class="p">]</span>
+<span class="k">if</span> <span class="n">first_active</span> <span class="o">==</span> <span class="n">removed</span><span class="p">:</span>
+<span class="n">first_active</span> <span class="o">=</span> <span class="n">successor</span>
+<span class="n">first_active</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">first_active</span><span class="p">,</span> <span class="n">successor</span><span class="p">)</span>
+<span class="n">pending</span> <span class="o">-=</span> <span class="mi">1</span>
+<span class="n">latest_start</span> <span class="o">=</span> <span class="n">critical</span><span class="p">(</span><span class="n">first_active</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">latest_start</span> <span class="o">&lt;</span> <span class="n">release</span><span class="p">:</span>
+<span class="k">return</span> <span class="bp">None</span>
+<span class="n">lower</span> <span class="o">=</span> <span class="n">latest_start</span> <span class="o">-</span> <span class="n">min_gap</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="n">upper</span> <span class="o">=</span> <span class="n">release</span> <span class="o">-</span> <span class="mi">1</span>
+<span class="k">if</span> <span class="n">lower</span> <span class="o">&lt;=</span> <span class="n">upper</span><span class="p">:</span>
+<span class="k">while</span> <span class="n">next_offset</span> <span class="o">&gt;=</span> <span class="mi">0</span> <span class="ow">and</span> <span class="n">deadlines</span><span class="p">[</span><span class="n">next_offset</span><span class="p">]</span> <span class="o">&gt;</span> <span class="n">latest_start</span><span class="p">:</span>
+<span class="n">offsets</span><span class="o">.</span><span class="n">activate</span><span class="p">(</span><span class="n">next_offset</span><span class="p">,</span> <span class="n">deadlines</span><span class="p">[</span><span class="n">next_offset</span><span class="p">])</span>
+<span class="n">next_offset</span> <span class="o">-=</span> <span class="mi">1</span>
+<span class="n">offsets</span><span class="o">.</span><span class="n">forbid</span><span class="p">(</span><span class="n">latest_start</span> <span class="o">-</span> <span class="n">min_gap</span><span class="p">,</span> <span class="n">release</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">forbidden_starts</span> <span class="ow">and</span> <span class="n">upper</span> <span class="o">&gt;=</span> <span class="n">forbidden_starts</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="mi">1</span><span class="p">:</span>
+<span class="n">forbidden_starts</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="nb">min</span><span class="p">(</span><span class="n">forbidden_starts</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">],</span> <span class="n">lower</span><span class="p">)</span>
+<span class="k">else</span><span class="p">:</span>
+<span class="n">forbidden_starts</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">lower</span><span class="p">)</span>
+<span class="n">forbidden_ends</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">upper</span><span class="p">)</span>
+<span class="n">forbidden_starts</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
+<span class="n">forbidden_ends</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
+<span class="k">return</span> <span class="n">forbidden_starts</span><span class="p">,</span> <span class="n">forbidden_ends</span>
+
+
+<span class="k">def</span> <span class="nf">_place</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">min_gap</span><span class="p">):</span>
+<span class="s2">"""固定最小间隔的精确判定，返回原区间顺序的点。"""</span>
+<span class="k">if</span> <span class="ow">not</span> <span class="n">points</span> <span class="ow">or</span> <span class="n">min_gap</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+<span class="k">return</span> <span class="p">[</span><span class="n">left</span> <span class="k">for</span> <span class="n">left</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">points</span><span class="p">]</span>
+<span class="n">release_order</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span>
+<span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">points</span><span class="p">)),</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">i</span><span class="p">:</span> <span class="p">(</span><span class="n">points</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">points</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">1</span><span class="p">],</span> <span class="n">i</span><span class="p">)</span>
+<span class="p">)</span>
+<span class="n">arrangement</span> <span class="o">=</span> <span class="n">_dispatch</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">min_gap</span><span class="p">,</span> <span class="n">release_order</span><span class="p">,</span> <span class="p">[],</span> <span class="p">[])</span>
+<span class="k">if</span> <span class="n">arrangement</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+<span class="k">return</span> <span class="n">arrangement</span>
+<span class="k">if</span> <span class="nb">all</span><span class="p">(</span>
+<span class="n">points</span><span class="p">[</span><span class="n">first</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span> <span class="o">&lt;=</span> <span class="n">points</span><span class="p">[</span><span class="n">second</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">first</span><span class="p">,</span> <span class="n">second</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">release_order</span><span class="p">,</span> <span class="n">release_order</span><span class="p">[</span><span class="mi">1</span><span class="p">:])</span>
+<span class="p">):</span>
+<span class="k">return</span> <span class="bp">None</span>
+<span class="n">regions</span> <span class="o">=</span> <span class="n">_forbidden</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">min_gap</span><span class="p">,</span> <span class="n">release_order</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">regions</span> <span class="ow">is</span> <span class="bp">None</span><span class="p">:</span>
+<span class="k">return</span> <span class="bp">None</span>
+<span class="k">return</span> <span class="n">_dispatch</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">min_gap</span><span class="p">,</span> <span class="n">release_order</span><span class="p">,</span> <span class="o">*</span><span class="n">regions</span><span class="p">)</span>
+
+
+<span class="k">def</span> <span class="nf">maximin_gap</span><span class="p">(</span><span class="n">points</span><span class="p">):</span>
+<span class="s2">"""返回 (最优最小间隔, 按原区间顺序排列的取点结果)。"""</span>
+<span class="n">points</span> <span class="o">=</span> <span class="p">[</span><span class="nb">tuple</span><span class="p">(</span><span class="n">bounds</span><span class="p">)</span> <span class="k">for</span> <span class="n">bounds</span> <span class="ow">in</span> <span class="n">points</span><span class="p">]</span>
+<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">points</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
+<span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">"至少需要两个区间"</span><span class="p">)</span>
+<span class="k">if</span> <span class="nb">any</span><span class="p">(</span>
+<span class="nb">len</span><span class="p">(</span><span class="n">bounds</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">2</span> <span class="ow">or</span> <span class="nb">any</span><span class="p">(</span><span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="nb">int</span><span class="p">)</span> <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">bounds</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">bounds</span> <span class="ow">in</span> <span class="n">points</span>
+<span class="p">):</span>
+<span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">"区间端点必须是整数"</span><span class="p">)</span>
+<span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="n">left</span> <span class="o">&gt;</span> <span class="n">right</span> <span class="k">for</span> <span class="n">left</span><span class="p">,</span> <span class="n">right</span> <span class="ow">in</span> <span class="n">points</span><span class="p">):</span>
+<span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">"区间不能为空"</span><span class="p">)</span>
+<span class="n">arrangement</span> <span class="o">=</span> <span class="p">[</span><span class="n">left</span> <span class="k">for</span> <span class="n">left</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">points</span><span class="p">]</span>
+<span class="n">min_gap</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">max_gap</span> <span class="o">=</span> <span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">right</span> <span class="k">for</span> <span class="n">_</span><span class="p">,</span> <span class="n">right</span> <span class="ow">in</span> <span class="n">points</span><span class="p">)</span> <span class="o">-</span> <span class="nb">min</span><span class="p">(</span><span class="n">arrangement</span><span class="p">))</span> <span class="o">//</span> <span class="p">(</span>
+<span class="nb">len</span><span class="p">(</span><span class="n">points</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span>
+<span class="p">)</span>
+<span class="n">best_gap</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">while</span> <span class="n">min_gap</span> <span class="o">&lt;=</span> <span class="n">max_gap</span><span class="p">:</span>
+<span class="n">mid_gap</span> <span class="o">=</span> <span class="p">(</span><span class="n">min_gap</span> <span class="o">+</span> <span class="n">max_gap</span><span class="p">)</span> <span class="o">//</span> <span class="mi">2</span>
+<span class="n">candidate</span> <span class="o">=</span> <span class="n">_place</span><span class="p">(</span><span class="n">points</span><span class="p">,</span> <span class="n">mid_gap</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">candidate</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span><span class="p">:</span>
+<span class="n">best_gap</span> <span class="o">=</span> <span class="n">mid_gap</span>
+<span class="n">arrangement</span> <span class="o">=</span> <span class="n">candidate</span>
+<span class="n">min_gap</span> <span class="o">=</span> <span class="n">mid_gap</span> <span class="o">+</span> <span class="mi">1</span>
+<span class="k">else</span><span class="p">:</span>
+<span class="n">max_gap</span> <span class="o">=</span> <span class="n">mid_gap</span> <span class="o">-</span> <span class="mi">1</span>
+<span class="k">return</span> <span class="n">best_gap</span><span class="p">,</span> <span class="n">arrangement</span></code></pre></div><p data-pid="ZQ4HworS">调用题目的两个例子：</p><div class="highlight"><pre><code class="language-python"><span class="k">print</span><span class="p">(</span><span class="n">maximin_gap</span><span class="p">([(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">),</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">9</span><span class="p">)]))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">maximin_gap</span><span class="p">([(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">7</span><span class="p">),</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">)]))</span></code></pre></div><p data-pid="v2DCdO9O">输出：</p><div class="highlight"><pre><code class="language-text">(4, [1, 5, 9])
+(4, [10, 2, 6])</code></pre></div><p data-pid="xi-mu7s7">两个例子的 <img alt="W" eeimg="1" src="https://www.zhihu.com/equation?tex=W"/> 都是 9，所以最小间隔至多为 <img alt="\lfloor9/2\rfloor=4" eeimg="1" src="https://www.zhihu.com/equation?tex=%5Clfloor9%2F2%5Crfloor%3D4"/>，这两个输出确实达到最优。独立实现还通过了 63261 组整数窗口穷举，以及 1000 组较宽窗口的独立参考算法对照。</p><p data-pid="-gM5f8AG"><b>接下来处理附加题。</b> 上面的算法已经求出了最优最小间隔 <img alt="g^*" eeimg="1" src="https://www.zhihu.com/equation?tex=g%5E%2A"/>。接下来的选择必须在所有间隔都不小于 <img alt="g^*" eeimg="1" src="https://www.zhihu.com/equation?tex=g%5E%2A"/> 的方案中进行，不能为了平均值或方差牺牲它。</p><p data-pid="pDNwzYrD">平均间隔有一个简单但重要的性质：</p><p data-pid="yGBv7Mbf"><img alt=" \bar d=\frac{\sum_{k=1}^{n-1}d_k}{n-1} =\frac{y_n-y_1}{n-1}. " eeimg="2" src="https://www.zhihu.com/equation?tex=+%5Cbar+d%3D%5Cfrac%7B%5Csum_%7Bk%3D1%7D%5E%7Bn-1%7Dd_k%7D%7Bn-1%7D+%3D%5Cfrac%7By_n-y_1%7D%7Bn-1%7D.+"/></p><p data-pid="2XeGP4XQ">因此第二目标就是<b>最大化最左点和最右点之间的跨度</b>。中间点仍影响方案是否可行，但不直接出现在平均值公式中。</p><p data-pid="T3lneiYz">固定 <img alt="g^*" eeimg="1" src="https://www.zhihu.com/equation?tex=g%5E%2A"/> 后，这一步可以在 <b><img alt="O(n^2\log n)" eeimg="1" src="https://www.zhihu.com/equation?tex=O%28n%5E2%5Clog+n%29"/></b> 时间内完成。只需枚举最右点来自哪个区间 <img alt="j" eeimg="1" src="https://www.zhihu.com/equation?tex=j"/>，因为任意可行解的最右点都可以外移到该区间的右端点 <img alt="R_j" eeimg="1" src="https://www.zhihu.com/equation?tex=R_j"/>，而不会减小相邻间隔。</p><p data-pid="VtE6ateZ">对每个 <img alt="j" eeimg="1" src="https://www.zhihu.com/equation?tex=j"/>，执行下面的步骤：</p><ol><li data-pid="6Ve5oEW3">将区间 <img alt="j" eeimg="1" src="https://www.zhihu.com/equation?tex=j"/> 固定为 <img alt="[R_j,R_j]" eeimg="1" src="https://www.zhihu.com/equation?tex=%5BR_j%2CR_j%5D"/>。</li><li data-pid="tijNh1Kg">将其他区间裁剪为 <img alt="[L_i,\min(R_i,R_j-g^*)]" eeimg="1" src="https://www.zhihu.com/equation?tex=%5BL_i%2C%5Cmin%28R_i%2CR_j-g%5E%2A%29%5D"/>，确保没有其他点超过 <img alt="R_j" eeimg="1" src="https://www.zhihu.com/equation?tex=R_j"/>，且它们与固定点至少相隔 <img alt="g^*" eeimg="1" src="https://www.zhihu.com/equation?tex=g%5E%2A"/>。出现空区间就跳过。</li><li data-pid="oom-nU3H">调用前面代码中的 <code>_place(new_intervals, g_star)</code>。若可行，记返回方案的最左坐标为 <img alt="a_j=\min_i x_i" eeimg="1" src="https://www.zhihu.com/equation?tex=a_j%3D%5Cmin_i+x_i"/>。</li><li data-pid="7Ou2-uF-">此次枚举的最大跨度为 <img alt="R_j-a_j" eeimg="1" src="https://www.zhihu.com/equation?tex=R_j-a_j"/>。在所有可行枚举中取最大值，即得到 <img alt="S^*" eeimg="1" src="https://www.zhihu.com/equation?tex=S%5E%2A"/>。</li></ol><p data-pid="6kGr585O">这里用到了判定器的一个性质：<b>它返回的可行方案具有最早可能的首点。</b> 快速贪心成功时，首点就在最早释放时间；一般情形下，调度器也从最早释放时间出发，只跳过任何可行方案都不能使用的禁区。因此，在固定最右点为 <img alt="R_j" eeimg="1" src="https://www.zhihu.com/equation?tex=R_j"/> 的子问题中，不可能还有一个首点比 <img alt="a_j" eeimg="1" src="https://www.zhihu.com/equation?tex=a_j"/> 更早的可行方案。这就同时保证了 <img alt="R_j-a_j" eeimg="1" src="https://www.zhihu.com/equation?tex=R_j-a_j"/> 是该子问题的最大跨度。</p><p data-pid="7IB0d4AK">最右点有 <img alt="n" eeimg="1" src="https://www.zhihu.com/equation?tex=n"/> 种选择，每次裁剪需要 <img alt="O(n)" eeimg="1" src="https://www.zhihu.com/equation?tex=O%28n%29"/>，固定间隔判定需要 <img alt="O(n\log n)" eeimg="1" src="https://www.zhihu.com/equation?tex=O%28n%5Clog+n%29"/>，所以第二阶段的时间上界为 <img alt="O(n^2\log n)" eeimg="1" src="https://www.zhihu.com/equation?tex=O%28n%5E2%5Clog+n%29"/>。这是一个可证明的算法上界，并不声称已经证明无法进一步改进。</p><p data-pid="Upj1M-EK">固定最大跨度 <img alt="S^*" eeimg="1" src="https://www.zhihu.com/equation?tex=S%5E%2A"/> 后，平均值也固定了。方差为</p><p data-pid="H1BBa71z"><img alt=" \operatorname{Var}(d) =\frac1{n-1}\sum_{k=1}^{n-1}d_k^2 -\left(\frac{S^*}{n-1}\right)^2. " eeimg="2" src="https://www.zhihu.com/equation?tex=+%5Coperatorname%7BVar%7D%28d%29+%3D%5Cfrac1%7Bn-1%7D%5Csum_%7Bk%3D1%7D%5E%7Bn-1%7Dd_k%5E2+-%5Cleft%28%5Cfrac%7BS%5E%2A%7D%7Bn-1%7D%5Cright%29%5E2.+"/></p><p data-pid="xIv6cVoM">因此第三目标等价于<b>最小化间隔平方和</b>，同时保持前两个目标的最优值。完整的优先级是</p><p data-pid="vlIYr9qN"><img alt=" \max\min d_k \quad\longrightarrow\quad \max(y_n-y_1) \quad\longrightarrow\quad \min\sum d_k^2. " eeimg="2" src="https://www.zhihu.com/equation?tex=+%5Cmax%5Cmin+d_k+%5Cquad%5Clongrightarrow%5Cquad+%5Cmax%28y_n-y_1%29+%5Cquad%5Clongrightarrow%5Cquad+%5Cmin%5Csum+d_k%5E2.+"/></p><p data-pid="7kI-KEqg">附加题给出的例子可以直接手算。0 和 1 固定，故最小间隔至多为 1；最大跨度是 7，所以最后一个点取 7。令第三个点为 <img alt="z" eeimg="1" src="https://www.zhihu.com/equation?tex=z"/>，三个间隔就是 <img alt="1,z-1,7-z" eeimg="1" src="https://www.zhihu.com/equation?tex=1%2Cz-1%2C7-z"/>。后两个间隔之和为 6，平方和在二者相等时最小，因此 <img alt="z=4" eeimg="1" src="https://www.zhihu.com/equation?tex=z%3D4"/>，得到</p><p data-pid="vPbLyhY6"><img alt=" \boxed{0,1,4,7}. " eeimg="2" src="https://www.zhihu.com/equation?tex=+%5Cboxed%7B0%2C1%2C4%2C7%7D.+"/></p><p data-pid="3pgKyT51">其最小间隔为 1、平均间隔为 <img alt="7/3" eeimg="1" src="https://www.zhihu.com/equation?tex=7%2F3"/>、方差为 <img alt="8/9" eeimg="1" src="https://www.zhihu.com/equation?tex=8%2F9"/>。方差只在前两个目标已经最优的方案之间比较；跨度更小的方案即使方差更小，也不应被选中。</p><p data-pid="7D7RfBy7">为了用一份较短的代码处理完整附加题，可以使用 OR-Tools CP-SAT，按三个阶段依次求解。这个通用模型适合作为可复现实现和小规模基准，<b>不具有前面专用主问题算法的复杂度保证</b>。</p><p data-pid="7nVh3vmQ">模型直接使用排序后的坐标 <img alt="y_k" eeimg="1" src="https://www.zhihu.com/equation?tex=y_k"/>，再用布尔变量 <img alt="z_{ik}" eeimg="1" src="https://www.zhihu.com/equation?tex=z_%7Bik%7D"/> 表示“区间 <img alt="i" eeimg="1" src="https://www.zhihu.com/equation?tex=i"/> 的点是否占据位置 <img alt="k" eeimg="1" src="https://www.zhihu.com/equation?tex=k"/>”。每个区间和每个位置都恰好使用一次，顺序由求解器选择。每个阶段必须证明最优，才能固定目标值进入下一阶段；<code>FEASIBLE</code> 只表示有可行解，<code>OPTIMAL</code> 才表示已证明最优。<a class="wrap external" data-draft-type="text-link" href="https://developers.google.com/optimization/cp/cp_solver" rel="nofollow noreferrer noopener" target="_blank">CP-SAT 文档</a></p><p data-pid="WJdrrCfg">安装依赖：</p><div class="highlight"><pre><code class="language-bash">pip install ortools
+from ortools.sat.python import cp_model
+
+
+def solve_intervals<span class="o">(</span>intervals<span class="o">)</span>:
+<span class="nv">n</span> <span class="o">=</span> len<span class="o">(</span>intervals<span class="o">)</span>
+<span class="k">if</span> n &lt; <span class="m">2</span> or any<span class="o">(</span>left &gt; right <span class="k">for</span> left, right in intervals<span class="o">)</span>:
+raise ValueError<span class="o">(</span><span class="s2">"需要至少两个非空整数区间"</span><span class="o">)</span>
+
+<span class="nv">base</span> <span class="o">=</span> min<span class="o">(</span>left <span class="k">for</span> left, _ in intervals<span class="o">)</span>
+<span class="nv">width</span> <span class="o">=</span> max<span class="o">(</span>right <span class="k">for</span> _, right in intervals<span class="o">)</span> - base
+<span class="nv">model</span> <span class="o">=</span> cp_model.CpModel<span class="o">()</span>
+<span class="nv">y</span> <span class="o">=</span> <span class="o">[</span>model.new_int_var<span class="o">(</span>0, width, f<span class="s2">"y{k}"</span><span class="o">)</span> <span class="k">for</span> k in range<span class="o">(</span>n<span class="o">)]</span>
+
+<span class="c1"># z[i][k]：区间 i 的点占据排序后的第 k 个位置。</span>
+<span class="nv">z</span> <span class="o">=</span> <span class="o">[[</span>model.new_bool_var<span class="o">(</span>f<span class="s2">"z{i}_{k}"</span><span class="o">)</span> <span class="k">for</span> k in range<span class="o">(</span>n<span class="o">)]</span> <span class="k">for</span> i in range<span class="o">(</span>n<span class="o">)]</span>
+<span class="k">for</span> i, <span class="o">(</span>left, right<span class="o">)</span> in enumerate<span class="o">(</span>intervals<span class="o">)</span>:
+model.add<span class="o">(</span>sum<span class="o">(</span>z<span class="o">[</span>i<span class="o">])</span> <span class="o">==</span> 1<span class="o">)</span>
+<span class="k">for</span> k in range<span class="o">(</span>n<span class="o">)</span>:
+model.add<span class="o">(</span>y<span class="o">[</span>k<span class="o">]</span> &gt;<span class="o">=</span> left - base<span class="o">)</span>.only_enforce_if<span class="o">(</span>z<span class="o">[</span>i<span class="o">][</span>k<span class="o">])</span>
+model.add<span class="o">(</span>y<span class="o">[</span>k<span class="o">]</span> &lt;<span class="o">=</span> right - base<span class="o">)</span>.only_enforce_if<span class="o">(</span>z<span class="o">[</span>i<span class="o">][</span>k<span class="o">])</span>
+<span class="k">for</span> k in range<span class="o">(</span>n<span class="o">)</span>:
+model.add<span class="o">(</span>sum<span class="o">(</span>z<span class="o">[</span>i<span class="o">][</span>k<span class="o">]</span> <span class="k">for</span> i in range<span class="o">(</span>n<span class="o">))</span> <span class="o">==</span> 1<span class="o">)</span>
+
+<span class="nv">gaps</span> <span class="o">=</span> <span class="o">[</span>model.new_int_var<span class="o">(</span>0, width, f<span class="s2">"d{k}"</span><span class="o">)</span> <span class="k">for</span> k in range<span class="o">(</span>n - 1<span class="o">)]</span>
+<span class="k">for</span> k in range<span class="o">(</span>n - 1<span class="o">)</span>:
+model.add<span class="o">(</span>gaps<span class="o">[</span>k<span class="o">]</span> <span class="o">==</span> y<span class="o">[</span>k + 1<span class="o">]</span> - y<span class="o">[</span>k<span class="o">])</span>
+<span class="nv">minimum</span> <span class="o">=</span> model.new_int_var<span class="o">(</span>0, width // <span class="o">(</span>n - 1<span class="o">)</span>, <span class="s2">"minimum"</span><span class="o">)</span>
+model.add_min_equality<span class="o">(</span>minimum, gaps<span class="o">)</span>
+
+<span class="nv">solver</span> <span class="o">=</span> cp_model.CpSolver<span class="o">()</span>
+solver.parameters.num_search_workers <span class="o">=</span> <span class="m">1</span>
+
+def solve_optimal<span class="o">()</span>:
+<span class="nv">status</span> <span class="o">=</span> solver.solve<span class="o">(</span>model<span class="o">)</span>
+<span class="k">if</span> status !<span class="o">=</span> cp_model.OPTIMAL:
+raise RuntimeError<span class="o">(</span>f<span class="s2">"未证明最优：{solver.status_name(status)}"</span><span class="o">)</span>
+
+<span class="c1"># 第一阶段：最大化最小间隔，然后固定最优值。</span>
+model.maximize<span class="o">(</span>minimum<span class="o">)</span>
+solve_optimal<span class="o">()</span>
+model.add<span class="o">(</span><span class="nv">minimum</span> <span class="o">==</span> solver.value<span class="o">(</span>minimum<span class="o">))</span>
+
+<span class="c1"># 第二阶段：最大化平均间隔，等价于最大化总跨度。</span>
+<span class="nv">span</span> <span class="o">=</span> y<span class="o">[</span>-1<span class="o">]</span> - y<span class="o">[</span>0<span class="o">]</span>
+model.maximize<span class="o">(</span>span<span class="o">)</span>
+solve_optimal<span class="o">()</span>
+model.add<span class="o">(</span><span class="nv">span</span> <span class="o">==</span> solver.value<span class="o">(</span>span<span class="o">))</span>
+
+<span class="c1"># 第三阶段：平均值固定后，最小化间隔平方和。</span>
+<span class="c1"># 平方约束只在此时加入，避免影响前两个阶段的求解。</span>
+<span class="nv">squares</span> <span class="o">=</span> <span class="o">[</span>model.new_int_var<span class="o">(</span>0, width * width, f<span class="s2">"q{k}"</span><span class="o">)</span> <span class="k">for</span> k in range<span class="o">(</span>n - 1<span class="o">)]</span>
+<span class="k">for</span> square, gap in zip<span class="o">(</span>squares, gaps<span class="o">)</span>:
+model.add_multiplication_equality<span class="o">(</span>square, <span class="o">[</span>gap, gap<span class="o">])</span>
+model.minimize<span class="o">(</span>sum<span class="o">(</span>squares<span class="o">))</span>
+solve_optimal<span class="o">()</span>
+
+<span class="c1"># 按原区间顺序返回取点结果。</span>
+<span class="k">return</span> <span class="o">[</span>
+next<span class="o">(</span>solver.value<span class="o">(</span>y<span class="o">[</span>k<span class="o">])</span> + base <span class="k">for</span> k in range<span class="o">(</span>n<span class="o">)</span> <span class="k">if</span> solver.value<span class="o">(</span>z<span class="o">[</span>i<span class="o">][</span>k<span class="o">]))</span>
+<span class="k">for</span> i in range<span class="o">(</span>n<span class="o">)</span>
+<span class="o">]</span></code></pre></div><p data-pid="EcF3Fqei">运行三个例子，结果按原区间顺序返回：</p><div class="highlight"><pre><code class="language-python"><span class="k">print</span><span class="p">(</span><span class="n">solve_intervals</span><span class="p">([(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">),</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">9</span><span class="p">)]))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">solve_intervals</span><span class="p">([(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">10</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">7</span><span class="p">),</span> <span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">)]))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">solve_intervals</span><span class="p">([(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span> <span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">7</span><span class="p">)]))</span>
+<span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
+<span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">6</span><span class="p">]</span>
+<span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">7</span><span class="p">]</span></code></pre></div><p data-pid="SEE-GwQi">这份三阶段模型已在 OR-Tools 9.15.6755 上运行，并与 300 组随机小样本的完整三目标穷举结果一致。若在大实例中设置求解时间限制，尚未返回 <code>OPTIMAL</code> 的阶段应标为未证明最优，不能把限时得到的可行结果当作严格的三阶段最优解。</p>
+
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>
