@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>广义反僵尸原则与巨型查找表 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="广义反僵尸原则与巨型查找表 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://l-m-sherlock.github.io/ZhiHuArchive/2092215701784286345.html">
+<meta property="og:image" content="https://pica.zhimg.com/v2-f223486874981e2afb5261b5b90873e7_720w.jpg?source=172ae18b">
+<meta property="og:description" content="在《僵尸那超乎想象的荒谬性》一文中，丹尼尔·丹尼特（Daniel Dennett）写道：[1] 迄今为止，有好几位哲学家对我说，他们打算接受我的挑战，为僵尸提供一种非乞题（不陷入循环论证）的辩护；但我目前看到的唯一一种辩护，竟然是去假设一种在「逻辑上可能」…">
+<meta name="description" content="在《僵尸那超乎想象的荒谬性》一文中，丹尼尔·丹尼特（Daniel Dennett）写道：[1] 迄今为止，有好几位哲学家对我说，他们打算接受我的挑战，为僵尸提供一种非乞题（不陷入循环论证）的辩护；但我目前看到的唯一一种辩护，竟然是去假设一种在「逻辑上可能」…">
+<meta data-pagefind-meta="title" content="广义反僵尸原则与巨型查找表">
+<meta data-pagefind-meta="image" content="https://pica.zhimg.com/v2-f223486874981e2afb5261b5b90873e7_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="广义反僵尸原则与巨型查找表 | ZhiHu Archive">
+<meta name="twitter:description" content="在《僵尸那超乎想象的荒谬性》一文中，丹尼尔·丹尼特（Daniel Dennett）写道：[1] 迄今为止，有好几位哲学家对我说，他们打算接受我的挑战，为僵尸提供一种非乞题（不陷入循环论证）的辩护；但我目前看到的唯一一种辩护，竟然是去假设一种在「逻辑上可能」…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="canonical" href="https://l-m-sherlock.github.io/ZhiHuArchive/2092215701784286345.html">
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"广义反僵尸原则与巨型查找表","description":"在《僵尸那超乎想象的荒谬性》一文中，丹尼尔·丹尼特（Daniel Dennett）写道：[1] 迄今为止，有好几位哲学家对我说，他们打算接受我的挑战，为僵尸提供一种非乞题（不陷入循环论证）的辩护；但我目前看到的唯一一种辩护，竟然是去假设一种在「逻辑上可能」…","author":{"@type":"Person","name":"Thoughts Memo","url":"https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0"},"datePublished":"2026-10-10T14:39:28+08:00","dateModified":"2026-10-11T19:37:43+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://l-m-sherlock.github.io/ZhiHuArchive/2092215701784286345.html"},"url":"https://l-m-sherlock.github.io/ZhiHuArchive/2092215701784286345.html","isPartOf":{"@type":"WebSite","name":"ZhiHu Archive for Thoughts Memo","url":"https://l-m-sherlock.github.io/ZhiHuArchive/"},"image":["https://pica.zhimg.com/v2-f223486874981e2afb5261b5b90873e7_720w.jpg?source=172ae18b"]}</script>
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/2092215701784286345");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+.archive-restoration-notice {
+margin: 1.25em 0;
+padding: 0.75em 1em;
+border-left: 4px solid #ea580c;
+background: #fff7ed;
+color: #7c2d12;
+}
+.archive-restoration-notice p {
+margin: 0.35em 0 0;
+}
+.archive-restored-content {
+padding-left: 0.85em;
+border-left: 4px solid #f97316;
+background: #fff7ed;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://pica.zhimg.com/v2-f223486874981e2afb5261b5b90873e7_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/2092215701784286345" target="_blank" rel="noopener noreferrer">广义反僵尸原则与巨型查找表</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pic1.zhimg.com/v2-1502e410dac552d5b1b033f5df0eafe4_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/4c592f496dc33822b560b382907ff1d0" target="_blank" rel="noopener noreferrer">@Thoughts Memo</a>
+</h2>
+<p>学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本</p>
+</div>
+</div>
+<time datetime="2026-10-10T06:39:28">发表于 2026年10月10日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">18 👍 / 2 💬</p>
+</header>
+<article data-pagefind-body>
+
+<p data-pid="JFSUOrgD">在《僵尸那超乎想象的荒谬性》一文中，丹尼尔·丹尼特（Daniel Dennett）写道：[1]</p><blockquote data-pid="Swut5a0r">迄今为止，有好几位哲学家对我说，他们打算接受我的挑战，为僵尸提供一种非乞题（不陷入循环论证）的辩护；但我目前看到的唯一一种辩护，竟然是去假设一种在「逻辑上可能」、但在现实中极其魔幻的存在——那就是内德·布洛克（Ned Block）所设想的「巨型查找表（Giant Lookup Table）」的变体……</blockquote><p data-pid="psaqk4Zc">所谓巨型查找表，用程序员的行话来说，就是你把一个函数直接实现为一个罗列了所有输入和对应输出的庞大表格，通常是为了节省运行时的计算算力。如果我的程序需要知道 1 到 100 之间任意两个输入的乘积，我可以写一个每次调用时都会进行运算的乘法算法，或者，我也可以预先计算出一个包含 10,000 个条目和两个索引的巨型查找表。在某些特定情况下，你<b>确实</b>会想要这么做（尽管一般不是为了做乘法）——比如当你需要极其频繁地重复调用这个函数，且它的可能输入并不多时；或者当你初始化时的时钟周期（CPU 算力）非常廉价，而执行时的时钟周期却极其昂贵时。</p><p data-pid="t0WBckFQ">巨型查找表的体积膨胀速度是极其恐怖的。即使我们只使用包含 850 个单词的基础英语（Basic English），想要穷举出一个每句只包含 10 个词、总共 20 个回合的所有可能对话的巨型查找表（GLUT），也需要惊人的 <img alt=" 7.6 \times 10^{585}" eeimg="1" src="https://www.zhihu.com/equation?tex=+7.6+%5Ctimes+10%5E%7B585%7D"/> 个条目。</p><p data-pid="jP_nKNs6">如果想用一个穷举了所有可能的感官输入和肌肉运动输出（基于某种极其精细的数字化方案）的巨型查找表来替换人类的大脑，这需要消耗<b>极其不讲理的巨大</b>内存空间。但是「在理论上（in principle）」，正如哲学家们最喜欢说的那样，这是办得到的。</p><p data-pid="tf6Ur8sf">这台 GLUT 机器并不是传统意义上的哲学僵尸，因为它的微观物理结构与人类截然不同。（事实上，GLUT <b>根本无法</b>在与人类相同的物理法则下运行；因为它实在太大了，大到我们这个宇宙根本装不下它。但为了进行哲学思辨，我们将姑且忽略这一点，假设存在无限量的内存存储空间。）</p><p data-pid="bsAUqtfu">但，这台 GLUT 机器<b>到底</b>算不算僵尸？换句话说，它是否在没有主观意识的情况下，表现出了与人类绝对一模一样的行为？</p><p data-pid="eETz0teZ">被 GLUT 驱动的躯体，它的舌头能够侃侃而谈关于意识的话题，它的手指能敲出长篇的哲学论文。从各方面来看，只要你不去掀开它的头盖骨往里看，这台 GLUT 机器表现得就跟一个真正的人类毫无二致……这看起来绝对是一个成立的「哲学僵尸」范例：它的行为举止完全像个人类，但那具躯壳里根本没有人在。</p><p data-pid="QS3epVXI">除非，这台 GLUT 机器本身其实是有意识的；如果那样的话，它就不再是一个成立的僵尸范例了。</p><p data-pid="5djd9DTc">我不记得自己曾经看到过<b>任何人</b>声称一台纯粹的 GLUT 是有意识的。（必须承认，我在这方面的阅读量还没达到专业级学者的程度；如有错漏，请不吝赐教。）甚至连那些被痛批为（倒吸一口凉气！）功能主义者的人，也不会声称一台依靠死记硬背查表的 GLUT 能够拥有意识。</p><p data-pid="HgyOPLF9">对于那些认为「意识<b>只不过是</b>一种特定的输入-输出模式」，从而彻底打发掉「大脑内部究竟在发生什么」这类烦人问题的人来说，GLUT 就是用来反驳他们的终极归谬法（reductio ad absurdum）。</p><p data-pid="zN_pGelv">那么，<a class="wrap external" data-draft-type="text-link" href="https://www.readthesequences.com/TheGeneralizedAntiZombiePrinciple" rel="nofollow noreferrer noopener" target="_blank">广义反僵尸原则（Generalized Anti-Zombie Principle, GAZP）</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="广义反僵尸原则" data-url="https://zhuanlan.zhihu.com/p/2091826482167522750">[1]</sup>对巨型查找表（GLUT）又是怎么看的呢？</p><p data-pid="gcjx86Nu">乍看之下，一台 GLUT 机器似乎就是个典型的「僵尸之主」——一个独立的、附加的、可被实验检测的、毫无意识的系统；是它在背后赋予了僵尸以行动力，并让僵尸出于<b>完全不同</b>的物理原因，满嘴跑火车地谈论意识。</p><p data-pid="ae_aljMF">在 GLUT 机器的内部，仅仅运行着一个极其简单的、只负责核对输入并调取对应输出的计算机程序。在这种情况下去谈论什么「简单的计算机程序」甚至都算抬举它了。GLUT 相比于一块能运算的 CPU，它更像是一块纯粹用来死记硬背的只读存储器（ROM）。我们完全可以用一套极其原始的物理机械来等效描述它：一系列可以切换的轨道，一些小球顺着预先设定好的储物架滚出来，然后落进相应的槽里——<b>句号</b>；这就是这台 GLUT 机器所做的<b>一切</b>。</p><p data-pid="yWFbBAzz">某位来自「善待僵尸组织（PETZ）」的发言人反驳道：「哦，所有反对机械论的人都会说这套说辞，不是吗？当你们打开人类的大脑往里看时，你们发现的也不过是一堆释放着神经递质、打开离子通道的化学机械啊？如果离子通道的开合能够产生意识，凭什么机械杠杆和小球滚进槽里就不行？」</p><p data-pid="dKLmlhbX">「问题不在于是不是机械杠杆，」功能主义者回答说，「问题在于，GLUT 里面的杠杆组成的是<b>错误的模式</b>。你需要那些能够实现比如『形成关于信念的元信念』，或者『自我建模』等高级算法的杠杆组合……见鬼，你至少得需要有能够把数据写入内存的能力，哪怕只是为了让计算能经历时间流逝产生状态变化。除非你认为你可以直接用 Haskell（一种以抽象著称的纯函数式编程语言）写出一个有意识的生命体。」</p><p data-pid="sEYShonN">「我才不管那些，」PETZ 的发言人说，「我只知道，这台被你们称为僵尸的机器，实实在在地写出了关于意识的哲学论文。如果这些哲学论文不是源自于意识，那它们究竟是从哪儿冒出来的？」</p><p data-pid="6jqe5OTP">问得好！让我们来深入探究一下这个问题。</p><p data-pid="uZU9bbWJ">在物理学里，有一个名为「追踪能量（Follow-The-Energy）」的游戏。<a class="wrap external" data-draft-type="text-link" href="http://www.textbookleague.org/103feyn.htm" rel="nofollow noreferrer noopener" target="_blank">理查德·费曼的父亲</a>曾带着小费曼玩过这个游戏：</p><blockquote data-pid="WnSHG1T_">这正是我父亲喜欢和我聊的那类话题：「是什么让这玩意儿动起来的？万物之所以运转，全都是因为太阳在发光。」 然后我们就会饶有兴致地讨论下去：<br/>「不对，这个玩具能动是因为发条被拧紧了，」我会这样说。「那发条又是怎么被拧紧的呢？」他会反问。<br/>「是我拧紧的呀。」<br/>「那你又是怎么有劲儿去拧它的呢？」<br/>「因为我吃了饭。」<br/>「而食物之所以能生长，完全是因为太阳在发光。所以，归根结底，正是因为太阳在发光，所有这些东西才会动起来。」 这就是他想传达给我的物理概念：世间一切运动，不过是太阳能量的<b>转化</b>而已。[2]</blockquote><p data-pid="0wjpaaZV">随着你慢慢长大，你学到了能量是守恒的，既不能凭空创造也不能凭空消失；所以，说「<b>消耗</b>了能量」在物理上其实不太严谨。既然你永远无法改变能量的总量，那你在什么意义上算是「使用」了它呢？</p><p data-pid="QYkxzHev">因此，当物理学家们成熟之后，他们学会了玩一个名为<a class="wrap external" data-draft-type="text-link" href="https://www.readthesequences.com/TheSecondLawOfThermodynamicsAndEnginesOfCognition" rel="nofollow noreferrer noopener" target="_blank">「追踪负熵（Follow-The-Negentropy）」</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="2" data-text="热力学第二定律与认知引擎" data-url="https://zhuanlan.zhihu.com/p/2069478246668939394">[2]</sup>的新游戏——这实际上跟他们以前玩的是同一个游戏；只不过现在的规则更有数学味了，这个游戏在科学上也更加好用了，但其背后的物理原理在概念理解上也变得更难了。</p><p data-pid="Rh7Af2RU">而理性主义者们，则学会了一个名为<a class="wrap external" data-draft-type="text-link" href="https://www.readthesequences.com/PerpetualMotionBeliefs" rel="nofollow noreferrer noopener" target="_blank">「追踪不可能性（Follow-The-Improbability）」</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="永动机信念" data-url="https://zhuanlan.zhihu.com/p/2070084674295279996">[3]</sup>的游戏，这可以看作是「你到底是怎么知道的？」这个童年追问的硬核成人版。理性主义者这个游戏的铁律是：任何看起来发生概率极低的（荒谬）信念，都需要有<a class="wrap external" data-draft-type="text-link" href="https://www.readthesequences.com/HowMuchEvidenceDoesItTake" rel="nofollow noreferrer noopener" target="_blank">同等份量（同等信息量）的证据来为其正名</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="4" data-text="支持一个信念需要多少证据？" data-url="https://hpmor.xyz/ai2zb_23/">[4]</sup>。（你会发现，这个游戏的规则，与追踪负熵有着<b>极其惊人的相似性</b>。）</p><p data-pid="hmuEn0Wl">每当有人违反了理性主义者的游戏规则，你总能在他们的论证链条中找到一个致命的断点：在那个地方，<a class="wrap external" data-draft-type="text-link" href="https://www.readthesequences.com/PerpetualMotionBeliefs" rel="nofollow noreferrer noopener" target="_blank">一大坨「不可能性」如同魔法般凭空冒了出来</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="永动机信念" data-url="https://zhuanlan.zhihu.com/p/2070084674295279996">[3]</sup>；这就像是，哎呀，比方说，看到一个由一堆轮子和齿轮拼装起来的、号称能永远自己转下去的奇妙永动机一样，绝对是个出了大问题的信号。</p><p data-pid="_SY-z-Gv">有人跑来对你说：「我怀着无比坚定和持久的信念相信，在小行星带的某处，飘浮着一个一英尺宽、完完全全由巧克力蛋糕做成的东西；你是无法<a class="wrap external" data-draft-type="text-link" href="https://www.readthesequences.com/AbsoluteAuthority" rel="nofollow noreferrer noopener" target="_blank">证明</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="5" data-text="绝对权威" data-url="https://zhuanlan.zhihu.com/p/827910633">[5]</sup>这绝对不可能的。」但是，除非这个人能拿出某种真金白银的证据来支持这个信念；否则，人类的大脑<b>凭空自发地</b>生成一个如此精准且正确的奇葩信念，其概率绝对无限趋近于零。所以，要么这个人能拿出实打实的证据，要么他这个信念绝对会被证明是胡说八道。「可是你也没法证明，我的大脑<b>绝对不可能</b>凭纯粹的运气，自发产生一个碰巧正确的信念啊！」没错，但那种毫无根据的自发产生，是<b>极其、极其小概率的事件</b>；这概率就像是，哦，比方说，一盘被炒碎的鸡蛋突然自己缩回成一个完好无损的生鸡蛋一样离谱。</p><p data-pid="_IYeIt0D">在「追踪不可能性」的游戏里，如果你在没有掌握<a class="wrap external" data-draft-type="text-link" href="https://www.readthesequences.com/EinsteinsArrogance" rel="nofollow noreferrer noopener" target="_blank">足够证据去大幅缩小可能假设空间</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="6" data-text="爱因斯坦的傲慢" data-url="https://hpmor.xyz/ai2zb_24/">[6]</sup>的情况下，哪怕只是煞有介事地<b>谈论</b>某一个极其具体的刁钻假设，都是极其可疑的。凭什么你不给其他那一百万亿个同样看似合理的刁钻假设同等的曝光时间？你必须依靠足够强大的证据，才能在浩如烟海的假设空间里精准定位到「小行星带里的巧克力蛋糕」这个假说——否则，你就完全没有理由给它比其他那一万亿个诸如「小行星带里有个木制梳妆台」或「飞行面条神怪物吐在了我的运动鞋上」等候选假设更多的讨论空间。</p><p data-pid="HZILdTfN">在「追踪不可能性」中，你绝对不能在没有<b>预先</b>获得等价份量证据的情况下，凭空变出一个宏大、复杂且细节极其具体的假设；因为如果认为你能够通过<b>纯粹的巧合</b>，就不偏不倚地开始讨论那个<b>真实的</b>假设，这简直是痴人说梦。</p><p data-pid="nywyZaZP">一位哲学家跑来说：「这台僵尸机器的头骨里，塞着一个巨型查找表（GLUT），里面记录了某个真实人类大脑所有的输入和对应的输出。」这是一个发生概率<b>极其微弱的事件（非常大的不可能性）</b>。所以你理应追问：「这个概率极低的事件究竟是怎么发生的？这台 GLUT 到底是从哪儿来的？」</p><p data-pid="TpN6ifCc">要知道，这可不是思想实验中标准的哲学套路。在标准的哲学套路里，你被允许随便假设诸如「假设你骑在一束光上……」之类的情景，而完全不需要操心这在物理上是否可能，更别提去算它发生的概率有多低了。但在这个关于僵尸的特定案例中，GLUT 诞生的起源至关重要；这就是为什么你必须深刻理解这个核心追问：「这庞大的不可能性到底是从哪儿来的？」</p><p data-pid="mvzjI7-j">最合乎逻辑的答案是，你先拿到了一份关于真实人脑运算架构的精确数字蓝图，然后你利用<b>这份蓝图</b>，预先计算出了那张巨型查找表。（为了完成这个穷举计算，你不可避免地在计算机内部模拟创造了无数个无辜的人类意识，其中一些人被置于极度痛苦的输入之中，而绝大多数人由于面对的是一个输入与输出毫无逻辑关联的混沌宇宙，彻底陷入了疯狂。但管他妈的什么伦理道德，我们这可是在搞<b>哲学</b>呢。）</p><p data-pid="wjruYDPs">在这种情况中，这台 GLUT 机器<b>确实是由于</b>一个有意识的底层算法存在，所以才写出了关于意识的论文。这台 GLUT 机器根本就不是僵尸，这就好比你不能因为一部手机明明只是一台小小的消费电子产品却能流利地谈论意识，就指着手机说它是个「僵尸」。手机不过是在将电话线另一头某个大活人发表的哲学演讲传输过来罢了。一台通过真实人类大脑的图纸生成出来的 GLUT，做的事情跟手机一模一样。</p><p data-pid="qzdkYE3O">「好吧，」哲学家辩解道，「那如果这台 GLUT 是完全随机生成的呢，它只是<b>碰巧</b>在输入和输出关系上与某个作为参照的人类一模一样。」</p><p data-pid="-GlRGRwq">那你倒是说说看，你<b>究竟</b>是如何「随机」生成这台 GLUT 的？</p><p data-pid="Uh8zB84J">「我们使用了一个真正的随机源——一台量子设备。」</p><p data-pid="LeFsMCav">但是，量子设备只是完美地执行了「双向分支（Branch Both Ways）」的物理指令；当你利用量子随机源生成一个比特时，其决定论下的物理现实是：一组宇宙分支（局部相连的概率幅云）看到了 1，而另一组宇宙分支看到了 0。重复抛 4 次量子硬币，你就在物理现实中创造了 16（组）平行的宇宙。</p><p data-pid="5Jl5z06b">所以，老实说，你这说法等同于：你找来一个真他妈巨大无比的、能装下所有可能查找表的超级大箱子，在里面塞满了所有可能存在的、体积达到 GLUT 级别的由 0 和 1 组成的序列表；然后你随手把手伸进箱子，<b>以某种不可思议的魔法</b>，从中摸出了一个恰好与人类大脑的输入输出特征完美对应的 GLUT。这份天大的不可能性，到底是从哪儿借来的？</p><p data-pid="E3O59ENy">因为，如果这<b>不仅仅是一个逆天的巧合</b>——如果你使用了某种「把手伸进箱子」的函数，而且这个函数是靠<b>精心设计</b>而非纯粹运气，精准地把那个「人类对应的 GLUT」给挑了出来——那么，那个负责「把手伸进箱子去挑选」的函数，大概率本身就是有意识的；所以，这台 GLUT 又一次变成了一部替人发声的「手机」，而不是一个毫无意识的「僵尸」。它只是跟人类的联系中间隔了两层中介，而不是一层，但它骨子里仍然是一部手机！想在里面掩盖不可能性的来源，这招玩得挺溜，可惜骗不了人！</p><p data-pid="LZn3tN2b">现在，请看「追踪不可能性」把我们带到了什么样的认知高地：这具没有意识的躯壳，它的舌头能侃侃而谈关于内部倾听者的话题，这个现象的真正源头究竟在哪儿？意识显然不在那个死板的查找表里。意识也不在那个能流水线制造出海量无意义查找表的工厂里。意识存在于那个<b>用手指着某个已经造好的特定查找表</b>，然后下令说：「就是<b>那个</b>，用它！」的神秘实体之中。</p><p data-pid="QNGn0hKy">你现在应该明白我为什么非要引入「追踪不可能性」这个游戏了吧。在日常生活中，当我们与一个人交谈时，我们往往会理所当然地认为，那人头骨里装的随便什么玩意儿，肯定就是「意识栖息的地方」。只有通过玩「追踪不可能性」这个游戏，我们才能穿透表象，意识到我们正在进行的这场对话的真正源头，其实是那个<b>为这场对话的极低概率负责（买单）的东西</b>——无论它在时间或空间上离我们有多遥远；这就好比，让那个上了发条的玩具车跑起来的，其实是遥远的太阳。</p><p data-pid="-8XC4ooO">「不，不！」哲学家急得跳脚了。「在我的思想实验里，他们可不是先随机生成一大堆 GLUT，然后用一个有意识的算法去从中挑出一个看起来像人类的！我是在<b>白纸黑字地规定</b>：在这个思想实验中，他们把手伸进那个大到无法想象的 GLUT 盲盒里，并且<b>纯粹靠着无法解释的逆天狗屎运</b>，一把就摸出了那个输入输出跟人类大脑丝毫不差的 GLUT！<b>好啦！</b>现在我把你逼到死角了！你没法再玩什么『追踪不可能性』的把戏了！」</p><p data-pid="S3J2rdan">哦。所以，你这条<b>蛮横的口头规定（specification）</b>，就是这个实验里所有不可能性的魔法来源啊。</p><p data-pid="UTjeq9fT">当我们再次启动「追踪不可能性」的探照灯时，我们最终走出了<b>思想实验本身</b>，把探照灯的光束死死地打在了那位<b>哲学家</b>的脸上。</p><p data-pid="Cc4ES_LP">在浩如烟海的无数可能性空间中，究竟是什么东西，精准地指向了那唯一一个能流利谈论意识的 GLUT？现在的答案是……正是这位正要求我们脑补这整个荒诞场景的<b>有意识的哲学家</b>。此外，还有我们自己那极其有意识的大脑；因为当我们试图想象「当有人对这台 GLUT 说『聊聊你内心的那个倾听者吧』时，这台 GLUT 会作何反应？」时，是我们自己的大脑在暗中填补了所有的剧情空白。</p><p data-pid="Ys0WDUg-">这个故事的寓意是：当你顺着那些关于「意识」的高谈阔论一路回溯时，你通常最终都能找到真实的意识。它并不总是大大方方地摆在你眼前。有时候它被隐藏得极其狡猾。但它绝不缺席。这，正是「广义反僵尸原则」的精髓所在。</p><p data-pid="rtzfJzdm">如果真的有一个类似「僵尸之主」的聊天机器人，它能熟练处理并重新混合人类外行关于「意识」的口水话语料库；那么，当初创造出那堆原始文本语料库的那些人类，绝对是有意识的。</p><p data-pid="e07SkwPu">如果某天你彻底顿悟了意识的原理，然后你回过头来，发现你完全可以自己写出一个程序，这个程序它本身毫无意识，但它输出的那些逻辑混乱的哲学黑话听起来却跟人类极其神似——那么，如果我问你「这个程序是怎么做到听起来像人类的？」答案其实是：因为<b>你</b>在编写它时，刻意照着<b>有意识的人类的样子</b>去塑造了它，而不是照着其他随便什么标准。这并不意味着你写的那个小小的僵尸之主程序有了意识——但这确实意味着，我完全可以通过逆着因果链条往上爬，在宇宙的某个角落里揪出一个真正的意识实体来；这也就意味着，我们并非完全身处在一个冰冷死寂的「僵尸世界」里。</p><p data-pid="vk0QWCOZ">但假设，真的有某个人把手伸进了 GLUT 盲盒，并且真的<b>纯粹靠着逆天改命的绝对运气</b>，一把就摸出了一个能写出哲学论文的 GLUT 呢？</p><p data-pid="s1Oe1vxL">嗯，那这个被摸出来的 GLUT 肯定是没有意识的。至少依我浅见是这样。</p><p data-pid="S4Erj2cD">我的意思是，意识这玩意儿，总归得比纯粹的把戏输入输出多点什么实质性的内涵吧。</p><p data-pid="DXHc75TQ">不然的话，难道连一张死板的查表清单也能拥有意识不成，对吧？</p><p data-pid="-rvuYgKv">哦，对于那些好奇这堆哲学思辨跟我平时的本职工作（day job）有啥关系的人……</p><p data-pid="_3qlAvod">在我们搞人工智能对齐的这一行里，你会遇到极多的人，他们天真地以为：随便搞出一个参数爆炸、性能逆天的 AI，它自然而然就会是个「有道德的」乖宝宝。他们甚至连「为什么会这样」或者「他们口中的『道德』到底是个什么鬼意思」都无法在内部达成一致；但他们却不约而同地坚信，去研究什么「友好人工智能（Friendly AI）」理论纯属脱裤子放屁。当你追问他们，一个随机生成的 AI 怎么就那么巧能输出符合人类道德的行为时，他们会滔滔不绝地抛出一大堆<a class="wrap external" data-draft-type="text-link" href="https://www.readthesequences.com/FakeOptimizationCriteria" rel="nofollow noreferrer noopener" target="_blank">旨在投喂给 AI 的、极其精巧的合理化说辞</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="7" data-text="虚假的优化标准" data-url="https://zhuanlan.zhihu.com/p/2023844708217037671">[7]</sup>，内容全都是他们自认为「道德」的东西。这其中<a class="wrap external" data-draft-type="text-link" href="https://www.greaterwrong.com/lw/lp/fake_fake_utility_functions/" rel="nofollow noreferrer noopener" target="_blank">漏洞百出</a>，但最核心的致命伤在于：「你<b>凭什么确定</b>，那个 AI 会乖乖顺着你为了向人类推销你的道德观而绞尽脑汁发明的脑回路去思考？要知道，它可不像你，它在出厂时根本不知道<b>你</b>想让它证明什么结论！」你完全可以把这种反驳的原则称为「追踪决策信息（Follow-The-Decision-Information）」，或者类似的什么名字。如果你能向我清晰地解释，你是如何在浩如烟海的可能性空间中，精准地<b>挑选</b>出了这个 AI 的架构设计，那我确实能理解为什么这个 AI 会做出极其不可思议的善举；否则，这种不可思议的善良就是被你从虚空中强行变出来的魔法——尽管随着合理化的前提被进一步强行合理化，这层魔法伪装会被包得越来越严实。</p><p data-pid="GX_r3ETH">所以，我其实早就写过<a class="wrap external" data-draft-type="text-link" href="https://www.greaterwrong.com/lw/lp/fake_fake_utility_functions/" rel="nofollow noreferrer noopener" target="_blank">一整个系列的文章</a>，在那里面，我<a class="wrap external" data-draft-type="text-link" href="https://www.readthesequences.com/TrulyPartOfYou" rel="nofollow noreferrer noopener" target="_blank">自己就曾使用过</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="8" data-text="真正属于你" data-url="https://hpmor.xyz/ai2zb_45/">[8]</sup>「追踪不可能性」的分析方法。但我当时并没有把这些规则<b>明确地</b>写出来，因为我还没来得及写关于<a class="wrap external" data-draft-type="text-link" href="https://www.readthesequences.com/PerpetualMotionBeliefs" rel="nofollow noreferrer noopener" target="_blank">热力学（永动机信念）</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="3" data-text="永动机信念" data-url="https://zhuanlan.zhihu.com/p/2070084674295279996">[3]</sup>的系列文章……</p><p data-pid="Q-crGjb5">只是想顺便提一嘴而已。其实挺不可思议的：我写的这么多文章，最后竟然都「碰巧」包含了与友好人工智能（Friendly AI）理论高度相关的核心思想……当然，前提是你是个相信「纯属巧合」的人。</p><p class="ztext-empty-paragraph"><br/></p><p data-pid="k2WnpRpF">[1] Daniel C. Dennett, “The Unimagined Preposterousness of Zombies,” <i>Journal of Consciousness Studies</i> 2 (4 1995): 322–26.</p><p data-pid="j0d0Gmwc">[2] Richard P. Feynman, “Judging Books by Their Covers,” in <i>Surely You’re Joking, Mr. Feynman!</i> (New York: W. W. Norton &amp; Company, 1985).</p><hr/><p data-pid="FcMm1Y-_">总目录：</p><a class="internal" data-draft-cover="https://picx.zhimg.com/v2-3fef08abf83e7421c313574aac5dde16.png?source=7e7ef6e2&amp;needBackground=1" data-draft-node="block" data-draft-title="《理性：从人工智能到僵尸》导读与目录" data-draft-type="link-card" href="./2056344770390373406.html" rel="noopener noreferrer" target="_blank">《理性：从人工智能到僵尸》导读与目录</a><p data-pid="CQ6oFMJf">卷：</p><a class="internal" data-draft-cover="https://picx.zhimg.com/v2-28e9661e962caec2608202b8f2662d4d.jpg?source=7e7ef6e2&amp;needBackground=1" data-draft-node="block" data-draft-title="第四卷：区区现实" data-draft-type="link-card" href="./2064365098970436713.html" rel="noopener noreferrer" target="_blank">第四卷：区区现实</a><p data-pid="lxaEYXSR">章节：</p><a class="internal" data-draft-cover="https://pic1.zhimg.com/v2-e0bbadd0b7b225aa887679add2dc7f08.jpg?source=7e7ef6e2&amp;needBackground=1" data-draft-node="block" data-draft-title="物理主义导论" data-draft-type="link-card" href="./2083996452456490783.html" rel="noopener noreferrer" target="_blank">物理主义导论</a><p data-pid="mWS-jymB">上一篇：</p><a class="internal" data-draft-cover="https://picx.zhimg.com/v2-20c22bb52d099287186ef62267e7fc22.jpg?source=7e7ef6e2&amp;needBackground=1" data-draft-node="block" data-draft-title="广义反僵尸原则" data-draft-type="link-card" href="./2091826482167522750.html" rel="noopener noreferrer" target="_blank">广义反僵尸原则</a><p data-pid="GIYCpDY1">下一篇：</p><a class="internal" data-draft-cover="https://pic1.zhimg.com/v2-905547de67a80bf87d9fd48fb4d2eddd.jpg?source=7e7ef6e2&amp;needBackground=1" data-draft-node="block" data-draft-title="相信必然蕴含的不可见事物" data-draft-type="link-card" href="./2092664126510216396.html" rel="noopener noreferrer" target="_blank">相信必然蕴含的不可见事物</a><hr/><blockquote data-pid="GdZaEsBs"><a class="wrap external" data-draft-type="text-link" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 gemini-3.1-pro，校对 Jarrett Ye<br/>原文：<a class="wrap external" data-draft-type="text-link" href="https://www.readthesequences.com/Gazp-Vs-Glut" rel="nofollow noreferrer noopener" target="_blank">GAZP vs. GLUT</a></blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 广义反僵尸原则 <a href="./2091826482167522750.html" target="_blank" rel="noopener noreferrer">./2091826482167522750.html</a><br>2. 热力学第二定律与认知引擎 <a href="./2069478246668939394.html" target="_blank" rel="noopener noreferrer">./2069478246668939394.html</a><br>3. 永动机信念 <a href="./2070084674295279996.html" target="_blank" rel="noopener noreferrer">./2070084674295279996.html</a><br>4. 支持一个信念需要多少证据？ <a href="https://hpmor.xyz/ai2zb_23/" target="_blank" rel="noopener noreferrer">https://hpmor.xyz/ai2zb_23/</a><br>5. 绝对权威 <a href="./827910633.html" target="_blank" rel="noopener noreferrer">./827910633.html</a><br>6. 爱因斯坦的傲慢 <a href="https://hpmor.xyz/ai2zb_24/" target="_blank" rel="noopener noreferrer">https://hpmor.xyz/ai2zb_24/</a><br>7. 虚假的优化标准 <a href="./2023844708217037671.html" target="_blank" rel="noopener noreferrer">./2023844708217037671.html</a><br>8. 真正属于你 <a href="https://hpmor.xyz/ai2zb_45/" target="_blank" rel="noopener noreferrer">https://hpmor.xyz/ai2zb_45/</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：理性 &amp; 克服偏见</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>
