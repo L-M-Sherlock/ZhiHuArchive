@@ -2,8 +2,8 @@
   "allow_segment_interaction": 1,
   "answer_type": "normal",
   "author": {
-    "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
-    "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
+    "avatar_url": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
     "badge": [],
     "badge_v2": {
       "detail_badges": [],
@@ -40,7 +40,6 @@
   "force_login_when_click_read_more": false,
   "id": "3535701808",
   "is_collapsed": false,
-  "is_contain_ai_content": false,
   "is_copyable": true,
   "is_jump_native": false,
   "podcast_audio_enter": {
@@ -64,8 +63,30 @@
   "relationship": {
     "upvoted_followees": []
   },
+  "segment_infos": [
+    {
+      "marks": [
+        {
+          "end_index": 105,
+          "seg_info": {
+            "comment_count": 1,
+            "is_like": false,
+            "is_span": false,
+            "like_count": 0,
+            "my_comment_count": 0,
+            "seg_ids": [
+              "2045485570059661414"
+            ]
+          },
+          "start_index": 63
+        }
+      ],
+      "pid": "pzESc6Eb",
+      "text": "平权法案和少数群体权益。我不太相信这个博客的读者能够理性看待任何真实存在的少数群体，所以我们不如假设要讨论的是火星人平权法案。自从他们配备热射线武器的巨型三脚架机器损毁以来，他们就一直是个被剥夺权利的弱势群体。"
+    }
+  ],
   "type": "answer",
   "updated_time": 1718901824,
   "url": "https://www.zhihu.com/api/v4/answers/3535701808",
-  "voteup_count": 24
+  "voteup_count": 25
 }

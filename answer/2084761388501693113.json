@@ -1,0 +1,70 @@
+{
+  "allow_segment_interaction": 1,
+  "answer_type": "normal",
+  "author": {
+    "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=2c26e567",
+    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=2c26e567",
+    "badge": [],
+    "badge_v2": {
+      "detail_badges": [],
+      "icon": "",
+      "merged_badges": [],
+      "night_icon": "",
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。"
+    },
+    "gender": 1,
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+    "is_advertiser": false,
+    "is_org": false,
+    "is_privacy": false,
+    "name": "Jarrett Ye",
+    "type": "people",
+    "url": "https://www.zhihu.com/api/v4/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "url_token": "JarrettYe",
+    "user_type": "people"
+  },
+  "biz_ext": {
+    "share_guide": {
+      "has_positive_bubble": false,
+      "has_time_bubble": false,
+      "hit_share_guide_cluster": false
+    }
+  },
+  "comment_count": 6,
+  "content": "<p data-pid=\"zqR5mjBq\">三年前有个问题困扰了我很久（<a href=\"https://www.zhihu.com/question/628164365/answer/2083572027844252945\" data-draft-type=\"text-link\" class=\"internal\">在一条直线上给定n个点的取值区间，如何让相邻点之间的最小间隔最大化？</a>），结果 GPT-6 一下就秒了，还给我介绍了一下 GJST 算法。</p><p data-pid=\"jWWZ0lWc\">于是我就想，能不能先让 DeepSeek V4.1 介绍一下 GJST 算法，再问它能不能用这个算法解决我提的问题，然后搞笑的事情就来了。</p><p data-pid=\"KLnoWwZv\">DeepSeek 先说我这个问题不能用 GJST 解决，然后提出了基于贪心的实现（这个实现我三年前就尝试过，在一些 case 下不可行）。</p><p data-pid=\"NMYms3w-\">于是我就把 GPT-6 的算法实现发给 DeepSeek 评估，DeepSeek 就改口说 GJST 可以用，但它还没意识到基于贪心的解法不可行。</p><p data-pid=\"4rkIpjYW\">我也不想直接揭穿它的错误，就问它基于贪心的算法是正确的吗，它还是嘴硬，说是正确的。</p><p data-pid=\"9_4eUXCY\">然后我就让 DeepSeek 按它的贪心解法写个 python 代码，它自己写着写着发现好像不对，终于回过味来，说贪心解法不对，GPT-6 的算法才是对的。这下豆包了。</p><p data-pid=\"4ZsUc2Wi\">详细对话请见分享链接：</p><a href=\"https://link.zhihu.com/?target=https%3A//chat.deepseek.com/share/f84aefa53xpjlm9yym\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-draft-title=\"来自分享的对话 - DeepSeek\" data-draft-cover=\"\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">来自分享的对话 - DeepSeek</a><p data-pid=\"GrUK64Wd\">然后我同事也试过让 DeepSeek 写数据分析报告，它老是会得出一些莫名其妙的结论，感觉幻觉还不小。GPT-6 在写数据分析报告上则已经很严谨了，虽然有些 taste 还是不太行，但起码不会胡乱分析。报告的文字风格也比 5.6 的时候好多了。</p>",
+  "content_need_truncated": false,
+  "created_time": 1789825848,
+  "excerpt": "三年前有个问题困扰了我很久（ 在一条直线上给定n个点的取值区间，如何让相邻点之间的最小间隔最大化？ ），结果 GPT-6 一下就秒了，还给我介绍了一下 GJST 算法。于是我就想，能不能先让 DeepSeek V4.1 介绍一下 GJST 算法，再问它能不能用这个算法解决我提的问题，然后搞笑的事情就来了。 DeepSeek 先说我这个问题不能用 GJST 解决，然后提出了基于贪心的实现（这个实现我三年前就尝试过，在一些 case 下不可行）。 于是我就把 …",
+  "extras": "",
+  "force_login_when_click_read_more": false,
+  "id": "2084761388501693113",
+  "is_collapsed": false,
+  "is_copyable": true,
+  "is_jump_native": false,
+  "podcast_audio_enter": {
+    "action_url": "zhihu://podcast/audio_player/0?contentId=2084761388501693113&contentType=answer&subType=&entrance=detail_page",
+    "sub_type": "",
+    "text": "听内容",
+    "text_color": "MapBrand",
+    "text_size": 13
+  },
+  "question": {
+    "created": 1741222152,
+    "detail": "",
+    "id": "14194805205",
+    "question_type": "normal",
+    "relationship": {},
+    "title": "免费的deepseek能比得上200美元/月的ChatGPT吗？",
+    "type": "question",
+    "updated_time": 1741222152,
+    "url": "https://www.zhihu.com/api/v4/questions/14194805205"
+  },
+  "relationship": {
+    "upvoted_followees": []
+  },
+  "type": "answer",
+  "updated_time": 1789825848,
+  "url": "https://www.zhihu.com/api/v4/answers/2084761388501693113",
+  "voteup_count": 40
+}
