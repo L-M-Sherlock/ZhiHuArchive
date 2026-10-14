@@ -103,9 +103,14 @@ def content_censored_check(
 
     owner_response = _fetch_with_cookie(url, owner_cookie_key)
     if response_not_found(owner_response):
+        viewer_response = _fetch_with_cookie(url, viewer_cookie_key)
+        raise_for_unexpected_error(viewer_response)
+        if response_not_found(viewer_response):
+            print(url)
+            return True
         raise RuntimeError(
             f"Owner cookie {owner_cookie_key} cannot see {url}; "
-            "refusing to classify censorship from a viewer-only result."
+            "viewer can still see it; refusing to classify this inconsistent result."
         )
     raise_for_unexpected_error(owner_response)
     if check_answer_collapse and answer_collapsed(owner_response):
