@@ -1,0 +1,501 @@
+{
+  "id": "2094798951593649206",
+  "title": "复杂性并非人工智能的障碍",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/2094798951593649206",
+  "image_url": "https://picx.zhimg.com/v2-6b6e1ab41a522e27697db3b25f88ea8c_720w.jpg?source=172ae18b",
+  "title_image": "https://picx.zhimg.com/v2-6b6e1ab41a522e27697db3b25f88ea8c_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://pic2.zhimg.com/v2-52edf3af71521edb6206a085e0b2f2a5_200x112.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"503\" data-watermark=\"original\" data-original-src=\"v2-52edf3af71521edb6206a085e0b2f2a5\" data-watermark-src=\"v2-52c802467b1c329c71cc4e65ea272ca6\" data-private-watermark-src=\"\" data-original=\"https://pic2.zhimg.com/v2-52edf3af71521edb6206a085e0b2f2a5_r.jpg\" class=\"origin_image inline-img zh-lightbox-thumb\"/>计算复杂性会扼杀强大的人工智能（AI）吗？本文认为并不会：单凭算法的局限性，无法说明 AI 的实际能力、获取资源的能力，也说明不了 AI 哪怕对人类只具备微小优势时会引发什么后果。 核心摘要计算复杂性理论描述了许多算法在解决更大规模问题时，所需算力…",
+  "created": 1792301216,
+  "updated": 1792301216,
+  "author": {
+    "is_followed": false,
+    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+    "uid": "1521893281407864832",
+    "user_type": "people",
+    "is_following": false,
+    "url_token": "JarrettYe",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+    "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+    "name": "Jarrett Ye",
+    "is_advertiser": false,
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "gender": 1,
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
+    "badge": [],
+    "badge_v2": {
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "merged_badges": [],
+      "detail_badges": [],
+      "icon": "",
+      "night_icon": ""
+    },
+    "exposed_medal": {
+      "medal_id": "1463836052717301760",
+      "medal_name": "知「势」之星",
+      "avatar_url": "https://picx.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_r.png?source=172ae18b",
+      "mini_avatar_url": "https://pic1.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_l.png?source=172ae18b",
+      "description": "「知势榜」上榜答主即可获得",
+      "medal_avatar_frame": ""
+    }
+  },
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 645,
+  "image_height": 475,
+  "content": "<p data-pid=\"bDIb9GIR\">计算复杂性会扼杀强大的人工智能（AI）吗？本文认为并不会：单凭算法的局限性，无法说明 AI 的实际能力、获取资源的能力，也说明不了 AI 哪怕对人类只具备微小优势时会引发什么后果。</p><h2>核心摘要</h2><p data-pid=\"PmmJxYMp\">计算复杂性理论描述了许多算法在解决更大规模问题时，所需算力会急剧增加的现象；这种增加往往大到让规模只大几倍的问题变得完全无法处理。在与 AI 相关的领域中，经常会用到这类算法。</p><p data-pid=\"DTtkrclz\">有人据此认为，这意味着 AI 在完成现实任务时，从根本上无法做得比人类更好，因为它们会撞上人类面临的同一道计算复杂性墙。因此，开发 AI 的后果微乎其微，人类级别或超人类级别的 AI 不可能引发全球范围的大规模快速变革。</p><p data-pid=\"EwwrTQmu\">我审视了这种「复杂性保障 AI 安全」论的种种预设，发现它忽略了计算复杂性定理生效的许多前提条件，所以这种论点根本站不住脚：</p><ul><li data-pid=\"EjgIggOl\">问题的实际解法，可以比复杂性类别所暗示的更高效；</li><li data-pid=\"iPrd0o5B\">人类和 AI 在解题能力上可能存在巨大差异；</li><li data-pid=\"iQk7kn3G\">AI 有可能消耗更多资源；</li><li data-pid=\"1LBWCHe0\">在单个任务上的微小差异，放到现实世界中，可能大幅改变智能体的影响力；</li><li data-pid=\"Ddd0Inv2\">这类后果会不断累积；</li><li data-pid=\"RLyWO5gM\">而且我们可以创造出成千上万个智能体。</li></ul><p data-pid=\"8yxbkCgW\"> 这些独立的反驳中，只要有一条成立，复杂性论点就不攻自破。<br/> 计算复杂性可以和 AI 风险讨论扯上关系，但前提是，我们必须有远比现在更详尽的理论，将纯粹的算法性能与现实世界的能力以及长期的均衡状态联系起来。</p><p data-pid=\"AcLiLA4G\">从抽象的视角来看，<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Computational_complexity_theory\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">计算复杂性理论</a>试图描述算法的资源消耗情况，即随着输入规模趋向无穷大，在某种理想化计算机上运行特定算法时，所需时间是如何相对增加的。 在 AI 及一般编程所用的许多重要算法中，难度确实会随着数据量的增加而急剧攀升——像<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Merge_sort\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">归并排序</a>（Merge sort）这样基于比较的排序算法，只需 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Big_O_notation\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Big O</a> <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cmathcal%7BO%7D%28n+%5Ccdot+%5Clog%28n%29%29\" alt=\"\\mathcal{O}(n \\cdot \\log(n))\"/> 的时间复杂度，所以在可行时间内几乎能对任意量级的数据进行排序；但像<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Traveling_Salesman_problem\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">旅行商问题</a> / <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/3-SAT\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">3-SAT</a> 这种更有意思的问题，一旦数据增加，就会变成 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/NP-hard\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">NP 困难</a>（甚至呈指数级增长或更糟），很快就会从算得快变成勉强能算，最后彻底算不出。</p><h2>「复杂性让奇点不可能出现」论</h2><p data-pid=\"Uga0ccjj\">有一种论点反对强大 AI 的出现，也反对任何相当于<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Technological_singularity\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「技术奇点」</a>的场景，其依据正是<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/computational_complexity_theory\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">计算复杂性理论</a>。</p><p data-pid=\"15Dr4vpW\">例如，在<a href=\"https://link.zhihu.com/?target=https%3A//www.antipope.org/charlie/blog-static/2014/02/the-singularity-is-further-tha.html\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《奇点比看起来更遥远》</a>一文中，<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Ramez_Naam\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Ramez Naam</a> 提出了诸多反驳，既有人类神经元可能比普遍认为的更强大，也有既然企业还没造出奇点那么以后也造不出（其中一些观点<a href=\"https://link.zhihu.com/?target=http%3A//www.williamhertling.com/2014/02/the-singularity-is-still-closer-than-it-appears/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">被 William Hertling 批评过</a>），但他首先就以<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/protein_folding\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">蛋白质折叠</a>（参考 <a href=\"https://link.zhihu.com/?target=https%3A//www.nature.com/articles/s41586-021-03819-2%23deepmind\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">AlphaFold 2</a>）为例，提出了计算复杂性的论点：</p><blockquote data-pid=\"zZANSRbO\"> 我们正走向奇点吗？奇点迫在眉睫吗？……但无论你用哪种定义，都有充分的理由让人相信它并未近在眼前……这就是所谓的「硬起飞」场景，奇点圈内也有人称之为 FOOM 模型。在这个场景下，眨眼之间，一个「神级」智能体就会横空出世，要么通过自我升级，要么由初代 AI 的后代接连创造出来。我对 Vernor Vinge 充满敬意，也是他的超级粉丝，但这几乎肯定是错的。之所以错，是因为大多数现实问题都不是线性扩展的。在现实世界里，有意思的问题要比这难得多。<br/> <a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/ai/2014-02-rameznaam-thesingularityisfurtherthanitappears-chemicalmodelingexponential.jpg\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">化学建模中指数级扩展时间的图表</a><br/> ……<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Computational_chemistry\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">计算化学</a>始于 20 世纪 50 年代。时至今日，我们每花一美元能买到的算力，已是当年的数万亿倍。但计算化学依然困难。为什么？因为这个问题具有极其强烈的非线性特征……到底有多快？即使是最快的算法（遗憾的是，也是最局限、最不准的），其时间复杂度也与 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=N%5E2\" alt=\"N^2\"/> 成正比，这依然远逊于线性扩展。打个比方，如果设计智能是一个时间复杂度为 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=N%5E2\" alt=\"N^2\"/> 的问题，那么一个智力是打造它的整个人类团队（不单指一个人）两倍的 AI，也只能设计出一个智力只有自己 70% 的新 AI。这根本达不到逃逸速度。</blockquote><p data-pid=\"w2b2tkBw\">Naam 在后续文章<a href=\"https://link.zhihu.com/?target=https%3A//www.antipope.org/charlie/blog-static/2014/02/why-ais-wont-ascend-in-blink-of-an-eye.html\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《为什么 AI 不会在眨眼间飞升——算算这笔账》</a>中，将这点描述得更直接：</p><blockquote data-pid=\"BzqT3KDC\"> 在我之前那篇探讨为什么奇点比看起来更遥远的文章中，我曾论述过，创造更高级的头脑极有可能是一个非线性复杂性问题。也就是说，创造一个智力为 2 的头脑，其难度大概是创造智力为 1 的头脑的两倍以上。难度可能是指数级增长的。或者「仅仅」随你试图达到的智力水平呈立方或平方增长。博客读者 Paul Baumbart 主动画了张图，展示了我们的 AI 智力如何随时间变化，而这取决于提升智力所需的计算复杂性。</blockquote><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-52edf3af71521edb6206a085e0b2f2a5_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"720\" data-rawheight=\"503\" data-original-token=\"v2-52edf3af71521edb6206a085e0b2f2a5\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic2.zhimg.com/v2-52edf3af71521edb6206a085e0b2f2a5_r.jpg\"/></figure><p data-pid=\"Jx-EGzzP\"> ……Paul 输进表格的其他每一个模型都显示出了收敛而非发散的趋势。在提升智力这件事上，几乎任何非线性的难度门槛都意味着失控不会发生。（注意，这些模型<b>并没有</b>算上随着时间推移获得新硬件的红利，也没算上只要摩尔定律还在继续就能带来的整体提速。但它们算上了 AI 为自己设计新硬件的红利，以及它可能促使摩尔定律加速的因素。）图中最底下的绿线代表指数级难度 (<img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=e%5Ex\" alt=\"e^x\"/>)。随着规模变大，许多现实问题的难度呈指数级增加。「旅行商」问题就是个指数级问题（至少在寻找精确解时如此）。模拟量子力学系统也是个指数级问题。甚至一些重要的蛋白质折叠场景，难度也是指数级的。所以，提升智力落入这一类别毫不稀奇。正如你所见，如果智力提升的难度是指数级的，那么超级智能确实无法飞升。</p><p data-pid=\"CuYJ40o4\">换句话说也许更清楚：在算力固定的前提下，智力水平越高，同等算力能带来的智力增幅就越小。</p><p data-pid=\"UgEVYgDJ\"><a href=\"https://link.zhihu.com/?target=https%3A//www.scientificamerican.com/blog/observations/what-the-history-of-math-can-teach-us-about-the-future-of-ai/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Nathan Myhrvold</a> 也流露过类似的观点：</p><blockquote data-pid=\"7fJuUAJc\"> 理论家已经证明，有些数学问题其实极度复杂，计算机永远难以企及，甚至根本无法解决。所以至少在当下，那些能拓展计算难题边界的人类完全不用担心丢饭碗。这向我们透露了关于 AI 的一个重要信息。和数学一样，智力并不是单单一种像模式识别那样简单的问题。它是大量复杂度各异的任务的集合。到目前为止，AI 在「智能」表现上最惊艳的展示，还是那些以超人类水平下国际象棋或围棋的程序。这些任务对人脑来说太难了，哪怕是极具天赋的人也要苦练多年才能精通。与此同时，许多在我们人类看来最基本的任务——比如在崎岖路面上奔跑，或者解读肢体语言——对如今以及可见未来的机器来说，几乎是不可能完成的。随着 AI 能力变强，计算机能比人做得更快或更准的工作范围会扩大。但人类依然会保有一个不断扩大的工作领域，这远在自动化所能触及的范围之外。</blockquote><p data-pid=\"tb0WcH8n\">尴尬的是，这个论点恰恰推翻了它自己：国际象棋和围棋的计算难度，恰好就是 Myhrvold 宣称会让计算机对数学问题束手无策的那种难度，然而它们已经被攻克了。[1]</p><p data-pid=\"VjUXmCFy\">这可以看作是「结构性反对意见」之一，它具体将<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/diminishing_returns\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">收益递减</a>归结为：随着数据规模扩大，算力增量能解决的数据点却变少了（采用 <a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/existential-risk/2016-chalmers.pdf\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Chalmers 2010 年</a>的分类法）。 因此，这个论证（补全了缺失的环节并省略了各种展示假设扩展的图表）大致如下：</p><ol><li data-pid=\"sAJg8kYL\">智能体（无论人类还是人工智能）需要解决的大多数任务都属于高难度的复杂性类别，如 NP 或 NP 困难问题：旅行商问题、3-SAT、<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Bayesian_network\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">贝叶斯网络</a>信念传播、<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/deep_neural_network\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">深度神经网络</a>训练、<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/theorem_proving\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">定理证明</a>、下<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Go_%28game%29\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">围棋</a>、求解 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Partially_observable_Markov_decision_process\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">POMDP（部分可观察马尔可夫决策过程）</a>……</li><li data-pid=\"4HUj3zyy\">NP 或更高级别的复杂性任务，只能在问题规模较小时得到解决。</li><li data-pid=\"tB4Xaf_w\">如果一个任务只能在规模较小时解决，那么最强智能体解决的问题规模也只会比其他智能体大一点点。</li><li data-pid=\"rp2xuE-R\">智能体解决稍微大一点的问题，在现实世界中获得的奖励也只稍微多一点。</li><li data-pid=\"LrKxQAzi\">稍微多一点的奖励，其长远后果本身也很小。</li><li data-pid=\"Rdvg5ZA2\">如果某个 AI 成了最强智能体，它就必须解决高难度的复杂性问题（1），所以它只能解决稍微大一点的问题（2-3），获得稍微多一点的奖励（4），并只会产生微小的长远后果（5）。</li><li data-pid=\"C7NPBwK3\">如果每个 AI 只会产生微小的长远后果，那么所有 AI 加起来产生的总长远后果也很小。</li><li data-pid=\"ytQrI0Jw\">因此，AI 成为智能体只会产生微小的总长远后果。</li></ol><p data-pid=\"PJTuoCsa\">这一论证在逻辑推导上是有效的，甚至也许能被形式化。但这套推论真的成立吗？</p><h2>关于复杂性的注意事项</h2><p data-pid=\"gmKTlMGQ\">将计算复杂性理论套用到它原本的适用领域之外，难点在于人们往往会忽视赋予该理论普适性的那些前提条件：它省略了「常数因子」和实际运行时间，其论断许多是关于下界/上界或最坏情况复杂性的，而且往往针对特定算法——但解决现实问题极少只有一种算法——更何况它压根不打算讨论效用或后果。[2] 类似地，<a href=\"https://link.zhihu.com/?target=https%3A//scottaaronson.blog/%3Fp%3D346\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">有时候人们会推论</a>：既然人类和 AI 处于同一个可计算性类别（图灵完备），那么 AI 能做或能想到的任何事，人类一定也能做或能想到。但他们忘了，人类并不像理想中的图灵机那样拥有无限的时间和空间；指望人类去理解这种智能，并不比指望一只蚂蚁在老死前理解人类做的所有事情更合理；给一只蚂蚁几星系的笔记本和几十亿年时间，它也许能理解人类文明，但这等蚂蚁从未存在过，未来也不会有。而且，这只蚂蚁对人类行为的理解，最终也只存在于它<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Chinese_room\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">自己的笔记本里，而非它自己的头脑中</a>（再说了，一开始是怎么安排它利用好那些笔记本的？）。 这些任务对一个「紧凑、高效的计算机程序」来说究竟有没有可行性，而不仅仅是在理论上是否可计算，这个问题也许兼具形而上学与现实意义（化用 <a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/1108.1791\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Scott Aaronson</a> 的话）。</p><p data-pid=\"ssCrJ1-s\">摊开来看，我得说这个论证极其依赖每一个前提都要成立，但前提 1 到 5 要么经不起推敲，要么根本就是错的。</p><h3>难道所有问题都是最坏情况且属于 NP 困难吗？</h3><p data-pid=\"47tnKhel\">前提 1 是错的。因为那些复杂性的证明，通常都建立在具备确定性、绝对最优的最坏情况行为的通用解法上。 看似难以逾越的复杂问题之墙，其实可以通过以下方法绕开（大致按实际重要性从低到高排列）：</p><ol><li data-pid=\"miVi1FDM\"><b>优化复杂性类别</b>：现有的证明可能不正确，也可能不适用（比如假设用的是经典计算机而不是量子计算机），或者基于人们目前普遍认同但最终可能朝着有利方向被推翻的未解猜想（例如 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/P%253DNP\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">P=NP</a>）。<br/><br/></li><li data-pid=\"CIU1rdxN\">放弃确定性，改用<b><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/randomized_algorithms\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">随机化算法</a></b>，这类算法速度更快，但<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Las_Vegas_algorithm\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">可能算不出结果</a>或<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Monte_Carlo_algorithm\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">算错</a>。[3]（如果正确性很重要，通常可以运行多次；试上几次后，出错的概率会比计算机硬件遭受<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/math-error\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">宇宙射线干扰出故障</a>的概率还要小）；随机化既能应用于算法，也能应用于<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Category%3AProbabilistic_data_structures\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">数据结构</a>。<br/><br/></li><li data-pid=\"R915ZxXa\">追求<b>良好的<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/cs/cryptography/1995-impagliazzo.pdf\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">平均情况</a>表现</b>，而不是最坏情况表现。<br/><br/>不用归并排序，可以改用<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Quicksort\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">快速排序</a>（Quicksort）——归并排序在最坏情况下的复杂度优于快速排序（这使得快排容易受到能触发 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cmathcal%7BO%7D%28n%5E2%29\" alt=\"\\mathcal{O}(n^2)\"/> 最坏情况的对手发起的 DoS 攻击），但快排通常跑得更快。同样，在<b>最坏情况</b>下，面对诸如规划一场横跨美国的旅行这样现实的数据集，3-SAT / 旅行商问题（TSP）确实极其难解；但<b>平均情况</b>下的表现截然不同，在实际应用中，3-SAT / TSP 经常能解开，甚至 SAT 求解器已常规化用于计算机安全、定理证明或类型检查，而物流公司也能据此大幅优化运输路线。<br/><br/>类似的情况还有线性规划的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/simplex_algorithm\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">单纯形算法</a>以及其他运筹学算法，它们在理论上令人生畏，但在现实问题中能在合理时间内给出解——它们在实践中行得通，只是在理论上行不通。    例如，规模高达 <a href=\"https://link.zhihu.com/?target=https%3A//www.math.uwaterloo.ca/tsp/pla85900/index.html\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">85900 座城市</a>的 TSP 实例已被攻克。<br/><br/></li><li data-pid=\"2fbx_4nE\">放弃通用性并<b>专门化</b>：算法有时未免过于通用了。<br/><br/>比较排序确实可以在 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cmathcal%7BO%7D%28n+%5Ccdot+%5Clog%28n%29%29\" alt=\"\\mathcal{O}(n \\cdot \\log(n))\"/> 内完成，但很多时候我们并不需要对任何只要能排序的数据类型都适用，而是仅仅针对字符串、数字等特定类型。对于这些类型，使用<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/counting_sort\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">计数排序</a> / <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/radix_sort\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">基数排序</a>可以实现拟线性 / <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cmathcal%7BO%7D%28n%29\" alt=\"\\mathcal{O}(n)\"/> 的排序。算法还可以预先掌握将来输入的数类型信息——<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Timsort\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Timsort</a> 就知道大多数输入已经部分排好序了，其表现就能胜过朴素的排序算法。数据结构可以针对特定数据分布进行调优，而 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Just-in-time_compilation\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">JIT（即时编译）</a>、<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/profile-guided_optimization\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">基于性能剖析的优化（PGO）</a>以及<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/supercompilation\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">超级编译</a>，都可以看作是将通用算法专门针对当前或未来大概率出现的输入进行<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Futamura_projection\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">特化</a>。<br/><br/></li><li data-pid=\"rPbmlay1\">放弃最优性，转而<b>计算近似值</b>（往往非常接近最优答案）。<br/><br/>前面提到的 3-SAT / TSP，早在 2007 年就解答出了一个包含 1904711 座城市的<a href=\"https://link.zhihu.com/?target=https%3A//www.math.uwaterloo.ca/tsp/world/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「世界巡回赛」</a>，且该路线与最优路线的差距不超过 0.0474%。而那些能转化为 SAT 形式的规划问题，可以包含数百万个子句和变量[4]，这催生出了一些看似胡闹的应用，比如利用 TSP 画<a href=\"https://link.zhihu.com/?target=https%3A//www.math.uwaterloo.ca/tsp/data/art/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">肖像</a>和<a href=\"https://link.zhihu.com/?target=https%3A//www2.oberlin.edu/math/faculty/bosch/tspart-page.html\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">艺术画</a>，或者将粉碎的图像<a href=\"https://link.zhihu.com/?target=https%3A//github.com/robinhouston/image-unshredding\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">拼复原</a>；Naam 用化学举例，指出精确的物理计算虽完全无望，但人们会转而使用更加可行的近似方法。    想要榨出最后零点几个百分点的最优性，往往要耗费极其庞大的算力。<br/><br/></li><li data-pid=\"K4xxhkjn\"><b>改变问题本身</b>，而不是陷入<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/forking-path\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">功能固着</a>：许多问题可以被重新定义，或者通过调整环境来绕开挑战并发挥计算机的优势。<br/><br/><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/self-driving_car\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">自动驾驶汽车</a>在视觉上也许不如人类司机，但它可以整合<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/LIDAR\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">激光雷达</a>传感器，这对人类来说行不通，因为会让人分心。    <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Amazon_Robotics\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">仓库里的机器人</a>在四处行驶上也许不如人类搬运工，但可以通过在地面画白线或贴条形码来改造环境，这样机器人就总是知道自己在哪了。    搜索引擎里的一项内容如果是极难分类的……那直接把它删了就是——也许通过花钱把它买下来的方式解决（这在谷歌内部被戏称为<a href=\"https://link.zhihu.com/?target=https%3A//sre.google/workbook/eliminating-toil/%23melt-snowflakes\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「买下地精」</a>，详见 <a href=\"https://link.zhihu.com/?target=https%3A//www.amazon.com/Plex-Google-Thinks-Works-Shapes/dp/1416596585%23page%3D64\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Levy 2011</a>）。    借用<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Freeman_Dyson\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">戴森</a>转述<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/John_von_Neumann\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">冯·诺伊曼</a>的话[5]：<br/><br/> 所有稳定的过程，我们将预测。所有不稳定的过程，我们将控制。<br/><br/>或者用<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/cs/algorithm/information/1959-shannon.pdf\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">克劳德·香农</a>的话来说：<br/><br/> ……这种对偶性（降低数据信道与数据源噪声之间的对偶性）还可以进一步探究，它与过去与未来、控制与知识概念之间的对偶性紧密相连。因此，我们也许了解过去但无法控制它；我们也许能控制未来，却对它一无所知。<br/><br/></li><li data-pid=\"f0c_KHY9\"><b>解决不同于人类的问题</b>，即那些人类解不了或不愿解的问题。<br/><br/>正如<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences%23Richard_Hamming\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">哈明</a>所言：「有些波长人类看不到，有些声音人类听不见，也许计算机能思考人类想不到的想法。」有些问题人类永远解不出来，因为那需要太多的训练，或者太大的记忆容量，又或者解法过于离奇。人类永远想不出<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/genetic_algorithms\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">遗传算法</a>或神经网络给出的很多解法，更不会去尝试它们适用的规模；举个无关紧要但很有趣的例子：<a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/1602.05314%23deepmind\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《PlaNet——用卷积神经网络根据照片进行地理定位》</a>——我无法想象有什么人能击败这样的 CNN，甚至都不敢尝试。遇到这类情况，去操心扩展性问题完全是抓错了重点。</li></ol><p data-pid=\"Ar-70ohN\">对计算机安全感兴趣的人可能会觉得其中好几类办法很眼熟，因为计算机安全也饱受类似问题的困扰：特定密码算法的理论安全保证，与实践中实际获得的安全水平之间，总有一条鸿沟需要跨越。</p><p data-pid=\"zAYpuFE_\">尤其是<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Edward_Snowden\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">斯诺登</a>泄露的 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Global_surveillance_disclosures_%282013-present%29\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">NSA 机密</a>，充分展现了 NSA 攻破计算机安全的手段之广，他们根本不需要理论突破，也不需要稀奇古怪的量子计算机（事实上，NSA 对学术界搞计算机安全和密码学的那些人颇为鄙视，认为他们误入歧途，重理论而<a href=\"https://link.zhihu.com/?target=https%3A//blog.thinkst.com/p/if-nsa-has-been-hacking-everything-how.html%3Fm%3D1\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">轻实现</a>）：计算机在邮寄途中就能被截获并植入硬件窃听器；利用各种无线电和飞客（phreaking）设备就能远程监控计算机；恶意软件能寄生在 U 盘里跨越气隙隔离的网络，或者被死死埋在自带处理器的硬盘等设备的 BIOS 中；原本安全的数据中心里的流转数据，可以通过窃听私人光纤链路（比如谷歌的链路）来窃取；像海底电缆这样更公共的光纤电缆，可以在 ISP 协助或潜艇作业下被黑进去，有时整整几天的原始流量都会被截留分析；加密数据可以永久保留，留待未来解密（比如 NSA 积极推进的量子计算研发项目）；通过 NSA 庞大的计算资源和可能专属的 ASIC 芯片，针对某些极常用的数字进行因数分解，就能发起覆盖全网的攻击（同时破解<b>许多</b>密钥的<a href=\"https://link.zhihu.com/?target=https%3A//blog.cr.yp.to/20151120-batchattacks.html\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">摊销成本</a>，远小于通常计算的破解<b>单个</b>密钥的成本）；私钥可以通过发传票、国家安全信函、黑客入侵甚至物理潜入来窃取；数据可以跟其他国家的情报机构做交易换来，NSA 甚至可以去黑别国的黑客行动拿数据（<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/The_Shadow_Brokers\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">反之亦然</a>）；原本安全的软件可以被暗中植入后门（如 Dual_EC）；常用软件被广泛审计时，能在漏洞公之于众之前早就被发现并利用（如<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Heartbleed\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">心脏出血漏洞 Heartbleed</a>）；互联网连接可以被劫持并重新路由到 NSA 服务器上，用来投放恶意软件。 这足以让人体会到保障安全有多难：你从哪弄来完全值得信赖的计算机及上面的软件？操作系统和所有的密码学软件里究竟藏了多少个零日漏洞？加密算法可能本就不安全，或实现得不安全，亦或是解密后的明文早就存在于某处，或者运行在被暗中动手脚的硬件上，又或是被人通过元数据和其他活动推断出了具体内容。</p><p data-pid=\"Vj_9yrVR\">因此，整数因数分解的真实难度，或者单向函数存不存在，往往是在决定系统安全性的因素里最无足轻重的那几个。</p><h3>难道所有的代码实现速度都一样快吗？</h3><blockquote data-pid=\"r2aWZASe\"> 对于你手头的每一个多项式时间算法，我宁愿去跑一个相对应的指数级算法。<br/> <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Alan_Perlis\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Alan Perlis</a>[6]</blockquote><p data-pid=\"a2Gc_Z1c\">前提 3 忽略了一点：复杂性类别的设计初衷，就是要抽象掉「常数因子」，而常数因子决定的计算时间并不取决于输入规模，而是取决于计算机架构、代码实现和可用计算硬件等细节。 AI 和人类可能会受到相同的渐近复杂度的限制，但在实际性能上依然大相径庭。 <a href=\"https://link.zhihu.com/?target=https%3A//www.scottaaronson.com/papers/pnp.pdf\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Scott Aaronson</a>：</p><blockquote data-pid=\"4hXCVfoQ\"> ……虽然 P 是否等于 NP 对人工智能意义重大，但对于人类和机器之间有无差异却只字未提。确实，P ≠ NP 将代表对<b>所有</b>经典数字计算的限制，这个限制很可能对人脑和电子计算机同样适用。P ≠ NP 也无法排除机器人接管世界的可能。为了打败人类，机器人大概率不需要在多项式时间内解开任意的 NP 问题：它们只需比<b>我们</b>聪明，而且它们所掌握的不完美启发式算法，比<b>我们</b>从十亿年演化中获得的不完美启发式算法更好就行！反过来看，就算证明了 P=NP，虽然可能会加速机器人的叛乱，但也绝非必然。</blockquote><p data-pid=\"0qDyyS-S\">只要代码经过精心优化，合理利用<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Memory_hierarchy\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">缓存层级</a>，并配上专用硬件（比如 GPU、ASIC），<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/aria%23faster\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">性能就能提升好几个数量级</a>。这意味着，比起不那么在意常数因子的其他智能体，它可以在撞上扩展极限前把输入规模再扩大好几倍。 （就算用上近似解法，计算化学在经典硬件上可能依然解不开——但要是手头有一台几百个量子比特、足以跑<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/quantum_simulation\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">量子模拟</a>的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/quantum_computer\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">量子计算机</a>呢？）常数因子的重要性，正是实际应用复杂性类别时容易踩的一个大坑：一个拥有优秀复杂性类别的花哨算法，很容易被一个复杂性虽差但跑得更快的简单算法干趴下。[7]（这也是为什么人们老是苦口婆心劝程序员要基准测试，基准测试，再基准测试的原因之一！）</p><p data-pid=\"agcBkNHe\">这推翻不了复杂性类别，毕竟复杂性谈的是渐近扩展，该遇到瓶颈迟早还是会遇到。但如果能把输入规模扩大一倍、十倍甚至更多，这么大的增幅，实在很难把最强智能体与最弱智能体处理的问题规模差异仅仅视为「稍微大一点」。</p><p data-pid=\"g2PVHVyL\">最后，对强大的智能体来说，增加资源消耗或大力出奇迹，永远是备选项。尤其在 Naam 的第二篇文章里，他的论点假设资源是固定不变的。 这点也许适用于某些场景，比如 AI 永远被困在单台电脑里、搞不到更多资源——但话说回来，连门都出不去的 AI，到底能有多聪明呢？ 然而，得益于人类的智慧，人类如今控制着生物圈很大一部分能源。只要有了超级计算机，或者像谷歌、亚马逊这样掌控着数以百万计处理器核心的科技巨头，就能算出其他智能体绝对算不出的东西；目前不论在地球上还是地球外，人类能动用的计算量都还没摸到天花板。 如果计算资源暴涨几千倍甚至上百万倍，再拉长时间维度，就有可能打破渐近规律，迈向下一个智力层级；如果人类级别的 AI 「只」能实现几十次智力翻倍，那……</p><h3>难道所有的回报都是线性的吗？</h3><p data-pid=\"DugtVzOQ\">到了前提 4，这个论点就开始试图把复杂性与现实世界的后果生拉硬拽到一起了。 Naam 辩称：</p><blockquote data-pid=\"JMmMBbDZ\"> 打个比方，如果设计智能是一个时间复杂度为 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=N%5E2\" alt=\"N^2\"/> 的问题，那么一个智力是打造它的整个人类团队（不单指一个人）两倍的 AI，也只能设计出一个智力只有自己 70% 的新 AI。这根本达不到逃逸速度。</blockquote><p data-pid=\"koNXg-Qt\">但这根本说不通。 首先，Naam 对奇点设定的前提完全是个稻草人：没人说过只有达到「逃逸速度」才叫奇点；退一万步讲，可观测宇宙中能进行的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Limits_to_computation\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">计算量是受物理规律限制的</a>，所以不太可能真存在什么「无限智能」。 I. J. Good 或 Vinge 压根没说过，只有智力无穷无尽地疯涨下去，奇点才有意义，Vinge 更是明言奇点只是个比喻，根本不包含什么真正的无限[8]；智力暴涨之所以重要，是因为无论它的天花板停在哪儿，都势必凌驾于人类智力之上，赋予它超乎人类的能力。 （举例来说，Good 在做成本预测时，心里想的显然是个收益递减模型：他推测若能造出人类级别的智能，那么砸下两倍的成本，就能搞出超人类级别的智能。他后来又强调了「意义经济」。而 Vinge 则说奇点是「我们的旧模型统统报废、新现实接管一切的转折点」，没提过智力会无限暴涨，只说事态的发展将完全脱离人类的「心智掌控」——就像一列失控的火车，速度并不会指数级飙升直到光速，它只是彻底脱离了驾驶员的控制罢了。）</p><p data-pid=\"TNGMPDxi\">其次，哪怕智力爆炸以 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=%5Cmathcal%7BO%7D%28n%5E2%29\" alt=\"\\mathcal{O}(n^2)\"/> 这种超线性规模发展，也会带来天翻地覆的现实改变。不过我实在搞不懂 Naam 脑子里想的究竟是哪种模型——设计智能绝不可能像他描述的那样，让 AI 越造越笨，因为初代 AI 大可轻而易举地花点算力把自己复制一份，「设计」出一个百分之百跟自己一样聪明的新 AI，所以真不知道他这个扩展等式里填的到底是什么输入和输出变量。 Naam 在第二篇文章里力挺的那张电子表格/图表，暗示他构想的是这样一种模型：输入是某种尚未指定的计算单位（比如 1 个 GPU 年），输出是额外 1 个「单位」的智力。如果在这种前提下，确实可以这么看：以前这台 AI 花 1 个 GPU 年能让智力飙升 100%，现在却连 100% 都不到；在这种情境下，每消耗一个单位算力，带来的智力增幅越来越小，（随着渐近线的推移）最后可能会卡在某个固定的上限。 但你完全可以反过来想：智力每翻一倍所需的计算单位数量，正以陡峭的曲线上升。 顺着这个思路，根本没理由认为智力会停在某个上限，甚至连增长放缓的理由都没有——因为「算力输入固定不变」这个假设实在太扯了；借用游戏里的梗，AI 只需一句「必须建造更多水晶塔」就行了。</p><p data-pid=\"QKlz9BwV\">结合动物智力来换个视角，也许能把事情看得更清楚；用一个简单模型来说，动物智力似乎与<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/List_of_animals_by_number_of_neurons\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">神经元总数</a>密切相关，并受到<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Encephalization_quotient\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">体型/感官需求</a>的调节。 从 0 开始，我们有海绵；长到 25 万个神经元，有了苍蝇（能到处飞，但基本没有规划能力）和蚂蚁（运动能力简单些，但具备简单规划能力，且能和蚁群展现出惊人的复杂涌现行为）；到了 100 万个神经元，有了烦人又命硬的蟑螂；1600 万，有了青蛙；到了 7100 万，有了常见的家鼠，它能学把戏、能完成复杂的规划任务、能走迷宫，脑子相当好使。 很明显，这里的增长并非线性的——你很难硬说老鼠比苍蝇聪明 284 倍。 往下看，比例更不协调；星鼻鼹拥有 1.31 亿个神经元，但它能比家鼠聪明两倍吗？直到神经元数量达到 5 亿的章鱼，你才能看出智力有了实质飞跃，谢天谢地，猫以 7.6 亿个神经元总算登场了。可作为一种神经元数量是老鼠 11 倍多的生物，猫抓老鼠的本事似乎并没有我们期待的那么神！ 由此往后，神经元数量与智力的比例越来越崩塌——卷尾猴需要近 40 亿个神经元，猕猴翻了近一倍，而人类则需要足足 860 亿个神经元，是猫的 113 倍（大象更是高达 2670 亿个，虽说它巨大的体型吃掉了大量神经元，但大象的聪明程度依然令人毛骨悚然）。 要是把行为复杂度用某种正式或非正式的标尺画在图表上，我们会看到一条超线性的渐近曲线；动物心理学家总能不断发现人类行为可以在动物身上找到雏形，这暗示了从绝对水平上看，人类并没有<b>那么</b>聪明。 无疑，在这条进化之路上，每增加一个神经元，都要承受收益递减的代价。 你看，我们本就生活在一个计算资源收益递减的世界里！ 然而，尽管存在这种渐近规律，人类依然奇迹般地打破了这种扩展限制，进化出了拥有近千亿神经元的大脑（大象甚至达到了人类的三倍），并且还有很大的成长空间（<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/iq/high/2015-hofman.pdf\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Hofman 2015</a>）。不仅如此，这种进化还引发了震古烁今的现实后果：人类不但统治了地球，还按照自己的意愿重塑了地球，导致无数物种灭绝或濒临灭绝（其他灵长类动物绝对深有体会），因为人类（以及人类改造的世界）变化的速度，远远超出了大多数物种的适应能力。人类还完成了登月这种不可能的壮举。 而这一切，全发生在眨眼之间。</p><p data-pid=\"QoHbKro1\">抛开复杂性的说法很可能大错特错这点不谈，这个前提尤其经不起推敲：一项任务上的微小优势，放到竞争环境中，往往<b>确实</b>会转化为巨大的现实后果。 赛马或短跑名将赢下比赛，靠的只是零点几秒；股市里哪怕只有 1% 的投资优势，也足以累积成亿万身家；在国际象棋里，每走一步只有微乎其微的优势，最后却能化作铁打的胜局（回想一下，<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/AlphaGo\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">AlphaGo</a> 在预测下一步棋的能力上哪怕只有<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/reinforcement-learning/model/alphago/2016-silver.pdf%23deepmind\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">微小提升，其排名也是怎样飙升的</a>）；一家物流货运公司如果能把规划算法里仅存的 1% 到 2% 的低效砍掉，就能对竞争对手形成巨大优势，毕竟运输成本占了大头，而这种公司的利润率本身也就是总收入的几个百分点罢了；再或者想想<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/network_effects\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">网络效应</a>和赢家通吃的市场。 （或者设想一下自动驾驶汽车的安全性：只要人机之间的「反应时间」出现极其微小的绝对差异，就足以把人类彻底挤出这个市场，甚至最终导致人类开车变成违法行为。）</p><p data-pid=\"67z0j6Qt\">再看人类智力。人类智力的绝对跨度其实非常小：反应时间的差异极小，<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/backwards_digit_spans\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">倒背数字的广度</a>通常在 3 到 7 个之间，脑成像研究很难找出神经学层面的差异，智力的绝对遗传影响总体上<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/embryo-selection%23limits-to-iterated-selection\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">微乎其微</a>，而这种客观表现差距很窄的现象，也许是人类的通病（<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/iq/1935-wechsler-rangeofhumancapacities.pdf\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Wechsler 1935</a>）。但在人类社会中，正是这些微不可察的绝对差异，<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/iq\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">铁面无私地决定了</a>谁富谁穷、谁去犯罪、谁搞前沿科研、谁进常春藤名校、谁当成功政客，而且只要智商还能被可靠测量，这条铁律就一直管用（参见 <a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/smpy\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SMPY/TIP 等文献</a>）。 （我认为，这种客观表现差距狭窄的现象，也许能解释为什么总有些事能让一票旁观者大跌眼镜：当我们观察尚未进入人类表现区间的事物时，眼里看到的就只是一片均质的「烂」，我们看不出任何实质性差异，也摸不清任何趋势，于是我们的预测往往基于固有成见，荒诞地乐观或悲观；后来，等它们终于杀进人类的表现区间，我们终于能拿出自己的专业眼光，开始大感震惊并盲目乐观。再然后，这些事物只需要客观性能上稍微提升那么一点点，就彻底跃出人类的窗户，成了一项人类再也无法与之竞争的活动，比如国际象棋（因为就连特级大师也总是在犯错[9]），顶多在<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/advanced_chess\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">进阶象棋</a>等领域在边缘上还能帮点小忙。再过个几年，它就成了神仙打架，彻底超神了。）</p><p data-pid=\"Piqo1_2D\">这同样忽略了 AI 具备的众多与计算复杂性毫无瓜葛的潜在优势；AlphaGo 在下棋时也许碰上了跟人类棋手一样的 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Go_and_mathematics%23Computational_complexity\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">PSPACE 扩展墙</a>，但作为软件，它永生不灭，而且能无限自我优化，诸如此类的优势不胜枚举（<a href=\"https://link.zhihu.com/?target=https%3A//philpapers.org/archive/SOTAOA.pdf%23miri\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Sotala 2012</a>，<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/ai/scaling/2013-yudkowsky.pdf%23miri\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Yudkowsky 2013</a>）。</p><h3>难道所有的场景都只看单次对决吗？</h3><p data-pid=\"pcN62ymi\">前提 5 似乎想当然地认为，世上根本不存在复利或指数级增长这回事，或者微小的优势不可能滚雪球般变成碾压式的优势。可现实中，无论是公司、国家还是个人，这种情况比比皆是。</p><p data-pid=\"1iOjZjc2\">在人类智力领域，大家也注意到过类似的现象——尽管日常生活中某一天的决策跟智力基本扯不上关系，但智力带来的收益始终存在，并能在人的一生中不断累积，久而久之随机噪音就被抵消了，最后大家发现，智力跟人生的长远发展往往有着很强的相关性（例如 <a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/iq/ses/1997-gottfredson.pdf\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Gottfredson 1997</a>）。 再抽象一点，人们发现很多人的职业成就或智力成果大体呈<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/log-normal_distribution\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">对数正态分布</a>；如果一个结果是<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/statistics/order/selection/pipeline/index\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「漏管效应」的最终产物</a>（科研成果大概就是动力 × 智力 × 创造力……），那就会产生对数正态分布，在这种情况下，只要在每个变量上都改进一点点，输出结果就会迎来巨大的提升。 这种漏管效应也许仅仅代表一长串行动序列，其中微小的优势就能慢慢累积起来（比如每次行动都有极小概率出昏招时）。 以国际象棋为例：<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Magnus_Carlsen\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">马格努斯·卡尔森</a>也许是史上最强的人类棋手，其最高<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Elo_rating_system\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">等级分（ELO）</a>大概是 2882；而截至 2016 年，排名第一的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/chess_engine\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">国际象棋引擎</a>大概是 Komodo，ELO 为 3358。根据 ELO 的预期得分公式，如果 2016 年版的 Komodo 碰上巅峰时期的卡尔森，预期得分将是 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=1+%2F+%281+%2B+10%5E%7B%282882+-+3358%29+%2F+400%7D%29+%5Capprox+0.94\" alt=\"1 / (1 + 10^{(2882 - 3358) / 400}) \\approx 0.94\"/>，也就是说它有约 94% 的胜算；这已经够吓人了（20 盘只输 1 盘），然而，如果是在标准的 5 盘制比赛中，它赢下总比分的概率不是 94%，而是大概 99.8%（每 <b>500</b> 场才输 1 场）。 这就让人想起阿玛拉定律：「我们总是高估一项科技在短期内的影响，而低估其在长期的影响。」</p><h3>难道 AI 智能体很罕见吗？</h3><p data-pid=\"xGMfwXJm\">顺着 AI 拥有与计算复杂性或解决更庞大问题毫不相干的优势这一思路往下想：难道说，<b>只有</b>当 AI 在某些特定的算法任务上碾压人类时，奇点才会降临吗？ 不太可能。就拿<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/whole-brain_emulation\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">全脑仿真</a>场景（<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/ai/scaling/hardware/2008-sandberg-wholebrainemulationroadmap.pdf\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Sandberg 与 Bostrom 2008</a>）来说，把人的大脑上传到计算机上，这些数字意识在突破复杂性类别上未必有什么惊天动地的建树，难道我们真能咽下这个论点，承认这种场景绝对不会引发任何配得上「奇点」之名的巨变？ 恰恰相反——这么大的突破，绝对能在无数个层面上掀翻整个人类社会。它不仅会重新定义生与死，让神经科学的发展一日千里，更会让经济发生翻天覆地的变化。因为只要硬件管够，这些仿真大脑就能无限复制（看看 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Robin_Hanson\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Robin Hanson</a> 在<a href=\"https://link.zhihu.com/?target=https%3A//ageofem.com/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《全脑仿真时代》</a>里做的推演；想培养一个世界冠军级别的围棋国手，得从茫茫多的小孩里挑苗子，还要熬上 15 年打磨，而 AlphaZero 倒好，直接往另一台电脑里一拷就行了）。 就算能在口袋里的智能手机上运行一个（或者随便多少个）人类级别的智能，全世界有数以十亿计的手机，里面的数字智能甚至比活人都多，如果光靠这天文数字的堆叠都砸不出个「奇点」来，那才真叫活见鬼了。</p><h2>线虫寓言</h2><figure data-size=\"normal\"><img src=\"https://pic3.zhimg.com/v2-bda06389c622fb7278ce04a0cd943c1c_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"781\" data-rawheight=\"922\" data-original-token=\"v2-bda06389c622fb7278ce04a0cd943c1c\" class=\"origin_image zh-lightbox-thumb\" width=\"781\" data-original=\"https://pic3.zhimg.com/v2-bda06389c622fb7278ce04a0cd943c1c_r.jpg\"/></figure><p data-pid=\"kbaW1HdB\">插图：<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Sauron_%28comics%29\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">索伦</a>解释他为什么不友善。</p><p data-pid=\"quBE3qa-\">从前，有两条<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/C._elegans\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">秀丽隐杆线虫</a>在争论「超线虫主义」的前景，确切地说，是在争论浩瀚生物圈里是否存在某种假想生物，它们远超线虫，就像线虫远超它们赖以生存的细菌那样；如果真有，这对囊括了整个线虫文明的堆肥堆又意味着什么。</p><p data-pid=\"g5MOLhKH\">这可能吗？难道物种之间真能用某种「智力」或「能力」的标尺排个高低？ 难道不是每个物种都有自己独特的本事，在独特的生态位里各领风骚、根本无法比较吗？</p><p data-pid=\"FZ5N2BGh\">养活这种大块头的资源打哪儿来？再说了，它们能干出的事，难道还能比线虫自己干出的多？（就凭连小虫子毫无疑问<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/turing-complete\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">都是图灵完备的</a>这一点来看）</p><p data-pid=\"cXzeYTev\">爬维亚提支持超线虫主义：</p><blockquote data-pid=\"NGkOKmaj\"> 没有什么先验理由认定线虫就非得是造物的巅峰，认定世上不可能存在体型更大、构造更复杂、脑子更聪明的生物。 在这里，我们不妨套用粪白尼原理——「我们这堆烂泥，无论在空间还是时间上，不过是宇宙中微不足道的一角，并不享有任何特殊视角」，所以在伟大的捕食链中，我们理应处在一个平庸的位置。<br/> 其实，从生命诞生起，我们就见证了无数次突破：多细胞生命孕育出了与单细胞生命截然不同的无尽形态；直到最近神经元才被发明出来，而且单靠堆神经元数量似乎就能带来巨大收益（看看我们线虫跟细菌的差距就知道了），所以我们活在一个让人心潮澎湃的时代。 我们可以畅想一下各种可能：一种超线虫可能长得跟我们线虫天差地别；也可能跟我们构造差不多，就是身子长得多，神经元多得多，脑子也比我们灵光得多。<br/> 无论如何，超线虫的能耐绝非我们所能预测。也许它学起寻找新细菌和自我繁殖的法子来奇快无比，这大概就是我们所谓的「堆点」（Moundularity）——它积攒资源、繁育后代的速度能秒杀所有人；再考虑到超线虫的追求大概跟我们截然不同，为了满足需求甚至会去改造环境，这对我们来说，绝对是个可怕的威胁。</blockquote><p data-pid=\"e4LBuDYx\">黏滑修斯则不以为然：</p><blockquote data-pid=\"uRrrStqW\"> 荒谬！你动动脑子想想你说的这些话。 我们承蒙上苍恩典，拥有了 302 个神经元，靠着它们，我们能对刺激做出反应，能前进，能后退，能搜捕细菌，还能解开要爬过好几个虫身长那么远的复杂迷宫难题。<br/> 但是，这些问题都存在收益递减规律。虫界计算复杂性理论早就告诉我们，寻找走迷宫的最优解在难度上呈指数级增加，其他很多重要问题的难度甚至有过之而无不及。 超线虫只要碰上计算复杂性这堵叹息之墙，立刻就会发现，长出来的那些脑子根本榨不出多少油水。<br/> 就拿 1000 个神经元来说吧，它们能用这玩意干出啥惊天动地的大事，能抵得上增加<b>两倍多</b>的代谢成本？ 真要配得上「超线虫」这个响当当的名号，它们怕是得长上几万甚至上百万个神经元才行！ （至于那动辄几十亿个神经元的离谱推断，我连批驳都嫌费唾沫，那数量怕是把我们已知宇宙里所有的堆肥堆加起来都凑不出那么多脑细胞。）<br/> 这种身体构造根本荒谬绝伦，你仔细想想：咱们这堆肥堆养得活哪怕一条这种超线虫吗？ 粮食从哪来？再说了，它的身体怎么扛得住这么多神经元？ 它的基因也没法再对细胞的摆放位置一一发号施令，身体结构肯定得靠什么「涌现」或者「学习」机制，至于这到底怎么实现，你却讲得含含糊糊。<br/> 更别提你还对进步和图表上的曲线盲目崇拜，彻底抹平了数不清、极其复杂的实际工程难题：比如说，光靠扩散作用根本喂不饱每个细胞了，必须演化出全新的机制，光是为了防止把虫子热死或者饿死，就得专门弄一套体液循环系统。<br/> 就算超线虫<b>真能</b>存在，它想要吃细菌和下崽的速度比咱们普通线虫快，那难度绝对是指数级的。而且它的能耐很可能最后还是跟咱们差不多：花那么大的代价，解起咱们的难题来，也就比咱们快那么一点点。想想图灵完备性吧：超线虫算得出来的，咱们线虫难道就算不出吗，难道不是吗？ （咱们甚至还能拽句进化论的词儿：我们的脑子演化到这份上，刚好是最契合咱这生态位的最优解——多一分嫌多，少一分嫌少。）<br/> 毫无疑问，任何所谓的「堆点」肯定慢得要死，咱们大老远就能闻着味儿，到时候大家伙儿拧成一股绳、滚成个大虫球，直接把它碾得稀碎。</blockquote><p data-pid=\"zcFPSfIm\">爬维亚提：</p><blockquote data-pid=\"1V6FFC9S\"> 你的眼界太窄了。 没错，把那么多神经元塞进一条虫子里确实很难养活，但我敢肯定那些工程难题总有办法解决——毕竟线虫大脑的计算能力似乎没规定死非得卡在 302 个神经元上，所以肯定有路子。 至于你说的食物问题，同样能解决：没准超线虫可以在堆肥堆、花园、另一个堆肥堆之间来回溜达，吃空一处换一处，甚至没准能想出法子把熟透的果子直接弄下来，等烂了吃。<br/> 从单挑细菌或者拼细胞数的效率来看，它们也许比不上我们。但这不重要，只要收益递减没变成<b>负</b>收益就行。 只要收益还是正的，它们就有本钱抵消消耗掉的巨量资源，顺着指数级曲线一直往上爬。<br/> 再说了，在这事上讲「快那么一点点」到底算什么意思？寻找迷宫最优解的虫界计算复杂性也许会跟着迷宫规模暴涨，但那是在讨论迷宫本身，并不是拿走迷宫的选手在比试，选手的能耐彼此之间可以是天差地别，这就有个大问题了：没准它们解迷宫的速度能快上 100 倍！<br/> 接下来，咱们得弄明白「表现」差一点点意味着什么：如果一条超线虫解迷宫的速度是你我的两倍，没准等它在终点把咱们甩在后头时，烂果子就<b>全</b>落它嘴里了，可绝不止两倍那么简单。<br/> 哎呀，我们可是<b>虫子</b>啊——我们懂什么外面的世界？没准生活、堆肥堆以及世间万物背后，还有更多奥秘；除了「刺激、反应；刺激、反应；刺激、反应」之外，没准还有海量的好事等着我们去发现——只要我们这辈子能踏踏实实<b>思考</b>那么一次！</blockquote><p data-pid=\"azbzGYhf\">黏滑修斯：</p><blockquote data-pid=\"wpteja8k\"> 你的大放厥词，完全是建立在一种「诉诸无知」的把戏上：<b>也许</b>它们走迷宫能比咱们快，<b>也许</b>神经元多就能搞出惊天动地的大事，<b>也许</b>能弄来一堆凭咱们的脑子绝对搞不到的吃的……<br/> 确实，也许我没法证明不可能有这种事，可咱们土里那些本本分分的正经线虫，脑子进水了才会信这些鬼话吧？咱们就是文明的巅峰，连一条活生生的超线虫样本都没见过，你还指望咱们去信什么「超线虫」存在的可能？<br/> 先造出一条超线虫来看看，到时候<b>再</b>指望我把你这套胡言乱语当真吧。</blockquote><p data-pid=\"GeFkAaPF\">爬维亚提，语气哀怨：</p><blockquote data-pid=\"_PmEEvwB\"> 你要是肯多想一点这种可能性……</blockquote><p data-pid=\"rPDcjhnA\">黏滑修斯，不屑一顾：</p><blockquote data-pid=\"sBx9Vmw7\"> 有这闲工夫，还不如操心点正事：比如全局烂泥堆变暖。万一咱们拉的屎发酵得太厉害，把整个家弄得太热了该咋办？这才是咱们该讨论的。</blockquote><p data-pid=\"A1BCZ0bq\">于是它们就讨论起了这个。</p><p data-pid=\"iq8pZeop\">一周后，农场被卖给了一家搞房地产的，打算建联排别墅。 烂泥堆被蒸汽压路机碾平，铺上了沥青——建筑工人对线虫谈不上爱恨，只是线虫实在拿不出什么像样的东西来交换，只配化作铺宽新马路的原子，让某些人类上下班的通勤稍微变快那么一点点（一切都成了某项边际收益严重递减的工程的垫脚石）。</p><h2>结论</h2><blockquote data-pid=\"YgK8zKV2\"> 预先「假定」想要的东西，这种做法妙处诸多；恰如小偷小摸比起诚实劳动的好处。这种便宜事还是留给别人吧，我们干我们诚实的营生就好。<br/> <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Bertrand_Russell\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">伯特兰·罗素</a>（<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Introduction_to_Mathematical_Philosophy\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《数理哲学导论》</a>）</blockquote><p data-pid=\"tc0XNCzR\">在评判人类、AI 或其他智能体能有多大能耐时，计算复杂性类别给不了什么指导意见。因为这些类别太过普适、太过抽象，完全框不住最终的结果；充其量也就是证明了人类和 AI 都不是全能之神。</p><p data-pid=\"BaY2AYv5\">如果谁想通过计算资源来给 AI 的能力划道红线，那必须拿出详细得多的分析：讲清楚数据/样本效率或算法性能，如何转化为各项任务上的能力跃升，如何转化为争夺更多资源的优势，并最终会导致什么样的经济、军事或社会后果。</p><h2>另见</h2><ul><li data-pid=\"N_Om8XWD\"><a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/tool-ai\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">为什么工具型 AI 最终想成为代理型 AI</a></li><li data-pid=\"J3tvDGVZ\"><a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/scaling-hypothesis\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GPT-3 的影响、扩展假说与规模的馈赠</a></li><li data-pid=\"J7L013wb\"><a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/modus\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">甲之肯定前件，乙之否定后件</a></li><li data-pid=\"dACwhwf8\"><a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/embryo-selection\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">胚胎选择</a></li><li data-pid=\"Cp9XA3jW\"><a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/drug-heuristic\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">阿尔吉侬定律</a></li><li data-pid=\"UHbf79Ur\"><a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/simulation-inference\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">模拟推论</a></li></ul><h2>外部链接</h2><ul><li data-pid=\"_2vVbrOx\"><a href=\"https://link.zhihu.com/?target=https%3A//dresdencodak.com/2009/05/15/a-thinking-apes-critique-of-trans-simianism-repost/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「一只会思考的猿对超猿主义的批判」</a>；<a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/1703.10987\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「论超级机器的不可能性」</a>，Garfinkel 等人，2017 年；<a href=\"https://link.zhihu.com/?target=https%3A//milan.cvitkovic.net/writing/Concrete_Problems_in_Human_Safety.pdf\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「人类安全的具体问题」</a>，Cvitkovic，2021 年；<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Investigations_of_a_Dog\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「狗的调查」</a>，弗兰兹·卡夫卡，1922 年</li><li data-pid=\"qYJAxov6\"><a href=\"https://link.zhihu.com/?target=http%3A//modelingtheworld.benjaminrosshoffman.com/intelligence-project-specific-factor-production\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「将智能建模为项目特定的生产要素」</a></li><li data-pid=\"bKMe5y2o\"><a href=\"https://link.zhihu.com/?target=https%3A//aiimpacts.org/what-if-you-turned-the-worlds-hardware-into-ai-minds/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「如果你把全世界的硬件都变成 AI 大脑会怎样？」</a></li><li data-pid=\"cD6iLtVZ\"><a href=\"https://link.zhihu.com/?target=https%3A//longtermrisk.org/how-feasible-is-rapid-development-artificial-superintelligence\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「快速开发出人造超级智能有多大可行性？」</a></li><li data-pid=\"SQVeb46N\"><a href=\"https://link.zhihu.com/?target=https%3A//hypermagicalultraomnipotence.wordpress.com/2017/07/26/there-are-no-free-lunches-but-organic-lunches-are-super-expensive-why-the-tradeoffs-constraining-human-cognition-do-not-limit-artificial-superintelligences/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「天下没有免费的午餐，但有机午餐特别贵：为什么限制人类认知的权衡因素限制不了人造超级智能」</a>；<a href=\"https://link.zhihu.com/?target=https%3A//www.alignmentforum.org/posts/PTkd8nazvH9HQpwP8/building-brain-inspired-agi-is-infinitely-easier-than\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「打造受大脑启发的 AGI 比理解大脑容易无数倍」</a>；<a href=\"https://link.zhihu.com/?target=https%3A//www.alignmentforum.org/posts/HhWhaSzQr6xmBki8F/birds-planes-brains-and-ai-against-appeals-to-the-complexity\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「鸟、大脑、飞机与 AI：反对诉诸大脑的复杂性/神秘性/高效性」</a></li><li data-pid=\"UY9ysTIZ\"><a href=\"https://link.zhihu.com/?target=https%3A//longtermrisk.org/altruists-should-prioritize-artificial-intelligence/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「利他主义者应优先考虑人工智能」</a></li><li data-pid=\"BW2MRyAP\"><a href=\"https://link.zhihu.com/?target=https%3A//www.lesswrong.com/posts/epgCXiv3Yy3qgcsys/you-can-t-predict-a-game-of-pinball%3FcommentId%3DwjLFhiWWacByqyu6a\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「你预测不了一局弹珠台游戏」</a></li><li data-pid=\"C0hxzl-j\"><b>讨论版</b>：</li><ul><li data-pid=\"h4RIT3YC\">Reddit：<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/r/ControlProblem/comments/4upo7r/complexity_no_bar_to_ai/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">1</a>，<a href=\"https://link.zhihu.com/?target=https%3A//www.reddit.com/r/slatestarcodex/comments/4up89b/complexity_no_bar_to_ai_gwernnet/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">2</a></li><li data-pid=\"O0U2JuDq\"><a href=\"https://link.zhihu.com/?target=https%3A//www.lesswrong.com/posts/WrxHnHfWv4Dz8oSWk/open-thread-jul-25-jul-31-2016%3FcommentId%3DKtWz96tShEAwHErTP\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">LW</a></li><li data-pid=\"JOifDvGy\">Facebook：<a href=\"https://link.zhihu.com/?target=https%3A//www.facebook.com/yudkowsky/posts/10154413180579228\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">1</a>，<a href=\"https://link.zhihu.com/?target=https%3A//www.facebook.com/MachineIntelligenceResearchInstitute/posts/1084181481619235\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">2</a></li><li data-pid=\"_AqWYqZw\"><a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D12354097\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">HN</a>，<a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D26216238\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">2</a></li></ul></ul><h2>附录</h2><h3>技术预测的误区：想当然预设前提的功能固着</h3><p data-pid=\"lHhybZQv\"><b><a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/forking-path\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">已移至《技术预测：小径分岔的花园》。</a></b><sup data-text=\"技术预测：小径分岔的花园\" data-url=\"https://zhuanlan.zhihu.com/p/2058221554144637051\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup></p><h2>尾注</h2><p data-pid=\"AdMF1Bls\">[1] 以<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Go_and_mathematics\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">围棋</a>为例，它的博弈树极其复杂。（单是判定棋盘上的胜负就难得出奇——属于 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/PSPACE\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">PSPACE</a> 问题，可能比 NP 还糟。）尽管如此，AI 在这方面的能力早已远远把人类甩在身后；到了 2018 年，就连人机结合的「半人马」团队也无法再提升 AI 的表现。既然事实已经如此，Myhrvold 认为数学太复杂所以 AI 搞不定的论点，被他自己举的例子啪啪打脸。</p><p data-pid=\"G89zzvU2\">[2] 所有的计算复杂性教程都分两部分：第一部分，解释为什么复杂性很重要；第二部分，解释为什么它不重要。</p><p data-pid=\"S3gY0zi7\">[3] <a href=\"https://link.zhihu.com/?target=https%3A//rjlipton.com/2014/07/21/shifts-in-algorithm-design/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「算法设计的转变」</a>，Lipton/Regan：</p><blockquote data-pid=\"jjPsrtP6\"> 时至 21 世纪的今天，我们有了对付难题的好办法。我们改变问题本身，通常是把它变成一个更容易处理且有用处的问题。在很多情况下，得出绝对精确的答案并不是从业者真正需要的。如果精确计算 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=X\" alt=\"X\"/> 太费时间，那算它就毫无意义。预测天气就是个绝佳例子：花上一周时间去算明天的天气，显然没什么用。当前这些方法的妙处就在于，我们可以改变问题。至少有两种主要途径：<br/> </blockquote><ul><li data-pid=\"XeyEwtsK\">改变所需的答案。允许求近似值，或者允许只算出一部分。别死磕精确解。</li><li data-pid=\"xOX5WwiF\">改变算法手段。允许算法可能出错，或者允许算法使用随机性。别死磕完美确定性的算法。</li></ul><p data-pid=\"6UESC60R\"> 这正是 Chayes 和她的合著者们做的事。</p><p data-pid=\"9vET6btg\">[4] Rintanen，2012 年，<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/ai/tabular/2012-rintanen.pdf\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《规划等同于可满足性问题：启发式方法》</a>探讨了如何将 AI 规划问题转化为能高效求解的 SAT 问题，其中提到：</p><blockquote data-pid=\"-VAPHWYc\"> 与代表许多其他应用的 SAT 问题相比，那些由各种规划比赛的标准规划基准问题转化而来的 SAT 问题，有个奇特之处：规模极其庞大，但往往仍能迅速求解。Lingeling（在前面解释的时间限制内）解出的最大 SAT 问题，是 AIRPORT 实例 41（417,476 个命题变量，9290 万个子句）和 TRUCKS 实例 26（926,857 个命题变量，1130 万个子句）。<br/> 我们的规划器解出了 AIRPORT 的实例 49（13,840 个动作，14,770 个状态变量），在 horizon 65 完成了不可满足性测试，包含 112 万个命题变量和 1.0823 亿个子句；并给出了 horizon 85 的规划，包含 146 万个命题变量和 1.4154 亿个子句。规划器还解出了 SATELLITE 的实例 33（989,250 个动作，5,185 个状态变量），在 horizon 20 找到了规划，包含 1989 万个命题变量和 6999 万个子句，全程无回溯耗时 14.50 秒（不包括转化为 SAT 的时间，但包括搜索较短 horizon 的努力）。这些都是极端情况。更典型的 SAT 实例，命题变量不到 200 万个，子句大概只有两三百万个。</blockquote><p data-pid=\"sTWFGLVY\">[5] _<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Infinite_in_All_Directions\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《全方位的无限》</a>_，1988 年；这是戴森在总结/转述冯·诺伊曼大约 1950 年做的一场关于天气预报的讲座。虽然这句话通常归功于冯·诺伊曼，但尚不清楚他原话是不是真这么说的。</p><p data-pid=\"3okk3H3W\">[6] 他的同事<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Richard_Lipton\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">理查德·利普顿</a><a href=\"https://link.zhihu.com/?target=https%3A//rjlipton.com/2009/02/13/polynomial-vs-exponential-time/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">在 2009 年</a>将这句话归功于他。</p><p data-pid=\"8SuH-gLt\">[7] 一些关于这种现象的民间智慧：Cantor 与 Zassenhaus，1981 年：</p><blockquote data-pid=\"qPNLbBUr\"> 渐近最优的算法，在其适用的所有问题上，往往表现最差。</blockquote><p data-pid=\"XtAfvkMP\"><a href=\"https://link.zhihu.com/?target=https%3A//doc.cat-v.org/bell_labs/pikestyle\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「C 语言编程笔记」</a>，Rob Pike：</p><blockquote data-pid=\"rooDp66R\"> 规则 3。当 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=n\" alt=\"n\"/> 比较小时，花哨的算法往往很慢，而 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=n\" alt=\"n\"/> 通常确实很小。花哨算法的常数因子很大。除非你笃定 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=n\" alt=\"n\"/> 经常会很大，否则别搞那些花哨的。（就算 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=n\" alt=\"n\"/> 真变大了，也要先遵守规则 2。）</blockquote><p data-pid=\"q39iClN0\"><a href=\"https://link.zhihu.com/?target=https%3A//www.informit.com/articles/article.aspx%3Fp%3D2213858\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">高德纳（Knuth）</a>：</p><blockquote data-pid=\"ktJhs_U2\"> 总体而言，我更希望能关注那些在问题规模 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=n\" alt=\"n\"/> 可行的情况下，跑得很快的算法。当今大部分文献都在研究渐近性能极佳的算法，但只有当 <img eeimg=\"1\" src=\"https://www.zhihu.com/equation?tex=n\" alt=\"n\"/> 大过全宇宙时，它们才派得上用场……当我们脚踏实地时，另一个问题是算法在真实计算机上的效率。作为 <a href=\"https://link.zhihu.com/?target=https%3A//www-cs-faculty.stanford.edu/~knuth/sgb.html\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Stanford GraphBase 项目</a>的一部分，我实现了四种计算图<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/minimum_spanning_trees\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">最小生成树</a>的算法，其中一种正是你跟 Cheriton 和 Karp 弄出来的那套非常漂亮的法子。我原本以为你的算法肯定拔得头筹，因为它检查数据的次数只有其他算法的一半，但结果它实际上比 Kruskal 那个老掉牙的法子还差了 2 到 3 倍。部分原因是缓存交互很糟糕，但罪魁祸首是 Big O 记号掩盖掉的一个巨大的常数因子。</blockquote><p data-pid=\"NEBhuUk1\">具体来说：<a href=\"https://link.zhihu.com/?target=https%3A//stackoverflow.com/questions/504823/has-anyone-actually-implemented-a-fibonacci-heap-efficiently\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「Knuth 早在 1993 年为他的书《Stanford GraphBase》对最小生成树的斐波那契堆和二叉堆做过对比。他发现在他测试的图规模下（不同密度的 128 个顶点），斐波那契堆比二叉堆慢了 30% 到 60%。」</a>（<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/math/1973-knuth.pdf\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Knuth 1973 年的文献</a>里还举了早期计算机科学的更多例子：一味追求渐近最优、假想的硬件或可证明的边界，反而导致实际经验性能一塌糊涂。）</p><p data-pid=\"gA7hbrc9\">关于 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Coppersmith-Winograd_algorithm\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Coppersmith-Winograd 算法</a>：</p><blockquote data-pid=\"YD7T5OxX\"> Coppersmith-Winograd 算法经常作为其他算法的基础组件，用来证明理论上的时间界限。然而，与 Strassen 算法不同，它在实际中压根没人用，因为只有当矩阵庞大到连现代硬件都处理不了时，它才能体现出优势。 [6]</blockquote><p data-pid=\"Rs6yNxSb\">有些算法因其无可挑剔的渐近性能和烂得令人发指的常数因子而臭名昭著，比如可计算版本的 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/AIXI\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">AIXI</a>。Lipton 戏称这类算法为<a href=\"https://link.zhihu.com/?target=https%3A//rjlipton.com/2010/10/23/galactic-algorithms/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「星系级算法」</a>。</p><p data-pid=\"JUPcjMO1\">[8] 据我所知，谈论奇点的作者里，唯一一个真的认为智力会无休止地暴涨到无限大、死抠「奇点」字眼而不把它当成 Vinge 的比喻/类比的，大概只有<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Frank_J._Tipler\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">弗兰克·提普勒（Frank J. Tipler）</a>的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Omega_Point\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">欧米伽点（Omega Point）</a>理念了。但据我所知，就算假设他算得全对，他说的这种无限智能，也只有在满足诸多宇宙学条件的前提下才在物理上可能，而其中某些条件看起来压根就不成立（比如要求宇宙是闭合的，而不是平坦且膨胀的）。</p><p data-pid=\"MEPM62AO\">[9] <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Average_is_Over\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《平均时代的终结》</a>，<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Tyler_Cowen\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Cowen</a>，2013 年：</p><blockquote data-pid=\"s2tqydsj\"> Vasik Rajlich 是 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Rybka\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Rybka</a> 背后的程序员，他对我们从下棋程序中吸取的教训给出了更为悲观的看法。在 Rajlich 看来，国际象棋令人惊叹的一点在于人类要下好它有多难。程序输出的结果表明，我们在大量步数上都在犯错。Ken 的测算显示，就连顶尖的特级大师，除了在他们发挥最巅峰的时候，哪怕想要在 55% 的步数上跟 Rybka 的推荐招法撞上，那都得靠运气。当我拿一场特级大师的对局跟 Rybka 的实时评估做对比时，我看到的是：一个最初极具价值的开局，硬是被一次又一次的失误——哪怕是些小失误——给生生败光了。这多少让人有点郁闷。Rajlich 强调，人类总是在犯错，很难保持客观，很难集中注意力，也很难精确算出大量变局。他这里说的可不是俱乐部里臭棋篓子，而是顶尖的特级大师：「我真没想到他们离完美居然差得这么远。」曾几何时，这些特级大师在广大棋迷眼中自带光环，但到了计算机程序的时代，顶尖特级大师的威望大不如前了。当一位世界级棋手对战一位俱乐部高手时，世界级棋手在棋盘前显得才华横溢、不可战胜。的确，世界级棋手确实能走出很多妙手。到了一定时候，他占优的局势就开始「自己下棋」了，用象棋界的行话来说，几乎一切水到渠成。可当这位世界级棋手对阵 Shredder（挑个名字贴切的程序）时，他看起来却像个倒霉的傻瓜，必须谨小慎微才能勉强控制住局面。然而这明明是同一个人。这种落差——我们眼中拔群的人类智慧与其真实水平之间的落差——正是程序给我们上的清醒一课。</blockquote><p data-pid=\"bRV7nVpr\">另见<a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/1606.04956\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「以完美的基准评估人类的失误」</a>（Anderson 等人，2016 年），作为对比，参考 <a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/reinforcement-learning/model/alphago/2017-silver.pdf%23page%3D3%26org%3Ddeepmind\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">AlphaGo Zero</a>：初代 AlphaGo 是训练来预测人类棋手走法的，准确率达到了约 55%；Zero 下围棋远超前辈，但预测走法却明显变差了（约 51%），而且随着它无论是下棋还是预测最终赢家的能力越来越强，它预测人类走法反而越来越差，这意味着哪怕是人类专家，能够挑出最优走法的概率也不到 50%。<a href=\"https://link.zhihu.com/?target=https%3A//papers.ssrn.com/sol3/papers.cfm%3Fabstract_id%3D3893835\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Choi 等人（2021 年）</a>量化了每走一步带来的损失：人类职业棋手每走一步，大概会挥霍掉约 1.2% 的胜率（所以如果他们勉强能有一半时间走出最优解，那么失误带来的胜率损失大概就是 −2.4%）。</p><hr/><blockquote data-pid=\"TpBLfitd\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 gemini-3.1-pro，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/complexity\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Complexity no Bar to AI · Gwern.net</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
+  "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19616786",
+      "type": "topic",
+      "id": "19616786",
+      "name": "算法复杂度"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19551275",
+      "type": "topic",
+      "id": "19551275",
+      "name": "人工智能"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/26737192",
+      "type": "topic",
+      "id": "26737192",
+      "name": "AI安全"
+    }
+  ],
+  "voteup_count": 21,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "<p>一个以其对各种复杂主题进行深入、数据驱动且常带有实验性质的长篇分析而著称的在线知识库。</p>",
+    "is_following": false,
+    "url_token": "c_1852018338747789312",
+    "id": "c_1852018338747789312",
+    "articles_count": 53,
+    "accept_submission": true,
+    "title": "Gwern Branwen",
+    "url": "https://api.zhihu.com/columns/c_1852018338747789312",
+    "comment_permission": "all",
+    "created": 1734335580,
+    "updated": 1748398995,
+    "image_url": "https://picx.zhimg.com/v2-4b910985349d5659b0bf280706fc6fa6_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 113,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 4,
+  "contributions": [
+    {
+      "id": 54822139,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "<p>一个以其对各种复杂主题进行深入、数据驱动且常带有实验性质的长篇分析而著称的在线知识库。</p>",
+        "is_following": false,
+        "url_token": "c_1852018338747789312",
+        "id": "c_1852018338747789312",
+        "articles_count": 53,
+        "accept_submission": true,
+        "title": "Gwern Branwen",
+        "url": "https://api.zhihu.com/columns/c_1852018338747789312",
+        "comment_permission": "all",
+        "created": 1734335580,
+        "updated": 1748398995,
+        "image_url": "https://picx.zhimg.com/v2-4b910985349d5659b0bf280706fc6fa6_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 113,
+        "type": "column",
+        "column_type": "normal"
+      }
+    },
+    {
+      "id": 54823954,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": false,
+        "intro": "<p>ASI 前夜，人类何去何从？</p>",
+        "is_following": false,
+        "url_token": "c_2085111823087547085",
+        "id": "c_2085111823087547085",
+        "articles_count": 22,
+        "accept_submission": true,
+        "title": "走向奇点",
+        "url": "https://api.zhihu.com/columns/c_2085111823087547085",
+        "comment_permission": "all",
+        "created": 1789909398,
+        "updated": 1789909408,
+        "image_url": "https://picx.zhimg.com/v2-61bb5d458e8ec2b2827ca1dfef22dc14_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-9796ebe52ff0c65c579f5fd38297bab8.jpg?source=172ae18b",
+          "uid": "592323397158703104",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "L.M.Sherlock",
+          "id": "4c592f496dc33822b560b382907ff1d0",
+          "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+          "name": "Thoughts Memo",
+          "is_advertiser": false,
+          "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+          "gender": -1,
+          "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+          "avatar_url": "https://pic1.zhimg.com/v2-9796ebe52ff0c65c579f5fd38297bab8_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 84,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "can_open_tipjar": true,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 32,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "复杂性并非人工智能的障碍 - 来自知乎专栏「Gwern Branwen」，作者: Jarrett Ye https://zhuanlan.zhihu.com/p/2094798951593649206 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 0,
+  "has_column": true,
+  "republishers": [
+    {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-9796ebe52ff0c65c579f5fd38297bab8.jpg?source=172ae18b",
+      "uid": "592323397158703104",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "L.M.Sherlock",
+      "id": "4c592f496dc33822b560b382907ff1d0",
+      "description": "欢迎关注 Thoughts Memo 汉化组！我们关注的话题包括但不限于认知科学、知识工作、学习方法、学校教育、理性思考、儿童权利，目前已经完成翻译 1400 多篇文章。\n\n加入汉化组：https://paratranz.cn/projects/3131",
+      "name": "Thoughts Memo",
+      "is_advertiser": false,
+      "headline": "学校≠教育≠技能；文凭溢价=80%信号传递+20%人力资本",
+      "gender": -1,
+      "url": "https://api.zhihu.com/people/4c592f496dc33822b560b382907ff1d0",
+      "avatar_url": "https://pic1.zhimg.com/v2-9796ebe52ff0c65c579f5fd38297bab8_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    }
+  ],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 0,
+    "like_has_set": false
+  },
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyODU2MjExMjgSEzIwOTQ3OTg5NTE1OTM2NDkyMDYYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 21,
+      "down_vote_count": 2,
+      "like_count": 0,
+      "comment_count": 4,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 32,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-52edf3af71521edb6206a085e0b2f2a5": 0,
+        "v2-6b6e1ab41a522e27697db3b25f88ea8c": 0,
+        "v2-bda06389c622fb7278ce04a0cd943c1c": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": true,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-52edf3af71521edb6206a085e0b2f2a5": false,
+        "v2-6b6e1ab41a522e27697db3b25f88ea8c": false,
+        "v2-bda06389c622fb7278ce04a0cd943c1c": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-52edf3af71521edb6206a085e0b2f2a5": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-6b6e1ab41a522e27697db3b25f88ea8c": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-bda06389c622fb7278ce04a0cd943c1c": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "2 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/100838402549?contentId=2094798951593649206&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · Gwern Branwen",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1852018338747789312",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · Gwern Branwen"
+      }
+    },
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_flag",
+          "image_color": {
+            "alpha": 1,
+            "group": "MapHighlight"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "一起参与科学 · 科学季 2026",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "MapHighlight"
+          },
+          "is_bold": true,
+          "max_line": 1
+        },
+        {
+          "type": "TEXT",
+          "content": "",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "MapHighlight"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "MapHighlight"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "MapHighlight"
+      },
+      "action_url": " https://www.zhihu.com/parker/campaign/2081789902673426369?zh_hide_nav_bar=true",
+      "za": {
+        "block_text": "YellowActivity",
+        "type": "text",
+        "text": "一起参与科学 · 科学季 2026"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
+}

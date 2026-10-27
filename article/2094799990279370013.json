@@ -1,0 +1,420 @@
+{
+  "id": "2094799990279370013",
+  "title": "你的电脑里有多少台电脑？",
+  "type": "article",
+  "article_type": "normal",
+  "excerpt_title": "",
+  "url": "https://api.zhihu.com/articles/2094799990279370013",
+  "image_url": "https://picx.zhimg.com/v2-bc35da741a8e03e4a015c9ff1eb6d3ff_720w.jpg?source=172ae18b",
+  "title_image": "https://pica.zhimg.com/v2-bc35da741a8e03e4a015c9ff1eb6d3ff_720w.jpg?source=172ae18b",
+  "excerpt": "<img src=\"https://pic2.zhimg.com/v2-6c0ad0aaa184d6b2722fab51725ee6c3_200x112.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"690\" data-rawheight=\"1107\" data-watermark=\"original\" data-original-src=\"v2-6c0ad0aaa184d6b2722fab51725ee6c3\" data-watermark-src=\"v2-d229948916ed0937c95b479c7a307680\" data-private-watermark-src=\"\" class=\"origin_image inline-img zh-lightbox-thumb\" data-original=\"https://pic2.zhimg.com/v2-6c0ad0aaa184d6b2722fab51725ee6c3_r.jpg\"/>现代计算机内部包含了许多更小的计算机，从主处理器到硬盘、网卡甚至线缆里的芯片，无不如此。本文盘点了这些组件，并解释了它们隐藏的计算能力为何攸关安全。 为什么你的「电脑」里，有那么多地方能藏匿后门和怪异机器（weird machines）？ 因为大东西都是…",
+  "created": 1792389936,
+  "updated": 1792389936,
+  "author": {
+    "is_followed": false,
+    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+    "uid": "1521893281407864832",
+    "user_type": "people",
+    "is_following": false,
+    "url_token": "JarrettYe",
+    "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+    "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+    "name": "Jarrett Ye",
+    "is_advertiser": false,
+    "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+    "gender": 1,
+    "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+    "avatar_url": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+    "is_org": false,
+    "type": "people",
+    "badge": [],
+    "badge_v2": {
+      "title": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "merged_badges": [],
+      "detail_badges": [],
+      "icon": "",
+      "night_icon": ""
+    },
+    "exposed_medal": {
+      "medal_id": "1463836052717301760",
+      "medal_name": "知「势」之星",
+      "avatar_url": "https://picx.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_r.png?source=172ae18b",
+      "mini_avatar_url": "https://pic1.zhimg.com/v2-e66f695db706a1c8c79b8097c1565da2_l.png?source=172ae18b",
+      "description": "「知势榜」上榜答主即可获得",
+      "medal_avatar_frame": ""
+    }
+  },
+  "comment_permission": "all",
+  "copyright_permission": "need_review",
+  "state": "published",
+  "ip_info": "广东",
+  "image_width": 638,
+  "image_height": 480,
+  "content": "<p data-pid=\"QSUee0Sn\">现代计算机内部包含了许多更小的计算机，从主处理器到硬盘、网卡甚至线缆里的芯片，无不如此。本文盘点了这些组件，并解释了它们隐藏的计算能力为何攸关安全。</p><blockquote data-pid=\"tpQ8vipf\">为什么你的「电脑」里，有那么多地方能藏匿后门和怪异机器（weird machines）？<br/>因为大东西都是由小东西组成的：你的电脑实际上由几十、几百甚至可能上千块芯片构成。其中许多芯片承载着<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/turing-complete%23security-implications\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">怪异机器</a>，在显性或隐性地执行图灵完备的计算（许多芯片比过去时代的台式机还要强大），它们协同工作，共同制造出这是一台「单一计算机」的<b>错觉</b>。<br/>后门、漏洞、怪异机器以及安全问题，才不在乎你怎么想——它们只在乎去哪里能找到资源，并将其编排成一场计算。</blockquote><p data-pid=\"ylyuM6cb\">如果说「现在的网络就是计算机」，那么「现在的计算机就是（由众多计算机组成的）<a href=\"https://link.zhihu.com/?target=https%3A//fgiesen.wordpress.com/2014/03/23/networks-all-the-way-down/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">网络</a>」，这话同样不假。 也许像 Altair PC 这样最早期的计算机里，真的只有一台「计算机」，所有图灵完备的任务都必须从同一个地方通过。但那个时代早就结束了。如今的「计算机」由无数组件构成，其中许多组件要是放在过去，本身就是一台好用的计算机。 「计算机」这个称呼只是为了图方便，并非什么泾渭分明的界限。 真正重要的是输入和输出：作为一个整体，系统能力有多强？需要什么资源？怎样才能重新编程这些组件？</p><h2>层次</h2><p data-pid=\"sUROWpjX\">没人关心谷歌底层究竟是 50 台超级计算机、5 万台大型机、500 万台服务器，还是 5000 万个嵌入式/移动处理器，抑或是<a href=\"https://link.zhihu.com/?target=https%3A//herbsutter.com/welcome-to-the-jungle/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">上面这些硬件的大杂烩</a>。它们利用了五花八门的芯片，从定制的「张量处理单元（TPU）」到定制的片上硅（英特尔曾为几个大客户在至强芯片上做过这种定制），从 FPGA 到 GPU 再到 CPU，甚至还有更稀奇古怪的硬件，比如<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/cs/hardware/2021-ranganathan.pdf%23google\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">定制的 YouTube 视频编码芯片</a>或处于原型阶段的 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/D-Wave_Systems\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">D-Wave</a> 量子计算机——只要谷歌能跟其他科技巨头一较高下，并以合理的成本提供服务，这就够了。 （如今的「超级计算机」大体上就是一大批机架式服务器，塞进了多得异乎寻常的 GPU，再用快得异乎寻常的 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/InfiniBand\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">InfiniBand</a> 网络连起来，跟数据中心也没太大区别。） 这些硬件，任何一块都能根据其运行机制，在诸多不同的计算层级上支撑起多台怪异机器。 这个系统可以从多个层级去审视，每个层级的视角虽说都不完全严谨，却各有各的用处。 你到底是一个「单一的生物智能体」，还是由人体细胞、神经元、细菌、酵母菌、病毒和寄生虫组成的群落/生态系统？这究竟要紧吗？</p><h2>计算机嵌套计算机</h2><figure data-size=\"normal\"><img src=\"https://pic2.zhimg.com/v2-6c0ad0aaa184d6b2722fab51725ee6c3_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"690\" data-rawheight=\"1107\" data-original-token=\"v2-6c0ad0aaa184d6b2722fab51725ee6c3\" class=\"origin_image zh-lightbox-thumb\" width=\"690\" data-original=\"https://pic2.zhimg.com/v2-6c0ad0aaa184d6b2722fab51725ee6c3_r.jpg\"/></figure><p data-pid=\"2NXKCQo4\">插图：<a href=\"https://link.zhihu.com/?target=https%3A//xkcd.com/2166/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">XKCD #2166，「堆栈」</a>。</p><p data-pid=\"kG_5SECF\">这个问题本身边界模糊，这里有个现成的例子：此时此刻，不管是你的桌面上还是口袋里，你到底有几台计算机？ 你的「计算机」里有多少台计算机？你以为只有一台吗？咱们仔细瞧瞧——里面全是大大小小的计算机。 你可能以为，除了主板上占据 C 位的那个大个头 CPU，顶多再算上 GPU，就没别的了。但实际上，整个系统可调用的计算能力远远超出了 CPU 和 GPU 的范畴。原因有很多：<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Experience_curve_effects\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">大规模量产</a>使得晶体管和处理器核心变得极度廉价，因此在很多情况下，出于实时性或高性能的要求，为了提供安全保障，为了避免主操作系统因某项任务而不堪重负，或者为了兼容老旧架构与现有软件包，人们往往觉得干脆单拉一个核心出来处理更划算。此外，由于给 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Digital_signal_processor\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">DSP</a> 或通用核心写程序，比专门去造一个特定的 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/ASIC\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">ASIC</a> 来得快，或者说，随手拍上一块小 CPU 才是最快捷的解决方案，根本不值得为了省那几毛钱去费心思……[1] （Halvar Flake 将这种现象戏称为<a href=\"https://link.zhihu.com/?target=https%3A//rule11.tech/papers/2018-complexitysecuritysec-dullien.pdf\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「廉价的复杂性」</a>。） 只要有外设或设备被制造出来，<a href=\"https://link.zhihu.com/?target=http%3A//www.cap-lore.com/Hardware/Wheel.html\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「轮回之轮」</a>就开始转动了。 更有甚者，许多组件哪怕原本并非用作计算，或者刻意隐藏了计算功能，依然可以被当作计算单元来使唤。 （比如，<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Commodore_64\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Commodore 64</a> 的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Commodore_1541\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">软驱</a>里运行 Commodore DOS 的 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/MOS_Technology_6502\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">CPU</a> ，就被拿来当成额外的备用算力，或者用来破解防拷贝机制，因为它跟主 CPU 一样强；你可以把计算分形、为演示动画做 3D 数学运算、跑国际象棋程序等任务甩给这个「协处理器」……）</p><h3>往下探究</h3><p data-pid=\"G9gHeJr0\">由此可见：</p><ul><li data-pid=\"TkVTeQQx\">一块普通的 AMD/Intel <b>x86 CPU</b> 拥有数十亿个晶体管，它们被分配给许多独立运作的组件：<br/><br/></li><ul><li data-pid=\"9OJE7RYW\">这两个以上的 CPU 核心，每一个都能独立运行，视需要开启或关闭。它们各自拥有专属的 L1 到 L3 缓存（这些缓存通常比几十年前台式机的全部内存还要大[2]，物理尺寸恐怕也比当年的整个 CPU 还要大），因此必须把它们视为一个个独立的个体。此外，CPU 整体上还能通过微码重新编程，比如用来修补芯片设计上的错误，因此这些 CPU 具体计算的内容也是会变的。<br/><br/></li><li data-pid=\"R6yEf3NG\">CPU 身上不透明的功能越来越多。比如管理引擎和安全飞地，像<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Intel_Management_Engine\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">英特尔管理引擎（Intel ME）</a>（自带 <a href=\"https://link.zhihu.com/?target=https%3A//www.slideshare.net/codeblue_jp/igor-skochinsky-enpub\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">JVM 以支持可编程性</a>；<a href=\"https://link.zhihu.com/?target=https%3A//link.springer.com/book/10.1007/978-1-4302-6572-6\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Ruan 2014</a> 与 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Software_Guard_Extensions\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SGX</a>），或者 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/AMD_Platform_Security_Processor\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">AMD 的平台安全处理器</a>（PSP）、<a href=\"https://link.zhihu.com/?target=https%3A//googleprojectzero.blogspot.com/2017/07/trust-issues-exploiting-trustzone-tees.html\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Android 的 TEE（可信执行环境）</a>以及 <a href=\"https://link.zhihu.com/?target=https%3A//cloud.google.com/blog/products/gcp/titan-in-depth-security-in-plaintext\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Titan 芯片</a>。这些硬件模块本质上往往是完整的计算机，它们独立于主机运行，甚至能对主机动手脚（这也导致了术语上的混乱：过去简简单单的 0 到 3 级<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/protection_ring\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">保护环</a>，如今不得不补上「−1 环」、<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/System_Management_Mode\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「−2 环」</a>和<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Intel_Management_Engine%23Ring_%25E2%2588%25923_rootkit\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">「−3 环」</a>）。英特尔的 ME 运行的是闭源且无法审计的 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/MINIX\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">MINIX</a> 分支（MINIX 作为一个操作系统，更为人熟知的是它在 Linux 诞生过程中扮演的角色）。此举带来的安全隐患让谷歌大为光火，干脆立项把 <a href=\"https://link.zhihu.com/?target=https%3A//www.tomshardware.com/news/google-removing-minix-management-engine-intel%2C35876.html\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">MINIX 从其 CPU</a> 及 Titan 芯片里给移除了。<br/><br/></li><li data-pid=\"W4r6THCD\">任何<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/floating-point_unit\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">浮点运算单元</a>，只要借鉴 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/FRACTRAN\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">FRACTRAN</a> 的精神，把程序编码成浮点运算，都可能是图灵完备的。[3]<br/><br/></li><li data-pid=\"Ce2h7EhG\"><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Memory_management_unit\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">内存管理单元（MMU）</a>可以被编程为一台由 CPU 存根驱动的缺页故障怪异机器（见上文）。<br/><br/></li></ul><li data-pid=\"pTGjNd8a\"><b><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Digital_signal_processor\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">DSP</a> 单元与定制硅片</b>：诸如 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/h.264\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">h.264</a> 这类视频格式的 ASIC 大概不是图灵完备的（尽管它们支持复杂的增量和压缩技术，<b>或许</b>能实现类似王氏砖的效果），但拿<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Apple_A9\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">苹果 A9</a> 移动端系统级芯片（SoC）来说，它可远不止是双核 ARM CPU 加 GPU 那么简单。和英特尔/AMD 的桌面端 CPU 一样，它不仅包含安全飞地（一个<a href=\"https://link.zhihu.com/?target=https%3A//www.arm.com/products/silicon-ip-security\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">物理隔离的独立 CPU 核心</a>），还内置了图像协处理器、运动/语音识别协处理器（部分用于支持 Siri），而且显然还有好几个别的核心。有些 ASIC 是为了支持 AI 任务，想必擅长神经网络的矩阵乘法；既然循环神经网络是图灵完备的……其他公司，像摩托罗拉或高通，也在争先恐后地往自家的 SoC 里塞东西。<br/><br/></li><ul><li data-pid=\"PDfJ5hm7\"><a href=\"https://link.zhihu.com/?target=https%3A//x.com/_markel___/status/982364102449393668\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Mark Ermolov</a> 指出，在一块给定的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/system_on_a_chip\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">系统级芯片</a>（SoC）上，不但有多个 CPU，而且轻轻松松就能凑齐 5 种不同的 CPU 架构：<br/><br/>  英特尔 Silvermont 架构的 Moorefield SoC（ANN）里居然塞了这么多异构的 CPU 核心，实在令人惊叹：x86、<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/ARC_%28processor%29\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">ARC</a>、LMT、<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Intel_MCS-51\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">8051</a>、音频 DSP。它们各自跑着自己的固件，还都支持 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/JTAG\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">JTAG</a> 接口。<br/><br/> </li><li data-pid=\"CSqFWaRX\">还有更古怪的专用芯片，比如 Macbook <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Touch_Bar\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Touch Bar（触控栏）</a>里的芯片。它们在独立于笔记本操作系统的 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Apple_T1\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Apple T1</a>/T2 SoC（采用了 ARM CPU）上，运行着小型的 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/WatchOS\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">WatchOS</a> 应用并进行指纹认证。毫无疑问，这种芯片也能被<a href=\"https://link.zhihu.com/?target=https%3A//arstechnica.com/information-technology/2020/10/apples-t2-security-chip-has-an-unfixable-flaw/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">黑掉</a>，用来<a href=\"https://link.zhihu.com/?target=https%3A//x.com/qwertyoruiopz/status/1238606353645666308\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">跑 Linux</a>。<br/><br/>苹果智能手机里的「息屏常显（Always-on）处理器」，不仅能让手机在「关机」状态下依然被追踪定位，还<a href=\"https://link.zhihu.com/?target=https%3A//naehrdine.blogspot.com/2021/09/always-on-processor-magic-how-find-my.html\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">实现了</a> <a href=\"https://link.zhihu.com/?target=https%3A//machinelearning.apple.com/research/hey-siri\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Siri 的唤醒功能</a>。<br/><br/></li></ul><li data-pid=\"rEZVDn_x\"><b>主板 BIOS 与管理引擎</b>（在 CPU 对应的引擎之上），通常具备网络访问权限。<br/><br/>出厂的设备上，这类用于管理或调试的芯片可能被「不小心」保持在开启状态，比如 <a href=\"https://link.zhihu.com/?target=https%3A//github.com/xoreaxeaxeax/rosenbridge\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Via C3 CPU</a> 里面嵌入的 ARM CPU。<br/><br/></li><li data-pid=\"7zO1gY5v\">GPU 拥有数以百计简单的 <b>GPU 核心</b>，它们跑起神经网络来得心应手（极其擅长表达能力或图灵完备任务），也能做通用计算（哪怕比 CPU 慢一些）。[4]<br/><br/></li><li data-pid=\"K8vPKC1a\"><b>智能手机</b>：除了上面提到的所有单元外，手机里还有个独立的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/baseband_processor\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">基带处理器</a>。它运行着闭源的实时操作系统，负责处理与蜂窝基站、GPS 等设备的无线电通信，或者可能利用<a href=\"https://link.zhihu.com/?target=https%3A//boston.conman.org/2013/01/22.2\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">类似 L4 的微内核</a>虚拟出多个处理器。基带处理器除了自身漏洞百出，还被发现过留有后门。<br/><br/>鉴于大多数这类嵌入式应用都用上了 ARM CPU，无怪乎 <a href=\"https://link.zhihu.com/?target=https%3A//www.theregister.com/2013/03/07/baseband_processor_mobile_hack_threat/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">ARM 会得意洋洋地吹嘘</a>：「一部现代智能手机大概包含 8 到 14 个 ARM 处理器，其中一个是应用处理器（运行 Android、iOS 或其他系统），而另一个则是负责基带协议栈的处理器。」<br/><br/></li><li data-pid=\"2hQZeCnJ\">智能手机的 <b><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Subscriber_identity_module\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SIM 卡</a></b> 绝非只是记录你入网信息的简单存储卡，它们可是能独立运行 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Java_Card\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Java Card</a> 应用程序的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/smart_cards\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">智能卡</a>（显然 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Near-field_communication\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">NFC</a> 芯片大概也是这副德行），有点像英特尔管理引擎里的 JVM。<br/><br/>理所当然，SIM 卡也能被黑入，沦为监视工具等。[5]<br/><br/></li><li data-pid=\"j3t6YZan\">磁带机、机械硬盘、闪存盘或 SSD 硬盘的 <b>I/O 控制器</b>等，通常也都带有 ARM 处理器。它们运行盘内固件，负责对操作系统隐藏坏道、加速<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/disk_encryption\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">磁盘加密</a>或进行<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/wear_leveling\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">磨损均衡</a>等任务。这玩意儿<a href=\"https://link.zhihu.com/?target=https%3A//spritesmods.com/%3Fart%3Dhddhack%26page%3D1\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">也能被黑</a>。<br/><br/></li><li data-pid=\"7Y0cvGNd\"><b>网络芯片</b>负责针对直接内存访问（<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Direct_memory_access\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">DMA</a>）进行独立处理。（正是因为有了这种独立性，再结合主板和 CPU 管理引擎，像用于<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/netboot\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">网络引导启动</a>的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Wake-on-LAN\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">局域网唤醒（Wake-on-LAN）</a>这类功能才能奏效。）<br/><br/></li><li data-pid=\"EXDPE_p4\"><b>USB / 雷电（Thunderbolt）线缆与设备</b>，或是接在主板上的设备：至少在线缆、电池和充电器上，就得有个嵌入式处理器去协商数据和电源协议[6]。甚至在 WiFi 适配器、键盘、鼠标或 <a href=\"https://link.zhihu.com/?target=https%3A//www.bunniestudios.com/blog/2013/on-hacking-microsd-cards/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">SD 卡</a>等设备上，还要搞出带多个额外专用处理器的大阵仗。<br/><br/>理论上，这些东西大多是隔绝的，至少中间有 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/IOMMU\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">IOMMU</a> 单元拦着，不让它们通过 DMA 直接把主机端掉，但<a href=\"https://link.zhihu.com/?target=https%3A//googleprojectzero.blogspot.com/2017/04/over-air-exploiting-broadcoms-wi-fi_11.html\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">魔鬼藏在细节里……</a><br/><br/></li><li data-pid=\"JBswcRiO\"><b>显示器内置的 CPU</b> 负责控制并将 GPU 发来的信号统统显示出来（这项<a href=\"https://link.zhihu.com/?target=http%3A//cva.stanford.edu/classes/cs99s/papers/myer-sutherland-design-of-display-processors.pdf\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">传统</a>可以追溯到智能电传打字机时代）。<br/><br/></li><li data-pid=\"4P-1Z9Eb\">……</li></ul><h2>我们是群落</h2><p data-pid=\"C0iIJGfb\">所以，一台台式机或智能手机里理所当然地藏着 15 到几千台不等的「计算机」（所谓「计算机」，是指图灵完备的设备，能够以通用的方式进行实用编程，且几乎不需要在「官方」计算机上运行代码）。它们拥有的强大算力，足以跑得动计算史上形形色色的许多程序；而对手自然能利用它们来监视、窃取数据，或是对系统的其余部分发动攻击。</p><p data-pid=\"fnTqctus\">纵观历史，这不足为奇。哪怕是最早的大型机，往往也是由多台计算机组成的：主计算机负责批处理，额外的小型计算机则接管高速 I/O 操作；如果不这么安排，光是中断请求就能把主计算机给憋死。</p><p data-pid=\"kh33q31v\">实际中，除了计算机安全圈（因为这些计算机通通不安全，正好成了好用的攻击路径），一般用户才不在乎我们的计算机底层有多么错综复杂，更不在乎它准确来说就是数百台被生硬拼凑在一起、大杂烩般的计算机群落。只要它运转正常，用户就会觉得这就是一台功能强大的独立计算机，并拿它当一台来用。</p><p data-pid=\"XW9QTPjV\">直到它不再按预期运转为止。</p><h2>外部链接</h2><ul><li data-pid=\"Pc-fWptG\">讨论版：<a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D18413757\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">HN</a></li><li data-pid=\"h4PLQXoz\"><a href=\"https://link.zhihu.com/?target=https%3A//habr.com/en/articles/429602/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">俄语译本</a>（2018-11-11）</li><li data-pid=\"9njL5Uvj\"><a href=\"https://link.zhihu.com/?target=https%3A//media.ccc.de/v/35c3-9778-open_source_firmware\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《开源固件：一段爱情故事》</a>，Zaolin（CCC 演讲，35C3，2018 年）</li><li data-pid=\"Svi_XV3Y\"><a href=\"https://link.zhihu.com/?target=https%3A//catern.com/compdist.html\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《你的计算机是一个分布式系统》</a></li><li data-pid=\"SjRrCBw4\"><a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/cs/hardware/2023-fiedler.pdf\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《扑灭硬件垃圾堆里的火灾》</a>，Fiedler 等人，2023 年</li><li data-pid=\"6h_9oA94\"><a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/cs/hardware/2011-hennessy-computerarchitecture-ch6-warehousescalecomputers.pdf\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《仓库级计算机：利用请求级与数据级并行》</a>，Hennessy 与 Patterson，2011 年</li><li data-pid=\"N7Nm_SUG\"><a href=\"https://link.zhihu.com/?target=https%3A//danluu.com/deconstruct-files/\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《文件充满危险》</a>，Dan Luu</li></ul><h2>尾注</h2><p data-pid=\"JOdFsLPf\">[1] <a href=\"https://link.zhihu.com/?target=https%3A//news.ycombinator.com/item%3Fid%3D19348141\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">pkaye 在 HN 上</a>举了这种心态的一个例子：</p><blockquote data-pid=\"IbMaJA3H\">让我想起以前做<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/firmware\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">固件</a>开发时，ASIC 团队跑来问能不能顺手塞个额外的 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Cortex-M3\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Cortex-M3</a> 核心进去，好解决特定的控制问题。这些核心会被当成可编程的<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/state_machines\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">状态机</a>来用。对 ASIC 团队来说，跟专门去设计定制逻辑电路相比，随便扔个核心进去根本不花什么成本。然而，对固件团队来说，这就意味着又多了一份编写和测试固件的差事。我们有的设计里塞了多达 10 个 Cortex-M3 核心。我听在另一家公司上班的朋友说，他们那边塞了差不多 32 个这种核心，调试起来简直生不如死。</blockquote><p data-pid=\"cyc_ZXu_\">[2] 例如，2017 年的 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikichip.org/wiki/intel/core_i9/i9-7900x\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Intel Core i9-7900X CPU</a> 拥有总计约 24MB 的缓存，这比 1996 年的台式机 <a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Power_Macintosh_5200_LC\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Power Macintosh 5200 LC</a> 那 16MB 的内存（CPU 缓存只有 16KB！）还要大得多。</p><p data-pid=\"Bumri09R\">[3] 或者它们跑着看似无害的浮点运算，实际上却<a href=\"https://link.zhihu.com/?target=https%3A//openai.com/research/nonlinear-computation-in-deep-linear-networks\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">利用开启非线性的浮点运算设置</a>编码了一个（深层）神经网络。另见<a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/1806.11146\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《神经网络的对抗性重编程》，Elsayed 等人，2018 年</a>与 <a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/1809.01829\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Neekhara 等人，2018 年</a>（说得更宽泛点，参考 <a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/gpt-3%23prompt-programming\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GPT-3 / CLIP 的「提示编程」</a>，或 <a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2011.15091\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Goyal 与 Bengio，2020 年</a> / <a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2103.05247\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Lu 等人，2021 年</a>）。一个相关的话题是「机器教学」：<a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/1306.4947\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Zhu，2013 年</a>，<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/doc/ai/2015-zhu-2.pdf\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Zhu，2015 年</a>，<a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/1811.10959\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Wang 等人，2018 年</a>，<a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2009.08449\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Sucholutsky 与 Schonlau，2020 年</a>。</p><p data-pid=\"wSNBJTKc\">[4] Arrigo Triulzi 在 2008 年演示过一套漏洞利用系统，该系统结合了对网卡（计算能力有限）和 GPU 的黑客攻击，使其能够独立于主机操作系统 / CPU 运行：<a href=\"https://link.zhihu.com/?target=https%3A//www.alchemistowl.org/arrigo/Papers/Arrigo-Triulzi-PACSEC08-Project-Maux-II.pdf\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《Project Maux Mk.II：「网卡已拿下，现在我想要个 Shell！」》</a> / <a href=\"https://link.zhihu.com/?target=https%3A//www.alchemistowl.org/arrigo/Papers/Arrigo-Triulzi-CANSEC10-Project-Maux-III.pdf\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">《绝地武士的数据包戏法接管死星（或者：「将网卡后门提升到新高度」）》</a>。</p><p data-pid=\"fEOPXnRl\">[5] 每年我都把同一张 SIM 卡从旧智能手机里拔出来，再插进新手机，这总让我浮想联翩：它就像一个长生不老的微缩「蜂窝小矮人」——它到底在想些什么，又真正效忠于谁？</p><p data-pid=\"Sjf6Tu06\">[6] <a href=\"https://link.zhihu.com/?target=https%3A//www.righto.com/2015/11/macbook-charger-teardown-surprising.html%23ref8\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Ken Shirriff</a> 在拆解分析 Macbook 充电器时打趣道：「一块带微控制器的微型电路板成了意料之外的组件，如上图所示。这个 16 位处理器不间断地监控着充电器的电压和电流。当充电器连接到 Macbook 时，它开启输出；断开连接时，关闭输出；一旦出现问题，直接切断充电器电源。这个处理器是一块<a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/TI_MSP430\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">德州仪器的 MSP430</a> 微控制器，性能跟初代 Macintosh 里的处理器差不多。[充电器里的处理器是一块 MSP430F2003 超低功耗微控制器，拥有 1kB 闪存和区区 128 字节的内存。它内置了一个高精度的 16 位模数转换器。更多信息在<a href=\"https://link.zhihu.com/?target=https%3A//www.ti.com/product/MSP430F2003\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">这里</a>]。」</p><hr/><blockquote data-pid=\"TpBLfitd\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 gemini-3.1-pro，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//gwern.net/computers\" data-draft-type=\"text-link\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">How Many Computers Are In Your Computer? · Gwern.net</a></blockquote>",
+  "content_need_truncated": false,
+  "force_login_when_click_read_more": false,
+  "admin_closed_comment": false,
+  "topics": [
+    {
+      "url": "https://api.zhihu.com/topics/19555547",
+      "type": "topic",
+      "id": "19555547",
+      "name": "计算机"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19599012",
+      "type": "topic",
+      "id": "19599012",
+      "name": "图灵机"
+    },
+    {
+      "url": "https://api.zhihu.com/topics/19569215",
+      "type": "topic",
+      "id": "19569215",
+      "name": "安全"
+    }
+  ],
+  "voteup_count": 36,
+  "voting": 0,
+  "heavy_up_status": "allow_heavy_up",
+  "column": {
+    "description": "",
+    "can_manage": true,
+    "intro": "<p>一个以其对各种复杂主题进行深入、数据驱动且常带有实验性质的长篇分析而著称的在线知识库。</p>",
+    "is_following": false,
+    "url_token": "c_1852018338747789312",
+    "id": "c_1852018338747789312",
+    "articles_count": 53,
+    "accept_submission": true,
+    "title": "Gwern Branwen",
+    "url": "https://api.zhihu.com/columns/c_1852018338747789312",
+    "comment_permission": "all",
+    "created": 1734335580,
+    "updated": 1748398995,
+    "image_url": "https://picx.zhimg.com/v2-4b910985349d5659b0bf280706fc6fa6_720w.jpg?source=172ae18b",
+    "author": {
+      "is_followed": false,
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "uid": "1521893281407864832",
+      "user_type": "people",
+      "is_following": false,
+      "url_token": "JarrettYe",
+      "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+      "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+      "name": "Jarrett Ye",
+      "is_advertiser": false,
+      "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+      "gender": 1,
+      "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+      "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+      "is_org": false,
+      "type": "people",
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      }
+    },
+    "followers": 113,
+    "type": "column",
+    "column_type": "normal"
+  },
+  "comment_count": 1,
+  "contributions": [
+    {
+      "id": 54827088,
+      "state": "accepted",
+      "type": "first_publish",
+      "column": {
+        "description": "",
+        "can_manage": true,
+        "intro": "<p>一个以其对各种复杂主题进行深入、数据驱动且常带有实验性质的长篇分析而著称的在线知识库。</p>",
+        "is_following": false,
+        "url_token": "c_1852018338747789312",
+        "id": "c_1852018338747789312",
+        "articles_count": 53,
+        "accept_submission": true,
+        "title": "Gwern Branwen",
+        "url": "https://api.zhihu.com/columns/c_1852018338747789312",
+        "comment_permission": "all",
+        "created": 1734335580,
+        "updated": 1748398995,
+        "image_url": "https://picx.zhimg.com/v2-4b910985349d5659b0bf280706fc6fa6_720w.jpg?source=172ae18b",
+        "author": {
+          "is_followed": false,
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "uid": "1521893281407864832",
+          "user_type": "people",
+          "is_following": false,
+          "url_token": "JarrettYe",
+          "id": "3c9990a12cdbcd92e20b1387b160f0a3",
+          "description": "本科毕业哈尔滨工业大学（深圳）计算机专业。目前在墨墨科技担任研究工程师，专注于间隔重复算法和人类记忆建模。\n\nThoughts Memo 汉化组的组长，这是一个致力于传播教育技术的翻译小组。知乎备份：https://l-m-sherlock.github.io/ZhiHuArchive/",
+          "name": "Jarrett Ye",
+          "is_advertiser": false,
+          "headline": "钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。",
+          "gender": 1,
+          "url": "https://api.zhihu.com/people/3c9990a12cdbcd92e20b1387b160f0a3",
+          "avatar_url": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b",
+          "is_org": false,
+          "type": "people",
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          }
+        },
+        "followers": 113,
+        "type": "column",
+        "column_type": "normal"
+      }
+    }
+  ],
+  "is_title_image_full_screen": false,
+  "upvoted_followees": [],
+  "commercial_info": {
+    "is_commercial": false,
+    "plugin": {}
+  },
+  "suggest_edit": {
+    "status": false,
+    "reason": "",
+    "tip": "",
+    "url": "",
+    "title": ""
+  },
+  "reason": "",
+  "annotation_action": [],
+  "can_tip": false,
+  "can_open_tipjar": true,
+  "tipjarors_count": 0,
+  "is_labeled": false,
+  "has_publishing_draft": false,
+  "is_favorited": false,
+  "favlists_count": 15,
+  "is_normal": true,
+  "status": 0,
+  "activity_topping_info": {
+    "state": "untopped"
+  },
+  "share_text": "你的电脑里有多少台电脑？ - 来自知乎专栏「Gwern Branwen」，作者: Jarrett Ye https://zhuanlan.zhihu.com/p/2094799990279370013 （想看更多？下载 @知乎 App：http://weibo.com/p/100404711598 ）",
+  "can_comment": {
+    "status": true,
+    "reason": ""
+  },
+  "linkbox": {
+    "url": "",
+    "category": "",
+    "pic": "",
+    "title": ""
+  },
+  "mcn_fp_show": -1,
+  "is_visible": true,
+  "is_liked": false,
+  "liked_count": 1,
+  "has_column": true,
+  "republishers": [],
+  "is_new_link_card": true,
+  "emoji_reaction": {
+    "like_count": 1,
+    "like_has_set": false
+  },
+  "ab_param": {
+    "qa_hidden_voteup": "",
+    "rs_interest1": "",
+    "zp_zhi_style": ""
+  },
+  "attached_info": "kgIuCgkyODU2MjEzNTYSEzIwOTQ3OTk5OTAyNzkzNzAwMTMYByIKSU1BR0VfVEVYVA==",
+  "share_guide": {
+    "has_positive_bubble": false,
+    "has_time_bubble": false,
+    "hit_share_guide_cluster": false
+  },
+  "settings": {
+    "table_of_contents": {
+      "enabled": true
+    }
+  },
+  "can_reference": false,
+  "reaction_instruction": {},
+  "reaction": {
+    "statistics": {
+      "up_vote_count": 36,
+      "down_vote_count": 0,
+      "like_count": 1,
+      "comment_count": 1,
+      "share_count": 0,
+      "play_count": 0,
+      "interest_play_count": 0,
+      "favorites": 15,
+      "pv_count": 0,
+      "bullet_count": 0,
+      "applaud_count": 0,
+      "question_follower_count": 0,
+      "question_answer_count": 0,
+      "plaincontent_vote_up_count": 0,
+      "plaincontent_like_count": 0,
+      "img_like_count": {
+        "v2-6c0ad0aaa184d6b2722fab51725ee6c3": 0,
+        "v2-bc35da741a8e03e4a015c9ff1eb6d3ff": 0
+      },
+      "subscribe_count": 0,
+      "republishers": []
+    },
+    "relation": {
+      "is_author": true,
+      "vote": "Neutral",
+      "liked": false,
+      "img_liked": {
+        "v2-6c0ad0aaa184d6b2722fab51725ee6c3": false,
+        "v2-bc35da741a8e03e4a015c9ff1eb6d3ff": false
+      },
+      "faved": false,
+      "following": false,
+      "subcribed": false,
+      "is_navigator_vote": false,
+      "current_user_is_navigator": false,
+      "vote_next_step": ""
+    },
+    "image_reactions": {
+      "v2-6c0ad0aaa184d6b2722fab51725ee6c3": {
+        "like_count": 0,
+        "is_liked": false
+      },
+      "v2-bc35da741a8e03e4a015c9ff1eb6d3ff": {
+        "like_count": 0,
+        "is_liked": false
+      }
+    }
+  },
+  "interaction_bar_plugins": [
+    {
+      "type": "comment",
+      "comment": {
+        "enable": true,
+        "placeholder": "发条带图评论"
+      }
+    }
+  ],
+  "bar_plugins_flip_time": 3000,
+  "podcast_audio_enter": {
+    "text": "1 人听过",
+    "text_color": "MapBrand",
+    "text_size": 13,
+    "action_url": "zhihu://podcast/audio_player/100972214516?contentId=2094799990279370013&contentType=article"
+  },
+  "endorsements": [
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_column_fill",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "收录于 · Gwern Branwen",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "GBL01A"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "GBL01A"
+      },
+      "action_url": "https://www.zhihu.com/column/c_1852018338747789312",
+      "za": {
+        "block_text": "Column",
+        "type": "text",
+        "text": "收录于 · Gwern Branwen"
+      }
+    },
+    {
+      "elements": [
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_24_flag",
+          "image_color": {
+            "alpha": 1,
+            "group": "MapHighlight"
+          },
+          "width": 16,
+          "height": 16
+        },
+        {
+          "type": "TEXT",
+          "content": "一起参与科学 · 科学季 2026",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "MapHighlight"
+          },
+          "is_bold": true,
+          "max_line": 1
+        },
+        {
+          "type": "TEXT",
+          "content": "",
+          "font_size": 13,
+          "font_color": {
+            "alpha": 1,
+            "group": "MapHighlight"
+          },
+          "is_bold": false,
+          "max_line": 1
+        },
+        {
+          "type": "IMAGE",
+          "image_key": "zhicon_icon_16_arrow_right",
+          "image_color": {
+            "alpha": 1,
+            "group": "MapHighlight"
+          },
+          "width": 12,
+          "height": 12
+        }
+      ],
+      "sub_elements": [],
+      "sub_elements_type": "DESCRIPTION",
+      "background_color": {
+        "alpha": 0.08,
+        "group": "MapHighlight"
+      },
+      "action_url": " https://www.zhihu.com/parker/campaign/2081789902673426369?zh_hide_nav_bar=true",
+      "za": {
+        "block_text": "YellowActivity",
+        "type": "text",
+        "text": "一起参与科学 · 科学季 2026"
+      }
+    }
+  ],
+  "allow_segment_interaction": 1,
+  "is_navigator": false,
+  "navigator_vote": false,
+  "vote_next_step": "vote"
+}
