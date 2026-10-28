@@ -7,12 +7,12 @@
   "url": "https://api.zhihu.com/articles/1999149514427213729",
   "image_url": "",
   "title_image": "",
-  "excerpt": "像 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zKPv6qkSErdRGqyryvgS2wS\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">助记媒介（Mnemonic medium）</a>[1]一样，Execute Program 的课程将正文与交互卡片穿插在一起。但让 Execute Program 得以命名的核心理念在于，每一次交互都涉及在嵌入式解释器中执行一段程序。事实上，<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zYCRKm7HujiD6CNtcC9gnmk\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Execute Program 没有任何不可执行的卡片</a>。例如，一节…",
+  "excerpt": "像 <a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zKPv6qkSErdRGqyryvgS2wS\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">助记媒介（Mnemonic medium）</a>[1]一样，Execute Program 的课程将正文与交互卡片穿插在一起。但让 Execute Program 得以命名的核心理念在于，每一次交互都涉及在嵌入式解释器中执行一段程序。事实上，<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zYCRKm7HujiD6CNtcC9gnmk\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Execute Program 没有任何不可执行的卡片</a>[2]。例如，…",
   "created": 1769499292,
-  "updated": 1769499293,
+  "updated": 1793094957,
   "author": {
     "is_followed": false,
-    "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+    "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
     "uid": "1521893281407864832",
     "user_type": "people",
     "is_following": false,
@@ -50,7 +50,7 @@
   "ip_info": "广东",
   "image_width": 0,
   "image_height": 0,
-  "content": "<p data-pid=\"u_347-K4\">像<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zKPv6qkSErdRGqyryvgS2wS\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">助记媒介（Mnemonic medium）</a><sup data-text=\"助记媒介（Mnemonic medium）\" data-url=\"https://zhuanlan.zhihu.com/p/459483765\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>一样，Execute Program 的课程将正文与交互卡片穿插在一起。但让 Execute Program 得以命名的核心理念在于，每一次交互都涉及在嵌入式解释器中执行一段程序。事实上，<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zYCRKm7HujiD6CNtcC9gnmk\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Execute Program 没有任何不可执行的卡片</a>。</p><p data-pid=\"TCa5-O01\">例如，一节课可能包含几个段落，介绍在 SQL 中可以通过使用 <code>SELECT column_name</code> 来只选择特定的列。然后它可能会提供这样一个卡片：</p><div class=\"highlight\"><pre><code class=\"language-text\"> exec(`CREATE TABLE cats (name STRING, age INTEGER)`);\n exec(`INSERT INTO cats (name, age) VALUES (“Boromir”, 3), (“Aragorn”, 15)`);\n exec(`SELECT name FROM cats`)\n &gt; </code></pre></div><p data-pid=\"4tmPflY4\">读者的光标位于最后一行；他们需要输入上方代码表达式的求值结果。Execute Program 随后会对读者的输入表达式（即作为 Javascript 代码）进行求值，并将结果值与测试值进行比较。</p><p data-pid=\"2lHBuM1H\">这 <i>看起来</i> 像是一个 Quizlet 风格的抽认卡，要求用户输入标准答案，但事实并非如此。这是一个真正的解释器，它会真正地对你的程序求值。所以你可以写 <code>[{name: “Boromir”}, {name: “Aragorn”}]</code> 或者 <code>[“Boromir”, “Aragorn”].map(n =&gt; ({name: n})</code>——这两种写法都是正确的。我喜欢这个设计模型，因为它将课程置于更接近真实的语境中：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2etsLyP1LJUwNDPCwvRdUG\" data-draft-title=\"赋能环境着重于环境所赋能的事\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">赋能环境着重于环境所赋能的事</a><sup data-text=\"赋能环境着重于环境所赋能的事\" data-url=\"https://l-m-sherlock.github.io/ZhiHuArchive/487188240.html\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>。</p><p data-pid=\"xpuwRsHQ\">更复杂的卡片被称为「问题（problems）」，它为读者提供一份代码清单和一个「目标表达式」——即最后一行代码的期望值。例如：</p><div class=\"highlight\"><pre><code class=\"language-text\"> function adds2(input: number) {\n }\n adds2(4)\n ​\n // GOAL: 6</code></pre></div><p data-pid=\"dY0C7nat\">读者的任务是修改代码清单，以便生成目标表达式。当读者准备好时，他们执行自己的程序；程序会被求值，其输出将与目标值进行比较。</p><p data-pid=\"pZVUtvKO\">一个相关的、更具野心的构思：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zFS2bUsK1vzv1M7cYcMFdCV\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">将像 Shenzhen I/O 这样的游戏置于像 IDE 这样的专业环境中意味着什么？</a></p><p data-pid=\"ho6K1Zyy\">同样相关：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zLNcy2JiH3AGNaZjYkHzK9P\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">可执行的书籍</a></p><hr/><p data-pid=\"_YwNzY8e\">Q. Execute Program 的卡片要求读者输入一个答案。这种交互与 Quizlet 的有何不同？ <br/>A. 答案是在真正的解释器中进行求值的，而不仅仅是逐字比对。</p><p data-pid=\"Zf7HsF8e\">Q. 为什么 Execute Program 对读者的答案进行求值而不是逐字比对，这一点很重要？ <br/>A. 这允许读者在解决卡片时拥有一定的真实灵活性。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"gH5jwUp5\">暂无</li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"LmxKl2KQ\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 gemini-3-pro-preview，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z9DRugkwcBv7iLRACEnWVDL\" data-draft-title=\"Readers answer Execute Program’s prompts by executing a program\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Readers answer Execute Program’s prompts by executing a program</a></blockquote>",
+  "content": "<p data-pid=\"rXUB-oNp\">像<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zKPv6qkSErdRGqyryvgS2wS\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">助记媒介（Mnemonic medium）</a><sup data-text=\"助记媒介（Mnemonic medium）\" data-url=\"https://zhuanlan.zhihu.com/p/459483765\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>一样，Execute Program 的课程将正文与交互卡片穿插在一起。但让 Execute Program 得以命名的核心理念在于，每一次交互都涉及在嵌入式解释器中执行一段程序。事实上，<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zYCRKm7HujiD6CNtcC9gnmk\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Execute Program 没有任何不可执行的卡片</a><sup data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\" data-text=\"Execute Program 没有不可执行的卡片\" data-url=\"https://zhuanlan.zhihu.com/p/1999896955036406673\">[2]</sup>。</p><p data-pid=\"1YNecUfA\">例如，一节课可能包含几个段落，介绍在 SQL 中可以通过使用 <code>SELECT column_name</code> 来只选择特定的列。然后它可能会提供这样一个卡片：</p><div class=\"highlight\"><pre><code class=\"language-text\"> exec(`CREATE TABLE cats (name STRING, age INTEGER)`);\n exec(`INSERT INTO cats (name, age) VALUES (“Boromir”, 3), (“Aragorn”, 15)`);\n exec(`SELECT name FROM cats`)\n &gt; </code></pre></div><p data-pid=\"vjSdfIaE\">读者的光标位于最后一行；他们需要输入上方代码表达式的求值结果。Execute Program 随后会对读者的输入表达式（即作为 Javascript 代码）进行求值，并将结果值与测试值进行比较。</p><p data-pid=\"ql3YC-xJ\">这 <i>看起来</i> 像是一个 Quizlet 风格的抽认卡，要求用户输入标准答案，但事实并非如此。这是一个真正的解释器，它会真正地对你的程序求值。所以你可以写 <code>[{name: “Boromir”}, {name: “Aragorn”}]</code> 或者 <code>[“Boromir”, “Aragorn”].map(n =&gt; ({name: n})</code>——这两种写法都是正确的。我喜欢这个设计模型，因为它将课程置于更接近真实的语境中：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z2etsLyP1LJUwNDPCwvRdUG\" data-draft-title=\"赋能环境着重于环境所赋能的事\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">赋能环境着重于环境所赋能的事</a><sup data-text=\"赋能环境着重于环境所赋能的事\" data-url=\"https://l-m-sherlock.github.io/ZhiHuArchive/487188240.html\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>。</p><p data-pid=\"8UucFjt8\">更复杂的卡片被称为「问题（problems）」，它为读者提供一份代码清单和一个「目标表达式」——即最后一行代码的期望值。例如：</p><div class=\"highlight\"><pre><code class=\"language-text\"> function adds2(input: number) {\n }\n adds2(4)\n ​\n // GOAL: 6</code></pre></div><p data-pid=\"W5hqkhJx\">读者的任务是修改代码清单，以便生成目标表达式。当读者准备好时，他们执行自己的程序；程序会被求值，其输出将与目标值进行比较。</p><p data-pid=\"3q66qgXF\">一个相关的、更具野心的构思：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zFS2bUsK1vzv1M7cYcMFdCV\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">将像 Shenzhen I/O 这样的游戏置于像 IDE 这样的专业环境中意味着什么？</a></p><p data-pid=\"uH5v7s1C\">同样相关：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/zLNcy2JiH3AGNaZjYkHzK9P\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">可执行的书籍</a></p><hr/><p data-pid=\"9I0ZIj36\">Q. Execute Program 的卡片要求读者输入一个答案。这种交互与 Quizlet 的有何不同？ <br/>A. 答案是在真正的解释器中进行求值的，而不仅仅是逐字比对。</p><p data-pid=\"TttpYJCW\">Q. 为什么 Execute Program 对读者的答案进行求值而不是逐字比对，这一点很重要？ <br/>A. 这允许读者在解决卡片时拥有一定的真实灵活性。</p><h2>链接至本文（已汉化）</h2><ul><li data-pid=\"gH5jwUp5\">暂无</li></ul><h2>声明</h2><p data-pid=\"a1kSLiu9\">此内容发布由 Andy Matuschak 许可。未经允许，不得转载或修改。保留所有权利。</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"LmxKl2KQ\"><a href=\"https://link.zhihu.com/?target=http%3A//paratranz.cn/projects/3131\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 gemini-3-pro-preview，校对 Jarrett Ye<br/>原文：<a href=\"https://link.zhihu.com/?target=https%3A//notes.andymatuschak.org/z9DRugkwcBv7iLRACEnWVDL\" data-draft-title=\"Readers answer Execute Program’s prompts by executing a program\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Readers answer Execute Program’s prompts by executing a program</a></blockquote>",
   "content_need_truncated": false,
   "force_login_when_click_read_more": false,
   "admin_closed_comment": false,
@@ -94,7 +94,7 @@
     "image_url": "https://picx.zhimg.com/v2-f4040c00796b5bb3ba64980f9be88d6f_720w.jpg?source=172ae18b",
     "author": {
       "is_followed": false,
-      "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+      "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
       "uid": "1521893281407864832",
       "user_type": "people",
       "is_following": false,
@@ -117,7 +117,7 @@
         "night_icon": ""
       }
     },
-    "followers": 90,
+    "followers": 92,
     "type": "column",
     "column_type": "normal"
   },
@@ -144,7 +144,7 @@
         "image_url": "https://picx.zhimg.com/v2-f4040c00796b5bb3ba64980f9be88d6f_720w.jpg?source=172ae18b",
         "author": {
           "is_followed": false,
-          "avatar_url_template": "https://pic1.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
+          "avatar_url_template": "https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6.jpg?source=172ae18b",
           "uid": "1521893281407864832",
           "user_type": "people",
           "is_following": false,
@@ -167,7 +167,7 @@
             "night_icon": ""
           }
         },
-        "followers": 90,
+        "followers": 92,
         "type": "column",
         "column_type": "normal"
       }
@@ -287,7 +287,7 @@
     "text": "听内容",
     "text_color": "MapBrand",
     "text_size": 13,
-    "action_url": "zhihu://podcast/audio_player/59372583238?contentId=1999149514427213729&contentType=article"
+    "action_url": "zhihu://podcast/audio_player/102063591506?contentId=1999149514427213729&contentType=article"
   },
   "endorsements": [
     {
