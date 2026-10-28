@@ -641,6 +641,7 @@ html_content = (
         </a>
     </p>
     <p>RSS: <a href="./feed.xml" target="_blank" rel="noopener noreferrer">Atom Feed</a></p>
+    <p>译文索引：<a href="https://l-m-sherlock.github.io/tm-index/" target="_blank" rel="noopener noreferrer">译文摘要与关键词</a></p>
     <p>NotebookLM 精选笔记：<a href="https://notebooklm.google.com/notebook/dbe190a1-1122-462d-ab4f-40400d9f1d2a" target="_blank" rel="noopener noreferrer">汉化组文章合集</a></p>
 
     <div id="search">
