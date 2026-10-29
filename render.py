@@ -196,6 +196,8 @@ def apply_archival_restoration(content: str, restoration: dict | None) -> str:
         for node in list(fragment.contents):
             insertion_point.insert_after(node)
             insertion_point = node
+        if operation.get("replace_anchor"):
+            anchor.decompose()
 
     return str(soup)
 
