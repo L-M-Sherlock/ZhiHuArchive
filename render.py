@@ -60,6 +60,10 @@ def add_item(data, full_html):
 
 
 def replace_url(url: str) -> str:
+    for prefix in ("ttps://", "htps://", "ihttps://"):
+        if url.startswith(prefix):
+            url = "https://" + url[len(prefix) :]
+            break
     author_url = normalize_author_url(url)
     if author_url in AUTHOR_PROFILE_URLS.values():
         return author_url
