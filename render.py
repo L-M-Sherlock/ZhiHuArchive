@@ -162,7 +162,7 @@ def apply_archival_restoration(content: str, restoration: dict | None) -> str:
         anchor = next(
             (
                 element
-                for element in soup.find_all("p")
+                for element in soup.find_all(operation.get("after_tag", "p"))
                 if clean_text(element.get_text(" ", strip=True)) == after_text
             ),
             None,
