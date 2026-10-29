@@ -3,6 +3,7 @@ import re
 from pathlib import Path
 from datetime import datetime
 from html import escape
+from urllib.parse import urlsplit
 from tqdm import tqdm
 from feedgen.feed import FeedGenerator
 import zoneinfo
@@ -10,6 +11,10 @@ from bs4 import BeautifulSoup
 
 
 BASE_URL = "https://l-m-sherlock.github.io/ZhiHuArchive"
+AUTHOR_PROFILE_URLS = {
+    "4c592f496dc33822b560b382907ff1d0": "https://www.zhihu.com/people/L.M.Sherlock",
+    "3c9990a12cdbcd92e20b1387b160f0a3": "https://www.zhihu.com/people/JarrettYe",
+}
 
 with open("restorations.json", "r", encoding="utf-8") as f:
     restorations_data = json.load(f)
@@ -55,6 +60,9 @@ def add_item(data, full_html):
 
 
 def replace_url(url: str) -> str:
+    author_url = normalize_author_url(url)
+    if author_url in AUTHOR_PROFILE_URLS.values():
+        return author_url
     _id = url.split("/")[-1]
     if _id in article_ids or _id in answer_ids:
         return f"./{_id}.html"
@@ -250,6 +258,11 @@ def json_ld_script(schema: dict) -> str:
 def normalize_author_url(url: str) -> str:
     if not url:
         return ""
+    parsed = urlsplit(url)
+    if parsed.netloc in ("", "api.zhihu.com", "www.zhihu.com"):
+        match = re.fullmatch(r"/(?:api/v4/)?people/([^/]+)/?", parsed.path)
+        if match and match[1] in AUTHOR_PROFILE_URLS:
+            return AUTHOR_PROFILE_URLS[match[1]]
     prefix_map = {
         "https://api.zhihu.com/people/": "https://www.zhihu.com/people/",
         "https://www.zhihu.com/api/v4/people/": "https://www.zhihu.com/people/",
