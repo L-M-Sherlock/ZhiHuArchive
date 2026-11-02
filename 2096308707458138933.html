@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>Lean 软件缩放定律 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lean 软件缩放定律 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://l-m-sherlock.github.io/ZhiHuArchive/2096308707458138933.html">
+<meta property="og:image" content="https://pica.zhimg.com/v2-d87c7548acfe02cee0f18ef8ef19f27c_720w.jpg?source=172ae18b">
+<meta property="og:description" content="在大型 Lean 项目中，AI 编程工具会比在常用语言编写的项目中更可靠吗？这份提案建议，先衡量模型在查阅更多代码库后预测能力的提升情况，再利用这些趋势来指导投资，以开发更安全、经过形式化验证的软件。 核心摘要 研究思路：通过实证测量编程大语言模型（…">
+<meta name="description" content="在大型 Lean 项目中，AI 编程工具会比在常用语言编写的项目中更可靠吗？这份提案建议，先衡量模型在查阅更多代码库后预测能力的提升情况，再利用这些趋势来指导投资，以开发更安全、经过形式化验证的软件。 核心摘要 研究思路：通过实证测量编程大语言模型（…">
+<meta data-pagefind-meta="title" content="Lean 软件缩放定律">
+<meta data-pagefind-meta="image" content="https://pica.zhimg.com/v2-d87c7548acfe02cee0f18ef8ef19f27c_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Lean 软件缩放定律 | ZhiHu Archive">
+<meta name="twitter:description" content="在大型 Lean 项目中，AI 编程工具会比在常用语言编写的项目中更可靠吗？这份提案建议，先衡量模型在查阅更多代码库后预测能力的提升情况，再利用这些趋势来指导投资，以开发更安全、经过形式化验证的软件。 核心摘要 研究思路：通过实证测量编程大语言模型（…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="canonical" href="https://l-m-sherlock.github.io/ZhiHuArchive/2096308707458138933.html">
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Lean 软件缩放定律","description":"在大型 Lean 项目中，AI 编程工具会比在常用语言编写的项目中更可靠吗？这份提案建议，先衡量模型在查阅更多代码库后预测能力的提升情况，再利用这些趋势来指导投资，以开发更安全、经过形式化验证的软件。 核心摘要 研究思路：通过实证测量编程大语言模型（…","author":{"@type":"Person","name":"Jarrett Ye","url":"https://www.zhihu.com/people/JarrettYe"},"datePublished":"2026-10-23T11:28:43+08:00","dateModified":"2026-10-23T11:28:43+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://l-m-sherlock.github.io/ZhiHuArchive/2096308707458138933.html"},"url":"https://l-m-sherlock.github.io/ZhiHuArchive/2096308707458138933.html","isPartOf":{"@type":"WebSite","name":"ZhiHu Archive for Thoughts Memo","url":"https://l-m-sherlock.github.io/ZhiHuArchive/"},"image":["https://pica.zhimg.com/v2-d87c7548acfe02cee0f18ef8ef19f27c_720w.jpg?source=172ae18b"]}</script>
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/2096308707458138933");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+.archive-restoration-notice {
+margin: 1.25em 0;
+padding: 0.75em 1em;
+border-left: 4px solid #ea580c;
+background: #fff7ed;
+color: #7c2d12;
+}
+.archive-restoration-notice p {
+margin: 0.35em 0 0;
+}
+.archive-restored-content {
+padding-left: 0.85em;
+border-left: 4px solid #f97316;
+background: #fff7ed;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://pica.zhimg.com/v2-d87c7548acfe02cee0f18ef8ef19f27c_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/2096308707458138933" target="_blank" rel="noopener noreferrer">Lean 软件缩放定律</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://picx.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/JarrettYe" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2026-10-23T03:28:43">发表于 2026年10月23日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">11 👍 / 1 💬</p>
+</header>
+<article data-pagefind-body>
+
+<p data-pid="WG5StNa2">在大型 Lean 项目中，AI 编程工具会比在常用语言编写的项目中更可靠吗？这份提案建议，先衡量模型在查阅更多代码库后预测能力的提升情况，再利用这些趋势来指导投资，以开发更安全、经过形式化验证的软件。</p><h2><b>核心摘要</b></h2><p data-pid="H145qle7">研究思路：通过实证测量编程大语言模型（LLM）的困惑度随代码库规模扩大的变化情况，从而估算不同编程语言或其他因素下「可预测性」的缩放定律。这最终将转化为软件的整体安全性。</p><p data-pid="SoewYv6b">针对当下的 LLM，我们可以采用成本高昂的方法（从头训练并微调），也可以采用成本低廉的方法（随着源代码上下文窗口不断增大，测量其困惑度）。</p><p data-pid="0-zOqn3O">如果某些代码库和编程语言在缩放定律中表现出更优的指数，LLM 最终将更容易理解、修复和编写它们。</p><p data-pid="utuGOTcF">具体而言，面对 2026 年水平的 LLM，Lean 编程语言在现有代码库上的基准常数和总损失（loss）可能更差，但缩放指数却更优。</p><p data-pid="a1rzk7l1">这意味着用 Lean 编写的程序最终会胜出，并能在全球范围内大幅提升程序的正确性。因此，这也能为大规模投资用 Lean 重写现有代码库或开发新的 Lean 代码提供正当理由，进而提升全球网络安全水平。</p><p data-pid="NxYC_a_L">照目前的趋势，不久的将来，大多数软件都将由编程 LLM 生成，尽管它们的质量通常很平庸，甚至毫无安全可言（那些单凭感觉拼凑出来的「氛围编程 / vibecoding」软件尤为糟糕）。 未来如果用编程 LLM 对代码进行重写，也许会有所帮助。但这未必会发生；即便发生了，也未必能堵住足够多的漏洞，难以抵御无孔不入的 LLM 网络安全攻势。 我们该如何避免这种局面？LLM 其实有潜力以数学证明般安全可靠的方式（比如形式化验证系统）来编写所有软件，但这方面的进展却相对滞后。</p><p data-pid="Pq0FSdqG">到底滞后了多少呢？</p><h2><b>语言的先验概率</b></h2><p data-pid="q0cQEQw7">在深度学习领域，不论是用于验证现有方法还是预测未来应用，<a class="wrap external" data-draft-type="text-link" href="https://en.wikipedia.org/wiki/Neural_scaling_law" rel="nofollow noreferrer noopener" target="_blank">神经缩放定律（Neural scaling law）</a>这套方法论的应用依然不够充分。 编程智能体（coding agents）就是一个例子：人们普遍发现，由于可用数据更多，LLM 更擅长处理常见的编程语言。<a class="wrap external" data-draft-type="text-link" href="https://arxiv.org/abs/2510.08702" rel="nofollow noreferrer noopener" target="_blank">Luo 等人（2025 年）</a>指出，编程对数据的需求尤为庞大，因此可能会出现长期的「技术锁定」，导致我们再也无法向 <a class="wrap external" data-draft-type="text-link" href="https://en.wikipedia.org/wiki/Haskell" rel="nofollow noreferrer noopener" target="_blank">Haskell</a>、<a class="wrap external" data-draft-type="text-link" href="https://en.wikipedia.org/wiki/Rust_(programming_language)" rel="nofollow noreferrer noopener" target="_blank">Rust</a> 或 <a class="wrap external" data-draft-type="text-link" href="https://en.wikipedia.org/wiki/Lean_(proof_assistant)" rel="nofollow noreferrer noopener" target="_blank">Lean</a> 等更优秀的语言技术进行升级。</p><p data-pid="Oq5iKDp3">但这个推论站不住脚：一门语言因为流行、训练数据多，仅仅意味着 LLM <b>默认一上来</b>就能表现得很好。（由于很难将一门编程语言与其整个生态系统剥离开来，下文我将统称为「语言」。）</p><p data-pid="DPU9373n">任何语料库都可以看作是一种「先验知识」，不同语言之间存在某种<a class="wrap external" data-draft-type="text-link" href="https://gwern.net/doc/ai/scaling/abstract#exchange-rate" rel="nofollow noreferrer noopener" target="_blank">兑换率</a>；比如，<a class="wrap external" data-draft-type="text-link" href="https://en.wikipedia.org/wiki/Python_(programming_language)" rel="nofollow noreferrer noopener" target="_blank">Python</a> 技能的提升会部分迁移到 Haskell 上（参见 <a class="wrap external" data-draft-type="text-link" href="https://arxiv.org/abs/2512.13472" rel="nofollow noreferrer noopener" target="_blank">Yang 等人，2025 年</a>）。 因此，「水涨船高」是完全有可能的。事实上，一旦编程 LLM 变得「足够好」，它们也许会引领冷门语言的复兴，程序员再也不用耗费数年时间去从头学习一切了。</p><h2><b>规模失效</b></h2><p data-pid="mQkjunc6">同样，这也并不意味着随着代码库的扩张，LLM 还能一直保持良好表现。 许多东西在小规模下运转良好，可一旦规模变大，就越发力不从心。 像 Haskell 这种语言所要求的「BDSM」式的严酷规矩，如果你只是想随手写个用完即弃的短程序，会让你痛苦得抓狂；但当你要处理上百万行的复杂代码时，这种规矩可能就变得不可或缺了。 所以，LLM 写<b>一点点</b> Python 也许轻而易举……但要是写<b>一大堆</b>呢？ 短脚本写起来简单，暗坑也少，何况 LLM 还能轻轻松松把整个脚本塞进上下文窗口里纵览全局。 可要是代码库变得更庞大、更复杂、年代更久远，再也塞不进上下文窗口里时，会发生什么呢？ 它还能理清<a class="wrap external" data-draft-type="text-link" href="https://en.wikipedia.org/wiki/dynamic_types" rel="nofollow noreferrer noopener" target="_blank">动态类型</a>和<a class="wrap external" data-draft-type="text-link" href="https://en.wikipedia.org/wiki/exceptions" rel="nofollow noreferrer noopener" target="_blank">异常</a>吗？ 要是哪个阴暗角落里藏着个<a class="wrap external" data-draft-type="text-link" href="https://en.wikipedia.org/wiki/monkey-patching" rel="nofollow noreferrer noopener" target="_blank">猴子补丁（monkey-patching）</a>呢？ 又或者某个依赖项在升级时改变了运行时行为呢？ 因为一旦它理不清，哪怕只是一个错误也可能是致命的，逼着人类程序员耗费数周时间去排查那些隐蔽的漏洞。</p><p data-pid="lWDxsxTM">就运行速度和编程语言的表达能力而言，适合用来实现大型软件的语言里，走得最极端的也许要数 Lean 了。如今，随着人们和 LLM 发现它不仅能用来证明定理，还能用来编写真实的程序，Lean 突然迎来了一阵爆红。 连 <a class="wrap external" data-draft-type="text-link" href="https://en.wikipedia.org/wiki/zlib" rel="nofollow noreferrer noopener" target="_blank">zlib</a> 都有人<a class="wrap external" data-draft-type="text-link" href="https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/#a-sign-of-things-to-come" rel="nofollow noreferrer noopener" target="_blank">用 Lean 重写了一遍</a>！</p><h2><b>Lean 的瓶颈</b></h2><p data-pid="JTgILEmQ">现在，我们可以设想用 Lean 来重写旧软件并开发新软件，以此消除内存安全问题、异常报错、越界错误，还能证明诸如无损压缩等核心特性的正确性。</p><p data-pid="GfIxSNlt">缺点是……市面上并没有那么多 Lean 的源代码。 毫不意外，LLM 在这方面也算不上<b>太</b>擅长。 至少还不足以自动翻译那些 I/O 或行为比 zlib 更复杂的大型代码库。</p><p data-pid="C3e69xJ7">这就成了一个先有鸡还是先有蛋的问题。 要想用 LLM 生成庞大的 Lean 代码库来当训练数据，进而把现有代码全换成 Lean，前提是我们一开始手里就得有大量庞大的 Lean 代码库；而这些代码库，按理说又得是把现有代码替换成 Lean 之后才能弄到手。</p><p data-pid="G4esewOl">再者，Lean 到底有没有那么神，目前还不清楚；就算真有了那么多 Lean 代码库，就算拿它们训练了 LLM，LLM 到底<b>能不能</b>高效写出大型 Lean 代码，也还是个未知数。 也许 Lean 的设计本来就很糟糕——我们怎么会知道呢？ 也许一个真实的 Lean 代码库到头来也会沦为<a class="wrap external" data-draft-type="text-link" href="http://www.laputan.org/mud/mud.html" rel="nofollow noreferrer noopener" target="_blank">一滩大泥球</a>，或者充斥着大量临时凑合、硬算出来的特例证明（这种东西注定会被戏称为「数学废料/mathslop」）。</p><h2><b>可预测性代理指标</b></h2><p data-pid="Pb_s9f9b">要测试这一点，有个法子：不妨问问自己，从 LLM 的视角来看，一门设计精良的语言应该长什么样？</p><p data-pid="Z0JD5LHh">如果代码库里满是东拼西凑的设计、大量的暴力硬算、bug 或者是重复代码，在 LLM 眼里，这就叫「难以阅读」。 它必须读取越来越多的 token 才能搞懂代码到底在干嘛；代码行为会高度不可预测，因为里面充斥着全局状态、覆盖重写和各种「暗坑」——你没法单看某一个文件就弄明白逻辑，非得翻看十几个其他文件，顺藤摸瓜地追踪代码的替换和重写，最后才发现它<b>通常</b>会执行 X，除非用户设置了某个连文档都没写的 shell 变量，那样的话它（大概）会执行 Z。 这意味着你永远也猜不准下一行代码会是什么；随时可能有莫名其妙的东西横插一杠，你也可能仅仅因为原始代码本身就有 bug 而预测错代码行…… 就算当前模块写得很规范，只用了一套事实上的「安全子集」，但只要规模一上去，整个代码库依然会变得好坏参半——参与的程序员越多，历时越久，复杂度越高，代码库就越像一件东拼西凑的百衲衣。</p><p data-pid="MkW4lLOw">反之，一个架构优良的代码库，只要采用强类型、内存安全的语言，情况理应截然相反：单看某段代码很容易懂，因为既没有逃生舱，也没有后门，一切表里如一；数据都在明文规定的接口进出。说白了，用一个词来概括就是……<b>可预测</b>。</p><hr/><p data-pid="nddctLpW">但这不仅仅是单纯的「可预测」，因为海量的模板代码、数据或者冗余的测试用例也能做到可预测。 实际上，每当有人试图把这种思路套用到文本或代码上——比如考察单个词的不可预测性（困惑度），或者考察 gzip 压缩后的代码库大小——无一例外都失败了：那些所谓的「坏」词其实毫无问题，无需修正；要么就是 gzip 压缩 <i>JavaScript</i> 的效果最好；反正得出的结论总是难以服众。</p><p data-pid="T6o4cZZh">把可压缩性当作衡量设计的代理指标，到底错在哪儿了？ 也许根本没错，只是我们用错方法了（可参考<a class="wrap external" data-draft-type="text-link" href="https://people.idsia.ch/~juergen/creativity.html" rel="nofollow noreferrer noopener" target="_blank">基于压缩的「创造力」/「新颖度」指标</a><sup data-draft-node="inline" data-draft-type="reference" data-numero="1" data-text="创造力、乐趣与内在动机的形式化理论" data-url="https://zhuanlan.zhihu.com/p/1972234251777840886">[1]</sup>）。 也许真正起作用的并非可压缩性本身，而是可压缩性的二阶或三阶<b>导数</b>。</p><hr/><p data-pid="D6Uf1bNJ">好的设计，一旦规模变大，未必一开始就<b>好预测</b>——所谓「大象无形，好设计是隐形的」，有时可能很难懂——但随着你见识到更多系统组件、逐渐领会其设计理念后，它就会变得<b>越来越</b>好预测。 而烂代码一旦成规模，就会变得越来越<b>难以</b>预测，因为就算你看了更多代码，也无助于你理解剩下的部分。 （烂代码越多，语言和系统越是放任自流，你就越是对任何事都不敢打包票，因为就算是人手写出的最完美无瑕的代码库里，也会潜藏着 bug 或始料未及的交互。 而像暴力枚举特例或规约这类「劣质」证明的标志就在于，你从中学不到任何新东西——每看一个新特例，其可预测性都跟上一个一模一样，毫无长进。）</p><p data-pid="bDL8v1Yx">因此我提议，将 LLM 的预测准确率，或者困惑度/每字符位数（BPC），作为系统整体可预测性的弱代理指标，而这种可预测性正是一个关键的缩放特性。 与竞争对手相比，只要一门编程语言在构建大型系统时能变得越来越可预测，它最终必然会与 LLM 配合得更好。</p><h2><b>测量设计</b></h2><p data-pid="UucOWmw2">若要进行实证测量，成本最低的做法是利用冻结参数的预训练 LLM（例如 <a class="wrap external" data-draft-type="text-link" href="https://z.ai/blog/glm-5.2" rel="nofollow noreferrer noopener" target="_blank">GLM-5.2</a>）来执行以下步骤：</p><p data-pid="Jsg2-S81"><b>一、构建语料库</b>：按语言收集现有的源代码语料，将其合并为一个巨大的文本文件（并加上适当的元数据文件头），顺序可以打乱，也可以按依赖关系排序；<br/><br/>二、<b>测量损失（Loss）</b>：运行 LLM 前向传递，测量完整上下文窗口中每个 token 位置的困惑度（将其归一化为字节，以消除分词器带来的偏差；理想情况下，还应按语言进行归一化，因为不同语言的代码行长度有时会相差十倍，容易引起混淆）；</p><ul><li data-pid="y38nedH8"><i>交叉检验</i>：<br/></li><ul><li data-pid="0evjmOXi">异常/漏洞检测：为了进一步测试这一点，作为一种「逆向缩放」，我们可以在上下文窗口中注入噪声，比如隐蔽的 bug；LLM 表现得越「惊讶」越好。 （诸如漏掉边界检查、单位转换错误、正负号错误、异常处理范围过广、隐式数据类型转换，或者是看似合理实则谬误的定理引理，在代码风格上可能完美无缺，必须对代码库整体有深刻的语义理解才能将其揪出来。）<br/><br/></li><li data-pid="B66ki00l">正确性：如果人为限制上下文长度，遮挡住越来越多的代码库，那么在采样生成的结果中，还有多少能通过编译并全数通过质量测试？<br/><br/></li><ul><li data-pid="RkCmQsl1"><b>Lean 签名</b>：具体来说，如果只提供模块的签名头文件，编程 LLM 能否预测出一个可运行的 Lean 模块？ 类型签名是否将问题空间限制到了「华山一条路」的地步？<br/><br/></li></ul><li data-pid="tkzTweVC"><i>消融实验</i>：像<a class="wrap external" data-draft-type="text-link" href="https://en.wikipedia.org/wiki/type_signatures" rel="nofollow noreferrer noopener" target="_blank">类型签名</a>这样的可选组件，可以移除或添加，以量化它们带来的全局收益。 （类型签名到底对编程 LLM 有没有实际帮助……还是说它们只是一堆冗余的垃圾？ 或者说只有达到一定规模后才会见效？）<br/><br/></li><li data-pid="e3t93q_i"><i>语义分析</i>：在特定语言中，究竟哪些部分特别难以预测？哪些又是高度可预测的模板代码？前者可能意味着代码有 bug 或是存在误导（也许有些程序员就是喜欢写那些混乱且不一致的标识符），可以忽略不计；而后者则可能暴露了语言自身设计上的缺陷，未能提供足够好的抽象机制。<br/><br/></li><li data-pid="APeIAvLu"><i><a class="wrap external" data-draft-type="text-link" href="https://en.wikipedia.org/wiki/Coreset" rel="nofollow noreferrer noopener" target="_blank">核心集</a> / 最小上下文</i>：一个模块化优良的设计系统，你只需阅读少量关键信息，就能看懂其中的任何部分。 LLM 可以尝试提炼出最小上下文，并使其达到的损失与完整代码库前缀（即预言机）达到的损失大致相当（可参考<a class="wrap external" data-draft-type="text-link" href="https://gwern.net/sae-truesight" rel="nofollow noreferrer noopener" target="_blank">我提出的 SAE 「真实视觉」提案</a>）；这段上下文越短越好，而且其缩放表现也理应很好。<br/><br/>同样为了完美预测下一个函数，一个设计精良的 Lean 代码库应该只需极小的上下文窗口（光靠类型和定理签名就够了）；相比之下，Python 代码库可能需要 LLM 读遍 10 个不同的文件，才能猜出其动态运行时的行为。<br/><br/></li><li data-pid="Eq-aErq7"><i>评分改进</i>：重构和代码清理能否让代码库变得更可预测？如果能，这就提供了有价值的训练数据信号；尤其在某些场景下——比如在仅靠不断引入新需求来极限施压、考验编程 LLM 软件工程「品味」的时候——这尤为重要。</li></ul></ul><p data-pid="_7nc2LBe"><b>三、按位置平均</b>：按上下文中 token 的位置取平均值；</p><p data-pid="fgm2OHXr"><b>四、曲线拟合</b>：为每种语言拟合出缩放定律曲线；</p><p data-pid="X2ds4hL2"><b>五、外推分析</b>：最后，通过外推寻找交叉点（例如：规模达到多大时，Lean 代码库在绝对可预测性上能反超 Python 代码库？编程 LLM 要长到多大，才能包括在上下文学习或<a class="wrap external" data-draft-type="text-link" href="https://arxiv.org/abs/2403.01518#deepmind" rel="nofollow noreferrer noopener" target="_blank">动态评估</a>中达到及格线？）——并将这些常数和指数视为衡量设计质量的指标。</p><p data-pid="J1gE1Fue">这项工作并不难，我看随便一个研究生，或者一个 <a class="wrap external" data-draft-type="text-link" href="https://www.matsprogram.org/" rel="nofollow noreferrer noopener" target="_blank">MATS（机器对齐学者计划）</a> 的项目就能搞定。</p><h2><b>交叉点预测</b></h2><p data-pid="xN9ZW0Sk">我预测，我们将会发现：那些几乎不支持不变量、采用动态类型或者充斥着可变全局状态的「弱」语言，在代码量几千行的小规模下会更容易预测；但它们的缩放指数更糟，并在代码量达到几十万或上百万行时，与 Haskell 这种最主流的「强」语言发生「交叉」。 我们还会发现，尽管 Lean 因为基准常数极高，未必能在任何合理的长度内实现绝对损失上的「交叉」，但由于它拥有最佳的缩放指数，它迟早还是会在某个节点实现反超。</p><p data-pid="XG3dlkt4">这种前景将激励人们在 Lean 的研发和代码移植上投入巨资，索性通过砸钱买训练数据来打破先有鸡还是先有蛋的死循环。</p><p data-pid="wt9LFSBP">人们大概还可以估算训练语料库的总量，以及 Lean 与 Python/JS 等语言的占比，然后通过将基准常数对语料库进行回归分析，反推估算出：要让 Lean 的交叉点提前降到特定代码库规模，究竟需要喂给它多少训练数据。 搞 Lean 也许太烧钱了。所以人们也可以试着估算不同语言间的兑换率，琢磨一下如果购买或生成其他语言（比如 Haskell）的代码，性价比会不会更高。 （代码可以直接在市场上雇数据标注员买；也可以拿算力换，也就是让智能体 LLM 尝试自动转译代码库，没准需要反复尝试，而尝试次数大概呈对数缩放规律。）</p><h2><b>偏差控制</b></h2><p data-pid="uG0WC7sx">初步的估算结果至少会在一定程度上受到程序员群体和应用领域的干扰；Lean 代码侧重数学，而写 Lean 的程序员也是相当小众的群体（通常是学者或极客）；相反，JavaScript 编程侧重 Web 开发和业务代码，写代码的也多是普通程序员。因此，这些差异本身就会催生出不同的指数。 这种系统性偏差究竟有多严重，目前还不好说；如果在首轮分析中发现 JavaScript 的缩放表现竟然优于 Lean，那就只能把这套过于天真的分析方法扔进垃圾桶了。</p><p data-pid="F3W2DsZW">要控制这种偏差，可以尝试按「主题」将代码库配对，然后成对地分析它们之间的差异。 不过，随着编程 LLM 越来越强大，其评估也越来越贴近现实，为了探寻编程语言的缩放定律，我们可以展开更具野心的大规模摸底，通过合成对照比较来纠正这些偏差：用两种不同的语言编写同一套规范，使其达到相同的实测质量标准，<b>然后</b>再去测量它们在困惑度上的差异。 （例如，原版的 C 语言 zlib 对比用 Lean 写的 zlib。）</p><h2><b>上下文学习</b></h2><p data-pid="7-5XjQsX">我们可能还会进一步担心，不同语言在上下文学习能力上存在系统性差异：LLM 没准对 Lean 一窍不通，根本无法充分利用上下文窗口，所以就算在上下文窗口里搞缩放也毫无意义。 但我猜测，现有的 Lean 数据其实已经够用了，而且如今前沿 AI 实验室对数学和编程的重视程度也足够高，因此模型具备的「基础 Lean 编程技能」应该是扎实的，那些没解决的错误，纯粹是因为可供训练的语料库太小。</p><p data-pid="QictCTlL">当然，我们也可以进一步扩展这套流程来验证这一点。 我们可以用在源代码数据集上微调过、甚至从头训练的 LLM 来跑实验，尽可能控制住变量，然后观察估算出的 Lean 缩放指数本身是如何随着训练数据的增加而缩放的，以此来排查这种「基础」偏差——但我怀疑，为了这个去烧那么多钱到底值不值。</p><h2><b>失败模式</b></h2><p data-pid="vZYxV5CT">此外，人们还可以尝试将这套关于可压缩性导数的方法，复用到以数学为核心的基准测试中：一个好的方法或工具，其生成的定理不仅有助于缩减语料库规模并提高模块化程度，还要有助于提升代码的可理解性——而这完全可以被量化为缩放指数。 好的形式化工作理应创造出可复用的语义压缩，而「数学废料」的复用性肯定极差，代码出问题时局部修复起来也极为困难。</p><p data-pid="033VwZdC">如果这套方法错得离谱，我怀疑最可能的失败模式是：生态系统的成熟度和语料库的先验效应，压倒了语言层面的不变量特征。 就算这样，这个结论本身也很有价值：它意味着对于智能体编程来说，配套工具、代码约定和参考文档，远比死板的语言形式特性更顶用——至少眼下是这样。</p><hr/><blockquote data-pid="TpBLfitd"><a class="wrap external" data-draft-type="text-link" href="http://paratranz.cn/projects/3131" rel="nofollow noreferrer noopener" target="_blank">Thoughts Memo</a> 汉化组译制<br/>感谢主要译者 gemini-3.1-pro，校对 Jarrett Ye<br/>原文：<a class="wrap external" data-draft-type="text-link" href="https://gwern.net/lean-scaling" rel="nofollow noreferrer noopener" target="_blank">Lean Software Scaling Laws · Gwern.net</a><br/>发布日期：2025-09-01<br/>上次编辑：2026-06-23</blockquote>
+<hr><section data-pagefind-ignore><h2>参考</h2>1. 创造力、乐趣与内在动机的形式化理论 <a href="./1972234251777840886.html" target="_blank" rel="noopener noreferrer">./1972234251777840886.html</a></section>
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：Gwern Branwen</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>
