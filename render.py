@@ -384,6 +384,8 @@ article_template = """<!DOCTYPE html>
         a[data-draft-type="link-card"] {
             display: block;
             border-bottom: none;
+            text-decoration: underline;
+            text-decoration-color: rgba(37, 99, 235, 0.3);
             padding: 0;
             background: none;
         }
@@ -642,6 +644,8 @@ answer_template = """<!DOCTYPE html>
         a[data-draft-type="link-card"] {
            display: block;
            border-bottom: none;
+           text-decoration: underline;
+           text-decoration-color: rgba(37, 99, 235, 0.3);
            padding: 0;
            background: none;
         }
