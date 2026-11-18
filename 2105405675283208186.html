@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<title>关于 iOS 端 AnkiMobile 26.10 更新问题的预警与说明 | ZhiHu Archive</title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="关于 iOS 端 AnkiMobile 26.10 更新问题的预警与说明 | ZhiHu Archive">
+<meta property="og:site_name" content="ZhiHu Archive for Thoughts Memo">
+<meta property="og:url" content="https://l-m-sherlock.github.io/ZhiHuArchive/2105405675283208186.html">
+<meta property="og:image" content="https://picx.zhimg.com/v2-ad053a30bdf7ae1bea12890cad229542_720w.jpg?source=172ae18b">
+<meta property="og:description" content="近期，iOS 端官方应用 AnkiMobile 推送了 26.10 大版本更新。此次更新在国内外 Anki 社区引发了史无前例的负面反馈，大量核心工作流遭到破坏，统计显示该版本的 App Store 评分一度暴跌至 2.01 / 5 。作为 FSRS 算法的开发者、过去两年 Anki 核心代码库的前…">
+<meta name="description" content="近期，iOS 端官方应用 AnkiMobile 推送了 26.10 大版本更新。此次更新在国内外 Anki 社区引发了史无前例的负面反馈，大量核心工作流遭到破坏，统计显示该版本的 App Store 评分一度暴跌至 2.01 / 5 。作为 FSRS 算法的开发者、过去两年 Anki 核心代码库的前…">
+<meta data-pagefind-meta="title" content="关于 iOS 端 AnkiMobile 26.10 更新问题的预警与说明">
+<meta data-pagefind-meta="image" content="https://picx.zhimg.com/v2-ad053a30bdf7ae1bea12890cad229542_720w.jpg?source=172ae18b">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="关于 iOS 端 AnkiMobile 26.10 更新问题的预警与说明 | ZhiHu Archive">
+<meta name="twitter:description" content="近期，iOS 端官方应用 AnkiMobile 推送了 26.10 大版本更新。此次更新在国内外 Anki 社区引发了史无前例的负面反馈，大量核心工作流遭到破坏，统计显示该版本的 App Store 评分一度暴跌至 2.01 / 5 。作为 FSRS 算法的开发者、过去两年 Anki 核心代码库的前…">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="google-site-verification" content="U7ZAFUgGNK60mmMqaRygg5vy-k8pwbPbDFXNjDCu7Xk" />
+<link rel="canonical" href="https://l-m-sherlock.github.io/ZhiHuArchive/2105405675283208186.html">
+<link rel="alternate" type="application/rss+xml" title="ZhiHu Archive for Thoughts Memo" href="https://l-m-sherlock.github.io/ZhiHuArchive/feed.xml">
+<link rel="stylesheet" href="https://gcore.jsdelivr.net/npm/yue.css@0.4.0/yue.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"关于 iOS 端 AnkiMobile 26.10 更新问题的预警与说明","description":"近期，iOS 端官方应用 AnkiMobile 推送了 26.10 大版本更新。此次更新在国内外 Anki 社区引发了史无前例的负面反馈，大量核心工作流遭到破坏，统计显示该版本的 App Store 评分一度暴跌至 2.01 / 5 。作为 FSRS 算法的开发者、过去两年 Anki 核心代码库的前…","author":{"@type":"Person","name":"Jarrett Ye","url":"https://www.zhihu.com/people/JarrettYe"},"datePublished":"2026-11-15T21:06:26+08:00","dateModified":"2026-11-16T01:16:15+08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://l-m-sherlock.github.io/ZhiHuArchive/2105405675283208186.html"},"url":"https://l-m-sherlock.github.io/ZhiHuArchive/2105405675283208186.html","isPartOf":{"@type":"WebSite","name":"ZhiHu Archive for Thoughts Memo","url":"https://l-m-sherlock.github.io/ZhiHuArchive/"},"image":["https://picx.zhimg.com/v2-ad053a30bdf7ae1bea12890cad229542_720w.jpg?source=172ae18b"]}</script>
+<script>
+const redirect = false;
+if (redirect) {
+window.location.replace("https://zhuanlan.zhihu.com/p/2105405675283208186");
+}
+</script>
+<style>
+.origin_image {
+width: 100%;
+}
+figure {
+margin: 1.4em 0;
+}
+figure img {
+width: 100%;
+}
+img {
+vertical-align: middle;
+}
+.author {
+display: flex;
+gap: 1em;
+align-items: center;
+}
+#avatar {
+width: 100px;
+height: 100px;
+}
+.author > div {
+flex: 1;
+}
+a {
+color: #2563eb;
+text-decoration: none;
+border-bottom: 1px solid rgba(37, 99, 235, 0.3);
+border-radius: 4px;
+padding: 0 0.1em;
+transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+a:hover,
+a:focus-visible {
+color: #1d4ed8;
+border-bottom-color: rgba(29, 78, 216, 0.6);
+background-color: rgba(37, 99, 235, 0.08);
+}
+a:focus-visible {
+outline: none;
+box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.25);
+}
+a[data-draft-type="link-card"] {
+display: block;
+border-bottom: none;
+text-decoration: underline;
+text-decoration-color: rgba(37, 99, 235, 0.3);
+padding: 0;
+background: none;
+}
+.references {
+font-size: 0.85em;
+}
+.formula-display {
+display: block;
+text-align: center;
+}
+.archive-restoration-notice {
+margin: 1.25em 0;
+padding: 0.75em 1em;
+border-left: 4px solid #ea580c;
+background: #fff7ed;
+color: #7c2d12;
+}
+.archive-restoration-notice p {
+margin: 0.35em 0 0;
+}
+.archive-restored-content {
+padding-left: 0.85em;
+border-left: 4px solid #f97316;
+background: #fff7ed;
+}
+</style>
+</head>
+<body style="max-width: 1000px; margin: 0 auto; padding: 0 1em 0 1em;" class="yue">
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+<hr>
+<header>
+<img class="origin_image" src="https://picx.zhimg.com/v2-ad053a30bdf7ae1bea12890cad229542_720w.jpg?source=172ae18b"/>
+<h1><a href="https://zhuanlan.zhihu.com/p/2105405675283208186" target="_blank" rel="noopener noreferrer">关于 iOS 端 AnkiMobile 26.10 更新问题的预警与说明</a></h1>
+<div class="author">
+<img class="avatar" id="avatar" src="https://pica.zhimg.com/v2-531a5c925d857e1a3b944414bbd451c6_l.jpg?source=172ae18b" />
+<div>
+<h2 rel="author">
+<a href="https://www.zhihu.com/people/JarrettYe" target="_blank" rel="noopener noreferrer">@Jarrett Ye</a>
+</h2>
+<p>钻研人类记忆，探索复习算法。改善教育公平，践行自由学习。</p>
+</div>
+</div>
+<time datetime="2026-11-15T13:06:26">发表于 2026年11月15日</time>
+<p rel="stats"style="color: #999; font-size: 0.9em;">101 👍 / 19 💬</p>
+</header>
+<article data-pagefind-body>
+
+<p data-pid="wQHxT4AG">近期，iOS 端官方应用 <b>AnkiMobile</b> 推送了 <b>26.10</b> 大版本更新。此次更新在国内外 Anki 社区引发了史无前例的负面反馈，大量核心工作流遭到破坏，统计显示该版本的 App Store 评分一度暴跌至 <b>2.01 / 5</b>。</p><p data-pid="mOZrb7Rk">作为 FSRS 算法的开发者、过去两年 Anki 核心代码库的前三名贡献者以及本中文手册的维护者，我认为有必要向国内用户同步目前的情况、提供实用的避坑与自救方案，并说明此次事件背后的深层原因。</p><h2><span class="nolink">一、 紧急避坑与自救指南（iOS 用户必看）</span></h2><h3><span class="nolink">1. 如果你的 iPhone / iPad 还没有更新到 26.10</span></h3><p data-pid="dSYAEZEB"><b>请立刻关闭自动更新，保住 25.09 或更早的稳定版本！</b></p><ul><li data-pid="nKpXV5N6"><b>操作路径</b>：打开 iOS <b>「设置」 → 「App」 → 「App Store」</b>，将自动下载下的 <b>「App 更新」</b> 开关关闭。</li></ul><h3><span class="nolink">2. 如果你是正准备购买 AnkiMobile 的新用户</span></h3><p data-pid="IST933p0"><b>强烈建议暂缓购买！</b></p><ul><li data-pid="-rR4NOYB">AnkiMobile 在苹果商店售价高达 <b>24.99 美元（国区 168 元人民币）</b>，且没有任何针对发展中国家或学生群体的区域优惠定价。<br/><br/></li><li data-pid="NVLtt8gJ">在官方彻底修复 26.10 的界面倒退与功能 Bug 之前，当前版本完全配不上 168 元的商业售价。建议目前优先使用完全免费、开源且稳定的 <b>Anki 桌面端（Windows / macOS / Linux）</b> 或安卓端的 <b>AnkiDroid</b>。</li></ul><h3><span class="nolink">3. 如果你已经不幸被自动更新到了 26.10</span></h3><p data-pid="xDBv1GhQ">你可以尝试以下几种临时应对方案：</p><ol><li data-pid="3DAaHo5m"><b>开启紧凑模式（仅能略微缓解）</b>：在 AnkiMobile 首页点击左上角齿轮「设置」 → <b>「牌组 (Decks)」</b> → <b>「显示模式 (Display Mode)」</b>，切换为 <b>「紧凑 (Compact)」</b>。这能隐藏每行重复的文字标签，但依然无法解决行距过大、留白过多的问题。<br/><br/></li><li data-pid="SIr4Abjp"><b>尝试使用命令行工具</b> <b><code>ipatool</code></b> <b>降级回 25.09（适合有一定电脑基础的用户）</b>：<br/><br/></li><ol><li data-pid="zx_aO10S">降级前，请先完成卡片、复习记录及媒体的同步，并向电脑独立导出包含学习记录和媒体的完整集合。AnkiMobile 的自动备份不含媒体；不要为了降级而删除 App，以免丢失本地数据。详见<a class="wrap external" data-draft-type="text-link" href="https://docs.ankimobile.net/preferences.html#backups" rel="nofollow noreferrer noopener" target="_blank">备份说明</a>和<a class="wrap external" data-draft-type="text-link" href="https://docs.ankimobile.net/collection-transfer.html" rel="nofollow noreferrer noopener" target="_blank">集合迁移说明</a>。<br/><br/></li><li data-pid="OYmogkGa"><a class="wrap external" data-draft-type="text-link" href="https://forums.ankiweb.net/t/undo-26-10-update/74279/55" rel="nofollow noreferrer noopener" target="_blank">官方论坛有用户报告</a>：在 Mac 上用购买过 AnkiMobile 的 Apple ID 通过 <a class="wrap external" data-draft-type="text-link" href="https://github.com/majd/ipatool" rel="nofollow noreferrer noopener" target="_blank">ipatool</a> 下载 <code>25.09</code> 的 <code>.ipa</code>，再通过 AirDrop 安装成功。<code>ipatool</code> 支持多个电脑平台，但安装旧版本能否成功取决于账户、设备和系统，并无保证。请保护 Apple ID 的密码和验证码。<br/><br/></li></ol><li data-pid="h4-wrfpj"><b>临时切换至其他免费客户端过渡</b>：</li></ol><ul><li data-pid="5sX_sd-o"><b>电脑端</b>：使用免费的 Anki 桌面端复习；<br/><br/></li><li data-pid="yezt5T7E"><b>网页端</b>：在手机浏览器访问 <code>ankiweb.net</code> 进行基础复习；<br/><br/></li><li data-pid="YrrVPKgh"><b>安卓设备 / 墨水屏阅读器</b>：如果你手头有备用的安卓手机、平板，或者搭载开放安卓系统的电纸书（如掌阅 iReader、文石 Boox 等），强烈建议安装免费开源的 <b>AnkiDroid</b>。</li></ul><h2><span class="nolink">二、 AnkiMobile 26.10 到底出了什么问题？</span></h2><p data-pid="az9kWx6j">根据官方论坛与 Reddit 社区上百篇用户反馈，以及我个人的实际体验，26.10 版本存在以下严重倒退（Regression）：</p><ol><li data-pid="V8PE9cGc"><b>主页与列表的信息密度腰斩</b>：新版界面加入了大量无意义的边距（Padding）、圆角框以及重复的文字标签。原本一屏可以一目了然看清的几十个子牌组，现在行高膨胀了一倍，迫使用户不断上下滚动，极大增加了复习时的心理负担。<br/><br/></li><li data-pid="qD93JO2F"><b>卡片浏览器（Card Browser）近乎残废</b>：<br/><br/></li><ol><li data-pid="v4z1ATQw">在浏览器卡片列表中，<b>竟然无法看到笔记的排序字段（Sort Field）</b>，直接破坏了最基础的查卡与改卡工作流；<br/><br/></li><li data-pid="1gWViLLU">一屏仅能显示 6~7 张卡片，即便在设置中关掉附加信息，卡片下方依然留有大片空白。<br/><br/></li></ol><li data-pid="i-DjmXlL"><b>搜索交互逻辑崩坏</b>：移除了搜索框默认的当前牌组筛选，加入了干扰性的搜索建议；输入搜索词后按一次回车居然无法正常搜索，必须连按两次或手动点击“完成（Done）”；部分批量操作（如卡片模式下批量管理标签）失效。<br/><br/></li><li data-pid="60tp86Pl"><b>统计页面混乱与各种低级视觉 Bug</b>：统计图表从清晰的双列变成了大小不一的单列；展开子牌组时列表会莫名上下抖动；部分机型底部出现无法消失的白条等。</li></ol><p data-pid="-YHep1dS">许多资深程序员和设计师用户指出，此次更新呈现出典型的<b>“未经人工严格审查与测试的 AI 生成代码（Vibe Coding）”</b>特征——把一个原本高效、紧凑的专业瑞士军刀工具，改成了一个华而不实、浪费屏幕空间的半成品。</p><h2><span class="nolink">三、 为什么售价 168 元的官方应用，体验反而不如免费的 AnkiDroid？</span></h2><p data-pid="ld3uN4K4">过去一周，这次糟糕的更新让我深感失望。为了不耽误我自己的日常日语阅读与复习，我甚至在本周专门花了 1400 元购买了一台安卓墨水屏阅读器（iReader Ocean 6 Pro）来运行免费的 <b>AnkiDroid</b>。</p><p data-pid="0wz8PeNq">结果两者的对比令人无语：</p><ul><li data-pid="ska4_QoT"><b>开发活跃度与品控天差地别</b>：据 AnkiDroid 核心维护者 David 公布的数据，完全由社区志愿者驱动的 AnkiDroid 目前的开发吞吐量是官方桌面端团队的 <b>5~10 倍</b>。面对谷歌 Play 商店同样严苛的跨 10 个安卓版本的全局 UI 强制更新要求，AnkiDroid 交出了 <b>350 个五星好评 vs 2 个一星差评</b> 的答卷；而收费的 AnkiMobile 26.10 评分却跌至 <b>2.01 分</b>。<br/><br/></li><li data-pid="q-fGINT2"><b>开放接口（API）与生态联动</b>：在安卓端，AnkiDroid 提供了丰富的开放接口，阅读器（如 Hoshi Reader）、词典软件可以一键查重并直接写入带图片的卡片；而在 iOS 端，AnkiMobile 长期缺乏开放接口，用户只能靠极其繁琐的 URL Scheme 甚至把图片转成 <code>base64</code> 编码塞进字段里（这还会导致 <code>collection.anki2</code> 数据库体积迅速膨胀，撞上 AnkiWeb 300MB 的同步硬上限）。<br/><br/></li><li data-pid="tgTnRILk"><b>对墨水屏等设备的良心适配</b>：AnkiDroid 甚至专门内置了「E-ink 墨水屏主题」与安全显示模式，当我向维护者反馈了一个墨水屏下的按钮显示小问题后，不到一小时就得到了响应并建单跟踪。</li></ul><h2><span class="nolink">四、 房间里的大象：Anki 畸形的商业模式与“闭源困局”</span></h2><p data-pid="bQuZdR9M">今年早些时候，Anki 创始人 Damien Elmes 宣布退居幕后，将 Anki 的日常运营移交给了营利性公司 <b>AnkiHub</b>。此次 26.10 的翻车，彻底暴露了 Anki 长期以来商业模式的结构性矛盾：</p><ol><li data-pid="5TPQpeG0"><b>不公平的“单一平台交叉补贴（iOS 税）”</b>： Anki 的桌面端（Windows / Mac / Linux）、安卓端（AnkiDroid）以及所有平台共用的 <b>AnkiWeb 云同步服务器</b> 全部免费；但这一切的服务器与官方开发成本，几乎完全压在了购买 $25（168 元）iOS 应用的用户身上。据估算，过去 14 年间 AnkiMobile 已创造了超过 <b>3600 万美元</b> 的营收。<br/><br/></li><li data-pid="puvcxzO8"><b>闭源付费墙绑架了 iOS 用户体验</b>： 有人会问：<i>“为什么社区里的程序员不帮 iOS 版修 Bug，或者像安卓那样自己写一个免费开源的 iOS 版 Anki？”</i> 答案很残酷：<b>为了保护 $25 的摇钱树，AnkiMobile 是唯一闭源的客户端</b>，且官方严禁任何第三方开源 iOS 客户端接入 AnkiWeb 同步服务器。这意味着：<br/><br/></li><ol><li data-pid="oD8wZvK8">当桌面端或 AnkiDroid 出现问题时，全球开源贡献者（包括我自己）可以立刻看代码、提 PR 修复；<br/><br/></li><li data-pid="cZnTCvpk">当闭源的 AnkiMobile 端出 26.10 这样的劣质更新时，哪怕前苹果资深 SwiftUI 工程师在官方论坛花 5 分钟写出了旧版紧凑 UI 的切换代码，也无法提交给官方！<br/><br/></li></ol><li data-pid="o9zyWy14"><b>拒绝拿“开源慈善”当劣质商业产品的挡箭牌</b>： 每当 iOS 用户抱怨 AnkiMobile 质量差时，总有人以“别打差评，iOS 的收入是为了养活全平台免费同步”来道德绑架受害者。但既然收取了高昂的商业买断费用，就必须提供最起码的商业级品控（QA），而不是一边赚取数千万美元营收，一边端出连内部自己用一次都能发现 Bug 的半成品。</li></ol><p data-pid="1mUOSjIZ">我已在 Reddit 与官方论坛发帖，公开呼吁 Anki 与 AnkiHub 团队正视此次质量危机，改革单一依赖 iOS 付费墙的商业模式（例如像 Lichess、维基百科或 AnkiDroid 那样开放全平台透明捐赠/非营利基金会模式、提供可选的增值服务等），并真正尊重每一位付费用户的日常工作流。</p><h2><span class="nolink">五、 相关社区讨论链接（欢迎发声）</span></h2><p data-pid="OWvI_jmW">如果你也是受到此次 26.10 更新影响的 iOS 用户，欢迎前往以下社区帖子了解最新进展或理性发声：</p><ul><li data-pid="K_-LJetL"><b>Reddit 讨论帖 1（关于 iOS 交叉补贴模式与 26.10 质量危机，440+ 赞 / 250+ 评论）</b>：<br/><a class="wrap external" data-draft-type="text-link" href="https://www.reddit.com/r/Anki/comments/1xw5nw6/ios_users_have_sacrificed_too_much_for_the_anki/" rel="nofollow noreferrer noopener" target="_blank">iOS users have sacrificed too much for the Anki ecosystem. It's time to end the price discrimination.</a></li><li data-pid="asI2QFte"><b>Reddit 讨论帖 2（转向安卓墨水屏与 AnkiDroid 的真实体验对比，220+ 赞）</b>：<br/><a class="wrap external" data-draft-type="text-link" href="https://www.reddit.com/r/Anki/comments/1xwnh7t/i_spent_200_on_an_android_eink_reader_this_week/" rel="nofollow noreferrer noopener" target="_blank">I spent $200 on an Android e-ink reader this week just to escape AnkiMobile 26.10. AnkiDroid is so good that I feel guilty using it for free.</a></li><li data-pid="5-zY46nE"><b>Reddit 讨论帖 3（提议 AnkiHub 提高透明度，挽回社区信誉，80+ 赞）</b>：<br/><a class="wrap external" data-draft-type="text-link" href="https://www.reddit.com/r/Anki/comments/1xwyczq/a_message_to_my_fellow_anki_volunteers_and_ios/" rel="nofollow noreferrer noopener" target="_blank">A message to my fellow Anki volunteers and iOS users: Volunteers build the reputation, iOS users pay the bill, and we deserve transparency about where the money goes. : r/Anki</a></li><li data-pid="blMiev91"><b>Anki 官方论坛反馈主帖（Undo 26.10 update）</b>：<br/><a class="external" data-draft-type="text-link" href="https://forums.ankiweb.net/t/undo-26-10-update/74279" rel="nofollow noreferrer noopener" target="_blank"><span class="invisible">https://</span><span class="visible">forums.ankiweb.net/t/un</span><span class="invisible">do-26-10-update/74279</span><span class="ellipsis"></span></a></li></ul>
+
+<hr>
+<div class="column" style="margin: 1em 0; padding: 0.5em 1em; border: 2px solid #999; border-radius: 5px;" data-pagefind-ignore>
+<h2>专栏：学委叶哥的随笔</h2>
+<p></p>
+</div>
+<hr>
+<p data-pagefind-ignore><a href="./">← 返回目录</a></p>
+</article>
+<footer>
+<p style="color: #999; font-size: 0.85em; text-align: center; margin-top: 2em;">
+本页面由 <a href="https://github.com/L-M-Sherlock/ZhiHuArchive" target="_blank" rel="noopener noreferrer">ZhiHuArchive</a> 渲染，模板参考 <a href="https://github.com/frostming/fxzhihu" target="_blank" rel="noopener noreferrer">FxZhihu</a>。
+</p>
+</footer>
+<script src="https://giscus.app/client.js"
+data-repo="L-M-Sherlock/ZhiHuArchive"
+data-repo-id="MDEwOlJlcG9zaXRvcnkzNDk5NDE0MzM="
+data-category="Announcements"
+data-category-id="DIC_kwDOFNuuuc4Ck92x"
+data-mapping="title"
+data-strict="0"
+data-reactions-enabled="1"
+data-emit-metadata="0"
+data-input-position="top"
+data-theme="preferred_color_scheme"
+data-lang="zh-CN"
+data-loading="lazy"
+crossorigin="anonymous"
+async>
+</script>
+</body>
+</html>
