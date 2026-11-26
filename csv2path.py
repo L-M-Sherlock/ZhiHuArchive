@@ -1,10 +1,12 @@
 import json
+import re
 from pathlib import Path
 from typing import List, Optional
 
 import pandas as pd
 
 DOWNLOADS_DIR = Path("downloads")
+FAVORITE_COUNTS_FILE = Path("favorite_counts.json")
 ARTICLE_DOMAIN = "https://zhuanlan.zhihu.com"
 ANSWER_DOMAIN = "https://www.zhihu.com"
 
@@ -23,26 +25,39 @@ def infer_base_url(csv_path: Path, sample_link: Optional[str]) -> str:
     raise ValueError(f"Cannot determine base URL for {csv_path}")
 
 
-def load_paths_from_csv(csv_path: Path) -> List[str]:
-    df = pd.read_csv(csv_path)
+def load_paths_from_csv(
+    csv_path: Path, favorite_counts: Optional[dict] = None
+) -> List[str]:
+    df = pd.read_csv(csv_path, dtype={"收藏": "string"})
     sample_link = next(
         (link for link in df["链接"] if isinstance(link, str) and link.strip()), None
     )
     base_url = infer_base_url(csv_path, sample_link)
-    paths = (
-        df["链接"].dropna().astype(str).str.replace(base_url, "", regex=False).to_list()
-    )
+    links = df["链接"].dropna().astype(str).str.replace(base_url, "", regex=False)
+    paths = links.to_list()
+    if (
+        favorite_counts is not None
+        and "收藏" in df
+        and re.match(r"^\d{4}-\d{2}-\d{2}-", csv_path.name)
+    ):
+        export_date = csv_path.name[:10]
+        for path, count in zip(paths, df.loc[links.index, "收藏"]):
+            count = str(count).strip()
+            if count.isdecimal() and export_date >= favorite_counts.get(path, ("", 0))[0]:
+                favorite_counts[path] = (export_date, int(count))
     print(csv_path.name, len(paths))
     return paths
 
 
-def load_download_paths(download_dir: Path) -> List[str]:
+def load_download_paths(
+    download_dir: Path, favorite_counts: Optional[dict] = None
+) -> List[str]:
     if not download_dir.exists():
         print(f"{download_dir} does not exist, skipping download CSVs")
         return []
     all_paths: List[str] = []
     for csv_path in sorted(download_dir.glob("*.csv")):
-        all_paths.extend(load_paths_from_csv(csv_path))
+        all_paths.extend(load_paths_from_csv(csv_path, favorite_counts))
     return all_paths
 
 
@@ -94,7 +109,10 @@ def sort_key(path):
 
 
 def main() -> None:
-    paths = load_download_paths(DOWNLOADS_DIR)
+    favorite_counts = {}
+    if FAVORITE_COUNTS_FILE.exists():
+        favorite_counts = json.loads(FAVORITE_COUNTS_FILE.read_text(encoding="utf-8"))
+    paths = load_download_paths(DOWNLOADS_DIR, favorite_counts)
 
     old_answer_path, old_article_path = load_legacy_paths("index.csv")
     combined_paths = sorted(
@@ -104,6 +122,15 @@ def main() -> None:
     print(len(combined_paths))
     with open("paths.json", "w") as f:
         json.dump(combined_paths, f, indent=4)
+
+    if favorite_counts:
+        entries = [
+            f"  {json.dumps(path)}: {json.dumps(count)}"
+            for path, count in sorted(favorite_counts.items())
+        ]
+        FAVORITE_COUNTS_FILE.write_text(
+            "{\n" + ",\n".join(entries) + "\n}\n", encoding="utf-8"
+        )
 
 
 if __name__ == "__main__":

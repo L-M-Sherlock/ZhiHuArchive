@@ -15,12 +15,18 @@ with open("censorship.json", "r", encoding="utf-8") as f:
 with open("restorations.json", "r", encoding="utf-8") as f:
     restorations_data = json.load(f)
 
+with open("favorite_counts.json", "r", encoding="utf-8") as f:
+    favorite_counts = {path: count for path, (_, count) in json.load(f).items()}
+
 # Collect all articles
 articles = []
 for file in Path("article").glob("*.json"):
     with open(file, "r", encoding="utf-8") as f:
         data = json.load(f)
         data["file_stem"] = file.stem
+        data["favorite_count"] = favorite_counts.get(
+            f"/p/{file.stem}", data.get("favlists_count")
+        )
         articles.append(data)
 
 # Collect all answers
@@ -33,13 +39,23 @@ for file in Path("answer").glob("*.json"):
             if "error" in data:
                 print(data["error"], file.stem)
                 continue
+            data["favorite_count"] = favorite_counts.get(f"/answer/{file.stem}")
             answers.append(data)
         except json.JSONDecodeError:
             print(file.stem, "is not a valid json file")
 
-# Sort by voteup_count
+# Preserve vote order for search and use it to break favorite-count ties.
 articles.sort(key=lambda x: x["voteup_count"], reverse=True)
 answers.sort(key=lambda x: x["voteup_count"], reverse=True)
+
+
+def favorite_sort_key(item: dict) -> int:
+    count = item["favorite_count"]
+    return count if count is not None else -1
+
+
+def favorite_label(count: int | None) -> str:
+    return f"{count} 收藏" if count is not None else "收藏数未知"
 
 
 def html_to_text(value: str) -> str:
@@ -654,6 +670,7 @@ html_content = (
     </div>
     {search_script}
 
+    <p>列表按收藏量从高到低排列。</p>
     <div class="tabs">
         <button class="tab-button active" onclick="openTab(event, 'articles-tab')">文章 ({len(articles)})</button>
         <button class="tab-button" onclick="openTab(event, 'answers-tab')">回答 ({len(answers)})</button>
@@ -665,7 +682,7 @@ html_content = (
 )
 
 # Add articles
-for article in articles:
+for article in sorted(articles, key=favorite_sort_key, reverse=True):
     article_path = f"/p/{article['file_stem']}"
     is_censored = censorship_data.get(article_path, False)
     restoration = restorations_data.get(article_path)
@@ -682,7 +699,7 @@ for article in articles:
     html_content += f"""
         <div class="item">
             <a href="./{article['file_stem']}.html" class="{link_classes}" target="_blank" rel="noopener noreferrer">{article['title']}{censored_text}{restored_text}</a>
-            <span class="votes">({article['voteup_count']} 赞同)</span>
+            <span class="votes">({favorite_label(article['favorite_count'])} · {article['voteup_count']} 赞同)</span>
             <span class="created_time">({datetime.fromtimestamp(article['created']).strftime('%Y-%m-%d')})</span>
         </div>
 """
@@ -695,7 +712,7 @@ html_content += """
 """
 
 # Add answers
-for answer in answers:
+for answer in sorted(answers, key=favorite_sort_key, reverse=True):
     question_title = (
         answer["question"]["title"]
         if "question" in answer and "title" in answer["question"]
@@ -718,7 +735,7 @@ for answer in answers:
     html_content += f"""
         <div class="item">
             <a href="./{answer['file_stem']}.html" class="{link_classes}" target="_blank" rel="noopener noreferrer">{question_title}{censored_text}{restored_text}</a>
-            <span class="votes">({answer['voteup_count']} 赞同)</span>
+            <span class="votes">({favorite_label(answer['favorite_count'])} · {answer['voteup_count']} 赞同)</span>
             <span class="created_time">({datetime.fromtimestamp(answer['created_time']).strftime('%Y-%m-%d')})</span>
         </div>
 """
